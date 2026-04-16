@@ -133,6 +133,18 @@ interface EntryDao {
     @Query("SELECT * FROM calibration_entries WHERE entryType = :entryType ORDER BY RANDOM() LIMIT :limit")
     suspend fun getFallbackEntriesByType(entryType: String, limit: Int): List<CalibrationEntryEntity>
 
+    @Query(
+        """
+        SELECT e.* FROM calibration_entries e
+        LEFT JOIN review_progress p ON e.id = p.entryId
+        WHERE e.entryType = :entryType
+          AND p.entryId IS NULL
+        ORDER BY e.displayText ASC
+        LIMIT :limit
+        """,
+    )
+    suspend fun getNewEntriesByType(entryType: String, limit: Int): List<CalibrationEntryEntity>
+
     @Query("SELECT * FROM calibration_entries WHERE id = :id LIMIT 1")
     suspend fun getEntryById(id: String): CalibrationEntryEntity?
 
@@ -167,6 +179,16 @@ interface ProgressDao {
         """,
     )
     fun observeDueCountByType(entryType: String, today: Long): Flow<Int>
+
+    @Query(
+        """
+        SELECT COUNT(*) FROM calibration_entries e
+        LEFT JOIN review_progress p ON e.id = p.entryId
+        WHERE e.entryType = :entryType
+          AND p.entryId IS NULL
+        """,
+    )
+    fun observeNewCountByType(entryType: String): Flow<Int>
 
     @Query(
         """

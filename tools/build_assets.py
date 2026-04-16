@@ -6,8 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-WORDS_PATH = ROOT / "content" / "word_bank.json"
-EXPRESSIONS_PATH = ROOT / "content" / "expression_bank.json"
+CONTENT_DIR = ROOT / "content"
 OUTPUT_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
 
 
@@ -25,11 +24,11 @@ def load_entries(path: Path, entry_type: str) -> list[dict]:
                 else "先理解这条口语表达，再写出 Jyutping，最后跟着例句开口读。",
             ),
             "answerJyutping": row["answerJyutping"],
-            "gloss": row.get("gloss", ""),
-            "notes": row.get("notes", ""),
+            "gloss": "",
+            "notes": "",
             "usageTip": row.get("usageTip", ""),
             "exampleSentence": row.get("exampleSentence", ""),
-            "exampleTranslation": row.get("exampleTranslation", ""),
+            "exampleTranslation": "",
             "entryType": entry_type,
             "category": row.get("category", ""),
             "groupId": row.get("groupId", row["id"]),
@@ -41,8 +40,17 @@ def load_entries(path: Path, entry_type: str) -> list[dict]:
     return entries
 
 
+def load_all_entries() -> list[dict]:
+    entries: list[dict] = []
+    for path in sorted(CONTENT_DIR.glob("*_bank.json")):
+        name = path.stem.lower()
+        entry_type = "expression" if "expression" in name or "slang" in name else "word"
+        entries.extend(load_entries(path, entry_type))
+    return entries
+
+
 def main() -> None:
-    entries = load_entries(WORDS_PATH, "word") + load_entries(EXPRESSIONS_PATH, "expression")
+    entries = load_all_entries()
     bundle = {
         "version": datetime.now(timezone.utc).strftime("%Y.%m.%d.%H%M"),
         "generatedAt": datetime.now(timezone.utc).isoformat(),

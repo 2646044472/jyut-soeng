@@ -28,7 +28,7 @@ def main() -> None:
         raise SystemExit("Need at least 10 expression/slang entries.")
 
     for entry in entries:
-        for key in ("displayText", "promptText", "answerJyutping", "gloss", "notes", "category"):
+        for key in ("displayText", "promptText", "answerJyutping", "usageTip", "exampleSentence", "category"):
             if not str(entry.get(key, "")).strip():
                 raise SystemExit(f"Entry {entry.get('id')} missing required field: {key}")
         audio_asset = entry.get("audioAsset")

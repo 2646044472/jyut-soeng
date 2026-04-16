@@ -37,20 +37,23 @@ data class DashboardSummary(
     val dueEntries: Int = 0,
     val dueWordEntries: Int = 0,
     val dueExpressionEntries: Int = 0,
+    val newWordEntries: Int = 0,
+    val newExpressionEntries: Int = 0,
     val wordEntries: Int = 0,
     val expressionEntries: Int = 0,
     val startedEntries: Int = 0,
     val totalAttempts: Int = 0,
     val totalCorrect: Int = 0,
-    val dailyGoal: Int = 16,
+    val dailyLearnGoal: Int = 10,
+    val dailyReviewGoal: Int = 16,
 ) {
     val accuracyPercent: Int
         get() = if (totalAttempts == 0) 0 else ((totalCorrect * 100.0) / totalAttempts).toInt()
 }
 
-enum class PracticeMode {
-    Correction,
-    Expression,
+enum class SessionMode {
+    Learn,
+    Review,
 }
 
 enum class StudyQuestionType {
@@ -77,7 +80,7 @@ data class StudyQuestion(
 
 data class StudySession(
     val sessionId: String,
-    val mode: PracticeMode,
+    val mode: SessionMode,
     val title: String,
     val questions: List<StudyQuestion>,
 )
@@ -92,7 +95,8 @@ data class SubmissionOutcome(
 data class AppSettings(
     val autoplayAudio: Boolean = true,
     val remindersEnabled: Boolean = true,
-    val dailyGoal: Int = 16,
+    val dailyLearnGoal: Int = 10,
+    val dailyReviewGoal: Int = 16,
     val builtInSeedVersion: String = "",
 )
 

@@ -10,7 +10,7 @@ import dev.local.yuecal.domain.DashboardSummary
 import dev.local.yuecal.domain.EntryProgress
 import dev.local.yuecal.domain.ImportResult
 import dev.local.yuecal.domain.JudgingEngine
-import dev.local.yuecal.domain.PracticeMode
+import dev.local.yuecal.domain.SessionMode
 import dev.local.yuecal.domain.Sm2Scheduler
 import dev.local.yuecal.domain.StudyQuestion
 import dev.local.yuecal.domain.StudyQuestionType
@@ -49,28 +49,39 @@ class CalibratorRepository @Inject constructor(
 
     val settings: Flow<AppSettings> = settingsStore.settings
 
-    private val dashboardCounts = combine(
-        combine(
-            entryDao.observeEntryCount(),
-            entryDao.observeEntryCountByType("word"),
-            entryDao.observeEntryCountByType("expression"),
-            progressDao.observeDueCount(todayEpochDay()),
-        ) { totalEntries, wordEntries, expressionEntries, dueEntries ->
-            DashboardSummary(
-                totalEntries = totalEntries,
-                dueEntries = dueEntries,
-                wordEntries = wordEntries,
-                expressionEntries = expressionEntries,
-            )
-        },
+    private val entryCounts = combine(
+        entryDao.observeEntryCount(),
+        entryDao.observeEntryCountByType("word"),
+        entryDao.observeEntryCountByType("expression"),
+    ) { totalEntries, wordEntries, expressionEntries ->
+        Triple(totalEntries, wordEntries, expressionEntries)
+    }
+
+    private val reviewCounts = combine(
+        progressDao.observeDueCount(todayEpochDay()),
         progressDao.observeDueCountByType("word", todayEpochDay()),
         progressDao.observeDueCountByType("expression", todayEpochDay()),
+        progressDao.observeNewCountByType("word"),
+        progressDao.observeNewCountByType("expression"),
+    ) { dueEntries, dueWordEntries, dueExpressionEntries, newWordEntries, newExpressionEntries ->
+        listOf(dueEntries, dueWordEntries, dueExpressionEntries, newWordEntries, newExpressionEntries)
+    }
+
+    private val dashboardCounts = combine(
+        entryCounts,
+        reviewCounts,
         progressDao.observeStartedCount(),
         sessionDao.observeAttemptsCount(),
-    ) { base, dueWordEntries, dueExpressionEntries, startedEntries, attempts ->
-        base.copy(
-            dueWordEntries = dueWordEntries,
-            dueExpressionEntries = dueExpressionEntries,
+    ) { entries, review, startedEntries, attempts ->
+        DashboardSummary(
+            totalEntries = entries.first,
+            wordEntries = entries.second,
+            expressionEntries = entries.third,
+            dueEntries = review[0],
+            dueWordEntries = review[1],
+            dueExpressionEntries = review[2],
+            newWordEntries = review[3],
+            newExpressionEntries = review[4],
             startedEntries = startedEntries,
             totalAttempts = attempts,
         )
@@ -83,7 +94,8 @@ class CalibratorRepository @Inject constructor(
     ) { base, correct, settings ->
         base.copy(
             totalCorrect = correct ?: 0,
-            dailyGoal = settings.dailyGoal,
+            dailyLearnGoal = settings.dailyLearnGoal,
+            dailyReviewGoal = settings.dailyReviewGoal,
         )
     }
 
@@ -162,24 +174,37 @@ class CalibratorRepository @Inject constructor(
     }
 
     suspend fun buildSession(
-        mode: PracticeMode,
+        mode: SessionMode,
         limit: Int = 12,
     ): StudySession = withContext(ioDispatcher) {
-        val entryType = when (mode) {
-            PracticeMode.Correction -> "word"
-            PracticeMode.Expression -> "expression"
+        val settings = settingsStore.snapshot()
+        val wordLimit = when (mode) {
+            SessionMode.Learn -> settings.dailyLearnGoal.coerceAtLeast(4)
+            SessionMode.Review -> (settings.dailyReviewGoal * 0.7f).toInt().coerceAtLeast(4)
         }
-        val dueEntries = entryDao.getDueEntriesByType(entryType, todayEpochDay(), limit)
-        val chosenEntries = if (dueEntries.isNotEmpty()) {
-            dueEntries
-        } else {
-            entryDao.getFallbackEntriesByType(entryType, limit)
+        val expressionLimit = when (mode) {
+            SessionMode.Learn -> (settings.dailyLearnGoal * 0.35f).toInt().coerceAtLeast(2)
+            SessionMode.Review -> (settings.dailyReviewGoal * 0.3f).toInt().coerceAtLeast(2)
         }
-        val candidatePool = entryDao.getAllEntries().filter { it.entryType == entryType }
+        val wordEntries = when (mode) {
+            SessionMode.Learn -> entryDao.getNewEntriesByType("word", wordLimit)
+            SessionMode.Review -> entryDao.getDueEntriesByType("word", todayEpochDay(), wordLimit)
+        }
+        val expressionEntries = when (mode) {
+            SessionMode.Learn -> entryDao.getNewEntriesByType("expression", expressionLimit)
+            SessionMode.Review -> entryDao.getDueEntriesByType("expression", todayEpochDay(), expressionLimit)
+        }
+        val fallbackWords = if (wordEntries.isNotEmpty()) wordEntries else entryDao.getFallbackEntriesByType("word", wordLimit)
+        val fallbackExpressions = if (expressionEntries.isNotEmpty()) expressionEntries else entryDao.getFallbackEntriesByType("expression", expressionLimit)
+        val chosenEntries = (fallbackWords + fallbackExpressions).distinctBy { it.id }
+        val candidatePool = entryDao.getAllEntries()
         val questions = chosenEntries.map { entry ->
             val currentProgress = progressDao.getProgress(entry.id)?.toDomain()
             val options = if ((currentProgress?.repetitions ?: 0) >= 2) {
-                buildMultipleChoiceOptions(entry.answerJyutping, candidatePool)
+                buildMultipleChoiceOptions(
+                    correctAnswer = entry.answerJyutping,
+                    pool = candidatePool.filter { it.entryType == entry.entryType },
+                )
             } else {
                 emptyList()
             }
@@ -206,7 +231,7 @@ class CalibratorRepository @Inject constructor(
         StudySession(
             sessionId = UUID.randomUUID().toString(),
             mode = mode,
-            title = if (mode == PracticeMode.Correction) "词语正音" else "俚语与用法",
+            title = if (mode == SessionMode.Learn) "今日学习" else "今日复习",
             questions = questions,
         )
     }
@@ -376,6 +401,7 @@ class CalibratorRepository @Inject constructor(
         .lowercase()
         .replace("·", " ")
         .replace("-", " ")
+        .replace(Regex("[1-6]"), "")
         .replace(Regex("\\s+"), "")
 
     private fun buildMultipleChoiceOptions(

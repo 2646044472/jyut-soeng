@@ -11,10 +11,11 @@ import dev.local.yuecal.data.GitHubSources
 import dev.local.yuecal.domain.AppSettings
 import dev.local.yuecal.domain.CalibrationEntry
 import dev.local.yuecal.domain.DashboardSummary
-import dev.local.yuecal.domain.PracticeMode
+import dev.local.yuecal.domain.SessionMode
 import dev.local.yuecal.domain.StudyQuestion
 import dev.local.yuecal.domain.StudySession
 import dev.local.yuecal.domain.SubmissionOutcome
+import dev.local.yuecal.media.AppFeedbackPlayer
 import dev.local.yuecal.work.AppWorkScheduler
 import javax.inject.Inject
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -187,9 +188,15 @@ class ProfileViewModel @Inject constructor(
         }
     }
 
-    fun updateDailyGoal(goal: Int) {
+    fun updateDailyLearnGoal(goal: Int) {
         viewModelScope.launch {
-            settingsStore.setDailyGoal(goal)
+            settingsStore.setDailyLearnGoal(goal)
+        }
+    }
+
+    fun updateDailyReviewGoal(goal: Int) {
+        viewModelScope.launch {
+            settingsStore.setDailyReviewGoal(goal)
         }
     }
 
@@ -228,9 +235,9 @@ class SessionViewModel @Inject constructor(
     val uiState: StateFlow<SessionUiState> = mutableState
 
     private var questionStartMillis: Long = 0
-    private val mode: PracticeMode = when (savedStateHandle.get<String>("mode")) {
-        "expression" -> PracticeMode.Expression
-        else -> PracticeMode.Correction
+    private val mode: SessionMode = when (savedStateHandle.get<String>("mode")) {
+        "review" -> SessionMode.Review
+        else -> SessionMode.Learn
     }
 
     init {
@@ -289,6 +296,11 @@ class SessionViewModel @Inject constructor(
                     userAnswer = answer,
                 ),
             )
+            if (outcome.isCorrect) {
+                AppFeedbackPlayer.playCorrect()
+            } else {
+                AppFeedbackPlayer.playWrong()
+            }
         }
     }
 
