@@ -25,6 +25,7 @@ import java.net.URL
 import java.util.UUID
 import javax.inject.Inject
 import javax.inject.Singleton
+import kotlin.random.Random
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
@@ -196,7 +197,9 @@ class CalibratorRepository @Inject constructor(
         }
         val fallbackWords = if (wordEntries.isNotEmpty()) wordEntries else entryDao.getFallbackEntriesByType("word", wordLimit)
         val fallbackExpressions = if (expressionEntries.isNotEmpty()) expressionEntries else entryDao.getFallbackEntriesByType("expression", expressionLimit)
-        val chosenEntries = (fallbackWords + fallbackExpressions).distinctBy { it.id }
+        val chosenEntries = (fallbackWords + fallbackExpressions)
+            .distinctBy { it.id }
+            .shuffled(Random(System.nanoTime()))
         val candidatePool = entryDao.getAllEntries()
         val questions = chosenEntries.map { entry ->
             val currentProgress = progressDao.getProgress(entry.id)?.toDomain()

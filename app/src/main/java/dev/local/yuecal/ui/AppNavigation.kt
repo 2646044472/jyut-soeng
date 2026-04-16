@@ -36,6 +36,7 @@ import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Slider
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
@@ -565,10 +566,18 @@ private fun GoalCard(
                 Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                 Text(subtitle, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
-                OutlinedButton(onClick = { onChange((value - 1).coerceAtLeast(min)) }) { Text("-") }
+            Column(
+                modifier = Modifier.width(168.dp),
+                horizontalAlignment = Alignment.End,
+                verticalArrangement = Arrangement.spacedBy(6.dp),
+            ) {
                 Text("$value", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                OutlinedButton(onClick = { onChange((value + 1).coerceAtMost(max)) }) { Text("+") }
+                Slider(
+                    value = value.toFloat(),
+                    onValueChange = { onChange(it.toInt()) },
+                    valueRange = min.toFloat()..max.toFloat(),
+                    steps = (max - min - 1).coerceAtLeast(0),
+                )
             }
         }
     }

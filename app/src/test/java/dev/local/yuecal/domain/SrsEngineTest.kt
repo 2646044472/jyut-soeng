@@ -10,8 +10,8 @@ class SrsEngineTest {
     fun perfectAnswerStartsInterval() {
         val next = Sm2Scheduler.next(current = null, quality = 5, today = 100)
         assertEquals(1, next.repetitions)
-        assertEquals(1, next.intervalDays)
-        assertEquals(101, next.nextReviewEpochDay)
+        assertEquals(2, next.intervalDays)
+        assertEquals(102, next.nextReviewEpochDay)
         assertEquals(1, next.totalCorrect)
         assertEquals(1, next.totalAttempts)
     }

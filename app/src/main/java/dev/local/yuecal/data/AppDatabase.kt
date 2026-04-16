@@ -165,7 +165,7 @@ interface ProgressDao {
         """
         SELECT COUNT(*) FROM calibration_entries e
         LEFT JOIN review_progress p ON e.id = p.entryId
-        WHERE p.entryId IS NULL OR p.nextReviewEpochDay <= :today
+        WHERE p.entryId IS NOT NULL AND p.nextReviewEpochDay <= :today
         """,
     )
     fun observeDueCount(today: Long): Flow<Int>
@@ -175,7 +175,8 @@ interface ProgressDao {
         SELECT COUNT(*) FROM calibration_entries e
         LEFT JOIN review_progress p ON e.id = p.entryId
         WHERE e.entryType = :entryType
-          AND (p.entryId IS NULL OR p.nextReviewEpochDay <= :today)
+          AND p.entryId IS NOT NULL
+          AND p.nextReviewEpochDay <= :today
         """,
     )
     fun observeDueCountByType(entryType: String, today: Long): Flow<Int>
@@ -194,7 +195,7 @@ interface ProgressDao {
         """
         SELECT COUNT(*) FROM calibration_entries e
         LEFT JOIN review_progress p ON e.id = p.entryId
-        WHERE p.entryId IS NULL OR p.nextReviewEpochDay <= :today
+        WHERE p.entryId IS NOT NULL AND p.nextReviewEpochDay <= :today
         """,
     )
     suspend fun dueCountNow(today: Long): Int

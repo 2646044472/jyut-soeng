@@ -41,7 +41,7 @@ object Sm2Scheduler {
             return base.copy(
                 repetitions = 0,
                 intervalDays = 1,
-                easeFactor = max(1.3, base.easeFactor - 0.2),
+                easeFactor = max(1.35, base.easeFactor - 0.15),
                 nextReviewEpochDay = today + 1,
                 lastReviewedAt = nowMillis,
                 totalCorrect = base.totalCorrect,
@@ -51,14 +51,15 @@ object Sm2Scheduler {
         }
 
         val newEase = max(
-            1.3,
-            base.easeFactor + (0.1 - (5 - normalizedQuality) * (0.08 + (5 - normalizedQuality) * 0.02)),
+            1.35,
+            base.easeFactor + (0.12 - (5 - normalizedQuality) * (0.07 + (5 - normalizedQuality) * 0.02)),
         )
         val newRepetitions = base.repetitions + 1
         val newInterval = when (newRepetitions) {
-            1 -> 1
-            2 -> 3
-            else -> (base.intervalDays * newEase).toInt().coerceAtLeast(base.intervalDays + 1)
+            1 -> 2
+            2 -> 5
+            3 -> 10
+            else -> (base.intervalDays * newEase * 1.08).toInt().coerceAtLeast(base.intervalDays + 2)
         }
 
         return base.copy(
