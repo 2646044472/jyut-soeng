@@ -13,8 +13,8 @@ ASSET_ROOT = ROOT / "app" / "src" / "main" / "assets"
 def main() -> None:
     bundle = json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
     entries = bundle["entries"]
-    if len(entries) < 3000:
-        raise SystemExit(f"Expected at least 3000 entries, found {len(entries)}")
+    if len(entries) < 3200:
+        raise SystemExit(f"Expected at least 3200 entries, found {len(entries)}")
 
     ids = [entry["id"] for entry in entries]
     duplicates = [entry_id for entry_id, count in Counter(ids).items() if count > 1]
@@ -22,10 +22,10 @@ def main() -> None:
         raise SystemExit(f"Duplicate ids: {duplicates[:10]}")
 
     entry_types = Counter(entry.get("entryType", "word") for entry in entries)
-    if entry_types.get("word", 0) < 2800:
-        raise SystemExit("Need at least 2800 word correction entries.")
-    if entry_types.get("expression", 0) < 100:
-        raise SystemExit("Need at least 100 expression/slang entries.")
+    if entry_types.get("word", 0) < 2500:
+        raise SystemExit("Need at least 2500 word correction entries.")
+    if entry_types.get("expression", 0) < 500:
+        raise SystemExit("Need at least 500 expression/slang entries.")
 
     for entry in entries:
         for key in ("displayText", "promptText", "answerJyutping", "usageTip", "exampleSentence", "category"):

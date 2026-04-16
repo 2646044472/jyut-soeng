@@ -190,9 +190,9 @@ private fun TodayScreen(
         item {
             SessionLaneCard(
                 eyebrow = "今日学习",
-                title = "先学新词，再学新表达",
-                description = "今天的新内容会以输入题为主，让你先开口、再用 Jyutping 校正。",
-                stats = "新词 ${summary.newWordEntries} · 新表达 ${summary.newExpressionEntries} · 手动目标 ${summary.dailyLearnGoal}",
+                title = "今日学完，明日接着复习",
+                description = "新内容以输入题为主，今天学进去的条目，会在明日自动转进复习。",
+                stats = "新词 ${summary.newWordEntries} · 新表达 ${summary.newExpressionEntries} · 明日回看 ${summary.incomingReviewEntries}",
                 cta = "开始今日学习",
                 onClick = onStartLearn,
             )
@@ -200,8 +200,8 @@ private fun TodayScreen(
         item {
             SessionLaneCard(
                 eyebrow = "今日复习",
-                title = "把已学内容刷到嘴边",
-                description = "复习会混合输入题和多选题，熟词快刷，难点回到输入校正。",
+                title = "先刷到期，再补短间隔巩固",
+                description = "复习优先给你今天该回看的内容，不够时再补短间隔条目，学习和复习不再脱节。",
                 stats = "待复习词 ${summary.dueWordEntries} · 表达 ${summary.dueExpressionEntries} · 手动目标 ${summary.dailyReviewGoal}",
                 cta = "开始今日复习",
                 onClick = onStartReview,
@@ -485,8 +485,8 @@ private fun TodayHeroCard(summary: DashboardSummary) {
             )
             Row(horizontalArrangement = Arrangement.spacedBy(14.dp)) {
                 MiniStat("今日待复习", "${summary.dueEntries}")
-                MiniStat("新词", "${summary.newWordEntries}")
-                MiniStat("新表达", "${summary.newExpressionEntries}")
+                MiniStat("今日新学", "${summary.newWordEntries + summary.newExpressionEntries}")
+                MiniStat("明日回看", "${summary.incomingReviewEntries}")
             }
         }
     }
@@ -530,7 +530,7 @@ private fun OverviewCard(summary: DashboardSummary) {
         ) {
             Text("整体进度", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
             Text(
-                "总题库 ${summary.totalEntries} · 词语 ${summary.wordEntries} · 表达 ${summary.expressionEntries} · 已进入排程 ${summary.startedEntries}",
+                "总题库 ${summary.totalEntries} · 词语 ${summary.wordEntries} · 表达 ${summary.expressionEntries} · 已进入排程 ${summary.startedEntries} · 明日回看 ${summary.incomingReviewEntries}",
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -644,11 +644,10 @@ private fun ExpressionContextCard(question: StudyQuestion) {
                 .padding(18.dp),
             verticalArrangement = Arrangement.spacedBy(10.dp),
         ) {
-            if (question.usageTip.isNotBlank()) {
-                Text(question.usageTip, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium)
-            }
             if (question.exampleSentence.isNotBlank()) {
                 ExampleBlock(question.exampleSentence)
+            } else {
+                Text("先按场景感受这条表达，再写出 Jyutping。", style = MaterialTheme.typography.bodyMedium)
             }
         }
     }
@@ -748,9 +747,6 @@ private fun FeedbackCard(
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
-            if (question.usageTip.isNotBlank()) {
-                Text(question.usageTip, style = MaterialTheme.typography.bodyMedium)
-            }
             if (question.exampleSentence.isNotBlank()) {
                 ExampleBlock(question.exampleSentence)
             }
@@ -811,11 +807,8 @@ private fun EntryCard(
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.Top,
             ) {
-                Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                Column(modifier = Modifier.weight(1f)) {
                     Text(entry.displayText, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                    if (entry.usageTip.isNotBlank()) {
-                        Text(entry.usageTip, style = MaterialTheme.typography.bodyMedium)
-                    }
                 }
                 if (entry.audioAsset != null) {
                     IconButton(onClick = { onPlayAudio(entry.audioAsset) }) {

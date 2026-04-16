@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "canto-calibrator"
+rootProject.name = "jyut-soeng"
 include(":app")

@@ -11,14 +11,19 @@ ROOT = Path(__file__).resolve().parent.parent
 WORDS_OUTPUT_PATH = ROOT / "content" / "generated_words_bank.json"
 EXPRESSIONS_OUTPUT_PATH = ROOT / "content" / "generated_expressions_bank.json"
 WORDS_HK_WORDLIST_URL = "https://words.hk/faiman/analysis/wordslist.json"
-TARGET_WORD_COUNT = 2900
-TARGET_EXPRESSION_COUNT = 160
+TARGET_WORD_COUNT = 2550
+TARGET_EXPRESSION_COUNT = 560
 
-ZH_RE = re.compile(r"[\u4e00-\u9fff]{2,4}")
+ZH_RE = re.compile(r"[\u4e00-\u9fff]{2,5}")
 PRON_RE = re.compile(r"[a-z1-6 ]+")
 
 WORD_PRIORITY_CHARS = set("學工講話語口讀音正校準達情意識進資料效率溝通表達進度節奏情緒處理判斷邏輯方法關係感受時間工作學習安排版本結果方向功能練習聲母韻母語氣自然熟練問題做法資料通知處境人心表現選擇方式狀態感覺計畫經驗反應改善理解分析決定完成確認目標")
-EXPRESSION_PRIORITY_CHARS = set("講話情理意會心口氣手腳場面節奏感覺狀態關係處境意味")
+COLLOQUIAL_CORE_MARKERS = set("唔冇咁啲嘢咗嚟喺嗰咩乜喎啫咋呀哋畀俾佢")
+COLLOQUIAL_ACTION_MARKERS = set("搞諗傾睇執扮頂窒頹爆癮篤扯駁搲磨拗扭撐收")
+COLLOQUIAL_CONTEXT_MARKERS = set("氣手腳口面眼心聲條句頭尾勢款場")
+EMOTION_MARKERS = set("驚嬲煩尷頹怯火氣悶爽癲")
+BOOKISH_CHARS = set("詩書禮義寰礡饈璧樞籌纓寂羈晦疆")
+
 EXCLUDED_WORDS = {
     "今日",
     "而家",
@@ -54,11 +59,69 @@ EXCLUDED_WORDS = {
     "上堂",
 }
 
-BLACKLIST_WORD_FRAGMENTS = ("翳", "黐", "躝", "𨋢")
+EXCLUDED_EXPRESSIONS = {
+    "係呀",
+    "係呢",
+    "係啦",
+    "係咩",
+    "係咪",
+    "係唔係",
+    "但係",
+    "你呢",
+    "你哋",
+    "佢哋",
+    "人哋",
+    "一啲",
+    "乜嘢",
+    "做咩",
+    "做嘢",
+    "冇嘢",
+    "冇事",
+    "冇乜",
+    "冇問題",
+    "冇所謂",
+    "有冇計",
+}
+
+BLACKLIST_WORD_FRAGMENTS = ("翳", "黐", "躝", "𨋢", "厴", "挐", "掕")
+PROFANITY_FRAGMENTS = ("老母", "仆街", "扑街", "屎", "閪", "鳩", "撚", "雞蟲", "風月", "妓", "賤", "鹹濕", "咸濕", "去死", "波大")
+BOOKISH_FRAGMENTS = ("珍饈", "垂手", "高手如雲", "防毒", "心術", "立心", "社會現象", "正面回應", "善意提醒", "外科口罩", "人口販賣", "氣勢磅礡")
+WEAK_EXPRESSION_FRAGMENTS = (
+    "釐",
+    "咑",
+    "痾",
+    "矺",
+    "祇",
+    "擳",
+    "龜逗",
+    "碇",
+    "卓",
+    "挐掕",
+    "補鑊",
+    "順超",
+    "垃集",
+    "埗到",
+    "依郁",
+    "氣候",
+    "氣體",
+    "節氣",
+    "氣旋",
+    "干雲",
+    "方剛",
+    "平氣和",
+    "死氣沉沉",
+    "豪氣",
+    "浩氣",
+    "臭氣熏天",
+    "傾國傾城",
+    "稟神",
+    "監粗",
+)
 
 
 def load_existing_display_texts() -> set[str]:
     existing = set(EXCLUDED_WORDS)
+    existing.update(EXCLUDED_EXPRESSIONS)
     for path in ROOT.glob("content/*_bank.json"):
         if path.name in {WORDS_OUTPUT_PATH.name, EXPRESSIONS_OUTPUT_PATH.name}:
             continue
@@ -89,6 +152,10 @@ def normalize_pronunciation(values: object) -> str:
     return ""
 
 
+def count_hits(word: str, charset: set[str]) -> int:
+    return sum(1 for ch in word if ch in charset)
+
+
 def classify_word_category(word: str) -> str:
     if any(token in word for token in ("學", "課", "老師", "學生")):
         return "学习场景"
@@ -106,41 +173,54 @@ def classify_word_category(word: str) -> str:
 
 
 def classify_expression_category(word: str) -> str:
-    if any(token in word for token in ("唔", "咩", "喇", "啦", "啫", "咗", "吓")):
-        return "俚语表达"
-    if any(token in word for token in ("講", "話", "答", "聽")):
-        return "口语场景"
-    if any(token in word for token in ("心", "情", "緊張", "驚", "怒")):
+    if any(token in word for token in ("嬲", "驚", "煩", "頹", "怯", "火", "尷", "窒住條氣", "頂唔順")):
         return "情绪表达"
+    if any(token in word for token in ("講", "話", "問", "答", "駁", "傾", "聲")):
+        return "口语场景"
+    if any(token in word for token in ("搞掂", "手尾", "收科", "埋單", "交代")):
+        return "工作场景"
+    if count_hits(word, COLLOQUIAL_CORE_MARKERS) > 0:
+        return "俚语表达"
     return "日常表达"
 
 
 def build_usage_tip(word: str, category: str, kind: str) -> str:
     if kind == "expression":
-        return f"这是偏口语或进阶说法，重点是整串自然读顺：{word}。"
+        return {
+            "俚语表达": "偏口语，整串读顺。",
+            "口语场景": "口语高频，开口要自然。",
+            "情绪表达": "带状态感，语气要贴。",
+            "工作场景": "场景偏实战，语流要稳。",
+        }.get(category, "常见表达，连读要顺。")
     if category == "工作场景":
-        return f"这个词在工作沟通里很常见，适合用来练更自然的语流：{word}。"
+        return "工作沟通常见，语流要稳。"
     if category == "学习场景":
-        return f"这个词很适合放进学习语境里练熟，重点是把整串读顺：{word}。"
+        return "学习场景高频，读法要准。"
     if category == "情绪表达":
-        return f"这是表达状态和感觉时很实用的说法，适合练情绪语气：{word}。"
+        return "表达状态时，语气要贴。"
     if category == "口语场景":
-        return f"这是偏口语的说法，练的重点是自然开口，不要太书面：{word}。"
-    return f"这是中高级常用词，适合拿来练稳定开口和完整 Jyutping：{word}。"
+        return "偏口语，开口要自然。"
+    return "高频实用词，先读顺。"
 
 
 def build_examples(word: str, category: str, kind: str) -> str:
     if kind == "expression":
-        return f"最近我成日会听到人讲「{word}」。\n下次开口时，你可以试住自然咁带出「{word}」。"
+        if category == "情绪表达":
+            return f"一讲到嗰件事，我就想讲「{word}」。\n想表达当下状态时，可以直接讲「{word}」。"
+        if category == "口语场景":
+            return f"平时同朋友倾计，好容易会听到「{word}」。\n想讲得再贴地啲，可以顺手带出「{word}」。"
+        if category == "工作场景":
+            return f"讲到进度同手尾时，可以自然咁讲「{word}」。\n想表达得简洁啲，「{word}」会几顺口。"
+        return f"熟人闲聊时，成日都会听到「{word}」。\n你下次开口时，可以直接试住讲「{word}」。"
     if category == "工作场景":
-        return f"呢个词喺工作场景好常用：{word}。\n你可以试住用「{word}」去讲一次。"
+        return f"开会讲到重点时，可以用「{word}」。\n讲工作进度时，试下自然带出「{word}」。"
     if category == "学习场景":
-        return f"我想先练熟「{word}」呢个词。\n你可以试住用「{word}」做今日学习例句。"
+        return f"今日先练熟「{word}」呢个词。\n讲学习安排时，可以试住用「{word}」。"
     if category == "情绪表达":
-        return f"我而家个感觉就似「{word}」。\n讲到情绪时，用「{word}」会好自然。"
+        return f"我而家个状态有啲似「{word}」。\n想讲感觉时，可以直接用「{word}」。"
     if category == "口语场景":
-        return f"日常对话里，呢个词可以直接讲成「{word}」。\n你开口时试下自然咁带出「{word}」。"
-    return f"呢个词本身就值得练顺口：「{word}」。\n下次讲到相关情况，你可以直接试住用「{word}」。"
+        return f"平时开口讲嘢时，呢个词会几常见：{word}。\n你可以试住用「{word}」讲一次。"
+    return f"呢个词本身就值得练顺口：「{word}」。\n下次讲到相关情况时，可以直接用「{word}」。"
 
 
 def build_rows(pairs: list[tuple[str, str]], kind: str, start_index: int = 1) -> list[dict]:
@@ -167,8 +247,8 @@ def has_priority_chars(word: str, charset: set[str]) -> bool:
     return any(ch in charset for ch in word)
 
 
-def score_word(word: str, charset: set[str]) -> tuple[int, int, int]:
-    hits = sum(1 for ch in word if ch in charset)
+def score_word(word: str) -> tuple[int, int, int]:
+    hits = count_hits(word, WORD_PRIORITY_CHARS)
     distinct = len(set(word))
     return (-hits, -distinct, len(word))
 
@@ -177,6 +257,54 @@ def should_keep_word_candidate(word: str) -> bool:
     if any(fragment in word for fragment in BLACKLIST_WORD_FRAGMENTS):
         return False
     if len(word) >= 3 and word[0] == word[1]:
+        return False
+    return True
+
+
+def expression_colloquial_score(word: str) -> int:
+    return (
+        count_hits(word, COLLOQUIAL_CORE_MARKERS) * 6
+        + count_hits(word, COLLOQUIAL_ACTION_MARKERS) * 4
+        + count_hits(word, EMOTION_MARKERS) * 3
+        + count_hits(word, COLLOQUIAL_CONTEXT_MARKERS)
+        + (2 if 3 <= len(word) <= 4 else 1)
+        + (len(word) - len(set(word)))
+    )
+
+
+def score_expression(word: str) -> tuple[int, int, str]:
+    penalty = count_hits(word, BOOKISH_CHARS) * 4
+    if word.startswith(("一", "你", "佢", "我", "依", "呢")):
+        penalty += 2
+    return (-(expression_colloquial_score(word) - penalty), len(word), word)
+
+
+def should_keep_expression_candidate(word: str) -> bool:
+    if len(word) < 3 or len(word) > 5:
+        return False
+    if word in EXCLUDED_EXPRESSIONS:
+        return False
+    if any(fragment in word for fragment in PROFANITY_FRAGMENTS):
+        return False
+    if any(fragment in word for fragment in BOOKISH_FRAGMENTS):
+        return False
+    if any(fragment in word for fragment in WEAK_EXPRESSION_FRAGMENTS):
+        return False
+    if word.startswith(("冇有", "一唔", "之唔")):
+        return False
+    if word.endswith(("唔", "都", "處")):
+        return False
+    strong_hits = count_hits(word, COLLOQUIAL_CORE_MARKERS)
+    action_hits = count_hits(word, COLLOQUIAL_ACTION_MARKERS)
+    emotion_hits = count_hits(word, EMOTION_MARKERS)
+    context_hits = count_hits(word, COLLOQUIAL_CONTEXT_MARKERS)
+    if strong_hits == 0 and action_hits < 2:
+        return False
+    if strong_hits == 0 and count_hits(word, BOOKISH_CHARS) > 0:
+        return False
+    if strong_hits == 0 and action_hits == 0 and context_hits == 0:
+        return False
+    if word.endswith(("場所", "現象", "功能", "口罩")):
         return False
     return True
 
@@ -198,26 +326,27 @@ def main() -> None:
         pronunciation = normalize_pronunciation(values)
         if not pronunciation:
             continue
-        if len(normalized_word) == 4 and has_priority_chars(normalized_word, EXPRESSION_PRIORITY_CHARS):
+
+        if should_keep_expression_candidate(normalized_word):
             expression_candidates.append((normalized_word, pronunciation))
-        elif (
+            continue
+
+        if (
             len(normalized_word) >= 3
             and has_priority_chars(normalized_word, WORD_PRIORITY_CHARS)
             and should_keep_word_candidate(normalized_word)
         ):
             word_candidates.append((normalized_word, pronunciation))
 
-    word_candidates = sorted(word_candidates, key=lambda item: score_word(item[0], WORD_PRIORITY_CHARS))
-    word_candidates = word_candidates[: max(TARGET_WORD_COUNT * 2, TARGET_WORD_COUNT)]
+    word_candidates = sorted(word_candidates, key=lambda item: score_word(item[0]))
+    word_candidates = word_candidates[: max(TARGET_WORD_COUNT * 3, TARGET_WORD_COUNT)]
     random.Random(2646044472).shuffle(word_candidates)
-    random.Random(2646044473).shuffle(expression_candidates)
-
     selected_words = word_candidates[:TARGET_WORD_COUNT]
-    expression_set = {word for word, _ in selected_words}
-    selected_expressions = [
-        item for item in expression_candidates
-        if item[0] not in expression_set
-    ][:TARGET_EXPRESSION_COUNT]
+
+    expression_candidates = sorted(expression_candidates, key=lambda item: score_expression(item[0]))
+    expression_candidates = expression_candidates[: max(TARGET_EXPRESSION_COUNT * 4, TARGET_EXPRESSION_COUNT)]
+    random.Random(2646044473).shuffle(expression_candidates)
+    selected_expressions = expression_candidates[:TARGET_EXPRESSION_COUNT]
 
     WORDS_OUTPUT_PATH.write_text(
         json.dumps(build_rows(selected_words, "word"), ensure_ascii=False, indent=2) + "\n",

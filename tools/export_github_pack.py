@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE_BUNDLE = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
 SOURCE_AUDIO = ROOT / "app" / "src" / "main" / "assets" / "audio" / "generated"
-TARGET_ROOT = ROOT / "dist" / "github" / "canto-calibrator"
+TARGET_ROOT = ROOT / "dist" / "github" / "jyut-soeng"
 
 
 def main() -> None:

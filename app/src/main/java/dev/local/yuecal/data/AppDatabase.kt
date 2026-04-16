@@ -127,6 +127,45 @@ interface EntryDao {
     )
     suspend fun getDueEntriesByType(entryType: String, today: Long, limit: Int): List<CalibrationEntryEntity>
 
+    @Query(
+        """
+        SELECT e.* FROM calibration_entries e
+        JOIN review_progress p ON e.id = p.entryId
+        WHERE e.entryType = :entryType
+          AND p.repetitions > 0
+          AND p.nextReviewEpochDay <= :lookaheadDay
+        ORDER BY
+          CASE WHEN p.nextReviewEpochDay <= :today THEN 0 ELSE 1 END ASC,
+          p.nextReviewEpochDay ASC,
+          p.repetitions ASC,
+          COALESCE(p.lastReviewedAt, 0) ASC,
+          e.displayText ASC
+        LIMIT :limit
+        """,
+    )
+    suspend fun getScheduledEntriesByType(
+        entryType: String,
+        today: Long,
+        lookaheadDay: Long,
+        limit: Int,
+    ): List<CalibrationEntryEntity>
+
+    @Query(
+        """
+        SELECT e.* FROM calibration_entries e
+        JOIN review_progress p ON e.id = p.entryId
+        WHERE e.entryType = :entryType
+          AND p.repetitions > 0
+        ORDER BY
+          p.nextReviewEpochDay ASC,
+          p.repetitions ASC,
+          COALESCE(p.lastReviewedAt, 0) ASC,
+          e.displayText ASC
+        LIMIT :limit
+        """,
+    )
+    suspend fun getStartedEntriesByType(entryType: String, limit: Int): List<CalibrationEntryEntity>
+
     @Query("SELECT * FROM calibration_entries ORDER BY RANDOM() LIMIT :limit")
     suspend fun getFallbackEntries(limit: Int): List<CalibrationEntryEntity>
 
@@ -190,6 +229,15 @@ interface ProgressDao {
         """,
     )
     fun observeNewCountByType(entryType: String): Flow<Int>
+
+    @Query(
+        """
+        SELECT COUNT(*) FROM review_progress
+        WHERE repetitions > 0
+          AND nextReviewEpochDay = :day
+        """,
+    )
+    fun observeIncomingCount(day: Long): Flow<Int>
 
     @Query(
         """

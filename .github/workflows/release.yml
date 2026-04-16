@@ -45,7 +45,7 @@ jobs:
         run: |
           mkdir -p release-artifacts
           cp app/build/outputs/apk/debug/app-debug.apk "release-artifacts/yuet-soeng-${GITHUB_REF_NAME}.apk"
-          zip -rq "release-artifacts/yuet-soeng-content-${GITHUB_REF_NAME}.zip" canto-calibrator
+          zip -rq "release-artifacts/yuet-soeng-content-${GITHUB_REF_NAME}.zip" jyut-soeng
 
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2

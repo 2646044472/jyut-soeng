@@ -44,7 +44,7 @@ def load_all_entries() -> list[dict]:
     entries: list[dict] = []
     for path in sorted(CONTENT_DIR.glob("*_bank.json")):
         name = path.stem.lower()
-        entry_type = "expression" if "expression" in name or "slang" in name else "word"
+        entry_type = "expression" if any(token in name for token in ("expression", "slang", "conversation")) else "word"
         entries.extend(load_entries(path, entry_type))
     return entries
 

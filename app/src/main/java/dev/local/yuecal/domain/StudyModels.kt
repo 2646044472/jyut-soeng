@@ -37,6 +37,7 @@ data class DashboardSummary(
     val dueEntries: Int = 0,
     val dueWordEntries: Int = 0,
     val dueExpressionEntries: Int = 0,
+    val incomingReviewEntries: Int = 0,
     val newWordEntries: Int = 0,
     val newExpressionEntries: Int = 0,
     val wordEntries: Int = 0,

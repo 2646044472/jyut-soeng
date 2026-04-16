@@ -69,7 +69,7 @@ python3 tools/export_github_pack.py
 
 导出的 GitHub 内容包目录：
 
-- `dist/github/canto-calibrator/content.json`
+- `dist/github/jyut-soeng/content.json`
 
 App 里的 GitHub 更新逻辑默认读取 GitHub 仓库中的这一套导出结果。
 
