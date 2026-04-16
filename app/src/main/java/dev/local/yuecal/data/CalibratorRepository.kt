@@ -10,8 +10,10 @@ import dev.local.yuecal.domain.DashboardSummary
 import dev.local.yuecal.domain.EntryProgress
 import dev.local.yuecal.domain.ImportResult
 import dev.local.yuecal.domain.JudgingEngine
+import dev.local.yuecal.domain.PracticeMode
 import dev.local.yuecal.domain.Sm2Scheduler
 import dev.local.yuecal.domain.StudyQuestion
+import dev.local.yuecal.domain.StudyQuestionType
 import dev.local.yuecal.domain.StudySession
 import dev.local.yuecal.domain.SubmissionOutcome
 import dev.local.yuecal.domain.todayEpochDay
@@ -23,7 +25,6 @@ import java.net.URL
 import java.util.UUID
 import javax.inject.Inject
 import javax.inject.Singleton
-import kotlin.random.Random
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
@@ -49,14 +50,27 @@ class CalibratorRepository @Inject constructor(
     val settings: Flow<AppSettings> = settingsStore.settings
 
     private val dashboardCounts = combine(
-        entryDao.observeEntryCount(),
-        progressDao.observeDueCount(todayEpochDay()),
+        combine(
+            entryDao.observeEntryCount(),
+            entryDao.observeEntryCountByType("word"),
+            entryDao.observeEntryCountByType("expression"),
+            progressDao.observeDueCount(todayEpochDay()),
+        ) { totalEntries, wordEntries, expressionEntries, dueEntries ->
+            DashboardSummary(
+                totalEntries = totalEntries,
+                dueEntries = dueEntries,
+                wordEntries = wordEntries,
+                expressionEntries = expressionEntries,
+            )
+        },
+        progressDao.observeDueCountByType("word", todayEpochDay()),
+        progressDao.observeDueCountByType("expression", todayEpochDay()),
         progressDao.observeStartedCount(),
         sessionDao.observeAttemptsCount(),
-    ) { totalEntries, dueEntries, startedEntries, attempts ->
-        DashboardSummary(
-            totalEntries = totalEntries,
-            dueEntries = dueEntries,
+    ) { base, dueWordEntries, dueExpressionEntries, startedEntries, attempts ->
+        base.copy(
+            dueWordEntries = dueWordEntries,
+            dueExpressionEntries = dueExpressionEntries,
             startedEntries = startedEntries,
             totalAttempts = attempts,
         )
@@ -147,35 +161,52 @@ class CalibratorRepository @Inject constructor(
         ImportResult(sourceLabel = "github", version = bundle.version, importedCount = entities.size)
     }
 
-    suspend fun buildSession(limit: Int = 12): StudySession = withContext(ioDispatcher) {
-        val dueEntries = entryDao.getDueEntries(todayEpochDay(), limit)
-        val chosenEntries = if (dueEntries.isNotEmpty()) dueEntries else entryDao.getFallbackEntries(limit)
+    suspend fun buildSession(
+        mode: PracticeMode,
+        limit: Int = 12,
+    ): StudySession = withContext(ioDispatcher) {
+        val entryType = when (mode) {
+            PracticeMode.Correction -> "word"
+            PracticeMode.Expression -> "expression"
+        }
+        val dueEntries = entryDao.getDueEntriesByType(entryType, todayEpochDay(), limit)
+        val chosenEntries = if (dueEntries.isNotEmpty()) {
+            dueEntries
+        } else {
+            entryDao.getFallbackEntriesByType(entryType, limit)
+        }
+        val candidatePool = entryDao.getAllEntries().filter { it.entryType == entryType }
         val questions = chosenEntries.map { entry ->
-            val groupEntries = entryDao.getByGroup(entry.groupId)
-            val distractors = groupEntries
-                .filterNot { it.id == entry.id }
-                .map { it.answerJyutping }
-                .distinct()
-                .shuffled()
-                .take(3)
-
-            val options = (distractors + entry.answerJyutping)
-                .distinct()
-                .shuffled(Random(System.nanoTime()))
-
+            val currentProgress = progressDao.getProgress(entry.id)?.toDomain()
+            val options = if ((currentProgress?.repetitions ?: 0) >= 2) {
+                buildMultipleChoiceOptions(entry.answerJyutping, candidatePool)
+            } else {
+                emptyList()
+            }
             StudyQuestion(
                 entryId = entry.id,
+                type = when {
+                    entry.entryType == "expression" -> StudyQuestionType.ExpressionCard
+                    options.isNotEmpty() -> StudyQuestionType.MultipleChoice
+                    else -> StudyQuestionType.FillJyutping
+                },
                 displayText = entry.displayText,
                 promptText = entry.promptText,
                 answerJyutping = entry.answerJyutping,
+                gloss = entry.gloss,
                 options = options,
                 audioAsset = entry.audioAsset,
                 category = entry.category,
                 notes = entry.notes,
+                usageTip = entry.usageTip,
+                exampleSentence = entry.exampleSentence,
+                exampleTranslation = entry.exampleTranslation,
             )
         }
         StudySession(
             sessionId = UUID.randomUUID().toString(),
+            mode = mode,
+            title = if (mode == PracticeMode.Correction) "词语正音" else "俚语与用法",
             questions = questions,
         )
     }
@@ -186,8 +217,8 @@ class CalibratorRepository @Inject constructor(
         selectedAnswer: String,
         responseMillis: Long,
     ): SubmissionOutcome = withContext(ioDispatcher) {
-        val isCorrect = selectedAnswer == question.answerJyutping
-        val quality = JudgingEngine.score(isCorrect, responseMillis)
+        val isCorrect = normalizeJyutpingAnswer(selectedAnswer) == normalizeJyutpingAnswer(question.answerJyutping)
+        val quality = JudgingEngine.score(isCorrect, responseMillis, question.type)
         val currentProgress = progressDao.getProgress(question.entryId)?.toDomain()
         val nextProgress = Sm2Scheduler.next(currentProgress, quality)
         progressDao.upsertProgress(
@@ -260,6 +291,10 @@ class CalibratorRepository @Inject constructor(
         answerJyutping = answerJyutping,
         gloss = gloss,
         notes = notes,
+        usageTip = usageTip,
+        exampleSentence = exampleSentence,
+        exampleTranslation = exampleTranslation,
+        entryType = entryType.ifBlank { "word" },
         category = category,
         groupId = groupId.ifBlank { answerJyutping.dropLast(1) },
         tone = if (tone == 0) answerJyutping.lastOrNull()?.digitToIntOrNull() ?: 0 else tone,
@@ -278,6 +313,10 @@ class CalibratorRepository @Inject constructor(
             answerJyutping = entry.answerJyutping,
             gloss = entry.gloss,
             notes = entry.notes,
+            usageTip = entry.usageTip,
+            exampleSentence = entry.exampleSentence,
+            exampleTranslation = entry.exampleTranslation,
+            entryType = entry.entryType,
             category = entry.category,
             groupId = entry.groupId,
             tone = entry.tone,
@@ -331,4 +370,26 @@ class CalibratorRepository @Inject constructor(
         context.assets.open(path).use { }
         true
     }.getOrDefault(false)
+
+    private fun normalizeJyutpingAnswer(value: String): String = value
+        .trim()
+        .lowercase()
+        .replace("·", " ")
+        .replace("-", " ")
+        .replace(Regex("\\s+"), "")
+
+    private fun buildMultipleChoiceOptions(
+        correctAnswer: String,
+        pool: List<CalibrationEntryEntity>,
+    ): List<String> {
+        val distractors = pool
+            .asSequence()
+            .map { it.answerJyutping }
+            .filter { normalizeJyutpingAnswer(it) != normalizeJyutpingAnswer(correctAnswer) }
+            .distinct()
+            .shuffled()
+            .take(3)
+            .toList()
+        return (distractors + correctAnswer).distinct().shuffled()
+    }
 }

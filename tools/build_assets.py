@@ -6,45 +6,43 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SEED_PATH = ROOT / "content" / "seed_groups.json"
+WORDS_PATH = ROOT / "content" / "word_bank.json"
+EXPRESSIONS_PATH = ROOT / "content" / "expression_bank.json"
 OUTPUT_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
 
-TONE_INFO = {
-    1: {"name": "高平", "gloss": "高位平调，适合抓住顶部平台。"},
-    2: {"name": "高升", "gloss": "由中高区上扬到高位，检查升幅是否够清楚。"},
-    3: {"name": "中平", "gloss": "中位平调，重点在于不要抬得过高。"},
-    4: {"name": "低降", "gloss": "低位下降，避免尾部提前收扁。"},
-    5: {"name": "低升", "gloss": "从低区回升，注意起点与终点的拉开。"},
-    6: {"name": "低平", "gloss": "低位平调，强调稳定而不是松散。"},
-}
 
-
-def build_entries(seed_groups: list[dict]) -> list[dict]:
+def load_entries(path: Path, entry_type: str) -> list[dict]:
+    rows = json.loads(path.read_text(encoding="utf-8"))
     entries: list[dict] = []
-    for group in seed_groups:
-        for tone, tone_info in TONE_INFO.items():
-            entry_id = f"builtin-{group['groupId']}-{tone}"
-            entries.append(
-                {
-                    "id": entry_id,
-                    "displayText": f"{group['displayName']} · {tone_info['name']}",
-                    "promptText": f"播放 {group['displayName']} 的参考轮廓后，选出对应 Jyutping。",
-                    "answerJyutping": f"{group['groupId']}{tone}",
-                    "gloss": f"{group['gloss']} {tone_info['gloss']}",
-                    "notes": f"{group['notes']} 本资源为合成轮廓音，不是人声录音。",
-                    "category": group["category"],
-                    "groupId": group["groupId"],
-                    "tone": tone,
-                    "audioAsset": f"audio/generated/{entry_id}.wav",
-                    "sourceLabel": "builtin",
-                }
-            )
+    for row in rows:
+        item = {
+            "id": row["id"],
+            "displayText": row["displayText"],
+            "promptText": row.get(
+                "promptText",
+                "先按自己的习惯读一遍，再写出 Jyutping，用它检查自己有没有读准。"
+                if entry_type == "word"
+                else "先理解这条口语表达，再写出 Jyutping，最后跟着例句开口读。",
+            ),
+            "answerJyutping": row["answerJyutping"],
+            "gloss": row.get("gloss", ""),
+            "notes": row.get("notes", ""),
+            "usageTip": row.get("usageTip", ""),
+            "exampleSentence": row.get("exampleSentence", ""),
+            "exampleTranslation": row.get("exampleTranslation", ""),
+            "entryType": entry_type,
+            "category": row.get("category", ""),
+            "groupId": row.get("groupId", row["id"]),
+            "tone": row.get("tone", 0),
+            "audioAsset": row.get("audioAsset"),
+            "sourceLabel": row.get("sourceLabel", "builtin"),
+        }
+        entries.append(item)
     return entries
 
 
 def main() -> None:
-    seed_groups = json.loads(SEED_PATH.read_text(encoding="utf-8"))
-    entries = build_entries(seed_groups)
+    entries = load_entries(WORDS_PATH, "word") + load_entries(EXPRESSIONS_PATH, "expression")
     bundle = {
         "version": datetime.now(timezone.utc).strftime("%Y.%m.%d.%H%M"),
         "generatedAt": datetime.now(timezone.utc).isoformat(),

@@ -9,6 +9,10 @@ data class CalibrationEntry(
     val answerJyutping: String,
     val gloss: String,
     val notes: String,
+    val usageTip: String,
+    val exampleSentence: String,
+    val exampleTranslation: String,
+    val entryType: String,
     val category: String,
     val groupId: String,
     val tone: Int,
@@ -31,28 +35,50 @@ data class EntryProgress(
 data class DashboardSummary(
     val totalEntries: Int = 0,
     val dueEntries: Int = 0,
+    val dueWordEntries: Int = 0,
+    val dueExpressionEntries: Int = 0,
+    val wordEntries: Int = 0,
+    val expressionEntries: Int = 0,
     val startedEntries: Int = 0,
     val totalAttempts: Int = 0,
     val totalCorrect: Int = 0,
-    val dailyGoal: Int = 20,
+    val dailyGoal: Int = 16,
 ) {
     val accuracyPercent: Int
         get() = if (totalAttempts == 0) 0 else ((totalCorrect * 100.0) / totalAttempts).toInt()
 }
 
+enum class PracticeMode {
+    Correction,
+    Expression,
+}
+
+enum class StudyQuestionType {
+    FillJyutping,
+    MultipleChoice,
+    ExpressionCard,
+}
+
 data class StudyQuestion(
     val entryId: String,
+    val type: StudyQuestionType,
     val displayText: String,
     val promptText: String,
     val answerJyutping: String,
-    val options: List<String>,
+    val gloss: String,
+    val options: List<String> = emptyList(),
     val audioAsset: String?,
     val category: String,
     val notes: String,
+    val usageTip: String,
+    val exampleSentence: String,
+    val exampleTranslation: String,
 )
 
 data class StudySession(
     val sessionId: String,
+    val mode: PracticeMode,
+    val title: String,
     val questions: List<StudyQuestion>,
 )
 
@@ -66,7 +92,7 @@ data class SubmissionOutcome(
 data class AppSettings(
     val autoplayAudio: Boolean = true,
     val remindersEnabled: Boolean = true,
-    val dailyGoal: Int = 24,
+    val dailyGoal: Int = 16,
     val builtInSeedVersion: String = "",
 )
 

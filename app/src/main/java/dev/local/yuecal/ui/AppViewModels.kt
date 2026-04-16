@@ -2,6 +2,7 @@ package dev.local.yuecal.ui
 
 import android.net.Uri
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dev.local.yuecal.data.AppSettingsStore
@@ -10,8 +11,10 @@ import dev.local.yuecal.data.GitHubSources
 import dev.local.yuecal.domain.AppSettings
 import dev.local.yuecal.domain.CalibrationEntry
 import dev.local.yuecal.domain.DashboardSummary
+import dev.local.yuecal.domain.PracticeMode
 import dev.local.yuecal.domain.StudyQuestion
 import dev.local.yuecal.domain.StudySession
+import dev.local.yuecal.domain.SubmissionOutcome
 import dev.local.yuecal.work.AppWorkScheduler
 import javax.inject.Inject
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -53,8 +56,14 @@ data class SessionUiState(
     val currentIndex: Int = 0,
     val currentQuestion: StudyQuestion? = null,
     val correctCount: Int = 0,
-    val lastFeedback: String? = null,
+    val answerInput: String = "",
+    val feedback: SessionFeedback? = null,
     val autoplayAudio: Boolean = true,
+)
+
+data class SessionFeedback(
+    val outcome: SubmissionOutcome,
+    val userAnswer: String,
 )
 
 @HiltViewModel
@@ -212,12 +221,17 @@ class ProfileViewModel @Inject constructor(
 @HiltViewModel
 class SessionViewModel @Inject constructor(
     private val repository: CalibratorRepository,
+    savedStateHandle: SavedStateHandle,
 ) : ViewModel() {
 
     private val mutableState = MutableStateFlow(SessionUiState())
     val uiState: StateFlow<SessionUiState> = mutableState
 
     private var questionStartMillis: Long = 0
+    private val mode: PracticeMode = when (savedStateHandle.get<String>("mode")) {
+        "expression" -> PracticeMode.Expression
+        else -> PracticeMode.Correction
+    }
 
     init {
         viewModelScope.launch {
@@ -231,7 +245,7 @@ class SessionViewModel @Inject constructor(
     fun loadSession() {
         viewModelScope.launch {
             mutableState.value = SessionUiState(isLoading = true)
-            val session = repository.buildSession()
+            val session = repository.buildSession(mode = mode)
             questionStartMillis = System.currentTimeMillis()
             mutableState.value = SessionUiState(
                 isLoading = false,
@@ -251,9 +265,15 @@ class SessionViewModel @Inject constructor(
         }
     }
 
-    fun submitAnswer(answer: String) {
+    fun updateAnswerInput(answer: String) {
+        mutableState.update { it.copy(answerInput = answer) }
+    }
+
+    fun submitAnswer() {
         val session = uiState.value.session ?: return
         val currentQuestion = uiState.value.currentQuestion ?: return
+        val answer = uiState.value.answerInput.trim()
+        if (answer.isBlank() || uiState.value.feedback != null) return
         viewModelScope.launch {
             val responseMillis = System.currentTimeMillis() - questionStartMillis
             val outcome = repository.submitAnswer(
@@ -262,19 +282,27 @@ class SessionViewModel @Inject constructor(
                 selectedAnswer = answer,
                 responseMillis = responseMillis,
             )
-            val nextIndex = uiState.value.currentIndex + 1
-            val nextQuestion = session.questions.getOrNull(nextIndex)
-            questionStartMillis = System.currentTimeMillis()
             mutableState.value = uiState.value.copy(
-                currentIndex = nextIndex,
-                currentQuestion = nextQuestion,
                 correctCount = uiState.value.correctCount + if (outcome.isCorrect) 1 else 0,
-                lastFeedback = if (outcome.isCorrect) {
-                    "正确：${outcome.correctAnswer}"
-                } else {
-                    "答案是 ${outcome.correctAnswer}"
-                },
+                feedback = SessionFeedback(
+                    outcome = outcome,
+                    userAnswer = answer,
+                ),
             )
         }
+    }
+
+    fun advance() {
+        val session = uiState.value.session ?: return
+        if (uiState.value.feedback == null) return
+        val nextIndex = uiState.value.currentIndex + 1
+        val nextQuestion = session.questions.getOrNull(nextIndex)
+        questionStartMillis = System.currentTimeMillis()
+        mutableState.value = uiState.value.copy(
+            currentIndex = nextIndex,
+            currentQuestion = nextQuestion,
+            answerInput = "",
+            feedback = null,
+        )
     }
 }

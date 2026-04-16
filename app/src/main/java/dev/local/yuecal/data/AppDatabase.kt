@@ -29,6 +29,10 @@ data class CalibrationEntryEntity(
     val answerJyutping: String,
     val gloss: String,
     val notes: String,
+    val usageTip: String,
+    val exampleSentence: String,
+    val exampleTranslation: String,
+    val entryType: String,
     val category: String,
     val groupId: String,
     val tone: Int,
@@ -76,6 +80,9 @@ interface EntryDao {
     @Query("SELECT COUNT(*) FROM calibration_entries")
     fun observeEntryCount(): Flow<Int>
 
+    @Query("SELECT COUNT(*) FROM calibration_entries WHERE entryType = :entryType")
+    fun observeEntryCountByType(entryType: String): Flow<Int>
+
     @Transaction
     @Query("SELECT * FROM calibration_entries ORDER BY displayText ASC")
     fun observeLibraryEntries(): Flow<List<EntryWithProgress>>
@@ -88,6 +95,9 @@ interface EntryDao {
            OR answerJyutping LIKE '%' || :query || '%'
            OR gloss LIKE '%' || :query || '%'
            OR notes LIKE '%' || :query || '%'
+           OR usageTip LIKE '%' || :query || '%'
+           OR exampleSentence LIKE '%' || :query || '%'
+           OR exampleTranslation LIKE '%' || :query || '%'
         ORDER BY displayText ASC
         LIMIT :limit
         """,
@@ -105,8 +115,23 @@ interface EntryDao {
     )
     suspend fun getDueEntries(today: Long, limit: Int): List<CalibrationEntryEntity>
 
+    @Query(
+        """
+        SELECT e.* FROM calibration_entries e
+        LEFT JOIN review_progress p ON e.id = p.entryId
+        WHERE e.entryType = :entryType
+          AND (p.entryId IS NULL OR p.nextReviewEpochDay <= :today)
+        ORDER BY COALESCE(p.nextReviewEpochDay, 0) ASC, e.displayText ASC
+        LIMIT :limit
+        """,
+    )
+    suspend fun getDueEntriesByType(entryType: String, today: Long, limit: Int): List<CalibrationEntryEntity>
+
     @Query("SELECT * FROM calibration_entries ORDER BY RANDOM() LIMIT :limit")
     suspend fun getFallbackEntries(limit: Int): List<CalibrationEntryEntity>
+
+    @Query("SELECT * FROM calibration_entries WHERE entryType = :entryType ORDER BY RANDOM() LIMIT :limit")
+    suspend fun getFallbackEntriesByType(entryType: String, limit: Int): List<CalibrationEntryEntity>
 
     @Query("SELECT * FROM calibration_entries WHERE id = :id LIMIT 1")
     suspend fun getEntryById(id: String): CalibrationEntryEntity?
@@ -132,6 +157,16 @@ interface ProgressDao {
         """,
     )
     fun observeDueCount(today: Long): Flow<Int>
+
+    @Query(
+        """
+        SELECT COUNT(*) FROM calibration_entries e
+        LEFT JOIN review_progress p ON e.id = p.entryId
+        WHERE e.entryType = :entryType
+          AND (p.entryId IS NULL OR p.nextReviewEpochDay <= :today)
+        """,
+    )
+    fun observeDueCountByType(entryType: String, today: Long): Flow<Int>
 
     @Query(
         """
@@ -167,7 +202,7 @@ interface SessionDao {
 
 @Database(
     entities = [CalibrationEntryEntity::class, ReviewProgressEntity::class, StudyAttemptEntity::class],
-    version = 1,
+    version = 2,
     exportSchema = false,
 )
 abstract class AppDatabase : RoomDatabase() {

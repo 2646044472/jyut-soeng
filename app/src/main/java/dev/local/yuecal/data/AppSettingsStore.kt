@@ -30,7 +30,7 @@ class AppSettingsStore @Inject constructor(
         AppSettings(
             autoplayAudio = prefs[Keys.AUTOPLAY_AUDIO] ?: true,
             remindersEnabled = prefs[Keys.REMINDERS_ENABLED] ?: true,
-            dailyGoal = prefs[Keys.DAILY_GOAL] ?: 24,
+            dailyGoal = prefs[Keys.DAILY_GOAL] ?: 16,
             builtInSeedVersion = prefs[Keys.BUILTIN_SEED_VERSION] ?: "",
         )
     }
@@ -46,7 +46,7 @@ class AppSettingsStore @Inject constructor(
     }
 
     suspend fun setDailyGoal(goal: Int) {
-        dataStore.edit { it[Keys.DAILY_GOAL] = goal.coerceIn(8, 80) }
+        dataStore.edit { it[Keys.DAILY_GOAL] = goal.coerceIn(10, 32) }
     }
 
     suspend fun setBuiltInSeedVersion(version: String) {

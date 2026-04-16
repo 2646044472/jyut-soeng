@@ -4,9 +4,25 @@ import kotlin.math.max
 
 object JudgingEngine {
 
-    fun score(isCorrect: Boolean, responseMillis: Long): Int {
-        if (!isCorrect) return 2
-        return if (responseMillis in 1..3500) 5 else 4
+    fun score(
+        isCorrect: Boolean,
+        responseMillis: Long,
+        questionType: StudyQuestionType,
+    ): Int {
+        if (!isCorrect) {
+            return when (questionType) {
+                StudyQuestionType.MultipleChoice -> 1
+                StudyQuestionType.FillJyutping, StudyQuestionType.ExpressionCard -> 2
+            }
+        }
+        return when (questionType) {
+            StudyQuestionType.MultipleChoice -> {
+                if (responseMillis in 1..2200) 4 else 3
+            }
+            StudyQuestionType.FillJyutping, StudyQuestionType.ExpressionCard -> {
+                if (responseMillis in 1..4500) 5 else 4
+            }
+        }
     }
 }
 

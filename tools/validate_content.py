@@ -13,33 +13,31 @@ ASSET_ROOT = ROOT / "app" / "src" / "main" / "assets"
 def main() -> None:
     bundle = json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
     entries = bundle["entries"]
-    if len(entries) != 240:
-        raise SystemExit(f"Expected 240 entries, found {len(entries)}")
+    if len(entries) < 36:
+        raise SystemExit(f"Expected at least 36 entries, found {len(entries)}")
 
     ids = [entry["id"] for entry in entries]
     duplicates = [entry_id for entry_id, count in Counter(ids).items() if count > 1]
     if duplicates:
         raise SystemExit(f"Duplicate ids: {duplicates[:10]}")
 
-    tones_per_group: dict[str, set[int]] = defaultdict(set)
-    missing_audio: list[str] = []
+    entry_types = Counter(entry.get("entryType", "word") for entry in entries)
+    if entry_types.get("word", 0) < 20:
+        raise SystemExit("Need at least 20 word correction entries.")
+    if entry_types.get("expression", 0) < 10:
+        raise SystemExit("Need at least 10 expression/slang entries.")
+
     for entry in entries:
-        tones_per_group[entry["groupId"]].add(int(entry["tone"]))
-        audio_path = ASSET_ROOT / entry["audioAsset"]
-        if not audio_path.exists():
-            missing_audio.append(str(audio_path))
+        for key in ("displayText", "promptText", "answerJyutping", "gloss", "notes", "category"):
+            if not str(entry.get(key, "")).strip():
+                raise SystemExit(f"Entry {entry.get('id')} missing required field: {key}")
+        audio_asset = entry.get("audioAsset")
+        if audio_asset:
+            audio_path = ASSET_ROOT / audio_asset
+            if not audio_path.exists():
+                raise SystemExit(f"Missing audio asset: {audio_path}")
 
-    incomplete_groups = {
-        group_id: sorted(set(range(1, 7)) - tones)
-        for group_id, tones in tones_per_group.items()
-        if tones != set(range(1, 7))
-    }
-    if incomplete_groups:
-        raise SystemExit(f"Incomplete tone ladders: {incomplete_groups}")
-    if missing_audio:
-        raise SystemExit(f"Missing audio assets: {missing_audio[:10]}")
-
-    print(f"Validated {len(entries)} entries across {len(tones_per_group)} groups.")
+    print(f"Validated {len(entries)} entries.")
 
 
 if __name__ == "__main__":

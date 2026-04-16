@@ -38,9 +38,30 @@ class SrsEngineTest {
 
     @Test
     fun judgingRewardsFastCorrectAnswers() {
-        assertEquals(5, JudgingEngine.score(isCorrect = true, responseMillis = 1500))
-        assertEquals(4, JudgingEngine.score(isCorrect = true, responseMillis = 6000))
-        assertEquals(2, JudgingEngine.score(isCorrect = false, responseMillis = 800))
+        assertEquals(
+            5,
+            JudgingEngine.score(
+                isCorrect = true,
+                responseMillis = 1500,
+                questionType = StudyQuestionType.FillJyutping,
+            ),
+        )
+        assertEquals(
+            4,
+            JudgingEngine.score(
+                isCorrect = true,
+                responseMillis = 6000,
+                questionType = StudyQuestionType.FillJyutping,
+            ),
+        )
+        assertEquals(
+            1,
+            JudgingEngine.score(
+                isCorrect = false,
+                responseMillis = 800,
+                questionType = StudyQuestionType.MultipleChoice,
+            ),
+        )
         assertTrue(Sm2Scheduler.next(null, 5).easeFactor >= 2.5)
     }
 }
