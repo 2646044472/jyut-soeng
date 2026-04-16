@@ -6,6 +6,10 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
 }
 
+val stableSigningFile = rootProject.file("signing/yuet-soeng-sideload.jks")
+val stableSigningAlias = "yuetsoeng"
+val stableSigningPassword = "yuet-soeng-sideload"
+
 android {
     namespace = "dev.local.yuecal"
     compileSdk = 35
@@ -15,8 +19,8 @@ android {
         applicationId = "dev.local.yuecal"
         minSdk = 31
         targetSdk = 35
-        versionCode = 5
-        versionName = "0.5.0"
+        versionCode = 6
+        versionName = "0.6.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -24,9 +28,22 @@ android {
         }
     }
 
+    signingConfigs {
+        create("stableSideload") {
+            storeFile = stableSigningFile
+            storePassword = stableSigningPassword
+            keyAlias = stableSigningAlias
+            keyPassword = stableSigningPassword
+        }
+    }
+
     buildTypes {
+        debug {
+            signingConfig = signingConfigs.getByName("stableSideload")
+        }
         release {
             isMinifyEnabled = false
+            signingConfig = signingConfigs.getByName("stableSideload")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",

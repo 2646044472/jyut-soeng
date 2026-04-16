@@ -84,7 +84,12 @@ interface EntryDao {
     fun observeEntryCountByType(entryType: String): Flow<Int>
 
     @Transaction
-    @Query("SELECT * FROM calibration_entries ORDER BY displayText ASC")
+    @Query(
+        """
+        SELECT * FROM calibration_entries
+        ORDER BY CASE WHEN sourceLabel = 'generated' THEN 1 ELSE 0 END ASC, displayText ASC
+        """,
+    )
     fun observeLibraryEntries(): Flow<List<EntryWithProgress>>
 
     @Transaction
@@ -98,7 +103,7 @@ interface EntryDao {
            OR usageTip LIKE '%' || :query || '%'
            OR exampleSentence LIKE '%' || :query || '%'
            OR exampleTranslation LIKE '%' || :query || '%'
-        ORDER BY displayText ASC
+        ORDER BY CASE WHEN sourceLabel = 'generated' THEN 1 ELSE 0 END ASC, displayText ASC
         LIMIT :limit
         """,
     )
@@ -178,7 +183,7 @@ interface EntryDao {
         LEFT JOIN review_progress p ON e.id = p.entryId
         WHERE e.entryType = :entryType
           AND p.entryId IS NULL
-        ORDER BY e.displayText ASC
+        ORDER BY CASE WHEN e.sourceLabel = 'generated' THEN 1 ELSE 0 END ASC, e.displayText ASC
         LIMIT :limit
         """,
     )

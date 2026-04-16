@@ -23,9 +23,9 @@
 - GitHub 内容更新入口
 - 应用名与图标已切到 `粤常`
 - 当前内置题库：
-  - 2993 条词语正音词条
-  - 193 条俚语 / 日常表达卡片
-  - 合计 3186 条
+  - 2623 条词语正音词条
+  - 613 条俚语 / 日常表达卡片
+  - 合计 3236 条
 
 ## 当前题库方向
 
@@ -48,13 +48,13 @@
 构建命令：
 
 ```bash
-./gradlew --no-daemon --console=plain :app:testDebugUnitTest :app:assembleDebug
+./gradlew --no-daemon --console=plain :app:testDebugUnitTest :app:assembleRelease
 ```
 
 APK 输出：
 
 ```text
-app/build/outputs/apk/debug/app-debug.apk
+app/build/outputs/apk/release/app-release.apk
 ```
 
 ## GitHub 内容包
@@ -73,12 +73,18 @@ python3 tools/export_github_pack.py
 
 App 里的 GitHub 更新逻辑默认读取 GitHub 仓库中的这一套导出结果。
 
+## 签名与升级
+
+- 现在的 APK 使用 repo 内固定 sideload keystore 签名，后续版本可以直接覆盖安装，保留应用数据。
+- 由于更早几版 Release 使用的是临时 debug 签名，如果你手机里当前安装的是那批旧包，切到这个新签名时可能仍然需要最后重装一次。
+- 这次之后，只要继续安装同一条发布链生成的 APK，就不需要再因为签名变化而卸载重装。
+
 ## 发布
 
 推送 `v*` tag 后，GitHub Actions 会自动：
 
 1. 安装 Android SDK 依赖
 2. 运行 `:app:testDebugUnitTest`
-3. 构建 debug APK
+3. 构建 release APK
 4. 创建 GitHub Release
 5. 上传 APK 和内容包 zip

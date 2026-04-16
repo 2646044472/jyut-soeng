@@ -644,11 +644,13 @@ private fun ExpressionContextCard(question: StudyQuestion) {
                 .padding(18.dp),
             verticalArrangement = Arrangement.spacedBy(10.dp),
         ) {
-            if (question.exampleSentence.isNotBlank()) {
-                ExampleBlock(question.exampleSentence)
-            } else {
-                Text("先按场景感受这条表达，再写出 Jyutping。", style = MaterialTheme.typography.bodyMedium)
+            if (question.gloss.isNotBlank()) {
+                InfoBlock("意思", question.gloss)
             }
+            if (question.usageTip.isNotBlank()) {
+                InfoBlock("点用", question.usageTip)
+            }
+            ExampleBlock(question.exampleSentence)
         }
     }
 }
@@ -747,6 +749,12 @@ private fun FeedbackCard(
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
+            if (question.gloss.isNotBlank()) {
+                InfoBlock("意思", question.gloss)
+            }
+            if (question.usageTip.isNotBlank()) {
+                InfoBlock("点用", question.usageTip)
+            }
             if (question.exampleSentence.isNotBlank()) {
                 ExampleBlock(question.exampleSentence)
             }
@@ -807,8 +815,14 @@ private fun EntryCard(
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.Top,
             ) {
-                Column(modifier = Modifier.weight(1f)) {
+                Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     Text(entry.displayText, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                    if (entry.gloss.isNotBlank()) {
+                        InfoBlock("意思", entry.gloss)
+                    }
+                    if (entry.usageTip.isNotBlank()) {
+                        InfoBlock("点用", entry.usageTip)
+                    }
                 }
                 if (entry.audioAsset != null) {
                     IconButton(onClick = { onPlayAudio(entry.audioAsset) }) {
@@ -913,6 +927,18 @@ private fun ExampleBlock(raw: String) {
         lines.forEach { line ->
             Text("• $line", style = MaterialTheme.typography.bodyMedium)
         }
+    }
+}
+
+@Composable
+private fun InfoBlock(
+    label: String,
+    value: String,
+) {
+    if (value.isBlank()) return
+    Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+        Text(label, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+        Text(value, style = MaterialTheme.typography.bodyMedium)
     }
 }
 

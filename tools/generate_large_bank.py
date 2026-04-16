@@ -187,40 +187,59 @@ def classify_expression_category(word: str) -> str:
 def build_usage_tip(word: str, category: str, kind: str) -> str:
     if kind == "expression":
         return {
-            "俚语表达": "偏口语，整串读顺。",
-            "口语场景": "口语高频，开口要自然。",
-            "情绪表达": "带状态感，语气要贴。",
-            "工作场景": "场景偏实战，语流要稳。",
-        }.get(category, "常见表达，连读要顺。")
+            "俚语表达": "多放在熟人闲聊、吐槽和即时反应里。",
+            "口语场景": "适合直接放进对话里，句子不用太长。",
+            "情绪表达": "多放在讲自己感觉或评价别人状态时。",
+            "工作场景": "适合放在讲进度、安排和处理方式时。",
+        }.get(category, "日常开口时可以直接带出来。")
     if category == "工作场景":
-        return "工作沟通常见，语流要稳。"
+        return "适合放在开会、交代事情和讲做法时。"
     if category == "学习场景":
-        return "学习场景高频，读法要准。"
+        return "适合放在提问、复述和说明时。"
     if category == "情绪表达":
-        return "表达状态时，语气要贴。"
+        return "多放在讲感觉、情绪变化和反应时。"
     if category == "口语场景":
-        return "偏口语，开口要自然。"
-    return "高频实用词，先读顺。"
+        return "对话里很常见，重点是读得自然。"
+    return "日常句子里直接用就可以。"
+
+
+def build_meaning(word: str, category: str, kind: str) -> str:
+    if kind == "expression":
+        return {
+            "俚语表达": "偏口语的说法，常用来讲状态、场面或反应。",
+            "口语场景": "对话里常见的说法，听起来会比较自然。",
+            "情绪表达": "用来表达感觉、情绪或当下反应。",
+            "工作场景": "多用于交代事情、讲进度或讲处理方式。",
+        }.get(category, f"常见表达，日常讲话时可以自然用「{word}」。")
+    if category == "工作场景":
+        return "工作沟通里常见的词。"
+    if category == "学习场景":
+        return "学习和说明语境里常用的词。"
+    if category == "情绪表达":
+        return "常用来讲感受、状态或反应。"
+    if category == "口语场景":
+        return "日常讲话常见词，适合拿来练顺口。"
+    return f"常用词，适合放进句子里练熟「{word}」。"
 
 
 def build_examples(word: str, category: str, kind: str) -> str:
     if kind == "expression":
         if category == "情绪表达":
-            return f"一讲到嗰件事，我就想讲「{word}」。\n想表达当下状态时，可以直接讲「{word}」。"
+            return f"我一听到呢件事，就觉得可以讲「{word}」。\n想表达自己状态时，可以直接用「{word}」。"
         if category == "口语场景":
-            return f"平时同朋友倾计，好容易会听到「{word}」。\n想讲得再贴地啲，可以顺手带出「{word}」。"
+            return f"朋友倾偈时，可以直接讲「{word}」。\n想讲得自然一点时，就顺手带出「{word}」。"
         if category == "工作场景":
-            return f"讲到进度同手尾时，可以自然咁讲「{word}」。\n想表达得简洁啲，「{word}」会几顺口。"
-        return f"熟人闲聊时，成日都会听到「{word}」。\n你下次开口时，可以直接试住讲「{word}」。"
+            return f"讲安排或者进度时，可以用「{word}」。\n想交代得简洁一点，就直接讲「{word}」。"
+        return f"遇到类似情况时，可以直接讲「{word}」。\n下次开口时，试住自然带出「{word}」。"
     if category == "工作场景":
-        return f"开会讲到重点时，可以用「{word}」。\n讲工作进度时，试下自然带出「{word}」。"
+        return f"讲工作内容时，可以用「{word}」。\n你可以试住用「{word}」讲一次完整句子。"
     if category == "学习场景":
-        return f"今日先练熟「{word}」呢个词。\n讲学习安排时，可以试住用「{word}」。"
+        return f"今日先练熟「{word}」呢个词。\n讲学习安排时，可以直接用「{word}」。"
     if category == "情绪表达":
-        return f"我而家个状态有啲似「{word}」。\n想讲感觉时，可以直接用「{word}」。"
+        return f"我而家个状态有啲似「{word}」。\n想讲感觉时，就用「{word}」去讲。"
     if category == "口语场景":
-        return f"平时开口讲嘢时，呢个词会几常见：{word}。\n你可以试住用「{word}」讲一次。"
-    return f"呢个词本身就值得练顺口：「{word}」。\n下次讲到相关情况时，可以直接用「{word}」。"
+        return f"平时开口讲话时，经常会用到「{word}」。\n你可以试住用「{word}」讲一次。"
+    return f"你可以先用「{word}」讲一次完整句子。\n再试多次，把「{word}」读得更顺一点。"
 
 
 def build_rows(pairs: list[tuple[str, str]], kind: str, start_index: int = 1) -> list[dict]:
@@ -232,7 +251,7 @@ def build_rows(pairs: list[tuple[str, str]], kind: str, start_index: int = 1) ->
                 "id": f"gen-{kind}-{index:04d}",
                 "displayText": word,
                 "answerJyutping": pronunciation,
-                "gloss": "",
+                "gloss": build_meaning(word, category, kind),
                 "notes": "",
                 "usageTip": build_usage_tip(word, category, kind),
                 "exampleSentence": build_examples(word, category, kind),
