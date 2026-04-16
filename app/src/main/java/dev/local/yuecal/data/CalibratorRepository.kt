@@ -1,0 +1,334 @@
+package dev.local.yuecal.data
+
+import android.content.Context
+import android.net.Uri
+import dagger.hilt.android.qualifiers.ApplicationContext
+import dev.local.yuecal.di.IoDispatcher
+import dev.local.yuecal.domain.AppSettings
+import dev.local.yuecal.domain.CalibrationEntry
+import dev.local.yuecal.domain.DashboardSummary
+import dev.local.yuecal.domain.EntryProgress
+import dev.local.yuecal.domain.ImportResult
+import dev.local.yuecal.domain.JudgingEngine
+import dev.local.yuecal.domain.Sm2Scheduler
+import dev.local.yuecal.domain.StudyQuestion
+import dev.local.yuecal.domain.StudySession
+import dev.local.yuecal.domain.SubmissionOutcome
+import dev.local.yuecal.domain.todayEpochDay
+import dev.local.yuecal.media.AppAudioPlayer
+import java.io.File
+import java.net.HttpURLConnection
+import java.time.Instant
+import java.net.URL
+import java.util.UUID
+import javax.inject.Inject
+import javax.inject.Singleton
+import kotlin.random.Random
+import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.withContext
+import kotlinx.serialization.SerializationException
+import kotlinx.serialization.builtins.ListSerializer
+import kotlinx.serialization.json.Json
+
+@Singleton
+class CalibratorRepository @Inject constructor(
+    private val entryDao: EntryDao,
+    private val progressDao: ProgressDao,
+    private val sessionDao: SessionDao,
+    private val settingsStore: AppSettingsStore,
+    private val audioPlayer: AppAudioPlayer,
+    @ApplicationContext private val context: Context,
+    private val json: Json,
+    @IoDispatcher private val ioDispatcher: CoroutineDispatcher,
+) {
+
+    val settings: Flow<AppSettings> = settingsStore.settings
+
+    private val dashboardCounts = combine(
+        entryDao.observeEntryCount(),
+        progressDao.observeDueCount(todayEpochDay()),
+        progressDao.observeStartedCount(),
+        sessionDao.observeAttemptsCount(),
+    ) { totalEntries, dueEntries, startedEntries, attempts ->
+        DashboardSummary(
+            totalEntries = totalEntries,
+            dueEntries = dueEntries,
+            startedEntries = startedEntries,
+            totalAttempts = attempts,
+        )
+    }
+
+    val dashboard: Flow<DashboardSummary> = combine(
+        dashboardCounts,
+        sessionDao.observeCorrectCount(),
+        settingsStore.settings,
+    ) { base, correct, settings ->
+        base.copy(
+            totalCorrect = correct ?: 0,
+            dailyGoal = settings.dailyGoal,
+        )
+    }
+
+    val libraryEntries: Flow<List<CalibrationEntry>> = entryDao.observeLibraryEntries().map { rows ->
+        rows.map { it.toModel() }
+    }
+
+    fun searchEntries(query: String): Flow<List<CalibrationEntry>> {
+        val trimmed = query.trim()
+        return if (trimmed.isBlank()) {
+            libraryEntries.map { it.take(80) }
+        } else {
+            entryDao.observeSearchResults(trimmed, 80).map { rows -> rows.map { it.toModel() } }
+        }
+    }
+
+    suspend fun dueCountNow(): Int = withContext(ioDispatcher) {
+        progressDao.dueCountNow(todayEpochDay())
+    }
+
+    suspend fun ensureBuiltinImported(force: Boolean = false): ImportResult = withContext(ioDispatcher) {
+        val bundleText = context.assets.open("builtin/content.json").bufferedReader().use { it.readText() }
+        val bundle = decodeBundle(bundleText)
+        val currentSettings = settingsStore.snapshot()
+        if (!force && currentSettings.builtInSeedVersion == bundle.version) {
+            ImportResult(sourceLabel = "builtin", version = bundle.version, importedCount = 0)
+        } else {
+            val now = System.currentTimeMillis()
+            val entities = bundle.entries.map { asset ->
+                asset.toEntity(
+                    createdAt = now,
+                    updatedAt = now,
+                    defaultSource = "builtin",
+                )
+            }
+            entryDao.upsertEntries(entities)
+            settingsStore.setBuiltInSeedVersion(bundle.version)
+            ImportResult(sourceLabel = "builtin", version = bundle.version, importedCount = entities.size)
+        }
+    }
+
+    suspend fun importFromUri(uri: Uri): ImportResult = withContext(ioDispatcher) {
+        val text = context.contentResolver.openInputStream(uri)?.bufferedReader()?.use { it.readText() }
+            ?: error("Unable to read import file.")
+        val bundle = decodeBundle(text)
+        val now = System.currentTimeMillis()
+        val sourceLabel = "local-import"
+        val entities = bundle.entries.map { asset ->
+            asset.toEntity(
+                createdAt = now,
+                updatedAt = now,
+                defaultSource = sourceLabel,
+            )
+        }
+        entryDao.upsertEntries(entities)
+        ImportResult(sourceLabel = sourceLabel, version = bundle.version, importedCount = entities.size)
+    }
+
+    suspend fun importFromGitHub(): ImportResult = withContext(ioDispatcher) {
+        val bundle = decodeBundle(httpGetText(GitHubSources.CONTENT_BUNDLE_URL))
+        val now = System.currentTimeMillis()
+        val localRoot = File(context.filesDir, "github-content")
+        val entities = bundle.entries.map { asset ->
+            val localAudio = asset.audioAsset?.let { relativePath ->
+                downloadGitHubAudio(relativePath, localRoot)
+            }
+            asset.toEntity(
+                createdAt = now,
+                updatedAt = now,
+                defaultSource = "github",
+                audioOverride = localAudio,
+            )
+        }
+        entryDao.upsertEntries(entities)
+        ImportResult(sourceLabel = "github", version = bundle.version, importedCount = entities.size)
+    }
+
+    suspend fun buildSession(limit: Int = 12): StudySession = withContext(ioDispatcher) {
+        val dueEntries = entryDao.getDueEntries(todayEpochDay(), limit)
+        val chosenEntries = if (dueEntries.isNotEmpty()) dueEntries else entryDao.getFallbackEntries(limit)
+        val questions = chosenEntries.map { entry ->
+            val groupEntries = entryDao.getByGroup(entry.groupId)
+            val distractors = groupEntries
+                .filterNot { it.id == entry.id }
+                .map { it.answerJyutping }
+                .distinct()
+                .shuffled()
+                .take(3)
+
+            val options = (distractors + entry.answerJyutping)
+                .distinct()
+                .shuffled(Random(System.nanoTime()))
+
+            StudyQuestion(
+                entryId = entry.id,
+                displayText = entry.displayText,
+                promptText = entry.promptText,
+                answerJyutping = entry.answerJyutping,
+                options = options,
+                audioAsset = entry.audioAsset,
+                category = entry.category,
+                notes = entry.notes,
+            )
+        }
+        StudySession(
+            sessionId = UUID.randomUUID().toString(),
+            questions = questions,
+        )
+    }
+
+    suspend fun submitAnswer(
+        sessionId: String,
+        question: StudyQuestion,
+        selectedAnswer: String,
+        responseMillis: Long,
+    ): SubmissionOutcome = withContext(ioDispatcher) {
+        val isCorrect = selectedAnswer == question.answerJyutping
+        val quality = JudgingEngine.score(isCorrect, responseMillis)
+        val currentProgress = progressDao.getProgress(question.entryId)?.toDomain()
+        val nextProgress = Sm2Scheduler.next(currentProgress, quality)
+        progressDao.upsertProgress(
+            ReviewProgressEntity(
+                entryId = question.entryId,
+                repetitions = nextProgress.repetitions,
+                intervalDays = nextProgress.intervalDays,
+                easeFactor = nextProgress.easeFactor,
+                nextReviewEpochDay = nextProgress.nextReviewEpochDay,
+                lastReviewedAt = nextProgress.lastReviewedAt,
+                totalCorrect = nextProgress.totalCorrect,
+                totalAttempts = nextProgress.totalAttempts,
+                streak = nextProgress.streak,
+            ),
+        )
+        sessionDao.insertAttempt(
+            StudyAttemptEntity(
+                sessionId = sessionId,
+                entryId = question.entryId,
+                selectedAnswer = selectedAnswer,
+                correctAnswer = question.answerJyutping,
+                isCorrect = isCorrect,
+                quality = quality,
+                answeredAt = System.currentTimeMillis(),
+                responseMillis = responseMillis,
+            ),
+        )
+        SubmissionOutcome(
+            isCorrect = isCorrect,
+            correctAnswer = question.answerJyutping,
+            updatedProgress = nextProgress,
+            quality = quality,
+        )
+    }
+
+    suspend fun playAudio(assetPath: String?) {
+        withContext(Dispatchers.Main) {
+            audioPlayer.playAsset(assetPath)
+        }
+    }
+
+    suspend fun stopAudio() {
+        withContext(Dispatchers.Main) {
+            audioPlayer.stop()
+        }
+    }
+
+    private fun decodeBundle(text: String): ContentBundle {
+        return try {
+            json.decodeFromString(ContentBundle.serializer(), text)
+        } catch (_: SerializationException) {
+            val entries = json.decodeFromString(ListSerializer(ContentEntryAsset.serializer()), text)
+            ContentBundle(
+                version = "import-${System.currentTimeMillis()}",
+                generatedAt = Instant.now().toString(),
+                entries = entries,
+            )
+        }
+    }
+
+    private fun ContentEntryAsset.toEntity(
+        createdAt: Long,
+        updatedAt: Long,
+        defaultSource: String,
+        audioOverride: String? = null,
+    ): CalibrationEntryEntity = CalibrationEntryEntity(
+        id = id,
+        displayText = displayText,
+        promptText = promptText,
+        answerJyutping = answerJyutping,
+        gloss = gloss,
+        notes = notes,
+        category = category,
+        groupId = groupId.ifBlank { answerJyutping.dropLast(1) },
+        tone = if (tone == 0) answerJyutping.lastOrNull()?.digitToIntOrNull() ?: 0 else tone,
+        audioAsset = audioOverride ?: audioAsset,
+        sourceLabel = sourceLabel.ifBlank { defaultSource },
+        createdAt = createdAt,
+        updatedAt = updatedAt,
+    )
+
+    private fun EntryWithProgress.toModel(): CalibrationEntry {
+        val dueNow = progress == null || progress.nextReviewEpochDay <= todayEpochDay()
+        return CalibrationEntry(
+            id = entry.id,
+            displayText = entry.displayText,
+            promptText = entry.promptText,
+            answerJyutping = entry.answerJyutping,
+            gloss = entry.gloss,
+            notes = entry.notes,
+            category = entry.category,
+            groupId = entry.groupId,
+            tone = entry.tone,
+            audioAsset = entry.audioAsset,
+            sourceLabel = entry.sourceLabel,
+            dueNow = dueNow,
+        )
+    }
+
+    private fun ReviewProgressEntity.toDomain(): EntryProgress = EntryProgress(
+        repetitions = repetitions,
+        intervalDays = intervalDays,
+        easeFactor = easeFactor,
+        nextReviewEpochDay = nextReviewEpochDay,
+        lastReviewedAt = lastReviewedAt,
+        totalCorrect = totalCorrect,
+        totalAttempts = totalAttempts,
+        streak = streak,
+    )
+
+    private fun httpGetText(url: String): String {
+        val connection = (URL(url).openConnection() as HttpURLConnection).apply {
+            connectTimeout = 15_000
+            readTimeout = 30_000
+            requestMethod = "GET"
+            setRequestProperty("Accept", "application/json")
+            setRequestProperty("User-Agent", "CantoCalibrator/0.1.0")
+        }
+        return connection.inputStream.bufferedReader().use { it.readText() }
+    }
+
+    private fun downloadGitHubAudio(relativePath: String, localRoot: File): String {
+        if (packagedAssetExists(relativePath)) {
+            return relativePath
+        }
+        val target = File(localRoot, relativePath)
+        target.parentFile?.mkdirs()
+        val connection = (URL("${GitHubSources.RAW_BASE_URL}/$relativePath").openConnection() as HttpURLConnection).apply {
+            connectTimeout = 15_000
+            readTimeout = 60_000
+            requestMethod = "GET"
+            setRequestProperty("User-Agent", "CantoCalibrator/0.1.0")
+        }
+        connection.inputStream.use { input ->
+            target.outputStream().use { output -> input.copyTo(output) }
+        }
+        return target.absolutePath
+    }
+
+    private fun packagedAssetExists(path: String): Boolean = runCatching {
+        context.assets.open(path).use { }
+        true
+    }.getOrDefault(false)
+}
