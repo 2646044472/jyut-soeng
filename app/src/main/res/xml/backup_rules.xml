@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="database" path="canto_calibrator.db" />
+    <include domain="database" path="canto_calibrator.db-shm" />
+    <include domain="database" path="canto_calibrator.db-wal" />
+    <include domain="file" path="datastore/canto_calibrator_settings.preferences_pb" />
+</full-backup-content>
