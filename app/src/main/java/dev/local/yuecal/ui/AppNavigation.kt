@@ -650,7 +650,7 @@ private fun ExpressionContextCard(question: StudyQuestion) {
                 InfoBlock("意思", question.gloss)
             }
             if (question.usageTip.isNotBlank()) {
-                InfoBlock("点用", question.usageTip)
+                InfoBlock(usageLabel(question.sourceLabel), question.usageTip)
             }
             ExampleBlock(question.exampleSentence, question.sourceLabel)
         }
@@ -755,7 +755,7 @@ private fun FeedbackCard(
                 InfoBlock("意思", question.gloss)
             }
             if (question.usageTip.isNotBlank()) {
-                InfoBlock("点用", question.usageTip)
+                InfoBlock(usageLabel(question.sourceLabel), question.usageTip)
             }
             if (question.exampleSentence.isNotBlank()) {
                 ExampleBlock(question.exampleSentence, question.sourceLabel)
@@ -823,7 +823,7 @@ private fun EntryCard(
                         InfoBlock("意思", entry.gloss)
                     }
                     if (entry.usageTip.isNotBlank()) {
-                        InfoBlock("点用", entry.usageTip)
+                        InfoBlock(usageLabel(entry.sourceLabel), entry.usageTip)
                     }
                 }
                 if (entry.audioAsset != null) {
@@ -951,6 +951,8 @@ private fun InfoBlock(
         Text(value, style = MaterialTheme.typography.bodyMedium)
     }
 }
+
+private fun usageLabel(sourceLabel: String): String = if (sourceLabel == "generated") "提醒" else "点用"
 
 private fun formatJyutpingSyllables(raw: String): String {
     val pieces = Regex("[a-z]+[1-6]").findAll(raw.lowercase()).map { it.value }.toList()

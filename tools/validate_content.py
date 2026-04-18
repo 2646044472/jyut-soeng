@@ -22,6 +22,25 @@ FORCED_SENTENCE_MARKERS = (
     "想一个会用到",
     "说一句",
 )
+LOW_INFO_CURATED_USAGE_MARKERS = (
+    "适合拿来练",
+    "适合拿来校正",
+    "适合校正",
+    "适合做基础稳定练习",
+    "适合练自然收句",
+    "值得反复校正",
+    "越高频越值得校准",
+    "重点是读得自然",
+    "最容易听出前后差别",
+)
+GENERIC_CURATED_EXAMPLE_MARKERS = (
+    "下次开口时，再用一次",
+    "你可以再用一次",
+    "把句子说顺一点",
+    "把读法读顺",
+    "讲一次完整句子",
+    "读得更顺一点",
+)
 LOW_CONFIDENCE_GENERATED_WORD_FRAGMENTS = (
     "工時",
     "結構",
@@ -90,6 +109,7 @@ def main() -> None:
             if not str(entry.get(key, "")).strip():
                 raise SystemExit(f"Entry {entry.get('id')} missing required field: {key}")
         display_text = str(entry.get("displayText", "")).strip()
+        usage_tip = str(entry.get("usageTip", "")).strip()
         example_sentence = str(entry.get("exampleSentence", "")).strip()
         if entry.get("sourceLabel") == "generated":
             example_sentence = str(entry.get("exampleSentence", "")).strip()
@@ -105,9 +125,16 @@ def main() -> None:
             if any(marker in display_text for marker in suspicious_markers):
                 raise SystemExit(f"Generated entry {entry.get('id')} still contains low-confidence wording: {display_text}")
         else:
+            gloss = str(entry.get("gloss", "")).strip()
             example_lines = [line.strip() for line in example_sentence.splitlines() if line.strip()]
             if example_lines and all(display_text not in line for line in example_lines):
                 raise SystemExit(f"Curated entry {entry.get('id')} exampleSentence never mentions displayText")
+            if gloss == display_text:
+                raise SystemExit(f"Curated entry {entry.get('id')} gloss still repeats displayText")
+            if any(marker in usage_tip for marker in LOW_INFO_CURATED_USAGE_MARKERS):
+                raise SystemExit(f"Curated entry {entry.get('id')} usageTip still reads like pronunciation filler")
+            if any(marker in example_sentence for marker in GENERIC_CURATED_EXAMPLE_MARKERS):
+                raise SystemExit(f"Curated entry {entry.get('id')} still contains fake follow-up example copy")
         audio_asset = entry.get("audioAsset")
         if audio_asset:
             audio_path = ASSET_ROOT / audio_asset

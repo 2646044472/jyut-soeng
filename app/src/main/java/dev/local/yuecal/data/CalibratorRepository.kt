@@ -239,8 +239,9 @@ class CalibratorRepository @Inject constructor(
                 .distinctBy { it.id }
                 .shuffled(Random(System.nanoTime()))
         }
+        val randomizedEntries = chosenEntries.shuffled(Random(System.nanoTime()))
         val candidatePool = entryDao.getAllEntries()
-        val questions = chosenEntries.map { entry ->
+        val questions = randomizedEntries.map { entry ->
             val currentProgress = progressDao.getProgress(entry.id)?.toDomain()
             val options = if ((currentProgress?.repetitions ?: 0) >= 2) {
                 buildMultipleChoiceOptions(

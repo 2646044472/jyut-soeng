@@ -115,8 +115,8 @@ interface EntryDao {
         SELECT e.* FROM calibration_entries e
         JOIN review_progress p ON e.id = p.entryId
         WHERE p.nextReviewEpochDay <= :today
+          AND p.repetitions > 0
         ORDER BY
-          CASE WHEN p.repetitions > 0 THEN 0 ELSE 1 END ASC,
           p.nextReviewEpochDay ASC,
           COALESCE(p.lastReviewedAt, 0) ASC,
           e.displayText ASC
@@ -131,8 +131,8 @@ interface EntryDao {
         JOIN review_progress p ON e.id = p.entryId
         WHERE e.entryType = :entryType
           AND p.nextReviewEpochDay <= :today
+          AND p.repetitions > 0
         ORDER BY
-          CASE WHEN p.repetitions > 0 THEN 0 ELSE 1 END ASC,
           p.nextReviewEpochDay ASC,
           COALESCE(p.lastReviewedAt, 0) ASC,
           e.displayText ASC
@@ -165,10 +165,9 @@ interface EntryDao {
         WHERE e.entryType = :entryType
           AND p.nextReviewEpochDay > :today
           AND p.nextReviewEpochDay <= :lookaheadDay
+          AND p.repetitions > 0
         ORDER BY
-          CASE WHEN p.repetitions > 0 THEN 0 ELSE 1 END ASC,
           p.nextReviewEpochDay ASC,
-          p.repetitions ASC,
           COALESCE(p.lastReviewedAt, 0) ASC,
           e.displayText ASC
         LIMIT :limit
@@ -208,7 +207,7 @@ interface EntryDao {
         LEFT JOIN review_progress p ON e.id = p.entryId
         WHERE e.entryType = :entryType
           AND p.entryId IS NULL
-        ORDER BY CASE WHEN e.sourceLabel = 'generated' THEN 1 ELSE 0 END ASC, e.sortOrder ASC, e.displayText ASC
+        ORDER BY CASE WHEN e.sourceLabel = 'generated' THEN 1 ELSE 0 END ASC, RANDOM()
         LIMIT :limit
         """,
     )
@@ -235,6 +234,7 @@ interface ProgressDao {
         SELECT COUNT(*) FROM calibration_entries e
         JOIN review_progress p ON e.id = p.entryId
         WHERE p.nextReviewEpochDay <= :today
+          AND p.repetitions > 0
         """,
     )
     fun observeDueCount(today: Long): Flow<Int>
@@ -245,6 +245,7 @@ interface ProgressDao {
         JOIN review_progress p ON e.id = p.entryId
         WHERE e.entryType = :entryType
           AND p.nextReviewEpochDay <= :today
+          AND p.repetitions > 0
         """,
     )
     fun observeDueCountByType(entryType: String, today: Long): Flow<Int>
@@ -263,6 +264,7 @@ interface ProgressDao {
         """
         SELECT COUNT(*) FROM review_progress
         WHERE nextReviewEpochDay = :day
+          AND repetitions > 0
         """,
     )
     fun observeIncomingCount(day: Long): Flow<Int>
@@ -272,6 +274,7 @@ interface ProgressDao {
         SELECT COUNT(*) FROM calibration_entries e
         JOIN review_progress p ON e.id = p.entryId
         WHERE p.nextReviewEpochDay <= :today
+          AND p.repetitions > 0
         """,
     )
     suspend fun dueCountNow(today: Long): Int
