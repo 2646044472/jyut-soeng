@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Java
         uses: actions/setup-java@v4
@@ -42,7 +44,11 @@ jobs:
           YUET_SOENG_KEYSTORE_B64: ${{ secrets.YUET_SOENG_KEYSTORE_B64 }}
         run: |
           mkdir -p signing
-          printf '%s' "$YUET_SOENG_KEYSTORE_B64" | base64 --decode > signing/yuet-soeng-sideload.jks
+          if [ -n "$YUET_SOENG_KEYSTORE_B64" ]; then
+            printf '%s' "$YUET_SOENG_KEYSTORE_B64" | base64 --decode > signing/yuet-soeng-sideload.jks
+          else
+            git show v0.6.1:signing/yuet-soeng-sideload.jks > signing/yuet-soeng-sideload.jks
+          fi
           test -s signing/yuet-soeng-sideload.jks
 
       - name: Build and test
