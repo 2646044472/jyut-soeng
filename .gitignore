@@ -4,4 +4,7 @@
 /.idea/
 **/build/
 /keystore.properties
+/release-artifacts/
+/signing/
+/.omx/
 *.iml

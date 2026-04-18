@@ -1,0 +1,68 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: gradle
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android packages
+        run: |
+          yes | sdkmanager --licenses >/dev/null
+          sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.0"
+
+      - name: Validate bundled content
+        run: |
+          python3 tools/build_assets.py
+          python3 tools/validate_content.py
+          python3 tools/export_github_pack.py
+
+      - name: Restore release keystore
+        env:
+          YUET_SOENG_KEYSTORE_B64: ${{ secrets.YUET_SOENG_KEYSTORE_B64 }}
+        run: |
+          mkdir -p signing
+          printf '%s' "$YUET_SOENG_KEYSTORE_B64" | base64 --decode > signing/yuet-soeng-sideload.jks
+          test -s signing/yuet-soeng-sideload.jks
+
+      - name: Build and test
+        run: |
+          ./gradlew --no-daemon --console=plain :app:testDebugUnitTest :app:assembleRelease
+
+      - name: Prepare release artifacts
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          mkdir -p release-artifacts
+          cp app/build/outputs/apk/release/app-release.apk "release-artifacts/yuet-soeng-${VERSION}.apk"
+          cd dist/github
+          zip -rq "../../release-artifacts/yuet-soeng-content-${VERSION}.zip" jyut-soeng
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "jyut-soeng ${{ github.ref_name }}"
+          body: |
+            Android release APK plus the bundled content pack used by the app's update entrypoint.
+          files: |
+            release-artifacts/*.apk
+            release-artifacts/*.zip
