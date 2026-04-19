@@ -442,16 +442,19 @@ class CalibratorRepository @Inject constructor(
             .groupBy(keySelector = { it.value }, valueTransform = { it.key })
             .forEach { (targetEntryId, sourceEntryIds) ->
                 val uniqueSourceIds = sourceEntryIds.distinct()
-                val mergedProgress = buildList {
+                val progressRecords = buildList {
                     progressById[targetEntryId]?.let(::add)
                     uniqueSourceIds.forEach { sourceEntryId ->
                         progressById[sourceEntryId]?.let(::add)
                     }
                 }
-                ReviewProgressMerger.merge(
+                val mergedProgress = ReviewProgressMerger.merge(
                     targetId = targetEntryId,
-                    records = mergedProgress,
-                )?.let(progressDao::upsertProgress)
+                    records = progressRecords,
+                )
+                if (mergedProgress != null) {
+                    progressDao.upsertProgress(mergedProgress)
+                }
                 if (uniqueSourceIds.isNotEmpty()) {
                     progressDao.deleteProgressByEntryIds(uniqueSourceIds)
                     uniqueSourceIds.forEach { sourceEntryId ->
