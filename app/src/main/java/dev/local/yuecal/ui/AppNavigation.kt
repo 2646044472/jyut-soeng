@@ -38,13 +38,15 @@ import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Slider
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
@@ -53,6 +55,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -336,7 +339,6 @@ private fun ProfileScreen(
                 subtitle = "新词和新表达的目标量，手动调整。",
                 value = settings.dailyLearnGoal,
                 min = 4,
-                max = 24,
                 onChange = onDailyLearnGoalChange,
             )
         }
@@ -346,7 +348,6 @@ private fun ProfileScreen(
                 subtitle = "今天要刷回嘴边的复习量，手动调整。",
                 value = settings.dailyReviewGoal,
                 min = 6,
-                max = 40,
                 onChange = onDailyReviewGoalChange,
             )
         }
@@ -556,9 +557,10 @@ private fun GoalCard(
     subtitle: String,
     value: Int,
     min: Int,
-    max: Int,
     onChange: (Int) -> Unit,
 ) {
+    var draftValue by remember(value) { mutableStateOf(value.toString()) }
+
     Card {
         Row(
             modifier = Modifier
@@ -580,12 +582,35 @@ private fun GoalCard(
                 verticalArrangement = Arrangement.spacedBy(6.dp),
             ) {
                 Text("$value", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                Slider(
-                    value = value.toFloat(),
-                    onValueChange = { onChange(it.toInt()) },
-                    valueRange = min.toFloat()..max.toFloat(),
-                    steps = (max - min - 1).coerceAtLeast(0),
+                OutlinedTextField(
+                    modifier = Modifier.fillMaxWidth(),
+                    value = draftValue,
+                    onValueChange = { next ->
+                        if (next.all(Char::isDigit)) {
+                            draftValue = next
+                        }
+                    },
+                    singleLine = true,
+                    label = { Text("手动输入") },
+                    placeholder = { Text("$min+") },
+                    keyboardOptions = KeyboardOptions(
+                        keyboardType = KeyboardType.Number,
+                        imeAction = ImeAction.Done,
+                    ),
+                    keyboardActions = KeyboardActions(
+                        onDone = {
+                            draftValue.toIntOrNull()?.let { onChange(it.coerceAtLeast(min)) }
+                        },
+                    ),
                 )
+                OutlinedButton(
+                    modifier = Modifier.fillMaxWidth(),
+                    onClick = {
+                        draftValue.toIntOrNull()?.let { onChange(it.coerceAtLeast(min)) }
+                    },
+                ) {
+                    Text("保存")
+                }
             }
         }
     }

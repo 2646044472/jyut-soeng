@@ -47,11 +47,11 @@ class AppSettingsStore @Inject constructor(
     }
 
     suspend fun setDailyLearnGoal(goal: Int) {
-        dataStore.edit { it[Keys.DAILY_LEARN_GOAL] = goal.coerceIn(4, 24) }
+        dataStore.edit { it[Keys.DAILY_LEARN_GOAL] = goal.coerceAtLeast(4) }
     }
 
     suspend fun setDailyReviewGoal(goal: Int) {
-        dataStore.edit { it[Keys.DAILY_REVIEW_GOAL] = goal.coerceIn(6, 40) }
+        dataStore.edit { it[Keys.DAILY_REVIEW_GOAL] = goal.coerceAtLeast(6) }
     }
 
     suspend fun setBuiltInSeedVersion(version: String) {
