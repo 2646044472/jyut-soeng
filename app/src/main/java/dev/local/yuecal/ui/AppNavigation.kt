@@ -18,6 +18,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Book
 import androidx.compose.material.icons.outlined.Home
@@ -41,11 +43,16 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -449,6 +456,7 @@ private fun SessionScreen(
                 )
                 StudyQuestionType.FillJyutping,
                 StudyQuestionType.ExpressionCard -> AnswerInputCard(
+                    focusKey = question.entryId,
                     value = state.answerInput,
                     onValueChange = onAnswerChanged,
                     enabled = state.feedback == null,
@@ -659,11 +667,22 @@ private fun ExpressionContextCard(question: StudyQuestion) {
 
 @Composable
 private fun AnswerInputCard(
+    focusKey: String,
     value: String,
     onValueChange: (String) -> Unit,
     enabled: Boolean,
     onSubmit: () -> Unit,
 ) {
+    val focusRequester = FocusRequester()
+    val keyboardController = LocalSoftwareKeyboardController.current
+
+    LaunchedEffect(focusKey, enabled) {
+        if (enabled) {
+            focusRequester.requestFocus()
+            keyboardController?.show()
+        }
+    }
+
     Card {
         Column(
             modifier = Modifier
@@ -672,11 +691,21 @@ private fun AnswerInputCard(
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             OutlinedTextField(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .focusRequester(focusRequester),
                 value = value,
                 onValueChange = onValueChange,
                 enabled = enabled,
                 singleLine = true,
+                keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
+                keyboardActions = KeyboardActions(
+                    onDone = {
+                        if (enabled && value.trim().isNotEmpty()) {
+                            onSubmit()
+                        }
+                    },
+                ),
                 label = { Text("写出 Jyutping 拼写") },
                 placeholder = { Text("例如：gam jat / m goi（不用写 1-6）") },
             )

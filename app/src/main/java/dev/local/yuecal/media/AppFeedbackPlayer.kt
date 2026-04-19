@@ -13,20 +13,25 @@ object AppFeedbackPlayer {
         val delayMs: Long = 0,
     )
 
-    private val toneGenerator = ToneGenerator(AudioManager.STREAM_NOTIFICATION, 35)
+    private val toneGenerator = ToneGenerator(AudioManager.STREAM_MUSIC, 22)
     private val handler = Handler(Looper.getMainLooper())
     private var sequenceToken: Long = 0L
 
     fun playCorrect() {
         playSequence(
             ToneStep(
+                tone = ToneGenerator.TONE_PROP_BEEP,
+                durationMs = 35,
+            ),
+            ToneStep(
                 tone = ToneGenerator.TONE_PROP_BEEP2,
-                durationMs = 70,
+                durationMs = 45,
+                delayMs = 45,
             ),
             ToneStep(
                 tone = ToneGenerator.TONE_PROP_ACK,
-                durationMs = 95,
-                delayMs = 90,
+                durationMs = 60,
+                delayMs = 100,
             ),
         )
     }
@@ -34,8 +39,13 @@ object AppFeedbackPlayer {
     fun playWrong() {
         playSequence(
             ToneStep(
+                tone = ToneGenerator.TONE_PROP_BEEP2,
+                durationMs = 45,
+            ),
+            ToneStep(
                 tone = ToneGenerator.TONE_PROP_NACK,
-                durationMs = 130,
+                durationMs = 65,
+                delayMs = 60,
             ),
         )
     }
@@ -44,6 +54,8 @@ object AppFeedbackPlayer {
     private fun playSequence(vararg steps: ToneStep) {
         sequenceToken += 1
         val currentToken = sequenceToken
+        handler.removeCallbacksAndMessages(null)
+        toneGenerator.stopTone()
         steps.forEach { step ->
             handler.postDelayed(
                 {
