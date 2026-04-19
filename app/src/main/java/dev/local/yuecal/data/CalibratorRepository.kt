@@ -591,7 +591,9 @@ class CalibratorRepository @Inject constructor(
             throw IOException("HTTP ${connection.responseCode} while fetching $url")
         }
         connection.inputStream.use { input ->
-            target.outputStream().use(input::copyTo)
+            target.outputStream().use { output ->
+                input.copyTo(output)
+            }
         }
     }
 
@@ -610,7 +612,9 @@ class CalibratorRepository @Inject constructor(
                     outputFile.mkdirs()
                 } else {
                     outputFile.parentFile?.mkdirs()
-                    outputFile.outputStream().use(zipInput::copyTo)
+                    outputFile.outputStream().use { output ->
+                        zipInput.copyTo(output)
+                    }
                 }
                 zipInput.closeEntry()
                 entry = zipInput.nextEntry
