@@ -62,6 +62,7 @@ jobs:
           cp app/build/outputs/apk/release/app-release.apk "release-artifacts/yuet-soeng-${VERSION}.apk"
           cd dist/github
           zip -rq "../../release-artifacts/yuet-soeng-content-${VERSION}.zip" jyut-soeng
+          cp "../../release-artifacts/yuet-soeng-content-${VERSION}.zip" "../../release-artifacts/yuet-soeng-content.zip"
 
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2

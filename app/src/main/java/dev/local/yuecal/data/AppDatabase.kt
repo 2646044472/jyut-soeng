@@ -12,6 +12,8 @@ import androidx.room.Query
 import androidx.room.Relation
 import androidx.room.RoomDatabase
 import androidx.room.Transaction
+import androidx.room.migration.Migration
+import androidx.sqlite.db.SupportSQLiteDatabase
 import kotlinx.coroutines.flow.Flow
 
 @Entity(
@@ -41,6 +43,7 @@ data class CalibrationEntryEntity(
     val sortOrder: Int,
     val createdAt: Long,
     val updatedAt: Long,
+    val isActive: Boolean,
 )
 
 @Entity(tableName = "review_progress")
@@ -78,16 +81,17 @@ data class EntryWithProgress(
 @Dao
 interface EntryDao {
 
-    @Query("SELECT COUNT(*) FROM calibration_entries")
+    @Query("SELECT COUNT(*) FROM calibration_entries WHERE isActive = 1")
     fun observeEntryCount(): Flow<Int>
 
-    @Query("SELECT COUNT(*) FROM calibration_entries WHERE entryType = :entryType")
+    @Query("SELECT COUNT(*) FROM calibration_entries WHERE isActive = 1 AND entryType = :entryType")
     fun observeEntryCountByType(entryType: String): Flow<Int>
 
     @Transaction
     @Query(
         """
         SELECT * FROM calibration_entries
+        WHERE isActive = 1
         ORDER BY CASE WHEN sourceLabel = 'generated' THEN 1 ELSE 0 END ASC, sortOrder ASC, displayText ASC
         """,
     )
@@ -97,13 +101,16 @@ interface EntryDao {
     @Query(
         """
         SELECT * FROM calibration_entries
-        WHERE displayText LIKE '%' || :query || '%'
+        WHERE isActive = 1
+          AND (
+               displayText LIKE '%' || :query || '%'
            OR answerJyutping LIKE '%' || :query || '%'
            OR gloss LIKE '%' || :query || '%'
            OR notes LIKE '%' || :query || '%'
            OR usageTip LIKE '%' || :query || '%'
            OR exampleSentence LIKE '%' || :query || '%'
            OR exampleTranslation LIKE '%' || :query || '%'
+          )
         ORDER BY CASE WHEN sourceLabel = 'generated' THEN 1 ELSE 0 END ASC, sortOrder ASC, displayText ASC
         LIMIT :limit
         """,
@@ -114,7 +121,8 @@ interface EntryDao {
         """
         SELECT e.* FROM calibration_entries e
         JOIN review_progress p ON e.id = p.entryId
-        WHERE p.nextReviewEpochDay <= :today
+        WHERE e.isActive = 1
+          AND p.nextReviewEpochDay <= :today
           AND p.repetitions > 0
         ORDER BY
           p.nextReviewEpochDay ASC,
@@ -129,7 +137,8 @@ interface EntryDao {
         """
         SELECT e.* FROM calibration_entries e
         JOIN review_progress p ON e.id = p.entryId
-        WHERE e.entryType = :entryType
+        WHERE e.isActive = 1
+          AND e.entryType = :entryType
           AND p.nextReviewEpochDay <= :today
           AND p.repetitions > 0
         ORDER BY
@@ -145,7 +154,8 @@ interface EntryDao {
         """
         SELECT e.* FROM calibration_entries e
         JOIN review_progress p ON e.id = p.entryId
-        WHERE e.entryType = :entryType
+        WHERE e.isActive = 1
+          AND e.entryType = :entryType
           AND p.repetitions = 0
           AND p.nextReviewEpochDay <= :today
         ORDER BY
@@ -162,7 +172,8 @@ interface EntryDao {
         """
         SELECT e.* FROM calibration_entries e
         JOIN review_progress p ON e.id = p.entryId
-        WHERE e.entryType = :entryType
+        WHERE e.isActive = 1
+          AND e.entryType = :entryType
           AND p.nextReviewEpochDay > :today
           AND p.nextReviewEpochDay <= :lookaheadDay
           AND p.repetitions > 0
@@ -184,7 +195,8 @@ interface EntryDao {
         """
         SELECT e.* FROM calibration_entries e
         JOIN review_progress p ON e.id = p.entryId
-        WHERE e.entryType = :entryType
+        WHERE e.isActive = 1
+          AND e.entryType = :entryType
           AND p.repetitions > 0
         ORDER BY
           p.nextReviewEpochDay ASC,
@@ -195,17 +207,26 @@ interface EntryDao {
     )
     suspend fun getStartedReviewEntriesByType(entryType: String, limit: Int): List<CalibrationEntryEntity>
 
-    @Query("SELECT * FROM calibration_entries ORDER BY RANDOM() LIMIT :limit")
+    @Query("SELECT * FROM calibration_entries WHERE isActive = 1 ORDER BY RANDOM() LIMIT :limit")
     suspend fun getFallbackEntries(limit: Int): List<CalibrationEntryEntity>
 
-    @Query("SELECT * FROM calibration_entries WHERE entryType = :entryType ORDER BY RANDOM() LIMIT :limit")
+    @Query(
+        """
+        SELECT * FROM calibration_entries
+        WHERE isActive = 1
+          AND entryType = :entryType
+        ORDER BY RANDOM()
+        LIMIT :limit
+        """,
+    )
     suspend fun getFallbackEntriesByType(entryType: String, limit: Int): List<CalibrationEntryEntity>
 
     @Query(
         """
         SELECT e.* FROM calibration_entries e
         LEFT JOIN review_progress p ON e.id = p.entryId
-        WHERE e.entryType = :entryType
+        WHERE e.isActive = 1
+          AND e.entryType = :entryType
           AND p.entryId IS NULL
         ORDER BY CASE WHEN e.sourceLabel = 'generated' THEN 1 ELSE 0 END ASC, RANDOM()
         LIMIT :limit
@@ -213,17 +234,30 @@ interface EntryDao {
     )
     suspend fun getNewEntriesByType(entryType: String, limit: Int): List<CalibrationEntryEntity>
 
-    @Query("SELECT * FROM calibration_entries WHERE id = :id LIMIT 1")
+    @Query("SELECT * FROM calibration_entries WHERE isActive = 1 AND id = :id LIMIT 1")
     suspend fun getEntryById(id: String): CalibrationEntryEntity?
 
-    @Query("SELECT * FROM calibration_entries WHERE groupId = :groupId ORDER BY tone ASC")
+    @Query("SELECT * FROM calibration_entries WHERE isActive = 1 AND groupId = :groupId ORDER BY tone ASC")
     suspend fun getByGroup(groupId: String): List<CalibrationEntryEntity>
 
-    @Query("SELECT * FROM calibration_entries ORDER BY displayText ASC")
+    @Query("SELECT * FROM calibration_entries WHERE isActive = 1 ORDER BY displayText ASC")
     suspend fun getAllEntries(): List<CalibrationEntryEntity>
+
+    @Query("SELECT * FROM calibration_entries ORDER BY displayText ASC")
+    suspend fun getAllEntriesIncludingArchived(): List<CalibrationEntryEntity>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertEntries(entries: List<CalibrationEntryEntity>)
+
+    @Query(
+        """
+        UPDATE calibration_entries
+        SET isActive = 0,
+            updatedAt = :updatedAt
+        WHERE id IN (:entryIds)
+        """,
+    )
+    suspend fun archiveEntries(entryIds: List<String>, updatedAt: Long)
 }
 
 @Dao
@@ -233,7 +267,8 @@ interface ProgressDao {
         """
         SELECT COUNT(*) FROM calibration_entries e
         JOIN review_progress p ON e.id = p.entryId
-        WHERE p.nextReviewEpochDay <= :today
+        WHERE e.isActive = 1
+          AND p.nextReviewEpochDay <= :today
           AND p.repetitions > 0
         """,
     )
@@ -243,7 +278,8 @@ interface ProgressDao {
         """
         SELECT COUNT(*) FROM calibration_entries e
         JOIN review_progress p ON e.id = p.entryId
-        WHERE e.entryType = :entryType
+        WHERE e.isActive = 1
+          AND e.entryType = :entryType
           AND p.nextReviewEpochDay <= :today
           AND p.repetitions > 0
         """,
@@ -254,7 +290,8 @@ interface ProgressDao {
         """
         SELECT COUNT(*) FROM calibration_entries e
         LEFT JOIN review_progress p ON e.id = p.entryId
-        WHERE e.entryType = :entryType
+        WHERE e.isActive = 1
+          AND e.entryType = :entryType
           AND p.entryId IS NULL
         """,
     )
@@ -262,8 +299,10 @@ interface ProgressDao {
 
     @Query(
         """
-        SELECT COUNT(*) FROM review_progress
-        WHERE nextReviewEpochDay = :day
+        SELECT COUNT(*) FROM calibration_entries e
+        JOIN review_progress p ON e.id = p.entryId
+        WHERE e.isActive = 1
+          AND p.nextReviewEpochDay = :day
           AND repetitions > 0
         """,
     )
@@ -273,20 +312,34 @@ interface ProgressDao {
         """
         SELECT COUNT(*) FROM calibration_entries e
         JOIN review_progress p ON e.id = p.entryId
-        WHERE p.nextReviewEpochDay <= :today
+        WHERE e.isActive = 1
+          AND p.nextReviewEpochDay <= :today
           AND p.repetitions > 0
         """,
     )
     suspend fun dueCountNow(today: Long): Int
 
-    @Query("SELECT COUNT(*) FROM review_progress WHERE repetitions > 0")
+    @Query(
+        """
+        SELECT COUNT(*) FROM calibration_entries e
+        JOIN review_progress p ON e.id = p.entryId
+        WHERE e.isActive = 1
+          AND p.repetitions > 0
+        """,
+    )
     fun observeStartedCount(): Flow<Int>
 
     @Query("SELECT * FROM review_progress WHERE entryId = :entryId LIMIT 1")
     suspend fun getProgress(entryId: String): ReviewProgressEntity?
 
+    @Query("SELECT * FROM review_progress WHERE entryId IN (:entryIds)")
+    suspend fun getProgressByEntryIds(entryIds: List<String>): List<ReviewProgressEntity>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertProgress(progress: ReviewProgressEntity)
+
+    @Query("DELETE FROM review_progress WHERE entryId IN (:entryIds)")
+    suspend fun deleteProgressByEntryIds(entryIds: List<String>)
 }
 
 @Dao
@@ -294,6 +347,15 @@ interface SessionDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertAttempt(attempt: StudyAttemptEntity)
+
+    @Query(
+        """
+        UPDATE study_attempts
+        SET entryId = :targetEntryId
+        WHERE entryId = :sourceEntryId
+        """,
+    )
+    suspend fun reassignAttempts(sourceEntryId: String, targetEntryId: String)
 
     @Query("SELECT COUNT(*) FROM study_attempts")
     fun observeAttemptsCount(): Flow<Int>
@@ -304,11 +366,22 @@ interface SessionDao {
 
 @Database(
     entities = [CalibrationEntryEntity::class, ReviewProgressEntity::class, StudyAttemptEntity::class],
-    version = 3,
+    version = 4,
     exportSchema = false,
 )
 abstract class AppDatabase : RoomDatabase() {
     abstract fun entryDao(): EntryDao
     abstract fun progressDao(): ProgressDao
     abstract fun sessionDao(): SessionDao
+}
+
+val MIGRATION_3_4 = object : Migration(3, 4) {
+    override fun migrate(database: SupportSQLiteDatabase) {
+        database.execSQL(
+            """
+            ALTER TABLE calibration_entries
+            ADD COLUMN isActive INTEGER NOT NULL DEFAULT 1
+            """.trimIndent(),
+        )
+    }
 }

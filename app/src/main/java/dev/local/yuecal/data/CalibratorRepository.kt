@@ -2,6 +2,7 @@ package dev.local.yuecal.data
 
 import android.content.Context
 import android.net.Uri
+import androidx.room.withTransaction
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dev.local.yuecal.di.IoDispatcher
 import dev.local.yuecal.domain.AppSettings
@@ -20,10 +21,12 @@ import dev.local.yuecal.domain.statusLabel
 import dev.local.yuecal.domain.todayEpochDay
 import dev.local.yuecal.media.AppAudioPlayer
 import java.io.File
+import java.io.IOException
 import java.net.HttpURLConnection
-import java.time.Instant
 import java.net.URL
+import java.time.Instant
 import java.util.UUID
+import java.util.zip.ZipInputStream
 import javax.inject.Inject
 import javax.inject.Singleton
 import kotlin.math.roundToInt
@@ -40,6 +43,7 @@ import kotlinx.serialization.json.Json
 
 @Singleton
 class CalibratorRepository @Inject constructor(
+    private val database: AppDatabase,
     private val entryDao: EntryDao,
     private val progressDao: ProgressDao,
     private val sessionDao: SessionDao,
@@ -128,17 +132,12 @@ class CalibratorRepository @Inject constructor(
         if (!force && currentSettings.builtInSeedVersion == bundle.version) {
             ImportResult(sourceLabel = "builtin", version = bundle.version, importedCount = 0)
         } else {
-            val now = System.currentTimeMillis()
-            val entities = bundle.entries.map { asset ->
-                asset.toEntity(
-                    createdAt = now,
-                    updatedAt = now,
-                    defaultSource = "builtin",
-                )
-            }
-            entryDao.upsertEntries(entities)
+            val result = syncManagedBundle(
+                bundle = bundle,
+                defaultSource = "builtin",
+            )
             settingsStore.setBuiltInSeedVersion(bundle.version)
-            ImportResult(sourceLabel = "builtin", version = bundle.version, importedCount = entities.size)
+            result
         }
     }
 
@@ -160,22 +159,27 @@ class CalibratorRepository @Inject constructor(
     }
 
     suspend fun importFromGitHub(): ImportResult = withContext(ioDispatcher) {
-        val bundle = decodeBundle(httpGetText(GitHubSources.CONTENT_BUNDLE_URL))
-        val now = System.currentTimeMillis()
-        val localRoot = File(context.filesDir, "github-content")
-        val entities = bundle.entries.map { asset ->
-            val localAudio = asset.audioAsset?.let { relativePath ->
-                downloadGitHubAudio(relativePath, localRoot)
+        runCatching { importFromGitHubPack() }
+            .getOrElse { packError ->
+                val wrapped = IOException("GitHub 内容包暂不可用", packError)
+                throw wrapped
             }
-            asset.toEntity(
-                createdAt = now,
-                updatedAt = now,
-                defaultSource = "github",
-                audioOverride = localAudio,
-            )
+    }
+
+    private suspend fun importFromGitHubPack(): ImportResult {
+        val localRoot = downloadGitHubPack()
+        val bundleFile = File(localRoot, "content.json")
+        if (!bundleFile.exists()) {
+            error("GitHub 内容包缺少 content.json")
         }
-        entryDao.upsertEntries(entities)
-        ImportResult(sourceLabel = "github", version = bundle.version, importedCount = entities.size)
+        val bundle = decodeBundle(bundleFile.readText())
+        return syncManagedBundle(
+            bundle = bundle,
+            defaultSource = "github",
+            audioResolver = { asset ->
+                resolveImportedAudio(asset.audioAsset, localRoot)
+            },
+        )
     }
 
     suspend fun buildSession(
@@ -387,6 +391,104 @@ class CalibratorRepository @Inject constructor(
         }
     }
 
+    private suspend fun syncManagedBundle(
+        bundle: ContentBundle,
+        defaultSource: String,
+        audioResolver: (ContentEntryAsset) -> String? = { null },
+    ): ImportResult {
+        val now = System.currentTimeMillis()
+        val entities = bundle.entries.map { asset ->
+            asset.toEntity(
+                createdAt = now,
+                updatedAt = now,
+                defaultSource = defaultSource,
+                audioOverride = audioResolver(asset),
+            )
+        }
+        database.withTransaction {
+            syncManagedEntries(
+                incomingAssets = bundle.entries,
+                incomingEntities = entities,
+                updatedAt = now,
+            )
+        }
+        return ImportResult(
+            sourceLabel = defaultSource,
+            version = bundle.version,
+            importedCount = entities.size,
+        )
+    }
+
+    private suspend fun syncManagedEntries(
+        incomingAssets: List<ContentEntryAsset>,
+        incomingEntities: List<CalibrationEntryEntity>,
+        updatedAt: Long,
+    ) {
+        val existingEntries = entryDao.getAllEntriesIncludingArchived()
+        val plan = ManagedEntrySyncPlanner.plan(
+            existingEntries = existingEntries,
+            incomingEntries = incomingAssets,
+        )
+        entryDao.upsertEntries(incomingEntities)
+
+        val progressIds = (plan.aliasTargetByEntryId.keys + plan.aliasTargetByEntryId.values).distinct()
+        val progressById = if (progressIds.isEmpty()) {
+            emptyMap()
+        } else {
+            progressDao.getProgressByEntryIds(progressIds).associateBy { it.entryId }
+        }
+
+        plan.aliasTargetByEntryId.entries
+            .groupBy(keySelector = { it.value }, valueTransform = { it.key })
+            .forEach { (targetEntryId, sourceEntryIds) ->
+                val uniqueSourceIds = sourceEntryIds.distinct()
+                val mergedProgress = buildList {
+                    progressById[targetEntryId]?.let(::add)
+                    uniqueSourceIds.forEach { sourceEntryId ->
+                        progressById[sourceEntryId]?.let(::add)
+                    }
+                }
+                ReviewProgressMerger.merge(
+                    targetId = targetEntryId,
+                    records = mergedProgress,
+                )?.let(progressDao::upsertProgress)
+                if (uniqueSourceIds.isNotEmpty()) {
+                    progressDao.deleteProgressByEntryIds(uniqueSourceIds)
+                    uniqueSourceIds.forEach { sourceEntryId ->
+                        sessionDao.reassignAttempts(
+                            sourceEntryId = sourceEntryId,
+                            targetEntryId = targetEntryId,
+                        )
+                    }
+                }
+            }
+
+        if (plan.archiveEntryIds.isNotEmpty()) {
+            entryDao.archiveEntries(plan.archiveEntryIds.toList(), updatedAt = updatedAt)
+        }
+    }
+
+    private fun downloadGitHubPack(): File {
+        val localRoot = File(context.filesDir, "github-content")
+        val tempRoot = File(context.cacheDir, "github-content-download")
+        resetDirectory(tempRoot)
+        val zipFile = File(tempRoot, "content.zip")
+        downloadToFile(
+            url = GitHubSources.CONTENT_PACK_URL,
+            target = zipFile,
+            accept = "application/octet-stream",
+        )
+        unzip(zipFile = zipFile, targetDir = tempRoot)
+        val extractedRoot = tempRoot.walkTopDown()
+            .firstOrNull { it.isFile && it.name == "content.json" }
+            ?.parentFile
+            ?: error("GitHub 内容包缺少 content.json")
+        resetDirectory(localRoot)
+        extractedRoot.copyRecursively(localRoot, overwrite = true)
+        tempRoot.deleteRecursively()
+        return localRoot
+    }
+
     private fun decodeBundle(text: String): ContentBundle {
         return try {
             json.decodeFromString(ContentBundle.serializer(), text)
@@ -424,6 +526,7 @@ class CalibratorRepository @Inject constructor(
         sortOrder = sortOrder.coerceAtLeast(1),
         createdAt = createdAt,
         updatedAt = updatedAt,
+        isActive = true,
     )
 
     private fun EntryWithProgress.toModel(): CalibrationEntry {
@@ -471,22 +574,64 @@ class CalibratorRepository @Inject constructor(
         return connection.inputStream.bufferedReader().use { it.readText() }
     }
 
-    private fun downloadGitHubAudio(relativePath: String, localRoot: File): String {
-        if (packagedAssetExists(relativePath)) {
-            return relativePath
-        }
-        val target = File(localRoot, relativePath)
+    private fun downloadToFile(
+        url: String,
+        target: File,
+        accept: String,
+    ) {
         target.parentFile?.mkdirs()
-        val connection = (URL("${GitHubSources.RAW_BASE_URL}/$relativePath").openConnection() as HttpURLConnection).apply {
+        val connection = (URL(url).openConnection() as HttpURLConnection).apply {
             connectTimeout = 15_000
             readTimeout = 60_000
             requestMethod = "GET"
+            setRequestProperty("Accept", accept)
             setRequestProperty("User-Agent", "CantoCalibrator/0.1.0")
         }
-        connection.inputStream.use { input ->
-            target.outputStream().use { output -> input.copyTo(output) }
+        if (connection.responseCode !in 200..299) {
+            throw IOException("HTTP ${connection.responseCode} while fetching $url")
         }
-        return target.absolutePath
+        connection.inputStream.use { input ->
+            target.outputStream().use(input::copyTo)
+        }
+    }
+
+    private fun unzip(
+        zipFile: File,
+        targetDir: File,
+    ) {
+        ZipInputStream(zipFile.inputStream().buffered()).use { zipInput ->
+            var entry = zipInput.nextEntry
+            val targetRootPath = targetDir.canonicalFile.toPath()
+            while (entry != null) {
+                val outputFile = File(targetDir, entry.name)
+                val outputPath = outputFile.canonicalFile.toPath()
+                require(outputPath.startsWith(targetRootPath)) { "GitHub 内容包路径非法" }
+                if (entry.isDirectory) {
+                    outputFile.mkdirs()
+                } else {
+                    outputFile.parentFile?.mkdirs()
+                    outputFile.outputStream().use(zipInput::copyTo)
+                }
+                zipInput.closeEntry()
+                entry = zipInput.nextEntry
+            }
+        }
+    }
+
+    private fun resetDirectory(directory: File) {
+        if (directory.exists()) {
+            directory.deleteRecursively()
+        }
+        directory.mkdirs()
+    }
+
+    private fun resolveImportedAudio(relativePath: String?, localRoot: File): String? {
+        relativePath ?: return null
+        if (packagedAssetExists(relativePath)) {
+            return relativePath
+        }
+        val downloadedFile = File(localRoot, relativePath)
+        return downloadedFile.takeIf(File::exists)?.absolutePath
     }
 
     private fun packagedAssetExists(path: String): Boolean = runCatching {

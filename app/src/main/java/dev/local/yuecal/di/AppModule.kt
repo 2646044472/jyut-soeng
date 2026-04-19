@@ -9,6 +9,7 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import dev.local.yuecal.data.AppDatabase
 import dev.local.yuecal.data.EntryDao
+import dev.local.yuecal.data.MIGRATION_3_4
 import dev.local.yuecal.data.ProgressDao
 import dev.local.yuecal.data.SessionDao
 import javax.inject.Qualifier
@@ -45,7 +46,7 @@ object AppModule {
         context,
         AppDatabase::class.java,
         "canto_calibrator.db",
-    ).fallbackToDestructiveMigration().build()
+    ).addMigrations(MIGRATION_3_4).build()
 
     @Provides
     fun provideEntryDao(database: AppDatabase): EntryDao = database.entryDao()
