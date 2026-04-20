@@ -101,8 +101,8 @@ def main() -> None:
     entry_types = Counter(entry.get("entryType", "word") for entry in entries)
     if entry_types.get("word", 0) < 2500:
         raise SystemExit("Need at least 2500 word correction entries.")
-    if entry_types.get("expression", 0) < 500:
-        raise SystemExit("Need at least 500 expression/slang entries.")
+    if entry_types.get("expression", 0) < 1000:
+        raise SystemExit("Need at least 1000 expression/slang entries.")
 
     for entry in entries:
         for key in ("displayText", "promptText", "answerJyutping", "usageTip", "exampleSentence", "category"):

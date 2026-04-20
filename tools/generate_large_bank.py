@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 from __future__ import annotations
 
 import json
@@ -11,9 +11,9 @@ WORDS_OUTPUT_PATH = ROOT / "content" / "generated_words_bank.json"
 EXPRESSIONS_OUTPUT_PATH = ROOT / "content" / "generated_expressions_bank.json"
 WORDS_HK_WORDLIST_URL = "https://words.hk/faiman/analysis/wordslist.json"
 TARGET_WORD_COUNT = 2550
-TARGET_EXPRESSION_COUNT = 560
+TARGET_EXPRESSION_COUNT = 1000
 
-ZH_RE = re.compile(r"[\u4e00-\u9fff]{2,5}")
+ZH_RE = re.compile(r"[\u4e00-\u9fff]{2,6}")
 PRON_RE = re.compile(r"[a-z1-6 ]+")
 
 WORD_PRIORITY_CHARS = set("學工講話語口讀音正校準達情意識進資料效率溝通表達進度節奏情緒處理判斷邏輯方法關係感受時間工作學習安排版本結果方向功能練習聲母韻母語氣自然熟練問題做法資料通知處境人心表現選擇方式狀態感覺計畫經驗反應改善理解分析決定完成確認目標")
@@ -82,7 +82,7 @@ EXCLUDED_EXPRESSIONS = {
     "有冇計",
 }
 
-BLACKLIST_WORD_FRAGMENTS = ("翳", "黐", "躝", "𨋢", "厴", "挐", "掕")
+BLACKLIST_WORD_FRAGMENTS = ("翳", "黀", "躝", "\U000282E2", "厴", "挑", "捕")
 LOW_CONFIDENCE_WORD_FRAGMENTS = (
     "工時",
     "結構",
@@ -109,20 +109,20 @@ LOW_CONFIDENCE_WORD_FRAGMENTS = (
     "反式脂肪",
     "通知金",
 )
-PROFANITY_FRAGMENTS = ("老母", "仆街", "扑街", "屎", "閪", "鳩", "撚", "雞蟲", "風月", "妓", "賤", "鹹濕", "咸濕", "去死", "波大")
+PROFANITY_FRAGMENTS = ("老母", "仆街", "扑街", "屎", "閪", "鳩", "撚", "屌", "雞蟲", "風月", "奷", "賤", "鹹濕", "咸濕", "去死", "波大")
 BOOKISH_FRAGMENTS = ("珍饈", "垂手", "高手如雲", "防毒", "心術", "立心", "社會現象", "正面回應", "善意提醒", "外科口罩", "人口販賣", "氣勢磅礡")
 WEAK_EXPRESSION_FRAGMENTS = (
     "釐",
     "咑",
-    "痾",
+    "疾",
     "矺",
     "祇",
     "擳",
     "龜逗",
     "碇",
     "卓",
-    "挐掕",
-    "補鑊",
+    "挑捕",
+    "補鐺",
     "順超",
     "垃集",
     "埗到",
@@ -161,6 +161,132 @@ WEAK_EXPRESSION_FRAGMENTS = (
     "咁高咁大",
 )
 LOW_CONFIDENCE_WORD_SUFFIXES = ("學", "學校", "效應", "作用", "結構", "工時")
+EXPRESSION_STRONG_MARKERS = (
+    "唔",
+    "冇",
+    "乜",
+    "咁",
+    "佢",
+    "嗰",
+    "嚟",
+    "咗",
+    "喎",
+    "咩",
+    "囉",
+    "噉",
+    "嘢",
+    "喺",
+)
+EXPRESSION_SOFT_MARKERS = (
+    "啲",
+    "呢",
+    "啦",
+    "晒",
+    "嘅",
+    "尐",
+    "嗮",
+)
+EXPRESSION_VARIANT_PENALTY_CHARS = set("戙疋噉厴砣説甫檯櫈柚")
+EXPRESSION_VARIANT_BONUS_CHARS = set("棟匹咁掩陀說到枱凳遊")
+EXTRA_COLLOQUIAL_EXPRESSIONS = {
+    "傻傻戇戇",
+    "傻傻更更",
+    "手手腳腳",
+    "頭頭尾尾",
+    "口口聲聲",
+    "快快手手",
+    "神神怪怪",
+    "神神經經",
+    "老友鬼鬼",
+    "迷迷懵懵",
+    "迷迷糊糊",
+    "問到口啞啞",
+    "大大話話",
+    "四四正正",
+    "四腳爬爬",
+    "安安份份",
+    "安安靜靜",
+    "官仔骨骨",
+    "巴巴閉閉",
+    "晨早流流",
+    "新年流流",
+    "思思縮縮",
+    "忙忙狼狼",
+    "死死地氣",
+    "陰陰嘴笑",
+    "快快脆脆",
+    "大啖大啖",
+    "拍拍籮柚",
+    "搬搬抬抬",
+    "整下整下",
+    "溶溶爛爛",
+    "毛毛草草",
+    "好好醜醜",
+    "草草收尾",
+    "草草收場",
+    "人頭湧湧",
+    "笑口噬噬",
+    "大巴大巴",
+    "歪歪斜斜",
+    "密密麻麻",
+    "老老實實",
+}
+BLOCKED_EXPRESSIONS = {
+    "一個唔該",
+    "對唔住",
+    "俾電話",
+    "畀電話",
+    "啫喱筆",
+    "啫喱糖",
+    "清潔姐姐",
+    "收益率",
+    "收視率",
+    "收銀機",
+    "收銀櫃",
+    "收藏品",
+    "機頂盒",
+    "未婚媽媽",
+    "巴巴多斯",
+    "發生關係",
+    "裙帶關係",
+    "關係到",
+    "打通關係",
+    "時哩沙啦",
+    "殀殀晒晒",
+    "又話呢又話嚕",
+    "又話呢又話路",
+    "唵嘛呢叭咪吽",
+    "嚤囉差玩音樂",
+    "摩囉差玩音樂",
+    "傳説中嘅",
+    "邊度係呢",
+    "咯咯咯咯",
+    "哩哩啦啦",
+    "而字噉手",
+    "禾熟噉頭",
+    "四萬噉口",
+    "吟詩吟唔甩",
+    "吟詩都吟唔甩",
+    "侲侲哋",
+    "借啲意",
+    "第二啲",
+    "北角過啲",
+    "有啲那個",
+    "賓虛噉嘅場面",
+    "舞龍噉舞",
+    "食七噉食",
+    "你啲人",
+    "囉囉攣",
+    "哈囉喂",
+    "嚤囉差",
+    "囉機字",
+    "摩囉差",
+    "摩囉綢",
+    "該偎囉",
+    "金波囉",
+}
+
+
 
 
 def load_existing_display_texts() -> set[str]:
@@ -217,15 +343,11 @@ def classify_word_category(word: str) -> str:
 
 
 def classify_expression_category(word: str) -> str:
-    if any(token in word for token in ("嬲", "驚", "煩", "頹", "怯", "火", "尷", "窒住條氣", "頂唔順")):
+    if any(token in word for token in ("嬲", "驚", "煩", "頹", "怯", "火", "尷", "慌", "忟", "炆")):
         return "情绪表达"
-    if any(token in word for token in ("講", "話", "問", "答", "駁", "傾", "聲")):
-        return "口语场景"
-    if any(token in word for token in ("搞掂", "手尾", "收科", "埋單", "交代")):
+    if any(token in word for token in ("交代", "埋單", "收尾", "跟進", "進度", "開會", "收科")):
         return "工作场景"
-    if count_hits(word, COLLOQUIAL_CORE_MARKERS) > 0:
-        return "俚语表达"
-    return "日常表达"
+    return "俚语表达"
 
 
 def build_usage_tip(word: str, category: str, kind: str) -> str:
@@ -340,17 +462,28 @@ def expression_colloquial_score(word: str) -> int:
     )
 
 
-def score_expression(word: str) -> tuple[int, int, str]:
+def score_expression(word: str) -> tuple[int, int, int, str]:
     penalty = count_hits(word, BOOKISH_CHARS) * 4
+    strong_count = sum(marker in word for marker in EXPRESSION_STRONG_MARKERS)
+    soft_count = sum(marker in word for marker in EXPRESSION_SOFT_MARKERS)
+    bonus = strong_count * 4 + soft_count
+    if word in EXTRA_COLLOQUIAL_EXPRESSIONS:
+        bonus += 6
     if word.startswith(("一", "你", "佢", "我", "依", "呢")):
         penalty += 2
-    return (-(expression_colloquial_score(word) - penalty), len(word), word)
+    variant_penalty = (
+        count_hits(word, EXPRESSION_VARIANT_PENALTY_CHARS)
+        - count_hits(word, EXPRESSION_VARIANT_BONUS_CHARS)
+    )
+    return (-(expression_colloquial_score(word) + bonus - penalty), variant_penalty, len(word), word)
 
 
 def should_keep_expression_candidate(word: str) -> bool:
-    if len(word) < 3 or len(word) > 5:
+    if len(word) < 3 or len(word) > 6:
         return False
     if word in EXCLUDED_EXPRESSIONS:
+        return False
+    if word in BLOCKED_EXPRESSIONS:
         return False
     if any(fragment in word for fragment in PROFANITY_FRAGMENTS):
         return False
@@ -364,7 +497,6 @@ def should_keep_expression_candidate(word: str) -> bool:
         return False
     strong_hits = count_hits(word, COLLOQUIAL_CORE_MARKERS)
     action_hits = count_hits(word, COLLOQUIAL_ACTION_MARKERS)
-    emotion_hits = count_hits(word, EMOTION_MARKERS)
     context_hits = count_hits(word, COLLOQUIAL_CONTEXT_MARKERS)
     if strong_hits == 0 and action_hits < 2:
         return False
@@ -375,6 +507,33 @@ def should_keep_expression_candidate(word: str) -> bool:
     if word.endswith(("場所", "現象", "功能", "口罩")):
         return False
     return True
+
+
+def has_expression_grammar_markers(word: str) -> bool:
+    strong_count = sum(marker in word for marker in EXPRESSION_STRONG_MARKERS)
+    soft_count = sum(marker in word for marker in EXPRESSION_SOFT_MARKERS)
+    return strong_count > 0 or soft_count >= 2
+
+
+def should_keep_expanded_expression_candidate(word: str) -> bool:
+    if should_keep_expression_candidate(word):
+        return True
+    if word in BLOCKED_EXPRESSIONS:
+        return False
+    if any(fragment in word for fragment in PROFANITY_FRAGMENTS):
+        return False
+    if any(fragment in word for fragment in BOOKISH_FRAGMENTS):
+        return False
+    if any(fragment in word for fragment in WEAK_EXPRESSION_FRAGMENTS):
+        return False
+    if len(word) < 3 or len(word) > 6:
+        return False
+    return has_expression_grammar_markers(word) or word in EXTRA_COLLOQUIAL_EXPRESSIONS
+
+
+def select_expression_candidates(pairs: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    ranked = sorted(pairs, key=lambda item: score_expression(item[0]))
+    return ranked[:TARGET_EXPRESSION_COUNT]
 
 
 def main() -> None:
@@ -395,7 +554,7 @@ def main() -> None:
         if not pronunciation:
             continue
 
-        if should_keep_expression_candidate(normalized_word):
+        if should_keep_expanded_expression_candidate(normalized_word):
             expression_candidates.append((normalized_word, pronunciation))
             continue
 
@@ -409,8 +568,7 @@ def main() -> None:
     word_candidates = sorted(word_candidates, key=lambda item: score_word(item[0]))
     selected_words = word_candidates[:TARGET_WORD_COUNT]
 
-    expression_candidates = sorted(expression_candidates, key=lambda item: score_expression(item[0]))
-    selected_expressions = expression_candidates[:TARGET_EXPRESSION_COUNT]
+    selected_expressions = select_expression_candidates(expression_candidates)
 
     WORDS_OUTPUT_PATH.write_text(
         json.dumps(build_rows(selected_words, "word"), ensure_ascii=False, indent=2) + "\n",
