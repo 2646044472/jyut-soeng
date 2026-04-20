@@ -158,7 +158,6 @@ fun CantoCalibratorApp() {
                         onAutoplayChanged = viewModel::setAutoplay,
                         onReminderChanged = viewModel::setReminders,
                         onDailyLearnGoalChange = viewModel::updateDailyLearnGoal,
-                        onDailyReviewGoalChange = viewModel::updateDailyReviewGoal,
                         onRefreshBuiltin = viewModel::refreshBuiltinContent,
                         onImportFromGitHub = viewModel::importFromGitHub,
                         onDismissMessage = viewModel::clearMessage,
@@ -210,9 +209,9 @@ private fun TodayScreen(
         item {
             SessionLaneCard(
                 eyebrow = "今日复习",
-                title = "先刷到期，再补短间隔巩固",
-                description = "复习优先给你今天该回看的内容，不够时再补短间隔条目，学习和复习不再脱节。",
-                stats = "待复习词 ${summary.dueWordEntries} · 表达 ${summary.dueExpressionEntries} · 手动目标 ${summary.dailyReviewGoal}",
+                title = "先刷到期，再决定要不要多练",
+                description = "今日目标只算已学过且到期的词和表达；刷完以后想多练，再继续补刷已学内容。",
+                stats = "待回看词 ${summary.dueWordEntries} · 表达 ${summary.dueExpressionEntries} · 自动目标 ${summary.dailyReviewGoal}",
                 cta = "开始今日复习",
                 onClick = onStartReview,
             )
@@ -299,7 +298,6 @@ private fun ProfileScreen(
     onAutoplayChanged: (Boolean) -> Unit,
     onReminderChanged: (Boolean) -> Unit,
     onDailyLearnGoalChange: (Int) -> Unit,
-    onDailyReviewGoalChange: (Int) -> Unit,
     onRefreshBuiltin: () -> Unit,
     onImportFromGitHub: () -> Unit,
     onDismissMessage: () -> Unit,
@@ -343,12 +341,10 @@ private fun ProfileScreen(
             )
         }
         item {
-            GoalCard(
-                title = "每日复习目标",
-                subtitle = "今天要刷回嘴边的复习量，手动调整。",
-                value = settings.dailyReviewGoal,
-                min = 6,
-                onChange = onDailyReviewGoalChange,
+            StatCard(
+                title = "今日复习量",
+                value = "${state.dashboard.dailyReviewGoal}",
+                subtitle = "只把已学过且到期的内容算进今日目标；想多练时再继续刷已学词。",
             )
         }
         item {

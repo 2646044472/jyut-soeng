@@ -46,7 +46,7 @@ data class DashboardSummary(
     val totalAttempts: Int = 0,
     val totalCorrect: Int = 0,
     val dailyLearnGoal: Int = 10,
-    val dailyReviewGoal: Int = 16,
+    val dailyReviewGoal: Int = 0,
 ) {
     val accuracyPercent: Int
         get() = if (totalAttempts == 0) 0 else ((totalCorrect * 100.0) / totalAttempts).toInt()
@@ -98,7 +98,6 @@ data class AppSettings(
     val autoplayAudio: Boolean = true,
     val remindersEnabled: Boolean = true,
     val dailyLearnGoal: Int = 10,
-    val dailyReviewGoal: Int = 16,
     val builtInSeedVersion: String = "",
 )
 

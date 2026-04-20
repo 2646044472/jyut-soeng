@@ -11,6 +11,7 @@ import dev.local.yuecal.domain.DashboardSummary
 import dev.local.yuecal.domain.EntryProgress
 import dev.local.yuecal.domain.ImportResult
 import dev.local.yuecal.domain.JudgingEngine
+import dev.local.yuecal.domain.ReviewTargetPlanner
 import dev.local.yuecal.domain.SessionMode
 import dev.local.yuecal.domain.Sm2Scheduler
 import dev.local.yuecal.domain.StudyQuestion
@@ -40,6 +41,23 @@ import kotlinx.coroutines.withContext
 import kotlinx.serialization.SerializationException
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.json.Json
+
+private data class ReviewCountsSnapshot(
+    val dueEntries: Int,
+    val dueWordEntries: Int,
+    val dueExpressionEntries: Int,
+    val incomingReviewEntries: Int,
+    val newWordEntries: Int,
+    val newExpressionEntries: Int,
+    val startedEntries: Int,
+    val startedWordEntries: Int,
+    val startedExpressionEntries: Int,
+)
+
+private data class SessionTypeTargets(
+    val wordLimit: Int,
+    val expressionLimit: Int,
+)
 
 @Singleton
 class CalibratorRepository @Inject constructor(
@@ -71,28 +89,47 @@ class CalibratorRepository @Inject constructor(
         progressDao.observeIncomingCount(todayEpochDay() + 1),
         progressDao.observeNewCountByType("word"),
         progressDao.observeNewCountByType("expression"),
+        progressDao.observeStartedCount(),
+        progressDao.observeStartedCountByType("word"),
+        progressDao.observeStartedCountByType("expression"),
     ) { counts ->
-        counts.toList()
+        ReviewCountsSnapshot(
+            dueEntries = counts[0] as Int,
+            dueWordEntries = counts[1] as Int,
+            dueExpressionEntries = counts[2] as Int,
+            incomingReviewEntries = counts[3] as Int,
+            newWordEntries = counts[4] as Int,
+            newExpressionEntries = counts[5] as Int,
+            startedEntries = counts[6] as Int,
+            startedWordEntries = counts[7] as Int,
+            startedExpressionEntries = counts[8] as Int,
+        )
     }
 
     private val dashboardCounts = combine(
         entryCounts,
         reviewCounts,
-        progressDao.observeStartedCount(),
         sessionDao.observeAttemptsCount(),
-    ) { entries, review, startedEntries, attempts ->
+    ) { entries, review, attempts ->
         DashboardSummary(
             totalEntries = entries.first,
             wordEntries = entries.second,
             expressionEntries = entries.third,
-            dueEntries = review[0],
-            dueWordEntries = review[1],
-            dueExpressionEntries = review[2],
-            incomingReviewEntries = review[3],
-            newWordEntries = review[4],
-            newExpressionEntries = review[5],
-            startedEntries = startedEntries,
+            dueEntries = review.dueEntries,
+            dueWordEntries = review.dueWordEntries,
+            dueExpressionEntries = review.dueExpressionEntries,
+            incomingReviewEntries = review.incomingReviewEntries,
+            newWordEntries = review.newWordEntries,
+            newExpressionEntries = review.newExpressionEntries,
+            startedEntries = review.startedEntries,
             totalAttempts = attempts,
+            dailyReviewGoal = ReviewTargetPlanner.targetForToday(
+                dueEntries = review.dueWordEntries,
+                studiedEntries = review.startedWordEntries,
+            ) + ReviewTargetPlanner.targetForToday(
+                dueEntries = review.dueExpressionEntries,
+                studiedEntries = review.startedExpressionEntries,
+            ),
         )
     }
 
@@ -104,7 +141,6 @@ class CalibratorRepository @Inject constructor(
         base.copy(
             totalCorrect = correct ?: 0,
             dailyLearnGoal = settings.dailyLearnGoal,
-            dailyReviewGoal = settings.dailyReviewGoal,
         )
     }
 
@@ -186,60 +222,39 @@ class CalibratorRepository @Inject constructor(
         mode: SessionMode,
     ): StudySession = withContext(ioDispatcher) {
         val settings = settingsStore.snapshot()
-        val targetSize = when (mode) {
-            SessionMode.Learn -> settings.dailyLearnGoal.coerceAtLeast(4)
-            SessionMode.Review -> settings.dailyReviewGoal.coerceAtLeast(6)
-        }
-        val expressionLimit = when (mode) {
-            SessionMode.Learn -> (targetSize * 0.4f).roundToInt().coerceAtLeast(2)
-            SessionMode.Review -> (targetSize * 0.35f).roundToInt().coerceAtLeast(2)
-        }
-        val wordLimit = (targetSize - expressionLimit).coerceAtLeast(2)
         val today = todayEpochDay()
+        val targets = when (mode) {
+            SessionMode.Learn -> buildLearningTargets(settings.dailyLearnGoal)
+            SessionMode.Review -> buildReviewTargets(today)
+        }
         val wordEntries = when (mode) {
             SessionMode.Learn -> selectLearningEntriesByType(
                 entryType = "word",
-                today = today,
-                limit = wordLimit,
+                limit = targets.wordLimit,
             )
             SessionMode.Review -> selectReviewEntriesByType(
                 entryType = "word",
                 today = today,
-                limit = wordLimit,
+                limit = targets.wordLimit,
             )
         }
         val expressionEntries = when (mode) {
             SessionMode.Learn -> selectLearningEntriesByType(
                 entryType = "expression",
-                today = today,
-                limit = expressionLimit,
+                limit = targets.expressionLimit,
             )
             SessionMode.Review -> selectReviewEntriesByType(
                 entryType = "expression",
                 today = today,
-                limit = expressionLimit,
+                limit = targets.expressionLimit,
             )
-        }
-        val fallbackWords = if (wordEntries.isNotEmpty()) {
-            wordEntries
-        } else if (mode == SessionMode.Learn) {
-            entryDao.getFallbackEntriesByType("word", wordLimit)
-        } else {
-            emptyList()
-        }
-        val fallbackExpressions = if (expressionEntries.isNotEmpty()) {
-            expressionEntries
-        } else if (mode == SessionMode.Learn) {
-            entryDao.getFallbackEntriesByType("expression", expressionLimit)
-        } else {
-            emptyList()
         }
         val chosenEntries = when (mode) {
             SessionMode.Learn -> interleaveEntries(
-                first = fallbackWords,
-                second = fallbackExpressions,
+                first = wordEntries,
+                second = expressionEntries,
             )
-            SessionMode.Review -> (fallbackWords + fallbackExpressions)
+            SessionMode.Review -> (wordEntries + expressionEntries)
                 .distinctBy { it.id }
                 .shuffled(Random(System.nanoTime()))
         }
@@ -286,22 +301,10 @@ class CalibratorRepository @Inject constructor(
 
     private suspend fun selectLearningEntriesByType(
         entryType: String,
-        today: Long,
         limit: Int,
     ): List<CalibrationEntryEntity> {
         if (limit <= 0) return emptyList()
-        val learningEntries = entryDao.getLearningEntriesByType(entryType, today, limit)
-        if (learningEntries.size >= limit) return learningEntries
-
-        val collected = learningEntries.toMutableList()
-        val seenIds = collected.mapTo(mutableSetOf()) { it.id }
-
-        entryDao.getNewEntriesByType(entryType, limit).forEach { entry ->
-            if (seenIds.add(entry.id) && collected.size < limit) {
-                collected += entry
-            }
-        }
-        return collected
+        return entryDao.getNewEntriesByType(entryType, limit)
     }
 
     private suspend fun selectReviewEntriesByType(
@@ -334,6 +337,38 @@ class CalibratorRepository @Inject constructor(
             }
         }
         return collected
+    }
+
+    private fun buildLearningTargets(goal: Int): SessionTypeTargets {
+        val targetSize = goal.coerceAtLeast(4)
+        val expressionLimit = (targetSize * 0.4f).roundToInt().coerceAtLeast(2)
+        val wordLimit = (targetSize - expressionLimit).coerceAtLeast(2)
+        return SessionTypeTargets(
+            wordLimit = wordLimit,
+            expressionLimit = expressionLimit,
+        )
+    }
+
+    private suspend fun buildReviewTargets(today: Long): SessionTypeTargets {
+        val wordDueCount = progressDao.dueCountNowByType("word", today)
+        val wordStudiedCount = progressDao.startedCountNowByType("word")
+        val expressionDueCount = progressDao.dueCountNowByType("expression", today)
+        val expressionStudiedCount = progressDao.startedCountNowByType("expression")
+        val hasDueReviewsToday = wordDueCount > 0 || expressionDueCount > 0
+        val wordLimit = ReviewTargetPlanner.sessionTarget(
+            dueEntries = wordDueCount,
+            studiedEntries = wordStudiedCount,
+            hasDueReviewsToday = hasDueReviewsToday,
+        )
+        val expressionLimit = ReviewTargetPlanner.sessionTarget(
+            dueEntries = expressionDueCount,
+            studiedEntries = expressionStudiedCount,
+            hasDueReviewsToday = hasDueReviewsToday,
+        )
+        return SessionTypeTargets(
+            wordLimit = wordLimit,
+            expressionLimit = expressionLimit,
+        )
     }
 
     suspend fun submitAnswer(

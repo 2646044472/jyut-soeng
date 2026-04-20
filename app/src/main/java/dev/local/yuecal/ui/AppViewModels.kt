@@ -194,12 +194,6 @@ class ProfileViewModel @Inject constructor(
         }
     }
 
-    fun updateDailyReviewGoal(goal: Int) {
-        viewModelScope.launch {
-            settingsStore.setDailyReviewGoal(goal)
-        }
-    }
-
     fun refreshBuiltinContent() {
         viewModelScope.launch {
             runCatching { workScheduler.refreshBuiltInContent() }

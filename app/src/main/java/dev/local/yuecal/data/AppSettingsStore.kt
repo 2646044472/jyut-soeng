@@ -31,7 +31,6 @@ class AppSettingsStore @Inject constructor(
             autoplayAudio = prefs[Keys.AUTOPLAY_AUDIO] ?: true,
             remindersEnabled = prefs[Keys.REMINDERS_ENABLED] ?: true,
             dailyLearnGoal = prefs[Keys.DAILY_LEARN_GOAL] ?: 10,
-            dailyReviewGoal = prefs[Keys.DAILY_REVIEW_GOAL] ?: 16,
             builtInSeedVersion = prefs[Keys.BUILTIN_SEED_VERSION] ?: "",
         )
     }
@@ -50,10 +49,6 @@ class AppSettingsStore @Inject constructor(
         dataStore.edit { it[Keys.DAILY_LEARN_GOAL] = goal.coerceAtLeast(4) }
     }
 
-    suspend fun setDailyReviewGoal(goal: Int) {
-        dataStore.edit { it[Keys.DAILY_REVIEW_GOAL] = goal.coerceAtLeast(6) }
-    }
-
     suspend fun setBuiltInSeedVersion(version: String) {
         dataStore.edit { it[Keys.BUILTIN_SEED_VERSION] = version }
     }
@@ -62,7 +57,6 @@ class AppSettingsStore @Inject constructor(
         val AUTOPLAY_AUDIO = booleanPreferencesKey("autoplay_audio")
         val REMINDERS_ENABLED = booleanPreferencesKey("reminders_enabled")
         val DAILY_LEARN_GOAL = intPreferencesKey("daily_learn_goal")
-        val DAILY_REVIEW_GOAL = intPreferencesKey("daily_review_goal")
         val BUILTIN_SEED_VERSION = stringPreferencesKey("builtin_seed_version")
     }
 }

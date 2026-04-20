@@ -123,7 +123,6 @@ interface EntryDao {
         JOIN review_progress p ON e.id = p.entryId
         WHERE e.isActive = 1
           AND p.nextReviewEpochDay <= :today
-          AND p.repetitions > 0
         ORDER BY
           p.nextReviewEpochDay ASC,
           COALESCE(p.lastReviewedAt, 0) ASC,
@@ -140,7 +139,6 @@ interface EntryDao {
         WHERE e.isActive = 1
           AND e.entryType = :entryType
           AND p.nextReviewEpochDay <= :today
-          AND p.repetitions > 0
         ORDER BY
           p.nextReviewEpochDay ASC,
           COALESCE(p.lastReviewedAt, 0) ASC,
@@ -176,7 +174,6 @@ interface EntryDao {
           AND e.entryType = :entryType
           AND p.nextReviewEpochDay > :today
           AND p.nextReviewEpochDay <= :lookaheadDay
-          AND p.repetitions > 0
         ORDER BY
           p.nextReviewEpochDay ASC,
           COALESCE(p.lastReviewedAt, 0) ASC,
@@ -197,7 +194,6 @@ interface EntryDao {
         JOIN review_progress p ON e.id = p.entryId
         WHERE e.isActive = 1
           AND e.entryType = :entryType
-          AND p.repetitions > 0
         ORDER BY
           p.nextReviewEpochDay ASC,
           COALESCE(p.lastReviewedAt, 0) ASC,
@@ -269,7 +265,6 @@ interface ProgressDao {
         JOIN review_progress p ON e.id = p.entryId
         WHERE e.isActive = 1
           AND p.nextReviewEpochDay <= :today
-          AND p.repetitions > 0
         """,
     )
     fun observeDueCount(today: Long): Flow<Int>
@@ -281,7 +276,6 @@ interface ProgressDao {
         WHERE e.isActive = 1
           AND e.entryType = :entryType
           AND p.nextReviewEpochDay <= :today
-          AND p.repetitions > 0
         """,
     )
     fun observeDueCountByType(entryType: String, today: Long): Flow<Int>
@@ -303,7 +297,6 @@ interface ProgressDao {
         JOIN review_progress p ON e.id = p.entryId
         WHERE e.isActive = 1
           AND p.nextReviewEpochDay = :day
-          AND repetitions > 0
         """,
     )
     fun observeIncomingCount(day: Long): Flow<Int>
@@ -314,7 +307,6 @@ interface ProgressDao {
         JOIN review_progress p ON e.id = p.entryId
         WHERE e.isActive = 1
           AND p.nextReviewEpochDay <= :today
-          AND p.repetitions > 0
         """,
     )
     suspend fun dueCountNow(today: Long): Int
@@ -324,10 +316,40 @@ interface ProgressDao {
         SELECT COUNT(*) FROM calibration_entries e
         JOIN review_progress p ON e.id = p.entryId
         WHERE e.isActive = 1
-          AND p.repetitions > 0
+          AND e.entryType = :entryType
+          AND p.nextReviewEpochDay <= :today
+        """,
+    )
+    suspend fun dueCountNowByType(entryType: String, today: Long): Int
+
+    @Query(
+        """
+        SELECT COUNT(*) FROM calibration_entries e
+        JOIN review_progress p ON e.id = p.entryId
+        WHERE e.isActive = 1
         """,
     )
     fun observeStartedCount(): Flow<Int>
+
+    @Query(
+        """
+        SELECT COUNT(*) FROM calibration_entries e
+        JOIN review_progress p ON e.id = p.entryId
+        WHERE e.isActive = 1
+          AND e.entryType = :entryType
+        """,
+    )
+    fun observeStartedCountByType(entryType: String): Flow<Int>
+
+    @Query(
+        """
+        SELECT COUNT(*) FROM calibration_entries e
+        JOIN review_progress p ON e.id = p.entryId
+        WHERE e.isActive = 1
+          AND e.entryType = :entryType
+        """,
+    )
+    suspend fun startedCountNowByType(entryType: String): Int
 
     @Query("SELECT * FROM review_progress WHERE entryId = :entryId LIMIT 1")
     suspend fun getProgress(entryId: String): ReviewProgressEntity?
