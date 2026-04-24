@@ -5,6 +5,8 @@ import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -13,6 +15,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
@@ -30,6 +33,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -58,6 +62,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.DialogProperties
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavDestination.Companion.hierarchy
@@ -419,7 +424,7 @@ private fun SessionScreen(
         CompletionScreen(
             title = session.title,
             correctCount = state.correctCount,
-            totalCount = session.questions.size,
+            totalCount = state.totalQuestionCount,
             onRestart = onRestart,
         )
         return
@@ -433,6 +438,7 @@ private fun SessionScreen(
         item {
             SessionHeader(
                 title = session.title,
+                round = state.round,
                 current = state.currentIndex + 1,
                 total = session.questions.size,
             )
@@ -461,14 +467,19 @@ private fun SessionScreen(
                 )
             }
         }
-        state.feedback?.let { feedback ->
-            item { FeedbackCard(question = question, feedback = feedback) }
-            item {
-                Button(modifier = Modifier.fillMaxWidth(), onClick = onNext) {
-                    Text(if (state.currentIndex + 1 >= session.questions.size) "完成这一轮" else "下一题")
-                }
-            }
-        }
+    }
+
+    state.feedback?.let { feedback ->
+        FeedbackDialog(
+            question = question,
+            feedback = feedback,
+            nextLabel = when {
+                state.currentIndex + 1 < session.questions.size -> "下一个"
+                state.round == 1 && state.retryQuestionCount > 0 -> "进入错词第二阶段"
+                else -> "完成这一轮"
+            },
+            onNext = onNext,
+        )
     }
 }
 
@@ -615,6 +626,7 @@ private fun GoalCard(
 @Composable
 private fun SessionHeader(
     title: String,
+    round: Int,
     current: Int,
     total: Int,
 ) {
@@ -628,6 +640,9 @@ private fun SessionHeader(
         ) {
             Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                if (round > 1) {
+                    Text("第二阶段：错词再练", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                }
                 Text("第 $current / $total 题", style = MaterialTheme.typography.bodyMedium)
             }
             Text(
@@ -768,48 +783,78 @@ private fun MultipleChoiceCard(
 }
 
 @Composable
-private fun FeedbackCard(
+private fun FeedbackDialog(
+    question: StudyQuestion,
+    feedback: SessionFeedback,
+    nextLabel: String,
+    onNext: () -> Unit,
+) {
+    AlertDialog(
+        onDismissRequest = {},
+        properties = DialogProperties(
+            dismissOnBackPress = false,
+            dismissOnClickOutside = false,
+        ),
+        text = {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(max = 480.dp)
+                    .verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                FeedbackCardContent(question = question, feedback = feedback)
+            }
+        },
+        confirmButton = {
+            Button(
+                modifier = Modifier.fillMaxWidth(),
+                onClick = onNext,
+            ) {
+                Text(nextLabel)
+            }
+        },
+        dismissButton = {},
+    )
+}
+
+@Composable
+private fun FeedbackCardContent(
     question: StudyQuestion,
     feedback: SessionFeedback,
 ) {
     val correct = feedback.outcome.isCorrect
-    Card(
-        colors = CardDefaults.cardColors(
-            containerColor = if (correct) MaterialTheme.colorScheme.primaryContainer else MaterialTheme.colorScheme.errorContainer,
-        ),
+    Column(
+        modifier = Modifier
+            .fillMaxWidth(),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(18.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
-        ) {
-            Text(
-                if (correct) "对了，继续压实这个读法" else "这题再校一下，先看标准答案",
-                style = MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.Bold,
-            )
-            Text("你的输入：${feedback.userAnswer}", style = MaterialTheme.typography.bodyMedium)
-            Text("标准答案：${feedback.outcome.correctAnswer}", style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
-            Text(
-                "平时输入可以写成：${question.answerJyutping.replace(Regex("[1-6]"), "")}",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-            Text(
-                "分音提示：${formatJyutpingSyllables(question.answerJyutping)}",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-            if (question.gloss.isNotBlank()) {
-                InfoBlock("意思", question.gloss)
-            }
-            if (question.usageTip.isNotBlank()) {
-                InfoBlock(usageLabel(question.sourceLabel), question.usageTip)
-            }
-            if (question.exampleSentence.isNotBlank()) {
-                ExampleBlock(question.exampleSentence, question.sourceLabel)
-            }
+        Text(
+            if (correct) "对了，继续压实这个读法" else "这题再校一下，先看标准答案",
+            style = MaterialTheme.typography.titleLarge,
+            fontWeight = FontWeight.Bold,
+            color = if (correct) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error,
+        )
+        Text("你的输入：${feedback.userAnswer}", style = MaterialTheme.typography.bodyMedium)
+        Text("标准答案：${feedback.outcome.correctAnswer}", style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
+        Text(
+            "平时输入可以写成：${question.answerJyutping.replace(Regex("[1-6]"), "")}",
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        Text(
+            "分音提示：${formatJyutpingSyllables(question.answerJyutping)}",
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        if (question.gloss.isNotBlank()) {
+            InfoBlock("意思", question.gloss)
+        }
+        if (question.usageTip.isNotBlank()) {
+            InfoBlock(usageLabel(question.sourceLabel), question.usageTip)
+        }
+        if (question.exampleSentence.isNotBlank()) {
+            ExampleBlock(question.exampleSentence, question.sourceLabel)
         }
     }
 }

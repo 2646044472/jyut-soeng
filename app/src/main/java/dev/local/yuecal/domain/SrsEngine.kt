@@ -57,8 +57,9 @@ object Sm2Scheduler {
         val newRepetitions = base.repetitions + 1
         val newInterval = when (newRepetitions) {
             1 -> 1
-            2 -> 3
-            3 -> 7
+            2 -> 2
+            3 -> 3
+            4 -> 7
             else -> (base.intervalDays * (newEase + 0.18)).toInt().coerceAtLeast(base.intervalDays + 2)
         }
 

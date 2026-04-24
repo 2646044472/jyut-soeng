@@ -17,6 +17,7 @@ import dev.local.yuecal.domain.StudySession
 import dev.local.yuecal.domain.SubmissionOutcome
 import dev.local.yuecal.media.AppFeedbackPlayer
 import dev.local.yuecal.work.AppWorkScheduler
+import java.util.UUID
 import javax.inject.Inject
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -56,6 +57,9 @@ data class SessionUiState(
     val session: StudySession? = null,
     val currentIndex: Int = 0,
     val currentQuestion: StudyQuestion? = null,
+    val round: Int = 1,
+    val retryQuestionCount: Int = 0,
+    val totalQuestionCount: Int = 0,
     val correctCount: Int = 0,
     val answerInput: String = "",
     val feedback: SessionFeedback? = null,
@@ -229,6 +233,7 @@ class SessionViewModel @Inject constructor(
     val uiState: StateFlow<SessionUiState> = mutableState
 
     private var questionStartMillis: Long = 0
+    private val firstRoundMistakes = linkedMapOf<String, StudyQuestion>()
     private val mode: SessionMode = when (savedStateHandle.get<String>("mode")) {
         "review" -> SessionMode.Review
         else -> SessionMode.Learn
@@ -245,6 +250,8 @@ class SessionViewModel @Inject constructor(
 
     fun loadSession() {
         viewModelScope.launch {
+            val autoplayAudio = mutableState.value.autoplayAudio
+            firstRoundMistakes.clear()
             mutableState.value = SessionUiState(isLoading = true)
             val session = repository.buildSession(mode = mode)
             questionStartMillis = System.currentTimeMillis()
@@ -253,8 +260,11 @@ class SessionViewModel @Inject constructor(
                 session = session,
                 currentIndex = 0,
                 currentQuestion = session.questions.firstOrNull(),
+                round = 1,
+                retryQuestionCount = 0,
+                totalQuestionCount = session.questions.size,
                 correctCount = 0,
-                autoplayAudio = mutableState.value.autoplayAudio,
+                autoplayAudio = autoplayAudio,
             )
         }
     }
@@ -285,6 +295,15 @@ class SessionViewModel @Inject constructor(
             )
             mutableState.value = uiState.value.copy(
                 correctCount = uiState.value.correctCount + if (outcome.isCorrect) 1 else 0,
+                retryQuestionCount = when {
+                    mode != SessionMode.Learn -> uiState.value.retryQuestionCount
+                    outcome.isCorrect -> uiState.value.retryQuestionCount
+                    uiState.value.round != 1 -> uiState.value.retryQuestionCount
+                    else -> {
+                        firstRoundMistakes[currentQuestion.entryId] = currentQuestion
+                        firstRoundMistakes.size
+                    }
+                },
                 feedback = SessionFeedback(
                     outcome = outcome,
                     userAnswer = answer,
@@ -303,6 +322,23 @@ class SessionViewModel @Inject constructor(
         if (uiState.value.feedback == null) return
         val nextIndex = uiState.value.currentIndex + 1
         val nextQuestion = session.questions.getOrNull(nextIndex)
+        if (nextQuestion == null && mode == SessionMode.Learn && uiState.value.round == 1 && firstRoundMistakes.isNotEmpty()) {
+            val retryQuestions = firstRoundMistakes.values.toList()
+            val retrySession = session.copy(
+                sessionId = UUID.randomUUID().toString(),
+                questions = retryQuestions,
+            )
+            questionStartMillis = System.currentTimeMillis()
+            mutableState.value = uiState.value.copy(
+                session = retrySession,
+                currentIndex = 0,
+                currentQuestion = retryQuestions.firstOrNull(),
+                round = 2,
+                answerInput = "",
+                feedback = null,
+            )
+            return
+        }
         questionStartMillis = System.currentTimeMillis()
         mutableState.value = uiState.value.copy(
             currentIndex = nextIndex,

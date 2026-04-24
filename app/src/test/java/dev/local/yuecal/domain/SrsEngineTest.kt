@@ -76,6 +76,19 @@ class SrsEngineTest {
     }
 
     @Test
+    fun earlyReviewIntervalsStayLightweight() {
+        val first = Sm2Scheduler.next(current = null, quality = 5, today = 100)
+        val second = Sm2Scheduler.next(current = first, quality = 5, today = 101)
+        val third = Sm2Scheduler.next(current = second, quality = 5, today = 103)
+
+        assertEquals(1, first.intervalDays)
+        assertEquals(2, second.intervalDays)
+        assertEquals(3, third.intervalDays)
+        assertEquals(103, second.nextReviewEpochDay)
+        assertEquals(106, third.nextReviewEpochDay)
+    }
+
+    @Test
     fun judgingRewardsFastCorrectAnswers() {
         assertEquals(
             5,
