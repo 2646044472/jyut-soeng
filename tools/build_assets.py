@@ -2,34 +2,18 @@
 from __future__ import annotations
 
 import json
-import re
 from datetime import datetime, timezone
 from pathlib import Path
+from meaning_rules import build_better_gloss
+from meaning_rules import build_better_usage
+from meaning_rules import build_generated_guidance_text
+from meaning_rules import is_low_info_gloss
+from meaning_rules import is_low_info_usage
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "content"
 OUTPUT_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
 QUALITY_OVERRIDES_PATH = CONTENT_DIR / "quality_overrides.json"
-ASCII_RE = re.compile(r"[A-Za-z]")
-LOW_INFO_USAGE_MARKERS = (
-    "适合练",
-    "适合拿来练",
-    "适合拿来校正",
-    "适合校正",
-    "适合做基础稳定练习",
-    "适合练自然收句",
-    "拿来练",
-    "值得反复校正",
-    "越高频越值得校准",
-    "重点是读得自然",
-    "读起来容易",
-    "自然收句",
-    "稳定度很合适",
-    "最容易听出前后差别",
-    "高频而且很容易受普通话影响",
-    "很适合拿来练",
-)
-
 
 def load_quality_overrides() -> dict[str, dict[str, str]]:
     if not QUALITY_OVERRIDES_PATH.exists():
@@ -127,30 +111,8 @@ def build_fallback_usage(display_text: str, category: str, entry_type: str) -> s
     return f"先放进最短的日常句里，用「{display_text}」讲清自己想表达什么。"
 
 
-def build_generated_usage_tip(entry_type: str) -> str:
-    if entry_type == "expression":
-        return "这条先当语气卡：跟读、记节奏就够；真要学点用，优先看人工整理的表达卡。"
-    return "这条先当读音卡：跟读、拆音、写 Jyutping 就够；真要学点用，优先看人工整理词条。"
-
-
-def is_low_info_usage(text: str) -> bool:
-    return any(marker in text for marker in LOW_INFO_USAGE_MARKERS)
-
-
-def build_generated_practice_prompt(display_text: str, entry_type: str) -> str:
-    if entry_type == "expression":
-        return "\n".join(
-            [
-                f"先把「{display_text}」跟读两次，记住语气和节奏。",
-                "这类生成表达只供语气练习，不代表推荐用法，不必硬套进句子。",
-            ],
-        )
-    return "\n".join(
-        [
-            f"先把「{display_text}」读两次，留意每个音节。",
-            "这类生成词条只供读音练习，不代表推荐用法，不必硬套进句子。",
-        ],
-    )
+def build_generated_practice_prompt(display_text: str, category: str, entry_type: str) -> str:
+    return build_generated_guidance_text(display_text, category, entry_type)
 
 
 def build_prompt_text(raw: str, entry_type: str, source_label: str) -> str:
@@ -159,11 +121,11 @@ def build_prompt_text(raw: str, entry_type: str, source_label: str) -> str:
         return text
     if source_label == "generated":
         if entry_type == "word":
-            return "先按自己的习惯读一遍，再写出 Jyutping，最后按提示把词读顺。"
-        return "先理解这条口语表达，再写出 Jyutping，最后按提示自己开口讲。"
+            return "先想清楚意思，再写出 Jyutping，再看用法同例句。"
+        return "先理解呢条表达，再写出 Jyutping，再看用法同例句。"
     if entry_type == "word":
-        return "先按自己的习惯读一遍，再写出 Jyutping，用它检查自己有没有读准。"
-    return "先理解这条口语表达，再写出 Jyutping，最后跟着例句开口读。"
+        return "先按自己答案写出 Jyutping，再看意思、用法同例句。"
+    return "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。"
 
 
 def ensure_two_line_examples(display_text: str, raw: str, category: str, entry_type: str) -> str:
@@ -176,18 +138,26 @@ def ensure_two_line_examples(display_text: str, raw: str, category: str, entry_t
     return "\n".join(lines[:3])
 
 
-def normalize_gloss(raw: str, display_text: str, category: str, entry_type: str) -> str:
+def normalize_gloss(raw: str, display_text: str, category: str, entry_type: str, source_label: str) -> str:
     text = str(raw or "").strip()
-    if not text or ASCII_RE.search(text):
+    if is_low_info_gloss(text, display_text):
+        improved = build_better_gloss(display_text, category, entry_type, source_label)
+        if improved:
+            return improved
         return build_fallback_meaning(display_text, category, entry_type)
     return text
 
 
 def normalize_usage(raw: str, display_text: str, category: str, entry_type: str, source_label: str) -> str:
-    if source_label == "generated":
-        return build_generated_usage_tip(entry_type)
     text = str(raw or "").strip()
-    if not text or ASCII_RE.search(text) or is_low_info_usage(text):
+    if source_label == "generated":
+        improved = build_better_usage(display_text, category, entry_type, source_label)
+        if improved:
+            return improved
+    if is_low_info_usage(text):
+        improved = build_better_usage(display_text, category, entry_type, source_label)
+        if improved:
+            return improved
         return build_fallback_usage(display_text, category, entry_type)
     return text
 
@@ -213,7 +183,7 @@ def load_entries(path: Path, entry_type: str) -> list[dict]:
                 source_label=resolved_source_label,
             ),
             "answerJyutping": row["answerJyutping"],
-            "gloss": normalize_gloss(row.get("gloss", ""), display_text, category, entry_type),
+            "gloss": normalize_gloss(row.get("gloss", ""), display_text, category, entry_type, resolved_source_label),
             "notes": "",
             "usageTip": normalize_usage(
                 row.get("usageTip", ""),
@@ -223,7 +193,7 @@ def load_entries(path: Path, entry_type: str) -> list[dict]:
                 resolved_source_label,
             ),
             "exampleSentence": (
-                build_generated_practice_prompt(display_text, entry_type)
+                build_generated_practice_prompt(display_text, category, entry_type)
                 if resolved_source_label == "generated"
                 else ensure_two_line_examples(display_text, row.get("exampleSentence", ""), category, entry_type)
             ),

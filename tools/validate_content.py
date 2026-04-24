@@ -4,6 +4,8 @@ from __future__ import annotations
 import json
 from collections import Counter, defaultdict
 from pathlib import Path
+from meaning_rules import is_low_info_gloss
+from meaning_rules import is_low_info_usage
 
 ROOT = Path(__file__).resolve().parent.parent
 BUNDLE_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
@@ -109,8 +111,13 @@ def main() -> None:
             if not str(entry.get(key, "")).strip():
                 raise SystemExit(f"Entry {entry.get('id')} missing required field: {key}")
         display_text = str(entry.get("displayText", "")).strip()
+        gloss = str(entry.get("gloss", "")).strip()
         usage_tip = str(entry.get("usageTip", "")).strip()
         example_sentence = str(entry.get("exampleSentence", "")).strip()
+        if is_low_info_gloss(gloss, display_text):
+            raise SystemExit(f"Entry {entry.get('id')} still has low-information gloss: {gloss}")
+        if is_low_info_usage(usage_tip):
+            raise SystemExit(f"Entry {entry.get('id')} still has low-information usageTip: {usage_tip}")
         if entry.get("sourceLabel") == "generated":
             example_sentence = str(entry.get("exampleSentence", "")).strip()
             if any(marker in example_sentence for marker in LEGACY_GENERATED_MARKERS):

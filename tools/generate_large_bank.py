@@ -5,6 +5,9 @@ import json
 import re
 import urllib.request
 from pathlib import Path
+from meaning_rules import build_better_gloss
+from meaning_rules import build_better_usage
+from meaning_rules import build_generated_guidance_text
 
 ROOT = Path(__file__).resolve().parent.parent
 WORDS_OUTPUT_PATH = ROOT / "content" / "generated_words_bank.json"
@@ -351,59 +354,21 @@ def classify_expression_category(word: str) -> str:
 
 
 def build_usage_tip(word: str, category: str, kind: str) -> str:
-    if kind == "expression":
-        return {
-            "俚语表达": "多放在熟人闲聊、吐槽和即时反应里。",
-            "口语场景": "适合直接放进对话里，句子不用太长。",
-            "情绪表达": "多放在讲自己感觉或评价别人状态时。",
-            "工作场景": "适合放在讲进度、安排和处理方式时。",
-        }.get(category, "日常开口时可以直接带出来。")
-    if category == "工作场景":
-        return "适合放在开会、交代事情和讲做法时。"
-    if category == "学习场景":
-        return "适合放在提问、复述和说明时。"
-    if category == "情绪表达":
-        return "多放在讲感觉、情绪变化和反应时。"
-    if category == "口语场景":
-        return "对话里很常见，重点是读得自然。"
-    return "日常句子里直接用就可以。"
+    return build_better_usage(word, category, kind, "generated")
 
 
 def build_meaning(word: str, category: str, kind: str) -> str:
-    if kind == "expression":
-        return {
-            "俚语表达": "偏口语的说法，常用来讲状态、场面或反应。",
-            "口语场景": "对话里常见的说法，听起来会比较自然。",
-            "情绪表达": "用来表达感觉、情绪或当下反应。",
-            "工作场景": "多用于交代事情、讲进度或讲处理方式。",
-        }.get(category, f"常见表达，日常讲话时可以自然用「{word}」。")
-    if category == "工作场景":
-        return "工作沟通里常见的词。"
-    if category == "学习场景":
-        return "学习和说明语境里常用的词。"
-    if category == "情绪表达":
-        return "常用来讲感受、状态或反应。"
-    if category == "口语场景":
-        return "日常讲话常见词，适合拿来练顺口。"
-    return f"常用词，适合放进句子里练熟「{word}」。"
+    return build_better_gloss(word, category, kind, "generated")
 
 
 def build_examples(word: str, category: str, kind: str) -> str:
-    if kind == "expression":
-        return (
-            f"先把「{word}」跟读两次，记住语气和节奏。\n"
-            "这类生成表达只供语气练习，不代表推荐用法，不必硬套进句子。"
-        )
-    return (
-        f"先把「{word}」读两次，留意每个音节。\n"
-        "这类生成词条只供读音练习，不代表推荐用法，不必硬套进句子。"
-    )
+    return build_generated_guidance_text(word, category, kind)
 
 
 def build_prompt_text(kind: str) -> str:
     if kind == "expression":
-        return "先理解这条口语表达，再写出 Jyutping，最后按提示先练语气。"
-    return "先按自己的习惯读一遍，再写出 Jyutping，最后按提示先练读音。"
+        return "先理解意思，再写出 Jyutping，再看用法同例句。"
+    return "先按自己习惯讲一次，再写出 Jyutping，再看意思、用法同例句。"
 
 
 def build_rows(pairs: list[tuple[str, str]], kind: str, start_index: int = 1) -> list[dict]:
