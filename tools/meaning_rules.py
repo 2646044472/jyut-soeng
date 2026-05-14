@@ -13,6 +13,15 @@ LOW_INFO_GLOSS_MARKERS = (
     "常见表达，日常讲话时可以自然用",
     "多用于交代事情、讲进度或讲处理方式",
     "用来表达感觉、情绪或当下反应",
+    "多用来概括一种状态、做法或者结果",
+    "常见词，讲紧",
+    "一句好口语嘅讲法",
+    "通常唔系逐个字照字面解",
+    "一个固定词语，要连前后文一齐先容易明白讲紧乜",
+    "多数唔系讲字面",
+    "呢类讲法通常靠前后文先完整",
+    "一句追问情况、原因或者来历嘅口语说法",
+    "一句带否定意思嘅口语说法",
 )
 
 LOW_INFO_USAGE_MARKERS = (
@@ -46,6 +55,28 @@ LOW_INFO_USAGE_MARKERS = (
     "日常开口时可以直接带出来。",
     "这条先当语气卡：跟读、记节奏就够；真要学点用，优先看人工整理的表达卡。",
     "这条先当读音卡：跟读、拆音、写 Jyutping 就够；真要学点用，优先看人工整理词条。",
+    "先谂清楚佢通常形容边类人、边种事",
+    "多放在日常判断句或者叙述句里",
+    "多放在熟人对话、吐槽、插嘴或者即时反应里",
+    "多用来讲自己感觉点样，或者评价别人当下状态",
+    "多用来否定、拒绝、讲做唔到，或者直接吐槽眼前情况",
+    "多放在追问、质疑或者确认情况时，前后句通常都唔长",
+    "多半系熟人之间顺口爆出来",
+    "多系当场拒绝、讲做唔到",
+    "通常系跟住眼前情况顺口讲出",
+    "多数系讲完件事之后",
+)
+
+FAKE_EXAMPLE_PREFIXES = ("意思：", "用法：", "例句：")
+FAKE_EXAMPLE_FRAGMENTS = (
+    "朋友倾偈时，可以直接讲",
+    "先用「",
+    "先用\"",
+    "讲到呢一步",
+    "当场回应或者补一句态度",
+    "朋友見到眼前個情況",
+    "真係遇到嗰下，講句",
+    "你問我點睇，我只可以講句",
 )
 
 GENERATED_WORD_GLOSS_OVERRIDES = {
@@ -133,6 +164,9 @@ GENERATED_EXPRESSION_GLOSS_OVERRIDES = {
     "唔知頭唔知路": "形容对情况完全唔熟，唔知点入手。",
     "搞搞震冇幫襯": "只会搞乱档，帮唔到手。",
     "冇頭冇尾": "形容讲嘢或做事唔完整，前因后果都唔清楚。",
+    "差唔多": "表示大致上已经到位，或者离完成只差少少。",
+    "走唔甩": "表示点都避唔开，迟早都要面对或者中招。",
+    "做唔住": "表示再咁落去撑唔住，做唔落手或者顶唔顺。",
 }
 
 WORD_USAGE_OVERRIDES = {
@@ -257,6 +291,22 @@ WORK_MARKERS = ("工", "資料", "進度", "效益", "方案", "分工", "管理
 TIME_MARKERS = ("日", "時", "陣", "近", "即", "終", "刻", "瞬")
 
 
+def _contains_any(text: str, markers: tuple[str, ...]) -> bool:
+    return any(marker in text for marker in markers)
+
+
+def _match_reduplicated_dei(display_text: str) -> str:
+    if not display_text.endswith("哋"):
+        return ""
+    core = display_text[:-1]
+    if len(core) < 2 or len(core) % 2 != 0:
+        return ""
+    half = len(core) // 2
+    if core[:half] != core[half:]:
+        return ""
+    return core[:half]
+
+
 def is_low_info_gloss(text: str, display_text: str = "") -> bool:
     stripped = str(text or "").strip()
     if not stripped:
@@ -275,42 +325,71 @@ def is_low_info_usage(text: str) -> bool:
     return any(marker in stripped for marker in LOW_INFO_USAGE_MARKERS)
 
 
+def is_fake_example_sentence(text: str, display_text: str = "") -> bool:
+    stripped = str(text or "").strip()
+    if not stripped:
+        return True
+    if stripped == str(display_text or "").strip():
+        return True
+    lines = [line.strip() for line in stripped.splitlines() if line.strip()]
+    if not lines:
+        return True
+    if any(line.startswith(FAKE_EXAMPLE_PREFIXES) for line in lines):
+        return True
+    return any(fragment in stripped for fragment in FAKE_EXAMPLE_FRAGMENTS)
+
+
 def build_better_gloss(display_text: str, category: str, entry_type: str, source_label: str) -> str:
     if entry_type == "expression":
         return _build_expression_gloss(display_text, category)
     return _build_word_gloss(display_text, category)
 
 
-def build_better_usage(display_text: str, category: str, entry_type: str, source_label: str) -> str:
+def build_better_usage(display_text: str, category: str, entry_type: str, source_label: str, gloss: str = "") -> str:
     if entry_type == "expression":
-        return _build_expression_usage(display_text, category)
-    return _build_word_usage(display_text, category)
+        return _build_expression_usage(display_text, category, gloss)
+    return _build_word_usage(display_text, category, gloss)
 
-
-def build_generated_guidance_text(display_text: str, category: str, entry_type: str) -> str:
-    gloss = build_better_gloss(display_text, category, entry_type, "generated")
-    usage = build_better_usage(display_text, category, entry_type, "generated")
-    lines = [
-        f"意思：{gloss}",
-        f"用法：{usage}",
-    ]
+def build_better_example(
+    display_text: str,
+    category: str,
+    entry_type: str,
+    gloss: str,
+    usage: str,
+) -> str:
     if entry_type == "expression":
-        example = GENERATED_EXPRESSION_EXAMPLE_OVERRIDES.get(display_text)
-    else:
-        example = GENERATED_WORD_EXAMPLE_OVERRIDES.get(display_text)
-    if example:
-        lines.append(f"例句：{example}")
-    return "\n".join(lines)
+        return _build_expression_example(display_text, category, gloss, usage)
+    return _build_word_example(display_text, category, gloss, usage)
 
 
 def _build_word_gloss(display_text: str, category: str) -> str:
     if display_text in GENERATED_WORD_GLOSS_OVERRIDES:
         return GENERATED_WORD_GLOSS_OVERRIDES[display_text]
+    if display_text.endswith("經理人"):
+        return "负责帮艺人、运动员或者创作者接工作、谈安排嗰个人。"
+    if display_text.endswith("方向感"):
+        return "指人识唔识分方向、会唔会容易迷路。"
+    if display_text.endswith("成功感"):
+        return "做成一件事之后，心里面觉得满足又有成就。"
+    if display_text.endswith("節奏感"):
+        return "对快慢、停顿同轻重有感觉，知道点样先顺。"
+    if display_text.endswith("閱讀理解"):
+        return "读完一段文字之后，明唔明里面真正讲紧咩。"
+    if display_text.endswith("選擇題"):
+        return "畀你喺几个答案入面拣一个嘅题型。"
+    if display_text.endswith("反效果"):
+        return "本来想帮手，结果做完反而更差。"
+    if display_text.endswith("反方向"):
+        return "同原本目标相反嘅方向。"
+    if display_text.endswith("反間計"):
+        return "故意放消息或者设局，令对方自己人互相猜疑。"
+    if display_text.endswith("情意結"):
+        return "对某个人、旧事或者某段经历长期放唔低。"
     for suffix, gloss in WORD_SUFFIX_GLOSSES.items():
         if display_text.endswith(suffix):
             return gloss
     if display_text.startswith("心理"):
-        return "多指人内心感受、心理状态，或者心理上要过嘅关。"
+        return "指人内心点谂、点感受，或者心理上过唔过到某一关。"
     if display_text.startswith("本能"):
         return "指出于本能，自然出现嘅动作或者反应。"
     if display_text.startswith("自然"):
@@ -319,47 +398,228 @@ def _build_word_gloss(display_text: str, category: str) -> str:
         return "指人与人之间点样来往、相处同维持关系。"
     if display_text.startswith("表情"):
         return "同面上神情有关，讲人点样显露或者收住情绪。"
+    if _contains_any(display_text, ("講", "話", "口", "問", "答", "聲")):
+        return "同讲话方式、当场点回应人，或者把口讲出来嘅效果有关。"
+    if _contains_any(display_text, ("情", "心", "意", "感", "緒")):
+        return "同人内心点谂、受唔受影响，或者对人对事有咩感觉有关。"
+    if _contains_any(display_text, ("法", "律", "院", "權", "幣", "規")):
+        return "同规则、法律、权责或者制度点样运作有关。"
+    if _contains_any(display_text, ("學", "課", "術", "題", "讀", "寫", "考")):
+        return "同学习、考试、知识内容，或者理解吸收做成点有关。"
+    if _contains_any(display_text, ("程", "式", "機", "器", "電", "資", "料", "工")):
+        return "同工具、系统、资料处理，或者做事流程点样运作有关。"
     if display_text.startswith("時間") or any(marker in display_text for marker in TIME_MARKERS):
-        return "同时间先后、长短或者临近程度有关。"
+        return "同时间先后、长短，或者件事几快发生有关。"
     if any(marker in display_text for marker in WORK_MARKERS):
-        return "多指工作、安排、资料或者处理方式。"
+        return "多讲工作点样分工、跟进、处理，或者做法值唔值得继续。"
     if any(marker in display_text for marker in EMOTION_MARKERS):
-        return "多用来讲感受、心态、情绪或者当下反应。"
+        return "多讲人当下个情绪、心口顶唔顶得顺，或者受刺激后会点反应。"
     if "人" in display_text:
-        return "多用来形容一个人嘅性格、处事方式，或者人与人之间关系。"
+        return "多讲一个人做人做事嘅样、同人点相处，或者畀人点样睇。"
     if len(display_text) >= 4:
-        return f"多用来概括一种状态、做法或者结果；重点唔止识读，仲要明白「{display_text}」讲紧咩。"
-    return f"常见词，讲紧「{display_text}」呢类情况或者意思。"
+        return "多半系整组连住用，讲一个完整判断、结果或者状态。"
+    return "要连埋前后文先最容易听得出，讲紧边种情况。"
 
 
-def _build_word_usage(display_text: str, category: str) -> str:
+def _build_word_usage(display_text: str, category: str, gloss: str = "") -> str:
     if display_text in WORD_USAGE_OVERRIDES:
         return WORD_USAGE_OVERRIDES[display_text]
     for suffix, usage in WORD_SUFFIX_USAGES.items():
         if display_text.endswith(suffix):
             return usage
+    if "形容人" in gloss:
+        return f"多用来评价一个人处事点样；赞人定踩人，要睇前后文。"
+    if "自己搞出来的后果" in gloss or "自己用错做法" in gloss:
+        return "多用来追住件后果讲，语气通常带少少责备或者无奈。"
+    if "一时冲动" in gloss:
+        return "多用来劝人唔好俾脾气带住走，或者事后解释点解会做错决定。"
+    if "知道自己斤两" in gloss or "识得自量" in gloss:
+        return "多用来提醒人先认清自己位置，唔好高估自己。"
+    if "经过一轮努力之后" in gloss:
+        return "多用在长期努力后终于有成果嗰下，讲得会有种苦尽甘来嘅感觉。"
+    if "结果超出一般预料" in gloss or "结果超出想像" in gloss:
+        return "多放在结果句后面，强调件事比原先估计更夸张或者更突然。"
+    if "守住自己本分" in gloss:
+        return "多用来讲一个人知分寸、唔越界，职场同家庭场景都常见。"
+    if "平安顺利咁捱过" in gloss:
+        return "多用在病痛、风险或者困难时期，讲最后总算平安过关。"
+    if "引导人朝住好嘅方向" in gloss:
+        return "多用来评价老师、长辈、作品或者环境对人有正面影响。"
+    if "按对象需要特别订做" in gloss:
+        return "多用来讲方案、衣服、训练计划呢类专门为某个人整嘅嘢。"
+    if "一身正气" in gloss or "堂堂正正" in gloss:
+        return "多用来赞人企得正、唔怕事，成个人好有骨气。"
+    if "被重点留意" in gloss or "跟进或者针对" in gloss:
+        return "多出现在调查、保安或者新闻语境，讲边个已经被盯上。"
+    if "识得拣啱人" in gloss:
+        return "多用来赞带队嗰个人识用人，安排得啱位。"
+    if "知道自己错咗" in gloss and "愿意改正" in gloss:
+        return "多用来评价人肯认错、肯改，比死撑顺眼好多。"
+    if "读完一段文字之后" in gloss:
+        return "多用在上堂、考试或者补习时，讲一个人睇文章明唔明。"
+    if "做完反而更差" in gloss:
+        return "多用来批评做法帮倒忙，本来想救，结果越搞越衰。"
+    if "相反嘅方向" in gloss or "相反方向" in gloss:
+        return "多用在行路、开车或者讲思路走歪时，提醒人已经行错边。"
+    if "长期放唔低" in gloss:
+        return "多用来讲旧情、旧怨或者心结，一路都未完全放低。"
+    if "心里面觉得满足又有成就" in gloss:
+        return "多用在做成一件事之后，讲嗰种『辛苦都值返』嘅感觉。"
+    if "分方向" in gloss or "容易迷路" in gloss:
+        return "多用来讲人识唔识认路，去到陌生地方会唔会乱。"
+    if "对快慢、停顿同轻重有感觉" in gloss:
+        return "多用来讲说话、唱歌、跳舞或者做动作够唔够顺。"
+    if "负责帮艺人" in gloss:
+        return "多用在娱乐圈、体育或者商务合作场景，讲负责接洽工作嗰个人。"
+    if "畀你喺几个答案入面拣一个" in gloss:
+        return "多用在考试、测验或者 app 练习模式，讲题型唔系填空。"
+    if "故意放消息或者设局" in gloss:
+        return "多用来讲斗争、计谋或者剧情里面挑拨离间嘅做法。"
     if category == "工作场景":
-        return "多用在开会、交代事情、讲方案或者讲进度时。"
+        return "多系开会、分工、讲方案或者追进度时会讲出口。"
     if category == "学习场景":
-        return "多用在上堂、提问、复述内容或者解释概念时。"
+        return "多用喺上堂、考试、做练习或者解释概念嗰阵。"
     if category == "情绪表达":
-        return "多用来讲自己感觉点样，或者评价别人当下状态。"
+        return "自己紧张、火滚、委屈，或者想讲别人个状态时就会用到。"
     if category == "时间表达":
-        return "多放句首或者动词前，先交代时间先后。"
+        return "通常摆喺句头或者动词前面，先讲明几时发生。"
     if category == "口语场景":
-        return "多出现在对话里，用来接话、解释或者补充。"
-    return "多放在日常判断句或者叙述句里，讲人、事情、状态或者眼前情况。"
+        return "多半系接住对方嗰句再补充，等语气听落去冇咁书面。"
+    return f"通常会跟住前面件事一齐讲，用「{display_text}」概括最后个状态、判断或者结果。"
+
+
+def _build_word_example(display_text: str, category: str, gloss: str, usage: str) -> str:
+    if display_text in GENERATED_WORD_EXAMPLE_OVERRIDES:
+        return GENERATED_WORD_EXAMPLE_OVERRIDES[display_text]
+    if display_text.endswith("關係"):
+        return f"做嘢唔只睇能力，{display_text}都好重要。"
+    if display_text.endswith("資料"):
+        return f"交表之前，記得再核對一次{display_text}。"
+    if display_text.endswith("合作"):
+        return f"今次活動靠大家{display_text}先搞得掂。"
+    if display_text.endswith("準備"):
+        return f"聽日要見客，你今晚最好先做好{display_text}。"
+    if display_text.endswith("效益"):
+        return f"老細最關心呢個方案有冇{display_text}。"
+    if display_text.endswith("管理"):
+        return f"見客之前做好{display_text}，塊面唔好咁多戲。"
+    if display_text.endswith("關口"):
+        return f"你過到自己個{display_text}，後面就會順好多。"
+    if display_text.endswith("方向"):
+        return f"我而家最想先定好個{display_text}。"
+    if display_text.endswith("能力"):
+        return f"做呢份工，{display_text}真係好重要。"
+    if display_text.endswith("反應"):
+        return f"一聽到爆響，佢第一個{display_text}就係擰轉頭。"
+    if display_text.endswith("現狀"):
+        return f"如果一直停喺{display_text}，就好難再進步。"
+    if display_text.endswith("人物"):
+        return f"警方而家已經將佢列做{display_text}。"
+    if display_text.endswith("表情"):
+        return f"佢聽完整件事都冇乜{display_text}。"
+    if "形容人" in gloss:
+        return f"佢真係{display_text}，相處落去會舒服好多。"
+    if "自己搞出来的后果" in gloss or "自己搞出來的後果" in gloss or "自己搞出嚟嘅後果" in gloss:
+        return f"件事搞成咁，都算係{display_text}。"
+    if "超出" in gloss and "预料" in gloss:
+        return f"個結果真係{display_text}，全場都估唔到。"
+    if "一时冲动" in gloss or "一時衝動" in gloss:
+        return f"你唔好因為{display_text}就亂咁應承人。"
+    if "守住自己本分" in gloss:
+        return f"喺公司做好自己份內事，{display_text}已經唔簡單。"
+    if "平安顺利" in gloss or "平安順利" in gloss:
+        return f"希望屋企人今次都可以{display_text}。"
+    if category == "工作场景":
+        return f"开会倾到卡住嗰阵，大家就会开始讲{display_text}。"
+    if category == "学习场景":
+        return f"老师讲到呢部分，会特登停低解释{display_text}。"
+    if category == "情绪表达":
+        return f"听完佢咁讲，我有呢种{display_text}都好正常。"
+    if category == "进阶表达":
+        return f"件事发展到呢一步，用{display_text}去形容最贴。"
+    return f"而家个情况几明显，用{display_text}去讲会最顺口。"
 
 
 def _build_expression_gloss(display_text: str, category: str) -> str:
     if display_text in GENERATED_EXPRESSION_GLOSS_OVERRIDES:
         return GENERATED_EXPRESSION_GLOSS_OVERRIDES[display_text]
+    dei_base = _match_reduplicated_dei(display_text)
+    if dei_base:
+        return f"表示有少少「{dei_base}」嗰种倾向或者感觉，未去到好严重。"
+    if display_text.startswith("唔使"):
+        return "表示件事唔需要做，或者叫对方唔好白担心、白费心机。"
+    if display_text.startswith("唔知"):
+        return "表示完全唔清楚情况、摸唔到门路，或者估唔到点会搞成咁。"
+    if display_text.startswith("唔好"):
+        return "用来劝人唔好咁做，或者先打个底提醒后果会唔好。"
+    if display_text.startswith("唔夠"):
+        return "表示数量、火候、能力或者气势差一截，未够班。"
+    if display_text.startswith("唔啱"):
+        return "表示唔合适、唔夹，摆埋一齐点都唔顺。"
+    if display_text.startswith("唔怪"):
+        return "表示『难怪会咁』，后面通常接一个已经出现咗嘅结果。"
+    if display_text.startswith("唔關"):
+        return "表示同某个人或某件事无关，唔好乱咁拉埋一齐。"
+    if display_text.startswith("冇得"):
+        return "表示已经冇条件、冇空间再做后面嗰步，只可以死心或者认数。"
+    if display_text.startswith("冇幾"):
+        return "表示数量唔多、时间唔长，或者呢种情况其实好少出现。"
+    if display_text.startswith("冇聲"):
+        return "表示静晒冇回应，或者人成个虚晒，连声都出唔到。"
+    if display_text.startswith("冇厘"):
+        return "表示一点都冇后面嗰种样、状态或者心机。"
+    if display_text.startswith("冇奶油"):
+        return "表示点谂都觉得冇可能，太离谱，根本唔信会发生。"
+    if display_text.startswith("冇家教"):
+        return "闹人冇礼貌、冇分寸，做法似系屋企冇教好。"
+    if display_text.startswith(("冇辦法", "冇法子")):
+        return "表示真系冇其他办法，只可以硬食眼前安排。"
+    if display_text.startswith("冇理由"):
+        return "表示照计唔应该会咁，带住『点会咁㗎』嘅语气。"
+    if display_text.startswith("冇相干"):
+        return "表示同件事拉唔上关系，完全唔关事。"
     if any(marker in display_text for marker in QUESTION_MARKERS):
-        return "一句追问情况、原因或者来历嘅口语说法。"
+        return "用来追问对方到底想点、发生乜事，或者确认自己有冇听错。"
+    if "咁" in display_text:
+        if display_text.endswith("口"):
+            return "形容个口形、表情或者个呆样夸张到一眼就睇得出。"
+        if display_text.endswith("眼"):
+            return "形容眼神、望人个样或者双眼状态好有画面。"
+        if display_text.endswith("聲"):
+            return "形容把声听落古怪、尖细、扭拧或者特别难听。"
+        if display_text.endswith("手"):
+            return "形容出手动作、手势或者做嘢手法有种特别嘅样。"
+        if display_text.endswith("舞"):
+            return "形容动作夸张、周身郁动，做起来唔会静定。"
+        if display_text.endswith("食"):
+            return "形容食相或者反应夸张，好似进入咗某种状态。"
+        if "大場面" in display_text:
+            return "形容场面阵仗夸张，排场大到过晒火位。"
+        if display_text.endswith("腳"):
+            return "形容脚步、动作或者走位急急脚，郁得特别快。"
+        if display_text.endswith("早"):
+            return "形容时间早得夸张，早到令人唔想起身。"
+        if display_text.endswith("多"):
+            return "形容数量多定少去到某个夸张程度，一讲就有画面。"
+        if display_text.endswith("亂"):
+            return "形容现场、摆位或者做法乱成一团。"
+        if display_text.endswith("蠢"):
+            return "直接闹人蠢得夸张，做法令人睇到摇头。"
+        if display_text.endswith("遠"):
+            return "形容距离远到夸张，去一转都嫌辛苦。"
+        return "用一个好有画面嘅比喻，讲个样、动作或者程度夸张成点。"
+    if "嚟" in display_text and "去" in display_text:
+        return "表示来来回回重复同一个动作、状态或者过程。"
+    if "頭" in display_text and "尾" in display_text:
+        return "同开头结尾、前因后果或者做事收尾有关。"
+    if "有" in display_text and "冇" in display_text:
+        return "表示一边有、一边冇，前后状态唔平衡或者唔完整。"
+    if "心" in display_text and "口" in display_text:
+        return "同心里面点谂、把口点讲，前后系咪一致有关。"
     if display_text.endswith("先"):
         return "表示而家先做呢一步，迟啲再算或者先拖住。"
     if display_text.startswith(("冇", "無")):
-        return "表示冇出现、冇办法、冇所谓，或者情况唔系咁。"
+        return "表示真系欠缺后面嗰样条件、分寸、本事或者后着，唔系单纯讲『冇』。"
     if display_text.startswith(("唔", "未")):
         if display_text.endswith("切"):
             return "表示时间上赶唔切，来不及。"
@@ -369,31 +629,213 @@ def _build_expression_gloss(display_text: str, category: str) -> str:
             return "表示件事一点都唔容易。"
         if display_text.endswith("妥"):
             return "表示有问题、唔对路。"
-        return "一句带否定意思嘅口语说法，用来讲唔得、唔要或者唔认同。"
+        return "表示后面嗰样唔成立、唔够，或者成件事根本行唔通。"
     if "嚟嚟去去" in display_text:
         return "表示翻来覆去都系嗰几样，变化唔大。"
     if category == "俚语表达":
-        return "一句好口语嘅讲法，多数用来回应眼前场面、吐槽或者表达态度。"
+        return "多用来当场形容人个样、件事离唔离谱，或者顺手爆一句表达态度。"
     if category == "情绪表达":
-        return "用来直接讲感觉、火气、紧张或者受唔受得住。"
+        return "直接讲人受唔受得住、个心情顶唔顶得顺，情绪会出得几明显。"
     if category == "工作场景":
-        return "工作上用来讲安排、处理方式或者进度。"
-    return "一句对话里好常见嘅口语表达。"
+        return "多同做法、安排、收尾或者现场处理手法有关。"
+    return "通常一句就讲中个态度、判断或者反应，熟人对话特别常见。"
 
 
-def _build_expression_usage(display_text: str, category: str) -> str:
+def _build_expression_usage(display_text: str, category: str, gloss: str = "") -> str:
     if display_text in EXPRESSION_USAGE_OVERRIDES:
         return EXPRESSION_USAGE_OVERRIDES[display_text]
+    dei_base = _match_reduplicated_dei(display_text)
+    if dei_base:
+        return "多用来轻轻形容人个样、状态或者感觉有少少偏向后面嗰样，未算好重。"
+    if display_text.startswith(("嗰個", "嗰隻", "嗰啲")):
+        return "一时谂唔起个名，或者懒得讲到太白时，就会用呢类讲法笼统带过。"
+    if display_text.startswith("唔使"):
+        return "多用来叫停对方，话畀人知唔需要再做，或者唔使再谂咁多。"
+    if display_text.startswith("唔知"):
+        return "多用在一头雾水、唔识点入手，或者对眼前情况完全冇底时。"
+    if display_text.startswith("唔夠"):
+        return "多用来讲份量、能力、耐性或者火候未够，差少少先到位。"
+    if display_text.startswith("冇得"):
+        return "多用在局势已经定咗、后路封晒嗰阵，讲咩都要面对现实。"
+    if display_text.startswith("冇幾"):
+        return "多用来讲次数少、时间短，或者『其实唔係成日会咁』。"
+    if display_text.startswith("冇聲"):
+        return "多用在对方突然冇反应、全场静晒，或者人成个攰到虚脱嗰阵。"
+    if display_text.startswith("冇厘"):
+        return "多用来踩人冇心机、冇精神、冇个样，语气通常几口语。"
+    if display_text.startswith(("冇辦法", "冇法子")):
+        return "多用在明知唔想都要照做，或者真系冇第二条路嗰阵。"
+    if display_text.startswith("冇理由"):
+        return "多用在觉得件事太离谱，直觉上完全唔合理嗰阵。"
+    if display_text.startswith("冇相干"):
+        return "多用来划清界线，讲某个人某件事唔应该被扯埋落水。"
+    if "平价货通常冇好品质" in gloss:
+        return "买平价货出事、质量差或者后悔悭错钱时最常讲。"
+    if "再差都唔会差到咁" in gloss:
+        return "多用来顶唔顺个情况太离谱，语气夸张得嚟又带吐槽。"
+    if "扮得好似" in gloss:
+        return "多用来讲人学人学得似，语气可以系赞都可以系笑佢。"
+    if "由以前到而家呢段时间" in gloss:
+        return "多放句首或者句中，先交代呢段时间一路都系咁。"
+    if "唔会咁快发生" in gloss:
+        return "多用来叫人唔好催咁紧，件事冇可能即刻有结果。"
+    if "冇想像中咁容易" in gloss:
+        return "多用来泼一泼冷水，提醒人唔好将件事睇得太简单。"
+    if "奈佢唔何" in gloss:
+        return "多用来讲一个人好难搞，点劝点闹都冇反应。"
+    if "大致上已经到位" in gloss:
+        return "多用在收尾、对数或者睇完成品时，表示八九不离十。"
+    if "太得闲" in gloss:
+        return "多用来笑人无聊生事，冇事搵事做。"
+    if "翻来覆去都系嗰几个" in gloss:
+        return "多用在开会、拣方案或者日常抱怨，讲来讲去都冇新意。"
+    if "喘到接唔上气" in gloss:
+        return "跑完、赶完路或者爬楼梯之后，形容自己喘到讲唔到完整句。"
+    if "只会搞乱档" in gloss or "帮唔到手" in gloss:
+        return "多用来闹人净系搞事唔帮手，越插手越乱。"
+    if "突然出现" in gloss:
+        return "多用在熟人好耐冇见，突然蒲头时打趣一句。"
+    if "照直讲心里话" in gloss:
+        return "多放在准备直讲意见之前，先打个底话自己唔兜圈。"
+    if "点激都激佢唔到" in gloss:
+        return "多用来讲对方面皮厚或者完全唔受你影响。"
+    if "听唔清楚" in gloss:
+        return "听漏咗、太突然，或者怀疑自己听错时会即刻追问。"
+    if "无话可说" in gloss or "冇話可講" in gloss:
+        return "多用来表示服咗、顶唔顺，或者见到个结果真系讲唔出声。"
     if any(marker in display_text for marker in QUESTION_MARKERS):
-        return "多放在追问、质疑或者确认情况时，前后句通常都唔长。"
+        return "多系听到某件事即刻反问一句，想追究原因或者确认自己有冇听错。"
+    if "咁" in display_text:
+        return "通常系见到个样、个动作或者个程度好夸张时，顺手拎个比喻嚟讲，会比直白讲法更有画面。"
+    if "嚟" in display_text and "去" in display_text:
+        return "多用喺讲人重复郁嚟郁去、谂嚟谂去，或者件事来回折腾停唔落嚟。"
+    if "頭" in display_text and "尾" in display_text:
+        return "多用喺讲前因后果、做事手尾或者想由头到尾睇清楚嗰阵。"
+    if "有" in display_text and "冇" in display_text:
+        return "多用嚟点出前后唔平衡，一边有料，另一边就差一截。"
+    if "心" in display_text and "口" in display_text:
+        return "多用喺讲人真心定假意，或者把口同心里面谂法系咪一致。"
     if display_text.endswith("先"):
-        return "多放句尾收住语气，表示先咁样、迟啲再算。"
+        return "通常摆句尾，表示而家先咁处理，下一步迟啲再讲。"
     if display_text.startswith(NEGATIVE_PREFIXES):
-        return "多用来否定、拒绝、讲做唔到，或者直接吐槽眼前情况。"
+        return "多用来直接表明唔赞成、唔接受，或者指出眼前个情况根本行唔通。"
     if category == "俚语表达":
-        return "多放在熟人对话、吐槽、插嘴或者即时反应里。"
+        return "多用喺熟人之间讲人个样、顶一句嘴，或者见到离谱场面时即刻爆出嚟。"
     if category == "情绪表达":
-        return "多用来讲自己顶唔顶得顺、惊唔惊、嬲唔嬲。"
+        return "多用喺情绪顶到上心口嗰阵，想直接交代自己而家顶唔顶得住。"
     if category == "工作场景":
-        return "多用于讲安排、交代下一步或者收尾。"
-    return "多放在真对话语境里，当场回应或者补一句态度。"
+        return "多用来交代下一步点做、边个跟进，或者现场要点样收科。"
+    return f"通常系见到个情况啱啱好中晒，就顺手用「{display_text}」讲中个意思。"
+
+
+def _build_expression_example(display_text: str, category: str, gloss: str, usage: str) -> str:
+    if display_text in GENERATED_EXPRESSION_EXAMPLE_OVERRIDES:
+        return GENERATED_EXPRESSION_EXAMPLE_OVERRIDES[display_text]
+    dei_base = _match_reduplicated_dei(display_text)
+    if dei_base:
+        return f"我觉得佢今日有啲{display_text}，同平时唔係几一样。"
+    if display_text.startswith("唔使"):
+        return f"呢啲我自己搞得掂，{display_text}你帮手。"
+    if display_text.startswith("唔知"):
+        return f"第一次去嗰边开会，我真系{display_text}。"
+    if display_text.startswith("唔夠"):
+        return f"你而家仲{display_text}，再练多几次先上场啦。"
+    if display_text.startswith("冇得"):
+        return f"老板都拍板咗，而家{display_text}再改。"
+    if display_text.startswith("冇幾"):
+        return f"呢种机会{display_text}会再嚟，你谂清楚先。"
+    if display_text.startswith("冇聲"):
+        return f"我讲完成个计划之后，佢即刻{display_text}。"
+    if display_text.startswith(("冇辦法", "冇法子")):
+        return f"巴士停驶，我都{display_text}，唯有搭的士。"
+    if display_text.startswith("冇理由"):
+        return f"讲好咗一齐去，佢{display_text}临时放飞机㗎。"
+    if display_text.startswith("冇相干"):
+        return f"呢件事同阿May{display_text}，你唔好拉埋佢落水。"
+    if display_text.startswith("冇乜"):
+        return f"佢問我有冇事，我話{display_text}。"
+    if display_text.startswith(("冇", "無")) and "大用" in display_text:
+        return f"呢招對佢嚟講{display_text}，不如諗第二個辦法。"
+    if display_text.startswith("冇奶油"):
+        return "你叫我而家先由头再做过，冇奶油啦。"
+    if display_text.startswith("冇交易"):
+        return "你想我临收工先再改第三次？冇交易。"
+    if display_text.startswith("冇下扒"):
+        return "你而家先叫我一个人顶晒成单嘢，我真系冇下扒。"
+    if display_text.startswith("冇了賴"):
+        return "讲到证据都摆埋出嚟，佢仲想赖，根本冇了賴。"
+    if display_text.startswith("冇你符"):
+        return "同佢讲咗成晚都唔听，我真系冇你符。"
+    if display_text.startswith("冇來由"):
+        return "佢无啦啦黑晒面，真系冇來由。"
+    if display_text.startswith("冇分寸"):
+        return "喺长辈面前咁样讲笑，真系太冇分寸。"
+    if display_text.startswith("冇命賠"):
+        return "叫我揸到咁快？我真系冇命賠。"
+    if display_text.startswith("冇埞企"):
+        return "成屋人都企晒出嚟，逼到我冇埞企。"
+    if display_text.startswith("冇定性"):
+        return "佢份份工都做唔够三个月，真系几冇定性。"
+    if display_text.startswith("冇定準"):
+        return "佢今日讲东听日讲西，完全冇定準。"
+    if display_text.startswith("冇家教"):
+        return "食饭一路拣餸一路拍枱，真系冇家教。"
+    if display_text.startswith("冇彎轉"):
+        return "呢条路行到尾先发觉冇彎轉，要原路折返。"
+    if display_text.startswith("冇情講"):
+        return "一到计钱嗰阵，老板真系冇情講。"
+    if display_text.startswith("冇把炮"):
+        return "连个时间都未夹好就话搞活动，成件事冇把炮。"
+    if display_text.startswith("冇為意"):
+        return "头先太赶，我真系冇為意你已经走咗。"
+    if display_text.startswith("冇省起"):
+        return "你唔提我都冇省起，原来听日要交租。"
+    if display_text.startswith("冇着落"):
+        return "份工仲未有回音，我个心一直冇着落。"
+    if display_text.startswith("冇研究"):
+        return "股票嗰啲我冇研究，你问第二个好过。"
+    if display_text.startswith(("冇", "無")):
+        return f"件事搞成咁，真系{display_text}。"
+    if display_text.startswith(("唔", "未")) and any(marker in display_text for marker in QUESTION_MARKERS):
+        return f"你无啦啦咁样做，我即刻问你：{display_text}？"
+    if display_text.startswith(("唔", "未")):
+        return f"我而家真係{display_text}，你等我缓一缓先。"
+    if any(marker in display_text for marker in QUESTION_MARKERS):
+        return f"见到个场面咁古怪，我第一句就问：{display_text}？"
+    if "咁" in display_text:
+        if display_text.endswith("口"):
+            return f"佢一聽到個消息就{display_text}，成句嘢都講唔出。"
+        if display_text.endswith("眼"):
+            return f"你唔好再{display_text}望住我啦，有嘢就直接講。"
+        if display_text.endswith("聲"):
+            return f"佢今日成把聲都{display_text}，聽到人好辛苦。"
+        if display_text.endswith("手"):
+            return f"佢一緊張就{display_text}，連杯水都拎唔穩。"
+        if display_text.endswith("舞"):
+            return f"你唔使{display_text}啦，講清楚重點就得。"
+        if display_text.endswith("食"):
+            return f"佢餓到{display_text}，兩啖就食晒個飯盒。"
+        if "大場面" in display_text:
+            return f"食個飯啫，唔使搞到{display_text}。"
+        if display_text.endswith("腳"):
+            return f"一聽到有人叫，佢即刻{display_text}走咗。"
+        if display_text.endswith("早"):
+            return f"你{display_text}打嚟，我仲未瞓醒。"
+        if display_text.endswith("多"):
+            return f"得{display_text}，點夠大家分。"
+        return f"个场面夸张成咁，我真系会讲{display_text}。"
+    if "嚟" in display_text and "去" in display_text:
+        return f"佢成晚{display_text}，完全坐唔定。"
+    if "頭" in display_text and "尾" in display_text:
+        return f"你先{display_text}睇清楚，費事漏咗重點。"
+    if "有" in display_text and "冇" in display_text:
+        return f"佢做嘢成日{display_text}，睇落去點都唔平衡。"
+    if "心" in display_text and "口" in display_text:
+        return f"你個樣都寫晒出嚟，擺明就係{display_text}。"
+    if display_text.endswith("先"):
+        return f"我而家未得閒，{display_text}。"
+    if category == "俚语表达":
+        return f"呢下场面一出，我即刻谂起「{display_text}」呢句。"
+    if category == "情绪表达":
+        return f"佢个样已经说明晒，根本就系{display_text}。"
+    return f"个情况一出现，顺口讲{display_text}就最贴地。"

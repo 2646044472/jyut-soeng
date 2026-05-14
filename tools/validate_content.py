@@ -5,6 +5,7 @@ import json
 from collections import Counter, defaultdict
 from pathlib import Path
 from meaning_rules import is_low_info_gloss
+from meaning_rules import is_fake_example_sentence
 from meaning_rules import is_low_info_usage
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -120,6 +121,8 @@ def main() -> None:
             raise SystemExit(f"Entry {entry.get('id')} still has low-information usageTip: {usage_tip}")
         if entry.get("sourceLabel") == "generated":
             example_sentence = str(entry.get("exampleSentence", "")).strip()
+            if is_fake_example_sentence(example_sentence, display_text):
+                raise SystemExit(f"Generated entry {entry.get('id')} still has fake or placeholder exampleSentence")
             if any(marker in example_sentence for marker in LEGACY_GENERATED_MARKERS):
                 raise SystemExit(f"Generated entry {entry.get('id')} still contains legacy fake example copy")
             if any(marker in example_sentence for marker in FORCED_SENTENCE_MARKERS):

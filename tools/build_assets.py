@@ -4,11 +4,12 @@ from __future__ import annotations
 import json
 from datetime import datetime, timezone
 from pathlib import Path
+from meaning_rules import is_low_info_gloss
+from meaning_rules import is_fake_example_sentence
+from meaning_rules import is_low_info_usage
 from meaning_rules import build_better_gloss
 from meaning_rules import build_better_usage
-from meaning_rules import build_generated_guidance_text
-from meaning_rules import is_low_info_gloss
-from meaning_rules import is_low_info_usage
+from meaning_rules import build_better_example
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "content"
@@ -33,88 +34,6 @@ def load_quality_overrides() -> dict[str, dict[str, str]]:
 QUALITY_OVERRIDES = load_quality_overrides()
 
 
-def build_fallback_meaning(display_text: str, category: str, entry_type: str) -> str:
-    if entry_type == "expression":
-        if category == "俚语表达":
-            return "偏口语的说法，主要拿来讲某种状态、反应或场面。"
-        if category == "口语场景":
-            return "对话里常见的说法，开口时可以直接带出来。"
-        if category == "情绪表达":
-            return "用来表达感觉、情绪或当下状态。"
-        if category == "工作场景":
-            return "多用于交代事情、讲进度或讲处理方式。"
-        return f"常见表达，日常讲话时可以自然用「{display_text}」。"
-    if category == "工作场景":
-        return "工作沟通里常见的词，适合拿来练稳定开口。"
-    if category == "学习场景":
-        return "学习语境常见词，适合拿来校正读法。"
-    if category == "情绪表达":
-        return "常用来讲感受、状态或反应。"
-    if category == "口语场景":
-        return "日常讲话常见词，重点是读顺和讲自然。"
-    return f"常用词，适合放进日常句子里练熟「{display_text}」。"
-
-
-def build_fallback_usage(display_text: str, category: str, entry_type: str) -> str:
-    if entry_type == "expression":
-        if category == "俚语表达":
-            return "多放在熟人对话里，通常用来回应状况、吐槽或者补一句态度。"
-        if category == "口语场景":
-            return "适合直接当回应或接话位，后面再补一句解释就够。"
-        if category == "情绪表达":
-            return "多用来讲自己当下感受，也可以拿来评价别人状态。"
-        if category == "工作场景":
-            return "常放在讲安排、进度、做法或交代事情的时候。"
-        if category == "安抚表达":
-            return "多用来叫人放松一点、先稳住，或者提醒对方唔使急。"
-        if category == "礼貌表达":
-            return "多放在回应多谢、请人帮忙或把语气放软的时候。"
-        if category == "鼓励表达":
-            return "用来俾人打气最自然，通常单独讲一句就已经够。"
-        if category == "高频口语":
-            return "多当短回应或句尾补充，令语气听起来更自然。"
-        if category == "日常表达":
-            return "放在日常对话里最自然，通常一开口就可以直接带出来。"
-        return f"多放在口语句子里，先用短句把「{display_text}」讲顺，再慢慢拉长。"
-    if category == "问句高频词":
-        return "多放在问句开头，用来追问原因、做法或者而家个状况。"
-    if category in {"地点常用词", "地名常用词"}:
-        return "多跟「喺 / 去 / 返 / 到」呢类动词搭配，讲人喺边或者去边。"
-    if category == "礼貌表达":
-        return "多用来道谢、请人帮忙、借过，或者先把语气放软。"
-    if category == "工作场景":
-        return "开会、交代事情、讲做法或者讲进度时最常用。"
-    if category == "学习场景":
-        return "多用来讲上堂、练习、功课或者学习安排。"
-    if category == "情绪表达":
-        return "多用来讲自己感觉、评价状态，或者安抚别人。"
-    if category == "提醒表达":
-        return "多用来提醒对方注意、先停一停，或者换个做法。"
-    if category == "组织表达":
-        return "多用来讲整理资料、分步骤说明，或者把事情串起来。"
-    if category == "安抚表达":
-        return "多用来叫人唔使急、先放松，或者一步一步来。"
-    if category == "时间表达":
-        return "多放在句首或动词前，交代时间点或者最近呢段时间。"
-    if category == "评价表达":
-        return "多用来判断人、做法或者结果够唔够好、啱唔啱。"
-    if category == "正音术语":
-        return "多出现在纠音、教学或者讲读法的时候，用来点出问题位。"
-    if category == "主题核心词":
-        return "多用来讲自己想学、会讲，或者直接指粤语呢门语言。"
-    if category == "高频口语":
-        return "多放在短句里直接用，通常一开口就会接到。"
-    if category == "高频日常词":
-        return "多用来讲眼前发生的事、日常安排或者基本状态。"
-    if category == "进阶常用词":
-        return "多用来讲状态、变化或者较抽象的概念，常放在判断句里。"
-    return f"先放进最短的日常句里，用「{display_text}」讲清自己想表达什么。"
-
-
-def build_generated_practice_prompt(display_text: str, category: str, entry_type: str) -> str:
-    return build_generated_guidance_text(display_text, category, entry_type)
-
-
 def build_prompt_text(raw: str, entry_type: str, source_label: str) -> str:
     text = str(raw or "").strip()
     if text:
@@ -128,37 +47,38 @@ def build_prompt_text(raw: str, entry_type: str, source_label: str) -> str:
     return "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。"
 
 
-def ensure_two_line_examples(display_text: str, raw: str, category: str, entry_type: str) -> str:
+def trim_examples(raw: str) -> str:
     lines = [line.strip() for line in str(raw or "").split("\n") if line.strip()]
-    if not lines:
-        if entry_type == "expression":
-            lines = [f"朋友倾偈时，可以直接讲「{display_text}」。"]
-        else:
-            lines = [f"先用「{display_text}」讲一条最短、最自然的日常句子。"]
     return "\n".join(lines[:3])
+
+
+def normalize_example(
+    raw: str,
+    display_text: str,
+    category: str,
+    entry_type: str,
+    source_label: str,
+    gloss: str,
+    usage_tip: str,
+) -> str:
+    text = str(raw or "").strip()
+    text = trim_examples(text)
+    if source_label == "generated" and (is_fake_example_sentence(text, display_text) or not text):
+        return trim_examples(build_better_example(display_text, category, entry_type, gloss, usage_tip))
+    return text
 
 
 def normalize_gloss(raw: str, display_text: str, category: str, entry_type: str, source_label: str) -> str:
     text = str(raw or "").strip()
-    if is_low_info_gloss(text, display_text):
-        improved = build_better_gloss(display_text, category, entry_type, source_label)
-        if improved:
-            return improved
-        return build_fallback_meaning(display_text, category, entry_type)
+    if source_label == "generated" and is_low_info_gloss(text, display_text):
+        return str(build_better_gloss(display_text, category, entry_type, source_label)).strip()
     return text
 
 
 def normalize_usage(raw: str, display_text: str, category: str, entry_type: str, source_label: str) -> str:
     text = str(raw or "").strip()
-    if source_label == "generated":
-        improved = build_better_usage(display_text, category, entry_type, source_label)
-        if improved:
-            return improved
-    if is_low_info_usage(text):
-        improved = build_better_usage(display_text, category, entry_type, source_label)
-        if improved:
-            return improved
-        return build_fallback_usage(display_text, category, entry_type)
+    if source_label == "generated" and is_low_info_usage(text):
+        return str(build_better_usage(display_text, category, entry_type, source_label)).strip()
     return text
 
 
@@ -174,6 +94,14 @@ def load_entries(path: Path, entry_type: str) -> list[dict]:
         category = row.get("category", "")
         display_text = row["displayText"]
         resolved_source_label = row.get("sourceLabel", source_label)
+        gloss = normalize_gloss(row.get("gloss", ""), display_text, category, entry_type, resolved_source_label)
+        usage_tip = normalize_usage(
+            row.get("usageTip", ""),
+            display_text,
+            category,
+            entry_type,
+            resolved_source_label,
+        )
         item = {
             "id": row["id"],
             "displayText": display_text,
@@ -183,19 +111,17 @@ def load_entries(path: Path, entry_type: str) -> list[dict]:
                 source_label=resolved_source_label,
             ),
             "answerJyutping": row["answerJyutping"],
-            "gloss": normalize_gloss(row.get("gloss", ""), display_text, category, entry_type, resolved_source_label),
+            "gloss": gloss,
             "notes": "",
-            "usageTip": normalize_usage(
-                row.get("usageTip", ""),
+            "usageTip": usage_tip,
+            "exampleSentence": normalize_example(
+                row.get("exampleSentence", ""),
                 display_text,
                 category,
                 entry_type,
                 resolved_source_label,
-            ),
-            "exampleSentence": (
-                build_generated_practice_prompt(display_text, category, entry_type)
-                if resolved_source_label == "generated"
-                else ensure_two_line_examples(display_text, row.get("exampleSentence", ""), category, entry_type)
+                gloss,
+                usage_tip,
             ),
             "exampleTranslation": "",
             "entryType": entry_type,
