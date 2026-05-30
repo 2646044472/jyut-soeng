@@ -233,7 +233,7 @@ class SessionViewModel @Inject constructor(
     val uiState: StateFlow<SessionUiState> = mutableState
 
     private var questionStartMillis: Long = 0
-    private val firstRoundMistakes = linkedMapOf<String, StudyQuestion>()
+    private val currentRoundMistakes = linkedMapOf<String, StudyQuestion>()
     private val mode: SessionMode = when (savedStateHandle.get<String>("mode")) {
         "review" -> SessionMode.Review
         else -> SessionMode.Learn
@@ -251,7 +251,7 @@ class SessionViewModel @Inject constructor(
     fun loadSession() {
         viewModelScope.launch {
             val autoplayAudio = mutableState.value.autoplayAudio
-            firstRoundMistakes.clear()
+            currentRoundMistakes.clear()
             mutableState.value = SessionUiState(isLoading = true)
             val session = repository.buildSession(mode = mode)
             questionStartMillis = System.currentTimeMillis()
@@ -298,10 +298,9 @@ class SessionViewModel @Inject constructor(
                 retryQuestionCount = when {
                     mode != SessionMode.Learn -> uiState.value.retryQuestionCount
                     outcome.isCorrect -> uiState.value.retryQuestionCount
-                    uiState.value.round != 1 -> uiState.value.retryQuestionCount
                     else -> {
-                        firstRoundMistakes[currentQuestion.entryId] = currentQuestion
-                        firstRoundMistakes.size
+                        currentRoundMistakes[currentQuestion.entryId] = currentQuestion
+                        currentRoundMistakes.size
                     }
                 },
                 feedback = SessionFeedback(
@@ -322,8 +321,9 @@ class SessionViewModel @Inject constructor(
         if (uiState.value.feedback == null) return
         val nextIndex = uiState.value.currentIndex + 1
         val nextQuestion = session.questions.getOrNull(nextIndex)
-        if (nextQuestion == null && mode == SessionMode.Learn && uiState.value.round == 1 && firstRoundMistakes.isNotEmpty()) {
-            val retryQuestions = firstRoundMistakes.values.toList()
+        if (nextQuestion == null && mode == SessionMode.Learn && currentRoundMistakes.isNotEmpty()) {
+            val retryQuestions = currentRoundMistakes.values.toList()
+            currentRoundMistakes.clear()
             val retrySession = session.copy(
                 sessionId = UUID.randomUUID().toString(),
                 questions = retryQuestions,
@@ -333,7 +333,8 @@ class SessionViewModel @Inject constructor(
                 session = retrySession,
                 currentIndex = 0,
                 currentQuestion = retryQuestions.firstOrNull(),
-                round = 2,
+                round = uiState.value.round + 1,
+                retryQuestionCount = 0,
                 answerInput = "",
                 feedback = null,
             )
