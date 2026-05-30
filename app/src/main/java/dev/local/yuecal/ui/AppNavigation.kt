@@ -55,9 +55,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
@@ -475,7 +480,8 @@ private fun SessionScreen(
             feedback = feedback,
             nextLabel = when {
                 state.currentIndex + 1 < session.questions.size -> "下一个"
-                state.round == 1 && state.retryQuestionCount > 0 -> "进入错词第二阶段"
+                state.retryQuestionCount > 0 && state.round == 1 -> "进入错词第二阶段"
+                state.retryQuestionCount > 0 -> "继续练错词"
                 else -> "完成这一轮"
             },
             onNext = onNext,
@@ -641,7 +647,11 @@ private fun SessionHeader(
             Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                 if (round > 1) {
-                    Text("第二阶段：错词再练", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                    Text(
+                        if (round == 2) "第二阶段：错词再练" else "第 $round 轮：只练刚才错的",
+                        style = MaterialTheme.typography.labelLarge,
+                        color = MaterialTheme.colorScheme.primary,
+                    )
                 }
                 Text("第 $current / $total 题", style = MaterialTheme.typography.bodyMedium)
             }
@@ -663,17 +673,6 @@ private fun PracticeCard(question: StudyQuestion) {
                 .padding(18.dp),
             verticalArrangement = Arrangement.spacedBy(10.dp),
         ) {
-            Text(
-                when (question.type) {
-                    StudyQuestionType.FillJyutping -> "先按自己的习惯读，再写出拼音。"
-                    StudyQuestionType.MultipleChoice -> "这是熟词快刷题，选出最顺手、最准确的 Jyutping。"
-                    StudyQuestionType.ExpressionCard ->
-                        if (question.sourceLabel == "generated") "先理解表达，再按提示先练语气，不必硬套进句子。"
-                        else "先理解表达和例句，再写出拼音。"
-                },
-                style = MaterialTheme.typography.labelLarge,
-                color = MaterialTheme.colorScheme.primary,
-            )
             Text(question.displayText, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
             Text(question.promptText, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             Text("分类：${question.category}", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
@@ -824,19 +823,28 @@ private fun FeedbackCardContent(
     feedback: SessionFeedback,
 ) {
     val correct = feedback.outcome.isCorrect
+    val resultColor = if (correct) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
     Column(
         modifier = Modifier
             .fillMaxWidth(),
-        verticalArrangement = Arrangement.spacedBy(8.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         Text(
-            if (correct) "对了，继续压实这个读法" else "这题再校一下，先看标准答案",
-            style = MaterialTheme.typography.titleLarge,
+            if (correct) "对了" else "错了",
+            style = MaterialTheme.typography.displayMedium,
             fontWeight = FontWeight.Bold,
-            color = if (correct) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error,
+            color = resultColor,
         )
-        Text("你的输入：${feedback.userAnswer}", style = MaterialTheme.typography.bodyMedium)
-        Text("标准答案：${feedback.outcome.correctAnswer}", style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
+        if (correct) {
+            Text("你的输入：${feedback.userAnswer}", style = MaterialTheme.typography.bodyMedium)
+            Text("标准答案：${feedback.outcome.correctAnswer}", style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
+        } else {
+            AnswerComparisonRows(
+                userAnswer = feedback.userAnswer,
+                correctAnswer = feedback.outcome.correctAnswer,
+                errorColor = MaterialTheme.colorScheme.error,
+            )
+        }
         Text(
             "平时输入可以写成：${question.answerJyutping.replace(Regex("[1-6]"), "")}",
             style = MaterialTheme.typography.bodySmall,
@@ -857,6 +865,33 @@ private fun FeedbackCardContent(
             ExampleBlock(question.exampleSentence, question.sourceLabel)
         }
     }
+}
+
+@Composable
+private fun AnswerComparisonRows(
+    userAnswer: String,
+    correctAnswer: String,
+    errorColor: Color,
+) {
+    Text(
+        highlightedJyutpingLine(
+            label = "你的输入：",
+            answer = userAnswer,
+            counterpart = correctAnswer,
+            errorColor = errorColor,
+        ),
+        style = MaterialTheme.typography.bodyLarge,
+    )
+    Text(
+        highlightedJyutpingLine(
+            label = "标准答案：",
+            answer = correctAnswer,
+            counterpart = userAnswer,
+            errorColor = errorColor,
+        ),
+        style = MaterialTheme.typography.bodyLarge,
+        fontWeight = FontWeight.Medium,
+    )
 }
 
 @Composable
@@ -1048,6 +1083,47 @@ private fun InfoBlock(
 }
 
 private fun usageLabel(sourceLabel: String): String = if (sourceLabel == "generated") "提醒" else "点用"
+
+private val jyutpingTokenRegex = Regex("[A-Za-z]+[1-6]?")
+
+private fun highlightedJyutpingLine(
+    label: String,
+    answer: String,
+    counterpart: String,
+    errorColor: Color,
+): AnnotatedString = buildAnnotatedString {
+    append(label)
+    val matches = jyutpingTokenRegex.findAll(answer).toList()
+    val counterpartParts = jyutpingTokenRegex.findAll(counterpart)
+        .map { normalizeJyutpingToken(it.value) }
+        .toList()
+    if (matches.isEmpty()) {
+        withStyle(SpanStyle(color = errorColor, fontWeight = FontWeight.Bold)) {
+            append(answer)
+        }
+        return@buildAnnotatedString
+    }
+
+    var previousEnd = 0
+    matches.forEachIndexed { index, match ->
+        append(answer.substring(previousEnd, match.range.first))
+        val token = match.value
+        val isWrong = normalizeJyutpingToken(token) != counterpartParts.getOrNull(index)
+        if (isWrong) {
+            withStyle(SpanStyle(color = errorColor, fontWeight = FontWeight.Bold)) {
+                append(token)
+            }
+        } else {
+            append(token)
+        }
+        previousEnd = match.range.last + 1
+    }
+    append(answer.substring(previousEnd))
+}
+
+private fun normalizeJyutpingToken(value: String): String = value
+    .lowercase()
+    .replace(Regex("[1-6]"), "")
 
 private fun formatJyutpingSyllables(raw: String): String {
     val pieces = Regex("[a-z]+[1-6]").findAll(raw.lowercase()).map { it.value }.toList()
