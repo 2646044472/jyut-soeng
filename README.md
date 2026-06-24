@@ -21,6 +21,7 @@
 - 正误反馈带音效
 - 本地 JSON 内容导入
 - GitHub 内容更新入口
+- 应用内检查新版 APK，并可直接拉起系统安装覆盖更新
 - 应用名与图标已切到 `粤常`
 - 当前内置题库：
   - 2623 条词语正音词条
@@ -72,6 +73,8 @@ python3 tools/export_github_pack.py
 - `dist/github/jyut-soeng/content.json`
 
 App 里的 GitHub 更新逻辑默认读取 GitHub 仓库中的这一套导出结果。
+
+应用 APK 更新会读取 GitHub 最新 Release，并下载最新 APK 资产来覆盖安装。
 
 ## 签名与升级
 

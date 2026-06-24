@@ -6,6 +6,7 @@ import androidx.room.withTransaction
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dev.local.yuecal.di.IoDispatcher
 import dev.local.yuecal.domain.AppSettings
+import dev.local.yuecal.domain.AppReleaseInfo
 import dev.local.yuecal.domain.CalibrationEntry
 import dev.local.yuecal.domain.DashboardSummary
 import dev.local.yuecal.domain.EntryProgress
@@ -39,6 +40,7 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.SerializationException
+import kotlinx.serialization.Serializable
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.json.Json
 
@@ -57,6 +59,19 @@ private data class ReviewCountsSnapshot(
 private data class SessionTypeTargets(
     val wordLimit: Int,
     val expressionLimit: Int,
+)
+
+@Serializable
+private data class GitHubReleasePayload(
+    val tag_name: String,
+    val html_url: String = GitHubSources.RELEASES_URL,
+    val assets: List<GitHubReleaseAsset> = emptyList(),
+)
+
+@Serializable
+private data class GitHubReleaseAsset(
+    val name: String,
+    val browser_download_url: String,
 )
 
 @Singleton
@@ -111,6 +126,13 @@ class CalibratorRepository @Inject constructor(
         reviewCounts,
         sessionDao.observeAttemptsCount(),
     ) { entries, review, attempts ->
+        val reviewTargets = ReviewTargetPlanner.sessionTargets(
+            wordDueEntries = review.dueWordEntries,
+            wordStudiedEntries = review.startedWordEntries,
+            expressionDueEntries = review.dueExpressionEntries,
+            expressionStudiedEntries = review.startedExpressionEntries,
+            hasDueReviewsToday = review.dueEntries > 0,
+        )
         DashboardSummary(
             totalEntries = entries.first,
             wordEntries = entries.second,
@@ -123,13 +145,7 @@ class CalibratorRepository @Inject constructor(
             newExpressionEntries = review.newExpressionEntries,
             startedEntries = review.startedEntries,
             totalAttempts = attempts,
-            dailyReviewGoal = ReviewTargetPlanner.targetForToday(
-                dueEntries = review.dueWordEntries,
-                studiedEntries = review.startedWordEntries,
-            ) + ReviewTargetPlanner.targetForToday(
-                dueEntries = review.dueExpressionEntries,
-                studiedEntries = review.startedExpressionEntries,
-            ),
+            dailyReviewGoal = reviewTargets.total,
         )
     }
 
@@ -200,6 +216,38 @@ class CalibratorRepository @Inject constructor(
                 val wrapped = IOException("GitHub 内容包暂不可用", packError)
                 throw wrapped
             }
+    }
+
+    suspend fun fetchLatestAppRelease(): AppReleaseInfo = withContext(ioDispatcher) {
+        val payload = json.decodeFromString(
+            GitHubReleasePayload.serializer(),
+            httpGetText(GitHubSources.LATEST_RELEASE_API_URL),
+        )
+        val latestVersion = payload.tag_name
+            .removePrefix("jyut-soeng-v")
+            .removePrefix("v")
+            .ifBlank { payload.tag_name }
+        val apkAsset = payload.assets.firstOrNull { asset ->
+            asset.name.endsWith(".apk", ignoreCase = true)
+        }
+        AppReleaseInfo(
+            version = latestVersion,
+            tagName = payload.tag_name,
+            releaseUrl = payload.html_url.ifBlank { GitHubSources.RELEASES_URL },
+            apkDownloadUrl = apkAsset?.browser_download_url ?: GitHubSources.LATEST_APK_URL,
+        )
+    }
+
+    suspend fun downloadAppRelease(release: AppReleaseInfo): File = withContext(ioDispatcher) {
+        val updateRoot = File(context.cacheDir, "app-update")
+        resetDirectory(updateRoot)
+        val apkFile = File(updateRoot, "yuet-soeng-${release.version}.apk")
+        downloadToFile(
+            url = release.apkDownloadUrl,
+            target = apkFile,
+            accept = "application/vnd.android.package-archive",
+        )
+        apkFile
     }
 
     private suspend fun importFromGitHubPack(): ImportResult {
@@ -355,19 +403,16 @@ class CalibratorRepository @Inject constructor(
         val expressionDueCount = progressDao.dueCountNowByType("expression", today)
         val expressionStudiedCount = progressDao.startedCountNowByType("expression")
         val hasDueReviewsToday = wordDueCount > 0 || expressionDueCount > 0
-        val wordLimit = ReviewTargetPlanner.sessionTarget(
-            dueEntries = wordDueCount,
-            studiedEntries = wordStudiedCount,
-            hasDueReviewsToday = hasDueReviewsToday,
-        )
-        val expressionLimit = ReviewTargetPlanner.sessionTarget(
-            dueEntries = expressionDueCount,
-            studiedEntries = expressionStudiedCount,
+        val targets = ReviewTargetPlanner.sessionTargets(
+            wordDueEntries = wordDueCount,
+            wordStudiedEntries = wordStudiedCount,
+            expressionDueEntries = expressionDueCount,
+            expressionStudiedEntries = expressionStudiedCount,
             hasDueReviewsToday = hasDueReviewsToday,
         )
         return SessionTypeTargets(
-            wordLimit = wordLimit,
-            expressionLimit = expressionLimit,
+            wordLimit = targets.wordLimit,
+            expressionLimit = targets.expressionLimit,
         )
     }
 

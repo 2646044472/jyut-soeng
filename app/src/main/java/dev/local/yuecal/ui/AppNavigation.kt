@@ -2,6 +2,8 @@ package dev.local.yuecal.ui
 
 import android.content.Intent
 import android.net.Uri
+import android.os.Build
+import android.provider.Settings
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
@@ -68,6 +70,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
+import androidx.core.content.FileProvider
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavDestination.Companion.hierarchy
@@ -81,6 +84,7 @@ import dev.local.yuecal.domain.DashboardSummary
 import dev.local.yuecal.domain.StudyQuestion
 import dev.local.yuecal.domain.StudyQuestionType
 import dev.local.yuecal.ui.theme.CantoCalibratorTheme
+import java.io.File
 
 private enum class TopLevelDestination(
     val route: String,
@@ -170,6 +174,9 @@ fun CantoCalibratorApp() {
                         onDailyLearnGoalChange = viewModel::updateDailyLearnGoal,
                         onRefreshBuiltin = viewModel::refreshBuiltinContent,
                         onImportFromGitHub = viewModel::importFromGitHub,
+                        onCheckAppUpdate = viewModel::checkAppUpdate,
+                        onDownloadAppUpdate = viewModel::downloadAppUpdate,
+                        onApkInstallHandled = viewModel::markApkInstallHandled,
                         onDismissMessage = viewModel::clearMessage,
                     )
                 }
@@ -310,10 +317,21 @@ private fun ProfileScreen(
     onDailyLearnGoalChange: (Int) -> Unit,
     onRefreshBuiltin: () -> Unit,
     onImportFromGitHub: () -> Unit,
+    onCheckAppUpdate: () -> Unit,
+    onDownloadAppUpdate: () -> Unit,
+    onApkInstallHandled: () -> Unit,
     onDismissMessage: () -> Unit,
 ) {
     val context = LocalContext.current
     val settings = state.settings
+    LaunchedEffect(state.pendingApkInstallPath) {
+        val apkPath = state.pendingApkInstallPath ?: return@LaunchedEffect
+        val apkFile = File(apkPath)
+        if (apkFile.exists()) {
+            installDownloadedApk(context, apkFile)
+        }
+        onApkInstallHandled()
+    }
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
         contentPadding = PaddingValues(20.dp),
@@ -358,6 +376,23 @@ private fun ProfileScreen(
             )
         }
         item {
+            AppUpdateCard(
+                currentVersion = state.currentAppVersion,
+                latestVersion = state.latestAppVersion,
+                hasUpdate = state.hasAppUpdate,
+                isChecking = state.isCheckingAppUpdate,
+                isDownloading = state.isDownloadingAppUpdate,
+                onCheckUpdate = onCheckAppUpdate,
+                onDownloadUpdate = {
+                    if (canInstallPackages(context)) {
+                        onDownloadAppUpdate()
+                    } else {
+                        openUnknownAppsSettings(context)
+                    }
+                },
+            )
+        }
+        item {
             StatCard(
                 title = "GitHub 更新源",
                 value = "粤常",
@@ -373,7 +408,7 @@ private fun ProfileScreen(
             OutlinedButton(
                 modifier = Modifier.fillMaxWidth(),
                 onClick = {
-                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(state.githubReleasesUrl)))
+                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(state.latestAppReleaseUrl)))
                 },
             ) {
                 Text("打开 GitHub Releases")
@@ -399,6 +434,98 @@ private fun ProfileScreen(
             )
         }
     }
+}
+
+@Composable
+private fun AppUpdateCard(
+    currentVersion: String,
+    latestVersion: String?,
+    hasUpdate: Boolean,
+    isChecking: Boolean,
+    isDownloading: Boolean,
+    onCheckUpdate: () -> Unit,
+    onDownloadUpdate: () -> Unit,
+) {
+    Card {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(18.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp),
+        ) {
+            Text("应用更新", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+            Text(
+                buildString {
+                    append("当前版本 ")
+                    append(currentVersion)
+                    when {
+                        isChecking -> append(" · 正在检查 GitHub Release")
+                        isDownloading -> append(" · 正在下载 APK，完成后会打开系统安装器")
+                        hasUpdate && !latestVersion.isNullOrBlank() -> {
+                            append(" · 发现新版本 ")
+                            append(latestVersion)
+                        }
+                        !latestVersion.isNullOrBlank() -> {
+                            append(" · 已经是最新版本")
+                        }
+                        else -> append(" · 可在这里直接检查和下载安装新包")
+                    }
+                },
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            OutlinedButton(
+                modifier = Modifier.fillMaxWidth(),
+                enabled = !isChecking && !isDownloading,
+                onClick = onCheckUpdate,
+            ) {
+                Text(if (isChecking) "检查中..." else "检查应用更新")
+            }
+            if (hasUpdate && !latestVersion.isNullOrBlank()) {
+                Button(
+                    modifier = Modifier.fillMaxWidth(),
+                    enabled = !isDownloading,
+                    onClick = onDownloadUpdate,
+                ) {
+                    Text(if (isDownloading) "下载中..." else "下载安装 $latestVersion")
+                }
+            }
+        }
+    }
+}
+
+private fun canInstallPackages(context: android.content.Context): Boolean {
+    return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+        context.packageManager.canRequestPackageInstalls()
+    } else {
+        true
+    }
+}
+
+private fun openUnknownAppsSettings(context: android.content.Context) {
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+        context.startActivity(
+            Intent(
+                Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES,
+                Uri.parse("package:${context.packageName}"),
+            ).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK),
+        )
+    }
+}
+
+private fun installDownloadedApk(context: android.content.Context, apkFile: File) {
+    val apkUri = FileProvider.getUriForFile(
+        context,
+        "${context.packageName}.fileprovider",
+        apkFile,
+    )
+    context.startActivity(
+        Intent(Intent.ACTION_VIEW).apply {
+            setDataAndType(apkUri, "application/vnd.android.package-archive")
+            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        },
+    )
 }
 
 @Composable
@@ -480,8 +607,8 @@ private fun SessionScreen(
             feedback = feedback,
             nextLabel = when {
                 state.currentIndex + 1 < session.questions.size -> "下一个"
-                state.retryQuestionCount > 0 && state.round == 1 -> "进入错词第二阶段"
-                state.retryQuestionCount > 0 -> "继续练错词"
+                state.retryQuestionCount > 0 && state.round == 1 -> "进入错题第二阶段"
+                state.retryQuestionCount > 0 -> "继续练错题"
                 else -> "完成这一轮"
             },
             onNext = onNext,
@@ -648,7 +775,7 @@ private fun SessionHeader(
                 Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                 if (round > 1) {
                     Text(
-                        if (round == 2) "第二阶段：错词再练" else "第 $round 轮：只练刚才错的",
+                        if (round == 2) "第二阶段：错题再练" else "第 $round 轮：只练刚才错的",
                         style = MaterialTheme.typography.labelLarge,
                         color = MaterialTheme.colorScheme.primary,
                     )
@@ -822,7 +949,7 @@ private fun FeedbackCardContent(
     question: StudyQuestion,
     feedback: SessionFeedback,
 ) {
-    val correct = feedback.outcome.isCorrect
+    val correct = feedback.isCorrect
     val resultColor = if (correct) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
     Column(
         modifier = Modifier
@@ -837,11 +964,11 @@ private fun FeedbackCardContent(
         )
         if (correct) {
             Text("你的输入：${feedback.userAnswer}", style = MaterialTheme.typography.bodyMedium)
-            Text("标准答案：${feedback.outcome.correctAnswer}", style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
+            Text("标准答案：${feedback.correctAnswer}", style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
         } else {
             AnswerComparisonRows(
                 userAnswer = feedback.userAnswer,
-                correctAnswer = feedback.outcome.correctAnswer,
+                correctAnswer = feedback.correctAnswer,
                 errorColor = MaterialTheme.colorScheme.error,
             )
         }
