@@ -1,6 +1,7 @@
 package dev.local.yuecal.ui
 
 import android.net.Uri
+import dev.local.yuecal.BuildConfig
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.viewModelScope
@@ -8,13 +9,16 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import dev.local.yuecal.data.AppSettingsStore
 import dev.local.yuecal.data.CalibratorRepository
 import dev.local.yuecal.data.GitHubSources
+import dev.local.yuecal.data.PersistedSessionFeedback
+import dev.local.yuecal.data.PersistedSessionState
+import dev.local.yuecal.data.SessionStateStore
 import dev.local.yuecal.domain.AppSettings
+import dev.local.yuecal.domain.AppReleaseInfo
 import dev.local.yuecal.domain.CalibrationEntry
 import dev.local.yuecal.domain.DashboardSummary
 import dev.local.yuecal.domain.SessionMode
 import dev.local.yuecal.domain.StudyQuestion
 import dev.local.yuecal.domain.StudySession
-import dev.local.yuecal.domain.SubmissionOutcome
 import dev.local.yuecal.media.AppFeedbackPlayer
 import dev.local.yuecal.work.AppWorkScheduler
 import java.util.UUID
@@ -47,8 +51,15 @@ data class SearchUiState(
 data class ProfileUiState(
     val settings: AppSettings = AppSettings(),
     val dashboard: DashboardSummary = DashboardSummary(),
+    val currentAppVersion: String = BuildConfig.VERSION_NAME,
     val githubRepoUrl: String = GitHubSources.REPO_WEB_URL,
     val githubReleasesUrl: String = GitHubSources.RELEASES_URL,
+    val latestAppVersion: String? = null,
+    val latestAppReleaseUrl: String = GitHubSources.RELEASES_URL,
+    val isCheckingAppUpdate: Boolean = false,
+    val isDownloadingAppUpdate: Boolean = false,
+    val hasAppUpdate: Boolean = false,
+    val pendingApkInstallPath: String? = null,
     val lastMessage: String? = null,
 )
 
@@ -67,7 +78,8 @@ data class SessionUiState(
 )
 
 data class SessionFeedback(
-    val outcome: SubmissionOutcome,
+    val isCorrect: Boolean,
+    val correctAnswer: String,
     val userAnswer: String,
 )
 
@@ -161,17 +173,27 @@ class ProfileViewModel @Inject constructor(
 ) : ViewModel() {
 
     private val message = MutableStateFlow<String?>(null)
+    private val appUpdateState = MutableStateFlow(AppUpdateUiState())
+    private var latestRelease: AppReleaseInfo? = null
 
     val uiState: StateFlow<ProfileUiState> = combine(
         repository.settings,
         repository.dashboard,
+        appUpdateState,
         message,
-    ) { settings, dashboard, lastMessage ->
+    ) { settings, dashboard, appUpdate, lastMessage ->
         ProfileUiState(
             settings = settings,
             dashboard = dashboard,
+            currentAppVersion = BuildConfig.VERSION_NAME,
             githubRepoUrl = GitHubSources.REPO_WEB_URL,
             githubReleasesUrl = GitHubSources.RELEASES_URL,
+            latestAppVersion = appUpdate.latestVersion,
+            latestAppReleaseUrl = appUpdate.releaseUrl,
+            isCheckingAppUpdate = appUpdate.isChecking,
+            isDownloadingAppUpdate = appUpdate.isDownloading,
+            hasAppUpdate = appUpdate.hasUpdate,
+            pendingApkInstallPath = appUpdate.pendingApkInstallPath,
             lastMessage = lastMessage,
         )
     }.stateIn(
@@ -218,14 +240,106 @@ class ProfileViewModel @Inject constructor(
         }
     }
 
+    fun checkAppUpdate() {
+        viewModelScope.launch {
+            appUpdateState.update { it.copy(isChecking = true) }
+            runCatching { repository.fetchLatestAppRelease() }
+                .onSuccess { release ->
+                    latestRelease = release
+                    val hasUpdate = isVersionNewer(
+                        latest = release.version,
+                        current = BuildConfig.VERSION_NAME,
+                    )
+                    appUpdateState.update {
+                        it.copy(
+                            latestVersion = release.version,
+                            releaseUrl = release.releaseUrl,
+                            isChecking = false,
+                            hasUpdate = hasUpdate,
+                        )
+                    }
+                    message.value = if (hasUpdate) {
+                        "发现新版本 ${release.version}，可以直接下载覆盖安装。"
+                    } else {
+                        "当前已经是最新版本 ${BuildConfig.VERSION_NAME}。"
+                    }
+                }
+                .onFailure { throwable ->
+                    appUpdateState.update { it.copy(isChecking = false) }
+                    message.value = "检查应用更新失败：${throwable.message ?: "GitHub Release 暂不可用"}"
+                }
+        }
+    }
+
+    fun downloadAppUpdate() {
+        viewModelScope.launch {
+            val release = latestRelease ?: runCatching { repository.fetchLatestAppRelease() }
+                .onSuccess { latestRelease = it }
+                .getOrElse { throwable ->
+                    message.value = "读取最新版本失败：${throwable.message ?: "GitHub Release 暂不可用"}"
+                    return@launch
+                }
+            appUpdateState.update {
+                it.copy(
+                    latestVersion = release.version,
+                    releaseUrl = release.releaseUrl,
+                    hasUpdate = isVersionNewer(release.version, BuildConfig.VERSION_NAME),
+                    isDownloading = true,
+                )
+            }
+            runCatching { repository.downloadAppRelease(release) }
+                .onSuccess { apkFile ->
+                    appUpdateState.update {
+                        it.copy(
+                            isDownloading = false,
+                            pendingApkInstallPath = apkFile.absolutePath,
+                        )
+                    }
+                    message.value = "新版本 APK 已下载完成，准备打开系统安装器。"
+                }
+                .onFailure { throwable ->
+                    appUpdateState.update { it.copy(isDownloading = false) }
+                    message.value = "下载更新失败：${throwable.message ?: "网络暂不可用"}"
+                }
+        }
+    }
+
+    fun markApkInstallHandled() {
+        appUpdateState.update { it.copy(pendingApkInstallPath = null) }
+    }
+
     fun clearMessage() {
         message.value = null
     }
+
+    private fun isVersionNewer(latest: String, current: String): Boolean {
+        val latestParts = latest.split('.').mapNotNull(String::toIntOrNull)
+        val currentParts = current.split('.').mapNotNull(String::toIntOrNull)
+        val maxLength = maxOf(latestParts.size, currentParts.size)
+        for (index in 0 until maxLength) {
+            val latestPart = latestParts.getOrElse(index) { 0 }
+            val currentPart = currentParts.getOrElse(index) { 0 }
+            if (latestPart != currentPart) {
+                return latestPart > currentPart
+            }
+        }
+        return false
+    }
 }
+
+private data class AppUpdateUiState(
+    val latestVersion: String? = null,
+    val releaseUrl: String = GitHubSources.RELEASES_URL,
+    val isChecking: Boolean = false,
+    val isDownloading: Boolean = false,
+    val hasUpdate: Boolean = false,
+    val pendingApkInstallPath: String? = null,
+)
 
 @HiltViewModel
 class SessionViewModel @Inject constructor(
     private val repository: CalibratorRepository,
+    private val sessionStateStore: SessionStateStore,
     savedStateHandle: SavedStateHandle,
 ) : ViewModel() {
 
@@ -245,27 +359,13 @@ class SessionViewModel @Inject constructor(
                 mutableState.update { it.copy(autoplayAudio = settings.autoplayAudio) }
             }
         }
-        loadSession()
+        restoreOrLoadSession()
     }
 
     fun loadSession() {
         viewModelScope.launch {
-            val autoplayAudio = mutableState.value.autoplayAudio
-            currentRoundMistakes.clear()
-            mutableState.value = SessionUiState(isLoading = true)
-            val session = repository.buildSession(mode = mode)
-            questionStartMillis = System.currentTimeMillis()
-            mutableState.value = SessionUiState(
-                isLoading = false,
-                session = session,
-                currentIndex = 0,
-                currentQuestion = session.questions.firstOrNull(),
-                round = 1,
-                retryQuestionCount = 0,
-                totalQuestionCount = session.questions.size,
-                correctCount = 0,
-                autoplayAudio = autoplayAudio,
-            )
+            sessionStateStore.clear(mode)
+            buildFreshSession()
         }
     }
 
@@ -296,7 +396,6 @@ class SessionViewModel @Inject constructor(
             mutableState.value = uiState.value.copy(
                 correctCount = uiState.value.correctCount + if (outcome.isCorrect) 1 else 0,
                 retryQuestionCount = when {
-                    mode != SessionMode.Learn -> uiState.value.retryQuestionCount
                     outcome.isCorrect -> uiState.value.retryQuestionCount
                     else -> {
                         currentRoundMistakes[currentQuestion.entryId] = currentQuestion
@@ -304,10 +403,12 @@ class SessionViewModel @Inject constructor(
                     }
                 },
                 feedback = SessionFeedback(
-                    outcome = outcome,
+                    isCorrect = outcome.isCorrect,
+                    correctAnswer = outcome.correctAnswer,
                     userAnswer = answer,
                 ),
             )
+            persistCurrentSessionState()
             if (outcome.isCorrect) {
                 AppFeedbackPlayer.playCorrect()
             } else {
@@ -321,7 +422,7 @@ class SessionViewModel @Inject constructor(
         if (uiState.value.feedback == null) return
         val nextIndex = uiState.value.currentIndex + 1
         val nextQuestion = session.questions.getOrNull(nextIndex)
-        if (nextQuestion == null && mode == SessionMode.Learn && currentRoundMistakes.isNotEmpty()) {
+        if (nextQuestion == null && currentRoundMistakes.isNotEmpty()) {
             val retryQuestions = currentRoundMistakes.values.toList()
             currentRoundMistakes.clear()
             val retrySession = session.copy(
@@ -338,6 +439,9 @@ class SessionViewModel @Inject constructor(
                 answerInput = "",
                 feedback = null,
             )
+            viewModelScope.launch {
+                persistCurrentSessionState()
+            }
             return
         }
         questionStartMillis = System.currentTimeMillis()
@@ -347,5 +451,99 @@ class SessionViewModel @Inject constructor(
             answerInput = "",
             feedback = null,
         )
+        viewModelScope.launch {
+            persistCurrentSessionState()
+        }
     }
+
+    private fun restoreOrLoadSession() {
+        viewModelScope.launch {
+            val autoplayAudio = mutableState.value.autoplayAudio
+            mutableState.value = SessionUiState(isLoading = true, autoplayAudio = autoplayAudio)
+            val restoredState = sessionStateStore.read(mode)
+            if (restoredState != null) {
+                restorePersistedSession(restoredState, autoplayAudio)
+            } else {
+                buildFreshSession()
+            }
+        }
+    }
+
+    private suspend fun buildFreshSession() {
+        val autoplayAudio = mutableState.value.autoplayAudio
+        currentRoundMistakes.clear()
+        mutableState.value = SessionUiState(isLoading = true, autoplayAudio = autoplayAudio)
+        val session = repository.buildSession(mode = mode)
+        questionStartMillis = System.currentTimeMillis()
+        mutableState.value = SessionUiState(
+            isLoading = false,
+            session = session,
+            currentIndex = 0,
+            currentQuestion = session.questions.firstOrNull(),
+            round = 1,
+            retryQuestionCount = 0,
+            totalQuestionCount = session.questions.size,
+            correctCount = 0,
+            autoplayAudio = autoplayAudio,
+        )
+        persistCurrentSessionState()
+    }
+
+    private fun restorePersistedSession(
+        persistedState: PersistedSessionState,
+        autoplayAudio: Boolean,
+    ) {
+        currentRoundMistakes.clear()
+        persistedState.currentRoundMistakes.forEach { question ->
+            currentRoundMistakes[question.entryId] = question
+        }
+        questionStartMillis = System.currentTimeMillis()
+        mutableState.value = SessionUiState(
+            isLoading = false,
+            session = persistedState.session,
+            currentIndex = persistedState.currentIndex,
+            currentQuestion = persistedState.session.questions.getOrNull(persistedState.currentIndex),
+            round = persistedState.round,
+            retryQuestionCount = persistedState.retryQuestionCount,
+            totalQuestionCount = persistedState.totalQuestionCount,
+            correctCount = persistedState.correctCount,
+            feedback = persistedState.feedback?.toUiModel(),
+            autoplayAudio = autoplayAudio,
+        )
+    }
+
+    private suspend fun persistCurrentSessionState() {
+        val state = uiState.value
+        val session = state.session
+        val currentQuestion = state.currentQuestion
+        if (state.isLoading || session == null || currentQuestion == null) {
+            sessionStateStore.clear(mode)
+            return
+        }
+        sessionStateStore.save(
+            mode = mode,
+            state = PersistedSessionState(
+                session = session,
+                currentIndex = state.currentIndex,
+                round = state.round,
+                retryQuestionCount = state.retryQuestionCount,
+                totalQuestionCount = state.totalQuestionCount,
+                correctCount = state.correctCount,
+                feedback = state.feedback?.toPersistedModel(),
+                currentRoundMistakes = currentRoundMistakes.values.toList(),
+            ),
+        )
+    }
+
+    private fun SessionFeedback.toPersistedModel(): PersistedSessionFeedback = PersistedSessionFeedback(
+        isCorrect = isCorrect,
+        correctAnswer = correctAnswer,
+        userAnswer = userAnswer,
+    )
+
+    private fun PersistedSessionFeedback.toUiModel(): SessionFeedback = SessionFeedback(
+        isCorrect = isCorrect,
+        correctAnswer = correctAnswer,
+        userAnswer = userAnswer,
+    )
 }

@@ -46,4 +46,32 @@ class ReviewTargetPlannerTest {
             ),
         )
     }
+
+    @Test
+    fun reviewSessionTargetsAreCappedAtFiftyEntries() {
+        val targets = ReviewTargetPlanner.sessionTargets(
+            wordDueEntries = 240,
+            wordStudiedEntries = 240,
+            expressionDueEntries = 80,
+            expressionStudiedEntries = 80,
+            hasDueReviewsToday = true,
+        )
+
+        assertEquals(50, targets.total)
+    }
+
+    @Test
+    fun cappedReviewSessionKeepsBothEntryTypesWhenBothAreAvailable() {
+        val targets = ReviewTargetPlanner.sessionTargets(
+            wordDueEntries = 300,
+            wordStudiedEntries = 300,
+            expressionDueEntries = 1,
+            expressionStudiedEntries = 1,
+            hasDueReviewsToday = true,
+        )
+
+        assertEquals(50, targets.total)
+        assertEquals(49, targets.wordLimit)
+        assertEquals(1, targets.expressionLimit)
+    }
 }

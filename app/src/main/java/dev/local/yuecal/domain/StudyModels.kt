@@ -1,6 +1,7 @@
 package dev.local.yuecal.domain
 
 import java.time.LocalDate
+import kotlinx.serialization.Serializable
 
 data class CalibrationEntry(
     val id: String,
@@ -52,17 +53,20 @@ data class DashboardSummary(
         get() = if (totalAttempts == 0) 0 else ((totalCorrect * 100.0) / totalAttempts).toInt()
 }
 
+@Serializable
 enum class SessionMode {
     Learn,
     Review,
 }
 
+@Serializable
 enum class StudyQuestionType {
     FillJyutping,
     MultipleChoice,
     ExpressionCard,
 }
 
+@Serializable
 data class StudyQuestion(
     val entryId: String,
     val type: StudyQuestionType,
@@ -80,6 +84,7 @@ data class StudyQuestion(
     val sourceLabel: String,
 )
 
+@Serializable
 data class StudySession(
     val sessionId: String,
     val mode: SessionMode,
