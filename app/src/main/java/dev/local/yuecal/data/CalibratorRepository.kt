@@ -320,11 +320,7 @@ class CalibratorRepository @Inject constructor(
             }
             StudyQuestion(
                 entryId = entry.id,
-                type = when {
-                    entry.entryType == "expression" -> StudyQuestionType.ExpressionCard
-                    options.isNotEmpty() -> StudyQuestionType.MultipleChoice
-                    else -> StudyQuestionType.FillJyutping
-                },
+                type = studyQuestionTypeFor(mode),
                 displayText = entry.displayText,
                 promptText = entry.promptText,
                 answerJyutping = entry.answerJyutping,
@@ -765,4 +761,8 @@ class CalibratorRepository @Inject constructor(
             .toList()
         return (distractors + correctAnswer).distinct().shuffled()
     }
+}
+
+internal fun studyQuestionTypeFor(mode: SessionMode): StudyQuestionType = when (mode) {
+    SessionMode.Learn, SessionMode.Review -> StudyQuestionType.FillJyutping
 }
