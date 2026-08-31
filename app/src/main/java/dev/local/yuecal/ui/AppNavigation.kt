@@ -347,12 +347,24 @@ private fun SearchScreen(
             onValueChange = onQueryChanged,
             label = { Text("输入词语、Jyutping、用法或例句") },
         )
-        LazyColumn(
-            modifier = Modifier.fillMaxSize(),
-            verticalArrangement = Arrangement.spacedBy(12.dp),
-        ) {
-            items(state.results, key = { it.id }) { entry ->
-                EntryCard(entry = entry, onPlayAudio = onPlayAudio)
+        when {
+            state.query.isBlank() -> Text(
+                "输入词语、粤拼或例句内容开始查找。",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            state.results.isEmpty() -> Text(
+                "未找到相关词条。",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            else -> LazyColumn(
+                modifier = Modifier.fillMaxSize(),
+                verticalArrangement = Arrangement.spacedBy(12.dp),
+            ) {
+                items(state.results, key = { it.id }) { entry ->
+                    EntryCard(entry = entry, onPlayAudio = onPlayAudio)
+                }
             }
         }
     }
