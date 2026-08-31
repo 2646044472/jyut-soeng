@@ -93,8 +93,8 @@ LOW_CONFIDENCE_GENERATED_EXPRESSION_FRAGMENTS = (
 def main() -> None:
     bundle = json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
     entries = bundle["entries"]
-    if len(entries) < 3200:
-        raise SystemExit(f"Expected at least 3200 entries, found {len(entries)}")
+    if len(entries) < 250:
+        raise SystemExit(f"Expected at least 250 hand-written entries, found {len(entries)}")
 
     ids = [entry["id"] for entry in entries]
     duplicates = [entry_id for entry_id, count in Counter(ids).items() if count > 1]
@@ -102,10 +102,10 @@ def main() -> None:
         raise SystemExit(f"Duplicate ids: {duplicates[:10]}")
 
     entry_types = Counter(entry.get("entryType", "word") for entry in entries)
-    if entry_types.get("word", 0) < 2500:
-        raise SystemExit("Need at least 2500 word correction entries.")
-    if entry_types.get("expression", 0) < 1000:
-        raise SystemExit("Need at least 1000 expression/slang entries.")
+    if entry_types.get("word", 0) < 150:
+        raise SystemExit("Need at least 150 hand-written word correction entries.")
+    if entry_types.get("expression", 0) < 100:
+        raise SystemExit("Need at least 100 curated daily expression entries.")
 
     for entry in entries:
         for key in ("displayText", "promptText", "answerJyutping", "usageTip", "exampleSentence", "category"):
@@ -120,6 +120,7 @@ def main() -> None:
         if is_low_info_usage(usage_tip):
             raise SystemExit(f"Entry {entry.get('id')} still has low-information usageTip: {usage_tip}")
         if entry.get("sourceLabel") == "generated":
+            raise SystemExit(f"Generated entry {entry.get('id')} is not allowed in the release bundle")
             example_sentence = str(entry.get("exampleSentence", "")).strip()
             if is_fake_example_sentence(example_sentence, display_text):
                 raise SystemExit(f"Generated entry {entry.get('id')} still has fake or placeholder exampleSentence")

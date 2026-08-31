@@ -1014,10 +1014,13 @@ private fun FeedbackCardContent(
         if (question.gloss.isNotBlank()) {
             InfoBlock("意思", question.gloss)
         }
-        if (question.usageTip.isNotBlank()) {
-            InfoBlock(usageLabel(question.sourceLabel), question.usageTip)
-        }
-        if (question.exampleSentence.isNotBlank()) {
+                    if (question.usageTip.isNotBlank()) {
+                        InfoBlock(usageLabel(question.sourceLabel), question.usageTip)
+                    }
+                    if (question.notes.isNotBlank()) {
+                        InfoBlock("正音重点", question.notes)
+                    }
+                    if (question.exampleSentence.isNotBlank()) {
             ExampleBlock(question.exampleSentence, question.sourceLabel)
         }
     }
@@ -1110,6 +1113,9 @@ private fun EntryCard(
                     }
                     if (entry.usageTip.isNotBlank()) {
                         InfoBlock(usageLabel(entry.sourceLabel), entry.usageTip)
+                    }
+                    if (entry.notes.isNotBlank()) {
+                        InfoBlock("正音重点", entry.notes)
                     }
                 }
                 if (entry.audioAsset != null) {

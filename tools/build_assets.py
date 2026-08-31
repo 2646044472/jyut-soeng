@@ -112,7 +112,7 @@ def load_entries(path: Path, entry_type: str) -> list[dict]:
             ),
             "answerJyutping": row["answerJyutping"],
             "gloss": gloss,
-            "notes": "",
+            "notes": str(row.get("notes", "")).strip(),
             "usageTip": usage_tip,
             "exampleSentence": normalize_example(
                 row.get("exampleSentence", ""),

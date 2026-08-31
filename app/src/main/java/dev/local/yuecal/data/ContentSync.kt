@@ -6,7 +6,7 @@ internal data class ManagedEntrySyncPlan(
 )
 
 internal object ManagedEntrySyncPlanner {
-    private val managedSourceLabels = setOf("builtin", "github")
+    private val managedSourceLabels = setOf("builtin", "github", "generated")
 
     fun plan(
         existingEntries: List<CalibrationEntryEntity>,

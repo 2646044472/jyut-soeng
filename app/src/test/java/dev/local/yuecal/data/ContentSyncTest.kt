@@ -62,6 +62,23 @@ class ContentSyncTest {
     }
 
     @Test
+    fun generatedEntryGetsArchivedWhenTheHandWrittenBundleRemovesIt() {
+        val plan = ManagedEntrySyncPlanner.plan(
+            existingEntries = listOf(
+                entry(
+                    id = "gen-expression-0001",
+                    displayText = "唔夠佢嚟",
+                    answerJyutping = "m4 gau3 keoi5 lei4",
+                    sourceLabel = "generated",
+                ),
+            ),
+            incomingEntries = emptyList(),
+        )
+
+        assertTrue("gen-expression-0001" in plan.archiveEntryIds)
+    }
+
+    @Test
     fun mergedReviewProgressPreservesTotalsAndEarliestNextReview() {
         val merged = ReviewProgressMerger.merge(
             targetId = "shared-entry",
