@@ -40,7 +40,9 @@ data class TodayUiState(
 
 data class LibraryUiState(
     val entries: List<CalibrationEntry> = emptyList(),
+    val entryTypes: List<String> = emptyList(),
     val categories: List<String> = emptyList(),
+    val selectedEntryType: String? = null,
     val selectedCategory: String? = null,
     val lastMessage: String? = null,
 )
@@ -104,15 +106,20 @@ class LibraryViewModel @Inject constructor(
 
     private val message = MutableStateFlow<String?>(null)
     private val selectedCategory = MutableStateFlow<String?>(null)
+    private val selectedEntryType = MutableStateFlow<String?>(null)
 
     val uiState: StateFlow<LibraryUiState> = combine(
         repository.libraryEntries,
         message,
         selectedCategory,
-    ) { entries, lastMessage, category ->
+        selectedEntryType,
+    ) { entries, lastMessage, category, entryType ->
+        val entriesForType = filterLibraryEntries(entries, category = null, entryType = entryType)
         LibraryUiState(
-            entries = filterLibraryEntries(entries, category),
-            categories = entries.map { it.category }.distinct(),
+            entries = filterLibraryEntries(entries, category, entryType),
+            entryTypes = entries.map { it.entryType }.distinct(),
+            categories = entriesForType.map { it.category }.distinct(),
+            selectedEntryType = entryType,
             selectedCategory = category,
             lastMessage = lastMessage,
         )
@@ -147,12 +154,21 @@ class LibraryViewModel @Inject constructor(
     fun selectCategory(category: String?) {
         selectedCategory.value = category
     }
+
+    fun selectEntryType(entryType: String?) {
+        selectedEntryType.value = entryType
+        selectedCategory.value = null
+    }
 }
 
 internal fun filterLibraryEntries(
     entries: List<CalibrationEntry>,
     category: String?,
-): List<CalibrationEntry> = if (category == null) entries else entries.filter { it.category == category }
+    entryType: String? = null,
+): List<CalibrationEntry> = entries.filter { entry ->
+    (category == null || entry.category == category) &&
+        (entryType == null || entry.entryType == entryType)
+}
 
 @HiltViewModel
 @OptIn(ExperimentalCoroutinesApi::class)

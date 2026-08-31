@@ -154,6 +154,7 @@ fun CantoCalibratorApp() {
                         state = state,
                         onImport = { launcher.launch(arrayOf("application/json", "text/json")) },
                         onPlayAudio = viewModel::playAudio,
+                        onEntryTypeSelected = viewModel::selectEntryType,
                         onCategorySelected = viewModel::selectCategory,
                         onDismissMessage = viewModel::clearMessage,
                     )
@@ -247,6 +248,7 @@ private fun LibraryScreen(
     state: LibraryUiState,
     onImport: () -> Unit,
     onPlayAudio: (String?) -> Unit,
+    onEntryTypeSelected: (String?) -> Unit,
     onCategorySelected: (String?) -> Unit,
     onDismissMessage: () -> Unit,
 ) {
@@ -273,6 +275,24 @@ private fun LibraryScreen(
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
+        }
+        item {
+            LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                item {
+                    FilterChip(
+                        selected = state.selectedEntryType == null,
+                        onClick = { onEntryTypeSelected(null) },
+                        label = { Text("全部类型") },
+                    )
+                }
+                items(state.entryTypes, key = { it }) { entryType ->
+                    FilterChip(
+                        selected = state.selectedEntryType == entryType,
+                        onClick = { onEntryTypeSelected(entryType) },
+                        label = { Text(if (entryType == "word") "正音词" else "表达") },
+                    )
+                }
+            }
         }
         item {
             LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {

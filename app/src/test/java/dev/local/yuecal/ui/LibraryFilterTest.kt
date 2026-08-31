@@ -21,7 +21,15 @@ class LibraryFilterTest {
         assertEquals(entries, filterLibraryEntries(entries, null))
     }
 
-    private fun entry(id: String, category: String) = CalibrationEntry(
+    @Test
+    fun `filters entries by entry type`() {
+        val word = entry(id = "word", category = "日常词", entryType = "word")
+        val expression = entry(id = "expression", category = "日常表达", entryType = "expression")
+
+        assertEquals(listOf(expression), filterLibraryEntries(listOf(word, expression), null, "expression"))
+    }
+
+    private fun entry(id: String, category: String, entryType: String = "word") = CalibrationEntry(
         id = id,
         displayText = id,
         promptText = "prompt",
@@ -31,7 +39,7 @@ class LibraryFilterTest {
         usageTip = "点用",
         exampleSentence = id,
         exampleTranslation = "",
-        entryType = "word",
+        entryType = entryType,
         category = category,
         groupId = id,
         tone = 1,
