@@ -224,7 +224,10 @@ interface EntryDao {
         WHERE e.isActive = 1
           AND e.entryType = :entryType
           AND p.entryId IS NULL
-        ORDER BY CASE WHEN e.sourceLabel = 'generated' THEN 1 ELSE 0 END ASC, RANDOM()
+        ORDER BY CASE
+            WHEN e.category IN ('正音重点词', '高频回应', '高频连接', '判断表达') THEN 0
+            ELSE 1
+        END ASC, RANDOM()
         LIMIT :limit
         """,
     )
