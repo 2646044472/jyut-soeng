@@ -40,6 +40,8 @@ data class TodayUiState(
 
 data class LibraryUiState(
     val entries: List<CalibrationEntry> = emptyList(),
+    val categories: List<String> = emptyList(),
+    val selectedCategory: String? = null,
     val lastMessage: String? = null,
 )
 
@@ -101,12 +103,19 @@ class LibraryViewModel @Inject constructor(
 ) : ViewModel() {
 
     private val message = MutableStateFlow<String?>(null)
+    private val selectedCategory = MutableStateFlow<String?>(null)
 
     val uiState: StateFlow<LibraryUiState> = combine(
         repository.libraryEntries,
         message,
-    ) { entries, lastMessage ->
-        LibraryUiState(entries = entries, lastMessage = lastMessage)
+        selectedCategory,
+    ) { entries, lastMessage, category ->
+        LibraryUiState(
+            entries = filterLibraryEntries(entries, category),
+            categories = entries.map { it.category }.distinct(),
+            selectedCategory = category,
+            lastMessage = lastMessage,
+        )
     }.stateIn(
         scope = viewModelScope,
         started = SharingStarted.WhileSubscribed(5_000),
@@ -134,7 +143,16 @@ class LibraryViewModel @Inject constructor(
     fun clearMessage() {
         message.value = null
     }
+
+    fun selectCategory(category: String?) {
+        selectedCategory.value = category
+    }
 }
+
+internal fun filterLibraryEntries(
+    entries: List<CalibrationEntry>,
+    category: String?,
+): List<CalibrationEntry> = if (category == null) entries else entries.filter { it.category == category }
 
 @HiltViewModel
 @OptIn(ExperimentalCoroutinesApi::class)

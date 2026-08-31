@@ -22,6 +22,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
@@ -35,6 +36,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.FilterChip
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -152,6 +154,7 @@ fun CantoCalibratorApp() {
                         state = state,
                         onImport = { launcher.launch(arrayOf("application/json", "text/json")) },
                         onPlayAudio = viewModel::playAudio,
+                        onCategorySelected = viewModel::selectCategory,
                         onDismissMessage = viewModel::clearMessage,
                     )
                 }
@@ -244,6 +247,7 @@ private fun LibraryScreen(
     state: LibraryUiState,
     onImport: () -> Unit,
     onPlayAudio: (String?) -> Unit,
+    onCategorySelected: (String?) -> Unit,
     onDismissMessage: () -> Unit,
 ) {
     LazyColumn(
@@ -267,6 +271,31 @@ private fun LibraryScreen(
             Text(
                 "这里是正音词条和表达卡，不展示英译，重点只放在读法、用法和例句。",
                 style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+        item {
+            LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                item {
+                    FilterChip(
+                        selected = state.selectedCategory == null,
+                        onClick = { onCategorySelected(null) },
+                        label = { Text("全部") },
+                    )
+                }
+                items(state.categories, key = { it }) { category ->
+                    FilterChip(
+                        selected = state.selectedCategory == category,
+                        onClick = { onCategorySelected(category) },
+                        label = { Text(category) },
+                    )
+                }
+            }
+        }
+        item {
+            Text(
+                "显示 ${state.entries.size} 条",
+                style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
         }

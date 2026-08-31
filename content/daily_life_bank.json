@@ -1,0 +1,326 @@
+[
+  {
+    "id": "daily-dei6-tit3",
+    "displayText": "地鐵",
+    "answerJyutping": "dei6 tit3",
+    "gloss": "港铁；城市入面常坐嘅铁路",
+    "usageTip": "讲去边、点去或者约人见面时，常跟「搭／坐／喺」一齐用。",
+    "exampleSentence": "我搭地鐵返屋企。\n地鐵站喺前面。",
+    "category": "出行场景"
+  },
+  {
+    "id": "daily-daap3-dei6-tit3",
+    "displayText": "搭地鐵",
+    "answerJyutping": "daap3 dei6 tit3",
+    "gloss": "坐地铁出行",
+    "usageTip": "用来交代出行方法，后面可以直接接目的地。",
+    "exampleSentence": "我聽朝搭地鐵去公司。\n搭地鐵过去快啲。",
+    "category": "出行场景"
+  },
+  {
+    "id": "daily-baa1-si2",
+    "displayText": "巴士",
+    "answerJyutping": "baa1 si2",
+    "gloss": "公交车",
+    "usageTip": "讲等车、搭车或者问路线时都好常用。",
+    "exampleSentence": "呢架巴士去唔去市中心？\n我喺站头等巴士。",
+    "category": "出行场景"
+  },
+  {
+    "id": "daily-dik1-si2",
+    "displayText": "的士",
+    "answerJyutping": "dik1 si2",
+    "gloss": "出租车",
+    "usageTip": "赶时间、落雨或者拎住好多嘢时，直接讲「搭的士」最自然。",
+    "exampleSentence": "太夜喇，我哋搭的士返去。\n唔该，帮我截架的士。",
+    "category": "出行场景"
+  },
+  {
+    "id": "daily-lok6-ce1",
+    "displayText": "落車",
+    "answerJyutping": "lok6 ce1",
+    "gloss": "从车上下来",
+    "usageTip": "搭巴士、地铁或者的士之后讲离开架车，都可以用。",
+    "exampleSentence": "下一個站我就落車。\n你落車之后打俾我。",
+    "category": "出行场景"
+  },
+  {
+    "id": "daily-zyun2-ce1",
+    "displayText": "轉車",
+    "answerJyutping": "zyun2 ce1",
+    "gloss": "换乘另一架车或另一条线",
+    "usageTip": "讲路线时放喺「要／唔使」后面，说明要唔要换车。",
+    "exampleSentence": "去嗰边要唔要轉車？\n我喺金鐘轉車。",
+    "category": "出行场景"
+  },
+  {
+    "id": "daily-ce1-zaam6",
+    "displayText": "車站",
+    "answerJyutping": "ce1 zaam6",
+    "gloss": "上落车嘅站点",
+    "usageTip": "可以讲巴士站、地铁站，亦可以用来约人喺边度等。",
+    "exampleSentence": "我喺車站等你。\n前面就係巴士車站。",
+    "category": "出行场景"
+  },
+  {
+    "id": "daily-baat3-daat6-tung1",
+    "displayText": "八達通",
+    "answerJyutping": "baat3 daat6 tung1",
+    "gloss": "香港常用嘅交通及付款卡",
+    "usageTip": "搭车、便利店付款时都可能会讲，常接「拍／增值／冇带」。",
+    "exampleSentence": "我唔记得带八達通。\n你张八達通仲有冇钱？",
+    "category": "出行场景"
+  },
+  {
+    "id": "daily-ngoi6-maai6",
+    "displayText": "外賣",
+    "answerJyutping": "ngoi6 maai6",
+    "gloss": "送上门嘅食物；叫送餐",
+    "usageTip": "可以当名词讲食物，亦可以讲「叫外卖」。",
+    "exampleSentence": "今晚唔煮饭，叫外賣啦。\n我个外賣仲未到。",
+    "category": "餐饮场景"
+  },
+  {
+    "id": "daily-dung3-jam2",
+    "displayText": "凍飲",
+    "answerJyutping": "dung3 jam2",
+    "gloss": "冰冻嘅饮品",
+    "usageTip": "落单时直接讲「要凍飲」；想转热饮就换后面个词。",
+    "exampleSentence": "我要一杯凍飲。\n今日热，饮凍飲先。",
+    "category": "餐饮场景"
+  },
+  {
+    "id": "daily-jit6-jam2",
+    "displayText": "熱飲",
+    "answerJyutping": "jit6 jam2",
+    "gloss": "热嘅饮品",
+    "usageTip": "怕冻或者早上食早餐时常讲，落单时可以直接用。",
+    "exampleSentence": "我想要熱飲，唔要冻。\n早晨饮杯熱飲舒服啲。",
+    "category": "餐饮场景"
+  },
+  {
+    "id": "daily-gaa1-sung3",
+    "displayText": "加餸",
+    "answerJyutping": "gaa1 sung3",
+    "gloss": "多叫一味菜；加一道菜",
+    "usageTip": "食饭唔够或者想多点一碟菜时，用呢个讲法好自然。",
+    "exampleSentence": "唔够食，不如加餸。\n今日想加餸庆祝下。",
+    "category": "餐饮场景"
+  },
+  {
+    "id": "daily-lo2-wai2",
+    "displayText": "攞位",
+    "answerJyutping": "lo2 wai2",
+    "gloss": "先占一个座位或排到一个位",
+    "usageTip": "茶餐厅、餐厅多人时常讲，亦可以讲「帮我攞个位」。",
+    "exampleSentence": "你先入去攞位，我去买嘢食。\n呢间铺要等好耐先有位。",
+    "category": "餐饮场景"
+  },
+  {
+    "id": "daily-caa4-caan1-teng1",
+    "displayText": "茶餐廳",
+    "answerJyutping": "caa4 caan1 teng1",
+    "gloss": "卖港式日常餐点嘅餐厅",
+    "usageTip": "约食饭、讲早餐或者问边度有得食时都可以用。",
+    "exampleSentence": "楼下间茶餐廳开咗未？\n我哋去茶餐廳食个早餐。",
+    "category": "餐饮场景"
+  },
+  {
+    "id": "daily-ciu1-si5",
+    "displayText": "超市",
+    "answerJyutping": "ciu1 si5",
+    "gloss": "卖日用品同食物嘅商店",
+    "usageTip": "买日用品、食材之前，常讲「去超市买」。",
+    "exampleSentence": "我去超市买啲嘢。\n超市今晚有冇开？",
+    "category": "购物场景"
+  },
+  {
+    "id": "daily-gaai1-si5",
+    "displayText": "街市",
+    "answerJyutping": "gaai1 si5",
+    "gloss": "卖新鲜食材嘅传统市场",
+    "usageTip": "想讲买菜、买鱼肉，通常会去街市。",
+    "exampleSentence": "阿妈朝早去街市买餸。\n街市啲菜新鲜啲。",
+    "category": "购物场景"
+  },
+  {
+    "id": "daily-gaau1-doi2",
+    "displayText": "膠袋",
+    "answerJyutping": "gaau1 doi2",
+    "gloss": "塑料袋",
+    "usageTip": "买嘢、装食物或者收拾东西时都会用到。",
+    "exampleSentence": "唔该，畀个膠袋我。\n啲垃圾放入膠袋度。",
+    "category": "购物场景"
+  },
+  {
+    "id": "daily-sau1-geoi3",
+    "displayText": "收據",
+    "answerJyutping": "sau1 geoi3",
+    "gloss": "付款后嘅单据",
+    "usageTip": "报销、退货或者核对付款时，记得讲「留返张收据」。",
+    "exampleSentence": "唔该，收據要一张。\n张收據唔好掉。",
+    "category": "购物场景"
+  },
+  {
+    "id": "daily-zaau2-zuk6",
+    "displayText": "找續",
+    "answerJyutping": "zaau2 zuk6",
+    "gloss": "找回多畀咗嘅钱",
+    "usageTip": "用现金付款时，店员找钱就会用到；亦可以问「找续未」。",
+    "exampleSentence": "唔该，仲未找續。\n我冇散纸，麻烦你找續。",
+    "category": "购物场景"
+  },
+  {
+    "id": "daily-maai5-sung3",
+    "displayText": "買餸",
+    "answerJyutping": "maai5 sung3",
+    "gloss": "买煮饭用嘅食材",
+    "usageTip": "日常讲买菜，通常就直接讲「买餸」。",
+    "exampleSentence": "放工之后去買餸。\n今日你负责買餸。",
+    "category": "购物场景"
+  },
+  {
+    "id": "daily-cung1-din6",
+    "displayText": "充電",
+    "answerJyutping": "cung1 din6",
+    "gloss": "为手机或设备充电",
+    "usageTip": "手机冇电时，可以讲「部机要充电」。",
+    "exampleSentence": "我部手机就嚟冇电，要充電。\n你有冇带充電线？",
+    "category": "居家场景"
+  },
+  {
+    "id": "daily-cung1-loeng4",
+    "displayText": "沖涼",
+    "answerJyutping": "cung1 loeng4",
+    "gloss": "洗澡",
+    "usageTip": "粤语日常会用「冲凉」讲洗澡，可以接「先／之后」。",
+    "exampleSentence": "我返到屋企先沖涼。\n你沖涼未呀？",
+    "category": "居家场景"
+  },
+  {
+    "id": "daily-sai2-saam1",
+    "displayText": "洗衫",
+    "answerJyutping": "sai2 saam1",
+    "gloss": "洗衣服",
+    "usageTip": "讲做家务时很常用，后面可以接「未／先／帮我」。",
+    "exampleSentence": "我今晚要洗衫。\n啲衫仲未洗。",
+    "category": "居家场景"
+  },
+  {
+    "id": "daily-long6-saam1",
+    "displayText": "晾衫",
+    "answerJyutping": "long6 saam1",
+    "gloss": "把洗好嘅衣服挂起晒干",
+    "usageTip": "洗完衫之后嘅家务动作，常跟「出去」或者「未」。",
+    "exampleSentence": "洗完衫记得晾衫。\n今日落雨，唔好出去晾衫。",
+    "category": "居家场景"
+  },
+  {
+    "id": "daily-syut3-gwai6",
+    "displayText": "雪櫃",
+    "answerJyutping": "syut3 gwai6",
+    "gloss": "冰箱",
+    "usageTip": "讲食物放边、饮品冻唔冻时，直接讲雪柜。",
+    "exampleSentence": "支水喺雪櫃入面。\n雪櫃仲有冇嘢食？",
+    "category": "居家场景"
+  },
+  {
+    "id": "daily-laap6-saap3",
+    "displayText": "垃圾",
+    "answerJyutping": "laap6 saap3",
+    "gloss": "要掉走嘅废物",
+    "usageTip": "收拾屋企、出门之前，常讲「倒垃圾」或者「拎垃圾落去」。",
+    "exampleSentence": "出门前帮手倒垃圾。\n垃圾袋满咗。",
+    "category": "居家场景"
+  },
+  {
+    "id": "daily-sik1-dang1",
+    "displayText": "熄燈",
+    "answerJyutping": "sik1 dang1",
+    "gloss": "关掉灯",
+    "usageTip": "瞓觉、离开房或者想悭电时，用「熄灯」。",
+    "exampleSentence": "瞓觉之前记得熄燈。\n你走嗰阵帮我熄燈。",
+    "category": "居家场景"
+  },
+  {
+    "id": "daily-hoi1-mun4",
+    "displayText": "開門",
+    "answerJyutping": "hoi1 mun4",
+    "gloss": "把门打开",
+    "usageTip": "有人到、拎住嘢或者叫人入嚟时，直接讲「开门」。",
+    "exampleSentence": "有人按钟，你去開門啦。\n我腾唔出手開門。",
+    "category": "居家场景"
+  },
+  {
+    "id": "daily-so2-mun4",
+    "displayText": "鎖門",
+    "answerJyutping": "so2 mun4",
+    "gloss": "把门锁好",
+    "usageTip": "出门前提醒人时，常讲「记得锁门」。",
+    "exampleSentence": "出门记得鎖門。\n你鎖咗門未呀？",
+    "category": "居家场景"
+  },
+  {
+    "id": "daily-dak1-haan4",
+    "displayText": "得閒",
+    "answerJyutping": "dak1 haan4",
+    "gloss": "有空；唔忙",
+    "usageTip": "约人、问候或者想请人帮手时都常用，可以问「你几时得闲」。",
+    "exampleSentence": "你得閒再覆我。\n你星期六得唔得閒？",
+    "category": "约见安排"
+  },
+  {
+    "id": "daily-ci4-dou3",
+    "displayText": "遲到",
+    "answerJyutping": "ci4 dou3",
+    "gloss": "比约定时间晚到",
+    "usageTip": "讲自己赶唔切、同人道歉或者提醒时间时都会用。",
+    "exampleSentence": "唔好意思，我可能会遲到十分钟。\n佢今日又遲到。",
+    "category": "约见安排"
+  },
+  {
+    "id": "daily-goi2-kei4",
+    "displayText": "改期",
+    "answerJyutping": "goi2 kei4",
+    "gloss": "把原本约好嘅时间换咗",
+    "usageTip": "约会、看医生或者开会有冲突时，可以直接问「可唔可以改期」。",
+    "exampleSentence": "我哋可唔可以改期？\n呢个预约要改期。",
+    "category": "约见安排"
+  },
+  {
+    "id": "daily-dei6-zi2",
+    "displayText": "地址",
+    "answerJyutping": "dei6 zi2",
+    "gloss": "一个地方嘅位置资料",
+    "usageTip": "约人、叫外卖或者收快递时，通常要讲清楚地址。",
+    "exampleSentence": "你发个地址俾我。\n我填错咗地址。",
+    "category": "约见安排"
+  },
+  {
+    "id": "daily-mat6-maa5",
+    "displayText": "密碼",
+    "answerJyutping": "mat6 maa5",
+    "gloss": "登入或开锁用嘅秘密号码",
+    "usageTip": "登入账号、连网或者开门锁时都会讲，唔好随便讲畀人听。",
+    "exampleSentence": "我又唔记得个密碼。\n呢个密碼唔好话俾人知。",
+    "category": "数码日常"
+  },
+  {
+    "id": "daily-mong5-lok6",
+    "displayText": "網絡",
+    "answerJyutping": "mong5 lok6",
+    "gloss": "上网用嘅网络连接",
+    "usageTip": "Wi-Fi 连唔到、上网慢或者开会断线时，都会讲网络。",
+    "exampleSentence": "我屋企網絡好慢。\n个網絡断咗。",
+    "category": "数码日常"
+  },
+  {
+    "id": "daily-sung3-fo3",
+    "displayText": "送貨",
+    "answerJyutping": "sung3 fo3",
+    "gloss": "把买咗嘅货物送到指定地方",
+    "usageTip": "网购、收件或者问几时送到时，通常会用到。",
+    "exampleSentence": "师傅今日会送貨。\n送貨之前打俾我。",
+    "category": "数码日常"
+  }
+]
