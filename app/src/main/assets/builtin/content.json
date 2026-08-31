@@ -1,6 +1,6 @@
 {
-  "version": "2026.08.31.1309",
-  "generatedAt": "2026-08-31T13:09:03.507420+00:00",
+  "version": "2026.08.31.1329",
+  "generatedAt": "2026-08-31T13:29:17.105238+00:00",
   "entries": [
     {
       "id": "adv-gwok3-jin4",
@@ -7113,6 +7113,672 @@
       "sortOrder": 395
     },
     {
+      "id": "service-fu6-fun2",
+      "displayText": "付款",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "fu6 fun2",
+      "gloss": "把钱交给商户或收款方",
+      "notes": "fu6 的 u 要圆；fun2 的 n 尾要收。",
+      "usageTip": "买东西、交费或网上结账时都可用，后面可接方式或对象。",
+      "exampleSentence": "我已經付款，你睇下收到未。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "付款场景",
+      "groupId": "service-fu6-fun2",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 396
+    },
+    {
+      "id": "service-jap6-sou3",
+      "displayText": "入數",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "jap6 sou3",
+      "gloss": "把钱存入银行账户或指定户口",
+      "notes": "jap6 入声收 p 尾；sou3 的 ou 要完整。",
+      "usageTip": "香港银行和二手交易常用，通常要配合账户资料。",
+      "exampleSentence": "你入數之後影張收據俾我。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "付款场景",
+      "groupId": "service-jap6-sou3",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 397
+    },
+    {
+      "id": "service-gwo3-sou3",
+      "displayText": "過數",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "gwo3 sou3",
+      "gloss": "通过银行或电子方式转账付款",
+      "notes": "gwo3 的 gw 起首要完整；sou3 的 ou 不要扁。",
+      "usageTip": "日常转账、分摊饭钱或交租时都常用。",
+      "exampleSentence": "我今晚過數俾你。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "付款场景",
+      "groupId": "service-gwo3-sou3",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 398
+    },
+    {
+      "id": "service-zyun2-zoeng3",
+      "displayText": "轉帳",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "zyun2 zoeng3",
+      "gloss": "把款项从一个账户转到另一个账户",
+      "notes": "zyun2 与 zoeng3 都要圆唇；zoeng3 的 ng 尾要收。",
+      "usageTip": "正式一点的转账说法，银行或工作沟通都适用。",
+      "exampleSentence": "請你將款項轉帳到呢個戶口。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "付款场景",
+      "groupId": "service-zyun2-zoeng3",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 399
+    },
+    {
+      "id": "service-teoi4-fun2",
+      "displayText": "退款",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "teoi4 fun2",
+      "gloss": "把已经支付的钱退回",
+      "notes": "teoi4 的 eoi 要圆；fun2 的 n 尾要清。",
+      "usageTip": "退货、取消服务或付款出错时使用，后面可接时间。",
+      "exampleSentence": "商戶話三至五日內退款。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "付款场景",
+      "groupId": "service-teoi4-fun2",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 400
+    },
+    {
+      "id": "service-teoi3-fo3",
+      "displayText": "退貨",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "teoi3 fo3",
+      "gloss": "把买到的货品退回商户",
+      "notes": "teoi3 的 eoi 要圆；fo3 的 o 要圆。",
+      "usageTip": "货品有问题或不合适时使用，常和「換貨」一起比较。",
+      "exampleSentence": "件衫唔啱碼，我想退貨。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "购物场景",
+      "groupId": "service-teoi3-fo3",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 401
+    },
+    {
+      "id": "service-wun6-fo3",
+      "displayText": "換貨",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "wun6 fo3",
+      "gloss": "把原本买到的货品换成另一件",
+      "notes": "wun6 的 wun 要圆；fo3 的 o 要圆。",
+      "usageTip": "尺码、颜色或货品有问题时可提出，和退款是不同处理方式。",
+      "exampleSentence": "如果有貨，我想換貨。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "购物场景",
+      "groupId": "service-wun6-fo3",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 402
+    },
+    {
+      "id": "service-deng6-wai2",
+      "displayText": "訂位",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "deng6 wai2",
+      "gloss": "预先订下餐厅、活动或交通的位置",
+      "notes": "deng6 的 ng 尾要收；wai2 的 ai 要完整。",
+      "usageTip": "餐厅、戏院或活动预约都可以用，后面可接人数和时间。",
+      "exampleSentence": "我已經訂位，七點入座。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "餐饮场景",
+      "groupId": "service-deng6-wai2",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 403
+    },
+    {
+      "id": "service-paai4-deoi6",
+      "displayText": "排隊",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "paai4 deoi6",
+      "gloss": "按先后次序排成一列等候",
+      "notes": "paai4 的 aai 要拉开；deoi6 的 eoi 要圆。",
+      "usageTip": "买票、入场或付款时都常用，提醒人守秩序也可说。",
+      "exampleSentence": "請排隊等候，唔好插隊。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "日常处理",
+      "groupId": "service-paai4-deoi6",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 404
+    },
+    {
+      "id": "service-ceoi2-gin6",
+      "displayText": "取件",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "ceoi2 gin6",
+      "gloss": "领取已经到达的包裹或文件",
+      "notes": "ceoi2 的 eoi 要圆；gin6 的 n 尾要收。",
+      "usageTip": "快递柜、服务柜台或公司收件时使用，后面可接编号。",
+      "exampleSentence": "我放工後去取件。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "购物场景",
+      "groupId": "service-ceoi2-gin6",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 405
+    },
+    {
+      "id": "service-gei3-ceot1",
+      "displayText": "寄出",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "gei3 ceot1",
+      "gloss": "把信件或包裹交给邮寄服务发出",
+      "notes": "gei3 的 ei 要清；ceot1 入声收 t 尾。",
+      "usageTip": "邮寄文件、退货或礼物时都可用，常说明寄出日期。",
+      "exampleSentence": "份文件今日已經寄出。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "日常处理",
+      "groupId": "service-gei3-ceot1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 406
+    },
+    {
+      "id": "service-tin4-biu2",
+      "displayText": "填表",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "tin4 biu2",
+      "gloss": "在表格上填写所需资料",
+      "notes": "tin4 的 n 尾要收；biu2 的 iu 要顺。",
+      "usageTip": "申请、登记或报销时使用，后面可接表格名称。",
+      "exampleSentence": "請先填表，再去櫃位辦理。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "工作沟通",
+      "groupId": "service-tin4-biu2",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 407
+    },
+    {
+      "id": "service-cim1-ming4",
+      "displayText": "簽名",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "cim1 ming4",
+      "gloss": "在文件上写下自己的名字作确认",
+      "notes": "cim1 的 m 尾要合；ming4 的 ng 尾要收。",
+      "usageTip": "合约、收件或授权场景都常用，后面可接位置。",
+      "exampleSentence": "請喺呢度簽名。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "工作沟通",
+      "groupId": "service-cim1-ming4",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 408
+    },
+    {
+      "id": "service-jing2-jan3",
+      "displayText": "影印",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "jing2 jan3",
+      "gloss": "把文件复制成纸本",
+      "notes": "jing2 的 ng 尾要清；jan3 的 n 尾要收。",
+      "usageTip": "办公室、学校或办手续时都常见，和「列印」用途不同。",
+      "exampleSentence": "麻煩你幫我影印兩份。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "工作沟通",
+      "groupId": "service-jing2-jan3",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 409
+    },
+    {
+      "id": "service-sou3-miu4",
+      "displayText": "掃描",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "sou3 miu4",
+      "gloss": "把纸本内容转换成电子影像",
+      "notes": "sou3 的 ou 要完整；miu4 的 iu 要连顺。",
+      "usageTip": "寄电子文件、存档或上传申请资料时使用。",
+      "exampleSentence": "我掃描好份文件就上載。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "工作沟通",
+      "groupId": "service-sou3-miu4",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 410
+    },
+    {
+      "id": "service-lit6-jan3",
+      "displayText": "列印",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "lit6 jan3",
+      "gloss": "把电子文件打印成纸本",
+      "notes": "lit6 入声收 t 尾；jan3 的 n 尾要清。",
+      "usageTip": "工作、学校或办手续时都常用，香港口语也常说「print」。",
+      "exampleSentence": "份表要列印出嚟簽名。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "工作沟通",
+      "groupId": "service-lit6-jan3",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 411
+    },
+    {
+      "id": "service-dang1-jap6",
+      "displayText": "登入",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "dang1 jap6",
+      "gloss": "输入账号资料进入系统或网站",
+      "notes": "dang1 的 ng 尾要收；jap6 入声收 p 尾。",
+      "usageTip": "网站、银行或公司系统都适用，常和「密碼」一起出现。",
+      "exampleSentence": "我登入唔到個帳戶。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "数码日常",
+      "groupId": "service-dang1-jap6",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 412
+    },
+    {
+      "id": "service-dang1-ceot1",
+      "displayText": "登出",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "dang1 ceot1",
+      "gloss": "离开已经登入的系统或账号",
+      "notes": "dang1 的 ng 尾清楚；ceot1 入声短收。",
+      "usageTip": "共用电脑或结束网上服务时，提醒人记得登出。",
+      "exampleSentence": "用完部電腦記得登出。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "数码日常",
+      "groupId": "service-dang1-ceot1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 413
+    },
+    {
+      "id": "service-gang1-san1",
+      "displayText": "更新",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "gang1 san1",
+      "gloss": "把软件、资料或状态更新到较新版本",
+      "notes": "gang1 的 ng 尾要收；san1 的 n 尾要清。",
+      "usageTip": "手机、应用或个人资料变更时都可用，后面可接对象。",
+      "exampleSentence": "個App要更新先用到新功能。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "数码日常",
+      "groupId": "service-gang1-san1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 414
+    },
+    {
+      "id": "service-haa6-zoi3",
+      "displayText": "下載",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "haa6 zoi3",
+      "gloss": "把网上或系统里的档案存到设备",
+      "notes": "haa6 的 aa 拉开；zoi3 的 oi 要圆。",
+      "usageTip": "应用、文件和照片都可以下载，常和「上載」相对。",
+      "exampleSentence": "你下載完就可以離線睇。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "数码日常",
+      "groupId": "service-haa6-zoi3",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 415
+    },
+    {
+      "id": "service-soeng5-zoi3",
+      "displayText": "上載",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "soeng5 zoi3",
+      "gloss": "把设备里的档案传到网站或系统",
+      "notes": "soeng5 的 eoeng 要完整；zoi3 的 oi 要圆。",
+      "usageTip": "交功课、提交表格或分享文件时都很常用。",
+      "exampleSentence": "請上載返張收據。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "数码日常",
+      "groupId": "service-soeng5-zoi3",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 416
+    },
+    {
+      "id": "service-cung4-hoi1",
+      "displayText": "重開",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "cung4 hoi1",
+      "gloss": "重新开启设备、应用或页面",
+      "notes": "cung4 的 ung 韵要完整；hoi1 的 oi 要圆。",
+      "usageTip": "程序无反应、网络异常或更新后，常建议先重开。",
+      "exampleSentence": "個App卡住，重開一次先。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "数码日常",
+      "groupId": "service-cung4-hoi1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 417
+    },
+    {
+      "id": "service-saan1-ceot1",
+      "displayText": "刪除",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "saan1 ceot1",
+      "gloss": "把资料、档案或记录移除",
+      "notes": "saan1 的 aa 拉开；ceot1 入声收 t 尾。",
+      "usageTip": "操作前要确认对象，重要资料应先备份再删除。",
+      "exampleSentence": "呢封垃圾郵件可以刪除。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "数码日常",
+      "groupId": "service-saan1-ceot1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 418
+    },
+    {
+      "id": "service-bei6-fan6",
+      "displayText": "備份",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "bei6 fan6",
+      "gloss": "把资料复制保存到另一处以防丢失",
+      "notes": "bei6 的 ei 要清；fan6 的 n 尾要收。",
+      "usageTip": "手机、电脑和工作文件都值得定期备份。",
+      "exampleSentence": "換機之前記得備份相片。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "数码日常",
+      "groupId": "service-bei6-fan6",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 419
+    },
+    {
+      "id": "service-tung1-zi1",
+      "displayText": "通知",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "tung1 zi1",
+      "gloss": "把消息或安排告诉相关的人",
+      "notes": "tung1 的 ng 尾要收；zi1 的 i 要清。",
+      "usageTip": "工作、约人或临时改动都需要及时通知对方。",
+      "exampleSentence": "有變動請即時通知我。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "工作沟通",
+      "groupId": "service-tung1-zi1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 420
+    },
+    {
+      "id": "service-zeon3-dou6",
+      "displayText": "進度",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "zeon3 dou6",
+      "gloss": "事情目前做到哪一步的情况",
+      "notes": "zeon3 的 eon 要圆；dou6 的 ou 要完整。",
+      "usageTip": "工作、工程或申请都可问进度，后面可接「點樣」。",
+      "exampleSentence": "個項目而家進度點呀？",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "工作沟通",
+      "groupId": "service-zeon3-dou6",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 421
+    },
+    {
+      "id": "service-jin4-kei4",
+      "displayText": "延期",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "jin4 kei4",
+      "gloss": "把原定时间推迟到更后",
+      "notes": "jin4 的 n 尾要收；kei4 的 ei 要清。",
+      "usageTip": "活动、交货或截止日期改变时使用，最好同时说明新日期。",
+      "exampleSentence": "工程因為落雨要延期。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "工作沟通",
+      "groupId": "service-jin4-kei4",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 422
+    },
+    {
+      "id": "service-ciu2-siu1",
+      "displayText": "取消",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "ciu2 siu1",
+      "gloss": "不再进行原本安排的事情",
+      "notes": "ciu2 的 iu 要顺；siu1 的 iu 也要清楚。",
+      "usageTip": "预约、订单、会议或计划不做时都可以用。",
+      "exampleSentence": "我想取消聽日個預約。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "约见安排",
+      "groupId": "service-ciu2-siu1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 423
+    },
+    {
+      "id": "service-pai1-zeon2",
+      "displayText": "批准",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "pai1 zeon2",
+      "gloss": "正式同意申请、计划或做法",
+      "notes": "pai1 的 ai 要清；zeon2 的 eon 要圆。",
+      "usageTip": "请假、预算、文件或权限获同意时使用，常用于工作场景。",
+      "exampleSentence": "我份請假表仲未批准。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "工作沟通",
+      "groupId": "service-pai1-zeon2",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 424
+    },
+    {
+      "id": "service-keoi5-zyut6",
+      "displayText": "拒絕",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "keoi5 zyut6",
+      "gloss": "不同意或不接受某个请求、建议或安排",
+      "notes": "keoi5 的 eoi 要圆；zyut6 入声收 t 尾。",
+      "usageTip": "说明结果时较正式；日常表达可以说「唔接受」或「唔得」。",
+      "exampleSentence": "佢拒絕咗個安排，但冇講原因。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "工作沟通",
+      "groupId": "service-keoi5-zyut6",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 425
+    },
+    {
+      "id": "service-jyu6-joek3",
+      "displayText": "預約",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "jyu6 joek3",
+      "gloss": "预先约定时间接受服务或见面",
+      "notes": "jyu6 要圆唇；joek3 是圆唇入声。",
+      "usageTip": "看医生、办手续、理发或餐厅服务都可用。",
+      "exampleSentence": "我想預約下星期睇醫生。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "约见安排",
+      "groupId": "service-jyu6-joek3",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 426
+    },
+    {
+      "id": "service-lei4-hoi1",
+      "displayText": "離開",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "lei4 hoi1",
+      "gloss": "从一个地方或状态离去",
+      "notes": "lei4 的 ei 要清；hoi1 的 oi 要圆。",
+      "usageTip": "说明出发、离场或停止使用某处时都可以用。",
+      "exampleSentence": "我五點左右離開公司。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "日常动作",
+      "groupId": "service-lei4-hoi1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 427
+    },
+    {
+      "id": "service-lok6-lau4",
+      "displayText": "落樓",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "lok6 lau4",
+      "gloss": "从楼上走到楼下",
+      "notes": "lok6 入声收 k 尾；lau4 的 au 要完整。",
+      "usageTip": "约人、取外卖或出门时很常说，通常暗示很快下来。",
+      "exampleSentence": "我而家落樓攞外賣。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "日常动作",
+      "groupId": "service-lok6-lau4",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 428
+    },
+    {
+      "id": "service-soeng5-lau4",
+      "displayText": "上樓",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "soeng5 lau4",
+      "gloss": "从楼下走到楼上",
+      "notes": "soeng5 的 eoeng 要完整；lau4 的 au 要打开。",
+      "usageTip": "到别人家、办公室或楼上房间时使用。",
+      "exampleSentence": "你上樓先，我陣間就到。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "日常动作",
+      "groupId": "service-soeng5-lau4",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 429
+    },
+    {
+      "id": "service-saan3-wui6",
+      "displayText": "散會",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "saan3 wui6",
+      "gloss": "会议正式结束，参加者可以离开",
+      "notes": "saan3 的 aa 拉开；wui6 的 ui 要连顺。",
+      "usageTip": "工作会议或活动结束时使用，比「完咗」正式。",
+      "exampleSentence": "今日散會之後我哋再跟進。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "工作沟通",
+      "groupId": "service-saan3-wui6",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 430
+    },
+    {
+      "id": "service-cing2-gaa3",
+      "displayText": "請假",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "cing2 gaa3",
+      "gloss": "预先申请一段时间不上班或不上课",
+      "notes": "cing2 的 ng 尾要收；gaa3 的 aa 要拉开。",
+      "usageTip": "工作或学校场景都常用，最好同时说明日期和原因。",
+      "exampleSentence": "我下星期要請假兩日。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "工作沟通",
+      "groupId": "service-cing2-gaa3",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 431
+    },
+    {
+      "id": "service-fong3-gaa3",
+      "displayText": "放假",
+      "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "fong3 gaa3",
+      "gloss": "不用上班或上课的休息日",
+      "notes": "fong3 的 ng 尾要收；gaa3 的 aa 要完整。",
+      "usageTip": "讲计划、安排或状态时都很高频，可指单日或一段假期。",
+      "exampleSentence": "我放假想喺屋企休息。",
+      "exampleTranslation": "",
+      "entryType": "word",
+      "category": "日常状态",
+      "groupId": "service-fong3-gaa3",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 432
+    },
+    {
       "id": "word-gam1-jat6",
       "displayText": "今日",
       "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
@@ -7128,7 +7794,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 396
+      "sortOrder": 433
     },
     {
       "id": "word-ji4-gaa1",
@@ -7146,7 +7812,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 397
+      "sortOrder": 434
     },
     {
       "id": "word-dim2-joeng2",
@@ -7164,7 +7830,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 398
+      "sortOrder": 435
     },
     {
       "id": "word-dim2-gaai2",
@@ -7182,7 +7848,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 399
+      "sortOrder": 436
     },
     {
       "id": "word-ming4-baak6",
@@ -7200,7 +7866,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 400
+      "sortOrder": 437
     },
     {
       "id": "word-pang4-jau5",
@@ -7218,7 +7884,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 401
+      "sortOrder": 438
     },
     {
       "id": "word-hoeng1-gong2",
@@ -7236,7 +7902,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 402
+      "sortOrder": 439
     },
     {
       "id": "word-gwong2-dung1-waa2",
@@ -7254,7 +7920,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 403
+      "sortOrder": 440
     },
     {
       "id": "word-sik6-faan6",
@@ -7272,7 +7938,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 404
+      "sortOrder": 441
     },
     {
       "id": "word-jam2-seoi2",
@@ -7290,7 +7956,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 405
+      "sortOrder": 442
     },
     {
       "id": "word-faan1-gung1",
@@ -7308,7 +7974,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 406
+      "sortOrder": 443
     },
     {
       "id": "word-fong3-gung1",
@@ -7326,7 +7992,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 407
+      "sortOrder": 444
     },
     {
       "id": "word-hoi1-sam1",
@@ -7344,7 +8010,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 408
+      "sortOrder": 445
     },
     {
       "id": "word-daam1-sam1",
@@ -7362,7 +8028,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 409
+      "sortOrder": 446
     },
     {
       "id": "word-tin1-hei3",
@@ -7380,7 +8046,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 410
+      "sortOrder": 447
     },
     {
       "id": "word-lok6-jyu5",
@@ -7398,7 +8064,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 411
+      "sortOrder": 448
     },
     {
       "id": "word-hok6-haau6",
@@ -7416,7 +8082,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 412
+      "sortOrder": 449
     },
     {
       "id": "word-ji1-jyun2",
@@ -7434,7 +8100,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 413
+      "sortOrder": 450
     },
     {
       "id": "word-lou5-si1",
@@ -7452,7 +8118,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 414
+      "sortOrder": 451
     },
     {
       "id": "word-jung4-ji6",
@@ -7470,7 +8136,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 415
+      "sortOrder": 452
     },
     {
       "id": "word-jat1-ding6",
@@ -7488,7 +8154,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 416
+      "sortOrder": 453
     },
     {
       "id": "word-gan2-jiu3",
@@ -7506,7 +8172,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 417
+      "sortOrder": 454
     },
     {
       "id": "word-kei4-sat6",
@@ -7524,7 +8190,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 418
+      "sortOrder": 455
     },
     {
       "id": "word-siu2-sam1",
@@ -7542,7 +8208,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 419
+      "sortOrder": 456
     },
     {
       "id": "word-do1-ze6",
@@ -7560,7 +8226,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 420
+      "sortOrder": 457
     },
     {
       "id": "word-m4-goi1",
@@ -7578,7 +8244,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 421
+      "sortOrder": 458
     },
     {
       "id": "word-m4-hou2-ji3-si6",
@@ -7596,7 +8262,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 422
+      "sortOrder": 459
     },
     {
       "id": "word-mou5-man6-tai4",
@@ -7614,7 +8280,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 423
+      "sortOrder": 460
     },
     {
       "id": "word-zi1-dou6",
@@ -7632,7 +8298,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 424
+      "sortOrder": 461
     },
     {
       "id": "word-gok3-dak1",
@@ -7650,7 +8316,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 425
+      "sortOrder": 462
     },
     {
       "id": "word-zeon2-bei6",
@@ -7668,7 +8334,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 426
+      "sortOrder": 463
     },
     {
       "id": "word-soeng5-tong4",
@@ -7686,7 +8352,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 427
+      "sortOrder": 464
     },
     {
       "id": "word-gaau1-doi3",
@@ -7704,7 +8370,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 428
+      "sortOrder": 465
     },
     {
       "id": "word-zap1-zing3",
@@ -7722,7 +8388,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 429
+      "sortOrder": 466
     },
     {
       "id": "word-sau1-mei5",
@@ -7740,7 +8406,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 430
+      "sortOrder": 467
     },
     {
       "id": "word-juk6-joeng6",
@@ -7758,7 +8424,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 431
+      "sortOrder": 468
     },
     {
       "id": "word-haau6-leot6",
@@ -7776,7 +8442,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 432
+      "sortOrder": 469
     },
     {
       "id": "word-doi3-lou6",
@@ -7794,7 +8460,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 433
+      "sortOrder": 470
     },
     {
       "id": "word-maan6-maan6-lai4",
@@ -7812,7 +8478,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 434
+      "sortOrder": 471
     },
     {
       "id": "word-zing2-hap6",
@@ -7830,7 +8496,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 435
+      "sortOrder": 472
     },
     {
       "id": "word-zeoi3-gan6",
@@ -7848,7 +8514,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 436
+      "sortOrder": 473
     },
     {
       "id": "word-jing4-sing4",
@@ -7866,7 +8532,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 437
+      "sortOrder": 474
     },
     {
       "id": "word-jing3-soeng4",
@@ -7884,7 +8550,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 438
+      "sortOrder": 475
     },
     {
       "id": "word-zing3-sik1",
@@ -7902,7 +8568,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 439
+      "sortOrder": 476
     },
     {
       "id": "word-ging1-jat6",
@@ -7920,7 +8586,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 440
+      "sortOrder": 477
     },
     {
       "id": "word-ging2-gaai3",
@@ -7938,7 +8604,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 441
+      "sortOrder": 478
     },
     {
       "id": "word-jik6-gan1",
@@ -7956,7 +8622,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 442
+      "sortOrder": 479
     },
     {
       "id": "word-gok3-jing4",
@@ -7974,7 +8640,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 443
+      "sortOrder": 480
     },
     {
       "id": "word-jit6-zau3",
@@ -7992,7 +8658,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 444
+      "sortOrder": 481
     },
     {
       "id": "word-hau2-jing4",
@@ -8010,7 +8676,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 445
+      "sortOrder": 482
     },
     {
       "id": "word-sang1-mou2",
@@ -8028,7 +8694,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 446
+      "sortOrder": 483
     },
     {
       "id": "word-wan6-mou2",
@@ -8046,7 +8712,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 447
+      "sortOrder": 484
     },
     {
       "id": "word-jat1-caat3",
@@ -8064,7 +8730,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 448
+      "sortOrder": 485
     },
     {
       "id": "word-ji4-jin4",
@@ -8082,7 +8748,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 449
+      "sortOrder": 486
     },
     {
       "id": "word-jing2-gan6",
@@ -8100,7 +8766,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 450
+      "sortOrder": 487
     },
     {
       "id": "word-zing6-zing6",
@@ -8118,7 +8784,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 451
+      "sortOrder": 488
     },
     {
       "id": "word-goi3-sin1",
@@ -8136,7 +8802,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 452
+      "sortOrder": 489
     },
     {
       "id": "word-paat3-doi2",
@@ -8154,7 +8820,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 453
+      "sortOrder": 490
     },
     {
       "id": "work-ceot1-faat3",
@@ -8172,7 +8838,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 454
+      "sortOrder": 491
     },
     {
       "id": "work-faan1-dou3",
@@ -8190,7 +8856,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 455
+      "sortOrder": 492
     },
     {
       "id": "work-ging1-gwo3",
@@ -8208,7 +8874,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 456
+      "sortOrder": 493
     },
     {
       "id": "work-jyu6-dou3",
@@ -8226,7 +8892,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 457
+      "sortOrder": 494
     },
     {
       "id": "work-kyut3-sam1",
@@ -8244,7 +8910,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 458
+      "sortOrder": 495
     },
     {
       "id": "work-lau4-ji3",
@@ -8262,7 +8928,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 459
+      "sortOrder": 496
     },
     {
       "id": "work-jing2-hoeng2",
@@ -8280,7 +8946,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 460
+      "sortOrder": 497
     },
     {
       "id": "work-pui3-hap6",
@@ -8298,7 +8964,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 461
+      "sortOrder": 498
     },
     {
       "id": "work-fu6-zaak3",
@@ -8316,7 +8982,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 462
+      "sortOrder": 499
     },
     {
       "id": "work-gon2-zyu6",
@@ -8334,7 +9000,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 463
+      "sortOrder": 500
     },
     {
       "id": "work-nam2-zyu6",
@@ -8352,7 +9018,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 464
+      "sortOrder": 501
     },
     {
       "id": "work-jing6-zan1",
@@ -8370,7 +9036,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 465
+      "sortOrder": 502
     },
     {
       "id": "work-ceoi4-si4",
@@ -8388,7 +9054,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 466
+      "sortOrder": 503
     },
     {
       "id": "work-jyun4-bun2",
@@ -8406,7 +9072,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 467
+      "sortOrder": 504
     },
     {
       "id": "work-sam6-zi3",
@@ -8424,7 +9090,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 468
+      "sortOrder": 505
     },
     {
       "id": "work-ci2-zung1",
@@ -8442,7 +9108,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 469
+      "sortOrder": 506
     },
     {
       "id": "work-jau4-kei4",
@@ -8460,7 +9126,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 470
+      "sortOrder": 507
     },
     {
       "id": "work-zik6-zip3",
@@ -8478,7 +9144,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 471
+      "sortOrder": 508
     },
     {
       "id": "work-zung1-jyu1",
@@ -8496,7 +9162,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 472
+      "sortOrder": 509
     },
     {
       "id": "work-gan1-bun2",
@@ -8514,7 +9180,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 473
+      "sortOrder": 510
     },
     {
       "id": "work-daa2-syun3",
@@ -8532,7 +9198,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 474
+      "sortOrder": 511
     },
     {
       "id": "work-zik6-dak1",
@@ -8550,7 +9216,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 475
+      "sortOrder": 512
     },
     {
       "id": "work-ho2-kaau3",
@@ -8568,7 +9234,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 476
+      "sortOrder": 513
     },
     {
       "id": "work-maa4-faan4",
@@ -8586,7 +9252,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 477
+      "sortOrder": 514
     },
     {
       "id": "work-gaam3-gaai3",
@@ -8604,7 +9270,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 478
+      "sortOrder": 515
     },
     {
       "id": "work-sat1-lai5",
@@ -8622,7 +9288,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 479
+      "sortOrder": 516
     },
     {
       "id": "work-cing1-sing2",
@@ -8640,7 +9306,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 480
+      "sortOrder": 517
     },
     {
       "id": "work-gui6",
@@ -8658,7 +9324,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 481
+      "sortOrder": 518
     },
     {
       "id": "work-wan2-zan6",
@@ -8676,7 +9342,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 482
+      "sortOrder": 519
     },
     {
       "id": "work-cyu2-lei5-dou2",
@@ -8694,7 +9360,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 483
+      "sortOrder": 520
     },
     {
       "id": "work-gan1-zeon3",
@@ -8712,7 +9378,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 484
+      "sortOrder": 521
     }
   ]
 }
