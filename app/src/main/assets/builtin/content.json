@@ -1,6 +1,6 @@
 {
-  "version": "2026.08.31.0929",
-  "generatedAt": "2026-08-31T09:29:07.401570+00:00",
+  "version": "2026.08.31.0935",
+  "generatedAt": "2026-08-31T09:35:49.414629+00:00",
   "entries": [
     {
       "id": "adv-gwok3-jin4",
@@ -1677,6 +1677,420 @@
       "sortOrder": 93
     },
     {
+      "id": "coord-ci4-di1",
+      "displayText": "遲啲",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "ci4 di1",
+      "gloss": "晚一点、过一会儿之后",
+      "notes": "ci4 的 i 要清；di1 要短，不要拖成 dei。",
+      "usageTip": "用来安排稍后的动作，后面可接时间或直接接动词。",
+      "exampleSentence": "我遲啲再打俾你。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "时间表达",
+      "groupId": "coord-ci4-di1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 94
+    },
+    {
+      "id": "coord-jat1-zan6-sin1",
+      "displayText": "一陣先",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "jat1 zan6 sin1",
+      "gloss": "先等一会儿，暂时不要马上做",
+      "notes": "jat1 收 t 尾；zan6 与 sin1 要分开。",
+      "usageTip": "提出延后处理时很自然，语气比单讲「等陣」更明确。",
+      "exampleSentence": "我一陣先覆你。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "时间表达",
+      "groupId": "coord-jat1-zan6-sin1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 95
+    },
+    {
+      "id": "coord-tai2-haa5",
+      "displayText": "睇下",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "tai2 haa5",
+      "gloss": "看一看、先检查或考虑一下",
+      "notes": "tai2 的 ai 要完整；haa5 的 aa 要开够。",
+      "usageTip": "看东西、请人帮忙或表示自己先确认时都常用。",
+      "exampleSentence": "我睇下個時間先。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "高频口语",
+      "groupId": "coord-tai2-haa5",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 96
+    },
+    {
+      "id": "coord-sau1-hou2",
+      "displayText": "收好",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "sau1 hou2",
+      "gloss": "把东西妥善收起来，不要遗失",
+      "notes": "sau1 与 hou2 的 au、ou 要分清。",
+      "usageTip": "提醒人保管证件、单据或物件时很常用。",
+      "exampleSentence": "張收據你要收好。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "日常处理",
+      "groupId": "coord-sau1-hou2",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 97
+    },
+    {
+      "id": "coord-zap1-hou2",
+      "displayText": "執好",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "zap1 hou2",
+      "gloss": "把散乱的东西整理妥当",
+      "notes": "zap1 的 p 尾要短收；hou2 的 ou 不要扁。",
+      "usageTip": "整理房间、行李或文件后都可以用来确认完成。",
+      "exampleSentence": "我執好個袋就出門。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "日常处理",
+      "groupId": "coord-zap1-hou2",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 98
+    },
+    {
+      "id": "coord-lo2-faan1",
+      "displayText": "攞返",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "lo2 faan1",
+      "gloss": "把原本属于自己的东西取回",
+      "notes": "lo2 的 o 要圆；faan1 的 aa 要拉开。",
+      "usageTip": "讲取回物品、文件或钱款时用，后面可接对象。",
+      "exampleSentence": "我聽日去攞返份文件。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "日常处理",
+      "groupId": "coord-lo2-faan1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 99
+    },
+    {
+      "id": "coord-ling1-zau2",
+      "displayText": "拎走",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "ling1 zau2",
+      "gloss": "把东西拿离开原本的位置",
+      "notes": "ling1 的 ng 尾要收；zau2 的 au 要完整。",
+      "usageTip": "提醒人带走自己的东西，或收拾时叫人移走物件都可以。",
+      "exampleSentence": "你走嗰陣記得拎走把遮。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "日常处理",
+      "groupId": "coord-ling1-zau2",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 100
+    },
+    {
+      "id": "coord-lau4-dai1",
+      "displayText": "留低",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "lau4 dai1",
+      "gloss": "把人或物保留在原处，不带走",
+      "notes": "lau4 的 au 要打开；dai1 的 ai 要清。",
+      "usageTip": "可讲留下物件，也可叫人留下等候；语气看后面内容。",
+      "exampleSentence": "你留低個電話號碼俾我。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "日常处理",
+      "groupId": "coord-lau4-dai1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 101
+    },
+    {
+      "id": "coord-gong2-dai1",
+      "displayText": "講低",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "gong2 dai1",
+      "gloss": "先交代清楚一件要记住或要处理的事",
+      "notes": "gong2 的 ong 韵完整；dai1 的 ai 要清。",
+      "usageTip": "多用于提前说明安排、规则或责任，不等于随口提一下。",
+      "exampleSentence": "我想先同你講低，聽日我會遲到。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "工作沟通",
+      "groupId": "coord-gong2-dai1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 102
+    },
+    {
+      "id": "coord-joek3-sat6",
+      "displayText": "約實",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "joek3 sat6",
+      "gloss": "把见面时间或安排正式确认下来",
+      "notes": "joek3 与 sat6 都是入声，收尾要利落。",
+      "usageTip": "约人之后想避免误会，可说「約實咗」表示已经定好。",
+      "exampleSentence": "我哋約實咗星期六見。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "约见安排",
+      "groupId": "coord-joek3-sat6",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 103
+    },
+    {
+      "id": "coord-goi2-zo2",
+      "displayText": "改咗",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "goi2 zo2",
+      "gloss": "原本的内容已经被修改",
+      "notes": "goi2 的 oi 要圆；zo2 的 o 不要过窄。",
+      "usageTip": "交代计划、文件或主意已经变更时用，后面可接改成什么。",
+      "exampleSentence": "個時間改咗做四點。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "工作沟通",
+      "groupId": "coord-goi2-zo2",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 104
+    },
+    {
+      "id": "coord-on1-paai4-hou2",
+      "displayText": "安排好",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "on1 paai4 hou2",
+      "gloss": "把需要的步骤、时间或人手都处理妥当",
+      "notes": "on1 不是 ang1；paai4 的 aai 要拉开。",
+      "usageTip": "会议、出行或工作分工准备完成后可以这样确认。",
+      "exampleSentence": "我已經安排好晒，你放心。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "工作沟通",
+      "groupId": "coord-on1-paai4-hou2",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 105
+    },
+    {
+      "id": "coord-gaau2-hou2",
+      "displayText": "搞好",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "gaau2 hou2",
+      "gloss": "把事情处理完成并弄妥",
+      "notes": "gaau2 的 aau 要拉开；hou2 的 ou 要完整。",
+      "usageTip": "比「完成」更口语，适合文件、设备或小任务。",
+      "exampleSentence": "你搞好之後同我講聲。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "工作沟通",
+      "groupId": "coord-gaau2-hou2",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 106
+    },
+    {
+      "id": "coord-cyu2-lei5-hou2",
+      "displayText": "處理好",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "cyu2 lei5 hou2",
+      "gloss": "把问题妥善跟进并解决",
+      "notes": "cyu2 必须圆唇；lei5 不要读成 nei5。",
+      "usageTip": "适合工作或服务场景，语气比「搞好」较正式。",
+      "exampleSentence": "呢件事我會盡快處理好。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "工作沟通",
+      "groupId": "coord-cyu2-lei5-hou2",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 107
+    },
+    {
+      "id": "coord-fuk1-faan1",
+      "displayText": "覆返",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "fuk1 faan1",
+      "gloss": "回复先前收到的讯息、问题或来电",
+      "notes": "fuk1 是入声短收；faan1 的 aa 要拉开。",
+      "usageTip": "香港口语常见，后面可接「你」或「個訊息」。",
+      "exampleSentence": "我得閒就覆返你。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "工作沟通",
+      "groupId": "coord-fuk1-faan1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 108
+    },
+    {
+      "id": "coord-kok3-jan6-faan1",
+      "displayText": "確認返",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "kok3 jan6 faan1",
+      "gloss": "重新核实先前提到的资料或安排",
+      "notes": "kok3 入声收 k 尾；jan6 收 n 尾，faan1 拉开 aa。",
+      "usageTip": "复核时间、地址、金额时很自然，带有再确认一次的意思。",
+      "exampleSentence": "我確認返個地址再出發。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "工作沟通",
+      "groupId": "coord-kok3-jan6-faan1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 109
+    },
+    {
+      "id": "coord-dak1-m4-dak1",
+      "displayText": "得唔得",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "dak1 m4 dak1",
+      "gloss": "可不可以、行不行，用来征求同意或确认可行性",
+      "notes": "两个 dak1 都要收 k 尾，中间 m4 不可吞掉。",
+      "usageTip": "熟人沟通很高频；想更客气可加「請問」或「可唔可以」。",
+      "exampleSentence": "我哋六點見得唔得？",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "高频回应",
+      "groupId": "coord-dak1-m4-dak1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 110
+    },
+    {
+      "id": "coord-mei6-dak1",
+      "displayText": "未得",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "mei6 dak1",
+      "gloss": "目前还不可以、还没完成或条件未够",
+      "notes": "mei6 的 ei 要清；dak1 的 k 尾短收。",
+      "usageTip": "回应进度或请求时用，最好补一句原因或下一步，语气会更清楚。",
+      "exampleSentence": "而家仲未得，要等多一陣。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "高频回应",
+      "groupId": "coord-mei6-dak1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 111
+    },
+    {
+      "id": "coord-m4-goi1-sin1",
+      "displayText": "唔該先",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "m4 goi1 sin1",
+      "gloss": "预先感谢对方即将提供的帮助",
+      "notes": "m4 自成音节；goi1 与 sin1 的 i 韵都要清。",
+      "usageTip": "托人做一件事时放句尾很自然，比事后说「唔該晒」更适合。",
+      "exampleSentence": "麻煩你幫我留意，唔該先。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "礼貌表达",
+      "groupId": "coord-m4-goi1-sin1",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 112
+    },
+    {
+      "id": "coord-zou2-dou3",
+      "displayText": "早到",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "zou2 dou3",
+      "gloss": "比约定时间更早到达",
+      "notes": "zou2 不是 zau2；dou3 的 ou 要完整。",
+      "usageTip": "约人、返工或参加活动时，讲自己提早到可直接用。",
+      "exampleSentence": "我可能會早到十分鐘。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "约见安排",
+      "groupId": "coord-zou2-dou3",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 113
+    },
+    {
+      "id": "coord-sik6-gan2",
+      "displayText": "食緊",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "sik6 gan2",
+      "gloss": "正在吃东西",
+      "notes": "sik6 入声收 k 尾；gan2 的 n 尾要清。",
+      "usageTip": "「緊」表示动作进行中，回答电话或约人时常用来交代状态。",
+      "exampleSentence": "我而家食緊飯，遲啲覆你。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "高频口语",
+      "groupId": "coord-sik6-gan2",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 114
+    },
+    {
+      "id": "coord-tai2-gan2",
+      "displayText": "睇緊",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "tai2 gan2",
+      "gloss": "正在看某样东西或关注某个情况",
+      "notes": "tai2 的 ai 要完整；gan2 的 n 尾收清。",
+      "usageTip": "可接文件、电视、手机或情况，表达自己正在处理或留意。",
+      "exampleSentence": "我睇緊份合約。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "高频口语",
+      "groupId": "coord-tai2-gan2",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 115
+    },
+    {
+      "id": "coord-haa6-ci3-gin3",
+      "displayText": "下次見",
+      "promptText": "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。",
+      "answerJyutping": "haa6 ci3 gin3",
+      "gloss": "分别时表示下一次再见",
+      "notes": "haa6 的 aa 要开；ci3 是送气 c，gin3 的 ng 尾要收。",
+      "usageTip": "朋友、同事或约好之后的自然收尾；语气比「再見」轻松。",
+      "exampleSentence": "今日傾得好開心，下次見。",
+      "exampleTranslation": "",
+      "entryType": "expression",
+      "category": "高频回应",
+      "groupId": "coord-haa6-ci3-gin3",
+      "tone": 0,
+      "audioAsset": null,
+      "sourceLabel": "curated",
+      "sortOrder": 116
+    },
+    {
       "id": "daily-dei6-tit3",
       "displayText": "地鐵",
       "promptText": "先按自己答案写出 Jyutping，再看意思、用法同例句。",
@@ -1692,7 +2106,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 94
+      "sortOrder": 117
     },
     {
       "id": "daily-daap3-dei6-tit3",
@@ -1710,7 +2124,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 95
+      "sortOrder": 118
     },
     {
       "id": "daily-baa1-si2",
@@ -1728,7 +2142,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 96
+      "sortOrder": 119
     },
     {
       "id": "daily-dik1-si2",
@@ -1746,7 +2160,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 97
+      "sortOrder": 120
     },
     {
       "id": "daily-lok6-ce1",
@@ -1764,7 +2178,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 98
+      "sortOrder": 121
     },
     {
       "id": "daily-zyun2-ce1",
@@ -1782,7 +2196,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 99
+      "sortOrder": 122
     },
     {
       "id": "daily-ce1-zaam6",
@@ -1800,7 +2214,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 100
+      "sortOrder": 123
     },
     {
       "id": "daily-baat3-daat6-tung1",
@@ -1818,7 +2232,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 101
+      "sortOrder": 124
     },
     {
       "id": "daily-ngoi6-maai6",
@@ -1836,7 +2250,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 102
+      "sortOrder": 125
     },
     {
       "id": "daily-dung3-jam2",
@@ -1854,7 +2268,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 103
+      "sortOrder": 126
     },
     {
       "id": "daily-jit6-jam2",
@@ -1872,7 +2286,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 104
+      "sortOrder": 127
     },
     {
       "id": "daily-gaa1-sung3",
@@ -1890,7 +2304,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 105
+      "sortOrder": 128
     },
     {
       "id": "daily-lo2-wai2",
@@ -1908,7 +2322,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 106
+      "sortOrder": 129
     },
     {
       "id": "daily-caa4-caan1-teng1",
@@ -1926,7 +2340,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 107
+      "sortOrder": 130
     },
     {
       "id": "daily-ciu1-si5",
@@ -1944,7 +2358,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 108
+      "sortOrder": 131
     },
     {
       "id": "daily-gaai1-si5",
@@ -1962,7 +2376,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 109
+      "sortOrder": 132
     },
     {
       "id": "daily-gaau1-doi2",
@@ -1980,7 +2394,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 110
+      "sortOrder": 133
     },
     {
       "id": "daily-sau1-geoi3",
@@ -1998,7 +2412,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 111
+      "sortOrder": 134
     },
     {
       "id": "daily-zaau2-zuk6",
@@ -2016,7 +2430,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 112
+      "sortOrder": 135
     },
     {
       "id": "daily-maai5-sung3",
@@ -2034,7 +2448,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 113
+      "sortOrder": 136
     },
     {
       "id": "daily-cung1-din6",
@@ -2052,7 +2466,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 114
+      "sortOrder": 137
     },
     {
       "id": "daily-cung1-loeng4",
@@ -2070,7 +2484,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 115
+      "sortOrder": 138
     },
     {
       "id": "daily-sai2-saam1",
@@ -2088,7 +2502,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 116
+      "sortOrder": 139
     },
     {
       "id": "daily-long6-saam1",
@@ -2106,7 +2520,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 117
+      "sortOrder": 140
     },
     {
       "id": "daily-syut3-gwai6",
@@ -2124,7 +2538,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 118
+      "sortOrder": 141
     },
     {
       "id": "daily-laap6-saap3",
@@ -2142,7 +2556,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 119
+      "sortOrder": 142
     },
     {
       "id": "daily-sik1-dang1",
@@ -2160,7 +2574,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 120
+      "sortOrder": 143
     },
     {
       "id": "daily-hoi1-mun4",
@@ -2178,7 +2592,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 121
+      "sortOrder": 144
     },
     {
       "id": "daily-so2-mun4",
@@ -2196,7 +2610,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 122
+      "sortOrder": 145
     },
     {
       "id": "daily-dak1-haan4",
@@ -2214,7 +2628,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 123
+      "sortOrder": 146
     },
     {
       "id": "daily-ci4-dou3",
@@ -2232,7 +2646,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 124
+      "sortOrder": 147
     },
     {
       "id": "daily-goi2-kei4",
@@ -2250,7 +2664,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 125
+      "sortOrder": 148
     },
     {
       "id": "daily-dei6-zi2",
@@ -2268,7 +2682,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 126
+      "sortOrder": 149
     },
     {
       "id": "daily-mat6-maa5",
@@ -2286,7 +2700,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 127
+      "sortOrder": 150
     },
     {
       "id": "daily-mong5-lok6",
@@ -2304,7 +2718,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 128
+      "sortOrder": 151
     },
     {
       "id": "daily-sung3-fo3",
@@ -2322,7 +2736,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 129
+      "sortOrder": 152
     },
     {
       "id": "connector-jyun4-loi4",
@@ -2340,7 +2754,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 130
+      "sortOrder": 153
     },
     {
       "id": "connector-ling6-ngoi6",
@@ -2358,7 +2772,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 131
+      "sortOrder": 154
     },
     {
       "id": "connector-lai6-jyu4",
@@ -2376,7 +2790,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 132
+      "sortOrder": 155
     },
     {
       "id": "connector-bat1-ging2",
@@ -2394,7 +2808,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 133
+      "sortOrder": 156
     },
     {
       "id": "connector-gong1-gong1",
@@ -2412,7 +2826,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 134
+      "sortOrder": 157
     },
     {
       "id": "connector-hang2-ding6",
@@ -2430,7 +2844,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 135
+      "sortOrder": 158
     },
     {
       "id": "connector-gau3-ging2",
@@ -2448,7 +2862,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 136
+      "sortOrder": 159
     },
     {
       "id": "connector-sat6-zoi6",
@@ -2466,7 +2880,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 137
+      "sortOrder": 160
     },
     {
       "id": "connector-hei2-maa5",
@@ -2484,7 +2898,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 138
+      "sortOrder": 161
     },
     {
       "id": "connector-naan4-dak1",
@@ -2502,7 +2916,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 139
+      "sortOrder": 162
     },
     {
       "id": "connector-ning4-jyun6",
@@ -2520,7 +2934,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 140
+      "sortOrder": 163
     },
     {
       "id": "connector-dak6-dei6",
@@ -2538,7 +2952,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 141
+      "sortOrder": 164
     },
     {
       "id": "connector-mou4-wai6",
@@ -2556,7 +2970,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 142
+      "sortOrder": 165
     },
     {
       "id": "connector-ceoi4-ji3",
@@ -2574,7 +2988,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 143
+      "sortOrder": 166
     },
     {
       "id": "interaction-zou2-tau2",
@@ -2592,7 +3006,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 144
+      "sortOrder": 167
     },
     {
       "id": "interaction-mou5-fo3",
@@ -2610,7 +3024,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 145
+      "sortOrder": 168
     },
     {
       "id": "interaction-dang2-gan2",
@@ -2628,7 +3042,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 146
+      "sortOrder": 169
     },
     {
       "id": "interaction-si3-haa5",
@@ -2646,7 +3060,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 147
+      "sortOrder": 170
     },
     {
       "id": "interaction-tai2-zyu6",
@@ -2664,7 +3078,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 148
+      "sortOrder": 171
     },
     {
       "id": "interaction-gaau1-sau1",
@@ -2682,7 +3096,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 149
+      "sortOrder": 172
     },
     {
       "id": "interaction-zap1-faan1",
@@ -2700,7 +3114,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 150
+      "sortOrder": 173
     },
     {
       "id": "interaction-sai2-mat1",
@@ -2718,7 +3132,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 151
+      "sortOrder": 174
     },
     {
       "id": "expr-gaau2-dim6",
@@ -2736,7 +3150,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 152
+      "sortOrder": 175
     },
     {
       "id": "expr-zap1-saang1",
@@ -2754,7 +3168,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 153
+      "sortOrder": 176
     },
     {
       "id": "expr-sik6-faa1-saang1",
@@ -2772,7 +3186,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 154
+      "sortOrder": 177
     },
     {
       "id": "expr-mou5-ngaan5-tai2",
@@ -2790,7 +3204,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 155
+      "sortOrder": 178
     },
     {
       "id": "expr-baan6-je5",
@@ -2808,7 +3222,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 156
+      "sortOrder": 179
     },
     {
       "id": "expr-jau5-paai4",
@@ -2826,7 +3240,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 157
+      "sortOrder": 180
     },
     {
       "id": "expr-ding2-m4-seon6",
@@ -2844,7 +3258,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 158
+      "sortOrder": 181
     },
     {
       "id": "expr-dang2-zan6",
@@ -2862,7 +3276,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 159
+      "sortOrder": 182
     },
     {
       "id": "expr-nei5-waa6-si6",
@@ -2880,7 +3294,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 160
+      "sortOrder": 183
     },
     {
       "id": "expr-tai2-lou6",
@@ -2898,7 +3312,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 161
+      "sortOrder": 184
     },
     {
       "id": "expr-m4-sai2-haak3-hei3",
@@ -2916,7 +3330,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 162
+      "sortOrder": 185
     },
     {
       "id": "expr-sau1-gung1",
@@ -2934,7 +3348,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 163
+      "sortOrder": 186
     },
     {
       "id": "expr-gaa1-jau4",
@@ -2952,7 +3366,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 164
+      "sortOrder": 187
     },
     {
       "id": "expr-sau1-pei4",
@@ -2970,7 +3384,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 165
+      "sortOrder": 188
     },
     {
       "id": "expr-m4-goi1-saai3",
@@ -2988,7 +3402,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 166
+      "sortOrder": 189
     },
     {
       "id": "expr-zau2-sin1",
@@ -3006,7 +3420,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 167
+      "sortOrder": 190
     },
     {
       "id": "expr-m4-hou2-gan2-zoeng1",
@@ -3024,7 +3438,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 168
+      "sortOrder": 191
     },
     {
       "id": "expr-ging6-zing3",
@@ -3042,7 +3456,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 169
+      "sortOrder": 192
     },
     {
       "id": "expr-jau5-hing3-ceoi3",
@@ -3060,7 +3474,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 170
+      "sortOrder": 193
     },
     {
       "id": "expr-zing6-hai6",
@@ -3078,7 +3492,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 171
+      "sortOrder": 194
     },
     {
       "id": "expr-gong2-zan1",
@@ -3096,7 +3510,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 172
+      "sortOrder": 195
     },
     {
       "id": "expr-zung1-ji3",
@@ -3114,7 +3528,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 173
+      "sortOrder": 196
     },
     {
       "id": "expr-jat1-zik6",
@@ -3132,7 +3546,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 174
+      "sortOrder": 197
     },
     {
       "id": "expr-ceu1-seoi2",
@@ -3150,7 +3564,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 175
+      "sortOrder": 198
     },
     {
       "id": "expr-lou5-wat1",
@@ -3168,7 +3582,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 176
+      "sortOrder": 199
     },
     {
       "id": "expr-hei1-haa1",
@@ -3186,7 +3600,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 177
+      "sortOrder": 200
     },
     {
       "id": "expr-suk1-saa1",
@@ -3204,7 +3618,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 178
+      "sortOrder": 201
     },
     {
       "id": "expr-kau4-kei4",
@@ -3222,7 +3636,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 179
+      "sortOrder": 202
     },
     {
       "id": "expr-ci1-sin3",
@@ -3240,7 +3654,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 180
+      "sortOrder": 203
     },
     {
       "id": "expr-laan6-mei5",
@@ -3258,7 +3672,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 181
+      "sortOrder": 204
     },
     {
       "id": "expr-mou5-pou2",
@@ -3276,7 +3690,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 182
+      "sortOrder": 205
     },
     {
       "id": "expr-dou3-juk6",
@@ -3294,7 +3708,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 183
+      "sortOrder": 206
     },
     {
       "id": "expr-mou5-waa6-ho2-syut3",
@@ -3312,7 +3726,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 184
+      "sortOrder": 207
     },
     {
       "id": "expr-ging1-sing4",
@@ -3330,7 +3744,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 185
+      "sortOrder": 208
     },
     {
       "id": "expr-hei2-saang1",
@@ -3348,7 +3762,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 186
+      "sortOrder": 209
     },
     {
       "id": "expr-soeng2-dou3",
@@ -3366,7 +3780,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 187
+      "sortOrder": 210
     },
     {
       "id": "expr-jan4-jan4",
@@ -3384,7 +3798,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 188
+      "sortOrder": 211
     },
     {
       "id": "expr-jat1-jan6",
@@ -3402,7 +3816,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 189
+      "sortOrder": 212
     },
     {
       "id": "expr-maan6-gong2",
@@ -3420,7 +3834,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 190
+      "sortOrder": 213
     },
     {
       "id": "natural-tai2-lok6",
@@ -3438,7 +3852,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 191
+      "sortOrder": 214
     },
     {
       "id": "natural-teng1-lok6",
@@ -3456,7 +3870,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 192
+      "sortOrder": 215
     },
     {
       "id": "natural-syun3-hai6",
@@ -3474,7 +3888,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 193
+      "sortOrder": 216
     },
     {
       "id": "natural-hou2-m4-jung4-ji6",
@@ -3492,7 +3906,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 194
+      "sortOrder": 217
     },
     {
       "id": "natural-caa1-di1",
@@ -3510,7 +3924,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 195
+      "sortOrder": 218
     },
     {
       "id": "natural-gei1-fu4",
@@ -3528,7 +3942,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 196
+      "sortOrder": 219
     },
     {
       "id": "natural-zik1-gun2",
@@ -3546,7 +3960,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 197
+      "sortOrder": 220
     },
     {
       "id": "natural-bat1-fong4",
@@ -3564,7 +3978,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 198
+      "sortOrder": 221
     },
     {
       "id": "natural-m4-jat1-ding6",
@@ -3582,7 +3996,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 199
+      "sortOrder": 222
     },
     {
       "id": "natural-m4-daan1-zi2",
@@ -3600,7 +4014,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 200
+      "sortOrder": 223
     },
     {
       "id": "natural-zung6-jiu3",
@@ -3618,7 +4032,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 201
+      "sortOrder": 224
     },
     {
       "id": "natural-mei6-syun3",
@@ -3636,7 +4050,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 202
+      "sortOrder": 225
     },
     {
       "id": "natural-gong2-hoi1",
@@ -3654,7 +4068,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 203
+      "sortOrder": 226
     },
     {
       "id": "natural-waa6-saai3",
@@ -3672,7 +4086,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 204
+      "sortOrder": 227
     },
     {
       "id": "natural-waa6-si4-waa6",
@@ -3690,7 +4104,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 205
+      "sortOrder": 228
     },
     {
       "id": "natural-zi3-jyu1",
@@ -3708,7 +4122,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 206
+      "sortOrder": 229
     },
     {
       "id": "natural-jat1-fong1-min6",
@@ -3726,7 +4140,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 207
+      "sortOrder": 230
     },
     {
       "id": "natural-ling6-jat1-fong1-min6",
@@ -3744,7 +4158,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 208
+      "sortOrder": 231
     },
     {
       "id": "natural-zik1-si2",
@@ -3762,7 +4176,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 209
+      "sortOrder": 232
     },
     {
       "id": "natural-ceoi4-fei1",
@@ -3780,7 +4194,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 210
+      "sortOrder": 233
     },
     {
       "id": "natural-dong1-zung1",
@@ -3798,7 +4212,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 211
+      "sortOrder": 234
     },
     {
       "id": "natural-jyu4-kei4",
@@ -3816,7 +4230,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 212
+      "sortOrder": 235
     },
     {
       "id": "natural-mou4-leon6-hou4",
@@ -3834,7 +4248,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 213
+      "sortOrder": 236
     },
     {
       "id": "natural-pin1-pin1",
@@ -3852,7 +4266,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 214
+      "sortOrder": 237
     },
     {
       "id": "practical-zik1-hai6",
@@ -3870,7 +4284,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 215
+      "sortOrder": 238
     },
     {
       "id": "practical-mei6-bit1",
@@ -3888,7 +4302,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 216
+      "sortOrder": 239
     },
     {
       "id": "practical-ziu3-gai3",
@@ -3906,7 +4320,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 217
+      "sortOrder": 240
     },
     {
       "id": "practical-seon6-bin6",
@@ -3924,7 +4338,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 218
+      "sortOrder": 241
     },
     {
       "id": "practical-faan2-zing3",
@@ -3942,7 +4356,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 219
+      "sortOrder": 242
     },
     {
       "id": "practical-naan4-gwaai3",
@@ -3960,7 +4374,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 220
+      "sortOrder": 243
     },
     {
       "id": "practical-m4-gwaai3-zi1-dak1",
@@ -3978,7 +4392,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 221
+      "sortOrder": 244
     },
     {
       "id": "practical-mou4-dyun1-dyun1",
@@ -3996,7 +4410,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 222
+      "sortOrder": 245
     },
     {
       "id": "practical-gon2-dak1-cit3",
@@ -4014,7 +4428,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 223
+      "sortOrder": 246
     },
     {
       "id": "practical-gon2-m4-cit3",
@@ -4032,7 +4446,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 224
+      "sortOrder": 247
     },
     {
       "id": "practical-bat1-jyu4",
@@ -4050,7 +4464,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 225
+      "sortOrder": 248
     },
     {
       "id": "practical-hou2-zoi6",
@@ -4068,7 +4482,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 226
+      "sortOrder": 249
     },
     {
       "id": "practical-syun3-sou3",
@@ -4086,7 +4500,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 227
+      "sortOrder": 250
     },
     {
       "id": "practical-ceoi4-bin6",
@@ -4104,7 +4518,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 228
+      "sortOrder": 251
     },
     {
       "id": "practical-mou5-lei5-jau4",
@@ -4122,7 +4536,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 229
+      "sortOrder": 252
     },
     {
       "id": "practical-m4-tung1",
@@ -4140,7 +4554,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 230
+      "sortOrder": 253
     },
     {
       "id": "practical-ziu3-gau6",
@@ -4158,7 +4572,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 231
+      "sortOrder": 254
     },
     {
       "id": "practical-jat1-jyu1",
@@ -4176,7 +4590,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 232
+      "sortOrder": 255
     },
     {
       "id": "practical-seon6-sau2",
@@ -4194,7 +4608,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 233
+      "sortOrder": 256
     },
     {
       "id": "practical-zap1-lau6",
@@ -4212,7 +4626,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 234
+      "sortOrder": 257
     },
     {
       "id": "practical-lat1-lau6",
@@ -4230,7 +4644,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 235
+      "sortOrder": 258
     },
     {
       "id": "practical-m4-dim6",
@@ -4248,7 +4662,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 236
+      "sortOrder": 259
     },
     {
       "id": "practical-gaau2-m4-dim6",
@@ -4266,7 +4680,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 237
+      "sortOrder": 260
     },
     {
       "id": "practical-tai2-paa3",
@@ -4284,7 +4698,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 238
+      "sortOrder": 261
     },
     {
       "id": "practical-can3-zou2",
@@ -4302,7 +4716,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 239
+      "sortOrder": 262
     },
     {
       "id": "practical-si6-daan6",
@@ -4320,7 +4734,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 240
+      "sortOrder": 263
     },
     {
       "id": "practical-sik6-dak1-lok6",
@@ -4338,7 +4752,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 241
+      "sortOrder": 264
     },
     {
       "id": "practical-mou5-dak1-gaan2",
@@ -4356,7 +4770,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 242
+      "sortOrder": 265
     },
     {
       "id": "practical-hou2-coi2",
@@ -4374,7 +4788,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 243
+      "sortOrder": 266
     },
     {
       "id": "practical-gaau2-co3",
@@ -4392,7 +4806,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 244
+      "sortOrder": 267
     },
     {
       "id": "practical-nam2-cing1-co2",
@@ -4410,7 +4824,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 245
+      "sortOrder": 268
     },
     {
       "id": "practical-gei3-zyu6",
@@ -4428,7 +4842,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 246
+      "sortOrder": 269
     },
     {
       "id": "practical-gam2-ngaam1",
@@ -4446,7 +4860,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 247
+      "sortOrder": 270
     },
     {
       "id": "practical-jau4-dak1-keoi5",
@@ -4464,7 +4878,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 248
+      "sortOrder": 271
     },
     {
       "id": "practical-m4-gok3-ji3",
@@ -4482,7 +4896,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 249
+      "sortOrder": 272
     },
     {
       "id": "practical-jat1-zou2",
@@ -4500,7 +4914,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 250
+      "sortOrder": 273
     },
     {
       "id": "practical-lam4-si4",
@@ -4518,7 +4932,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 251
+      "sortOrder": 274
     },
     {
       "id": "practical-ci4-zou2",
@@ -4536,7 +4950,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 252
+      "sortOrder": 275
     },
     {
       "id": "practical-zik1-hak1",
@@ -4554,7 +4968,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 253
+      "sortOrder": 276
     },
     {
       "id": "practical-gau3-zung1",
@@ -4572,7 +4986,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 254
+      "sortOrder": 277
     },
     {
       "id": "practical-faan1-zyun3-tau4",
@@ -4590,7 +5004,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 255
+      "sortOrder": 278
     },
     {
       "id": "practical-seon6-lou6",
@@ -4608,7 +5022,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 256
+      "sortOrder": 279
     },
     {
       "id": "practical-m4-seon6-lou6",
@@ -4626,7 +5040,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 257
+      "sortOrder": 280
     },
     {
       "id": "focus-zi1-cin4",
@@ -4644,7 +5058,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 258
+      "sortOrder": 281
     },
     {
       "id": "focus-ji5-hau6",
@@ -4662,7 +5076,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 259
+      "sortOrder": 282
     },
     {
       "id": "focus-ho2-nang4",
@@ -4680,7 +5094,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 260
+      "sortOrder": 283
     },
     {
       "id": "focus-jan1-wai6",
@@ -4698,7 +5112,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 261
+      "sortOrder": 284
     },
     {
       "id": "focus-so2-ji5",
@@ -4716,7 +5130,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 262
+      "sortOrder": 285
     },
     {
       "id": "focus-ji5-ging1",
@@ -4734,7 +5148,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 263
+      "sortOrder": 286
     },
     {
       "id": "focus-zung6-mei6",
@@ -4752,7 +5166,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 264
+      "sortOrder": 287
     },
     {
       "id": "focus-seoi1-jiu3",
@@ -4770,7 +5184,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 265
+      "sortOrder": 288
     },
     {
       "id": "focus-zung6-jiu3",
@@ -4788,7 +5202,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 266
+      "sortOrder": 289
     },
     {
       "id": "focus-fong1-bin6",
@@ -4806,7 +5220,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 267
+      "sortOrder": 290
     },
     {
       "id": "focus-dak6-bit6",
@@ -4824,7 +5238,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 268
+      "sortOrder": 291
     },
     {
       "id": "focus-gaan2-daan1",
@@ -4842,7 +5256,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 269
+      "sortOrder": 292
     },
     {
       "id": "focus-fuk1-zaap6",
@@ -4860,7 +5274,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 270
+      "sortOrder": 293
     },
     {
       "id": "focus-cing1-co2",
@@ -4878,7 +5292,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 271
+      "sortOrder": 294
     },
     {
       "id": "focus-zaap6-gwaan3",
@@ -4896,7 +5310,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 272
+      "sortOrder": 295
     },
     {
       "id": "focus-kyut3-ding6",
@@ -4914,7 +5328,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 273
+      "sortOrder": 296
     },
     {
       "id": "focus-syun2-zaak6",
@@ -4932,7 +5346,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 274
+      "sortOrder": 297
     },
     {
       "id": "focus-zeon2-si4",
@@ -4950,7 +5364,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 275
+      "sortOrder": 298
     },
     {
       "id": "focus-fu6-gan6",
@@ -4968,7 +5382,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 276
+      "sortOrder": 299
     },
     {
       "id": "focus-dei6-fong1",
@@ -4986,7 +5400,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 277
+      "sortOrder": 300
     },
     {
       "id": "focus-fong1-hoeng3",
@@ -5004,7 +5418,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 278
+      "sortOrder": 301
     },
     {
       "id": "focus-lou6-sin3",
@@ -5022,7 +5436,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 279
+      "sortOrder": 302
     },
     {
       "id": "focus-din6-waa2",
@@ -5040,7 +5454,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 280
+      "sortOrder": 303
     },
     {
       "id": "focus-seon3-sik1",
@@ -5058,7 +5472,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 281
+      "sortOrder": 304
     },
     {
       "id": "focus-tung4-si6",
@@ -5076,7 +5490,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 282
+      "sortOrder": 305
     },
     {
       "id": "focus-lou5-baan2",
@@ -5094,7 +5508,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 283
+      "sortOrder": 306
     },
     {
       "id": "focus-haak3-jan4",
@@ -5112,7 +5526,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 284
+      "sortOrder": 307
     },
     {
       "id": "focus-fuk6-mou6",
@@ -5130,7 +5544,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 285
+      "sortOrder": 308
     },
     {
       "id": "focus-man6-tai4",
@@ -5148,7 +5562,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 286
+      "sortOrder": 309
     },
     {
       "id": "focus-fong1-faat3",
@@ -5166,7 +5580,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 287
+      "sortOrder": 310
     },
     {
       "id": "focus-cing4-fong3",
@@ -5184,7 +5598,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 288
+      "sortOrder": 311
     },
     {
       "id": "focus-jyun4-jan1",
@@ -5202,7 +5616,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 289
+      "sortOrder": 312
     },
     {
       "id": "focus-git3-gwo2",
@@ -5220,7 +5634,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 290
+      "sortOrder": 313
     },
     {
       "id": "focus-on1-paai4",
@@ -5238,7 +5652,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 291
+      "sortOrder": 314
     },
     {
       "id": "focus-si4-gaan3",
@@ -5256,7 +5670,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 292
+      "sortOrder": 315
     },
     {
       "id": "focus-gei1-wui6",
@@ -5274,7 +5688,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 293
+      "sortOrder": 316
     },
     {
       "id": "focus-ging1-jim6",
@@ -5292,7 +5706,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 294
+      "sortOrder": 317
     },
     {
       "id": "focus-kei4-doi6",
@@ -5310,7 +5724,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 295
+      "sortOrder": 318
     },
     {
       "id": "focus-liu5-gaai2",
@@ -5328,7 +5742,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 296
+      "sortOrder": 319
     },
     {
       "id": "focus-bong1-sau2",
@@ -5346,7 +5760,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 297
+      "sortOrder": 320
     },
     {
       "id": "focus-cyu2-lei5",
@@ -5364,7 +5778,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 298
+      "sortOrder": 321
     },
     {
       "id": "focus-sau1-dou2",
@@ -5382,7 +5796,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 299
+      "sortOrder": 322
     },
     {
       "id": "focus-kok3-jan6",
@@ -5400,7 +5814,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 300
+      "sortOrder": 323
     },
     {
       "id": "focus-tai4-sing2",
@@ -5418,7 +5832,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 301
+      "sortOrder": 324
     },
     {
       "id": "focus-lyun4-lok3",
@@ -5436,7 +5850,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 302
+      "sortOrder": 325
     },
     {
       "id": "focus-joek3-ding6",
@@ -5454,7 +5868,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 303
+      "sortOrder": 326
     },
     {
       "id": "focus-zyun3-tau4",
@@ -5472,7 +5886,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 304
+      "sortOrder": 327
     },
     {
       "id": "focus-zeoi3-hou2",
@@ -5490,7 +5904,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 305
+      "sortOrder": 328
     },
     {
       "id": "focus-zan1-zing3",
@@ -5508,7 +5922,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 306
+      "sortOrder": 329
     },
     {
       "id": "focus-dak6-dang1",
@@ -5526,7 +5940,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 307
+      "sortOrder": 330
     },
     {
       "id": "focus-daai6-koi3",
@@ -5544,7 +5958,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 308
+      "sortOrder": 331
     },
     {
       "id": "focus-fan1-bit6",
@@ -5562,7 +5976,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 309
+      "sortOrder": 332
     },
     {
       "id": "focus-sik1-hap6",
@@ -5580,7 +5994,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 310
+      "sortOrder": 333
     },
     {
       "id": "focus-faat3-jin6",
@@ -5598,7 +6012,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 311
+      "sortOrder": 334
     },
     {
       "id": "focus-cyu2-ging2",
@@ -5616,7 +6030,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 312
+      "sortOrder": 335
     },
     {
       "id": "focus-gai3-zuk6",
@@ -5634,7 +6048,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 313
+      "sortOrder": 336
     },
     {
       "id": "focus-jyun4-sing4",
@@ -5652,7 +6066,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 314
+      "sortOrder": 337
     },
     {
       "id": "focus-faan2-ji4",
@@ -5670,7 +6084,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 315
+      "sortOrder": 338
     },
     {
       "id": "focus-zi3-siu2",
@@ -5688,7 +6102,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 316
+      "sortOrder": 339
     },
     {
       "id": "word-gam1-jat6",
@@ -5706,7 +6120,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 317
+      "sortOrder": 340
     },
     {
       "id": "word-ji4-gaa1",
@@ -5724,7 +6138,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 318
+      "sortOrder": 341
     },
     {
       "id": "word-dim2-joeng2",
@@ -5742,7 +6156,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 319
+      "sortOrder": 342
     },
     {
       "id": "word-dim2-gaai2",
@@ -5760,7 +6174,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 320
+      "sortOrder": 343
     },
     {
       "id": "word-ming4-baak6",
@@ -5778,7 +6192,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 321
+      "sortOrder": 344
     },
     {
       "id": "word-pang4-jau5",
@@ -5796,7 +6210,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 322
+      "sortOrder": 345
     },
     {
       "id": "word-hoeng1-gong2",
@@ -5814,7 +6228,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 323
+      "sortOrder": 346
     },
     {
       "id": "word-gwong2-dung1-waa2",
@@ -5832,7 +6246,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 324
+      "sortOrder": 347
     },
     {
       "id": "word-sik6-faan6",
@@ -5850,7 +6264,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 325
+      "sortOrder": 348
     },
     {
       "id": "word-jam2-seoi2",
@@ -5868,7 +6282,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 326
+      "sortOrder": 349
     },
     {
       "id": "word-faan1-gung1",
@@ -5886,7 +6300,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 327
+      "sortOrder": 350
     },
     {
       "id": "word-fong3-gung1",
@@ -5904,7 +6318,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 328
+      "sortOrder": 351
     },
     {
       "id": "word-hoi1-sam1",
@@ -5922,7 +6336,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 329
+      "sortOrder": 352
     },
     {
       "id": "word-daam1-sam1",
@@ -5940,7 +6354,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 330
+      "sortOrder": 353
     },
     {
       "id": "word-tin1-hei3",
@@ -5958,7 +6372,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 331
+      "sortOrder": 354
     },
     {
       "id": "word-lok6-jyu5",
@@ -5976,7 +6390,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 332
+      "sortOrder": 355
     },
     {
       "id": "word-hok6-haau6",
@@ -5994,7 +6408,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 333
+      "sortOrder": 356
     },
     {
       "id": "word-ji1-jyun2",
@@ -6012,7 +6426,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 334
+      "sortOrder": 357
     },
     {
       "id": "word-lou5-si1",
@@ -6030,7 +6444,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 335
+      "sortOrder": 358
     },
     {
       "id": "word-jung4-ji6",
@@ -6048,7 +6462,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 336
+      "sortOrder": 359
     },
     {
       "id": "word-jat1-ding6",
@@ -6066,7 +6480,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 337
+      "sortOrder": 360
     },
     {
       "id": "word-gan2-jiu3",
@@ -6084,7 +6498,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 338
+      "sortOrder": 361
     },
     {
       "id": "word-kei4-sat6",
@@ -6102,7 +6516,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 339
+      "sortOrder": 362
     },
     {
       "id": "word-siu2-sam1",
@@ -6120,7 +6534,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 340
+      "sortOrder": 363
     },
     {
       "id": "word-do1-ze6",
@@ -6138,7 +6552,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 341
+      "sortOrder": 364
     },
     {
       "id": "word-m4-goi1",
@@ -6156,7 +6570,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 342
+      "sortOrder": 365
     },
     {
       "id": "word-m4-hou2-ji3-si6",
@@ -6174,7 +6588,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 343
+      "sortOrder": 366
     },
     {
       "id": "word-mou5-man6-tai4",
@@ -6192,7 +6606,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 344
+      "sortOrder": 367
     },
     {
       "id": "word-zi1-dou6",
@@ -6210,7 +6624,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 345
+      "sortOrder": 368
     },
     {
       "id": "word-gok3-dak1",
@@ -6228,7 +6642,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 346
+      "sortOrder": 369
     },
     {
       "id": "word-zeon2-bei6",
@@ -6246,7 +6660,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 347
+      "sortOrder": 370
     },
     {
       "id": "word-soeng5-tong4",
@@ -6264,7 +6678,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 348
+      "sortOrder": 371
     },
     {
       "id": "word-gaau1-doi3",
@@ -6282,7 +6696,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 349
+      "sortOrder": 372
     },
     {
       "id": "word-zap1-zing3",
@@ -6300,7 +6714,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 350
+      "sortOrder": 373
     },
     {
       "id": "word-sau1-mei5",
@@ -6318,7 +6732,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 351
+      "sortOrder": 374
     },
     {
       "id": "word-juk6-joeng6",
@@ -6336,7 +6750,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 352
+      "sortOrder": 375
     },
     {
       "id": "word-haau6-leot6",
@@ -6354,7 +6768,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 353
+      "sortOrder": 376
     },
     {
       "id": "word-doi3-lou6",
@@ -6372,7 +6786,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 354
+      "sortOrder": 377
     },
     {
       "id": "word-maan6-maan6-lai4",
@@ -6390,7 +6804,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 355
+      "sortOrder": 378
     },
     {
       "id": "word-zing2-hap6",
@@ -6408,7 +6822,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 356
+      "sortOrder": 379
     },
     {
       "id": "word-zeoi3-gan6",
@@ -6426,7 +6840,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 357
+      "sortOrder": 380
     },
     {
       "id": "word-jing4-sing4",
@@ -6444,7 +6858,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 358
+      "sortOrder": 381
     },
     {
       "id": "word-jing3-soeng4",
@@ -6462,7 +6876,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 359
+      "sortOrder": 382
     },
     {
       "id": "word-zing3-sik1",
@@ -6480,7 +6894,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 360
+      "sortOrder": 383
     },
     {
       "id": "word-ging1-jat6",
@@ -6498,7 +6912,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 361
+      "sortOrder": 384
     },
     {
       "id": "word-ging2-gaai3",
@@ -6516,7 +6930,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 362
+      "sortOrder": 385
     },
     {
       "id": "word-jik6-gan1",
@@ -6534,7 +6948,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 363
+      "sortOrder": 386
     },
     {
       "id": "word-gok3-jing4",
@@ -6552,7 +6966,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 364
+      "sortOrder": 387
     },
     {
       "id": "word-jit6-zau3",
@@ -6570,7 +6984,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 365
+      "sortOrder": 388
     },
     {
       "id": "word-hau2-jing4",
@@ -6588,7 +7002,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 366
+      "sortOrder": 389
     },
     {
       "id": "word-sang1-mou2",
@@ -6606,7 +7020,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 367
+      "sortOrder": 390
     },
     {
       "id": "word-wan6-mou2",
@@ -6624,7 +7038,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 368
+      "sortOrder": 391
     },
     {
       "id": "word-jat1-caat3",
@@ -6642,7 +7056,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 369
+      "sortOrder": 392
     },
     {
       "id": "word-ji4-jin4",
@@ -6660,7 +7074,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 370
+      "sortOrder": 393
     },
     {
       "id": "word-jing2-gan6",
@@ -6678,7 +7092,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 371
+      "sortOrder": 394
     },
     {
       "id": "word-zing6-zing6",
@@ -6696,7 +7110,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 372
+      "sortOrder": 395
     },
     {
       "id": "word-goi3-sin1",
@@ -6714,7 +7128,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 373
+      "sortOrder": 396
     },
     {
       "id": "word-paat3-doi2",
@@ -6732,7 +7146,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 374
+      "sortOrder": 397
     },
     {
       "id": "work-ceot1-faat3",
@@ -6750,7 +7164,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 375
+      "sortOrder": 398
     },
     {
       "id": "work-faan1-dou3",
@@ -6768,7 +7182,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 376
+      "sortOrder": 399
     },
     {
       "id": "work-ging1-gwo3",
@@ -6786,7 +7200,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 377
+      "sortOrder": 400
     },
     {
       "id": "work-jyu6-dou3",
@@ -6804,7 +7218,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 378
+      "sortOrder": 401
     },
     {
       "id": "work-kyut3-sam1",
@@ -6822,7 +7236,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 379
+      "sortOrder": 402
     },
     {
       "id": "work-lau4-ji3",
@@ -6840,7 +7254,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 380
+      "sortOrder": 403
     },
     {
       "id": "work-jing2-hoeng2",
@@ -6858,7 +7272,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 381
+      "sortOrder": 404
     },
     {
       "id": "work-pui3-hap6",
@@ -6876,7 +7290,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 382
+      "sortOrder": 405
     },
     {
       "id": "work-fu6-zaak3",
@@ -6894,7 +7308,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 383
+      "sortOrder": 406
     },
     {
       "id": "work-gon2-zyu6",
@@ -6912,7 +7326,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 384
+      "sortOrder": 407
     },
     {
       "id": "work-nam2-zyu6",
@@ -6930,7 +7344,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 385
+      "sortOrder": 408
     },
     {
       "id": "work-jing6-zan1",
@@ -6948,7 +7362,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 386
+      "sortOrder": 409
     },
     {
       "id": "work-ceoi4-si4",
@@ -6966,7 +7380,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 387
+      "sortOrder": 410
     },
     {
       "id": "work-jyun4-bun2",
@@ -6984,7 +7398,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 388
+      "sortOrder": 411
     },
     {
       "id": "work-sam6-zi3",
@@ -7002,7 +7416,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 389
+      "sortOrder": 412
     },
     {
       "id": "work-ci2-zung1",
@@ -7020,7 +7434,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 390
+      "sortOrder": 413
     },
     {
       "id": "work-jau4-kei4",
@@ -7038,7 +7452,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 391
+      "sortOrder": 414
     },
     {
       "id": "work-zik6-zip3",
@@ -7056,7 +7470,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 392
+      "sortOrder": 415
     },
     {
       "id": "work-zung1-jyu1",
@@ -7074,7 +7488,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 393
+      "sortOrder": 416
     },
     {
       "id": "work-gan1-bun2",
@@ -7092,7 +7506,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 394
+      "sortOrder": 417
     },
     {
       "id": "work-daa2-syun3",
@@ -7110,7 +7524,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 395
+      "sortOrder": 418
     },
     {
       "id": "work-zik6-dak1",
@@ -7128,7 +7542,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 396
+      "sortOrder": 419
     },
     {
       "id": "work-ho2-kaau3",
@@ -7146,7 +7560,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 397
+      "sortOrder": 420
     },
     {
       "id": "work-maa4-faan4",
@@ -7164,7 +7578,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 398
+      "sortOrder": 421
     },
     {
       "id": "work-gaam3-gaai3",
@@ -7182,7 +7596,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 399
+      "sortOrder": 422
     },
     {
       "id": "work-sat1-lai5",
@@ -7200,7 +7614,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 400
+      "sortOrder": 423
     },
     {
       "id": "work-cing1-sing2",
@@ -7218,7 +7632,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 401
+      "sortOrder": 424
     },
     {
       "id": "work-gui6",
@@ -7236,7 +7650,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 402
+      "sortOrder": 425
     },
     {
       "id": "work-wan2-zan6",
@@ -7254,7 +7668,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 403
+      "sortOrder": 426
     },
     {
       "id": "work-cyu2-lei5-dou2",
@@ -7272,7 +7686,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 404
+      "sortOrder": 427
     },
     {
       "id": "work-gan1-zeon3",
@@ -7290,7 +7704,7 @@
       "tone": 0,
       "audioAsset": null,
       "sourceLabel": "curated",
-      "sortOrder": 405
+      "sortOrder": 428
     }
   ]
 }
