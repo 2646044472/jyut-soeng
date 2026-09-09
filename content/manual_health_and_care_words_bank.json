@@ -1,0 +1,302 @@
+[
+  {
+    "id": "health-fuk6-zan2",
+    "displayText": "覆診",
+    "answerJyutping": "fuk6 zan2",
+    "gloss": "按医生约定，在治疗后再回去检查和跟进病情",
+    "notes": "fuk6 收 k 尾要短；zan2 的 n 尾轻收，唔好读成普通话式复诊。",
+    "usageTip": "多用于慢性病、手术后或吃完一段药后的跟进；通常会配日期或医生。",
+    "exampleSentence": "醫生叫我兩個星期後返去覆診。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-joek6-seoi2",
+    "displayText": "藥水",
+    "answerJyutping": "joek6 seoi2",
+    "gloss": "液体状的药，通常按量服用或外用",
+    "notes": "joek6 收 k 尾；seoi2 的 eoi 要圆唇，唔好读成 seoi3。",
+    "usageTip": "说儿童药、止咳药或消毒液时常用；不一定指饮用的药。",
+    "exampleSentence": "呢支藥水要搖勻先飲。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-joek6-jyun2",
+    "displayText": "藥丸",
+    "answerJyutping": "joek6 jyun2",
+    "gloss": "压成小粒、吞服的固体药物",
+    "notes": "joek6 短收；jyun2 要圆唇，n 尾唔好吞。",
+    "usageTip": "交代服药数量时很实用，常接「一粒」「兩粒」等量词。",
+    "exampleSentence": "食完飯之後要食兩粒藥丸。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-joek6-gou1",
+    "displayText": "藥膏",
+    "answerJyutping": "joek6 gou1",
+    "gloss": "涂在皮肤或伤口外面的膏状药物",
+    "notes": "joek6 收 k 尾；gou1 的 ou 要完整，阴平保持平稳。",
+    "usageTip": "湿疹、蚊叮或轻微擦伤时常用；要分清是外用还是可入口。",
+    "exampleSentence": "隻手痕就搽少少藥膏。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-beng6-gaa3",
+    "displayText": "病假",
+    "answerJyutping": "beng6 gaa3",
+    "gloss": "因为生病而获准不上班或不上课的假期",
+    "notes": "beng6 的 ng 尾要收；gaa3 的 aa 拉开，去声落稳。",
+    "usageTip": "请假时常要交医生纸或说明日期；不要把「放假」和「病假」混用。",
+    "exampleSentence": "我今日發燒，想請一日病假。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-beng6-lik6",
+    "displayText": "病歷",
+    "answerJyutping": "beng6 lik6",
+    "gloss": "一个人过去诊断、治疗和用药的医疗记录",
+    "notes": "beng6 收 ng 尾；lik6 是入声，k 尾短而实。",
+    "usageTip": "换医生、做检查或住院登记时可能需要提供；比「病情」正式。",
+    "exampleSentence": "覆診嗰陣記得帶返之前嘅病歷。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-tai2-wan1",
+    "displayText": "體溫",
+    "answerJyutping": "tai2 wan1",
+    "gloss": "身体的温度，用来判断有没有发烧等情况",
+    "notes": "tai2 的 ai 要清；wan1 的 w 起首顺滑，n 尾收实。",
+    "usageTip": "量到的数字可以直接接在后面；日常也会说「探熱」。",
+    "exampleSentence": "我量咗體溫，三十八度二。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-faat3-siu1",
+    "displayText": "發燒",
+    "answerJyutping": "faat3 siu1",
+    "gloss": "体温升高，感到发热或不舒服",
+    "notes": "faat3 是长元音入声，收 t 尾；siu1 的 iu 连顺。",
+    "usageTip": "可说「有啲發燒」表示初起；高烧或持续不退应尽快求医。",
+    "exampleSentence": "佢由朝早開始發燒，今日冇返工。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-kat1-sau3",
+    "displayText": "咳嗽",
+    "answerJyutping": "kat1 sau3",
+    "gloss": "喉咙或气管受刺激时反复咳的症状",
+    "notes": "kat1 收 t 尾要利落；sau3 的 au 要打开。",
+    "usageTip": "看医生时可补充「咳咗幾耐」「有冇痰」；名词和动词都可用。",
+    "exampleSentence": "我咳嗽咗幾日，夜晚瞓得唔好。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-hau4-lung4",
+    "displayText": "喉嚨",
+    "answerJyutping": "hau4 lung4",
+    "gloss": "口腔后面通往气管和食道的部位，常指喉部不适",
+    "notes": "hau4 的 au 要完整；lung4 的 ung 韵厚一点，ng 尾收住。",
+    "usageTip": "讲痛、干、痕或有痰时都常接「喉嚨」；不要和「聲帶」混为一谈。",
+    "exampleSentence": "我喉嚨痛，今日少講啲嘢。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-bei6-sak1",
+    "displayText": "鼻塞",
+    "answerJyutping": "bei6 sak1",
+    "gloss": "鼻子不通气，呼吸不顺畅",
+    "notes": "bei6 的 ei 要清；sak1 收 k 尾，唔好拖成长音。",
+    "usageTip": "感冒、过敏时最常说；可以接「塞住咗」「好嚴重」。",
+    "exampleSentence": "我鼻塞到夜晚要張開口瞓。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-tau4-tung3",
+    "displayText": "頭痛",
+    "answerJyutping": "tau4 tung3",
+    "gloss": "头部感到疼痛或胀痛",
+    "notes": "tau4 的 au 打开；tung3 的 ung 要完整，ng 尾收实。",
+    "usageTip": "可补充位置和程度，例如「偏頭痛」或「痛到瞓唔到」。",
+    "exampleSentence": "我望電腦望得耐，開始頭痛。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-tou5-tung3",
+    "displayText": "肚痛",
+    "answerJyutping": "tou5 tung3",
+    "gloss": "腹部疼痛或不舒服",
+    "notes": "tou5 的 ou 圆而完整；tung3 的 ng 尾不要丢。",
+    "usageTip": "香港日常用「肚痛」很自然；看医生时最好说明痛的位置和持续时间。",
+    "exampleSentence": "我食完嗰樣嘢之後就肚痛。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-nau2-can1",
+    "displayText": "扭親",
+    "answerJyutping": "nau2 can1",
+    "gloss": "扭伤关节或肌肉，常用于脚、手或腰",
+    "notes": "nau2 的 au 要打开；can1 的 c 要送气，n 尾收清。",
+    "usageTip": "香港常说「扭親隻腳」；较严重、明显肿痛时不要勉强走路。",
+    "exampleSentence": "我落樓嗰陣扭親隻腳。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-wai6-tung3",
+    "displayText": "胃痛",
+    "answerJyutping": "wai6 tung3",
+    "gloss": "胃部位置出现疼痛、灼热或不适",
+    "notes": "wai6 的 ai 要完整；tung3 保持去声，不要读成 tung2。",
+    "usageTip": "通常指上腹部不舒服；未确定原因时可先说「胃唔舒服」。",
+    "exampleSentence": "我空肚飲咖啡之後成日胃痛。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-ngaa4-tung3",
+    "displayText": "牙痛",
+    "answerJyutping": "ngaa4 tung3",
+    "gloss": "牙齿或牙根疼痛",
+    "notes": "ngaa4 要从 ng 起音，aa 拉开；tung3 的 ng 尾要收。",
+    "usageTip": "疼痛持续或脸肿时应看牙医；日常不要只说「隻牙有事」。",
+    "exampleSentence": "我隻智慧齒發炎，牙痛到瞓唔着。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-caat3-syun2",
+    "displayText": "擦損",
+    "answerJyutping": "caat3 syun2",
+    "gloss": "皮肤被磨擦或碰撞后出现的小伤口",
+    "notes": "caat3 收 t 尾；syun2 要圆唇，n 尾轻收。",
+    "usageTip": "多用于膝盖、手肘等轻微外伤；伤口深或流血不止要另行处理。",
+    "exampleSentence": "佢跌低嗰陣擦損咗個膝頭。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-lau4-hyut3",
+    "displayText": "流血",
+    "answerJyutping": "lau4 hyut3",
+    "gloss": "伤口或身体某处有血流出来",
+    "notes": "lau4 的 au 要完整；hyut3 是圆唇入声，t 尾短收。",
+    "usageTip": "可说「仲流緊血」说明情况；严重或止不了血时应立即求助。",
+    "exampleSentence": "個傷口仲流血，要先止血。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-fu1-joek6",
+    "displayText": "敷藥",
+    "answerJyutping": "fu1 joek6",
+    "gloss": "把药物敷或涂在患处，作外用处理",
+    "notes": "fu1 的 u 要圆；joek6 收 k 尾，唔好读成 joek2。",
+    "usageTip": "多用在伤口、扭伤或皮肤问题；按医生或药剂师指示处理。",
+    "exampleSentence": "清潔完個傷口先敷藥。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-loeng4-tai2-wan1",
+    "displayText": "量體溫",
+    "answerJyutping": "loeng4 tai2 wan1",
+    "gloss": "用体温计测量身体温度",
+    "notes": "loeng4 的 eoeng 要圆唇；tai2、wan1 要逐节读清。",
+    "usageTip": "发冷、发热或看病前都常做；动词后可直接接量到的度数。",
+    "exampleSentence": "你覺得凍就先量體溫。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-sik6-joek6",
+    "displayText": "食藥",
+    "answerJyutping": "sik6 joek6",
+    "gloss": "服用药物",
+    "notes": "sik6、joek6 都是入声，两个 k 尾都要收干净。",
+    "usageTip": "香港口语常说「食藥」；交代时间时可说饭前、饭后或睡前。",
+    "exampleSentence": "你食藥未？醫生話要飯後食。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-gaai3-hau2",
+    "displayText": "戒口",
+    "answerJyutping": "gaai3 hau2",
+    "gloss": "因病情、治疗或身体状况暂时避免吃某些食物",
+    "notes": "gaai3 的 aai 拉开；hau2 的 au 要完整，声调上扬。",
+    "usageTip": "多用于皮肤敏感、手术后或中医建议；可接「戒海鮮」「戒辣」。",
+    "exampleSentence": "醫生叫我呢排要戒口，唔好食辣。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-jim6-hyut3",
+    "displayText": "驗血",
+    "answerJyutping": "jim6 hyut3",
+    "gloss": "抽取血液作化验检查",
+    "notes": "jim6 收 m 尾；hyut3 圆唇入声，t 尾收实。",
+    "usageTip": "体检、诊断或覆诊时都常见；可问要不要空腹。",
+    "exampleSentence": "姑娘話我朝早要空肚去驗血。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-jim6-san1",
+    "displayText": "驗身",
+    "answerJyutping": "jim6 san1",
+    "gloss": "接受身体检查，了解健康状况",
+    "notes": "jim6 的 m 尾合住；san1 的 n 尾收清，两个音节不要连糊。",
+    "usageTip": "入职、办证、投保或定期健康检查时很常用。",
+    "exampleSentence": "新工要我下星期去驗身。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-faa3-jim6",
+    "displayText": "化驗",
+    "answerJyutping": "faa3 jim6",
+    "gloss": "把样本交由实验室检测和分析",
+    "notes": "faa3 的 aa 拉开；jim6 收 m 尾，去声落稳。",
+    "usageTip": "可以是血液、尿液或其他样本；「驗血」是其中一种化验。",
+    "exampleSentence": "份化驗報告下星期先出。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-bou3-gou3",
+    "displayText": "報告",
+    "answerJyutping": "bou3 gou3",
+    "gloss": "整理好并说明检查、工作或调查结果的文件或内容",
+    "notes": "bou3、gou3 的 ou 都要完整；两个去声要稳落。",
+    "usageTip": "健康场景常指检查结果；工作场景也可指书面报告，须靠上下文分辨。",
+    "exampleSentence": "醫生同我解釋咗份報告嘅結果。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-gap1-zing3",
+    "displayText": "急症",
+    "answerJyutping": "gap1 zing3",
+    "gloss": "需要紧急处理的严重病情，也可指医院急症服务",
+    "notes": "gap1 收 p 尾；zing3 的 ng 尾要收，去声不要飘高。",
+    "usageTip": "香港常说「去急症室」；真正紧急时应直接求助，别只靠讯息询问。",
+    "exampleSentence": "佢呼吸好辛苦，我哋即刻去急症室。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-jap6-jyun2",
+    "displayText": "入院",
+    "answerJyutping": "jap6 jyun2",
+    "gloss": "办理手续后住进医院接受治疗或观察",
+    "notes": "jap6 收 p 尾；jyun2 要圆唇，n 尾轻收。",
+    "usageTip": "可说「要入院觀察」；和去门诊看病不同，通常表示需要留院。",
+    "exampleSentence": "醫生話要入院觀察一晚。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-ceot1-jyun2",
+    "displayText": "出院",
+    "answerJyutping": "ceot1 jyun2",
+    "gloss": "结束住院治疗后离开医院",
+    "notes": "ceot1 收 t 尾；jyun2 的圆唇要保持，别读成 jin2。",
+    "usageTip": "通常在医生确认情况稳定后才出院；可接日期或「手續」。",
+    "exampleSentence": "佢聽日可以出院返屋企休息。",
+    "category": "健康照护"
+  },
+  {
+    "id": "health-beng6-fong2",
+    "displayText": "病房",
+    "answerJyutping": "beng6 fong2",
+    "gloss": "医院里供病人住院、休息和接受照顾的房间",
+    "notes": "beng6 收 ng 尾；fong2 的 ong 韵完整，声调上扬。",
+    "usageTip": "探病或送物品时可说病房号码；不要同诊所的候诊区混淆。",
+    "exampleSentence": "探病時間先可以入病房。",
+    "category": "健康照护"
+  }
+]
