@@ -1,0 +1,702 @@
+[
+  {
+    "id": "manual_school_roll_call",
+    "displayText": "點名",
+    "answerJyutping": "dim2 meng2",
+    "gloss": "take attendance; call the roll",
+    "notes": "校園常用動詞，指老師逐個叫學生名字確認是否在場。",
+    "usageTip": "可說「老師而家點名」，回答時自然說「到」或「喺度」。",
+    "exampleSentence": "老師點名嗰陣，我喺度。",
+    "category": "校園與上課"
+  },
+  {
+    "id": "manual_school_absent",
+    "displayText": "缺席",
+    "answerJyutping": "kyut3 zik6",
+    "gloss": "be absent",
+    "notes": "較正式但很日常，適合說明沒有出席課堂、活動或考試。",
+    "usageTip": "跟「請假」連用很自然，例如「請假缺席」。",
+    "exampleSentence": "我聽日要缺席，已經同老師請咗假。",
+    "category": "校園與上課"
+  },
+  {
+    "id": "manual_school_late_submission",
+    "displayText": "遲交",
+    "answerJyutping": "ci4 gaau1",
+    "gloss": "submit late",
+    "notes": "「交」在這裡是交出作業、文件或表格；「遲交」常用於功課。",
+    "usageTip": "先講原因再致歉，語氣會較得體。",
+    "exampleSentence": "呢份功課我遲交咗，唔好意思。",
+    "category": "功課與作業"
+  },
+  {
+    "id": "manual_school_submit_homework",
+    "displayText": "交功課",
+    "answerJyutping": "gaau1 gung1 fo3",
+    "gloss": "hand in homework",
+    "notes": "香港校園最常用搭配；普通話「交作業」在粵語環境通常說「交功課」。",
+    "usageTip": "可加時間或方式，例如「上網交功課」。",
+    "exampleSentence": "記得今日放學前要交功課。",
+    "category": "功課與作業"
+  },
+  {
+    "id": "manual_school_homework",
+    "displayText": "功課",
+    "answerJyutping": "gung1 fo3",
+    "gloss": "homework; assigned schoolwork",
+    "notes": "可指一份或一堆作業，量詞常用「份」。",
+    "usageTip": "口語常說「做功課」，不是「寫作業」。",
+    "exampleSentence": "我今晚要做完數學功課。",
+    "category": "功課與作業"
+  },
+  {
+    "id": "manual_school_quiz",
+    "displayText": "測驗",
+    "answerJyutping": "cak1 jim6",
+    "gloss": "quiz; short test",
+    "notes": "通常指範圍較小、時間較短的課堂評核，未必是大型考試。",
+    "usageTip": "可直接說某科「有測驗」，不用加「一個」。",
+    "exampleSentence": "下個禮拜有中文測驗。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_exam",
+    "displayText": "考試",
+    "answerJyutping": "haau2 si3",
+    "gloss": "exam; take an exam",
+    "notes": "可作名詞或動詞，靠句子判斷，例如「有考試」和「我考試」。",
+    "usageTip": "說日期時，常用「聽朝考試」或「下星期考試」。",
+    "exampleSentence": "我聽朝考試，所以今晚早啲瞓。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_cram",
+    "displayText": "溫書",
+    "answerJyutping": "wan1 syu1",
+    "gloss": "study for an exam",
+    "notes": "非常港式的口語說法，專指為測驗或考試重溫課本內容。",
+    "usageTip": "比「讀書」更聚焦備考，可說「今晚要溫書」。",
+    "exampleSentence": "考試前我會喺圖書館溫書。",
+    "category": "溫習與方法"
+  },
+  {
+    "id": "manual_school_revision",
+    "displayText": "溫習",
+    "answerJyutping": "wan1 zaap6",
+    "gloss": "review what one has learned",
+    "notes": "比「溫書」稍正式，可用於平日鞏固或考前重溫。",
+    "usageTip": "常接內容，例如「溫習生字」或「溫習第一課」。",
+    "exampleSentence": "我想先溫習最唔熟嗰課。",
+    "category": "溫習與方法"
+  },
+  {
+    "id": "manual_school_study",
+    "displayText": "讀書",
+    "answerJyutping": "duk6 syu1",
+    "gloss": "study; attend school",
+    "notes": "可指用功學習，也可指正在求學；不一定是讀一本書。",
+    "usageTip": "放學後專心學習可說「留低讀書」。",
+    "exampleSentence": "佢放學後留喺學校讀書。",
+    "category": "溫習與方法"
+  },
+  {
+    "id": "manual_school_pronunciation",
+    "displayText": "讀音",
+    "answerJyutping": "duk6 jam1",
+    "gloss": "pronunciation of a word",
+    "notes": "指單字或詞語怎樣讀；「讀」讀 duk6，不讀成 dou6。",
+    "usageTip": "不肯定時可直接問「呢個字嘅讀音係點？」。",
+    "exampleSentence": "呢個字嘅讀音我仲未記熟。",
+    "category": "語音與表達"
+  },
+  {
+    "id": "manual_school_correct_pronunciation",
+    "displayText": "正音",
+    "answerJyutping": "zing3 jam1",
+    "gloss": "correct pronunciation",
+    "notes": "指把不準確的讀音校正過來，適合粵語學習或朗讀練習。",
+    "usageTip": "可說「請老師幫我正音」，語氣清楚而自然。",
+    "exampleSentence": "老師幫我正音後，我再讀多次。",
+    "category": "語音與表達"
+  },
+  {
+    "id": "manual_school_articulation_sound",
+    "displayText": "發音",
+    "answerJyutping": "faat3 jam1",
+    "gloss": "pronounce; pronunciation",
+    "notes": "泛指發出聲音的方式，練粵語時常留意聲調、聲母和韻母。",
+    "usageTip": "說練習目標時可用「發音清楚」或「發音準確」。",
+    "exampleSentence": "發音唔使求快，先要清楚。",
+    "category": "語音與表達"
+  },
+  {
+    "id": "manual_school_enunciation",
+    "displayText": "咬字",
+    "answerJyutping": "ngaau5 zi6",
+    "gloss": "enunciate words clearly",
+    "notes": "著重每個字的口形和清晰度，常用來評價說話或朗讀。",
+    "usageTip": "可配「清楚」或「唔清」，例如「咬字要清楚」。",
+    "exampleSentence": "你咬字清楚啲，大家會容易聽明。",
+    "category": "語音與表達"
+  },
+  {
+    "id": "manual_school_read_aloud",
+    "displayText": "朗讀",
+    "answerJyutping": "long5 duk6",
+    "gloss": "read aloud",
+    "notes": "正式而常用，指把文章、課文或句子讀出聲。",
+    "usageTip": "課堂指令常見「請輪流朗讀第一段」。",
+    "exampleSentence": "請輪流朗讀課文第一段。",
+    "category": "語音與表達"
+  },
+  {
+    "id": "manual_school_memorize_text",
+    "displayText": "背書",
+    "answerJyutping": "bui3 syu1",
+    "gloss": "memorize a text",
+    "notes": "指熟記課文、定義或講稿；不只是把書背在背上。",
+    "usageTip": "可說「背書背到好攰」，口語很自然。",
+    "exampleSentence": "背書唔好淨係死記硬背。",
+    "category": "溫習與方法"
+  },
+  {
+    "id": "manual_school_dictation",
+    "displayText": "默書",
+    "answerJyutping": "mak6 syu1",
+    "gloss": "dictation test",
+    "notes": "老師讀出字詞或課文，學生憑記憶寫下來的評核。",
+    "usageTip": "通常說「有默書」或「準備默書」。",
+    "exampleSentence": "聽日有默書，我今晚要溫生字。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_copy_write",
+    "displayText": "抄寫",
+    "answerJyutping": "caau1 se2",
+    "gloss": "copy out in writing",
+    "notes": "指照著原文寫下來，常用於生字、句子或筆記整理。",
+    "usageTip": "可說「抄寫三次」，次數放在詞組後面。",
+    "exampleSentence": "老師叫我抄寫呢十個生字三次。",
+    "category": "功課與作業"
+  },
+  {
+    "id": "manual_school_correct_errors",
+    "displayText": "改正",
+    "answerJyutping": "goi2 zing3",
+    "gloss": "correct; make corrections",
+    "notes": "可作動詞，指把錯誤修好；也可作名詞，指交回的更正內容。",
+    "usageTip": "說功課時可用「改正錯字」或「做改正」。",
+    "exampleSentence": "老師叫我改正所有錯字。",
+    "category": "功課與作業"
+  },
+  {
+    "id": "manual_school_redo_mistake",
+    "displayText": "改錯",
+    "answerJyutping": "goi2 co3",
+    "gloss": "correct mistakes",
+    "notes": "較口語，特別指重新處理做錯的題目或寫錯的地方。",
+    "usageTip": "先找出錯處，再「改錯」，比只看答案更有效。",
+    "exampleSentence": "你要圈低錯處再改錯。",
+    "category": "功課與作業"
+  },
+  {
+    "id": "manual_school_composition",
+    "displayText": "作文",
+    "answerJyutping": "zok3 man4",
+    "gloss": "composition; essay",
+    "notes": "可指寫作這個科目、一次寫作練習，或寫好的文章。",
+    "usageTip": "交前可說「睇多次作文」，重點是檢查內容和錯字。",
+    "exampleSentence": "作文交之前，我想再睇一次開頭。",
+    "category": "寫作與答題"
+  },
+  {
+    "id": "manual_school_make_sentence",
+    "displayText": "造句",
+    "answerJyutping": "zou6 geoi3",
+    "gloss": "make a sentence",
+    "notes": "指用指定詞語或語法組成完整句子，是常見語文練習。",
+    "usageTip": "粵語口語裡可說「用呢個字造句」。",
+    "exampleSentence": "試下用呢個生字造句。",
+    "category": "寫作與答題"
+  },
+  {
+    "id": "manual_school_paragraph",
+    "displayText": "段落",
+    "answerJyutping": "dyun6 lok6",
+    "gloss": "paragraph",
+    "notes": "文章由多個段落組成；也可泛指內容的一個部分。",
+    "usageTip": "談寫作結構時，常說「一個段落一個重點」。",
+    "exampleSentence": "每個段落最好只講一個重點。",
+    "category": "寫作與答題"
+  },
+  {
+    "id": "manual_school_outline",
+    "displayText": "大綱",
+    "answerJyutping": "daai6 gong1",
+    "gloss": "outline",
+    "notes": "寫作、報告或簡報前的內容骨架，幫助安排先後次序。",
+    "usageTip": "口語常說「列個大綱」，比直接下筆更有條理。",
+    "exampleSentence": "我寫之前先列個大綱。",
+    "category": "寫作與答題"
+  },
+  {
+    "id": "manual_school_question_prompt",
+    "displayText": "題目",
+    "answerJyutping": "tai4 muk6",
+    "gloss": "question; topic; prompt",
+    "notes": "可指試題，也可指作文或報告的主題，要按語境理解。",
+    "usageTip": "答題前先圈出題目要求，避免答非所問。",
+    "exampleSentence": "你睇清楚題目先開始答。",
+    "category": "寫作與答題"
+  },
+  {
+    "id": "manual_school_question_type",
+    "displayText": "題型",
+    "answerJyutping": "tai4 jing4",
+    "gloss": "question type",
+    "notes": "指題目的形式，例如選擇、填充或問答，不是題目內容。",
+    "usageTip": "溫習時按題型練習，會較容易掌握作答方法。",
+    "exampleSentence": "呢份卷有幾種題型。",
+    "category": "寫作與答題"
+  },
+  {
+    "id": "manual_school_multiple_choice",
+    "displayText": "選擇題",
+    "answerJyutping": "syun2 zaak6 tai4",
+    "gloss": "multiple-choice question",
+    "notes": "提供多個選項供選擇的題目，重點是分辨干擾選項。",
+    "usageTip": "不要只看第一個像對的答案，要比較所有選項。",
+    "exampleSentence": "選擇題要睇晒所有選項。",
+    "category": "寫作與答題"
+  },
+  {
+    "id": "manual_school_fill_blank",
+    "displayText": "填充題",
+    "answerJyutping": "tim4 cung1 tai4",
+    "gloss": "fill-in-the-blank question",
+    "notes": "要求在空格填入字詞、數字或答案的題型。",
+    "usageTip": "數學或科學題的填充題，記得檢查有沒有寫單位。",
+    "exampleSentence": "填充題唔好漏咗單位。",
+    "category": "寫作與答題"
+  },
+  {
+    "id": "manual_school_short_answer",
+    "displayText": "問答題",
+    "answerJyutping": "man6 daap3 tai4",
+    "gloss": "short-answer question",
+    "notes": "需要用文字作答的題目，通常不只選一個選項。",
+    "usageTip": "除非題目容許，問答題最好答完整句。",
+    "exampleSentence": "問答題要答完整句。",
+    "category": "寫作與答題"
+  },
+  {
+    "id": "manual_school_answer",
+    "displayText": "答案",
+    "answerJyutping": "daap3 on3",
+    "gloss": "answer; solution",
+    "notes": "可指一題的答案，也可指整份練習的參考解答。",
+    "usageTip": "做完先對答案，才能知道自己真正掌握到甚麼。",
+    "exampleSentence": "交卷前核對一次答案。",
+    "category": "寫作與答題"
+  },
+  {
+    "id": "manual_school_check_answers",
+    "displayText": "對答案",
+    "answerJyutping": "deoi3 daap3 on3",
+    "gloss": "check answers against a key",
+    "notes": "「對」讀 deoi3，指比較自己做的內容和參考答案。",
+    "usageTip": "先獨立完成，再對答案，才容易找出真正不懂的地方。",
+    "exampleSentence": "做完先對答案，唔好一路做一路睇。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_hand_out_papers",
+    "displayText": "派卷",
+    "answerJyutping": "paai3 gyun2",
+    "gloss": "hand out test papers",
+    "notes": "指老師把試卷、測驗卷或練習紙派給學生。",
+    "usageTip": "「卷」讀 gyun2，說「老師派卷」很自然。",
+    "exampleSentence": "老師而家派卷，大家唔好講嘢。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_collect_papers",
+    "displayText": "收卷",
+    "answerJyutping": "sau1 gyun2",
+    "gloss": "collect test papers",
+    "notes": "考試或小測時間結束時收回答題紙的動作。",
+    "usageTip": "聽到「收卷」應立即停筆並整理好試卷。",
+    "exampleSentence": "夠鐘就要收卷，唔可以再寫。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_pass_exam",
+    "displayText": "及格",
+    "answerJyutping": "gap6 gaak3",
+    "gloss": "pass an exam",
+    "notes": "多用於分數達到及格線，語境通常是測驗、考試或科目成績。",
+    "usageTip": "說分數時可說「今次剛剛及格」。",
+    "exampleSentence": "我今次剛剛及格，下次想再進步。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_qualified",
+    "displayText": "合格",
+    "answerJyutping": "hap6 gaak3",
+    "gloss": "qualified; meet the required standard",
+    "notes": "範圍比「及格」廣，可用於作業要求、課程考核或資格標準。",
+    "usageTip": "評語常見「內容合格，但表達可以更清楚」。",
+    "exampleSentence": "呢個項目合格，不過仲有改善空間。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_not_qualified",
+    "displayText": "唔合格",
+    "answerJyutping": "m4 hap6 gaak3",
+    "gloss": "fail; not meet the standard",
+    "notes": "口語否定式，「唔」在這裡讀 m4，後面接「合格」。",
+    "usageTip": "談結果時避免只說「我唔掂」，可具體講哪部分唔合格。",
+    "exampleSentence": "今次唔合格唔代表你冇能力。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_lose_marks",
+    "displayText": "失分",
+    "answerJyutping": "sat1 fan1",
+    "gloss": "lose marks",
+    "notes": "指因為錯誤、遺漏或格式不符而失去分數。",
+    "usageTip": "檢查題目要求和單位，可以減少無謂失分。",
+    "exampleSentence": "答案寫得太快，好容易失分。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_gain_marks",
+    "displayText": "加分",
+    "answerJyutping": "gaa1 fan1",
+    "gloss": "gain bonus marks",
+    "notes": "指在原有要求以外，因表現好而獲得額外分數。",
+    "usageTip": "不要假設一定有加分，最好先問清楚評分準則。",
+    "exampleSentence": "清楚寫步驟有機會加分。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_full_marks",
+    "displayText": "滿分",
+    "answerJyutping": "mun5 fan1",
+    "gloss": "full marks",
+    "notes": "指一道題或一份試卷可以得到的最高分，也可指實際取得最高分。",
+    "usageTip": "可說「攞滿分」，比「得到滿分」更口語。",
+    "exampleSentence": "佢今次數學攞滿分。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_result",
+    "displayText": "成績",
+    "answerJyutping": "sing4 zik1",
+    "gloss": "academic result; grade",
+    "notes": "可指某次考核的分數，也可泛指一段時間的學業表現。",
+    "usageTip": "問得委婉可說「成績出咗未？」。",
+    "exampleSentence": "今次成績未出，我唔想估住。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_report_card",
+    "displayText": "成績表",
+    "answerJyutping": "sing4 zik1 biu2",
+    "gloss": "report card; grade report",
+    "notes": "列出多科分數、評語或等級的正式文件。",
+    "usageTip": "學校通常說「派成績表」，家長也會問「收到成績表未」。",
+    "exampleSentence": "學校下星期派成績表。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_ranking",
+    "displayText": "排名",
+    "answerJyutping": "paai4 ming4",
+    "gloss": "ranking; rank",
+    "notes": "指在班、級或比賽中的次序，未必能完全反映學習進步。",
+    "usageTip": "談自己時可說「我唔太在意排名」，語氣不會過分自誇。",
+    "exampleSentence": "我唔太在意排名，想先改善弱項。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_make_up_class",
+    "displayText": "補課",
+    "answerJyutping": "bou2 fo3",
+    "gloss": "make up a missed class",
+    "notes": "指補回原本缺少的課堂內容，也可指老師額外安排一節課。",
+    "usageTip": "缺課後可主動問「可唔可以補課？」。",
+    "exampleSentence": "我缺咗嗰堂，要問老師幾時補課。",
+    "category": "校園與上課"
+  },
+  {
+    "id": "manual_school_tutoring",
+    "displayText": "補習",
+    "answerJyutping": "bou2 zaap6",
+    "gloss": "receive tutoring; cram",
+    "notes": "指課外額外學習，通常為了跟上進度、鞏固基礎或備考。",
+    "usageTip": "可說「去補習」或「幫人補習」，前者是學生，後者是導師。",
+    "exampleSentence": "我逢星期六去補習。",
+    "category": "課外學習"
+  },
+  {
+    "id": "manual_school_tutorial_center",
+    "displayText": "補習社",
+    "answerJyutping": "bou2 zaap6 se5",
+    "gloss": "tutorial center",
+    "notes": "香港常用，指提供補習班或小組教學的機構。",
+    "usageTip": "比較選擇時可問補習社的班級人數和試堂安排。",
+    "exampleSentence": "附近嗰間補習社有英文小班。",
+    "category": "課外學習"
+  },
+  {
+    "id": "manual_school_self_study",
+    "displayText": "自修",
+    "answerJyutping": "zi6 sau1",
+    "gloss": "self-study",
+    "notes": "指沒有老師即時帶領、自己安排的專心學習時間。",
+    "usageTip": "可說「留低自修」，比「自己溫書」更突出自主安排。",
+    "exampleSentence": "考試前我會留喺學校自修。",
+    "category": "溫習與方法"
+  },
+  {
+    "id": "manual_school_study_room",
+    "displayText": "自修室",
+    "answerJyutping": "zi6 sau1 sat1",
+    "gloss": "study room",
+    "notes": "供學生安靜溫習或做功課的房間，通常有使用規則。",
+    "usageTip": "入自修室前把電話校靜音，是基本禮貌。",
+    "exampleSentence": "自修室夜晚八點就閂門。",
+    "category": "校園與上課"
+  },
+  {
+    "id": "manual_school_library",
+    "displayText": "圖書館",
+    "answerJyutping": "tou4 syu1 gun2",
+    "gloss": "library",
+    "notes": "可指學校圖書館或公共圖書館，是借書和自修的常用地方。",
+    "usageTip": "約同學溫書時說「圖書館見」很自然。",
+    "exampleSentence": "我放學後會去圖書館做功課。",
+    "category": "校園與上課"
+  },
+  {
+    "id": "manual_school_borrow_book",
+    "displayText": "借書",
+    "answerJyutping": "ze3 syu1",
+    "gloss": "borrow a book",
+    "notes": "從圖書館或別人手上暫時取用書本；相反是「還書」。",
+    "usageTip": "問人時可說「可唔可以借書畀我睇？」。",
+    "exampleSentence": "我想喺圖書館借書溫習。",
+    "category": "校園資源"
+  },
+  {
+    "id": "manual_school_renew_book",
+    "displayText": "續借",
+    "answerJyutping": "zuk6 ze3",
+    "gloss": "renew a borrowed book",
+    "notes": "借閱期快結束但還想繼續借時使用，通常要先確認沒有被預約。",
+    "usageTip": "到期前上網續借，避免因為遲還而被罰。",
+    "exampleSentence": "呢本書未睇完，我想續借多一個禮拜。",
+    "category": "校園資源"
+  },
+  {
+    "id": "manual_school_return_book",
+    "displayText": "還書",
+    "answerJyutping": "waan4 syu1",
+    "gloss": "return a book",
+    "notes": "把借來的書交回圖書館或原主；「還」在這裡讀 waan4。",
+    "usageTip": "到期日之前還書，可避免逾期紀錄或罰款。",
+    "exampleSentence": "我放學要去圖書館還書。",
+    "category": "校園資源"
+  },
+  {
+    "id": "manual_school_reference_book",
+    "displayText": "參考書",
+    "answerJyutping": "caam1 haau2 syu1",
+    "gloss": "reference book; study guide",
+    "notes": "供查閱、溫習或補充課本內容的書，不一定要從頭讀到尾。",
+    "usageTip": "選參考書前先看是否配合自己正在學的課程和程度。",
+    "exampleSentence": "呢本參考書有好多例題可以做。",
+    "category": "校園資源"
+  },
+  {
+    "id": "manual_school_teaching_material",
+    "displayText": "教材",
+    "answerJyutping": "gaau3 coi4",
+    "gloss": "teaching material",
+    "notes": "泛指課本、投影片、影片、講義等用來教學的材料。",
+    "usageTip": "老師發的新教材，最好當日先整理好。",
+    "exampleSentence": "老師上載咗今堂嘅教材。",
+    "category": "校園資源"
+  },
+  {
+    "id": "manual_school_handout",
+    "displayText": "講義",
+    "answerJyutping": "gong2 ji6",
+    "gloss": "course handout",
+    "notes": "老師整理好的課堂資料，通常比課本精簡，重點較集中。",
+    "usageTip": "上堂時可以直接在講義旁邊補充例子。",
+    "exampleSentence": "我漏咗嗰份講義，聽日可唔可以借我影印？",
+    "category": "校園資源"
+  },
+  {
+    "id": "manual_school_notes",
+    "displayText": "筆記",
+    "answerJyutping": "bat1 gei3",
+    "gloss": "notes",
+    "notes": "上堂或自學時記下的要點、例子和疑問；可數也可泛指一套筆記。",
+    "usageTip": "不要只抄投影片，筆記加上自己的理解才容易重溫。",
+    "exampleSentence": "我想借你嘅筆記對一對重點。",
+    "category": "溫習與方法"
+  },
+  {
+    "id": "manual_school_key_point",
+    "displayText": "重點",
+    "answerJyutping": "zung6 dim2",
+    "gloss": "key point; main point",
+    "notes": "指最重要、最需要掌握的部分；「重」在這裡讀 zung6。",
+    "usageTip": "聽不明白時可以問「呢課嘅重點係咩？」。",
+    "exampleSentence": "你先記住呢三個重點。",
+    "category": "溫習與方法"
+  },
+  {
+    "id": "manual_school_difficult_point",
+    "displayText": "難點",
+    "answerJyutping": "naan4 dim2",
+    "gloss": "difficult point",
+    "notes": "指一個主題中最難理解或最容易出錯的地方。",
+    "usageTip": "說出具體難點，比只說「我唔明」更容易得到幫助。",
+    "exampleSentence": "呢課嘅難點係分清兩個時態。",
+    "category": "溫習與方法"
+  },
+  {
+    "id": "manual_school_revision_plan",
+    "displayText": "溫習計劃",
+    "answerJyutping": "wan1 zaap6 gai3 waak6",
+    "gloss": "revision plan",
+    "notes": "把科目、範圍和時間安排好的備考表，不只是列一堆願望。",
+    "usageTip": "溫習計劃要留少量彈性時間，才不會一延誤就全盤亂掉。",
+    "exampleSentence": "我今日要整好下星期嘅溫習計劃。",
+    "category": "溫習與方法"
+  },
+  {
+    "id": "manual_school_do_exercises",
+    "displayText": "做練習",
+    "answerJyutping": "zou6 lin6 zaap6",
+    "gloss": "do practice exercises",
+    "notes": "指完成用來鞏固知識的題目、工作紙或線上練習。",
+    "usageTip": "做練習後要檢討錯因，不要只看分數。",
+    "exampleSentence": "我想先做練習，再溫返錯題。",
+    "category": "溫習與方法"
+  },
+  {
+    "id": "manual_school_exercise_book",
+    "displayText": "練習簿",
+    "answerJyutping": "lin6 zaap6 bou2",
+    "gloss": "exercise book; workbook",
+    "notes": "專門用來做題目或記錄練習的簿，和普通筆記簿用途不同。",
+    "usageTip": "交前翻一翻練習簿，確保姓名和班別都寫好。",
+    "exampleSentence": "我唔記得帶練習簿返學。",
+    "category": "功課與作業"
+  },
+  {
+    "id": "manual_school_revision_scope",
+    "displayText": "溫習範圍",
+    "answerJyutping": "wan1 zaap6 faan6 wai4",
+    "gloss": "revision scope",
+    "notes": "指準備考核時應重溫的課題和內容範圍。",
+    "usageTip": "未收到明確指示時，直接問老師溫習範圍會較有效率。",
+    "exampleSentence": "老師今日講咗今次嘅溫習範圍。",
+    "category": "溫習與方法"
+  },
+  {
+    "id": "manual_school_exam_scope",
+    "displayText": "考試範圍",
+    "answerJyutping": "haau2 si3 faan6 wai4",
+    "gloss": "exam scope; examinable material",
+    "notes": "指考卷可能考到的指定內容，通常比整科課程窄。",
+    "usageTip": "安排時間時先按考試範圍分配每一課的溫習時數。",
+    "exampleSentence": "考試範圍包括第三課至第六課。",
+    "category": "考試與評核"
+  },
+  {
+    "id": "manual_school_exam_venue",
+    "displayText": "考場",
+    "answerJyutping": "haau2 coeng4",
+    "gloss": "exam venue; examination room",
+    "notes": "指進行考試的指定地方，可能是課室、禮堂或校外場地。",
+    "usageTip": "大型考試前一天先查好考場位置和交通時間。",
+    "exampleSentence": "考場門口貼咗座位表。",
+    "category": "考試安排"
+  },
+  {
+    "id": "manual_school_exam_admission_ticket",
+    "displayText": "准考證",
+    "answerJyutping": "zeon2 haau2 zing3",
+    "gloss": "exam admission ticket",
+    "notes": "用來核對考生身分和考試資料的證明文件，常見於公開試或資格考試。",
+    "usageTip": "出門前把准考證和身分證放在同一個透明文件袋。",
+    "exampleSentence": "入考場前要出示准考證。",
+    "category": "考試安排"
+  },
+  {
+    "id": "manual_school_invigilator",
+    "displayText": "監考老師",
+    "answerJyutping": "gaam1 haau2 lou5 si1",
+    "gloss": "exam invigilator",
+    "notes": "負責維持考場秩序、宣布規則和處理考試事務的老師。",
+    "usageTip": "考試中有實際問題應舉手通知監考老師，不要和同學交談。",
+    "exampleSentence": "監考老師叫大家先關掉電話。",
+    "category": "考試安排"
+  },
+  {
+    "id": "manual_school_training",
+    "displayText": "培訓",
+    "answerJyutping": "pui4 fan3",
+    "gloss": "training",
+    "notes": "有計劃地學習某項技能或工作流程，可用於學校、公司和社團。",
+    "usageTip": "報名時可問清楚培訓有沒有實作和後續支援。",
+    "exampleSentence": "公司下個月安排新人培訓。",
+    "category": "課外學習"
+  },
+  {
+    "id": "manual_school_further_study",
+    "displayText": "進修",
+    "answerJyutping": "zeon3 sau1",
+    "gloss": "pursue further study",
+    "notes": "完成原有學業或工作後，為提升知識和技能而繼續學習。",
+    "usageTip": "成年人常說「放工後進修」，帶有長期自我提升的意思。",
+    "exampleSentence": "我夜晚報咗個課程進修。",
+    "category": "自我提升"
+  },
+  {
+    "id": "manual_school_certificate",
+    "displayText": "證書",
+    "answerJyutping": "zing3 syu1",
+    "gloss": "certificate",
+    "notes": "完成課程、通過考核或取得資格後獲發的文件；不等於成績表。",
+    "usageTip": "報讀前先確認證書由誰發出，以及業界是否認可。",
+    "exampleSentence": "完成課程之後會有證書。",
+    "category": "自我提升"
+  },
+  {
+    "id": "manual_school_interview",
+    "displayText": "面試",
+    "answerJyutping": "min6 si3",
+    "gloss": "interview",
+    "notes": "可用於升學、課程甄選或求職；動詞和名詞用法都很常見。",
+    "usageTip": "面試前練熟自我介紹，但不要背到像讀稿。",
+    "exampleSentence": "我下星期要去面試一個課程。",
+    "category": "自我提升"
+  },
+  {
+    "id": "manual_school_self_introduction",
+    "displayText": "自我介紹",
+    "answerJyutping": "zi6 ngo5 gaai3 siu6",
+    "gloss": "self-introduction",
+    "notes": "介紹姓名、背景、興趣或經驗的簡短說話，常見於課堂、面試和培訓。",
+    "usageTip": "自我介紹先講最相關的資料，控制在一兩分鐘內會更自然。",
+    "exampleSentence": "輪到你做自我介紹喇。",
+    "category": "自我提升"
+  }
+ ]

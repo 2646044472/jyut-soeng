@@ -1,0 +1,702 @@
+[
+  {
+    "id": "manual-leisure-tai-hei",
+    "displayText": "睇戲",
+    "answerJyutping": "tai2 hei3",
+    "gloss": "看电影",
+    "notes": "日常最自然的说法；口语里通常不用书面语“看电影”。",
+    "usageTip": "约人时可直接说“今晚去唔去睇戲？”",
+    "exampleSentence": "今晚有套新戲上，我哋不如一齊去睇戲。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-hei-fei",
+    "displayText": "戲飛",
+    "answerJyutping": "hei3 fei1",
+    "gloss": "电影票",
+    "notes": "“飛”在香港常指票券，如戏票、演唱会票。",
+    "usageTip": "买票后可说“我已經買咗兩張戲飛”。",
+    "exampleSentence": "你想睇邊場？我而家上網買戲飛。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-coeng-ci",
+    "displayText": "場次",
+    "answerJyutping": "coeng4 ci3",
+    "gloss": "场次",
+    "notes": "用于电影、表演、比赛等按时间划分的时段。",
+    "usageTip": "选电影时可问“邊個場次啱你？”",
+    "exampleSentence": "八點嗰個場次仲有位，你得唔得？",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-hoi-coeng",
+    "displayText": "開場",
+    "answerJyutping": "hoi1 coeng4",
+    "gloss": "开场",
+    "notes": "可指演出、电影或球赛开始的时刻，也可指开头部分。",
+    "usageTip": "赶时间时说“就嚟開場喇，快啲入去”。",
+    "exampleSentence": "我哋早十分鐘到，仲趕得切開場。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-saan-coeng",
+    "displayText": "散場",
+    "answerJyutping": "saan3 coeng4",
+    "gloss": "散场",
+    "notes": "指表演、电影或比赛结束后观众离开。",
+    "usageTip": "可用来约散场后的安排。",
+    "exampleSentence": "散場之後我哋去附近食個宵夜啦。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-jyu-gou-pin",
+    "displayText": "預告片",
+    "answerJyutping": "jyu6 gou3 pin3",
+    "gloss": "预告片",
+    "notes": "电影、剧集或活动正式推出前播放的短片。",
+    "usageTip": "谈论新片时可说“條預告片幾吸引”。",
+    "exampleSentence": "我睇完條預告片，即刻想約朋友睇。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-zuk-zaap",
+    "displayText": "續集",
+    "answerJyutping": "zuk6 zaap6",
+    "gloss": "续集",
+    "notes": "指故事接续前作的电影、剧集或作品。",
+    "usageTip": "评价作品时可比较“續集冇第一集咁好睇”。",
+    "exampleSentence": "聽講套戲下年會拍續集。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-zi-mak",
+    "displayText": "字幕",
+    "answerJyutping": "zi6 mak6",
+    "gloss": "字幕",
+    "notes": "电影或影片画面上显示的文字；粤语电影也常有中英文字幕。",
+    "usageTip": "听不清对白时可说“開返字幕先”。",
+    "exampleSentence": "呢套戲對白快，我要睇住字幕先跟到。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-baau-guk",
+    "displayText": "爆谷",
+    "answerJyutping": "baau3 guk1",
+    "gloss": "爆米花",
+    "notes": "香港口语常把 popcorn 叫作“爆谷”。",
+    "usageTip": "在电影院小食柜可直接点“爆谷”。",
+    "exampleSentence": "入場之前買桶爆谷同兩杯飲品啦。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-lau-wai",
+    "displayText": "留位",
+    "answerJyutping": "lau4 wai2",
+    "gloss": "留座位",
+    "notes": "指先替人保留座位，聚会、餐厅、活动场地都常用。",
+    "usageTip": "请同伴先到时可说“你幫我留個位”。",
+    "exampleSentence": "你早到嘅話，幫我留位，我就嚟到。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-social-joek-maai",
+    "displayText": "約埋",
+    "answerJyutping": "joek3 maai4",
+    "gloss": "也约上；一并约",
+    "notes": "“埋”有一起、连同的意思，用于把另一位朋友加入约会。",
+    "usageTip": "邀请共同朋友时说“約埋阿明一齊去”。",
+    "exampleSentence": "星期六食飯，不如約埋阿欣一齊嚟。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-social-joek-faan",
+    "displayText": "約飯",
+    "answerJyutping": "joek3 faan6",
+    "gloss": "约吃饭",
+    "notes": "朋友间临时或正式约吃饭都很常用，语气轻松自然。",
+    "usageTip": "可说“得閒約飯呀”，表示以后再约。",
+    "exampleSentence": "我哋好耐冇見，今個禮拜約飯傾下啦。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-social-jam-je",
+    "displayText": "飲嘢",
+    "answerJyutping": "jam2 je5",
+    "gloss": "喝点东西；去喝一杯",
+    "notes": "可单指喝饮料，也常指相约到咖啡店或酒吧坐坐。",
+    "usageTip": "约朋友时“出去飲嘢”比直译“喝饮料”更自然。",
+    "exampleSentence": "食完飯未想返屋企，不如去飲嘢。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-social-zeoi-jat-zeoi",
+    "displayText": "聚一聚",
+    "answerJyutping": "zeoi6 jat1 zeoi6",
+    "gloss": "聚一聚；小聚",
+    "notes": "重叠式令语气更轻松，适合久未见面的朋友或同事。",
+    "usageTip": "发讯息可说“下次返嚟聚一聚”。",
+    "exampleSentence": "大家難得齊人，今晚出去聚一聚啦。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-social-ceoi-seoi-guk",
+    "displayText": "吹水局",
+    "answerJyutping": "ceoi1 seoi2 guk6",
+    "gloss": "闲聊局；聊天聚会",
+    "notes": "“局”指一场有特定目的的聚会；“吹水”是轻松聊天。",
+    "usageTip": "适合熟人之间，不宜用于很正式的邀请。",
+    "exampleSentence": "今晚冇特別節目，開個吹水局傾到夜啦。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-social-king-gai",
+    "displayText": "傾偈",
+    "answerJyutping": "king1 gai2",
+    "gloss": "聊天",
+    "notes": "是粤语常用的“聊天”，比“談話”日常得多。",
+    "usageTip": "可配“同邊個傾偈”或“坐低傾偈”。",
+    "exampleSentence": "我哋坐低慢慢傾偈，唔使急住走。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-social-gaap-si-gaan",
+    "displayText": "夾時間",
+    "answerJyutping": "gaap3 si4 gaan3",
+    "gloss": "协调时间",
+    "notes": "“夾”表示互相配合，常用于多人约见前确认空档。",
+    "usageTip": "群组里可说“大家夾下時間先”。",
+    "exampleSentence": "我哋先夾時間再訂枱，免得有人趕唔切。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-social-ci-dou-fat-jam",
+    "displayText": "遲到罰飲",
+    "answerJyutping": "ci4 dou3 fat6 jam2",
+    "gloss": "迟到罚喝一杯",
+    "notes": "朋友聚会的玩笑规则；不一定真的饮酒，也可换成无酒精饮品。",
+    "usageTip": "只用于熟人，避免对不喝酒的人施压。",
+    "exampleSentence": "你又遲到，今次要遲到罰飲喇。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-social-maai-toi",
+    "displayText": "埋枱",
+    "answerJyutping": "maai4 toi2",
+    "gloss": "入座；到桌边坐下",
+    "notes": "多用于餐厅或聚餐时叫人到桌旁坐下。",
+    "usageTip": "见到朋友到达可说“快啲埋枱啦”。",
+    "exampleSentence": "你哋買完嘢就埋枱，菜就快到。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-social-giu-do-loeng-mei",
+    "displayText": "叫多兩味",
+    "answerJyutping": "giu3 do1 loeng5 mei6",
+    "gloss": "再点两道菜",
+    "notes": "“味”在粤语饮食语境可指数道菜，常用于多人吃饭。",
+    "usageTip": "觉得菜不够时可说“唔夠食，叫多兩味”。",
+    "exampleSentence": "而家多咗三個人，不如叫多兩味餸。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-sport-da-bat",
+    "displayText": "打波",
+    "answerJyutping": "daa2 bo1",
+    "gloss": "打球；进行球类运动",
+    "notes": "粤语里可泛指踢球、打篮球等球类活动，具体项目按语境理解。",
+    "usageTip": "问朋友运动安排时可说“放工打唔打波？”",
+    "exampleSentence": "我哋星期日朝早约咗班朋友去打波。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-lam-zuk",
+    "displayText": "踢波",
+    "answerJyutping": "tek3 bo1",
+    "gloss": "踢足球",
+    "notes": "香港粤语中“波”单独使用时常指足球；“踢波”即踢足球。",
+    "usageTip": "要表达篮球则说“打篮球”，不要一概说“踢波”。",
+    "exampleSentence": "落緊雨，今日場波改咗期，唔使去踢波喇。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-da-laam-kiu",
+    "displayText": "打籃球",
+    "answerJyutping": "daa2 laam4 kau4",
+    "gloss": "打篮球",
+    "notes": "球类运动前通常用“打”，足球则常用“踢”。",
+    "usageTip": "约球时可说“球場有冇位打籃球？”",
+    "exampleSentence": "佢放學之後成日同同學打籃球。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-da-guk-kiu",
+    "displayText": "打羽毛球",
+    "answerJyutping": "daa2 jyu5 mou4 kiu4",
+    "gloss": "打羽毛球",
+    "notes": "香港日常说法，运动项目名称可直接接“打”。",
+    "usageTip": "谈装备时可说“帶唔帶球拍去打羽毛球？”",
+    "exampleSentence": "我每個星期四都會去打羽毛球。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-pang-zam",
+    "displayText": "乒乓波",
+    "answerJyutping": "ping1 pong1 bo1",
+    "gloss": "乒乓球",
+    "notes": "香港口语常说“乒乓波”，正式场合才多说“乒乓球”。",
+    "usageTip": "约人时可说“得閒過嚟打兩局乒乓波”。",
+    "exampleSentence": "公司休息室有張枱，可以食完飯打乒乓波。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-jau-bou",
+    "displayText": "游水",
+    "answerJyutping": "jau4 seoi2",
+    "gloss": "游泳",
+    "notes": "粤语最常用的日常说法；“游泳”较书面。",
+    "usageTip": "去泳池前常说“帶唔帶毛巾去游水？”",
+    "exampleSentence": "夏天咁熱，去游水最舒服。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-paau-bou",
+    "displayText": "跑步",
+    "answerJyutping": "paau2 bou6",
+    "gloss": "跑步",
+    "notes": "既可指日常慢跑，也可泛指跑步锻炼。",
+    "usageTip": "描述习惯可说“我朝朝都去跑步”。",
+    "exampleSentence": "我哋約咗六點喺公園門口集合跑步。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-hang-saan",
+    "displayText": "行山",
+    "answerJyutping": "haang4 saan1",
+    "gloss": "爬山；远足",
+    "notes": "香港常用来指到郊野步行登山，不一定是攀岩。",
+    "usageTip": "出发前要交代路线和补给，别只说“去山上走走”。",
+    "exampleSentence": "星期六天氣好，我哋去行山影相。",
+    "category": "户外活动"
+  },
+  {
+    "id": "manual-sport-zau-zing",
+    "displayText": "露營",
+    "answerJyutping": "lou6 jing4",
+    "gloss": "露营",
+    "notes": "在营地搭帐篷过夜；香港也常用于短途郊外活动。",
+    "usageTip": "约人时可问“有冇人想一齊去露營？”",
+    "exampleSentence": "我哋預備咗睡袋同煮食爐，今個周末去露營。",
+    "category": "户外活动"
+  },
+  {
+    "id": "manual-sport-seoi-soeng-daan-ce1",
+    "displayText": "水上單車",
+    "answerJyutping": "seoi2 soeng6 daan1 ce1",
+    "gloss": "脚踏船；水上单车",
+    "notes": "香港休闲场地常见的水上脚踏船，日常说法比生造的直译名称自然。",
+    "usageTip": "租船前确认人数和时间，通常按一小时计算。",
+    "exampleSentence": "湖邊可以租水上單車，我哋兩個人慢慢踩一圈。",
+    "category": "户外活动"
+  },
+  {
+    "id": "manual-sport-jit-san",
+    "displayText": "熱身",
+    "answerJyutping": "jit6 san1",
+    "gloss": "热身",
+    "notes": "运动前让身体逐渐进入状态，也可比喻为活动前的准备。",
+    "usageTip": "提醒队友时可说“做下熱身先，唔好一嚟就跑”。",
+    "exampleSentence": "教練叫我哋做十分鐘熱身，先至開始練波。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-laai-gan",
+    "displayText": "拉筋",
+    "answerJyutping": "laai1 gan1",
+    "gloss": "拉伸；伸展筋骨",
+    "notes": "粤语运动语境中很常用，指伸展肌肉和筋腱。",
+    "usageTip": "运动后说“拉下筋先”很自然。",
+    "exampleSentence": "跑完步記得拉筋，第二日冇咁容易周身痛。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-san-zin",
+    "displayText": "伸展",
+    "answerJyutping": "san1 zin2",
+    "gloss": "伸展；拉伸",
+    "notes": "比“拉筋”稍正式，健身课和运动指导中常见。",
+    "usageTip": "向初学者解释动作时可用“伸展大腿後面”。",
+    "exampleSentence": "瑜伽堂最後有幾個伸展動作，做完好放鬆。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-gin-san",
+    "displayText": "健身",
+    "answerJyutping": "gin6 san1",
+    "gloss": "健身；锻炼身体",
+    "notes": "可指去健身房，也可泛指规律锻炼。",
+    "usageTip": "说习惯时可用“收工去健身”。",
+    "exampleSentence": "佢近排開始健身，想改善體能。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-kau-zing",
+    "displayText": "球證",
+    "answerJyutping": "kau4 zing3",
+    "gloss": "裁判",
+    "notes": "球类比赛中的裁判，香港日常常用“球證”。",
+    "usageTip": "谈比赛判罚时不要误读“證”为一声。",
+    "exampleSentence": "球證吹咗哨，場波正式開始。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-bei-fan",
+    "displayText": "比分",
+    "answerJyutping": "bei2 fan1",
+    "gloss": "比分",
+    "notes": "比赛双方当前得分的差距或数字。",
+    "usageTip": "看直播时可问“而家比分幾多？”",
+    "exampleSentence": "上半場完咗，比分暫時係一比零。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-ping-sau",
+    "displayText": "平手",
+    "answerJyutping": "ping4 sau2",
+    "gloss": "平局；打成平手",
+    "notes": "比赛结束时双方得分相同，也可泛指较量结果相同。",
+    "usageTip": "可说“最後打成平手”，比“平局了”更口语。",
+    "exampleSentence": "兩隊踢得好接近，最後一比一平手。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-jap-bo",
+    "displayText": "入波",
+    "answerJyutping": "jap6 bo1",
+    "gloss": "进球",
+    "notes": "足球口语，指把球射入球门。",
+    "usageTip": "看球时欢呼可说“入波呀！”",
+    "exampleSentence": "佢臨完場之前入波，成隊即刻反超前。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-sport-bou-si",
+    "displayText": "補時",
+    "answerJyutping": "bou2 si4",
+    "gloss": "补时",
+    "notes": "足球等比赛因暂停而在常规时间后增加的比赛时间。",
+    "usageTip": "说明比赛还没完时可说“仲有補時”。",
+    "exampleSentence": "球證宣布有五分鐘補時，大家仲未敢離場。",
+    "category": "运动"
+  },
+  {
+    "id": "manual-culture-zin-laam",
+    "displayText": "展覽",
+    "answerJyutping": "zin2 laam5",
+    "gloss": "展览",
+    "notes": "艺术、设计、历史或专题展示活动的通用说法。",
+    "usageTip": "约人可说“聽日有個展覽，想唔想去睇？”",
+    "exampleSentence": "文化中心今個月有個免費展覽，我想去行下。",
+    "category": "文化活动"
+  },
+  {
+    "id": "manual-culture-zin-paan",
+    "displayText": "展板",
+    "answerJyutping": "zin2 baan2",
+    "gloss": "展板；展示板",
+    "notes": "展览现场展示资料、照片或说明的板面。",
+    "usageTip": "看展时可说“嗰塊展板講得幾清楚”。",
+    "exampleSentence": "入口嗰塊展板有晒今日活動嘅時間表。",
+    "category": "文化活动"
+  },
+  {
+    "id": "manual-culture-dou-waan",
+    "displayText": "導賞",
+    "answerJyutping": "dou6 soeng2",
+    "gloss": "导览讲解",
+    "notes": "博物馆、展览和建筑参观常用，指由讲解员带领欣赏。",
+    "usageTip": "报名时问“有冇廣東話導賞？”",
+    "exampleSentence": "星期日下午有免費導賞，記得早啲登記。",
+    "category": "文化活动"
+  },
+  {
+    "id": "manual-culture-zaap-jan",
+    "displayText": "集印",
+    "answerJyutping": "zaap6 jan3",
+    "gloss": "集章",
+    "notes": "在活动不同地点收集纪念印章，文创展和节庆活动常见。",
+    "usageTip": "可问工作人员“集印卡喺邊度攞？”",
+    "exampleSentence": "行晒五個攤位集印，就可以換紀念品。",
+    "category": "文化活动"
+  },
+  {
+    "id": "manual-culture-waa-long",
+    "displayText": "畫廊",
+    "answerJyutping": "waa2 long4",
+    "gloss": "画廊",
+    "notes": "展出和售卖艺术作品的场所；不等同于商场里的走廊。",
+    "usageTip": "第一次去可说“呢間畫廊入場使唔使錢？”",
+    "exampleSentence": "中環有間細畫廊展緊本地插畫師嘅作品。",
+    "category": "文化活动"
+  },
+  {
+    "id": "manual-culture-foong-jan-si",
+    "displayText": "放映室",
+    "answerJyutping": "fong3 jing2 sat1",
+    "gloss": "放映室",
+    "notes": "用于播放影片的小型房间，艺术空间和资料馆常见。",
+    "usageTip": "找地点时可问“放映室喺幾樓？”",
+    "exampleSentence": "紀錄片喺地下放映室播，唔係喺大戲院。",
+    "category": "文化活动"
+  },
+  {
+    "id": "manual-culture-jyut-kek",
+    "displayText": "粵劇",
+    "answerJyutping": "jyut6 kek6",
+    "gloss": "粤剧",
+    "notes": "粤语地区传统戏曲；“劇”读 kek6，不读 gik6。",
+    "usageTip": "介绍香港传统表演时可直接说“睇粵劇”。",
+    "exampleSentence": "外婆帶我去睇粵劇，我先知道原來唱腔咁有特色。",
+    "category": "本地文化"
+  },
+  {
+    "id": "manual-culture-sing-gong",
+    "displayText": "醒獅",
+    "answerJyutping": "sing2 si1",
+    "gloss": "醒狮；舞狮表演",
+    "notes": "节庆、开张和社区活动常见的舞狮传统；“醒”读 sing2。",
+    "usageTip": "看表演时可说“前面有醒獅睇”。",
+    "exampleSentence": "商場新年請咗隊醒獅嚟表演，好多人圍住睇。",
+    "category": "本地文化"
+  },
+  {
+    "id": "manual-culture-faa-pou",
+    "displayText": "花牌",
+    "answerJyutping": "faa1 paai4",
+    "gloss": "花牌；大型花牌装饰",
+    "notes": "香港传统庆典、开张或节庆中常见的彩色牌楼式装饰。",
+    "usageTip": "介绍传统节庆布置时可用，不要误作普通招牌。",
+    "exampleSentence": "戲棚門口搭咗個大花牌，夜晚開燈好靚。",
+    "category": "本地文化"
+  },
+  {
+    "id": "manual-culture-hei-paang",
+    "displayText": "戲棚",
+    "answerJyutping": "hei3 paang4",
+    "gloss": "临时戏棚",
+    "notes": "传统节庆时搭建的临时戏台棚，多与粤剧演出有关。",
+    "usageTip": "谈本地节庆时可说“今年仲有冇搭戲棚？”",
+    "exampleSentence": "打醮期間，村口會搭戲棚請班主做戲。",
+    "category": "本地文化"
+  },
+  {
+    "id": "manual-culture-si-zaap",
+    "displayText": "市集",
+    "answerJyutping": "si5 zaap6",
+    "gloss": "市集；周末市集",
+    "notes": "常指集合小店、手作或食品摊位的临时活动，不等同于日常“街市”。",
+    "usageTip": "约朋友可说“周末去行市集”。",
+    "exampleSentence": "海旁今個周末有市集，我哋去行下睇下有咩買。",
+    "category": "本地活动"
+  },
+  {
+    "id": "manual-culture-taan-dong",
+    "displayText": "攤檔",
+    "answerJyutping": "taan1 dong3",
+    "gloss": "摊位",
+    "notes": "市集、节庆和展会中临时设置的售卖或游戏档口。",
+    "usageTip": "找摊位时可说“佢個攤檔喺入口附近”。",
+    "exampleSentence": "呢個攤檔賣本地設計嘅明信片，幾得意。",
+    "category": "本地活动"
+  },
+  {
+    "id": "manual-culture-man-cong",
+    "displayText": "文創",
+    "answerJyutping": "man4 cong3",
+    "gloss": "文创；文化创意产品",
+    "notes": "“文化創意”的简称，常形容有设计感的本地商品或活动。",
+    "usageTip": "评价市集商品时可说“呢啲文創幾有心思”。",
+    "exampleSentence": "我想買件細文創做手信送畀朋友。",
+    "category": "本地活动"
+  },
+  {
+    "id": "manual-culture-sau-zok",
+    "displayText": "手作",
+    "answerJyutping": "sau2 zok3",
+    "gloss": "手作；手工制作",
+    "notes": "香港常指手工做的饰物、食品或作品，也可指自己动手制作。",
+    "usageTip": "报名课程时可问“呢個係唔係手作班？”",
+    "exampleSentence": "市集有個手作攤位，可以即場整皮革鎖匙扣。",
+    "category": "本地活动"
+  },
+  {
+    "id": "manual-culture-gung-zok-fong",
+    "displayText": "工作坊",
+    "answerJyutping": "gung1 zok3 fong1",
+    "gloss": "工作坊；体验课程",
+    "notes": "用于小组参与式学习或体验活动，艺术、烹饪和社区活动都常见。",
+    "usageTip": "想参与时可说“我報咗名上呢個工作坊”。",
+    "exampleSentence": "今次工作坊會教大家整傳統燈籠。",
+    "category": "本地活动"
+  },
+  {
+    "id": "manual-culture-hyuin-cyung-biu-jin",
+    "displayText": "現場表演",
+    "answerJyutping": "jin6 coeng4 biu2 jin2",
+    "gloss": "现场表演",
+    "notes": "指在观众面前即时进行的音乐、舞蹈或其他演出。",
+    "usageTip": "看活动介绍时可问“幾點開始現場表演？”",
+    "exampleSentence": "夜晚有現場表演，記得早啲去霸個好位。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-culture-ngok-deoi",
+    "displayText": "樂隊",
+    "answerJyutping": "ngok6 deoi6",
+    "gloss": "乐队",
+    "notes": "演奏流行、摇滚等音乐的组合；“樂”这里读 ngok6。",
+    "usageTip": "谈音乐会阵容时可说“我想睇嗰隊樂隊”。",
+    "exampleSentence": "壓軸嗰隊樂隊一出場，全場即刻好興奮。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-culture-jam-ngok-zit",
+    "displayText": "音樂節",
+    "answerJyutping": "jam1 ngok6 zit3",
+    "gloss": "音乐节",
+    "notes": "有多组音乐人或乐队轮流演出的节庆型活动。",
+    "usageTip": "约同伴前可先确认“你想唔想去音樂節？”",
+    "exampleSentence": "今年個音樂節喺戶外搞，記得帶遮同水。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-culture-jap-coeng-hyun",
+    "displayText": "入場券",
+    "answerJyutping": "jap6 coeng4 hyun3",
+    "gloss": "入场券",
+    "notes": "用于活动、展览或表演的入场凭证；可以是纸本或电子票。",
+    "usageTip": "进场前可说“我喺電話搵返張入場券先”。",
+    "exampleSentence": "呢個活動要預先登記，入場券會電郵畀你。",
+    "category": "本地活动"
+  },
+  {
+    "id": "manual-culture-jit-muk-biu",
+    "displayText": "節目表",
+    "answerJyutping": "zit3 muk6 biu2",
+    "gloss": "节目单；活动时间表",
+    "notes": "列出表演、讲座或活动顺序和时间的表单。",
+    "usageTip": "到场后先看“節目表”，方便安排时间。",
+    "exampleSentence": "節目表話八點半有抽獎，你唔好咁早走。",
+    "category": "本地活动"
+  },
+  {
+    "id": "manual-culture-da-kaa",
+    "displayText": "打卡",
+    "answerJyutping": "daa2 kaa1",
+    "gloss": "拍照分享；签到留念",
+    "notes": "现多指在有特色的地点拍照并分享到社交平台，不只指电子签到。",
+    "usageTip": "朋友间可说“呢度幾靚，打個卡先”。",
+    "exampleSentence": "呢幅壁畫係熱門打卡位，晏啲會好多人。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-leisure-coeng-k",
+    "displayText": "唱K",
+    "answerJyutping": "coeng3 kei1",
+    "gloss": "唱卡拉 OK",
+    "notes": "香港口语把 karaoke 简称为“唱K”，K 读 kei1。",
+    "usageTip": "约朋友可说“今晚去唔去唱K？”",
+    "exampleSentence": "我哋食完飯去唱K，順便幫阿嘉慶祝生日。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-k-fong",
+    "displayText": "K房",
+    "answerJyutping": "kei1 fong2",
+    "gloss": "卡拉 OK 房间",
+    "notes": "指唱卡拉 OK 的包厢；日常邀约中极常用。",
+    "usageTip": "预订时可说“我訂咗間K房，九點入場”。",
+    "exampleSentence": "呢間K房有大電視，十個人坐都唔迫。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-zoek-jau",
+    "displayText": "桌遊",
+    "answerJyutping": "zoek3 jau4",
+    "gloss": "桌上游戏",
+    "notes": "指在桌面进行的棋盘、卡牌等游戏，不是电脑游戏。",
+    "usageTip": "约局时可问“你想玩合作型定對戰型桌遊？”",
+    "exampleSentence": "雨落得好大，我哋留喺屋企玩桌遊算啦。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-leisure-mat-sat-tou-tyut",
+    "displayText": "密室逃脫",
+    "answerJyutping": "mat6 sat1 tou4 tyut3",
+    "gloss": "密室逃脱",
+    "notes": "多人合作解谜并在限定时间内完成任务的体验活动。",
+    "usageTip": "订场前要留意人数和主题难度。",
+    "exampleSentence": "我哋四個人訂咗密室逃脫，下晝兩點集合。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-leisure-gaap-gung-zai",
+    "displayText": "夾公仔",
+    "answerJyutping": "gaap3 gung1 zai2",
+    "gloss": "夹娃娃",
+    "notes": "“公仔”在粤语可指玩偶或玩具人偶，常用于夹物游戏机。",
+    "usageTip": "看到夹娃娃机时可说“我試下夾公仔”。",
+    "exampleSentence": "佢喺機舖夾公仔夾咗幾次，終於夾到一隻出嚟。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-gei-pou",
+    "displayText": "機舖",
+    "answerJyutping": "gei1 pou3",
+    "gloss": "电玩店；游戏机中心",
+    "notes": "香港口语指有街机、夹娃娃机等的游戏场所；“舖”读 pou3。",
+    "usageTip": "适合熟人闲聊，不必在正式文字中使用。",
+    "exampleSentence": "食完飯仲有時間，我哋去機舖玩兩鋪啦。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-hap-ziu",
+    "displayText": "合照",
+    "answerJyutping": "hap6 ziu3",
+    "gloss": "合影",
+    "notes": "多人一起拍照留念；比“合影”更贴近日常口语。",
+    "usageTip": "活动结束前可主动说“我哋影張合照先”。",
+    "exampleSentence": "散場之前，全班喺門口影咗張合照。",
+    "category": "朋友聚会"
+  },
+  {
+    "id": "manual-leisure-zeoi-sing",
+    "displayText": "追星",
+    "answerJyutping": "zeoi1 sing1",
+    "gloss": "追星；支持偶像",
+    "notes": "指关注艺人、乐队或偶像相关动态，不限于青少年语境。",
+    "usageTip": "谈兴趣时可说“佢最近好鍾意追星”。",
+    "exampleSentence": "我個朋友為咗追星，特登去睇佢個音樂會。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-jing-jyun",
+    "displayText": "應援",
+    "answerJyutping": "jing3 jyun4",
+    "gloss": "应援；为表演者加油支持",
+    "notes": "常指粉丝在演出现场以灯牌、口号等方式支持表演者。",
+    "usageTip": "参加前先了解场地规则，避免妨碍其他观众。",
+    "exampleSentence": "入場前派咗應援手燈，副歌嗰陣大家一齊舉高。",
+    "category": "休闲娱乐"
+  },
+  {
+    "id": "manual-leisure-cim-meng-wui",
+    "displayText": "簽名會",
+    "answerJyutping": "cim1 meng2 wui2",
+    "gloss": "签名会",
+    "notes": "艺人、作者或创作者与支持者见面并签名的活动。",
+    "usageTip": "查活动规则时留意是否要凭购买记录入场。",
+    "exampleSentence": "新書出咗之後，作者星期日會搞簽名會。",
+    "category": "文化活动"
+  }
+]

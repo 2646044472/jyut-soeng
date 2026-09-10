@@ -1,0 +1,702 @@
+[
+  {
+    "id": "manual-money-shopping-services-change",
+    "displayText": "找數",
+    "answerJyutping": "zaau2 sou3",
+    "gloss": "找回零钱",
+    "notes": "在店铺付款后，店员把应找的钱交回给客人时常用；这里的「數」读 sou3。",
+    "usageTip": "可直接请店员找零，也可问对方有没有找数。",
+    "exampleSentence": "我畀咗一百蚊，麻煩你找數。",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-payment-method",
+    "displayText": "付款方式",
+    "answerJyutping": "fu6 fun2 fong1 sik1",
+    "gloss": "付款方法",
+    "notes": "问店铺收不收现金、信用卡或电子支付时，用这个完整说法最清楚。",
+    "usageTip": "先问付款方式，可避免结账时才发现不接受某种支付。",
+    "exampleSentence": "請問你哋有咩付款方式？",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-e-wallet",
+    "displayText": "電子錢包",
+    "answerJyutping": "din6 zi2 cin2 baau1",
+    "gloss": "电子钱包",
+    "notes": "指手机内可用于付款的支付应用；「錢」在这里读 cin2，不读普通话音。",
+    "usageTip": "可配合具体平台名称说，例如「我用電子錢包畀」。",
+    "exampleSentence": "我部電話冇電，可唔可以唔用電子錢包？",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-tap-card",
+    "displayText": "拍卡",
+    "answerJyutping": "paak3 kaat1",
+    "gloss": "感应刷卡付款",
+    "notes": "粤语口语常把轻触感应付款说成「拍卡」，动作感比「感应付款」更自然。",
+    "usageTip": "在收银台把卡贴近终端时可说「我拍卡」。",
+    "exampleSentence": "呢度拍卡得唔得？",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-fps",
+    "displayText": "轉數快",
+    "answerJyutping": "zyun2 sou3 faai3",
+    "gloss": "香港快速支付系统 FPS",
+    "notes": "香港日常转账常用名称；三个字都要清楚，尤其「轉」读 zyun2。",
+    "usageTip": "转账前通常会核对收款人姓名和手机号码。",
+    "exampleSentence": "你畀個電話號碼我，我用轉數快過畀你。",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-online-transfer",
+    "displayText": "網上過數",
+    "answerJyutping": "mong5 soeng6 gwo3 sou3",
+    "gloss": "网上转账",
+    "notes": "「過數」指把钱转到另一个账户；加上「網上」可明确不是柜台办理。",
+    "usageTip": "多用于朋友之间结算、支付账单或把款项转给商户。",
+    "exampleSentence": "我今晚網上過數畀你，轉完再通知你。",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-cash-deposit",
+    "displayText": "入錢",
+    "answerJyutping": "jap6 cin2",
+    "gloss": "存入现金",
+    "notes": "口语里可指把现金存进户口；正式表格上较常见「存款」。",
+    "usageTip": "在银行或存款机前说明目的时，说「我想入錢」很自然。",
+    "exampleSentence": "我想入錢去自己個戶口，部機喺邊？",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-atm",
+    "displayText": "櫃員機",
+    "answerJyutping": "gwai6 jyun4 gei1",
+    "gloss": "自动柜员机 ATM",
+    "notes": "完整说法是「自動櫃員機」，日常多简称「櫃員機」。",
+    "usageTip": "问路或说明办事地点时，用这个简称最常听到。",
+    "exampleSentence": "附近有冇櫃員機可以撳錢？",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-withdraw-cash",
+    "displayText": "提款",
+    "answerJyutping": "tai4 fun2",
+    "gloss": "取款",
+    "notes": "「提」在这个词读 tai4；常和「櫃員機」或「每日限額」一起出现。",
+    "usageTip": "可说「提款限額」来问一天最多可取多少钱。",
+    "exampleSentence": "我張卡今日提款限額仲有幾多？",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-enter-pin",
+    "displayText": "撳密碼",
+    "answerJyutping": "gam6 mat6 maa5",
+    "gloss": "输入密码",
+    "notes": "「撳」是按、按下的口语常用字；付款终端和柜员机都常听到。",
+    "usageTip": "提醒别人操作时可说「你自己撳密碼」。",
+    "exampleSentence": "拍完卡之後，請你喺度撳密碼。",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-balance",
+    "displayText": "餘額",
+    "answerJyutping": "jyu4 ngaak6",
+    "gloss": "账户余额",
+    "notes": "「餘額」适合看账户、礼品卡或储值卡剩余金额；「額」读 ngaak6。",
+    "usageTip": "查询前可说明是哪一种卡或哪个户口的余额。",
+    "exampleSentence": "我想查吓張儲值卡仲有幾多餘額。",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-monthly-statement",
+    "displayText": "月結單",
+    "answerJyutping": "jyut6 git3 daan1",
+    "gloss": "月结单",
+    "notes": "信用卡、银行和电话服务都会发出月结单；「結」在这里读 git3。",
+    "usageTip": "没有收到时，可向客服要求重发电子月结单。",
+    "exampleSentence": "我今個月收唔到月結單，可唔可以電郵返畀我？",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-handling-fee",
+    "displayText": "手續費",
+    "answerJyutping": "sau2 zuk6 fai3",
+    "gloss": "手续费",
+    "notes": "转账、换汇、提前还款或某些服务可能另收手續費。",
+    "usageTip": "付款前先问清楚是否另收手續費，避免总额超出预算。",
+    "exampleSentence": "用信用卡畀錢會唔會收手續費？",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-security-deposit",
+    "displayText": "按金",
+    "answerJyutping": "on3 gam1",
+    "gloss": "押金",
+    "notes": "租用物品、订场或入住时交的可退保证金，粤语常说「按金」。",
+    "usageTip": "要问清按金何时退回，以及扣除损坏费用的条件。",
+    "exampleSentence": "租呢部機要畀幾多按金？",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-deposit",
+    "displayText": "訂金",
+    "answerJyutping": "ding6 gam1",
+    "gloss": "订金",
+    "notes": "为预留商品、座位或服务而先付的一笔钱；不一定可退。",
+    "usageTip": "交訂金前可追问取消后能否退回或转作其他消费。",
+    "exampleSentence": "訂造之前要先畀一半訂金。",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-final-balance",
+    "displayText": "尾數",
+    "answerJyutping": "mei5 sou3",
+    "gloss": "尾款，余下款项",
+    "notes": "已经付过订金后，剩下要结清的金额叫「尾數」。",
+    "usageTip": "送货、完工或取货前，商户常会提醒顾客支付尾數。",
+    "exampleSentence": "師傅整好之後，我再畀埋尾數。",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-refund-arrangement",
+    "displayText": "退款安排",
+    "answerJyutping": "teoi3 fun2 on1 paai4",
+    "gloss": "退款安排",
+    "notes": "比单说「退款」更具体，适合追问退回渠道、时间和所需资料。",
+    "usageTip": "售后沟通时可先报订单编号，再询问退款安排。",
+    "exampleSentence": "呢張單嘅退款安排係點？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-return-money",
+    "displayText": "退錢",
+    "answerJyutping": "teoi3 cin2",
+    "gloss": "退钱",
+    "notes": "较口语，指商户把款项退回给顾客；正式沟通可改说「退款」。",
+    "usageTip": "日常询问可直接说「幾時退錢畀我」。",
+    "exampleSentence": "如果冇貨，幾時會退錢畀我？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-installments",
+    "displayText": "分期",
+    "answerJyutping": "fan1 kei4",
+    "gloss": "分期付款",
+    "notes": "口语常省略「付款」二字；需留意是否免息及有没有行政费。",
+    "usageTip": "问价时可说「呢件可唔可以分期」。",
+    "exampleSentence": "呢部電話可唔可以分期買？",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-repayment",
+    "displayText": "還款",
+    "answerJyutping": "waan4 fun2",
+    "gloss": "还款",
+    "notes": "用于信用卡、贷款或先买后付服务；「還」在这里读 waan4。",
+    "usageTip": "设置自动还款前，先确认扣账日期和户口余额。",
+    "exampleSentence": "我想改信用卡還款日，應該點做？",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-expiry-date",
+    "displayText": "到期日",
+    "answerJyutping": "dou3 kei4 jat6",
+    "gloss": "到期日期",
+    "notes": "可指账单、会员资格、优惠券或信用卡的最后有效日期。",
+    "usageTip": "处理缴费或续约时，说出到期日比只说「快到期」更准确。",
+    "exampleSentence": "呢張優惠券嘅到期日係幾時？",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-replace-card",
+    "displayText": "補卡",
+    "answerJyutping": "bou2 kaat1",
+    "gloss": "补办卡",
+    "notes": "银行卡、会员卡或交通卡遗失、损坏后申请新卡，口语常说「補卡」。",
+    "usageTip": "报失后要问新卡领取方式、所需证明和费用。",
+    "exampleSentence": "我張銀行卡壞咗，想問點樣補卡。",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-report-loss",
+    "displayText": "掛失",
+    "answerJyutping": "gwaa3 sat1",
+    "gloss": "挂失，报失",
+    "notes": "用于银行卡、证件或储值卡不见后要求停止使用；「掛」读 gwaa3。",
+    "usageTip": "先掛失可减少被盗用风险，之后再安排補卡。",
+    "exampleSentence": "我唔見咗張卡，想即刻掛失。",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-freeze-account",
+    "displayText": "凍結戶口",
+    "answerJyutping": "dung3 git3 wu6 hau2",
+    "gloss": "冻结账户",
+    "notes": "账户疑似被盗用或暂不想使用时，可要求银行凍結戶口。",
+    "usageTip": "这项操作影响提款和付款，应先问清恢复手续。",
+    "exampleSentence": "我懷疑有人登入過，想凍結戶口先。",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-auto-transfer",
+    "displayText": "自動轉賬",
+    "answerJyutping": "zi6 dung6 zyun2 zoeng3",
+    "gloss": "自动转账",
+    "notes": "银行按固定日期从户口划款的服务，常用于交租、保险或账单。",
+    "usageTip": "登记前确认收款机构、扣账日及取消方法。",
+    "exampleSentence": "我想用自動轉賬交保費，點樣登記？",
+    "category": "付款与银行"
+  },
+  {
+    "id": "manual-money-shopping-services-fitting-room",
+    "displayText": "試身間",
+    "answerJyutping": "ci3 san1 gaan1",
+    "gloss": "试衣间",
+    "notes": "「試身」是试穿衣服的口语说法；有些店写作「試身室」，日常也可说「試身間」。",
+    "usageTip": "先问店员试身间在哪里，或问可不可以带几件衣服进去。",
+    "exampleSentence": "請問試身間喺邊度？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-size",
+    "displayText": "尺碼",
+    "answerJyutping": "cek3 maa5",
+    "gloss": "尺码",
+    "notes": "买衣服、鞋或家居用品时常用；「尺」读 cek3。",
+    "usageTip": "问店员时可把款式和尺码一起说，例如「呢款有冇細一個尺碼」。",
+    "exampleSentence": "呢對鞋有冇大半個尺碼？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-size-out-of-stock",
+    "displayText": "斷碼",
+    "answerJyutping": "dyun6 maa5",
+    "gloss": "缺少某些尺码",
+    "notes": "服装和鞋店说「斷碼」表示某些尺寸卖完，并非整款全部没货。",
+    "usageTip": "可追问哪一个尺码断码，或是否会补货。",
+    "exampleSentence": "呢款而家斷碼，淨係剩返大碼。",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-in-stock",
+    "displayText": "現貨",
+    "answerJyutping": "jin6 fo3",
+    "gloss": "现货，可即时取货",
+    "notes": "指商品已在店或仓库，不用等待预订或调货。",
+    "usageTip": "线上购物前可问「係咪現貨」，确认能否尽快自取或送货。",
+    "exampleSentence": "呢個顏色係咪有現貨？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-out-of-stock",
+    "displayText": "缺貨",
+    "answerJyutping": "kyut3 fo3",
+    "gloss": "缺货",
+    "notes": "表示商品暂时没有库存；和「斷碼」不同，缺貨可指整款都没有。",
+    "usageTip": "询问补货时，最好顺便问预计日期和能否留货。",
+    "exampleSentence": "呢款而家缺貨，幾時先會返貨？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-restock",
+    "displayText": "補貨",
+    "answerJyutping": "bou2 fo3",
+    "gloss": "补货",
+    "notes": "店铺把卖完或不足的货补回来叫「補貨」，也可问商户何时补货。",
+    "usageTip": "想买的商品没有库存时，用「幾時補貨」比「有冇」更有针对性。",
+    "exampleSentence": "呢隻色幾時會補貨？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-preorder",
+    "displayText": "預訂",
+    "answerJyutping": "jyu6 ding6",
+    "gloss": "预订",
+    "notes": "商品未到货或名额有限时，可先預訂；「訂」读 ding6。",
+    "usageTip": "预订前要确认预计到货日、订金和取消条件。",
+    "exampleSentence": "我想預訂下一批，幾時到貨？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-promo-code",
+    "displayText": "優惠碼",
+    "answerJyutping": "jau2 wai6 maa5",
+    "gloss": "优惠码",
+    "notes": "网上结账时输入的折扣代码，和实体优惠券的用法不同。",
+    "usageTip": "结账前可问客服优惠码是否可与其他优惠同时使用。",
+    "exampleSentence": "我有個優惠碼，喺邊度輸入？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-net-price",
+    "displayText": "折實",
+    "answerJyutping": "zit3 sat6",
+    "gloss": "折后实价",
+    "notes": "香港零售常说「折實幾多」，指所有折扣后实际要付的价钱。",
+    "usageTip": "面对多重优惠时，用它确认最终付款额最直接。",
+    "exampleSentence": "扣埋會員優惠，折實要幾多錢？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-exchange-procedure",
+    "displayText": "換貨手續",
+    "answerJyutping": "wun6 fo3 sau2 zuk6",
+    "gloss": "换货手续",
+    "notes": "指办理换货所需的收据、包装和时限等要求；比单说「換貨」更完整。",
+    "usageTip": "带着商品到店前，先问换货手续和是否需要预约。",
+    "exampleSentence": "呢件衫大咗，換貨手續要點辦？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-warranty-period",
+    "displayText": "保養期",
+    "answerJyutping": "bou2 joeng5 kei4",
+    "gloss": "保修期",
+    "notes": "电器、手表和维修服务常有保養期；「養」读 joeng5。",
+    "usageTip": "购买时记下保養期从购买日、送货日还是安装日开始算。",
+    "exampleSentence": "呢部機嘅保養期有幾耐？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-inspect-goods",
+    "displayText": "驗貨",
+    "answerJyutping": "jim6 fo3",
+    "gloss": "验货，检查货物",
+    "notes": "收到贵重、易碎或尺寸重要的商品时，先驗貨再签收更稳妥。",
+    "usageTip": "送货员在场时可礼貌说「我想驗貨先」。",
+    "exampleSentence": "可唔可以拆開嚟驗貨先？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-receive-goods",
+    "displayText": "收貨",
+    "answerJyutping": "sau1 fo3",
+    "gloss": "收货，接收包裹",
+    "notes": "指签收或实际收到网购商品；不要和「收錢」混淆。",
+    "usageTip": "无法在家等送货时，可约定别人代收或改期收货。",
+    "exampleSentence": "聽日下晝有人喺屋企收貨。",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-goods-not-as-described",
+    "displayText": "貨不對辦",
+    "answerJyutping": "fo3 bat1 deoi3 baan6",
+    "gloss": "货物与描述不符",
+    "notes": "常用于投诉，表示收到的货品与订单、照片或承诺的规格不一致。",
+    "usageTip": "投诉时附上订单、照片和具体差异，沟通会更有效。",
+    "exampleSentence": "我收到嗰件貨不對辦，想申請退貨。",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-reship",
+    "displayText": "補發",
+    "answerJyutping": "bou2 faat3",
+    "gloss": "补发，重新寄送",
+    "notes": "漏寄、寄错或运输遗失后，商户重新发货可说「補發」。",
+    "usageTip": "要求补发时，先确认会补发哪一项和新的追踪编号。",
+    "exampleSentence": "漏咗嗰件配件，可唔可以幫我補發？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-after-sales-followup",
+    "displayText": "售後跟進",
+    "answerJyutping": "sau6 hau6 gan1 zeon3",
+    "gloss": "售后跟进",
+    "notes": "商户持续处理维修、退换或投诉进度时，用「售後跟進」很合适。",
+    "usageTip": "联系商户时，可要求对方说明谁负责售後跟進及何时回复。",
+    "exampleSentence": "麻煩你幫我做售後跟進，有消息再覆我。",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-repair-ticket",
+    "displayText": "維修單",
+    "answerJyutping": "wai4 sau1 daan1",
+    "gloss": "维修单",
+    "notes": "送修时开立的文件，通常载有故障、日期和取回凭证。",
+    "usageTip": "保留維修單，查询进度或领取物品时通常都要出示。",
+    "exampleSentence": "我唔見咗張維修單，仲可唔可以攞返部機？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-report-repair",
+    "displayText": "報修",
+    "answerJyutping": "bou3 sau1",
+    "gloss": "报修",
+    "notes": "家电、网络、门锁或大厦设施故障时，向服务方登记维修叫「報修」。",
+    "usageTip": "报修时先说故障位置、何时开始和是否影响安全。",
+    "exampleSentence": "冷氣唔凍，我想報修。",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-home-repair",
+    "displayText": "上門維修",
+    "answerJyutping": "soeng6 mun4 wai4 sau1",
+    "gloss": "上门维修",
+    "notes": "师傅到住址或办公室处理故障，称为「上門維修」。",
+    "usageTip": "预约时说明地址、可上门的时段及大厦登记要求。",
+    "exampleSentence": "你哋有冇上門維修服務？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-order-number",
+    "displayText": "訂單編號",
+    "answerJyutping": "ding6 daan1 pin1 hou6",
+    "gloss": "订单编号",
+    "notes": "查询物流、退货或售后时最常需要提供的资料；「編」读 pin1。",
+    "usageTip": "联系客服前先准备订單編號，能缩短核实时间。",
+    "exampleSentence": "我個訂單編號係喺邊度睇？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-customer-service-hotline",
+    "displayText": "客服專線",
+    "answerJyutping": "haak3 fuk6 zyun1 sin3",
+    "gloss": "客服热线",
+    "notes": "「專線」表示专门处理某类事务的电话线路，适合查询或投诉。",
+    "usageTip": "打客服專線前写下重点问题和订单资料，较不容易遗漏。",
+    "exampleSentence": "我打咗客服專線，但一直未有人聽。",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-pickup-notification",
+    "displayText": "取貨通知",
+    "answerJyutping": "ceoi2 fo3 tung1 zi1",
+    "gloss": "取货通知",
+    "notes": "商户或自取点通知商品已可领取的讯息；「取」读 ceoi2。",
+    "usageTip": "收到后留意领取地点、截止日期和需要的二维码。",
+    "exampleSentence": "我未收到取貨通知，係咪仲未到？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-return-deadline",
+    "displayText": "退貨期限",
+    "answerJyutping": "teoi3 fo3 kei4 haan6",
+    "gloss": "退货期限",
+    "notes": "商户容许申请或寄回退货的最后日期，不同于退款到账时间。",
+    "usageTip": "网购后尽早检查商品，避免超过退貨期限。",
+    "exampleSentence": "請問退貨期限係由收貨嗰日開始計嗎？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-shipping-fee",
+    "displayText": "運費",
+    "answerJyutping": "wan6 fai3",
+    "gloss": "运费",
+    "notes": "网购、寄件和大件送货的运输费用都叫「運費」。",
+    "usageTip": "下单前问清运费是否已包括偏远地区、上楼或附加服务。",
+    "exampleSentence": "送去我屋企要另外收運費嗎？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-self-pickup-locker",
+    "displayText": "自取櫃",
+    "answerJyutping": "zi6 ceoi2 gwai6",
+    "gloss": "自助取件柜",
+    "notes": "包裹放在可自行开柜领取的设施，常见于屋苑、车站或商场。",
+    "usageTip": "取件前确认取货码、可领取时间和柜门位置。",
+    "exampleSentence": "我揀咗送去自取櫃，放入咗未？",
+    "category": "购物与售后"
+  },
+  {
+    "id": "manual-money-shopping-services-bill-slip",
+    "displayText": "繳費單",
+    "answerJyutping": "giu2 fai3 daan1",
+    "gloss": "缴费单",
+    "notes": "水电煤、管理费或政府服务常会附上繳費單；「繳」读 giu2。",
+    "usageTip": "付款前先核对账户号码、金额和最后缴费日期。",
+    "exampleSentence": "我想用便利店交呢張繳費單。",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-auto-pay",
+    "displayText": "自動繳費",
+    "answerJyutping": "zi6 dung6 giu2 fai3",
+    "gloss": "自动缴费",
+    "notes": "服务机构按期自动收取费用，可避免忘记交单但要留意余额。",
+    "usageTip": "开通后保留确认记录，并在不再使用服务时主动取消。",
+    "exampleSentence": "電話費我已經設咗自動繳費。",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-service-charge",
+    "displayText": "服務費",
+    "answerJyutping": "fuk6 mou6 fai3",
+    "gloss": "服务费",
+    "notes": "餐饮、代办或维修报价中额外收取的服务费用；不一定等同小费。",
+    "usageTip": "结账前可问价钱是否已包括服務費。",
+    "exampleSentence": "張單上面嘅服務費可唔可以取消？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-number-ticket",
+    "displayText": "號碼牌",
+    "answerJyutping": "hou6 maa5 paai4",
+    "gloss": "号码牌，叫号牌",
+    "notes": "银行、诊所和政府柜台常用来按号码等候；「牌」读 paai4。",
+    "usageTip": "取到后留意屏幕或广播，过号通常要重新取票。",
+    "exampleSentence": "我攞咗號碼牌，仲有幾多個先到我？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-take-queue-ticket",
+    "displayText": "取籌",
+    "answerJyutping": "ceoi2 cau4",
+    "gloss": "取号排队",
+    "notes": "「籌」本指筹号，餐厅、银行和热门服务柜台都常说「取籌」。",
+    "usageTip": "问店员能否先取筹，之后到附近等候，是很自然的说法。",
+    "exampleSentence": "食飯要唔要先取籌？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-appointment-slot",
+    "displayText": "預約時段",
+    "answerJyutping": "jyu6 joek3 si4 dyun6",
+    "gloss": "预约时段",
+    "notes": "不是单指日期，而是已安排的具体时间范围，例如下午两点到四点。",
+    "usageTip": "等候服务时，说出预約時段方便对方核对记录。",
+    "exampleSentence": "我嘅預約時段係聽日上午十點至十二點。",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-change-appointment",
+    "displayText": "更改預約",
+    "answerJyutping": "gang1 goi2 jyu6 joek3",
+    "gloss": "更改预约",
+    "notes": "比只说「改時間」更完整，适合联系诊所、维修或服务中心。",
+    "usageTip": "先报预约资料，再提出更改预约和可接受的新时段。",
+    "exampleSentence": "我想更改預約，改到下星期得唔得？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-cancel-appointment",
+    "displayText": "取消預約",
+    "answerJyutping": "ceoi2 siu1 jyu6 joek3",
+    "gloss": "取消预约",
+    "notes": "不能赴约时应尽早通知，以免被收取缺席费或占用名额。",
+    "usageTip": "取消时可先道歉，并确认有没有取消预約的期限。",
+    "exampleSentence": "我今日去唔到，想取消預約。",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-home-pickup",
+    "displayText": "上門取件",
+    "answerJyutping": "soeng6 mun4 ceoi2 gin6",
+    "gloss": "上门取件",
+    "notes": "快递、洗衣或维修服务到地址收走物品，常称「上門取件」。",
+    "usageTip": "安排前说明物品数量、地址、电梯情况和可等候时段。",
+    "exampleSentence": "你哋可唔可以安排聽日上門取件？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-laundromat",
+    "displayText": "洗衣店",
+    "answerJyutping": "sai2 ji1 dim3",
+    "gloss": "洗衣店",
+    "notes": "交给店家清洗、熨烫或烘干衣物的店铺；不是自助洗衣房的专称。",
+    "usageTip": "交件时说明污渍位置、衣物材质及希望何时取回。",
+    "exampleSentence": "呢件褸可唔可以拎去洗衣店洗？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-dry-clean",
+    "displayText": "乾洗",
+    "answerJyutping": "gon1 sai2",
+    "gloss": "干洗",
+    "notes": "不以水洗方式处理西装、羊毛或特别面料，粤语日常直接说「乾洗」。",
+    "usageTip": "交给店员时要说明衣物材质和污渍位置，并问取件日期。",
+    "exampleSentence": "呢件西裝要乾洗，大概幾時拎得？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-parking-fee",
+    "displayText": "停車費",
+    "answerJyutping": "ting4 ce1 fai3",
+    "gloss": "停车费",
+    "notes": "商场、屋苑和停车场按时或按次收取的费用，常见于缴费机提示。",
+    "usageTip": "离场前可问有没有消费泊车优惠或缴费宽限期。",
+    "exampleSentence": "我想問停車費可以用八達通畀嗎？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-parking-space",
+    "displayText": "泊車位",
+    "answerJyutping": "paak3 ce1 wai2",
+    "gloss": "停车位",
+    "notes": "香港口语多用「泊車」表示停车；「泊車位」指可停放车辆的位置。",
+    "usageTip": "到场前可确认有没有空的泊車位，以及是否需要预留。",
+    "exampleSentence": "附近有冇泊車位可以泊一陣？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-replace-parts",
+    "displayText": "更換零件",
+    "answerJyutping": "gang1 wun6 ling4 gin6",
+    "gloss": "更换零件",
+    "notes": "维修报价中常见，表示问题需要以新零件替换旧零件。",
+    "usageTip": "同意前应问清更換零件是否原厂、价格及保养安排。",
+    "exampleSentence": "師傅話要更換零件，報價幾多？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-quotation",
+    "displayText": "報價",
+    "answerJyutping": "bou3 gaa3",
+    "gloss": "报价",
+    "notes": "商户在未开始服务前列出预计费用，既可作名词也可作动词。",
+    "usageTip": "要求報價时，可明确问是否包括上门、材料和服务费。",
+    "exampleSentence": "可唔可以先報價，我考慮吓先？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-quotation-validity",
+    "displayText": "報價有效期",
+    "answerJyutping": "bou3 gaa3 jau5 haau6 kei4",
+    "gloss": "报价有效期",
+    "notes": "报价不一定长期有效；过了有效期，材料或人工价格可能改变。",
+    "usageTip": "比较服务商时，同时记下价格和報價有效期。",
+    "exampleSentence": "呢份報價有效期去到幾時？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-repair-fee",
+    "displayText": "修理費",
+    "answerJyutping": "sau1 lei5 fai3",
+    "gloss": "维修费",
+    "notes": "实际修理所收费用；有些服务即使不修好也会收检查费，要先问清。",
+    "usageTip": "可询问修理費是否包含检测、零件和上门费用。",
+    "exampleSentence": "如果整唔到，仲使唔使畀修理費？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-renew-contract",
+    "displayText": "續約",
+    "answerJyutping": "zuk6 joek3",
+    "gloss": "续约",
+    "notes": "电话、网络、租赁和会员服务合约到期后继续使用，常说「續約」。",
+    "usageTip": "续约前比较新月费、合约期和提前取消的条件。",
+    "exampleSentence": "我份合約就到期，想問續約有咩優惠。",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-terminate-contract",
+    "displayText": "解約",
+    "answerJyutping": "gaai2 joek3",
+    "gloss": "解约，终止合约",
+    "notes": "正式结束仍在有效期内的服务合约；可能涉及通知期或违约费用。",
+    "usageTip": "提出解約时，先要求对方说明生效日期和所有未结费用。",
+    "exampleSentence": "我想解約，仲要畀幾多手續費？",
+    "category": "生活服务"
+  },
+  {
+    "id": "manual-money-shopping-services-renewal-fee",
+    "displayText": "續費",
+    "answerJyutping": "zuk6 fai3",
+    "gloss": "续费",
+    "notes": "为延长会员、软件、停车或其他服务的有效期而再付款。",
+    "usageTip": "续费前先确认新收费周期，避免系统自动续费。",
+    "exampleSentence": "我唔想自動續費，到期前會自己處理。",
+    "category": "生活服务"
+  }
+]

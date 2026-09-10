@@ -1,0 +1,702 @@
+[
+  {
+    "id": "food-lok6-daan1",
+    "displayText": "落單",
+    "answerJyutping": "lok6 daan1",
+    "gloss": "把想吃的食物和饮品正式告诉店员，下订单",
+    "notes": "lok6 是入声，k 尾要短收；daan1 保持平稳，唔好读成普通话式落单。",
+    "usageTip": "茶餐厅、酒楼和快餐店都常用；通常先睇餐牌，再同伙记落單。",
+    "exampleSentence": "你諗好未？我哋而家可以落單。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-giu3-sung3",
+    "displayText": "叫餸",
+    "answerJyutping": "giu3 sung3",
+    "gloss": "在饭店点菜，特别指点一道道菜来配饭",
+    "notes": "giu3 的 iu 要连顺；sung3 是去声，ng 尾要收实。",
+    "usageTip": "比单说「點菜」更有粤语口语感，家庭聚餐时很常听到。",
+    "exampleSentence": "今晚咁多人，不如叫餸食飯。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-lei6-paai4",
+    "displayText": "例牌",
+    "answerJyutping": "lei6 paai4",
+    "gloss": "餐厅平日固定供应、最常见的常规菜式或套餐",
+    "notes": "lei6 的 ei 要清楚；paai4 声调上扬，唔好同「牌」读成平声混淆。",
+    "usageTip": "问店员有咩例牌，通常是想知道不用预订也能点到的选择。",
+    "exampleSentence": "呢間舖嘅例牌係叉燒煎蛋飯。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-ng5-caan1-juk6",
+    "displayText": "午餐肉",
+    "answerJyutping": "ng5 caan1 juk6",
+    "gloss": "罐装调味肉制品，常见于公仔面、三文治和早餐",
+    "notes": "ng5 是自成音节的鼻音，要先发 ng；juk6 收 k 尾，唔好拖长。",
+    "usageTip": "在茶餐厅常跟蛋、面或饭搭配；点餐时可说明想煎香一点。",
+    "exampleSentence": "我想要個午餐肉煎蛋公仔麵。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-zin1-daan6",
+    "displayText": "煎蛋",
+    "answerJyutping": "zin1 daan6",
+    "gloss": "用平底锅煎熟的鸡蛋，可做成全熟或流心",
+    "notes": "zin1 的 i 短而清；daan6 是阳去声，尾音稳住。",
+    "usageTip": "早餐和碟头饭常见；想指定熟度可接「要熟啲」或「要流心」。",
+    "exampleSentence": "碟頭飯可唔可以轉做煎蛋？",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-caau2-daan6",
+    "displayText": "炒蛋",
+    "answerJyutping": "caau2 daan6",
+    "gloss": "把打散的鸡蛋在锅中炒熟，口感通常较嫩滑",
+    "notes": "caau2 的 aa 要打开；daan6 读低去，唔好同 daan1 混。",
+    "usageTip": "想吃软嫩蛋口感时会点；也常配叉烧、牛肉或多士。",
+    "exampleSentence": "呢份炒蛋夠嫩，配多士啱啱好。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-ho4-baau1-daan6",
+    "displayText": "荷包蛋",
+    "answerJyutping": "ho4 baau1 daan6",
+    "gloss": "整只鸡蛋下锅煎熟、蛋黄仍完整的煎蛋",
+    "notes": "ho4 的 o 较圆；baau1 的 au 要饱满，daan6 低去清楚。",
+    "usageTip": "常用于早餐和即食面；若想蛋黄流心，可额外说明「唔好煎太熟」。",
+    "exampleSentence": "我碗麵想加隻荷包蛋。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-taai3-joeng4-daan6",
+    "displayText": "太陽蛋",
+    "answerJyutping": "taai3 joeng4 daan6",
+    "gloss": "蛋白煎熟而蛋黄朝上的荷包蛋，外形像太阳",
+    "notes": "taai3 的 ai 要拉开；joeng4 的 oe 音圆唇，ng 尾收好。",
+    "usageTip": "菜单上常用来指太阳蛋式煎蛋；通常默认蛋黄会较流。",
+    "exampleSentence": "早餐想要太陽蛋，蛋黃唔好熟晒。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-jim2-lit6",
+    "displayText": "奄列",
+    "answerJyutping": "jim2 lit6",
+    "gloss": "把蛋液包着火腿、芝士或蔬菜煎成的蛋卷",
+    "notes": "jim2 的 m 尾要合唇；lit6 是入声，t 尾短促。",
+    "usageTip": "茶餐厅早餐常见，里面的馅料可因店而异；比「蛋卷」更贴近日常菜单说法。",
+    "exampleSentence": "我想食火腿芝士奄列配多士。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-saam1-man4-zi6",
+    "displayText": "三文治",
+    "answerJyutping": "saam1 man4 zi6",
+    "gloss": "两片或多片面包夹着肉、蛋、芝士等馅料的食物",
+    "notes": "saam1 收 m 尾；man4 要读阳平；zi6 是去声，唔好读成普通话式三明治。",
+    "usageTip": "香港茶餐厅常按馅料叫，例如「餐肉蛋三文治」；可问是否烘底。",
+    "exampleSentence": "幫我叫個餐肉蛋三文治。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-do1-si2",
+    "displayText": "多士",
+    "answerJyutping": "do1 si2",
+    "gloss": "烘过的面包片，通常配牛油、果酱或早餐食用",
+    "notes": "do1 的 o 要圆；si2 是上声，音高上扬，唔好读成 si1。",
+    "usageTip": "可说「烘底」表示烘得香脆；茶餐厅早餐配蛋和饮品很普遍。",
+    "exampleSentence": "份早餐可唔可以轉多士？",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-bo1-lo4-baau1",
+    "displayText": "菠蘿包",
+    "answerJyutping": "bo1 lo4 baau1",
+    "gloss": "表面有酥皮纹路的甜面包，名称虽有菠萝但通常不含菠萝",
+    "notes": "bo1 是高平；lo4 要上扬；baau1 的 au 保持完整。",
+    "usageTip": "新鲜出炉时最受欢迎；想吃经典搭配可点「菠蘿包加牛油」。",
+    "exampleSentence": "呢個菠蘿包啱啱出爐，仲暖㗎。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-caan1-daan6-min6",
+    "displayText": "餐蛋麵",
+    "answerJyutping": "caan1 daan6 min6",
+    "gloss": "午餐肉和鸡蛋配即食面的港式常见早餐或茶餐厅食品",
+    "notes": "caan1 收 n 尾；daan6 低去；min6 的 i 短，n 尾收实。",
+    "usageTip": "是「午餐肉煎蛋公仔麵」的常用简称；点时可指定饮品或蛋的熟度。",
+    "exampleSentence": "朝早食餐蛋麵夠晒飽肚。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-gung1-zai2-min6",
+    "displayText": "公仔麵",
+    "answerJyutping": "gung1 zai2 min6",
+    "gloss": "即食面；在茶餐厅通常会煮后配肉类和鸡蛋",
+    "notes": "gung1 收 ng 尾；zai2 上声要起；min6 结尾 n 要清。",
+    "usageTip": "除在家煮外，茶餐厅也很常用这个词；不要误作普通话的「方便面」。",
+    "exampleSentence": "佢淨係想食個公仔麵，唔使加餸。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-ceot1-cin4-jat1-ding1",
+    "displayText": "出前一丁",
+    "answerJyutping": "ceot1 cin4 jat1 ding1",
+    "gloss": "一个常见即食面品牌名称，也常被当作这类面饼的叫法",
+    "notes": "ceot1 和 jat1 都是入声，尾音短；cin4 与 ding1 的 n、ng 尾要分清。",
+    "usageTip": "在餐厅说这个通常是在指定面种；不是所有即食面都可叫出前一丁。",
+    "exampleSentence": "我想要出前一丁，唔要公仔麵。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-jyu2-daan2",
+    "displayText": "魚蛋",
+    "answerJyutping": "jyu2 daan2",
+    "gloss": "把鱼肉打成浆制成的圆丸，可串烧、煮汤或配粉面",
+    "notes": "jyu2 要圆唇；daan2 上声上扬，唔好同 daan6 的「蛋」混读。",
+    "usageTip": "街头小食和粉面铺都常见；若指咖喱鱼蛋，通常会直接加「咖喱」。",
+    "exampleSentence": "放學後我想買串魚蛋食。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-siu1-maai2",
+    "displayText": "燒賣",
+    "answerJyutping": "siu1 maai2",
+    "gloss": "一种以肉馅包在薄皮中的蒸点心，也是常见街头小食",
+    "notes": "siu1 的 iu 连读；maai2 的 aa 要开阔，尾音上扬。",
+    "usageTip": "酒楼饮茶和街边小食店都可点；通常按笼或按串计算。",
+    "exampleSentence": "飲茶嗰陣我哋叫咗籠燒賣。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-coeng4-fan2",
+    "displayText": "腸粉",
+    "answerJyutping": "coeng4 fan2",
+    "gloss": "把米浆蒸成薄皮后卷起的食物，可配酱油、芝麻酱或馅料",
+    "notes": "coeng4 的 oe 要圆唇，ng 尾收实；fan2 的 n 尾清楚。",
+    "usageTip": "早餐店、点心铺常见；可按馅料说「牛肉腸粉」或「齋腸粉」。",
+    "exampleSentence": "我要碟齋腸粉，多啲甜醬。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-haa1-gaau2",
+    "displayText": "蝦餃",
+    "answerJyutping": "haa1 gaau2",
+    "gloss": "以虾肉为主要馅料、外皮半透明的蒸点心",
+    "notes": "haa1 的 aa 拉开；gaau2 的 au 要完整，二声上扬。",
+    "usageTip": "酒楼饮茶的经典点心；可用「一籠蝦餃」点一笼。",
+    "exampleSentence": "呢籠蝦餃啲蝦肉幾爽口。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-caa1-siu1-baau1",
+    "displayText": "叉燒包",
+    "answerJyutping": "caa1 siu1 baau1",
+    "gloss": "包着甜咸叉烧馅的蒸包，是常见粤式点心",
+    "notes": "caa1 的 aa 要长；siu1 连读；baau1 的 b 发音轻而清。",
+    "usageTip": "蒸的叉烧包最常见；点心店也可能有焗叉烧包，点前可留意菜单。",
+    "exampleSentence": "阿媽話呢間酒樓嘅叉燒包好食。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-lau4-saa1-baau1",
+    "displayText": "流沙包",
+    "answerJyutping": "lau4 saa1 baau1",
+    "gloss": "内有会流出的咸蛋黄牛油馅的蒸包",
+    "notes": "lau4 的 au 上扬；saa1 高平；baau1 的 au 不要读窄。",
+    "usageTip": "刚上桌时馅料很烫，吃前宜先放一会儿；多在酒楼点心时出现。",
+    "exampleSentence": "流沙包啱啱蒸起，要小心入面好熱。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-daan6-taat1",
+    "displayText": "蛋撻",
+    "answerJyutping": "daan6 taat1",
+    "gloss": "有酥皮或曲奇皮、内盛蛋奶馅的小甜点",
+    "notes": "daan6 低去；taat1 是入声，t 尾短而干净。",
+    "usageTip": "茶餐厅和饼店都常见；新鲜出炉的蛋撻会特别烫。",
+    "exampleSentence": "我買咗兩個蛋撻返屋企食。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-sai1-do1-si2",
+    "displayText": "西多士",
+    "answerJyutping": "sai1 do1 si2",
+    "gloss": "夹馅面包蘸蛋液油炸后，常淋糖浆或炼奶的港式甜食",
+    "notes": "sai1 与 do1 都是高平；si2 要上扬，三个音节不要读得太快。",
+    "usageTip": "分量和油分都较高，通常适合几个人分享；可问有没有花生酱馅。",
+    "exampleSentence": "下午茶叫份西多士，兩個人分住食。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-sa1-de1-ngau4-juk6",
+    "displayText": "沙嗲牛肉",
+    "answerJyutping": "sa1 de1 ngau4 juk6",
+    "gloss": "用沙嗲酱调味的牛肉，常配公仔面或通粉",
+    "notes": "sa1、de1 都保持高平；ngau4 的 ng 起首要带出，juk6 收 k 尾。",
+    "usageTip": "茶餐厅早餐常说「沙嗲牛肉公仔麵」；酱汁一般带花生和香料味。",
+    "exampleSentence": "佢每次都叫沙嗲牛肉公仔麵。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-gon1-caau2-ngau4-ho4",
+    "displayText": "乾炒牛河",
+    "answerJyutping": "gon1 caau2 ngau4 ho4",
+    "gloss": "用宽河粉、牛肉和芽菜等大火炒成的干炒粉面",
+    "notes": "gon1 的 o 短圆；caau2 上扬；ngau4 起首的 ng 不要省掉。",
+    "usageTip": "是粤式大排档常见主食；点时可说少油或走芽菜，但口感会不同。",
+    "exampleSentence": "呢碟乾炒牛河炒得夠香，冇乜油膩感。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-sing1-zau1-caau2-mai5",
+    "displayText": "星洲炒米",
+    "answerJyutping": "sing1 zau1 caau2 mai5",
+    "gloss": "以米粉、咖喱香料、肉类和蔬菜炒成的粤式炒粉",
+    "notes": "sing1 收 ng 尾；zau1 的 au 要完整；mai5 是阳上声。",
+    "usageTip": "名称里的「星洲」多指风味，不等同新加坡本地做法；常见于茶餐厅和大排档。",
+    "exampleSentence": "想食有啲辣嘅，就叫星洲炒米。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-caau2-faan6",
+    "displayText": "炒飯",
+    "answerJyutping": "caau2 faan6",
+    "gloss": "把煮熟的米饭与蛋、肉类、菜料一起下锅炒成的主食",
+    "notes": "caau2 的 aa 要打开；faan6 低去，n 尾要收稳。",
+    "usageTip": "点炒飯时常会按配料说明，例如「揚州炒飯」；适合想吃干身饭粒的人。",
+    "exampleSentence": "今晚唔想食麵，叫個炒飯算啦。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-baak6-faan6",
+    "displayText": "白飯",
+    "answerJyutping": "baak6 faan6",
+    "gloss": "没有调味、煮熟的白米饭，用来配餸吃",
+    "notes": "baak6 收 k 尾要短；faan6 的 aa 不要读成短 a。",
+    "usageTip": "点餸时若不另说，店员有时会问要几碗白飯；「飯」在这里常作量词单位。",
+    "exampleSentence": "呢個餸幾惹味，要多碗白飯先夠。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-lai6-tong1",
+    "displayText": "例湯",
+    "answerJyutping": "lai6 tong1",
+    "gloss": "餐厅随当天套餐附送、每天可能不同的汤",
+    "notes": "lai6 是低去；tong1 的 o 圆，ng 尾要收。",
+    "usageTip": "午市套餐里很常见；可直接问「今日例湯係咩？」了解当天汤水。",
+    "exampleSentence": "今日嘅例湯係紅蘿蔔粟米湯。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-lou5-fo2-tong1",
+    "displayText": "老火湯",
+    "answerJyutping": "lou5 fo2 tong1",
+    "gloss": "用肉骨和食材慢火煲较长时间而成的汤水",
+    "notes": "lou5 与 fo2 都是上声；tong1 的 ng 尾不可省略。",
+    "usageTip": "强调长时间煲出的浓厚汤味；家常和粤菜馆都很常见。",
+    "exampleSentence": "阿爸煲咗煲老火湯，叫我返去飲。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-tong4-seoi2",
+    "displayText": "糖水",
+    "answerJyutping": "tong4 seoi2",
+    "gloss": "粤式甜汤或甜品的统称，可热吃也可冷吃",
+    "notes": "tong4 读阳平；seoi2 要圆唇，别读成普通话式 shui。",
+    "usageTip": "绿豆沙、芝麻糊等都可归作糖水；晚饭后去糖水铺是常见说法。",
+    "exampleSentence": "食完飯去食碗糖水先返屋企。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-tim4-ban2",
+    "displayText": "甜品",
+    "answerJyutping": "tim4 ban2",
+    "gloss": "正餐后或下午茶时吃的甜味食物，包括蛋糕、布甸等",
+    "notes": "tim4 的 m 尾要收；ban2 上扬，唔好读成 ban1。",
+    "usageTip": "比「糖水」范围更广；西式和日式甜点都可叫甜品。",
+    "exampleSentence": "主菜食完先睇下有咩甜品。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-dung3-ling4-seoi2",
+    "displayText": "凍檸水",
+    "answerJyutping": "dung3 ling4 seoi2",
+    "gloss": "加冰块和柠檬片的冷饮，常见于港式茶餐厅",
+    "notes": "dung3 去声要落稳；ling4 的 ng 尾收清；seoi2 要圆唇。",
+    "usageTip": "与凍檸茶不同，凍檸水没有茶味；想减甜可说「少甜」。",
+    "exampleSentence": "天氣咁熱，幫我叫杯凍檸水。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-naai5-sik1",
+    "displayText": "奶昔",
+    "answerJyutping": "naai5 sik1",
+    "gloss": "以牛奶、雪糕或水果搅拌成的浓稠冷饮",
+    "notes": "naai5 的 aa 拉开；sik1 是入声，k 尾短促。",
+    "usageTip": "多在快餐店和咖啡店出现；质感比普通饮品更浓，常需慢慢饮。",
+    "exampleSentence": "細路最鍾意飲朱古力奶昔。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-hei3-seoi2",
+    "displayText": "汽水",
+    "answerJyutping": "hei3 seoi2",
+    "gloss": "含气泡的甜味软饮料，如可乐、雪碧等",
+    "notes": "hei3 的 ei 要清楚；seoi2 圆唇而上扬。",
+    "usageTip": "点餐时可说「要罐汽水」或直接说品牌；气泡饮通常不叫「凍飲」来代替。",
+    "exampleSentence": "食漢堡我通常會飲汽水。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-be1-zau2",
+    "displayText": "啤酒",
+    "answerJyutping": "be1 zau2",
+    "gloss": "以麦芽发酵制成的酒类饮品，常配小食或烧烤",
+    "notes": "be1 是高平，嘴形较扁；zau2 的 au 要完整，声调上扬。",
+    "usageTip": "只适用于合法饮酒场合；点餐时可说明要罐装、樽装或生啤。",
+    "exampleSentence": "食燒烤嗰陣，佢叫咗兩支啤酒。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-jam2-gun2",
+    "displayText": "飲管",
+    "answerJyutping": "jam2 gun2",
+    "gloss": "用来吸饮料的细管，也常写作吸管",
+    "notes": "jam2 的 m 尾要闭合；gun2 的 g 清楚，n 尾收实。",
+    "usageTip": "香港口语里「飲管」很自然；需要时可礼貌地说「唔該畀支飲管」。",
+    "exampleSentence": "杯凍飲冇飲管，唔該畀我一支。",
+    "category": "餐桌用品"
+  },
+  {
+    "id": "food-caa4-wu4",
+    "displayText": "茶壺",
+    "answerJyutping": "caa4 wu4",
+    "gloss": "用来盛放和倒出热茶的带壶嘴容器",
+    "notes": "caa4 的 aa 拉开并上扬；wu4 的 u 圆唇，声调别压低。",
+    "usageTip": "饮茶时可请伙记添茶；不要把茶壺和倒茶用的小杯混作同一件。",
+    "exampleSentence": "茶壺冇水喇，麻煩幫我哋加熱水。",
+    "category": "餐桌用品"
+  },
+  {
+    "id": "food-faai3-zi2",
+    "displayText": "筷子",
+    "answerJyutping": "faai3 zi2",
+    "gloss": "夹取食物的一双细长餐具",
+    "notes": "faai3 的 ai 要完整；zi2 是上声，唔好读成 zi1。",
+    "usageTip": "常以一对来算；在粤式餐馆可问「可唔可以換對筷子」。",
+    "exampleSentence": "呢對筷子濕咗，可唔可以換過？",
+    "category": "餐桌用品"
+  },
+  {
+    "id": "food-tong1-ci4",
+    "displayText": "湯匙",
+    "answerJyutping": "tong1 ci4",
+    "gloss": "用来舀汤、糖水或软质食物的匙羹",
+    "notes": "tong1 的 ng 尾收好；ci4 读阳平，起首 c 要清晰。",
+    "usageTip": "较中性、书面也通用；日常口语亦常直接说「匙羹」。",
+    "exampleSentence": "食糖水要攞個湯匙先方便。",
+    "category": "餐桌用品"
+  },
+  {
+    "id": "food-faan6-hap6",
+    "displayText": "飯盒",
+    "answerJyutping": "faan6 hap6",
+    "gloss": "用来装带回家或带去上班上学的饭菜的盒子",
+    "notes": "faan6 的 n 尾收稳；hap6 是入声，p 尾短促。",
+    "usageTip": "可指可重复使用的便当盒，也可泛指外带装饭的容器。",
+    "exampleSentence": "我聽日帶飯，今晚要洗定個飯盒。",
+    "category": "餐桌用品"
+  },
+  {
+    "id": "food-ngoi6-maai6-hap6",
+    "displayText": "外賣盒",
+    "answerJyutping": "ngoi6 maai6 hap6",
+    "gloss": "餐厅把外带食物装进去的一次性或可回收容器",
+    "notes": "ngoi6 要带 ng 起首；maai6 低去；hap6 收 p 尾。",
+    "usageTip": "想分开装汤汁或酱料时，可请店员多给一个外賣盒。",
+    "exampleSentence": "呢個外賣盒唔夠大，啲汁漏咗出嚟。",
+    "category": "餐桌用品"
+  },
+  {
+    "id": "food-bou2-sin1-zi2",
+    "displayText": "保鮮紙",
+    "answerJyutping": "bou2 sin1 zi2",
+    "gloss": "覆盖食物或器皿开口、帮助保留新鲜度的透明薄膜",
+    "notes": "bou2 的 ou 要圆；sin1 的 i 清；zi2 声调上扬。",
+    "usageTip": "雪藏前或放进雪柜前常用；不要直接贴在很热的食物上。",
+    "exampleSentence": "食唔晒就用保鮮紙包好先放雪櫃。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-bou2-sin1-doi2",
+    "displayText": "保鮮袋",
+    "answerJyutping": "bou2 sin1 doi2",
+    "gloss": "用来分装食材、零食或剩余食物的密封塑料袋",
+    "notes": "bou2 和 sin1 清楚分开；doi2 的 oi 要圆唇上扬。",
+    "usageTip": "腌肉、分装食材和放入雪柜都很实用；装汤水前要先确认不会漏。",
+    "exampleSentence": "啲醃好嘅肉放入保鮮袋先雪。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-syut3-cong4",
+    "displayText": "雪藏",
+    "answerJyutping": "syut3 cong4",
+    "gloss": "把食物放进冷冻室低温保存，也可指冷冻保存的状态",
+    "notes": "syut3 是入声，t 尾短；cong4 的 o 圆，ng 尾收实。",
+    "usageTip": "香港日常常把放冷冻室说成「雪藏」；和只放冷藏室的「雪櫃」概念不同。",
+    "exampleSentence": "啲雞翼今晚唔煮，就先雪藏。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-gaai2-dung3",
+    "displayText": "解凍",
+    "answerJyutping": "gaai2 dung3",
+    "gloss": "让冷冻食物回温变软，恢复可烹调的状态",
+    "notes": "gaai2 的 ai 上扬；dung3 去声落稳，ng 尾不可省。",
+    "usageTip": "肉类最好预早放到冷藏室慢慢解凍；急用时可按食材安全方式处理。",
+    "exampleSentence": "記得早啲拎啲魚出嚟解凍。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-jim1",
+    "displayText": "醃",
+    "answerJyutping": "jim1",
+    "gloss": "用盐、酱油、香料等预先处理食材，使其入味",
+    "notes": "jim1 收 m 尾，阴平保持平；单字作动词时不要读成普通话式腌。",
+    "usageTip": "常接处理时间，例如「醃半個鐘」；肉类和鱼类下锅前常会先醃。",
+    "exampleSentence": "啲雞翼要醃至少半個鐘先夠味。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-cyun1-seoi2",
+    "displayText": "汆水",
+    "answerJyutping": "cyun1 seoi2",
+    "gloss": "把食材短暂放进沸水中焯一下，以去腥、去杂质或预熟",
+    "notes": "cyun1 的 y 音要圆唇；seoi2 同样圆唇，二声上扬。",
+    "usageTip": "煲汤前处理肉骨时尤其常用；动作短，不等于把食材彻底煮熟。",
+    "exampleSentence": "煲湯前啲豬骨要先汆水。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-zoek3",
+    "displayText": "灼",
+    "answerJyutping": "zoek3",
+    "gloss": "把食材快速放入沸水烫熟，常用于蔬菜、海鲜",
+    "notes": "zoek3 的 oe 要圆唇，是入声，k 尾短收。",
+    "usageTip": "菜单里的「白灼」多指简单水煮后配酱油；家里做菜也常说「灼熟」。",
+    "exampleSentence": "菜心灼一陣就可以上碟。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-zing1",
+    "displayText": "蒸",
+    "answerJyutping": "zing1",
+    "gloss": "利用水蒸气把食物加热至熟的烹饪方法",
+    "notes": "zing1 的 i 短清，ng 尾收实；阴平不要往下掉。",
+    "usageTip": "蒸鱼、蒸蛋、蒸点心都常用；一般会说「蒸幾耐」问所需时间。",
+    "exampleSentence": "條魚蒸八分鐘左右就熟。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-zin1",
+    "displayText": "煎",
+    "answerJyutping": "zin1",
+    "gloss": "用少量油在平底锅或镬中把食物煮熟或煎香",
+    "notes": "zin1 的 z 起首不要读成 j；n 尾清晰收住。",
+    "usageTip": "煎鱼、煎蛋、煎饺都可用；火太猛容易外焦内生。",
+    "exampleSentence": "呢塊魚要先煎香兩邊。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-caau2",
+    "displayText": "炒",
+    "answerJyutping": "caau2",
+    "gloss": "把食材放进热镬中不断翻动加热的烹饪方法",
+    "notes": "caau2 的 aa 开阔，au 不要缩短；二声要有上扬。",
+    "usageTip": "配合镬气的大火快炒最常见；动词后可接食材，如「炒菜」。",
+    "exampleSentence": "蒜頭爆香之後就可以炒菜。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-bou1",
+    "displayText": "煲",
+    "answerJyutping": "bou1",
+    "gloss": "用锅长时间慢煮食物，也可指用锅煮成的一锅菜",
+    "notes": "bou1 的 ou 圆而饱满，阴平保持平稳。",
+    "usageTip": "煲汤、煲粥、煲仔饭都常用；比「煮」更强调用锅和持续加热。",
+    "exampleSentence": "我想煲個粥，今晚食清淡啲。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-guk6",
+    "displayText": "焗",
+    "answerJyutping": "guk6",
+    "gloss": "放进烤箱或密闭高温环境烤熟、焖熟食物",
+    "notes": "guk6 是入声，u 短，k 尾必须收住。",
+    "usageTip": "焗饭、焗猪扒和焗薯仔常见；不同于用明火直接烤的「燒」。",
+    "exampleSentence": "呢個焗飯上面有好多芝士。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-man1",
+    "displayText": "炆",
+    "answerJyutping": "man1",
+    "gloss": "加盖用较慢火把肉类或食材焖至软熟入味",
+    "notes": "man1 的 a 较短，m 起首清楚，n 尾收好。",
+    "usageTip": "炆牛腩、炆冬菇等家常菜常用；重点是慢慢把味道煮进去。",
+    "exampleSentence": "牛腩要炆耐啲先會腍。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-dan6",
+    "displayText": "燉",
+    "answerJyutping": "dan6",
+    "gloss": "把食材隔水或在小火中长时间慢煮，使味道和营养释出",
+    "notes": "dan6 是低去声，n 尾收稳；不要读成普通话式 dun。",
+    "usageTip": "燉汤常用炖盅隔水慢煮，口感一般较清润；与大火煲汤不同。",
+    "exampleSentence": "阿媽燉咗盅雪梨湯畀我潤喉。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-gun2",
+    "displayText": "滾",
+    "answerJyutping": "gun2",
+    "gloss": "液体沸腾；也常指把汤水煮开",
+    "notes": "gun2 的 g 清楚，u 短圆，n 尾收实；二声要扬。",
+    "usageTip": "煮面或煲汤时常说「水滾未」；这里不是指人或物体滚动。",
+    "exampleSentence": "等啲水滾先落麵。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-ngau1-hip3",
+    "displayText": "勾芡",
+    "answerJyutping": "ngau1 hip3",
+    "gloss": "在菜汁中加入生粉水，使酱汁变稠并挂在食材上",
+    "notes": "ngau1 要发出 ng 起首；hip3 是入声，p 尾短收。",
+    "usageTip": "粤菜炒餸收汁时常用；生粉水要边搅边加，避免结块。",
+    "exampleSentence": "最後勾芡就可以將碟餸上枱。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-lok6-wok6",
+    "displayText": "落鑊",
+    "answerJyutping": "lok6 wok6",
+    "gloss": "把准备好的食材放进热锅开始烹调",
+    "notes": "lok6 和 wok6 都是入声，两个 k 尾都要短收。",
+    "usageTip": "炒菜教学里非常常用；先确认镬够热才落鑊，食材较不易出水。",
+    "exampleSentence": "油熱咗先將牛肉落鑊。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-hei2-wok6",
+    "displayText": "起鑊",
+    "answerJyutping": "hei2 wok6",
+    "gloss": "把煮好的菜从锅中盛出，完成最后一道烹调步骤",
+    "notes": "hei2 上扬；wok6 是入声，k 尾短促。",
+    "usageTip": "通常在调味完成后说；「起鑊前」常接最后才放的葱、芫荽等配料。",
+    "exampleSentence": "起鑊前加少少蔥花會更香。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-fo2-hau6",
+    "displayText": "火候",
+    "answerJyutping": "fo2 hau6",
+    "gloss": "烹调时火力大小和加热时间掌握得是否合适",
+    "notes": "fo2 的 o 圆唇上扬；hau6 的 au 要完整，去声下落。",
+    "usageTip": "评价厨艺时很实用，例如说肉太老往往是火候过了。",
+    "exampleSentence": "呢塊牛扒火候啱啱好，仲有肉汁。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-maang5-fo2",
+    "displayText": "猛火",
+    "answerJyutping": "maang5 fo2",
+    "gloss": "很强、很大的火力，适合快炒或快速煮滚",
+    "notes": "maang5 的 aa 拉开，ng 尾要收；fo2 上扬。",
+    "usageTip": "炒菜想有镬气常用猛火；炆煮时转猛火容易令汁水收得太快。",
+    "exampleSentence": "炒河粉要用猛火先至夠香。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-maan6-fo2",
+    "displayText": "慢火",
+    "answerJyutping": "maan6 fo2",
+    "gloss": "较低而稳定的火力，适合慢煮、炆煮或煲汤",
+    "notes": "maan6 的 aa 长，去声落稳；fo2 要保持上扬。",
+    "usageTip": "煲汤、炆肉通常要转慢火，避免外面煮烂而里面未入味。",
+    "exampleSentence": "滾起之後轉慢火煲多半個鐘。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-zung1-fo2",
+    "displayText": "中火",
+    "answerJyutping": "zung1 fo2",
+    "gloss": "介于猛火和慢火之间的中等火力",
+    "notes": "zung1 收 ng 尾；fo2 的 o 圆且二声上扬。",
+    "usageTip": "煎蛋、煎鱼等怕焦的食物，先用中火较容易控制。",
+    "exampleSentence": "煎蛋用中火，蛋白先唔會燶。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-bun3-saang1-suk6",
+    "displayText": "半生熟",
+    "answerJyutping": "bun3 saang1 suk6",
+    "gloss": "食物没有全熟，仍保留部分生嫩口感的熟度",
+    "notes": "bun3 去声；saang1 收 ng 尾；suk6 是入声，k 尾短。",
+    "usageTip": "常用来指定牛扒、蛋或某些海鲜的熟度；注意不同店对程度理解可能不同。",
+    "exampleSentence": "牛扒我要半生熟，唔該。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-zau2-ceng1",
+    "displayText": "走青",
+    "answerJyutping": "zau2 ceng1",
+    "gloss": "点餐时要求不要青菜或把配菜中的蔬菜去掉",
+    "notes": "zau2 的 au 要完整并上扬；ceng1 的 e 清，ng 尾收实。",
+    "usageTip": "是点餐简写，主要在茶餐厅和快餐店使用；可接在菜式后说明要求。",
+    "exampleSentence": "呢個餐我走青，唔該。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-siu2-faan6",
+    "displayText": "少飯",
+    "answerJyutping": "siu2 faan6",
+    "gloss": "点餐时要求把饭量减少一些",
+    "notes": "siu2 的 iu 连顺并上扬；faan6 的 aa 拉开，n 尾收住。",
+    "usageTip": "碟头饭或套餐常可这样要求；若完全不要饭，则要说「唔要飯」。",
+    "exampleSentence": "我要少飯，多啲菜就得。",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-faan6-dai2",
+    "displayText": "飯底",
+    "answerJyutping": "faan6 dai2",
+    "gloss": "碟头饭或盖饭里垫在下面的白饭部分",
+    "notes": "faan6 收 n 尾；dai2 的 ai 上扬，唔好读成 dei2。",
+    "usageTip": "茶餐厅点餐时可说「轉飯底」来表示主食换成白饭，而不是意粉或薯条。",
+    "exampleSentence": "呢個午餐可唔可以轉飯底？",
+    "category": "飲食點餐"
+  },
+  {
+    "id": "food-wok6-hei3",
+    "displayText": "鑊氣",
+    "answerJyutping": "wok6 hei3",
+    "gloss": "大火快炒时产生的焦香和香气，也用来形容炒菜的火候感",
+    "notes": "wok6 是入声，k 尾短；hei3 的 ei 清楚，去声下落。",
+    "usageTip": "常用来称赞炒粉面和小炒；不是锅里真的有一股气。",
+    "exampleSentence": "呢盤炒飯鑊氣好夠，食落好香。",
+    "category": "飲食烹飪"
+  },
+  {
+    "id": "food-daap3-toi2",
+    "displayText": "搭枱",
+    "answerJyutping": "daap3 toi2",
+    "gloss": "在繁忙食店与不认识的人共用同一张餐桌",
+    "notes": "daap3 是入声，p 尾短；toi2 的 oi 圆唇，二声上扬。",
+    "usageTip": "香港茶餐厅繁忙时很常见；入座前礼貌问一句「可唔可以搭枱？」最自然。",
+    "exampleSentence": "呢度冇位，可唔可以同你哋搭枱？",
+    "category": "飲食點餐"
+  }
+]
