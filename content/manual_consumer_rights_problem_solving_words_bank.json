@@ -1,0 +1,102 @@
+[
+  {
+    "id": "manual-consumer-request-refund",
+    "displayText": "要求退款",
+    "answerJyutping": "jiu1 kau4 teoi3 fun2",
+    "gloss": "正式提出把已付的钱退回来的请求。",
+    "notes": "jiu1 的 iu 连读；kau4 收 u 尾；teoi3 的 eoi 韵要读圆。",
+    "usageTip": "商品不符、服务未提供或商户明确违约时用；最好同时说明订单和原因。",
+    "exampleSentence": "件貨同網上描述唔一样，我想要求退款。",
+    "category": "消费协商"
+  },
+  {
+    "id": "manual-consumer-refund-deadline",
+    "displayText": "退款期限",
+    "answerJyutping": "teoi3 fun2 kei4 han6",
+    "gloss": "商户承诺完成退款所需的时限。",
+    "notes": "teoi3 的 eoi 要完整；kei4 为第四声；han6 收 n 尾。",
+    "usageTip": "已获同意退款后，问清到账日期比只问“几时退”更明确。",
+    "exampleSentence": "可唔可以講清楚退款期限係幾多個工作天？",
+    "category": "消费协商"
+  },
+  {
+    "id": "manual-consumer-exchange-terms",
+    "displayText": "換貨條件",
+    "answerJyutping": "wun6 fo3 tiu4 gin6",
+    "gloss": "可以更换商品时需要符合的要求。",
+    "notes": "wun6 的 un 圆短；fo3 的 o 拉开；tiu4 的 iu 顺读。",
+    "usageTip": "购买前或发现尺码不合时问清，可避免拆封后才知道不能更换。",
+    "exampleSentence": "我想換大一個碼，請問換貨條件係點？",
+    "category": "退换货"
+  },
+  {
+    "id": "manual-consumer-product-defect",
+    "displayText": "貨品瑕疵",
+    "answerJyutping": "fo3 ban2 haa4 ci1",
+    "gloss": "商品本身存在的破损、缺件或制造问题。",
+    "notes": "ban2 收 n 尾；haa4 的 aa 要拉开；ci1 是高平声。",
+    "usageTip": "描述问题时拍照并保留包装，店员较容易按货品瑕疵处理。",
+    "exampleSentence": "我拆開先見到有貨品瑕疵，呢度甩咗一角。",
+    "category": "退换货"
+  },
+  {
+    "id": "manual-consumer-original-receipt",
+    "displayText": "收據正本",
+    "answerJyutping": "sau1 geoi3 zing3 bun2",
+    "gloss": "购买或付款时取得的原始收据。",
+    "notes": "sau1 的 au 清楚；geoi3 的 eoi 韵要完整；bun2 收 n 尾。",
+    "usageTip": "保修、退换或报销前先确认是否要交收據正本，避免只留下影印本。",
+    "exampleSentence": "辦理換貨要帶埋收據正本過嚟。",
+    "category": "消费凭证"
+  },
+  {
+    "id": "manual-consumer-repair-quotation",
+    "displayText": "維修報價",
+    "answerJyutping": "wai4 sau1 bou3 gaa3",
+    "gloss": "维修前列明项目和费用的报价。",
+    "notes": "wai4 的 ai 韵完整；sau1 的 au 清楚；bou3 的 ou 要圆。",
+    "usageTip": "维修金额较高时，先要求书面的維修報價，再决定是否授权维修。",
+    "exampleSentence": "未整之前可唔可以先畀我睇維修報價？",
+    "category": "维修协商"
+  },
+  {
+    "id": "manual-consumer-written-reply",
+    "displayText": "書面回覆",
+    "answerJyutping": "syu1 min6 wui4 fuk1",
+    "gloss": "以电邮、信件或讯息留下的正式答复。",
+    "notes": "syu1 的 yu 韵要圆；min6 收 n 尾；fuk1 收 k 尾。",
+    "usageTip": "争议较复杂时要求書面回覆，日后跟进会比口头承诺清楚。",
+    "exampleSentence": "麻煩你哋畀個書面回覆我，等我有紀錄跟進。",
+    "category": "投诉跟进"
+  },
+  {
+    "id": "manual-consumer-complaint-reference",
+    "displayText": "投訴編號",
+    "answerJyutping": "tau4 sou3 pin1 hou6",
+    "gloss": "投诉个案的识别号码。",
+    "notes": "tau4 的 au 完整；sou3 的 ou 要圆；hou6 收 u 尾。",
+    "usageTip": "致电客服前先准备投訴編號，客服较容易找到之前的记录。",
+    "exampleSentence": "我想查返個案，投訴編號係A二三八。",
+    "category": "投诉跟进"
+  },
+  {
+    "id": "manual-consumer-follow-up-progress",
+    "displayText": "跟進進度",
+    "answerJyutping": "gan1 zeon3 zeon3 dou6",
+    "gloss": "事情后续被处理到哪一步的情况。",
+    "notes": "gan1 收 n 尾；zeon3 的 eo 韵圆；dou6 的 ou 完整。",
+    "usageTip": "等候超过对方承诺时间后，可礼貌要求更新跟進進度。",
+    "exampleSentence": "我上星期已經報修，想問下跟進進度。",
+    "category": "投诉跟进"
+  },
+  {
+    "id": "manual-consumer-amicable-resolution",
+    "displayText": "友善解決",
+    "answerJyutping": "jau5 sin6 gaai2 kyut3",
+    "gloss": "以平和、双方可接受的方式处理争议。",
+    "notes": "jau5 的 au 完整；sin6 收 n 尾；kyut3 收 t 尾。",
+    "usageTip": "希望保留合作关系时，用来表明愿意沟通，但不等于放弃合理要求。",
+    "exampleSentence": "我都想友善解決，睇下可唔可以換返一件正常嘅。",
+    "category": "消费协商"
+  }
+]
