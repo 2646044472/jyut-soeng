@@ -1,0 +1,102 @@
+[
+  {
+    "id": "manual-emergency-spare-battery",
+    "displayText": "後備電池",
+    "answerJyutping": "hau6 bei6 din6 ci4",
+    "gloss": "预先存放、在遥控器、手电筒或其他设备原有电池耗尽时可立即替换的电池。",
+    "notes": "「后备」指预留作替代用途，不是已经装在设备内的主电池。",
+    "usageTip": "台风季或长假前可检查後備電池有没有漏液和剩余电量，并按设备型号分开存放。",
+    "exampleSentence": "手電筒冇电，屋企仲有冇後備電池？",
+    "category": "家居准备"
+  },
+  {
+    "id": "manual-emergency-flashlight",
+    "displayText": "手電筒",
+    "answerJyutping": "sau2 din6 tung4",
+    "gloss": "靠电池或充电供电、可手持照明的小型灯具。",
+    "notes": "香港也常说「电筒」；加上「手」能明确指可拿在手上的款式。",
+    "usageTip": "停电或夜间找东西时用手電筒较方便；平日应放在家人都知道的位置。",
+    "exampleSentence": "停电嗰阵唔好摸黑，先揾返支手電筒。",
+    "category": "家居准备"
+  },
+  {
+    "id": "manual-emergency-escape-route",
+    "displayText": "逃生路線",
+    "answerJyutping": "tou4 saang1 lou6 sin3",
+    "gloss": "遇到火警或其他需要离开建筑物的情况时，通往安全出口的预定通道。",
+    "notes": "常见于楼层平面图、学校和工作场所的安全指示。",
+    "usageTip": "搬入新地方后可先留意逃生路線和楼梯位置；通道被杂物阻挡时应通知管理人员。",
+    "exampleSentence": "大厦走廊张图写明逃生路線喺楼梯嗰边。",
+    "category": "家居准备"
+  },
+  {
+    "id": "manual-emergency-first-aid-kit",
+    "displayText": "急救箱",
+    "answerJyutping": "gap1 gau3 soeng1",
+    "gloss": "存放胶布、纱布、消毒用品等基本护理物品、供小意外时取用的箱或盒。",
+    "notes": "「急救箱」指用品收纳处，不代表可以自行处理严重伤害。",
+    "usageTip": "家里或车上放急救箱时要定期查看有效日期；情况严重应按需要寻求专业协助。",
+    "exampleSentence": "我割亲手指，急救箱喺厨房上面个柜。",
+    "category": "家居准备"
+  },
+  {
+    "id": "manual-emergency-fire-extinguisher",
+    "displayText": "滅火筒",
+    "answerJyutping": "mit6 fo2 tung4",
+    "gloss": "在初起火情时由合适人员按指引使用、喷出灭火剂压制火焰的器材。",
+    "notes": "香港楼宇常称「灭火筒」；应留意位置、检查日期和大厦指示。",
+    "usageTip": "平日知道滅火筒摆在哪里即可；遇到火警应优先按现场安全指示离开并报警。",
+    "exampleSentence": "管理處贴咗图，写明滅火筒喺消防喉辘旁边。",
+    "category": "家居准备"
+  },
+  {
+    "id": "manual-emergency-fire-door",
+    "displayText": "防煙門",
+    "answerJyutping": "fong4 jin1 mun4",
+    "gloss": "设置在楼梯间或走廊、用来减慢烟雾扩散并保护逃生通道的防护门。",
+    "notes": "多为自动关闭的重门；不要用杂物顶住或长期撑开。",
+    "usageTip": "见到防煙門关不上或被塞住时可通知管理处，避免在紧急时影响通道保护。",
+    "exampleSentence": "楼梯口道防煙門成日畀人顶开，应该同管理處讲。",
+    "category": "家居准备"
+  },
+  {
+    "id": "manual-emergency-power-outage-notice",
+    "displayText": "停電通知",
+    "answerJyutping": "ting4 din6 tung1 zi1",
+    "gloss": "电力公司、管理处或机构发出，说明计划维修或突发停电时段与影响范围的讯息。",
+    "notes": "可分计划停电和突发停电；通知通常会写日期、时间和受影响楼层。",
+    "usageTip": "收到停電通知后可预先充电、保存重要资料，并问清楚升降机和出入安排会否受影响。",
+    "exampleSentence": "大厦群组发咗停電通知，星期三朝早会停两粒钟。",
+    "category": "家居准备"
+  },
+  {
+    "id": "manual-emergency-shelter",
+    "displayText": "避難中心",
+    "answerJyutping": "bei6 naan6 zung1 sam1",
+    "gloss": "在恶劣天气或突发事故期间，供有需要市民暂时休息、登记或获得基本支援的指定地点。",
+    "notes": "开放安排会按实际事件调整，地点和时间应以官方或现场通知为准。",
+    "usageTip": "听到需要转移时可问附近避難中心在哪里，并带齐身份证明、必需药物和联络资料。",
+    "exampleSentence": "新闻话附近体育馆开咗避難中心，管理處叫大家留意。",
+    "category": "家居准备"
+  },
+  {
+    "id": "manual-emergency-supplies",
+    "displayText": "應急用品",
+    "answerJyutping": "jing3 gap1 jung6 ban2",
+    "gloss": "为突然停水、停电、恶劣天气或短暂无法外出而预先准备的基本生活物品。",
+    "notes": "可包括饮用水、照明、充电和简单护理用品，实际内容按家庭需要安排。",
+    "usageTip": "整理應急用品时应考虑家中长者、小孩和宠物的实际需要，并定期更新消耗品。",
+    "exampleSentence": "台风之前我会检查下屋企啲應急用品够唔够。",
+    "category": "家居准备"
+  },
+  {
+    "id": "manual-emergency-assembly-point",
+    "displayText": "緊急集合點",
+    "answerJyutping": "gan2 gap1 zaap6 hap6 dim2",
+    "gloss": "需要撤离时，供同一家庭、学校或机构成员汇合和点算人数的指定地点。",
+    "notes": "地点应选在建筑物外较安全、容易辨认且不会阻塞救援通道的位置。",
+    "usageTip": "家人可预先约好緊急集合點，走散后先到那里等候，避免各自反复回到危险区域找人。",
+    "exampleSentence": "我哋约定楼下公园门口做緊急集合點。",
+    "category": "家居准备"
+  }
+]
