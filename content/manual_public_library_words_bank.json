@@ -1,0 +1,102 @@
+[
+  {
+    "id": "manual-library-card",
+    "displayText": "借書證",
+    "answerJyutping": "ze3 syu1 zing3",
+    "gloss": "图书馆发给读者、用来办理借书、续借和查询服务的登记证件或电子账户资格。",
+    "notes": "香港日常会直接问「有冇借书证」；「借」在这里读 ze3。",
+    "usageTip": "第一次使用自助设备或到柜台借书时，可先出示借書證；遗失后通常要尽快报失。",
+    "exampleSentence": "我冇带借書證，今日借唔到嗰本书。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-library-hold-pickup",
+    "displayText": "預約取書",
+    "answerJyutping": "jyu6 joek3 ceoi2 syu1",
+    "gloss": "读者先登记保留借出的书，图书馆到书后通知读者在指定期限内领取的服务。",
+    "notes": "「取书」比「拿书」更常见于图书馆通知和柜台说明。",
+    "usageTip": "热门书借走时可办預約取書；收到通知后要看清楚领取分馆和最后取书日期。",
+    "exampleSentence": "呢本书仲未还，我先做預約取書。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-library-overdue-fine",
+    "displayText": "逾期罰款",
+    "answerJyutping": "jyu4 kei4 fat6 fun2",
+    "gloss": "借出的物品超过应还日期仍未归还时，按规定产生的罚金。",
+    "notes": "「逾期」指超过期限，常和还书、交费或证件申请一起出现。",
+    "usageTip": "还书前可先看账户有冇逾期罰款；不同馆藏和服务的收费规定可能不同。",
+    "exampleSentence": "我迟咗两日还书，要睇下有冇逾期罰款。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-library-in-house-reading",
+    "displayText": "館內閱覽",
+    "answerJyutping": "gun2 noi6 jyut6 laam5",
+    "gloss": "书籍、报刊或参考资料只能留在图书馆范围内阅读，不能带离馆外的使用方式。",
+    "notes": "「阅览」较正式，常见于参考书、报刊和特藏资料的规定。",
+    "usageTip": "遇到不能外借的资料时，可问职员「係咪只可以館內閱覽」。",
+    "exampleSentence": "呢套旧报纸唔外借，只可以館內閱覽。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-library-shelf-number",
+    "displayText": "書架編號",
+    "answerJyutping": "syu1 gaa2 pin1 hou6",
+    "gloss": "用来标示图书所在书架或分类位置的一组号码，方便按索书号寻找资料。",
+    "notes": "网上目录显示位置后，通常还要对照书架上的分类标签和编号。",
+    "usageTip": "找不到书时把书架編號给职员看，比只报书名更容易得到准确指引。",
+    "exampleSentence": "目录写咗書架編號，我跟住搵就得。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-library-collection",
+    "displayText": "館藏",
+    "answerJyutping": "gun2 cong4",
+    "gloss": "一所图书馆或机构实际收藏、可供查询或使用的书籍、期刊及其他资料总称。",
+    "notes": "常见搭配有「馆藏资料」和「查询馆藏」；「藏」读 cong4。",
+    "usageTip": "想确认某馆有没有一本书时，可问「呢间馆有冇呢本书的館藏」。",
+    "exampleSentence": "我查过館藏，原来隔离分馆有现货。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-library-loan-record",
+    "displayText": "借閱紀錄",
+    "answerJyutping": "ze3 jyut6 gei3 luk6",
+    "gloss": "读者账户内列出已借、已还、到期或曾借过物品的资料清单。",
+    "notes": "「借阅」包括借出和阅读使用，图书馆账户里通常会保留相关项目。",
+    "usageTip": "核对自己是否已还书或想找回曾借资料时，可登入账户查看借閱紀錄。",
+    "exampleSentence": "我翻返借閱紀錄，先记得嗰本书已经还咗。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-library-self-checkout-machine",
+    "displayText": "自助借書機",
+    "answerJyutping": "zi6 zo6 ze3 syu1 gei1",
+    "gloss": "读者自行扫描借书证和书本条码、无需职员逐本办理借阅的设备。",
+    "notes": "「自助」修饰服务方式；部分机器会要求把书放在感应区逐本处理。",
+    "usageTip": "高峰时使用自助借書機较快；扫不到条码或机器报错才去柜台求助。",
+    "exampleSentence": "柜台排长队，我哋去用自助借書機。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-library-pickup-notice",
+    "displayText": "取書通知",
+    "answerJyutping": "ceoi2 syu1 tung1 zi1",
+    "gloss": "图书馆通知读者已预约的书到达指定地点、可以在限期内领取的讯息。",
+    "notes": "通常会列出领取地点、保留期限和预约资料，不能只看书名。",
+    "usageTip": "收到取書通知后，先确认是哪一间分馆；过了保留期限，书可能会转给下一位读者。",
+    "exampleSentence": "我收到取書通知，放工顺路去拎。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-library-reading-seat",
+    "displayText": "閱讀座位",
+    "answerJyutping": "jyut6 duk6 zo6 wai2",
+    "gloss": "图书馆内供读者安静看书、做资料整理或短时间学习使用的座位。",
+    "notes": "有些分馆会把一般座位和自修区域分开管理，繁忙时可能要登记。",
+    "usageTip": "想久坐温书时可先问閱讀座位是否需要预约，避免把普通休息位当作固定座位。",
+    "exampleSentence": "今日人多，閱讀座位一早就坐满晒。",
+    "category": "公共服务"
+  }
+]
