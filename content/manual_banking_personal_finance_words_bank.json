@@ -1,0 +1,102 @@
+[
+  {
+    "id": "manual-banking-auto-debit",
+    "displayText": "自動扣款",
+    "answerJyutping": "zi6 dung6 kau3 fun2",
+    "gloss": "商户或机构按预先授权，在指定日期从银行户口直接扣除应付款项的安排。",
+    "notes": "「扣款」常用于电话费、保险费和订阅服务；「款」读 fun2。",
+    "usageTip": "设定时要留意扣款户口和日期；若想停止服务，可先问商户怎样取消自動扣款。",
+    "exampleSentence": "我已經設咗自動扣款，唔怕忘記交電話費。",
+    "category": "个人理财"
+  },
+  {
+    "id": "manual-banking-payment-notice",
+    "displayText": "繳費通知",
+    "answerJyutping": "giu2 fai3 tung1 zi1",
+    "gloss": "提醒收件人在限期前缴交指定费用、并列出金额和付款方法的通知。",
+    "notes": "「繳」在正式账单和机构通知常见，日常也会直接说「交费」。",
+    "usageTip": "收到屋苑、学校或服务商来信时，可先核对繳費通知上的金额、限期和付款编号。",
+    "exampleSentence": "管理處寄咗張繳費通知嚟，我今晚會網上交。",
+    "category": "个人理财"
+  },
+  {
+    "id": "manual-banking-account-balance",
+    "displayText": "戶口結餘",
+    "answerJyutping": "wu6 hau2 git3 jyu4",
+    "gloss": "银行户口在已计入存款、提款和扣账后，当前尚余可用的金额。",
+    "notes": "香港银行常用「户口」而非「账户」；「结余」多见于应用程式或月结单。",
+    "usageTip": "付款前看户口結餘，可避免扣款时余额不足；它不一定等于尚未入账交易后的最终金额。",
+    "exampleSentence": "我睇過戶口結餘，今個月仲够交租。",
+    "category": "个人理财"
+  },
+  {
+    "id": "manual-banking-payment-deadline",
+    "displayText": "繳費限期",
+    "answerJyutping": "giu2 fai3 haan6 kei4",
+    "gloss": "一笔费用必须在该日期或之前缴清的最后期限。",
+    "notes": "「限期」强调最后日期，账单上也会写「到期日」。",
+    "usageTip": "问账单时可直接说「呢张单的繳費限期系几时」；逾期前最好预留银行处理时间。",
+    "exampleSentence": "張單的繳費限期係星期五，唔好拖到最後一日。",
+    "category": "个人理财"
+  },
+  {
+    "id": "manual-banking-debit-date",
+    "displayText": "扣賬日",
+    "answerJyutping": "kau3 zoeng3 jat6",
+    "gloss": "信用卡、贷款或自动付款从户口正式记账和扣除款项的日期。",
+    "notes": "「扣账」常同信用卡和自动转账有关，不只是看到交易的日期。",
+    "usageTip": "安排现金流时要分清楚到期日和扣賬日，前者是应付款期限，后者是实际扣款日期。",
+    "exampleSentence": "我張信用卡的扣賬日係每月十二號。",
+    "category": "个人理财"
+  },
+  {
+    "id": "manual-banking-credit-limit",
+    "displayText": "信用額",
+    "answerJyutping": "seon3 jung6 ngaak6",
+    "gloss": "银行或发卡机构批准客户可动用的最高信贷金额。",
+    "notes": "完整说法是「信用额度」，香港口语和银行界常简称「信用额」。",
+    "usageTip": "申请分期或刷卡前可查看尚余信用額；已用金额接近上限时，交易可能不获批准。",
+    "exampleSentence": "今個月使多咗錢，剩返的信用額唔多。",
+    "category": "个人理财"
+  },
+  {
+    "id": "manual-banking-deposit-slip",
+    "displayText": "入數紙",
+    "answerJyutping": "jap6 sou3 zi2",
+    "gloss": "到银行柜位、存款机或缴费处存钱、转账或缴费时填写或取得的凭条。",
+    "notes": "「入数」是香港常用说法，泛指把钱存入或记入指定户口。",
+    "usageTip": "替人付款时可请对方保留入數紙，方便日后核对付款日期、金额和收款户口。",
+    "exampleSentence": "你入完數影低張入數紙畀我核對。",
+    "category": "个人理财"
+  },
+  {
+    "id": "manual-banking-bank-counter",
+    "displayText": "銀行櫃位",
+    "answerJyutping": "ngan4 hong4 gwai6 wai2",
+    "gloss": "银行分行内由职员当面办理开户、现金、文件或查询服务的柜台位置。",
+    "notes": "「柜位」在香港也指服务窗口本身；「櫃」读 gwai6。",
+    "usageTip": "需要核对身份或处理较复杂的账户手续时，可先问要不要到銀行櫃位办理。",
+    "exampleSentence": "呢项手续要带身份证去銀行櫃位先做到。",
+    "category": "个人理财"
+  },
+  {
+    "id": "manual-banking-transaction-record",
+    "displayText": "交易紀錄",
+    "answerJyutping": "gaau1 jik6 gei3 luk6",
+    "gloss": "银行户口、信用卡或支付工具中逐笔显示收款、付款、提款和扣款的资料。",
+    "notes": "「纪录」可作名词；银行应用程式多会按日期列出交易。",
+    "usageTip": "发现不认识的扣款时，先截取交易紀錄中的日期、金额和商户名称，再向银行查询。",
+    "exampleSentence": "我搵返交易紀錄，原來嗰笔錢琴日已經退咗。",
+    "category": "个人理财"
+  },
+  {
+    "id": "manual-banking-account-freeze",
+    "displayText": "戶口凍結",
+    "answerJyutping": "wu6 hau2 dung3 git3",
+    "gloss": "银行暂时限制户口提款、转账或其他交易权限的状态。",
+    "notes": "「冻结」用于账户状态，不表示银行户口已经被取消。",
+    "usageTip": "无法转账时可问银行「係咪戶口凍結咗」；通常还要了解原因和解冻所需文件。",
+    "exampleSentence": "我轉唔到錢，客服话個戶口凍結咗要核實資料。",
+    "category": "个人理财"
+  }
+]
