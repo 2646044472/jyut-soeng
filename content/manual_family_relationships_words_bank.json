@@ -1,0 +1,702 @@
+[
+  {
+    "id": "manual-family-a-maa",
+    "displayText": "阿媽",
+    "answerJyutping": "aa3 maa1",
+    "gloss": "母亲；妈妈",
+    "notes": "粤语日常最常用的亲昵称呼，口语里通常直接说“阿媽”。",
+    "usageTip": "称呼或提起自己的母亲时都可用。",
+    "exampleSentence": "我今晚同阿媽食飯。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-a-baa",
+    "displayText": "阿爸",
+    "answerJyutping": "aa3 baa4",
+    "gloss": "父亲；爸爸",
+    "notes": "“爸”在粤语读 baa4，和普通话读音不同。",
+    "usageTip": "与“阿媽”配对说“阿爸阿媽”很自然。",
+    "exampleSentence": "阿爸今日要加班，會夜少少返。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-a-gung",
+    "displayText": "阿公",
+    "answerJyutping": "aa3 gung1",
+    "gloss": "祖父；爷爷或外公的亲切称呼",
+    "notes": "不同家庭也会说“爺爺”或“外公”，但“阿公”很常见。",
+    "usageTip": "先听家中惯用叫法，再跟着称呼最得体。",
+    "exampleSentence": "星期日我哋去同阿公飲茶。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-a-po",
+    "displayText": "阿婆",
+    "answerJyutping": "aa3 po4",
+    "gloss": "祖母；奶奶或外婆的亲切称呼",
+    "notes": "“婆”读 po4，常用于熟悉、亲切的家庭语境。",
+    "usageTip": "探望长辈时说“去探阿婆”自然又亲切。",
+    "exampleSentence": "阿婆整嘅湯真係好飲。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-a-gor",
+    "displayText": "阿哥",
+    "answerJyutping": "aa3 go1",
+    "gloss": "哥哥",
+    "notes": "粤语称亲哥哥常在“哥”前加“阿”。",
+    "usageTip": "直接叫哥哥或说“我阿哥”都合适。",
+    "exampleSentence": "阿哥放工之後會順路接我。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-a-ze",
+    "displayText": "阿姐",
+    "answerJyutping": "aa3 ze2",
+    "gloss": "姐姐",
+    "notes": "“姐”读 ze2；“阿姐”是直接称呼姐姐的常用说法。",
+    "usageTip": "不要和服务业称呼的“阿姐”混淆，要看家庭语境。",
+    "exampleSentence": "阿姐幫我睇住個仔一陣。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-sai-lou",
+    "displayText": "細佬",
+    "answerJyutping": "sai3 lau2",
+    "gloss": "弟弟",
+    "notes": "“細”表示年纪较小；“細佬”专指弟弟。",
+    "usageTip": "介绍自己的弟弟时说“我細佬”最口语。",
+    "exampleSentence": "我細佬啱啱讀大學一年班。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-sai-mui",
+    "displayText": "細妹",
+    "answerJyutping": "sai3 mui2",
+    "gloss": "妹妹",
+    "notes": "与“細佬”对应，指较小的女性兄弟姐妹。",
+    "usageTip": "“妹”在这里读 mui2，别按普通话声调带读。",
+    "exampleSentence": "細妹聽日要考試，今晚唔出街。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-liang-gung-po",
+    "displayText": "兩公婆",
+    "answerJyutping": "loeng5 gung1 po4",
+    "gloss": "夫妻两人",
+    "notes": "这是粤语口语称一对夫妻的固定说法。",
+    "usageTip": "常用作主语，例如“两公婆去旅行”。",
+    "exampleSentence": "佢哋兩公婆平時都好慳家。",
+    "category": "家庭关系"
+  },
+  {
+    "id": "manual-family-syun-zai",
+    "displayText": "孫仔",
+    "answerJyutping": "syun1 zai2",
+    "gloss": "孙子；小孙儿",
+    "notes": "“仔”带亲昵感，长辈谈年幼孙子时尤其常用。",
+    "usageTip": "正式交代关系可说“孫仔”，家庭内部说法更亲切。",
+    "exampleSentence": "阿公成日話佢個孫仔好精靈。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-kau-fu",
+    "displayText": "舅父",
+    "answerJyutping": "kau5 fu2",
+    "gloss": "母亲的兄弟；舅舅",
+    "notes": "粤语常把“舅舅”说成“舅父”，称呼时也可直接这样叫。",
+    "usageTip": "介绍母系长辈时说“我舅父”清楚自然。",
+    "exampleSentence": "我舅父住喺深圳，得閒會過嚟。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-kau-mou",
+    "displayText": "舅母",
+    "answerJyutping": "kau5 mou5",
+    "gloss": "舅舅的妻子；舅妈",
+    "notes": "与“舅父”配对使用，是日常而得体的亲属称呼。",
+    "usageTip": "见面问候时直接说“舅母你好”就可以。",
+    "exampleSentence": "舅母煮咗一大枱餸等我哋。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-ji-maa",
+    "displayText": "姨媽",
+    "answerJyutping": "ji4 maa1",
+    "gloss": "母亲的姐妹；姨妈",
+    "notes": "“姨”读 ji4；母亲的姐姐或妹妹都可称“姨媽”。",
+    "usageTip": "谈母系亲属时，用“姨媽”比笼统说“阿姨”准确。",
+    "exampleSentence": "姨媽聽日帶表妹嚟食飯。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-gu-maa",
+    "displayText": "姑媽",
+    "answerJyutping": "gu1 maa1",
+    "gloss": "父亲的姐妹；姑妈",
+    "notes": "“姑媽”指父系的姑辈，要和“姨媽”分清。",
+    "usageTip": "交代亲属关系时，说“我姑媽”最明确。",
+    "exampleSentence": "姑媽每年新年都會派利是畀我哋。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-zit-zai",
+    "displayText": "姪仔",
+    "answerJyutping": "zit6 zai2",
+    "gloss": "兄弟的儿子；侄子",
+    "notes": "“姪”读 zit6，末尾是短促的塞音。",
+    "usageTip": "家里说起兄弟的儿子时常用“姪仔”。",
+    "exampleSentence": "我個姪仔今年先得三歲。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-zit-neoi",
+    "displayText": "姪女",
+    "answerJyutping": "zit6 neoi5",
+    "gloss": "兄弟的女儿；侄女",
+    "notes": "“女”读 neoi5；与“姪仔”成对使用。",
+    "usageTip": "介绍兄弟的女儿时说“我姪女”。",
+    "exampleSentence": "姪女最鍾意嚟我屋企玩。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-ngoi-saang",
+    "displayText": "外甥",
+    "answerJyutping": "ngoi6 saang1",
+    "gloss": "姐妹的儿子；外甥",
+    "notes": "粤语里“甥”读 saang1，和普通话读音不同。",
+    "usageTip": "说姐妹的儿子时用“外甥”，可配“個”作量词。",
+    "exampleSentence": "我外甥放暑假會嚟住幾日。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-ngoi-saang-neoi",
+    "displayText": "外甥女",
+    "answerJyutping": "ngoi6 saang1 neoi5",
+    "gloss": "姐妹的女儿；外甥女",
+    "notes": "这是正式而日常都能用的亲属称谓。",
+    "usageTip": "对长辈介绍时，说“呢個係我外甥女”很清楚。",
+    "exampleSentence": "外甥女今日第一次自己返學。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-gaa-jung",
+    "displayText": "家翁",
+    "answerJyutping": "gaa1 jung1",
+    "gloss": "丈夫的父亲；公公",
+    "notes": "“家翁”是交代丈夫父亲时较得体的说法。",
+    "usageTip": "需要明确姻亲关系时可用，日常昵称依各家习惯而定。",
+    "exampleSentence": "我家翁身體幾好，日日都有去行山。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-gaa-gu",
+    "displayText": "家姑",
+    "answerJyutping": "gaa1 gu1",
+    "gloss": "丈夫的母亲；婆婆",
+    "notes": "“家姑”用于谈及丈夫母亲，语气较正式而尊重。",
+    "usageTip": "介绍姻亲时用；在家中可按实际习惯称呼。",
+    "exampleSentence": "家姑話星期六想同我哋飲早茶。",
+    "category": "家庭称谓"
+  },
+  {
+    "id": "manual-family-cau-sai-lou",
+    "displayText": "湊細路",
+    "answerJyutping": "cau3 sai3 lou2",
+    "gloss": "照看小孩；带孩子",
+    "notes": "“湊”强调日常照料、陪伴和看管，不只是短暂看一眼。",
+    "usageTip": "家里讨论谁负责照顾孩子时很常用。",
+    "exampleSentence": "今晚你可唔可以早少少返嚟湊細路？",
+    "category": "照顾家人"
+  },
+  {
+    "id": "manual-family-ziu-jing",
+    "displayText": "照應",
+    "answerJyutping": "ziu3 jing3",
+    "gloss": "照料；关照",
+    "notes": "比单纯“幫手”更包含持续留意对方需要的意思。",
+    "usageTip": "托人关照家人时，用“照應”很得体。",
+    "exampleSentence": "我出差嗰幾日，麻煩你照應吓阿婆。",
+    "category": "照顾家人"
+  },
+  {
+    "id": "manual-family-si-hau",
+    "displayText": "侍候",
+    "answerJyutping": "si6 hau6",
+    "gloss": "服侍；照料长辈或病人",
+    "notes": "常用于照顾行动不便的长辈，带尊重意味。",
+    "usageTip": "不宜用于一般平辈互相帮忙，语义较郑重。",
+    "exampleSentence": "阿姨請咗假喺醫院侍候外公。",
+    "category": "照顾家人"
+  },
+  {
+    "id": "manual-family-pui-zan",
+    "displayText": "陪診",
+    "answerJyutping": "pui4 zan2",
+    "gloss": "陪同看病；陪诊",
+    "notes": "“診”读 zan2，通常指陪家人到诊所或医院。",
+    "usageTip": "说“我聽日要陪診”简洁说明请假或改约的原因。",
+    "exampleSentence": "我聽日朝早要陪診，晏晝先返公司。",
+    "category": "照顾家人"
+  },
+  {
+    "id": "manual-family-taam-beng",
+    "displayText": "探病",
+    "answerJyutping": "taam3 beng6",
+    "gloss": "探望生病的人",
+    "notes": "比“去睇病人”更固定，常配地点或对象使用。",
+    "usageTip": "出发前先确认病人休息和医院探访安排。",
+    "exampleSentence": "我哋收工後一齊去醫院探病。",
+    "category": "照顾家人"
+  },
+  {
+    "id": "manual-family-bou-ping-on",
+    "displayText": "報平安",
+    "answerJyutping": "bou3 ping4 on1",
+    "gloss": "报个平安；告知自己无恙",
+    "notes": "家人担心时，主动联系说自己安全就是“報平安”。",
+    "usageTip": "到达目的地后可说“我到咗，報個平安”。",
+    "exampleSentence": "你落機之後記得報平安畀屋企人知。",
+    "category": "照顾家人"
+  },
+  {
+    "id": "manual-family-loeng-hyut-aat",
+    "displayText": "量血壓",
+    "answerJyutping": "loeng4 hyut3 aat3",
+    "gloss": "测量血压",
+    "notes": "“量”在测量语境读 loeng4；“壓”读 aat3。",
+    "usageTip": "关心长辈健康时可提醒对方定时量血壓。",
+    "exampleSentence": "阿爸朝早起身會先量血壓。",
+    "category": "照顾家人"
+  },
+  {
+    "id": "manual-family-fu-jat-fu",
+    "displayText": "扶一扶",
+    "answerJyutping": "fu4 jat1 fu4",
+    "gloss": "扶一下；搀扶一下",
+    "notes": "动词重叠后语气较轻，常用于及时帮长辈借力。",
+    "usageTip": "看见对方起身或落楼不稳时可马上提出。",
+    "exampleSentence": "你慢慢行，我扶一扶你落樓。",
+    "category": "照顾家人"
+  },
+  {
+    "id": "manual-family-king-haa-gai",
+    "displayText": "傾吓偈",
+    "answerJyutping": "king1 haa5 gai2",
+    "gloss": "聊聊天",
+    "notes": "“偈”读 gai2；这个说法比普通话式“聊天”更口语。",
+    "usageTip": "陪伴独居或年长家人时，用来表达轻松陪聊。",
+    "exampleSentence": "得閒同阿婆傾吓偈，佢會開心好多。",
+    "category": "照顾家人"
+  },
+  {
+    "id": "manual-family-tai-sat",
+    "displayText": "睇實",
+    "answerJyutping": "tai2 sat6",
+    "gloss": "看紧；看管好",
+    "notes": "“實”表示确实、稳妥，强调不能松懈地照看。",
+    "usageTip": "提醒人看管小孩或重要物品时可用。",
+    "exampleSentence": "出街嗰陣幫我睇實個細路，唔好走失。",
+    "category": "照顾家人"
+  },
+  {
+    "id": "manual-family-lun-zyu-zou",
+    "displayText": "輪住做",
+    "answerJyutping": "leon4 zyu6 zou6",
+    "gloss": "轮流做",
+    "notes": "“住”在这里表示持续的轮替安排，不是居住的意思。",
+    "usageTip": "讨论家务公平分配时，可以提出“輪住做”。",
+    "exampleSentence": "不如我哋輪住做飯，咁樣公平啲。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-fan-gung",
+    "displayText": "分工",
+    "answerJyutping": "fan1 gung1",
+    "gloss": "分配工作；分工",
+    "notes": "除了工作场合，也常用于家庭安排家务。",
+    "usageTip": "先讲清楚“點樣分工”，可避免互相以为对方会做。",
+    "exampleSentence": "搬屋之前我哋先分工，邊個執嘢邊個聯絡車。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-zap-uk",
+    "displayText": "執屋",
+    "answerJyutping": "zap1 uk1",
+    "gloss": "收拾房子；整理家里",
+    "notes": "“執”在粤语常指收拾、整理，和普通话“执”用法不同。",
+    "usageTip": "周末整理住处时，说“執屋”最顺口。",
+    "exampleSentence": "今個星期六唔好約我，我要喺屋企執屋。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-dou-laap-saap",
+    "displayText": "倒垃圾",
+    "answerJyutping": "dou3 laap6 saap3",
+    "gloss": "倒垃圾；扔垃圾",
+    "notes": "“倒”在这里读 dou3，指把垃圾拿出去处理。",
+    "usageTip": "出门前常提醒家人“順手倒垃圾”。",
+    "exampleSentence": "你落樓嗰陣可唔可以順手倒垃圾？",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-sai-ci-so",
+    "displayText": "洗廁所",
+    "answerJyutping": "sai2 ci3 so2",
+    "gloss": "清洗厕所",
+    "notes": "“廁所”是粤语和书面语都通用的日常说法。",
+    "usageTip": "安排清洁任务时可直接说“今次我洗廁所”。",
+    "exampleSentence": "今個禮拜輪到我洗廁所。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-sai-wok",
+    "displayText": "洗鑊",
+    "answerJyutping": "sai2 wok6",
+    "gloss": "洗锅",
+    "notes": "“鑊”是粤语常用的锅，读 wok6；和“碗”分开说更具体。",
+    "usageTip": "做饭的人可自然地问另一位“你幫我洗鑊得唔得？”。",
+    "exampleSentence": "我煮餸，你幫手洗鑊啦。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-cing-syut-gwai",
+    "displayText": "清雪櫃",
+    "answerJyutping": "cing1 syut3 gwai6",
+    "gloss": "清理冰箱",
+    "notes": "粤语普遍把冰箱叫“雪櫃”。",
+    "usageTip": "发现食物放太久时，可提议一起“清雪櫃”。",
+    "exampleSentence": "雪櫃太多嘢，今晚一齊清雪櫃啦。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-wun-cong-daan",
+    "displayText": "換床單",
+    "answerJyutping": "wun6 cong4 daan1",
+    "gloss": "换床单",
+    "notes": "“換”读 wun6，表示把旧的床单替换成干净的。",
+    "usageTip": "照顾病人或准备客人留宿时都很常用。",
+    "exampleSentence": "客人聽日嚟住，我今晚要換床單。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-saai-pei",
+    "displayText": "曬被",
+    "answerJyutping": "saai3 pei5",
+    "gloss": "晒被子",
+    "notes": "“曬”指借日光或通风去湿、除味。",
+    "usageTip": "天气好时，家人会说“出去曬被”。",
+    "exampleSentence": "今日有太陽，我哋不如拎張被出去曬被。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-fan-leoi-wui-sau",
+    "displayText": "分類回收",
+    "answerJyutping": "fan1 leoi6 wui4 sau1",
+    "gloss": "垃圾分类回收",
+    "notes": "“分類”强调先分开材料，“回收”指交到回收渠道。",
+    "usageTip": "家庭订下环保习惯时，这个说法准确实用。",
+    "exampleSentence": "膠樽同紙盒記得分類回收，唔好一齊掉。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-lau-faan",
+    "displayText": "留飯",
+    "answerJyutping": "lau4 faan6",
+    "gloss": "留饭给人；预留一份饭菜",
+    "notes": "“留飯”指知道家人晚归，特意把饭菜留起来。",
+    "usageTip": "问家人会不会回家吃饭时，常接“使唔使留飯？”",
+    "exampleSentence": "你今晚返唔返嚟食？使唔使留飯畀你？",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-faan-jit-sung",
+    "displayText": "翻熱餸",
+    "answerJyutping": "faan1 jit6 sung3",
+    "gloss": "把饭菜重新加热",
+    "notes": "“餸”在粤语指配饭的菜；“翻熱”是再加热。",
+    "usageTip": "家人迟回家时，可交代对方自己翻熱餸。",
+    "exampleSentence": "餸喺雪櫃，你返到嚟自己翻熱餸啦。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-lau-mun",
+    "displayText": "留門",
+    "answerJyutping": "lau4 mun4",
+    "gloss": "留门；不锁门等人回来",
+    "notes": "通常用于家人稍后回家，带有安全和作息的协调意味。",
+    "usageTip": "先确认回家时间太晚时是否需要留門。",
+    "exampleSentence": "我十一點先返，你唔使特登留門等我。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-so-hou-mun",
+    "displayText": "鎖好門",
+    "answerJyutping": "so2 hou2 mun4",
+    "gloss": "把门锁好",
+    "notes": "“好”放在动词后，表示动作完成并妥当。",
+    "usageTip": "最后离家的人可被提醒“記得鎖好門”。",
+    "exampleSentence": "你最後走，記得鎖好門同熄晒燈。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-lau-zaan-dang",
+    "displayText": "留盞燈",
+    "answerJyutping": "lau4 zaan2 dang1",
+    "gloss": "留一盏灯",
+    "notes": "“盞”是灯的常用量词；为晚归家人留灯很生活化。",
+    "usageTip": "可用来表达体贴，也可讨论夜间用电。",
+    "exampleSentence": "你夜返就留盞燈喺門口，唔好摸黑。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-sik-laang-hei",
+    "displayText": "熄冷氣",
+    "answerJyutping": "sik1 laang5 hei3",
+    "gloss": "关空调",
+    "notes": "粤语把空调常叫“冷氣”，说“熄”比“關”更口语。",
+    "usageTip": "房间无人时，提醒家人熄冷氣很自然。",
+    "exampleSentence": "出房之前熄冷氣，唔好嘥電。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-haan-din",
+    "displayText": "慳電",
+    "answerJyutping": "haan1 din6",
+    "gloss": "省电",
+    "notes": "“慳”是粤语常用动词，指节省、俭省。",
+    "usageTip": "讨论电费或生活习惯时，比“省电”更地道。",
+    "exampleSentence": "天氣涼咗，開風扇會慳電啲。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-gong-dim-sou",
+    "displayText": "講掂數",
+    "answerJyutping": "gong2 dim6 sou3",
+    "gloss": "谈妥；商量好",
+    "notes": "“掂”有妥当、成功的意思；“講掂數”指达成共识。",
+    "usageTip": "家人就安排谈好后，可以说“已經講掂數”。",
+    "exampleSentence": "我哋同阿媽講掂數，星期日一齊返鄉下。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-taan-hoi-lei-gong",
+    "displayText": "攤開嚟講",
+    "answerJyutping": "taan1 hoi1 lei4 gong2",
+    "gloss": "摊开来谈；开诚布公地说",
+    "notes": "用于有分歧时，强调不要猜测或回避，直接说明问题。",
+    "usageTip": "语气要平和，适合提出家庭预算或照顾安排。",
+    "exampleSentence": "有咩唔開心就攤開嚟講，唔好收埋喺心。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-zau-faan-si-gaan",
+    "displayText": "就返時間",
+    "answerJyutping": "zau6 faan1 si4 gaan3",
+    "gloss": "迁就并协调时间",
+    "notes": "“就返”表示按彼此情况调整回来，常用于约家人行程。",
+    "usageTip": "无法完全配合时，可说先“就返時間”。",
+    "exampleSentence": "大家就返時間，星期六晏晝先食團年飯。",
+    "category": "家务协商"
+  },
+  {
+    "id": "manual-family-seong-mun-taam-mong",
+    "displayText": "上門探望",
+    "answerJyutping": "soeng6 mun4 taam3 mong6",
+    "gloss": "登门探望",
+    "notes": "“上門”强调到对方住处；用于探长辈、病人或亲友都合适。",
+    "usageTip": "先约好时间再上門探望，语气更周到。",
+    "exampleSentence": "我哋星期日會上門探望姨媽。",
+    "category": "亲友往来"
+  },
+  {
+    "id": "manual-family-gwo-lei-co-haa",
+    "displayText": "過嚟坐吓",
+    "answerJyutping": "gwo3 lei4 co5 haa5",
+    "gloss": "过来坐坐",
+    "notes": "句末“吓”让邀请语气轻松，不显得正式或有压力。",
+    "usageTip": "邀请熟亲友短暂来家里聊天时可用。",
+    "exampleSentence": "你得閒過嚟坐吓，我哋傾吓偈。",
+    "category": "亲友往来"
+  },
+  {
+    "id": "manual-family-daai-sau-seon",
+    "displayText": "帶手信",
+    "answerJyutping": "daai3 sau6 seon3",
+    "gloss": "带伴手礼；带小礼物",
+    "notes": "“手信”多指旅行或探访时带给亲友的心意礼物。",
+    "usageTip": "上门作客可问“使唔使帶手信？”表达礼貌。",
+    "exampleSentence": "去拜訪長輩，帶手信會得體啲。",
+    "category": "亲友往来"
+  },
+  {
+    "id": "manual-family-giu-maai",
+    "displayText": "叫埋",
+    "answerJyutping": "giu3 maai4",
+    "gloss": "也叫上；一并邀请",
+    "notes": "“埋”有一同、合在一起的意思，常用于邀约亲友。",
+    "usageTip": "想表示别漏了某人时，说“叫埋佢”。",
+    "exampleSentence": "食飯嗰陣記得叫埋舅父舅母。",
+    "category": "亲友往来"
+  },
+  {
+    "id": "manual-family-gaa-ting-zeoi-wui",
+    "displayText": "家庭聚會",
+    "answerJyutping": "gaa1 ting4 zeoi6 wui6",
+    "gloss": "家庭聚会",
+    "notes": "用于家人较齐全的聚餐、庆祝或商量活动，语义清楚中性。",
+    "usageTip": "群组通知或安排日程时可以直接用。",
+    "exampleSentence": "下個月有個家庭聚會，你記得預返時間。",
+    "category": "亲友往来"
+  },
+  {
+    "id": "manual-family-wai-maai-sik-faan",
+    "displayText": "圍埋食飯",
+    "answerJyutping": "wai4 maai4 sik6 faan6",
+    "gloss": "围在一起吃饭",
+    "notes": "“圍埋”突出大家聚在同一桌的亲近感。",
+    "usageTip": "节日或久别重逢时说这句，很有家庭团聚气氛。",
+    "exampleSentence": "難得人齊，今晚圍埋食飯啦。",
+    "category": "亲友往来"
+  },
+  {
+    "id": "manual-family-zip-fung",
+    "displayText": "接風",
+    "answerJyutping": "zip3 fung1",
+    "gloss": "为远道归来的人接风",
+    "notes": "通常以吃饭、聚会欢迎刚旅行或搬回来的亲友。",
+    "usageTip": "可说“幫你接風”，不必只用于很隆重的场合。",
+    "exampleSentence": "表哥返咗香港，我哋今晚同佢接風。",
+    "category": "亲友往来"
+  },
+  {
+    "id": "manual-family-sung-hang",
+    "displayText": "送行",
+    "answerJyutping": "sung3 hang4",
+    "gloss": "送别；送行",
+    "notes": "“行”在这里读 hang4，指离开、出发的行程。",
+    "usageTip": "送亲友去机场、车站或搬家时都可用。",
+    "exampleSentence": "聽朝我哋會去高鐵站同姨媽送行。",
+    "category": "亲友往来"
+  },
+  {
+    "id": "manual-family-zap-ding-je",
+    "displayText": "執定嘢",
+    "answerJyutping": "zap1 ding6 je5",
+    "gloss": "预先收拾好东西",
+    "notes": "“定”放在动词后，表示事先完成准备。",
+    "usageTip": "出门拜访或带孩子过夜前，用来提醒收拾必需品。",
+    "exampleSentence": "你今晚執定嘢，聽日一早就出發。",
+    "category": "亲友往来"
+  },
+  {
+    "id": "manual-family-ze-suk",
+    "displayText": "借宿",
+    "answerJyutping": "ze3 suk1",
+    "gloss": "借住一晚；留宿",
+    "notes": "指临时在别人家过夜，语气比“住喺度”更明确。",
+    "usageTip": "提出请求时加“可唔可以”会更有礼貌。",
+    "exampleSentence": "太夜返唔到去，我可唔可以喺你度借宿一晚？",
+    "category": "亲友往来"
+  },
+  {
+    "id": "manual-family-jan-cing",
+    "displayText": "人情",
+    "answerJyutping": "jan4 cing4",
+    "gloss": "礼金；人情往来中的红包钱",
+    "notes": "在婚礼、寿宴等场合，“做人情”通常指送礼金，不只是人际关系。",
+    "usageTip": "问宴席礼数时可说“人情封幾多好？”。",
+    "exampleSentence": "今次飲新抱酒，你打算做人情封幾多？",
+    "category": "人生礼俗"
+  },
+  {
+    "id": "manual-family-lai-si-fung",
+    "displayText": "利是封",
+    "answerJyutping": "lai6 si6 fung1",
+    "gloss": "红包封；利是袋",
+    "notes": "“利是”指红包钱，“封”是装红包的封套。",
+    "usageTip": "过年前准备红包时，可说“買定啲利是封”。",
+    "exampleSentence": "阿媽提醒我買定啲利是封拜年用。",
+    "category": "人生礼俗"
+  },
+  {
+    "id": "manual-family-zou-sau",
+    "displayText": "做壽",
+    "answerJyutping": "zou6 sau6",
+    "gloss": "为长辈庆祝寿辰",
+    "notes": "多用于较年长的家人，语气比一般“過生日”更有敬意。",
+    "usageTip": "可配年龄说“同阿公做八十大壽”。",
+    "exampleSentence": "今年我哋想同阿公做壽，請親戚食餐飯。",
+    "category": "人生礼俗"
+  },
+  {
+    "id": "manual-family-baai-mun-jyut-zau",
+    "displayText": "擺滿月酒",
+    "answerJyutping": "baai2 mun5 jyut6 zau2",
+    "gloss": "办满月宴",
+    "notes": "“擺”在这里是设宴；孩子满月后宴请亲友的传统说法。",
+    "usageTip": "若只是小型庆祝，不一定要用这个词，避免默认对方会大办。",
+    "exampleSentence": "表姐下個月會擺滿月酒，你記得留返嗰日。",
+    "category": "人生礼俗"
+  },
+  {
+    "id": "manual-family-wui-mun",
+    "displayText": "回門",
+    "answerJyutping": "wui4 mun4",
+    "gloss": "新婚后回娘家探亲的礼俗",
+    "notes": "是婚后夫妇回女方娘家探望的传统环节，保留在部分家庭习惯中。",
+    "usageTip": "适用于清楚谈婚嫁礼俗，不要泛指普通回家。",
+    "exampleSentence": "佢哋結婚後第三日會返去回門。",
+    "category": "人生礼俗"
+  },
+  {
+    "id": "manual-family-sau-haau",
+    "displayText": "守孝",
+    "answerJyutping": "sau2 haau3",
+    "gloss": "为逝去长辈服丧守礼",
+    "notes": "涉及丧事与家庭习俗，使用时应保持克制和尊重。",
+    "usageTip": "不需要追问细节，简短表达关怀较合适。",
+    "exampleSentence": "佢屋企近排守孝，我哋唔好打擾佢太多。",
+    "category": "人生礼俗"
+  },
+  {
+    "id": "manual-family-baak-si",
+    "displayText": "白事",
+    "answerJyutping": "baak6 si6",
+    "gloss": "丧事；葬礼相关事宜",
+    "notes": "粤语常以“白事”委婉指丧礼，与喜庆的“紅事”相对。",
+    "usageTip": "谈及他人家事时，避免过度追问，语气应简短得体。",
+    "exampleSentence": "佢屋企有白事，我哋改日先約佢。",
+    "category": "人生礼俗"
+  },
+  {
+    "id": "manual-family-ceot-ban",
+    "displayText": "出殯",
+    "answerJyutping": "ceot1 ban3",
+    "gloss": "出殡；举行送葬仪式",
+    "notes": "“殯”读 ban3，是丧礼中正式送别逝者的程序。",
+    "usageTip": "多用于通知行程或请假原因，避免用轻松语气。",
+    "exampleSentence": "聽日要出殯，我會請半日假陪屋企人。",
+    "category": "人生礼俗"
+  },
+  {
+    "id": "manual-family-baai-saan",
+    "displayText": "拜山",
+    "answerJyutping": "baai3 saan1",
+    "gloss": "扫墓祭祖",
+    "notes": "粤语常说“拜山”指清明、重阳等时节到墓地祭祖。",
+    "usageTip": "安排出发时可问“幾點去拜山？”。",
+    "exampleSentence": "清明嗰日我哋一家人會去拜山。",
+    "category": "人生礼俗"
+  },
+  {
+    "id": "manual-family-baak-gam",
+    "displayText": "帛金",
+    "answerJyutping": "baak6 gam1",
+    "gloss": "丧事慰问金；白金",
+    "notes": "“帛金”是出席或慰问丧事时给的礼金，和婚宴人情不同。",
+    "usageTip": "不确定金额或习惯时，私下向熟悉礼俗的家人请教。",
+    "exampleSentence": "阿爸話帛金已經幫我封好，你去到交畀主人家就得。",
+    "category": "人生礼俗"
+  }
+]
