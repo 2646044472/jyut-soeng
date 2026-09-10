@@ -1,0 +1,102 @@
+[
+  {
+    "id": "manual-event-tickets-choose-screening",
+    "displayText": "揀場",
+    "answerJyutping": "gaan2 coeng4",
+    "gloss": "購買電影票時挑選放映時段",
+    "notes": "多用於戲院訂票；可按開場時間、語言版本或剩餘座位決定。",
+    "usageTip": "同朋友約睇戲時，先確認大家到達時間再揀場。",
+    "exampleSentence": "我哋食完飯先揀場，睇下邊個時間最啱。",
+    "category": "活動票務"
+  },
+  {
+    "id": "manual-event-tickets-adjacent-seats",
+    "displayText": "連位",
+    "answerJyutping": "lin4 wai2",
+    "gloss": "兩個或以上相連的座位",
+    "notes": "買兩張或多張票時常問有沒有連位；座位圖上通常會顯示可選位置。",
+    "usageTip": "人數較多時，及早購票較容易買到連位。",
+    "exampleSentence": "呢場得返兩個連位，我哋即刻買啦。",
+    "category": "活動票務"
+  },
+  {
+    "id": "manual-event-tickets-seat-selection",
+    "displayText": "劃位",
+    "answerJyutping": "waak6 wai2",
+    "gloss": "購票時從座位圖挑選座號",
+    "notes": "常見於戲院、演唱會和有編號座位的表演；完成付款前仍可能被其他人選走。",
+    "usageTip": "劃位前先看清舞台方向、螢幕位置和票價區域。",
+    "exampleSentence": "你幫手劃位，我去確認信用卡資料。",
+    "category": "活動票務"
+  },
+  {
+    "id": "manual-event-tickets-ticket-check",
+    "displayText": "驗票",
+    "answerJyutping": "jim6 piu3",
+    "gloss": "入場前核對門票資料和有效性",
+    "notes": "職員可能掃描二維碼，或查看日期、場次、座位和持票人資料。",
+    "usageTip": "到閘口前先打開電子票，驗票時會快好多。",
+    "exampleSentence": "門口要驗票，你攞定張電子票出嚟。",
+    "category": "入場安排"
+  },
+  {
+    "id": "manual-event-tickets-entry-gate",
+    "displayText": "入場閘口",
+    "answerJyutping": "jap6 coeng4 zaap6 hau2",
+    "gloss": "觀眾持票進入場地的指定入口",
+    "notes": "大型場館常按座位區、票種或排隊時段安排不同閘口。",
+    "usageTip": "出發前看清門票上的入場閘口，避免去錯隊。",
+    "exampleSentence": "我哋係紅區，應該去三號入場閘口。",
+    "category": "入場安排"
+  },
+  {
+    "id": "manual-event-tickets-queue-for-entry",
+    "displayText": "排隊入場",
+    "answerJyutping": "paai4 deoi6 jap6 coeng4",
+    "gloss": "按工作人員指示排隊進入場地",
+    "notes": "演唱會和熱門首映常要提早排隊入場，隊伍亦可能按票種分開。",
+    "usageTip": "排隊入場時保留門票畫面，亦留意場地的行李和飲品規則。",
+    "exampleSentence": "七點開始排隊入場，我哋六點半喺場館外面等。",
+    "category": "入場安排"
+  },
+  {
+    "id": "manual-event-tickets-refund-ticket",
+    "displayText": "退票",
+    "answerJyutping": "teoi3 piu3",
+    "gloss": "取消已購門票並申請退回款項",
+    "notes": "能否退款要看售票平台和主辦方條款；部分活動只可在取消或改期後辦理。",
+    "usageTip": "申請退票前保留訂單編號、付款紀錄和活動通知。",
+    "exampleSentence": "主辦方取消咗表演，我想知道點樣退票。",
+    "category": "票務售後"
+  },
+  {
+    "id": "manual-event-tickets-change-screening",
+    "displayText": "改場次",
+    "answerJyutping": "goi2 coeng4 ci3",
+    "gloss": "把原有門票改到另一個放映或演出時段",
+    "notes": "戲院有時容許在開場前更改場次；新場次的票價和餘位會影響是否可辦理。",
+    "usageTip": "想改場次時，先揀定另一場有空位的時段再向職員查詢。",
+    "exampleSentence": "我趕唔切八點嗰場，可唔可以改場次去十點？",
+    "category": "票務售後"
+  },
+  {
+    "id": "manual-event-tickets-pay-difference",
+    "displayText": "補差價",
+    "answerJyutping": "bou2 caa1 gaa3",
+    "gloss": "更換票種、座位或場次時補付的金額",
+    "notes": "由較低票價換到較高票價時常用；實際金額以售票系統或職員計算為準。",
+    "usageTip": "改票前先問清楚要不要補差價，以及能否退回多付金額。",
+    "exampleSentence": "換去中間嗰區要補差價，你覺得值唔值得？",
+    "category": "票務售後"
+  },
+  {
+    "id": "manual-event-tickets-collection-code",
+    "displayText": "取票碼",
+    "answerJyutping": "ceoi2 piu3 maa5",
+    "gloss": "領取電子票或紙本門票所需的識別號碼",
+    "notes": "可見於確認電郵、短訊或售票平台訂單頁；領票時可能還要出示身分證明。",
+    "usageTip": "到場前截圖保存取票碼，網絡不穩時都可以領票。",
+    "exampleSentence": "我搵唔返取票碼，你可唔可以喺電郵再轉發畀我？",
+    "category": "取票安排"
+  }
+]
