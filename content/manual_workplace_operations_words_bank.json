@@ -1,0 +1,702 @@
+[
+  {
+    "id": "manual-workplace-wui6-ji5-gei3-luk6",
+    "displayText": "會議紀錄",
+    "answerJyutping": "wui6 ji5 gei3 luk6",
+    "gloss": "把会议中的讨论、决定和后续工作准确写下来的记录",
+    "notes": "wui6 的 ui 要圆唇；gei3 是三声，luk6 是短促的入声，尾音不要拖长。",
+    "usageTip": "会后发给与会者核对时用；纪录要写清谁负责什么和何时完成，才真正有用。",
+    "exampleSentence": "我晏晝前會整理好會議紀錄畀大家確認。",
+    "category": "會議協作"
+  },
+  {
+    "id": "manual-workplace-ji5-cing4",
+    "displayText": "議程",
+    "answerJyutping": "ji5 cing4",
+    "gloss": "会议预先安排要讨论的事项和次序",
+    "notes": "ji5 要先收紧 i 再落到五声；cing4 的 c 要送气，别读成不送气的 zing。",
+    "usageTip": "开会前先发議程，可让参加者准备资料，也方便控制讨论时间。",
+    "exampleSentence": "我加咗客戶回饋落今朝嘅議程。",
+    "category": "會議協作"
+  },
+  {
+    "id": "manual-workplace-zyu2-ci4-jan4",
+    "displayText": "主持人",
+    "answerJyutping": "zyu2 ci4 jan4",
+    "gloss": "负责带领会议、控制流程和分配发言机会的人",
+    "notes": "zyu2 的 y 是圆唇音；ci4 要送气并留意四声，不要同 zi4 混淆。",
+    "usageTip": "正式会议可先确认主持人，讨论离题时由对方拉回議程会较自然。",
+    "exampleSentence": "主持人可唔可以幫手總結吓呢一節？",
+    "category": "會議協作"
+  },
+  {
+    "id": "manual-workplace-ceot1-zik6",
+    "displayText": "出席",
+    "answerJyutping": "ceot1 zik6",
+    "gloss": "到场参加会议、活动或培训",
+    "notes": "ceot1 的 eot 韵尾要短收 t；zik6 同样是入声，k 尾要清楚。",
+    "usageTip": "通知不能到场时，可说「未能出席」并补充是否需要会后资料。",
+    "exampleSentence": "聽日部門會議要記得準時出席。",
+    "category": "會議協作"
+  },
+  {
+    "id": "manual-workplace-man4-gin6-gaap3",
+    "displayText": "文件夾",
+    "answerJyutping": "man4 gin6 gaap3",
+    "gloss": "用来收纳和分类纸本文件的夹子或资料夹",
+    "notes": "man4 的 m 起音闭唇；gin6 收 n 尾，gaap3 的 aa 要开而 p 尾短收。",
+    "usageTip": "办公室日常很常用；交文件给同事时可说明放在哪个文件夾，方便查找。",
+    "exampleSentence": "簽好嘅表格放返入藍色文件夾就得。",
+    "category": "辦公營運"
+  },
+  {
+    "id": "manual-workplace-haang4-dung6-hong6-muk6",
+    "displayText": "行動項目",
+    "answerJyutping": "haang4 dung6 hong6 muk6",
+    "gloss": "讨论后要由具体负责人完成的后续工作",
+    "notes": "haang4 的 ng 尾别省掉；hong6 和 muk6 都是六声，其中 muk6 要短收 k。",
+    "usageTip": "会末逐项确认行動項目、负责人和期限，能避免会后无人跟进。",
+    "exampleSentence": "呢個行動項目由我負責，星期三前交初稿。",
+    "category": "會議協作"
+  },
+  {
+    "id": "manual-workplace-doi6-baan6-si6-hong6",
+    "displayText": "待辦事項",
+    "answerJyutping": "doi6 baan6 si6 hong6",
+    "gloss": "尚未完成、需要处理的事情清单",
+    "notes": "doi6 的 oi 不要读成 oe；baan6 要留意 aan 韵尾，hong6 是低沉六声。",
+    "usageTip": "个人或团队清单都能用；写清下一步动作会比只写问题更容易执行。",
+    "exampleSentence": "我將待辦事項擺咗喺共享文件最上面。",
+    "category": "會議協作"
+  },
+  {
+    "id": "manual-workplace-kyut3-ji5",
+    "displayText": "決議",
+    "answerJyutping": "kyut3 ji5",
+    "gloss": "经过讨论后正式作出的决定",
+    "notes": "kyut3 的收尾是 t，不可拖成 kyut；ji5 是五声，音高由中低处落下。",
+    "usageTip": "适合写进会议纪录；有分歧时先确认決議，之后才分配执行工作。",
+    "exampleSentence": "今日嘅決議係下個月先推出新版。",
+    "category": "會議協作"
+  },
+  {
+    "id": "manual-workplace-biu2-kyut3",
+    "displayText": "表決",
+    "answerJyutping": "biu2 kyut3",
+    "gloss": "以投票方式决定某项提议是否通过",
+    "notes": "biu2 的 iu 要连在一起；kyut3 要圆唇起音，末尾 t 轻收。",
+    "usageTip": "意见难以统一时用；先交代表決规则和通过门槛会较公平。",
+    "exampleSentence": "如果大家冇其他意見，我哋而家表決。",
+    "category": "會議協作"
+  },
+  {
+    "id": "manual-workplace-gung6-sik1",
+    "displayText": "共識",
+    "answerJyutping": "gung6 sik1",
+    "gloss": "经过沟通后，大家都能接受的共同看法或做法",
+    "notes": "gung6 的 ng 尾要收住；sik1 是高平短音，k 尾不要漏掉。",
+    "usageTip": "不必表示每个人完全同意；强调大家能接受同一方向时尤其合适。",
+    "exampleSentence": "我哋傾到有共識，就照呢個方向做。",
+    "category": "會議協作"
+  },
+  {
+    "id": "manual-workplace-gaan2-bou3",
+    "displayText": "簡報",
+    "answerJyutping": "gaan2 bou3",
+    "gloss": "用较短时间向听众说明重点、进度或建议的报告",
+    "notes": "gaan2 的 aa 要打开；bou3 是三声，ou 韵母不要读成普通话式的 ao。",
+    "usageTip": "准备簡報时先说结论和需要对方决定的事，细节可留在提问环节。",
+    "exampleSentence": "我得十分鐘簡報，會集中講三個重點。",
+    "category": "項目協作"
+  },
+  {
+    "id": "manual-workplace-tau4-jing2-pin3",
+    "displayText": "投影片",
+    "answerJyutping": "tau4 jing2 pin3",
+    "gloss": "简报中逐页展示文字、图表或图片的页面",
+    "notes": "tau4 的 au 要读开；jing2 的 ng 尾要收清，pin3 的 p 是不送气音。",
+    "usageTip": "修改投影片时要先问清楚版本，避免把同事已更新的内容覆盖。",
+    "exampleSentence": "第三張投影片嘅數字麻煩再核對一次。",
+    "category": "項目協作"
+  },
+  {
+    "id": "manual-workplace-jin2-si6",
+    "displayText": "演示",
+    "answerJyutping": "jin2 si6",
+    "gloss": "实际操作给别人看，以说明产品、系统或做法",
+    "notes": "jin2 的 n 尾清楚收住；si6 是六声，别误读成高音的 si1。",
+    "usageTip": "介绍新流程或系统时用；演示前先准备好测试账号，过程会更顺畅。",
+    "exampleSentence": "下晝我會演示一次新系統嘅報表功能。",
+    "category": "項目協作"
+  },
+  {
+    "id": "manual-workplace-paai4-kei4",
+    "displayText": "排期",
+    "answerJyutping": "paai4 kei4",
+    "gloss": "安排各项工作、资源或人员在什么时间进行",
+    "notes": "paai4 的 aai 要拉开；kei4 的 k 不送气，音调是四声，不要读成 kei1。",
+    "usageTip": "项目启动或资源紧张时常用；排期前先确认依赖事项，才不容易反复改。",
+    "exampleSentence": "設計稿一確認，我哋就可以幫開發排期。",
+    "category": "項目協作"
+  },
+  {
+    "id": "manual-workplace-lei5-cing4-bei1",
+    "displayText": "里程碑",
+    "answerJyutping": "lei5 cing4 bei1",
+    "gloss": "项目中用于检视关键进展的重要阶段或日期",
+    "notes": "lei5 的 ei 不要读成 ai；cing4 的 c 要送气，bei1 是高平声。",
+    "usageTip": "里程碑不是普通待办；要设在会影响后续工作的关键节点上。",
+    "exampleSentence": "測試完成係今季最重要嘅里程碑。",
+    "category": "項目協作"
+  },
+  {
+    "id": "manual-workplace-zi1-jyun4-fan1-pui3",
+    "displayText": "資源分配",
+    "answerJyutping": "zi1 jyun4 fan1 pui3",
+    "gloss": "把人手、预算、时间或工具按需要安排给不同工作",
+    "notes": "zi1 是高平声；jyun4 的 y 要圆唇，pui3 的 p 不送气而 ui 要圆唇。",
+    "usageTip": "提出資源分配问题时，具体说明缺的是人、时间还是预算，会更容易得到回应。",
+    "exampleSentence": "呢個計劃要先傾清楚資源分配先開得工。",
+    "category": "項目協作"
+  },
+  {
+    "id": "manual-workplace-gung1-zok3-loeng6",
+    "displayText": "工作量",
+    "answerJyutping": "gung1 zok3 loeng6",
+    "gloss": "完成某项或一段时间工作所需处理的事务总量",
+    "notes": "gung1 的 ng 尾要完整；zok3 和 loeng6 的尾音分别收 k、ng，不要混掉。",
+    "usageTip": "说工作量太大时，最好附上具体任务和期限，方便主管判断是否要调配人手。",
+    "exampleSentence": "我今個禮拜工作量比較大，可能要遲兩日交。",
+    "category": "項目協作"
+  },
+  {
+    "id": "manual-workplace-jan4-sau2-bat1-zuk1",
+    "displayText": "人手不足",
+    "answerJyutping": "jan4 sau2 bat1 zuk1",
+    "gloss": "可用来做事的人不够，难以按原计划处理工作",
+    "notes": "jan4 的 j 起音轻；bat1 和 zuk1 都是入声，要短促收尾。",
+    "usageTip": "是常用说法；提出人手不足时，同时建议优先处理哪些事情，沟通会更实际。",
+    "exampleSentence": "而家人手不足，急件要先同我哋確認。",
+    "category": "項目協作"
+  },
+  {
+    "id": "manual-workplace-leon4-baan1",
+    "displayText": "輪班",
+    "answerJyutping": "leon4 baan1",
+    "gloss": "按编定次序轮流在不同时间当值工作",
+    "notes": "leon4 的 eo 要圆唇，别读成 lun4；baan1 的 aa 韵母要够开。",
+    "usageTip": "客服、零售和营运岗位常用；换班前要说清时间和交接对象。",
+    "exampleSentence": "我今個月輪班表出咗，星期六要返早更。",
+    "category": "辦公營運"
+  },
+  {
+    "id": "manual-workplace-gung6-jung6-dong2-on3",
+    "displayText": "共用檔案",
+    "answerJyutping": "gung6 jung6 dong2 on3",
+    "gloss": "让多位同事一起查看、编辑或保存资料的文件",
+    "notes": "gung6 和 jung6 都有 ng 尾；dong2 是二声，on3 的 o 要圆而短。",
+    "usageTip": "发出共用檔案时应同时说明权限和应修改的部分，减少版本混乱。",
+    "exampleSentence": "最新嗰份共用檔案我已經放咗喺雲端。",
+    "category": "辦公營運"
+  },
+  {
+    "id": "manual-workplace-cyun4-dong2",
+    "displayText": "存檔",
+    "answerJyutping": "cyun4 dong2",
+    "gloss": "把文件或资料妥善保存，以便日后查找和核对",
+    "notes": "cyun4 的 c 要送气，y 要圆唇；dong2 的 ng 尾收实，声调是二声。",
+    "usageTip": "处理完合约、报价或个案时常用；最好同时按统一规则命名后再存檔。",
+    "exampleSentence": "簽妥之後記得將合約存檔。",
+    "category": "文件流程"
+  },
+  {
+    "id": "manual-workplace-cou2-gou2",
+    "displayText": "草稿",
+    "answerJyutping": "cou2 gou2",
+    "gloss": "尚未定案、供别人审阅和修改的初步版本",
+    "notes": "cou2 的 c 要送气；gou2 的 g 不送气，ou 韵母不要读成 ao。",
+    "usageTip": "发草稿时最好标明哪些部分仍待确认，别人较容易给到有用意见。",
+    "exampleSentence": "我今晚先畀你睇個草稿，聽朝再執。",
+    "category": "文件流程"
+  },
+  {
+    "id": "manual-workplace-ding6-gou2",
+    "displayText": "定稿",
+    "answerJyutping": "ding6 gou2",
+    "gloss": "经过修改和确认后，不再计划改动的最后版本",
+    "notes": "ding6 的 ng 尾要清；gou2 是二声，和三声的 gou3 要分开。",
+    "usageTip": "说定稿前要确认所有相关人都已看过，避免发出后再出现版本争议。",
+    "exampleSentence": "客戶一確認內容，我哋就可以定稿。",
+    "category": "文件流程"
+  },
+  {
+    "id": "manual-workplace-sau1-ding6",
+    "displayText": "修訂",
+    "answerJyutping": "sau1 ding6",
+    "gloss": "根据意见或新资料改正、补充原有内容",
+    "notes": "sau1 的 au 要完整；ding6 是六声，末尾 ng 不可省略。",
+    "usageTip": "较正式地表达修改文件时用；若改动很多，可说清是第几轮修訂。",
+    "exampleSentence": "麻煩你按住法務意見修訂第二段。",
+    "category": "文件流程"
+  },
+  {
+    "id": "manual-workplace-pai1-hat6",
+    "displayText": "批核",
+    "answerJyutping": "pai1 hat6",
+    "gloss": "由有权限的人审阅后批准申请、文件或款项",
+    "notes": "pai1 的 p 不送气；hat6 是入声，a 要短，t 尾收得利落。",
+    "usageTip": "跟进申请时常问「仲等緊邊個批核」；不要把它和一般阅览混为一谈。",
+    "exampleSentence": "呢筆開支未經批核，暫時唔可以入數。",
+    "category": "文件流程"
+  },
+  {
+    "id": "manual-workplace-cim1-hat6",
+    "displayText": "簽核",
+    "answerJyutping": "cim1 hat6",
+    "gloss": "在文件上签名或以系统方式确认批准",
+    "notes": "cim1 的 c 是送气音；hat6 是短促六声，结尾 t 不要读掉。",
+    "usageTip": "合约、假期和付款申请都常见；用时可说明要纸本还是电子簽核。",
+    "exampleSentence": "部門主管簽核後，申請就會自動送去人事部。",
+    "category": "文件流程"
+  },
+  {
+    "id": "manual-workplace-kyun4-haan6",
+    "displayText": "權限",
+    "answerJyutping": "kyun4 haan6",
+    "gloss": "某人可以查看、修改、批准或操作某项资料和系统的范围",
+    "notes": "kyun4 的 y 要圆唇，n 尾收住；haan6 的 aa 韵母拉开后降到六声。",
+    "usageTip": "请求系统协助时直接说明需要哪一种權限，比只说「开唔到」更清楚。",
+    "exampleSentence": "我冇修改權限，只可以睇到呢份報告。",
+    "category": "文件流程"
+  },
+  {
+    "id": "manual-workplace-lau4-cing4-tou4",
+    "displayText": "流程圖",
+    "answerJyutping": "lau4 cing4 tou4",
+    "gloss": "用图示说明工作由开始到完成各步骤和负责人",
+    "notes": "lau4 的 au 要自然打开；cing4 的 c 送气，tou4 的 t 同样送气。",
+    "usageTip": "新同事入职或流程复杂时特别有用；画流程圖要标出判断点和交接点。",
+    "exampleSentence": "你照住流程圖做一次，就會明白下一步搵邊個。",
+    "category": "文件流程"
+  },
+  {
+    "id": "manual-workplace-gung1-zok3-zi2-jan5",
+    "displayText": "工作指引",
+    "answerJyutping": "gung1 zok3 zi2 jan5",
+    "gloss": "说明应如何完成一项工作的规则、步骤和注意事项",
+    "notes": "gung1 要收 ng 尾；zok3 收 k 尾，jan5 是五声，别读成 jan4。",
+    "usageTip": "教新人或更新做法时用；指引最好写到别人不问人也能照着做。",
+    "exampleSentence": "新嘅工作指引已經放咗喺內聯網。",
+    "category": "文件流程"
+  },
+  {
+    "id": "manual-workplace-zik1-zaak3-faan6-wai4",
+    "displayText": "職責範圍",
+    "answerJyutping": "zik1 zaak3 faan6 wai4",
+    "gloss": "一个岗位或团队应负责处理的工作界限",
+    "notes": "zik1 和 zaak3 都是入声；faan6 的 f 要吹气，wai4 的 w 起音不可漏。",
+    "usageTip": "事情跨团队时先厘清職責範圍，能减少互相推诿或重复工作。",
+    "exampleSentence": "呢件事唔完全喺我嘅職責範圍之內。",
+    "category": "辦公營運"
+  },
+  {
+    "id": "manual-workplace-wui6-bou3-deoi3-zoeng6",
+    "displayText": "匯報對象",
+    "answerJyutping": "wui6 bou3 deoi3 zoeng6",
+    "gloss": "需要定期接收工作进度、问题或成果说明的人",
+    "notes": "wui6 的 ui 圆唇；deoi3 和 zoeng6 都有圆唇复韵母，别读成普通话式的 dui、zhong。",
+    "usageTip": "新岗位开始时尽早问清匯報對象和频率，能避免资料送错人。",
+    "exampleSentence": "呢個項目嘅匯報對象係營運經理。",
+    "category": "辦公營運"
+  },
+  {
+    "id": "manual-workplace-kwaa1-bou6-mun4",
+    "displayText": "跨部門",
+    "answerJyutping": "kwaa1 bou6 mun4",
+    "gloss": "涉及两个或以上不同部门共同处理",
+    "notes": "kwaa1 的 kw 连读，不可拆开；bou6 是六声，mun4 的 m 起音要清楚。",
+    "usageTip": "形容事情需要多个团队配合时用；后面常接「合作」「會議」或「流程」。",
+    "exampleSentence": "呢個係跨部門問題，要約埋資訊科技部一齊傾。",
+    "category": "辦公營運"
+  },
+  {
+    "id": "manual-workplace-hip3-tiu4-jan4",
+    "displayText": "協調人",
+    "answerJyutping": "hip3 tiu4 jan4",
+    "gloss": "负责联络各方、安排配合和解决衔接问题的人",
+    "notes": "hip3 是入声，p 尾短收；tiu4 的 t 要送气，jan4 是四声。",
+    "usageTip": "跨组工作卡住时，先找協調人统一资讯，比逐一追问各人有效率。",
+    "exampleSentence": "我會做今次活動嘅協調人，大家有改動直接話我知。",
+    "category": "辦公營運"
+  },
+  {
+    "id": "manual-workplace-bou6-mun4",
+    "displayText": "部門",
+    "answerJyutping": "bou6 mun4",
+    "gloss": "公司或机构内按职能划分的工作单位",
+    "notes": "bou6 的 ou 要读足并落到六声；mun4 的 u 短而 m 起音闭唇。",
+    "usageTip": "问责任归属时可说「呢樣嘢邊個部門跟開？」；口气自然而直接。",
+    "exampleSentence": "我哋部門下星期會搬去另一層。",
+    "category": "辦公營運"
+  },
+  {
+    "id": "manual-workplace-tyun4-deoi6",
+    "displayText": "團隊",
+    "answerJyutping": "tyun4 deoi6",
+    "gloss": "为共同目标一起工作的一组人",
+    "notes": "tyun4 的 y 要圆唇；deoi6 的 eoi 要圆唇并落到六声。",
+    "usageTip": "强调合作关系时比只说同事更合适；可配「團隊成員」「團隊目標」。",
+    "exampleSentence": "我哋團隊每朝會用五分鐘對一對進度。",
+    "category": "辦公營運"
+  },
+  {
+    "id": "manual-workplace-man4-geoi6-gwai6",
+    "displayText": "文具櫃",
+    "answerJyutping": "man4 geoi6 gwai6",
+    "gloss": "办公室内存放笔、纸、文件夹等用品的柜子",
+    "notes": "man4 的 m 要闭唇；geoi6 的 eoi 要圆唇，gwai6 的 gw 连读而声音较低。",
+    "usageTip": "找办公室用品时直接问文具櫃喺邊，日常而自然。",
+    "exampleSentence": "剪刀同便利貼放咗喺文具櫃第二格。",
+    "category": "辦公營運"
+  },
+  {
+    "id": "manual-workplace-baan6-gung1-jung6-ban2",
+    "displayText": "辦公用品",
+    "answerJyutping": "baan6 gung1 jung6 ban2",
+    "gloss": "办公室日常工作所需的文具、纸张和其他消耗品",
+    "notes": "baan6 的 aa 要打开；gung1 收 ng 尾，jung6 的 y 要圆唇，ban2 是二声。",
+    "usageTip": "申请采购或补充库存时用；可具体列出缺少的辦公用品，避免买错。",
+    "exampleSentence": "辦公用品就快用晒，麻煩你幫手落單。",
+    "category": "辦公營運"
+  },
+  {
+    "id": "manual-workplace-gung1-zok3-zing3",
+    "displayText": "工作證",
+    "answerJyutping": "gung1 zok3 zing3",
+    "gloss": "用来证明员工身分、进出工作场所或使用设施的证件",
+    "notes": "gung1 的 ng 尾收好；zok3 收 k 尾，zing3 是三声并收 ng。",
+    "usageTip": "遗失时应立即通知行政或保安；不要把工作證借给别人使用。",
+    "exampleSentence": "入閘要拍工作證，你有冇帶？",
+    "category": "辦公營運"
+  },
+  {
+    "id": "manual-workplace-baan6-gung1-coek3",
+    "displayText": "辦公桌",
+    "answerJyutping": "baan6 gung1 coek3",
+    "gloss": "办公室中供员工放电脑、文件和处理工作的桌子",
+    "notes": "baan6 的 aa 拉开后落六声；coek3 的 c 送气，eok 韵尾收 k。",
+    "usageTip": "搬位或说明座位时常用；办公室沟通中也常简称「張枱」。",
+    "exampleSentence": "新同事嘅辦公桌已經準備好。",
+    "category": "辦公營運"
+  },
+  {
+    "id": "manual-workplace-caa4-seoi2-gaan1",
+    "displayText": "茶水間",
+    "answerJyutping": "caa4 seoi2 gaan1",
+    "gloss": "办公室内供员工倒水、冲饮品或短暂休息的小空间",
+    "notes": "caa4 的 c 要送气；seoi2 的 eoi 需圆唇，gaan1 的 aa 要打开。",
+    "usageTip": "找咖啡机、雪柜或微波炉时都能用；是非常日常的办公室词。",
+    "exampleSentence": "個飯盒可以擺喺茶水間個雪櫃入面。",
+    "category": "辦公營運"
+  },
+  {
+    "id": "manual-workplace-hung1-kyut3",
+    "displayText": "空缺",
+    "answerJyutping": "hung1 kyut3",
+    "gloss": "尚未有人担任、正在招人的职位或名额",
+    "notes": "hung1 的 h 要轻呼气并收 ng 尾；kyut3 的 y 圆唇，末尾 t 短收。",
+    "usageTip": "问公司是否有职位时可说「有冇相關空缺」；比直接问「请唔请人」更正式。",
+    "exampleSentence": "你可以睇吓公司網站有冇適合你嘅空缺。",
+    "category": "招聘求職"
+  },
+  {
+    "id": "manual-workplace-ziu1-ping3-gwong2-gou3",
+    "displayText": "招聘廣告",
+    "answerJyutping": "ziu1 ping3 gwong2 gou3",
+    "gloss": "公司公开说明职位要求、职责和申请方法的招人资讯",
+    "notes": "ziu1 的 iu 连读；ping3 的 p 不送气，gwong2 的 gw 要连着发。",
+    "usageTip": "看招聘廣告时先核对工作地点、经验要求和截止日期，再决定是否申请。",
+    "exampleSentence": "呢份招聘廣告寫明要識得用試算表。",
+    "category": "招聘求職"
+  },
+  {
+    "id": "manual-workplace-lei5-lik6-biu2",
+    "displayText": "履歷表",
+    "answerJyutping": "lei5 lik6 biu2",
+    "gloss": "列出个人学历、经历和技能，供求职时递交的资料",
+    "notes": "lei5 是五声；lik6 是入声收 k，biu2 的 iu 要合口。",
+    "usageTip": "粤语里履歷表很常用；内容要随应聘岗位调整，别只用一份投所有职位。",
+    "exampleSentence": "麻煩你將履歷表電郵畀人事部。",
+    "category": "招聘求職"
+  },
+  {
+    "id": "manual-workplace-kau4-zik1-seon3",
+    "displayText": "求職信",
+    "answerJyutping": "kau4 zik1 seon3",
+    "gloss": "求职者写给招聘方，说明自己为何适合职位的信件",
+    "notes": "kau4 的 au 要打开；zik1 收 k 尾，seon3 的 eo 要圆唇。",
+    "usageTip": "不是每个职位都强制要，但申请竞争较大的岗位时，一封针对性的求職信会更有帮助。",
+    "exampleSentence": "我喺求職信入面講咗自己做過相關項目。",
+    "category": "招聘求職"
+  },
+  {
+    "id": "manual-workplace-min6-si3-gun1",
+    "displayText": "面試官",
+    "answerJyutping": "min6 si3 gun1",
+    "gloss": "在面试中提问、评估和甄选求职者的人",
+    "notes": "min6 的 n 尾清楚；si3 是三声，gun1 的 g 不送气并收 n 尾。",
+    "usageTip": "讨论面试安排时用；对对方本人应以姓氏加职位称呼，别直接叫面試官。",
+    "exampleSentence": "面試官問我點樣處理趕急嘅客戶要求。",
+    "category": "招聘求職"
+  },
+  {
+    "id": "manual-workplace-bat1-si3",
+    "displayText": "筆試",
+    "answerJyutping": "bat1 si3",
+    "gloss": "用书面题目测试求职者或学员能力的考核",
+    "notes": "bat1 是高平入声，t 尾要利落；si3 是三声，别误读成六声。",
+    "usageTip": "收到安排后可先问清楚筆試时长、题型和是否准许使用电脑。",
+    "exampleSentence": "第一輪面試之前要先做半個鐘筆試。",
+    "category": "招聘求職"
+  },
+  {
+    "id": "manual-workplace-fuk1-si3",
+    "displayText": "複試",
+    "answerJyutping": "fuk1 si3",
+    "gloss": "通过初步甄选后进行的第二轮或后续面试",
+    "notes": "fuk1 的 u 短，k 尾收紧；si3 维持三声，不要把两个字都读成高音。",
+    "usageTip": "一般表示第一轮已有结果；收到複試邀请时，可问会见哪位主管和准备什么。",
+    "exampleSentence": "我下星期要去複試，今次會見部門主管。",
+    "category": "招聘求職"
+  },
+  {
+    "id": "manual-workplace-ceoi2-luk6-tung1-zi1",
+    "displayText": "取錄通知",
+    "answerJyutping": "ceoi2 luk6 tung1 zi1",
+    "gloss": "机构正式告知申请人获选或被聘用的讯息",
+    "notes": "ceoi2 的 eoi 要圆唇；luk6 收 k，tung1 收 ng，zi1 是高平声。",
+    "usageTip": "收到取錄通知后，要细看回复期限、入职日期和需要提交的文件。",
+    "exampleSentence": "我收到取錄通知之後，即刻覆咗電郵確認。",
+    "category": "招聘求職"
+  },
+  {
+    "id": "manual-workplace-si3-jung6-kei4",
+    "displayText": "試用期",
+    "answerJyutping": "si3 jung6 kei4",
+    "gloss": "新员工入职初期供双方观察工作表现和适应情况的期间",
+    "notes": "si3 是三声；jung6 的 y 圆唇并收 ng 尾，kei4 是四声。",
+    "usageTip": "签约前可确认試用期长度、评核方法和完成后待遇会否调整。",
+    "exampleSentence": "我而家仲喺試用期，要每個月同主管做一次檢討。",
+    "category": "招聘求職"
+  },
+  {
+    "id": "manual-workplace-san1-cau4-doi6-jyu6",
+    "displayText": "薪酬待遇",
+    "answerJyutping": "san1 cau4 doi6 jyu6",
+    "gloss": "工作提供的工资、津贴、假期和其他整体条件",
+    "notes": "san1 的 n 尾要收好；cau4 的 c 送气，doi6 和 jyu6 都要圆唇。",
+    "usageTip": "谈工作条件时是自然正式的统称；可先问整体薪酬待遇，再谈具体薪金。",
+    "exampleSentence": "面試尾聲我問咗吓薪酬待遇同醫療福利。",
+    "category": "招聘求職"
+  },
+  {
+    "id": "manual-workplace-jyun4-gung1-fuk1-lei6",
+    "displayText": "員工福利",
+    "answerJyutping": "jyun4 gung1 fuk1 lei6",
+    "gloss": "工资以外，公司提供给员工的医疗、假期、津贴等安排",
+    "notes": "jyun4 的 y 要圆唇；fuk1 收 k 尾，lei6 的 ei 不要读成 ai。",
+    "usageTip": "入职前或年度检讨时常问；可具体问医疗保险、交通津贴或年假安排。",
+    "exampleSentence": "公司嘅員工福利包埋門診同牙科津貼。",
+    "category": "招聘求職"
+  },
+  {
+    "id": "manual-workplace-lei4-zik1-min6-taam2",
+    "displayText": "離職面談",
+    "answerJyutping": "lei4 zik1 min6 taam2",
+    "gloss": "员工离职前与公司就工作经验、原因和交接安排进行的谈话",
+    "notes": "lei4 是四声；zik1 收 k 尾，min6 收 n 尾，taam2 的 aa 要打开。",
+    "usageTip": "通常由人事部安排；可诚实提出改善建议，但应保持专业和具体。",
+    "exampleSentence": "我下星期會同人事部做離職面談。",
+    "category": "招聘求職"
+  },
+  {
+    "id": "manual-workplace-gaau1-waan4-gung1-si1-coi4-mat6",
+    "displayText": "交還公司財物",
+    "answerJyutping": "gaau1 waan4 gung1 si1 coi4 mat6",
+    "gloss": "离职或调职时把公司借出的设备、证件和其他物品归还",
+    "notes": "gaau1 的 aau 要读足；waan4 收 n 尾，coi4 的 oi 和 mat6 的 t 尾都要清楚。",
+    "usageTip": "离职手续常见；可先向行政确认要交还哪些物品和交到哪里。",
+    "exampleSentence": "最後一日返工前要交還公司財物同工作證。",
+    "category": "招聘求職"
+  },
+  {
+    "id": "manual-workplace-keoi3-fu6-go3-on3",
+    "displayText": "客戶個案",
+    "answerJyutping": "keoi3 fu6 go3 on3",
+    "gloss": "某位客户提出的服务请求、问题或跟进纪录",
+    "notes": "keoi3 的 eoi 要圆唇；fu6 是六声，go3 是三声，on3 的 o 要圆。",
+    "usageTip": "客服和社福服务都常用；转手前要写清客戶個案的背景和已做步骤。",
+    "exampleSentence": "呢個客戶個案比較急，你可唔可以今日先睇？",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-fuk6-mou6-jyu1-kau4",
+    "displayText": "服務要求",
+    "answerJyutping": "fuk6 mou6 jyu1 kau4",
+    "gloss": "客户对服务内容、时间、品质或处理方式提出的期望",
+    "notes": "fuk6 收 k 尾；mou6 的 ou 要读足，jyu1 的 y 要圆唇。",
+    "usageTip": "接单前先复述服務要求，能减少双方对范围理解不同的问题。",
+    "exampleSentence": "我想再確認一次客戶嘅服務要求。",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-wui4-fuk1-si4-gaan3",
+    "displayText": "回覆時限",
+    "answerJyutping": "wui4 fuk1 si4 gaan3",
+    "gloss": "必须在指定时间内答复客户、同事或申请人的期限",
+    "notes": "wui4 的 ui 要圆唇；fuk1 收 k 尾，gaan3 的 aa 要开而声调为三声。",
+    "usageTip": "客服岗位尤其常用；若赶不及，要在時限前先告知下一次回复时间。",
+    "exampleSentence": "呢類查詢嘅回覆時限係兩個工作天。",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-loi4-din6-caa4-seon3",
+    "displayText": "來電查詢",
+    "answerJyutping": "loi4 din6 caa4 seon3",
+    "gloss": "客户或公众透过电话提出的问题或索取的资料",
+    "notes": "loi4 的 oi 要读清；din6 是六声。caa4 的 c 要送气，seon3 的 eo 要圆唇。",
+    "usageTip": "适合写工作纪录；如未能即时答，可先记下姓名、号码和问题再回电。",
+    "exampleSentence": "今朝有幾個來電查詢都係問同一個服務。",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-din6-waa2-lau4-jin4",
+    "displayText": "電話留言",
+    "answerJyutping": "din6 waa2 lau4 jin4",
+    "gloss": "透过电话录音或转告给对方的简短讯息",
+    "notes": "din6 是低沉六声；waa2 的 aa 要开，lau4 的 au 和 jin4 的 n 尾都要收清。",
+    "usageTip": "接到同事的電話留言后，应尽快回电或用讯息确认已收到。",
+    "exampleSentence": "客戶留咗電話留言，麻煩你得閒覆返佢。",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-zyun2-gaau1-bou6-mun4",
+    "displayText": "轉交部門",
+    "answerJyutping": "zyun2 gaau1 bou6 mun4",
+    "gloss": "把不属于本组处理的事项移交给负责的部门",
+    "notes": "zyun2 的 y 圆唇；gaau1 的 aau 要展开，bou6 落到六声。",
+    "usageTip": "说明不能直接处理时用；应同时告诉对方已轉交部門以及预计何时有回应。",
+    "exampleSentence": "呢個技術問題我已經轉交部門跟進。",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-sing1-kap1-cyu2-lei5",
+    "displayText": "升級處理",
+    "answerJyutping": "sing1 kap1 cyu2 lei5",
+    "gloss": "把复杂、紧急或超出权限的问题交由更高层级处理",
+    "notes": "sing1 收 ng 尾；kap1 收 p 尾，cyu2 的 y 要圆唇，lei5 是五声。",
+    "usageTip": "面对投诉或风险事件时常用；先说明为何需要升級處理，客户会较安心。",
+    "exampleSentence": "個案涉及安全問題，需要即刻升級處理。",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-gan1-zeon3-go3-on3",
+    "displayText": "跟進個案",
+    "answerJyutping": "gan1 zeon3 go3 on3",
+    "gloss": "持续处理某个客户服务请求，并更新处理进展",
+    "notes": "gan1 的 n 尾要收好；zeon3 的 eo 要圆唇，go3 是三声，on3 的 o 要短圆。",
+    "usageTip": "可用于告诉客户或同事谁会继续负责；后面常接具体的下一步和时间。",
+    "exampleSentence": "我會繼續跟進個案，有消息就即刻通知你。",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-fuk6-mou6-gei3-luk6",
+    "displayText": "服務紀錄",
+    "answerJyutping": "fuk6 mou6 gei3 luk6",
+    "gloss": "记下客户接触、处理步骤和结果的资料",
+    "notes": "fuk6 和 luk6 都是入声，分别收 k；mou6 的 ou 要读足，gei3 是三声。",
+    "usageTip": "每次通话或处理后即时补写服務紀錄，交接时别人才能掌握全貌。",
+    "exampleSentence": "麻煩你喺系統補返今日嘅服務紀錄。",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-mun5-ji3-dou6",
+    "displayText": "滿意度",
+    "answerJyutping": "mun5 ji3 dou6",
+    "gloss": "客户对服务、产品或处理结果感到满意的程度",
+    "notes": "mun5 是五声，n 尾收住；ji3 和 dou6 声调不同，dou6 要落到低音。",
+    "usageTip": "常用于问卷和服务检讨；谈滿意度时应配合具体意见，而非只看分数。",
+    "exampleSentence": "我哋會睇客戶滿意度去改善服務。",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-teoi3-fun2-san1-cing2",
+    "displayText": "退款申請",
+    "answerJyutping": "teoi3 fun2 san1 cing2",
+    "gloss": "要求商户或机构退回已支付款项的正式请求",
+    "notes": "teoi3 的 eoi 要圆唇；fun2 收 n 尾，cing2 的 c 要送气。",
+    "usageTip": "客户提出时先核对订单、付款资料和原因，再说明退款申請的处理时间。",
+    "exampleSentence": "你填好退款申請表，我哋會喺三個工作天內覆你。",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-wun6-fo3-on1-paai4",
+    "displayText": "換貨安排",
+    "answerJyutping": "wun6 fo3 on1 paai4",
+    "gloss": "为客户把不合适或有问题的商品更换成另一件的处理方式",
+    "notes": "wun6 的 w 起音要清；fo3 是三声，on1 的 o 圆，paai4 的 aai 要拉开。",
+    "usageTip": "说換貨安排时要交代可换的日期、地点和是否需要保留收据。",
+    "exampleSentence": "我幫你睇吓最快嘅換貨安排係點。",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-wui6-ji5-sat1",
+    "displayText": "會議室",
+    "answerJyutping": "wui6 ji5 sat1",
+    "gloss": "办公室内供多人开会、讨论或接待访客的房间",
+    "notes": "wui6 的 ui 要圆唇；ji5 是五声，sat1 是入声，t 尾要短收。",
+    "usageTip": "预订场地或指路时常用；约人开会最好同时讲清會議室名称或楼层。",
+    "exampleSentence": "兩點喺三樓會議室見，唔好去錯房。",
+    "category": "會議協作"
+  },
+  {
+    "id": "manual-workplace-bou3-sau1-daan1",
+    "displayText": "報修單",
+    "answerJyutping": "bou3 sau1 daan1",
+    "gloss": "报告设备故障并申请维修时填写或提交的表单",
+    "notes": "bou3 是三声；sau1 的 au 要展开，daan1 的 aa 韵母要开。",
+    "usageTip": "填写報修單时写清设备编号、故障情况和地点，维修人员才能先作准备。",
+    "exampleSentence": "影印機壞咗，我已經開咗張報修單。",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-fuk6-mou6-gwai3-toi4",
+    "displayText": "服務櫃檯",
+    "answerJyutping": "fuk6 mou6 gwai3 toi4",
+    "gloss": "接待客户、解答查询或办理手续的服务台",
+    "notes": "fuk6 收 k 尾；gwai3 的 gw 要连读，toi4 的 oi 韵母读清。",
+    "usageTip": "商场、医院和机构都常见；指路时可说「去服務櫃檯攞籌」。",
+    "exampleSentence": "你去服務櫃檯同同事講返個編號。",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-zip3-doi6-cyu3",
+    "displayText": "接待處",
+    "answerJyutping": "zip3 doi6 cyu3",
+    "gloss": "办公室或机构入口处负责迎接访客和登记的地方",
+    "notes": "zip3 是入声收 p；doi6 的 eoi 圆唇，cyu3 的 y 也要圆唇。",
+    "usageTip": "约访客时可交代到接待處登记，再由同事带进会议室。",
+    "exampleSentence": "訪客到咗接待處，你可唔可以落去接一接？",
+    "category": "客戶服務"
+  },
+  {
+    "id": "manual-workplace-zip3-doi6-fong2-haak3",
+    "displayText": "接待訪客",
+    "answerJyutping": "zip3 doi6 fong2 haak3",
+    "gloss": "在办公室迎接到访者、登记身分并安排接见",
+    "notes": "zip3 是入声收 p；doi6 的 eoi 要圆唇，fong2 收 ng 尾，haak3 收 k 尾。",
+    "usageTip": "安排前台或同事轮值时用；要先确认访客姓名、来意和接见对象。",
+    "exampleSentence": "今日由我負責接待訪客，你有客到就通知我。",
+    "category": "客戶服務"
+  }
+]

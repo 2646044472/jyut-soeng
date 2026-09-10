@@ -1,0 +1,702 @@
+[
+  {
+    "id": "manual_cooking_household_prep_ingredients",
+    "displayText": "備料",
+    "answerJyutping": "bei6 liu2",
+    "gloss": "prepare ingredients in advance",
+    "notes": "下廚前先把食材洗好、切好和量好，叫做「備料」。",
+    "usageTip": "講烹飪流程時，先說「我去備料」，比只說「準備嘢」更準確。",
+    "exampleSentence": "你先備料，我嚟開火。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_dice",
+    "displayText": "切粒",
+    "answerJyutping": "cit3 nap1",
+    "gloss": "dice into small cubes",
+    "notes": "「粒」指小塊狀食材，常用於洋蔥、薯仔或番茄。",
+    "usageTip": "尺寸要說清楚時可加「細粒」或「大粒」。",
+    "exampleSentence": "洋蔥切粒之後先落鑊炒。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_shred",
+    "displayText": "切絲",
+    "answerJyutping": "cit3 si1",
+    "gloss": "cut into thin strips",
+    "notes": "「絲」是幼長條狀，切得均勻會較易一齊熟。",
+    "usageTip": "配菜時常說「紅蘿蔔切絲」，不要讀成普通話聲調。",
+    "exampleSentence": "紅蘿蔔切絲炒落去會快熟啲。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_slice",
+    "displayText": "切片",
+    "answerJyutping": "cit3 pin3",
+    "gloss": "slice",
+    "notes": "把食材切成薄或厚的平片，肉類和菇類都常用。",
+    "usageTip": "可用「薄片」或「厚片」交代火候和口感需要。",
+    "exampleSentence": "啲冬菇切片，等陣同雞一齊炆。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_cut_sections",
+    "displayText": "切段",
+    "answerJyutping": "cit3 dyun6",
+    "gloss": "cut into sections",
+    "notes": "多用於有長度的菜或肉，例如葱、豆角和排骨。",
+    "usageTip": "問人怎樣處理菜時，說「切段定切絲？」很自然。",
+    "exampleSentence": "豆角切段先，唔好切得太短。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_cut_pieces",
+    "displayText": "切件",
+    "answerJyutping": "cit3 gin6",
+    "gloss": "cut into pieces",
+    "notes": "「件」常指較大、可分食的塊狀，例如雞件或魚件。",
+    "usageTip": "買雞或處理雞時，說「斬件」更常見；在家用刀處理可說「切件」。",
+    "exampleSentence": "雞翼切件之後容易入味。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_cut_open",
+    "displayText": "切開",
+    "answerJyutping": "cit3 hoi1",
+    "gloss": "cut open; cut in half",
+    "notes": "重點在把原本完整的東西打開，不一定切成規則形狀。",
+    "usageTip": "處理較厚食材時，說「中間切開」能避免煮不透。",
+    "exampleSentence": "啲大粒蘑菇中間切開先煮。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_chop_fine",
+    "displayText": "剁碎",
+    "answerJyutping": "do2 seoi3",
+    "gloss": "chop finely",
+    "notes": "用刀反覆斬到細碎，常用於蒜頭、薑或肉餡。",
+    "usageTip": "「剁」是較有力的動作，和只切幾刀的「切碎」語感不同。",
+    "exampleSentence": "蒜頭剁碎先至爆香。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_tenderize",
+    "displayText": "拍鬆",
+    "answerJyutping": "paak3 sung1",
+    "gloss": "pound to tenderize",
+    "notes": "用刀背或肉槌拍鬆肉纖維，令肉較易熟和較嫩。",
+    "usageTip": "牛扒或豬扒才較常「拍鬆」，薄肉片通常不用拍太重。",
+    "exampleSentence": "豬扒拍鬆之後再醃會更入味。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_marinate_ready",
+    "displayText": "醃好",
+    "answerJyutping": "jim3 hou2",
+    "gloss": "marinated and ready",
+    "notes": "表示食材已經完成調味醃製，可直接等候烹煮。",
+    "usageTip": "口語常把結果講清楚，例如「啲肉醃好未？」。",
+    "exampleSentence": "啲雞我已經醃好，夜晚返嚟先煮。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_blanch",
+    "displayText": "飛水",
+    "answerJyutping": "fei1 seoi2",
+    "gloss": "briefly blanch in boiling water",
+    "notes": "粵語廚房常用，指肉或骨頭先用滾水略煮，以去血水和雜味。",
+    "usageTip": "處理排骨或牛腩時常說「飛一飛水」，語氣很地道。",
+    "exampleSentence": "排骨先飛水，煲出嚟會清啲。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_drain_dry",
+    "displayText": "瀝乾",
+    "answerJyutping": "lik6 gon1",
+    "gloss": "drain until dry",
+    "notes": "把洗過或煮過的食材瀝走水分，避免落鑊時濺油。",
+    "usageTip": "「瀝」讀 lik6；說「瀝乾水」比單說「乾咗」更具體。",
+    "exampleSentence": "菜洗完要瀝乾先落油。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_strain_residue",
+    "displayText": "隔渣",
+    "answerJyutping": "gaak3 zaa1",
+    "gloss": "strain out solids or residue",
+    "notes": "用篩或布把湯、豆漿等的固體渣滓隔走。",
+    "usageTip": "湯底要清時可以說「煲好之後隔渣」。",
+    "exampleSentence": "啲湯隔渣之後先至上枱。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_cool_under_water",
+    "displayText": "過冷河",
+    "answerJyutping": "gwo3 laang5 ho4",
+    "gloss": "rinse in cold water after cooking",
+    "notes": "很常用的廚房說法，指把食材過冷水來停止受熱、保持爽口。",
+    "usageTip": "粉麵、菜心或焯過的菜常用「過冷河」，不是指真的過河。",
+    "exampleSentence": "通粉煮好要過冷河，先唔會黐埋一舊。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_bring_to_room_temp",
+    "displayText": "回溫",
+    "answerJyutping": "wui4 wan1",
+    "gloss": "bring back to room temperature",
+    "notes": "把從雪櫃拿出的食材放一陣，令溫度不再太低。",
+    "usageTip": "烤肉或煎扒前說「回一回溫」很自然，但生鮮食材不可放太久。",
+    "exampleSentence": "牛扒拎出嚟回溫十分鐘先煎。",
+    "category": "食材儲存與安全"
+  },
+  {
+    "id": "manual_cooking_household_add_oil",
+    "displayText": "落油",
+    "answerJyutping": "lok6 jau4",
+    "gloss": "add oil to the pan",
+    "notes": "「落」在廚房語境是放進去；落油通常在鑊熱後進行。",
+    "usageTip": "可按需要說「落少少油」或「唔使落油」。",
+    "exampleSentence": "個鑊熱咗先落油。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_fry_until_fragrant",
+    "displayText": "爆香",
+    "answerJyutping": "baau3 hoeng1",
+    "gloss": "stir-fry aromatics until fragrant",
+    "notes": "用熱油把蒜、薑、葱頭等炒出香味，常是粵菜起手式。",
+    "usageTip": "講程序時說「蒜蓉爆香先」比「炒香」更有火候感。",
+    "exampleSentence": "薑片爆香之後先落魚。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_toss_evenly",
+    "displayText": "兜勻",
+    "answerJyutping": "dau1 wan4",
+    "gloss": "toss or mix evenly",
+    "notes": "把材料、醬汁或調味料拌到分布均勻，常用於炒餸和沙律。",
+    "usageTip": "「兜」是廣東話很實用的烹飪動詞，重點是輕輕翻拌。",
+    "exampleSentence": "落咗醬油之後兜勻就得。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_stir_fry",
+    "displayText": "翻炒",
+    "answerJyutping": "faan1 caau2",
+    "gloss": "stir-fry while turning over",
+    "notes": "不停把食材翻動，避免一面燶掉而另一面未熟。",
+    "usageTip": "火大時要快手翻炒，說「翻兩下」也很口語。",
+    "exampleSentence": "大火翻炒一分鐘就可以熄火。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_pan_fry_fragrant",
+    "displayText": "煎香",
+    "answerJyutping": "zin1 hoeng1",
+    "gloss": "pan-fry until fragrant and golden",
+    "notes": "把食材煎到表面有香氣和焦香，不等於煎到全熟。",
+    "usageTip": "魚或肉要煎香時，不要太早反來反去。",
+    "exampleSentence": "雞件兩邊煎香先加水炆。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_steam_cooked",
+    "displayText": "蒸熟",
+    "answerJyutping": "zing1 suk6",
+    "gloss": "steam until cooked through",
+    "notes": "食材在蒸氣中煮透，常用於魚、蛋和點心。",
+    "usageTip": "判斷火候時可問「蒸熟未？」；不要只說「蒸咗」。",
+    "exampleSentence": "條魚蒸熟就即刻熄火。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_bake_cooked",
+    "displayText": "焗熟",
+    "answerJyutping": "guk6 suk6",
+    "gloss": "bake until cooked through",
+    "notes": "「焗」可指焗爐烘烤，也可指加蓋以餘溫焗熟。",
+    "usageTip": "講焗爐料理時可加時間，例如「焗熟先拎出嚟」。",
+    "exampleSentence": "薯仔要焗熟先至切得開。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_braise_tender",
+    "displayText": "炆腍",
+    "answerJyutping": "man1 nam4",
+    "gloss": "braise until tender",
+    "notes": "以小火和液體慢煮到肉或根莖變軟入味；「腍」指軟熟。",
+    "usageTip": "牛腩、冬菇和蘿蔔很常配「炆腍」。",
+    "exampleSentence": "牛腩要慢火炆腍先好食。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_boil_up",
+    "displayText": "煲滾",
+    "answerJyutping": "bou1 gwan2",
+    "gloss": "bring to a boil",
+    "notes": "把湯、水或粥煮到沸騰；「煲」在此是烹煮，不只指湯煲。",
+    "usageTip": "煲湯時常聽到「煲滾之後轉細火」。",
+    "exampleSentence": "啲水煲滾先落麵。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_come_to_boil",
+    "displayText": "滾起",
+    "answerJyutping": "gwan2 hei2",
+    "gloss": "come up to a boil",
+    "notes": "描述液體由靜止變成明顯沸騰的狀態。",
+    "usageTip": "「滾起」常配「先」，表示等它沸騰後才進下一步。",
+    "exampleSentence": "個湯滾起先落菜。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_reduce_sauce",
+    "displayText": "收汁",
+    "answerJyutping": "sau1 zap1",
+    "gloss": "reduce the sauce",
+    "notes": "讓湯汁蒸發變少、變濃，令味道掛在食材上。",
+    "usageTip": "收汁時要留意火力，太乾會容易燶底。",
+    "exampleSentence": "轉中火收汁，唔好再加水。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_taste_check",
+    "displayText": "試味",
+    "answerJyutping": "si3 mei6",
+    "gloss": "taste and check seasoning",
+    "notes": "煮到中後段嘗一小口，確認鹹淡、甜酸和香味。",
+    "usageTip": "請人幫忙時可說「你幫我試下味」，自然又不生硬。",
+    "exampleSentence": "你試味下，睇下要唔要加鹽。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_season",
+    "displayText": "調味",
+    "answerJyutping": "tiu4 mei6",
+    "gloss": "season food",
+    "notes": "按需要加入鹽、糖、醬油或香料來調整味道。",
+    "usageTip": "「調味」是動詞或名詞皆可，例如「調味料」。",
+    "exampleSentence": "最後先調味，咁樣容易控制鹹淡。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_plate_up",
+    "displayText": "起碟",
+    "answerJyutping": "hei2 dip6",
+    "gloss": "plate up; transfer to a serving plate",
+    "notes": "把煮好的餸從鑊或鍋盛到碟上，是很粵語化的廚房說法。",
+    "usageTip": "聽到「可以起碟」即表示菜已完成。",
+    "exampleSentence": "啲菜熟咗就可以起碟。",
+    "category": "上菜與餐後處理"
+  },
+  {
+    "id": "manual_cooking_household_zip_bag",
+    "displayText": "密實袋",
+    "answerJyutping": "mat6 sat6 doi2",
+    "gloss": "resealable storage bag",
+    "notes": "可封口的塑膠袋，常用來分裝食材、醃肉或收納小物。",
+    "usageTip": "放入雪櫃前先擠走多餘空氣，密實袋會較省位。",
+    "exampleSentence": "雞翼分裝落密實袋再急凍。",
+    "category": "食材儲存與安全"
+  },
+  {
+    "id": "manual_cooking_household_food_container",
+    "displayText": "保鮮盒",
+    "answerJyutping": "bou2 sin1 hap6",
+    "gloss": "food storage container",
+    "notes": "有蓋容器，用來裝剩餸、備餐或乾貨；比「盒」更明確。",
+    "usageTip": "熱餸先放涼少少再入保鮮盒，可減少水氣。",
+    "exampleSentence": "剩低啲餸擺落保鮮盒入雪櫃。",
+    "category": "食材儲存與安全"
+  },
+  {
+    "id": "manual_cooking_household_portion_out",
+    "displayText": "分裝",
+    "answerJyutping": "fan1 zong1",
+    "gloss": "portion into separate containers",
+    "notes": "把一大份食材或食物按一餐份量分開包裝。",
+    "usageTip": "肉類買多了可先分裝，之後不用反覆解凍整包。",
+    "exampleSentence": "免治牛肉分裝好就方便下次煮。",
+    "category": "食材儲存與安全"
+  },
+  {
+    "id": "manual_cooking_household_refrigerate",
+    "displayText": "冷藏",
+    "answerJyutping": "laang5 cong4",
+    "gloss": "refrigerate",
+    "notes": "存放在雪櫃冷藏格，不是冷凍格；適合短期保存。",
+    "usageTip": "講食安時要分清「冷藏」和「急凍」，兩者溫度和保存期不同。",
+    "exampleSentence": "開咗嘅豆腐要冷藏，盡快食晒。",
+    "category": "食材儲存與安全"
+  },
+  {
+    "id": "manual_cooking_household_freeze",
+    "displayText": "急凍",
+    "answerJyutping": "gap1 dung3",
+    "gloss": "freeze; deep-freeze",
+    "notes": "把食材放進冰格長期保存，香港日常常說「急凍」。",
+    "usageTip": "要用時最好放到冷藏格慢慢解凍，不要長時間放室溫。",
+    "exampleSentence": "呢包蝦今晚唔煮就急凍返。",
+    "category": "食材儲存與安全"
+  },
+  {
+    "id": "manual_cooking_household_seal_tightly",
+    "displayText": "密封",
+    "answerJyutping": "mat6 fung1",
+    "gloss": "seal tightly",
+    "notes": "容器或袋口完全封好，避免漏味、受潮或交叉污染。",
+    "usageTip": "收乾貨時說「密封好先放櫃」很實用。",
+    "exampleSentence": "咖啡粉要密封，唔係好快走味。",
+    "category": "食材儲存與安全"
+  },
+  {
+    "id": "manual_cooking_household_spoiled",
+    "displayText": "變質",
+    "answerJyutping": "bin3 zat1",
+    "gloss": "spoil; deteriorate",
+    "notes": "食物的氣味、顏色或狀態異常，已不宜食用時可說「變質」。",
+    "usageTip": "懷疑變質時不要靠加熱掩蓋味道，直接丟掉較穩妥。",
+    "exampleSentence": "牛奶有酸味，可能已經變質。",
+    "category": "食材儲存與安全"
+  },
+  {
+    "id": "manual_cooking_household_expired",
+    "displayText": "過期",
+    "answerJyutping": "gwo3 kei4",
+    "gloss": "expired",
+    "notes": "超過包裝標示日期；乾貨和調味料也要定期查看。",
+    "usageTip": "收拾櫃桶時可逐樣問「呢支醬有冇過期？」。",
+    "exampleSentence": "呢罐罐頭過期咗，唔好再食。",
+    "category": "食材儲存與安全"
+  },
+  {
+    "id": "manual_cooking_household_lose_flavor",
+    "displayText": "走味",
+    "answerJyutping": "zau2 mei6",
+    "gloss": "lose flavor or freshness",
+    "notes": "食物或調味料因放得太久、受潮或接觸空氣而香味變弱。",
+    "usageTip": "不一定代表壞掉，但風味已差；常用於茶葉、餅乾和咖啡。",
+    "exampleSentence": "餅乾冇密封好，第二日已經走味。",
+    "category": "食材儲存與安全"
+  },
+  {
+    "id": "manual_cooking_household_go_soft_from_moisture",
+    "displayText": "返潮",
+    "answerJyutping": "faan1 ciu4",
+    "gloss": "go soft from moisture",
+    "notes": "乾爽食物吸了濕氣後不再脆，常用於餅乾、紫菜和花生。",
+    "usageTip": "「返潮」多指口感受濕變軟，不同於食物本身發霉。",
+    "exampleSentence": "啲薯片返潮咗，食落唔脆。",
+    "category": "食材儲存與安全"
+  },
+  {
+    "id": "manual_cooking_household_inventory_check",
+    "displayText": "盤點",
+    "answerJyutping": "pun4 dim2",
+    "gloss": "take inventory",
+    "notes": "逐項清點家中存貨，例如米、油、清潔用品和調味料。",
+    "usageTip": "每星期盤點一次雪櫃，可減少買重和放到過期。",
+    "exampleSentence": "我今晚盤點下啲乾貨先再買。",
+    "category": "家居管理"
+  },
+  {
+    "id": "manual_cooking_household_scrape_food_waste",
+    "displayText": "倒廚餘",
+    "answerJyutping": "dou3 cyu4 jyu4",
+    "gloss": "empty food scraps into the food-waste bin",
+    "notes": "把不能吃的菜根、骨頭或剩菜倒進廚餘桶，是廚房收尾動作。",
+    "usageTip": "先把湯汁瀝掉再倒廚餘，垃圾袋不易滲漏。",
+    "exampleSentence": "食完飯記得倒廚餘，唔好留喺鋅盤。",
+    "category": "廚房清潔與整理"
+  },
+  {
+    "id": "manual_cooking_household_food_waste_bin",
+    "displayText": "廚餘桶",
+    "answerJyutping": "cyu4 jyu4 tung2",
+    "gloss": "food-waste bin",
+    "notes": "專門放食物殘渣的垃圾桶，最好有蓋以減少異味。",
+    "usageTip": "廚餘桶太滿要即日清，避免引來小飛蟲。",
+    "exampleSentence": "廚餘桶滿咗，順手拎出去倒。",
+    "category": "廚房清潔與整理"
+  },
+  {
+    "id": "manual_cooking_household_sink_strainer",
+    "displayText": "濾網",
+    "answerJyutping": "leoi6 mong5",
+    "gloss": "drain strainer",
+    "notes": "放在去水口或隔渣器上的網，用來截住菜渣和頭髮。",
+    "usageTip": "煮完飯即刻清濾網，能減少塞渠和異味。",
+    "exampleSentence": "鋅盤個濾網好多菜渣，要清咗佢。",
+    "category": "廚房清潔與整理"
+  },
+  {
+    "id": "manual_cooking_household_remove_grease_stain",
+    "displayText": "去油漬",
+    "answerJyutping": "heoi3 jau4 zik1",
+    "gloss": "remove grease stains",
+    "notes": "清走爐頭、牆身或抽油煙機上的油污，不是一般抹灰塵。",
+    "usageTip": "油漬未乾時較易去，煮完飯抹一抹最省力。",
+    "exampleSentence": "用呢支清潔劑去油漬，效果幾好。",
+    "category": "廚房清潔與整理"
+  },
+  {
+    "id": "manual_cooking_household_remove_fishy_smell",
+    "displayText": "去腥味",
+    "answerJyutping": "heoi3 seng1 mei6",
+    "gloss": "remove the fishy smell",
+    "notes": "處理魚、肉或海鮮時，用薑、葱、酒等減少腥味。",
+    "usageTip": "說「去腥味」時，重點是味道，不是把食材完全洗掉。",
+    "exampleSentence": "蒸魚放薑絲可以去腥味。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_wipe_stove_burners",
+    "displayText": "抹爐頭",
+    "answerJyutping": "mut3 lou4 tau4",
+    "gloss": "wipe the stove burners",
+    "notes": "把爐具表面的醬汁、油點和食物碎屑抹走。",
+    "usageTip": "等爐頭完全涼咗先抹，避免燙手。",
+    "exampleSentence": "煮完呢餐我負責抹爐頭。",
+    "category": "廚房清潔與整理"
+  },
+  {
+    "id": "manual_cooking_household_wash_sink",
+    "displayText": "洗碗槽",
+    "answerJyutping": "sai2 wun2 cou4",
+    "gloss": "clean the kitchen sink",
+    "notes": "「碗槽」是洗碗和洗菜用的鋅盤；此處指把槽身洗淨。",
+    "usageTip": "飯後連碗槽一齊洗，翌日開工會舒服好多。",
+    "exampleSentence": "碗洗好之後記得洗碗槽。",
+    "category": "廚房清潔與整理"
+  },
+  {
+    "id": "manual_cooking_household_unclog_drain",
+    "displayText": "通渠",
+    "answerJyutping": "tung1 keoi4",
+    "gloss": "unclog a drain",
+    "notes": "疏通去水渠，適用於鋅盤、浴室或地台去水口。",
+    "usageTip": "輕微塞住可先清濾網；長期倒油入渠會增加通渠需要。",
+    "exampleSentence": "鋅盤去水好慢，可能要通渠。",
+    "category": "家居管理"
+  },
+  {
+    "id": "manual_cooking_household_dishwasher",
+    "displayText": "洗碗機",
+    "answerJyutping": "sai2 wun2 gei1",
+    "gloss": "dishwasher",
+    "notes": "自動清洗碗碟的電器，入機前通常要先倒掉大塊食物殘渣。",
+    "usageTip": "碗碟不要疊得太密，洗碗機的水才噴得到每一面。",
+    "exampleSentence": "今晚啲碗多，放入洗碗機啦。",
+    "category": "家居管理"
+  },
+  {
+    "id": "manual_cooking_household_range_hood",
+    "displayText": "抽油煙機",
+    "answerJyutping": "cau1 jau4 jin1 gei1",
+    "gloss": "range hood",
+    "notes": "煮食時抽走油煙和氣味的電器，廣東家庭常直接說「抽油煙機」。",
+    "usageTip": "開火前先開抽油煙機，煎炒時會少啲油煙味。",
+    "exampleSentence": "煎魚之前記得開抽油煙機。",
+    "category": "家居管理"
+  },
+  {
+    "id": "manual_cooking_household_sort_recycling",
+    "displayText": "垃圾分類",
+    "answerJyutping": "laap6 saap3 fan1 leoi6",
+    "gloss": "sort rubbish for disposal or recycling",
+    "notes": "按種類把一般垃圾、回收物和廚餘分開處理。",
+    "usageTip": "家人分工時可說「你負責垃圾分類，我去倒垃圾」。",
+    "exampleSentence": "食完外賣要先做垃圾分類。",
+    "category": "家居管理"
+  },
+  {
+    "id": "manual_cooking_household_recycling_bin",
+    "displayText": "回收箱",
+    "answerJyutping": "wui4 sau1 soeng1",
+    "gloss": "recycling bin",
+    "notes": "放置可回收物的箱或桶，實際可回收種類要看標示。",
+    "usageTip": "丟入回收箱前先倒清液體和簡單沖洗容器。",
+    "exampleSentence": "膠樽沖乾淨先放入回收箱。",
+    "category": "家居管理"
+  },
+  {
+    "id": "manual_cooking_household_wipe_dry",
+    "displayText": "抹乾",
+    "answerJyutping": "mut3 gon1",
+    "gloss": "wipe dry",
+    "notes": "用布把水分或濕氣抹走，重點是抹到乾爽。",
+    "usageTip": "洗完菜、碗或檯面都可用；抹乾木面尤其重要。",
+    "exampleSentence": "鋅盤洗完要抹乾，唔係會有水漬。",
+    "category": "廚房清潔與整理"
+  },
+  {
+    "id": "manual_cooking_household_air_dry",
+    "displayText": "晾乾",
+    "answerJyutping": "long4 gon1",
+    "gloss": "air-dry",
+    "notes": "放在通風處讓水分自然蒸發，常用於抹布、食具和洗好的用品。",
+    "usageTip": "晾乾前先擰走多餘水分，會乾得快啲。",
+    "exampleSentence": "洗完抹布要攤開晾乾。",
+    "category": "廚房清潔與整理"
+  },
+  {
+    "id": "manual_cooking_household_sanitize_utensils",
+    "displayText": "消毒碗筷",
+    "answerJyutping": "siu1 duk6 wun2 faai3",
+    "gloss": "sanitize bowls and chopsticks",
+    "notes": "以高溫或合適方法處理食具，減少微生物污染。",
+    "usageTip": "家用語境可按產品說明處理，不要把普通沖水叫做消毒。",
+    "exampleSentence": "小朋友用嘅碗筷，我會另外消毒碗筷。",
+    "category": "廚房清潔與整理"
+  },
+  {
+    "id": "manual_cooking_household_wash_vegetables",
+    "displayText": "洗菜",
+    "answerJyutping": "sai2 coi3",
+    "gloss": "wash vegetables",
+    "notes": "把蔬菜表面泥沙和污物洗走，是備菜的基本步驟。",
+    "usageTip": "洗菜後要按食材需要瀝水，唔好長時間浸住易爛的菜。",
+    "exampleSentence": "你洗菜，我就去切肉。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_select_vegetables",
+    "displayText": "揀菜",
+    "answerJyutping": "gaan2 coi3",
+    "gloss": "sort and select vegetables",
+    "notes": "把菜葉中的黃葉、爛葉或不合用部分挑走。",
+    "usageTip": "「揀菜」不只是選擇買哪種菜，也可指買回家後整理。",
+    "exampleSentence": "啲菜有幾塊黃葉，要先揀菜。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_soak_wash",
+    "displayText": "浸洗",
+    "answerJyutping": "zam3 sai2",
+    "gloss": "soak and wash",
+    "notes": "先浸一陣再清洗，常用來鬆開泥沙或洗走表面雜質。",
+    "usageTip": "不是所有菜都適合長時間浸洗，要按食材處理。",
+    "exampleSentence": "蜆要浸洗一陣，等佢吐沙。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_scoop_up",
+    "displayText": "撈起",
+    "answerJyutping": "lou1 hei2",
+    "gloss": "scoop or lift out",
+    "notes": "從水、湯或油中把食材撈出來，常用於煮麵、焯菜和炸物。",
+    "usageTip": "「撈起」著重由液體中取出，不等同於普通的「拎起」。",
+    "exampleSentence": "麵熟咗就撈起，唔好浸太耐。",
+    "category": "烹調火候與技巧"
+  },
+  {
+    "id": "manual_cooking_household_peel",
+    "displayText": "刨皮",
+    "answerJyutping": "paau4 pei4",
+    "gloss": "peel with a peeler",
+    "notes": "用刨皮器去除薯仔、紅蘿蔔等食材的外皮。",
+    "usageTip": "用「刨皮」特別強調用工具，不是用刀削。",
+    "exampleSentence": "薯仔刨皮之後先切粒。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_remove_pits",
+    "displayText": "去核",
+    "answerJyutping": "heoi3 wat6",
+    "gloss": "remove pits or seeds",
+    "notes": "把水果或食材中不能吃的硬核取出，亦可泛指去除果核。",
+    "usageTip": "桃、棗和車厘子都可以說「去核」，視乎食材再交代方法。",
+    "exampleSentence": "整果醬之前要先去核。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_debone",
+    "displayText": "去骨",
+    "answerJyutping": "heoi3 gwat1",
+    "gloss": "remove bones",
+    "notes": "把魚骨、雞骨或肉骨拆走，方便入口或進一步切片。",
+    "usageTip": "買肉時說「要唔要去骨？」是常見的店舖問法。",
+    "exampleSentence": "呢條魚去骨之後，小朋友食方便好多。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_snip_open",
+    "displayText": "剪開",
+    "answerJyutping": "zin2 hoi1",
+    "gloss": "snip open",
+    "notes": "用剪刀把包裝、袋口或食材剪開，動作比「切開」更有針對性。",
+    "usageTip": "剪包裝前先確認袋內沒有液體濺出。",
+    "exampleSentence": "用剪刀剪開個袋口，唔好硬扯。",
+    "category": "備菜與食材處理"
+  },
+  {
+    "id": "manual_cooking_household_open_can",
+    "displayText": "開罐",
+    "answerJyutping": "hoi1 gun3",
+    "gloss": "open a can",
+    "notes": "打開罐頭或有罐蓋的容器；可指動作也可指已開封狀態。",
+    "usageTip": "開罐後未食完要換入有蓋容器，並按標示冷藏。",
+    "exampleSentence": "開罐之後食唔晒就唔好連罐擺住。",
+    "category": "食材儲存與安全"
+  },
+  {
+    "id": "manual_cooking_household_seal_opening",
+    "displayText": "封口",
+    "answerJyutping": "fung1 hau2",
+    "gloss": "seal the opening",
+    "notes": "把袋、盒或包裝的開口封好，避免漏氣、漏液或受潮。",
+    "usageTip": "封口前先把袋口擦乾，膠帶或夾子才黐得穩。",
+    "exampleSentence": "乾貨袋封口之後先放入櫃。",
+    "category": "食材儲存與安全"
+  },
+  {
+    "id": "manual_cooking_household_mop_kitchen_floor",
+    "displayText": "拖廚房",
+    "answerJyutping": "to1 cyu4 fong2",
+    "gloss": "mop the kitchen floor",
+    "notes": "「拖」在香港粵語常指用拖把清潔地面，後面可直接接地方。",
+    "usageTip": "有油污時先處理油點，再拖全個廚房會較乾淨。",
+    "exampleSentence": "煮完火鍋地下好跣，要拖廚房。",
+    "category": "廚房清潔與整理"
+  },
+  {
+    "id": "manual_cooking_household_put_away",
+    "displayText": "放妥",
+    "answerJyutping": "fong3 to5",
+    "gloss": "put away neatly and securely",
+    "notes": "把物件安穩地放在合適位置，帶有整理妥當和避免跌倒的意思。",
+    "usageTip": "刀具、清潔劑和易碎品都可以說「放妥」，提醒對方收在安全位置。",
+    "exampleSentence": "用完啲刀要放妥，唔好放喺枱邊。",
+    "category": "家居管理"
+  },
+  {
+    "id": "manual_cooking_household_clean_up_kitchen",
+    "displayText": "執廚房",
+    "answerJyutping": "zap1 cyu4 fong2",
+    "gloss": "tidy up the kitchen",
+    "notes": "把煮食後的碗碟、工具、食材和檯面整理妥當，香港口語很常用。",
+    "usageTip": "「執」不只等於清潔，也包括歸位和收拾雜物。",
+    "exampleSentence": "你洗碗，我負責執廚房。",
+    "category": "廚房清潔與整理"
+  },
+  {
+    "id": "manual_cooking_household_store_elsewhere",
+    "displayText": "轉存",
+    "answerJyutping": "zyun2 cyun4",
+    "gloss": "transfer to another storage container",
+    "notes": "把原包裝內的食物或用品轉到更合適的容器保存。",
+    "usageTip": "轉存後最好寫上開封日期，方便日後盤點。",
+    "exampleSentence": "開封嘅麵粉轉存入密封罐會穩陣啲。",
+    "category": "食材儲存與安全"
+  },
+  {
+    "id": "manual_cooking_household_zone_storage",
+    "displayText": "分區收納",
+    "answerJyutping": "fan1 keoi1 sau1 naap6",
+    "gloss": "organize storage by zones",
+    "notes": "按用途或種類把物品分開放，令廚房和家居更易取用和清點。",
+    "usageTip": "調味料、清潔用品和乾貨分區收納，日後較容易找和補充。",
+    "exampleSentence": "廚房用分區收納，煮飯嗰陣就唔使周圍搵。",
+    "category": "家居管理"
+  }
+]
