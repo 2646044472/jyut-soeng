@@ -1,0 +1,602 @@
+[
+  {
+    "id": "manual-daily-services-appointment-window",
+    "displayText": "预约时段",
+    "answerJyutping": "jyu6 joek3 si4 dyun6",
+    "gloss": "预先约定服务、见面或上门处理事项的具体时间范围。",
+    "notes": "比只说某一天更清楚，常见于维修、看诊和送货安排。",
+    "usageTip": "约好后再确认预约时段，免得双方以为是同一个时间。",
+    "exampleSentence": "师傅话预约时段系下昼两点到四点。",
+    "category": "日常服务"
+  },
+  {
+    "id": "manual-daily-services-change-appointment-time",
+    "displayText": "改约时间",
+    "answerJyutping": "goi2 joek3 si4 gaan3",
+    "gloss": "把原先约好的会面或服务时间改成另一个具体时段。",
+    "notes": "比单说取消更明确，通常需要同时提出新的可行时间。",
+    "usageTip": "想改约时间就尽早给对方两三个选择，较容易重新安排。",
+    "exampleSentence": "我下昼有事，想同诊所改约时间。",
+    "category": "个人安排"
+  },
+  {
+    "id": "manual-daily-services-confirm-attendance",
+    "displayText": "确认出席",
+    "answerJyutping": "kok3 jan6 ceot1 zik6",
+    "gloss": "明确回复自己会参加某个聚会、会议或活动。",
+    "notes": "主办方通常要据此预留座位、食物或物资。",
+    "usageTip": "未能确定时也应说明何时答复，别让主办方一直估人数。",
+    "exampleSentence": "你今晚确认出席，咁我先帮你留位。",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-rain-check",
+    "displayText": "改日再约",
+    "answerJyutping": "goi2 jat6 zoi3 joek3",
+    "gloss": "这次无法成行，表示以后另找时间见面或处理事情。",
+    "notes": "带有保留关系和继续联络的意思，不等于已经定下新日期。",
+    "usageTip": "说改日再约后，隔一段时间可主动提出具体日子，才不会变成客套话。",
+    "exampleSentence": "今次大家都太忙，改日再约食饭啦。",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-reminder-message",
+    "displayText": "温馨提示",
+    "answerJyutping": "wan1 hing1 tai4 si6",
+    "gloss": "以较客气方式提醒别人注意某件将到期或容易遗漏的事。",
+    "notes": "常用于群组、管理处通知和熟人之间的轻度提醒。",
+    "usageTip": "温馨提示后写明行动和期限，语气会更清楚而不显催逼。",
+    "exampleSentence": "温馨提示，听日中午前要交返张表。",
+    "category": "日常沟通"
+  },
+  {
+    "id": "manual-daily-services-hold-a-slot",
+    "displayText": "留个位",
+    "answerJyutping": "lau4 go3 wai2",
+    "gloss": "为稍后会到的人预留座位、名额或位置。",
+    "notes": "用于餐厅、活动和办公室座位，通常要先知道对方是否真的会来。",
+    "usageTip": "请人留个位时讲清楚大约几点到，避免长期占着公共位置。",
+    "exampleSentence": "我迟少少先到，你帮我留个位好吗？",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-waitlist",
+    "displayText": "候补名单",
+    "answerJyutping": "hau6 bou2 ming4 daan1",
+    "gloss": "正选名额已满时，按顺序等待有人退出后补上的名单。",
+    "notes": "课程、活动和服务预约都可能设候补。",
+    "usageTip": "入咗候补名单后留意电话或讯息，有空缺时通常要很快回复。",
+    "exampleSentence": "个兴趣班满咗，我而家喺候补名单等通知。",
+    "category": "公共事务"
+  },
+  {
+    "id": "manual-daily-services-queue-ticket",
+    "displayText": "筹号",
+    "answerJyutping": "cau4 hou6",
+    "gloss": "在柜台、诊所或服务处排队时取得的等候号码。",
+    "notes": "号码过了可能需要重新排队，应留意叫号屏幕或广播。",
+    "usageTip": "攞咗筹号先看前面还有几多人，离开等候区前要确认不会错过。",
+    "exampleSentence": "你先攞筹号，我去隔离买枝水。",
+    "category": "日常服务"
+  },
+  {
+    "id": "manual-daily-services-counter-service",
+    "displayText": "柜台服务",
+    "answerJyutping": "gwai6 toi4 fuk6 mou6",
+    "gloss": "由工作人员在服务柜台当面处理申请、查询或缴费的方式。",
+    "notes": "办理前常要带身分证明、编号或相关文件。",
+    "usageTip": "去柜台服务前先查营业时间和所需文件，少走一趟。",
+    "exampleSentence": "呢项申请要去柜台服务先办到。",
+    "category": "公共事务"
+  },
+  {
+    "id": "manual-daily-services-service-hotline",
+    "displayText": "服务热线",
+    "answerJyutping": "fuk6 mou6 jit6 sin3",
+    "gloss": "机构或商户提供给顾客查询、报修或投诉的电话联络渠道。",
+    "notes": "通话前准备订单编号和问题重点，处理会较快。",
+    "usageTip": "打服务热线前记低时间和个案编号，之后跟进会有根据。",
+    "exampleSentence": "网络断咗成朝，我打服务热线报修。",
+    "category": "消费后跟进"
+  },
+  {
+    "id": "manual-daily-services-case-number",
+    "displayText": "个案编号",
+    "answerJyutping": "go3 on3 pin1 hou6",
+    "gloss": "机构为某次申请、报修或投诉建立的识别号码。",
+    "notes": "跟进同一问题时提供编号，可让工作人员更快查到记录。",
+    "usageTip": "收到个案编号就截图或写低，唔好只靠记住对方姓名。",
+    "exampleSentence": "客服畀咗个案编号我，话三日内会覆。",
+    "category": "消费后跟进"
+  },
+  {
+    "id": "manual-daily-services-follow-up",
+    "displayText": "跟进进度",
+    "answerJyutping": "gan1 zeon3 zeon3 dou6",
+    "gloss": "再次查询已提出的申请、订单或问题目前处理到哪里。",
+    "notes": "适合在对方承诺的处理期限过后使用。",
+    "usageTip": "跟进进度时说明之前联络日期和编号，避免只问有冇消息。",
+    "exampleSentence": "过咗一星期都未有消息，我想跟进进度。",
+    "category": "消费后跟进"
+  },
+  {
+    "id": "manual-daily-services-overdue",
+    "displayText": "逾期未办",
+    "answerJyutping": "jyu4 kei4 mei6 baan6",
+    "gloss": "某项手续、付款或承诺已超过期限但仍未完成。",
+    "notes": "可能影响资格、服务或产生额外费用，收到通知要先看期限。",
+    "usageTip": "发现逾期未办就尽快联络负责单位，问清楚还能怎样补救。",
+    "exampleSentence": "封信话我份申请逾期未办，要尽快补资料。",
+    "category": "公共事务"
+  },
+  {
+    "id": "manual-daily-services-document-submission",
+    "displayText": "补交文件",
+    "answerJyutping": "bou2 gaau1 man4 gin2",
+    "gloss": "因资料不足或不完整，之后再提交所要求的证明或表格。",
+    "notes": "应确认可接受的格式、提交方法和最后期限。",
+    "usageTip": "补交文件前逐项对照通知，上传后保留成功递交的纪录。",
+    "exampleSentence": "佢叫我下星期前补交文件，唔系份申请会停。",
+    "category": "公共事务"
+  },
+  {
+    "id": "manual-daily-services-proof-of-submission",
+    "displayText": "递交证明",
+    "answerJyutping": "dai6 gaau1 zing3 ming4",
+    "gloss": "显示表格、文件或申请已经送达机构的收据、截图或记录。",
+    "notes": "网上递交通常会有确认页，柜台则可能盖章或发收据。",
+    "usageTip": "重要申请完成后保存递交证明，日后系统出错也有凭据。",
+    "exampleSentence": "你记得存低递交证明，万一有争议都讲得清。",
+    "category": "公共事务"
+  },
+  {
+    "id": "manual-daily-services-consent-form",
+    "displayText": "同意书",
+    "answerJyutping": "tung4 ji3 syu1",
+    "gloss": "表明当事人已知悉并同意某项安排、服务或资料使用的文件。",
+    "notes": "签名前应看清用途、有效期和是否可撤回同意。",
+    "usageTip": "收到同意书唔好急住签，有不明白就先问负责人员。",
+    "exampleSentence": "学校要家长签同意书，先可以参加个活动。",
+    "category": "公共事务"
+  },
+  {
+    "id": "manual-daily-services-household-notice",
+    "displayText": "住户通知",
+    "answerJyutping": "zyu6 wu6 tung1 zi3",
+    "gloss": "管理处、业主组织或服务单位发给住户的事项说明。",
+    "notes": "内容可能涉及工程、停水、费用或大厦规则。",
+    "usageTip": "见到住户通知先看日期和受影响范围，必要时转告同住的人。",
+    "exampleSentence": "大堂贴咗住户通知，听日朝早会停水。",
+    "category": "邻里互动"
+  },
+  {
+    "id": "manual-daily-services-access-code",
+    "displayText": "门禁密码",
+    "answerJyutping": "mun4 gan3 mat6 maa5",
+    "gloss": "用于开启大门、电闸或公共设施的数字或文字密码。",
+    "notes": "属于住处安全资料，不应随意放在公开群组或转给陌生人。",
+    "usageTip": "门禁密码改咗就通知确实需要使用的人，旧密码也要及时停用。",
+    "exampleSentence": "管理处换咗门禁密码，记得问返新号码。",
+    "category": "邻里互动"
+  },
+  {
+    "id": "manual-daily-services-noise-hours",
+    "displayText": "安静时间",
+    "answerJyutping": "on1 zing6 si4 gaan3",
+    "gloss": "住所、公共空间或活动场地要求降低声量、不影响他人的时段。",
+    "notes": "各处规定不同，夜间通常更需要注意音乐、装修和聚会声量。",
+    "usageTip": "安排聚会前先看安静时间，朋友离开时也提醒大家轻声。",
+    "exampleSentence": "十点后系安静时间，麻烦你哋细声啲。",
+    "category": "邻里互动"
+  },
+  {
+    "id": "manual-daily-services-borrow-return",
+    "displayText": "借用归还",
+    "answerJyutping": "ze3 jung6 gwai1 waan4",
+    "gloss": "暂时借取别人的物品，并在约好时间后交还的安排。",
+    "notes": "工具、门卡和书籍都应说清归还日期和物品状态。",
+    "usageTip": "借用归还最好喺讯息讲清楚，归还时顺便确认物品齐全。",
+    "exampleSentence": "把梯我借你两日，星期日记得借用归还。",
+    "category": "邻里互动"
+  },
+  {
+    "id": "manual-daily-services-management-office-collection",
+    "displayText": "管理处代收",
+    "answerJyutping": "gun2 lei5 cyu3 doi6 sau1",
+    "gloss": "由住所管理处暂时替住户接收送达物品的安排。",
+    "notes": "并非每个管理处都提供，也可能只在办公时间处理。",
+    "usageTip": "选择管理处代收前先确认领取手续和最迟取回日期。",
+    "exampleSentence": "送货嗰阵我未返到，管理处代收咗个包裹。",
+    "category": "邻里互动"
+  },
+  {
+    "id": "manual-daily-services-pickup-time",
+    "displayText": "取件时间",
+    "answerJyutping": "ceoi2 gin6 si4 gaan3",
+    "gloss": "可以到指定地点领取包裹、维修品或证件的开放时段。",
+    "notes": "有些地点逾期会退回物品，取件时通常要出示通知或身分证明。",
+    "usageTip": "收到通知先看取件时间，放工后先去的话要确认地方仲开门。",
+    "exampleSentence": "个柜台六点收工，我赶唔切取件时间。",
+    "category": "日常服务"
+  },
+  {
+    "id": "manual-daily-services-sign-for",
+    "displayText": "签收",
+    "answerJyutping": "cim1 sau1",
+    "gloss": "收到包裹、文件或物品后以签名或电子确认表示已经接收。",
+    "notes": "签收前可先看外包装和收件资料是否正确。",
+    "usageTip": "外箱有明显损坏时先拍照再签收，方便之后反映问题。",
+    "exampleSentence": "送货员到咗，你落去签收啦。",
+    "category": "消费后跟进"
+  },
+  {
+    "id": "manual-daily-services-missing-item",
+    "displayText": "漏件",
+    "answerJyutping": "lau6 gin6",
+    "gloss": "订单、包裹或服务应有的物品中少了一件或多件。",
+    "notes": "应保留订单、包装和相片，方便商户核实补发或退款。",
+    "usageTip": "发现漏件尽早联络商户，并一次过讲清楚少咗什么和订单资料。",
+    "exampleSentence": "我拆开先发现漏件，少咗个充电器。",
+    "category": "消费后跟进"
+  },
+  {
+    "id": "manual-daily-services-wrong-item",
+    "displayText": "发错货",
+    "answerJyutping": "faat3 co3 fo3",
+    "gloss": "商户送来的商品与订单的款式、尺码或物品不相符。",
+    "notes": "先不要使用或丢掉包装，很多退换流程会要求保持原状。",
+    "usageTip": "报发错货时影清楚标签和实物，提出你想换货还是退款。",
+    "exampleSentence": "呢对鞋颜色唔啱，应该系店铺发错货。",
+    "category": "消费后跟进"
+  },
+  {
+    "id": "manual-daily-services-return-shipping",
+    "displayText": "退货运费",
+    "answerJyutping": "teoi3 fo3 wan6 fai3",
+    "gloss": "把商品寄回商户时所产生的邮寄或运输费用。",
+    "notes": "由谁承担取决于商品问题、平台规则和退货原因。",
+    "usageTip": "申请退货前先问清楚退货运费由边个出，避免寄咗先有争议。",
+    "exampleSentence": "如果系佢哋发错货，退货运费应该唔使我畀。",
+    "category": "消费后跟进"
+  },
+  {
+    "id": "manual-daily-services-refund-status",
+    "displayText": "退款状态",
+    "answerJyutping": "teoi3 fun2 zong6 taai3",
+    "gloss": "退款申请目前处于审核、已批准、处理中或已到账等阶段。",
+    "notes": "原路退款和信用卡入账可能需要不同处理时间。",
+    "usageTip": "查退款状态时准备订单号和申请日期，超过承诺期限才再催问。",
+    "exampleSentence": "个系统显示退款状态仲系处理中。",
+    "category": "消费后跟进"
+  },
+  {
+    "id": "manual-daily-services-warranty-claim",
+    "displayText": "保养索偿",
+    "answerJyutping": "bou2 joeng5 sok3 soeng4",
+    "gloss": "产品在保养期内出现合资格问题时，向商户或厂商要求维修、更换或赔偿。",
+    "notes": "通常需要购买证明、产品编号和故障说明。",
+    "usageTip": "做保养索偿前先找齐单据和相片，说明问题发生的时间和情况。",
+    "exampleSentence": "部风扇仲喺保养期，我想做保养索偿。",
+    "category": "消费后跟进"
+  },
+  {
+    "id": "manual-daily-services-service-fee",
+    "displayText": "服务费",
+    "answerJyutping": "fuk6 mou6 fai3",
+    "gloss": "商户或机构因提供处理、上门、安装或其他服务而收取的费用。",
+    "notes": "有些服务费另计，有些已包含在总价或合约内。",
+    "usageTip": "确认服务前先问服务费包唔包括上门和零件，避免结账时意外加价。",
+    "exampleSentence": "师傅话检查唔收费，但换零件会有服务费。",
+    "category": "日常服务"
+  },
+  {
+    "id": "manual-daily-services-cancellation-fee",
+    "displayText": "取消费用",
+    "answerJyutping": "ceoi2 siu1 fai3 jung6",
+    "gloss": "取消已预约的服务、活动或订单时按规则需要支付的费用。",
+    "notes": "越接近预约时间取消，越可能不能退回全部款项。",
+    "usageTip": "落订前看清取消费用和最后免费取消时间，临时有变可少损失。",
+    "exampleSentence": "原来前一日先取消会收取消费用。",
+    "category": "个人安排"
+  },
+  {
+    "id": "manual-daily-services-receipt-copy",
+    "displayText": "收据副本",
+    "answerJyutping": "sau1 geoi3 fu3 bun2",
+    "gloss": "原本收据遗失或需要留档时，商户或机构重新提供的记录副本。",
+    "notes": "有些地方会要求交易日期、金额或付款方式来查找。",
+    "usageTip": "要收据副本时尽量提供准确购买资料，亦要问清楚副本能否报销。",
+    "exampleSentence": "我张单唔见咗，可唔可以申请收据副本？",
+    "category": "消费后跟进"
+  },
+  {
+    "id": "manual-daily-services-name-correction",
+    "displayText": "更正资料",
+    "answerJyutping": "gang1 zing3 zi1 liu2",
+    "gloss": "把申请、账户或登记内写错或过期的个人资料改为正确内容。",
+    "notes": "姓名、地址和联络方法有变时，应按机构规定提交证明。",
+    "usageTip": "发现资料有错就尽早更正资料，尤其是会影响收信或身份核对的项目。",
+    "exampleSentence": "我搬咗屋，要上网更正资料入面个地址。",
+    "category": "公共事务"
+  },
+  {
+    "id": "manual-daily-services-authorized-person",
+    "displayText": "授权代办",
+    "answerJyutping": "syun4 kyun4 doi6 baan6",
+    "gloss": "由当事人正式准许另一人代为领取、提交或处理指定事项。",
+    "notes": "不同机构对授权书、双方证件和可代办范围要求不同。",
+    "usageTip": "要授权代办就先问清楚需唔需要正本授权书，别让人白跑一趟。",
+    "exampleSentence": "我出差嗰几日，想授权代办畀家姐攞证件。",
+    "category": "公共事务"
+  },
+  {
+    "id": "manual-daily-services-contact-preference",
+    "displayText": "联络方式",
+    "answerJyutping": "lyun4 lok3 fong1 sik1",
+    "gloss": "与人或机构沟通时所使用的电话、短讯、电邮或其他渠道。",
+    "notes": "不同事情适合不同方式，紧急事不宜只留讯息等待。",
+    "usageTip": "约人或留资料时讲清楚较方便的联络方式，减少错过通知。",
+    "exampleSentence": "有变动就用我平时个联络方式通知我。",
+    "category": "个人安排"
+  },
+  {
+    "id": "manual-daily-services-contact-hours",
+    "displayText": "方便联络",
+    "answerJyutping": "fong1 bin6 lyun4 lok3",
+    "gloss": "表示某段时间可以接听电话、回复讯息或处理沟通。",
+    "notes": "说清楚可避免在开会、上课或休息时反复打扰对方。",
+    "usageTip": "请人回电时顺便讲自己几时方便联络，双方较易接上。",
+    "exampleSentence": "我五点后先方便联络，你到时再打畀我。",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-group-poll",
+    "displayText": "投票决定",
+    "answerJyutping": "tau4 piu3 kyut3 ding6",
+    "gloss": "由多人投票选择日期、地点或安排，以决定共同做法。",
+    "notes": "适合群组意见分散的事，投票前要先写清楚每个选项。",
+    "usageTip": "用投票决定后定一个截止时间，免得不断有人迟些再改。",
+    "exampleSentence": "大家用投票决定星期六定星期日去行山。",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-split-the-bill",
+    "displayText": "夹返钱",
+    "answerJyutping": "gaap3 faan1 cin2",
+    "gloss": "多人消费后按约定分摊金额，再把自己应付部分交回给垫付的人。",
+    "notes": "可以平均分、按所点项目分或先扣除优惠再分。",
+    "usageTip": "夹返钱前发清楚账单和计算方法，少咗误会。",
+    "exampleSentence": "餐饭我先畀咗，大家得闲夹返钱畀我。",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-advance-payment",
+    "displayText": "先垫支",
+    "answerJyutping": "sin1 dim3 zi1",
+    "gloss": "暂时先替其他人支付一笔共同需要的费用。",
+    "notes": "垫支不是送礼，最好先说明金额和之后怎样结算。",
+    "usageTip": "先垫支较大金额前，在群组留低纪录，之后追数会清楚好多。",
+    "exampleSentence": "场地费我可以先垫支，散场后再计。",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-reminder-payment",
+    "displayText": "提你一提",
+    "answerJyutping": "tai4 nei5 jat1 tai4",
+    "gloss": "以较柔和的语气提醒对方留意一件事或完成某项安排。",
+    "notes": "适合熟人之间轻度提醒，后面最好接具体事项和期限。",
+    "usageTip": "讲提你一提时避免长篇指责，直接说明要处理什么便够。",
+    "exampleSentence": "提你一提，今晚十二点前要覆返报名表。",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-arrive-late",
+    "displayText": "迟到通知",
+    "answerJyutping": "ci4 dou3 tung1 zi3",
+    "gloss": "因交通、工作或突发情况不能准时到达时，预先告知对方的讯息。",
+    "notes": "应说明预计迟多久，不必交代过多私人细节。",
+    "usageTip": "一知道会迟就发迟到通知，对方可以决定是否先开始。",
+    "exampleSentence": "地铁停咗一阵，我发咗迟到通知畀大家。",
+    "category": "个人安排"
+  },
+  {
+    "id": "manual-daily-services-arrival-estimate",
+    "displayText": "预计到达",
+    "answerJyutping": "jyu6 gai3 dou3 daat6",
+    "gloss": "按目前路程和情况估计自己或物品会到达的时间。",
+    "notes": "只是估算，遇上塞车、排队或天气变化可能延后。",
+    "usageTip": "讲预计到达时说一个时间范围，比只说就到更有用。",
+    "exampleSentence": "我预计到达系七点半左右，你哋可以先入座。",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-meeting-point",
+    "displayText": "集合地点",
+    "answerJyutping": "zaap6 hap6 dei6 dim2",
+    "gloss": "多人约好见面、出发或集合时指定的清楚位置。",
+    "notes": "大型车站或商场内应补充出口、楼层或显眼标志。",
+    "usageTip": "定集合地点时避免只讲商场名，最好加入口或店铺附近。",
+    "exampleSentence": "集合地点改咗喺地铁站Ｂ出口外面。",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-bring-a-friend",
+    "displayText": "带多个人",
+    "answerJyutping": "daai3 do1 go3 jan4",
+    "gloss": "参加约会或活动时，额外带一位原先未计算在内的人同行。",
+    "notes": "涉及座位、订餐和费用时，应先问主办方是否方便。",
+    "usageTip": "想带多个人就早些通知，唔好到场先讲。",
+    "exampleSentence": "我个朋友都想嚟，我可唔可以带多个人？",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-dietary-requirement",
+    "displayText": "饮食需要",
+    "answerJyutping": "jam2 sik6 seoi1 jiu3",
+    "gloss": "因过敏、宗教、健康或个人选择而需要避免或选择某些食物的情况。",
+    "notes": "聚餐前收集资料可让订位和点菜更周到。",
+    "usageTip": "有饮食需要就尽早说清楚哪些食物不能吃，不要等菜上桌才讲。",
+    "exampleSentence": "订餐前问下大家有冇饮食需要。",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-hosting-gift",
+    "displayText": "手信",
+    "answerJyutping": "sau2 seon3",
+    "gloss": "探访、旅行回来或到别人家作客时带给对方的小礼物。",
+    "notes": "重点是心意和合适，不必贵重或造成对方负担。",
+    "usageTip": "第一次去人哋屋企食饭，带少少手信会较得体。",
+    "exampleSentence": "去阿姨屋企食饭，我买咗盒饼做手信。",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-thank-you-message",
+    "displayText": "答谢讯息",
+    "answerJyutping": "daap3 ze6 seon3 sik1",
+    "gloss": "事情结束后向帮忙、招待或送礼的人表达感谢的讯息。",
+    "notes": "具体提到对方做过什么，比只写多谢更有诚意。",
+    "usageTip": "收到帮助后当天发答谢讯息，简单真诚已经足够。",
+    "exampleSentence": "返到屋企我就发咗答谢讯息畀主人家。",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-keep-in-touch",
+    "displayText": "保持联络",
+    "answerJyutping": "bou2 ci4 lyun4 lok3",
+    "gloss": "即使不常见面，仍定期互通近况和维持关系。",
+    "notes": "可用于朋友、旧同事和搬走后的邻居之间。",
+    "usageTip": "说保持联络后可偶尔分享近况或问候，关系才不会断开。",
+    "exampleSentence": "你搬咗都要保持联络，有空返嚟饮茶。",
+    "category": "邻里互动"
+  },
+  {
+    "id": "manual-daily-services-checking-in",
+    "displayText": "问候一下",
+    "answerJyutping": "man6 hau6 jat1 haa5",
+    "gloss": "主动简单询问对方近况，表达关心但不一定要求深入交谈。",
+    "notes": "适合久未见面的朋友、身体不适的人或有重要事情的人。",
+    "usageTip": "问候一下后给对方空间，对方未必即时方便详细回复。",
+    "exampleSentence": "见你病咗几日，我想问候一下你而家点。",
+    "category": "社交协调"
+  },
+  {
+    "id": "manual-daily-services-talk-later",
+    "displayText": "迟啲再倾",
+    "answerJyutping": "ci4 di1 zoi3 king1",
+    "gloss": "暂时不继续谈某件事，约在稍后有空时再讨论。",
+    "notes": "适合对方正在忙或当下不适合深入沟通的情况。",
+    "usageTip": "讲迟啲再倾时可补上大约时间，避免事情一直没有下文。",
+    "exampleSentence": "呢件事要睇清楚先，迟啲再倾啦。",
+    "category": "日常沟通"
+  },
+  {
+    "id": "manual-daily-services-neighbor-favor",
+    "displayText": "搭把手",
+    "answerJyutping": "daap3 baa2 sau2",
+    "gloss": "在别人搬运、处理小事或赶时间时出一份力帮忙。",
+    "notes": "通常指短时间的实际协助，不一定是正式分工。",
+    "usageTip": "见到邻居一个人搬重物，可以主动问需唔需要搭把手。",
+    "exampleSentence": "你一个人搬咁多箱，我嚟搭把手。",
+    "category": "邻里互动"
+  },
+  {
+    "id": "manual-daily-services-return-the-favor",
+    "displayText": "还个人情",
+    "answerJyutping": "waan4 go3 jan4 cing4",
+    "gloss": "为答谢别人之前的帮助，在适当时候回馈或提供协助。",
+    "notes": "不一定要等价交换，重点是记得对方的心意和帮忙。",
+    "usageTip": "人哋帮过你，之后有机会还个人情会令来往更自然。",
+    "exampleSentence": "上次佢帮我接小朋友，今次我都想还个人情。",
+    "category": "邻里互动"
+  },
+  {
+    "id": "manual-daily-services-community-board",
+    "displayText": "公告栏",
+    "answerJyutping": "gung1 gou3 laan4",
+    "gloss": "张贴大厦、社区、学校或公共场所通知和活动资料的板面。",
+    "notes": "内容可能更新很快，应看发布日期和主办单位。",
+    "usageTip": "想知社区有咩活动，经过公告栏可以望一望。",
+    "exampleSentence": "公告栏贴咗个旧衣回收日嘅通知。",
+    "category": "公共事务"
+  },
+  {
+    "id": "manual-daily-services-public-consultation",
+    "displayText": "公众咨询",
+    "answerJyutping": "gung1 zung3 zi1 seon1",
+    "gloss": "政府或公共机构在制定计划前，向市民收集意见的过程。",
+    "notes": "一般会说明咨询主题、提交方法和截止日期。",
+    "usageTip": "遇到影响住区的公众咨询，可先看原文再提交具体意见。",
+    "exampleSentence": "个计划开始咗公众咨询，居民可以网上留言。",
+    "category": "公共事务"
+  },
+  {
+    "id": "manual-daily-services-report-problem",
+    "displayText": "报修记录",
+    "answerJyutping": "bou3 sau1 gei3 luk6",
+    "gloss": "反映设施故障后，系统或管理人员登记下来的维修事项纪录。",
+    "notes": "记录通常包含报修时间、地点、问题和跟进编号。",
+    "usageTip": "提交后截图保存报修记录，超过处理期就凭记录查询。",
+    "exampleSentence": "我喺应用程式睇到报修记录已经转畀师傅。",
+    "category": "公共事务"
+  },
+  {
+    "id": "manual-daily-services-service-satisfaction",
+    "displayText": "服务评价",
+    "answerJyutping": "fuk6 mou6 ping4 gaa3",
+    "gloss": "顾客对商户、送货员或服务人员表现所作出的评分和意见。",
+    "notes": "具体说明实际经历，比单纯给高低分更有参考价值。",
+    "usageTip": "写服务评价时只讲实际发生的事，避免公开不必要的个人资料。",
+    "exampleSentence": "个师傅好准时，我畀咗五星服务评价。",
+    "category": "消费后跟进"
+  },
+  {
+    "id": "manual-daily-services-complaint-channel",
+    "displayText": "投诉渠道",
+    "answerJyutping": "tau4 sou3 keoi4 dou6",
+    "gloss": "向商户、机构或管理单位正式反映不满和问题的指定方法。",
+    "notes": "可包括电话、表格、电邮或现场柜台，正式渠道较易留下纪录。",
+    "usageTip": "想投诉前先找正确投诉渠道，并整理时间、地点和证据。",
+    "exampleSentence": "客服处理唔到，我想问有冇正式投诉渠道。",
+    "category": "消费后跟进"
+  },
+  {
+    "id": "manual-daily-services-resolution-proposal",
+    "displayText": "解决方案",
+    "answerJyutping": "gaai2 kyut3 fong1 on3",
+    "gloss": "针对问题提出可执行的处理办法或补偿安排。",
+    "notes": "好的方案应说明谁负责、何时完成和怎样确认结果。",
+    "usageTip": "谈问题时不妨提出自己可接受的解决方案，沟通会较有效率。",
+    "exampleSentence": "店长畀咗个解决方案，听日会补送返件货。",
+    "category": "消费后跟进"
+  },
+  {
+    "id": "manual-daily-services-feedback-deadline",
+    "displayText": "回复期限",
+    "answerJyutping": "wui4 fuk1 kei4 haan6",
+    "gloss": "机构、商户或对方承诺在某个日期或时限前给出答复的时间界线。",
+    "notes": "期限过后仍无消息，可引用之前的记录再次查询。",
+    "usageTip": "收到回复期限就记低日期，到期前后再安排跟进。",
+    "exampleSentence": "佢哋话回复期限系五个工作天。",
+    "category": "消费后跟进"
+  },
+  {
+    "id": "manual-daily-services-neighborhood-group",
+    "displayText": "街坊群组",
+    "answerJyutping": "gaai1 fong1 kwan4 zou2",
+    "gloss": "附近住户为互通消息、互相帮忙或讨论社区事项而建立的通讯群组。",
+    "notes": "群组资料未必全部准确，转发前应先核实来源。",
+    "usageTip": "街坊群组问事要写清楚地点和时间，唔好一次过刷太多无关讯息。",
+    "exampleSentence": "我喺街坊群组问到边度有师傅整门锁。",
+    "category": "邻里互动"
+  },
+  {
+    "id": "manual-daily-services-on-site-registration",
+    "displayText": "到场登记",
+    "answerJyutping": "dou3 coeng4 dang1 gei3",
+    "gloss": "抵达活动、诊所或办事地点后，向工作人员报到并登记资料的程序。",
+    "notes": "登记后可能会收到号码、名牌或进一步指示。",
+    "usageTip": "参加要预约的活动时早少少到场登记，免得错过开始时间。",
+    "exampleSentence": "讲座七点开始，六点半已经可以到场登记。",
+    "category": "公共事务"
+  }
+]
