@@ -1,6 +1,7 @@
 package dev.local.yuecal.domain
 
 import java.time.LocalDate
+import java.time.ZoneId
 import kotlinx.serialization.Serializable
 
 data class CalibrationEntry(
@@ -127,3 +128,12 @@ fun EntryProgress?.statusLabel(today: Long = todayEpochDay()): String = when {
 }
 
 fun todayEpochDay(): Long = LocalDate.now().toEpochDay()
+
+fun startOfDayEpochMillis(day: LocalDate, zone: ZoneId): Long = day
+    .atStartOfDay(zone)
+    .toInstant()
+    .toEpochMilli()
+
+fun todayStartEpochMillis(): Long = startOfDayEpochMillis(LocalDate.now(), ZoneId.systemDefault())
+
+fun tomorrowStartEpochMillis(): Long = startOfDayEpochMillis(LocalDate.now().plusDays(1), ZoneId.systemDefault())

@@ -21,6 +21,8 @@ import dev.local.yuecal.domain.StudySession
 import dev.local.yuecal.domain.SubmissionOutcome
 import dev.local.yuecal.domain.statusLabel
 import dev.local.yuecal.domain.todayEpochDay
+import dev.local.yuecal.domain.todayStartEpochMillis
+import dev.local.yuecal.domain.tomorrowStartEpochMillis
 import dev.local.yuecal.media.AppAudioPlayer
 import java.io.File
 import java.io.IOException
@@ -102,8 +104,16 @@ class CalibratorRepository @Inject constructor(
         progressDao.observeDueCountByType("word", todayEpochDay()),
         progressDao.observeDueCountByType("expression", todayEpochDay()),
         progressDao.observeIncomingCount(todayEpochDay() + 1),
-        progressDao.observeNewCountByType("word"),
-        progressDao.observeNewCountByType("expression"),
+        progressDao.observeNewCountByType(
+            startOfDayMillis = todayStartEpochMillis(),
+            endOfDayMillis = tomorrowStartEpochMillis(),
+            entryType = "word",
+        ),
+        progressDao.observeNewCountByType(
+            startOfDayMillis = todayStartEpochMillis(),
+            endOfDayMillis = tomorrowStartEpochMillis(),
+            entryType = "expression",
+        ),
         progressDao.observeStartedCount(),
         progressDao.observeStartedCountByType("word"),
         progressDao.observeStartedCountByType("expression"),

@@ -1,5 +1,8 @@
 package dev.local.yuecal.domain
 
+import java.time.Instant
+import java.time.LocalDate
+import java.time.ZoneId
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
@@ -115,5 +118,17 @@ class SrsEngineTest {
             ),
         )
         assertTrue(Sm2Scheduler.next(null, 5).easeFactor >= 2.5)
+    }
+
+    @Test
+    fun newLearningWindowCoversExactlyOneLocalDay() {
+        val zone = ZoneId.of("Asia/Shanghai")
+        val day = LocalDate.of(2026, 9, 11)
+        val start = startOfDayEpochMillis(day, zone)
+        val end = startOfDayEpochMillis(day.plusDays(1), zone)
+
+        assertEquals(day, Instant.ofEpochMilli(start).atZone(zone).toLocalDate())
+        assertEquals(day.plusDays(1), Instant.ofEpochMilli(end).atZone(zone).toLocalDate())
+        assertEquals(24 * 60 * 60 * 1000L, end - start)
     }
 }
