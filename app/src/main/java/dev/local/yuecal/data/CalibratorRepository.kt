@@ -174,6 +174,10 @@ class CalibratorRepository @Inject constructor(
         rows.map { it.toModel() }
     }
 
+    val sentenceEntries: Flow<List<CalibrationEntry>> = libraryEntries.map { entries ->
+        entries.filter { it.entryType == "sentence" }
+    }
+
     fun searchEntries(query: String): Flow<List<CalibrationEntry>> {
         val trimmed = query.trim()
         return if (trimmed.isBlank()) {
@@ -278,6 +282,7 @@ class CalibratorRepository @Inject constructor(
 
     suspend fun buildSession(
         mode: SessionMode,
+        entryType: String? = null,
     ): StudySession = withContext(ioDispatcher) {
         val settings = settingsStore.snapshot()
         val today = todayEpochDay()
@@ -285,26 +290,37 @@ class CalibratorRepository @Inject constructor(
             SessionMode.Learn -> buildLearningTargets(settings.dailyLearnGoal)
             SessionMode.Review -> buildReviewTargets(today)
         }
+        val focusedLearnLimit = settings.dailyLearnGoal.coerceAtLeast(4)
+        val wordLimit = when (entryType) {
+            "word" -> if (mode == SessionMode.Learn) focusedLearnLimit else targets.wordLimit
+            "expression" -> 0
+            else -> targets.wordLimit
+        }
+        val expressionLimit = when (entryType) {
+            "word" -> 0
+            "expression" -> if (mode == SessionMode.Learn) focusedLearnLimit else targets.expressionLimit
+            else -> targets.expressionLimit
+        }
         val wordEntries = when (mode) {
             SessionMode.Learn -> selectLearningEntriesByType(
                 entryType = "word",
-                limit = targets.wordLimit,
+                limit = wordLimit,
             )
             SessionMode.Review -> selectReviewEntriesByType(
                 entryType = "word",
                 today = today,
-                limit = targets.wordLimit,
+                limit = wordLimit,
             )
         }
         val expressionEntries = when (mode) {
             SessionMode.Learn -> selectLearningEntriesByType(
                 entryType = "expression",
-                limit = targets.expressionLimit,
+                limit = expressionLimit,
             )
             SessionMode.Review -> selectReviewEntriesByType(
                 entryType = "expression",
                 today = today,
-                limit = targets.expressionLimit,
+                limit = expressionLimit,
             )
         }
         val chosenEntries = when (mode) {
@@ -348,7 +364,7 @@ class CalibratorRepository @Inject constructor(
         StudySession(
             sessionId = UUID.randomUUID().toString(),
             mode = mode,
-            title = if (mode == SessionMode.Learn) "今日学习" else "今日复习",
+            title = sessionTitle(mode = mode, entryType = entryType),
             questions = questions,
         )
     }
@@ -775,4 +791,10 @@ class CalibratorRepository @Inject constructor(
 
 internal fun studyQuestionTypeFor(mode: SessionMode): StudyQuestionType = when (mode) {
     SessionMode.Learn, SessionMode.Review -> StudyQuestionType.FillJyutping
+}
+
+internal fun sessionTitle(mode: SessionMode, entryType: String?): String = when (entryType) {
+    "word" -> if (mode == SessionMode.Learn) "正音词学习" else "正音词复习"
+    "expression" -> if (mode == SessionMode.Learn) "表达练习" else "表达复习"
+    else -> if (mode == SessionMode.Learn) "今日学习" else "今日复习"
 }

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter, defaultdict
 from pathlib import Path
 from meaning_rules import is_low_info_gloss
@@ -44,6 +45,12 @@ GENERIC_CURATED_EXAMPLE_MARKERS = (
     "讲一次完整句子",
     "读得更顺一点",
 )
+MIN_CURATED_SENTENCE_LENGTH = 30
+MIN_CURATED_SENTENCE_SEGMENTS = 2
+MIN_CURATED_SENTENCE_SYLLABLES = 28
+MIN_CURATED_SENTENCE_COUNT = 300
+JYUTPING_TOKEN = re.compile(r"[a-z]+[1-6]")
+JYUTPING_ALLOWED_SEPARATORS = re.compile(r"[，。；？！、\s]")
 LOW_CONFIDENCE_GENERATED_WORD_FRAGMENTS = (
     "工時",
     "結構",
@@ -106,6 +113,10 @@ def main() -> None:
         raise SystemExit("Need at least 150 hand-written word correction entries.")
     if entry_types.get("expression", 0) < 100:
         raise SystemExit("Need at least 100 curated daily expression entries.")
+    if entry_types.get("sentence", 0) < MIN_CURATED_SENTENCE_COUNT:
+        raise SystemExit(
+            f"Need at least {MIN_CURATED_SENTENCE_COUNT} curated daily sentence entries."
+        )
 
     for entry in entries:
         for key in ("displayText", "promptText", "answerJyutping", "usageTip", "exampleSentence", "category"):
@@ -115,6 +126,20 @@ def main() -> None:
         gloss = str(entry.get("gloss", "")).strip()
         usage_tip = str(entry.get("usageTip", "")).strip()
         example_sentence = str(entry.get("exampleSentence", "")).strip()
+        if entry.get("entryType") == "sentence":
+            segment_count = sum(display_text.count(mark) for mark in ("，", "；", "？"))
+            syllable_count = len(str(entry.get("answerJyutping", "")).split())
+            if len(display_text) < MIN_CURATED_SENTENCE_LENGTH:
+                raise SystemExit(f"Sentence {entry.get('id')} is too short for daily reading mode")
+            if segment_count < MIN_CURATED_SENTENCE_SEGMENTS:
+                raise SystemExit(f"Sentence {entry.get('id')} needs at least two conversational segments")
+            if syllable_count < MIN_CURATED_SENTENCE_SYLLABLES:
+                raise SystemExit(f"Sentence {entry.get('id')} needs a complete Jyutping line")
+            jyutping = str(entry.get("answerJyutping", "")).lower()
+            residue = JYUTPING_ALLOWED_SEPARATORS.sub("", jyutping)
+            tokens = JYUTPING_TOKEN.findall(jyutping)
+            if not tokens or "".join(tokens) != residue:
+                raise SystemExit(f"Sentence {entry.get('id')} contains non-Jyutping text")
         if is_low_info_gloss(gloss, display_text):
             raise SystemExit(f"Entry {entry.get('id')} still has low-information gloss: {gloss}")
         if is_low_info_usage(usage_tip):

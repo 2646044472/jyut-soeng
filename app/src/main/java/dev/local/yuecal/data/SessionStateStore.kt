@@ -46,32 +46,44 @@ class SessionStateStore @Inject constructor(
         produceFile = { context.preferencesDataStoreFile("canto_calibrator_session.preferences_pb") },
     )
 
-    suspend fun read(mode: SessionMode): PersistedSessionState? {
-        val raw = dataStore.data.first()[keyFor(mode)] ?: return null
+    suspend fun read(mode: SessionMode, entryType: String? = null): PersistedSessionState? {
+        val raw = dataStore.data.first()[keyFor(mode, entryType)] ?: return null
         return runCatching {
             json.decodeFromString<PersistedSessionState>(raw)
         }.getOrNull()
     }
 
-    suspend fun save(mode: SessionMode, state: PersistedSessionState) {
+    suspend fun save(mode: SessionMode, entryType: String? = null, state: PersistedSessionState) {
         dataStore.edit { prefs ->
-            prefs[keyFor(mode)] = json.encodeToString(PersistedSessionState.serializer(), state)
+            prefs[keyFor(mode, entryType)] = json.encodeToString(PersistedSessionState.serializer(), state)
         }
     }
 
-    suspend fun clear(mode: SessionMode) {
+    suspend fun clear(mode: SessionMode, entryType: String? = null) {
         dataStore.edit { prefs ->
-            prefs.remove(keyFor(mode))
+            prefs.remove(keyFor(mode, entryType))
         }
     }
 
-    private fun keyFor(mode: SessionMode) = when (mode) {
-        SessionMode.Learn -> Keys.LEARN_SESSION_STATE
-        SessionMode.Review -> Keys.REVIEW_SESSION_STATE
+    private fun keyFor(mode: SessionMode, entryType: String?) = when (mode) {
+        SessionMode.Learn -> when (entryType) {
+            "word" -> Keys.LEARN_WORD_SESSION_STATE
+            "expression" -> Keys.LEARN_EXPRESSION_SESSION_STATE
+            else -> Keys.LEARN_SESSION_STATE
+        }
+        SessionMode.Review -> when (entryType) {
+            "word" -> Keys.REVIEW_WORD_SESSION_STATE
+            "expression" -> Keys.REVIEW_EXPRESSION_SESSION_STATE
+            else -> Keys.REVIEW_SESSION_STATE
+        }
     }
 
     private object Keys {
         val LEARN_SESSION_STATE = stringPreferencesKey("learn_session_state")
+        val LEARN_WORD_SESSION_STATE = stringPreferencesKey("learn_word_session_state")
+        val LEARN_EXPRESSION_SESSION_STATE = stringPreferencesKey("learn_expression_session_state")
         val REVIEW_SESSION_STATE = stringPreferencesKey("review_session_state")
+        val REVIEW_WORD_SESSION_STATE = stringPreferencesKey("review_word_session_state")
+        val REVIEW_EXPRESSION_SESSION_STATE = stringPreferencesKey("review_expression_session_state")
     }
 }

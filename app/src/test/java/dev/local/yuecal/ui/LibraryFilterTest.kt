@@ -29,6 +29,14 @@ class LibraryFilterTest {
         assertEquals(listOf(expression), filterLibraryEntries(listOf(word, expression), null, "expression"))
     }
 
+    @Test
+    fun `filters sentence entries separately from expressions`() {
+        val expression = entry(id = "expression", category = "日常表达", entryType = "expression")
+        val sentence = entry(id = "sentence", category = "出行场景", entryType = "sentence")
+
+        assertEquals(listOf(sentence), filterLibraryEntries(listOf(expression, sentence), null, "sentence"))
+    }
+
     private fun entry(id: String, category: String, entryType: String = "word") = CalibrationEntry(
         id = id,
         displayText = id,

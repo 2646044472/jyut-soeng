@@ -19,6 +19,7 @@ import dev.local.yuecal.domain.DashboardSummary
 import dev.local.yuecal.domain.SessionMode
 import dev.local.yuecal.domain.StudyQuestion
 import dev.local.yuecal.domain.StudySession
+import dev.local.yuecal.domain.todayEpochDay
 import dev.local.yuecal.media.AppFeedbackPlayer
 import dev.local.yuecal.work.AppWorkScheduler
 import java.util.UUID
@@ -50,6 +51,11 @@ data class LibraryUiState(
 data class SearchUiState(
     val query: String = "",
     val results: List<CalibrationEntry> = emptyList(),
+)
+
+data class SentenceReaderUiState(
+    val sentences: List<CalibrationEntry> = emptyList(),
+    val totalSentenceCount: Int = 0,
 )
 
 data class ProfileUiState(
@@ -168,6 +174,37 @@ internal fun filterLibraryEntries(
 ): List<CalibrationEntry> = entries.filter { entry ->
     (category == null || entry.category == category) &&
         (entryType == null || entry.entryType == entryType)
+}
+
+@HiltViewModel
+class SentenceReaderViewModel @Inject constructor(
+    repository: CalibratorRepository,
+) : ViewModel() {
+
+    val uiState: StateFlow<SentenceReaderUiState> = repository.sentenceEntries.map { entries ->
+        SentenceReaderUiState(
+            sentences = selectDailySentenceEntries(entries, todayEpochDay()),
+            totalSentenceCount = entries.size,
+        )
+    }.stateIn(
+        scope = viewModelScope,
+        started = SharingStarted.WhileSubscribed(5_000),
+        initialValue = SentenceReaderUiState(),
+    )
+}
+
+internal fun selectDailySentenceEntries(
+    entries: List<CalibrationEntry>,
+    epochDay: Long,
+    limit: Int = 8,
+): List<CalibrationEntry> {
+    if (entries.isEmpty() || limit <= 0) return emptyList()
+
+    val ordered = entries.sortedBy { it.id }
+    val start = ((Math.floorMod(epochDay, ordered.size.toLong()) * limit) % ordered.size).toInt()
+    return List(minOf(limit, ordered.size)) { offset ->
+        ordered[(start + offset) % ordered.size]
+    }
 }
 
 @HiltViewModel
@@ -386,6 +423,8 @@ class SessionViewModel @Inject constructor(
         "review" -> SessionMode.Review
         else -> SessionMode.Learn
     }
+    private val entryType: String? = savedStateHandle.get<String>("focus")
+        ?.takeIf { it == "word" || it == "expression" }
 
     init {
         viewModelScope.launch {
@@ -398,7 +437,7 @@ class SessionViewModel @Inject constructor(
 
     fun loadSession() {
         viewModelScope.launch {
-            sessionStateStore.clear(mode)
+            sessionStateStore.clear(mode, entryType)
             buildFreshSession()
         }
     }
@@ -494,7 +533,7 @@ class SessionViewModel @Inject constructor(
         viewModelScope.launch {
             val autoplayAudio = mutableState.value.autoplayAudio
             mutableState.value = SessionUiState(isLoading = true, autoplayAudio = autoplayAudio)
-            val restoredState = sessionStateStore.read(mode)
+            val restoredState = sessionStateStore.read(mode, entryType)
             if (restoredState != null) {
                 restorePersistedSession(restoredState, autoplayAudio)
             } else {
@@ -507,7 +546,7 @@ class SessionViewModel @Inject constructor(
         val autoplayAudio = mutableState.value.autoplayAudio
         currentRoundMistakes.clear()
         mutableState.value = SessionUiState(isLoading = true, autoplayAudio = autoplayAudio)
-        val session = repository.buildSession(mode = mode)
+        val session = repository.buildSession(mode = mode, entryType = entryType)
         questionStartMillis = System.currentTimeMillis()
         mutableState.value = SessionUiState(
             isLoading = false,
@@ -551,11 +590,12 @@ class SessionViewModel @Inject constructor(
         val session = state.session
         val currentQuestion = state.currentQuestion
         if (state.isLoading || session == null || currentQuestion == null) {
-            sessionStateStore.clear(mode)
+            sessionStateStore.clear(mode, entryType)
             return
         }
         sessionStateStore.save(
             mode = mode,
+            entryType = entryType,
             state = PersistedSessionState(
                 session = session,
                 currentIndex = state.currentIndex,

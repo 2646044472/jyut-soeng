@@ -37,6 +37,7 @@ jobs:
         run: |
           python3 tools/build_assets.py
           python3 tools/validate_content.py
+          python3 -m unittest discover -s tools/tests -p 'test*.py'
           python3 tools/export_github_pack.py
 
       - name: Restore release keystore

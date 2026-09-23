@@ -22,4 +22,28 @@ class StudyQuestionTypeSelectorTest {
             studyQuestionTypeFor(SessionMode.Review),
         )
     }
+
+    @Test
+    fun focusedWordSessionUsesAPronunciationTitle() {
+        assertEquals(
+            "正音词学习",
+            sessionTitle(SessionMode.Learn, "word"),
+        )
+    }
+
+    @Test
+    fun focusedExpressionReviewUsesAnExpressionTitle() {
+        assertEquals(
+            "表达复习",
+            sessionTitle(SessionMode.Review, "expression"),
+        )
+    }
+
+    @Test
+    fun mixedSessionKeepsItsExistingTitle() {
+        assertEquals(
+            "今日学习",
+            sessionTitle(SessionMode.Learn, null),
+        )
+    }
 }
