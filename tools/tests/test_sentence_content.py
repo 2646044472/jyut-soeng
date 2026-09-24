@@ -46,7 +46,10 @@ class DailySentenceContentTest(unittest.TestCase):
                 residue = re.sub(r"[，。；？！、\s]", "", jyutping.lower())
                 syllables = self._jyutping_token.findall(jyutping.lower())
                 self.assertEqual("".join(syllables), residue)
-                self.assertEqual(len(re.findall(r"[\u3400-\u9fff]", sentence)), len(syllables))
+                self.assertEqual(
+                    len(re.findall(r"[\u3400-\u9fff\U00020000-\U0002FA1F]", sentence)),
+                    len(syllables),
+                )
                 self.assertTrue(row["gloss"].strip())
                 self.assertTrue(row["notes"].strip())
                 self.assertTrue(row["usageTip"].strip())
