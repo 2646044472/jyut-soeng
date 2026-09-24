@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import re
 import unittest
+from collections import Counter
 from pathlib import Path
 
 
@@ -27,6 +28,9 @@ class DailySentenceContentTest(unittest.TestCase):
         self.assertTrue(all(row.get("sourceLabel") == "curated" for row in rows))
         self.assertEqual(len(rows), len({row["id"] for row in rows}))
         self.assertEqual(len(rows), len({row["displayText"] for row in rows}))
+        for field in ("gloss", "notes", "usageTip"):
+            self.assertLessEqual(max(Counter(row[field] for row in rows).values()), 3)
+        self.assertLessEqual(max(Counter(row["displayText"][:18] for row in rows).values()), 3)
 
         for row in rows:
             with self.subTest(entry_id=row.get("id")):

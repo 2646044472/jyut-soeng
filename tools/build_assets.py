@@ -31,7 +31,7 @@ def load_entries(path: Path, entry_type: str) -> list[dict]:
         category = row.get("category", "")
         display_text = row["displayText"]
         if row.get("sourceLabel", "curated") != "curated":
-            raise SystemExit(f"Only hand-written curated entries are allowed: {row['id']}")
+            raise SystemExit(f"Only curated entries are allowed: {row['id']}")
         item = {
             "id": row["id"],
             "displayText": display_text,

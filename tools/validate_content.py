@@ -118,6 +118,24 @@ def main() -> None:
             f"Need at least {MIN_CURATED_SENTENCE_COUNT} curated daily sentence entries."
         )
 
+    sentences = [entry for entry in entries if entry.get("entryType") == "sentence"]
+    for field, label in (
+        ("displayText", "opening"),
+        ("gloss", "gloss"),
+        ("notes", "notes"),
+        ("usageTip", "usage tip"),
+    ):
+        values = (
+            str(entry.get(field, "")).strip()[:18]
+            if field == "displayText"
+            else str(entry.get(field, "")).strip()
+            for entry in sentences
+        )
+        repeated = [(text, count) for text, count in Counter(values).items() if text and count > 3]
+        if repeated:
+            text, count = repeated[0]
+            raise SystemExit(f"Repeated sentence {label} ({count} times): {text}")
+
     for entry in entries:
         for key in ("displayText", "promptText", "answerJyutping", "usageTip", "exampleSentence", "category"):
             if not str(entry.get(key, "")).strip():
