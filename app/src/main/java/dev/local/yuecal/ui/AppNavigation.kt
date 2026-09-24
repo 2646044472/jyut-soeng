@@ -51,6 +51,7 @@ import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -87,6 +88,7 @@ import dev.local.yuecal.domain.CalibrationEntry
 import dev.local.yuecal.domain.DashboardSummary
 import dev.local.yuecal.domain.StudyQuestion
 import dev.local.yuecal.domain.StudyQuestionType
+import dev.local.yuecal.media.CantoneseSentenceSpeaker
 import dev.local.yuecal.ui.theme.CantoCalibratorTheme
 import java.io.File
 
@@ -168,7 +170,20 @@ fun CantoCalibratorApp() {
                 composable(TopLevelDestination.Sentences.route) {
                     val viewModel: SentenceReaderViewModel = hiltViewModel()
                     val state by viewModel.uiState.collectAsStateWithLifecycle()
-                    SentenceReaderScreen(state)
+                    val context = LocalContext.current
+                    val speaker = remember(context) { CantoneseSentenceSpeaker(context) }
+                    var speechMessage by remember { mutableStateOf<String?>(null) }
+                    DisposableEffect(speaker) { onDispose { speaker.close() } }
+                    SentenceReaderScreen(
+                        state = state,
+                        onSpeak = { text ->
+                            speechMessage = null
+                            speaker.speak(text) {
+                                speechMessage = "设备没有可用的粤语语音，请在系统语音设置中安装粤语语音。"
+                            }
+                        },
+                        speechMessage = speechMessage,
+                    )
                 }
                 composable(TopLevelDestination.Search.route) {
                     val viewModel: SearchViewModel = hiltViewModel()
@@ -372,7 +387,11 @@ private fun LibraryScreen(
 }
 
 @Composable
-internal fun SentenceReaderScreen(state: SentenceReaderUiState) {
+internal fun SentenceReaderScreen(
+    state: SentenceReaderUiState,
+    onSpeak: (String) -> Unit,
+    speechMessage: String? = null,
+) {
     if (state.totalSentenceCount == 0) {
         Box(
             modifier = Modifier
@@ -404,14 +423,17 @@ internal fun SentenceReaderScreen(state: SentenceReaderUiState) {
                 )
             }
         }
+        if (speechMessage != null) {
+            item { Text(speechMessage, color = MaterialTheme.colorScheme.error) }
+        }
         items(state.sentences, key = { it.id }) { sentence ->
-            SentenceReaderCard(sentence)
+            SentenceReaderCard(sentence, onSpeak)
         }
     }
 }
 
 @Composable
-private fun SentenceReaderCard(sentence: CalibrationEntry) {
+private fun SentenceReaderCard(sentence: CalibrationEntry, onSpeak: (String) -> Unit) {
     var meaningVisible by remember(sentence.id) { mutableStateOf(false) }
 
     Card {
@@ -421,7 +443,17 @@ private fun SentenceReaderCard(sentence: CalibrationEntry) {
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(10.dp),
         ) {
-            Text("粤语原句", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(
+                    "粤语原句",
+                    modifier = Modifier.weight(1f),
+                    style = MaterialTheme.typography.labelLarge,
+                    color = MaterialTheme.colorScheme.primary,
+                )
+                IconButton(onClick = { onSpeak(sentence.displayText) }) {
+                    Icon(Icons.Outlined.PlayArrow, contentDescription = "播放粤语读音")
+                }
+            }
             Text(sentence.displayText, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
             Text("粤拼 Jyutping", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
             Text(sentence.answerJyutping, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Medium)

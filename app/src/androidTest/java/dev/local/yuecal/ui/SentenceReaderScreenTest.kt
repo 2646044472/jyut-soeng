@@ -2,10 +2,12 @@ package dev.local.yuecal.ui
 
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.junit4.createComposeRule
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import dev.local.yuecal.domain.CalibrationEntry
 import dev.local.yuecal.ui.theme.CantoCalibratorTheme
+import org.junit.Assert.assertEquals
 import org.junit.Rule
 import org.junit.Test
 
@@ -15,6 +17,7 @@ class SentenceReaderScreenTest {
 
     @Test
     fun jyutpingIsVisibleAndMeaningIsRevealedOnlyOnRequest() {
+        var spokenText: String? = null
         val sentence = CalibrationEntry(
             id = "test-sentence",
             displayText = "測試原句",
@@ -36,7 +39,10 @@ class SentenceReaderScreenTest {
 
         composeRule.setContent {
             CantoCalibratorTheme {
-                SentenceReaderScreen(SentenceReaderUiState(listOf(sentence), totalSentenceCount = 1))
+                SentenceReaderScreen(
+                    SentenceReaderUiState(listOf(sentence), totalSentenceCount = 1),
+                    onSpeak = { spokenText = it },
+                )
             }
         }
 
@@ -44,6 +50,9 @@ class SentenceReaderScreenTest {
         composeRule.onNodeWithText("cak1 si3 jyun4 geoi3").assertIsDisplayed()
         composeRule.onNodeWithText("测试中文意思").assertDoesNotExist()
         composeRule.onNodeWithText("测试使用场景").assertDoesNotExist()
+
+        composeRule.onNodeWithContentDescription("播放粤语读音").performClick()
+        composeRule.runOnIdle { assertEquals("測試原句", spokenText) }
 
         composeRule.onNodeWithText("查看中文意思").performClick()
         composeRule.onNodeWithText("测试中文意思").assertIsDisplayed()
