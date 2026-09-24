@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 import json
 import re
 from collections import Counter, defaultdict
@@ -97,7 +98,7 @@ LOW_CONFIDENCE_GENERATED_EXPRESSION_FRAGMENTS = (
 )
 
 
-def main() -> None:
+def main(min_sentence_count: int = MIN_CURATED_SENTENCE_COUNT) -> None:
     bundle = json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
     entries = bundle["entries"]
     if len(entries) < 250:
@@ -113,9 +114,10 @@ def main() -> None:
         raise SystemExit("Need at least 150 hand-written word correction entries.")
     if entry_types.get("expression", 0) < 100:
         raise SystemExit("Need at least 100 curated daily expression entries.")
-    if entry_types.get("sentence", 0) < MIN_CURATED_SENTENCE_COUNT:
+    if entry_types.get("sentence", 0) < min_sentence_count:
         raise SystemExit(
-            f"Need at least {MIN_CURATED_SENTENCE_COUNT} curated daily sentence entries."
+            f"Need at least {min_sentence_count} curated daily sentence entries; "
+            f"found {entry_types.get('sentence', 0)}."
         )
 
     sentences = [entry for entry in entries if entry.get("entryType") == "sentence"]
@@ -199,4 +201,9 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--min-sentences", type=int, default=MIN_CURATED_SENTENCE_COUNT)
+    args = parser.parse_args()
+    if args.min_sentences < 0:
+        parser.error("--min-sentences must be nonnegative")
+    main(args.min_sentences)
