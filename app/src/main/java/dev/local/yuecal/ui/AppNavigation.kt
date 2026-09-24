@@ -372,7 +372,7 @@ private fun LibraryScreen(
 }
 
 @Composable
-private fun SentenceReaderScreen(state: SentenceReaderUiState) {
+internal fun SentenceReaderScreen(state: SentenceReaderUiState) {
     if (state.totalSentenceCount == 0) {
         Box(
             modifier = Modifier
@@ -397,11 +397,6 @@ private fun SentenceReaderScreen(state: SentenceReaderUiState) {
         item {
             Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 Text("日常例句", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-                Text(
-                    "默认先看粤拼读完整句子；中文意思和使用场景按需展开。",
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
                 Text(
                     "今日 ${state.sentences.size} 句 · 句库 ${state.totalSentenceCount} 句",
                     style = MaterialTheme.typography.bodyMedium,

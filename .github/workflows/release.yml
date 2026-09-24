@@ -54,7 +54,7 @@ jobs:
 
       - name: Build and test
         run: |
-          ./gradlew --no-daemon --console=plain :app:testDebugUnitTest :app:assembleRelease
+          ./gradlew --no-daemon --console=plain :app:testDebugUnitTest :app:assembleDebugAndroidTest :app:assembleRelease
 
       - name: Prepare release artifacts
         run: |
