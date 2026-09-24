@@ -36,7 +36,7 @@ jobs:
       - name: Validate bundled content
         run: |
           python3 tools/build_assets.py
-          python3 tools/validate_content.py --min-sentences 2000
+          python3 tools/validate_content.py --min-sentences 2000 --require-human-reviews
           python3 -m unittest discover -s tools/tests -p 'test*.py'
           python3 tools/export_github_pack.py
 
