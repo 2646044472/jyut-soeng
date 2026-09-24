@@ -20,15 +20,18 @@ import dev.local.yuecal.domain.SessionMode
 import dev.local.yuecal.domain.StudyQuestion
 import dev.local.yuecal.domain.StudySession
 import dev.local.yuecal.domain.todayEpochDay
+import dev.local.yuecal.domain.tomorrowStartEpochMillis
 import dev.local.yuecal.media.AppFeedbackPlayer
 import dev.local.yuecal.work.AppWorkScheduler
 import java.util.UUID
 import javax.inject.Inject
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
@@ -181,9 +184,16 @@ class SentenceReaderViewModel @Inject constructor(
     repository: CalibratorRepository,
 ) : ViewModel() {
 
-    val uiState: StateFlow<SentenceReaderUiState> = repository.sentenceEntries.map { entries ->
+    private val localDay = flow {
+        while (true) {
+            emit(todayEpochDay())
+            delay((tomorrowStartEpochMillis() - System.currentTimeMillis()).coerceAtLeast(1_000L))
+        }
+    }
+
+    val uiState: StateFlow<SentenceReaderUiState> = combine(repository.sentenceEntries, localDay) { entries, day ->
         SentenceReaderUiState(
-            sentences = selectDailySentenceEntries(entries, todayEpochDay()),
+            sentences = selectDailySentenceEntries(entries, day),
             totalSentenceCount = entries.size,
         )
     }.stateIn(

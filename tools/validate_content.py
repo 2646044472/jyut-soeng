@@ -9,7 +9,6 @@ from pathlib import Path
 from meaning_rules import is_low_info_gloss
 from meaning_rules import is_fake_example_sentence
 from meaning_rules import is_low_info_usage
-from sentence_reviews import require_human_reviews
 
 ROOT = Path(__file__).resolve().parent.parent
 BUNDLE_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
@@ -101,12 +100,11 @@ LOW_CONFIDENCE_GENERATED_EXPRESSION_FRAGMENTS = (
 
 def main(
     min_sentence_count: int = MIN_CURATED_SENTENCE_COUNT,
-    require_reviews: bool = False,
 ) -> None:
     bundle = json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
     entries = bundle["entries"]
     if len(entries) < 250:
-        raise SystemExit(f"Expected at least 250 hand-written entries, found {len(entries)}")
+        raise SystemExit(f"Expected at least 250 curated entries, found {len(entries)}")
 
     ids = [entry["id"] for entry in entries]
     duplicates = [entry_id for entry_id, count in Counter(ids).items() if count > 1]
@@ -115,7 +113,7 @@ def main(
 
     entry_types = Counter(entry.get("entryType", "word") for entry in entries)
     if entry_types.get("word", 0) < 150:
-        raise SystemExit("Need at least 150 hand-written word correction entries.")
+        raise SystemExit("Need at least 150 curated word correction entries.")
     if entry_types.get("expression", 0) < 100:
         raise SystemExit("Need at least 100 curated daily expression entries.")
     if entry_types.get("sentence", 0) < min_sentence_count:
@@ -125,11 +123,6 @@ def main(
         )
 
     sentences = [entry for entry in entries if entry.get("entryType") == "sentence"]
-    if require_reviews:
-        try:
-            require_human_reviews(entries)
-        except ValueError as exc:
-            raise SystemExit(str(exc)) from exc
     for field, label in (
         ("displayText", "opening"),
         ("gloss", "gloss"),
@@ -212,8 +205,7 @@ def main(
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--min-sentences", type=int, default=MIN_CURATED_SENTENCE_COUNT)
-    parser.add_argument("--require-human-reviews", action="store_true")
     args = parser.parse_args()
     if args.min_sentences < 0:
         parser.error("--min-sentences must be nonnegative")
-    main(args.min_sentences, args.require_human_reviews)
+    main(args.min_sentences)

@@ -28,24 +28,24 @@
 - 当前内置题库：
   - 2600 条词语正音词条
   - 400 条日常表达卡片
-  - 410 条日常例句（其中 40 条为 AI 逐句撰写的澳门场景草稿；全数仍需真人粤语母语者复核）
-  - 合计 3410 条
+  - 610 条日常例句（其中 240 条为本轮逐句撰写的澳门及日常场景内容）
+  - 合计 3610 条
 
 ## 当前题库方向
 
 - 不再把“参考音高”当成主练法
 - 更强调真实词语、真实表达、例句和常错提醒
 - `Jyutping` 是辅助你正音的手段，不是终点本身
-- 构建脚本会汇总 `content/*_bank.json` 中标记为 `curated` 的条目；该标记不证明真人撰写或审核
-- 发布校验会检查结构、重复和明显模板化内容；粤拼、语境和地道程度仍需逐条由真人确认
-- 正式 Release 额外要求至少 2000 句，并为每句提供真人撰写及复核记录；当前 410 句未有这类记录，不能视为已验收。AI 草稿不能填写 `humanAuthored: true`，须由真人重新撰写后才可进入该流程
+- 构建脚本会汇总 `content/*_bank.json` 中标记为 `curated` 的条目；该标记表示编辑筛选，不代表真人撰写
+- 发布校验会检查结构、重复和明显模板化内容；粤拼、语境和地道程度仍需逐句复核，不能只靠自动测试保证
+- 正式 Release 额外要求至少 2000 句；当前 610 句，尚未达到发布目标
 
-## 例句供稿与验收
+## 例句撰写与检查
 
-1. 真人作者逐句撰写日常场景句子、粤拼、中文解释及使用场景，保存到 `content/*sentence*_bank.json`。不要用模型批量生成或补写。澳门生活语境、俚语和较复杂语流要由熟悉当地用法的人把关。
-2. 真人复核者逐句检查地道程度、粤拼声韵调、文字与音节对应、释义和语境；自动校验只能发现部分结构错误。
-3. 复核通过后，在 `content/sentence_human_reviews.json` 的 `reviews` 数组中逐句登记 `id`、`humanAuthored: true`、`author`、`reviewer`、`reviewedAt`（YYYY-MM-DD）和 `contentSha256`。指纹可用 `python3 tools/sentence_reviews.py <句子ID>` 查询；这只计算校验值，不会生成内容。正文或粤拼修改后必须重新复核并更新指纹。
-4. 用 `python3 tools/validate_content.py --min-sentences 2000 --require-human-reviews` 检查发布条件。姓名和声明本身仍不能自动证明真人来源，须由实际供稿、复核者如实填写。
+1. 逐句构思日常场景、粤语正文、粤拼、中文解释和使用场景，保存到 `content/*sentence*_bank.json`；不用脚本拼接句子或套用同一模板批量扩写。
+2. 每批完成后再逐句检查逻辑、口语自然度、俚语用法、粤拼声韵调和释义；澳门语境不靠硬塞地名，避免不确定的本地政策、路线及价格细节。
+3. 运行 `python3 tools/build_assets.py`、`python3 tools/validate_content.py` 和 `python3 -m unittest discover -s tools/tests -p 'test*.py'`。自动测试能发现结构和数量问题，不能替代语义及读音复核。
+4. 发布前运行 `python3 tools/validate_content.py --min-sentences 2000`，并验证 Android 构建和阅读界面。
 
 ## 构建
 

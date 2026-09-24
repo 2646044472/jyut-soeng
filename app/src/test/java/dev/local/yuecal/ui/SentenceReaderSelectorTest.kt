@@ -30,6 +30,19 @@ class SentenceReaderSelectorTest {
         )
     }
 
+    @Test
+    fun coversTwoThousandSentencesBeforeRepeating() {
+        val entries = (1..2000).map { entry("sentence-%04d".format(it)) }
+        val firstCycle = (0L until 250L)
+            .flatMap { day -> selectDailySentenceEntries(entries, epochDay = day).map { it.id } }
+
+        assertEquals(2000, firstCycle.toSet().size)
+        assertEquals(
+            selectDailySentenceEntries(entries, epochDay = 0).map { it.id },
+            selectDailySentenceEntries(entries, epochDay = 250).map { it.id },
+        )
+    }
+
     private fun entry(id: String) = CalibrationEntry(
         id = id,
         displayText = id,
