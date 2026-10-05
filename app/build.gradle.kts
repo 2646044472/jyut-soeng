@@ -19,8 +19,8 @@ android {
         applicationId = "dev.local.yuecal"
         minSdk = 31
         targetSdk = 35
-        versionCode = 43
-        versionName = "0.26.0"
+        versionCode = 44
+        versionName = "0.26.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
