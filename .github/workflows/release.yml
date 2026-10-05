@@ -42,6 +42,8 @@ jobs:
             python3 tools/validate_content.py --min-sentences 1110
           elif [ "$GITHUB_REF_NAME" = "v0.23.0" ]; then
             python3 tools/validate_content.py --min-sentences 1180
+          elif [ "$GITHUB_REF_NAME" = "v0.24.0" ]; then
+            python3 tools/validate_content.py --min-sentences 1320
           else
             python3 tools/validate_content.py --min-sentences 2000
           fi
@@ -78,7 +80,7 @@ jobs:
         with:
           name: "jyut-soeng ${{ github.ref_name }}"
           body: |
-            本版包含 1180 条日常粤语例句，其中新增 70 条均由人工逐句撰写并核对粤拼。
+            本版包含 1320 条日常粤语例句，较 v0.23.0 新增 140 条手工撰写内容，并复核修正了多处粤拼。
 
             发布包包含 Android APK 和应用内更新入口使用的内容包。
           files: |
