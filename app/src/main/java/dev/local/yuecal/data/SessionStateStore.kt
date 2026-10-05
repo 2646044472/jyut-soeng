@@ -69,11 +69,13 @@ class SessionStateStore @Inject constructor(
         SessionMode.Learn -> when (entryType) {
             "word" -> Keys.LEARN_WORD_SESSION_STATE
             "expression" -> Keys.LEARN_EXPRESSION_SESSION_STATE
+            "sentence" -> Keys.LEARN_SENTENCE_SESSION_STATE
             else -> Keys.LEARN_SESSION_STATE
         }
         SessionMode.Review -> when (entryType) {
             "word" -> Keys.REVIEW_WORD_SESSION_STATE
             "expression" -> Keys.REVIEW_EXPRESSION_SESSION_STATE
+            "sentence" -> Keys.REVIEW_SENTENCE_SESSION_STATE
             else -> Keys.REVIEW_SESSION_STATE
         }
     }
@@ -82,8 +84,10 @@ class SessionStateStore @Inject constructor(
         val LEARN_SESSION_STATE = stringPreferencesKey("learn_session_state")
         val LEARN_WORD_SESSION_STATE = stringPreferencesKey("learn_word_session_state")
         val LEARN_EXPRESSION_SESSION_STATE = stringPreferencesKey("learn_expression_session_state")
+        val LEARN_SENTENCE_SESSION_STATE = stringPreferencesKey("learn_sentence_session_state")
         val REVIEW_SESSION_STATE = stringPreferencesKey("review_session_state")
         val REVIEW_WORD_SESSION_STATE = stringPreferencesKey("review_word_session_state")
         val REVIEW_EXPRESSION_SESSION_STATE = stringPreferencesKey("review_expression_session_state")
+        val REVIEW_SENTENCE_SESSION_STATE = stringPreferencesKey("review_sentence_session_state")
     }
 }

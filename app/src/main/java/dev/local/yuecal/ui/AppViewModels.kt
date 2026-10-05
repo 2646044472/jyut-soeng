@@ -20,6 +20,7 @@ import dev.local.yuecal.domain.SessionMode
 import dev.local.yuecal.domain.StudyQuestion
 import dev.local.yuecal.domain.StudySession
 import dev.local.yuecal.domain.todayEpochDay
+import dev.local.yuecal.domain.todayStartEpochMillis
 import dev.local.yuecal.domain.tomorrowStartEpochMillis
 import dev.local.yuecal.media.AppFeedbackPlayer
 import dev.local.yuecal.work.AppWorkScheduler
@@ -40,6 +41,8 @@ import kotlinx.coroutines.launch
 
 data class TodayUiState(
     val dashboard: DashboardSummary = DashboardSummary(),
+    val dailySentenceGoal: Int = 50,
+    val sentencesLearnedToday: Int = 0,
 )
 
 data class LibraryUiState(
@@ -60,6 +63,16 @@ data class SentenceReaderUiState(
     val sentences: List<CalibrationEntry> = emptyList(),
     val totalSentenceCount: Int = 0,
 )
+
+data class SentenceLearningUiState(
+    val dailyGoal: Int = 50,
+    val learnedToday: Int = 0,
+    val totalSentenceCount: Int = 0,
+    val dueToday: Int = 0,
+) {
+    val remainingToday: Int
+        get() = (dailyGoal - learnedToday).coerceAtLeast(0)
+}
 
 data class ProfileUiState(
     val settings: AppSettings = AppSettings(),
@@ -96,12 +109,46 @@ data class SessionFeedback(
     val userAnswer: String,
 )
 
+private data class LocalDayWindow(
+    val startMillis: Long,
+    val endMillis: Long,
+    val epochDay: Long,
+)
+
+private fun localDayWindowFlow() = flow {
+    while (true) {
+        val startMillis = todayStartEpochMillis()
+        val endMillis = tomorrowStartEpochMillis()
+        emit(LocalDayWindow(startMillis, endMillis, todayEpochDay()))
+        delay((endMillis - System.currentTimeMillis()).coerceAtLeast(1_000L))
+    }
+}
+
 @HiltViewModel
+@OptIn(ExperimentalCoroutinesApi::class)
 class TodayViewModel @Inject constructor(
     repository: CalibratorRepository,
 ) : ViewModel() {
 
-    val uiState: StateFlow<TodayUiState> = repository.dashboard.map(::TodayUiState).stateIn(
+    private val sentenceProgress = localDayWindowFlow().flatMapLatest { window ->
+        repository.observeNewEntriesStudied(
+            entryType = "sentence",
+            startOfDayMillis = window.startMillis,
+            endOfDayMillis = window.endMillis,
+        )
+    }
+
+    val uiState: StateFlow<TodayUiState> = combine(
+        repository.dashboard,
+        repository.settings,
+        sentenceProgress,
+    ) { dashboard, settings, learnedToday ->
+        TodayUiState(
+            dashboard = dashboard,
+            dailySentenceGoal = settings.dailySentenceLearnGoal,
+            sentencesLearnedToday = learnedToday,
+        )
+    }.stateIn(
         scope = viewModelScope,
         started = SharingStarted.WhileSubscribed(5_000),
         initialValue = TodayUiState(),
@@ -203,6 +250,43 @@ class SentenceReaderViewModel @Inject constructor(
     )
 }
 
+@HiltViewModel
+@OptIn(ExperimentalCoroutinesApi::class)
+class SentenceLearningViewModel @Inject constructor(
+    repository: CalibratorRepository,
+) : ViewModel() {
+
+    private val sentenceProgress = localDayWindowFlow().flatMapLatest { window ->
+        repository.observeNewEntriesStudied(
+            entryType = "sentence",
+            startOfDayMillis = window.startMillis,
+            endOfDayMillis = window.endMillis,
+        )
+    }
+
+    private val dueSentences = localDayWindowFlow().flatMapLatest { window ->
+        repository.observeDueEntries(entryType = "sentence", today = window.epochDay)
+    }
+
+    val uiState: StateFlow<SentenceLearningUiState> = combine(
+        repository.sentenceEntries,
+        repository.settings,
+        sentenceProgress,
+        dueSentences,
+    ) { entries, settings, learnedToday, dueToday ->
+        SentenceLearningUiState(
+            dailyGoal = settings.dailySentenceLearnGoal,
+            learnedToday = learnedToday,
+            totalSentenceCount = entries.size,
+            dueToday = dueToday,
+        )
+    }.stateIn(
+        scope = viewModelScope,
+        started = SharingStarted.WhileSubscribed(5_000),
+        initialValue = SentenceLearningUiState(),
+    )
+}
+
 internal fun selectDailySentenceEntries(
     entries: List<CalibrationEntry>,
     epochDay: Long,
@@ -298,6 +382,12 @@ class ProfileViewModel @Inject constructor(
     fun updateDailyLearnGoal(goal: Int) {
         viewModelScope.launch {
             settingsStore.setDailyLearnGoal(goal)
+        }
+    }
+
+    fun updateDailySentenceLearnGoal(goal: Int) {
+        viewModelScope.launch {
+            settingsStore.setDailySentenceLearnGoal(goal)
         }
     }
 
@@ -434,7 +524,7 @@ class SessionViewModel @Inject constructor(
         else -> SessionMode.Learn
     }
     private val entryType: String? = savedStateHandle.get<String>("focus")
-        ?.takeIf { it == "word" || it == "expression" }
+        ?.takeIf { it == "word" || it == "expression" || it == "sentence" }
 
     init {
         viewModelScope.launch {

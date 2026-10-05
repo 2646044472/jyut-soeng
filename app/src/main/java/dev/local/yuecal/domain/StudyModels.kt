@@ -104,6 +104,7 @@ data class AppSettings(
     val autoplayAudio: Boolean = true,
     val remindersEnabled: Boolean = true,
     val dailyLearnGoal: Int = 10,
+    val dailySentenceLearnGoal: Int = 50,
     val builtInSeedVersion: String = "",
 )
 

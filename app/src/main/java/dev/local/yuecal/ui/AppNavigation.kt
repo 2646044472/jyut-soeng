@@ -144,6 +144,7 @@ fun CantoCalibratorApp() {
                     TodayScreen(
                         state = state,
                         onStartLearn = { navController.navigate("session/learn") },
+                        onStartSentenceLearn = { navController.navigate("sentence-learning") },
                         onStartFocusedLearn = { entryType ->
                             navController.navigate("session/learn?focus=$entryType")
                         },
@@ -176,6 +177,7 @@ fun CantoCalibratorApp() {
                     DisposableEffect(speaker) { onDispose { speaker.close() } }
                     SentenceReaderScreen(
                         state = state,
+                        onStartLearning = { navController.navigate("sentence-learning") },
                         onSpeak = { text ->
                             speechMessage = null
                             speaker.speak(text) {
@@ -183,6 +185,16 @@ fun CantoCalibratorApp() {
                             }
                         },
                         speechMessage = speechMessage,
+                    )
+                }
+                composable("sentence-learning") {
+                    val viewModel: SentenceLearningViewModel = hiltViewModel()
+                    val state by viewModel.uiState.collectAsStateWithLifecycle()
+                    SentenceLearningScreen(
+                        state = state,
+                        onStartLearning = { navController.navigate("session/learn?focus=sentence") },
+                        onReviewSentences = { navController.navigate("session/review?focus=sentence") },
+                        onReadExamples = { navController.navigate(TopLevelDestination.Sentences.route) },
                     )
                 }
                 composable(TopLevelDestination.Search.route) {
@@ -202,6 +214,7 @@ fun CantoCalibratorApp() {
                         onAutoplayChanged = viewModel::setAutoplay,
                         onReminderChanged = viewModel::setReminders,
                         onDailyLearnGoalChange = viewModel::updateDailyLearnGoal,
+                        onDailySentenceLearnGoalChange = viewModel::updateDailySentenceLearnGoal,
                         onRefreshBuiltin = viewModel::refreshBuiltinContent,
                         onImportFromGitHub = viewModel::importFromGitHub,
                         onCheckAppUpdate = viewModel::checkAppUpdate,
@@ -238,6 +251,7 @@ fun CantoCalibratorApp() {
 private fun TodayScreen(
     state: TodayUiState,
     onStartLearn: () -> Unit,
+    onStartSentenceLearn: () -> Unit,
     onStartFocusedLearn: (String) -> Unit,
     onStartReview: () -> Unit,
 ) {
@@ -260,6 +274,16 @@ private fun TodayScreen(
                 stats = "新词 ${summary.newWordEntries} · 新表达 ${summary.newExpressionEntries} · 明日回看 ${summary.incomingReviewEntries}",
                 cta = "开始今日学习",
                 onClick = onStartLearn,
+            )
+        }
+        item {
+            SessionLaneCard(
+                eyebrow = "句子学习",
+                title = "每天学 ${state.dailySentenceGoal} 句",
+                description = "看粤语原句，亲手输入整句粤拼；答过的句子会进入复习安排。",
+                stats = "今日已学 ${state.sentencesLearnedToday.coerceAtMost(state.dailySentenceGoal)} / ${state.dailySentenceGoal} 句",
+                cta = if (state.sentencesLearnedToday >= state.dailySentenceGoal) "查看今日进度" else "开始学句子",
+                onClick = onStartSentenceLearn,
             )
         }
         item {
@@ -389,6 +413,7 @@ private fun LibraryScreen(
 @Composable
 internal fun SentenceReaderScreen(
     state: SentenceReaderUiState,
+    onStartLearning: () -> Unit,
     onSpeak: (String) -> Unit,
     speechMessage: String? = null,
 ) {
@@ -423,11 +448,92 @@ internal fun SentenceReaderScreen(
                 )
             }
         }
+        item {
+            Button(modifier = Modifier.fillMaxWidth(), onClick = onStartLearning) {
+                Text("进入句子学习")
+            }
+        }
         if (speechMessage != null) {
             item { Text(speechMessage, color = MaterialTheme.colorScheme.error) }
         }
         items(state.sentences, key = { it.id }) { sentence ->
             SentenceReaderCard(sentence, onSpeak)
+        }
+    }
+}
+
+@Composable
+internal fun SentenceLearningScreen(
+    state: SentenceLearningUiState,
+    onStartLearning: () -> Unit,
+    onReviewSentences: () -> Unit,
+    onReadExamples: () -> Unit,
+) {
+    val completedToday = state.learnedToday.coerceAtMost(state.dailyGoal)
+    LazyColumn(
+        modifier = Modifier.fillMaxSize(),
+        contentPadding = PaddingValues(20.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp),
+    ) {
+        item {
+            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text("句子学习", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                Text(
+                    "先看粤语句子，再亲手输入整句粤拼；答错的句子会安排再练。",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+        }
+        item {
+            Card {
+                Column(
+                    modifier = Modifier.fillMaxWidth().padding(20.dp),
+                    verticalArrangement = Arrangement.spacedBy(12.dp),
+                ) {
+                    Text("今日进度", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                    Text(
+                        "$completedToday / ${state.dailyGoal} 句",
+                        style = MaterialTheme.typography.displaySmall,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.primary,
+                    )
+                    Text(
+                        if (state.remainingToday == 0) "今日目标已完成，明天继续学新句子。"
+                        else "今天还可以学 ${state.remainingToday} 句。",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                    Button(
+                        modifier = Modifier.fillMaxWidth(),
+                        enabled = state.remainingToday > 0,
+                        onClick = onStartLearning,
+                    ) {
+                        Text(if (state.remainingToday > 0) "开始今日句子学习" else "今日目标已完成")
+                    }
+                }
+            }
+        }
+        item {
+            StatCard(
+                title = "句子库",
+                value = "${state.totalSentenceCount} 句",
+                subtitle = "每天的句子目标可以在「我的」页面调整。",
+            )
+        }
+        item {
+            OutlinedButton(
+                modifier = Modifier.fillMaxWidth(),
+                enabled = state.dueToday > 0,
+                onClick = onReviewSentences,
+            ) {
+                Text("复习到期句子 · ${state.dueToday} 句")
+            }
+        }
+        item {
+            OutlinedButton(modifier = Modifier.fillMaxWidth(), onClick = onReadExamples) {
+                Text("先浏览今日例句")
+            }
         }
     }
 }
@@ -521,6 +627,7 @@ private fun ProfileScreen(
     onAutoplayChanged: (Boolean) -> Unit,
     onReminderChanged: (Boolean) -> Unit,
     onDailyLearnGoalChange: (Int) -> Unit,
+    onDailySentenceLearnGoalChange: (Int) -> Unit,
     onRefreshBuiltin: () -> Unit,
     onImportFromGitHub: () -> Unit,
     onCheckAppUpdate: () -> Unit,
@@ -572,6 +679,15 @@ private fun ProfileScreen(
                 value = settings.dailyLearnGoal,
                 min = 4,
                 onChange = onDailyLearnGoalChange,
+            )
+        }
+        item {
+            GoalCard(
+                title = "每日句子目标",
+                subtitle = "每天安排的新句子数量，默认 50 句，可手动调整。",
+                value = settings.dailySentenceLearnGoal,
+                min = 1,
+                onChange = onDailySentenceLearnGoalChange,
             )
         }
         item {
@@ -1254,7 +1370,9 @@ private fun CompletionScreen(
                 Text("这一轮完成了", style = MaterialTheme.typography.titleMedium)
                 Text("$correctCount / $totalCount", style = MaterialTheme.typography.displaySmall, fontWeight = FontWeight.Bold)
                 Text(
-                    "下一轮继续把生词学进去，把旧词刷出来，这样每天都会更顺口。",
+                    if (totalCount == 0 && title == "句子复习") "目前没有到期句子，稍后再来看看。"
+                    else if (totalCount == 0) "今天没有新的内容可学，明天再来看看。"
+                    else "下一轮继续把生词学进去，把旧词刷出来，这样每天都会更顺口。",
                     style = MaterialTheme.typography.bodyMedium,
                     textAlign = TextAlign.Center,
                 )
