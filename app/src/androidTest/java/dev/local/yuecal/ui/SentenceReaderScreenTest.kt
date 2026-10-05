@@ -42,6 +42,7 @@ class SentenceReaderScreenTest {
                 SentenceReaderScreen(
                     SentenceReaderUiState(listOf(sentence), totalSentenceCount = 1),
                     onSpeak = { spokenText = it },
+                    onStartLearning = {},
                 )
             }
         }
