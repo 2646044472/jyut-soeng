@@ -727,8 +727,9 @@ private fun AlignedSentenceText(sentence: String, jyutping: String) {
                 ) {
                     Text(
                         unit.jyutping.orEmpty(),
-                        style = MaterialTheme.typography.labelSmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.primary,
+                        fontWeight = FontWeight.Medium,
                         textAlign = TextAlign.Center,
                         maxLines = 1,
                     )
@@ -736,6 +737,7 @@ private fun AlignedSentenceText(sentence: String, jyutping: String) {
                         unit.character,
                         style = MaterialTheme.typography.titleLarge,
                         fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.onSurface,
                         textAlign = TextAlign.Center,
                     )
                 }
