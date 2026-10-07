@@ -712,7 +712,7 @@ private fun AlignedSentenceText(sentence: String, jyutping: String) {
 
     if (units.isEmpty()) {
         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text(jyutping, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Medium)
+            Text(jyutping, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Medium)
             Text(sentence, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
         }
     } else {
@@ -727,7 +727,7 @@ private fun AlignedSentenceText(sentence: String, jyutping: String) {
                 ) {
                     Text(
                         unit.jyutping.orEmpty(),
-                        style = MaterialTheme.typography.bodyMedium,
+                        style = MaterialTheme.typography.titleMedium,
                         color = MaterialTheme.colorScheme.primary,
                         fontWeight = FontWeight.Medium,
                         textAlign = TextAlign.Center,
