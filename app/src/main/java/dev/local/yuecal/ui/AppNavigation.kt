@@ -102,7 +102,6 @@ private enum class TopLevelDestination(
     val icon: androidx.compose.ui.graphics.vector.ImageVector,
 ) {
     Today("today", "今日", Icons.Outlined.Home),
-    Sentences("sentences", "例句", Icons.Outlined.Book),
     Library("library", "词库", Icons.Outlined.Book),
     Search("search", "搜索", Icons.Outlined.Search),
     Profile("profile", "我的", Icons.Outlined.Person),
@@ -172,7 +171,7 @@ fun CantoCalibratorApp() {
                         onDismissMessage = viewModel::clearMessage,
                     )
                 }
-                composable(TopLevelDestination.Sentences.route) {
+                composable("sentences") {
                     val viewModel: SentenceReaderViewModel = hiltViewModel()
                     val state by viewModel.uiState.collectAsStateWithLifecycle()
                     val context = LocalContext.current
@@ -198,7 +197,7 @@ fun CantoCalibratorApp() {
                         state = state,
                         onStartLearning = { navController.navigate("sentence-learning/study") },
                         onReviewSentences = { navController.navigate("session/review?focus=sentence") },
-                        onReadExamples = { navController.navigate(TopLevelDestination.Sentences.route) },
+                        onReadExamples = { navController.navigate("sentences") },
                     )
                 }
                 composable("sentence-learning/study") {
