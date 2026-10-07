@@ -74,6 +74,16 @@ data class SentenceLearningUiState(
         get() = (dailyGoal - learnedToday).coerceAtLeast(0)
 }
 
+data class SentenceStudyUiState(
+    val isLoading: Boolean = true,
+    val isSaving: Boolean = false,
+    val session: StudySession? = null,
+    val currentIndex: Int = 0,
+) {
+    val currentSentence: StudyQuestion?
+        get() = session?.questions?.getOrNull(currentIndex)
+}
+
 data class ProfileUiState(
     val settings: AppSettings = AppSettings(),
     val dashboard: DashboardSummary = DashboardSummary(),
@@ -285,6 +295,45 @@ class SentenceLearningViewModel @Inject constructor(
         started = SharingStarted.WhileSubscribed(5_000),
         initialValue = SentenceLearningUiState(),
     )
+}
+
+@HiltViewModel
+class SentenceStudyViewModel @Inject constructor(
+    private val repository: CalibratorRepository,
+) : ViewModel() {
+
+    private val mutableState = MutableStateFlow(SentenceStudyUiState())
+    val uiState: StateFlow<SentenceStudyUiState> = mutableState
+
+    init {
+        viewModelScope.launch {
+            val session = repository.buildSession(mode = SessionMode.Learn, entryType = "sentence")
+            mutableState.value = SentenceStudyUiState(isLoading = false, session = session)
+        }
+    }
+
+    fun learnCurrentAndAdvance() {
+        val state = uiState.value
+        val session = state.session ?: return
+        val sentence = state.currentSentence ?: return
+        if (state.isLoading || state.isSaving) return
+
+        mutableState.update { it.copy(isSaving = true) }
+        viewModelScope.launch {
+            repository.submitAnswer(
+                sessionId = session.sessionId,
+                question = sentence,
+                selectedAnswer = sentence.answerJyutping,
+                responseMillis = 0L,
+            )
+            mutableState.update { current ->
+                current.copy(
+                    currentIndex = current.currentIndex + 1,
+                    isSaving = false,
+                )
+            }
+        }
+    }
 }
 
 internal fun selectDailySentenceEntries(

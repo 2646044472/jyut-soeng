@@ -12,6 +12,8 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -21,7 +23,9 @@ import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.text.KeyboardActions
@@ -192,9 +196,18 @@ fun CantoCalibratorApp() {
                     val state by viewModel.uiState.collectAsStateWithLifecycle()
                     SentenceLearningScreen(
                         state = state,
-                        onStartLearning = { navController.navigate("session/learn?focus=sentence") },
+                        onStartLearning = { navController.navigate("sentence-learning/study") },
                         onReviewSentences = { navController.navigate("session/review?focus=sentence") },
                         onReadExamples = { navController.navigate(TopLevelDestination.Sentences.route) },
+                    )
+                }
+                composable("sentence-learning/study") {
+                    val viewModel: SentenceStudyViewModel = hiltViewModel()
+                    val state by viewModel.uiState.collectAsStateWithLifecycle()
+                    SentenceStudyScreen(
+                        state = state,
+                        onNext = viewModel::learnCurrentAndAdvance,
+                        onDone = { navController.popBackStack() },
                     )
                 }
                 composable(TopLevelDestination.Search.route) {
@@ -479,7 +492,7 @@ internal fun SentenceLearningScreen(
             Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 Text("句子学习", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                 Text(
-                    "先看粤语句子，再亲手输入整句粤拼；答错的句子会安排再练。",
+                    "先看粤拼和粤语原句，再按自己的节奏逐句学习；到期句子可以另外复习。",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -551,7 +564,7 @@ private fun SentenceReaderCard(sentence: CalibrationEntry, onSpeak: (String) -> 
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
-                    "粤语原句",
+                    "今日例句",
                     modifier = Modifier.weight(1f),
                     style = MaterialTheme.typography.labelLarge,
                     color = MaterialTheme.colorScheme.primary,
@@ -560,9 +573,8 @@ private fun SentenceReaderCard(sentence: CalibrationEntry, onSpeak: (String) -> 
                     Icon(Icons.Outlined.PlayArrow, contentDescription = "播放粤语读音")
                 }
             }
-            Text(sentence.displayText, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-            Text("粤拼 Jyutping", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
-            Text(sentence.answerJyutping, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Medium)
+            Text("粤拼 · 粤语原句", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+            AlignedSentenceText(sentence.displayText, sentence.answerJyutping)
             Text(
                 sentence.category,
                 style = MaterialTheme.typography.bodySmall,
@@ -574,6 +586,159 @@ private fun SentenceReaderCard(sentence: CalibrationEntry, onSpeak: (String) -> 
             if (meaningVisible) {
                 InfoBlock("中文意思", sentence.gloss)
                 InfoBlock("使用场景", sentence.usageTip)
+            }
+        }
+    }
+}
+
+@Composable
+internal fun SentenceStudyScreen(
+    state: SentenceStudyUiState,
+    onNext: () -> Unit,
+    onDone: () -> Unit,
+) {
+    val session = state.session
+    val sentence = state.currentSentence
+    if (state.isLoading) {
+        Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+            CircularProgressIndicator()
+        }
+        return
+    }
+
+    if (session == null || sentence == null) {
+        Column(
+            modifier = Modifier.fillMaxSize().padding(24.dp),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
+            Text("今日句子已学完", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+            Text(
+                "你可以回到句子学习页查看今日进度，或者明天再学新句子。",
+                modifier = Modifier.padding(top = 8.dp, bottom = 20.dp),
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                textAlign = TextAlign.Center,
+            )
+            Button(onClick = onDone) { Text("完成") }
+        }
+        return
+    }
+
+    var meaningVisible by remember(sentence.entryId) { mutableStateOf(false) }
+    val listState = rememberLazyListState()
+    LaunchedEffect(sentence.entryId) {
+        listState.animateScrollToItem(0)
+    }
+    LazyColumn(
+        modifier = Modifier.fillMaxSize(),
+        state = listState,
+        contentPadding = PaddingValues(20.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp),
+    ) {
+        item {
+            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text("句子学习", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                Text(
+                    "第 ${state.currentIndex + 1} / ${session.questions.size} 句 · 看完后按「下一句」继续",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+        }
+        item {
+            Card {
+                Column(
+                    modifier = Modifier.fillMaxWidth().padding(20.dp),
+                    verticalArrangement = Arrangement.spacedBy(12.dp),
+                ) {
+                    Text("粤拼 · 粤语原句", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                    AlignedSentenceText(sentence.displayText, sentence.answerJyutping)
+                    TextButton(onClick = { meaningVisible = !meaningVisible }) {
+                        Text(if (meaningVisible) "收起句子意思" else "展开查看句子意思")
+                    }
+                    if (meaningVisible) {
+                        InfoBlock("中文意思", sentence.gloss)
+                        if (sentence.usageTip.isNotBlank()) InfoBlock("使用场景", sentence.usageTip)
+                    }
+                }
+            }
+        }
+        item {
+            Button(
+                modifier = Modifier.fillMaxWidth(),
+                enabled = !state.isSaving,
+                onClick = onNext,
+            ) {
+                Text(if (state.isSaving) "正在保存…" else "下一句")
+            }
+        }
+    }
+}
+
+private data class AlignedSentenceUnit(
+    val jyutping: String?,
+    val character: String,
+)
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun AlignedSentenceText(sentence: String, jyutping: String) {
+    val readings = remember(jyutping) {
+        Regex("[a-z]+[1-6]", RegexOption.IGNORE_CASE)
+            .findAll(jyutping)
+            .map { it.value }
+            .toList()
+    }
+    val units = remember(sentence, readings) {
+        val codePoints = sentence.codePoints().toArray()
+        val characterCount = codePoints.count { Character.isIdeographic(it) }
+        if (characterCount != readings.size) {
+            emptyList<AlignedSentenceUnit>()
+        } else {
+            var readingIndex = 0
+            codePoints.asList().mapNotNull { codePoint ->
+                val character = String(Character.toChars(codePoint))
+                if (character.isBlank()) {
+                    null
+                } else if (Character.isIdeographic(codePoint)) {
+                    AlignedSentenceUnit(readings[readingIndex++], character)
+                } else {
+                    AlignedSentenceUnit(null, character)
+                }
+            }
+        }
+    }
+
+    if (units.isEmpty()) {
+        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Text(jyutping, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Medium)
+            Text(sentence, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+        }
+    } else {
+        FlowRow(
+            horizontalArrangement = Arrangement.spacedBy(3.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            units.forEach { unit ->
+                Column(
+                    modifier = Modifier.widthIn(min = 12.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                ) {
+                    Text(
+                        unit.jyutping.orEmpty(),
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        textAlign = TextAlign.Center,
+                        maxLines = 1,
+                    )
+                    Text(
+                        unit.character,
+                        style = MaterialTheme.typography.titleLarge,
+                        fontWeight = FontWeight.Bold,
+                        textAlign = TextAlign.Center,
+                    )
+                }
             }
         }
     }

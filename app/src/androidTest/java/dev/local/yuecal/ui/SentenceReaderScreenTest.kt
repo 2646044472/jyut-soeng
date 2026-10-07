@@ -47,8 +47,14 @@ class SentenceReaderScreenTest {
             }
         }
 
-        composeRule.onNodeWithText("測試原句").assertIsDisplayed()
-        composeRule.onNodeWithText("cak1 si3 jyun4 geoi3").assertIsDisplayed()
+        composeRule.onNodeWithText("cak1").assertIsDisplayed()
+        composeRule.onNodeWithText("si3").assertIsDisplayed()
+        composeRule.onNodeWithText("jyun4").assertIsDisplayed()
+        composeRule.onNodeWithText("geoi3").assertIsDisplayed()
+        composeRule.onNodeWithText("測").assertIsDisplayed()
+        composeRule.onNodeWithText("試").assertIsDisplayed()
+        composeRule.onNodeWithText("原").assertIsDisplayed()
+        composeRule.onNodeWithText("句").assertIsDisplayed()
         composeRule.onNodeWithText("测试中文意思").assertDoesNotExist()
         composeRule.onNodeWithText("测试使用场景").assertDoesNotExist()
 
