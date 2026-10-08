@@ -57,6 +57,7 @@ data class LibraryUiState(
 data class SearchUiState(
     val query: String = "",
     val results: List<CalibrationEntry> = emptyList(),
+    val isSearching: Boolean = false,
 )
 
 data class SentenceReaderUiState(
@@ -357,11 +358,17 @@ class SearchViewModel @Inject constructor(
 ) : ViewModel() {
 
     private val query = MutableStateFlow("")
+    private val searchResults = query.flatMapLatest { searchQuery ->
+        repository.searchEntries(searchQuery).map { results -> searchQuery to results }
+    }
 
-    val uiState: StateFlow<SearchUiState> = query.flatMapLatest { currentQuery ->
-        repository.searchEntries(currentQuery).map { results ->
-            SearchUiState(query = currentQuery, results = results)
-        }
+    val uiState: StateFlow<SearchUiState> = combine(query, searchResults) { currentQuery, searchResult ->
+        val (resultsQuery, results) = searchResult
+        SearchUiState(
+            query = currentQuery,
+            results = results.takeIf { resultsQuery == currentQuery }.orEmpty(),
+            isSearching = resultsQuery != currentQuery,
+        )
     }.stateIn(
         scope = viewModelScope,
         started = SharingStarted.WhileSubscribed(5_000),

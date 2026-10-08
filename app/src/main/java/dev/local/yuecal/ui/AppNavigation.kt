@@ -751,6 +751,7 @@ private fun SearchScreen(
     onQueryChanged: (String) -> Unit,
     onPlayAudio: (String?) -> Unit,
 ) {
+    val keyboardController = LocalSoftwareKeyboardController.current
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -763,10 +764,18 @@ private fun SearchScreen(
             value = state.query,
             onValueChange = onQueryChanged,
             label = { Text("输入词语、Jyutping、用法或例句") },
+            singleLine = true,
+            keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
+            keyboardActions = KeyboardActions(onSearch = { keyboardController?.hide() }),
         )
         when {
             state.query.isBlank() -> Text(
                 "输入词语、粤拼或例句内容开始查找。",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            state.isSearching -> Text(
+                "正在搜索…",
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
