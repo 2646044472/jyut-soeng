@@ -21,6 +21,8 @@ import dev.local.yuecal.domain.StudySession
 import dev.local.yuecal.domain.SubmissionOutcome
 import dev.local.yuecal.domain.statusLabel
 import dev.local.yuecal.domain.todayEpochDay
+import dev.local.yuecal.domain.todayStartEpochMillis
+import dev.local.yuecal.domain.tomorrowStartEpochMillis
 import dev.local.yuecal.media.AppAudioPlayer
 import java.io.File
 import java.io.IOException
@@ -37,6 +39,7 @@ import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.SerializationException
@@ -102,8 +105,16 @@ class CalibratorRepository @Inject constructor(
         progressDao.observeDueCountByType("word", todayEpochDay()),
         progressDao.observeDueCountByType("expression", todayEpochDay()),
         progressDao.observeIncomingCount(todayEpochDay() + 1),
-        progressDao.observeNewCountByType("word"),
-        progressDao.observeNewCountByType("expression"),
+        progressDao.observeNewCountByType(
+            startOfDayMillis = todayStartEpochMillis(),
+            endOfDayMillis = tomorrowStartEpochMillis(),
+            entryType = "word",
+        ),
+        progressDao.observeNewCountByType(
+            startOfDayMillis = todayStartEpochMillis(),
+            endOfDayMillis = tomorrowStartEpochMillis(),
+            entryType = "expression",
+        ),
         progressDao.observeStartedCount(),
         progressDao.observeStartedCountByType("word"),
         progressDao.observeStartedCountByType("expression"),
@@ -163,6 +174,23 @@ class CalibratorRepository @Inject constructor(
     val libraryEntries: Flow<List<CalibrationEntry>> = entryDao.observeLibraryEntries().map { rows ->
         rows.map { it.toModel() }
     }
+
+    val sentenceEntries: Flow<List<CalibrationEntry>> = libraryEntries.map { entries ->
+        entries.filter { it.entryType == "sentence" }
+    }
+
+    fun observeNewEntriesStudied(
+        entryType: String,
+        startOfDayMillis: Long,
+        endOfDayMillis: Long,
+    ): Flow<Int> = progressDao.observeNewCountByType(
+        startOfDayMillis = startOfDayMillis,
+        endOfDayMillis = endOfDayMillis,
+        entryType = entryType,
+    )
+
+    fun observeDueEntries(entryType: String, today: Long): Flow<Int> =
+        progressDao.observeDueCountByType(entryType, today)
 
     fun searchEntries(query: String): Flow<List<CalibrationEntry>> {
         val trimmed = query.trim()
@@ -268,40 +296,83 @@ class CalibratorRepository @Inject constructor(
 
     suspend fun buildSession(
         mode: SessionMode,
+        entryType: String? = null,
     ): StudySession = withContext(ioDispatcher) {
         val settings = settingsStore.snapshot()
         val today = todayEpochDay()
+        val sentenceDailyProgress = if (entryType == "sentence" && mode == SessionMode.Learn) {
+            progressDao.observeNewCountByType(
+                startOfDayMillis = todayStartEpochMillis(),
+                endOfDayMillis = tomorrowStartEpochMillis(),
+                entryType = "sentence",
+            ).first()
+        } else {
+            0
+        }
         val targets = when (mode) {
             SessionMode.Learn -> buildLearningTargets(settings.dailyLearnGoal)
             SessionMode.Review -> buildReviewTargets(today)
         }
+        val focusedLearnLimit = settings.dailyLearnGoal.coerceAtLeast(4)
+        val wordLimit = when (entryType) {
+            "word" -> if (mode == SessionMode.Learn) focusedLearnLimit else targets.wordLimit
+            "expression" -> 0
+            "sentence" -> 0
+            else -> targets.wordLimit
+        }
+        val expressionLimit = when (entryType) {
+            "word" -> 0
+            "expression" -> if (mode == SessionMode.Learn) focusedLearnLimit else targets.expressionLimit
+            "sentence" -> 0
+            else -> targets.expressionLimit
+        }
+        val sentenceLimit = when {
+            entryType != "sentence" -> 0
+            mode == SessionMode.Learn ->
+                (settings.dailySentenceLearnGoal - sentenceDailyProgress).coerceAtLeast(0)
+            else -> {
+                val dueSentenceCount = progressDao.dueCountNowByType("sentence", today)
+                val studiedSentenceCount = progressDao.startedCountNowByType("sentence")
+                ReviewTargetPlanner.sessionTarget(
+                    dueEntries = dueSentenceCount,
+                    studiedEntries = studiedSentenceCount,
+                    hasDueReviewsToday = dueSentenceCount > 0,
+                )
+            }
+        }
         val wordEntries = when (mode) {
             SessionMode.Learn -> selectLearningEntriesByType(
                 entryType = "word",
-                limit = targets.wordLimit,
+                limit = wordLimit,
             )
             SessionMode.Review -> selectReviewEntriesByType(
                 entryType = "word",
                 today = today,
-                limit = targets.wordLimit,
+                limit = wordLimit,
             )
         }
         val expressionEntries = when (mode) {
             SessionMode.Learn -> selectLearningEntriesByType(
                 entryType = "expression",
-                limit = targets.expressionLimit,
+                limit = expressionLimit,
             )
             SessionMode.Review -> selectReviewEntriesByType(
                 entryType = "expression",
                 today = today,
-                limit = targets.expressionLimit,
+                limit = expressionLimit,
             )
+        }
+        val sentenceEntries = when {
+            sentenceLimit <= 0 -> emptyList()
+            mode == SessionMode.Learn ->
+                selectLearningEntriesByType(entryType = "sentence", limit = sentenceLimit)
+            else -> selectReviewEntriesByType(entryType = "sentence", today = today, limit = sentenceLimit)
         }
         val chosenEntries = when (mode) {
             SessionMode.Learn -> interleaveEntries(
                 first = wordEntries,
                 second = expressionEntries,
-            )
+            ) + sentenceEntries
             SessionMode.Review -> (wordEntries + expressionEntries)
                 .distinctBy { it.id }
                 .shuffled(Random(System.nanoTime()))
@@ -338,7 +409,7 @@ class CalibratorRepository @Inject constructor(
         StudySession(
             sessionId = UUID.randomUUID().toString(),
             mode = mode,
-            title = if (mode == SessionMode.Learn) "今日学习" else "今日复习",
+            title = sessionTitle(mode = mode, entryType = entryType),
             questions = questions,
         )
     }
@@ -765,4 +836,11 @@ class CalibratorRepository @Inject constructor(
 
 internal fun studyQuestionTypeFor(mode: SessionMode): StudyQuestionType = when (mode) {
     SessionMode.Learn, SessionMode.Review -> StudyQuestionType.FillJyutping
+}
+
+internal fun sessionTitle(mode: SessionMode, entryType: String?): String = when (entryType) {
+    "word" -> if (mode == SessionMode.Learn) "正音词学习" else "正音词复习"
+    "expression" -> if (mode == SessionMode.Learn) "表达练习" else "表达复习"
+    "sentence" -> if (mode == SessionMode.Learn) "句子学习" else "句子复习"
+    else -> if (mode == SessionMode.Learn) "今日学习" else "今日复习"
 }

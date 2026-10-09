@@ -1,0 +1,102 @@
+[
+  {
+    "id": "manual-hotel-stay-001",
+    "displayText": "我有預訂",
+    "answerJyutping": "ngo5 jau5 jyu6 deng6",
+    "gloss": "告知前台自己已有房間預約",
+    "notes": "辦理入住時先說這句，再報上姓氏或預訂編號。",
+    "usageTip": "到櫃檯後可直接接着說預訂時登記的姓氏。",
+    "exampleSentence": "你好，我有預訂，姓陳。",
+    "category": "酒店入住"
+  },
+  {
+    "id": "manual-hotel-stay-002",
+    "displayText": "可唔可以早啲入住",
+    "answerJyutping": "ho2 m4 ho2 ji5 zou2 di1 jap6 zyu6",
+    "gloss": "詢問能否在規定時間前取得房間",
+    "notes": "早到酒店而房間未必備妥時使用；語氣禮貌而直接。",
+    "usageTip": "可補充到達時間，方便前台查看房間狀況。",
+    "exampleSentence": "我十二點到，可唔可以早啲入住？",
+    "category": "酒店入住"
+  },
+  {
+    "id": "manual-hotel-stay-003",
+    "displayText": "可唔可以換房",
+    "answerJyutping": "ho2 m4 ho2 ji5 wun6 fong2",
+    "gloss": "請求改住另一間客房",
+    "notes": "適用於房間噪音、設備故障或房型不合需要等情況。",
+    "usageTip": "提出後簡短說明原因，前台較容易即時處理。",
+    "exampleSentence": "隔離太嘈，可唔可以換房？",
+    "category": "客房要求"
+  },
+  {
+    "id": "manual-hotel-stay-004",
+    "displayText": "想要高樓層",
+    "answerJyutping": "soeng2 jiu3 gou1 lau4 cang4",
+    "gloss": "表示希望獲安排在較高樓層的房間",
+    "notes": "訂房備註或辦理入住時都可提出，但要視乎酒店供應。",
+    "usageTip": "可連同安靜、望景等要求一併向前台提出。",
+    "exampleSentence": "如果仲有房，我想要高樓層，安靜啲就最好。",
+    "category": "客房要求"
+  },
+  {
+    "id": "manual-hotel-stay-005",
+    "displayText": "麻煩幫我執房",
+    "answerJyutping": "maa4 faan4 bong1 ngo5 zap1 fong2",
+    "gloss": "請客房服務員整理和清潔房間",
+    "notes": "執房是香港酒店常見說法，通常包括鋪床、收拾垃圾及補給用品。",
+    "usageTip": "外出前致電客房部，或掛上清潔房間提示牌後使用。",
+    "exampleSentence": "我而家出門，麻煩幫我執房。",
+    "category": "客房服務"
+  },
+  {
+    "id": "manual-hotel-stay-006",
+    "displayText": "可唔可以加多條毛巾",
+    "answerJyutping": "ho2 m4 ho2 ji5 gaa1 do1 tiu4 mou4 gan1",
+    "gloss": "請酒店額外提供一條毛巾",
+    "notes": "加多表示在原有數量上再增加，適合提出額外用品要求。",
+    "usageTip": "說明需要的數量和房號，客房部便可送上房間。",
+    "exampleSentence": "唔該，可唔可以加多條毛巾？我住八一二室。",
+    "category": "客房服務"
+  },
+  {
+    "id": "manual-hotel-stay-007",
+    "displayText": "可唔可以寄存行李",
+    "answerJyutping": "ho2 m4 ho2 ji5 gei3 cyun4 haang4 lei5",
+    "gloss": "詢問能否把行李暫時交由酒店保管",
+    "notes": "退房後未離開當地，或未到入住時間時都很常用。",
+    "usageTip": "寄存前可先問最遲可取回的時間，並保管好寄存牌。",
+    "exampleSentence": "我哋夜晚先走，可唔可以寄存行李？",
+    "category": "行李安排"
+  },
+  {
+    "id": "manual-hotel-stay-008",
+    "displayText": "我想拎返行李",
+    "answerJyutping": "ngo5 soeng2 ling1 faan1 haang4 lei5",
+    "gloss": "向行李部要求取回先前寄存的行李",
+    "notes": "拎返帶有取回原物的意思；通常需要出示寄存牌。",
+    "usageTip": "到行李部後先交寄存牌，再說明要取回哪一件行李。",
+    "exampleSentence": "我想拎返行李，寄存牌喺度。",
+    "category": "行李安排"
+  },
+  {
+    "id": "manual-hotel-stay-009",
+    "displayText": "可唔可以遲啲退房",
+    "answerJyutping": "ho2 m4 ho2 ji5 ci4 di1 teoi3 fong2",
+    "gloss": "詢問能否延後交還房間和房卡",
+    "notes": "遲啲退房指延遲退房時間；酒店可能按當日房況收費或免費安排。",
+    "usageTip": "提出時說明希望延至幾點，較方便前台確認。",
+    "exampleSentence": "我架車晏晝先開，可唔可以遲啲退房？",
+    "category": "退房安排"
+  },
+  {
+    "id": "manual-hotel-stay-010",
+    "displayText": "房入面冇熱水",
+    "answerJyutping": "fong2 jap6 min6 mou5 jit6 seoi2",
+    "gloss": "報告房間洗澡或水龍頭沒有熱水供應",
+    "notes": "向前台或客房部報修時可直接說明；入面在口語中指房內。",
+    "usageTip": "可補充浴室還是洗手盆無熱水，方便職員帶備工具上房。",
+    "exampleSentence": "唔好意思，房入面冇熱水，可唔可以派人上嚟睇下？",
+    "category": "客房問題"
+  }
+]

@@ -14,6 +14,8 @@ def build_prompt_text(raw: str, entry_type: str) -> str:
         return text
     if entry_type == "word":
         return "先按自己答案写出 Jyutping，再看意思、用法同例句。"
+    if entry_type == "sentence":
+        return "先顺住读完整句子同 Jyutping；唔明先展开中文意思。"
     return "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。"
 
 
@@ -29,7 +31,7 @@ def load_entries(path: Path, entry_type: str) -> list[dict]:
         category = row.get("category", "")
         display_text = row["displayText"]
         if row.get("sourceLabel", "curated") != "curated":
-            raise SystemExit(f"Only hand-written curated entries are allowed: {row['id']}")
+            raise SystemExit(f"Only curated entries are allowed: {row['id']}")
         item = {
             "id": row["id"],
             "displayText": display_text,
@@ -58,7 +60,13 @@ def load_all_entries() -> list[dict]:
     entries: list[dict] = []
     for path in sorted(CONTENT_DIR.glob("*_bank.json")):
         name = path.stem.lower()
-        entry_type = "expression" if any(token in name for token in ("expression", "slang", "conversation")) else "word"
+        entry_type = (
+            "sentence"
+            if "sentence" in name
+            else "expression"
+            if any(token in name for token in ("expression", "slang", "conversation"))
+            else "word"
+        )
         entries.extend(load_entries(path, entry_type))
     return entries
 

@@ -1,0 +1,702 @@
+[
+  {
+    "id": "manual-civic-government-complex",
+    "displayText": "政府合署",
+    "answerJyutping": "zing3 fu2 hap6 cyu5",
+    "gloss": "政府部门集中办公的大楼",
+    "notes": "“合署”读 hap6 cyu5，常见于地址、预约通知和问路场景。",
+    "usageTip": "到陌生办事地点时，可先确认是否在同一座政府合署内。",
+    "exampleSentence": "你約咗嘅政府合署喺邊一層？",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-business-counter",
+    "displayText": "辦事櫃檯",
+    "answerJyutping": "baan6 si6 gwai6 toi4",
+    "gloss": "提供咨询、登记或交件服务的柜台",
+    "notes": "“辦事”读 baan6 si6；“櫃檯”读 gwai6 toi4，常用于政府或机构窗口。",
+    "usageTip": "需要转介或补资料时，先到辦事櫃檯问清楚流程。",
+    "exampleSentence": "麻煩你去辦事櫃檯攞張申請表。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-queue-ticket-number",
+    "displayText": "籌號",
+    "answerJyutping": "cau4 hou6",
+    "gloss": "排队等候时领取的号码",
+    "notes": "“籌”在办事和看诊语境很常用，指排队号码或凭票。",
+    "usageTip": "可说“我個籌號過咗未？”确认有没有叫到自己。",
+    "exampleSentence": "我個籌號仲有十幾個先到。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-self-service-ticket",
+    "displayText": "自助取籌",
+    "answerJyutping": "zi6 zo6 ceoi2 cau4",
+    "gloss": "通过自助机器领取排队号码",
+    "notes": "“自助”读 zi6 zo6；办事窗口和门诊常要求先自行取号。",
+    "usageTip": "看到取号机时，可问“自助取籌要揀邊個服務類別？”",
+    "exampleSentence": "入到去先自助取籌，之後坐低等叫號。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-waiting-number",
+    "displayText": "輪候號碼",
+    "answerJyutping": "leon4 hau6 hou6 maa5",
+    "gloss": "按次序等候服务的号码",
+    "notes": "“輪候”比单说“排队”更贴近正式服务场景。",
+    "usageTip": "屏幕显示号码时，用“輪候號碼”问工作人员最清楚。",
+    "exampleSentence": "輪候號碼顯示到A一二八喇。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-same-day-ticket",
+    "displayText": "即日籌",
+    "answerJyutping": "zik1 jat6 cau4",
+    "gloss": "当天可使用的现场排队号码",
+    "notes": "“即日”是“当天”的正式常用说法；“籌”读 cau4。",
+    "usageTip": "想问是否还能现场办理，可问“今日仲有冇即日籌？”",
+    "exampleSentence": "普通科今日嘅即日籌派晒未？",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-appointment-ticket",
+    "displayText": "預約籌",
+    "answerJyutping": "jyu6 joek3 cau4",
+    "gloss": "按预约时段领取的服务号码",
+    "notes": "“預約”读 jyu6 joek3，末音 joek3 要收得短。",
+    "usageTip": "网上预约后到场，通常先报姓名或出示預約籌。",
+    "exampleSentence": "我有預約籌，想問要去邊個窗口報到。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-registration-form",
+    "displayText": "登記表",
+    "answerJyutping": "dang1 gei3 biu2",
+    "gloss": "用于登记资料的表格",
+    "notes": "“登記”读 dang1 gei3，常用于报到、登记住址和借用设施。",
+    "usageTip": "不确定要填哪份表时，可以直接说“我想攞張登記表”。",
+    "exampleSentence": "登記表填完之後交返畀職員。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-application-form",
+    "displayText": "申請表",
+    "answerJyutping": "san1 cing2 biu2",
+    "gloss": "申请服务、证件或资格时填写的表格",
+    "notes": "“申請”读 san1 cing2，常搭配“遞交”“補交”。",
+    "usageTip": "交表前先确认申請表是否要附证明文件。",
+    "exampleSentence": "呢張申請表要用黑色筆填。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-supporting-documents",
+    "displayText": "證明文件",
+    "answerJyutping": "zing3 ming4 man4 gin2",
+    "gloss": "用来证明身份、住址或资格的文件",
+    "notes": "“文件”读 man4 gin2；办理手续时常以复数概念使用。",
+    "usageTip": "工作人员说要證明文件时，追问需要正本还是副本。",
+    "exampleSentence": "請帶齊身份同住址嘅證明文件。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-original-document",
+    "displayText": "文件正本",
+    "answerJyutping": "man4 gin2 zing3 bun2",
+    "gloss": "文件的原件",
+    "notes": "“正本”读 zing3 bun2，和影印件相对；“文件”读 man4 gin2。",
+    "usageTip": "窗口要求核对时，带文件正本会比只带照片稳妥。",
+    "exampleSentence": "請出示身份證嘅文件正本畀我核對。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-document-copy",
+    "displayText": "文件副本",
+    "answerJyutping": "man4 gin2 fu3 bun2",
+    "gloss": "文件的复印件或副本",
+    "notes": "“副本”读 fu3 bun2；递交时经常与“正本”一同出现。",
+    "usageTip": "不清楚是否要影印，可问“文件副本使唔使簽名作實？”",
+    "exampleSentence": "呢份文件副本留返畀你存檔。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-information-verification",
+    "displayText": "資料核實",
+    "answerJyutping": "zi1 liu2 hat6 sat6",
+    "gloss": "核对所提交资料是否真实准确",
+    "notes": "“核實”读 hat6 sat6，hat6 的入声要收短。",
+    "usageTip": "资料有出入时，工作人员常说需要等候資料核實。",
+    "exampleSentence": "資料核實完成之後會短訊通知你。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-submit-missing-material",
+    "displayText": "補交資料",
+    "answerJyutping": "bou2 gaau1 zi1 liu2",
+    "gloss": "补充递交遗漏或不足的资料",
+    "notes": "“補交”读 bou2 gaau1，常用于申请、租务和学校手续。",
+    "usageTip": "收到通知后，确认補交資料的截止日期和递交方式。",
+    "exampleSentence": "我想補交資料，請問放入邊個收集箱？",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-collection-date",
+    "displayText": "指定領取日",
+    "answerJyutping": "zi2 ding6 ling5 ceoi2 jat6",
+    "gloss": "指定可领取证件或物品的日期",
+    "notes": "“領取”读 ling5 ceoi2；“指定”在通知和短讯中很常见。",
+    "usageTip": "未能当天领取时，先问能否改在另一个指定領取日。",
+    "exampleSentence": "證件要喺指定領取日帶收據返嚟攞。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-authorized-collection",
+    "displayText": "委託代領",
+    "answerJyutping": "wai2 tok3 doi6 ling5",
+    "gloss": "委托他人代为领取",
+    "notes": "“委託”读 wai2 tok3，tok3 是入声；代领通常需要授权文件。",
+    "usageTip": "自己不能到场时，先确认该服务是否接受委託代領。",
+    "exampleSentence": "我阿媽可以憑授權書幫我委託代領嗎？",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-proof-of-address",
+    "displayText": "住址證明",
+    "answerJyutping": "zyu6 zi2 zing3 ming4",
+    "gloss": "证明居住地址的文件",
+    "notes": "“住址”读 zyu6 zi2；银行信件、水电单都可能作住址证明。",
+    "usageTip": "办理账户或申请服务前，先问可接受哪一类住址證明。",
+    "exampleSentence": "呢張三個月內嘅電費單可唔可以做住址證明？",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-change-correspondence-address",
+    "displayText": "更改通訊地址",
+    "answerJyutping": "gang1 goi2 tung1 seon3 dei6 zi2",
+    "gloss": "更新收信或接收通知的地址",
+    "notes": "“通訊”读 tung1 seon3；这词比单说“改地址”更适合填表和办事。",
+    "usageTip": "搬家后优先更改通訊地址，避免错过缴费或预约通知。",
+    "exampleSentence": "搬屋之後記得更改通訊地址。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-check-in-time-slot",
+    "displayText": "報到時段",
+    "answerJyutping": "bou3 dou3 si4 dyun6",
+    "gloss": "预约服务要求到场报到的时间区间",
+    "notes": "“報到”读 bou3 dou3；“時段”读 si4 dyun6，常见于预约通知。",
+    "usageTip": "电话确认时把日期和報到時段一起复述，较不易出错。",
+    "exampleSentence": "我想確認下晝嗰個報到時段。",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-complete-procedure",
+    "displayText": "辦理手續",
+    "answerJyutping": "baan6 lei5 sau2 zuk6",
+    "gloss": "按要求完成办证、登记或申请流程",
+    "notes": "“手續”读 sau2 zuk6；粤语里说“辦理手續”很自然。",
+    "usageTip": "问流程时可说“我今日想辦理手續，要帶啲咩？”",
+    "exampleSentence": "我想喺呢度辦理手續，請問要等幾耐？",
+    "category": "公共服务"
+  },
+  {
+    "id": "manual-civic-waiting-area",
+    "displayText": "候診區",
+    "answerJyutping": "hau6 can2 keoi1",
+    "gloss": "在诊所或医院等候看诊的区域",
+    "notes": "“候診”读 hau6 can2；“區”读 keoi1，不读成普通话式的“qu”。",
+    "usageTip": "第一次到医院，可问职员候診區和诊室是否在同一层。",
+    "exampleSentence": "醫生未叫到你，可以喺候診區坐住等。",
+    "category": "医疗服务"
+  },
+  {
+    "id": "manual-civic-triage-station",
+    "displayText": "分流站",
+    "answerJyutping": "fan1 lau4 zaam6",
+    "gloss": "按病情或服务类别分配去向的站点",
+    "notes": "“分流”读 fan1 lau4，急症和大型门诊常用。",
+    "usageTip": "不确定该看哪个部门时，先到分流站说明主要症状。",
+    "exampleSentence": "入急症室要先去分流站登記。",
+    "category": "医疗服务"
+  },
+  {
+    "id": "manual-civic-triage-nurse",
+    "displayText": "分流護士",
+    "answerJyutping": "fan1 lau4 wu6 si6",
+    "gloss": "负责初步评估和分配就诊次序的护士",
+    "notes": "“護士”读 wu6 si6；不要把“護”读作普通话第四声。",
+    "usageTip": "向分流護士简洁说明何时开始不舒服和有没有严重症状。",
+    "exampleSentence": "分流護士叫我量完血壓先再等。",
+    "category": "医疗服务"
+  },
+  {
+    "id": "manual-civic-referral-letter",
+    "displayText": "轉介信",
+    "answerJyutping": "zyun2 gaai3 seon3",
+    "gloss": "由医生或机构转介至其他服务的证明信",
+    "notes": "“轉介”读 zyun2 gaai3，是医疗、社福和辅导服务常用词。",
+    "usageTip": "预约专科前，先确认转介信是否仍在有效期内。",
+    "exampleSentence": "睇專科嗰日記得帶埋轉介信。",
+    "category": "医疗服务"
+  },
+  {
+    "id": "manual-civic-followup-date",
+    "displayText": "覆診日期",
+    "answerJyutping": "fuk6 can2 jat6 kei4",
+    "gloss": "下次复诊的日期",
+    "notes": "“覆診”读 fuk6 can2，fuk6 是入声；常和“紙”或“信”搭配。",
+    "usageTip": "离开诊所前核对覆診日期、地点及是否需要验血。",
+    "exampleSentence": "我唔記得覆診日期，可唔可以幫我查一查？",
+    "category": "医疗服务"
+  },
+  {
+    "id": "manual-civic-medical-card",
+    "displayText": "醫療卡",
+    "answerJyutping": "ji1 liu4 kaat1",
+    "gloss": "用来识别就医资格或医疗记录的卡片",
+    "notes": "“醫療”读 ji1 liu4；kaat1 的末音要短促。",
+    "usageTip": "看诊前把醫療卡和身份证一起准备好，会更快完成报到。",
+    "exampleSentence": "我冇帶醫療卡，淨係帶咗身份證得唔得？",
+    "category": "医疗服务"
+  },
+  {
+    "id": "manual-civic-medical-charge",
+    "displayText": "醫療費用",
+    "answerJyutping": "ji1 liu4 fai3 jung6",
+    "gloss": "看诊、检查或治疗所需支付的费用",
+    "notes": "“費用”读 fai3 jung6，咨询收费时用这个词比“幾錢”更得体。",
+    "usageTip": "预约检查时问清醫療費用是否包含报告和药物。",
+    "exampleSentence": "呢個檢查嘅醫療費用可以點樣畀？",
+    "category": "医疗服务"
+  },
+  {
+    "id": "manual-civic-fee-waiver-proof",
+    "displayText": "費用豁免證明",
+    "answerJyutping": "fai3 jung6 kwut3 min5 zing3 ming4",
+    "gloss": "证明可获服务收费减免的文件",
+    "notes": "“豁免”读 kwut3 min5，kwut3 是入声，常用于医疗和公共服务收费。",
+    "usageTip": "符合减免资格时，报到前主动出示費用豁免證明。",
+    "exampleSentence": "我有費用豁免證明，應該交去邊個窗口？",
+    "category": "医疗服务"
+  },
+  {
+    "id": "manual-civic-allergy-record",
+    "displayText": "過敏紀錄",
+    "answerJyutping": "gwo3 man5 gei3 luk6",
+    "gloss": "记录对药物、食物或物质过敏情况的资料",
+    "notes": "“過敏”读 gwo3 man5；“紀錄”读 gei3 luk6。",
+    "usageTip": "换医生或到急症室时，主动说明自己有没有過敏紀錄。",
+    "exampleSentence": "我對青黴素有過敏紀錄。",
+    "category": "医疗服务"
+  },
+  {
+    "id": "manual-civic-medical-leave-certificate",
+    "displayText": "病假證明",
+    "answerJyutping": "beng6 gaa3 zing3 ming4",
+    "gloss": "医生开出的病假或不宜工作的证明",
+    "notes": "“病假”读 beng6 gaa3；用于交公司或学校的文件常称病假证明。",
+    "usageTip": "需要交单位时，确认病假證明有没有写明休息日期。",
+    "exampleSentence": "醫生開咗張病假證明畀我。",
+    "category": "医疗服务"
+  },
+  {
+    "id": "manual-civic-passport-photo",
+    "displayText": "護照相片",
+    "answerJyutping": "wu6 ziu3 soeng2 pin3",
+    "gloss": "用于护照或旅行证件的符合规格照片",
+    "notes": "“護照”读 wu6 ziu3；“相片”读 soeng2 pin3。",
+    "usageTip": "拍摄前确认护照相片的背景、尺寸和近照要求。",
+    "exampleSentence": "辦護照要預備兩張護照相片。",
+    "category": "证件事务"
+  },
+  {
+    "id": "manual-civic-id-photo",
+    "displayText": "證件相",
+    "answerJyutping": "zing3 gin2 soeng2",
+    "gloss": "用于各类证件申请的照片",
+    "notes": "口语里常把“證件相片”简说成“證件相”。",
+    "usageTip": "柜台要求交照片时，可确认“係咪要交證件相？”",
+    "exampleSentence": "張證件相唔好戴帽同深色眼鏡。",
+    "category": "证件事务"
+  },
+  {
+    "id": "manual-civic-photo-requirements",
+    "displayText": "相片規格",
+    "answerJyutping": "soeng2 pin3 kwai1 gaak3",
+    "gloss": "证件照片的尺寸、背景和拍摄要求",
+    "notes": "“規格”读 kwai1 gaak3，gaak3 是入声。",
+    "usageTip": "网上递交前按相片規格裁好，避免申请被退回。",
+    "exampleSentence": "請跟返網站列明嘅相片規格上載。",
+    "category": "证件事务"
+  },
+  {
+    "id": "manual-civic-identity-verification",
+    "displayText": "身份核對",
+    "answerJyutping": "san1 fan6 hat6 deoi3",
+    "gloss": "核对申请人身份资料的程序",
+    "notes": "“核對”读 hat6 deoi3，hat6 的收尾要清楚。",
+    "usageTip": "取件、开户或更改资料时，常需要做身份核對。",
+    "exampleSentence": "完成身份核對先可以攞返張新證。",
+    "category": "证件事务"
+  },
+  {
+    "id": "manual-civic-signature-specimen",
+    "displayText": "簽名式樣",
+    "answerJyutping": "cim1 meng2 sik1 joeng6",
+    "gloss": "登记在案的签名样式",
+    "notes": "“式樣”读 sik1 joeng6；银行和授权手续会用到。",
+    "usageTip": "签署时尽量与登记的簽名式樣一致。",
+    "exampleSentence": "你今日個簽名同原本嘅簽名式樣有少少唔同。",
+    "category": "证件事务"
+  },
+  {
+    "id": "manual-civic-authorization-letter",
+    "displayText": "授權書",
+    "answerJyutping": "sau6 hyun3 syu1",
+    "gloss": "授权他人代办或代领的书面文件",
+    "notes": "“授權”读 sau6 hyun3，hyun3 的韵母接近“圈”的去声。",
+    "usageTip": "代办前先按机构要求写好授權書并附上双方证件副本。",
+    "exampleSentence": "呢份授權書要由本人親筆簽署。",
+    "category": "证件事务"
+  },
+  {
+    "id": "manual-civic-authorizing-person",
+    "displayText": "授權人",
+    "answerJyutping": "sau6 hyun3 jan4",
+    "gloss": "作出授权的一方",
+    "notes": "“授權人”指给予权限的人，不是实际代办的人。",
+    "usageTip": "填授权表时，别把授權人和受權人的资料填反。",
+    "exampleSentence": "授權人嘅姓名要同身份證完全一樣。",
+    "category": "证件事务"
+  },
+  {
+    "id": "manual-civic-authorized-person",
+    "displayText": "受權人",
+    "answerJyutping": "sau6 hyun3 jan4",
+    "gloss": "获授权代为办理事务的一方",
+    "notes": "“受權人”与“授權人”同音，靠“受/授”的字义区分角色。",
+    "usageTip": "作为受權人到场时，要带自己的身份证和授权文件。",
+    "exampleSentence": "受權人可唔可以代為領取文件？",
+    "category": "证件事务"
+  },
+  {
+    "id": "manual-civic-statutory-declaration",
+    "displayText": "宣誓聲明",
+    "answerJyutping": "syun1 sai6 sing1 ming4",
+    "gloss": "在指定程序下作出的正式声明",
+    "notes": "“宣誓”读 syun1 sai6；正式文件里常指经见证的声明。",
+    "usageTip": "需要宣誓聲明时，先确认是否必须亲身到指定地点办理。",
+    "exampleSentence": "呢份宣誓聲明要喺職員面前簽。",
+    "category": "证件事务"
+  },
+  {
+    "id": "manual-civic-loss-declaration",
+    "displayText": "遺失聲明",
+    "answerJyutping": "wai4 sat1 sing1 ming4",
+    "gloss": "说明证件或物品遗失情况的正式声明",
+    "notes": "“遺失”读 wai4 sat1，sat1 是入声；不等同于普通的“唔見咗”。",
+    "usageTip": "补领证件前，按指示准备遗失日期、地点和遺失聲明。",
+    "exampleSentence": "補領之前要先填遺失聲明。",
+    "category": "证件事务"
+  },
+  {
+    "id": "manual-civic-original-tenancy-agreement",
+    "displayText": "租約正本",
+    "answerJyutping": "zou1 joek3 zing3 bun2",
+    "gloss": "租赁合约的原件",
+    "notes": "“租約”读 zou1 joek3，常用于住址、津贴和租务证明。",
+    "usageTip": "办住址或租务相关手续时，带租約正本方便职员核对。",
+    "exampleSentence": "我帶咗租約正本同身份證過嚟。",
+    "category": "住房事务"
+  },
+  {
+    "id": "manual-civic-tenancy-office",
+    "displayText": "租務處",
+    "answerJyutping": "zou1 mou6 cyu3",
+    "gloss": "处理租赁查询、纠纷或相关服务的办事处",
+    "notes": "“租務”读 zou1 mou6；“處”读 cyu3。",
+    "usageTip": "遇到租约条款或按金争议，可先向租務處查询合适渠道。",
+    "exampleSentence": "呢單租務問題可唔可以去租務處問？",
+    "category": "住房事务"
+  },
+  {
+    "id": "manual-civic-landlord-contact-details",
+    "displayText": "業主聯絡資料",
+    "answerJyutping": "jip6 zyu2 lyun4 lok3 zi1 liu2",
+    "gloss": "房东的电话、电邮等联系资料",
+    "notes": "“業主”读 jip6 zyu2；jip6 是入声，别拉长。",
+    "usageTip": "签约时保存業主聯絡資料，漏水或维修时会用到。",
+    "exampleSentence": "你有冇業主聯絡資料畀管理處備案？",
+    "category": "住房事务"
+  },
+  {
+    "id": "manual-civic-rates-demand-note",
+    "displayText": "差餉單",
+    "answerJyutping": "caa1 hoeng2 daan1",
+    "gloss": "物业差饷的缴费通知单",
+    "notes": "“差餉”读 caa1 hoeng2，是香港住房和物业语境常见词。",
+    "usageTip": "不确定应由谁缴付时，先看租约对差餉單的约定。",
+    "exampleSentence": "差餉單寄咗去舊地址，要點樣改？",
+    "category": "住房事务"
+  },
+  {
+    "id": "manual-civic-government-rent-bill",
+    "displayText": "地租單",
+    "answerJyutping": "dei6 zou1 daan1",
+    "gloss": "地租的缴费通知单",
+    "notes": "“地租”读 dei6 zou1；和房租“租金”不是同一项费用。",
+    "usageTip": "收到地租單后，先留意缴款期限和对应物业资料。",
+    "exampleSentence": "呢張地租單係咪要喺月底前交？",
+    "category": "住房事务"
+  },
+  {
+    "id": "manual-civic-water-bill",
+    "displayText": "水費單",
+    "answerJyutping": "seoi2 fai3 daan1",
+    "gloss": "用水费用的账单或缴款通知",
+    "notes": "“水費”读 seoi2 fai3；“單”读 daan1。",
+    "usageTip": "搬屋或转户时，保留最后一期水費單作结算记录。",
+    "exampleSentence": "水費單可唔可以用手機銀行交？",
+    "category": "住房事务"
+  },
+  {
+    "id": "manual-civic-electricity-bill",
+    "displayText": "電費單",
+    "answerJyutping": "din6 fai3 daan1",
+    "gloss": "电费账单或缴款通知",
+    "notes": "“電費”读 din6 fai3，din6 是入声。",
+    "usageTip": "报修或转户时，电力公司可能要求提供最近一期電費單。",
+    "exampleSentence": "我搵唔返上個月嗰張電費單。",
+    "category": "住房事务"
+  },
+  {
+    "id": "manual-civic-management-fee-bill",
+    "displayText": "管理費單",
+    "answerJyutping": "gun2 lei5 fai3 daan1",
+    "gloss": "大厦管理费的缴款通知单",
+    "notes": "“管理費”读 gun2 lei5 fai3，常见于有管理处的大厦。",
+    "usageTip": "缴费后保留管理費單收据，方便日后查询。",
+    "exampleSentence": "管理費單上面有冇寫清楚繳款限期？",
+    "category": "住房事务"
+  },
+  {
+    "id": "manual-civic-resident-pass",
+    "displayText": "住戶證",
+    "answerJyutping": "zyu6 wu6 zing3",
+    "gloss": "住户出入大厦或使用设施的证明卡",
+    "notes": "“住戶”读 zyu6 wu6；有些屋苑会用作登记或预约设施。",
+    "usageTip": "预约会所或领取门禁时，先准备住戶證。",
+    "exampleSentence": "用住戶證先可以入到會所。",
+    "category": "住房事务"
+  },
+  {
+    "id": "manual-civic-move-in-procedure",
+    "displayText": "入伙手續",
+    "answerJyutping": "jap6 fo2 sau2 zuk6",
+    "gloss": "搬入新住所前后要完成的登记与交接流程",
+    "notes": "“入伙”读 jap6 fo2；jap6 的收尾要短。",
+    "usageTip": "搬入前问管理处入伙手續是否要预约货梯和交按金。",
+    "exampleSentence": "我聽日辦入伙手續，要預早幾多分鐘到？",
+    "category": "住房事务"
+  },
+  {
+    "id": "manual-civic-estate-notice",
+    "displayText": "屋苑通告",
+    "answerJyutping": "uk1 jyun2 tung1 gou3",
+    "gloss": "住宅屋苑发给住户的通知",
+    "notes": "“屋苑”读 uk1 jyun2；常见内容包括维修、停水和活动安排。",
+    "usageTip": "看到屋苑通告先留意日期、受影响楼层和联络方法。",
+    "exampleSentence": "屋苑通告話聽朝會停水兩個鐘。",
+    "category": "社区设施"
+  },
+  {
+    "id": "manual-civic-management-office-hours",
+    "displayText": "管理處辦公時間",
+    "answerJyutping": "gun2 lei5 cyu3 baan6 gung1 si4 gaan3",
+    "gloss": "大厦管理处的服务时段",
+    "notes": "“辦公時間”读 baan6 gung1 si4 gaan3，适合查询而非只问“幾點開”。",
+    "usageTip": "交表、取门禁或报修前，先确认管理處辦公時間。",
+    "exampleSentence": "管理處辦公時間去到夜晚幾點？",
+    "category": "社区设施"
+  },
+  {
+    "id": "manual-civic-residents-meeting",
+    "displayText": "住戶大會",
+    "answerJyutping": "zyu6 wu6 daai6 wui2",
+    "gloss": "由住户参与的社区或大厦会议",
+    "notes": "“住戶”读 zyu6 wu6；“大會”读 daai6 wui2。",
+    "usageTip": "想了解大厦议题，可留意住戶大會的通知和报名方式。",
+    "exampleSentence": "住戶大會星期六下晝喺會所開。",
+    "category": "社区设施"
+  },
+  {
+    "id": "manual-civic-community-hall",
+    "displayText": "民政諮詢中心",
+    "answerJyutping": "man4 zing3 zi1 seon3 zung1 sam1",
+    "gloss": "提供地区事务、公共服务资讯和转介的办事地点。",
+    "notes": "man4 收 n 尾；zi1 是高平声，seon3 收 n 尾；zung1 sam1 都收 m 尾。",
+    "usageTip": "不清楚该找哪个政府部门或地区服务时，可先到民政諮詢中心询问。",
+    "exampleSentence": "我想問申請手續，晏晝去民政諮詢中心了解。",
+    "category": "社区设施"
+  },
+  {
+    "id": "manual-civic-library-card",
+    "displayText": "圖書證",
+    "answerJyutping": "tou4 syu1 zing3",
+    "gloss": "图书馆借阅和使用服务的证件",
+    "notes": "“圖書”读 tou4 syu1；“證”读 zing3。",
+    "usageTip": "借书、续借或使用自助机时，先准备圖書證。",
+    "exampleSentence": "我張圖書證過咗期，要去櫃檯續。",
+    "category": "社区设施"
+  },
+  {
+    "id": "manual-civic-borrowing-period",
+    "displayText": "借閱期限",
+    "answerJyutping": "ze3 jyut6 kei4 haan6",
+    "gloss": "借阅物品可保留的最长期限",
+    "notes": "“借閱”读 ze3 jyut6；“期限”读 kei4 haan6。",
+    "usageTip": "借书后看清借閱期限，避免逾期才发现不能续借。",
+    "exampleSentence": "呢本書嘅借閱期限係兩個禮拜。",
+    "category": "社区设施"
+  },
+  {
+    "id": "manual-civic-book-return-box",
+    "displayText": "還書箱",
+    "answerJyutping": "waan4 syu1 soeng1",
+    "gloss": "图书馆闭馆时归还图书的投递箱",
+    "notes": "“還”在“還書”读 waan4；“箱”读 soeng1。",
+    "usageTip": "闭馆后可用還書箱，但先确认是否接受大型或影音资料。",
+    "exampleSentence": "圖書館閂咗門，我放咗本書入還書箱。",
+    "category": "社区设施"
+  },
+  {
+    "id": "manual-civic-event-quota",
+    "displayText": "活動名額",
+    "answerJyutping": "wut6 dung6 ming4 ngaak6",
+    "gloss": "活动可报名参加的人数上限",
+    "notes": "“名額”读 ming4 ngaak6；ngaak6 是入声。",
+    "usageTip": "报名社区课程时，问清活动名額和候补安排。",
+    "exampleSentence": "呢個工作坊得二十個活動名額。",
+    "category": "社区设施"
+  },
+  {
+    "id": "manual-civic-venue-booking",
+    "displayText": "場地預訂",
+    "answerJyutping": "coeng4 dei6 jyu6 deng6",
+    "gloss": "预先申请使用公共或社区场地",
+    "notes": "“場地”读 coeng4 dei6；“預訂”读 jyu6 deng6。",
+    "usageTip": "申请场地前先了解场地預訂的开放日期和收费。",
+    "exampleSentence": "羽毛球場嘅場地預訂幾時開始？",
+    "category": "社区设施"
+  },
+  {
+    "id": "manual-civic-recycling-station",
+    "displayText": "回收站",
+    "answerJyutping": "wui4 sau1 zaam6",
+    "gloss": "集中收集可回收物的地点",
+    "notes": "“回收”读 wui4 sau1；“站”在这类设施名里读 zaam6。",
+    "usageTip": "去回收站前，先按指示把不同物料分开。",
+    "exampleSentence": "玻璃樽要拎去回收站另外分類。",
+    "category": "社区设施"
+  },
+  {
+    "id": "manual-civic-emergency-hotline",
+    "displayText": "緊急熱線",
+    "answerJyutping": "gan2 gap1 jit6 sin3",
+    "gloss": "在紧急或危急情况下求助的电话热线",
+    "notes": "“緊急”读 gan2 gap1，gap1 是入声；“熱線”读 jit6 sin3。",
+    "usageTip": "有即时危险时直接联络緊急熱線，清楚说出地点和情况。",
+    "exampleSentence": "有即時危險就快啲打緊急熱線。",
+    "category": "紧急情况"
+  },
+  {
+    "id": "manual-civic-emergency-contact",
+    "displayText": "緊急聯絡人",
+    "answerJyutping": "gan2 gap1 lyun4 lok3 jan4",
+    "gloss": "紧急时可代为联络的亲友或负责人",
+    "notes": "“聯絡”读 lyun4 lok3，填表时常要求提供电话号码。",
+    "usageTip": "填医疗或学校表格前，先征得緊急聯絡人同意。",
+    "exampleSentence": "請填一位緊急聯絡人同佢嘅電話。",
+    "category": "紧急情况"
+  },
+  {
+    "id": "manual-civic-incident-location",
+    "displayText": "事發地點",
+    "answerJyutping": "si6 faat3 dei6 dim2",
+    "gloss": "事件发生的具体位置",
+    "notes": "“事發”读 si6 faat3；faat3 是入声，报警时很实用。",
+    "usageTip": "求助时先讲清事發地點，包括大厦名称、楼层和附近地标。",
+    "exampleSentence": "你可唔可以講清楚事發地點喺邊？",
+    "category": "紧急情况"
+  },
+  {
+    "id": "manual-civic-injury-status",
+    "displayText": "受傷情況",
+    "answerJyutping": "sau6 soeng1 cing4 fong3",
+    "gloss": "伤者受伤的部位、程度和状态",
+    "notes": "“受傷”读 sau6 soeng1；说明时应先交代是否清醒、有没有流血。",
+    "usageTip": "报案或叫救护车时，用简短句子说明受傷情況。",
+    "exampleSentence": "傷者受傷情況嚴唔嚴重？",
+    "category": "紧急情况"
+  },
+  {
+    "id": "manual-civic-suspected-gas-leak",
+    "displayText": "懷疑漏煤氣",
+    "answerJyutping": "waai4 ji4 lau6 mui4 hei3",
+    "gloss": "怀疑发生煤气或燃气泄漏",
+    "notes": "“懷疑”读 waai4 ji4；“煤氣”读 mui4 hei3。",
+    "usageTip": "闻到异味时，先离开现场并报告懷疑漏煤氣，不要开关电器。",
+    "exampleSentence": "我聞到陣味，懷疑漏煤氣。",
+    "category": "紧急情况"
+  },
+  {
+    "id": "manual-civic-fire-alarm",
+    "displayText": "火警鐘",
+    "answerJyutping": "fo2 ging2 zung1",
+    "gloss": "火灾警报铃或报警装置",
+    "notes": "“火警”读 fo2 ging2；“鐘”读 zung1。",
+    "usageTip": "听到火警鐘时按疏散指示离开，不要为了拿物品返回。",
+    "exampleSentence": "火警鐘一響，大家跟住指示落樓。",
+    "category": "紧急情况"
+  },
+  {
+    "id": "manual-civic-emergency-exit",
+    "displayText": "緊急出口",
+    "answerJyutping": "gan2 gap1 ceot1 hau2",
+    "gloss": "发生危险时供人员撤离的出口",
+    "notes": "“出口”读 ceot1 hau2；ceot1 是入声。",
+    "usageTip": "到戏院、商场或活动场地时，顺手留意緊急出口位置。",
+    "exampleSentence": "緊急出口喺走廊盡頭右手邊。",
+    "category": "紧急情况"
+  },
+  {
+    "id": "manual-civic-assembly-point",
+    "displayText": "集合地點",
+    "answerJyutping": "zaap6 hap6 dei6 dim2",
+    "gloss": "紧急疏散后集合点名的地点",
+    "notes": "“集合”读 zaap6 hap6，两个音节都应收得短。",
+    "usageTip": "疏散后不要自行走开，到集合地點让负责人核对人数。",
+    "exampleSentence": "離開大廈之後去集合地點等候。",
+    "category": "紧急情况"
+  },
+  {
+    "id": "manual-civic-temporary-shelter",
+    "displayText": "臨時庇護中心",
+    "answerJyutping": "lam4 si4 bei3 wu6 zung1 sam1",
+    "gloss": "恶劣天气或灾害期间暂时安置市民的中心",
+    "notes": "“庇護”读 bei3 wu6；“中心”读 zung1 sam1。",
+    "usageTip": "恶劣天气无法安全回家时，可查询最近的臨時庇護中心。",
+    "exampleSentence": "風暴期間附近有冇臨時庇護中心開放？",
+    "category": "紧急情况"
+  },
+  {
+    "id": "manual-civic-suspicious-object",
+    "displayText": "可疑物品",
+    "answerJyutping": "ho2 ji4 mat6 ban2",
+    "gloss": "来历不明或可能存在危险的物品",
+    "notes": "“可疑”读 ho2 ji4；“物品”读 mat6 ban2。",
+    "usageTip": "发现可疑物品时别触碰，记住位置后通知保安或警方。",
+    "exampleSentence": "呢個袋冇人認領，可能係可疑物品。",
+    "category": "紧急情况"
+  }
+]

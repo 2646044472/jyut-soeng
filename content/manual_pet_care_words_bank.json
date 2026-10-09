@@ -1,0 +1,102 @@
+[
+  {
+    "id": "manual-pet-leash",
+    "displayText": "狗帶",
+    "answerJyutping": "gau2 daai2",
+    "gloss": "带狗外出时套在颈圈或胸背带上、由主人握住以控制活动范围的牵引带。",
+    "notes": "香港日常也会说「牵狗带」；单说「狗带」已经很常见。",
+    "usageTip": "出门前可问「拎咗狗帶未」；进入商场、升降机或人多地方时更常需要用到。",
+    "exampleSentence": "你帮我喺门口拎条狗帶，我带佢落去散步。",
+    "category": "宠物照料"
+  },
+  {
+    "id": "manual-pet-tag",
+    "displayText": "狗牌",
+    "answerJyutping": "gau2 paai4",
+    "gloss": "挂在狗只颈圈上的识别牌，通常写有名字、联络方法或登记资料。",
+    "notes": "「牌」在这里指小型识别牌，不是车牌或店铺招牌。",
+    "usageTip": "替狗只换颈圈后，要记得把狗牌一并扣好，走失时别人较容易联络主人。",
+    "exampleSentence": "我喺狗牌背面刻咗自己个电话号码。",
+    "category": "宠物照料"
+  },
+  {
+    "id": "manual-pet-food",
+    "displayText": "寵物糧",
+    "answerJyutping": "cung2 mat6 loeng4",
+    "gloss": "按猫、狗等宠物所需营养配制，可作日常主食的干粮、湿粮或其他饲料。",
+    "notes": "「粮」多用于宠物的主食；零食和罐头未必都叫宠物粮。",
+    "usageTip": "换新品牌前可先买小包装观察；同店员说宠物糧时，通常还会交代宠物种类和年龄。",
+    "exampleSentence": "屋企啲寵物糧就嚟食晒，放工要去补货。",
+    "category": "宠物照料"
+  },
+  {
+    "id": "manual-pet-cat-litter",
+    "displayText": "貓砂",
+    "answerJyutping": "maau1 saa1",
+    "gloss": "铺在猫砂盆内、让猫排泄后吸收水分和气味的颗粒状垫料。",
+    "notes": "常见有矿砂、豆腐砂和木屑砂等种类，日常统称都是「猫砂」。",
+    "usageTip": "买貓砂时可按除味、结团和弃置方式选择；家里有人对气味敏感时更要留意。",
+    "exampleSentence": "我琴日先换咗貓砂，今日唔使再买。",
+    "category": "宠物照料"
+  },
+  {
+    "id": "manual-pet-litter-box",
+    "displayText": "貓砂盆",
+    "answerJyutping": "maau1 saa1 pun4",
+    "gloss": "盛放猫砂、供猫固定排泄使用的浅盆或带盖容器。",
+    "notes": "「盆」读 pun4；有盖款、开放式和自动清理款都属于猫砂盆。",
+    "usageTip": "清理时可说「铲貓砂盆」；摆放位置宜安静通风，避免紧贴猫的食物和水碗。",
+    "exampleSentence": "隻猫成日拨到啲砂出嚟，可能要换个深啲的貓砂盆。",
+    "category": "宠物照料"
+  },
+  {
+    "id": "manual-pet-clinic",
+    "displayText": "寵物診所",
+    "answerJyutping": "cung2 mat6 can2 so2",
+    "gloss": "由兽医为猫、狗等动物提供检查、护理和健康咨询服务的诊所。",
+    "notes": "预约时常会说明宠物种类、年龄和主要情况；「诊所」读 can2 so2。",
+    "usageTip": "需要预约时可说「想约寵物診所睇下佢」；紧急状况则先问是否能即时接诊。",
+    "exampleSentence": "我约咗间寵物診所，听日带隻猫去检查。",
+    "category": "宠物照料"
+  },
+  {
+    "id": "manual-pet-grooming-trim",
+    "displayText": "剪毛",
+    "answerJyutping": "zin2 mou4",
+    "gloss": "替宠物修短、整理或造型身体毛发的护理服务或动作。",
+    "notes": "可说「去剪毛」或「帮佢剪毛」；长毛品种常需定期整理。",
+    "usageTip": "预约前可说明想剪短、只修脚底毛还是连洗澡一起做，避免到店后才临时沟通。",
+    "exampleSentence": "天气热咗，我想带佢去剪毛。",
+    "category": "宠物照料"
+  },
+  {
+    "id": "manual-pet-boarding",
+    "displayText": "寄養",
+    "answerJyutping": "gei3 joeng5",
+    "gloss": "主人短时间无法照顾宠物时，委托亲友、店铺或机构暂时照料的安排。",
+    "notes": "「寄养」既可指送到别人家，也可指送到有留宿服务的宠物店。",
+    "usageTip": "出远门前安排寄養，要先交代喂食习惯、药物、性格和紧急联络方法。",
+    "exampleSentence": "我出差三日，已经帮隻狗安排咗寄養。",
+    "category": "宠物照料"
+  },
+  {
+    "id": "manual-pet-lost",
+    "displayText": "走失",
+    "answerJyutping": "zau2 sat1",
+    "gloss": "人或宠物离开原本应在的地方后失去踪影，暂时找不到的情况。",
+    "notes": "常说「宠物走失」；和「失踪」相比，走失更强调意外离开或迷路。",
+    "usageTip": "宠物走失时可把照片、最后出现地点和联络方法写清楚，再向附近管理处和社区群组求助。",
+    "exampleSentence": "我朋友隻猫走失咗，大家帮手留意下楼梯间。",
+    "category": "宠物照料"
+  },
+  {
+    "id": "manual-pet-adoption",
+    "displayText": "領養",
+    "answerJyutping": "ling5 joeng5",
+    "gloss": "把没有固定照顾者的动物正式接回家，并长期承担照料责任的安排。",
+    "notes": "用于动物时带有长期负责的意味，不只是暂时带回家玩。",
+    "usageTip": "考虑領養前要先衡量住屋规定、时间和长期开支；机构通常会了解申请人的照顾安排。",
+    "exampleSentence": "我哋决定領養之前，先问清楚屋苑可唔可以养狗。",
+    "category": "宠物照料"
+  }
+]

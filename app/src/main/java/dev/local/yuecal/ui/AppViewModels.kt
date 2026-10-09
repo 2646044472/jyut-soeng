@@ -19,15 +19,20 @@ import dev.local.yuecal.domain.DashboardSummary
 import dev.local.yuecal.domain.SessionMode
 import dev.local.yuecal.domain.StudyQuestion
 import dev.local.yuecal.domain.StudySession
+import dev.local.yuecal.domain.todayEpochDay
+import dev.local.yuecal.domain.todayStartEpochMillis
+import dev.local.yuecal.domain.tomorrowStartEpochMillis
 import dev.local.yuecal.media.AppFeedbackPlayer
 import dev.local.yuecal.work.AppWorkScheduler
 import java.util.UUID
 import javax.inject.Inject
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
@@ -36,6 +41,8 @@ import kotlinx.coroutines.launch
 
 data class TodayUiState(
     val dashboard: DashboardSummary = DashboardSummary(),
+    val dailySentenceGoal: Int = 50,
+    val sentencesLearnedToday: Int = 0,
 )
 
 data class LibraryUiState(
@@ -50,7 +57,33 @@ data class LibraryUiState(
 data class SearchUiState(
     val query: String = "",
     val results: List<CalibrationEntry> = emptyList(),
+    val isSearching: Boolean = false,
 )
+
+data class SentenceReaderUiState(
+    val sentences: List<CalibrationEntry> = emptyList(),
+    val totalSentenceCount: Int = 0,
+)
+
+data class SentenceLearningUiState(
+    val dailyGoal: Int = 50,
+    val learnedToday: Int = 0,
+    val totalSentenceCount: Int = 0,
+    val dueToday: Int = 0,
+) {
+    val remainingToday: Int
+        get() = (dailyGoal - learnedToday).coerceAtLeast(0)
+}
+
+data class SentenceStudyUiState(
+    val isLoading: Boolean = true,
+    val isSaving: Boolean = false,
+    val session: StudySession? = null,
+    val currentIndex: Int = 0,
+) {
+    val currentSentence: StudyQuestion?
+        get() = session?.questions?.getOrNull(currentIndex)
+}
 
 data class ProfileUiState(
     val settings: AppSettings = AppSettings(),
@@ -87,12 +120,46 @@ data class SessionFeedback(
     val userAnswer: String,
 )
 
+private data class LocalDayWindow(
+    val startMillis: Long,
+    val endMillis: Long,
+    val epochDay: Long,
+)
+
+private fun localDayWindowFlow() = flow {
+    while (true) {
+        val startMillis = todayStartEpochMillis()
+        val endMillis = tomorrowStartEpochMillis()
+        emit(LocalDayWindow(startMillis, endMillis, todayEpochDay()))
+        delay((endMillis - System.currentTimeMillis()).coerceAtLeast(1_000L))
+    }
+}
+
 @HiltViewModel
+@OptIn(ExperimentalCoroutinesApi::class)
 class TodayViewModel @Inject constructor(
     repository: CalibratorRepository,
 ) : ViewModel() {
 
-    val uiState: StateFlow<TodayUiState> = repository.dashboard.map(::TodayUiState).stateIn(
+    private val sentenceProgress = localDayWindowFlow().flatMapLatest { window ->
+        repository.observeNewEntriesStudied(
+            entryType = "sentence",
+            startOfDayMillis = window.startMillis,
+            endOfDayMillis = window.endMillis,
+        )
+    }
+
+    val uiState: StateFlow<TodayUiState> = combine(
+        repository.dashboard,
+        repository.settings,
+        sentenceProgress,
+    ) { dashboard, settings, learnedToday ->
+        TodayUiState(
+            dashboard = dashboard,
+            dailySentenceGoal = settings.dailySentenceLearnGoal,
+            sentencesLearnedToday = learnedToday,
+        )
+    }.stateIn(
         scope = viewModelScope,
         started = SharingStarted.WhileSubscribed(5_000),
         initialValue = TodayUiState(),
@@ -171,17 +238,137 @@ internal fun filterLibraryEntries(
 }
 
 @HiltViewModel
+class SentenceReaderViewModel @Inject constructor(
+    repository: CalibratorRepository,
+) : ViewModel() {
+
+    private val localDay = flow {
+        while (true) {
+            emit(todayEpochDay())
+            delay((tomorrowStartEpochMillis() - System.currentTimeMillis()).coerceAtLeast(1_000L))
+        }
+    }
+
+    val uiState: StateFlow<SentenceReaderUiState> = combine(repository.sentenceEntries, localDay) { entries, day ->
+        SentenceReaderUiState(
+            sentences = selectDailySentenceEntries(entries, day),
+            totalSentenceCount = entries.size,
+        )
+    }.stateIn(
+        scope = viewModelScope,
+        started = SharingStarted.WhileSubscribed(5_000),
+        initialValue = SentenceReaderUiState(),
+    )
+}
+
+@HiltViewModel
+@OptIn(ExperimentalCoroutinesApi::class)
+class SentenceLearningViewModel @Inject constructor(
+    repository: CalibratorRepository,
+) : ViewModel() {
+
+    private val sentenceProgress = localDayWindowFlow().flatMapLatest { window ->
+        repository.observeNewEntriesStudied(
+            entryType = "sentence",
+            startOfDayMillis = window.startMillis,
+            endOfDayMillis = window.endMillis,
+        )
+    }
+
+    private val dueSentences = localDayWindowFlow().flatMapLatest { window ->
+        repository.observeDueEntries(entryType = "sentence", today = window.epochDay)
+    }
+
+    val uiState: StateFlow<SentenceLearningUiState> = combine(
+        repository.sentenceEntries,
+        repository.settings,
+        sentenceProgress,
+        dueSentences,
+    ) { entries, settings, learnedToday, dueToday ->
+        SentenceLearningUiState(
+            dailyGoal = settings.dailySentenceLearnGoal,
+            learnedToday = learnedToday,
+            totalSentenceCount = entries.size,
+            dueToday = dueToday,
+        )
+    }.stateIn(
+        scope = viewModelScope,
+        started = SharingStarted.WhileSubscribed(5_000),
+        initialValue = SentenceLearningUiState(),
+    )
+}
+
+@HiltViewModel
+class SentenceStudyViewModel @Inject constructor(
+    private val repository: CalibratorRepository,
+) : ViewModel() {
+
+    private val mutableState = MutableStateFlow(SentenceStudyUiState())
+    val uiState: StateFlow<SentenceStudyUiState> = mutableState
+
+    init {
+        viewModelScope.launch {
+            val session = repository.buildSession(mode = SessionMode.Learn, entryType = "sentence")
+            mutableState.value = SentenceStudyUiState(isLoading = false, session = session)
+        }
+    }
+
+    fun learnCurrentAndAdvance() {
+        val state = uiState.value
+        val session = state.session ?: return
+        val sentence = state.currentSentence ?: return
+        if (state.isLoading || state.isSaving) return
+
+        mutableState.update { it.copy(isSaving = true) }
+        viewModelScope.launch {
+            repository.submitAnswer(
+                sessionId = session.sessionId,
+                question = sentence,
+                selectedAnswer = sentence.answerJyutping,
+                responseMillis = 0L,
+            )
+            mutableState.update { current ->
+                current.copy(
+                    currentIndex = current.currentIndex + 1,
+                    isSaving = false,
+                )
+            }
+        }
+    }
+}
+
+internal fun selectDailySentenceEntries(
+    entries: List<CalibrationEntry>,
+    epochDay: Long,
+    limit: Int = 8,
+): List<CalibrationEntry> {
+    if (entries.isEmpty() || limit <= 0) return emptyList()
+
+    val ordered = entries.sortedBy { it.id }
+    val start = ((Math.floorMod(epochDay, ordered.size.toLong()) * limit) % ordered.size).toInt()
+    return List(minOf(limit, ordered.size)) { offset ->
+        ordered[(start + offset) % ordered.size]
+    }
+}
+
+@HiltViewModel
 @OptIn(ExperimentalCoroutinesApi::class)
 class SearchViewModel @Inject constructor(
     private val repository: CalibratorRepository,
 ) : ViewModel() {
 
     private val query = MutableStateFlow("")
+    private val searchResults = query.flatMapLatest { searchQuery ->
+        repository.searchEntries(searchQuery).map { results -> searchQuery to results }
+    }
 
-    val uiState: StateFlow<SearchUiState> = query.flatMapLatest { currentQuery ->
-        repository.searchEntries(currentQuery).map { results ->
-            SearchUiState(query = currentQuery, results = results)
-        }
+    val uiState: StateFlow<SearchUiState> = combine(query, searchResults) { currentQuery, searchResult ->
+        val (resultsQuery, results) = searchResult
+        SearchUiState(
+            query = currentQuery,
+            results = results.takeIf { resultsQuery == currentQuery }.orEmpty(),
+            isSearching = resultsQuery != currentQuery,
+        )
     }.stateIn(
         scope = viewModelScope,
         started = SharingStarted.WhileSubscribed(5_000),
@@ -251,6 +438,12 @@ class ProfileViewModel @Inject constructor(
     fun updateDailyLearnGoal(goal: Int) {
         viewModelScope.launch {
             settingsStore.setDailyLearnGoal(goal)
+        }
+    }
+
+    fun updateDailySentenceLearnGoal(goal: Int) {
+        viewModelScope.launch {
+            settingsStore.setDailySentenceLearnGoal(goal)
         }
     }
 
@@ -386,6 +579,8 @@ class SessionViewModel @Inject constructor(
         "review" -> SessionMode.Review
         else -> SessionMode.Learn
     }
+    private val entryType: String? = savedStateHandle.get<String>("focus")
+        ?.takeIf { it == "word" || it == "expression" || it == "sentence" }
 
     init {
         viewModelScope.launch {
@@ -398,7 +593,7 @@ class SessionViewModel @Inject constructor(
 
     fun loadSession() {
         viewModelScope.launch {
-            sessionStateStore.clear(mode)
+            sessionStateStore.clear(mode, entryType)
             buildFreshSession()
         }
     }
@@ -494,7 +689,7 @@ class SessionViewModel @Inject constructor(
         viewModelScope.launch {
             val autoplayAudio = mutableState.value.autoplayAudio
             mutableState.value = SessionUiState(isLoading = true, autoplayAudio = autoplayAudio)
-            val restoredState = sessionStateStore.read(mode)
+            val restoredState = sessionStateStore.read(mode, entryType)
             if (restoredState != null) {
                 restorePersistedSession(restoredState, autoplayAudio)
             } else {
@@ -507,7 +702,7 @@ class SessionViewModel @Inject constructor(
         val autoplayAudio = mutableState.value.autoplayAudio
         currentRoundMistakes.clear()
         mutableState.value = SessionUiState(isLoading = true, autoplayAudio = autoplayAudio)
-        val session = repository.buildSession(mode = mode)
+        val session = repository.buildSession(mode = mode, entryType = entryType)
         questionStartMillis = System.currentTimeMillis()
         mutableState.value = SessionUiState(
             isLoading = false,
@@ -551,11 +746,12 @@ class SessionViewModel @Inject constructor(
         val session = state.session
         val currentQuestion = state.currentQuestion
         if (state.isLoading || session == null || currentQuestion == null) {
-            sessionStateStore.clear(mode)
+            sessionStateStore.clear(mode, entryType)
             return
         }
         sessionStateStore.save(
             mode = mode,
+            entryType = entryType,
             state = PersistedSessionState(
                 session = session,
                 currentIndex = state.currentIndex,

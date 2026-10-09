@@ -1,0 +1,702 @@
+[
+  {
+    "id": "manual-routine-sai2-min6",
+    "displayText": "洗面",
+    "answerJyutping": "sai2 min6",
+    "gloss": "清洁脸部，把睡醒后的油脂、汗水或灰尘洗掉",
+    "notes": "sai2 的 ai 要拉开；min6 是低去声，n 尾要轻收，不要读成普通话式 xǐ liǎn。",
+    "usageTip": "日常多说「去洗面」或「洗個面先」；在香港口语里比「洗脸」自然。",
+    "exampleSentence": "我一起身就去洗面，之後先食早餐。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-caat3-ngaa4",
+    "displayText": "刷牙",
+    "answerJyutping": "caat3 ngaa4",
+    "gloss": "用牙刷和牙膏清洁牙齿",
+    "notes": "caat3 收 t 尾要短；ngaa4 要保留 ng 起音，aa 韵打开。",
+    "usageTip": "可说「刷晒牙未？」问人是否已完成早晚梳洗；「刷牙先瞓」也很常用。",
+    "exampleSentence": "夜晚無論幾攰，我都會刷牙先瞓。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-sau3-hau2",
+    "displayText": "漱口",
+    "answerJyutping": "sau3 hau2",
+    "gloss": "含着清水或漱口水在口中冲洗，然后吐掉",
+    "notes": "sau3 和 hau2 都有 au 韵，前者去声落稳，后者二声上扬。",
+    "usageTip": "饭后或刷牙后都可用；若特指漱口水，可说「用漱口水漱口」。",
+    "exampleSentence": "食完蒜頭記得漱口，口氣會清新啲。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-sai2-tau4",
+    "displayText": "洗頭",
+    "answerJyutping": "sai2 tau4",
+    "gloss": "用洗发水清洗头发和头皮",
+    "notes": "sai2 的 ai 要清；tau4 的 au 要完整，四声不要压得太低。",
+    "usageTip": "可说「今晚要洗頭」；在理发店也会听到「要唔要洗頭？」。",
+    "exampleSentence": "我頭髮出咗汗，返到屋企要即刻洗頭。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-so1-tau4",
+    "displayText": "梳頭",
+    "answerJyutping": "so1 tau4",
+    "gloss": "用梳子把头发梳顺、整理发型",
+    "notes": "so1 的 o 要圆；tau4 的 au 韵拉开，两个音节不要黏成一个。",
+    "usageTip": "除指梳顺头发，也可用于出门前整理发型；常说「梳好頭先出門」。",
+    "exampleSentence": "你梳頭嗰陣慢啲，打結嘅地方唔好硬扯。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-ceoi1-tau4",
+    "displayText": "吹頭",
+    "answerJyutping": "ceoi1 tau4",
+    "gloss": "用风筒把洗后的头发吹干",
+    "notes": "ceoi1 的 eoi 韵要圆唇；tau4 的 au 要完整，注意不是 ceoi1 tau2。",
+    "usageTip": "口语常省略「髮」；可说「吹乾頭先瞓」，强调别湿着头睡觉。",
+    "exampleSentence": "天氣涼，洗完頭記得吹頭先瞓。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-tai3-sou1",
+    "displayText": "剃鬚",
+    "answerJyutping": "tai3 sou1",
+    "gloss": "用剃刀或电动刮胡刀把胡须刮掉",
+    "notes": "tai3 的 ai 拉开后落声；sou1 的 ou 要圆，不要读成 sau1。",
+    "usageTip": "多用于男性日常整理仪容；可说「剃乾淨啲鬚」表达刮得更干净。",
+    "exampleSentence": "佢朝早返工前通常會剃鬚。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-sau1-mei4",
+    "displayText": "修眉",
+    "answerJyutping": "sau1 mei4",
+    "gloss": "修整眉毛的杂毛和形状，使眉形整齐",
+    "notes": "sau1 的 au 要开；mei4 的 ei 要清楚，四声平稳。",
+    "usageTip": "可自己处理，也可到美容店做；说「修一修眉」语气较轻松。",
+    "exampleSentence": "我聽日要影證件相，今晚想修眉。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-zin2-zi2-gaap3",
+    "displayText": "剪指甲",
+    "answerJyutping": "zin2 zi2 gaap3",
+    "gloss": "用指甲钳把过长的指甲剪短",
+    "notes": "zin2 和 zi2 都是二声；gaap3 收 p 尾要短，aa 韵要打开。",
+    "usageTip": "日常可说「剪短啲指甲」；帮小朋友剪时常提醒「唔好剪得太貼肉」。",
+    "exampleSentence": "你隻指甲太長喇，今晚記得剪指甲。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-wat6-ji5-zai2",
+    "displayText": "挖耳仔",
+    "answerJyutping": "wat6 ji5 zai2",
+    "gloss": "用棉花棒或掏耳工具清理耳垢",
+    "notes": "wat6 收 t 尾；ji5 的 i 要短；zai2 的 ai 韵清楚上扬。",
+    "usageTip": "是很口语的说法；若耳朵不舒服，日常提醒中会说「唔好自己亂挖耳仔」。",
+    "exampleSentence": "我隻耳仔有啲痕，但唔敢亂挖耳仔。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-caa4-jeon6-seon4-gou1",
+    "displayText": "搽潤唇膏",
+    "answerJyutping": "caa4 jeon6 seon4 gou1",
+    "gloss": "在嘴唇涂上润唇膏，减轻干裂和紧绷",
+    "notes": "caa4 的 aa 要开；jeon6、seon4 的 eo 要圆唇；gou1 的 ou 读完整。",
+    "usageTip": "天气干燥或长时间待冷气房时很实用；「搽」是粤语里涂抹护肤品的常用动词。",
+    "exampleSentence": "我出門前會搽潤唇膏，嘴唇就唔會咁乾。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-caa4-min6-soeng1",
+    "displayText": "搽面霜",
+    "answerJyutping": "caa4 min6 soeng1",
+    "gloss": "在脸上涂保湿霜，帮助皮肤保持滋润",
+    "notes": "caa4 要拉开 aa；min6 低去；soeng1 的 eo 圆唇，ng 尾收好。",
+    "usageTip": "洗面后或睡前都常用；「搽面霜」比直接说「涂面霜」更贴近粤语口语。",
+    "exampleSentence": "洗完面之後，我會即刻搽面霜保濕。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-caa4-fong4-saai3",
+    "displayText": "搽防曬",
+    "answerJyutping": "caa4 fong4 saai3",
+    "gloss": "在皮肤涂防晒用品，减少日光曝晒造成的伤害",
+    "notes": "fong4 的 ong 要圆；saai3 的 aai 要拉开，去声清楚。",
+    "usageTip": "不只去沙滩才用；白天外出前可说「記得搽防曬」，非常日常。",
+    "exampleSentence": "今日陽光好猛，出門前記得搽防曬。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-se3-zong1",
+    "displayText": "卸妝",
+    "answerJyutping": "se3 zong1",
+    "gloss": "用卸妆产品把脸上的彩妆清除干净",
+    "notes": "se3 的 e 韵短清；zong1 的 ong 要圆，ng 尾不要省掉。",
+    "usageTip": "化妆后睡前一定会用；可说「卸乾淨妝」强调没有残留。",
+    "exampleSentence": "就算好攰，化咗妝都要卸妝先瞓。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-fu1-min6-mok6",
+    "displayText": "敷面膜",
+    "answerJyutping": "fu1 min6 mok6",
+    "gloss": "把面膜敷在脸上，作短时间的护肤保湿",
+    "notes": "fu1 要圆唇；min6 读低去；mok6 的 o 短，k 尾利落。",
+    "usageTip": "通常接时长，如「敷十分鐘面膜」；不宜敷得太久。",
+    "exampleSentence": "我沖完涼想敷面膜，等皮膚補補水。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-caa4-zi2-hon6-zai6",
+    "displayText": "搽止汗劑",
+    "answerJyutping": "caa4 zi2 hon6 zai6",
+    "gloss": "在腋下等部位涂止汗产品，减少出汗和体味",
+    "notes": "zi2 上扬；hon6 的 o 要圆；zai6 的 ai 清楚，声调落稳。",
+    "usageTip": "炎热天气或运动前会用；可说「搽定止汗劑」表示预先准备。",
+    "exampleSentence": "夏天返工前搽止汗劑，成日會舒服啲。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-pok3-song2-san1-fan2",
+    "displayText": "撲爽身粉",
+    "answerJyutping": "pok3 song2 san1 fan2",
+    "gloss": "把爽身粉轻拍在皮肤上，保持干爽并减少闷热感",
+    "notes": "pok3 收 k 尾；song2 的 ong 要圆；fan2 的 n 尾收稳。",
+    "usageTip": "多用于洗澡后、天气湿热时或照顾小朋友；「撲」突出轻拍的动作。",
+    "exampleSentence": "沖完涼撲爽身粉，皮膚冇咁黐笠笠。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-daai3-jan2-jing4-ngaan5-geng3",
+    "displayText": "戴隱形眼鏡",
+    "answerJyutping": "daai3 jan2 jing4 ngaan5 geng3",
+    "gloss": "把隐形眼镜放进眼睛，以改善视力或改变眼睛外观",
+    "notes": "daai3 的 aai 要开；jan2 的 n 尾收；ngaan5 要发 ng 起音；geng3 的 e 清楚。",
+    "usageTip": "前面常说「先洗手」；描述日常习惯可说「我平時戴隱形眼鏡」。",
+    "exampleSentence": "我戴隱形眼鏡之前一定會洗乾淨手。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-ceoi4-jan2-jing4-ngaan5-geng3",
+    "displayText": "除隱形眼鏡",
+    "answerJyutping": "ceoi4 jan2 jing4 ngaan5 geng3",
+    "gloss": "把戴着的隐形眼镜从眼睛取下来",
+    "notes": "ceoi4 的 eoi 韵圆唇；jing4 和 geng3 的 ng 尾都要收清楚。",
+    "usageTip": "晚间睡觉前最常用；口语里「除」可用于取下眼镜、衣物等。",
+    "exampleSentence": "返到屋企我第一時間除隱形眼鏡。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-zam3-goek3",
+    "displayText": "浸腳",
+    "answerJyutping": "zam3 goek3",
+    "gloss": "把双脚泡在温水中，让脚部放松或暖和起来",
+    "notes": "zam3 收 m 尾；goek3 是入声，e 韵短，k 尾要收。",
+    "usageTip": "天冷、走路多或睡前都常说；也可说「浸吓腳」让语气更随意。",
+    "exampleSentence": "行咗成日街，返到屋企浸腳好舒服。",
+    "category": "個人護理"
+  },
+  {
+    "id": "manual-routine-gaan2-saam1",
+    "displayText": "揀衫",
+    "answerJyutping": "gaan2 saam1",
+    "gloss": "从衣服中挑选当天或某个场合要穿的一件",
+    "notes": "gaan2 的 aa 要开，n 尾收好；saam1 的 aa 拉开，m 尾合唇。",
+    "usageTip": "日常很常用，可接场合，例如「揀衫返工」；比「選衣服」更口语。",
+    "exampleSentence": "聽日要見客，我今晚想揀衫襯定。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-wun6-saam1",
+    "displayText": "換衫",
+    "answerJyutping": "wun6 saam1",
+    "gloss": "脱下身上的衣服，改穿另一套或另一件",
+    "notes": "wun6 要圆唇，n 尾收稳；saam1 的 aa 韵不要缩短。",
+    "usageTip": "在家、运动后或回家后都很自然；可说「換返件乾淨衫」。",
+    "exampleSentence": "你件衫濕咗，快啲換衫啦。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-zoek3-dai2-saam1",
+    "displayText": "著底衫",
+    "answerJyutping": "zoek3 dai2 saam1",
+    "gloss": "穿上贴身的内衣或打底上衣",
+    "notes": "zoek3 是入声，k 尾短收；dai2 的 ai 要清；saam1 收 m 尾。",
+    "usageTip": "天气转凉时很实用；「底衫」常指穿在外衣里面的一层。",
+    "exampleSentence": "今日凍咗好多，記得著底衫保暖。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-zoek3-hung1-wai4",
+    "displayText": "著胸圍",
+    "answerJyutping": "zoek3 hung1 wai4",
+    "gloss": "穿上胸罩，作为日常贴身衣物的一部分",
+    "notes": "zoek3 收 k 尾；hung1 的 ung 要圆；wai4 的 ai 韵完整。",
+    "usageTip": "用于个人衣着或购买试穿语境；说话时按对象和场合保持自然得体。",
+    "exampleSentence": "呢件裙露背，我要著胸圍先覺得穩陣。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-zoek3-dai2-fu3",
+    "displayText": "著底褲",
+    "answerJyutping": "zoek3 dai2 fu3",
+    "gloss": "穿上内裤或贴身打底裤",
+    "notes": "zoek3 收 k 尾；dai2 上扬；fu3 要圆唇并读去声。",
+    "usageTip": "是贴身衣物的日常说法；照顾小朋友时也常用这个词。",
+    "exampleSentence": "沖完涼先著底褲，再換睡衣。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-zoek3-mat6",
+    "displayText": "著襪",
+    "answerJyutping": "zoek3 mat6",
+    "gloss": "把袜子穿到脚上",
+    "notes": "zoek3 和 mat6 都是入声，前者收 k 尾、后者收 t 尾，两个尾音要分清。",
+    "usageTip": "出门前常说「著對襪先」；要说明数量时，用量词「對」。",
+    "exampleSentence": "地板凍，著襪行會舒服啲。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-zoek3-haai4",
+    "displayText": "著鞋",
+    "answerJyutping": "zoek3 haai4",
+    "gloss": "把鞋穿到脚上，准备出门或活动",
+    "notes": "zoek3 收 k 尾；haai4 的 aai 要拉开，四声平稳。",
+    "usageTip": "常和「除鞋」相对；可加「對」说「著對運動鞋」。",
+    "exampleSentence": "我著鞋之後就可以出門喇。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-zoek3-ngoi6-tou3",
+    "displayText": "著外套",
+    "answerJyutping": "zoek3 ngoi6 tou3",
+    "gloss": "穿上外套以挡风、保暖或配搭衣着",
+    "notes": "ngoi6 要发 ng 起音；tou3 的 ou 圆唇，去声落稳。",
+    "usageTip": "看天气提醒人时很实用，如「夜晚涼，著外套啦」。",
+    "exampleSentence": "商場冷氣好勁，入去前著外套好啲。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-ceoi4-saam1",
+    "displayText": "除衫",
+    "answerJyutping": "ceoi4 saam1",
+    "gloss": "把上身穿着的衣服脱下来",
+    "notes": "ceoi4 的 eoi 韵圆唇；saam1 的 aa 拉开，m 尾轻收。",
+    "usageTip": "和「換衫」不同，「除衫」只强调脱下；在家或运动后都可用。",
+    "exampleSentence": "返到屋企先除衫，唔好將街衫坐上床。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-ceoi4-haai4",
+    "displayText": "除鞋",
+    "answerJyutping": "ceoi4 haai4",
+    "gloss": "把穿着的鞋脱下来",
+    "notes": "ceoi4 的 eoi 要圆；haai4 的 aai 韵清楚，四声保持平稳。",
+    "usageTip": "进屋、进榻榻米区或试鞋时很常用；也可说「除咗鞋先入」。",
+    "exampleSentence": "入屋記得除鞋，對拖鞋喺門口。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-laai1-laai1-lim6",
+    "displayText": "拉拉鏈",
+    "answerJyutping": "laai1 laai1 lim6",
+    "gloss": "把拉链向上或向下拉，用来扣好或打开衣物、裤子和袋子",
+    "notes": "兩個 laai1 都要把 aai 韵拉开；lim6 的 i 短，m 尾合唇。",
+    "usageTip": "可加方向说「拉好拉鏈」或「拉低拉鏈」；口语常把「拉鏈」重复在动词后。",
+    "exampleSentence": "出門前記得拉拉鏈，唔好畀冷風吹入去。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-kau3-nau2",
+    "displayText": "扣鈕",
+    "answerJyutping": "kau3 nau2",
+    "gloss": "把衣服上的纽扣扣进扣眼，使衣服合上",
+    "notes": "kau3 与 nau2 都有 au 韵，前者去声、后者二声，声调对比要清楚。",
+    "usageTip": "「鈕」是纽扣的口语说法；着恤衫或外套时可说「扣好啲鈕」。",
+    "exampleSentence": "天氣涼，記得扣鈕先出門。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-sung1-hoi1-nau2",
+    "displayText": "鬆開鈕",
+    "answerJyutping": "sung1 hoi1 nau2",
+    "gloss": "把已经扣上的纽扣解开或放松一点",
+    "notes": "sung1 的 ung 要圆唇；hoi1 的 oi 韵圆；nau2 的 au 上扬。",
+    "usageTip": "领口太紧、天气太热时可这样说；比直接说「除衫」只多了松开局部的意思。",
+    "exampleSentence": "你條領帶太緊，不如鬆開鈕透吓氣。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-zaat3-tau4-faat3",
+    "displayText": "紮頭髮",
+    "answerJyutping": "zaat3 tau4 faat3",
+    "gloss": "用橡皮筋或发圈把头发绑起来",
+    "notes": "zaat3 和 faat3 都收 t 尾；tau4 的 au 要完整，三个音节要分开。",
+    "usageTip": "做运动、吃饭或天气热时常用；可接发型，如「紮馬尾」。",
+    "exampleSentence": "天氣咁熱，我想紮頭髮先出街。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-gaap3-tau4-faat3",
+    "displayText": "夾頭髮",
+    "answerJyutping": "gaap3 tau4 faat3",
+    "gloss": "用发夹把头发固定在适当位置",
+    "notes": "gaap3 收 p 尾；tau4 的 au 拉开；faat3 收 t 尾短促。",
+    "usageTip": "多指用发夹整理刘海或散发；和「紮頭髮」相比，未必会把全部头发绑起。",
+    "exampleSentence": "我把瀏海夾頭髮夾起，洗面會方便啲。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-gyun2-zau6-hau2",
+    "displayText": "捲袖口",
+    "answerJyutping": "gyun2 zau6 hau2",
+    "gloss": "把衣袖从手腕处往上卷起，方便做事或觉得较凉快",
+    "notes": "gyun2 要圆唇；zau6 的 au 完整；hau2 的 au 韵二声上扬。",
+    "usageTip": "洗手、煮饭或做清洁前很常用；也可说「捲高啲袖口」。",
+    "exampleSentence": "洗碗前捲袖口，唔好整濕件衫。",
+    "category": "衣著整理"
+  },
+  {
+    "id": "manual-routine-sai2-ji1-jik6",
+    "displayText": "洗衣液",
+    "answerJyutping": "sai2 ji1 jik6",
+    "gloss": "洗衣时加入洗衣机或水中的液体清洁剂",
+    "notes": "sai2 的 ai 清楚；ji1 平稳；jik6 是入声，k 尾短收。",
+    "usageTip": "和「洗衣粉」相比是液体形式；可说「倒少少洗衣液落去」。",
+    "exampleSentence": "部洗衣機冇洗衣液喇，要買返支。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-jau4-seon6-zai6",
+    "displayText": "柔順劑",
+    "answerJyutping": "jau4 seon6 zai6",
+    "gloss": "洗衣最后阶段加入的护理剂，让衣物较柔软并带香味",
+    "notes": "jau4 的 au 要开；seon6 的 eo 圆唇；zai6 的 ai 清楚落声。",
+    "usageTip": "通常不是主洗剂；可说「最後先落柔順劑」，避免和洗衣液混淆。",
+    "exampleSentence": "我鍾意加少少柔順劑，啲衫會香啲。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-sai2-ji1-laam4",
+    "displayText": "洗衣籃",
+    "answerJyutping": "sai2 ji1 laam4",
+    "gloss": "暂时收放待洗衣物的篮子",
+    "notes": "sai2 的 ai 拉开；ji1 平稳；laam4 的 aa 韵长，m 尾合唇。",
+    "usageTip": "常用来提醒家人别把脏衣服乱放，可说「擺入洗衣籃」。",
+    "exampleSentence": "啲污糟衫擺入洗衣籃，唔好掟喺地。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-sai2-saam1-doi2",
+    "displayText": "洗衫袋",
+    "answerJyutping": "sai2 saam1 doi2",
+    "gloss": "洗衣时装入内衣、袜子或细致衣物的网袋，减少拉扯变形",
+    "notes": "sai2 上扬；saam1 收 m 尾；doi2 的 oi 韵圆唇并上扬。",
+    "usageTip": "细致衣物很实用；可说「絲襪要放入洗衫袋先洗」。",
+    "exampleSentence": "呢件冷衫易勾線，記得用洗衫袋。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-tyut3-seoi2",
+    "displayText": "脫水",
+    "answerJyutping": "tyut3 seoi2",
+    "gloss": "用洗衣机高速转动，把衣物中多余的水分甩走",
+    "notes": "tyut3 是入声，t 尾要短；seoi2 的 eoi 韵圆唇并上扬。",
+    "usageTip": "洗衣程序中常见；说「脫完水先晾」就是先减少衣物水分。",
+    "exampleSentence": "部機仲喺度脫水，等陣先可以拎啲衫出嚟。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-long6-saam1-gaa3",
+    "displayText": "晾衫架",
+    "answerJyutping": "long6 saam1 gaa3",
+    "gloss": "把洗好的衣物挂起来风干的架子或装置",
+    "notes": "long6 的 ong 要圆；saam1 收 m 尾；gaa3 的 aa 要开并落声。",
+    "usageTip": "比单说「衫架」更明确指晾晒用途；家中晾衣时常用。",
+    "exampleSentence": "陽台個晾衫架仲有位，可以再晾幾件。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-sau1-saam1",
+    "displayText": "收衫",
+    "answerJyutping": "sau1 saam1",
+    "gloss": "把已经晾干的衣服从外面或晾衣架上拿回来",
+    "notes": "sau1 的 au 韵要打开；saam1 的 aa 韵拉开，m 尾收实。",
+    "usageTip": "见到天要下雨时很常说「快啲收衫」；和「摺衫」是先后两个动作。",
+    "exampleSentence": "黑雲好密，快啲去露台收衫。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-gwaa3-saam1",
+    "displayText": "掛衫",
+    "answerJyutping": "gwaa3 saam1",
+    "gloss": "把衣服挂到衣架、衣柜或挂钩上，保持平整",
+    "notes": "gwaa3 的 gw 起音要清；saam1 的 aa 拉开，m 尾合唇。",
+    "usageTip": "可用于收纳或晾晒前；想免得起皱时常说「掛起件衫」。",
+    "exampleSentence": "呢件恤衫唔好摺，掛衫會冇咁皺。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-heoi3-zik1",
+    "displayText": "去漬",
+    "answerJyutping": "heoi3 zik1",
+    "gloss": "用清洁方法把衣物或物件上的污点除掉",
+    "notes": "heoi3 的 eoi 韵要圆；zik1 是入声，k 尾短收。",
+    "usageTip": "通常用于处理顽固污点；可说「用去漬劑去漬」，动词和用品不要混淆。",
+    "exampleSentence": "咖啡瀉咗落件白衫，要快啲去漬。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-wu1-zik1",
+    "displayText": "污漬",
+    "answerJyutping": "wu1 zik1",
+    "gloss": "衣物、桌面或其他物件上不干净的斑点或痕迹",
+    "notes": "wu1 要圆唇；zik1 的 i 短，k 尾要清楚收住。",
+    "usageTip": "可形容油、酱汁、墨水等留下的痕迹；「污漬未洗得甩」很实用。",
+    "exampleSentence": "條褲有個油污漬，唔知洗唔洗得甩。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-hei2-mou4-nap1",
+    "displayText": "起毛粒",
+    "answerJyutping": "hei2 mou4 nap1",
+    "gloss": "衣物表面因摩擦而出现一粒粒绒球",
+    "notes": "hei2 的 ei 要清；mou4 的 ou 圆；nap1 收 p 尾短促。",
+    "usageTip": "多用于毛衣、卫衣等布料；可说「件衫起毛粒喇」，很有日常感。",
+    "exampleSentence": "呢件毛衣著咗幾次就起毛粒。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-lat1-sik1",
+    "displayText": "甩色",
+    "answerJyutping": "lat1 sik1",
+    "gloss": "衣物洗涤或使用后颜色褪掉，或把颜色染到别的衣物上",
+    "notes": "lat1 收 t 尾；sik1 收 k 尾，两个入声都要短。",
+    "usageTip": "新深色衣物最常见；可提醒别人「第一次洗可能會甩色」。",
+    "exampleSentence": "呢條新牛仔褲會甩色，唔好同白衫一齊洗。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-gon1-ji1-gei1",
+    "displayText": "乾衣機",
+    "answerJyutping": "gon1 ji1 gei1",
+    "gloss": "用热风或转动方式把洗后衣物烘干的机器",
+    "notes": "gon1 的 o 要圆，n 尾收好；ji1 和 gei1 都要保持高平。",
+    "usageTip": "潮湿天特别实用；怕缩水的衣物要先看标签，不一定适合放乾衣機。",
+    "exampleSentence": "落足成日雨，啲衫要用乾衣機先乾得切。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-sau2-sai2",
+    "displayText": "手洗",
+    "answerJyutping": "sau2 sai2",
+    "gloss": "不用洗衣机，直接用双手清洗衣物",
+    "notes": "sau2 和 sai2 都是二声；前者 au 韵、后者 ai 韵，元音要分清。",
+    "usageTip": "适合内衣、羊毛或精致衣物；可说「呢件要手洗，唔好機洗」。",
+    "exampleSentence": "件真絲衫要手洗，唔可以掉入洗衣機。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-fan1-sik1-sai2",
+    "displayText": "分色洗",
+    "answerJyutping": "fan1 sik1 sai2",
+    "gloss": "按衣物颜色分开洗，避免深浅颜色互相染色",
+    "notes": "fan1 的 n 尾收稳；sik1 收 k 尾；sai2 的 ai 韵上扬，三个音节分明。",
+    "usageTip": "洗新衣或深色衣物时特别常用；可说「白衫要同深色衫分色洗」。",
+    "exampleSentence": "白衫同黑衫最好分色洗，唔會染到灰灰哋。",
+    "category": "洗衣護理"
+  },
+  {
+    "id": "manual-routine-naau4-zung1",
+    "displayText": "鬧鐘",
+    "answerJyutping": "naau4 zung1",
+    "gloss": "在设定时间响起、用来提醒起床或做事的计时提示",
+    "notes": "naau4 的 aau 要拉开；zung1 的 ung 圆唇，ng 尾收好。",
+    "usageTip": "可说「較鬧鐘」表示设置闹钟；问人起床时间也常问「你較咗鬧鐘未？」。",
+    "exampleSentence": "我聽日要早起，今晚要較鬧鐘。",
+    "category": "作息習慣"
+  },
+  {
+    "id": "manual-routine-nam6-ting4-naau4-zung1",
+    "displayText": "撳停鬧鐘",
+    "answerJyutping": "nam6 ting4 naau4 zung1",
+    "gloss": "按下闹钟的停止键，让响铃声停下来",
+    "notes": "nam6 的 m 尾合唇；ting4 的 ng 尾收住；naau4 的 aau 要开。",
+    "usageTip": "「撳」是按按钮的常用粤语动词；也可说「撳停個鬧鐘」。",
+    "exampleSentence": "個鬧鐘響咗好耐，你快啲撳停鬧鐘啦。",
+    "category": "作息習慣"
+  },
+  {
+    "id": "manual-routine-laai1-cong4",
+    "displayText": "賴床",
+    "answerJyutping": "laai1 cong4",
+    "gloss": "醒了以后仍留在床上，不愿马上起床",
+    "notes": "laai1 的 aai 韵拉开；cong4 的 ong 要圆，四声平稳。",
+    "usageTip": "多带轻松或自嘲语气；可说「我想賴多五分鐘床」。",
+    "exampleSentence": "今日放假，我想賴床賴到自然醒。",
+    "category": "作息習慣"
+  },
+  {
+    "id": "manual-routine-fan3-ngaan3-gaau3",
+    "displayText": "瞓晏覺",
+    "answerJyutping": "fan3 ngaan3 gaau3",
+    "gloss": "在中午或下午短时间睡一觉，补充精神",
+    "notes": "fan3 的 n 尾收好；ngaan3 要发 ng 起音；gaau3 的 aau 韵清楚。",
+    "usageTip": "通常指午睡，不等于晚上睡觉；可说「食完飯瞓陣晏覺」。",
+    "exampleSentence": "我琴晚瞓得少，晏晝想瞓晏覺補返。",
+    "category": "作息習慣"
+  },
+  {
+    "id": "manual-routine-ngou4-je6",
+    "displayText": "熬夜",
+    "answerJyutping": "ngou4 je6",
+    "gloss": "本该睡觉时仍长时间不睡，拖到深夜",
+    "notes": "ngou4 要发 ng 起音，ou 韵圆；je6 的 e 韵短清，去声落稳。",
+    "usageTip": "可指赶工、追剧或失眠导致晚睡；比「夜瞓」更强调睡得很晚。",
+    "exampleSentence": "你聽日要返工，今晚唔好再熬夜喇。",
+    "category": "作息習慣"
+  },
+  {
+    "id": "manual-routine-fan3-m4-zoek6",
+    "displayText": "瞓唔著",
+    "answerJyutping": "fan3 m4 zoek6",
+    "gloss": "想睡却无法入睡",
+    "notes": "fan3 收 n 尾；m4 自成音节；zoek6 的 e 韵短，k 尾收好。",
+    "usageTip": "是「睡不着」最日常的说法；可接原因，如「因為太熱瞓唔著」。",
+    "exampleSentence": "我飲咗杯咖啡，而家完全瞓唔著。",
+    "category": "作息習慣"
+  },
+  {
+    "id": "manual-routine-seng2-jat1-seng2",
+    "displayText": "醒一醒",
+    "answerJyutping": "seng2 jat1 seng2",
+    "gloss": "让自己从困倦或发呆状态恢复一点精神",
+    "notes": "兩個 seng2 都是二声，e 韵清楚；jat1 是入声，t 尾短收。",
+    "usageTip": "常接「先」或「吓」；喝水、洗脸或走一走后都可说「醒一醒」。",
+    "exampleSentence": "我落樓買杯嘢飲，醒一醒先繼續做。",
+    "category": "作息習慣"
+  },
+  {
+    "id": "manual-routine-so1-sai2",
+    "displayText": "梳洗",
+    "answerJyutping": "so1 sai2",
+    "gloss": "起床后完成洗脸、刷牙、梳头等基本清洁整理",
+    "notes": "so1 的 o 圆；sai2 的 ai 韵上扬，两个音节不要读得太快。",
+    "usageTip": "通常概括一套晨间或睡前整理；可说「梳洗完就出門」。",
+    "exampleSentence": "我梳洗完就落樓買早餐。",
+    "category": "作息習慣"
+  },
+  {
+    "id": "manual-routine-zap1-cong4",
+    "displayText": "執床",
+    "answerJyutping": "zap1 cong4",
+    "gloss": "把被子、枕头和床单整理好，使床铺整齐",
+    "notes": "zap1 收 p 尾短促；cong4 的 ong 韵圆，ng 尾收好。",
+    "usageTip": "早上起床后最常用；「執好床」比「整理床铺」更口语。",
+    "exampleSentence": "起身之後我會先執床，間房睇落整齊啲。",
+    "category": "作息習慣"
+  },
+  {
+    "id": "manual-routine-daai3-ze1",
+    "displayText": "帶遮",
+    "answerJyutping": "daai3 ze1",
+    "gloss": "出门时把雨伞带在身边，以防下雨或遮阳",
+    "notes": "daai3 的 aai 韵拉开；ze1 的 e 韵清楚，保持高平。",
+    "usageTip": "「遮」是雨伞的粤语口语说法；天气不稳定时一句「記得帶遮」很自然。",
+    "exampleSentence": "天文台話晏晝有雨，出門記得帶遮。",
+    "category": "天氣應對"
+  },
+  {
+    "id": "manual-routine-zoek3-jyu5-lau1",
+    "displayText": "著雨褸",
+    "answerJyutping": "zoek3 jyu5 lau1",
+    "gloss": "穿上雨衣，避免身体和衣服被雨淋湿",
+    "notes": "zoek3 收 k 尾；jyu5 要圆唇；lau1 的 au 韵要开。",
+    "usageTip": "骑车、行山或雨很大时比撑伞方便；「雨褸」是日常口语名称。",
+    "exampleSentence": "雨勢太大，淨係撐遮唔夠，要著雨褸。",
+    "category": "天氣應對"
+  },
+  {
+    "id": "manual-routine-caang1-ze1",
+    "displayText": "撐遮",
+    "answerJyutping": "caang1 ze1",
+    "gloss": "把雨伞打开并举起，用来遮雨或遮阳",
+    "notes": "caang1 的 aa 要开，ng 尾收实；ze1 的 e 韵短清。",
+    "usageTip": "和「帶遮」不同，后者是携带，前者是实际打开使用；下雨时最常说。",
+    "exampleSentence": "落雨喇，快啲撐遮，唔好淋親。",
+    "category": "天氣應對"
+  },
+  {
+    "id": "manual-routine-sau1-ze1",
+    "displayText": "收遮",
+    "answerJyutping": "sau1 ze1",
+    "gloss": "把打开的雨伞合起来，方便进室内或收好",
+    "notes": "sau1 的 au 韵完整；ze1 保持高平，不要读成 ze2。",
+    "usageTip": "进商场、上车或雨停后常用；可说「收遮之前甩一甩啲水」。",
+    "exampleSentence": "入商場前收遮，唔好滴到周圍都係水。",
+    "category": "天氣應對"
+  },
+  {
+    "id": "manual-routine-dong2-jyu5",
+    "displayText": "擋雨",
+    "answerJyutping": "dong2 jyu5",
+    "gloss": "用伞、外套或遮挡物阻住雨水，减少被淋湿",
+    "notes": "dong2 的 ong 要圆并上扬；jyu5 要圆唇，五声读稳。",
+    "usageTip": "常说明物品的功能，如「呢件外套擋雨唔錯」；不一定只指撑伞。",
+    "exampleSentence": "個簷篷唔大，只可以幫我哋擋雨一陣。",
+    "category": "天氣應對"
+  },
+  {
+    "id": "manual-routine-dong2-fung1",
+    "displayText": "擋風",
+    "answerJyutping": "dong2 fung1",
+    "gloss": "用衣物、建筑物或物件遮住风，减少冷风直接吹来",
+    "notes": "dong2 的 ong 圆唇；fung1 的 ung 要圆，ng 尾收好。",
+    "usageTip": "多用于外套、围巾或位置选择；和「保暖」相关但更强调挡住风。",
+    "exampleSentence": "呢件風褸幾擋風，夜晚行海旁啱用。",
+    "category": "天氣應對"
+  },
+  {
+    "id": "manual-routine-zoek3-do1-gin6-saam1",
+    "displayText": "著多件衫",
+    "answerJyutping": "zoek3 do1 gin6 saam1",
+    "gloss": "比平时多穿一层衣服，以增加保暖效果",
+    "notes": "zoek3 收 k 尾；do1 平稳；gin6 的 i 短；saam1 收 m 尾。",
+    "usageTip": "天气转冷时给人的实用提醒；也可说「著多件衫先出門」。",
+    "exampleSentence": "聽晚得十度，你記得著多件衫。",
+    "category": "天氣應對"
+  },
+  {
+    "id": "manual-routine-ceoi4-sap1-gei1",
+    "displayText": "除濕機",
+    "answerJyutping": "ceoi4 sap1 gei1",
+    "gloss": "抽走室内空气中多余水分的电器，帮助防潮和晾干衣物",
+    "notes": "ceoi4 的 eoi 韵圆唇；sap1 收 p 尾；gei1 的 ei 要清。",
+    "usageTip": "回南天、连续下雨或室内潮湿时常用；可说「開除濕機抽濕」。",
+    "exampleSentence": "呢排屋企好潮，夜晚開除濕機先瞓。",
+    "category": "天氣應對"
+  },
+  {
+    "id": "manual-routine-gon1-song2",
+    "displayText": "乾爽",
+    "answerJyutping": "gon1 song2",
+    "gloss": "不潮湿、不黏腻，感觉清洁舒服",
+    "notes": "gon1 的 o 要圆，n 尾收好；song2 的 ong 圆唇，二声上扬。",
+    "usageTip": "可形容天气、皮肤或衣物；「乾爽啲」是很自然的口语评价。",
+    "exampleSentence": "沖完涼換咗衫，成個人乾爽晒。",
+    "category": "天氣應對"
+  },
+  {
+    "id": "manual-routine-mun6-jit6",
+    "displayText": "悶熱",
+    "answerJyutping": "mun6 jit6",
+    "gloss": "天气又热又不通风，让人觉得闷和不舒服",
+    "notes": "mun6 的 u 韵短，n 尾收稳；jit6 是入声，t 尾短促。",
+    "usageTip": "常形容下雨前或夏季无风的天气；比单说「熱」多了空气不流通的感觉。",
+    "exampleSentence": "今日又濕又悶熱，行兩步已經出汗。",
+    "category": "天氣應對"
+  }
+]

@@ -27,6 +27,8 @@ jobs:
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
 
       - name: Install Android packages
         run: |
@@ -36,7 +38,16 @@ jobs:
       - name: Validate bundled content
         run: |
           python3 tools/build_assets.py
-          python3 tools/validate_content.py
+          if [ "$GITHUB_REF_NAME" = "v0.22.0" ]; then
+            python3 tools/validate_content.py --min-sentences 1110
+          elif [ "$GITHUB_REF_NAME" = "v0.23.0" ]; then
+            python3 tools/validate_content.py --min-sentences 1180
+          elif [ "$GITHUB_REF_NAME" = "v0.24.0" ]; then
+            python3 tools/validate_content.py --min-sentences 1320
+          else
+            python3 tools/validate_content.py --min-sentences 2000
+          fi
+          python3 -m unittest discover -s tools/tests -p 'test*.py'
           python3 tools/export_github_pack.py
 
       - name: Restore release keystore
@@ -53,7 +64,7 @@ jobs:
 
       - name: Build and test
         run: |
-          ./gradlew --no-daemon --console=plain :app:testDebugUnitTest :app:assembleRelease
+          ./gradlew --no-daemon --console=plain :app:testDebugUnitTest :app:assembleDebugAndroidTest :app:assembleRelease
 
       - name: Prepare release artifacts
         run: |
@@ -69,7 +80,9 @@ jobs:
         with:
           name: "jyut-soeng ${{ github.ref_name }}"
           body: |
-            Android release APK plus the bundled content pack used by the app's update entrypoint.
+            本版修复搜索输入时光标跳动和英文输入被打断的问题；包含 2160 条日常粤语例句，保留逐字对齐的句子学习页面，默认每天学习 50 句，可在设置中调整目标。
+
+            发布包包含 Android APK 和应用内更新入口使用的内容包。
           files: |
             release-artifacts/*.apk
             release-artifacts/*.zip

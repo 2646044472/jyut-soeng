@@ -1,0 +1,102 @@
+[
+  {
+    "id": "manual-home-maintenance-faucet-dripping",
+    "displayText": "水龍頭滴水",
+    "answerJyutping": "seoi2 lung4 tau4 dik1 seoi2",
+    "gloss": "水龍頭關好後仍然持續滴出水的情況。",
+    "notes": "常見於膠圈老化或掣芯磨損；報告時可補充是廚房還是浴室的水龍頭。",
+    "usageTip": "報修時可加上滴水已有幾耐，以及關掣後有冇改善，方便師傅判斷要帶甚麼零件。",
+    "exampleSentence": "廚房個水龍頭滴水成晚，麻煩安排師傅上嚟睇下。",
+    "category": "水喉故障"
+  },
+  {
+    "id": "manual-home-maintenance-wall-seepage",
+    "displayText": "牆身滲水",
+    "answerJyutping": "coeng4 san1 sam3 seoi2",
+    "gloss": "牆壁內的水分滲到表面，形成濕痕、起泡或剝落。",
+    "notes": "可由外牆、樓上單位或暗喉滲漏引起；拍下濕痕範圍和日期有助管理處跟進。",
+    "usageTip": "向管理處說明牆身滲水時，要講清楚位置、是否下雨後加劇，以及有冇影響插座。",
+    "exampleSentence": "睡房近窗嗰幅牆身滲水，落雨之後仲嚴重咗。",
+    "category": "大廈滲漏"
+  },
+  {
+    "id": "manual-home-maintenance-slow-floor-drainage",
+    "displayText": "地台去水慢",
+    "answerJyutping": "dei6 toi4 heoi3 seoi2 maan6",
+    "gloss": "地台去水口排水遲緩，水在地面積住而未能及時流走。",
+    "notes": "浴室、露台和廚房地台都會出現；常與頭髮、皂垢或雜物堵塞有關。",
+    "usageTip": "找通渠師傅時可說明邊個位置地台去水慢，並提及積水會唔會流出門口。",
+    "exampleSentence": "沖完涼之後浴室地台去水慢，啲水要好耐先退晒。",
+    "category": "排水問題"
+  },
+  {
+    "id": "manual-home-maintenance-flickering-light",
+    "displayText": "電燈忽明忽暗",
+    "answerJyutping": "din6 dang1 fat1 ming4 fat1 am3",
+    "gloss": "電燈的光線一時明亮、一時變暗，亮度不穩定。",
+    "notes": "可能與燈膽、燈座、開關或供電接觸不良有關；若多盞燈同時出現，應盡快找電工。",
+    "usageTip": "報告電燈忽明忽暗時，最好講埋是偶爾發生、開冷氣時才發生，還是長時間持續。",
+    "exampleSentence": "客廳盞電燈忽明忽暗，夜晚睇嘢好唔舒服。",
+    "category": "電力故障"
+  },
+  {
+    "id": "manual-home-maintenance-loose-socket",
+    "displayText": "插座鬆咗",
+    "answerJyutping": "caap3 zo6 sung1 zo2",
+    "gloss": "牆上插座固定不穩，插頭插入或拔出時會跟著搖動。",
+    "notes": "插座外殼、螺絲或內部接線鬆動都可能造成這個情況；不要再勉強使用該插座。",
+    "usageTip": "通知電工時直接講插座鬆咗，並說明有冇冒火花、發熱或接觸不良。",
+    "exampleSentence": "書枱旁邊個插座鬆咗，插住充電器都唔穩陣。",
+    "category": "電力故障"
+  },
+  {
+    "id": "manual-home-maintenance-burning-smell",
+    "displayText": "有燒燶味",
+    "answerJyutping": "jau5 siu1 nung1 mei6",
+    "gloss": "聞到電線、插頭、電器或其他物件過熱燒焦的氣味。",
+    "notes": "屬於需要即時處理的警號；應先停止使用可疑電器，情況明顯時關掉相關電源並求助。",
+    "usageTip": "向管理處或電工講有燒燶味時，要立即交代味道從哪個房間、插座或電器附近傳出。",
+    "exampleSentence": "廚房個插座附近有燒燶味，你可唔可以快啲搵電工？",
+    "category": "電力安全"
+  },
+  {
+    "id": "manual-home-maintenance-aircon-dripping",
+    "displayText": "冷氣滴水",
+    "answerJyutping": "laang5 hei3 dik1 seoi2",
+    "gloss": "冷氣機運行時由機身、喉管或出風口滴出水。",
+    "notes": "常見原因包括去水喉堵塞、隔塵網太髒或機件失調；持續滴水可弄濕牆身和地板。",
+    "usageTip": "預約冷氣師傅時，說明冷氣滴水的位置、開機多久才開始，以及是否滴到樓下單位。",
+    "exampleSentence": "部冷氣滴水滴到窗台，開咗半個鐘就開始。",
+    "category": "冷氣維護"
+  },
+  {
+    "id": "manual-home-maintenance-loose-door-hinge",
+    "displayText": "門鉸鬆咗",
+    "answerJyutping": "mun4 gaau3 sung1 zo2",
+    "gloss": "門扇連接門框的鉸位鬆動，令開關門時下垂、刮地或發出聲響。",
+    "notes": "通常可見門鉸螺絲鬆脫；若門扇明顯傾斜，應避免用力關門以免損壞加劇。",
+    "usageTip": "向維修師傅講門鉸鬆咗時，可補充是哪一扇門，以及開關時有冇刮到地面。",
+    "exampleSentence": "廁所道門鉸鬆咗，一開門就撞到地下。",
+    "category": "門窗維修"
+  },
+  {
+    "id": "manual-home-maintenance-moldy-silicone-sealant",
+    "displayText": "玻璃膠發霉",
+    "answerJyutping": "bo1 lei1 gaau1 faat3 mui4",
+    "gloss": "浴室、鋅盤或窗邊的玻璃膠因長期潮濕而長出霉斑。",
+    "notes": "表面霉斑可先清潔；玻璃膠變黑、裂開或脫落時，通常需要剷走後重新打膠。",
+    "usageTip": "找裝修或維修店時，講玻璃膠發霉可讓對方知道是清潔處理還是要重新打膠。",
+    "exampleSentence": "浴缸邊啲玻璃膠發霉得好勁，想約師傅重新打過。",
+    "category": "浴室維護"
+  },
+  {
+    "id": "manual-home-maintenance-arrange-inspection",
+    "displayText": "方便上門睇睇",
+    "answerJyutping": "fong1 bin6 soeng6 mun4 tai2 tai2",
+    "gloss": "禮貌地詢問對方可否到住址現場查看故障或損壞情況。",
+    "notes": "適合向管理處、師傅或店舖提出檢查要求；後面可接可接受的日期和時段。",
+    "usageTip": "先交代問題，再問方便上門睇睇，並主動說明屋苑登記、升降機和可等候時間。",
+    "exampleSentence": "部抽氣扇好嘈，請問你哋方唔方便上門睇睇？",
+    "category": "維修安排"
+  }
+]

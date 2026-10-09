@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 import json
+import re
 from collections import Counter, defaultdict
 from pathlib import Path
 from meaning_rules import is_low_info_gloss
@@ -44,6 +46,12 @@ GENERIC_CURATED_EXAMPLE_MARKERS = (
     "讲一次完整句子",
     "读得更顺一点",
 )
+MIN_CURATED_SENTENCE_LENGTH = 30
+MIN_CURATED_SENTENCE_SEGMENTS = 2
+MIN_CURATED_SENTENCE_SYLLABLES = 28
+MIN_CURATED_SENTENCE_COUNT = 300
+JYUTPING_TOKEN = re.compile(r"[a-z]+[1-6]")
+JYUTPING_ALLOWED_SEPARATORS = re.compile(r"[，。；？！、\s]")
 LOW_CONFIDENCE_GENERATED_WORD_FRAGMENTS = (
     "工時",
     "結構",
@@ -90,11 +98,13 @@ LOW_CONFIDENCE_GENERATED_EXPRESSION_FRAGMENTS = (
 )
 
 
-def main() -> None:
+def main(
+    min_sentence_count: int = MIN_CURATED_SENTENCE_COUNT,
+) -> None:
     bundle = json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
     entries = bundle["entries"]
     if len(entries) < 250:
-        raise SystemExit(f"Expected at least 250 hand-written entries, found {len(entries)}")
+        raise SystemExit(f"Expected at least 250 curated entries, found {len(entries)}")
 
     ids = [entry["id"] for entry in entries]
     duplicates = [entry_id for entry_id, count in Counter(ids).items() if count > 1]
@@ -103,9 +113,32 @@ def main() -> None:
 
     entry_types = Counter(entry.get("entryType", "word") for entry in entries)
     if entry_types.get("word", 0) < 150:
-        raise SystemExit("Need at least 150 hand-written word correction entries.")
+        raise SystemExit("Need at least 150 curated word correction entries.")
     if entry_types.get("expression", 0) < 100:
         raise SystemExit("Need at least 100 curated daily expression entries.")
+    if entry_types.get("sentence", 0) < min_sentence_count:
+        raise SystemExit(
+            f"Need at least {min_sentence_count} curated daily sentence entries; "
+            f"found {entry_types.get('sentence', 0)}."
+        )
+
+    sentences = [entry for entry in entries if entry.get("entryType") == "sentence"]
+    for field, label in (
+        ("displayText", "opening"),
+        ("gloss", "gloss"),
+        ("notes", "notes"),
+        ("usageTip", "usage tip"),
+    ):
+        values = (
+            str(entry.get(field, "")).strip()[:18]
+            if field == "displayText"
+            else str(entry.get(field, "")).strip()
+            for entry in sentences
+        )
+        repeated = [(text, count) for text, count in Counter(values).items() if text and count > 3]
+        if repeated:
+            text, count = repeated[0]
+            raise SystemExit(f"Repeated sentence {label} ({count} times): {text}")
 
     for entry in entries:
         for key in ("displayText", "promptText", "answerJyutping", "usageTip", "exampleSentence", "category"):
@@ -115,6 +148,20 @@ def main() -> None:
         gloss = str(entry.get("gloss", "")).strip()
         usage_tip = str(entry.get("usageTip", "")).strip()
         example_sentence = str(entry.get("exampleSentence", "")).strip()
+        if entry.get("entryType") == "sentence":
+            segment_count = sum(display_text.count(mark) for mark in ("，", "；", "？"))
+            syllable_count = len(str(entry.get("answerJyutping", "")).split())
+            if len(display_text) < MIN_CURATED_SENTENCE_LENGTH:
+                raise SystemExit(f"Sentence {entry.get('id')} is too short for daily reading mode")
+            if segment_count < MIN_CURATED_SENTENCE_SEGMENTS:
+                raise SystemExit(f"Sentence {entry.get('id')} needs at least two conversational segments")
+            if syllable_count < MIN_CURATED_SENTENCE_SYLLABLES:
+                raise SystemExit(f"Sentence {entry.get('id')} needs a complete Jyutping line")
+            jyutping = str(entry.get("answerJyutping", "")).lower()
+            residue = JYUTPING_ALLOWED_SEPARATORS.sub("", jyutping)
+            tokens = JYUTPING_TOKEN.findall(jyutping)
+            if not tokens or "".join(tokens) != residue:
+                raise SystemExit(f"Sentence {entry.get('id')} contains non-Jyutping text")
         if is_low_info_gloss(gloss, display_text):
             raise SystemExit(f"Entry {entry.get('id')} still has low-information gloss: {gloss}")
         if is_low_info_usage(usage_tip):
@@ -156,4 +203,9 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--min-sentences", type=int, default=MIN_CURATED_SENTENCE_COUNT)
+    args = parser.parse_args()
+    if args.min_sentences < 0:
+        parser.error("--min-sentences must be nonnegative")
+    main(args.min_sentences)

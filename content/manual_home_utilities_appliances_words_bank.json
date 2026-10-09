@@ -1,0 +1,102 @@
+[
+  {
+    "id": "manual-home-utilities-gas-bill",
+    "displayText": "煤氣費",
+    "answerJyutping": "mui4 hei3 fai3",
+    "gloss": "住户使用煤气或燃气所缴付的费用。",
+    "notes": "mui4 的 ui 连读；hei3 的 ei 要清楚；fai3 的 ai 韵完整。",
+    "usageTip": "问缴费、估算开支或发现账单异常时都可说煤氣費。",
+    "exampleSentence": "今個月煮得多，煤氣費好似贵咗。",
+    "category": "家居账单"
+  },
+  {
+    "id": "manual-home-utilities-switch-on",
+    "displayText": "開掣",
+    "answerJyutping": "hoi1 zai3",
+    "gloss": "打开电源开关，使电器开始运作。",
+    "notes": "hoi1 的 oi 清楚；zai3 用第三声，和“制”同音。",
+    "usageTip": "用在灯、电器和总开关；操作前先确认手是干的。",
+    "exampleSentence": "你幫我開掣，我去廚房攞嘢。",
+    "category": "家居设备"
+  },
+  {
+    "id": "manual-home-utilities-switch-off",
+    "displayText": "關掣",
+    "answerJyutping": "gwaan1 zai3",
+    "gloss": "关闭电源开关，停止电器运作。",
+    "notes": "gwaan1 的 waan 要拉开；zai3 是第三声。",
+    "usageTip": "出门或维修前常用；比只说“关掉”更贴近日常家居语境。",
+    "exampleSentence": "出門前記得關掣，唔好留住部暖爐。",
+    "category": "家居设备"
+  },
+  {
+    "id": "manual-home-utilities-remote-control",
+    "displayText": "遙控器",
+    "answerJyutping": "jiu4 hung3 hei3",
+    "gloss": "用来远距离控制电视、冷气等设备的装置。",
+    "notes": "jiu4 的 iu 连读；hung3 收 ng 尾；hei3 的 ei 韵清楚。",
+    "usageTip": "找不到时可问“遙控器喺邊”；换电池前先确认型号。",
+    "exampleSentence": "部電視冇反應，你有冇見到遙控器？",
+    "category": "家居设备"
+  },
+  {
+    "id": "manual-home-utilities-socket-position",
+    "displayText": "插蘇位",
+    "answerJyutping": "caap3 sou1 wai2",
+    "gloss": "墙上或延长线可插电器插头的位置。",
+    "notes": "caap3 收 p 尾；sou1 的 ou 要圆；wai2 的 ai 韵完整。",
+    "usageTip": "搬动电器或给手机充电时常用；不要让一个插蘇位负荷过多。",
+    "exampleSentence": "張枱附近有冇插蘇位？我想叉電。",
+    "category": "家居设备"
+  },
+  {
+    "id": "manual-home-utilities-doorbell",
+    "displayText": "門鈴",
+    "answerJyutping": "mun4 ling4",
+    "gloss": "安装在门外、用来通知住户有人到访的铃。",
+    "notes": "mun4 收 n 尾；ling4 收 ng 尾，两个鼻尾要分清。",
+    "usageTip": "快递或访客到门口时可用；也可说“門鈴冇聲”描述故障。",
+    "exampleSentence": "我聽到門鈴響，你幫我開下門。",
+    "category": "家居设备"
+  },
+  {
+    "id": "manual-home-utilities-iron",
+    "displayText": "熨斗",
+    "answerJyutping": "wan3 dau2",
+    "gloss": "用热力把衣物烫平的家用电器。",
+    "notes": "wan3 收 n 尾；dau2 的 au 韵完整。",
+    "usageTip": "急着出门前处理衬衫时常用；用完应拔插头并等熨斗放凉。",
+    "exampleSentence": "件恤衫皺晒，我借你個熨斗燙一燙。",
+    "category": "衣物护理"
+  },
+  {
+    "id": "manual-home-utilities-water-filter",
+    "displayText": "濾水器",
+    "answerJyutping": "leoi6 seoi2 hei3",
+    "gloss": "过滤饮用水或自来水杂质的装置。",
+    "notes": "leoi6 的 eoi 韵完整；seoi2 也是 eoi 韵；hei3 的 ei 要清楚。",
+    "usageTip": "谈换滤芯或水味有异时使用；不同型号的维护周期不同。",
+    "exampleSentence": "濾水器個燈變紅，應該要換濾芯喇。",
+    "category": "家居设备"
+  },
+  {
+    "id": "manual-home-utilities-breaker-box",
+    "displayText": "電掣箱",
+    "answerJyutping": "din6 zai3 soeng1",
+    "gloss": "装有电路开关和安全装置的配电箱。",
+    "notes": "din6 收 n 尾；zai3 为第三声；soeng1 的 eo 韵要圆。",
+    "usageTip": "跳闸时可找電掣箱，但不懂判断或反复跳闸应找合资格师傅。",
+    "exampleSentence": "又跳掣喇，電掣箱喺走廊個櫃入面。",
+    "category": "家居维修"
+  },
+  {
+    "id": "manual-home-utilities-vent",
+    "displayText": "通風口",
+    "answerJyutping": "tung1 fung1 hau2",
+    "gloss": "让空气进出、保持室内通风的开口。",
+    "notes": "tung1、fung1 都收 ng 尾；hau2 的 au 韵完整。",
+    "usageTip": "煮食、潮湿或空气不流通时可检查通風口有没有被杂物挡住。",
+    "exampleSentence": "廁所好焗，睇下通風口有冇塞住。",
+    "category": "家居维护"
+  }
+]

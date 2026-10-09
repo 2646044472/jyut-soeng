@@ -54,7 +54,7 @@ class GeneratedContentTest(unittest.TestCase):
                             msg=f"{path.name}:{row.get('id')}",
                         )
 
-    def test_built_bundle_has_only_hand_written_content(self) -> None:
+    def test_built_bundle_excludes_generated_label(self) -> None:
         bundle = json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
         generated_rows = [row for row in bundle.get("entries", []) if row.get("sourceLabel") == "generated"]
         self.assertEqual([], generated_rows)

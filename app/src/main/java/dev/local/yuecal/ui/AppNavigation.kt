@@ -12,6 +12,8 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -21,7 +23,9 @@ import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.text.KeyboardActions
@@ -49,7 +53,9 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -77,6 +83,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
+import androidx.navigation.navArgument
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
@@ -85,6 +92,7 @@ import dev.local.yuecal.domain.CalibrationEntry
 import dev.local.yuecal.domain.DashboardSummary
 import dev.local.yuecal.domain.StudyQuestion
 import dev.local.yuecal.domain.StudyQuestionType
+import dev.local.yuecal.media.CantoneseSentenceSpeaker
 import dev.local.yuecal.ui.theme.CantoCalibratorTheme
 import java.io.File
 
@@ -139,6 +147,10 @@ fun CantoCalibratorApp() {
                     TodayScreen(
                         state = state,
                         onStartLearn = { navController.navigate("session/learn") },
+                        onStartSentenceLearn = { navController.navigate("sentence-learning") },
+                        onStartFocusedLearn = { entryType ->
+                            navController.navigate("session/learn?focus=$entryType")
+                        },
                         onStartReview = { navController.navigate("session/review") },
                     )
                 }
@@ -159,6 +171,44 @@ fun CantoCalibratorApp() {
                         onDismissMessage = viewModel::clearMessage,
                     )
                 }
+                composable("sentences") {
+                    val viewModel: SentenceReaderViewModel = hiltViewModel()
+                    val state by viewModel.uiState.collectAsStateWithLifecycle()
+                    val context = LocalContext.current
+                    val speaker = remember(context) { CantoneseSentenceSpeaker(context) }
+                    var speechMessage by remember { mutableStateOf<String?>(null) }
+                    DisposableEffect(speaker) { onDispose { speaker.close() } }
+                    SentenceReaderScreen(
+                        state = state,
+                        onStartLearning = { navController.navigate("sentence-learning") },
+                        onSpeak = { text ->
+                            speechMessage = null
+                            speaker.speak(text) {
+                                speechMessage = "设备没有可用的粤语语音，请在系统语音设置中安装粤语语音。"
+                            }
+                        },
+                        speechMessage = speechMessage,
+                    )
+                }
+                composable("sentence-learning") {
+                    val viewModel: SentenceLearningViewModel = hiltViewModel()
+                    val state by viewModel.uiState.collectAsStateWithLifecycle()
+                    SentenceLearningScreen(
+                        state = state,
+                        onStartLearning = { navController.navigate("sentence-learning/study") },
+                        onReviewSentences = { navController.navigate("session/review?focus=sentence") },
+                        onReadExamples = { navController.navigate("sentences") },
+                    )
+                }
+                composable("sentence-learning/study") {
+                    val viewModel: SentenceStudyViewModel = hiltViewModel()
+                    val state by viewModel.uiState.collectAsStateWithLifecycle()
+                    SentenceStudyScreen(
+                        state = state,
+                        onNext = viewModel::learnCurrentAndAdvance,
+                        onDone = { navController.popBackStack() },
+                    )
+                }
                 composable(TopLevelDestination.Search.route) {
                     val viewModel: SearchViewModel = hiltViewModel()
                     val state by viewModel.uiState.collectAsStateWithLifecycle()
@@ -176,6 +226,7 @@ fun CantoCalibratorApp() {
                         onAutoplayChanged = viewModel::setAutoplay,
                         onReminderChanged = viewModel::setReminders,
                         onDailyLearnGoalChange = viewModel::updateDailyLearnGoal,
+                        onDailySentenceLearnGoalChange = viewModel::updateDailySentenceLearnGoal,
                         onRefreshBuiltin = viewModel::refreshBuiltinContent,
                         onImportFromGitHub = viewModel::importFromGitHub,
                         onCheckAppUpdate = viewModel::checkAppUpdate,
@@ -184,7 +235,15 @@ fun CantoCalibratorApp() {
                         onDismissMessage = viewModel::clearMessage,
                     )
                 }
-                composable("session/{mode}") {
+                composable(
+                    route = "session/{mode}?focus={focus}",
+                    arguments = listOf(
+                        navArgument("focus") {
+                            nullable = true
+                            defaultValue = null
+                        },
+                    ),
+                ) {
                     val viewModel: SessionViewModel = hiltViewModel()
                     val state by viewModel.uiState.collectAsStateWithLifecycle()
                     SessionScreen(
@@ -204,6 +263,8 @@ fun CantoCalibratorApp() {
 private fun TodayScreen(
     state: TodayUiState,
     onStartLearn: () -> Unit,
+    onStartSentenceLearn: () -> Unit,
+    onStartFocusedLearn: (String) -> Unit,
     onStartReview: () -> Unit,
 ) {
     val summary = state.dashboard
@@ -226,6 +287,39 @@ private fun TodayScreen(
                 cta = "开始今日学习",
                 onClick = onStartLearn,
             )
+        }
+        item {
+            SessionLaneCard(
+                eyebrow = "句子学习",
+                title = "每天学 ${state.dailySentenceGoal} 句",
+                description = "看粤语原句，亲手输入整句粤拼；答过的句子会进入复习安排。",
+                stats = "今日已学 ${state.sentencesLearnedToday.coerceAtMost(state.dailySentenceGoal)} / ${state.dailySentenceGoal} 句",
+                cta = if (state.sentencesLearnedToday >= state.dailySentenceGoal) "查看今日进度" else "开始学句子",
+                onClick = onStartSentenceLearn,
+            )
+        }
+        item {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(10.dp),
+            ) {
+                OutlinedButton(
+                    modifier = Modifier.weight(1f),
+                    onClick = { onStartFocusedLearn("word") },
+                ) {
+                    Icon(Icons.Outlined.PlayArrow, contentDescription = null)
+                    Spacer(Modifier.width(6.dp))
+                    Text("正音词")
+                }
+                OutlinedButton(
+                    modifier = Modifier.weight(1f),
+                    onClick = { onStartFocusedLearn("expression") },
+                ) {
+                    Icon(Icons.Outlined.PlayArrow, contentDescription = null)
+                    Spacer(Modifier.width(6.dp))
+                    Text("表达")
+                }
+            }
         }
         item {
             SessionLaneCard(
@@ -271,7 +365,7 @@ private fun LibraryScreen(
         }
         item {
             Text(
-                "这里是正音词条和表达卡，不展示英译，重点只放在读法、用法和例句。",
+                "这里收录正音词条、表达和完整句子，不展示英译，重点只放在读法、用法和例句。",
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -289,7 +383,7 @@ private fun LibraryScreen(
                     FilterChip(
                         selected = state.selectedEntryType == entryType,
                         onClick = { onEntryTypeSelected(entryType) },
-                        label = { Text(if (entryType == "word") "正音词" else "表达") },
+                        label = { Text(entryTypeFilterLabel(entryType)) },
                     )
                 }
             }
@@ -329,11 +423,335 @@ private fun LibraryScreen(
 }
 
 @Composable
+internal fun SentenceReaderScreen(
+    state: SentenceReaderUiState,
+    onStartLearning: () -> Unit,
+    onSpeak: (String) -> Unit,
+    speechMessage: String? = null,
+) {
+    if (state.totalSentenceCount == 0) {
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(20.dp),
+            contentAlignment = Alignment.Center,
+        ) {
+            Text(
+                "例句内容正在准备中，稍后再试。",
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+        return
+    }
+
+    LazyColumn(
+        modifier = Modifier.fillMaxSize(),
+        contentPadding = PaddingValues(20.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        item {
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                Text("日常例句", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                Text(
+                    "今日 ${state.sentences.size} 句 · 句库 ${state.totalSentenceCount} 句",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+        }
+        item {
+            Button(modifier = Modifier.fillMaxWidth(), onClick = onStartLearning) {
+                Text("进入句子学习")
+            }
+        }
+        if (speechMessage != null) {
+            item { Text(speechMessage, color = MaterialTheme.colorScheme.error) }
+        }
+        items(state.sentences, key = { it.id }) { sentence ->
+            SentenceReaderCard(sentence, onSpeak)
+        }
+    }
+}
+
+@Composable
+internal fun SentenceLearningScreen(
+    state: SentenceLearningUiState,
+    onStartLearning: () -> Unit,
+    onReviewSentences: () -> Unit,
+    onReadExamples: () -> Unit,
+) {
+    val completedToday = state.learnedToday.coerceAtMost(state.dailyGoal)
+    LazyColumn(
+        modifier = Modifier.fillMaxSize(),
+        contentPadding = PaddingValues(20.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp),
+    ) {
+        item {
+            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text("句子学习", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                Text(
+                    "先看粤拼和粤语原句，再按自己的节奏逐句学习；到期句子可以另外复习。",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+        }
+        item {
+            Card {
+                Column(
+                    modifier = Modifier.fillMaxWidth().padding(20.dp),
+                    verticalArrangement = Arrangement.spacedBy(12.dp),
+                ) {
+                    Text("今日进度", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                    Text(
+                        "$completedToday / ${state.dailyGoal} 句",
+                        style = MaterialTheme.typography.displaySmall,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.primary,
+                    )
+                    Text(
+                        if (state.remainingToday == 0) "今日目标已完成，明天继续学新句子。"
+                        else "今天还可以学 ${state.remainingToday} 句。",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                    Button(
+                        modifier = Modifier.fillMaxWidth(),
+                        enabled = state.remainingToday > 0,
+                        onClick = onStartLearning,
+                    ) {
+                        Text(if (state.remainingToday > 0) "开始今日句子学习" else "今日目标已完成")
+                    }
+                }
+            }
+        }
+        item {
+            StatCard(
+                title = "句子库",
+                value = "${state.totalSentenceCount} 句",
+                subtitle = "每天的句子目标可以在「我的」页面调整。",
+            )
+        }
+        item {
+            OutlinedButton(
+                modifier = Modifier.fillMaxWidth(),
+                enabled = state.dueToday > 0,
+                onClick = onReviewSentences,
+            ) {
+                Text("复习到期句子 · ${state.dueToday} 句")
+            }
+        }
+        item {
+            OutlinedButton(modifier = Modifier.fillMaxWidth(), onClick = onReadExamples) {
+                Text("先浏览今日例句")
+            }
+        }
+    }
+}
+
+@Composable
+private fun SentenceReaderCard(sentence: CalibrationEntry, onSpeak: (String) -> Unit) {
+    var meaningVisible by remember(sentence.id) { mutableStateOf(false) }
+
+    Card {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp),
+        ) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(
+                    "今日例句",
+                    modifier = Modifier.weight(1f),
+                    style = MaterialTheme.typography.labelLarge,
+                    color = MaterialTheme.colorScheme.primary,
+                )
+                IconButton(onClick = { onSpeak(sentence.displayText) }) {
+                    Icon(Icons.Outlined.PlayArrow, contentDescription = "播放粤语读音")
+                }
+            }
+            Text("粤拼 · 粤语原句", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+            AlignedSentenceText(sentence.displayText, sentence.answerJyutping)
+            Text(
+                sentence.category,
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            TextButton(onClick = { meaningVisible = !meaningVisible }) {
+                Text(if (meaningVisible) "收起中文意思" else "查看中文意思")
+            }
+            if (meaningVisible) {
+                InfoBlock("中文意思", sentence.gloss)
+                InfoBlock("使用场景", sentence.usageTip)
+            }
+        }
+    }
+}
+
+@Composable
+internal fun SentenceStudyScreen(
+    state: SentenceStudyUiState,
+    onNext: () -> Unit,
+    onDone: () -> Unit,
+) {
+    val session = state.session
+    val sentence = state.currentSentence
+    if (state.isLoading) {
+        Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+            CircularProgressIndicator()
+        }
+        return
+    }
+
+    if (session == null || sentence == null) {
+        Column(
+            modifier = Modifier.fillMaxSize().padding(24.dp),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
+            Text("今日句子已学完", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+            Text(
+                "你可以回到句子学习页查看今日进度，或者明天再学新句子。",
+                modifier = Modifier.padding(top = 8.dp, bottom = 20.dp),
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                textAlign = TextAlign.Center,
+            )
+            Button(onClick = onDone) { Text("完成") }
+        }
+        return
+    }
+
+    var meaningVisible by remember(sentence.entryId) { mutableStateOf(false) }
+    val listState = rememberLazyListState()
+    LaunchedEffect(sentence.entryId) {
+        listState.animateScrollToItem(0)
+    }
+    LazyColumn(
+        modifier = Modifier.fillMaxSize(),
+        state = listState,
+        contentPadding = PaddingValues(20.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp),
+    ) {
+        item {
+            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text("句子学习", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                Text(
+                    "第 ${state.currentIndex + 1} / ${session.questions.size} 句 · 看完后按「下一句」继续",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+        }
+        item {
+            Card {
+                Column(
+                    modifier = Modifier.fillMaxWidth().padding(20.dp),
+                    verticalArrangement = Arrangement.spacedBy(12.dp),
+                ) {
+                    Text("粤拼 · 粤语原句", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                    AlignedSentenceText(sentence.displayText, sentence.answerJyutping)
+                    TextButton(onClick = { meaningVisible = !meaningVisible }) {
+                        Text(if (meaningVisible) "收起句子意思" else "展开查看句子意思")
+                    }
+                    if (meaningVisible) {
+                        InfoBlock("中文意思", sentence.gloss)
+                        if (sentence.usageTip.isNotBlank()) InfoBlock("使用场景", sentence.usageTip)
+                    }
+                }
+            }
+        }
+        item {
+            Button(
+                modifier = Modifier.fillMaxWidth(),
+                enabled = !state.isSaving,
+                onClick = onNext,
+            ) {
+                Text(if (state.isSaving) "正在保存…" else "下一句")
+            }
+        }
+    }
+}
+
+private data class AlignedSentenceUnit(
+    val jyutping: String?,
+    val character: String,
+)
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun AlignedSentenceText(sentence: String, jyutping: String) {
+    val readings = remember(jyutping) {
+        Regex("[a-z]+[1-6]", RegexOption.IGNORE_CASE)
+            .findAll(jyutping)
+            .map { it.value }
+            .toList()
+    }
+    val units = remember(sentence, readings) {
+        val codePoints = sentence.codePoints().toArray()
+        val characterCount = codePoints.count { Character.isIdeographic(it) }
+        if (characterCount != readings.size) {
+            emptyList<AlignedSentenceUnit>()
+        } else {
+            var readingIndex = 0
+            codePoints.asList().mapNotNull { codePoint ->
+                val character = String(Character.toChars(codePoint))
+                if (character.isBlank()) {
+                    null
+                } else if (Character.isIdeographic(codePoint)) {
+                    AlignedSentenceUnit(readings[readingIndex++], character)
+                } else {
+                    AlignedSentenceUnit(null, character)
+                }
+            }
+        }
+    }
+
+    if (units.isEmpty()) {
+        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Text(jyutping, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Medium)
+            Text(sentence, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+        }
+    } else {
+        FlowRow(
+            horizontalArrangement = Arrangement.spacedBy(3.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            units.forEach { unit ->
+                Column(
+                    modifier = Modifier.widthIn(min = 12.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                ) {
+                    Text(
+                        unit.jyutping.orEmpty(),
+                        style = MaterialTheme.typography.titleMedium,
+                        color = MaterialTheme.colorScheme.primary,
+                        fontWeight = FontWeight.Medium,
+                        textAlign = TextAlign.Center,
+                        maxLines = 1,
+                    )
+                    Text(
+                        unit.character,
+                        style = MaterialTheme.typography.titleLarge,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.onSurface,
+                        textAlign = TextAlign.Center,
+                    )
+                }
+            }
+        }
+    }
+}
+
+@Composable
 private fun SearchScreen(
     state: SearchUiState,
     onQueryChanged: (String) -> Unit,
     onPlayAudio: (String?) -> Unit,
 ) {
+    val keyboardController = LocalSoftwareKeyboardController.current
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -346,10 +764,18 @@ private fun SearchScreen(
             value = state.query,
             onValueChange = onQueryChanged,
             label = { Text("输入词语、Jyutping、用法或例句") },
+            singleLine = true,
+            keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
+            keyboardActions = KeyboardActions(onSearch = { keyboardController?.hide() }),
         )
         when {
             state.query.isBlank() -> Text(
                 "输入词语、粤拼或例句内容开始查找。",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            state.isSearching -> Text(
+                "正在搜索…",
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -376,6 +802,7 @@ private fun ProfileScreen(
     onAutoplayChanged: (Boolean) -> Unit,
     onReminderChanged: (Boolean) -> Unit,
     onDailyLearnGoalChange: (Int) -> Unit,
+    onDailySentenceLearnGoalChange: (Int) -> Unit,
     onRefreshBuiltin: () -> Unit,
     onImportFromGitHub: () -> Unit,
     onCheckAppUpdate: () -> Unit,
@@ -427,6 +854,15 @@ private fun ProfileScreen(
                 value = settings.dailyLearnGoal,
                 min = 4,
                 onChange = onDailyLearnGoalChange,
+            )
+        }
+        item {
+            GoalCard(
+                title = "每日句子目标",
+                subtitle = "每天安排的新句子数量，默认 50 句，可手动调整。",
+                value = settings.dailySentenceLearnGoal,
+                min = 1,
+                onChange = onDailySentenceLearnGoalChange,
             )
         }
         item {
@@ -1109,7 +1545,9 @@ private fun CompletionScreen(
                 Text("这一轮完成了", style = MaterialTheme.typography.titleMedium)
                 Text("$correctCount / $totalCount", style = MaterialTheme.typography.displaySmall, fontWeight = FontWeight.Bold)
                 Text(
-                    "下一轮继续把生词学进去，把旧词刷出来，这样每天都会更顺口。",
+                    if (totalCount == 0 && title == "句子复习") "目前没有到期句子，稍后再来看看。"
+                    else if (totalCount == 0) "今天没有新的内容可学，明天再来看看。"
+                    else "下一轮继续把生词学进去，把旧词刷出来，这样每天都会更顺口。",
                     style = MaterialTheme.typography.bodyMedium,
                     textAlign = TextAlign.Center,
                 )
@@ -1161,7 +1599,7 @@ private fun EntryCard(
                 ExampleBlock(entry.exampleSentence, entry.sourceLabel)
             }
             Text(
-                "${if (entry.entryType == "expression") "表达卡" else "正音词条"} · ${entry.category} · ${entry.statusLabel}",
+                "${entryTypeCardLabel(entry.entryType)} · ${entry.category} · ${entry.statusLabel}",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -1277,6 +1715,18 @@ private fun InfoBlock(
 }
 
 private fun usageLabel(sourceLabel: String): String = if (sourceLabel == "generated") "提醒" else "点用"
+
+private fun entryTypeFilterLabel(entryType: String): String = when (entryType) {
+    "word" -> "正音词"
+    "sentence" -> "句子"
+    else -> "表达"
+}
+
+private fun entryTypeCardLabel(entryType: String): String = when (entryType) {
+    "word" -> "正音词条"
+    "sentence" -> "句子"
+    else -> "表达卡"
+}
 
 private val jyutpingTokenRegex = Regex("[A-Za-z]+[1-6]?")
 

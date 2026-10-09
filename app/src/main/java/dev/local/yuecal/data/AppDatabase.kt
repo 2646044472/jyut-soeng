@@ -286,13 +286,22 @@ interface ProgressDao {
     @Query(
         """
         SELECT COUNT(*) FROM calibration_entries e
-        LEFT JOIN review_progress p ON e.id = p.entryId
         WHERE e.isActive = 1
           AND e.entryType = :entryType
-          AND p.entryId IS NULL
+          AND EXISTS (
+              SELECT 1 FROM study_attempts todayAttempt
+              WHERE todayAttempt.entryId = e.id
+                AND todayAttempt.answeredAt >= :startOfDayMillis
+                AND todayAttempt.answeredAt < :endOfDayMillis
+          )
+          AND NOT EXISTS (
+              SELECT 1 FROM study_attempts previousAttempt
+              WHERE previousAttempt.entryId = e.id
+                AND previousAttempt.answeredAt < :startOfDayMillis
+          )
         """,
     )
-    fun observeNewCountByType(entryType: String): Flow<Int>
+    fun observeNewCountByType(startOfDayMillis: Long, endOfDayMillis: Long, entryType: String): Flow<Int>
 
     @Query(
         """
