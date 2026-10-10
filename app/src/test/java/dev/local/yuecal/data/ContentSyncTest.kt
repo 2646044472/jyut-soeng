@@ -79,6 +79,61 @@ class ContentSyncTest {
     }
 
     @Test
+    fun removedSentenceBankEntryGetsArchivedWithoutArchivingOtherCuratedEntries() {
+        val plan = ManagedEntrySyncPlanner.plan(
+            existingEntries = listOf(
+                entry(
+                    id = "sentence-bank-old-script-batch-0001",
+                    displayText = "舊句子",
+                    answerJyutping = "gau6 geoi3 zi2",
+                    sourceLabel = "curated",
+                    entryType = "sentence",
+                ),
+                entry(
+                    id = "sentence-curated-0001",
+                    displayText = "保留的例句",
+                    answerJyutping = "bou2 lau4 dik1 lai6 geoi3",
+                    sourceLabel = "curated",
+                    entryType = "sentence",
+                ),
+            ),
+            incomingEntries = emptyList(),
+        )
+
+        assertTrue("sentence-bank-old-script-batch-0001" in plan.archiveEntryIds)
+        assertTrue("sentence-curated-0001" !in plan.archiveEntryIds)
+    }
+
+    @Test
+    fun replacedCuratedSentenceBankEntryMigratesProgressToTheIncomingId() {
+        val plan = ManagedEntrySyncPlanner.plan(
+            existingEntries = listOf(
+                entry(
+                    id = "sentence-bank-old-script-batch-0001",
+                    displayText = "我哋今日一齊去食飯。",
+                    answerJyutping = "ngo5 dei6 gam1 jat6 jat1 cai4 heoi3 sik6 faan6",
+                    sourceLabel = "curated",
+                    entryType = "sentence",
+                ),
+            ),
+            incomingEntries = listOf(
+                asset(
+                    id = "sentence-bank-long-social-0001",
+                    displayText = "我哋今日一齊去食飯。",
+                    answerJyutping = "ngo5 dei6 gam1 jat6 jat1 cai4 heoi3 sik6 faan6",
+                    entryType = "sentence",
+                ),
+            ),
+        )
+
+        assertEquals(
+            "sentence-bank-long-social-0001",
+            plan.aliasTargetByEntryId["sentence-bank-old-script-batch-0001"],
+        )
+        assertTrue("sentence-bank-old-script-batch-0001" in plan.archiveEntryIds)
+    }
+
+    @Test
     fun mergedReviewProgressPreservesTotalsAndEarliestNextReview() {
         val merged = ReviewProgressMerger.merge(
             targetId = "shared-entry",

@@ -205,6 +205,7 @@ fun CantoCalibratorApp() {
                     val state by viewModel.uiState.collectAsStateWithLifecycle()
                     SentenceStudyScreen(
                         state = state,
+                        onPrevious = viewModel::goToPrevious,
                         onNext = viewModel::learnCurrentAndAdvance,
                         onDone = { navController.popBackStack() },
                     )
@@ -579,14 +580,20 @@ private fun SentenceReaderCard(sentence: CalibrationEntry, onSpeak: (String) -> 
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
-            if (sentence.gloss.isNotBlank() || sentence.usageTip.isNotBlank()) {
-                TextButton(onClick = { meaningVisible = !meaningVisible }) {
-                    Text(if (meaningVisible) "收起中文意思" else "查看中文意思")
-                }
+            TextButton(onClick = { meaningVisible = !meaningVisible }) {
+                Text(if (meaningVisible) "收起中文意思" else "查看中文意思")
             }
             if (meaningVisible) {
-                InfoBlock("中文意思", sentence.gloss)
-                InfoBlock("使用场景", sentence.usageTip)
+                if (sentence.gloss.isNotBlank()) {
+                    InfoBlock("中文意思", sentence.gloss)
+                } else {
+                    Text(
+                        "这条句子的中文意思暂未录入。",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+                if (sentence.usageTip.isNotBlank()) InfoBlock("使用场景", sentence.usageTip)
             }
         }
     }
@@ -595,6 +602,7 @@ private fun SentenceReaderCard(sentence: CalibrationEntry, onSpeak: (String) -> 
 @Composable
 internal fun SentenceStudyScreen(
     state: SentenceStudyUiState,
+    onPrevious: () -> Unit,
     onNext: () -> Unit,
     onDone: () -> Unit,
 ) {
@@ -621,7 +629,17 @@ internal fun SentenceStudyScreen(
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 textAlign = TextAlign.Center,
             )
-            Button(onClick = onDone) { Text("完成") }
+            Row(
+                horizontalArrangement = Arrangement.spacedBy(12.dp),
+            ) {
+                OutlinedButton(
+                    enabled = state.currentIndex > 0,
+                    onClick = onPrevious,
+                ) {
+                    Text("上一句")
+                }
+                Button(onClick = onDone) { Text("完成") }
+            }
         }
         return
     }
@@ -641,7 +659,7 @@ internal fun SentenceStudyScreen(
             Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 Text("句子学习", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                 Text(
-                    "第 ${state.currentIndex + 1} / ${session.questions.size} 句 · 看完后按「下一句」继续",
+                    "第 ${state.currentIndex + 1} / ${session.questions.size} 句 · 可以按上一句或下一句浏览",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -655,25 +673,49 @@ internal fun SentenceStudyScreen(
                 ) {
                     Text("粤拼 · 粤语原句", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
                     AlignedSentenceText(sentence.displayText, sentence.answerJyutping)
-                    if (sentence.gloss.isNotBlank() || sentence.usageTip.isNotBlank()) {
-                        TextButton(onClick = { meaningVisible = !meaningVisible }) {
-                            Text(if (meaningVisible) "收起句子意思" else "展开查看句子意思")
-                        }
+                    TextButton(onClick = { meaningVisible = !meaningVisible }) {
+                        Text(if (meaningVisible) "收起句子意思" else "展开查看句子意思")
                     }
                     if (meaningVisible) {
-                        InfoBlock("中文意思", sentence.gloss)
+                        if (sentence.gloss.isNotBlank()) {
+                            InfoBlock("中文意思", sentence.gloss)
+                        } else {
+                            Text(
+                                "这条句子的中文意思暂未录入。",
+                                style = MaterialTheme.typography.bodyMedium,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                        }
                         if (sentence.usageTip.isNotBlank()) InfoBlock("使用场景", sentence.usageTip)
                     }
                 }
             }
         }
         item {
-            Button(
+            Row(
                 modifier = Modifier.fillMaxWidth(),
-                enabled = !state.isSaving,
-                onClick = onNext,
+                horizontalArrangement = Arrangement.spacedBy(12.dp),
             ) {
-                Text(if (state.isSaving) "正在保存…" else "下一句")
+                OutlinedButton(
+                    modifier = Modifier.weight(1f),
+                    enabled = state.currentIndex > 0 && !state.isSaving,
+                    onClick = onPrevious,
+                ) {
+                    Text("上一句")
+                }
+                Button(
+                    modifier = Modifier.weight(1f),
+                    enabled = !state.isSaving,
+                    onClick = onNext,
+                ) {
+                    Text(
+                        when {
+                            state.isSaving -> "正在保存…"
+                            state.currentIndex == session.questions.lastIndex -> "完成今日学习"
+                            else -> "下一句"
+                        },
+                    )
+                }
             }
         }
     }

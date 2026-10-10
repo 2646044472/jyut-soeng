@@ -54,7 +54,9 @@ MIN_CURATED_SENTENCE_SYLLABLES = 28
 MIN_CURATED_SENTENCE_COUNT = 300
 JYUTPING_TOKEN = re.compile(r"[a-z]+[1-6]")
 JYUTPING_ALLOWED_SEPARATORS = re.compile(r"[,，.。:：;；?!？！、\s]")
-HAN_CHARACTER = re.compile(r"[\u3400-\u9fff\U00020000-\U0002FA1F]")
+HAN_CHARACTER = re.compile(
+    r"[\u3400-\u9fff\uf900-\ufaff\U00020000-\U0002FA1F\U00030000-\U000323AF]"
+)
 LOW_CONFIDENCE_GENERATED_WORD_FRAGMENTS = (
     "工時",
     "結構",
@@ -174,7 +176,9 @@ def main(
                     raise SystemExit(f"Sentence {entry.get('id')} is too short for daily reading mode")
                 if segment_count < MIN_CURATED_SENTENCE_SEGMENTS:
                     raise SystemExit(f"Sentence {entry.get('id')} needs at least two conversational segments")
-            syllable_count = len(str(entry.get("answerJyutping", "")).split())
+            syllable_count = len(
+                JYUTPING_TOKEN.findall(str(entry.get("answerJyutping", "")).lower())
+            )
             if syllable_count < (minimum_han_count if standalone_sentence else MIN_CURATED_SENTENCE_SYLLABLES):
                 raise SystemExit(f"Sentence {entry.get('id')} needs a complete Jyutping line")
             jyutping = str(entry.get("answerJyutping", "")).lower()

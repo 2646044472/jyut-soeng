@@ -304,6 +304,7 @@ class SentenceStudyViewModel @Inject constructor(
 ) : ViewModel() {
 
     private val mutableState = MutableStateFlow(SentenceStudyUiState())
+    private val answeredEntryIds = mutableSetOf<String>()
     val uiState: StateFlow<SentenceStudyUiState> = mutableState
 
     init {
@@ -319,6 +320,13 @@ class SentenceStudyViewModel @Inject constructor(
         val sentence = state.currentSentence ?: return
         if (state.isLoading || state.isSaving) return
 
+        if (sentence.entryId in answeredEntryIds) {
+            mutableState.update { current ->
+                current.copy(currentIndex = current.currentIndex + 1)
+            }
+            return
+        }
+
         mutableState.update { it.copy(isSaving = true) }
         viewModelScope.launch {
             repository.submitAnswer(
@@ -327,12 +335,20 @@ class SentenceStudyViewModel @Inject constructor(
                 selectedAnswer = sentence.answerJyutping,
                 responseMillis = 0L,
             )
+            answeredEntryIds += sentence.entryId
             mutableState.update { current ->
                 current.copy(
                     currentIndex = current.currentIndex + 1,
                     isSaving = false,
                 )
             }
+        }
+    }
+
+    fun goToPrevious() {
+        mutableState.update { current ->
+            if (current.isSaving) current
+            else current.copy(currentIndex = (current.currentIndex - 1).coerceAtLeast(0))
         }
     }
 }

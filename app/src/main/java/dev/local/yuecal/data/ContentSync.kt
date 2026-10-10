@@ -12,7 +12,10 @@ internal object ManagedEntrySyncPlanner {
         existingEntries: List<CalibrationEntryEntity>,
         incomingEntries: List<ContentEntryAsset>,
     ): ManagedEntrySyncPlan {
-        val managedEntries = existingEntries.filter { it.sourceLabel in managedSourceLabels }
+        val managedEntries = existingEntries.filter { entry ->
+            entry.sourceLabel in managedSourceLabels ||
+                (entry.entryType == "sentence" && entry.id.startsWith("sentence-bank-"))
+        }
         val activeManagedEntries = managedEntries.filter { it.isActive }
         val incomingIds = incomingEntries.mapTo(linkedSetOf()) { it.id }
         val incomingKeys = incomingEntries.mapTo(linkedSetOf()) { it.canonicalKey() }

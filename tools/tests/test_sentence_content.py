@@ -84,16 +84,43 @@ class DailySentenceContentTest(unittest.TestCase):
             for path in INDEPENDENT_SOURCE_PATHS
             for index, row in enumerate(json.loads(path.read_text(encoding="utf-8")), start=1)
         ]
-        self.assertEqual(10000, len(rows))
+        self.assertEqual(len(rows), 10000)
         self.assertEqual(len(rows), len({row["sentence"] for _, _, row in rows}))
+        topic_counts = Counter(
+            path.stem.rsplit("_", maxsplit=1)[0]
+            for path in INDEPENDENT_SOURCE_PATHS
+            for _ in json.loads(path.read_text(encoding="utf-8"))
+        )
+        self.assertEqual(
+            {
+                "long_family_finance_services": 1000,
+                "long_food_shopping": 1000,
+                "long_health_services": 1000,
+                "long_home_family": 1000,
+                "long_housing_neighborhood": 1000,
+                "long_money_admin": 1000,
+                "long_school_education": 1000,
+                "long_social_leisure": 1000,
+                "long_transit_travel": 1000,
+                "long_work_life": 1000,
+            },
+            dict(topic_counts),
+        )
 
         for path, index, row in rows:
             with self.subTest(source=f"{path.name}:{index}"):
                 sentence = row["sentence"].strip()
                 jyutping = row["jyutping"].strip().lower()
                 self.assertTrue(row["category"].strip())
-                han_count = len(re.findall(r"[\u3400-\u9fff\U00020000-\U0002FA1F]", sentence))
-                self.assertGreaterEqual(han_count, 22)
+                self.assertTrue(row.get("gloss", "").strip())
+                han_count = len(
+                    re.findall(
+                        r"[\u3400-\u9fff\uf900-\ufaff\U00020000-\U0002FA1F\U00030000-\U000323AF]",
+                        sentence,
+                    )
+                )
+                self.assertGreaterEqual(han_count, 60)
+                self.assertLessEqual(han_count, 90)
                 self.assertRegex(sentence, r"[。？！.!?][」』”\"]?$")
                 residue = re.sub(r"[,，.。:：;；?!？！、\s]", "", jyutping)
                 syllables = self._jyutping_token.findall(jyutping)
@@ -119,8 +146,13 @@ class DailySentenceContentTest(unittest.TestCase):
             f"sentence-bank-{path.stem}-{index:04d}"
             for path, index, _ in source_rows
         }
+        bundled_independent_ids = {
+            row["id"]
+            for row in bundle["entries"]
+            if row.get("entryType") == "sentence" and row["id"].startswith("sentence-bank-")
+        }
 
-        self.assertTrue(expected_ids.issubset(bundled))
+        self.assertEqual(expected_ids, bundled_independent_ids)
         for path, index, source in source_rows:
             entry_id = f"sentence-bank-{path.stem}-{index:04d}"
             with self.subTest(entry_id=entry_id):
@@ -128,6 +160,8 @@ class DailySentenceContentTest(unittest.TestCase):
                 self.assertEqual(source["sentence"], entry["displayText"])
                 self.assertEqual(source["jyutping"], entry["answerJyutping"])
                 self.assertEqual(source["category"], entry["category"])
+                self.assertEqual(source.get("gloss", "").strip(), entry["gloss"])
+                self.assertEqual(source.get("usageTip", "").strip(), entry["usageTip"])
                 self.assertEqual("curated", entry["sourceLabel"])
                 self.assertEqual("sentence", entry["entryType"])
 
