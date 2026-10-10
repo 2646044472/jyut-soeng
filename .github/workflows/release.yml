@@ -45,7 +45,7 @@ jobs:
           elif [ "$GITHUB_REF_NAME" = "v0.24.0" ]; then
             python3 tools/validate_content.py --min-sentences 1320
           else
-            python3 tools/validate_content.py --min-sentences 2000
+            python3 tools/validate_content.py --min-sentences 12160
           fi
           python3 -m unittest discover -s tools/tests -p 'test*.py'
           python3 tools/export_github_pack.py
@@ -80,7 +80,7 @@ jobs:
         with:
           name: "jyut-soeng ${{ github.ref_name }}"
           body: |
-            本版修复搜索输入时光标跳动和英文输入被打断的问题；包含 2160 条日常粤语例句，保留逐字对齐的句子学习页面，默认每天学习 50 句，可在设置中调整目标。
+            本版加入 10,000 张独立生活粤语句子卡，与原有句库合计 12,160 句；保留逐字对齐的句子学习页面，默认每天学习 50 句，可在设置中调整目标。句子附粤拼，可用于对照练习。
 
             发布包包含 Android APK 和应用内更新入口使用的内容包。
           files: |

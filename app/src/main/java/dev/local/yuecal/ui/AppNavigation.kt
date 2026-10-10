@@ -579,8 +579,10 @@ private fun SentenceReaderCard(sentence: CalibrationEntry, onSpeak: (String) -> 
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
-            TextButton(onClick = { meaningVisible = !meaningVisible }) {
-                Text(if (meaningVisible) "收起中文意思" else "查看中文意思")
+            if (sentence.gloss.isNotBlank() || sentence.usageTip.isNotBlank()) {
+                TextButton(onClick = { meaningVisible = !meaningVisible }) {
+                    Text(if (meaningVisible) "收起中文意思" else "查看中文意思")
+                }
             }
             if (meaningVisible) {
                 InfoBlock("中文意思", sentence.gloss)
@@ -653,8 +655,10 @@ internal fun SentenceStudyScreen(
                 ) {
                     Text("粤拼 · 粤语原句", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
                     AlignedSentenceText(sentence.displayText, sentence.answerJyutping)
-                    TextButton(onClick = { meaningVisible = !meaningVisible }) {
-                        Text(if (meaningVisible) "收起句子意思" else "展开查看句子意思")
+                    if (sentence.gloss.isNotBlank() || sentence.usageTip.isNotBlank()) {
+                        TextButton(onClick = { meaningVisible = !meaningVisible }) {
+                            Text(if (meaningVisible) "收起句子意思" else "展开查看句子意思")
+                        }
                     }
                     if (meaningVisible) {
                         InfoBlock("中文意思", sentence.gloss)

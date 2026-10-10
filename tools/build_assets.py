@@ -7,6 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "content"
+SENTENCE_BANK_DIR = CONTENT_DIR / "sentence_bank"
 OUTPUT_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
 def build_prompt_text(raw: str, entry_type: str) -> str:
     text = str(raw or "").strip()
@@ -15,7 +16,7 @@ def build_prompt_text(raw: str, entry_type: str) -> str:
     if entry_type == "word":
         return "先按自己答案写出 Jyutping，再看意思、用法同例句。"
     if entry_type == "sentence":
-        return "先顺住读完整句子同 Jyutping；唔明先展开中文意思。"
+        return "先顺住读完整句子同 Jyutping，再留意语气、节奏同连贯度。"
     return "先理解呢条表达，再写出 Jyutping，再看意思、用法同例句。"
 
 
@@ -56,6 +57,33 @@ def load_entries(path: Path, entry_type: str) -> list[dict]:
     return entries
 
 
+def load_independent_sentence_entries(path: Path) -> list[dict]:
+    rows = json.loads(path.read_text(encoding="utf-8"))
+    entries: list[dict] = []
+    for index, row in enumerate(rows, start=1):
+        entry_id = f"sentence-bank-{path.stem}-{index:04d}"
+        entries.append(
+            {
+                "id": entry_id,
+                "displayText": row["sentence"],
+                "promptText": build_prompt_text("", entry_type="sentence"),
+                "answerJyutping": row["jyutping"],
+                "gloss": "",
+                "notes": "",
+                "usageTip": "",
+                "exampleSentence": "",
+                "exampleTranslation": "",
+                "entryType": "sentence",
+                "category": row["category"],
+                "groupId": entry_id,
+                "tone": 0,
+                "audioAsset": None,
+                "sourceLabel": "curated",
+            }
+        )
+    return entries
+
+
 def load_all_entries() -> list[dict]:
     entries: list[dict] = []
     for path in sorted(CONTENT_DIR.glob("*_bank.json")):
@@ -68,6 +96,8 @@ def load_all_entries() -> list[dict]:
             else "word"
         )
         entries.extend(load_entries(path, entry_type))
+    for path in sorted(SENTENCE_BANK_DIR.glob("*.json")):
+        entries.extend(load_independent_sentence_entries(path))
     return entries
 
 

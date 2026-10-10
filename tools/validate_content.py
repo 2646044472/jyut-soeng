@@ -13,6 +13,8 @@ from meaning_rules import is_low_info_usage
 ROOT = Path(__file__).resolve().parent.parent
 BUNDLE_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
 ASSET_ROOT = ROOT / "app" / "src" / "main" / "assets"
+STANDALONE_SENTENCE_PREFIX = "sentence-bank-"
+KNOWN_UNALIGNED_HAN_SPANS = ("中英文",)
 LEGACY_GENERATED_MARKERS = (
     "讲一次完整句子",
     "读得更顺一点",
@@ -51,7 +53,8 @@ MIN_CURATED_SENTENCE_SEGMENTS = 2
 MIN_CURATED_SENTENCE_SYLLABLES = 28
 MIN_CURATED_SENTENCE_COUNT = 300
 JYUTPING_TOKEN = re.compile(r"[a-z]+[1-6]")
-JYUTPING_ALLOWED_SEPARATORS = re.compile(r"[，。；？！、\s]")
+JYUTPING_ALLOWED_SEPARATORS = re.compile(r"[,，.。:：;；?!？！、\s]")
+HAN_CHARACTER = re.compile(r"[\u3400-\u9fff\U00020000-\U0002FA1F]")
 LOW_CONFIDENCE_GENERATED_WORD_FRAGMENTS = (
     "工時",
     "結構",
@@ -141,7 +144,14 @@ def main(
             raise SystemExit(f"Repeated sentence {label} ({count} times): {text}")
 
     for entry in entries:
-        for key in ("displayText", "promptText", "answerJyutping", "usageTip", "exampleSentence", "category"):
+        standalone_sentence = (
+            entry.get("entryType") == "sentence"
+            and str(entry.get("id", "")).startswith(STANDALONE_SENTENCE_PREFIX)
+        )
+        required_fields = ["displayText", "promptText", "answerJyutping", "category"]
+        if not standalone_sentence:
+            required_fields.extend(("usageTip", "exampleSentence"))
+        for key in required_fields:
             if not str(entry.get(key, "")).strip():
                 raise SystemExit(f"Entry {entry.get('id')} missing required field: {key}")
         display_text = str(entry.get("displayText", "")).strip()
@@ -149,40 +159,40 @@ def main(
         usage_tip = str(entry.get("usageTip", "")).strip()
         example_sentence = str(entry.get("exampleSentence", "")).strip()
         if entry.get("entryType") == "sentence":
-            segment_count = sum(display_text.count(mark) for mark in ("，", "；", "？"))
+            if standalone_sentence:
+                minimum_han_count = 22
+                han_count = len(HAN_CHARACTER.findall(display_text))
+                if len(display_text) < minimum_han_count:
+                    raise SystemExit(f"Sentence {entry.get('id')} is too short for daily reading mode")
+                if not re.search(r"[。？！.!?][」』”\"]?$", display_text):
+                    raise SystemExit(f"Sentence {entry.get('id')} is missing ending punctuation")
+                if not HAN_CHARACTER.search(display_text) or han_count < minimum_han_count:
+                    raise SystemExit(f"Sentence {entry.get('id')} needs a complete Cantonese sentence")
+            else:
+                segment_count = sum(display_text.count(mark) for mark in ("，", "；", "？"))
+                if len(display_text) < MIN_CURATED_SENTENCE_LENGTH:
+                    raise SystemExit(f"Sentence {entry.get('id')} is too short for daily reading mode")
+                if segment_count < MIN_CURATED_SENTENCE_SEGMENTS:
+                    raise SystemExit(f"Sentence {entry.get('id')} needs at least two conversational segments")
             syllable_count = len(str(entry.get("answerJyutping", "")).split())
-            if len(display_text) < MIN_CURATED_SENTENCE_LENGTH:
-                raise SystemExit(f"Sentence {entry.get('id')} is too short for daily reading mode")
-            if segment_count < MIN_CURATED_SENTENCE_SEGMENTS:
-                raise SystemExit(f"Sentence {entry.get('id')} needs at least two conversational segments")
-            if syllable_count < MIN_CURATED_SENTENCE_SYLLABLES:
+            if syllable_count < (minimum_han_count if standalone_sentence else MIN_CURATED_SENTENCE_SYLLABLES):
                 raise SystemExit(f"Sentence {entry.get('id')} needs a complete Jyutping line")
             jyutping = str(entry.get("answerJyutping", "")).lower()
             residue = JYUTPING_ALLOWED_SEPARATORS.sub("", jyutping)
             tokens = JYUTPING_TOKEN.findall(jyutping)
             if not tokens or "".join(tokens) != residue:
                 raise SystemExit(f"Sentence {entry.get('id')} contains non-Jyutping text")
-        if is_low_info_gloss(gloss, display_text):
+            has_known_unaligned_span = any(span in display_text for span in KNOWN_UNALIGNED_HAN_SPANS)
+            if standalone_sentence and not re.search(r"[A-Za-z0-9]", display_text) and not has_known_unaligned_span:
+                if len(HAN_CHARACTER.findall(display_text)) != syllable_count:
+                    raise SystemExit(f"Sentence {entry.get('id')} Jyutping syllables do not align with its characters")
+        if not standalone_sentence and is_low_info_gloss(gloss, display_text):
             raise SystemExit(f"Entry {entry.get('id')} still has low-information gloss: {gloss}")
-        if is_low_info_usage(usage_tip):
+        if not standalone_sentence and is_low_info_usage(usage_tip):
             raise SystemExit(f"Entry {entry.get('id')} still has low-information usageTip: {usage_tip}")
         if entry.get("sourceLabel") == "generated":
             raise SystemExit(f"Generated entry {entry.get('id')} is not allowed in the release bundle")
-            example_sentence = str(entry.get("exampleSentence", "")).strip()
-            if is_fake_example_sentence(example_sentence, display_text):
-                raise SystemExit(f"Generated entry {entry.get('id')} still has fake or placeholder exampleSentence")
-            if any(marker in example_sentence for marker in LEGACY_GENERATED_MARKERS):
-                raise SystemExit(f"Generated entry {entry.get('id')} still contains legacy fake example copy")
-            if any(marker in example_sentence for marker in FORCED_SENTENCE_MARKERS):
-                raise SystemExit(f"Generated entry {entry.get('id')} still pushes forced sentence-making")
-            suspicious_markers = (
-                LOW_CONFIDENCE_GENERATED_EXPRESSION_FRAGMENTS
-                if entry.get("entryType") == "expression"
-                else LOW_CONFIDENCE_GENERATED_WORD_FRAGMENTS
-            )
-            if any(marker in display_text for marker in suspicious_markers):
-                raise SystemExit(f"Generated entry {entry.get('id')} still contains low-confidence wording: {display_text}")
-        else:
+        elif not standalone_sentence:
             gloss = str(entry.get("gloss", "")).strip()
             example_lines = [line.strip() for line in example_sentence.splitlines() if line.strip()]
             if example_lines and all(display_text not in line for line in example_lines):

@@ -9,6 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE_PATHS = sorted(ROOT.glob("content/*sentence*_bank.json"))
+INDEPENDENT_SOURCE_PATHS = sorted((ROOT / "content" / "sentence_bank").glob("*.json"))
 BUNDLE_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
 
 
@@ -68,7 +69,7 @@ class DailySentenceContentTest(unittest.TestCase):
             if row.get("entryType") == "sentence"
         }
 
-        self.assertEqual({row["id"] for row in source_rows}, set(bundled))
+        self.assertTrue({row["id"] for row in source_rows}.issubset(bundled))
         for source in source_rows:
             with self.subTest(entry_id=source["id"]):
                 entry = bundled[source["id"]]
@@ -76,6 +77,59 @@ class DailySentenceContentTest(unittest.TestCase):
                 self.assertEqual(source["answerJyutping"], entry["answerJyutping"])
                 self.assertIn("完整句子", entry["promptText"])
                 self.assertEqual("curated", entry["sourceLabel"])
+
+    def test_independent_sentence_bank_has_complete_jyutping(self) -> None:
+        rows = [
+            (path, index, row)
+            for path in INDEPENDENT_SOURCE_PATHS
+            for index, row in enumerate(json.loads(path.read_text(encoding="utf-8")), start=1)
+        ]
+        self.assertEqual(10000, len(rows))
+        self.assertEqual(len(rows), len({row["sentence"] for _, _, row in rows}))
+
+        for path, index, row in rows:
+            with self.subTest(source=f"{path.name}:{index}"):
+                sentence = row["sentence"].strip()
+                jyutping = row["jyutping"].strip().lower()
+                self.assertTrue(row["category"].strip())
+                han_count = len(re.findall(r"[\u3400-\u9fff\U00020000-\U0002FA1F]", sentence))
+                self.assertGreaterEqual(han_count, 22)
+                self.assertRegex(sentence, r"[。？！.!?][」』”\"]?$")
+                residue = re.sub(r"[,，.。:：;；?!？！、\s]", "", jyutping)
+                syllables = self._jyutping_token.findall(jyutping)
+                self.assertTrue(syllables)
+                self.assertEqual("".join(syllables), residue)
+                self.assertGreaterEqual(len(syllables), 22)
+                if not re.search(r"[A-Za-z0-9]", sentence) and "中英文" not in sentence:
+                    self.assertEqual(han_count, len(syllables))
+
+    def test_built_bundle_includes_independent_sentence_cards(self) -> None:
+        source_rows = [
+            (path, index, row)
+            for path in INDEPENDENT_SOURCE_PATHS
+            for index, row in enumerate(json.loads(path.read_text(encoding="utf-8")), start=1)
+        ]
+        bundle = json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
+        bundled = {
+            row["id"]: row
+            for row in bundle["entries"]
+            if row.get("entryType") == "sentence"
+        }
+        expected_ids = {
+            f"sentence-bank-{path.stem}-{index:04d}"
+            for path, index, _ in source_rows
+        }
+
+        self.assertTrue(expected_ids.issubset(bundled))
+        for path, index, source in source_rows:
+            entry_id = f"sentence-bank-{path.stem}-{index:04d}"
+            with self.subTest(entry_id=entry_id):
+                entry = bundled[entry_id]
+                self.assertEqual(source["sentence"], entry["displayText"])
+                self.assertEqual(source["jyutping"], entry["answerJyutping"])
+                self.assertEqual(source["category"], entry["category"])
+                self.assertEqual("curated", entry["sourceLabel"])
+                self.assertEqual("sentence", entry["entryType"])
 
 
 if __name__ == "__main__":
