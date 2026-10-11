@@ -11,6 +11,18 @@ ROOT = Path(__file__).resolve().parents[2]
 SOURCE_PATHS = sorted(ROOT.glob("content/*sentence*_bank.json"))
 INDEPENDENT_SOURCE_PATHS = sorted((ROOT / "content" / "sentence_bank").glob("*.json"))
 BUNDLE_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
+LAST_SHORT_SENTENCE_BATCH = {
+    "long_family_finance_services": 10,
+    "long_food_shopping": 10,
+    "long_health_services": 10,
+    "long_home_family": 9,
+    "long_housing_neighborhood": 10,
+    "long_money_admin": 27,
+    "long_school_education": 10,
+    "long_social_leisure": 10,
+    "long_transit_travel": 10,
+    "long_work_life": 10,
+}
 
 
 class DailySentenceContentTest(unittest.TestCase):
@@ -84,7 +96,7 @@ class DailySentenceContentTest(unittest.TestCase):
             for path in INDEPENDENT_SOURCE_PATHS
             for index, row in enumerate(json.loads(path.read_text(encoding="utf-8")), start=1)
         ]
-        self.assertEqual(len(rows), 10000)
+        self.assertEqual(len(rows), 12893)
         self.assertEqual(len(rows), len({row["sentence"] for _, _, row in rows}))
         topic_counts = Counter(
             path.stem.rsplit("_", maxsplit=1)[0]
@@ -93,16 +105,16 @@ class DailySentenceContentTest(unittest.TestCase):
         )
         self.assertEqual(
             {
-                "long_family_finance_services": 1000,
-                "long_food_shopping": 1000,
-                "long_health_services": 1000,
-                "long_home_family": 1000,
-                "long_housing_neighborhood": 1000,
-                "long_money_admin": 1000,
-                "long_school_education": 1000,
-                "long_social_leisure": 1000,
-                "long_transit_travel": 1000,
-                "long_work_life": 1000,
+                "long_family_finance_services": 1267,
+                "long_food_shopping": 1533,
+                "long_health_services": 1202,
+                "long_home_family": 1221,
+                "long_housing_neighborhood": 1393,
+                "long_money_admin": 1455,
+                "long_school_education": 1209,
+                "long_social_leisure": 1154,
+                "long_transit_travel": 1295,
+                "long_work_life": 1164,
             },
             dict(topic_counts),
         )
@@ -119,8 +131,14 @@ class DailySentenceContentTest(unittest.TestCase):
                         sentence,
                     )
                 )
-                self.assertGreaterEqual(han_count, 60)
-                self.assertLessEqual(han_count, 90)
+                batch_number = int(path.stem.rsplit("_", maxsplit=1)[1])
+                short_sentence_batch = LAST_SHORT_SENTENCE_BATCH[path.stem.rsplit("_", maxsplit=1)[0]]
+                if batch_number > short_sentence_batch:
+                    self.assertLessEqual(100, han_count)
+                    self.assertLessEqual(han_count, 130)
+                else:
+                    self.assertGreaterEqual(han_count, 60)
+                    self.assertLessEqual(han_count, 90)
                 self.assertRegex(sentence, r"[。？！.!?][」』”\"]?$")
                 residue = re.sub(r"[,，.。:：;；?!？！、\s]", "", jyutping)
                 syllables = self._jyutping_token.findall(jyutping)

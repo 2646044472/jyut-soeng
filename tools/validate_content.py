@@ -162,14 +162,23 @@ def main(
         example_sentence = str(entry.get("exampleSentence", "")).strip()
         if entry.get("entryType") == "sentence":
             if standalone_sentence:
-                minimum_han_count = 22
                 han_count = len(HAN_CHARACTER.findall(display_text))
+                if 60 <= han_count <= 90:
+                    minimum_han_count = 22
+                elif 100 <= han_count <= 130:
+                    minimum_han_count = 100
+                else:
+                    raise SystemExit(
+                        f"Sentence {entry.get('id')} has an unsupported standalone sentence length: {han_count}"
+                    )
                 if len(display_text) < minimum_han_count:
                     raise SystemExit(f"Sentence {entry.get('id')} is too short for daily reading mode")
                 if not re.search(r"[。？！.!?][」』”\"]?$", display_text):
                     raise SystemExit(f"Sentence {entry.get('id')} is missing ending punctuation")
                 if not HAN_CHARACTER.search(display_text) or han_count < minimum_han_count:
                     raise SystemExit(f"Sentence {entry.get('id')} needs a complete Cantonese sentence")
+                if not gloss:
+                    raise SystemExit(f"Sentence {entry.get('id')} is missing its Mandarin meaning")
             else:
                 segment_count = sum(display_text.count(mark) for mark in ("，", "；", "？"))
                 if len(display_text) < MIN_CURATED_SENTENCE_LENGTH:

@@ -45,7 +45,7 @@ jobs:
           elif [ "$GITHUB_REF_NAME" = "v0.24.0" ]; then
             python3 tools/validate_content.py --min-sentences 1320
           else
-            python3 tools/validate_content.py --min-sentences 12160
+            python3 tools/validate_content.py --min-sentences 15053
           fi
           python3 -m unittest discover -s tools/tests -p 'test*.py'
           python3 tools/export_github_pack.py
@@ -80,7 +80,7 @@ jobs:
         with:
           name: "jyut-soeng ${{ github.ref_name }}"
           body: |
-            本版移除脚本批量生成的句子，改为逐句编写 10,000 张独立生活粤语句子卡；连同原有 2,160 条例句，句库共 12,160 句。句子附粤拼和中文意思，学习时可展开释义并用上一句、下一句浏览。默认每天学习 50 句，可在设置中调整目标。
+            本版新增 2,893 张逐句手写的长句独立卡，粤语原句、粤拼和普通话释义逐句核对；独立句卡共 12,893 张，连同原有 2,160 条例句，句库共 15,053 句。学习时可展开释义并用上一句、下一句浏览。默认每天学习 50 句，可在设置中调整目标。
 
             发布包包含 Android APK 和应用内更新入口使用的内容包。
           files: |
