@@ -14,7 +14,6 @@ ROOT = Path(__file__).resolve().parent.parent
 BUNDLE_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
 ASSET_ROOT = ROOT / "app" / "src" / "main" / "assets"
 STANDALONE_SENTENCE_PREFIX = "sentence-bank-"
-KNOWN_UNALIGNED_HAN_SPANS = ("中英文",)
 LEGACY_GENERATED_MARKERS = (
     "讲一次完整句子",
     "读得更顺一点",
@@ -48,10 +47,13 @@ GENERIC_CURATED_EXAMPLE_MARKERS = (
     "讲一次完整句子",
     "读得更顺一点",
 )
-MIN_CURATED_SENTENCE_LENGTH = 30
+MIN_CURATED_SENTENCE_HAN_COUNT = 220
+MAX_CURATED_SENTENCE_HAN_COUNT = 320
+MIN_LEGACY_CURATED_SENTENCE_LENGTH = 30
+MIN_LEGACY_CURATED_SENTENCE_SYLLABLES = 28
 MIN_CURATED_SENTENCE_SEGMENTS = 2
-MIN_CURATED_SENTENCE_SYLLABLES = 28
-MIN_CURATED_SENTENCE_COUNT = 300
+MIN_CURATED_SENTENCE_GLOSS_HAN_COUNT = 160
+MIN_CURATED_SENTENCE_COUNT = 15053
 JYUTPING_TOKEN = re.compile(r"[a-z]+[1-6]")
 JYUTPING_ALLOWED_SEPARATORS = re.compile(r"[,，.。:：;；?!？！、\s]")
 HAN_CHARACTER = re.compile(
@@ -105,6 +107,7 @@ LOW_CONFIDENCE_GENERATED_EXPRESSION_FRAGMENTS = (
 
 def main(
     min_sentence_count: int = MIN_CURATED_SENTENCE_COUNT,
+    require_story_upgrade: bool = False,
 ) -> None:
     bundle = json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
     entries = bundle["entries"]
@@ -150,9 +153,15 @@ def main(
             entry.get("entryType") == "sentence"
             and str(entry.get("id", "")).startswith(STANDALONE_SENTENCE_PREFIX)
         )
+        story_sentence = (
+            entry.get("entryType") == "sentence"
+            and str(entry.get("usageTip", "")).startswith("故事练习：")
+        )
         required_fields = ["displayText", "promptText", "answerJyutping", "category"]
         if not standalone_sentence:
             required_fields.extend(("usageTip", "exampleSentence"))
+        elif story_sentence:
+            required_fields.append("usageTip")
         for key in required_fields:
             if not str(entry.get(key, "")).strip():
                 raise SystemExit(f"Entry {entry.get('id')} missing required field: {key}")
@@ -161,44 +170,55 @@ def main(
         usage_tip = str(entry.get("usageTip", "")).strip()
         example_sentence = str(entry.get("exampleSentence", "")).strip()
         if entry.get("entryType") == "sentence":
-            if standalone_sentence:
-                han_count = len(HAN_CHARACTER.findall(display_text))
-                if 60 <= han_count <= 90:
-                    minimum_han_count = 22
-                elif 100 <= han_count <= 130:
-                    minimum_han_count = 100
-                else:
+            han_count = len(HAN_CHARACTER.findall(display_text))
+            if require_story_upgrade and not story_sentence:
+                raise SystemExit(f"Sentence {entry.get('id')} still awaits its story upgrade")
+            if story_sentence:
+                if not MIN_CURATED_SENTENCE_HAN_COUNT <= han_count <= MAX_CURATED_SENTENCE_HAN_COUNT:
                     raise SystemExit(
-                        f"Sentence {entry.get('id')} has an unsupported standalone sentence length: {han_count}"
+                        f"Sentence {entry.get('id')} has an unsupported story length: {han_count} Han characters"
                     )
-                if len(display_text) < minimum_han_count:
-                    raise SystemExit(f"Sentence {entry.get('id')} is too short for daily reading mode")
-                if not re.search(r"[。？！.!?][」』”\"]?$", display_text):
-                    raise SystemExit(f"Sentence {entry.get('id')} is missing ending punctuation")
-                if not HAN_CHARACTER.search(display_text) or han_count < minimum_han_count:
-                    raise SystemExit(f"Sentence {entry.get('id')} needs a complete Cantonese sentence")
+                if "「" not in display_text or "」" not in display_text:
+                    raise SystemExit(f"Sentence {entry.get('id')} needs direct dialogue")
+                if len(HAN_CHARACTER.findall(gloss)) < MIN_CURATED_SENTENCE_GLOSS_HAN_COUNT:
+                    raise SystemExit(f"Sentence {entry.get('id')} needs a complete Mandarin story translation")
+                if re.search(r"[A-Za-z0-9]", display_text):
+                    raise SystemExit(f"Sentence {entry.get('id')} contains unaligned Latin characters or digits")
+                if not standalone_sentence and example_sentence != display_text:
+                    raise SystemExit(f"Sentence {entry.get('id')} exampleSentence must match displayText")
+                minimum_syllables = han_count
+            elif standalone_sentence:
+                if 60 <= han_count <= 90:
+                    minimum_syllables = 22
+                elif 100 <= han_count <= 130:
+                    minimum_syllables = 100
+                else:
+                    raise SystemExit(f"Sentence {entry.get('id')} has an unsupported legacy length: {han_count}")
                 if not gloss:
                     raise SystemExit(f"Sentence {entry.get('id')} is missing its Mandarin meaning")
             else:
-                segment_count = sum(display_text.count(mark) for mark in ("，", "；", "？"))
-                if len(display_text) < MIN_CURATED_SENTENCE_LENGTH:
+                if len(display_text) < MIN_LEGACY_CURATED_SENTENCE_LENGTH:
                     raise SystemExit(f"Sentence {entry.get('id')} is too short for daily reading mode")
+                minimum_syllables = MIN_LEGACY_CURATED_SENTENCE_SYLLABLES
+            if story_sentence or standalone_sentence:
+                if not re.search(r"[。？！.!?][」』”\"]?$", display_text):
+                    raise SystemExit(f"Sentence {entry.get('id')} is missing ending punctuation")
+            if story_sentence or not standalone_sentence:
+                segment_count = sum(display_text.count(mark) for mark in ("，", "；", "？"))
                 if segment_count < MIN_CURATED_SENTENCE_SEGMENTS:
                     raise SystemExit(f"Sentence {entry.get('id')} needs at least two conversational segments")
             syllable_count = len(
                 JYUTPING_TOKEN.findall(str(entry.get("answerJyutping", "")).lower())
             )
-            if syllable_count < (minimum_han_count if standalone_sentence else MIN_CURATED_SENTENCE_SYLLABLES):
+            if syllable_count < minimum_syllables:
                 raise SystemExit(f"Sentence {entry.get('id')} needs a complete Jyutping line")
             jyutping = str(entry.get("answerJyutping", "")).lower()
             residue = JYUTPING_ALLOWED_SEPARATORS.sub("", jyutping)
             tokens = JYUTPING_TOKEN.findall(jyutping)
             if not tokens or "".join(tokens) != residue:
                 raise SystemExit(f"Sentence {entry.get('id')} contains non-Jyutping text")
-            has_known_unaligned_span = any(span in display_text for span in KNOWN_UNALIGNED_HAN_SPANS)
-            if standalone_sentence and not re.search(r"[A-Za-z0-9]", display_text) and not has_known_unaligned_span:
-                if len(HAN_CHARACTER.findall(display_text)) != syllable_count:
-                    raise SystemExit(f"Sentence {entry.get('id')} Jyutping syllables do not align with its characters")
+            if not re.search(r"[A-Za-z0-9]", display_text) and syllable_count != han_count:
+                raise SystemExit(f"Sentence {entry.get('id')} Jyutping must map one syllable to each Han character")
         if not standalone_sentence and is_low_info_gloss(gloss, display_text):
             raise SystemExit(f"Entry {entry.get('id')} still has low-information gloss: {gloss}")
         if not standalone_sentence and is_low_info_usage(usage_tip):
@@ -228,7 +248,8 @@ def main(
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--min-sentences", type=int, default=MIN_CURATED_SENTENCE_COUNT)
+    parser.add_argument("--require-story-upgrade", action="store_true", help="Require all sentence cards to pass full-story acceptance.")
     args = parser.parse_args()
     if args.min_sentences < 0:
         parser.error("--min-sentences must be nonnegative")
-    main(args.min_sentences)
+    main(args.min_sentences, require_story_upgrade=args.require_story_upgrade)

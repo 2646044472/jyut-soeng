@@ -5,6 +5,8 @@
 **/build/
 /keystore.properties
 /release-artifacts/
+/dist/
+__pycache__/
 /signing/
 /.omx/
 *.iml
