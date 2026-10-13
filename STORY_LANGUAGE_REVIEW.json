@@ -1646,13 +1646,19 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_03.json",
     "index": 11,
-    "sha256": "1f4b62a347df61e77fff8a9e264c2e4e6d17f97006169112677ef1bf8702005a",
+    "sha256": "393ed0fde567fc02d151a15ea8a417b550e0844db8994ce446b7e3042865a8ac",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "审读联名户口误会与单据核对逻辑；针对不可删除交易的表述修正后复核粤拼及全篇释义。"
+    "notes": "审读联名户口误会与单据核对逻辑；针对不可删除交易的表述修正后复核粤拼及全篇释义。 主 agent 逐字读完正文、粤拼、全篇释义及提示；女儿送灯给太太阿妈明确沿女儿外婆称谓，普通话五处不误作奶奶。手改擦胶口语并手写对应，女儿neoi2、文件袋gin2doi2、账簿bou2和随后转头zyun3逐词补正，夫妻误猜月亮至义卖收据揭晓完整。",
+    "reading_sources": [
+      "https://words.hk/zidin/婆婆",
+      "https://words.hk/zidin/阿女",
+      "https://words.hk/zidin/文件",
+      "https://words.hk/zidin/轉頭"
+    ]
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -1941,13 +1947,18 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_04.json",
     "index": 4,
-    "sha256": "421c6fe2e90e3ae2591f2713845babc1d4eb76bbdb4b69245beb532f244de40d",
+    "sha256": "7fac9785ad372fa63ad0a5c5667fafe600d7022431e811c4c70254562d45d7f1",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "作者回查去掉免费换眼镜的不合理笑话；根审再读新版眼镜挂号笑话、对应粤拼与全篇释义。"
+    "notes": "作者回查去掉免费换眼镜的不合理笑话；根审再读新版眼镜挂号笑话、对应粤拼与全篇释义。 主 agent 全文四字段复读，阿公与婆婆按实际词义译外公外婆，妈妈和兄弟姐妹陪诊关系保持一致；文件袋补gin2。跟错验眼队拿到号纸、门诊猫照片及分担两边交通药费的顺序完整，已有元数据保留。",
+    "reading_sources": [
+      "https://words.hk/zidin/阿公",
+      "https://words.hk/zidin/婆婆",
+      "https://words.hk/zidin/文件"
+    ]
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -1996,13 +2007,19 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_04.json",
     "index": 9,
-    "sha256": "8aa6d514b966d0b214f5ba5d77281f8ad7584934fc6ef8b0a9c703b9b0a2c453",
+    "sha256": "91f8ca885642469e683504c1f52570a861b161f299e7edf14ad67d881474efaf",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "人工审读婆婆登录名遗失、经卡背电话确认重设、自己输入新资料和退款入账；“棵”粤拼 po1 已核对。"
+    "notes": "人工审读婆婆登录名遗失、经卡背电话确认重设、自己输入新资料和退款入账；“棵”粤拼 po1 已核对。 主 agent 逐字全文读四字段，家庭称谓按外婆译，不添加未出现的家谱；名称ming4cing1、收到/听到/读到结果能力dou2，转开头动作zyun3。抽屉手改柜桶口语而释义仍准确；实际查证利是lai6si6与lei6si6均可，不盲改旧利是封。官方程序本人输入、提示锁好柜桶、退款到账后请豆浆的因果完整。",
+    "reading_sources": [
+      "https://words.hk/zidin/婆婆",
+      "https://cantowords.com/dictionary/名",
+      "https://www.cantonese.sheik.co.uk/dictionary/words/2007/",
+      "https://words.hk/zidin/櫃桶"
+    ]
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2191,13 +2208,18 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_04.json",
     "index": 25,
-    "sha256": "ab2038341dca4ed4021ccadf602e201156c7b757214aaac65960b14fe10efb9d",
+    "sha256": "e969b527ec7adef5600c42db73d7c82711ae1bf7b0c2af2e87bc5d262fc09297",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "人工审读公公把大钞夹伞套、每周提款上限与后来去柜台买新电饭煲的安排；鱼档对白自然。"
+    "notes": "人工审读公公把大钞夹伞套、每周提款上限与后来去柜台买新电饭煲的安排；鱼档对白自然。 主 agent 全文四字段审读，外公代替无据父系爷爷。每周提款限制没有明确银行依据，手写成与外公约定每星期现金预算、大件需求陪去柜台问手续；不称只讲用途即能提款。结尾手写夹走鱼腩、买鱼专家不准退休，回扣魚塘老板玩笑而非幸福说明。袋现金为动词doi6、搵唔到与听到dou2、鱼塘整词jyu4tong4分别核对，释义提示同步。",
+    "reading_sources": [
+      "https://words.hk/zidin/公公",
+      "https://words.hk/zidin/袋",
+      "https://jyutdictionary.com/dictionary/entry/魚塘"
+    ]
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2224,13 +2246,17 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_04.json",
     "index": 28,
-    "sha256": "1d1d5736cdca45271a830caab53afe418968940e4201041c495aaa9e567d2bb0",
+    "sha256": "c68f91a4c4b89dc07595b9d0eb3f322135febe332bfcb444ffa3408b5c7be5bb",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "人工审读妈妈排队才发现工资未入账、公公铁罐里的零钱与冬至买鱼；修正拿号码纸排队却说跟机器讲话的不一致。"
+    "notes": "人工审读妈妈排队才发现工资未入账、公公铁罐里的零钱与冬至买鱼；修正拿号码纸排队却说跟机器讲话的不一致。 主 agent 全文四字段逐字复读，妈妈的父亲公公译外公，兄弟姐妹所属代际未额外添写；手补现金同收据一齐放信封，再交外公数清，避免只交收据的物件歧义。实际查一叠现金 jat1 daap6有效读音保留，外公铁罐迷你分行与节日买鱼具体收尾完整。",
+    "reading_sources": [
+      "https://words.hk/zidin/公公",
+      "https://jyutdictionary.com/dictionary/entry/疊紙"
+    ]
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2246,13 +2272,18 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_04.json",
     "index": 30,
-    "sha256": "56913cc35c15e94ccdd18b5e288e7157485833215078a2a99192d00f4b0739a8",
+    "sha256": "01b09d8ff527922b2b552f39fbf6a3e40b1f183bb78abe2e204a0bc96569e22a",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "人工审读定期到期前来电、回拨官方电话确认、预留请家人食蟹的现金及到期日办理。"
+    "notes": "人工审读定期到期前来电、回拨官方电话确认、预留请家人食蟹的现金及到期日办理。 主 agent 逐字四字段审读，家人聚餐婆婆译外婆；三处听到都是听见结果dou2、两处阿妹mui2分别改正。手改口语酒楼，普通话饭店仍对应。定期到期才按她需要分存、两个月后赴饭局与拆蟹脚，未把初次电话当已获处理，全文释义完整。",
+    "reading_sources": [
+      "https://words.hk/zidin/婆婆",
+      "https://words.hk/zidin/阿妹",
+      "https://words.hk/zidin/到"
+    ]
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_05.json",
@@ -2792,13 +2823,17 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_04.json",
     "index": 44,
-    "sha256": "3207a550e52fac9a2ebf9e61575fad72231de9f20df7200bd4a93ff8bf8c4790",
+    "sha256": "a718edcf990b3205f9dbf2c8111606f52334dd15a1cf6efd829c52bd48b976c8",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "人工复核婆婆拨错号、旧卡失效、官网更改与复工笑话；粤拼释义逐句对照。"
+    "notes": "人工复核婆婆拨错号、旧卡失效、官网更改与复工笑话；粤拼释义逐句对照。 主 agent 全文四字段审读，按家庭语境婆婆译外婆；见到新扣款日为结果dou2。手写插充电线、摸手机叫它饮饱电收尾，延续手机员工复工玩笑，替代程序提醒说理；正文、粤拼、普通话及提示全同步。实际查早排 zou2 paai4与前排 paai2是不同词，原早排有效音保留。",
+    "reading_sources": [
+      "https://words.hk/zidin/婆婆",
+      "https://words.hk/zidin/早排"
+    ]
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -3756,18 +3791,19 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_06.json",
     "index": 41,
-    "sha256": "af675f5f06124945ffe1ec93ecfc7e78fc9ed4a27ab094c547624eb310354aa5",
+    "sha256": "b91fff03a9477a7bacb04807f53e3edb69878845d05677b232b27df585c3033b",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "逐句复核公公独立提款、提醒前人及向后人争取距离。用企替代书面站，独立写 duk6 laap6；收卡现金收据不假定机器吐出顺序。删去吞卡说明段及小石压盆防风的不成立细节，改以取花动作被误解成查卡，回应开头担心漏卡。公公两读音已查，外祖父义可用 gung1 gung1。 最后复读把取齐卡钱收据明确为提醒，避免操作先后误读；纪念查 gei2 nim6。 主审逐字核对公公、工作人员以外的旁人及买花动作；明确攞齐卡同啲钱后收卡入钱包，不暗示提款机收齐次序；排队 paai4 deoi2；程度咁急及咁神气保留 gam3，末段拿花与误认查卡相呼应。",
+    "notes": "逐句复核公公独立提款、提醒前人及向后人争取距离。用企替代书面站，独立写 duk6 laap6；收卡现金收据不假定机器吐出顺序。删去吞卡说明段及小石压盆防风的不成立细节，改以取花动作被误解成查卡，回应开头担心漏卡。公公两读音已查，外祖父义可用 gung1 gung1。 最后复读把取齐卡钱收据明确为提醒，避免操作先后误读；纪念查 gei2 nim6。 主审逐字核对公公、工作人员以外的旁人及买花动作；明确攞齐卡同啲钱后收卡入钱包，不暗示提款机收齐次序；排队 paai4 deoi2；程度咁急及咁神气保留 gam3，末段拿花与误认查卡相呼应。 主 agent 完整逐字复读四字段，家庭亲近长辈公公译外公，非丈夫之父。提示精确写问后面的人是否也买花、对方自行退一步，不虚构说出口请退；前一人留卡、外公同样怕急、拿齐卡钱及花店误会点名的具体顺序完整。近 kan5实际词条支持，密码键盘 gin6是鍵字而非文件件字，不作全字改音。",
     "reading_sources": [
       "https://words.hk/zidin/獨立",
       "https://words.hk/zidin/公公",
       "https://words.hk/zidin/紀念品",
-      "https://words.hk/zidin/排隊"
+      "https://words.hk/zidin/排隊",
+      "https://words.hk/zidin/遠近"
     ]
   },
   {
@@ -4592,6 +4628,809 @@
       "https://words.hk/zidin/排隊",
       "https://words.hk/zidin/簿",
       "https://words.hk/zidin/公公"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_07.json",
+    "index": 40,
+    "sha256": "449333842300c6fd4077ec5402c85a7a39b299c70805ec317058211bd97e30a9",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "重新逐句手写保留跨境汇款、邮件不合本人习惯与鱼档通话的核心，删除连续银行手续说明及末段再次解释三笑脸的重复结尾。电邮遭登入改由夜间本人核查后告知，避免一通否认就断言账号被盗；真鱼照片也被母亲怀疑，形成警觉延续的新转折。附件末字 gin2、改鱼档和银行的口语轉 zyun3，收到 sau1 dou2；完整释义和复述提示覆盖夜间确认及鱼相。 资料查本调与变调 liu6*2，本口语稿采用 zi1 liu2。 主审逐字核对三笑样与本人习惯不同、旧号通话正在鱼档讲价、先暂缓改收款、夜间本人确认登入后改密码、真鱼相也被妈妈问是谁寄的完整因果；查姨丈ji4zoeng2、阿姐aa3ze1并逐词修正，不推定邮箱已盗直到本人查清。资料liu2有效口语变调，整篇简体释义和提示已对读。",
+    "reading_sources": [
+      "https://words.hk/zidin/件",
+      "https://words.hk/zidin/轉",
+      "https://cantonese.sheik.co.uk/dictionary/words/3625/",
+      "https://lshk.org/wp-content/uploads/2022/11/CRAT_Appendix2_bystroke_1.3.pdf",
+      "https://words.hk/zidin/姨丈",
+      "https://words.hk/zidin/阿姐"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_07.json",
+    "index": 41,
+    "sha256": "b5e083c234076fa84c0f7970befb6c76273ec49027b9a61cd646a3621c127725",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐句手写把等待津贴落在红圈、茶壶与买鱼收据三个具体物件上，避免问法清单形成程序说明；两周后补交新水费单，获批日期另叙，时序清楚。原长者服务津贴改为泛称一项长者津贴，不虚构正式政策名称。鱼名而无本人姓名衔接不能证明住址；远处职员与近处帮忙者的茶形成情感收尾。查茶壶 wu2、手袋 doi2、收件与文件 gin2，婆婆 po4 po2，完整释义与提示逐项同步。 主审逐字读完婆婆电脑食表误会、红圈编号、为远处职员准备茶壶、错翻买鱼单无本人名、两周后补水费单、获批先给近处帮忙者潤喉的情感转折；长者zoeng2ze2、茶壶wu2、手袋doi2、摷caau3、收件sau1gin2按词复核，完整译文提示一致。",
+    "reading_sources": [
+      "https://words.hk/zidin/茶壺",
+      "https://words.hk/zidin/手袋",
+      "https://words.hk/zidin/件",
+      "https://words.hk/zidin/婆婆",
+      "https://words.hk/zidin/摷",
+      "https://words.hk/zidin/收件"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_07.json",
+    "index": 42,
+    "sha256": "3de04fe1bd8eadf6339e0531025d94aa0c07c900301c6cce6a7b9ef1fadf6da5",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐句复核半夜拿水费单、去年照片咖啡渍、尝试美颜与重新上载。补介词喺、赶紧改即刻；改为删除无用旧相，免去手机资料夹指涉。旧结尾未交代杯怎样在螢幕留印，改为杯放电话旁、先收手机、父亲挪杯的实物动作，仍呼应专属印章。文件及收件末字 gin2；一疊 daap6 用作叠单的量词，咖啡渍 zik1 保留。 资料查本调与变调 liu6*2，本口语稿采用 zi1 liu2。 姓名查 sing3 ming4；正文改口语个名 go3 meng2，与旧稿 sing3 meng2 不混用。 主审核对半夜旧水费单咖啡渍、资料年份而非地址过期、阻止美颜、上传新文件后显示日期、删除旧相及次朝咖啡不能盖印的动作；手机先收返入袋，袋名词doi2修正。文件与收件gin2、资料liu2有效变调，逐字粤拼及全部简释已读完。",
+    "reading_sources": [
+      "https://words.hk/zidin/文件",
+      "https://words.hk/zidin/件",
+      "https://words.hk/zidin/棘",
+      "https://cantonese.sheik.co.uk/dictionary/words/3625/",
+      "https://words.hk/zidin/姓名"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_07.json",
+    "index": 43,
+    "sha256": "c2b6441e239964fc3cfe8285a58caa1f4a13c7df64c822de123fb9c4868e1188",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐字纠正家庭收入、兼职收入均误写 jap6 sik1，手写 sau1 jap6；副眼镜量词 fu3。老花条明确缩略老花鏡读 geng3，完整老花眼鏡才列 geng2，未机械改错。原提交后才放下手指像一直悬指等待，改为收计数机；末尾另一张表与裁判补时接回开头人物互动，复述提示覆盖真实末句，避免又以喝茶收尾。全文简体释义同步，手续步骤仍用于动作因果。 资料查本调与变调 liu6*2，本口语稿采用 zi1 liu2。 末段纸张明确为先前手写笔记，避免未打印确认页却望纸的误读。 主审核对税前税后疑问先问官方、纸记答案兼职收入和查询日期、下一页未保存回草稿、提交参考号及另一张表裁判补时的因果；收入sau1jap6、老花镜geng3、副量词fu3、资料liu2按义读取，笔记已实际手写所以末段看纸有来源。粤拼及完整简释逐句读完。",
+    "reading_sources": [
+      "https://words.hk/zidin/收入",
+      "https://words.hk/zidin/老花",
+      "https://cantonese.sheik.co.uk/dictionary/words/3625/",
+      "https://words.hk/zidin/偈"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_07.json",
+    "index": 44,
+    "sha256": "03e20928b1138d07b78780f82f9ad52fa43ddbcc7fbc75d998ef7a5ddc0c43b5",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐句复核错误登记号码导致等不到验证码，陌生短信却能收到，删去重复检查容量的手续清单，保留核实号码与更正过程。剛、趕緊、陽台换口语啱啱、即刻、露台；删除对象明确为短信。原结尾仅复述号码规则，改为妈妈换热茶、爸爸把水汽认作讯号的玩笑，呼应举手机找卫星。倒轉 dou3 zyun3、更正 gang1 zing3查证；释义纠正举高手遗漏手机。 资料查本调与变调 liu6*2，本口语稿采用 zi1 liu2。 主审逐句核对登记电话号码颠倒、陌生短信与验证不混、按卡背官方查证更正、窗口举手机找卫星、第二次收到验证码及热茶水汽讯号的回扣；倒转dou3zyun3、更正gang1zing3有效，听到声音dou2修正，整篇简体释义和提示读完。",
+    "reading_sources": [
+      "https://words.hk/zidin/倒轉",
+      "https://words.hk/zidin/更",
+      "https://cantonese.sheik.co.uk/dictionary/words/3625/"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 0,
+    "sha256": "6e6160ce47091fb97932c6add422a46cf8eaa4fbbfc555e7af3f494d94e5db8b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "修正「飲完茶」與仍在夾蝦餃的時間矛盾；明寫托起魚缸架腳取回合約，避免憑空抽走承重紙。新增阿媽問金魚供樓、細佬扮聽不到的小轉折，維持加息恐慌轉為一家人互相打趣。逐字複讀改屋企 kei2、相簿 bou2、文件 gin2，結果補語聽到／見到 dou2；完整簡释同步新增動作。 補充查粵典架：支撐物體的架是名詞 gaa2，並非交通工具量詞 gaa3；魚缸架及個架都依此更正，個架其中一隻腳亦避免不清楚的複合名詞。 主审逐字核对茶未饮完仍夹蝦餃、合约纸垫鱼缸架、托起一脚抽纸、弟弟返家、母亲问金鱼供款以及只多一餐茶钱的完整转折；将两处佢分别明写细佬与阿妈，避免阿妈既在场又返来的主体错误。鱼缸架gaa2、相簿bou2、文件gin2和完整简释提示已读完。 另查粵典墊的义项：纸托高架脚的垫是zin3，并非垫付费用din6；逐字更正对应一个音节，译文仍为垫鱼缸架。",
+    "reading_sources": [
+      "https://words.hk/zidin/屋企",
+      "https://words.hk/zidin/相簿",
+      "https://words.hk/zidin/文件",
+      "https://words.hk/zidin/見到",
+      "https://words.hk/zidin/架",
+      "https://words.hk/zidin/墊"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 1,
+    "sha256": "d7805546283f6decaf274cd8aa0aa8d427ac7dea13e322674b088651318b27c1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "具體寫兒子多按兩個零，天文數字及賣雪櫃的笑話有明確原因；冰箱磁貼量詞改塊，結尾全期划算改成個年期未必抵。過去買錯尺寸的記憶解釋主人公今次延緩決定，保留其個別情節，簡释補齊錯按兩個零。逐字複讀師傅 fu2、頂頭 deng2 tau4、原转浮息已由主审改用浮息，未將多音字統一改讀。 主审逐句核对妻子哭钱包纸、优惠期两个月、儿子加零和卖雪柜、往昔尺寸失误导致慢选、全期比较及笑钱包的回扣；把转浮息改口语改用浮息goi2jung6，不误将利率方案更改等同转账。顶头deng2tau4、伏fuk6、师傅fu2，全部粤拼及完整译文复读。 已查明动作畫误配名词waa2；保留原摘要与记录，待主agent逐张复读修正后才恢复有效审校。 主 agent 重新读完四字段，两次画钱包动作读 waak6。保留已经主审改好的改用浮息，而非覆盖为旧稿；全期成本对比与错尺寸冰箱的反省对应。",
+    "reading_sources": [
+      "https://words.hk/zidin/畫"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 2,
+    "sha256": "f92110d8312cd20cae84b8e702c6c6b53350fc2340c994fc17700c8c070f6854",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "原結尾突然收起笑臉衫欠原因，改成摸孫仔頭、安慰不用孩子供樓，並以爸爸真正笑容比衫上笑口大作畫面回扣，避免把小朋友儲利是當成實際供款方案。條件 gin2、枱面 min2及聽到／負擔到 dou2逐字更正；儲錢 cou5及利是 lei6 si6在粵典均有明確收錄，保留有效口語讀音。 末次複讀把未交代濕的衫晾在椅背改搭在椅背，保留爸爸自信的實際笑容回扣。 主审核对父亲转做兼职却抢埋单、笑口衫到银行、收入与鱼单混乱、返家发现暗包孙子泳费、孙子想储利是但父亲拒其承担及真正笑容的转折；转做兼职zyun3，咁样gam2joeng2按整词，倒整袋纸dou2按倾倒义修；衣服搭椅背非未湿而晾。全部简释和提示一致。",
+    "reading_sources": [
+      "https://words.hk/zidin/條件",
+      "https://words.hk/zidin/枱",
+      "https://words.hk/zidin/面",
+      "https://words.hk/zidin/習慣",
+      "https://words.hk/zidin/利是",
+      "https://words.hk/zidin/轉",
+      "https://words.hk/zidin/咁樣",
+      "https://cantonese.sheik.co.uk/dictionary/characters/1384/?full=true"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 3,
+    "sha256": "ac8fde828b77e437b020417aee2bfcc3ff15585dd13ba2eb8a2d2ecd8fad3b7f",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "補上本期供款轉回舊戶口的動作，使後來成功扣款有來源；加拖鞋未換已拎頭盔的半夜畫面，妻子急得想踩車與丈夫拉住她的轉折更具體。冰箱字條改口語「買餸錢唔好同供樓錢撈亂」，非書面對偶。查到／收到／見到的結果補語逐一改 dou2，轉帳仍用 zyun2。 主审逐字读完夫妻半夜查供款户口、太太持头盔要踩车但银行已关、次朝查旧扣款授权仍有效、转回当期钱、夜晚扣款成功及妈妈见字条的时间线；旧账号有效不等于自动扣款仍有效，已补明扣款授权，译文同步。主语与资金流向、粤拼全篇和提示核对。 再核对粤语引语我係咪系妻子指自己；普通话问句改直接引用，明确我指妻子，避免问丈夫是不是他转错钱的主体歧义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 4,
+    "sha256": "c81b2c74786e26e212e773c1b33c9ca24dc74ae8846d4b27ea5a8c9f87c44c94",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "原門閂不實卻需用腳頂住才能介紹的動作因果不清，改門一開即撞牆，經紀用腳制住有明確畫面；第二次看樓補蹲下摸牆、承認只顧聞麵包香的個別轉折。修阿妹 mui2、名詞紙袋 doi2、用腳頂 ding2及望到／聞到／批到／聽到結果或能力 dou2；落訂 deng6按粵語口語用法保留。 主审核对妹妹因楼下菠萝包香想签字、纸袋列首期与税费、记起厕所门撞墙、再看水渍、请师傅估维修再缓购的完整转折；蹲低改口语踎低mau1dai1，纸袋doi2、顶住ding2与闻到/望到dou2按词读，整篇简体释义及个性提示复核。",
+    "reading_sources": [
+      "https://words.hk/zidin/阿妹",
+      "https://words.hk/zidin/袋",
+      "https://words.hk/zidin/頂",
+      "https://words.hk/zidin/訂枱"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 5,
+    "sha256": "ceac9e22b557a640979d1be98657fb0f481362d5535267e48d4365d4865f6ea0",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 逐字读完四字段，决定试一个月与第二日查询时间分清；纸飞机落太太碟中、洗碟机场回扣游学，采用已修太太指代。房屋税按澳门税名查证，未用差饷。",
+    "reading_sources": [
+      "https://www.dsf.gov.mo/zh-hant/tax/tax_communication"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 6,
+    "sha256": "1ad5b598503ad3d928b96ec1f5cf980966289e64aaa934b775fbfda0595206eb",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 逐张四字段审读，点样读 dim2 joeng2；叔叔两盒蛋挞由求签名变感谢，重新算收入、拒签但陪找负担得起楼的因果完整，不暗示担保只需签名。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 7,
+    "sha256": "35985ce4ce0e4050900feb4c1f755c3dec8ba8fc79a5afec79060f1c8733bd5a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文审读，月历畫箭嘴动词读 waak6；阿妈九里香由担心搬家到新窗台换泥淋花，赎楼期和交接日期前后明确，普通话逐段覆盖。",
+    "reading_sources": [
+      "https://words.hk/zidin/文件",
+      "https://words.hk/zidin/甩",
+      "https://words.hk/zidin/畫"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 8,
+    "sha256": "4156d1d56ee4617c31cbe5e5197ecb8d7137322a2c98e22e21492a3aa77b3358",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 四字段全文复读，改第二日见律师归家后重新煮两碗糖水，排除前一日门口那碗留至翌日的时间问题；产权比例、银行同意和税费询问不写成既成批核，圣诞灯箱合照化解文件争执。",
+    "reading_sources": [
+      "https://words.hk/zidin/文件",
+      "https://words.hk/zidin/盒",
+      "https://words.hk/zidin/見到"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 9,
+    "sha256": "c8101d4a6b6c7b7d7b1b1d986aa0bd702ed2a052b4992ac415b9cb643aa85271",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段审读并查工银澳门按揭宝官方说明：存款获与按揭同率的利息回报、资金灵活，故手改回报帮补供楼而非直接抵销本金计息，不虚构提款限制。明确换冷气款不一起算入，回家后才贴罌顶；咁承接读 gam2，钱罌 cin4 aang1及顶名词 deng2保留。",
+    "reading_sources": [
+      "https://words.hk/zidin/錢罌",
+      "https://words.hk/zidin/頂",
+      "https://www.icbc.com.mo/tc/page/721852524654264324.html"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 10,
+    "sha256": "cbd94230e5ca9c6b04d5d2fcaa92a801dccb3352ecf297063cba051931486b42",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段审读，明确买餸单夹在白板边，孩子误圈纸单的动作有位置；画火锅动词 waak6。太太指代一致，父亲以减少外卖补火锅支出，清欠款后才贴照片，释义及提示覆盖。",
+    "reading_sources": [
+      "https://words.hk/zidin/畫"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 11,
+    "sha256": "59dc5201e711ca46f9dd207d13fcb9621a5310026bdfe7ccd6b1a27c15439649",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 逐张读完四字段，面红红咁解释为方式读 gam2；大学女儿三张未撕贴纸、请鸡蛋仔后车费饭钱紧、主动带饭及贴纸反提醒父亲咖啡开支，情节与完整释义对应。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 12,
+    "sha256": "c7890c2d33383f8641d093ac1bb08ca640bee0c0b13c0925cd6d4819b648cc16",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 逐字四字段审读，茄汁画笑口动词读 waak6；餐厅不合回赠名单才改家里煎蛋，歪心与鱼钩笑口照片成为翌日分享对象，转碟旋转读 zyun3，未套用转账音。",
+    "reading_sources": [
+      "https://words.hk/zidin/畫"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 13,
+    "sha256": "c20d3216cf3c3421a14337f14c3f13ad99d94b57d170b2a7e6942a1bb96f732d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 逐字读完四字段，机场贵宾室从未用过与厨房早餐贵宾室相扣；翻旧纪录、询豁免条件、记录职员姓名及续卡日期仍为待决定，没有虚构获免年费。倾茶 dou2与达到 daat6 dou3词义分别保留，简体释义全篇完整。",
+    "reading_sources": [
+      "https://words.hk/zidin/條件",
+      "https://words.hk/zidin/達"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 14,
+    "sha256": "24764c084c64c53c9b96c3266da4a64e7d5a20bcf5e1ee065901cc066e3f6ab3",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段审读，不认识商户误怪儿子、太太误认割伤带胶布、孩子向模型盒宣誓与索雪糕的具体转折完整；陌生交易只锁卡查询并继续跟进，未将回覆当退款。普通话同步，个性提示覆盖人物反应。",
+    "reading_sources": [
+      "https://words.hk/zidin/盒",
+      "https://words.hk/zidin/見到"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 15,
+    "sha256": "5d6334ccb5b2bf9d312503aa272769949f30385f21dab7f6ddc4c6147b34f8aa",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 逐字四字段审读，画补给线动作读 waak6；实际查证表姐 biu2 ze2不改家姐音，爸爸 baa4 baa1对应。父子低头对币别时表姐先付，返澳门无该笔交易才想起请客，方便面仍未用尽送看更的收尾完整。",
+    "reading_sources": [
+      "https://words.hk/zidin/畫",
+      "https://cantonese.sheik.co.uk/dictionary/words/1174/"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 16,
+    "sha256": "cb64244486c66ef8b06399b9159186cf50d2796020803ecc4c80c7bd1e6a5824",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 四字段全文审读，三次画杯或表为动词 waak6，咁樣 gam2 joeng2、撞正 zong6 zeng3逐词改正。服务费用杯数表现、子问杯会生与安裝回访问送焗炉为具体转折；一次付款和保费到期因果清楚，释义完整。",
+    "reading_sources": [
+      "https://words.hk/zidin/畫",
+      "https://words.hk/zidin/撞正"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 17,
+    "sha256": "248cb0e1d533c57da1725e04535bcb3b5bb1e1b29618b4ecba2a71a748d42b39",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 已逐字读完完整四字段，手写重构的海边凳底录音、父亲左右声源误会、松手失鱼及次朝改录招鱼声是独立主线，已与06:26日期月历稿和05:11钓鱼凳稿对读。逐处补正阿爸aa3baa4，不套爸爸第二字baa1；较gaau3、掀hin1、喂注意义wai3来源已核，声源及毛巾/袋位置、付款前一晚时间和完整释义对应。",
+    "reading_sources": [
+      "https://words.hk/zidin/釣魚",
+      "https://words.hk/zidin/喂",
+      "https://words.hk/zidin/v/47401/校",
+      "https://jyut.net/query?q=掀",
+      "https://lshk.org/wp-content/uploads/2022/11/CRAT_Appendix2_bystroke_1.3.pdf",
+      "https://words.hk/zidin/袋",
+      "https://words.hk/zidin/甩",
+      "https://words.hk/zidin/吞",
+      "https://words.hk/zidin/魚鈎",
+      "https://words.hk/zidin/錄音",
+      "https://words.hk/zidin/阿爸"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 18,
+    "sha256": "1629c2309728f409f7f915193e1f66dfac61b1754bfa76c82d25b7cf18d5aeb7",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 逐张读完全部四字段，太太红街市丢银包先停卡、记摊位路线、补证件查询、卖菜阿姨交回银包的因果完整；鱼从焦急想象到晚餐的反转独立，尚无陌生扣款而按银行指示补卡，简体普通话全篇对应。",
+    "reading_sources": [
+      "https://words.hk/zidin/阿姨",
+      "https://words.hk/zidin/袋"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 19,
+    "sha256": "93aa7339028a4641b7d4706ff1f07ad448d40103fc9011d3aba56a7e37f73a6e",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 四字段全文审读，兴奋咁问为方式 gam2；自动付款已转别卡、兑积分、实际收到取消信才剪卡，恐龙角入相簿及超市券给阿妈呼应。櫃桶、卡面 min2、券 hyun3、相簿 bou2词音保留有效读法，释义完整。",
+    "reading_sources": [
+      "https://www.cantonese.sheik.co.uk/dictionary/words/3471/",
+      "https://words.hk/zidin/櫃桶",
+      "https://words.hk/zidin/面",
+      "https://words.hk/zidin/鬼"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 20,
+    "sha256": "c7c33cf0194308c89ea248d4d0a78773f8ee00a60cef06f254554c0fee722301",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段复读，末句承接咁读 gam2；门牌及业主姓名不同证实邻居信误投，眼镜头顶摸到再戴回明确动作，返家只存自己已交税收据不再交第二次信，澳门房屋税与财政局对象正确。",
+    "reading_sources": [
+      "https://www.dsf.gov.mo/zh-hant/tax/tax_communication",
+      "https://words.hk/zidin/頂"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 21,
+    "sha256": "6ef593be6d071796f2e62df8c58be3dea8b7ed1a5086f0b376fd3f79b1d56911",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 逐字读完四字段，认真咁方式音 gam2，实际查证杯墊整词 bui1 zin3。两公司收入、误拎前年证明、姓名少点、买米不可作无关材料的前后完整；米单最后垫杯是独立具体收尾，简体释义全篇覆盖。",
+    "reading_sources": [
+      "https://www.dsf.gov.mo/zh-hant/latestnews/newslist/699dc2b1-5c21-2501-0026-dc2b65be39fb",
+      "https://words.hk/zidin/文件",
+      "https://words.hk/zidin/袋",
+      "https://words.hk/zidin/墊"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 22,
+    "sha256": "8748426269c3b0ddc89c0bf9037c7bd384005195352d366d29bda363c2080f13",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段审读，明确指结他袋的是爸爸，消除与上一分句租客的代词歧义；点样读 dim2 joeng2。结他借出、袋装歌词财务纸、六月写七月核对改正及还结他唱歌回扣有连续因果，税务只询本地资料处理未套香港规则。",
+    "reading_sources": [
+      "https://words.hk/zidin/拉鏈",
+      "https://words.hk/zidin/結他",
+      "https://words.hk/zidin/文件",
+      "https://words.hk/zidin/袋",
+      "https://www.dsf.gov.mo/zh-hant/tax/tax_download/table-download",
+      "https://words.hk/zidin/月份"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 23,
+    "sha256": "a4f42c88361f66f37e6fedbb3bc620edf938590f3a8c3f31fac04d25fece1801",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文逐字审读，职业税把收入误作税款、纸巾遮上行、牛油落妹妹碟的误会与兄妹照片冲突、道歉请新奶茶连成完整故事；阿妹 mui2、嚿 gau6、擰轉頭 ling6 zyun3 tau4及冇面 min2按词义，释义完整并非跨日旧奶茶。",
+    "reading_sources": [
+      "https://www.dsf.gov.mo/zh-hant/tax/tax_communication",
+      "https://words.hk/zidin/別",
+      "https://words.hk/zidin/面",
+      "https://words.hk/zidin/阿妹"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 24,
+    "sha256": "715441b676e8b0a9ee036fe6a88fda9010a3a0cff3f9c3bc02f2c71399fe92ab",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 四字段逐字全文审读，查证長大 zoeng2 daai6保留。妻子由不笑知忧虑、旧欠单阻止仓促借款、问期限后两次粮可留足的因果明确，不写成擅自获税款分期；首晚粥未动、末晚新煲粥清楚，完整简释及复述提示对应。",
+    "reading_sources": [
+      "https://www.dsf.gov.mo/zh-hant/tax/tax_communication",
+      "https://words.hk/zidin/袋",
+      "https://words.hk/zidin/摷",
+      "https://words.hk/zidin/長"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 25,
+    "sha256": "c8f3d9c6267bbaf8ca8abdda9e2305ee0bfccd269e415510eb6c0a40de31587a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段审读并查香港官方差饷通知，限定住香港背景、适用期与每个应缴物业上限，未套澳门房屋税。手补找回原图才读日期，见到dou2与随后转头zyun3，电饭煲迟早换而非明称须马上换；妈妈与陈婶走廊读细字、邻居差点停扣款的个人情节及全篇释义完整。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E5%B7%AE%E9%A4%89",
+      "https://www.rvd.gov.hk/tc/whats_new/news_327.html"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 26,
+    "sha256": "2f4da403ebd92be7864c7dd39625584830c9193261d983110cded2db9385ac74",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 完整逐字审读四字段，补明外婆在香港的家取证明，与香港工作的兄妹查香港免税额背景一致，不认定未经查规则便有资格；阿妹mui2、听到/翻到结果dou2及条件gin2分别补正。婚纱相误以为考年龄、猜二十岁令外婆开心至拍相让晚辈冷静的转折完整，资料及证明仍另行核对，释义全篇对应。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E7%B0%BF",
+      "https://words.hk/zidin/%E8%B3%87%E6%96%99%E5%BA%AB",
+      "https://words.hk/zidin/%E6%A1%88"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 27,
+    "sha256": "b8ab321fa01e3e30620722336b3ec24731d5628498f011db9819b640c084b907",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 四字段全文逐字审读，补成地seng4、文件gin2、画牙动作waak6；贴恐龙手的阿哥手改恐龙速递员更口语，简体同步。本人家里的证明以借钥匙骑车取回，寄前留查询日而非虚构收到答复，香港评税与稅務局明确；缺牙海报、兄弟互帮、拿碗换糖水为个人完整主线。",
+    "reading_sources": [
+      "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/pho-rel.php?s1=f&s2=u",
+      "https://words.hk/zidin/畫"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 28,
+    "sha256": "13d100ad3016cd513e28177b0f4871c7375b095187e1134aa158bc294c6e628f",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 逐字四字段审读，认真咁方式gam2、见到入帐结果dou2及画公仔动作waak6（虽未实际画，动词义不变）。孩子主动拿眼镜却六九读反、父亲保留收据只给核对员空白纸至门前敬礼，有完整因果。香港税务局官方资料支持账户显示已更新缴款纪录；次朝查看为此个案所见而非承诺全部款项都即时入账。简体释义覆盖全篇。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E8%AB%8B",
+      "https://words.hk/zidin/%E7%88%B8%E7%88%B8",
+      "https://words.hk/zidin/畫",
+      "https://www.ird.gov.hk/chi/pdf/etax_1.pdf"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 29,
+    "sha256": "7a852c59a2bdb5877383b0a39f445d5ef6e51c69ddc0e6efff62d4f9d1c523ed",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 四字段全文逐字审读，家庭外婆不译普通话婆婆；文件gin2与实体文件夹gaap2、听到dou2及画小花waak6分别手改。花簿记陪逛街买花日期而非正式工时证明、挑花瓣夹簿以及总管通行证的人物趣味完整，未将生活记录代作报税证据。 主审末读提示，阿玲姐问的是自己是否要考而非笑叙述者，已逐句同步个性提示。",
+    "reading_sources": [
+      "https://words.hk/zidin/婆婆",
+      "https://words.hk/zidin/文件",
+      "https://words.hk/zidin/畫"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 30,
+    "sha256": "8d58334824ba710bf09d0f49fa9d778b9159ccdd6498cc3a9a8c8b3c8d5abd65",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段逐字审读，文件gin2、转头问为随后承接zyun3tau4；读到除外条款那页是读进某页的进程dou3，并不机械改感知dou2。孩子小风扇传家宝、持扇采访问型号像查身份证的转折可视，代理解释具体情况、家人算额度保费再决定，简体释义完整。因与33物件身份误会主线太近已退回33另写，不重复批准同一主线。",
+    "reading_sources": [
+      "https://words.hk/zidin/文件",
+      "https://words.hk/zidin/轉頭"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 31,
+    "sha256": "17534118c98cee17b5045ad3e0a13747a14b6d10fd5242ce6d62b8afe2f3b0a5",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段审读，收到/听到结果dou2、裸铁盒名词hap2、点样dim2joeng2与似放风筝咁方式gam2逐处补正；垫底费保持金融词义。西湾湖散步、风筝线缠纸追步、保单不轻松手的事件独立，问新计划生效及接续并收书面后再衡量，不假称已买新保险。 主 agent 已完整亲读四字段；复查墊底費整词为zin3dai2fai3，补正先前按垫支义误推din6的一处。此为此前新主审卡返修，不增加完成数。",
+    "reading_sources": [
+      "https://words.hk/zidin/盒",
+      "https://words.hk/zidin/墊底費",
+      "https://cantonais.org/dictionnaire/entree/墊底費",
+      "https://words.hk/zidin/墊"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 32,
+    "sha256": "c6488df52ad17af376ce536c32af2a00049bb74f415d797feeb078819758ae75",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段逐字审读，考到/收到成功补语dou2，证件及条件gin2，实际查转弯zyun3waan1按动作保留。女儿驾照想做全家司机、祖母候西瓜、查个人驾驶条件书面确认后练车、首趟抱大西瓜当搬运工因果完整，释义全篇对应。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E9%98%BF%E5%A5%B3",
+      "https://words.hk/zidin/%E9%87%8D",
+      "https://words.hk/zidin/證件",
+      "https://words.hk/zidin/條件",
+      "https://www.cantonese.sheik.co.uk/dictionary/words/5848/"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 33,
+    "sha256": "f89a32db062b0cdbf5a2797d7a4460c28a20b81f22fce6413e4f532004b565fa",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 已逐字全文亲读重构四字段，并与30传家宝/身份误会稿对照；澳门机场两成年人拿错同款蓝袋，饼盒与白长假发交换后演员梳假发才被母亲抱怨，从而两位妈妈约返澳剪发饮茶，完整个人主线独立。收到/听到为成功感知dou2；有頂假发量词deng2正确保留，盒杏仁饼和我哋盒饼是省一盒的数量hap6，不盲套裸盒名词hap2。保险仅出发前询错过转机并收到书面答覆，未宣称全部情况自动赔。简体普通话与提示覆盖全部道具流向、母子对话和新约定。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E5%81%87%E9%AB%AE",
+      "https://words.hk/zidin/%E9%A0%AD%E9%AB%AE",
+      "https://words.hk/zidin/%E6%8B%89%E9%8D%8A",
+      "https://en.wiktionary.org/wiki/%E6%8A%95%E5%A5%91"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 34,
+    "sha256": "649887f16635c24059548a364a9df139ebef3c9fb8d6d6d816cc8f12cad80312",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段逐字审读，明确停交的是保费，条件gin2补正；最初只是差点勾衣服，末段改别把衣服当鱼钓，不把尚未发生的钩衣说成再钩。退休想学钓鱼、戒炸鸡省外卖、首堂无鱼却主动重读保单的转折完整，釣魚jyu2和魚竿jyu4gon1分别按整词保留，普通话全篇同步。",
+    "reading_sources": [
+      "https://words.hk/zidin/條件"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 35,
+    "sha256": "ae8e3f0b83bb784be262b31f1b3f84c3c60cfb7a26fcbc569f2a2290a0915929",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 四字段全文逐字审读，见到/搵到结果dou2、文件和收件gin2补正；名字原混meng2zi6，手改新填嘅名及对应粤拼释义。婚后双方各自改受益人、菜单背记被瞪、烧乳猪继承钱玩笑及实际查新纪录后收相簿的时序完整，不把交件当立即办妥。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E7%B0%BF",
+      "https://words.hk/zidin/文件",
+      "https://words.hk/zidin/收件"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 36,
+    "sha256": "51a1b1d4239bfc1f26efcca733da04490917300371a080f71884120ad2327026",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段逐字审读，听见杂声与差点踩到结果dou2、位置整词wai6zi3、相片pin2、对得上soeng5逐处补正；手明确总掣与普通话电闸一致，已请师傅报价、保险检查后才送维修而非又笼统送评估。爸爸给旧收音机播录音的惜物情绪、手机听老歌并避窗位置独立完整，未编造已获赔。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E6%8E%9F",
+      "https://words.hk/zidin/%E5%B8%AB%E5%82%85",
+      "https://cantonese.sheik.co.uk/dictionary/words/2515/",
+      "https://words.hk/zidin/相片"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 37,
+    "sha256": "05d276172f8df561d37f5f8f30dc2406f6ba63aecd9ff21400d53bec4e6da5b8",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文逐字审读四字段，实际查整词墊底費zin3dai2fai3及physical垫底zin3dai2，本卡四个具体该词逐义手填，不用垫支din6套读。慳到/承受到能力dou2、撞正zeng3、成额seng4分别补正；笑完改自然话并补儿子从房里拖棉被回出来再铺地的物件动线。误以为铺被垫底、捱热不足一分钟、选择承受金额及母亲坐被的完整转折与释义对应。",
+    "reading_sources": [
+      "https://cantonais.org/dictionnaire/entree/墊底費",
+      "https://words.hk/zidin/墊",
+      "https://words.hk/zidin/撞正"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 38,
+    "sha256": "177dac8908d569f44fcf3d6878a499e8ae1410bc4020eefb8c7da05b9f50c54d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段逐字审读，枱面物件表面min2手改，不混后面方位min6。保单作纸牌、配一对想双赔，经公司书面询重叠保单后选择、等取消程序确认才处理，旧搬家收据与反挂窗帘记忆的转折独立；简体释义及个性提示覆盖完整，未保证全类保险均可重复索偿。",
+    "reading_sources": [
+      "https://words.hk/zidin/枱",
+      "https://words.hk/zidin/面"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 39,
+    "sha256": "8f34c87337151eb2fa3fc4e071b721a328d6b04cffb7ddc5974a89c2f67b095a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段逐字审读，转新工zyun3、听到dou2、画画比赛动作waak6/第二名词waa2分别补正。月底旧保障终止与下月五号新保障开始留一至四号空档，手写具体预留可能自付医药钱，未把询问当已填补保障；咖啡开工记忆、孩子空白填色及直接问病时怎么办与全篇简释对应。",
+    "reading_sources": [
+      "https://words.hk/zidin/轉工",
+      "https://words.hk/zidin/畫"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 40,
+    "sha256": "9f993a85d24341fb7fd19867e02a09773f9be4842bfed4e5df0671c39fdde1a4",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 四字段全文审读，外公明确母系而非丈夫父亲；补收入审查与后文整理收入资料相扣，香港长者生活津贴地域明确。实际查放大镜整词geng3、要求jiu1kau4，画剔/画到最后动词waak6、文件gin2、每日望到能力dou2、点样joeng2逐处手改，画到最后进程dou3保留。葱苗、放大镜、误加清单与窗台查编号的个人事件，审批前不计入家用及普通话释义完整。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E9%95%B7%E8%80%85",
+      "https://cantonese.sheik.co.uk/dictionary/words/60429/",
+      "https://words.hk/zidin/要求",
+      "https://words.hk/zidin/公公",
+      "https://words.hk/zidin/畫"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 41,
+    "sha256": "65d368b916b8bc9f934c84900c8b167ec1ecc6486a1f965c9a769ab23e9916be",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 四字段全文逐字审读，家人外婆称谓译准；阿姨听到及见到猫匙扣结果dou2、要求jiu1kau4分别补正，手改口语嗰煲汤，普通话那锅汤仍准确。紧握旧门匙怕搬家影响福利、正式要求后更新、阿姨交新匙、外婆真正怕晚辈不来吃饭的情绪转折完整，没有编造跨地领取资格。",
+    "reading_sources": [
+      "https://words.hk/zidin/婆婆",
+      "https://words.hk/zidin/要求"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 42,
+    "sha256": "85d54df24a354aa3cf21fa643f35a1c4bac2d9aa5b936ba17be7e57be657c64d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段逐字审读，诊所/诊室can2实际词据修正声母，点样joeng2、放入袋裸名词doi2及申请到能力dou2逐处手改。香港父亲行楼梯走停却扮轻松、诊室才肯说日常困难、猫挡梯等它走开后不催的陪伴主线独立；评估未完成不假称一定获批，简体释义完整。",
+    "reading_sources": [
+      "https://words.hk/zidin/診所",
+      "https://words.hk/zidin/袋"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 43,
+    "sha256": "603a3e0a618670bb22ce5fa6e437bb320e08830a54636b6d619400eb581ba335",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 四字段全文逐字审读，手改补交文件、柜桶为明确口语，并逐处手写对应；文件gin2、实体文件夹gaap2与夹面min2、收到/搵到成功dou2及画花园动作waak6分别修正，画纸及花园画名词waa2保留。全柜标签重要的混乱、工时表误收画纸格、保留原件只复制背面花园再剪贴的因果完整，香港职津仍待正式审批，普通话覆盖全篇。",
+    "reading_sources": [
+      "https://words.hk/zidin/櫃桶",
+      "https://words.hk/zidin/文件",
+      "https://words.hk/zidin/畫"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_08.json",
+    "index": 44,
+    "sha256": "963d295996c63a876312850c4ee01de333e9a3cfdf7a57fdf4c97da7f778152e",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主 agent 全文四字段逐字审读，补外公刚改用另一个银行户口，后文核对新户口有来源；电话职员先说要看正本才带证件到柜核信，先电话问而柜位才知真伪的两阶段因果清楚。外公不译丈夫父亲，收到dou2、粒lap1、证件/收件gin2及排队口语deoi2逐处补正。借红笔之所有权、真信带错字反转、收件确认与问下次发放日期完整，普通话全篇同步。",
+    "reading_sources": [
+      "https://words.hk/zidin/公公",
+      "https://words.hk/zidin/收件",
+      "https://words.hk/zidin/粒"
     ]
   }
 ]
