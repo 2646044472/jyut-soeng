@@ -152,13 +152,13 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 13,
-    "sha256": "8d334b2ed564f161b1c6f8aced38a38b22bd90fb73f33088980dc395ac766d11",
+    "sha256": "61f13fd75417be64f52cec16d9efaa814aaf7d8a7df8e42f679634599660c7c1",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "在相机店排队时伴侣来电；预算使购买延迟，路灯下拍糊的照片保留情感收尾。"
+    "notes": "回头人工审读发现计划星期六借相机，却写成当晚已经借到；改为到了星期六，正文、粤拼与全篇释义同步。"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -185,13 +185,13 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 16,
-    "sha256": "382862c5a0abd06ab2c8ce033db4f1b4e4b2a9f33bb0d1add82b56ab3505eb8b",
+    "sha256": "1e00b8e303cdf77cb9d1c846463b5801030521fc524367c5408e5d821e768ee0",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "不同发薪日导致月初资金紧；鱼档玩笑贯穿改扣款日期与首月迟扣的焦虑。"
+    "notes": "回头人工审读发现早上买的鱼被写成试行新安排一个月后才下锅；明确当晚煮鱼，并把月底后再访鱼档改成下次去，粤拼与释义同步。"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -207,13 +207,13 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 18,
-    "sha256": "98e610c9d0887918fd7c5f5bf62b5b4ead3f83b49d0771949bf2509aa24e2e1a",
+    "sha256": "cd80c5e713c242b8f1fb61ee097b68b5281587085b9192df4b25e97d081c4795",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "伴侣因省钱连电影都不敢答应，厨房静默转向核对预算；冻柠茶和画笔作轻松收尾。"
+    "notes": "回头人工审读时把不自然的“攤開個月啲開支”改为“攤開今個月啲開支”，粤拼同步；厨房水声、预算误会与电影院结尾连贯。"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -273,13 +273,13 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 24,
-    "sha256": "da1527322704878b0cdd17b6d3650efe2ec2c9f6271f317dcb38620b976fa854",
+    "sha256": "79062d1e4e32257ec271f133de3a442c608e6f8555d2d5947bb531456aa1407e",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "同日两笔支出造成误会，分别揭示照顾舅父和回馈街坊会的理由；舅父送菜回应记账。"
+    "notes": "回头人工审读发现阿爸说话后“佢將袋菜放上枱”主语不清，明确是舅父放菜，粤拼同步；释义原已明确。"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -295,13 +295,13 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 26,
-    "sha256": "5109047f2a85219914f75a621b6660faf34d32b5a5b47c7595c004d8faafe5fd",
+    "sha256": "c016498cd98bd4fb455abb285316d56d67ed104cef4f6d507bedd18f643a5de2",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "父母误会手机饼图是监督饮茶，三项开支由具体买鱼和乘车经验讲清；次月父母争着展示变化。"
+    "notes": "回头人工审读发现“落雨嗰日成日”将单日与经常混用，改成下雨那阵子的习惯，粤拼和普通话释义同步。"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -1420,14 +1420,25 @@
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_03.json",
-    "index": 1,
-    "sha256": "a5eb584437b76380343b26233466f07f60cd023d380aa349c9d48b81b9e9cb60",
+    "index": 0,
+    "sha256": "98db3c0ac053f636c5debd44d2d9defae0553d8d5aae56ad61cfd81a3df1c9c9",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "复核完整故事情节、粤拼逐字读音和声调、全篇简体释义及个性化复述提示。"
+    "notes": "复核情节逻辑、粤拼逐字读音和声调、全篇简体释义及复述提示；第0与9张按反馈修正后重审。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 1,
+    "sha256": "9272b69cb98d4371f0052a92e60585bf5e817561a77ede7105caf2d63d25c14b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "作者人工回查修订后，根审重读当前故事因果、口语、粤拼、完整释义与提示。"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -1443,13 +1454,13 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_03.json",
     "index": 3,
-    "sha256": "a6a5a3152d85c9ab134a8577f9122b7c24864882aa2ea380931729244bb877d9",
+    "sha256": "5dd0011733b45d3dd1822fef668c8ee408e1216713d0c09d67d67c01b0e452e1",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "复核完整故事情节、粤拼逐字读音和声调、全篇简体释义及个性化复述提示。"
+    "notes": "作者人工回查修订后，根审重读当前故事因果、口语、粤拼、完整释义与提示。"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -1476,24 +1487,24 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_03.json",
     "index": 6,
-    "sha256": "c3ff29eea4762edd126b9d832bac90b5b7c2fa92469c9354d8b010dcb4ac72d0",
+    "sha256": "2a2ad1fb246e1084b69d0cd03c508a872bd3fa9684a4c3be19d8631c8ce95fe6",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "复核完整故事情节、粤拼逐字读音和声调、全篇简体释义及个性化复述提示。"
+    "notes": "作者人工回查修订后，根审重读当前故事因果、口语、粤拼、完整释义与提示。"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_03.json",
     "index": 7,
-    "sha256": "4455cedd48e057af617cde34e29149d45cbe31f824951717d2dc918b213b5ea7",
+    "sha256": "95e58d7c553397750ece617956092d23c526a2e5b62664931a4ed9d80222069f",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "复核完整故事情节、粤拼逐字读音和声调、全篇简体释义及个性化复述提示。"
+    "notes": "作者回查修雨天巴士长队，根审要求补清阿爸持伞步行去站头再陪家姐走回家的交通衔接；重读同步粤拼与释义。"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -1508,13 +1519,552 @@
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_03.json",
-    "index": 10,
-    "sha256": "19052a421dc1d8ecd840fbe9f7941e3f7260bcae909354f6062ccb039201b966",
+    "index": 9,
+    "sha256": "8702c49453ea8582461f73feb5e5cfa99a4b9177228449ebaa7c01f9c239abe1",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "复核抽屉收据、水费误会、读表日期、更正账单等情节，逐字校对粤拼与释义。"
+    "notes": "复核情节逻辑、粤拼逐字读音和声调、全篇简体释义及复述提示；第0与9张按反馈修正后重审。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 10,
+    "sha256": "6c2457b47f010e01148acba177d9fa2d9a7daa84fc759f69962577a0f7e7fb6e",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "作者人工回查修订后，根审重读当前故事因果、口语、粤拼、完整释义与提示。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 11,
+    "sha256": "1f4b62a347df61e77fff8a9e264c2e4e6d17f97006169112677ef1bf8702005a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "审读联名户口误会与单据核对逻辑；针对不可删除交易的表述修正后复核粤拼及全篇释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 12,
+    "sha256": "c7a1af5e8edddb951e7b74ccc78ec5b6b87b4ad2d4dca512ba07b201f4c5e5be",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "作者人工回查修订后，根审重读当前故事因果、口语、粤拼、完整释义与提示。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 13,
+    "sha256": "7d0eafed12d78a587b48e888adc602ba78883d7859eaff14c49b87131fe25e73",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "作者人工回查修订后，根审重读当前故事因果、口语、粤拼、完整释义与提示。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 14,
+    "sha256": "5545ef666a2dc9e1529853f47f8794c3bb42a3a1a6d1fc2d625d4e5139518c9d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "复核事件因果、澳门粤语表达、逐字粤拼、完整普通话释义及复述提示。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 15,
+    "sha256": "87d6b62d344efb4423760098525f1e546581cb94c591fc74b7dde552ea8b76a2",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "复核忘带饭盒前后逻辑并依反馈修正，审读口语、粤拼与全篇释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 16,
+    "sha256": "7f6ef1b9d9a36f3f01e6a469aa621ccc2d413f60d22d83ce4f17070e15fa76ba",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "复核婆婆更改邮寄地址两次波折、逐字粤拼和全篇释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 17,
+    "sha256": "68b58bd0cd6ff058fd4c4682c4bba0eda5a1eb8217e6479fe5851ffea87040fe",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "复核联名户口提款权限与三把锁误会、表述自然度、声调及全篇释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 18,
+    "sha256": "3c9c5df7b1079265090c7d9dc4b1efe43c8879880d5caecc8a0076edcfaf8ab4",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "复核叔叔开通交易通知、查证定期转账等情节，逐字粤拼和全篇释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 19,
+    "sha256": "1dd36a5b01152288d787f9a1394b5a98d6e67be83dbbcccc8c286dc6d3fa60f1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "复核新提款卡启用、密码保护与旧卡处理情节，逐字核读声调、简体全篇释义和复述提示。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 20,
+    "sha256": "6a1474ffe1782059dc2a2e76f99d0ae835e4542a5081648d7e6e6c32a91bb7e6",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读公司换收薪账户、细佬误认中奖和发薪延迟的因果；确认电邮与旧户口自动付款交代清楚。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 21,
+    "sha256": "fbcf7ccb02fe99fa39ee5e3ec22716a79f4e4749faa7221fee6460149c61a660",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读海外工作前核对旧户口、试转账鱼蛋备注和赴外地后的家用；把不必要的香港户口限定及书面语“看”改成自然说法，粤拼释义同步。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 22,
+    "sha256": "9934521c688cac2c20a0dcbca1c8feea861a3efc48f660c6009178efa2efa102",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工核读存折遗失、银行补发、旧食谱揭开藏处和新本保管的故事；怪兽画贯穿，释义完整。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 23,
+    "sha256": "3a0569f1591c4a64f0b163cb5d57a392ac36d0b4ebc7c0de8dee580c7f42e7d1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工核读真假银行通知的核实过程及茶餐厅阿叔的收尾；发现并修正“棵菜”的粤拼，由 fo2 改为 po1。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 24,
+    "sha256": "c2c7b9a824470db6cfd21f5ff2f26545a056347ab7a869f84af9be357a3468aa",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读清洁费通知与会议纪要差一元的解释、泥点与拖把的收尾；纠正“阿爸”的粤拼声调。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 25,
+    "sha256": "01b20b1f1eaee819d87be6565410d5e41d7e3606c1e47482de312c27b321287a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读发现邮局交差饷为香港语境，改为澳门财政局交房屋税；同步正文、粤拼、释义和提示，核对门牌与收据情节。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 26,
+    "sha256": "400e80eafa4ea4f0eddf66a5bcc80638b2a05ccb534054f5f1ae6d6eb3aafbb1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读税款与雪柜维修的预算选择、付款确认及冰水收尾；纠正“阿爸”的粤拼声调。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_03.json",
+    "index": 27,
+    "sha256": "5021d35b6eba3ca1fc0b248fc274793284648e8606460e7459b2fbb3dba8dc78",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "回头人工审读发现电费单当晚才发现冰格门未关好，不能解释已出账电费；改为阿爸记起上个月发生过的一晚，并同步正文、粤拼、释义；阿爸声调亦纠正。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 0,
+    "sha256": "405241e4cf4d0be2a53b0dc2bc5b1d1931fbaea40c3b5109e27cc65b8f6f020a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "审读出租屋漏水、租金误入旧户口与核账因果，复核粤拼和完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 1,
+    "sha256": "c214da7a88764eae062534521331fab014bc3f8d630ecf432f66fe3cbb935661",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "针对财务安排或叙述准确性修订后复审自然度、粤拼和完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 2,
+    "sha256": "0f13fa7a6a874bea176ff91bcf80a33ba64694a62afdb648921fb0f47d37d5fd",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "修正旅行书地点与旅程的衔接后审读预算、对话、粤拼及全篇释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 3,
+    "sha256": "8b76206475b4e61bc7f2e772cd586214c6be3c5c070e689604ba927cee36e2e2",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "针对财务安排或叙述准确性修订后复审自然度、粤拼和完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 4,
+    "sha256": "421c6fe2e90e3ae2591f2713845babc1d4eb76bbdb4b69245beb532f244de40d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "作者回查去掉免费换眼镜的不合理笑话；根审再读新版眼镜挂号笑话、对应粤拼与全篇释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 5,
+    "sha256": "11c1a24df69d50697405c69d94a5f893cc893c3cdac2c3ba930eda8e2e942e8b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "复核账户扣费／转账情节逻辑、手写粤拼与全篇简体释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 6,
+    "sha256": "c0b30fcaab9f561b17a985e9121fd42ffdea0961d6926b57754701a41717b12c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "复核账户扣费／转账情节逻辑、手写粤拼与全篇简体释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 7,
+    "sha256": "37784d4cd2cb4d33f603fb0957f5e8ccadd0751072f18a6f88b781ab0a12aff3",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读搬屋前旧信箱收到更早住址转寄的银行信，改地址后再发现健身室仍用旧址；铁盒笑话前后照应。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 8,
+    "sha256": "f324a6d4132b503e233ef5bccc1c81302e2d35cdf7db9b02c177a339af2e55f7",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "复核康复费用分摊、账户与单据核对、口语自然度及粤拼和完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 9,
+    "sha256": "8aa6d514b966d0b214f5ba5d77281f8ad7584934fc6ef8b0a9c703b9b0a2c453",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读婆婆登录名遗失、经卡背电话确认重设、自己输入新资料和退款入账；“棵”粤拼 po1 已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 10,
+    "sha256": "ca20cd9447d98fcff74af6ccb839451e380b06275d97be34ca39f37e128921a0",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读信用卡陌生灯泡商户的疑惑与阿爸借卡的揭晓；明确借卡人，并将灯泡未送达前的“换灯”改为查看书枱灯；提示不再误称商户改名。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 11,
+    "sha256": "8753d1742338cba2425a56042082fbcae053075228c437c0c8e45ca24f891c61",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读外地开会遗落信用卡、回澳门对账以及自拍笑话；修正咖啡对白的口语自然度和释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 12,
+    "sha256": "41fe893574f21ae637e7818df0e72a276a8c51fbbde0a6dbb5c616cdcfd7d292",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读信用卡自动还款转银行、五日后还款与两星期后新授权生效的顺序；新旧户口写反的转折与菠萝包收尾。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 13,
+    "sha256": "d147bbdc60575f4fef549210e81ac51257a0ab695b50d704b8260fff7cec0563",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读氹仔买蛋糕时再次拍卡导致双重扣款，店方确认、银行申诉和小食券的完整收尾；粤拼与释义逐句对照。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 14,
+    "sha256": "b167a6a69638ea9982767e5a1e44ad674ad3dfcf644ff3e1bb48ad33d2c26fe9",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读女儿首次申卡、纸巾画免息期和最低还款、放弃限量耳机与首月账单；个性化提示覆盖讲述重点。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 15,
+    "sha256": "df5a0ede3010a092e77d648f68d17fce0bae794977841ceec5c76e1f87231633",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读新旧信用卡换号、逐家更新绑定、盆栽店旧卡资料与毕业照收尾；粤拼与全篇普通话释义对照。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 16,
+    "sha256": "dbd7d3feffdeb89ed5618f4df8296a9aaf9fa02f28c948a8800f119767f8e275",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读新雪柜安装费双重收费、报价单写免安装、书面退款和细佬为雪柜改名的收尾。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 17,
+    "sha256": "d37440c4f17a5291d4a1be1bce5a9298d15d2b85ee2d83cda064e6abb7792a0b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读旅游前设置消费提示、手绘杯预授权误会、返澳门对账发现机场巴士车资；粤拼释义完整。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 18,
+    "sha256": "c5aa24704a4d0064628ae56cd377d60e52bcbf9f8043c8589fa8e8baa0578fb9",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读旧信用卡积分换鸡蛋券、取消卡片和煎蛋笑话；确认卡片未出账费用与结尾相衔接。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 19,
+    "sha256": "e028bc9765b88fb6906f9d2fb978d51b0e62313f73b24ae15a6bb28d72f932fa",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读外地木钟交易的收费调查；避免把商户换算和入账日汇率都写成确定原因，改成先猜汇率、最后由客服拆数，正文粤拼释义同步。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 20,
+    "sha256": "e67e1dea41ea03390e916ee642e74117e832edfefad0c77d99ba1e673682e922",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工回查发现可疑电邮已经删除却在夜晚展示给阿妹，且未点开链接却能看到假网站；改为先截邮件图再删，阿妹看邮件歪标志，粤拼释义同步。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 21,
+    "sha256": "7478401c5ba88235d86e741f7e0f1efb06d1f494be02cf36ae20a51625324145",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工回查发现单枚硬币难解释整部洗衣机乱跳；改由师傅发现避震松动，硬币只解释敲打声，并交代留应急钱才分期；四字段同步。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 22,
+    "sha256": "a554d199d4bac54564d23215ce2fe0b906add0744a3059feb228b5864fab8674",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读外地夜市买风铃、提款机另收费和朋友想再提钱的犹豫；旅途收据、风铃与行李箱收尾连贯。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 23,
+    "sha256": "de078e9e14f20bfc96d563f3e4f914a7dba951928d2e3fff3a6a18d83dc7cc70",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读装修订金由现金改为分行转账、核对公司收款资料及总价和订金栏的误会；背囊收尾。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 24,
+    "sha256": "c57bd8d79e805f7a0b6ca9f112ca140b0cd49eb448cad9166b9f765792c8aa82",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读婆婆在柜员机被吞卡、记录机号并致电银行、补卡后去买菜；早餐笑话与日历涂鸦收尾。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 25,
+    "sha256": "ab2038341dca4ed4021ccadf602e201156c7b757214aaac65960b14fe10efb9d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读公公把大钞夹伞套、每周提款上限与后来去柜台买新电饭煲的安排；鱼档对白自然。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 26,
+    "sha256": "0446f78dc6a410c09c8437cfdca016132d9e95d1baeac61615ebb894429c38da",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读定期存款提前取出与冷气只需小修的抉择；补明几个月后问冷气的是认得他们的同一位职员，纸扇笑话照应。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 27,
+    "sha256": "c1c68120ecbe09d912e779535c95389399f7cab33dbf040db6801b2c565a5036",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读街市提款卡遗失、先挂失再回鱼档寻找、旧卡停用及葱花面收尾；粤拼与释义逐句对照。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 28,
+    "sha256": "1d1d5736cdca45271a830caab53afe418968940e4201041c495aaa9e567d2bb0",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读妈妈排队才发现工资未入账、公公铁罐里的零钱与冬至买鱼；修正拿号码纸排队却说跟机器讲话的不一致。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 29,
+    "sha256": "96fc77e0d85e89544e3fa8eb1ef36d9e722c1f63979740cf0acd931f4e7432ff",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读保险退款、饼干罐和活期与定期的资金安排；三个月后的饼干收尾对应前段。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_04.json",
+    "index": 30,
+    "sha256": "56913cc35c15e94ccdd18b5e288e7157485833215078a2a99192d00f4b0739a8",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "人工审读定期到期前来电、回拨官方电话确认、预留请家人食蟹的现金及到期日办理。"
   }
 ]
