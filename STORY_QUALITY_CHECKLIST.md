@@ -1,8 +1,13 @@
 # Sentence Story Quality Checklist
 
-人工审校进度（2026-10-13）：当前有效审校 244 / 15,053 张，剩余 14,809 张。第 03 文件索引 7 的交通衔接问题已补明并重审。每张须人工核对故事的口语自然度与情节因果、粤拼逐字读音和声调、普通话释义是否覆盖全篇、复述提示是否准确。已保存但尚未逐条人工复核的卡不得计作语言审校完成。
+人工审校进度（2026-10-13）：当前有效审校 294 / 15,053 张，剩余 14,759 张。第 03 文件索引 7 的交通衔接问题已补明并重审。本轮新增第 05 文件索引 36–37：补明贷款中介声称合作的银行及官方查证对象，修正朱古力声调；借款截图稿补明未收到来款、截图裁剪和供应商订金的因果，并明确记录余额后签名。每张须人工核对故事的口语自然度与情节因果、粤拼逐字读音和声调、普通话释义是否覆盖全篇、复述提示是否准确。已保存但尚未逐条人工复核的卡不得计作语言审校完成。
+
+本轮主审新增 50 张：第 04 文件索引 51–59（9 张）、第 05 文件索引 36–37（2 张）、第 06 文件索引 0–38（39 张）。逐张核对口语、情节因果、每字粤拼与声调、完整释义和复述提示；第 06 文件索引 18、33 因与同批故事情节相似而另行手写重构。查证并修正索償、處方、藥房、婆婆、姪女、枱面、生日等读音，区分实体纸夹与电脑文件夹。候审包第 06 文件索引 39–48、第 07 文件索引 0–39 共 50 张仍未计入审校，也未写入源文件。
 
 回头复核已提交故事时，发现并修正了第 01 文件索引 89（预约时段前后矛盾）、92（未打印却寻找纸张）、99（妈妈收到转发文件后却被写成亲耳听到叫声），以及第 02 文件索引 21（飞行模式下却收到来电）。正文、粤拼和释义已同步改正，审校台账的内容摘要已更新。另在第 01 文件索引 13 修正借相机的星期六时间线，索引 16 修正鱼隔月才下锅的时间线及再访鱼档日期，索引 18 改正不自然的“攤開個月啲開支”，索引 24 明确放菜的人是舅父，索引 26 消除单日与“成日”混用；正文、粤拼、释义按需同步。此后不再运行自动质量审查；下表仅保留此前的机械进度快照，不能代表语言质量通过。
+
+<details>
+<summary>历史机械快照（已过期，不计入当前完成数）</summary>
 
 Mechanical status only: counts cover story length, Jyutping token alignment, required fields, story tips, punctuation, and selected-card example consistency. A passing row still needs human review for natural Macau Cantonese, accurate readings, complete translation, and a distinct story.
 
@@ -706,6 +711,8 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 
 **Overall mechanical pass: 280/15053.**
 
-**Recorded main-agent language review and mechanical pass: 148/15053; remaining: 14905.**
+**历史台账与机械通过交集：148/15053；该数字已过期，不代表当前人工审校进度。**
 
 Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.
+
+</details>
