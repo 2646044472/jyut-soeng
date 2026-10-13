@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -17,6 +18,25 @@ HAN_CHARACTER = re.compile(
 JYUTPING_TOKEN = re.compile(r"[a-z]+[1-6]")
 ALLOWED_JYUTPING_SEPARATORS = re.compile(r"[,，.。:：;；?!？！、\s]")
 STORY_TIP_PREFIX = "故事练习："
+LANGUAGE_REVIEW_PATH = ROOT / "STORY_LANGUAGE_REVIEW.json"
+
+
+def row_digest(row: dict) -> str:
+    encoded = json.dumps(row, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()
+    return hashlib.sha256(encoded).hexdigest()
+
+
+def language_reviews() -> dict[tuple[str, int], dict]:
+    if not LANGUAGE_REVIEW_PATH.exists():
+        return {}
+    reviews = json.loads(LANGUAGE_REVIEW_PATH.read_text(encoding="utf-8"))
+    indexed = {}
+    for review in reviews:
+        key = (review["file"], review["index"])
+        if key in indexed:
+            raise ValueError(f"Duplicate language review: {key}")
+        indexed[key] = review
+    return indexed
 
 
 def audit(row: dict, selected: bool) -> list[str]:
@@ -61,6 +81,9 @@ def source_files() -> list[tuple[Path, bool]]:
 
 
 def render_report() -> tuple[str, int, int]:
+    reviews = language_reviews()
+    reviewed = 0
+    matched_reviews = set()
     sections: list[str] = [
         "# Sentence Story Quality Checklist",
         "",
@@ -73,11 +96,27 @@ def render_report() -> tuple[str, int, int]:
     passing = 0
     for path, selected in source_files():
         rows = json.loads(path.read_text(encoding="utf-8"))
+        for index, row in enumerate(rows):
+            key = (str(path.relative_to(ROOT)), index)
+            review = reviews.get(key)
+            if review is not None:
+                matched_reviews.add(key)
+                if review["sha256"] != row_digest(row):
+                    raise ValueError(f"Stale language review: {key}")
+                dimensions = ("naturalness", "distinct_plot", "jyutping_readings_and_tones", "complete_gloss")
+                if all(review.get(dimension) is True for dimension in dimensions) and not audit(row, selected):
+                    reviewed += 1
         passed = sum(not audit(row, selected) for row in rows)
         total += len(rows)
         passing += passed
         sections.append(f"| `{path.relative_to(ROOT)}` | {passed}/{len(rows)} | {len(rows) - passed} |")
-    sections.extend(("", f"**Overall mechanical pass: {passing}/{total}.**", ""))
+    if matched_reviews != reviews.keys():
+        raise ValueError("Language review references missing source rows")
+    sections.extend((
+        "", f"**Overall mechanical pass: {passing}/{total}.**", "",
+        f"**Recorded main-agent language review and mechanical pass: {reviewed}/{total}; remaining: {total - reviewed}.**", "",
+        "Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.", "",
+    ))
     return "\n".join(sections), passing, total
 
 
