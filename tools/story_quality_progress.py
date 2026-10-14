@@ -16,7 +16,7 @@ HAN_CHARACTER = re.compile(
     r"[\u3400-\u9fff\uf900-\ufaff\U00020000-\U0002FA1F\U00030000-\U000323AF]"
 )
 JYUTPING_TOKEN = re.compile(r"[a-z]+[1-6]")
-ALLOWED_JYUTPING_SEPARATORS = re.compile(r"[,，.。:：;；?!？！、\s]")
+ALLOWED_JYUTPING_SEPARATORS = re.compile(r"[,，.。:：;；?!？！、「」『』“”\"'\s]")
 STORY_TIP_PREFIX = "故事练习："
 LANGUAGE_REVIEW_PATH = ROOT / "STORY_LANGUAGE_REVIEW.json"
 
