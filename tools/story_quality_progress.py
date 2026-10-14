@@ -97,7 +97,7 @@ def render_report() -> tuple[str, int, int]:
     for path, selected in source_files():
         rows = json.loads(path.read_text(encoding="utf-8"))
         for index, row in enumerate(rows):
-            key = (str(path.relative_to(ROOT)), index)
+            key = (path.relative_to(ROOT).as_posix(), index)
             review = reviews.get(key)
             if review is not None:
                 matched_reviews.add(key)
@@ -109,7 +109,7 @@ def render_report() -> tuple[str, int, int]:
         passed = sum(not audit(row, selected) for row in rows)
         total += len(rows)
         passing += passed
-        sections.append(f"| `{path.relative_to(ROOT)}` | {passed}/{len(rows)} | {len(rows) - passed} |")
+        sections.append(f"| `{path.relative_to(ROOT).as_posix()}` | {passed}/{len(rows)} | {len(rows) - passed} |")
     if matched_reviews != reviews.keys():
         raise ValueError("Language review references missing source rows")
     sections.extend((

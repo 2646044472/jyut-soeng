@@ -1,51 +1,18 @@
 # Sentence Story Quality Checklist
 
-人工审校进度（2026-10-14）：当前有效审校 420 / 15,053 张，剩余 14,633 张。台账 420 条均有逐张主审记录，摘要对应磁盘实际内容；最新已推送基线为 394 张，本地新增 26 张（02 文件索引 28–53）逐张主审并计数。正文、全部手写粤拼、完整简体释义及个性提示必须逐张审读，存储字数、音节数和摘要核对只辅助确定性保存。
-
-当前有效人工台账（不以故事标记或机械检查计数）：
-
-| 源文件 | 有效已审张数 |
-| --- | ---: |
-| long_family_finance_services_01.json | 100 |
-| long_family_finance_services_02.json | 54 |
-| long_family_finance_services_03.json | 29 |
-| long_family_finance_services_04.json | 60 |
-| long_family_finance_services_05.json | 38 |
-| long_family_finance_services_06.json | 49 |
-| long_family_finance_services_07.json | 45 |
-| long_family_finance_services_08.json | 45 |
-
-
-读音返审：本轮发现并暂扣的 50 张动作「畫」误读稿，已逐张复读、查证、修订并恢复有效状态；名词画面、画簿、画家及画画的第二个名词分别保留，不做全局转音。另逐张修倾倒／倒数／倒转、姓名、文件、亲属称谓、杯垫等具体词音，补正租金与发薪日期、退款后再添雪糕、旧稿盒内票据与空盒矛盾、爆喉当晚与定存跨月跳转等因果；每处按需同步正文、粤拼、完整释义和提示。既有已审卡返修不计新增升级。
-
-前批主审新增 50 张，已推送于 b4b7153：第 04 文件索引 51–59（9 张）、第 05 文件索引 36–37（2 张）、第 06 文件索引 0–38（39 张）。逐张核对口语、情节因果、每字粤拼与声调、完整释义和复述提示；第 06 文件索引 18、33 因与同批故事情节相似而另行手写重构。查证并修正索償、處方、藥房、婆婆、姪女、枱面、生日等读音，区分实体纸夹与电脑文件夹。
-
-前一批主审新增 50 张，已推送于 94d89c7：第 06 文件索引 39–48（10 张）、第 07 文件索引 0–39（40 张）。主 agent 已逐张读完正文、全部粤拼、完整简体释义及个性提示。第 06 文件索引 39 的付款转圈重复情节另行手写成父亲探访码头老友、在修鞋舖发现小皮鞋的新故事；补明提款后取齐卡和钱、关火后麵浸胀、新门自动锁后试拉确认、补牙后等麻醉过、汇出前算净额而非确认实际到账、星期三生日与账簿标记等因果。逐词查证家姐、表妹、舅父、姐姐、姨姨、茶壶、转弯、次数量词转、放行、证件及条件等，修正对应变调和误读；实体文件夹与袋按名词义读取，未批量转音。药房稿改询新药价格，避免暗示澳门医疗券可用于药房购物。近似剧情另行回读对照前 294 张，未发现完整主线重复。存储核对的字数、音节数及摘要只能辅助保存，不能替代上述人工语言审读。
-
-本批新增主审 50 张：第 07 文件索引 40–44（5 张）、第 08 文件索引 0–44（45 张）。主 agent 逐字读完四字段，疑词查真实词据；08:17因日期月历主线重复手写重构为海边录音失鱼，08:33因物件身份误会重复手写重构为机场蓝袋与假发、两位妈妈剪发饮茶。补清跨日食物、太太/阿妈指代、现金和收据、新银行户口及先电话询流程再看原信的因果；澳门按揭存款优惠核银行说明，香港差饷等题明确香港背景并按当地正式资料核查。
-
-同次返修既有 8 张：03:11、04:4/9/25/28/30/44、06:41。亲属称谓按正文关系修外公外婆，楼上邻居敬称不做全局替换；移除无据每周银行提款上限，手写家庭每星期现金预算；现金随收据交外公、手机充电的具体结尾及提示措辞同步四字段。返修不增加完成数。
-
-02 文件索引 28–53 已逐条主审并计入台账。下一步按索引审第 02 文件 54 起；只计主 agent 逐条审读通过且摘要与源内容一致的卡片。
-
-回头复核已提交故事时，发现并修正了第 01 文件索引 89（预约时段前后矛盾）、92（未打印却寻找纸张）、99（妈妈收到转发文件后却被写成亲耳听到叫声），以及第 02 文件索引 21（飞行模式下却收到来电）。正文、粤拼和释义已同步改正，审校台账的内容摘要已更新。另在第 01 文件索引 13 修正借相机的星期六时间线，索引 16 修正鱼隔月才下锅的时间线及再访鱼档日期，索引 18 改正不自然的“攤開個月啲開支”，索引 24 明确放菜的人是舅父，索引 26 消除单日与“成日”混用；正文、粤拼、释义按需同步。此后不再运行自动质量审查；下表仅保留此前的机械进度快照，不能代表语言质量通过。
-
-<details>
-<summary>历史机械快照（已过期，不计入当前完成数）</summary>
-
 Mechanical status only: counts cover story length, Jyutping token alignment, required fields, story tips, punctuation, and selected-card example consistency. A passing row still needs human review for natural Macau Cantonese, accurate readings, complete translation, and a distinct story.
 
 | Source file | Mechanical pass | Needs work |
 | --- | ---: | ---: |
 | `content/sentence_bank/long_family_finance_services_01.json` | 100/100 | 0 |
-| `content/sentence_bank/long_family_finance_services_02.json` | 28/100 | 72 |
-| `content/sentence_bank/long_family_finance_services_03.json` | 19/100 | 81 |
-| `content/sentence_bank/long_family_finance_services_04.json` | 25/100 | 75 |
-| `content/sentence_bank/long_family_finance_services_05.json` | 18/100 | 82 |
-| `content/sentence_bank/long_family_finance_services_06.json` | 22/100 | 78 |
-| `content/sentence_bank/long_family_finance_services_07.json` | 15/100 | 85 |
-| `content/sentence_bank/long_family_finance_services_08.json` | 28/100 | 72 |
-| `content/sentence_bank/long_family_finance_services_09.json` | 0/100 | 100 |
+| `content/sentence_bank/long_family_finance_services_02.json` | 79/100 | 21 |
+| `content/sentence_bank/long_family_finance_services_03.json` | 29/100 | 71 |
+| `content/sentence_bank/long_family_finance_services_04.json` | 60/100 | 40 |
+| `content/sentence_bank/long_family_finance_services_05.json` | 38/100 | 62 |
+| `content/sentence_bank/long_family_finance_services_06.json` | 48/100 | 52 |
+| `content/sentence_bank/long_family_finance_services_07.json` | 42/100 | 58 |
+| `content/sentence_bank/long_family_finance_services_08.json` | 58/100 | 42 |
+| `content/sentence_bank/long_family_finance_services_09.json` | 10/100 | 90 |
 | `content/sentence_bank/long_family_finance_services_10.json` | 0/100 | 100 |
 | `content/sentence_bank/long_family_finance_services_100.json` | 0/1 | 1 |
 | `content/sentence_bank/long_family_finance_services_101.json` | 0/1 | 1 |
@@ -733,10 +700,8 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/z_curated_sentences_98-home-and-city_bank.json` | 0/10 | 10 |
 | `content/z_curated_sentences_99-community-and-service_bank.json` | 0/10 | 10 |
 
-**Overall mechanical pass: 280/15053.**
+**Overall mechanical pass: 489/15053.**
 
-**历史台账与机械通过交集：148/15053；该数字已过期，不代表当前人工审校进度。**
+**Recorded main-agent language review and mechanical pass: 437/15053; remaining: 14616.**
 
 Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.
-
-</details>
