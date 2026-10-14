@@ -6,13 +6,13 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | --- | ---: | ---: |
 | `content/sentence_bank/long_family_finance_services_01.json` | 100/100 | 0 |
 | `content/sentence_bank/long_family_finance_services_02.json` | 100/100 | 0 |
-| `content/sentence_bank/long_family_finance_services_03.json` | 63/100 | 37 |
-| `content/sentence_bank/long_family_finance_services_04.json` | 60/100 | 40 |
+| `content/sentence_bank/long_family_finance_services_03.json` | 100/100 | 0 |
+| `content/sentence_bank/long_family_finance_services_04.json` | 70/100 | 30 |
 | `content/sentence_bank/long_family_finance_services_05.json` | 38/100 | 62 |
 | `content/sentence_bank/long_family_finance_services_06.json` | 49/100 | 51 |
 | `content/sentence_bank/long_family_finance_services_07.json` | 45/100 | 55 |
-| `content/sentence_bank/long_family_finance_services_08.json` | 62/100 | 38 |
-| `content/sentence_bank/long_family_finance_services_09.json` | 10/100 | 90 |
+| `content/sentence_bank/long_family_finance_services_08.json` | 45/100 | 55 |
+| `content/sentence_bank/long_family_finance_services_09.json` | 0/100 | 100 |
 | `content/sentence_bank/long_family_finance_services_10.json` | 0/100 | 100 |
 | `content/sentence_bank/long_family_finance_services_100.json` | 0/1 | 1 |
 | `content/sentence_bank/long_family_finance_services_101.json` | 0/1 | 1 |
@@ -117,7 +117,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_food_shopping_03.json` | 0/100 | 100 |
 | `content/sentence_bank/long_food_shopping_04.json` | 0/100 | 100 |
 | `content/sentence_bank/long_food_shopping_05.json` | 0/100 | 100 |
-| `content/sentence_bank/long_food_shopping_06.json` | 5/100 | 95 |
+| `content/sentence_bank/long_food_shopping_06.json` | 4/100 | 96 |
 | `content/sentence_bank/long_food_shopping_07.json` | 0/100 | 100 |
 | `content/sentence_bank/long_food_shopping_08.json` | 0/100 | 100 |
 | `content/sentence_bank/long_food_shopping_09.json` | 0/100 | 100 |
@@ -319,7 +319,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_money_admin_21.json` | 0/60 | 60 |
 | `content/sentence_bank/long_money_admin_22.json` | 0/100 | 100 |
 | `content/sentence_bank/long_money_admin_23.json` | 0/100 | 100 |
-| `content/sentence_bank/long_money_admin_24.json` | 6/100 | 94 |
+| `content/sentence_bank/long_money_admin_24.json` | 4/100 | 96 |
 | `content/sentence_bank/long_money_admin_25.json` | 0/41 | 41 |
 | `content/sentence_bank/long_money_admin_26.json` | 0/60 | 60 |
 | `content/sentence_bank/long_money_admin_27.json` | 0/30 | 30 |
@@ -377,7 +377,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_school_education_41.json` | 0/5 | 5 |
 | `content/sentence_bank/long_school_education_42.json` | 0/5 | 5 |
 | `content/sentence_bank/long_school_education_43.json` | 0/5 | 5 |
-| `content/sentence_bank/long_social_leisure_01.json` | 2/100 | 98 |
+| `content/sentence_bank/long_social_leisure_01.json` | 0/100 | 100 |
 | `content/sentence_bank/long_social_leisure_02.json` | 0/100 | 100 |
 | `content/sentence_bank/long_social_leisure_03.json` | 0/100 | 100 |
 | `content/sentence_bank/long_social_leisure_04.json` | 0/100 | 100 |
@@ -570,7 +570,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_work_life_42.json` | 0/2 | 2 |
 | `content/sentence_bank/long_work_life_43.json` | 0/2 | 2 |
 | `content/handwritten_sentences_04-family-health_bank.json` | 0/170 | 170 |
-| `content/handwritten_sentences_05-social_bank.json` | 6/200 | 194 |
+| `content/handwritten_sentences_05-social_bank.json` | 4/200 | 196 |
 | `content/z_curated_sentences_06-macau_bank.json` | 0/40 | 40 |
 | `content/z_curated_sentences_07-macau-mobility_bank.json` | 0/50 | 50 |
 | `content/z_curated_sentences_08-home-family_bank.json` | 0/50 | 50 |
@@ -700,8 +700,8 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/z_curated_sentences_98-home-and-city_bank.json` | 0/10 | 10 |
 | `content/z_curated_sentences_99-community-and-service_bank.json` | 0/10 | 10 |
 
-**Overall mechanical pass: 552/15053.**
+**Overall mechanical pass: 565/15053.**
 
-**Recorded main-agent language review and mechanical pass: 500/15053; remaining: 14553.**
+**Recorded main-agent language review and mechanical pass: 547/15053; remaining: 14506.**
 
 Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.

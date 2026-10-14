@@ -4,11 +4,37 @@ from __future__ import annotations
 import json
 from datetime import datetime, timezone
 from pathlib import Path
+from story_quality_progress import audit, row_digest
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "content"
 SENTENCE_BANK_DIR = CONTENT_DIR / "sentence_bank"
 OUTPUT_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
+
+
+def reviewed_sentence_ids() -> set[str]:
+    review_path = ROOT / "STORY_LANGUAGE_REVIEW.json"
+    if not review_path.exists():
+        return set()
+    ids: set[str] = set()
+    for review in json.loads(review_path.read_text(encoding="utf-8")):
+        path = ROOT / review["file"]
+        row = json.loads(path.read_text(encoding="utf-8"))[review["index"]]
+        selected = path.parent == CONTENT_DIR
+        dimensions = ("naturalness", "distinct_plot", "jyutping_readings_and_tones", "complete_gloss")
+        if (row_digest(row) != review["sha256"] or
+                not all(review.get(key) is True for key in dimensions) or audit(row, selected)):
+            raise ValueError(f"Invalid language review: {review['file']}:{review['index']}")
+        ids.add(row["id"] if selected else f"sentence-bank-{path.stem}-{review['index'] + 1:04d}")
+    return ids
+
+
+def prioritize_reviewed_sentences(entries: list[dict], reviewed_ids: set[str]) -> list[dict]:
+    return sorted(entries, key=lambda entry: (
+        0 if entry["entryType"] != "sentence" else 1 if entry["id"] in reviewed_ids else 2
+    ))
+
+
 def build_prompt_text(raw: str, entry_type: str) -> str:
     text = str(raw or "").strip()
     if text:
@@ -102,7 +128,7 @@ def load_all_entries() -> list[dict]:
 
 
 def main() -> None:
-    entries = load_all_entries()
+    entries = prioritize_reviewed_sentences(load_all_entries(), reviewed_sentence_ids())
     for index, entry in enumerate(entries, start=1):
         entry["sortOrder"] = index
     bundle = {

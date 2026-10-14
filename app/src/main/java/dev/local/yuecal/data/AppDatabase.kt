@@ -225,9 +225,12 @@ interface EntryDao {
           AND e.entryType = :entryType
           AND p.entryId IS NULL
         ORDER BY CASE
+            WHEN e.entryType = 'sentence' THEN 0
             WHEN e.category IN ('正音重点词', '高频回应', '高频连接', '判断表达') THEN 0
             ELSE 1
-        END ASC, RANDOM()
+        END ASC,
+        CASE WHEN e.entryType = 'sentence' THEN e.sortOrder ELSE 0 END ASC,
+        RANDOM()
         LIMIT :limit
         """,
     )
