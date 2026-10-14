@@ -7,8 +7,8 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_family_finance_services_01.json` | 100/100 | 0 |
 | `content/sentence_bank/long_family_finance_services_02.json` | 100/100 | 0 |
 | `content/sentence_bank/long_family_finance_services_03.json` | 100/100 | 0 |
-| `content/sentence_bank/long_family_finance_services_04.json` | 73/100 | 27 |
-| `content/sentence_bank/long_family_finance_services_05.json` | 38/100 | 62 |
+| `content/sentence_bank/long_family_finance_services_04.json` | 100/100 | 0 |
+| `content/sentence_bank/long_family_finance_services_05.json` | 58/100 | 42 |
 | `content/sentence_bank/long_family_finance_services_06.json` | 49/100 | 51 |
 | `content/sentence_bank/long_family_finance_services_07.json` | 45/100 | 55 |
 | `content/sentence_bank/long_family_finance_services_08.json` | 62/100 | 38 |
@@ -700,8 +700,8 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/z_curated_sentences_98-home-and-city_bank.json` | 0/10 | 10 |
 | `content/z_curated_sentences_99-community-and-service_bank.json` | 0/10 | 10 |
 
-**Overall mechanical pass: 602/15053.**
+**Overall mechanical pass: 649/15053.**
 
-**Recorded main-agent language review and mechanical pass: 550/15053; remaining: 14503.**
+**Recorded main-agent language review and mechanical pass: 597/15053; remaining: 14456.**
 
 Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.
