@@ -19,8 +19,8 @@ android {
         applicationId = "dev.local.yuecal"
         minSdk = 31
         targetSdk = 35
-        versionCode = 55
-        versionName = "0.35.0"
+        versionCode = 56
+        versionName = "0.35.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -34,6 +34,9 @@ android {
             storePassword = stableSigningPassword
             keyAlias = stableSigningAlias
             keyPassword = stableSigningPassword
+            enableV1Signing = true
+            enableV2Signing = true
+            enableV3Signing = true
         }
     }
 
