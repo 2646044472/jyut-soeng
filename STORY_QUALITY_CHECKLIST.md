@@ -9,10 +9,10 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_family_finance_services_03.json` | 100/100 | 0 |
 | `content/sentence_bank/long_family_finance_services_04.json` | 100/100 | 0 |
 | `content/sentence_bank/long_family_finance_services_05.json` | 99/100 | 1 |
-| `content/sentence_bank/long_family_finance_services_06.json` | 64/100 | 36 |
+| `content/sentence_bank/long_family_finance_services_06.json` | 61/100 | 39 |
 | `content/sentence_bank/long_family_finance_services_07.json` | 55/100 | 45 |
 | `content/sentence_bank/long_family_finance_services_08.json` | 80/100 | 20 |
-| `content/sentence_bank/long_family_finance_services_09.json` | 12/100 | 88 |
+| `content/sentence_bank/long_family_finance_services_09.json` | 10/100 | 90 |
 | `content/sentence_bank/long_family_finance_services_10.json` | 0/100 | 100 |
 | `content/sentence_bank/long_family_finance_services_100.json` | 0/1 | 1 |
 | `content/sentence_bank/long_family_finance_services_101.json` | 0/1 | 1 |
@@ -700,7 +700,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/z_curated_sentences_98-home-and-city_bank.json` | 0/10 | 10 |
 | `content/z_curated_sentences_99-community-and-service_bank.json` | 0/10 | 10 |
 
-**Overall mechanical pass: 735/15053.**
+**Overall mechanical pass: 730/15053.**
 
 **Recorded main-agent language review and mechanical pass: 695/15053; remaining: 14358.**
 
