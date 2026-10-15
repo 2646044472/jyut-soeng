@@ -12256,5 +12256,1315 @@
         "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
       }
     ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 95,
+    "sha256": "6f78ec5d612c084d866833769b5ced425dfacf114b155de298e05ad5eb26374d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留相似銀行通知按帳戶尾數日期分辨、分人登記事項期限、完成標記與憑證，避免重複問同一項或遺漏；三封並非一概視作重複。",
+    "reading_sources": [
+      {
+        "term": "尾數",
+        "reading": "mei5 sou3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:29546",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "標示",
+        "reading": "biu1 si6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:2063",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 96,
+    "sha256": "4fb1ea1ff44aacb9e4f0d760354da3a101c7d4a146e20c5680f6323e46adfe73",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留搬家前稅單保單退休文件副本、機構清單、郵寄紀錄及下一期地址驗證；個別未更新須跟進，不以一封到達代表所有機構完成。 查Rime詞條區分名詞紀錄 gei2 luk6。",
+    "reading_sources": [
+      {
+        "term": "郵寄",
+        "reading": "jau4 gei3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:21363",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "副本",
+        "reading": "fu3 bun2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:11794",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "紀錄",
+        "reading": "gei2 luk6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml; noun/record entry",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 97,
+    "sha256": "0d49146aa63043a0a7bf3c780f39151be08be8ae4ad646fa998264ae806ed720",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留家庭帳目收據轉入加密裝置、實測副本完整後再清除舊檔、銀行密碼不與普通資料夾同放；提及依裝置情況處理，不將普通刪除等同安全抹除。",
+    "reading_sources": [
+      {
+        "term": "加密",
+        "reading": "gaa1 mat6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:12544",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "副本",
+        "reading": "fu3 bun2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:11794",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 98,
+    "sha256": "3025a46537eb5f8b0679916e7bea71179f7a6ebef2312599bd84e4a8ce677957",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留母親兩子女輪流跟帳單、文件交接清單、每月截止、接手未完成事項及完成後另一家人確認；接力賽比喻具體落到付款狀態，避免含糊拇指訊息。",
+    "reading_sources": [
+      {
+        "term": "交接",
+        "reading": "gaau1 zip3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:13300",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "輪流",
+        "reading": "leon4 lau4",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:26856",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 99,
+    "sha256": "bb4699e68305ce85feacdf353c54a5a414651ffc83eaec26e7bc5ea218f90f06",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留年底逐約查續期取消保存期限、結束項目舊檔及更新位置通知家人；不預設通用保存年數，已取消項目仍按要求留確認紀錄。 確認紀錄為名詞，依Rime詞條讀 gei2 luk6。",
+    "reading_sources": [
+      {
+        "term": "歸檔",
+        "reading": "gwai1 dong2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:16694",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "期限",
+        "reading": "kei4 haan6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:24848",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "紀錄",
+        "reading": "gei2 luk6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml; noun/record entry",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 0,
+    "sha256": "340cbc122f03d2c8c1a1487047d50576c025ea25c651e24cf4fd47a5201dca02",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留帳單難以按期償還、列收入必要支出與欠款、非牟利輔導、可行還款次序；不承諾減免或即時解決，也不將不可持續新借款用作掩蓋舊債。",
+    "reading_sources": [
+      {
+        "term": "輔導",
+        "reading": "fu6 dou6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:11890",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "遮掩",
+        "reading": "ze1 jim2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:44764",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 1,
+    "sha256": "3a4daa9116e0141b0e948b8944b9c714c1434fbc8f8ab23654b0677e7aaf9811",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留追數來電後核實公司債權人及欠款、索取書面明細及協商負擔得起的安排；銀行登入密碼始終不提供，證件不因陌生來電催促而傳送。 紀錄在此為名詞，依Rime讀 gei2 luk6。",
+    "reading_sources": [
+      {
+        "term": "債權",
+        "reading": "zaai3 kyun4",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:43674",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "索取",
+        "reading": "sok3 ceoi2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:39021",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "書面",
+        "reading": "syu1 min2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:39440",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "紀錄",
+        "reading": "gei2 luk6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml; noun/record entry",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 2,
+    "sha256": "ed3e6d3a5f618ae8d8fcfe492a8b2dfa512a8deba66fa6f54953f11bd2403947",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留收入突減信用卡結欠增加、官方查利率逾期費及支援、非必要消費暫停、按實際能力安排及定期覆查；未將可申請支援等同已批准，保留必要生活費。 按返嗰間修正語意為受僱返工；記錄在此作名詞，讀 gei2 luk6。",
+    "reading_sources": [
+      {
+        "term": "利率",
+        "reading": "lei6 leot6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:26658",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "逾期",
+        "reading": "jyu4 kei4",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:23764",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "記錄/紀錄(名詞記錄)",
+        "reading": "gei2 luk6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml; noun/record entry",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 3,
+    "sha256": "943ff16e4eac92d36072b67d5a4bf7f10d97a5cae5269c7f80537443bee395ea",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留朋友債務輔導、完整貸款月結單及固定支出、社工解釋選項、朋友自主決定與每次會面紀錄；敘事者從搶答轉為按對方意願協助，無代替簽署或決策。",
+    "reading_sources": [
+      {
+        "term": "輔導",
+        "reading": "fu6 dou6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:11890",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "欠款",
+        "reading": "him3 fun2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:18944",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "貸款",
+        "reading": "taai3 fun2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:39805",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "櫃檯",
+        "reading": "gwai6 toi2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:16851",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 4,
+    "sha256": "2ca46deb8c71914899e4c466ceb6fff1ba84e9fc2209b8300d8c761ac136cd7c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留假冒催收疑慮、訊息截圖、向原有官方渠道查證、不按陌生戶口轉帳及真正欠款按正式通知處理；官方確認非指定收款渠道，不以可疑訊息推定帳戶無欠款。",
+    "reading_sources": [
+      {
+        "term": "假冒",
+        "reading": "gaa2 mou6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:12616",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "截圖",
+        "reading": "zit6 tou4",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:46688",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "書面",
+        "reading": "syu1 min2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:39440",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 5,
+    "sha256": "a217952fc116dbd7847881553ca95c71c83597f7aa80ec287a5b555839b27742",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留每月本金利息已付期限记录、超支查因调整、不忽略欠款；询问机构确认分配而不自行断言扣款规则。待主审。 將口語分欄修為分成四欄；正式紀錄是名詞，讀 gei2 luk6。",
+    "reading_sources": [
+      {
+        "word": "本金／欠款／遙控",
+        "jyutping": "bun2 gam1 / him3 fun2 / jiu4 hung3",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      },
+      {
+        "term": "紀錄",
+        "reading": "gei2 luk6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:14371",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 6,
+    "sha256": "26e11bfab29b57b13167594472a542496c921314068667f3392056d5522bb3c3",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留亲戚数月未还、日期金额原约定核实、平静分期书面金额日期；不在公开聚餐羞辱借款人。待主审。 查返紀錄與更新紀錄均為名詞，讀 gei2 luk6。",
+    "reading_sources": [
+      {
+        "word": "周轉／分期／尷尬",
+        "jyutping": "zau1 zyun2 / fan1 kei4 / gaam3 gaai3",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      },
+      {
+        "term": "紀錄",
+        "reading": "gei2 luk6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:14371",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 7,
+    "sha256": "591ec4bac8e947c21358e3dc70b95b87de500c19dda8a8b336cfa8cb25351805",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留失业租学费、政府社区求职援助查询、储备必要支出、条件期限交件与未批不计；不虚构援助资格或获批保证。待主审。 受理紀錄是名詞，讀 gei2 luk6；熨作動詞讀 tong3，已查Rime字條及洗熨、熨衫板詞條。",
+    "reading_sources": [
+      {
+        "word": "履歷／援助／熨斗",
+        "jyutping": "lei5 lik6 / wun4 zo6 / tong3 dau2",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      },
+      {
+        "term": "紀錄",
+        "reading": "gei2 luk6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:14371",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "熨",
+        "reading": "tong3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.chars.dict.yaml:29013; /tmp/rime-jyut6ping3.words.dict.yaml:34805, 69855",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 8,
+    "sha256": "22776c63a360818a21b5c9669a5b70dda730e134757bff3701f0e7b59b3cfe02",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留合并卡债新贷款手续费总息还款期、提前还款限制、全期计算不只月供；不擅自建议特定贷款产品。待主审。",
+    "reading_sources": [
+      {
+        "word": "月供／貸款／手續費",
+        "jyutping": "jyut6 gung1 / taai3 fun2 / sau2 zuk6 fai3",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 9,
+    "sha256": "d93207eab09ab20654d05b760013ce53d9f736904b884ff66dc4aaaf2f4f1640",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留长期欠款身份证明合约副本、最新结欠付款方式书面确认及预算；支持查询行动不羞辱欠款家人。待主审。",
+    "reading_sources": [
+      {
+        "word": "金融／合約／雜誌",
+        "jyutping": "gam1 jung4 / hap6 joek3 / zaap6 zi3",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 10,
+    "sha256": "69754e83ac1448bf7b316dce4b90158c093ed857e20ebc88c48e458852df8b8f",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留宽带优惠终止新价合约取消与安装费比较、实际用量再续；不将网络性能与养花速度混为技术结论。待主审。",
+    "reading_sources": [
+      {
+        "word": "網絡／供應商",
+        "jyutping": "mong5 lok6 / gung1 jing3 soeng1",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 11,
+    "sha256": "1d243dc3886bd0618e4eacabf24f38950000d0fa39f06d083668e7aa929036ac",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留近月用量漫游剩余期、新月费按量比较、生效日期客服记录；未将漫游费用等同本地用量。待主审。 紀錄兩處均為名詞，讀 gei2 luk6。",
+    "reading_sources": [
+      {
+        "word": "數據／漫遊／剩餘",
+        "jyutping": "sou3 geoi3 / maan6 jau4 / sing6 jyu4",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      },
+      {
+        "term": "紀錄",
+        "reading": "gei2 luk6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:14371",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 12,
+    "sha256": "bba1356f1b8f2231ad1c44acef02d97fa1d209a8b13082122f2584ddf654bf42",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留多平台使用次数共用权限扣款日、取消不用、确认电邮与每月开支；不默认超权限家庭分享。待主审。 紀錄為名詞讀 gei2 luk6，記低保留動詞 gei3 dai1。",
+    "reading_sources": [
+      {
+        "word": "串流／權限／孫仔",
+        "jyutping": "cyun3 lau4 / kyun4 haan6 / syun1 zai2",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      },
+      {
+        "term": "紀錄",
+        "reading": "gei2 luk6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:14371",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 13,
+    "sha256": "257dd849d8cdd4b54b9b4419e8dc0be0336966198e801047dba58f8ae8c73e37",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留清洁续约时数额外改期条款、家人实际需要、新表电邮回应及旧金额更正；不无证指控公司故意错列。待主审。",
+    "reading_sources": [
+      {
+        "word": "附件",
+        "jyutping": "fu6 gin6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 14,
+    "sha256": "9c0cf16e5b8b64b2ef109d77ad95ce89fc435a4448553596b0e41f305a4f0f9a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留补习试用自动收费退款取消、孩子实际课程讨论、选择保留终止与截图操作确认；不把平台奖励当效果。待主审。",
+    "reading_sources": [
+      {
+        "word": "補習／試用／截圖／操作",
+        "jyutping": "bou2 zaap6 / si3 jung6 / zit6 tou4 / cou1 zok3",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 15,
+    "sha256": "6ea501ddfb2a1a8ec6f566a5a21b5599a0be2f27a83f7277c45345a52faf6abc",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；新舊清潔合約、通知日期、舊客過渡、減少次數後重算單次價，確認才續期。查證合約 hap6 joek3、續期 zuk6 kei4。",
+    "reading_sources": [
+      {
+        "term": "合約",
+        "reading": "hap6 joek3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "續期",
+        "reading": "zuk6 kei4",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 16,
+    "sha256": "c33f97580425bceaae746a1cf35011ad94741b91d8cb66f3ebbad869b00c4628",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；國際長途附加服務誤開，查通話及帳戶、官方客服解釋、取消後核對下期更正。查證官方 gun1 fong1、附加 fu6 gaa1。 通話紀錄、啟用紀錄均作名詞，按Rime詞條讀 gei2 luk6。",
+    "reading_sources": [
+      {
+        "term": "官方",
+        "reading": "gun1 fong1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "附加",
+        "reading": "fu6 gaa1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "紀錄",
+        "reading": "gei2 luk6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "氹仔",
+        "reading": "tam5 zai2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 17,
+    "sha256": "2e32ec92332b44d7c49226f2e31a4145cf38946dbf2ce159e0721cd8b5f1d772",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；寬頻轉供應商查舊約剩期、拆線費、設備租金及停用啟用日期，避免重疊全月費。查證寬頻 fun1 pan4、梳化 so1 faa2。",
+    "reading_sources": [
+      {
+        "term": "寬頻",
+        "reading": "fun1 pan4",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "梳化",
+        "reading": "so1 faa2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 18,
+    "sha256": "992c07b15ba6f765db4795df091f44c8fb4ddf2fa9bff9c5b91e01cf8d61a778",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；出差暫停送菜需查提前通知及保管費，按需要調日期，之後對每次收據及扣款。查證出差 ceot1 caai1、保管 bou2 gun2、收據 sau1 geoi3。",
+    "reading_sources": [
+      {
+        "term": "出差",
+        "reading": "ceot1 caai1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "保管",
+        "reading": "bou2 gun2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "收據",
+        "reading": "sau1 geoi3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 19,
+    "sha256": "db7c4fafb3e4718861929d8a8c2f3e37fc306f753f616b41e7545695e63e9aa0",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；陪診時薪調整查交通與取消費，整合家人陪同時段，確保長者每次仍有人陪才續改。查證陪診 pui4 can2、覆診 fuk1 can2。",
+    "reading_sources": [
+      {
+        "term": "陪診",
+        "reading": "pui4 can2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "覆診",
+        "reading": "fuk1 can2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 20,
+    "sha256": "8c0489a88596b72f5a5ad7bd76d9caefb5e1b9e478354ef4843f1c72bc691cfa",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；家庭蛋糕訂單逐類成本、收款配編號、月底銀行對帳及補貨資金。查證訂單 deng6 daan1、材料 coi4 liu2、包裝 baau1 zong1。",
+    "reading_sources": [
+      {
+        "term": "訂單",
+        "reading": "deng6 daan1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "材料",
+        "reading": "coi4 liu2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "包裝",
+        "reading": "baau1 zong1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 21,
+    "sha256": "23da6cbcf2c8a21de9f029816bdf94bf04a131f35b8a7a3113423febc5d4ef0d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；網店轉帳及電子支付逐日對訂單收款，退款平台費運費分列，不把銀行餘額全當利潤。查證利潤 lei6 jeon6、訂單 deng6 daan1、髮帶 faat3 daai2。",
+    "reading_sources": [
+      {
+        "term": "利潤",
+        "reading": "lei6 jeon6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "訂單",
+        "reading": "deng6 daan1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "髮帶",
+        "reading": "faat3 daai2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 22,
+    "sha256": "63e2c1b1a13a4c23d1b866c5d23add729a1d54bba7ebce55a4fe5503cde3cb60",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；合夥開店裝修租金貨款設備成本、書面出資責任及生意家用分戶。查證出資 ceot1 zi1、鉛筆 jyun4 bat1、夾份 gaap3 fan2。",
+    "reading_sources": [
+      {
+        "term": "出資",
+        "reading": "ceot1 zi1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "鉛筆",
+        "reading": "jyun4 bat1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "夾份",
+        "reading": "gaap3 fan2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 23,
+    "sha256": "dabfc04dff7c8047f316e9cfdf99e73ddf14fcea1cdcdd90c3df81dc353850d9",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；月尾付款訂單核實公司與交貨簽收、列明未收發票及到期跟進，未到帳款不先作可用資金。查證簽收 cim1 sau1、發票 faat3 piu3。",
+    "reading_sources": [
+      {
+        "term": "簽收",
+        "reading": "cim1 sau1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "發票",
+        "reading": "faat3 piu3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 24,
+    "sha256": "99c83ef891ca59cb4b093fd813234c377c7786e9f14311b91f9a2ebc12594635",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；烘焙器材租買成本、每月增加接單回本估算、保留家庭應急儲備及生意收入與分期比較。查證烘焙 hung3 pui4、焗爐 guk6 lou4、儲備 cyu5 bei6。",
+    "reading_sources": [
+      {
+        "term": "烘焙",
+        "reading": "hung3 pui4",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "焗爐",
+        "reading": "guk6 lou4",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "儲備",
+        "reading": "cyu5 bei6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 25,
+    "sha256": "66a10ba5c891ef79253ff81e32d9737fe10318cc868d6245ad3b6c7398c9d82d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留网店退货补寄分开记录、原单退款日期寄件成本、每月对照退货原因及改善包装。以两张买家照片形成转折，未把测试写成保证运输无损。待主 agent 审读。 另開紀錄作名詞，讀 gei2 luk6。",
+    "reading_sources": [
+      {
+        "term": "曲奇",
+        "reading": "kuk1 kei4",
+        "url": "https://www.cantonese.sheik.co.uk/dictionary/words/14274/"
+      },
+      {
+        "term": "紀錄",
+        "reading": "gei2 luk6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 26,
+    "sha256": "bfff7fba1274ddda43cb048428cdeeaa49c6e625fa5f6c3b34c4fd1522f7580d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留自由设计项目范围、修改次数及付款节点先确认、交稿邮件收款记录、按月预留税和器材费用。将新增工作另行商议，不假定统一合同权利。待主 agent 审读。",
+    "reading_sources": [
+      {
+        "term": "標誌",
+        "reading": "biu1 zi3",
+        "url": "https://cantonese.sheik.co.uk/dictionary/characters/997/"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 27,
+    "sha256": "b4a5320ef6bb6080d193ac7d657c97aff3b9a979c233d24edd1ccfe6d3c0dae2",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留市集摊费交通包装刷卡费用、保守销量、收档清点存货现金并核实盈利。顾客用途与吹倒价牌提供具体场面，不将收入直接等同盈利。待主 agent 审读。 塔石之塔按Rime單字讀 taap3。",
+    "reading_sources": [
+      {
+        "term": "攤位",
+        "reading": "taan1 wai2",
+        "url": "https://cantonese.sheik.co.uk/dictionary/words/18090/"
+      },
+      {
+        "term": "塔",
+        "reading": "taap3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.chars.dict.yaml:28144",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 28,
+    "sha256": "0762742960c62ddc337fc52f765333ffff92fd8ee1d36576fffff18bcdcc5bc1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留合伙经营私人收款建议、先咨询会计师及银行、专用户口和两人按周共同对账，避免私人支出遮住店铺现金需要。未断言私人账户统一违法。待主 agent 审读。 上月紀錄為名詞，讀 gei2 luk6。",
+    "reading_sources": [
+      {
+        "term": "合夥",
+        "reading": "hap6 fo2",
+        "url": "https://words.hk/zidin/%E5%90%88%E5%A4%A5"
+      },
+      {
+        "term": "紀錄",
+        "reading": "gei2 luk6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 29,
+    "sha256": "8ed044dc8026cece7d204e9842f70318f0865fffb92c102c29e976561798064e",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留淡季收入下检查租订货平台费用、商议分批补货、保留工资运营金和家庭生活费界线。租金及服务调整写为具体商议结果。待主 agent 审读。",
+    "reading_sources": [
+      {
+        "term": "供應商",
+        "reading": "gung1 jing3 soeng1",
+        "url": "https://www.cantonese.sheik.co.uk/dictionary/words/31743/"
+      },
+      {
+        "term": "打烊",
+        "reading": "daa2 joeng2",
+        "url": "https://en.wiktionary.org/wiki/%E6%89%93%E7%83%8A"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 30,
+    "sha256": "6abf90421f05b66e9d6bbfbee4b00ca55b40b47d2cf52fb1a1ffc42988be96f0",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留母亲照顾外婆导致工时收入减少、交通差额、社工照顾者及暂托资源查询和按确认安排更新家用。呈现照顾劳动与休息，不预设支援必获安排。待主 agent 审读。",
+    "reading_sources": [
+      {
+        "term": "差額",
+        "reading": "caa1 ngaak6",
+        "url": "https://en.wiktionary.org/wiki/%E5%B7%AE%E9%A1%8D"
+      },
+      {
+        "term": "暫託",
+        "reading": "zaam6 tok3",
+        "url": "https://jyutdictionary.com/dictionary/entry/%E8%A8%97%E5%85%92"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 31,
+    "sha256": "850358ab38c464a65db018d69b0652815bac30536fb8c80046719ea66567f8c0",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留轮流请假照护父亲、缺勤与收入变化、代班记录、与雇主确认弹性安排、照护表及家用预算同步调整。两壶南瓜粥呈现重复安排的具体后果。待主 agent 审读。",
+    "reading_sources": [
+      {
+        "term": "彈性",
+        "reading": "daan6 sing3",
+        "url": "https://www.cantonese.sheik.co.uk/dictionary/characters/620/"
+      },
+      {
+        "term": "撞正",
+        "reading": "zong6 zeng3",
+        "url": "https://words.hk/zidin/%E6%92%9E%E6%AD%A3"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 32,
+    "sha256": "c770d4d5ce8a979144d4aba462c5b125e2afe2e677b183e6a3c09f1dae74cc54",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留照顾者津贴对象评估期限核实、真实照护时数及收入证明、按期交表、结果未出按现有收入预算。活动和津贴均不指名现实计划或承诺获批。待主 agent 审读。 堆紀錄作名詞，讀 gei2 luk6。",
+    "reading_sources": [
+      {
+        "term": "津貼",
+        "reading": "zeon1 tip3",
+        "url": "https://www.cantonese.sheik.co.uk/dictionary/words/7125/"
+      },
+      {
+        "term": "紀錄",
+        "reading": "gei2 luk6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:14371",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 33,
+    "sha256": "91e4db9245811b52f26894011926b289f84284003212cce6bdd76d237cc6dc57",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；明确病假薪酬属手术后的姐夫，不把家姐照护假当本人病假。保留短期收入减少、公司福利及交通核对、入账时点安排，未批福利不作现金。待主 agent 审读。 查詢紀錄作名詞，讀 gei2 luk6。",
+    "reading_sources": [
+      {
+        "term": "薪酬",
+        "reading": "san1 cau4",
+        "url": "https://words.hk/zidin/%E8%96%AA%E9%85%AC"
+      },
+      {
+        "term": "姐夫",
+        "reading": "ze2 fu1",
+        "url": "https://en.wiktionary.org/wiki/%E5%A7%90%E5%A4%AB"
+      },
+      {
+        "term": "紀錄",
+        "reading": "gei2 luk6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:14371",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 34,
+    "sha256": "738188259e5a53e858887b054e56ef9ecaaae2cfd87d282be4c38563a2791874",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留父亲陪外婆覆诊减工作天数、兄弟姐妹轮替、交通误工成本、服务收费与家人请假损失比较。明确接送不等于全程照护，并纳入婆婆需求与确认后的后备安排。待主 agent 审读。",
+    "reading_sources": [
+      {
+        "term": "鬆動",
+        "reading": "sung1 dung6",
+        "url": "https://cantonese.sheik.co.uk/dictionary/words/61298/"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 35,
+    "sha256": "d2641ce3c4446655b30a2acbe9b93267888ea87a53b446f0f9a24cc70d405144",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "待主 agent 逐卡主审；妈妈是主要照顾者，公公是受照顾者；保留每节时间/收费/取消、试用安心后固定时段与月预算。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "喘息 cyun2 sik1"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 36,
+    "sha256": "f377582a740a5e704cd26b56488234b23f55d9d0fead25b965537faac2807954",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "待主 agent 逐卡主审；主要照顾者爸爸恢复兼职，保留净收入试算、固定班次、月试行核实收/照顾安排及调整工时。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "圍裙 wai4 kwan2",
+          "喘息 cyun2 sik1（喘字 cyun2）"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 37,
+    "sha256": "cbb00785a223a10543958d44fd5f71120c8f40024b5ac700b887dc951ac01920",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "待主 agent 逐卡主审；保留长期照顾多人分担、三类责任、月对帐、收入改变重商比例；时间与金钱均明确记下。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "日用品 jat6 jung6 ban2",
+          "陪診 pui4 can2",
+          "書籤 syu1 cim1"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 38,
+    "sha256": "f0edc82f92067db03f7cb92c0285da134aea7b245cf2b66df8c93284441e0978",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "待主 agent 逐卡主审；保留补工作收入/照顾时数/家庭资料、副本与个案号、覆核期服务续否；仅记录查问答复，不假设服务自动停或自动续。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "支援 zi1 wun4",
+          "社工 se5 gung1",
+          "副本 fu3 bun2",
+          "陪診 pui4 can2",
+          "薄荷 bok6 ho4"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 39,
+    "sha256": "8fc8db3d230b5cae57d1e2db1076e446e833b9ad61113b227d646fd395c4e9dd",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "待主 agent 逐卡主审；保留停供费用/恢复、家庭现金流、必要保障不受影响后才调整与复检日期；供款按查证 gung1 fun2。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "供款 gung1 fun2",
+          "斷供 tyun5 gung1（供字作供款 gung1）",
+          "現金流 jin6 gam1 lau4",
+          "外公 ngoi6 gung1",
+          "恢復 fui1 fuk6"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 40,
+    "sha256": "1c253a59c2a80a1be579d977b51b35dc6603d3316660f6dc6721ca2ee0212c3c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "待主 agent 逐卡主审；保留兄妹共车照顾父母、首期/保费/维修/油费、每次时间里数、年尾按实际使用调比例；记录簿采用「記錄」读 gei3 luk6，簿读 bou2。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "記錄 gei3 luk6",
+          "里數 lei5 sou3"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.chars.dict.yaml",
+        "entries": [
+          "簿 bou2"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 41,
+    "sha256": "cc2d5de58270328c3d620ac1a7f08448efe8c271a38ccf4ce6b0ed366a527d06",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "待主 agent 逐卡主审；保留合租季节仓库、期限/月费/锁匙、按箱分费、提前退出及按金按协议；错误标签引出清点转折。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "鎖匙 so2 si4",
+          "側身 zak1 san1",
+          "聖誕樹 sing3 daan3 syu6",
+          "協議 hip3 ji5",
+          "目測 muk6 caak1"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 42,
+    "sha256": "60025579da2b64eb116c4e2bec423946d80c0cb1c0d38e10e62e74c506be33b2",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留家庭會籍附加人數、續費及停用規則、月度實到次數和單次票價比較，按實際使用決定續辦；泳池情節屬虛構，未指向具體場館方案。待主 agent 逐卡主審。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "會籍 wui2 zik6（原短稿作 wui6 zik6，此處按詞條）",
+          "月曆 jyut6 lik6",
+          "紀錄 gei2 luk6",
+          "教練 gaau3 lin6"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 43,
+    "sha256": "e17802c5634d2c1d0fb0c79b9751c08acf883d470c3d96e8cf04c0889266bd9d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留表兄弟合資露營器材、逐件付款人及保養期和借用次數、按實際損壞情況商量分攤，年尾出售少用器材；未給爐具維修或使用指示。待主 agent 逐卡主審。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "夾錢 gaap3 cin2",
+          "帳篷 zoeng3 pung4",
+          "膊頭 bok3 tau4",
+          "表弟 biu2 dai2（亦列 biu2 dai6）",
+          "商量 soeng1 loeng4",
+          "夾硬 gaap3 ngaang2",
+          "月亮 jyut6 loeng6"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.chars.dict.yaml",
+        "entries": [
+          "凹 nap1（此處為撞凹口語讀音）"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 44,
+    "sha256": "571e6a5f912ef611faa7095f7488a5bc1ec796d7627b1c650da6254a13110ea6",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留家庭清潔用品合購、逐戶數量及付款日、到貨按實件分配、群組確認各戶金額和歸還代墊；少貨退款後再算，表情誤會在落單前修正。待主 agent 逐卡主審。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "姨媽 ji4 maa1",
+          "自告奮勇 zi6 gou3 fan5 jung5",
+          "聯絡 lyun4 lok3（亦列 lyun4 lok6）",
+          "群組 kwan4 zou2",
+          "應付 jing3 fu6"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.chars.dict.yaml",
+        "entries": [
+          "樽 zeon1"
+        ]
+      }
+    ]
   }
 ]
