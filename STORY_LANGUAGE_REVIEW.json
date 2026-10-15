@@ -11104,5 +11104,937 @@
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
     "notes": "主审通过：已逐字审阅故事、粤拼声调、普通话释义及复述提示；保留配偶/子女资料、保障起日、报销项目、正本要求、影印副本与截止日；无具体病情或医疗建议。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 45,
+    "sha256": "e6f164d4f67b8ce23ad65d4ffe51ccfa3d9c9cbc44ca7bdb2f044eee8473dfa4",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审通过：已逐字审阅故事、粤拼声调、普通话释义及复述提示；保留离职福利终止正式日期、最后保障期、新工作医疗福利衔接与家庭知悉，未把持卡等同仍受保。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 46,
+    "sha256": "fca6dcf16a4ee7b3880c994c71fb22b880d554e881b50d55544d9bf51114a063",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审通过：已逐字审阅故事、粤拼声调、普通话释义及复述提示；保留退休一次过/分期、完整书面资料、税务/现金/固定开支及预约解疑，不替角色武断选择方案。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "窗框 coeng1 kwaang1"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 47,
+    "sha256": "801517997b8bcea64f3b496123a0308e45478b207fba080fd46a09a1531bb9f1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审通过：已逐字审阅故事、粤拼声调、普通话释义及复述提示；保留新帐姓名帐号、首期出粮日期、入帐对粮单及旧自动转帐留足余额。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "靜雞雞 zing6 gai1 gai1"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 48,
+    "sha256": "c946f1b267e58199c5523a12bf86e8b4e87a1c1f036ee0630111371034df0e3d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审通过：已逐字审阅故事、粤拼声调、普通话释义及复述提示；保留扣薪比例/锁定期/离职处理/现金空间与不跟风认购。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "雲吞 wan4 tan1"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.chars.dict.yaml",
+        "entries": [
+          "捏 nip6",
+          "扁 bin2"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 49,
+    "sha256": "84912173257aa17f18fcb004debdfefe75f2d2152d0b00a003fde0bb8bc62662",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审通过：已逐字审阅故事、粤拼声调、普通话释义及复述提示；保留基本薪金/津贴/生效月、租金与储蓄转帐比例、紧急预备及几个月实收核对。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "豉油 si6 jau4"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.chars.dict.yaml",
+        "entries": [
+          "鍵 gin6",
+          "踏 daap6"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 50,
+    "sha256": "63011fa966ee55093287f8041d0a9b046749f15c409da465453da260872cedf3",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审通过：已逐字审阅故事、粤拼声调、普通话释义及复述提示；保留新婚共同租金家用、双方收入/债务/固定帐单、协商比例、半年检视及情况变化一起调整。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 51,
+    "sha256": "d28fd9e25c6d43ab9bc7e640e08f11803c5bab1238373d8b97c5e248b4b71191",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审通过：已逐字审阅故事、粤拼声调、普通话释义及复述提示；保留产检/婴儿用品/产假收入变化、医院服务及雇主假期确认、按必要次序逐月预留；玩具标龄只属故事中的盒面内容。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "兌換 deoi3 wun6"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 52,
+    "sha256": "8a4aefa095127ed1ef1c68b7718239eec952554c4f87b90b577afb06f35a17da",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留分居、租約、聯名戶口及法律文件主題；蝦餃誤會緩和氣氛，雨中同車收尾。待主 agent 逐卡主審；未改源檔或台帳。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "簷篷 jim4 pung4",
+          "逞強 cing2 koeng4"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 53,
+    "sha256": "9eb41646bb3072b2bf37213f18f83061429fb75b315aadb742ead0d518f8798b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留新界搬近女兒主題，明示舅父及女兒住香港、敘事者由澳門訪港；試住揭出生活路線及膝痛限制。待主 agent 逐卡主審。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "舅父 kau5 fu2（詞表亦列 kau5 fu6，草稿採常見口語變調 fu2）",
+          "膝頭 sat1 tau4"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 54,
+    "sha256": "ab95dec561b42b33b5c66cd88c73d51e47ae81054535b622611579365c9bafcc",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留九月外地升學、學費外開支、付款及匯款、固定生活費和下年年中共同核對實際支出；電飯煲作首尾呼應。待主 agent 逐卡主審。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 55,
+    "sha256": "64cc868f9dc277b4da368f15ea73a629849a9c3aada1e9021dcd3890dbebf155",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留独居转同住、水电膳食居家照护分担、试行数周核账及共同书面方法；量米杯贯穿共同生活变化。已逐句主审；澳门用语、声调、译文及情节均已核对。",
+    "reading_sources": [
+      {
+        "word": "膳食／沿用",
+        "jyutping": "sin6 sik6 / jyun4 jung6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 56,
+    "sha256": "ce96b344d546f180aca2d7c38c6efeaa98bc579dc7af0f1aec65d320fa6091e0",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留婚后多户自动付款保费电话订阅日期、取消重复与共同支出、私人账目；同电影不同扣款首尾呼应。已逐句主审；澳门用语、声调、译文及情节均已核对。",
+    "reading_sources": [
+      {
+        "word": "訂閱／模型／週末",
+        "jyutping": "deng6 jyut6 / mou4 jing4 / zau1 mut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 57,
+    "sha256": "c0f762f1670c7f2f53aea64e897b512211bc96f8961a13a714b52f8a434157fe",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留退休社會房屋转细单位、搬费按金租差、福利住址影响正式查询答复后签约；不编造福利资格结论。已逐句主审；澳门用语、声调、译文及情节均已核对。",
+    "reading_sources": [
+      {
+        "word": "退休／社會／房屋／福利",
+        "jyutping": "teoi3 jau1 / se5 wui2 / fong4 uk1 / fuk1 lei6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      },
+      {
+        "word": "縫／紉",
+        "jyutping": "fung4 / jan6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.chars.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 58,
+    "sha256": "204f4b58f40928cfe12da685160d88d1445e200fc2a417b67c9881c84e5463ce",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留照顾新生儿减工时、固定收入托儿重算、家庭支援期限月额、三个月再查各方负担；婴儿衫尺寸呼应检视。已逐句主审；澳门用语、声调、译文及情节均已核对。",
+    "reading_sources": [
+      {
+        "word": "呵欠／拖累",
+        "jyutping": "ho1 him3 / to1 leoi6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 59,
+    "sha256": "8e6405944d21598c842e87ad713154ec46844f50c12aaa28f41605fcb4444547",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留搬区交通时间车费增加、月票校车共乘全年成本、一个月实际记录及长期选择；未宣称某地公共交通必有月票。已逐句主审；澳门用语、声调、译文及情节均已核对。",
+    "reading_sources": [
+      {
+        "word": "校車",
+        "jyutping": "haau6 ce1",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 60,
+    "sha256": "05e388900b5bae6d459d147a46e59a034d6a1618496f63e5b25f3e7cbd98f3eb",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留首份兼职底薪津贴扣款、家用交通储蓄比例、自管余额与月底漏项检查；家人不以控制购物代替理财学习。已逐句主审；引语、用词、粤拼、释义及情节均已核对。",
+    "reading_sources": [
+      {
+        "word": "糧單／底薪／津貼／儲蓄",
+        "jyutping": "loeng4 daan1 / dai2 san1 / zeon1 tip3 / cyu5 cuk1",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 61,
+    "sha256": "a3200a7581346dd0c0d98de6a4c2dd435c8a3b8767fcddef96f40a4c21101dc1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留自有收入衣物上限、消费退款纪录、大件等待一周、需要与冲动；女儿把同一方法反用家长形成转折。已逐句主审；引语、用词、粤拼、释义及情节均已核对。",
+    "reading_sources": [
+      {
+        "word": "服飾／退款／擁有",
+        "jyutping": "fuk6 sik1 / teoi3 fun2 / jung2 jau5",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 62,
+    "sha256": "a2733190d19b6da0e0babdb825e557f74b911c1db46397cb9a91c4c5bdc11721",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留中学生网上设计、交付收款隐私、对话付款保存与储蓄学习用品分配；先看平台规则不默认所有年龄可用所有平台。已逐句主审；引语、用词、粤拼、释义及情节均已核对。",
+    "reading_sources": [
+      {
+        "word": "私隱／義賣／測驗",
+        "jyutping": "si1 jan2 / ji6 maai6 / cak1 jim6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 63,
+    "sha256": "384b9052f8ceb405c0a46604cde3a678988e6e3ef0b9ac63eba642a886c5ea50",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留大额利是玩具与长期目标、即时储蓄捐款比例、每季孩子自查余额用途；尊重孩子参与而非代收代定。已逐句主审；引语、用词、粤拼、释义及情节均已核对。",
+    "reading_sources": [
+      {
+        "word": "利是／斯文",
+        "jyutping": "lai6 si6 / si1 man4",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 64,
+    "sha256": "7f6fec9c3031a472531076872f8d19efb89a025d80653b3b09bd0e8a37f2631d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留大学生信用卡年龄额期限、利息未理解先用扣账卡、月结核对；不捏造具体利率或授信资格。已逐句主审；引语、用词、粤拼、释义及情节均已核对。",
+    "reading_sources": [
+      {
+        "word": "剩餘／年齡／消化",
+        "jyutping": "sing6 jyu4 / nin4 ling4 / siu1 faa3",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 65,
+    "sha256": "ec5c937d541b17ee3e280ecc9243798248f1a195257f2c3b7b2a47eef5fbf692",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；固定每週零用錢，交通午餐資金仍受保障，不臨時追加娛樂錢掩蓋超支，由記錄調整下週分配。已逐句主审并复核语义、语音和译文；读音查证：娛樂 jyu4 lok6、角色 gok3 sik1、重複 cung4 fuk1。",
+    "reading_sources": [
+      {
+        "word": "娛樂／角色／重複",
+        "jyutping": "jyu4 lok6 / gok3 sik1 / cung4 fuk1",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      },
+      {
+        "word": "拆／包／圈",
+        "jyutping": "caak3 / baau1 / hyun1",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.chars.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 66,
+    "sha256": "e0140ce41fa1f982bcfcad14a91efd3b495336b4b7b08dd9c6a324c957ea3886",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；海外交流完整學費機票住宿保險報價、家庭負擔及子女承擔部分儲蓄均保留。已逐句主审并复核语义、语音和译文；读音查证：枕頭 zam2 tau4、訂金 deng6 gam1、相機 soeng2 gei1。",
+    "reading_sources": [
+      {
+        "word": "枕頭／訂金／相機",
+        "jyutping": "zam2 tau4 / deng6 gam1 / soeng2 gei1",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 67,
+    "sha256": "0b5bc39cccd560bfb0cb9ad6d6bd2d1733bb256c4ba448b680c3649d6b13a8ee",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；成年子女自行交電話與交通費、到期提示、固定可變支出分開及出糧先預留帳單款。已逐句主审并复核语义、语音和译文；读音查证：糧單 loeng4 daan1、日曆 jat6 lik6。",
+    "reading_sources": [
+      {
+        "word": "糧單／日曆",
+        "jyutping": "loeng4 daan1 / jat6 lik6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 68,
+    "sha256": "d85959179142e07b32ec739c530de72bcdead9d8f4cc26798fb76ebc024d81cc",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；獎學金期限、續領條件、支付範圍及正式收費表核對均保留，未批續領不先計收入。已逐句主审并复核语义、语音和译文；读音查证：獎學金 zoeng2 hok6 gam1、資助 zi1 zo6。",
+    "reading_sources": [
+      {
+        "word": "獎學金／資助／餘下",
+        "jyutping": "zoeng2 hok6 gam1 / zi1 zo6 / jyu4 haa6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 69,
+    "sha256": "fb55e0bd1ed4b86b8a692011ca0102e6505f8c045e2b303df894b8d440a6bdf7",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；年費扣款後查訂閱日期及家庭付款，查平台取消退款程序，區分取消成功與退款待核。已逐句主审并复核语义、语音和译文；读音查证：訂閱 deng6 jyut6、退款 teoi3 fun2。",
+    "reading_sources": [
+      {
+        "word": "訂閱／退款／取消",
+        "jyutping": "deng6 jyut6 / teoi3 fun2 / ceoi2 siu1",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 70,
+    "sha256": "c9918977b93236435fef542f09a6dcd5c8caaa3795db819b113cc7fae19588ed",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；長者興趣班報名材料交通全成本、按收入減費查詢、試堂確認時間及先報一期。已逐句主审并复核语义、语音和译文；读音查证：魔術 mo1 seot6、手帕 sau2 paak3、材料 coi4 liu2。",
+    "reading_sources": [
+      {
+        "word": "魔術／台型／材料",
+        "jyutping": "mo1 seot6 / toi4 jing4 / coi4 liu2",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      },
+      {
+        "word": "帕",
+        "jyutping": "paak3",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.chars.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 71,
+    "sha256": "7b1b59d21bc42f245b04dc88ed25cb2adfc4f3e4359f8e6c17521e0f3874782b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；活動減免適用對象、入息證明、截止日、社工覆核及正式批准後入預算。逐卡主審、核對引語與翻譯；讀音查證：減免 gaam2 min5。",
+    "reading_sources": [
+      {
+        "word": "減免",
+        "jyutping": "gaam2 min5",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 72,
+    "sha256": "a37fdc135cc049f9dbcb96772f513857093d6bac79f71aa0f704832841aaec03",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；球衣、場地月費、全年日數、比賽交通、補課及其他活動的時間成本比較。逐卡主審、核對引語與翻譯；讀音查證：球衣 kau4 ji1、教練 gaau3 lin6、補課 bou2 fo3。",
+    "reading_sources": [
+      {
+        "word": "球衣／教練／補課",
+        "jyutping": "kau4 ji1 / gaau3 lin6 / bou2 fo3",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      },
+      {
+        "word": "背／脊／睡／衣",
+        "jyutping": "bui3 / zek3 / seoi6 / ji1",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.chars.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 73,
+    "sha256": "a1984a2310f6766dd0be3fff8e72964a4710a795fa2c2fc74ae53de975a92f92",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；午膳每餐費用、送餐及假期、補助資格和批准後下月家用調整。逐卡主審、核對引語與翻譯；讀音查證：膳食 sin6 sik6、補助 bou2 zo6。",
+    "reading_sources": [
+      {
+        "word": "膳食／補助／生效",
+        "jyutping": "sin6 sik6 / bou2 zo6 / sang1 haau6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 74,
+    "sha256": "a4a86582b2daf0cfe4b0ef0df38f4cf168d05e3209dbc8c7b458d44b88ea4382",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；照顧者短期支援、每節費用、托兒與期限、試兩次後評估持續參加、交通活動支出均保留。逐卡主審、核對引語與翻譯；讀音查證：支援 zi1 wun4。",
+    "reading_sources": [
+      {
+        "word": "支援／交通／費用／輪流",
+        "jyutping": "zi1 wun4 / gaau1 tung1 / fai3 jung6 / leon4 lau4",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 75,
+    "sha256": "955d737b0f42a9011cc81f4316784ac913cfeeea73c01091926ef16737e030b6",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留亲子工作坊材料费、退款及工具范围查询、按孩子兴趣选一节、保留收据与同类费用比较。以父亲预设兴趣和孩子改造花盆形成转折。",
+    "reading_sources": [
+      {
+        "term": "薄荷",
+        "reading": "bok6 ho4",
+        "url": "https://www.cantonese.sheik.co.uk/dictionary/words/2842/"
+      },
+      {
+        "term": "螞蟻",
+        "reading": "maa5 ngai5",
+        "url": "https://cantonese.sheik.co.uk/dictionary/words/3778/"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 76,
+    "sha256": "7e73547bca4402653255425fa01895667415b4f6cf9220cfe929616fa52eaafb",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留社区费用减免覆核、最新收入住址及成员、社工联系人和查询日期、正式结果前按现有收费预算。未把覆核等同取消资格或预先获批。",
+    "reading_sources": [
+      {
+        "term": "覆核",
+        "reading": "fuk1 hat6",
+        "url": "https://www.cantonese.sheik.co.uk/dictionary/words/60863/"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 77,
+    "sha256": "e700da3cd6de6c091f2e261527381b7dd3287b0b254857f1d956b1f23288edde",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留社区巴士覆盖范围、预约时限、每程收费、试乘上落车安排、交通与长者服务费用分开记录。以爸爸从怕阻人到主动加唱歌课形成变化。",
+    "reading_sources": [
+      {
+        "term": "膊頭",
+        "reading": "bok3 tau4",
+        "url": "https://cantonese.sheik.co.uk/dictionary/words/7301/"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 78,
+    "sha256": "6018a98dd82dfaca97b61cc1faf567cd0e7c8a55e21b814d359446dad91e6420",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留儿童用品短期借用、期限、损坏责任、取还地点、清单与原有状况核对、减少短期支出及额外费用争议。餐椅服务为故事设定，未指名实际机构承诺。",
+    "reading_sources": [
+      {
+        "term": "刮痕",
+        "reading": "gwaat3 han4",
+        "url": "https://en.wiktionary.org/wiki/%E5%88%AE%E7%97%95"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 79,
+    "sha256": "e7974fe20b6f9b59b36d2f7c2ea6fd440fab982aa8019d2566681540becc9406",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留社工介绍家庭活动资助、家庭条件、报销项目及收据格式核对、确认活动费符合后付款、按期交件和保留回条。不宣称任何现实计划统一包器材或必然批核。",
+    "reading_sources": [
+      {
+        "term": "報銷",
+        "reading": "bou3 siu1",
+        "url": "https://cantonese.org/search.php?q=%E5%A0%B1"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 80,
+    "sha256": "30aa0287e1fd8540c1e76e7d53a6c857bd611194203422ef0549492e7c79eb72",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留续牌前核对牌费、验车、保险、停车年费、全年平均成本，按用车减少比较租车与公共交通。决定安排在续牌前，未安排无效牌照驾驶。",
+    "reading_sources": [
+      {
+        "term": "車匙",
+        "reading": "ce1 si4",
+        "url": "https://cantonese.sheik.co.uk/dictionary/words/18729/"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 81,
+    "sha256": "d4ddc7a5648daec05dbfbe14ed231509e03e50a09c7f861a857a3d1985ddfffd",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留车辆续期通知、车主资料到期付款核对、牌费验车费预留、网上缴款后下载正式收据及车辆文件归档。以显眼但拿不到的手册和满相簿旧车照构成画面。",
+    "reading_sources": [
+      {
+        "term": "文件夾",
+        "reading": "man4 gin6 gaap3",
+        "url": "https://www.cantonese.sheik.co.uk/dictionary/words/50207/"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 82,
+    "sha256": "b7e036db6ebfc4d3c9f3b0904a9ce8cd4b07399f6fb03bc680bce9d97286d1dd",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留探亲租车日租、保险墊底費、油费停车费、取还时间、额外驾驶者安排及全程的士成本比较。不涉及跨境驾驶或给出具体租车条款。",
+    "reading_sources": [
+      {
+        "term": "墊底費",
+        "reading": "zin3 dai2 fai3",
+        "url": "https://www.yellowbridge.com/chinese/dictionary.php?cache=262333&word=%E5%A2%8A%E5%BA%95%E8%B2%BB"
+      },
+      {
+        "term": "墊底",
+        "reading": "zin3 dai2",
+        "url": "https://www.cantonese.sheik.co.uk/dictionary/characters/1671/?full=true"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 83,
+    "sha256": "5b6515d8aff09f0fed47b607c83cb4a69b85405f907fb9ccba4c2de3e468ac2d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；将原文长者“出诊”改为覆诊，保留两位长者路程候车收费记录、复康巴士资格及申请核实、时间支出比较与按行程选择。未把长者身份直接当作获服务资格。",
+    "reading_sources": [
+      {
+        "term": "簷篷",
+        "reading": "sim4 pung4",
+        "url": "https://www.cantonese.sheik.co.uk/dictionary/characters/2808/"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 84,
+    "sha256": "bcb4c667084a4ae067f698b97fc7cb138b684da2bee0309828f3848f3b7c4545",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留月票路线有效期补领、实际次数与单程票价比较、确认抵用再续买及避免惯性多付。设为澳门家长与外地求学女儿讨论当地月票，不捏造澳门统一公共交通月票制度。",
+    "reading_sources": [
+      {
+        "term": "蝕",
+        "reading": "sit6",
+        "url": "https://en.wiktionary.org/wiki/%E8%9D%95"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 85,
+    "sha256": "63938dcb37aaf9b6c773073b92f3053dc1e7a187ece48f856c70f20aaf2b1a5a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留加价生效、车位合约、取消通知期及远场额外交通时间；摺车为折叠自行车。",
+    "reading_sources": [
+      {
+        "word": "摺／轆",
+        "jyutping": "zip3 / luk1",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.chars.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 86,
+    "sha256": "89fba2b7983ced25286ac15bea6c908d2d6871317ac15d2de160c65f51bafda9",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留新司机二手车、车价/牌费/维修/保险、验车及首年成本，不因低月供立即签约。",
+    "reading_sources": [
+      {
+        "word": "匙",
+        "jyutping": "si4",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.chars.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 87,
+    "sha256": "fbfcc67bf21875038a402f1048fa47db4ae2d737e72ddb2808d60e1c4e102f70",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留分批交通、公共交通收班/泊费、共乘、订车及分摊分工、活动后对数避免重付。",
+    "reading_sources": [
+      {
+        "word": "泊車／臨別",
+        "jyutping": "paak3 ce1 / lam4 bit6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 88,
+    "sha256": "00237880427479780d91a09ea08992a440d990b2b54a1eade88ee441657af604",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留基本费/电价/转让条款、每月里数、公共充电站比价及全年试算，不将邻居选择当作全家合适。",
+    "reading_sources": [
+      {
+        "word": "行車／里數／週末／會計師／雪條",
+        "jyutping": "hang4 ce1 / lei5 sou3 / zau1 mut6 / wui6 gai3 si1 / syut3 tiu2",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 89,
+    "sha256": "13125fcc03d8a9412b04f387b81fd3b7f70e207d25c45ea32e132ff356470527",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留三年零件/验车/拖车支出、换车首期/保险差额、未来两年交通试算及家庭商量；情节选择换车。",
+    "reading_sources": [
+      {
+        "word": "攬枕",
+        "jyutping": "laam2 zam2",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 90,
+    "sha256": "384ac056ecb33cba5126afb2ebba87a75b53e801cb13302e198f570794ca8e03",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留每季按日期分类银行/保险/租约收据、有锁柜正本、扫描副本清晰命名与家人查最新版本。",
+    "reading_sources": [
+      {
+        "word": "掃描",
+        "jyutping": "sou3 miu4",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 91,
+    "sha256": "d19c1a66840376eda2fe9e064f2fb02037966765ae59024d202a4587e472083c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐卡主審並核對語義、讀音、全文譯文；保留收据褪色、按年扫描、供款/保费/维修核对、加密备份、重要正本及存放位置；不明字项查记录而非估填。",
+    "reading_sources": [
+      {
+        "word": "縫紉／宵夜／加密／掃描",
+        "jyutping": "fung4 jan6 / siu1 je2 / gaa1 mat6 / sou3 miu4",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 92,
+    "sha256": "67cee835327c2d97290df24b5bd54e3af2b314939dc87051e564cea3fcf5a864",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留銀行文件縮寫、官方電話核實產品與結餘日期，以及標籤不記敏感資料主題；車牌誤會連接廚房苦瓜場景。",
+    "reading_sources": [
+      {
+        "word": "媽咪／櫃桶／泊車／縮寫／結餘／身份證",
+        "jyutping": "maa1 mi4 / gwai6 tung2 / paak3 ce1 / suk1 se2 / git3 jyu4 / san1 fan6 zing3 (also san1 fan2 zing3)",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 93,
+    "sha256": "6c35dac60340ca408db2cc3170bdfdea76344f7b11b5452e2f539e9f37998e3f",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留妹妹代父母記帳、收據與月表分存、逐筆註明代付，以及借款與生活費區分；月底共同核對後以杏仁餅玩笑收尾。",
+    "reading_sources": [
+      {
+        "word": "得戚／芝麻／杏仁",
+        "jyutping": "dak1 cik1 / zi1 maa4 / hang6 jan4",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_09.json",
+    "index": 94,
+    "sha256": "ca25ea50d967ec70d6143a32b4aa362b730c80e336e5eea4d5f65751a9490a59",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留家庭援助申請、入息及住址與家庭關係憑證、影印本用途和日期、回條同夾跟進；以受傷哥哥及媽媽不願申請的心情串起情節。",
+    "reading_sources": [
+      {
+        "word": "援助／攬實／資料／回條／快勞夾",
+        "jyutping": "wun4 zo6 / laam2 sat6 / zi1 liu2 / wui4 tiu4 / faai1 lou2 gaap2",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
   }
 ]
