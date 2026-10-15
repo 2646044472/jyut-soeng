@@ -19,7 +19,7 @@ JYUTPING_TOKEN = re.compile(r"[a-z]+[1-6]")
 ALLOWED_JYUTPING_SEPARATORS = re.compile(r"[,，.。:：;；?!？！、「」『』“”\"'\s]")
 STORY_TIP_PREFIX = "故事练习："
 LANGUAGE_REVIEW_PATH = ROOT / "STORY_LANGUAGE_REVIEW.json"
-REVIEW_GOAL = 10_000
+REVIEW_GOAL = 5_000
 
 
 def row_digest(row: dict) -> str:
