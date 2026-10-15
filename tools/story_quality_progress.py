@@ -19,6 +19,7 @@ JYUTPING_TOKEN = re.compile(r"[a-z]+[1-6]")
 ALLOWED_JYUTPING_SEPARATORS = re.compile(r"[,，.。:：;；?!？！、「」『』“”\"'\s]")
 STORY_TIP_PREFIX = "故事练习："
 LANGUAGE_REVIEW_PATH = ROOT / "STORY_LANGUAGE_REVIEW.json"
+REVIEW_GOAL = 10_000
 
 
 def row_digest(row: dict) -> str:
@@ -114,7 +115,8 @@ def render_report() -> tuple[str, int, int]:
         raise ValueError("Language review references missing source rows")
     sections.extend((
         "", f"**Overall mechanical pass: {passing}/{total}.**", "",
-        f"**Recorded main-agent language review and mechanical pass: {reviewed}/{total}; remaining: {total - reviewed}.**", "",
+        f"**Goal (main-agent language review): {min(reviewed, REVIEW_GOAL)}/{REVIEW_GOAL}; remaining to goal: {max(0, REVIEW_GOAL - reviewed)}.**", "",
+        f"**Corpus language review: {reviewed}/{total}; source rows without a valid review: {total - reviewed}.**", "",
         "Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.", "",
     ))
     return "\n".join(sections), passing, total

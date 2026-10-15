@@ -23,7 +23,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_family_finance_services_106.json` | 0/1 | 1 |
 | `content/sentence_bank/long_family_finance_services_107.json` | 0/1 | 1 |
 | `content/sentence_bank/long_family_finance_services_108.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_11.json` | 45/100 | 55 |
+| `content/sentence_bank/long_family_finance_services_11.json` | 95/100 | 5 |
 | `content/sentence_bank/long_family_finance_services_12.json` | 0/70 | 70 |
 | `content/sentence_bank/long_family_finance_services_13.json` | 0/2 | 2 |
 | `content/sentence_bank/long_family_finance_services_14.json` | 0/1 | 1 |
@@ -700,8 +700,10 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/z_curated_sentences_98-home-and-city_bank.json` | 0/10 | 10 |
 | `content/z_curated_sentences_99-community-and-service_bank.json` | 0/10 | 10 |
 
-**Overall mechanical pass: 1070/15053.**
+**Overall mechanical pass: 1120/15053.**
 
-**Recorded main-agent language review and mechanical pass: 1045/15053; remaining: 14008.**
+**Goal (main-agent language review): 1095/10000; remaining to goal: 8905.**
+
+**Corpus language review: 1095/15053; source rows without a valid review: 13958.**
 
 Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.
