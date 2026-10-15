@@ -14731,5 +14731,803 @@
         "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
       }
     ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 95,
+    "sha256": "7ab945557e459867b8b5d3e17d3556b3657ce91c1bc481c57e03d211488f4c08",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "圍繞按摩椅免息分期，加入試坐意外、費用核對和家庭預算對照，以荷包被按摩椅嚇親作結；口語用字已修順，逐字核對正文與粵拼，266 字對 266 音節。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 96,
+    "sha256": "4a3229b9f217d625b8de73e76131962e41317a277841fc6fc68e228f5735349b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留為父母買雪櫃、門口廚房及開門空間、舊機回收安裝保養、付款前樓梯費完整報價；用未釣到的大魚和實際日用容量作人物笑點，逐字核對271字與粵拼音節。",
+    "reading_sources": [
+      {
+        "term": "雪櫃",
+        "reading": "syut3 gwai6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:39740",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "冰格",
+        "reading": "bing1 gaak3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:1873",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "樓梯",
+        "reading": "lau4 tai1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:26437",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 97,
+    "sha256": "d59d2f91a634af725b7160e8039a326164c19e41b3373df88358f37b2536a375",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留女兒學電子琴、先問學校租借、入門與教材保養成本、試學確認興趣後教育預算付款；借用屬故事內學校安排，未聲稱各校均有，長者生日歌作練習動機。",
+    "reading_sources": [
+      {
+        "term": "租借",
+        "reading": "zou1 ze3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:47438",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "教材",
+        "reading": "gaau3 coi4",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:13385",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "興趣",
+        "reading": "hing3 ceoi3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:19101",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "嘟長條嘴",
+        "reading": "dyut1 coeng4 tiu4 zeoi2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:77429",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 98,
+    "sha256": "747a0c08c55a9189661477b06fdbbcca450216512a0cb4d058df2b778b6cc746",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留屋苑團購空調減價、型號安裝保養退款條件、管理處核供應商資格、完整書面報價及鄰居共同決定；場地存在不等於條件已核，個別住戶不被強迫湊單。",
+    "reading_sources": [
+      {
+        "term": "退款",
+        "reading": "teoi3 fun2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:40548",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "資格",
+        "reading": "zi1 gaak3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:45262",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "書面",
+        "reading": "syu1 min2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:39440",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 99,
+    "sha256": "94313a3482336d33ff3b558c5e0fb2b077b913c985c9a8500c91ebc7029c1b10",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留全年家庭用品套裝、逐項核對數量保存期限與退換、對比實際需要和單買價以免囤貨；退換限制寫作店內具體條款，不泛稱所有商品均不可退，另以買餸車異響作人物笑點。",
+    "reading_sources": [
+      {
+        "term": "套裝",
+        "reading": "tou3 zong1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:41477",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "退換",
+        "reading": "teoi3 wun6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:40573",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "保存",
+        "reading": "bou2 cyun4",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:2391",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "吱",
+        "reading": "zi1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.chars.dict.yaml:32370",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "車轆",
+        "reading": "ce1 luk1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:4097",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "囤",
+        "reading": "tyun4",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.chars.dict.yaml:29344",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 0,
+    "sha256": "95cc94381022899438f9515db38c2115653122f45be9437679762ee7a28e9eec",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "已逐字核對正文與粤拼，保留近三月收入供款、必要／延後支出及急用儲備；以雨水浸濕書本引出先修急漏窗、延後其他課程，紙燈塔牌作收尾。太太、窗簾、燈塔等讀音已查證。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "窗簾 coeng1 lim4（亦列 lim2）",
+          "燈塔 dang1 taap3",
+          "乾脆 gon1 ceoi3",
+          "鬆動 sung1 dung6",
+          "必需 bit1 seoi1",
+          "儲備 cyu5 bei6",
+          "供款 gung1 fun2"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 1,
+    "sha256": "153c1647fd9a1e69b83055ea0f3572d5bb112f0375372be6d511d0cd84889df9",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留續保比較保障額、墊底費、不保事項、慢性病覆診與住院津貼及等候期；向公司問清舊單可調整範圍後保留舊單，只加合適附加保障。墊底沿用Rime詞條zin3 dai2，原卡din3另見異讀，按詞條證據採主讀。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "梳化 so1 faa2",
+          "毛冷 mou4 laang1",
+          "墊底 zin3 dai2",
+          "圍巾 wai4 gan1",
+          "膝頭 sat1 tau4",
+          "着數 zoek6 sou3",
+          "續保 zuk6 bou2",
+          "覆診 fuk1 can2"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 2,
+    "sha256": "7e6b438dd09cc002f333606441664353fc2fa0142b25edf650276059ee0de29d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "已逐字核對粤拼；明確阿哥在香港做自由攝影，按日期收入整理並問會計師申報地區、扣項和期限，補付款證明缺頁後加密存檔。強積金屬其香港工作背景，沒有寫成澳門普遍制度。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "攝影 sip3 jing2",
+          "曲奇 kuk1 kei4",
+          "欄位 laan4 wai2",
+          "強積金 koeng5 zik1 gam1",
+          "供款 gung1 fun2",
+          "記錄 gei3 luk6",
+          "會計師 wui6 gai3 si1",
+          "聯絡 lyun4 lok3（亦列 lok6）",
+          "加密 gaa1 mat6",
+          "相機 soeng2 gei1"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.chars.dict.yaml",
+        "entries": [
+          "矇 mung4"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 3,
+    "sha256": "b917552af0e50cbe89c445399687b3d750e1a03381e923361b7c4d42fd60bdcd",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "已核對正文粤拼，騙徒索短訊驗證碼及叫人保密的情節由外婆自行掛線、改用查得的官方電話，分行確認後存號碼；保留戲班紅花及假大臣笑點。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "皇后 wong4 hau6",
+          "道具 dou6 geoi6",
+          "街坊 gaai1 fong1",
+          "索性 sok3 sing3",
+          "排練 paai4 lin6",
+          "大臣 daai6 san4",
+          "侍衛 si6 wai6",
+          "查證 caa4 zing3",
+          "可疑 ho2 ji4",
+          "聯絡 lyun4 lok3"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.chars.dict.yaml",
+        "entries": [
+          "奸 gaan1",
+          "臣 san4",
+          "揮 fai1",
+          "扇 sin3",
+          "跪 gwai6"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 4,
+    "sha256": "44b80a17714a1a79393639d7f0e5ce632ea19a38e2f4c3056b124cd841310900",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "按揭安排已核對收入下跌、利率、剩餘年期、提早還款費、每月供款和總利息；夫婦帶回資料核家庭支出，暫維持原方案並下月按實際收入再檢視，風箏線對白收束親子情節。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "晏晝 aan3 zau3",
+          "風箏 fung1 zang1",
+          "縮短 suk1 dyun2",
+          "供樓 gung1 lau2",
+          "供款 gung1 fun2",
+          "利率 lei6 leot6（亦列 leot2）",
+          "利息 lei6 sik1",
+          "剩返 zing6 faan1",
+          "並排 bing6 paai4",
+          "長遠 coeng4 jyun5",
+          "維持 wai4 ci4",
+          "檢視 gim2 si6"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 5,
+    "sha256": "f92cb3808664a647a4ce4ac964240d464f5fa500394675ea45bddd390ecfd22b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "從零重寫：爸爸翻舊文件發現受益人及聯絡地址未更新，先向保險公司核對表格、證明及確認通知，家人錯拿舊水電單後找到住址證明，交表並核實回覆；逐字核對粤拼與完整普通話釋義。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 6,
+    "sha256": "b41d67420b0264f914bf7375f3f691c288287ad1fb3f0b773e9e66610ff1e047",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "表妹阿晴先核实奖学金到账及学生贷款利率、宽限期与担保人要求，再只借首年实际缺口，暑假兼职存钱并记录还款日；避免把个案条件写成普遍保证。逐字核对读音及完整简体释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 7,
+    "sha256": "26bf5e61a1defd119d3fcef0c4fa36d86e113381c63ef6a987c79aee4c969a40",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Rewritten from scratch as a single story arc; draft only pending main-agent review."
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 8,
+    "sha256": "04f9d140e9896b0ecbdd80cbd8c0cb41f5c539d719738c15f8d5a04b8aeb516e",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "从零改写独立故事弧线；仅供主审前复核，逐字粤拼按正文音节编写。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 9,
+    "sha256": "77a76f7ae0e89a416975dfc5e85449093d3bece6dca7912f6c12875a1a544a7c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "以生日買餸時發現新工入帳少為引子，逐項對聘書、糧單和更表，確認四晚夜更津貼漏項；書面問人事核對打卡、取得更正單與下期入帳後存檔，人物動機和時間線清楚。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 10,
+    "sha256": "39d1aff482a5426e3bf0da98a94e825153dd04213a9298860ebc3380c39e3e45",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "以公公參加街坊追思會後主動安排身後事為起點，核實援助資格、比較棺木靈堂接送雜費和取消改期條款，只付可退小額訂金，大部分積蓄由本人保留；沒有假定補助必然獲批。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 11,
+    "sha256": "5e19cee12415837c2d08a5c11c6de54fa0ec49b8aeca33de5614eb8fe6a22a08",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "从头创作的按揭到期情节；临时稿待主审复核，粤拼按正文逐字写录。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 12,
+    "sha256": "e2678764913c8ea1705fc0611aa4a64b1fa4a7927197e3d184a16b683a7af208",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "从头创作的小学生游戏创作日故事；临时稿待主审复核，粤拼按正文逐字写录。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 13,
+    "sha256": "61513073af9c77d770c8576a9f8fab423703be7890f07c451f48716e8df6cd8a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "從頭創作的维修店急單故事；Rime詞典核實「跳掣」讀tiu3 zai3（/tmp/rime-jyut6ping3.words.dict.yaml:40971），其餘讀音及句字對齊逐項覆核；按旺淡季现金流比较租购后先借邻铺仪器，暂缓设备融资。",
+    "reading_sources": [
+      {
+        "term": "跳掣",
+        "jyutping": "tiu3 zai3",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:40971"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 14,
+    "sha256": "e64eefdeb30c6b0877ae44621c575f3b327c6fe14d7f524ae2aeb5bd7700ee6e",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "从头创作的自由工作者凭证故事；临时稿待主审复核，粤拼按正文逐字写录。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 15,
+    "sha256": "68ec76860035be6b65a2b596114df0c635d43d3cd65e31895dd000ad06a85e07",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "已從零重寫；逐字核對計劃名稱、僱主供款、來源不明款項與暫停轉移流程，明確向官方平台客服求證，只提交無爭議部分並約半年後複核。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 16,
+    "sha256": "93c61669991eaa6949780d54b6a5337dc8d9cbd218bdda9c09500e2835598cd5",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "全新场景围绕假冒津贴代办与账户保护；完成后须主审逐字核粤拼和声调再登记。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 17,
+    "sha256": "3b0840de0afcaaf83467cd50efa3f85967937b696168f38906d0a83b0dc20a76",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "已從頭重寫；逐字核對姓名拼法差異、銀行代碼、匯率中轉費及小額試匯流程，節日前預留生活藥費並保留收據；「跳」作提醒但沒有未查即付款。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 18,
+    "sha256": "e345a1fe1cc546783f98c4dcfc4a39071dc789596dbec9d58d8c43458ebe76e1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐字校正口语、简繁释义与粤拼；待登记。",
+    "reading_sources": [
+      "/tmp/rime-jyut6ping3.words.dict.yaml:39831 (太太 taai3 taai2)",
+      "/tmp/rime-jyut6ping3.words.dict.yaml:24681 (舅父 kau5 fu2)",
+      "/tmp/rime-jyut6ping3.words.dict.yaml:43675 (債務 zaai3 mou6)",
+      "/tmp/rime-jyut6ping3.words.dict.yaml:46740 (招數 ziu1 sou3)"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 19,
+    "sha256": "621620c68fe3cb837cd910d6e46fcdf98768d80465c0f44ddb106a9256851df8",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审将书面腔句式改为澳门口语，并逐字核对粤拼声调；待登记。",
+    "reading_sources": [
+      "/tmp/rime-jyut6ping3.words.dict.yaml:44398 (贈品 zang6 ban2)",
+      "/tmp/rime-jyut6ping3.words.dict.yaml:47758 (續集 zuk6 zaap6)",
+      "/tmp/rime-jyut6ping3.words.dict.yaml:68217 (升降機 sing1 gong3 gei1)",
+      "/tmp/rime-jyut6ping3.words.dict.yaml:69481 (投影機 tau4 jing2 gei1)"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 20,
+    "sha256": "0fd92e1686fd712438f8fd1cf4bc7a97ff01b530f45fa802ac064e439ed45d4d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审改为澳门口语，并逐字校正粤拼；反复核对太太和「擠」的读音后待登记。",
+    "reading_sources": [
+      "/tmp/rime-jyut6ping3.words.dict.yaml:39831 (太太 taai3 taai2)",
+      "/tmp/rime-jyut6ping3.words.dict.yaml:44036 (擠壓中「擠」zai1)"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 21,
+    "sha256": "26c1690058768a19914d93c39314c56b91c69d9279ae1e3bce5771340768ff99",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审改为澳门口语，核对课程、储蓄、弟弟鼓励桥段及逐字粤拼；待登记。",
+    "reading_sources": [
+      "/tmp/rime-jyut6ping3.words.dict.yaml:40171 (提款 tai4 fun2)",
+      "/tmp/rime-jyut6ping3.words.dict.yaml:43288 (護理 wu6 lei5)",
+      "/tmp/rime-jyut6ping3.words.dict.yaml:13415 (教育 gaau3 juk6)",
+      "/tmp/rime-jyut6ping3.words.dict.yaml:4109 (車票 ce1 piu3)"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 22,
+    "sha256": "b9f7677370887e3e03630ab1c7957c19c36339f376e3db3d06ce44c9b9780a13",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审修改：将书面表达调整为澳门粤语口语并手工校准粤拼；简体释义覆盖全文。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 23,
+    "sha256": "4e5f08184e5e86168334c5e23120b41003b3c24ef2d254717672292d42b3bdb0",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审修改医疗开支、住院证明等表达，转为澳门粤语口语并手工逐字校准粤拼。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 24,
+    "sha256": "c66ba3e66daa11a61d3fe9ea4599888b22a4dad6a8749f5d760cef50034f1e49",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审修改书面表达与信用卡业务员情节，调整为澳门粤语口语并手工逐字校准粤拼。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 25,
+    "sha256": "0534cefe73139c719dca347f4fa48d081b08a9da31dc30c902ee85c5b26bc36c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 26,
+    "sha256": "e54dd133c8827d33bea8d2c20a5dfd4712b414ce9648e6267731c92365197ee1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 27,
+    "sha256": "f08c9144866a894ad1b8626aac50b021da997b9de9e4cf858b29bada48fb6ff9",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 28,
+    "sha256": "545ae906940dd0d37b3c01b1b8d114cbfceff712eb8b92ab659be05ba78cc0df",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 29,
+    "sha256": "ff853e320a7c9bf991f221d54d1301aacbbcdd2008409a60026f4c90e2452b15",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 30,
+    "sha256": "e63130fa51790be528d75580aec7366c1c06f3ce93915169dbd1125b9fb9d240",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 31,
+    "sha256": "64d712268c91f3623e6dcc7a217f32f3c7aa43949868d0e4f69a9e48aa567e43",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 32,
+    "sha256": "fa70fc0c8f251bf70d7078858473420e601b268ba164425a0c39b05297540536",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 33,
+    "sha256": "350c8ba0d374a84063de274249e958030e22ad6bbc508522ddac1b67a41675ea",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 34,
+    "sha256": "018b0bbd5cbbf022c1dab8e31d07b4d783bfc2c7859afc394153a87e6c46c9fe",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 35,
+    "sha256": "2c482d93c80e9e5938054fa27b0c1f7ad5072b69702eaf42da1468c0461093db",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读并按需修订：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 36,
+    "sha256": "dc39c4eb8ab480c71bc3e0c605dd764ecb479c3cf3acd7b4ab42918482f3e7bb",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读并按需修订：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 37,
+    "sha256": "875cf253e2e0cb464e196182ad3b49b31b0c401978412ce9b9bc0df424467185",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读并按需修订：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 38,
+    "sha256": "585672b1d5473ed652485ac7fdd3e24adb58ac07698f7b3c26aad4247b901758",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读并按需修订：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 39,
+    "sha256": "f87ec58915ce5498dc767c93c244c975c917184c0bf15868ea912c8a32eb8781",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读并按需修订：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 40,
+    "sha256": "662e4536f26134d9d9ad28772bbc506429c1be819fc961661516bdfdd95336b0",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读并按需修订：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 41,
+    "sha256": "eae3cfc981ae1bdc995b0ffffa49a446fa573b61d38589c6656a2e14c514d8d8",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读并按需修订：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 42,
+    "sha256": "279cf320280017384a39076954a6aa180c7bd793bceb70c0512aa83a4eaed76d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读并按需修订：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 43,
+    "sha256": "2d7d09bef4e197990e890f0ff20d3329dcdcd40698f5b08a58429b507d0189e4",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读并按需修订：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_11.json",
+    "index": 44,
+    "sha256": "5dd42df0f58c6b9617d331fe93c140ee57d0056affbeefd61f96343c0f941187",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句审读并按需修订：情节、澳门粤语口语、粤拼声调、简体释义和个性化复述提示均已核对。"
   }
 ]
