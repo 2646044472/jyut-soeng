@@ -360,11 +360,16 @@ internal fun selectDailySentenceEntries(
 ): List<CalibrationEntry> {
     if (entries.isEmpty() || limit <= 0) return emptyList()
 
-    val ordered = entries.sortedBy { it.id }
-    val start = ((Math.floorMod(epochDay, ordered.size.toLong()) * limit) % ordered.size).toInt()
-    return List(minOf(limit, ordered.size)) { offset ->
-        ordered[(start + offset) % ordered.size]
+    fun dailyWindow(pool: List<CalibrationEntry>, count: Int): List<CalibrationEntry> {
+        if (pool.isEmpty() || count <= 0) return emptyList()
+        val ordered = pool.sortedBy { it.id }
+        val start = ((Math.floorMod(epochDay, ordered.size.toLong()) * count) % ordered.size).toInt()
+        return List(minOf(count, ordered.size)) { offset ->
+            ordered[(start + offset) % ordered.size]
+        }
     }
+    val reviewed = dailyWindow(entries.filter { it.storyReviewed }, limit)
+    return reviewed + dailyWindow(entries.filterNot { it.storyReviewed }, limit - reviewed.size)
 }
 
 @HiltViewModel

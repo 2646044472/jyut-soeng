@@ -1,5 +1,6 @@
 package dev.local.yuecal.ui
 
+import android.content.ClipData
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
@@ -492,7 +493,7 @@ internal fun SentenceLearningScreen(
             Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 Text("句子学习", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                 Text(
-                    "先看粤拼和粤语原句，再按自己的节奏逐句学习；到期句子可以另外复习。",
+                    "优先学习已升级的故事句。先看粤拼和粤语原句，再按自己的节奏逐句学习；到期句子可以另外复习。",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -1065,6 +1066,7 @@ private fun installDownloadedApk(context: android.content.Context, apkFile: File
     context.startActivity(
         Intent(Intent.ACTION_VIEW).apply {
             setDataAndType(apkUri, "application/vnd.android.package-archive")
+            clipData = ClipData.newRawUri("粤常安装包", apkUri)
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         },

@@ -270,11 +270,22 @@ class CalibratorRepository @Inject constructor(
         val updateRoot = File(context.cacheDir, "app-update")
         resetDirectory(updateRoot)
         val apkFile = File(updateRoot, "yuet-soeng-${release.version}.apk")
+        val pendingFile = File(updateRoot, "yuet-soeng-${release.version}.part.apk")
         downloadToFile(
             url = release.apkDownloadUrl,
-            target = apkFile,
+            target = pendingFile,
             accept = "application/vnd.android.package-archive",
         )
+        @Suppress("DEPRECATION")
+        val packageInfo = context.packageManager.getPackageArchiveInfo(pendingFile.absolutePath, 0)
+        if (packageInfo == null || packageInfo.packageName != context.packageName) {
+            pendingFile.delete()
+            throw IOException("安装包不完整或无法识别，请重新下载")
+        }
+        if (!pendingFile.renameTo(apkFile)) {
+            pendingFile.delete()
+            throw IOException("无法保存安装包，请重新下载")
+        }
         apkFile
     }
 
@@ -298,6 +309,9 @@ class CalibratorRepository @Inject constructor(
         mode: SessionMode,
         entryType: String? = null,
     ): StudySession = withContext(ioDispatcher) {
+        if (entryType == "sentence" && mode == SessionMode.Learn) {
+            ensureBuiltinImported()
+        }
         val settings = settingsStore.snapshot()
         val today = todayEpochDay()
         val sentenceDailyProgress = if (entryType == "sentence" && mode == SessionMode.Learn) {
@@ -377,7 +391,7 @@ class CalibratorRepository @Inject constructor(
                 .distinctBy { it.id }
                 .shuffled(Random(System.nanoTime()))
         }
-        val randomizedEntries = chosenEntries.shuffled(Random(System.nanoTime()))
+        val randomizedEntries = orderSessionEntries(chosenEntries, mode, entryType)
         val candidatePool = entryDao.getAllEntries()
         val questions = randomizedEntries.map { entry ->
             val currentProgress = progressDao.getProgress(entry.id)?.toDomain()
@@ -677,6 +691,7 @@ class CalibratorRepository @Inject constructor(
         createdAt = createdAt,
         updatedAt = updatedAt,
         isActive = true,
+        storyReviewed = entryType == "sentence" && storyReviewed,
     )
 
     private fun EntryWithProgress.toModel(): CalibrationEntry {
@@ -699,6 +714,7 @@ class CalibratorRepository @Inject constructor(
             audioAsset = entry.audioAsset,
             sourceLabel = entry.sourceLabel,
             statusLabel = progressModel.statusLabel(today),
+            storyReviewed = entry.storyReviewed,
         )
     }
 
@@ -737,13 +753,22 @@ class CalibratorRepository @Inject constructor(
             setRequestProperty("Accept", accept)
             setRequestProperty("User-Agent", "CantoCalibrator/0.1.0")
         }
-        if (connection.responseCode !in 200..299) {
-            throw IOException("HTTP ${connection.responseCode} while fetching $url")
-        }
-        connection.inputStream.use { input ->
-            target.outputStream().use { output ->
-                input.copyTo(output)
+        try {
+            if (connection.responseCode !in 200..299) {
+                throw IOException("HTTP ${connection.responseCode} while fetching $url")
             }
+            val expectedLength = connection.contentLengthLong
+            val copied = connection.inputStream.use { input ->
+                target.outputStream().use { output -> input.copyTo(output) }
+            }
+            if (copied == 0L || (expectedLength >= 0L && copied != expectedLength)) {
+                throw IOException("下载文件不完整，请重新下载")
+            }
+        } catch (error: Exception) {
+            target.delete()
+            throw error
+        } finally {
+            connection.disconnect()
         }
     }
 

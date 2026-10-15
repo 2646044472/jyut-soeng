@@ -21,6 +21,7 @@ data class CalibrationEntry(
     val audioAsset: String?,
     val sourceLabel: String,
     val statusLabel: String,
+    val storyReviewed: Boolean = false,
 )
 
 data class EntryProgress(

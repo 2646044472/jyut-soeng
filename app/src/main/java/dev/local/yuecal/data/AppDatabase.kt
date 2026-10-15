@@ -1,6 +1,7 @@
 package dev.local.yuecal.data
 
 import androidx.room.Dao
+import androidx.room.ColumnInfo
 import androidx.room.Database
 import androidx.room.Embedded
 import androidx.room.Entity
@@ -44,6 +45,7 @@ data class CalibrationEntryEntity(
     val createdAt: Long,
     val updatedAt: Long,
     val isActive: Boolean,
+    @ColumnInfo(defaultValue = "0") val storyReviewed: Boolean = false,
 )
 
 @Entity(tableName = "review_progress")
@@ -224,10 +226,13 @@ interface EntryDao {
         WHERE e.isActive = 1
           AND e.entryType = :entryType
           AND p.entryId IS NULL
-        ORDER BY CASE
-            WHEN e.category IN ('正音重点词', '高频回应', '高频连接', '判断表达') THEN 0
+        ORDER BY CASE WHEN :entryType = 'sentence' AND e.storyReviewed = 1 THEN 0 ELSE 1 END ASC,
+        CASE
+            WHEN :entryType != 'sentence' AND e.category IN ('正音重点词', '高频回应', '高频连接', '判断表达') THEN 0
             ELSE 1
-        END ASC, RANDOM()
+        END ASC,
+        CASE WHEN :entryType = 'sentence' THEN e.sortOrder ELSE 0 END ASC,
+        RANDOM()
         LIMIT :limit
         """,
     )
@@ -400,7 +405,7 @@ interface SessionDao {
 
 @Database(
     entities = [CalibrationEntryEntity::class, ReviewProgressEntity::class, StudyAttemptEntity::class],
-    version = 4,
+    version = 5,
     exportSchema = false,
 )
 abstract class AppDatabase : RoomDatabase() {
@@ -416,6 +421,14 @@ val MIGRATION_3_4 = object : Migration(3, 4) {
             ALTER TABLE calibration_entries
             ADD COLUMN isActive INTEGER NOT NULL DEFAULT 1
             """.trimIndent(),
+        )
+    }
+}
+
+val MIGRATION_4_5 = object : Migration(4, 5) {
+    override fun migrate(database: SupportSQLiteDatabase) {
+        database.execSQL(
+            "ALTER TABLE calibration_entries ADD COLUMN storyReviewed INTEGER NOT NULL DEFAULT 0",
         )
     }
 }

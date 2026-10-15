@@ -37,7 +37,7 @@ jobs:
 
       - name: Validate bundled content
         run: |
-          python3 tools/build_assets.py
+          python3 tools/build_assets.py --reviewed-stories-only
           if [ "$GITHUB_REF_NAME" = "v0.22.0" ]; then
             python3 tools/validate_content.py --min-sentences 1110
           elif [ "$GITHUB_REF_NAME" = "v0.23.0" ]; then

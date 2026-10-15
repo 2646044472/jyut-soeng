@@ -21,6 +21,7 @@
 - 正误反馈带音效
 - `例句`阅读模式：每天轮换一组较完整的日常粤语复合句，默认显示粤语原句和 Jyutping，中文意思与使用场景按需展开；设备有粤语语音时可点击播放
 - 独立的`句子学习`页面：默认每天学习 50 句，可在`我的`页面调整目标；学习时先看逐字对齐的粤拼和汉字，按需展开释义，点击下一句继续
+- 今日句子学习优先安排已通过主审的升级故事卡；已学记录保留，新故事学完后再补入旧句子
 - 本地 JSON 内容导入
 - GitHub 内容更新入口
 - 应用内检查新版 APK，并可直接拉起系统安装覆盖更新
@@ -80,6 +81,10 @@ python3 tools/build_assets.py
 python3 tools/validate_content.py
 python3 tools/export_github_pack.py
 ```
+
+故事升级尚未全库完成时，可先运行 `python3 tools/build_assets.py --reviewed-stories-only`。
+它按 `STORY_LANGUAGE_REVIEW.json` 的审校维度、源行哈希及内容验收检查标记已升级故事；未主审句子保留上次内置版本，不打包工作区草稿。
+App 根据该标记优先选择未学过的故事卡，原有词语、表达和复习排程保持原来的选题方式。
 
 导出的 GitHub 内容包目录：
 

@@ -7,6 +7,24 @@ import org.junit.Test
 class SentenceReaderSelectorTest {
 
     @Test
+    fun dailyExamplesRotateThroughReviewedStoriesBeforeLegacySentences() {
+        val reviewed = (1..5).map { entry("reviewed-$it").copy(storyReviewed = true) }
+        val legacy = (1..20).map { entry("legacy-$it") }
+        val selected = selectDailySentenceEntries(legacy + reviewed, epochDay = 2, limit = 4)
+        assertEquals(4, selected.size)
+        assertEquals(true, selected.all { it.storyReviewed })
+        assertEquals(selected, selectDailySentenceEntries((reviewed + legacy).shuffled(), 2, 4))
+    }
+
+    @Test
+    fun fillsRemainingSlotsWithLegacyOnlyAfterAllReviewedStories() {
+        val entries = listOf(entry("old-1"), entry("reviewed").copy(storyReviewed = true), entry("old-2"))
+        val selected = selectDailySentenceEntries(entries, epochDay = 0, limit = 8)
+        assertEquals(listOf("reviewed", "old-1", "old-2"), selected.map { it.id })
+        assertEquals(emptyList<CalibrationEntry>(), selectDailySentenceEntries(entries, 0, 0))
+    }
+
+    @Test
     fun selectsAStableDailyWindow() {
         val entries = (1..12).map { entry("sentence-%02d".format(it)) }
 
