@@ -119,7 +119,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_food_shopping_05.json` | 100/100 | 0 |
 | `content/sentence_bank/long_food_shopping_06.json` | 100/100 | 0 |
 | `content/sentence_bank/long_food_shopping_07.json` | 100/100 | 0 |
-| `content/sentence_bank/long_food_shopping_08.json` | 34/100 | 66 |
+| `content/sentence_bank/long_food_shopping_08.json` | 37/100 | 63 |
 | `content/sentence_bank/long_food_shopping_09.json` | 0/100 | 100 |
 | `content/sentence_bank/long_food_shopping_10.json` | 0/100 | 100 |
 | `content/sentence_bank/long_food_shopping_11.json` | 0/100 | 100 |
@@ -700,10 +700,10 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/z_curated_sentences_98-home-and-city_bank.json` | 0/10 | 10 |
 | `content/z_curated_sentences_99-community-and-service_bank.json` | 0/10 | 10 |
 
-**Overall mechanical pass: 2021/15053.**
+**Overall mechanical pass: 2024/15053.**
 
-**Goal (main-agent language review): 2001/10000; remaining to goal: 7999.**
+**Goal (main-agent language review): 2004/10000; remaining to goal: 7996.**
 
-**Corpus language review: 2001/15053; source rows without a valid review: 13052.**
+**Corpus language review: 2004/15053; source rows without a valid review: 13049.**
 
 Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.
