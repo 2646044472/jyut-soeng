@@ -24,31 +24,31 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_family_finance_services_107.json` | 0/1 | 1 |
 | `content/sentence_bank/long_family_finance_services_108.json` | 0/1 | 1 |
 | `content/sentence_bank/long_family_finance_services_11.json` | 100/100 | 0 |
-| `content/sentence_bank/long_family_finance_services_12.json` | 45/70 | 25 |
-| `content/sentence_bank/long_family_finance_services_13.json` | 0/2 | 2 |
-| `content/sentence_bank/long_family_finance_services_14.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_15.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_16.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_17.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_18.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_19.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_20.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_21.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_22.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_23.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_24.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_25.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_26.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_27.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_28.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_29.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_30.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_31.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_32.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_33.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_34.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_35.json` | 0/1 | 1 |
-| `content/sentence_bank/long_family_finance_services_36.json` | 0/1 | 1 |
+| `content/sentence_bank/long_family_finance_services_12.json` | 70/70 | 0 |
+| `content/sentence_bank/long_family_finance_services_13.json` | 2/2 | 0 |
+| `content/sentence_bank/long_family_finance_services_14.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_15.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_16.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_17.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_18.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_19.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_20.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_21.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_22.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_23.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_24.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_25.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_26.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_27.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_28.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_29.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_30.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_31.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_32.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_33.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_34.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_35.json` | 1/1 | 0 |
+| `content/sentence_bank/long_family_finance_services_36.json` | 1/1 | 0 |
 | `content/sentence_bank/long_family_finance_services_37.json` | 0/1 | 1 |
 | `content/sentence_bank/long_family_finance_services_38.json` | 0/1 | 1 |
 | `content/sentence_bank/long_family_finance_services_39.json` | 0/1 | 1 |
@@ -700,10 +700,10 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/z_curated_sentences_98-home-and-city_bank.json` | 0/10 | 10 |
 | `content/z_curated_sentences_99-community-and-service_bank.json` | 0/10 | 10 |
 
-**Overall mechanical pass: 1170/15053.**
+**Overall mechanical pass: 1220/15053.**
 
-**Goal (main-agent language review): 1145/10000; remaining to goal: 8855.**
+**Goal (main-agent language review): 1195/10000; remaining to goal: 8805.**
 
-**Corpus language review: 1145/15053; source rows without a valid review: 13908.**
+**Corpus language review: 1195/15053; source rows without a valid review: 13858.**
 
 Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.
