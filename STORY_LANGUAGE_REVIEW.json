@@ -6571,13 +6571,22 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_03.json",
     "index": 38,
-    "sha256": "6f4661c6b905e69961d6627e20e87f853428de8af755083c7a19284f286260de",
+    "sha256": "bab634302c96f2ca7e4e8742fb8484565077f781fbb50d3d4e6205570b492e6d",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "成年女兒接手管理保單、更新扣款和提醒；直接對白凸顯母女交接，內容完整。"
+    "notes": "成年女兒接手管理保單、更新扣款和提醒；直接對白凸顯母女交接，內容完整。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
+    "reading_sources": [
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
+      }
+    ]
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -6642,8 +6651,17 @@
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "sha256": "c36fc00b1e2b6b0afbb4474e99663dd4d83a4740eecac503fdf54ce08e42f101",
-    "notes": "爸爸退休前後核對醫療保單空檔、等候期和自付額；舊卡夾覆診紙作收尾笑點。"
+    "sha256": "b96ace41ef2a43725d6a8f8631b809cc9136609ecd78a6b1afd4e422c546362d",
+    "notes": "爸爸退休前後核對醫療保單空檔、等候期和自付額；舊卡夾覆診紙作收尾笑點。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
+    "reading_sources": [
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
+      }
+    ]
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -6827,18 +6845,25 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_03.json",
     "index": 63,
-    "sha256": "dc49c4df6d8b51d8b9f012403eedf18b820d703abde0e687d47b8181a6cc49f9",
+    "sha256": "3a25b7b7f03e4271f6e35e8edf364add9a0f2c3d40da1981f8456231b884a8b9",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "長者津貼詐騙廣告差點騙走外婆資料；官方網站、清單及服務專線幫她安全提交申請。補正「存摺」和「點樣」讀音音節。 副本读音按 Rime 核实并更正为 fu3 bun2。",
+    "notes": "長者津貼詐騙廣告差點騙走外婆資料；官方網站、清單及服務專線幫她安全提交申請。補正「存摺」和「點樣」讀音音節。 副本读音按 Rime 核实并更正为 fu3 bun2。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
     "reading_sources": [
       {
         "word": "副本",
         "jyutping": "fu3 bun2",
         "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      },
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
       }
     ]
   },
@@ -8862,18 +8887,25 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_05.json",
     "index": 82,
-    "sha256": "f1ca68fec5ab337be82b6871b438bd9dfe8fe948aa3e41b703261aee5acb5fdb",
+    "sha256": "5ef6be15aca7ba5cc244397bd1c343ef04d0450585eac9648ba875e6447c1589",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "公公誤把資產資料想成要替餅罐硬幣估價，社工解釋後本人簽署、孫兒只代放文件；保留了餅罐笑位。核對資產 zi1 caan2、餅罐 beng2 gun3、硬幣 ngaang6 bai6。正文 289 字，粵拼逐字對齊。 副本读音按 Rime 核实并更正为 fu3 bun2。 粵拼內引語引號已移除，保留句中語調標點。",
+    "notes": "公公誤把資產資料想成要替餅罐硬幣估價，社工解釋後本人簽署、孫兒只代放文件；保留了餅罐笑位。核對資產 zi1 caan2、餅罐 beng2 gun3、硬幣 ngaang6 bai6。正文 289 字，粵拼逐字對齊。 副本读音按 Rime 核实并更正为 fu3 bun2。 粵拼內引語引號已移除，保留句中語調標點。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
     "reading_sources": [
       {
         "word": "副本",
         "jyutping": "fu3 bun2",
         "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      },
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
       }
     ]
   },
@@ -9244,13 +9276,22 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_06.json",
     "index": 66,
-    "sha256": "66a009b3c378729a275efed8937dbf7ba61f187554764d119f836184ec76a1ca",
+    "sha256": "8d0dfbf69cb0f818ddf7a0266ee3d5e1955aea1a69c0587d31286d0f33e2c7e2",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "保留退休金年度調整後重算家庭支出、增幅不足時商討子女支援及避免欠費；鞋踭與笑口紙作前後呼應。主审将不自然的笑口纸改为笑面贴纸。"
+    "notes": "保留退休金年度調整後重算家庭支出、增幅不足時商討子女支援及避免欠費；鞋踭與笑口紙作前後呼應。主审将不自然的笑口纸改为笑面贴纸。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
+    "reading_sources": [
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
+      }
+    ]
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_06.json",
@@ -9566,15 +9607,22 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_06.json",
     "index": 93,
-    "sha256": "4f5bedf52cbf51fbdce39acf456d135d5d75cbc5d64383dfc4200eadfb2b290d",
+    "sha256": "7e4d013c9377b842ed2cd70fc671cb597f3d2b156036d54bd7440e919b9d3cc9",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "手写草稿；保留父母供养申报、子女协调、资格与分配查询及避免重复主题。月历转折强调照顾记录，不把探访直接当作扣减资格。待主 agent 逐卡语言审读。主审修正妈妈读音。核对資料 zi1 liu2。",
+    "notes": "手写草稿；保留父母供养申报、子女协调、资格与分配查询及避免重复主题。月历转折强调照顾记录，不把探访直接当作扣减资格。待主 agent 逐卡语言审读。主审修正妈妈读音。核对資料 zi1 liu2。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
     "reading_sources": [
-      "https://words.hk/zidin/資料"
+      "https://words.hk/zidin/資料",
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
+      }
     ]
   },
   {
@@ -10039,13 +10087,22 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_07.json",
     "index": 80,
-    "sha256": "e9bc46df5962846c1647a8e3b28d252fe9e86cb406ec6f12a4067bc5afcae6c9",
+    "sha256": "8f64e622ec466176e010abddbd1a11d6e71f0b626822652c22ea824fe4376f70",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "逐段手寫；讀書貸款前估算畢業後收入、租金與生活費，查明還款開始及入職銜接，讀清條款才定額。 主审补上女儿对未来租屋的直接对白。"
+    "notes": "逐段手寫；讀書貸款前估算畢業後收入、租金與生活費，查明還款開始及入職銜接，讀清條款才定額。 主审补上女儿对未来租屋的直接对白。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
+    "reading_sources": [
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
+      }
+    ]
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_07.json",
@@ -10113,13 +10170,22 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_07.json",
     "index": 85,
-    "sha256": "3c4151ac66173f373b74e4608533eade9e4819de55ce7b3892f8603c311f23e4",
+    "sha256": "7abe89c1015d49be119ed9ea72a3a3d3d622a3ff91c84cde91544bfb30808753",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "逐段手寫；保留父母半年生活費置於可隨時提取戶口、短期閒置部分做定期、續存前覆核醫療支出及利率。 主审将较书面的「捂住面」改为自然的「掩住面」，粤拼为 jim2 zyu6 min6。"
+    "notes": "逐段手寫；保留父母半年生活費置於可隨時提取戶口、短期閒置部分做定期、續存前覆核醫療支出及利率。 主审将较书面的「捂住面」改为自然的「掩住面」，粤拼为 jim2 zyu6 min6。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
+    "reading_sources": [
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
+      }
+    ]
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_07.json",
@@ -10962,13 +11028,22 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_09.json",
     "index": 20,
-    "sha256": "ac2dffa9d37d73436cf79181fd4308208aef0b20954ec99c2ac11043e6947cf3",
+    "sha256": "cc78b300085f1bacd4d3e54576cae3208dd8d41ef97539674e0ab9a731f1cb8a",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "保留家庭收入變動、公屋租金調整、成員與計算期核對、官方查詢及確認後更新預算；不用未查證的地區專屬部門名稱或自設租金計算公式。"
+    "notes": "保留家庭收入變動、公屋租金調整、成員與計算期核對、官方查詢及確認後更新預算；不用未查證的地區專屬部門名稱或自設租金計算公式。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
+    "reading_sources": [
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
+      }
+    ]
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -10991,13 +11066,22 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_09.json",
     "index": 22,
-    "sha256": "4386f2ce89995f0e5b017ce442fbf461fd4619aad057e38442ef7f202882ffff",
+    "sha256": "0037f3c6cfcc63f88f6c816b95f347c4618dc9cb175588aac729c3ee38df5382",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "保留公屋租金戶口、期限核對、固定轉帳、每月官方收據及生活費餘額確認；讓長者主動要求可核實憑證，不把設定成功等同永遠付款完成。"
+    "notes": "保留公屋租金戶口、期限核對、固定轉帳、每月官方收據及生活費餘額確認；讓長者主動要求可核實憑證，不把設定成功等同永遠付款完成。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
+    "reading_sources": [
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
+      }
+    ]
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11754,18 +11838,25 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_09.json",
     "index": 68,
-    "sha256": "d85959179142e07b32ec739c530de72bcdead9d8f4cc26798fb76ebc024d81cc",
+    "sha256": "2b85c6cb25c0dbb82ee65e4931c188f6f67dacd7f1ef2eb2180d49565101461d",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "逐段手寫；獎學金期限、續領條件、支付範圍及正式收費表核對均保留，未批續領不先計收入。已逐句主审并复核语义、语音和译文；读音查证：獎學金 zoeng2 hok6 gam1、資助 zi1 zo6。",
+    "notes": "逐段手寫；獎學金期限、續領條件、支付範圍及正式收費表核對均保留，未批續領不先計收入。已逐句主审并复核语义、语音和译文；读音查证：獎學金 zoeng2 hok6 gam1、資助 zi1 zo6。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
     "reading_sources": [
       {
         "word": "獎學金／資助／餘下",
         "jyutping": "zoeng2 hok6 gam1 / zi1 zo6 / jyu4 haa6",
         "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      },
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
       }
     ]
   },
@@ -12409,13 +12500,13 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_10.json",
     "index": 0,
-    "sha256": "340cbc122f03d2c8c1a1487047d50576c025ea25c651e24cf4fd47a5201dca02",
+    "sha256": "701987f14211c8483831616040ce5fbc1bb16a5816c7d8d29ad777f64ad627e0",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "保留帳單難以按期償還、列收入必要支出與欠款、非牟利輔導、可行還款次序；不承諾減免或即時解決，也不將不可持續新借款用作掩蓋舊債。",
+    "notes": "保留帳單難以按期償還、列收入必要支出與欠款、非牟利輔導、可行還款次序；不承諾減免或即時解決，也不將不可持續新借款用作掩蓋舊債。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
     "reading_sources": [
       {
         "term": "輔導",
@@ -12429,6 +12520,13 @@
         "reading": "ze1 jim2",
         "source": "https://github.com/CanCLID/rime-cantonese-upstream",
         "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:44764",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
         "version": "2026.08.10"
       }
     ]
@@ -12477,13 +12575,13 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_10.json",
     "index": 2,
-    "sha256": "ed3e6d3a5f618ae8d8fcfe492a8b2dfa512a8deba66fa6f54953f11bd2403947",
+    "sha256": "29317165ecdf6833cdbdaffb4896c33165e35c30adcf0f31f38cf44c77646cdc",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "保留收入突減信用卡結欠增加、官方查利率逾期費及支援、非必要消費暫停、按實際能力安排及定期覆查；未將可申請支援等同已批准，保留必要生活費。 按返嗰間修正語意為受僱返工；記錄在此作名詞，讀 gei2 luk6。",
+    "notes": "保留收入突減信用卡結欠增加、官方查利率逾期費及支援、非必要消費暫停、按實際能力安排及定期覆查；未將可申請支援等同已批准，保留必要生活費。 按返嗰間修正語意為受僱返工；記錄在此作名詞，讀 gei2 luk6。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
     "reading_sources": [
       {
         "term": "利率",
@@ -12504,6 +12602,13 @@
         "reading": "gei2 luk6",
         "source": "https://github.com/CanCLID/rime-cantonese-upstream",
         "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml; noun/record entry",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
         "version": "2026.08.10"
       }
     ]
@@ -13191,13 +13296,13 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_10.json",
     "index": 29,
-    "sha256": "8ed044dc8026cece7d204e9842f70318f0865fffb92c102c29e976561798064e",
+    "sha256": "fb76301824df0eb0ed903cd56fdd2e8167497a3952890f0d3be2a7d2159a085f",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "手写草稿；保留淡季收入下检查租订货平台费用、商议分批补货、保留工资运营金和家庭生活费界线。租金及服务调整写为具体商议结果。待主 agent 审读。",
+    "notes": "手写草稿；保留淡季收入下检查租订货平台费用、商议分批补货、保留工资运营金和家庭生活费界线。租金及服务调整写为具体商议结果。待主 agent 审读。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
     "reading_sources": [
       {
         "term": "供應商",
@@ -13208,6 +13313,13 @@
         "term": "打烊",
         "reading": "daa2 joeng2",
         "url": "https://en.wiktionary.org/wiki/%E6%89%93%E7%83%8A"
+      },
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
       }
     ]
   },
@@ -13564,6 +13676,1059 @@
         "entries": [
           "樽 zeon1"
         ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 45,
+    "sha256": "394b5004c9d42a304ce99e5797ee28a831ce555c2291e1d13e47b8efac1d9f24",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留父母借空房予姪女、水電上網清潔費商議、試住每月實際費用及雙方同意才定家用；以父親姪女即敘事者堂妹維持親屬關係，不把增加帳單全部歸於借住者。 主審按Rime櫃檯讀音修正toi2，將有疑問的擺返正改為讀音明確的擺返好；粵拼不標中文引號。",
+    "reading_sources": [
+      {
+        "term": "分擔",
+        "reading": "fan1 daam1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:10794",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "家用",
+        "reading": "gaa1 jung6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:12528",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 46,
+    "sha256": "1f6c0a00b7614f399359a5f92d2ebdfd9046541205b31484a6f23638b462af4b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留合買大型家電、送貨安裝延保總成本、放置與維修責任、付款前各人分攤及發票主要保管人；標價與完整報價差異推動選擇，不預設延保必須購買。 主審確認冷氣、風扇、圈等讀音並移除粵拼中的中文引號符號，保留對白聲調與音節對齊。",
+    "reading_sources": [
+      {
+        "term": "保養",
+        "reading": "bou2 joeng5",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:2426",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "發票",
+        "reading": "faat3 piu3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:10663",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 47,
+    "sha256": "e0364fda1f836ab88595078d2394c5546f16e52b873e73423013445683b653a6",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留親戚輪流購父母用品、共享品牌價錢補貨日、月底固定項目及實付額平衡；不把探訪次數或提袋大小等同金錢分擔。 主審核對洗潔精、前後腳、垃圾袋等本地詞音，並將中文引號從逐字粵拼移除。",
+    "reading_sources": [
+      {
+        "term": "品牌",
+        "reading": "ban2 paai4",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:1091",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "分攤",
+        "reading": "fan1 taan1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:10895",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 48,
+    "sha256": "9ffd5d34f7f791a26ce7b7db64873f3e52d2723d029598dcc41910226e259e37",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留兄弟姊妹共用父母度假屋、預約日曆、清潔水電分攤、入住檢查與收據上載、年末核對使用日數調整；費用按約定共同確認，不把到訪次數當日數。 主審核對度假、預約、吊床等逐字讀音，並從粵拼移除中文引號以保留逐字對齊。",
+    "reading_sources": [
+      {
+        "term": "度假",
+        "reading": "dou6 gaa3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:9641",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "預約",
+        "reading": "jyu6 joek3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:23975",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 49,
+    "sha256": "45fdc20689b09efca1ed324ce14fde83703293dabd90ef8cd135e77481a8db50",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留姐弟合買父母洗衣機、日常使用與單一維修聯絡、保養票單保存及零件報價共同確認；不預設保養期內所有費用自動免費。 主審逐字核對零件、涵蓋、晾衫等讀音並移除粵拼中的中文引號；保養條款寫成逐項確認，沒有推定免費。",
+    "reading_sources": [
+      {
+        "term": "零件",
+        "reading": "ling4 gin6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:27127",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "報價",
+        "reading": "bou3 gaa3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:2540",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 50,
+    "sha256": "0042a7f1fff08b605270a8ed2a4ef611b0b8d4477c35cc787cd975b629e07b71",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留退休金全額提現習慣、管理膳食交通固定支出、每週生活費及帳戶醫療家庭備用額；由長者共同決定提款與生活費，不將家人安排變成逐次限制其消費。 主審核對膳食、提取、覆診等讀音，並將粵拼中的中文引號移除；保留長者自行安排每週生活費。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
+    "reading_sources": [
+      {
+        "term": "膳食",
+        "reading": "sin6 sik6",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:37780",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "提取",
+        "reading": "tai4 ceoi2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:40157",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 51,
+    "sha256": "6ab4f3afb12d18f8a8972a96a32e691236e134edd735a7a3d8bb0e33bbc81120",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留退休津貼利息家庭支援收入、新租金水電照顧費扣除與逐月調整住屋；區分非每月到帳利息，不假定家人口頭承諾或年度收入當月可用，長者自主比較其他方案。 主審核對津貼、利息、收支、捲尺等讀音；簡體釋義將婆婆譯作外婆以保留粵語親屬關係，並移除粵拼引號。",
+    "reading_sources": [
+      {
+        "term": "津貼",
+        "reading": "zeon1 tip3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:45126",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "利息",
+        "reading": "lei6 sik1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:26665",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 52,
+    "sha256": "9f0b12ae2c8ffac7c7f47fc27bf732485d673954dff07315cecffd971fe42cb0",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留退休失去公司交通津貼、查長者優惠與社區接送條件、試行數次後更新交通預算及接送日曆；不聲稱所有長者或所有路程都免費，注意預約與覆診時段適配。 主審核對長者優惠、接駁、津貼等讀音，並移除粵拼引號；翻譯保留優惠需核條件及實際時段限制。",
+    "reading_sources": [
+      {
+        "term": "接送",
+        "reading": "zip3 sung3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:46568",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "津貼",
+        "reading": "zeon1 tip3",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:45126",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 53,
+    "sha256": "0c9d7df36749853148787b72db4a028777f047007b1875fc842949473f8aa6bb",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留退休金入款銀行帳戶年度結單、計息與通知查核、下次到期及管理保費安排；明確銀行存款安排而非把退休基金收益概稱固定利息，未將未到帳款提前使用。 主審將不自然的「退休金入款戶口」改成「退休金存入嗰個銀行戶口」，明確指銀行帳戶，並核對利息、到期讀音與移除粵拼引號。",
+    "reading_sources": [
+      {
+        "term": "利息",
+        "reading": "lei6 sik1",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:26665",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "到期",
+        "reading": "dou3 kei4",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:9603",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 54,
+    "sha256": "6c387fcd270e511a5d23da7ac4366dace79e53a2570b30430a919b3220557f46",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留長者女兒正式代提生活費、銀行授權及身分要求、提款通知、本人定期金額與收據核對；不以交卡代替授權，不假定所有銀行功能相同，長者保留理解與核對權。 主審核對授權、提款等讀音並移除粵拼中文引號；將本人接收通知及定期核對保留在情節中，未假定銀行功能一致。 主審依Rime詞條將「生活」讀音 saang1 wut6 修正為 sang1 wut6。",
+    "reading_sources": [
+      {
+        "term": "授權",
+        "reading": "sau6 kyun4",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:36065",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "提取",
+        "reading": "tai4 ceoi2",
+        "source": "https://github.com/CanCLID/rime-cantonese-upstream",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:40157",
+        "version": "2026.08.10"
+      },
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 55,
+    "sha256": "50053df38deefa37065065a691732cab2019e3a9bf22d34fd1a18b92be34de22",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "待主 agent 逐卡主审；退休夫妻升学资助须先核实自身生活/医疗储备与退休收支，不先承诺固定年额；信封仅为家中记心意的道具，不假设投资产品或回报。 主審核對儲備、顏料、銀碼與信封讀音，移除粵拼中的中文引號；確認故事沒有承諾固定資助額。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "儲備 cyu5 bei6",
+          "顏料 ngaan4 liu2",
+          "銀碼 ngan4 maa5",
+          "信封 seon3 fung1",
+          "太空船 taai3 hung1 syun4"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 56,
+    "sha256": "7974b4eac4e41748fbe3aabab830f4e060eaafe9b7b923add6e974b11e836e21",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "待主 agent 逐卡主审；保留退休收入分日入帐、各项账单到期、先留租金医疗及避免月底现金不足；公公释义为外公，不沿用旧短稿误译爷爷。 主審核對月曆、家書、盆栽、辣椒等讀音，將不自然的「收入入齊」改成「收入到齊」，並移除粵拼引號。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "月曆 jyut6 lik6",
+          "到期 dou3 kei4",
+          "家書 gaa1 syu1",
+          "盆栽 pun4 zoi1",
+          "辣椒 laat6 ziu1"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 57,
+    "sha256": "ccec49342c7fd98baf605172d63efc6ac79a75a1bbfe3e2c2ed6906a5f05425c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "待主 agent 逐卡主审；保留退休计划付款变更、新旧方式/费/生效月、确认收入衔接后更新银行及保存正式通知后实对。 主審查本地詞典：中斷採 zung1 dyun6 詞條（另有口語異讀），核對支票、付款與變更讀音，並移除粵拼引號。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "支票 zi1 piu3",
+          "付款 fu6 fun2",
+          "中斷 zung1 tyun5（词表亦列 zung1 dyun6）",
+          "變更 bin3 gang1（主题用字）"
+        ]
+      },
+      {
+        "term": "中斷",
+        "reading": "zung1 dyun6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:47799",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 58,
+    "sha256": "8ee997ac01649bca59f7252a44ff84b18b3248ec2261963eb9e314e3da4cdcfc",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "待主 agent 逐卡主审；退休父母亲自说需要与优先项、子女按能力固定转帐、年尾同核；明确生活支援不用归还，另借款独立谈清，末句掌声是家人玩笑。 主審核對支援、歸還、鼓班等讀音並移除粵拼引號；核實父母親自說需求、非償還支援與另筆借款的區分。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "支援 zi1 wun4",
+          "歸還 gwai1 waan4",
+          "退休 teoi3 jau1"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 59,
+    "sha256": "cda29855969e6527b2adea83e787a265bc356f931a40ec4269bbb91fbc07a7fe",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "待主 agent 逐卡主审；保留退休旅行行程/保险/单人附费/取消、生活储备不受影响及比较交通休息；用婆婆自主择团与房型，不将退休者写成一概行动不便。 主審核對行程、單人房、附加費、手信及鼻鼾讀音並移除粵拼引號；情節保留長者自行決定行程和房型。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "行程 hang4 cing4",
+          "單人房 daan1 jan4 fong2",
+          "附加 fu6 gaa1",
+          "日出 jat6 ceot1",
+          "山頂 saan1 deng2",
+          "手信 sau2 seon3",
+          "鼻鼾 bei6 hon4"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 60,
+    "sha256": "19421578148f7dbfbe2aed200951f16f8ef08494625876dea056f1b13cff1143",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "待主 agent 逐卡主审；保留合资格路线/上限/收据、出勤车费记录、月底按人事表逐项申报与保存批核电邮；路线与接仔私人行程按故事内公司要求分清。 主審核對出勤、資格、津貼及玻璃讀音並移除粵拼引號；對白點出卡與路線都需核對。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "出勤 ceot1 kan4",
+          "資格 zi1 gaak3",
+          "津貼 zeon1 tip3",
+          "記錄 gei3 luk6",
+          "玻璃 bo1 lei1"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 61,
+    "sha256": "ddca5cf2f5ee0c8e26fd0db4fa61f92558bf6fb6da49f75ac5ba378b3ce74047",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留出差酒店及車費報銷、原始單據、日期行程與付款證明、填表前排除不包餐費。點心單據引出私人聚餐，原始發票差點被丟棄。待主 agent 逐卡主審。 主審核對出差、小籠包、原始發票、缺頁等讀音並移除粵拼中文引號；保留私人餐費不報與發票保存的界線。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "出差 ceot1 caai1",
+          "小籠包 siu2 lung4 baau1",
+          "原始 jyun4 ci2",
+          "發票 faat3 piu3",
+          "缺頁 kyut3 jip6",
+          "垃圾 laap6 saap3"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 62,
+    "sha256": "8961618c1441bfbe2aed7e8d86e2d097c4016d46e91facf6776f689ac771b567",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留公司培訓部分學費報銷、出席要求、考試費另行確認及離職退還條款；完成後交證書收據，僅已批准實額扣家庭教育預算。圖片設計課與家庭照片笑話串聯。待主 agent 逐卡主審。 主審將「報課程定報買機」改為太太詢問公司報銷範圍，避免混淆報名與報銷；核對報銷、課程及電腦讀音並移除粵拼引號。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "出席 ceot1 zik6",
+          "隔籬 gaak3 lei4",
+          "調校 tiu4 gaau3",
+          "退還 teoi3 waan4",
+          "證書 zing3 syu1"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 63,
+    "sha256": "6e7cef9d5fa791b8be821358ef57d068da2b7e5df1660df2f91b846c68674cbc",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "明示津貼屬太太公司自行提供，並非澳門人人生育都有；保留育兒假期間申請、僱主表格、出生證明副本、期限與留底，人事確認後再對糧單及實際銀行入數。待主 agent 逐卡主審。 主審核對育兒、期限、僱主、掃風、乾淨及簽收讀音並移除粵拼引號；明確限於太太公司自行提供。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "太太 taai3 taai2",
+          "津貼 zeon1 tip3",
+          "僱主 gu3 zyu2",
+          "出生 ceot1 sang1",
+          "掃風 sou3 fung1",
+          "乾淨 gon1 zeng6（亦列 gon1 zing6）",
+          "留底 lau4 dai2",
+          "糧單 loeng4 daan1"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 64,
+    "sha256": "b701b11ea66bbd8f46f44c4374144fe9d9359864125d0e971d7a8b7f16f9bcf1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留公司眼鏡津貼年度上限、指定商戶、驗光證明、收據格式與付款後按期提交；未批准金額不計入日常預算。餐牌看錯行與取鏡後的對話前後呼應。待主 agent 逐卡主審。 主審核對眼鏡、津貼、伙記、尷尬與訓導讀音並移除粵拼引號；保持未批金額不先算入預算。",
+    "reading_sources": [
+      {
+        "url": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "entries": [
+          "眼鏡 ngaan5 geng2",
+          "津貼 zeon1 tip3",
+          "伙記 fo2 gei3",
+          "尷尬 gaam3 gaai3",
+          "檸檬 ning4 mung1",
+          "爭論 zang1 leon6",
+          "訓導 fan3 dou6"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 65,
+    "sha256": "a36631d5a8800bda924a1805ca9abea58d2dee147400e434c90ad059e4b47ba3",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；更新家人正式姓名電話、分清緊急聯絡人及受益人、向人事確認保障影響，留收件證明並查系統。查證福利 fuk1 lei6、受益人 sau6 jik1 jan4、保障 bou2 zoeng3。 主審補明手機聯絡名稱改成「記得帶遮」，讓末尾笑話具體照應起句；核對福利、受益人、保障讀音並移除粵拼中文引號。",
+    "reading_sources": [
+      "https://github.com/rime/rime-cantonese/blob/main/jyut6ping3.words.dict.yaml"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 66,
+    "sha256": "e0264e3399c16ec636cae4cc732005f42f618e8a46f3aa2b4ddc2922f0112203",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；醫療報銷因日期不清退件，先問要求，向診所取清晰副本重交，記個案與期限。查證報銷 bou3 siu1、診所 can2 so2、副本 fu3 bun2。 主審核對報銷、診所及副本讀音並移除粵拼引號；保留依紀錄取清晰副本，不自行改寫日期。",
+    "reading_sources": [
+      "https://github.com/rime/rime-cantonese/blob/main/jyut6ping3.words.dict.yaml"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 67,
+    "sha256": "39428dfc501652854d747fbcc9a923f8cb2a44d7291ae96c9aeb277d22c21366",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；教育津貼適用年級課程與次數、學校收據及當年在讀證明、確認批核金額再安排下學期費用。查證津貼 zeon1 tip3、年級 nin4 kap1。 主審核對津貼、申請、年級、滑板、彈起等讀音並移除粵拼引號；未有正式核批前不預扣津貼。",
+    "reading_sources": [
+      "https://github.com/rime/rime-cantonese/blob/main/jyut6ping3.words.dict.yaml"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 68,
+    "sha256": "3e272a59c80617735eeda5d9778a6ae207c90e55d5063b0509a81690f9d26d98",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；轉部門後通勤津貼重報，核實生效與證明、新路線實際成本，留前後糧單核對。查證津貼 zeon1 tip3、生效 sang1 haau6、糧單 loeng4 daan1。 主審核對轉乘、通勤津貼、生效、糧單與豆漿讀音並移除粵拼引號；保留實際車費與兩期文件核對。",
+    "reading_sources": [
+      "https://github.com/rime/rime-cantonese/blob/main/jyut6ping3.words.dict.yaml"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 69,
+    "sha256": "691cc9844dbc6d7e010af14584a746d1e6a97394228e627660197f19184af51a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；退休福利補工作年期紀錄、前僱主證明、姓名日期核對、交副本留追蹤號與定日跟進。查證福利 fuk1 lei6、僱主 gu3 zyu2、副本 fu3 bun2。 主審核對福利、服務紀錄、追蹤及副本讀音並移除粵拼引號；不把送達誤作批核完成。",
+    "reading_sources": [
+      "https://github.com/rime/rime-cantonese/blob/main/jyut6ping3.words.dict.yaml"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 70,
+    "sha256": "0f9df91b1abcb80061abab7dd3223fa14fcdbc3479102bb9ffc4d1ba0252c555",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；雪櫃價錢保養能源標籤、按用法估電費節省、拆舊安裝全成本與是否提早換。查證雪櫃 syut3 gwai6、能源 nang4 jyun4、標籤 biu1 cim1、保養 bou2 joeng5。 主審核對雪櫃、能源、標籤及雪糕盒讀音並移除粵拼引號；比較總成本時把估算與實際電費分開。",
+    "reading_sources": [
+      "https://github.com/rime/rime-cantonese/blob/main/jyut6ping3.words.dict.yaml"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 71,
+    "sha256": "c0799275fd6e2c320c16ed64c4743fae1d8c70c70ec765ae13e4549bee1cfeac",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；隔熱膜分攤施工保養、能源估算及住戶實際經驗，一次與長期成本核實後表決。查證隔熱 gaak3 jit6、施工 si1 gung1、分攤 fan1 taan1、表決 biu2 kyut3。 主審核對隔熱、施工、朝向、節省與合照讀音並移除粵拼引號；鄰居體感只作參考，不推定相同節能。",
+    "reading_sources": [
+      "https://github.com/rime/rime-cantonese/blob/main/jyut6ping3.words.dict.yaml"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 72,
+    "sha256": "22546ea9c8903ec2ca62491ce65a12b7a9accaf8b1b363818c274627f9fcf968",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；乾衣機耗電標示位置與維修保養、原晾架習慣比較及年度新增電費後決定。查證乾衣機 gon1 ji1 gei1、晾衫 long6 saam1、保養 bou2 joeng5。 主審核對乾衣機、耗電、晾衣架、迷宮等讀音並移除粵拼引號；保留按實際使用與年度成本評估。",
+    "reading_sources": [
+      "https://github.com/rime/rime-cantonese/blob/main/jyut6ping3.words.dict.yaml"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 73,
+    "sha256": "6c550d21912ffb6ac66e5431868a9325a598faf093d5a25f7c81f150fe7e2395",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；公共照明工程報價保養分攤，預計節電對一次徵費，再於業主會議查工程範圍。查證照明 ziu3 ming4、分攤 fan1 taan1、徵費 zing1 fai3、節省 zit3 saang2。 主審核對節能燈、管理處、保養、業主會議及徵費讀音並移除粵拼引號；採現場清點與工程明細，不把估算當實際節省。",
+    "reading_sources": [
+      "https://github.com/rime/rime-cantonese/blob/main/jyut6ping3.words.dict.yaml"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 74,
+    "sha256": "8206a9ecffd50aa429ccd2e8d61240ce4e11db38b65d5f33df691e423f751d73",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐段手寫；濾水器設備濾芯水電與每月買水比較，查長期保養可靠才付費安裝。查證濾水器 leoi6 seoi2 hei3、濾芯 leoi6 sam1、保養 bou2 joeng5、薄荷 bok6 ho4。 主審核對濾水器、濾芯、保養、薄荷與預訂讀音並移除粵拼引號；使用每月用水支出及長期耗材比較。",
+    "reading_sources": [
+      "https://github.com/rime/rime-cantonese/blob/main/jyut6ping3.words.dict.yaml"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 75,
+    "sha256": "f78e501d6ceb67211c3d896b19e63c70845b9e357037d857d49b811dfcf83fd6",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留太阳能热水设备施工许可、公用设施限制、工程保险维修责任、三家公司估算及回本年期核对。太阳提前收工为人物笑话，阴天表现如何须向公司查证。待主 agent 审读。 主審核對太陽能、回本與生活讀音（生活 sang1 wut6），移除粵拼引號；陰天估算仍由公司提供依據。",
+    "reading_sources": [
+      {
+        "term": "回本",
+        "reading": "wui4 bun2",
+        "url": "https://words.hk/zidin/%E5%9B%9E%E6%9C%AC"
+      },
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml",
+        "local_evidence": "/tmp/rime-jyut6ping3.words.dict.yaml:35421",
+        "version": "2026.08.10"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 76,
+    "sha256": "cad46e392a0ce3311d95e427e1085bf3e85f4695131e2fb37fcbce05e3310040",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留节能升降机摩打特别费、工程及设备年期、耗电记录、节省数据与贷款安排核对，比较一次付款及分期总额。错误图表为故事中的待核实资料，不提供工程判断或保证节省。待主 agent 审读。 主審核對升降機、摩打、分期、供款讀音並移除粵拼引號；明確要求核對電梯實際用電、設備年期及分期總額。",
+    "reading_sources": [
+      {
+        "term": "摩打",
+        "reading": "mo1 daa2",
+        "url": "https://words.hk/zidin/%E6%91%A9%E6%89%93"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 77,
+    "sha256": "0acfd274f7a4cf24a1d911d311bee7d8d06c692377ac1e856a321f465f2520fd",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留全屋灯泡数量瓦数使用时间记录、品牌保养单价与适用比较、分月更换及家用现金安排。使用口语灯胆，并查证瓦读ngaa5。待主 agent 审读。 主審核對瓦數 ngaa5 sou3、燈膽及聽故仔讀音並移除粵拼引號；更換順序根據實際使用時數。",
+    "reading_sources": [
+      {
+        "term": "瓦",
+        "reading": "ngaa5",
+        "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/pho-rel.php?s1=ng&s2=aa&s3=5"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 78,
+    "sha256": "be5a104b263eb696e9ffb3667e45a5f838a1b21e9cea332db4fd8988ef8cb431",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留家电资助宣传、官方资格型号收据核实、核实前不付款和回收证明保存。将宣传设为未获核实通知，不断言澳门存在特定家电补助或任何人必获资格；购机按全价预算。待主 agent 审读。 主審核對節能、資助、型號、名額及全家福讀音並移除粵拼引號；沒有把未核實宣傳寫作澳門既定補助。",
+    "reading_sources": [
+      {
+        "term": "型號",
+        "reading": "jing4 hou6",
+        "url": "https://cantonese.sheik.co.uk/dictionary/characters/416/?cf=1&full=true"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 79,
+    "sha256": "9d07df14ba210ebe35c060b1b8749c01b6694f990fc7c11b6d03341638d20034",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留夏天空调时数维修记录、清洗保养与换机成本、舒适情况下调温试行及一月后对账。明确核对天气和计费日数，不把单月费用变化全归于设置。待主 agent 审读。 主審核對冷氣、保養、計費日數、春卷與比分讀音並移除粵拼引號；保留按天氣、時數及實際成本判斷。",
+    "reading_sources": [
+      {
+        "term": "電費",
+        "reading": "din6 fai3",
+        "url": "https://www.cantonese.sheik.co.uk/dictionary/words/1023/"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 80,
+    "sha256": "26097434e9dfefb6eb1740301c4e02143c75b2bac45cf586935e95a244cba58a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留生日月家庭年度复核、收入固定账单及大额计划更新、上年预算对实际支出、调整与下一年可达储蓄目标。以信封和真正礼物的两次揭晓形成生活场景。待主 agent 审读。 主審核對保溫杯、相簿、蛋糕、蠟燭、願望讀音並移除粵拼引號；分清生日 saang1 jat6 與生活 sang1 wut6。",
+    "reading_sources": [
+      {
+        "term": "生日",
+        "reading": "saang1 jat6",
+        "url": "https://words.hk/zidin/%E7%94%9F%E6%97%A5"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 81,
+    "sha256": "f858d876187b04cea8ccabd2bf06d51da240983cd3929b26cfe5658236706ab0",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留年尾保险服务会籍日期汇总、按条款取消无人用项目、新费预算及重要付款提醒。明确保险不以未索偿判作无用；会籍采用查证口语变调wui2。待主 agent 审读。 主審核對續約、會籍 wui2 zik6、泳鏡與保障讀音並移除粵拼引號；沒有按未索償推斷保險無用。",
+    "reading_sources": [
+      {
+        "term": "續約",
+        "reading": "zuk6 joek3",
+        "url": "https://words.hk/zidin/%E7%BA%8C%E7%B4%84"
+      },
+      {
+        "term": "會籍",
+        "reading": "wui2 zik6",
+        "url": "https://words.hk/zidin/%E6%9C%83%E7%B1%8D"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 82,
+    "sha256": "d632b9cf48254130649684e90a78227f37ada5cea525e5dc2bbb8dbfdaafa125",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留季度收入银行余额核对、大额转账现金及代付标记、先查凭据通知原因后才修正共享记录。重复的是表中费用而非银行实际付两次。待主 agent 审读。 主審核對結餘、代付、還款、等號讀音並移除粵拼引號；重複記帳與實際銀行付款明確分開。",
+    "reading_sources": [
+      {
+        "term": "結餘",
+        "reading": "git3 jyu4",
+        "url": "https://cantonese.sheik.co.uk/dictionary/characters/3648/?full=true"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 83,
+    "sha256": "927d92314d271cfe9162dc77f887f834ffbaf48a4fd4248560ca9cb3bcecdc7d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留下一年装修学费长者照护费用按月及期限排列、可用储备收入时点比较、必要时向对方确认分阶段付款。未擅改合同付款日或将未确认收入视作可用。待主 agent 审读。 主審核對裝修、儲備、照顧、顏色讀音並移除粵拼引號；沒有把未到帳收入或未確認付款期當成可用。",
+    "reading_sources": [
+      {
+        "term": "儲備",
+        "reading": "cyu5 bei6",
+        "url": "https://www.cantonese.sheik.co.uk/dictionary/words/7849/"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 84,
+    "sha256": "731845822c0a5638c573a6a1a81628951287705c96a55b5883ed9ec24bede97c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "手写草稿；保留年中转工后交通膳食医疗保障重检、新收入固定费用更新后决定储蓄比例，不沿用过时预算。夜更交通及公司安排均为需按实际核实的家庭情境。待主 agent 审读。 主審核對膳食、生效、生活、路氹讀音並移除粵拼引號；儲蓄比例按更新後的實際收入支出決定。",
+    "reading_sources": [
+      {
+        "term": "膳食",
+        "reading": "sin6 sik6",
+        "url": "https://www.cantonese.sheik.co.uk/dictionary/characters/2977/"
+      },
+      {
+        "term": "生效",
+        "reading": "sang1 haau6",
+        "url": "https://words.hk/zidin/%E7%94%9F%E6%95%88"
+      },
+      {
+        "term": "生活",
+        "reading": "sang1 wut6",
+        "url": "https://www.cantonese.sheik.co.uk/dictionary/words/4616/"
+      },
+      {
+        "term": "路氹",
+        "reading": "lou6 tam5",
+        "url": "https://jyutdictionary.com/dictionary/entry/%E8%B7%AF%E6%B0%B9"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 85,
+    "sha256": "bd05597fb33ec842a445209ba0a5740eb225c1387f2a108e65e9658f3b5c3566",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留退休年度旅行次数、租医险日常先扣、剩余旅游预算及突发储备检视；亲友探访作为愿望排序转折。待主审。 主審補回阿爸的直接問句以滿足故事對白要求，粵拼省略引號並將生活費改正為 sang1 wut6。",
+    "reading_sources": [
+      {
+        "word": "旅行／旅遊／住宿／行程",
+        "jyutping": "leoi5 hang4 / leoi5 jau4 / zyu6 suk1 / hang4 cing4",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 86,
+    "sha256": "9f9a9c2e711771b8d33862dfa3f250db4aa38872119e74489a4aa1b6e12ea4bd",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留一年三年长远阶段、金额负责人、季度会议、收入需求变化重排；公交同时到站比喻具体任务排序。待主审。 主審將交通到站比喻標成阿爸直接對白，粵拼不標引號；核對進修、階段、次序讀音。",
+    "reading_sources": [
+      {
+        "word": "進修／階段／次序",
+        "jyutping": "zeon3 sau1 / gaai1 dyun6 / ci3 zeoi6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 87,
+    "sha256": "c2ab8424a37566fa8ee8cf9e322334c1b638e9dcb369315061f795a8c4ccc9f3",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留连续超支三类分项比较、挑一两项新上限、月底生活影响决定；不把节省建立在忽略基本需要上。待主审。 主審將爸爸的極端第一反應改標直接引語，粵拼省略引號；核對超支、外賣、認領、訂閱讀音。",
+    "reading_sources": [
+      {
+        "word": "超支／外賣／認領／訂閱",
+        "jyutping": "ciu1 zi1 / ngoi6 maai6 / jing6 ling5 / deng6 jyut6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 88,
+    "sha256": "9dd9970e6b0232b1050c982b073a7e2f2d66e03d228e3895e7ba92ff94d5bcd1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留失业维修医疗估算、收入稳定存入、年底目标合理性和取用补回；避免把紧急储备误作永不许用。待主审。 主審把「唔准郁」明確標成文件夾標籤的直接引語，粵拼不含引號，符合逐卡對白要求。",
+    "reading_sources": [
+      {
+        "word": "儲備／交叉／收入",
+        "jyutping": "cyu5 bei6 / gaau1 caa1 / sau1 jap6",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 89,
+    "sha256": "75d08f0fdbbdbab211c8a528f9e0f5906d12d0e74f4704d8f126b40132c6d355",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留年尾银行保险退休更新、明年付款申请期限、未完日历负责人再查；父母本人事项由本人确认办理。待主审。 主審把爸爸來電的狀態更新要求標成直接引語，粵拼省略引號；核對日曆、期限、退休讀音。",
+    "reading_sources": [
+      {
+        "word": "日曆／期限／退休",
+        "jyutping": "jat6 lik6 / kei4 haan6 / teoi3 jau1",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 90,
+    "sha256": "91712f83b55d001a8941438f8843b5479e29a2c98ce998058d4e925dad36a24d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留家具尺寸送装保养、即时分期总成本、紧急储备预算选款；长者扶手与自主起身作为实际使用转折。待主审。 主審核對傢俬、扶手、月供與保養讀音並移除粵拼引號；保留婆婆自主起身及預算不動緊急儲備。",
+    "reading_sources": [
+      {
+        "word": "傢俬／扶手／月供／保養",
+        "jyutping": "gaa1 si1 / fu4 sau2 / jyut6 gung1 / bou2 joeng5",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 91,
+    "sha256": "759e11ae9c8cc83223834c348d424a6f3b293a378033c22bd7deebf4e413533d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留在家工作电脑、公司津贴核实、保养配件维修、现有器材比较及规格付款；不声称彩灯必与性能或价格相关。待主审。 主審核對螢幕、津貼、配件及規格讀音並移除粵拼引號；讓規格由實際辦公用途決定。",
+    "reading_sources": [
+      {
+        "word": "螢幕／津貼／配件／規格",
+        "jyutping": "jing4 mok6 / zeon1 tip3 / pui3 gin6 / kwai1 gaak3",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 92,
+    "sha256": "c8710d40b377a86b7f85e39f853c37f6363766736d1f29eb813ab662ef2a309a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留长高桌床、空间量度、新二手延用成本、有人收货后订及保养；仅按原设计调桌，不描述不安全改装。待主审。 主審將兒子對舊貼紙和回憶的疑問標成直接引語，粵拼不含引號；核對膝頭、二手、落訂、相簿讀音。",
+    "reading_sources": [
+      {
+        "word": "膝頭／二手／落訂／相簿",
+        "jyutping": "sat1 tau4 / ji6 sau2 / lok6 deng6 / soeng2 bou2",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 93,
+    "sha256": "7344d2ab659b20e8b91b43d03842bcbe58e0e4bab728fc2181b1f05240a2b875",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留租数日与购买总费用、一年少用考虑租、省交通住宿避免闲置；拍摄者重新入镜作自然转折。待主审。 主審將太太對手機拍攝的評論標成直接引語，粵拼不含引號；核對相機、摸索、器材、壯觀讀音。",
+    "reading_sources": [
+      {
+        "word": "相機／摸索／器材／壯觀",
+        "jyutping": "soeng2 gei1 / mo2 sok3 / hei3 coi4 / zong3 gun1",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
+      }
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_family_finance_services_10.json",
+    "index": 94,
+    "sha256": "88ead79655fd39766a8289cfb4ef44ab2cb038f95fad6745d09f7a4b797ee9ea",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "保留维修报价、零件保养、新机耗电、三年估算成本、送货回收及修换决定；妈妈用即日折扣催选，家人核对后才决定；旧机搬走时找回失踪多年的恐龙，结尾有亲子笑点。已逐字校对引语对应粤拼。",
+    "reading_sources": [
+      {
+        "word": "零件／回收／恐龍",
+        "jyutping": "ling4 gin6 / wui4 sau1 / hung2 lung4",
+        "source": "https://raw.githubusercontent.com/rime/rime-cantonese/main/jyut6ping3.words.dict.yaml"
       }
     ]
   }
