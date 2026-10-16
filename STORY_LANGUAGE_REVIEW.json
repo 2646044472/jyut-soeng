@@ -28965,5 +28965,591 @@
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
     "notes": "自助餐先核实收费，阿爸误拿咖啡味蛋糕并与阿妹交换；结账前再确认汽水费用，笑点连贯。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_10.json",
+    "index": 91,
+    "sha256": "c731e375b4420f9370a6eff9c8dc8c1ab9dcf00f0c0cde075d7993c0ea50e797",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "罐頭優惠導致漏買蒜頭；補買後煮成意粉，剩餘醬料與下一次檢查清單呼應。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_10.json",
+    "index": 92,
+    "sha256": "6bee7022c988097b8a7c2c1972a4a725514cf441b1f059487edf7adde5438012",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "阿哥心急拿焗薯條燙手，第二盤又烤焦；兩次補救後仍清盤。查證用「點 dim2」表示把食物蘸醬。",
+    "reading_sources": [
+      "https://words.hk/zidin/點"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_10.json",
+    "index": 93,
+    "sha256": "5a1d78035fcd52cdac72235a2bcd3cea6252d7d6696f6c518a4aa0d4b20a90fb",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "豆苗炒兩鑊，一鑊出水、一鑊爽口；親戚投票讓練習版意外勝出，和此前西蘭花昆蟲情節不同。查證親戚 can1 cik1。",
+    "reading_sources": [
+      "https://words.hk/zidin/親"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_10.json",
+    "index": 94,
+    "sha256": "32d9fedee930b31e5cf0e4089810ef536f338281234eb75f4d7e29c46783a89c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "用隔夜飯和魚丸煮粥，鄰居帶醃蘿蔔交換；魚丸浮起準時返工的笑話呼應收尾。修正夜晚與黐底讀音。",
+    "reading_sources": [
+      "https://words.hk/zidin/黐"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_10.json",
+    "index": 95,
+    "sha256": "b8bed8210962b096d898740dfb532930d570904e740391a8cc88a4e00b3ffda0",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "例湯差點翻倒，鄰桌孩子扶碗並提醒同事；叉燒、青菜和謝卡延續陌生人互助。陌生人讀 mak6 saang1 jan4。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_10.json",
+    "index": 96,
+    "sha256": "c9d42eb317d1eb79ebeeab7d77b1646d921cd552056192a913e13fb8581a4059",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "隔夜排骨分盒保存，弟弟把星期六寫成星期日，阿媽提醒按實際日期保存；檢查正文與粵拼236字音節對齊。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_10.json",
+    "index": 97,
+    "sha256": "efed09074b484e74642829f54cc439b36d1edfa7674fc160d4aa9c9724ff1245",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "為花生敏感的表弟核對辣椒醬成分，試辣後分開調味；修正瓶蓋讀音 goi3，正文與粵拼228字音節對齊。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_10.json",
+    "index": 98,
+    "sha256": "1ec285022e25fd8c3bd5ae213bb69a21146fe15bb8384074bc8046ea5b907ede",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "野餐沙律差點倒多橄欖油，出門前切牛油果並把果仁帶回；修正密實袋讀音 doi6，正文與粵拼230字音節對齊。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_10.json",
+    "index": 99,
+    "sha256": "c5106fd01af45b5899cedfc8e4d13a66c299375715db66c4184932b0a99c412a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "平台缺椰菜後改菜單，弟弟先想投訴再主動洗菜；修正紙袋/袋 doi6、覆 fuk1、壓 aat3，刪除多餘 jau5，正文與粵拼242字音節對齊。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 0,
+    "sha256": "6f61db4dfab098562f9ddcc2c09240f15ab375f8d42636c2142d91bf4e7bcce7",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "街市魚檔叫賣聲中找回被蔥遮住的手機，檔主再幫忙揀菜；手機來電自然收尾。袋讀 doi6，與粵拼逐字核對。",
+    "reading_sources": [
+      "https://words.hk/zidin/袋"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 1,
+    "sha256": "91972edc206e2ca5f6d1e86843d9e7a1910b4d200b9ecf26587f323984a310e6",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "米袋標籤被膠帶遮住，差點拿錯糯米；煲仔飯及婆婆電話收尾。修正袋 doi6，正文與粵拼逐字核對。",
+    "reading_sources": [
+      "https://words.hk/zidin/袋"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 2,
+    "sha256": "4a3a587cfc4e58d9657110b52417068a1535d5d5f02abbb504b7c0530bb6f4f1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "本地牛奶新到一樽外形矮胖，女兒在班上介紹並與同學合照；樽 zeon1 讀音已查證。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E6%A8%BD"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 3,
+    "sha256": "4c957408036ad1437115852848431de46f3119ff6ac8dcd18e099262a14f000b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "預算差額由阿姨自種蔥補上；鄰居婆婆回贈自醃酸梅，照顧情節與索引0–2不同。",
+    "reading_sources": []
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 4,
+    "sha256": "fc99bed0d93eb2c159a9119e5056266e4440a85aa14ab59baad691ad7150ca1f",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "牙痛的爸爸吃魚片、喝魚骨湯，弟弟轉而添湯；查證鱸魚 lou4 jyu4、蒸水蛋 zing1 seoi2 daan2，並逐字核對魚類詞音。",
+    "reading_sources": [
+      "https://www.cantonese.sheik.co.uk/dictionary/words/6674/",
+      "https://en.wikipedia.org/wiki/Cantonese_cuisine"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 5,
+    "sha256": "9cc5bd490ba6ec860147b658c402c0511d146d071a21d4f6d1f5764eb07de269",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "为外婆煲雪梨水挑熟度合适的梨，发现一颗有瘀痕后改切粒拌燕麦；字数224，逐字核对粤拼、语气及完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 6,
+    "sha256": "ac58090d59e06ad506877e9f6f3ff4a47fc824085d012a155f35ab7fb0f0b3c4",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "按医生提醒挑无糖豆奶，妈妈嫌淡，转加南瓜浓汤并把纸盒改作香草标签；字数254，逐字核对粤拼、语气及完整释义。豆奶 dau6 naai5 查 words.hk；羅勒 lo4 lak6 查 CantoDict。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E5%A5%B6",
+      "https://www.cantonese.sheik.co.uk/dictionary/words/42872/"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 7,
+    "sha256": "0f91f69fc09d354d9b3227426a6fd9e0414386d81e28f4529e1c6931ed1b71ab",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "雙黃蛋意外為家姐生日蛋糕失手解圍，最後疊成歪斜的生日山；修正「整」zing2，逐字核對粤拼與完整釋義。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 8,
+    "sha256": "642864c9ace04ad574d963a9e16cb608a0c4d0309babe8a0d707a75082b75b50",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "義賣豆腐串遇上大雨，改用煎鑊後售罄；逐字核對粵拼，修正結尾「答應」daap3 jing3。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 9,
+    "sha256": "66e9a07f9191d2ef662b9b2ddba9a57715a63248b11b61d56de936e96ae401d6",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "出門前清點冷凍格、回超市減量採買；飯後發現餃子仍在袋底，成為偷懶的伏筆。正文與粵拼逐字核對。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 10,
+    "sha256": "0c396fb5c8ef09ea0a2275168a0bb22382039896e775f9aec051d66f26b0061d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "雨後分菜予手痛的鄰居婆婆，延伸出街市改位和白灼約定；補上阿婆直接對白並修正「認錯檔口」。逐字核對粵拼。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 11,
+    "sha256": "05d79ed5e7afe9ea783e8e7f66711a2657d61a85ffed9b4e042a55409a0a31ff",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "客家釀豆腐多做一鑊待客，肉餡滑落成試味小插曲；逐字核對正文與粵拼、完整普通話釋義及個性化提示。 已補直接引語並更新台賬雜湊。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 12,
+    "sha256": "dccb966f7d39ca33fc82f733e39d372fd4c1ae01f446063faa4a840f57b8fdf8",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "按不同粗幼浸煮米粉，哥哥混倒新舊貨後補救；查核「一撮」cyut3，逐字核對粵拼、完整普通話釋義及提示。 已補直接引語並更新台賬雜湊。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E6%92%AE"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 13,
+    "sha256": "493b6d3661272770518bd59a2c99001d736ab61b50c71c661b55fab3f4693831",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "分享少甜菠蘿包時弟弟把脆皮跌進茶杯，鄰居婆婆以果醬回禮並邀交換做法；逐字核對粵拼、完整釋義及提示。 已補直接引語並更新台賬雜湊。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 14,
+    "sha256": "85ec42dc6266d98c2ad8e1f6ec45da6e8a3791885dddcb33d629de7a06a65754",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "檔主從橙樹回憶認出阿姨是舊街坊，送小橙並受邀重遊舊街；逐字核對粵拼及完整普通話釋義。 已補直接引語並更新台賬雜湊。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 15,
+    "sha256": "d3cb2bdb3d48aa6bb441c365a5e20c2f679a517cd6d8c8639fdcb372c8819096",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "紅豆浸泡方法引發婆婆與我意見不同，表弟偷飲燙舌成笑點；逐字核對粵拼、完整普通話釋義及提示。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 16,
+    "sha256": "fd851b93393ce75d73463689549391f1d342c83490ff9eb6b5ea127fb39a118a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "比較細罐香料並用不同大小薯仔分鍋煮，兒子第一次下廚受家人稱讚；「咖喱」修正 lei1，逐字核對粵拼與完整釋義。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E5%92%96%E5%96%B1"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 17,
+    "sha256": "01b0a68f68b0eef91d42c66676488b6541a83840c4a56c8cf44bac5dfd10fdfe",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "網購薄荷破袋兼芝麻醬滲漏，客服退款後到街市補買；直接引語並存收貨備註，逐字核對粵拼及完整釋義。 薄荷 bok6 ho4 已查證。",
+    "reading_sources": [
+      "https://www.cantonese.sheik.co.uk/dictionary/words/2842/"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 18,
+    "sha256": "917ea189b83eaedfdf12a6d04abcb5cdd4864ca25c0e381cfbef5797ea9d5d15",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "臨時加菜改買清淡火鍋料，半棵菜滑出雪櫃成為插曲；加入檔員直接建議，逐字核對粵拼及完整釋義。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 19,
+    "sha256": "b054e1b200280a0d9325f3dadbff9b1e0d1ffb53e274e128d9b18bf6bae1be95",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "街坊以自曬陳皮回禮，補上清單漏項；逐字核對粵拼、完整普通話釋義及提示。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 20,
+    "sha256": "3afb9e45e619e912b9904478afb4a2e4daa3f1de298450531a01a825a3138ebb",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核正文、粤拼声调、完整释义与提示；索引 20。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 21,
+    "sha256": "febcfb02517034ea858ae609f9b60ef87f6eebad57f625118f32af9528e7dec3",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核正文、粤拼声调、完整释义与提示；索引 21。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 22,
+    "sha256": "c337037432eb276b4f48097a70741d53a6482acc5e6134d2a943221a31537ff3",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核正文、粤拼声调、完整释义与提示；将「抵」正音为 dai2，核对按重量购买、分装冷冻与煮粥情节。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 23,
+    "sha256": "690c0d62c963047f617c596f3ed4ef74fae9183e71470e78a06ea7acd90ab935",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审复核食物过敏提醒及野餐准备，改顺包装翻侧后的对话与检查过程；重新核对粤拼和完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 24,
+    "sha256": "77d2813da2ac50f034be830b8d41083dd5981798ec36fbc2f3b66fd68677aee5",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核正文、声调与音节对应、完整释义及提示；修正原草稿「挑」的混入文字，并补充自然对话使正文达到长度要求。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 25,
+    "sha256": "9d3ab0161c9f83d3d85389c5d28120b1c41f78a23c16e95a85c07a22b30875fe",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核正文、粤拼声调、完整释义与提示；索引 25。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 26,
+    "sha256": "62ab606d4392f9d052ab6c4667d2173e72f812dc08fe2001d8d41eeeb64f8db2",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核正文、粤拼声调、完整释义与提示；索引 26。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 27,
+    "sha256": "f163201afe63a319e829c708633e37cefadc85f52a8fee6e970c94381403feee",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核正文、粤拼声调、完整释义与提示；索引 27。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 28,
+    "sha256": "645525bd3f594a35d5bbf7659c515170ec40bd8a761a0800405ef1c1aa54a97b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核正文、粤拼声调、完整释义与提示；索引 28。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 29,
+    "sha256": "8f1bf05b4b889b261ce8400a97b5a2a2a10c51cbf57e143f79bd3735728dd0b9",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审核正文、声调、释义及提示；补齐「滴」的粤拼 dik1，并检查橄榄油比较及倒油小插曲。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 30,
+    "sha256": "b5d0ac8393c85ef50a05b64c84bf5d316cae46299f5768a00b4e68ee128f71bd",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核正文、粤拼声调、完整释义与提示；索引 30。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 31,
+    "sha256": "2b25ff91f414932fdc10734406b0c765c92ca8e62ab5073b193332202be5565a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核正文、粤拼声调、完整释义与提示；索引 31。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 32,
+    "sha256": "f7971d41df2f82e087dcf97e7e4c4fe932483ba998afa250418d79301d5f91da",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核故事和粤拼；保留生菜替代、沥水快炒与母亲添粥的自然情节，核对菜市场读音及完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 33,
+    "sha256": "036970060b7ce2d908d0606a1fe42ef7dedeaca6f78a6ea29db794615f116b68",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核家庭聚餐、煤气用尽转折与粤拼；补正「大家都添饭」漏掉的「都」音节。 补全普通话释义，覆盖选鸡、备菜、煤气用完、面包救场和收尾。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 34,
+    "sha256": "9c3bef6cb1c245b9e86e69cd287abb5832c4a860ff33627f1fa178d3aef713b3",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核正文、粤拼声调、完整释义与提示；索引 34。 补全普通话释义，覆盖破损包装、替代蛋面、番茄汤改煮及家人反馈。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 35,
+    "sha256": "6d7b78c66032d4b2f30b577b8dd0987521e4aa7e4edca048663b894fb4cb4b7a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审核正文逻辑、粤拼声调和完整释义；补足自然对话后核对逐音节对应。索引 35。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 36,
+    "sha256": "c8260b222ff8d8263450d112da39c6bb91e7c09a0e0388e2b159ca9ffbf32249",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核急冻虾选购、雪柜门提示与完整释义；补正「平均」漏掉的 jyun1 音节。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 37,
+    "sha256": "59fe5cd5c60861467fa7fc5af79f7c9d24f215550dbd32b6ae312f81d3c7e3f1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核早餐采购故事和声调；移除「第二朝」重复的 ziu1 音节，补入破损鸡蛋对话。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 38,
+    "sha256": "d1be055cd8fc78cda54723c4324b9b4b1bb55b55a75db904d1b0968b352169b2",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审逐句核正文、粤拼声调、完整释义与提示；索引 38。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 39,
+    "sha256": "02f2070add65aeb9ce904af66fb3de038376234b477d5a7b85616ff581f99b74",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审核正文逻辑、粤拼声调和完整释义；补足自然对话后核对逐音节对应。索引 39。"
+  },
+  {
+    "file": "content/sentence_bank/long_food_shopping_11.json",
+    "index": 40,
+    "sha256": "dcdb6a49b711cfbcf54f63a4b7ccc3d142cd5df6b500a90124e1dc56675c201b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "主审将「襟煮」改为明确的「耐煮」，复核豆腐浮台与鱼蛋船队情节、逐字粤拼及完整释义。"
   }
 ]
