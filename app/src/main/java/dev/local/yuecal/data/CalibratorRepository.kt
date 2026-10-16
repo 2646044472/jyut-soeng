@@ -391,7 +391,7 @@ class CalibratorRepository @Inject constructor(
                 .distinctBy { it.id }
                 .shuffled(Random(System.nanoTime()))
         }
-        val randomizedEntries = orderSessionEntries(chosenEntries, mode, entryType)
+        val randomizedEntries = orderSessionEntries(chosenEntries)
         val candidatePool = entryDao.getAllEntries()
         val questions = randomizedEntries.map { entry ->
             val currentProgress = progressDao.getProgress(entry.id)?.toDomain()
