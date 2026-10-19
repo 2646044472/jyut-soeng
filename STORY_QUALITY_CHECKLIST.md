@@ -132,8 +132,8 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_food_shopping_18.json` | 45/50 | 5 |
 | `content/sentence_bank/long_food_shopping_19.json` | 38/38 | 0 |
 | `content/sentence_bank/long_health_services_01.json` | 100/100 | 0 |
-| `content/sentence_bank/long_health_services_02.json` | 65/100 | 35 |
-| `content/sentence_bank/long_health_services_03.json` | 0/100 | 100 |
+| `content/sentence_bank/long_health_services_02.json` | 96/100 | 4 |
+| `content/sentence_bank/long_health_services_03.json` | 25/100 | 75 |
 | `content/sentence_bank/long_health_services_04.json` | 0/100 | 100 |
 | `content/sentence_bank/long_health_services_05.json` | 0/100 | 100 |
 | `content/sentence_bank/long_health_services_06.json` | 0/100 | 100 |
@@ -700,10 +700,10 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/z_curated_sentences_98-home-and-city_bank.json` | 0/10 | 10 |
 | `content/z_curated_sentences_99-community-and-service_bank.json` | 0/10 | 10 |
 
-**Overall mechanical pass: 2980/15053.**
+**Overall mechanical pass: 3036/15053.**
 
-**Goal (main-agent language review): 2960/5000; remaining to goal: 2040.**
+**Goal (main-agent language review): 3016/5000; remaining to goal: 1984.**
 
-**Corpus language review: 2960/15053; source rows without a valid review: 12093.**
+**Corpus language review: 3016/15053; source rows without a valid review: 12037.**
 
 Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.

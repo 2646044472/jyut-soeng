@@ -36797,5 +36797,650 @@
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
     "notes": "照护者小组分享白板安排，补出上午下午接送分栏的具体做法，结尾带回白板方法。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 65,
+    "sha256": "64a3658066b1e1037a0bd911fcfc15ab4c75eecec1c74ac191adf5a49e89e0e0",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "明确家居照顾员陪阿公实际走到信箱收信；雀鸟趣事让老人放松并主动分享旧相簿。白頭翁逐字读音分别核对粵典白、頭、翁条目。",
+    "reading_sources": [
+      "https://words.hk/zidin/白",
+      "https://words.hk/zidin/頭",
+      "https://words.hk/zidin/翁"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 66,
+    "sha256": "980d39c8293b71a97ce51fa9ac2d2fe70b8a9e62eee32ceb300f0f7874ac8c87",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "修改阿公的直接引语；先测试、试戴和记录听漏情况，再观察回家及门口听见叫名的变化。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 67,
+    "sha256": "fbf3f4c1763f854aa78f78ef35bb440cb289bd8cbcda368214c8f5f1d158869e",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "将较不确定的“门槛”粤拼换成透明的“浴室门口”；阿婆说明保留旧垫的理由，再安排固定防滑条及扶手。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 68,
+    "sha256": "fa19af0a64bbf1b0881a6ad311a60dc67a893ac8b1591727487d37a68cf84f40",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "將扶手高度按爸爸伸手情況重測，補上社工電話存檔及螺絲檢查日期；安裝後情節和建議一致。已把量度換成常用說法。",
+    "reading_sources": [
+      "https://zh.wiktionary.org/wiki/欄杆"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 69,
+    "sha256": "1e92ddcd537762477c713169c30046d97a66eb950696364136042e7c3ea6d1ac",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "釐清覆診後趕回公司，不再寫約錯返工時間；存下義工電話，長者忘卡時改用身份證核對。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 70,
+    "sha256": "c086705767b5b9108dadd0da406321613d0bc6c3410261994e9820c19c1ef227",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "把澆水的粵拼改為 giu1（粵典詞條），以園藝展覽前的大風作突發情節，眾人合力扶正盆栽與名牌。",
+    "reading_sources": [
+      "https://zh.wiktionary.org/wiki/澆"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 71,
+    "sha256": "0ba96bc8df620d64543964542ae013f20a6acc2c27ec469d9d706a466162ffc4",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "將阿婆試粥的情節改成直接引語；家人按短訊重新分工，回家核對安排並照顧她休息。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 72,
+    "sha256": "806f06b2a6f29fe993124e4f90f21166efa83f7a308d5b10d035c54cb08dc69d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "加入鄰居直接表達想轉介服務，按居家評估發現門檻、暫貼醒目膠帶和送防滑墊呈現支援過程。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 73,
+    "sha256": "63f1b2c494225d27d0cfebab73d71dd9ed795e38b7ec1d2b10b9cf93ef6670d8",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "補足阿爸第一日入住時的直接提問，家人交代作息和短期暫託安排連貫。核對暫、託、插、唔及嘴字讀音。",
+    "reading_sources": [
+      "https://zh.wiktionary.org/wiki/暫",
+      "https://zh.wiktionary.org/wiki/託",
+      "https://zh.wiktionary.org/wiki/插",
+      "https://zh.wiktionary.org/wiki/唔",
+      "https://zh.wiktionary.org/wiki/嘴"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 74,
+    "sha256": "a8398ad52dbd50c9d58f86bb92c44dc7937a5f07a1ab5f35db9f694bab0089ed",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "修正輪椅的粵拼為 leon4 ji2（維基詞典），避免把改到樓下房間和輪椅升降台寫成矛盾安排；加入指定等候位和阿婆直接引語。",
+    "reading_sources": [
+      "https://zh.wiktionary.org/wiki/輪椅"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 75,
+    "sha256": "64fef8f87a876fa530ed724f65ecf97489dba8ac58a11cf298ae8c5fa1ed392e",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "把不自然的電池乾透改成核對電量，並將阿公的收音機反應寫成直接引語。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 76,
+    "sha256": "5b5d530e40fcdbd9c0c8e37216be4d682a679487f1a492bf393f0192ca937e20",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "修正重复收尾，补上表姐表达会提早说出疲累，姨姨同意；情节从服务参观落到照护者敢于求助。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 77,
+    "sha256": "a8173aff46915d30660e95af6b0d7b3fa4b1c75e39c2679ce05145e19709d641",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "将眼镜找到后的重复教木材情节改成直接引语，核实榆 jyu4、摺縫中縫 fung6、松 cung4 的读音；保留再次探访教木材的呼应。",
+    "reading_sources": [
+      "https://zh.wiktionary.org/wiki/榆",
+      "https://zh.wiktionary.org/wiki/縫",
+      "https://zh.wiktionary.org/wiki/松"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 78,
+    "sha256": "27aaa64d2646c274da8822fef9cd6b3136c57427a75f187c7464dd042d33b5d5",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "补上奶奶对有人陪伴的直接回应，明确封面写的是下次法律咨询日期；将顧問的顧读音核对为 gu3。",
+    "reading_sources": [
+      "https://zh.wiktionary.org/wiki/顧"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 79,
+    "sha256": "e6dbcae74473d383fc7ba1230a313a227bc3324d96bce5cdb82ea6051bba8823",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "把翻身间隔明确为护士按阿婆皮肤、活动能力及睡眠情况安排，合并重复记录，并保留阿婆对软垫和红印变化的回应。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 80,
+    "sha256": "8f6d3505743a273169d37c3b4ad8d757bd968020a46562bcee891d2781bad4de",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "由供氧设备人员负责安装并讲解该型号指引；避免自行拆机或停机，加入呼吸困难/警报未解除时立即求助，以及禁烟远离明火提醒。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 81,
+    "sha256": "743180ddbf8dcb2d78ddd53d7070a86ae686695cc3f8f7c56e033232c17420e1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "記憶評估前阿姨擔心答錯，社工陪同並由家人補充近期狀況但不代答；結尾落在理解下一步與整理近況。核對評估、忘記、鎖匙等讀音。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 82,
+    "sha256": "9abbfc69af3c1a3146aa2acba397d7f1f6aad85b8fac6fa03f0faabb548b0b50",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "覆診前發現外觀相似的藥盒，帶到診所逐種核藥名、服用時間和份量，遵從最新藥袋並把問題列單；核對藥房、覆診、份量、標籤等讀音。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 83,
+    "sha256": "f3d9989cc798c02f72ccbd1f536465156fd0e78de36a6dc8f5d0eccdb1f4891a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "照顧者疲累後安排夜宿試住，先問清巡房與聯絡、尊重外公作息，次晨報平安並決定再試；核對喘息、夜宿、巡房等讀音。 加入外公直接回應，使夜宿試住與人物心情落點更完整。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 84,
+    "sha256": "1bdad3ce429f3c134118c93c3ebc8363b049045db861a1b4267a1c30534f4160",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "婆婆進食時咳，營養師按食譜安排質地評估並示範保留味道的軟身食物，家人記錄反應以便跟進；核對吞嚥、營養師、質地等讀音。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 85,
+    "sha256": "22b01b74319f3d0e7d3ca293f4c56be9f4ffe5f35cd8adf9570967ed7a61628c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "津貼續期發現欠住址文件，職員教網上補交並確認收件，結尾記錄續期日期；核對津貼、住址、帳戶、上載等讀音。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 86,
+    "sha256": "95e24dd5becbbabb0d0ae6684a9b307d61e44468e29898e042ab15d9812a1411",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "以既定跌倒應變計劃處理阿公跣坐：先詢問不適、聯絡社工、確認後陪同慢慢起身；刪去重複笑位並釐清鄰居接到電話後到場。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 87,
+    "sha256": "d90a502b26e8fa903d568a93ae7b875b82931cf35ad93def3529fdd4388e1ff3",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "核對輪椅借用及教學主題；把過斜坡與停車/轉移鎖掣清楚分開，先在平地練習再由器材站職員陪同。核對輪椅 leon4 ji2、斜坡 ceoi4 po1、手掣 sau2 zai3。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 88,
+    "sha256": "197cec3488d1d254897d089bec77ed74281ff548a45dee53768703eb79857664",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "沐浴服務先尊重婆婆選擇並說明步驟，取得點頭才開始；避開痕處並記下交護士跟進。將「在」改為口語「喺」以符合 hai2 讀音。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 89,
+    "sha256": "a70ab15ee9f668f641934cafbf650361c68d7275580b96ad060dabc6fda918a1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "電話問候延續源卡的聽力和粵曲，義工重複日期、婆婆確認後才收線；加入由家人先問而不代答的互動。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 90,
+    "sha256": "d89031899a3a5ef3fe731bd42ce08b885dd54091bf8cabe7044a3bd2cebdbeb4",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "互助小組從害羞旁聽發展到分享照顧困難，其他成員先聽再交換方法，結尾安排後續聯絡；將「在」改為「喺」以符合 hai2。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 91,
+    "sha256": "08faaedde65a796b3b839d570de7e1446be67d0e03e8ffa8a4e82524e948d57f",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "按記憶支援服務主題寫出走錯路後的陪伴方式、支援隊上門整理路線及識別卡；提醒家人不催促並讓阿媽自行指路。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 92,
+    "sha256": "eea86a75a2c68751447f6ee5877b16fba30ebd68b553b47ff0b8c5b5c5996838",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "按風雨支援主題寫風球前收花盆、檢查窗鎖及備妥物資；夜間聽到聲響時留在室內並聯絡熱線。核對焗 guk6（粵典）。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 93,
+    "sha256": "601869e4083e5f5908d1698c8418df8998a13ef31add366bffc41a772ae0a1ed",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "按復康交通津貼源意寫櫃位逐欄解釋與補件清單，不指定未經源卡確認的津貼文件要求；刪除重複收尾並校正日期的逐字粵拼。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 94,
+    "sha256": "86378a11a13e2c2adf6d637414c0b35fd91df3f01628788bc85c76ac018edb3a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "按照顧計劃檢討主題協調阿公精神時間和家人新班次，確認新時段後記錄並約定檢討日期；避免模糊未引介的服務人員。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_02.json",
+    "index": 95,
+    "sha256": "a01b684159f6ecefc7c4b42fda078bab94fb939a008626b4a2bfb275cae0cd75",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "平安鐘按服務指引測試，確認接線及緊急聯絡資料，發現舊電話停用後即時更新；結尾改為自然的通話收線情景。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 0,
+    "sha256": "3f9dbaa9053dc8e513c93a81b5f8ea95b4dddca5a0c134183cb809f8dfc02a1d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "覆診故事保留血壓記錄和家庭醫生的跟進，結尾以父親反過來提醒量血壓前避免咖啡作生活化笑點；逐字核對常用醫療詞音。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 1,
+    "sha256": "4970e51c0308697d9de62890f83d26ea55b7935964b3ac881e8cd461dca15d00",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "診所接待由人多和等候引出孩子與玩具熊互動，接待員安排較安靜座位並提醒遮口鼻；核對阿姨 姨 ji4。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 2,
+    "sha256": "2daa40ae6be9556b0b90b70fa635e0f0655099748f32804b1c1a161415812193",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "驗血流程包括核對預約、抽血後休息及記下查詢方式，沒有替讀者推斷結果或規定禁食；補入直接引語。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 3,
+    "sha256": "1cbf9536bfb3ba99f882933c137114826bcf7ee51cb736a8119966d6ffb49434",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "驗眼笑點連結字體辨認與回家閱讀，並記下複查和過馬路安全；驗眼讀音逐項核對。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 4,
+    "sha256": "f68077bc62177a5cf4de83924271b192f3a411c3fb394152809dea6a482329c3",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "按預約流感接種的篩查、醫生評估和留診觀察構成情節；核對乞嗤 hat1 ci1（粵典），避免誤讀。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 5,
+    "sha256": "b35ad962b814eb45effc85911bca07394f9cc4cec4fbd8d60aadbd175f08054b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 6,
+    "sha256": "a429853f11e93fe48ef45ea3d6334ee2455587c04e442a4ac22436b1cf04296b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 7,
+    "sha256": "d9896c096078b530b17fbdc7a02a1e6c907a197b1bd2c284a55dcb93292c70d7",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 8,
+    "sha256": "f10e7e54f1cc951656531c15b334db237d35ebc95fb9d6a3125fb5c4f351bb83",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 9,
+    "sha256": "af20c061e6899b3dc88cd67cfbd47e879e9a87f5aa6bba09007dd199256223e3",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 10,
+    "sha256": "d75180d43a479549bc922b0106c48406b8a76098af112fca7f15bd6d098480be",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 11,
+    "sha256": "1b2b04f5f9601c1f216899e2595897b3949c2833910710c7fca328f15ff7288c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 12,
+    "sha256": "76ad1a89ce76c542107d89c873033e69f8cb35badf770e59dfdcefe715908a6c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 13,
+    "sha256": "7b171dbee7aaaea4b16d311710d5ef4be9b8bfad920dc0b4159873483dd5185a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 14,
+    "sha256": "4b31a1f925bc36614f110f75cf3ad4c9a43f88f14d113b2407a30b6dd30f4cc8",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 15,
+    "sha256": "8969518e7874e33a87264af2ce772dc7d3f75434c491f93618a9aa45f141fade",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 16,
+    "sha256": "81dc130388aef62b8d4355dcd41fb1dda6dd56b2a885335fe0a808d7f321277e",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 17,
+    "sha256": "e68e61e99c3029b1f5f29135967fee3a6e8a511fd5c15254e6874e040e0336b8",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 18,
+    "sha256": "30bb5c805069179a34e55102eb2030932009a4cdc0db3fbed828d45ab0437168",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 19,
+    "sha256": "1ef0122da1570443942b074271019c42e3a5a9cfb69196960fb673ce0cc1d7a2",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 20,
+    "sha256": "dac9959b8a8b82b6f1158e51a05fa5b46f4ae2373b2fc4db7e745b671b08f6a6",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 21,
+    "sha256": "2aaaa239b24de39464a943c0117df8894ba2fba00456161941d7fab047fe7ff1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 22,
+    "sha256": "d9cb2efb3d89e66332b9f26bc099ae8598a9db91f7edc63a45d2144db053a2b1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 23,
+    "sha256": "04f7b5c4a8bbc733035848b9bbb7e1e81b5ba6fb558069bf9422dadd5ad2a5b1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_03.json",
+    "index": 24,
+    "sha256": "7f5fb1716f83fdd1ca8c3c3699684419b0328ae50b6d866368bbdb26b21afe09",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "Health-services story reviewed individually; narrative, Jyutping readings and tones, full Mandarin gloss, and tailored retelling prompt checked."
   }
 ]
