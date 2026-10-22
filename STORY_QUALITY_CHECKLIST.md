@@ -140,7 +140,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_health_services_07.json` | 100/100 | 0 |
 | `content/sentence_bank/long_health_services_08.json` | 100/100 | 0 |
 | `content/sentence_bank/long_health_services_09.json` | 100/100 | 0 |
-| `content/sentence_bank/long_health_services_10.json` | 30/100 | 70 |
+| `content/sentence_bank/long_health_services_10.json` | 85/100 | 15 |
 | `content/sentence_bank/long_health_services_11.json` | 0/138 | 138 |
 | `content/sentence_bank/long_health_services_12.json` | 0/2 | 2 |
 | `content/sentence_bank/long_health_services_13.json` | 0/2 | 2 |
@@ -700,10 +700,10 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/z_curated_sentences_98-home-and-city_bank.json` | 0/10 | 10 |
 | `content/z_curated_sentences_99-community-and-service_bank.json` | 0/10 | 10 |
 
-**Overall mechanical pass: 3741/15053.**
+**Overall mechanical pass: 3796/15053.**
 
-**Goal (main-agent language review): 3721/5000; remaining to goal: 1279.**
+**Goal (main-agent language review): 3776/5000; remaining to goal: 1224.**
 
-**Corpus language review: 3721/15053; source rows without a valid review: 11332.**
+**Corpus language review: 3776/15053; source rows without a valid review: 11277.**
 
 Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.
