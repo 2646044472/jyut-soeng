@@ -141,15 +141,15 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_health_services_08.json` | 100/100 | 0 |
 | `content/sentence_bank/long_health_services_09.json` | 100/100 | 0 |
 | `content/sentence_bank/long_health_services_10.json` | 100/100 | 0 |
-| `content/sentence_bank/long_health_services_11.json` | 118/138 | 20 |
-| `content/sentence_bank/long_health_services_12.json` | 0/2 | 2 |
-| `content/sentence_bank/long_health_services_13.json` | 0/2 | 2 |
-| `content/sentence_bank/long_health_services_14.json` | 0/2 | 2 |
-| `content/sentence_bank/long_health_services_15.json` | 0/2 | 2 |
-| `content/sentence_bank/long_health_services_16.json` | 0/2 | 2 |
-| `content/sentence_bank/long_health_services_17.json` | 0/2 | 2 |
-| `content/sentence_bank/long_health_services_18.json` | 0/2 | 2 |
-| `content/sentence_bank/long_health_services_19.json` | 0/2 | 2 |
+| `content/sentence_bank/long_health_services_11.json` | 138/138 | 0 |
+| `content/sentence_bank/long_health_services_12.json` | 2/2 | 0 |
+| `content/sentence_bank/long_health_services_13.json` | 2/2 | 0 |
+| `content/sentence_bank/long_health_services_14.json` | 2/2 | 0 |
+| `content/sentence_bank/long_health_services_15.json` | 2/2 | 0 |
+| `content/sentence_bank/long_health_services_16.json` | 2/2 | 0 |
+| `content/sentence_bank/long_health_services_17.json` | 2/2 | 0 |
+| `content/sentence_bank/long_health_services_18.json` | 2/2 | 0 |
+| `content/sentence_bank/long_health_services_19.json` | 2/2 | 0 |
 | `content/sentence_bank/long_health_services_20.json` | 0/2 | 2 |
 | `content/sentence_bank/long_health_services_21.json` | 0/2 | 2 |
 | `content/sentence_bank/long_health_services_22.json` | 0/2 | 2 |
@@ -700,10 +700,10 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/z_curated_sentences_98-home-and-city_bank.json` | 0/10 | 10 |
 | `content/z_curated_sentences_99-community-and-service_bank.json` | 0/10 | 10 |
 
-**Overall mechanical pass: 3929/15053.**
+**Overall mechanical pass: 3965/15053.**
 
-**Goal (main-agent language review): 3909/5000; remaining to goal: 1091.**
+**Goal (main-agent language review): 3945/5000; remaining to goal: 1055.**
 
-**Corpus language review: 3909/15053; source rows without a valid review: 11144.**
+**Corpus language review: 3945/15053; source rows without a valid review: 11108.**
 
 Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.
