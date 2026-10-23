@@ -46292,13 +46292,13 @@
   {
     "file": "content/sentence_bank/long_health_services_11.json",
     "index": 25,
-    "sha256": "5c36083ef847284366c6ed48783c9308abd0034688222e2df896f79a4314650b",
+    "sha256": "21599191153cfac7bd05b1d6f263d8cf4680abafdfd97ea9930ecf277c0aa991",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "索引25：主审确认流感针预约与菜篮带错证件的转折自然；把「返家」改为澳门口语「返屋企」，核对针卡、玄关等词音和全文释义。"
+    "notes": "索引25：回看时修正重复的返屋企表达，补入护士直接对白，核对流感针预约与接种流程、菜篮夹错证件的转折、全文粤拼和释义。"
   },
   {
     "file": "content/sentence_bank/long_health_services_11.json",
@@ -46453,5 +46453,935 @@
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
     "notes": "索引39：主审重写吞咽评估的汤匙动作，改为试饮计分玩笑并匹配粤拼；核对吞咽、呛咳等读音与全文释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 40,
+    "sha256": "cc3d9fbe5cda0b52317dc62f8eebe1ade1e501a747111b9313063389e16f9fc1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引40：主审确认中风后言语治疗练习与雪柜词语联想、复诊问答自然；核对出院摘要 zaak6 jiu3、言语治疗 jin4 jyu5 等读音及全文释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 41,
+    "sha256": "580a5761c65a29687e168fa21fc387a1793736d6df205793c65ebf0ddbe61ee8",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引41：主审确认助行架居家评估与鞋架展览馆笑点连贯；核对职业治疗师、通道、扶手及等人扶等粤拼和安全表达。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 42,
+    "sha256": "2aebc59406b9f8f7169fbcb0daff0de8b49fd43a703688b61e22c963917046dc",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引42：主审核对传译安排和外公大字问题纸的笑点；将专业用语译文、顾虑 gu3 leoi6 等音节及全文释义逐项复核。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 43,
+    "sha256": "3abe706b6873619cd85f1fe691c6bc98ab32a23f52407ea77c8b56c9b7443171",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引43：主审确认家庭照顾会议分工前后呼应，修正大舅记录复诊日期与细佬买餸的任务衔接；核对支援服务和全文译文。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 44,
+    "sha256": "d3433a04062086ec1fbd14c09e248a75f818d0119bcbec9a3c74e1a1f7ff76e7",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引44：主审确认幼儿听力测试流程、耳机小鸟误会及后续观察安排自然；核对幼稚园 jau3 zi6 jyun2、陌生声音等粤拼和释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 45,
+    "sha256": "271bb4d4f0b8addd24b66892e5d06ce352dfb5b24c9e7ee27f31465056b7a218",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引45：主审与二审核对平衡测试 cak1 si3、天旋地转等读音，补齐测试结果、发作持续时间的完整释义；整理眩晕复查与记录情节。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 46,
+    "sha256": "25b9dd6299d478099160b00f166c2e99279012f4e7d7f0e682597d72a95b37a7",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引46：主审核对照牙片 ziu3 ngaa4 pin2、根管治疗及抖下 tau2 haa5 等读音；改顺握椅动作，确认术前咨询、分阶段治疗和完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 47,
+    "sha256": "20df5df51c7a11fb0266003669ccc6b9614cd436dc2f5add3c68684e5ff544eb",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引47：主审核对藥劑師 joek6 zai1 si1（粤典）、漏咗食 dim2 syun3 等读音；确认大字药表、饭后饮茶误会与全文普通话释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 48,
+    "sha256": "8072bc6a6d594307a57498c9f4127d8b1138719e86f8330c1577f6d5d482b6d2",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引48：主审确认大肠镜准备和清肠药疑问的安全表达；核对隔籬 gaak3 lei4、月曆 jyut6 lik6 等读音并检查全文释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 49,
+    "sha256": "377b54c92c12ff39913eb2a98571703b2696c0864ce7114904532926ee7096d8",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引49：主审确认精神科复诊后安排休息记录的情节自然且不把记录要求绝对化；核对作废/白做、触发 zuk1 faat3 等词音及完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 50,
+    "sha256": "982fd77ed97101b740de7b9f24cdc72eaad28ed573e400487a8bfb6aff05a9a1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引50：确认探病登记与家人轮流探访情节连贯；补明妹妹补交登记后入房，加入哥哥漏身份证的对白，核对搓手液 co1 等词音及全文释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 51,
+    "sha256": "4a457f4ec789d55f38ef1c5090ca1ebb90f5d3f6f2f35168f3cc3e6052880355",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引51：确认跨院影像申请与七日链接时限自然；补入爸爸误以为手机故障的对白，修正壓縮 suk1、下載後等音节对齐，核对全文释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 52,
+    "sha256": "1afcbdc6276700b0a09192ac3e6205d4fb375872f68e2974a2095c15fae63371",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引52：确认住院帐单分期咨询与停车票误夹的笑点；补入爸爸直接对白，核对批 pai1、眼鏡 geng3 等读音与完整译文。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 53,
+    "sha256": "e41be76c6aa46627668a362788b67f1f96fc25071fde15bc3c5d6747c92d827a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引53：把系统重复预约的想法改顺，补妹妹迷宫地图对白；逐段核对粵拼并补齐「電話」中的 waa2，确认预约时序与全文释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 54,
+    "sha256": "38898f029720abf99cb7b4e21c5e94ab048bb45d298bf23ca5cc4e0b6cbcb2ad",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引54：修正繁简字形，补姨妈误把家用电话当联络号码的直接对白；核对验证资料更新流程、粤拼声调及完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 55,
+    "sha256": "31f43ab284d9dedd1b15d7ee8cdb5b306be156ee07785d4cb2e6c0141e499137",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引55：确认两间诊所药袋容易拿混的情节与医生确认流程自然；补入妈妈询问能否半粒顶住的对白，修正編號 bin1 hou6 并逐项核对药名、剂量和完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 56,
+    "sha256": "10cafce40719cb7c6766ab2b7a8fc99ce716434790c28511188dc695cd1c3b45",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引56：核对两处居住点的血糖机、甜豆浆与读数差异因果；补爷爷开会报数对白，逐字检查血糖仪、试纸等粤拼与全文译文。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 57,
+    "sha256": "733b1bbeb90261d8de41ca04eee49684b3ae575095f3c30e3bb43be9befdae43",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引57：确认空腹抽血日期、忘带预约纸及差点饮茶的先后合理；加入护士直接说明空腹要求的对白，核对时间与完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 58,
+    "sha256": "a2ca4e7d328123f6a1ba142369e9864d07310400e0498f86251e58034224bb15",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引58：确认征求第二意见时保留原手术期、补取病理报告及影像资料的安排清楚；补爸爸直接对白，修正光碟 gwong1 dip6 并核对粤拼。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 59,
+    "sha256": "3b07a723ebcae04b799a5f9d76f5e1ed90a698bd017bd14c164380631480e9b7",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引59：确认诊断信草稿误写复诊日、补交盖章文件的过程完整；加入爸爸保险像解谜的对白，逐句核对粤拼和完整普通话释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 60,
+    "sha256": "78475de74ee34138d32d5069081d56ec47416d66ff7e3a78969b6c1e402a30b5",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引60：确认上门护理服务询问、护理员按错门铃和隔壁伯伯递橙的转折自然；修正提示前缀为规定简体，核对轮更安排与全文释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 61,
+    "sha256": "89a952cc064581f41d8e311208fc30c50f72ddc57ddc4ad7b5cd688ac78615f2",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引61：确认旧照片上的日期帮助健康院查回疫苗记录、女儿扮护士的情节连贯；修正檔案 dong2 on3，核对补发步骤和全文释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 62,
+    "sha256": "722975101a5ad1385872d8643f9ddb1a232f3362f48f1bc1faeb6302eca1d13f",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引62：确认轮椅宽度不符导致送错型号、孙女纸皮模型排练路线的笑点自然；核对押金、归还安排及全文译文。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 63,
+    "sha256": "16337e0e754f2b3f456252c0869de2feff9a8b32f0404bc503e30635797059c6",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引63：修正等待时序为准备返去检查时，明确带药和包装回访，并由药剂师核对包装温度要求与离柜时间后确认仍符合保存要求；核对药物安全表述、粤拼和全文译文。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 64,
+    "sha256": "922d89adb3d5d613802fb77ae6b1871fffd066f6ababa4cdff122724800aa091",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引64：补明斜路湿滑，保安铺防滑板协助助行架通行；确认正门搭棚、临时通道变化及叔叔帮迷路长者的先后，核对粤拼与全文释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 65,
+    "sha256": "e850b94f20f5c39174b3dd23cb61d76df8ba74a9a0909bb9df2ec0b305dd16c6",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引65：核对接种后肿胀与护士回电流程、安全求医提醒及妈妈比较双手、爸爸保存客服名称的笑点；粤拼和全文译文逐项检查。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 66,
+    "sha256": "5b143e912f2e5fa02c78ec39a1398c8f1d608312a787de2b07adf23036fb81aa",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引66：确认牙科镇静前病历与用药清单准备完整，细仔替恐龙公仔挂名牌的趣事自然；核对麻醉相关提问、粤拼和完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 67,
+    "sha256": "0e3eaacb0cbe1934a109555add9264a94a2b9a7a46c1b89e69359c51396a1c2e",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引67：修正社工把蛋挞小票当成车费凭证的对白，使笑点贴合收据混在一起的情节；核对蛋撻 taat1（粤典）、兩粒 lap1、审批流程与全文释义。",
+    "reading_sources": [
+      "https://words.hk/zidin/撻"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 68,
+    "sha256": "e89890fbf9efb4eae8be75e0d07f4821145e9a81fdd54e20955a35d9de65a11c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引68：确认代领睡眠测试报告授权、身份证放错外套与妹妹险些排错队的时序清楚；核对表格条件、对白、粤拼和完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 69,
+    "sha256": "172374b2d47d7ad5972123be95395312acd33f041610b60e3d2f8e5a27529dd2",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引69：确认女儿记录药名和头晕时段、自己接听护士回电及后续求医提醒连贯；保持不自行停药的医嘱，核对粤拼与全文释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 70,
+    "sha256": "f57ef40800e8362472896726dac776a2d086121ecebb8cda2b45c224cc790339",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引70：修正「摸晒成個袋」用法，确认转院补交化验报告的对白和等待转送情节自然；核对急救转运、粤拼及完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 71,
+    "sha256": "23fde1627361abaa74abb852edd7817e47954c4e13e228f443f03f2ee1d9c60a",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引71：核对保险批核资料的因果、报价日期错一日的转折和订票时序；确认保障项目、自付额和通话记录均有覆盖，复核粤拼及释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 72,
+    "sha256": "f9bc41350323fe2fbba7695831950e50b4702a68251035b74a20940b6a69d8d0",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引72：把旧门口明确为旧入口，核对日间手术接送、报到改早及雨天找错入口的情节；确认禁食安排遵循院方通知，复核粤拼和释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 73,
+    "sha256": "cd90722888b80b4d4f7ced6c28c2ff9211a11d123334589bd3b9fc5b2344e4ff",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引73：修正「款 fun2」「劑 zai1」读音，并把练习提示改为原药房停业；核对药剂师确认药物、没有自行换药和新旧药袋分开的情节及完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 74,
+    "sha256": "779a1e4c6c49710efd88eae043dfeacafeee743d3464642a8289174e0f61fdc9",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引74：移除不符合数周大婴儿年龄的拍手追泡泡、提问和攥贴纸情节，改为抱着候诊并按院方安排检查；核对听力复检流程、粤拼逐字对齐及释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 75,
+    "sha256": "1bb6b5d4a3945c8618f29458ef370499f4ebc89dec74df0fed7f4928cbf1f46c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引75：把營養師諮詢寫成有場景的家庭記錄故事，補出漏記的午餐與父親分食菠蘿包的轉折；將餐次安排明確寫成和營養師討論，核對粵拼、蛋撻 taat1 及完整釋義。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 76,
+    "sha256": "1e9ce42662db35bb88c39b062b5e9214e9aecb0f17ea8e13dd34b3d1f867dfbe",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引76：加入紅色提醒紙被誤會、眼罩差點當成眼鏡布的家庭場景；所有術後清潔、用藥與活動疑問都由病房核實，按出院資料處理；核對粵拼「注意事項 hong6」及完整釋義。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 77,
+    "sha256": "6c6d88c6f839cbb4e1a6cf03ce45cfcc6c476ae01c55f1ef8282ed8db062dfac",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引77：將急症出院摘要改成藥袋要不要混裝的對話與轉折；明確要求按藥袋標籤和出院紙、有疑問問藥劑師，不自行改服法；核對粤拼及完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 78,
+    "sha256": "2b061a2c348721d9488a57780050757f754d21372419319712bbadfb3d592425",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引78：补出伴侣把咖啡误当早晨饮品的生活转折；禁食、饮水及日常药物均由化验室核实并遵照院方指示，核对粤拼及完整释义。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 79,
+    "sha256": "114b7c9daf02603d03599bb81e4a89cfa5d5394d6b619ac7765a387ad6f19968",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引79：補出噴劑使用疑問、書包側袋找到藥丸的情節；保留按醫生與藥袋標籤用藥、不自行改次數並帶紀錄覆診的表述，核對粵拼及完整釋義。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 80,
+    "sha256": "e653e160b39600f3f5d830cdbdf8052237a081bd750f302a47d803a8352111ad",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引80：增加預約紙黐到外套袖口、妹妹候診倒數和數巴士的生活轉折；禁食、飲水及檢查安排均按院方個別說明核實；核對粵拼（測試 cak1 si3、外套 ngoi6 tou3）及完整釋義。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 81,
+    "sha256": "19d09aa6cd2174eebf269af20d60ec0b241e23bb294d572083fa9912c40902b8",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引81：把檢查前的焦慮和伴侶漏看金屬扣的文件夾寫成對話轉折；避免把服藥說成共振檢查的一般要求，準備事項按預約資料和院方說明核對；核對粵拼及完整釋義。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 82,
+    "sha256": "69ea03ec2d7ff59d9a711a8fa2af67224e0abe788f9eabe742f5c57ca38dfdea",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引82：加入按日期翻找紅疹相時差點拿錯外甥女氣球照的轉折；由醫生和藥劑師核對藥物與成分，不自行試藥，補全手機過敏紀錄；核對粵拼及完整釋義。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 83,
+    "sha256": "e3d2d04dec5b96c0b4bb41d6e010a336e0b5cb537ec84dd89e1c6675ac6aec70",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引83：明確只練治療師指定的動作，加入手機外賣通知令影片暫停的對話笑點；不自行增加次數，覆診按活動紀錄討論；核對粵拼及完整釋義。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 84,
+    "sha256": "c1b76d02370e1bb51676dd4be9b4be1abce618340c7ad0f2593f3e0a53e1652b",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引84：用爸爸把問題寫在購物紙背面的生活轉折串起諮詢，保留早餐玩笑；服藥與術後落床安排明確由醫生按個人情況確認，不自行停藥；核對粵拼及完整釋義。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 85,
+    "sha256": "8d963f7c0add4d39c8bbdb85aa561505788766fedd745b4ecb67a46972c8de19",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引85：把血壓紀錄擴成廚房初測異常、安靜重測並致電診所核實的家庭故事；保持不自行改藥，核對「仍然」jing4 jin4、「覆診」fuk1 can2及逐字粤拼。",
+    "reading_sources": [
+      "https://words.hk/zidin/覆診"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 86,
+    "sha256": "9f49cf9e19944bf07e483d7401e7709036b9af8dba1b66942d118c3036068d67",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引86：以爸爸把文件袋留在鞋櫃、出門拎錯買餸袋作生活轉折；用藥資料由醫生核對，明確不自行停藥或加量；核對「樽」zeon1、「覆診」fuk1、「惹」je5及完整釋義。",
+    "reading_sources": [
+      "https://words.hk/zidin/覆診"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 87,
+    "sha256": "0f236323f948ae25f929bf3152f2bfa229653cabaa392ca773624a4cb20992d6",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引87：以表姐把檢查準備便條貼到湯盒作結尾笑點；早餐及清腸安排明確致電中心確認，不自行猜流程；核對「可唔可以」「憑印象」的粤拼和全篇釋義。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 88,
+    "sha256": "44dfcd7d6a43b834b95c99f21ddf778bc1aff2f2125cc7efecf011075ae81607",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引88：加入友人揉紙巾、奶樽藏在手袋側格的情節；由健康院安排輔導轉介，若有即時危險聯絡緊急服務；核對「樽」zeon1、「預約」jyu6 joek3及完整釋義。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 89,
+    "sha256": "d0caeffc0b73c3e25cef716af43fbe7e6e6130aec1ccec229d915903c0899aed",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引89：以試戴助聽器後爺爺聽懂孫女點心要求作反轉；聽力評估、試戴和維護按驗配師說明；核對「更換」gang1 wun6、「覆查」fuk1 caa4及逐字粤拼、完整釋義。",
+    "reading_sources": [
+      "https://words.hk/zidin/更",
+      "https://words.hk/zidin/覆"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 90,
+    "sha256": "8309f659ec0a10bd342d1db0ef7fa327cdef1fe957a2c846d1a7ec84c4f194b5",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引90：以媽媽文件袋留在廚房、到院舍才折返取件作搬遷小插曲；接種紀錄僅作補印和核對，評估由院舍按個人健康情況安排；按只讀覆核修正「檔」dong2、「妥善」to5 sin6及「存檔」cyun4 dong2。",
+    "reading_sources": [
+      "https://words.hk/zidin/檔案",
+      "https://words.hk/zidin/妥善"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 91,
+    "sha256": "8d398ae220f13e0109457b74c5c218fd2c2ccf36204c142978e37760ddc0e2d3",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引91：以伯伯的水樽、夾在月票裏的醫生指示紙和轉車圖魚形笑點串起腎科覆診交通安排；飲水限制由醫生個別交代並致電診所確認，不自行猜數字；逐字核對粤拼及完整釋義。",
+    "reading_sources": [
+      "https://words.hk/zidin/覆診"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 92,
+    "sha256": "fac5845d598628d70c5d51056b7cdb2b39eb2725b71639473ea853d5d837fbbe",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引92：以輪椅接送和家居安全評估串聯復健安排，貓拖走捲尺形成生活笑點；轉位跟護理人員教法，扶手位置待物理治療師評估後討論；核對「髖」kwaan1、「照片」ziu3和「設施」cit3 si1，補齊逐字粵拼。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "index": 93,
+    "sha256": "42f7aa0ec99d844bfc337ea42d1096582f1cabbcea4cf344258de9b206ba5a70",
+    "notes": "索引93：嫂嫂帶著餵奶紀錄向護士求助，沒有因朋友訊息急著改餵法；以表弟誤會在查食譜和雪櫃上的熱線號碼收尾。逐字覆核粵拼並口語化結尾，查證「孭」me1。",
+    "reading_sources": [
+      "https://words.hk/zidin/孭帶"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "index": 94,
+    "sha256": "813fa5a02669360d068641a72ade027e7dd3c5808373589970112381dfb2ffd6",
+    "notes": "索引94：職業治療師上門評估中風後家居，物品擺位跟治療師建議；八哥學會喊「慢慢嚟」成為意外監工笑點。核對搬 bun1、品 ban2、防滑墊 din6、評估 gu2 等讀音。",
+    "reading_sources": [
+      "https://words.hk/zidin/搬",
+      "https://words.hk/zidin/品",
+      "https://words.hk/zidin/墊",
+      "https://words.hk/zidin/評估"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "index": 95,
+    "sha256": "b1747cac43d6ed336a546edb18e15633a325fcfcd19c74fde106cf7279125c45",
+    "notes": "索引95：阿姨骨折出院後安裝病床，因手掣擔心床會升到天花板，師傅示範後她抄下維修電話；眼鏡與電話號碼放床頭形成溫暖收尾。核對呆 ngoi4、手掣 zai3、眼鏡 geng3 等讀音，家居安排按護士交代並聯絡服務中心。",
+    "reading_sources": [
+      "https://jyut.net/query?q=呆",
+      "https://words.hk/zidin/掣"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 96,
+    "sha256": "e607ca22c88487f6e7173bfddbfcc1eb6f71754ab3c5494689e28999e0116a00",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引96：越南籍姨媽做超聲波檢查前整理問題，透過電話傳譯自主確認治療安排；傳譯員聽錯姓氏時她立即請護士核對，並以手機清單收尾。修正遠程傳譯措辭，查證「筆記簿」簿 bou2。",
+    "reading_sources": [
+      "https://words.hk/zidin/筆記簿"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 97,
+    "sha256": "cac24a55e0e96252676d26f06a265e4cf1a78ed8ec9e0b442a590070cfd8e816",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引97：自費覆診後查詢醫務社工援助資格，一星期後跟進；醫療收據竟夾在舊餅店生日卡中，蛋糕券轉折收尾。修正櫃位姑娘的普通話釋義，補清跟進日期，校正「忽然 fat1 jin4」「覆診 fuk1 can2」「券 hyun3」。逐字核對287字與287個粵拼音節。",
+    "reading_sources": [
+      "https://words.hk/zidin/覆診",
+      "https://words.hk/zidin/診",
+      "https://words.hk/zidin/書券"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 98,
+    "sha256": "649d5fea4809401f54061b37e843ebb8b53ba2a310fc7fd4cf3ad5013158b322",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引98：女兒帶兔仔公仔到社區健康中心接種疫苗；手機相簿意外翻出兔仔霸位的照片，打完針後她把勇氣貼紙送給兔仔，最後一起確認下次提醒。明確交代接種後觀察區及求助聯絡。逐字核對270字與270個粵拼音節；獨立複核無明顯錯讀。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 99,
+    "sha256": "99c87aa55cb025c51cf064e905bd08ac3bfb3b285db28cd000ea225527f61c6c",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引99：姑姐心電圖檢查前擔心貼片和早餐安排，技師解釋記錄心跳不會通電；她捉緊護手霜完成檢查，最後笑說護手霜比自己更早出場。核對轉介資料中的本次禁食指示，並記下預約紙上的覆診日期。逐字核對278字與278個粵拼音節；修正「敏感 man5 gam2」「毋須 mou4 seoi1」。",
+    "reading_sources": [
+      "https://words.hk/zidin/心電圖",
+      "https://words.hk/zidin/敏感",
+      "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/pho-rel.php?s1=m%26s2=ou%26s3=4"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 100,
+    "sha256": "a0cead48dae762308de76f9aa9fc468b97918cc6eb54c7ac0bbfbcaa83dae0a3",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引100：皮膚科斑貼測試故事，妹妹帶洗衣液標籤相片、上背按診所安排貼片，48小時後返診並再覆查；以背上密集貼片比喻臨時路線圖。流程位置與留置時間經醫療來源核對，粵拼逐字核對284音節；修正「塞滿 sak1 mun5」。",
+    "reading_sources": [
+      "https://words.hk/zidin/塞"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 101,
+    "sha256": "61f638fc47e688ad6cb3271d2d3c7685f7ad1935fdb43a8c145f2c748012d40e",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引101：嫂嫂整理產前唐氏篩查資料，伴侶錯把產檢日期當成篩查日期；按護士對照預約單後確認同日安排，再用共享日曆避免請錯假和漏帶文件。逐字核對260字與260個粵拼音節，獨立複核確認排程是個別預約安排，無泛化醫療說法。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 102,
+    "sha256": "cfa5144c12fdf95480d83da0a7f24f951b645c7b21e67e7a99931cb77a648f52",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引102：重寫血糖機示範故事，以媽媽把日期設定抄成讀數、反過來考兒子操作作為誤會和笑點；明確依該機說明書與護士示範，不泛化操作或記錄要求。逐句核對253字與253個粵拼音節，普通話釋義覆蓋全文，補個性化故事練習提示。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 103,
+    "sha256": "b5aa22df91c9f350618bb865e831c356be286dbda30fedaa947cd0de46875873",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引103：重寫肺功能測試陪診故事，規範改用繁體澳門粵語，以獎杯藥盒、風箏圖案與數鐘擺作笑點和節奏呼應；停藥安排按測試中心交代，結果留待醫生解釋。逐字核對正文和粵拼音節，普通話譯文完整，補個性化提示。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 104,
+    "sha256": "c07f6b1141abcddc0d086b13ce038e16ca98cf63955be57fac5217b782cf4c6d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引104：重寫兒童發展評估陪同故事，以等候區貼紙火車、孩子想開車及玩具電話互動形成轉折；明確由專業人員結合家長、學校資料和當天觀察整理結果，不將遊戲寫作單獨診斷。逐字核對正文和粵拼音節，釋義完整並補故事練習提示；修正「結合 git3 hap6」，普通話譯文使用中性稱呼。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 105,
+    "sha256": "7b2a78f2e287482f7e85eeb74f53f9573dfbacc3701f5649055deb3ab76ce956",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引105：改寫為繁體澳門粵語陪診故事，以爸爸把貼片誤認成通電插頭、孫女把導線畫成一列小火車形成畫面和笑點；貼片與沖涼處理均按該儀器及診所指示，記錄紙限定活動或不適記錄，結果留待醫生解釋。逐字核對正文和粵拼音節，譯文完整並補故事練習提示。 已查證「監察 gaam1 caat3」及「心電圖 sam1 din6 tou4」。",
+    "reading_sources": [
+      "https://cantonese.sheik.co.uk/dictionary/characters/2663/?full=true",
+      "https://words.hk/zidin/%E5%BF%83%E9%9B%BB%E5%9C%96"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 106,
+    "sha256": "edf246cc11edd4ea30b6f21836de393d8337739a4e090d4396e19f6c5875c92d",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引106：重寫兒童視力檢查故事，以兒子緊張讀反大小字、把圖卡鴨想成校長作轉折；視光師說明度數仍要核對並等通知，不自行推測處方。逐字核對258字與258個粵拼音節；查證眼鏡 ngaan5 geng2、鏡片 geng3 pin2，完整翻譯並補個性化提示。 將書面「覆查」改為醫療口語「覆診 fuk1 can2」，避免模糊讀音。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E7%9C%BC%E9%8F%A1",
+      "https://words.hk/zidin/%E9%8F%A1%E7%89%87"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 107,
+    "sha256": "5033d3c59b652df26e366c587700ac2163aee1572a51b206d0ef2094be977417",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "逐字复核家访与伤口护理情节；敷料按词条订正为 fu1 liu2。实数为248字、248音节；译文完整，练习提示个性化，护理安排明确限于该个案书面方案与护士示范。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E6%95%B7%E6%96%99",
+      "https://shyyp.net/hant/w/%E7%B4%97"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 108,
+    "sha256": "21c73aa30fb32a011d76c3383715f249ad3767b208c93b5d55925b3486203111",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "索引108：重寫戒煙輔導故事，以舅父在同事遞煙時改遞薄荷糖、孫女把煙盒畫成糖罐作轉折；目標由本人與輔導員討論，不自訂藥物或戒斷療法。逐字核對231字與231個粵拼音節，補全普通話釋義和個性化故事提示。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E6%88%92%E7%85%99",
+      "https://words.hk/zidin/%E6%B8%9B%E5%B0%91"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 109,
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "sha256": "dfa6358b462dd2e56e3bfd2232fe3d35d00bd7ea8c64f01f2cea7085188f7738",
+    "notes": "女兒把吸水管和紙杯想成小船，在椅上扮船長指揮，出門後把貼紙貼在預約單；情節、醫療說明、譯文與逐字粵拼已人工核對。251字/251音節。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 110,
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "sha256": "ae4c9bfa81d0fa4eb2210fd5c4ca8ee8ecc88bbdbef2d16dfa02ebabf8b0c6f2",
+    "notes": "舅母提前確認復診與輪椅接送，雨天在中心才發現漏帶雨傘，家人送到入口補救；安排以中心當日確認為準。313字/313音節。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E8%88%85%E6%AF%8D",
+      "https://jyut.net/query?q=%E5%A4%BE"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 111,
+    "sha256": "72226f3003525c450db396144eb7791325a2061ff5a03c07348536ef140a1b14",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "外婆帶舊相做眼底篩查，閃光令她一度合眼；姑娘逐步解釋流程，白髮與舊照帶出笑點。按篩查及中心通知邊界撰寫，282字/282音節。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 112,
+    "sha256": "f5149a3ae4e8c4766c0c6ae36c0488e39b5e04ccdcf3d6b872d74acbe812f630",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "婆婆把檢查前除飾物、倒硬幣的程序聯想到過關；家人先向中心確認，報告及覆診由醫生解釋。248字/248音節。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 113,
+    "sha256": "160361bfbc03d7bfb6c5a9ee8cb19f1341df325345a8a3f0213709bff40619f8",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "孩子第一次抽血，選座、用追風箏故事分散注意，棉花被說成雪球；医护操作与报告查询按诊所流程。260字/260音節。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 114,
+    "sha256": "7b8a8566bbee220180afdb223439303cd6edc1cfb6d6e1ece07a2651613ba566",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "妹妹覆診前差點漏帶影像光碟，醫生解釋後她問清支架佩戴與回診安排，文件袋寫字作提醒。272字/272音節。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 115,
+    "sha256": "df409597e46a0d044b46785df8dac486bcd618013b9014bd1645a3296b9d5aa1",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "按醫生安排使用氧氣機，護士按型號說明交代設定、清潔和備用事項；家人發現爸爸怕燈光，改貼說明到床頭櫃內側。287字/287音節。"
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 116,
+    "sha256": "96075f2c7f9870c7c30a277834f64cc8759184c6304ba185200d755974945749",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "爸爸試戴助聽器後把聲音比作收音機，返家途中把街市廣告聽成家人問題；建議設定按檢查結果調整，日常漏聽情況留待覆診交流。305字/305音節。",
+    "reading_sources": [
+      "https://words.hk/zidin/%E5%8A%A9%E8%81%BD%E5%99%A8"
+    ]
+  },
+  {
+    "file": "content/sentence_bank/long_health_services_11.json",
+    "index": 117,
+    "sha256": "7826e39c2037ed27cdea1a5a381da5ef643497fd96ddae206f4ab6307c448bef",
+    "review": "main-agent language review",
+    "naturalness": true,
+    "distinct_plot": true,
+    "jyutping_readings_and_tones": true,
+    "complete_gloss": true,
+    "notes": "阿晴帶睡眠及情緒記錄覆診，便利貼黐在衣服上成為小插曲；按個別情況商量服藥時間，避免自行改藥。284字/284音節。"
   }
 ]
