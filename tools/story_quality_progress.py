@@ -85,6 +85,8 @@ def render_report() -> tuple[str, int, int]:
     reviews = language_reviews()
     reviewed = 0
     matched_reviews = set()
+    valid_reviewed_keys = set()
+    source_keys = []
     sections: list[str] = [
         "# Sentence Story Quality Checklist",
         "",
@@ -99,6 +101,7 @@ def render_report() -> tuple[str, int, int]:
         rows = json.loads(path.read_text(encoding="utf-8"))
         for index, row in enumerate(rows):
             key = (path.relative_to(ROOT).as_posix(), index)
+            source_keys.append(key)
             review = reviews.get(key)
             if review is not None:
                 matched_reviews.add(key)
@@ -107,15 +110,29 @@ def render_report() -> tuple[str, int, int]:
                 dimensions = ("naturalness", "distinct_plot", "jyutping_readings_and_tones", "complete_gloss")
                 if all(review.get(dimension) is True for dimension in dimensions) and not audit(row, selected):
                     reviewed += 1
+                    valid_reviewed_keys.add(key)
         passed = sum(not audit(row, selected) for row in rows)
         total += len(rows)
         passing += passed
         sections.append(f"| `{path.relative_to(ROOT).as_posix()}` | {passed}/{len(rows)} | {len(rows) - passed} |")
     if matched_reviews != reviews.keys():
         raise ValueError("Language review references missing source rows")
+    goal_keys = source_keys[:REVIEW_GOAL]
+    goal_key_set = set(goal_keys)
+    goal_reviewed = sum(key in valid_reviewed_keys for key in goal_keys)
+    contiguous_prefix = 0
+    for key in goal_keys:
+        if key not in valid_reviewed_keys:
+            break
+        contiguous_prefix += 1
+    first_goal_gap = next((key for key in goal_keys if key not in valid_reviewed_keys), None)
+    reviewed_outside_goal = sum(key not in goal_key_set for key in valid_reviewed_keys)
     sections.extend((
         "", f"**Overall mechanical pass: {passing}/{total}.**", "",
-        f"**Goal (main-agent language review): {min(reviewed, REVIEW_GOAL)}/{REVIEW_GOAL}; remaining to goal: {max(0, REVIEW_GOAL - reviewed)}.**", "",
+        f"**Goal (main-agent language review within the first {REVIEW_GOAL} source rows): {goal_reviewed}/{min(REVIEW_GOAL, total)}; remaining: {max(0, min(REVIEW_GOAL, total) - goal_reviewed)}.**", "",
+        f"**Contiguous reviewed source-order prefix: {contiguous_prefix}/{min(REVIEW_GOAL, total)}.**", "",
+        f"**First uncovered goal row: `{first_goal_gap[0]}` index {first_goal_gap[1]}.**" if first_goal_gap else "**First uncovered goal row: none.**", "",
+        f"**Valid language reviews outside the first {REVIEW_GOAL} source rows: {reviewed_outside_goal}.**", "",
         f"**Corpus language review: {reviewed}/{total}; source rows without a valid review: {total - reviewed}.**", "",
         "Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.", "",
     ))
