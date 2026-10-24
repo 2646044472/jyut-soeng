@@ -129,10 +129,10 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_food_shopping_15.json` | 25/25 | 0 |
 | `content/sentence_bank/long_food_shopping_16.json` | 25/25 | 0 |
 | `content/sentence_bank/long_food_shopping_17.json` | 30/30 | 0 |
-| `content/sentence_bank/long_food_shopping_18.json` | 45/50 | 5 |
+| `content/sentence_bank/long_food_shopping_18.json` | 50/50 | 0 |
 | `content/sentence_bank/long_food_shopping_19.json` | 38/38 | 0 |
 | `content/sentence_bank/long_health_services_01.json` | 100/100 | 0 |
-| `content/sentence_bank/long_health_services_02.json` | 96/100 | 4 |
+| `content/sentence_bank/long_health_services_02.json` | 100/100 | 0 |
 | `content/sentence_bank/long_health_services_03.json` | 100/100 | 0 |
 | `content/sentence_bank/long_health_services_04.json` | 100/100 | 0 |
 | `content/sentence_bank/long_health_services_05.json` | 100/100 | 0 |
@@ -174,8 +174,8 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_health_services_41.json` | 2/2 | 0 |
 | `content/sentence_bank/long_health_services_42.json` | 2/2 | 0 |
 | `content/sentence_bank/long_health_services_43.json` | 2/2 | 0 |
-| `content/sentence_bank/long_home_family_01.json` | 75/100 | 25 |
-| `content/sentence_bank/long_home_family_02.json` | 0/100 | 100 |
+| `content/sentence_bank/long_home_family_01.json` | 100/100 | 0 |
+| `content/sentence_bank/long_home_family_02.json` | 20/100 | 80 |
 | `content/sentence_bank/long_home_family_03.json` | 0/100 | 100 |
 | `content/sentence_bank/long_home_family_04.json` | 0/100 | 100 |
 | `content/sentence_bank/long_home_family_05.json` | 0/100 | 100 |
@@ -700,16 +700,16 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/z_curated_sentences_98-home-and-city_bank.json` | 0/10 | 10 |
 | `content/z_curated_sentences_99-community-and-service_bank.json` | 0/10 | 10 |
 
-**Overall mechanical pass: 4088/15053.**
+**Overall mechanical pass: 4142/15053.**
 
-**Goal (main-agent language review within the first 5000 source rows): 4068/5000; remaining: 932.**
+**Goal (main-agent language review within the first 5000 source rows): 4122/5000; remaining: 878.**
 
-**Contiguous reviewed source-order prefix: 2757/5000.**
+**Contiguous reviewed source-order prefix: 4122/5000.**
 
-**First uncovered goal row: `content/sentence_bank/long_food_shopping_18.json` index 45.**
+**First uncovered goal row: `content/sentence_bank/long_home_family_02.json` index 20.**
 
 **Valid language reviews outside the first 5000 source rows: 0.**
 
-**Corpus language review: 4068/15053; source rows without a valid review: 10985.**
+**Corpus language review: 4122/15053; source rows without a valid review: 10931.**
 
 Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.
