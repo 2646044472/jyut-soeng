@@ -178,8 +178,8 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_home_family_02.json` | 100/100 | 0 |
 | `content/sentence_bank/long_home_family_03.json` | 100/100 | 0 |
 | `content/sentence_bank/long_home_family_04.json` | 100/100 | 0 |
-| `content/sentence_bank/long_home_family_05.json` | 75/100 | 25 |
-| `content/sentence_bank/long_home_family_06.json` | 0/100 | 100 |
+| `content/sentence_bank/long_home_family_05.json` | 100/100 | 0 |
+| `content/sentence_bank/long_home_family_06.json` | 25/100 | 75 |
 | `content/sentence_bank/long_home_family_07.json` | 4/100 | 96 |
 | `content/sentence_bank/long_home_family_08.json` | 0/200 | 200 |
 | `content/sentence_bank/long_home_family_09.json` | 0/100 | 100 |
@@ -700,16 +700,16 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/z_curated_sentences_98-home-and-city_bank.json` | 0/10 | 10 |
 | `content/z_curated_sentences_99-community-and-service_bank.json` | 0/10 | 10 |
 
-**Overall mechanical pass: 4497/15053.**
+**Overall mechanical pass: 4547/15053.**
 
-**Goal (main-agent language review within the first 5000 source rows): 4477/5000; remaining: 523.**
+**Goal (main-agent language review within the first 5000 source rows): 4527/5000; remaining: 473.**
 
-**Contiguous reviewed source-order prefix: 4477/5000.**
+**Contiguous reviewed source-order prefix: 4527/5000.**
 
-**First uncovered goal row: `content/sentence_bank/long_home_family_05.json` index 75.**
+**First uncovered goal row: `content/sentence_bank/long_home_family_06.json` index 25.**
 
 **Valid language reviews outside the first 5000 source rows: 0.**
 
-**Corpus language review: 4477/15053; source rows without a valid review: 10576.**
+**Corpus language review: 4527/15053; source rows without a valid review: 10526.**
 
 Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.
