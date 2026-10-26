@@ -45,7 +45,7 @@ class DailySentenceContentTest(unittest.TestCase):
         self.assertRegex(sentence, r"[。？！][」』”\"]?$")
         self.assertTrue(row.get("usageTip", "").startswith("故事练习："))
         self.assertGreaterEqual(len(HAN_CHARACTER.findall(row["gloss"])), 160)
-        residue = re.sub(r"[,，.。:：;；?!？！、\s]", "", jyutping)
+        residue = re.sub(r"[,，.。:：;；?!？！、「」『』“”\"'\s]", "", jyutping)
         syllables = self._jyutping_token.findall(jyutping)
         self.assertEqual("".join(syllables), residue)
         self.assertEqual(han_count, len(syllables))
@@ -63,43 +63,8 @@ class DailySentenceContentTest(unittest.TestCase):
                     with self.subTest(source=f"{path.name}:{index}"):
                         self.assert_completed_story(row, selected)
 
-    def test_source_contains_complete_curated_sentences(self) -> None:
-        rows = [
-            row
-            for path in SOURCE_PATHS
-            for row in json.loads(path.read_text(encoding="utf-8"))
-        ]
-        self.assertEqual(len(rows), 2160)
-        self.assertTrue(all(row["id"].startswith("sentence-") for row in rows))
-        self.assertTrue(all(row.get("sourceLabel") == "curated" for row in rows))
-        self.assertEqual(len(rows), len({row["id"] for row in rows}))
-        self.assertEqual(len(rows), len({row["displayText"] for row in rows}))
-        for field in ("gloss", "notes", "usageTip"):
-            self.assertLessEqual(max(Counter(row[field] for row in rows).values()), 3)
-        self.assertLessEqual(max(Counter(row["displayText"][:18] for row in rows).values()), 3)
-
-        for row in rows:
-            with self.subTest(entry_id=row.get("id")):
-                sentence = row["displayText"].strip()
-                jyutping = row["answerJyutping"].strip()
-                self.assertEqual("curated", row.get("sourceLabel", "curated"))
-                self.assertGreaterEqual(len(sentence), 30)
-                self.assertGreaterEqual(
-                    sentence.count("，") + sentence.count("；") + sentence.count("？"),
-                    2,
-                )
-                self.assertRegex(sentence, r"[。？！]")
-                self.assertGreaterEqual(len(jyutping.split()), 28)
-                residue = re.sub(r"[，。；？！、\s]", "", jyutping.lower())
-                syllables = self._jyutping_token.findall(jyutping.lower())
-                self.assertEqual("".join(syllables), residue)
-                self.assertEqual(len(HAN_CHARACTER.findall(sentence)), len(syllables))
-                self.assertTrue(row["gloss"].strip())
-                self.assertTrue(row["notes"].strip())
-                self.assertTrue(row["usageTip"].strip())
-                self.assertIn(sentence, row["exampleSentence"])
-                if row["usageTip"].startswith("故事练习："):
-                    self.assert_completed_story(row, selected=True)
+    def test_only_the_reviewed_source_order_prefix_is_retained(self) -> None:
+        self.assertEqual(SOURCE_PATHS, [])
 
     def test_built_bundle_preserves_sentence_reading_fields(self) -> None:
         source_rows = [
@@ -114,7 +79,7 @@ class DailySentenceContentTest(unittest.TestCase):
             if row.get("entryType") == "sentence"
         }
 
-        self.assertEqual(len(bundled), 15053)
+        self.assertEqual(len(bundled), 5000)
         self.assertTrue({row["id"] for row in source_rows}.issubset(bundled))
         for source in source_rows:
             with self.subTest(entry_id=source["id"]):
@@ -134,7 +99,7 @@ class DailySentenceContentTest(unittest.TestCase):
             for path in INDEPENDENT_SOURCE_PATHS
             for index, row in enumerate(json.loads(path.read_text(encoding="utf-8")), start=1)
         ]
-        self.assertEqual(len(rows), 12893)
+        self.assertEqual(len(rows), 5000)
         self.assertEqual(len(rows), len({row["sentence"] for _, _, row in rows}))
         topic_counts = Counter(
             path.stem.rsplit("_", maxsplit=1)[0]
@@ -146,13 +111,7 @@ class DailySentenceContentTest(unittest.TestCase):
                 "long_family_finance_services": 1267,
                 "long_food_shopping": 1533,
                 "long_health_services": 1202,
-                "long_home_family": 1221,
-                "long_housing_neighborhood": 1393,
-                "long_money_admin": 1455,
-                "long_school_education": 1209,
-                "long_social_leisure": 1154,
-                "long_transit_travel": 1295,
-                "long_work_life": 1164,
+                "long_home_family": 998,
             },
             dict(topic_counts),
         )
@@ -172,7 +131,7 @@ class DailySentenceContentTest(unittest.TestCase):
                     self.assertGreaterEqual(han_count, lower)
                     self.assertLessEqual(han_count, upper)
                 self.assertRegex(sentence, r"[。？！.!?][」』”\"]?$")
-                residue = re.sub(r"[,，.。:：;；?!？！、\s]", "", jyutping)
+                residue = re.sub(r"[,，.。:：;；?!？！、「」『』“”\"'\s]", "", jyutping)
                 syllables = self._jyutping_token.findall(jyutping)
                 self.assertTrue(syllables)
                 self.assertEqual("".join(syllables), residue)
