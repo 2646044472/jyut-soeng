@@ -20,6 +20,7 @@ ALLOWED_JYUTPING_SEPARATORS = re.compile(r"[,，.。:：;；?!？！、「」『
 STORY_TIP_PREFIX = "故事练习："
 LANGUAGE_REVIEW_PATH = ROOT / "STORY_LANGUAGE_REVIEW.json"
 REVIEW_GOAL = 5_000
+ACTIVE_REVIEW_ROUND = "macau-comedy-upgrade-v1"
 
 
 def row_digest(row: dict) -> str:
@@ -108,7 +109,11 @@ def render_report() -> tuple[str, int, int]:
                 if review["sha256"] != row_digest(row):
                     raise ValueError(f"Stale language review: {key}")
                 dimensions = ("naturalness", "distinct_plot", "jyutping_readings_and_tones", "complete_gloss")
-                if all(review.get(dimension) is True for dimension in dimensions) and not audit(row, selected):
+                if (
+                    review.get("review_round") == ACTIVE_REVIEW_ROUND
+                    and all(review.get(dimension) is True for dimension in dimensions)
+                    and not audit(row, selected)
+                ):
                     reviewed += 1
                     valid_reviewed_keys.add(key)
         passed = sum(not audit(row, selected) for row in rows)
@@ -134,7 +139,7 @@ def render_report() -> tuple[str, int, int]:
         f"**First uncovered goal row: `{first_goal_gap[0]}` index {first_goal_gap[1]}.**" if first_goal_gap else "**First uncovered goal row: none.**", "",
         f"**Valid language reviews outside the first {REVIEW_GOAL} source rows: {reviewed_outside_goal}.**", "",
         f"**Corpus language review: {reviewed}/{total}; source rows without a valid review: {total - reviewed}.**", "",
-        "Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.", "",
+        f"Only records marked `{ACTIVE_REVIEW_ROUND}` count toward this review round. Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a current-round review remain pending language review.", "",
     ))
     return "\n".join(sections), passing, total
 

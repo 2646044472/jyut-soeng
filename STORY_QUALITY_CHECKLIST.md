@@ -186,14 +186,14 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 
 **Overall mechanical pass: 5000/5000.**
 
-**Goal (main-agent language review within the first 5000 source rows): 5000/5000; remaining: 0.**
+**Goal (main-agent language review within the first 5000 source rows): 50/5000; remaining: 4950.**
 
-**Contiguous reviewed source-order prefix: 5000/5000.**
+**Contiguous reviewed source-order prefix: 50/5000.**
 
-**First uncovered goal row: none.**
+**First uncovered goal row: `content/sentence_bank/long_family_finance_services_01.json` index 50.**
 
 **Valid language reviews outside the first 5000 source rows: 0.**
 
-**Corpus language review: 5000/5000; source rows without a valid review: 0.**
+**Corpus language review: 50/5000; source rows without a valid review: 4950.**
 
-Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a recorded review remain pending language review.
+Only records marked `macau-comedy-upgrade-v1` count toward this review round. Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a current-round review remain pending language review.
