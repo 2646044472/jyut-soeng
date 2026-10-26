@@ -207,7 +207,7 @@
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "宠物店冲凉作主冲突；狗抗拒浴缸却享受吹风，表姐反而怕吹风机，店员与家中结尾回扣“洗完”。已手工校正「躲」do2、「繞」jiu5、「啱」ngaam1，并逐句复核粤拼、简体释义与复述提示。",
+    "notes": "寵物店沖涼作主衝突；狗抗拒浴缸卻享受吹風，表姐反而怕吹風機，店員與家中結尾回扣「洗完」。已手工校正「躲」do2、「啱」ngaam1，並逐句覆核粵拼、簡體釋義與復述提示。「繞」讀 jiu5 保留為可接受異讀：《廣州話正音字典》(2004, p.319)列 jiu2 主讀、jiu5 又讀；《常用字廣州話讀音表》(1992, p.242)同列 jiu2 建議、jiu5 又讀。",
     "review_round": "macau-comedy-upgrade-v1"
   },
   {
@@ -351,7 +351,7 @@
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "观星时误把单车反光片当新星；追踪时差点扭歪脚架，发现光点随骑车人移动，结尾改为等路灯照到才出现。主审补了现场动作和引语，删去无根据的“车牌”笑点，校正「繞」jiu5并逐字核对全文、译文和提示。",
+    "notes": "觀星時誤把單車反光片當新星；追蹤時差點扭歪腳架，發現光點隨騎車人移動，結尾改為等路燈照到才出現。主審補了現場動作和引語，刪去無根據的「車牌」笑點，並逐字核對全文、譯文和提示。目前卡片「繞」用 jiu2 主讀；先前審稿註記寫 jiu5 是過時說法，已依《廣州話正音字典》(2004, p.319)主讀 jiu2、又讀 jiu5 及《常用字廣州話讀音表》(1992, p.242)建議 jiu2、又 jiu5 修正。",
     "review_round": "macau-comedy-upgrade-v1"
   },
   {
@@ -363,7 +363,7 @@
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "社区登记活动候椅与通道被工作人员过度规划，轮椅访客用转斜一张椅子打开直路；工作人员才发现各人目的地不同。主审补上访客直接引语并校正「繞」jiu5；笑点落在先画路线、后问目的地。",
+    "notes": "社區登記活動候椅與通道被工作人員過度規劃，輪椅訪客用轉斜一張椅子打開直路；工作人員才發現各人目的地不同。主審補上訪客直接引語；卡片「繞一大圈」用 jiu5，屬《廣州話正音字典》(2004, p.319)與《常用字廣州話讀音表》(1992, p.242)所列又讀。笑點落在先畫路線、後問目的地。",
     "review_round": "macau-comedy-upgrade-v1"
   },
   {
@@ -459,7 +459,7 @@
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "鄰里見面會上姓名貼貼在背後，阿姨誤以為人人熱情而逐個寒暄；主審改順「講出自己個名」並將「繞」校正為 jiu2。",
+    "notes": "鄰里見面會上姓名貼貼在背後，阿姨誤以為人人熱情而逐個寒暄；主審改順「講出自己個名」；「繞」採《廣州話正音字典》(2004, p.319)的主讀 jiu2。",
     "review_round": "macau-comedy-upgrade-v1"
   },
   {
@@ -579,7 +579,7 @@
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "舅母兒時為免表兄妹撞到茶几，把地磚縫說成河；成年親戚仍繞路，新姨丈也跟着走，舅母憶起舊遊戲後大家才跨過去。主審改「新嚟嘅」口語寫法並把「繞」校正為 jiu2。",
+    "notes": "舅母兒時為免表兄妹撞到茶几，把地磚縫說成河；成年親戚仍繞路，新姨丈也跟著走，舅母憶起舊遊戲後大家才跨過去。主審改「新嚟嘅」口語寫法；「繞」採《廣州話正音字典》(2004, p.319)的主讀 jiu2。",
     "review_round": "macau-comedy-upgrade-v1"
   },
   {
@@ -609,485 +609,527 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 50,
-    "sha256": "88f0fef4ce05382618b6d1a95672307ab7d561c6aae8797641e5b8b81902d381",
+    "sha256": "0d550036d5079e5d94809038efae7e83238d5376116f95f474c23c58fdd0bb09",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "伴侣带厚记事簿而叙述者只带笔开共同户口；报价单被误当收据，结尾交换文具。"
+    "notes": "主審逐段核對四欄。新義工接待流程被兩位同事寫成術語稿，資深義工一句平實提問讓大家聽懂；笑點從白板還要加標題自然收尾。與前段的志願班次、告別致謝不同，核心是工作語言過度包裝。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 51,
-    "sha256": "95153e9f8d79c679bcbfe006f35962da0d67487e524840dd7cd8289ee36c8ac7",
+    "sha256": "e85be83bf6516aa3fa092f5b388888837aaa3c502b6d59c61a28389489019900",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "祖父按旧营业时间到分行，在门口和保安成新朋友；第二天按时到，结尾在茶餐厅反过来考叙述者。"
+    "notes": "主審逐段審讀並修順「將海同天睇反咗」及對應粵拼。成人拼圖小組把參考圖倒轉看，誤認水面反光是天空缺口；最後一塊跌在桌底，梁叔把「天空在桌底」作回扣。與叠塔穩定性、棋局誘招不同，核心是集體看錯圖像方向。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 52,
-    "sha256": "7443972b51a62b717a8b4ad500a4f2abb15ead963276c14db1290a93dc3a4771",
+    "sha256": "1e12e48b14fd1e1cb6f758c4fb3e3951f804f2bb3e2077fb2b9bf9219a799478",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "祖母用铅笔在保单圈字，反问叙述者是否读懂；一家人核对保障和漏问条款，红夹和铅笔收尾。"
+    "notes": "主審逐句核對。嫲嫲閉眼休息引起親戚誤判，手袋扣、椅腳、瓷碗、硬紙和鑰匙聲逐步升級；她醒來後指出大家像做賊，最後讓所有人先坐下。與工作術語、拼圖看錯方向無關，笑點由過度克制帶來。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 53,
-    "sha256": "fb7b5f8ec0f775554c68f1f8222a311095018da638f4b59e7c4e2e981724075f",
+    "sha256": "9eeb980b209eb637135671d12f543004d90b9f4bda765a27fca96ae7dfa0d0d3",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "父亲把多份保单铺满饭桌，母亲指认重复保障；顾问解释不同条款，保单迷宫与月历收尾。"
+    "notes": "主審重寫叔叔的對照引語，去除雨天鞋履乾濕的物理矛盾。街坊佔滿巴士站避雨，真正乘客在棚外看車到未，棚內人則只等雨停；兩群人對同一站棚的用途錯位形成笑點。與路牌、走失乘客無關。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 54,
-    "sha256": "fc824b28ec052cd661dee12ae31770914d7f48e2baeec5d8c4dc3f6513b315ee",
+    "sha256": "81969c7ad133ee6be595eaeab22b639f79af52a21cd64272a357a991857dcfd9",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "父亲拿笔急着签保单，叙述者查出母亲名字错字；重新印表核对，父母争功劳与食橙收尾。"
+    "notes": "主審逐句核對。朋友在海邊把寄居蟹的住殼當成空貝殼，殼口伸出腳後立刻退讓，沒有抓取或帶走活物；收尾是寄居蟹「拎住間屋去散步」。笑點落在把殼當房子，與其他興趣、寵物醫療或物件遺失故事不同。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 55,
-    "sha256": "afbb5d22842c926842510af9f9639cb95d8f584c39f39fb3edb3356c3fd09837",
+    "sha256": "152ece19cb980a7ecdce61f86917ea63cf7d94fffd53651592b82131cbcecfab",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "保险年度摘要像读不懂的小说；顾问用假设例子解释现金价值，哥哥再问小说结局。"
+    "notes": "主審逐句核對。朋友放風箏時過度拉線、反覆微調，等風勢轉穩才鬆手，風箏隨即升高；「自己有前途」與結尾「空中項目」把放風箏說成升職，形成回扣。與平衡塔、運動或其他控物故事不同，核心是控制過頭。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 56,
-    "sha256": "a3af72df95f69d0cb79f5640fec118f11e13f8e4b16438773f722b21dd298ba6",
+    "sha256": "cf015b739b51c75a33ff5475d524354adefa137734a078399c01d7aab0763c13",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "母亲想立即取消附加保障，先问清主保单影响和日期；放大镜在父母间成为笑点。"
+    "notes": "主審逐句核對。乘客口稱不暈船，船身每次搖晃就坐得更斜；下船後仍歪行兩步，最後把後勁說成還要適應陸地。輕微身體反應層層升級，沒有特定航線或本地交通事實。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 57,
-    "sha256": "bb30ec1a247959c56f96df7a54b4a709ee8e5c297f4b1de34f4ceda1b7f5beb3",
+    "sha256": "35cbfa0516b4fbcc4fb17ae55ead3bd8d4f6101544c9064812e72fc871e02f05",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "朋友阿晴搬港前把病历与旧保单混在纸袋，逐项向顾问核实旧病和索偿；码头透明文件夹呼应。"
+    "notes": "主審逐句核對，修正「散開」saan3 hoi1，並以無歧讀的「打敗辣麵」daa2 baai6 替代「制服」。阿強自稱能吃辣，逐口出汗喝水並找理由，按舒服速度吃完；朋友指出先投降的是杯水，形成包袱。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 58,
-    "sha256": "bc3a6a0a9a671c3a0c2ca58eebdb0c4fa8b6409e70d5405ea5b2a33c189dfd5a",
+    "sha256": "3579525f42a57e24cb2603df129a301a727bcb8103c20fe17ca3e3b268de9b7a",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "续保贵一成让父亲急找最便宜方案，母亲圈出条款写法差异；父亲扮老师给分并夹鱼。"
+    "notes": "主審逐句核對，手工改正「香」的粵拼 hoeng1（候選多處寫成 heong1）。柑橘、木香、花香逐次混在袖口，店員用具體氣味指出已聞不清；家姐主動停試，結尾以「鼻要放假」收束。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 59,
-    "sha256": "d90daf79bf3a00fb9408cdca87ce939333af64ddbae68c6f5b323dd5572b8b95",
+    "sha256": "b4cc3f7252bc4764dd0d079fda1f1cded0453fd34b65efaaf5c76225a189f900",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "水管爆裂浸坏电器，父亲把待查风扇与收音机起名；记录受损、补报价，再向阿风道别。"
+    "notes": "主審逐句核對並修正阿欣 aa3 jan1、咖啡 gaa3 fe1、重點 zung6 dim2、打斷 daa2 tyun5 等粵拼。朋友聚談時阿文三番四次替人補句，阿欣最後要指出他打斷人，他又搶答「打斷人？」；結尾他捂嘴等人講完，回扣清楚。與職場術語包裝不同，核心是閒談插話。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 60,
-    "sha256": "4edc75bc936724194dc7cad2123bbed7b9322c084632024539ecb62d48443035",
+    "sha256": "71ad60ff72495c14fbae0b06055623715b96c6bd58a81817cb386d132e97ea57",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "哥哥漏交维修收据，咖啡圈使他担心不清；按原案件编号补件，结尾再把杯移远。"
+    "notes": "主審修順「一入夏」，補出風口葉片轉向後排以解決測溫器移位後前後排溫差的物理因果，並手工核對新增粵拼及完整釋義。前後排各自調溫、主管只盯總數，測溫器位置與風向誤差讓兩邊都不滿；結尾用「先問坐喺邊度」回扣。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 61,
-    "sha256": "15e581279acd207d0deaf2b2e2e81f5421171b531a882ad2976746ddf231af68",
+    "sha256": "f5639c5ce7ec2e162940b3a3841aaf8b198ba2e513a61ddc9393fbf71cdfb872",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "挂号寄原件时叙述者备三封信，父亲开情书玩笑；存根副本和回信使笑话完整。"
+    "notes": "主審修清客人要同一枝上有開花和花苞，刪去花店朋友最後重覆的聞香提問，保留「你會早啲到，佢唔會」及花苞日程未變的收尾。粵拼、簡體釋義和專屬提示逐句核對。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 62,
-    "sha256": "e056495911fdde8036e2b4324379d144bd9b2e5f712449bc21f95235a4091ecb",
+    "sha256": "cc2bfd6b6f7f3f2ea51466ec6eb686d037562893c6a4472899c3fba1d2ef543c",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "阿杰对赔款偏少生气，自付额与折旧逐项问清；豆花的自付额玩笑收尾。"
+    "notes": "主審補清阿偉須回答會議延後十分鐘的問題，將過長草稿刪短後的回覆改為「可以，遲十分鐘」，避免只有收到而未答覆。三位同事把輸入提示當成長篇解釋，實際答案短到一行；結尾轉向盯提示的人比打字者更忙。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 63,
-    "sha256": "fb5c08faab5331d5eab1640d7e429f784efc727e1b8e834d7d463cee2725b55f",
+    "sha256": "7a6eab5f6c09f381dd6da3bebd149eb48e452f214fdf503ebb18ab2063b783ab",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "母亲第一次在线索偿怕按错；草稿中的水浸咗被补成洗手盆漏水经过，跨午夜日期在提交前纠正。"
+    "notes": "主審逐句核對並刪去對前句的重覆總結。舊同事把雜貨舖大門記成不同狀態，店主用送貨時塞門的橡膠門擋解釋出入時間不同，各人的片段都成立；笑點落在記憶跟著自己到店時刻走，無本地歷史聲稱。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 64,
-    "sha256": "94a4ff28382381a444398323fb9d7687ffc10847ed006f35f774be0d2bcbeeda",
+    "sha256": "0c288741d5ca6fcc9628abad49a567db72adac109ec591ff17371e3f04c313fe",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "雨水弄糊师傅手写报价，父亲问螺丝是否要逐颗列；师傅想撕旧单回应改功课玩笑。"
+    "notes": "主審逐句核對。幾位鋼筆愛好者都捨不得用心愛的筆，先後收回盒中，反而讓普通圓珠筆寫滿心得；阿明只用鋼筆寫「好用」，再蓋返筆帽。結尾「一支負責寫，一支負責欣賞」回扣收藏與使用的反差。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 65,
-    "sha256": "274d15aaf848a1f3b1e833698f0593e150c37955a7aa40f9c346ca61f0c5a7da",
+    "sha256": "6d9ba5ab14ebb440d791d4d6685ffa7f5326e86b2ef83b3151d349a1ee9df18c",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "附件过大导致索偿邮件未入档，分封寄时发现漏了地毡照片；贺卡比喻串起母女对话。"
+    "notes": "主審逐句核對，修正「嗝」gaak3及「彈」taan4。鄰居把打嗝造成的輕微頭部彈動當成答應，對方搖頭又被下一嗝帶回點頭；解釋清楚後，告別時的最後一嗝再引出回頭確認。笑點是同一個不由自主動作反覆被讀成答應。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 66,
-    "sha256": "75a54766e5331e0e076b41eb1c63745f50a4473037fe8fb872a5b242b05dbf9d",
+    "sha256": "d51232c14285f6711e670e513eca0df4d16dde34192d3a50d051b940db667386",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "批核信因避橙汁被母亲夹入报纸，父子翻找；透明夹让续保查案号方便，父亲送橙收尾。"
+    "notes": "主審逐句核對。感應水龍頭一移手就停，阿強和同事跟着亂揮手，清潔姐姐示範把手停在感應位置；阿強道謝後才發現自己對着牆上感應器說了多謝。主審刪去不可信的「講咗成分鐘」，保留一次簡短道謝作笑點。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 67,
-    "sha256": "2e1cdc1b83745df61d72bbd714bdda9eff05d0d2673386189c7bcc95b6cacd64",
+    "sha256": "b545dd2fede01d3ed17cd2089c85ff4569bff1dcb3201eeae43ed3d02b7f71db",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "玻璃裂了却不在保单保障内，家人用维修钱换窗，存钱罐贴纸提醒不是什么都包。"
+    "notes": "主審逐句核對，按讀音資料修正「忽然」為 fat1 jin4。叔叔和外甥說好輪流捉迷藏，叔叔躲藏時孩子露鞋讓他找到；交換後孩子卻不躲，站在客廳中央等叔叔來找。反轉落在兩個人對「輪到誰躲」的不同玩法，孩子一句話收尾。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 68,
-    "sha256": "4c13e4ba24f46156ce91198c1f0182a6b6682334011f36a1f958caad8818c37c",
+    "sha256": "33fd550e4571883749153e8e1ed6806ee0e2d793aa0db093eeeb30a103deb655",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "保单钥匙在米缸旁，父亲学手机看加密副本学到第三次；父母争谁先懂打开文件。",
+    "notes": "主審收斂過度誇張的「整個人跳舞」，改為小腿輕彈、雙腳跟着刷鞋節奏縮動；補上「支刷」量詞，並核正「彈」taan4、「彈簧」daan6 wong2。街坊拍手、師傅說加場構成把怕痕誤反應當表演的反轉。",
     "reading_sources": [
       "https://words.hk/zidin/躲藏",
       "https://words.hk/zidin/避開"
-    ]
+    ],
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 69,
-    "sha256": "9b00d4344c1a83231c19d80af8e3e4fa6ff58bcb8307498cf3965c5210bada9f",
+    "sha256": "d06d49adb6e6e1588431fe5d7bd6bfae730fb5fbbb151148cd7c8d622582c326",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "叙述者听定期与终身保障名称想急选，妹妹轻踢提醒讲家庭负担；父亲退休计划和请茶收尾。"
+    "notes": "顧問把客人反覆除戴老花眼鏡誤會成逐字質疑；客人解釋近看與望遠的分別，最後請顧問坐遠些測試認人，無費用或算帳主線。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 70,
-    "sha256": "01fc079195cf9e5743d684b6edf697ccb024421a1e516494481ca83d6a79d3f5",
+    "sha256": "d75efcae982e79fe6056744c8b0e03f465830984d9600adef1923c9deb6fc358",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "听保单投资介绍时只点头，伴侣放笔追问费用；便利贴被风吹到鞋上，唔明就问收尾。"
+    "notes": "主審重寫麵包店熟客反覆隔紙按壓試食包的故事，刪除不衛生接觸及無根據的烘焙說法，以「面試」收尾；逐項校核粵拼與簡體釋義。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 71,
-    "sha256": "12a9982291e595dccc53f69ed556eccd4f6b68ee9656f4978e7d331169a397ff",
+    "sha256": "9264731522bdd19af1981d056f41d7f7c19f64bb4d90db8122d142a3b678d628",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "经纪催签时叙述者煮饭，母亲陪看条款并说饭可赶签名不能赶；修订版和饭勺呼应。"
+    "notes": "主審擴寫並審定等候冷飲時摺餐巾的習慣，杯底水珠令摺角塌下，習慣延伸至外帶袋封口；校核粵拼、釋義及獨立提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 72,
-    "sha256": "20ba9e3d82af9369daffe0c13b7610462207bbb31ca779645336e399d22bdfe1",
+    "sha256": "4cd29928e9d03d41c2f82cc1755aca56926f03bdc8aa0db3107b6fb5e5846cd8",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "父亲自信背证件号码却颠倒两位，妹妹又查出门牌漏字；确认信到后父女斗嘴。"
+    "notes": "主審重構酒店行李反覆卡在旋轉門的情節，明確倒退重試後改走旁邊平開門，以「未入房已同門口熟晒」收尾；手校粵拼、完整簡體釋義及提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 73,
-    "sha256": "4aa820030dbff06690af101528d24ccc7d527ccef2af64f2b650eb954c225326",
+    "sha256": "cce04f89a6ec96f2abbab1a32e7becabb9ff2263f98717e578c952afb96b0cf0",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "三份保单同周扣款让雪柜红圈像考试周，一笔加价差点漏算；买米成了父亲的考试。"
+    "notes": "主審重構退休告別氣球反覆勾住抽屜、紙箱和門把的情節，刪去重複離場描寫，以氣球留下返夜班作收尾；逐字校核粵拼與簡體釋義。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 74,
-    "sha256": "bcbb9bdc6a849d24ae85db798a9c6a6c270c7dee003991955177e1cd289331ee",
+    "sha256": "b79e68364470d72b4cf4306ec25bcb805a4c5b2f005d0a99490359401c4c6119",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "母亲听邻桌称保险高回报，只记得对方吃两笼虾饺；核清保证部分和退保条件，再用虾饺收尾。"
+    "notes": "主審擴寫辦公室收件者等候時逐粒捏爆氣泡紙的習慣，明示手指不自覺伸向另一側，陶杯完好，快遞員以氣泡紙先收工作收尾；校核粵拼與簡體釋義。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 75,
-    "sha256": "2d0f0a4de8c33460852fc4ca0a5c3d9cb74f108442a27bd3deba9f35984d3016",
+    "sha256": "58a5d70baa23da65fb31b33fa5d87a395d134eaaf7568b232b70c26e7a16608c",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "保单旧地址牵出阿姨生日卡被退回；叙述者读错楼层被母亲取笑，新卡画箭嘴收尾。"
+    "notes": "主審重構家人隨著日照不斷挪動家具，最後發現整個客廳都追著貓的光斑重排；加入自然對白並逐字校核粵拼與釋義。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 76,
-    "sha256": "57a949d892c969ca23905866a9fb0996bb6ac8becf7d2319f8becc6c06451800",
+    "sha256": "ee821252936a0cbe23b7cb1644a7d0116caf9f820d78f8947fa728c9904dd380",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "父亲见红利就想换电视，家人核清书面领取方法；最后发现只是遥控两个按钮失灵。"
+    "notes": "主審重寫書法課墨滴把「大」變「犬」的意外，刪除原候選「大隻」說法，改以帶走「犬」收尾；逐字核校粵拼、完整釋義及專屬提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 77,
-    "sha256": "c5b47dee73c72c30ec4c4675d4eed84fa1642cf3a936dca0df1f6d762b40ff68",
+    "sha256": "fd3a2c226b660fc2d976adcd2ade475584b6f2cc5e4e5d686b6728e560fdf8e1",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "全家逐份核对保单时哥哥记错已停的那份，父亲又把信封摆雪柜顶测试大家；母亲端麵收尾。"
+    "notes": "主審校正漢堡刀叉失手的遞進，保留手捧食物才真正開餐的反差笑點，逐字核校粵拼與完整簡體釋義。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 78,
-    "sha256": "252367a444674438beda0e6e99a369ffdc234d58d97e4647373af99417ade916",
+    "sha256": "c1662c7a5af1e3e5e508ca0ff800f44f48ed64f9eaec30e54c39c2b681b53318",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "阿欣户口有钱却收逾期信，查出换卡后保费扣款还连旧资料；大字纸拦她重复付款。"
+    "notes": "主審核對保齡球賽局的「正式分數／潛力評語」反差及箭頭細節，逐字確認粵拼、完整簡體釋義與專屬提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 79,
-    "sha256": "4da62dcbc9a144fd343535af222b54847d529a82f791e1a82170d62c8cb485dc",
+    "sha256": "73b82e29ba9a86a926500e6d6b181cafd0907837bd6209644bc03b3312659c49",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "两份小额意外保单封面不同内容似重叠，母亲指出新单后日才生效的一天空档；试外套尺码收尾。"
+    "notes": "主審核對朋友把故事停頓誤當笑點、阿強故意留白反轉的節奏，逐字確認粵拼聲調、完整簡體釋義及故事提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 80,
-    "sha256": "55365a2909ca0d15dbec5f71bd058d8580cb74386871bc6c2ee49da2c8846cc3",
+    "sha256": "d70f9661d5b9c0b54637e100cb92f9c3460955c6106d16620f34601fb5374ffd",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "批核信已到但赔款未入帐，平台显示银行资料待核实；存折查出漏抄一字，糖水邀约收尾。"
+    "notes": "主審重構太極體驗課中學員怕被注視、待眾人低頭才敢加入的細節，校核粵拼聲調並補自然對白、完整簡體釋義和復述提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 81,
-    "sha256": "00fcc80b22b7390c9098e6181540a77e692b8ada7823da26f552975c374f8125",
+    "sha256": "a31191f4f6696deeff63dcca6407c1b1f3d42f54eeeb02c4b3f994d9ed97a66f",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "阿姨带正本赴分行却临时改成网上交件；扫描后收据放反，职员协助核对，热粥和通话记录收尾。"
+    "notes": "主審把茶聚的味覺描述爭論改成樸素提醒比繁複比喻更有用的社交觀察，手校完整粵拼、簡體釋義與故事提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 82,
-    "sha256": "52aad08f36a7a67ce0e7df987abdaff208b3cdd32c5f2ed900ae7b14159b2fdd",
+    "sha256": "671e525eae247d7ba09304133cd37293a5b54fc1c4291fa9bda07710320af8a1",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "茶餐厅收到可疑补件短信，官网要求收据而短信说医生纸；客服确认风险，回家找到药袋后收据后上传。"
+    "notes": "海邊錄音原想收集鳥叫、風聲，旁白卻蓋過環境聲；朋友指出後再錄，清楚收進去的仍是作者問有沒有錄到。主審逐句覆核正文、音調、簡體釋義和復述提示；修正下午、我問他、行路、環境聲、長椅等粵拼。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 83,
-    "sha256": "ba2c92c5878fc70dbe187123eab4669c30ce005bbbd88d00ec937d6080ba571c",
+    "sha256": "1c6d5dbabe5e5a515ee72e4689e18fe3154e4478c4b40f9699f2d3a30c83ec4a",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "父亲见续保涨价担忧拖累家人；顾问漏看去年复诊记录，父子带两方案回家逐项计算，热汤收尾。 已查明动作畫误配名词waa2；保留原摘要与记录，待主agent逐张复读修正后才恢复有效审校。 主agent逐字复读续保父亲煲汤忘看、旧簿年费用、顾问遗漏上次覆诊、要求画出住院门诊保障、未签带两方案返家和问多一句不失礼的四字段。逐項畫出为动作waak6，旧簿为名词bou2，见到保费dou2；听到眼都定埋是程度连接dou3保留，不机械替换到。保存后恢复有效审校。",
+    "notes": "街坊稱讚阿姨外套和髮型，她每次都補上自我挑剔；朋友提醒她無須交檢討，停頓後只說多謝，成為笑點。主審逐句核對口語節奏、粵拼、完整釋義和專屬復述提示。",
     "reading_sources": [
       "https://words.hk/zidin/畫",
       "https://www.cantonese.sheik.co.uk/dictionary/characters/469/",
       "https://words.hk/zidin/簿",
       "https://words.hk/zidin/見到"
-    ]
+    ],
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 84,
-    "sha256": "330645f42f7c0ee0f51a622ed013ee65abf0ebcc53f1189034f9e476a6cfc1fe",
+    "sha256": "e6013e3b34260672e850556ea658bdb557334654404cd2d60c52b5976457bf9e",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "阿朗搬氹仔，旧信箱堆满续保信；改地址后因邮箱打错未收到确认，咖啡与搬书对话收尾。"
+    "notes": "博物館裡阿敏一路要敘述者猜展品用途，旁人誤以為她在導覽；她承認不知道後，阿敏又追問下一件，笑點落在誠實的臨時導覽員。主審核對正文、粵拼、簡體釋義及練習提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 85,
-    "sha256": "cff0e072fc2764303815ca6de1e43c40052d4d87b23ec0aef6953aa0782558b7",
+    "sha256": "ade0a8bcb836e77e54181cfed40e1535f47d7f9f0d556087d61e625afe3c5d60",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "预约改地址却把文件夹进被猫压住的杂志；迟到仍可报到，改用电子账单核对地址，弟弟添清单笑话。"
+    "notes": "站立會議因阿琪膝頭不適帶來摺凳，其他同事逐個找椅，最後全員坐下；三分鐘內講完，主管把日曆名稱改掉，阿琪問下次是否要帶枱。主審核對粵拼、完整釋義和專屬提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 86,
-    "sha256": "e63292e78380c8d040e5fcfbb9b33805d2f51c7f0e2083a827988081b0418031",
+    "sha256": "0983bc20f158c440d3dc2aaf4d914b505820e809b758df9be4d5bd730ce8c8ae",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "陈伯漏签名、笔漏蓝墨、表上旧号码；入息证明影印本夹在赛马报纸里，买新笔作结。"
+    "notes": "共用樓梯平台的兩戶各掃自家門前，灰線愈推愈厚；清潔員一掃而空，阿叔點出他們每日都在替界線加粗。主審核對粵拼並修正「粗」的讀音 cou1，另核對完整釋義和練習提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 87,
-    "sha256": "b56f9ca26bf78c482d5766516239739dd6579c0dcc59b5226b196379e19dec06",
+    "sha256": "2db11c81af53e7d5446f6193e7d96baf0c3b9eae3437190049006ed5d907f313",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "外公花名误填扣款户名，柜台重填并解释首笔扣款核对，月历记录与饮茶收尾。"
+    "notes": "一群石頭收藏者圍繞普通圓石各自猜想、想替它記名，主人只喜歡它握在手中的尺寸；眾人最後約好帶更大的再一起想名。主審逐句核對正文及手寫粵拼，並確認完整釋義和練習提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 88,
-    "sha256": "2d1df7b88b30d3565710f2e06059146a8c8d31f1d9cb214d1189fec1f8a8e3ef",
+    "sha256": "d3a4a066f54b6495362b7b02f089e382c83c5b05fda4394448aee1f52791631b",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "替扭伤脚的母亲代办却漏授权书；文具店借桌整理，母亲指出授权范围误选，鞋底玩笑收尾。"
+    "notes": "同事為免周報重複而逐項刪掉完成狀態，成品已用數日，新同事卻被文字誤導，以為項目未開始；笑點落在仍在推進的只剩周報那句話。主審覆核粵拼、釋義及故事練習提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 89,
-    "sha256": "69194920acfd22e0395c2a2746273160ef550538fc49bff640b69a051fef0d0b",
+    "sha256": "c11e367bacd1d8de4d01bacbb4a344ed1929d0ddbed483c19905a6d4cb3bde14",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "人工回头审查发现预约时段前后矛盾；改为余位大多在早上、仍有下午一点，正文、粤拼与完整释义同步修正。"
+    "notes": "模型火車迷想按真實時刻表運行，反覆調整無效；停下飲茶時火車反而剛好到站，眾人把準點改成茶點時間，最後按圈分餅。主審覆核正文、粵拼、簡體釋義及復述提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 90,
-    "sha256": "0759604a899b65718fcf14cde07e7c33d440fd200a120814bb1a8f74d1a0d3cf",
+    "sha256": "9edbb9ab899b47d851f9c210c631f4f6cf3e2f15385a4341ac876fc10a6589e6",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "父亲买鱼后找不到提款卡，分行发现旧电话收不到验证码；鱼档老板留住卡，鱼片粥与钱包笑话收尾。"
+    "notes": "遛狗時主人把阿豆逐根銜來的樹枝當成玩掟遊戲，叔叔提醒牠只是在收集；主人抱起樹枝要走，狗便跟上，笑點是主人負責搬。主審核對粵拼、完整釋義與復述提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 91,
-    "sha256": "a295a6a7c2f49b7b74c006a0da982b8f1dd363351877fd4aadfeedcfa638d290",
+    "sha256": "6a7ea5f50661420d92fc11eb1182cf483c396723e318291683609e50a5a23e5e",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "服务费重复扣款，收据背面找到编号；提交页面卡住时妹妹提醒先查确认电邮，退款到账后买风扇。"
+    "notes": "阿朗替阿欣反覆掃走肩頭和袖口的毛，調轉位置後才發現毛絮來自自己的羊毛頸巾；越擦越散，最後把毛搬回自己身上。主審核對粵拼、簡體釋義和復述提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 92,
-    "sha256": "34904251624b7075e3597c11aaf71dae6eac197069de88135ee4eee68c9dae97",
+    "sha256": "774c18952170bf49e70206e6f79437b800343c73011eefc2af1033ea1b4e7008",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "人工回头审查发现从未打印却寻找纸张的情节矛盾；改为哥哥手机找不到截图，正文、粤拼与全篇释义同步修正。 主agent逐字读完兄弟吃橙填表、地址改好断网、已存两页重填第三页、倒数登出、下载副本而非假定截图已存、翌日靠另一手机副本及洗手剥橙的全篇四字段。倒数dou3sou2只修数，文件gin2、证件gin2、姓名sing3ming4、柜台toi2及看到编号dou2逐词修；另查网絡mong5lok6/mong5lok3皆有效，本稿lok6保留，不凭印象判错。",
+    "notes": "阿明路邊拉筋時被的士司機誤當截車，阿欣加入伸手後誤會加深；兩人把手放下，的士才一路駛過。主審核對粵拼讀音、完整釋義和復述提示。",
     "reading_sources": [
       "https://www.cantonese.sheik.co.uk/dictionary/words/20550/",
       "https://words.hk/zidin/文件",
@@ -1095,90 +1137,98 @@
       "https://words.hk/zidin/姓名",
       "https://words.hk/zidin/網絡",
       "https://jyutdictionary.com/dictionary/entry/櫃檯"
-    ]
+    ],
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 93,
-    "sha256": "196b309150de4166393fe0736030911a9efcedae4b0b167b17fa471c541867b9",
+    "sha256": "3f3e041912efc1130373ef6841e1c172392b55911a642cf85e7aad5f6ddd9579",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "母亲网上改收件地址，照片先反光后倒转；短信先到但仍审核，买菜回来才收到完成电邮，旧邻居最后一封信收尾。 主agent逐字读完妈妈旧收件地址、窗光遮编号、照片倒转、拉帘旋正、短信先到但待审核、买菜返家邮件更新及邻居最后一封信的全篇四字段。倒转dou3zyun3及旋转回方向zyun3据物理动作修；收件gin2、成日seng4及见到邮件dou2复核，未把倒转的倒改倾倒音。",
+    "notes": "快步的阿健逢櫥窗便停下，阿芬照自己的步速不斷向前；他想不看店窗而走，差點撞柱，才承認眼睛比腳慢。主審核對粵拼、完整釋義和故事練習提示。",
     "reading_sources": [
       "https://words.hk/zidin/倒轉",
       "https://words.hk/zidin/轉",
       "https://words.hk/zidin/收件",
       "https://words.hk/zidin/成日"
-    ]
+    ],
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 94,
-    "sha256": "66dd4b00b777f03f1819b430598f7ebabb186625d1ecf001a8715ad786b398d2",
+    "sha256": "e8258caac8484b955e7a24a168ffbcf8b2cd7b4460ba64eac4a4286ebaa65225",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "表哥网报资料漏数字，年度摘要信封粘在拖鞋底；对照不同日期避免错填，提交前又发现旧地址，冻柠茶变暖。"
+    "notes": "花店店員反覆扶直自然彎曲的花枝，阿蓉其實只想轉花瓶，讓花頭對住自己；溝通清楚後不用再與花枝較勁。主審核對粵拼、釋義和復述提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 95,
-    "sha256": "1a5dd6221cc3299386c1c8f7f749e884e9d18e844367b99b8a862bc736490140",
+    "sha256": "30c747eceb86ce6bff6be4e3a4048c2d389a74688d1f4b910ce26423e74b30a9",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "同事申請活动场地误选隔壁大堂，提交编号写手掌被洗掉大半；小礼堂门口留椅子回扣开头。"
+    "notes": "疲倦的客人把洗頭助理的轉頭指示聽成巴士轉彎，到最後竟問是否到站；助理說下次不用找下車鐘，同行朋友笑到險些走錯門。主審修正不自然的暖氣聲為風筒聲，並核對粵拼、釋義與復述提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 96,
-    "sha256": "9aac8ca52f23d989af3d646f29c8009c98d0ca87273594af17b22fd384ad7d4b",
+    "sha256": "d9c461acad723c5e408ab966099e6a46dd8ab49e6bed6f9ccf8baa790dc75192",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "父亲以为乌龟名字是密码，重设短信发往旧卡；找出抽屉卡后重设，冰箱贴纸与熟睡乌龟回扣笑点。"
+    "notes": "雨天大堂，阿明的長遮勾住旁邊濕遮，眾人小心拆開並靠牆排好；門口風一吹，遮同時撐開成一排晃動的遮林。管理員說雨停反而要返多陣工，阿明則說自己的遮不捨得放工。主審核對故事、粵拼、釋義和復述提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 97,
-    "sha256": "ddb841d5cd2b3066a43eac6badea6bb62c81b57eb4433d76f1756745a7fc9b95",
+    "sha256": "e3e8aff526315914262f05dfb53e96b807251d3be5f5336cd99bbdc472482217",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "母亲找维修单翻乱客厅，云端六份“最终版本”前五份都是电饭煲单据；备份空白后重扫，地毯收尾。"
+    "notes": "共享洗衣房裡，床笠橡筋角一拉就彈開，兩位幫手被罩成帳篷；阿玲最後把床笠套住洗衣籃，叔叔說要找東西包住它，三人笑說床笠較識摺人。主審核對正文、粵拼、釋義與提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 98,
-    "sha256": "e420aa4bb820b93c9e39986ddd3bee93cdac04099171f0df227eec47a5c9d74f",
+    "sha256": "7daafdf8a022ba434144a926f65325fff599c96e593569974a2c6a1d093ea7bf",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "阿琪用动态照片上传申请不合格式，猫尾巴扫过画面；重拍地址证明时猫坐纸中央，租客未获批笑话回扣。"
+    "notes": "社區拼圖夜少一塊，阿昌帶頭從地下、椅底、紙盒逐處搜尋，最後發現拼片勾在鬆開的袖口；它正好補回缺口，眾人笑他拿着拼片帶隊找了一晚。主審核對正文、粵拼、釋義和復述提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_01.json",
     "index": 99,
-    "sha256": "d671f6736fc76aef8fe96486fa2c2da72b50e89ced394966e2c7fd1dc5452fc6",
+    "sha256": "1320fba550a708af597df67b67a62641f4b66439ab0e1aa99f6d99a38883cb01",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "人工回头审查发现妈妈收到转发文件才来电，却被写成亲耳听到叫声；改为邻居转述，正文、粤拼、释义同步修正。"
+    "notes": "飯後阿姨挑戰削不斷果皮，果皮厚而愈削愈長，家人輪流托住它繞過果盤，最後蘋果只剩一小口；笑點落在最忙的原來是果皮。主審核對正文、粵拼、釋義及復述提示。",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_family_finance_services_02.json",
