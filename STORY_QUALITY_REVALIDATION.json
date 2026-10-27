@@ -1934,10 +1934,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 41,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "11eaf2f3c25affdce35bfdd79b59c15c26bc98f811fb4655972ded3583c3d7fb",
-      "v2_sha256": "11eaf2f3c25affdce35bfdd79b59c15c26bc98f811fb4655972ded3583c3d7fb",
-      "notes": "Candidate rewrite preserved outside the staged checkpoint. Pending main review: the manually entered Jyutping has 265 whitespace tokens against 273 Han characters; contextual word-by-word correspondence has not been verified. Do not count as V2 pass."
+      "v2_sha256": "818dd284905e8f724a0385e7bae1815a596a929edc1f3c95a24488c99877014e",
+      "notes": "互相礼让导致整段主歌落空，副歌高分让他们把礼貌误认成默契；再次互让扩展到服务员，服务员用“收碟不是收咪”抢到唯一完整笑点。逐字核对274个发音单位（含“唱K”的K=kei1）与正文；复审场景、释义和复述提示，保留原分类与元数据。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -1958,18 +1958,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 44,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7cb30e7e79b8b37f6dd835bd644cd90bdebf06016d9170be73aa93dcb9ea5d07",
-      "v2_sha256": "7cb30e7e79b8b37f6dd835bd644cd90bdebf06016d9170be73aa93dcb9ea5d07",
-      "notes": "阿敏逐渐把花盆交给讲解过多的叙述者照料，动作铺垫清楚，但“新规矩”与抱盆离场仍偏温和，冲突和最终反转不够响。四字段均已审读，需加强。"
+      "v2_sha256": "70a24bd19195257a61062e9f09207637b1151c2d7ba16d590e52a8fbd98775b3",
+      "notes": "过度讲解先让朋友把盆交给叙述者，再使街坊与义工误以为他负责照料；朋友空手离场，最后把推车也交给他，反转成临时园艺组劳力。逐字核对302个粤拼音节并审读场景连续性、完整释义、复述提示；类别和元数据未变。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 45,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "75d75c9b25299259f07fdbe51341f8e61f0ddfe70d2dd9554fb5f3e09299952d",
-      "v2_sha256": "75d75c9b25299259f07fdbe51341f8e61f0ddfe70d2dd9554fb5f3e09299952d",
-      "notes": "两只猫比主人更容易被认出，开会与线下见面信息连贯，但遗忘猫名的结尾重复前面的记名梗，笑点力度和递进不足。四字段均已审读，需重构。"
+      "v2_sha256": "3b3c304591232e9b5346d2b842cce286895c886dc85ce82271e26669c25c8705",
+      "notes": "线上会议反复以猫的行为代替主人身份，线下互报姓名后又被群聊猫相和键盘乱码夺回焦点；最后主管先点猫、再问空白人名栏，形成升级后的反转。逐字审读四字段，修正“叫得出”漏写的 ceot1，并核对278个音节；分类元数据保留。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -1982,10 +1982,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 47,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "74927dabf430b621595161cb8d9a1f88bceb4e580a16c171b2fc891f21d1044f",
-      "v2_sha256": "74927dabf430b621595161cb8d9a1f88bceb4e580a16c171b2fc891f21d1044f",
-      "notes": "举手暗号被哥哥误认而临时上台，兄弟情节温暖且连贯，但酱汁误会的释压较轻，最后只处理污渍，缺少强包袱。四字段均已审读，需强化。"
+      "v2_sha256": "f5bf5a2083ad7c5f63c35933d732fceded0b5b13103bc3979c4d73ea0bba3245",
+      "notes": "手指暗号被领口酱汁误触发，哥哥的掌故越讲越长；司仪两分钟手势被误读成续讲、亲戚举手又被当成点名，直到表哥亲自递纸巾才停。结尾甜品被司仪当成真正的“叫你”回扣误会。逐字核对所有发音单位并复审四字段；元数据保留。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -2054,10 +2054,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 56,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f85cc08d66787088743c24610fed4f408260148600cefd083015c9deb19bc05c",
-      "v2_sha256": "f85cc08d66787088743c24610fed4f408260148600cefd083015c9deb19bc05c",
-      "notes": "阿朗逐日用问题和林叔出门、买菜、坐公园，最后才互问名字，温情自然但核心反转只是两边都没问名字；结尾再问问题重复开场，喜剧力不足。四字段均已审读，需重构。"
+      "v2_sha256": "faf867640ba68724377c87cb3d0262dda675dd4733a261e18421df8018702d3f",
+      "notes": "每日的开场问题逐步变成实地导览，街坊把叙述者当成“林叔带来的那个”，物业又误认他为新住户问询台；身份反转强化了邻里日常的笑点。逐字复核289音节，补齐两处“员”(jyun4)，更正第二个“伯”(baaak3)，并审读四字段；元数据保留。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -2102,10 +2102,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 62,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ddab06e35d5174d51329649792114f88ae66f737102dd7e368de095758dcb3b3",
-      "v2_sha256": "ddab06e35d5174d51329649792114f88ae66f737102dd7e368de095758dcb3b3",
-      "notes": "旧地图对照童年食店回忆，帮助找出学校位置；但整篇主要是温和回忆，最后“糖水铺”仍是补充路线信息，没有强喜剧反转。四字段均已审读，需加强。"
+      "v2_sha256": "cb6f4f723db8f1a8eee1193de3f07a75873cf141dee71291b6c7d7edcd1c4abb",
+      "notes": "街名记不住、食店位置记得清，让路线越画越像觅食图；地图转正才发现学校在饼铺旁，叙述者先前其实在图上把街口兜了一圈。结尾把思绪又带到放学路，完成食物定位的回扣。逐字复核260音节和场景连续性、释义、提示；以“兜”避免不确定的繞读音；分类元数据保留。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -2294,10 +2294,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 86,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "57d97053fe88ffed35ce060248d36ff6a1c8ca815230db0f67b3fa2d433ef5ea",
-      "v2_sha256": "57d97053fe88ffed35ce060248d36ff6a1c8ca815230db0f67b3fa2d433ef5ea",
-      "notes": "阿姨识破假欠费链接并按步骤核实、举报，信息准确且连贯，但主体是防骗说明，缺少喜剧递进和笑点；四字段已审读，需改成符合故事目标的冲突。"
+      "v2_sha256": "59d579826c42f0ff56a8b740d30d4f4c60bb73aefcd51db54dbf76c3f9abba62",
+      "notes": "逐步抄纸的报名记录让阿姨被当成义工，课堂上她先帮同学登录，再被请去示范；老师教她传相片后，全班反过来把她的纸笔记当教材。误会层层升级且回扣纸本习惯。逐字核对320音节，修正“登入”“第二个伯”“上载相片”等读音；四字段已审阅，元数据保留。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -2326,18 +2326,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 90,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "1a8d00f508d65ae14ce850c9ad5d98d2041dce2be30755e74f4c342a0cae00e7",
-      "v2_sha256": "1a8d00f508d65ae14ce850c9ad5d98d2041dce2be30755e74f4c342a0cae00e7",
-      "notes": "家庭救援队标志、漏水和收据入账有连贯的行政过程，但结尾只是确认备用钱用途，喜剧冲突及笑点不足。四字段均已审读，需重构。"
+      "v2_sha256": "3d28126394211cbe304db6d039cd77a5433ec8fe2c21781b0cc046495a387661",
+      "notes": "一粒水珠被放大后触发三姐妹同时指挥，爸爸先关阀擦干，三人到场只见空桶而群组已有八十多条消息；群聊“水浸”超过厨房漏水，静音回扣。逐字核对255音节并复审四字段；情节围绕协作误会而非账目，类别与元数据保留。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 91,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "201977af791bc59ff1cfd4b96e698473ce706721d4d24e4c9c3ae34121469e46",
-      "v2_sha256": "201977af791bc59ff1cfd4b96e698473ce706721d4d24e4c9c3ae34121469e46",
-      "notes": "饼罐存钱与冰箱维修触发资金分配，虽然“等到期先开罐”及最后装饼有小巧思，主体仍以比较、逐笔计算收支为主且无强喜剧递进。四字段均已审读，需重构。"
+      "v2_sha256": "f205d16436737517a8a1ad91d59e30e820c94b7447089d244ef6ae8aa6ec7371",
+      "notes": "婆婆把探亲饭局逐步变成送餐路线，邻居又把空盒交给叙述者回收；“食饱未”最后反转成确认他还有没有手力搬餐盒。逐字核对256音节并将“食晏”校为 sik6 aan3，四字段与场景连续性复审，原类别和元数据保留。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -2350,10 +2350,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 93,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4cfd60ffeb072c2f2d13d519dc11bcf26c442d2fd0683a1672f91ced4c6f60ed",
-      "v2_sha256": "4cfd60ffeb072c2f2d13d519dc11bcf26c442d2fd0683a1672f91ced4c6f60ed",
-      "notes": "汇款姓名漏字的处理步骤清楚，但转账核对与拼名测验的结尾偏轻，整体像服务说明，缺少足够喜剧升级。四字段均已审读，需重构。"
+      "v2_sha256": "041a6bc7a8c0054c12529ff26870950698263b0550b734d98de2c002ee93c305",
+      "notes": "语音转文字把哥哥的名字听成阿狼，家人从问犬种、备狗碗到备狗粮，第二条语音又把他和狼并列；哥哥回家才揭示阿狼就是他，结尾改用打字回扣。逐字核对246音节，复审场景、四字段；原分类元数据保留。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -2366,42 +2366,42 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 95,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "eec38a9cdf6a73a3241194bf97d7776f3d4954e9d6e15a6f65192e154b132121",
-      "v2_sha256": "eec38a9cdf6a73a3241194bf97d7776f3d4954e9d6e15a6f65192e154b132121",
-      "notes": "电话诈骗的风险处置顺序清楚，但这篇是防骗提醒而非喜剧故事，几乎没有笑点；四字段已审读，需按故事目标重构。"
+      "v2_sha256": "e5ac855718924df202d1da0b98639a6f1c807340edd70ee1551d028685b83ed4",
+      "notes": "爸爸用三个问题拖住可疑来电，家人分工查号码、记录，骗子转主管后挂线；紧接着爸爸把相同核查套到真实快递员，快递员反问“我是来送件，不是来应聘”，形成情境反转。逐字核对257音节并复审四字段；类别和元数据保留。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 96,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "77206547d6226f1665ea3bc79b4974235faccb8235cd98f0da88cf95a5b352bc",
-      "v2_sha256": "77206547d6226f1665ea3bc79b4974235faccb8235cd98f0da88cf95a5b352bc",
-      "notes": "这篇假抽奖链接故事有核验与举报，但和本文件86、95的假客服/诈骗主线重复，结尾鱼和“免费听笑话”也不足以形成新鲜的喜剧递进。四字段均已审读，需改写。"
+      "v2_sha256": "9e5b9423900496730a00365702eb4493dd28a1bee2f9f7118184801fdd99cc40",
+      "notes": "爸爸拍煮鱼教程却一直用前置镜头，妈妈让他把镜头放低，他听成音量调高；家人最后发现只有他的脸，没有鱼。逐字核对234音节，复审连续性、完整释义和提示；未沿用假链接冲突，类别及元数据保留。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 97,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "054c14b7d47155fc7caa287f7c84df6e12a485f38a45fcab95d0a9e2486586d1",
-      "v2_sha256": "054c14b7d47155fc7caa287f7c84df6e12a485f38a45fcab95d0a9e2486586d1",
-      "notes": "借学费后逐项核算收入支出、约定还款并签副本，核心是家庭借钱与还款安排，且结尾只有温情纸船，落入用户要求减少的家庭算账套路。四字段均已审读，需改写。"
+      "v2_sha256": "c8dab6c3cf6f56cf658c76801d585381108186ff56c621a4d4c823b5a508035e",
+      "notes": "The family treats a presentation rehearsal as a serious meeting; the TV remote accidentally swaps slides for a weather report, which Ah Ching reframes as market data, then Dad’s dinner question turns into a procurement assignment. The visual remote/fridge callback gives the ending a concrete payoff. Reviewed all four fields, the full gloss and event-specific tip; matched 291 Han characters to 291 manually checked Jyutping syllables and preserved category."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 98,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "aaa8acd5f4a402ba8e7d9d5601c6b8f3ab7416968d3cd99893210917f7e41343",
-      "v2_sha256": "aaa8acd5f4a402ba8e7d9d5601c6b8f3ab7416968d3cd99893210917f7e41343",
-      "notes": "网络退款延迟、记录账单和追问客服与多篇账单/退款主线重复，月历问号与香槟收尾仍是轻微讽刺，不够新颖有力。四字段均已审读，需改写。"
+      "v2_sha256": "fcaede18075cb3e91ebc07a0cea7f778f6dde77c96884c7ff0de57ea61d1fe6b",
+      "notes": "A family birthday video is derailed by an over-sensitive noise gate: silent posing, the sister’s mistaken ceremonial bow and a table tap escalate until the upstairs neighbor joins the recording. Playback makes the neighbor louder than the family, so Dad’s grand title overstates the tiny chorus. Reviewed continuity and all four fields, full event-matched gloss/tip, and manually paired 287 Han characters to 287 Jyutping syllables; category preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 99,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "411c8e1d7da915b4ca93ddec23926afb26e0402010c617a6916cf7c701f0151d",
-      "v2_sha256": "411c8e1d7da915b4ca93ddec23926afb26e0402010c617a6916cf7c701f0151d",
-      "notes": "退休金申请、核对文件、逐月对账和分配余额以说明生活安排为主，和家庭理财记账套路重叠，笑点很轻。四字段均已审读，需改写。"
+      "v2_sha256": "a234a4e729598676631b7b3476c205b7646a6eea18a454b1a48fbb4754e9a7b1",
+      "notes": "Grandpa’s choir practice turns a kitchen cutting board into percussion; his over-fast rhythm pulls in the neighboring dance class, which then requests the improvised accompaniment. Grandma’s closer promotes his retired hobby into an instrument-department job. Reviewed scene continuity, all four fields and the event-matched tip/gloss; manually paired 225 Han characters to 225 contextual Jyutping syllables and preserved category."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2414,26 +2414,26 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 1,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "648b5511b7b99f768bed3ab1961ab43d7cd7552ac90c33176f1280b70dbe6ac6",
-      "v2_sha256": "648b5511b7b99f768bed3ab1961ab43d7cd7552ac90c33176f1280b70dbe6ac6",
-      "notes": "新工发薪日和租金、信用卡、学费的日期安排占据主线，主要靠家庭对账和资金周转制造冲突；铁盒旧戏飞糖果的笑点较弱，重复用户要求减少的算账套路。四字段均已审读，需改写。"
+      "v2_sha256": "b9db59a92338b1e5b2afc5a156a8d37a7b8076bffdf8f51f3ffe3967169f69af",
+      "notes": "An employee mistakes the new general manager for a new hire and tours him through the office; the coffee machine then stumps them both until the cleaner teaches the pair. The final line gives the cleaner the real onboarding success. Reviewed all four fields and event sequence, matched the full gloss/tip, and manually paired 262 Han characters with 262 Jyutping syllables; retained the original category."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 2,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "0f13fa7a6a874bea176ff91bcf80a33ba64694a62afdb648921fb0f47d37d5fd",
-      "v2_sha256": "0f13fa7a6a874bea176ff91bcf80a33ba64694a62afdb648921fb0f47d37d5fd",
-      "notes": "旅行预算、酒店等级和水费单的对话以家庭资金分配为核心，风扇在海边的回扣有趣但不足以抵消重复的家庭算账冲突。四字段均已审读，需改写。"
+      "v2_sha256": "778ee0f8c4637df33e241e5438154441b1a5d28af9e4eae438cd044777a4d8b6",
+      "notes": "The family moves during Dad’s panoramic sweep and duplicate appearances turn the travel photo into an accidental oversized family portrait; an onlooker mistakes the extras for relatives. Mom keeps the image as a playful answer to how large the family is. Reviewed all four fields, coherent panorama actions and event-matched gloss/tip; corrected 刪 to saan1, manually checked 230 aligned syllables, category retained."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 3,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8b76206475b4e61bc7f2e772cd586214c6be3c5c070e689604ba927cee36e2e2",
-      "v2_sha256": "8b76206475b4e61bc7f2e772cd586214c6be3c5c070e689604ba927cee36e2e2",
-      "notes": "学校旅行费与材料费按日期核对、错放信封和确认订金，核心是家庭处理费用与记账；曲奇似地图的结尾偏轻。四字段均已审读，需改写。"
+      "v2_sha256": "cdd3b3cc676d496335d393c798d08ea570b79529181b4b26672c93b06e787a72",
+      "notes": "The sister’s vet role-play turns the dog’s sock into a suspected symptom; the family searches for the matching sock and finds it pinned under the dog’s paw. The closing diagnosis sends the family to tidy their socks. Reviewed action continuity, all four fields and event-matched gloss/tip; manually paired 229 Han characters with 229 Jyutping syllables and preserved category."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
