@@ -20845,82 +20845,82 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 11,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "90fc55746cc537b77ed974485c0ad2641813fa0939151e445898135400caa341",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "90fc55746cc537b77ed974485c0ad2641813fa0939151e445898135400caa341",
+      "notes": "Needs revision: the core problem is comparing delivery fee with the price of milk, followed by a gift coupon and a claim about learning to compare shipping versus pickup. This puts delivery costs and promotion at the center and ends as a mild how-to anecdote, against the reduced-money-motif goal. All four fields read; tip matches the self-pickup sequence."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 12,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "cfc6de53a15c392db73dd45577a48d475b136e938c53275a239804b4614be515",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "cfc6de53a15c392db73dd45577a48d475b136e938c53275a239804b4614be515",
+      "notes": "Needs revision: choosing ripe bananas and rescuing an eggshell from cake batter are coherent small mishaps, but neither escalates into an earned comic reversal; the final recipe note is mild. All four fields read; the tip matches the selection and baking incident."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 13,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "0cdccd9d7b2d1a128d7aacbfaa0892c516d06460107b65c6f1be4fb527971a2d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "0cdccd9d7b2d1a128d7aacbfaa0892c516d06460107b65c6f1be4fb527971a2d",
+      "notes": "Needs revision: soup preparation is a calm cooking account with a mild “not enough to share” line, but no comic conflict or escalation. All four fields read; the tip summarizes the cooking and sibling response."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 14,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "cfd90ad2f6e5be26c119c717babd5b133917eedf66b7c29405f727736ee47842",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "cfd90ad2f6e5be26c119c717babd5b133917eedf66b7c29405f727736ee47842",
+      "notes": "Needs revision: coworkers discover mislabeled drinks, get replacements and egg tarts, then joke about writing names on cups; the service mix-up is resolved but the ending is predictable and not strong enough to carry the long story. All four fields read; tip matches the correction."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 15,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "ad29baeaaa83be0ab3c3e07f27a9080d3cb27bf8ac4793fbfa4d062b221251f0",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ad29baeaaa83be0ab3c3e07f27a9080d3cb27bf8ac4793fbfa4d062b221251f0",
+      "notes": "The delayed breakfast and missing hot coffee lead to a spill in the lift; the replacement cup creates a second cup, prompting the coworker’s buy-one-get-one quip and sharing at the morning meeting. The physical mishaps escalate and the cup-lid habit pays off at the end. All four fields read; tip follows the actual spill and replacement."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 16,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "04a41d7312bf30e54b01f90a7768b8f4501e66d47346ce6c66496f802da8a9af",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "04a41d7312bf30e54b01f90a7768b8f4501e66d47346ce6c66496f802da8a9af",
+      "notes": "The grind is adjusted after sour coffee, then the thermos cools it; the first cup “like lemon water” is a mild observation, not a strong payoff, and the sequence lacks a clear comic reversal. All four fields read; tip matches both brewing issues."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 17,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c98b8d658a4707cbb06068ad54cbc24791db2e33049cfb9ada8a0064094b23d9",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c98b8d658a4707cbb06068ad54cbc24791db2e33049cfb9ada8a0064094b23d9",
+      "notes": "The missing steamed egg is retrieved in the rain, but the “like a delivery worker” line is a mild aside and the story ends with a phone number on the fridge. The mishap does not build into a strong punchline. All four fields read; tip matches the retrieval."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 18,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "87b46b1a3fdcc5a6625de62db484f51db66a2dcdd82b5f1ccd18daa1031b65ff",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "87b46b1a3fdcc5a6625de62db484f51db66a2dcdd82b5f1ccd18daa1031b65ff",
+      "notes": "The child wants to drink the honey, then dislikes its intensity and likes the tomatoes; later a power cut prompts a patio salad and a neighbor brings bread. These pleasant events do not form a single escalating comic conflict. All four fields read; tip matches the scenes."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 19,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c2e2308b96bdbdb2a363008730b82c2308abd2d22269604ce1353e7592bcb2d5",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c2e2308b96bdbdb2a363008730b82c2308abd2d22269604ce1353e7592bcb2d5",
+      "notes": "The meal portioning is interrupted by splashing water and a near-forgotten stove, but the rescue depends on the small flame and ends as a routine meal note. The story centers measurement and has no earned comic payoff. All four fields read; tip matches portioning and the spill."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 20,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "a99ae994408f60550180aed6062b55a56cf3a35b1eb5e9cf95b08f27d5ab492f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a99ae994408f60550180aed6062b55a56cf3a35b1eb5e9cf95b08f27d5ab492f",
+      "notes": "Sticky cookie dough, a rescued bowl and an over-sugared first tray make a coherent baking mishap, but the neighbor’s “cookie shop” line and final recipe reminder remain mild, without a distinct reversal. All four fields read; tip matches the dough repair."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
@@ -22573,250 +22573,250 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 4,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "49eff4766227298eab5a584da152502fbec725a626aa17be5c3dc45d59a1f888",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "49eff4766227298eab5a584da152502fbec725a626aa17be5c3dc45d59a1f888",
+      "notes": "Needs revision: this story concerns new exertional breathlessness and a clinic assessment. The father’s later advice to walk slowly is prudent, but “stop to watch birds” is a gentle observation, not a comic escalation; the narrator’s playful doctor remark is not earned by the examination. All four fields read; tip matches the visit."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 5,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2fbcad1c97a99d1e924a54e0f0c1d2fc7d357575110c8d36827e0a262ec2e8f8",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2fbcad1c97a99d1e924a54e0f0c1d2fc7d357575110c8d36827e0a262ec2e8f8",
+      "notes": "Needs revision: the medical card is found stuck to a receipt and the child chooses a dinosaur sticker, but the events resolve routinely without building a comic reversal. All four fields read; tip matches the card and the child’s reluctance."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 6,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f6dfc5f62a85918a7d8182421b30b9d4e39e9f22167c6e8d90910cee69d5ee12",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f6dfc5f62a85918a7d8182421b30b9d4e39e9f22167c6e8d90910cee69d5ee12",
+      "notes": "Needs revision: grandma interprets making soup as evidence she cannot be very ill, then asks not to be assigned dishwashing. These are mild lines around a health concern and the rotating companion chart feels procedural; no strong payoff. All four fields read; tip matches the symptom report and family rota."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 7,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "e70551f4d9fa257f212aeedfc462f1bcc6f570670fb2ad8e7b89efd0bd64398f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e70551f4d9fa257f212aeedfc462f1bcc6f570670fb2ad8e7b89efd0bd64398f",
+      "notes": "Needs revision: grandma misreads the appointment time as waiting for the narrator to finish work, then finds the clinic address resembles a shopping street. Both are understandable confusions, but the story resolves them practically and ends on a rain reminder without a strong punchline. All four fields read; tip matches the itinerary."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 8,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "c60d8f8c1b8da77223bfb6d53e6e27ea4163d2dc48f9d38d12546921f5e0b063",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c60d8f8c1b8da77223bfb6d53e6e27ea4163d2dc48f9d38d12546921f5e0b063",
+      "notes": "Dad mishears “check the medicine label” as “watch TV before taking medicine,” creating a clear misunderstanding; fetching the hearing aid and making him confirm twice escalate the scene, and the “human subtitles” line returns to the narrator’s role. All four fields read; medication instructions are checked with the clinician, and the tip reflects the actual events."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 9,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "b1e52cead85f0465d117737855fea844624b43c51d636364403b9cbc7da0985f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b1e52cead85f0465d117737855fea844624b43c51d636364403b9cbc7da0985f",
+      "notes": "Needs revision: the family tracks ingredients and symptoms after a possible food sensitivity, but the refrigerator “map” and frowning mango icon are visual notes rather than a comic reversal. The sensitive medical subject is handled cautiously. All four fields read; tip matches the tracking."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 10,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "dd4ab63c5d31ff2bb326f8d4f33542542c02eefcae43d79a6473f3c55c127758",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "dd4ab63c5d31ff2bb326f8d4f33542542c02eefcae43d79a6473f3c55c127758",
+      "notes": "Needs revision: the clinic chair becomes a “companion” for the mother’s bag and a better sofa, but these are isolated anthropomorphic asides; the scene has no escalating conflict or strong ending. All four fields read; tip matches the chair/waiting scene."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 11,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "fcab680bb65262d927e9411c0a9b10e99ec1f40363c1b12ffb8fef71f90b85b9",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "fcab680bb65262d927e9411c0a9b10e99ec1f40363c1b12ffb8fef71f90b85b9",
+      "notes": "Dad sets out to prove stamina, then the bird pecking a bag exposes the report copy he left behind; the bird becomes a recurring comparison as he sensibly changes his walking route. The bird-led reversal and rest-day callback hold together. All four fields read; tip matches the events."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 12,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "224e1437bf5d642d4e62395cf5a24fd99d7705a87c37b12cb802db810627f1c1",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "224e1437bf5d642d4e62395cf5a24fd99d7705a87c37b12cb802db810627f1c1",
+      "notes": "The cat repeatedly occupies the glucose diary, leaving paw prints that the father first marks as the cat’s signature; at the clinic he turns them into “two numbers” belonging to the laziest family member, and the “no cat substitute signature” note completes the callback. All four fields read; medical record remains clearly separate."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 13,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "decdb45219189cb135b040f25cb0db6380cf2af0e8eb5816aa981e911882c2ff",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "decdb45219189cb135b040f25cb0db6380cf2af0e8eb5816aa981e911882c2ff",
+      "notes": "The narrator’s over-large exercise moves nearly hit a paper lantern, grandma compares the pose to a food-snatching bird, then the waiting child joins in and turns the corner into a tiny performance. The physical mishap escalates into a scene, with a coherent gentle payoff. All four fields read; the practice tip follows it."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 14,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "a23562544c67a644c7d83bde1d7ec63875953a602d7dfa5ac90fa4784b9d37f4",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a23562544c67a644c7d83bde1d7ec63875953a602d7dfa5ac90fa4784b9d37f4",
+      "notes": "The narrator’s hoarse voice is compared to an old radio; the child imitates it, then the father’s drawn loudspeaker turns “speak less” into a household reminder. This is a clear escalating vocal gag with a visual callback. All four fields read; clinic advice stays responsible."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 15,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "ba233740b0d53d86b82f4f9b5724bc37b4da0cbca6c8e22d548b9d7d795fcaec",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ba233740b0d53d86b82f4f9b5724bc37b4da0cbca6c8e22d548b9d7d795fcaec",
+      "notes": "The medication list’s back side contains the grocery reminder; after the pharmacist verifies the actual medication details, the phone alert “buy tomatoes” nearly gets mixed with the medicine routine, and the red tomato circle resolves the mix-up. The prop-based escalation stays safe and has a clear callback. All four fields read."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 16,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c91c596b035dde620ab1a554f586aa3b481f0325bd74a6e2ce8b93dd77acb186",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c91c596b035dde620ab1a554f586aa3b481f0325bd74a6e2ce8b93dd77acb186",
+      "notes": "Needs revision: the appointment time is moved to fit school pickup, then the child asks about egg tarts; the joke is a mild observation, not an escalating payoff. All four fields read; tip matches the rescheduling."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 17,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "723f2f51ec70caa43ab82d37311c07e4fff1757ac6ac44ff3a190a0389771e11",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "723f2f51ec70caa43ab82d37311c07e4fff1757ac6ac44ff3a190a0389771e11",
+      "notes": "Needs revision: a reversed phone number and a missed call lead the family to prepare egg tarts for the returned report call, but the ending is only relief and a snack. No strong comic reversal. All four fields read; tip matches call timing and the egg tarts."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 18,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2bd706d74f1b19ce8c17c3b18a6b6666b5f680eb2701e1ecb63cade88c140844",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2bd706d74f1b19ce8c17c3b18a6b6666b5f680eb2701e1ecb63cade88c140844",
+      "notes": "Needs revision: a rainy clinic trip includes misplaced glasses and a wet umbrella, ending with the umbrella being called more tired than dad. This remains a gentle collection of asides, without a rising comic conflict. All four fields read; tip matches the trip."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 19,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "24fbd9446db3277bb85b1ed83bfd3157b2bd100a87ea260c734073b0844e445f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "24fbd9446db3277bb85b1ed83bfd3157b2bd100a87ea260c734073b0844e445f",
+      "notes": "Needs revision: an omitted medicine dose is discussed carefully with the nurse and family; the “medicine might hide” personification is mild, and the remaining sequence is procedural rather than comic. All four fields read; the tip matches the safety discussion."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 20,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "179554791ca06503985c6ea61d3e145717e78b0059b981574311ae64425dcb2f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "179554791ca06503985c6ea61d3e145717e78b0059b981574311ae64425dcb2f",
+      "notes": "Needs revision: the child asks if a needle has teeth and calls it a tiny mosquito, but the reassuring vaccine scene has no further escalation or strong ending. Keep the child’s fear gentle; all four fields read."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 21,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "4e4b4b1cef861540fd555983199ebc5cf388bc077ce798b430a310427df44b18",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4e4b4b1cef861540fd555983199ebc5cf388bc077ce798b430a310427df44b18",
+      "notes": "Needs revision: a nighttime elevator alert is mistaken for a knock, identified as a cleaning vehicle, and grandma relaxes through family stories. The warm reassurance is coherent but lacks a comic payoff. All four fields read; tip matches the events."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 22,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "5fbf05b8170991bb1bd24bb74f183ec27f849831c6e691e46a8dc7a69c3b63d4",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5fbf05b8170991bb1bd24bb74f183ec27f849831c6e691e46a8dc7a69c3b63d4",
+      "notes": "Needs revision: grandpa adapts to hand tremor with a spoon and non-slip cloth; a splash while washing a cup creates a small laugh, but the story remains primarily supportive and procedural, without a strong comic arc. All four fields read."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 23,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d6772ea495a54503bf6996fb18039911a3f0484ac538535ce45d6580e0e7cab3",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d6772ea495a54503bf6996fb18039911a3f0484ac538535ce45d6580e0e7cab3",
+      "notes": "Needs revision: an outdated medicine marker creates an extra pill in the box and prompts a safe call to the clinic. “Helping pills go to school” is a mild aside; the conflict resolves procedurally with no earned joke. All four fields read."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 24,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "e1d39357d3603c528edfc59975dd437f955cafaeb1d49ecc69d655db659cf0b6",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e1d39357d3603c528edfc59975dd437f955cafaeb1d49ecc69d655db659cf0b6",
+      "notes": "Needs revision: a raised bath mat creates a real slip hazard, fixed by drying and securing it; “today’s bath felt like an inspection” is a small line, not a comic reversal. All four fields read; tip matches safety adjustments."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 25,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "5b76e72b99b3307a31ca5ad6c3049206217a479018c202ec47857fabf95a882f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5b76e72b99b3307a31ca5ad6c3049206217a479018c202ec47857fabf95a882f",
+      "notes": "Needs revision: the father finds the appointment date in a phone photo and updates his shopping list, but the plot is a calm memory-support routine with no comic escalation or payoff. All four fields read; tip matches both reminders."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 26,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "4924256ab422691ee872e22c71135ce5967b87445c077640ce6c1221a7e5fe54",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4924256ab422691ee872e22c71135ce5967b87445c077640ce6c1221a7e5fe54",
+      "notes": "Needs revision: a gust sends grandma’s hat into a flower bed and a dog owner helps retrieve it; the mistaken dog memory is a brief smile, with no developed escalation or ending callback. All four fields read."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 27,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "e6b88a0075c9a64ea96e8a776ffe7582c86dfc19e3050fce3947950b2482e68c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e6b88a0075c9a64ea96e8a776ffe7582c86dfc19e3050fce3947950b2482e68c",
+      "notes": "Needs revision: a short walk becomes a reunion with an old coworker and ends with theatre tickets, but there is no comic conflict or reversal. All four fields read; tip matches the route and pace."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 28,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "7f65828d96217c660d95d0d3392a749d06695e3f10559714b508d3a1317e12c3",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "7f65828d96217c660d95d0d3392a749d06695e3f10559714b508d3a1317e12c3",
+      "notes": "Needs revision: grandma changes from rice to a small bowl of noodle soup and directs the cooking; this is a calm appetite/care scene without a comedic arc. All four fields read; tip matches the cooking."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 29,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "c7aac3801187559abd9a816e9170d78232911e183ee4a2e87909e590f6c1be21",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c7aac3801187559abd9a816e9170d78232911e183ee4a2e87909e590f6c1be21",
+      "notes": "The father’s larger-font adjustment leads to calling the wrong same-name contact, a plumber who responds that he must fix the pipe before having tea; checking the contact photo resolves it, and the family message claims he can now see clearly. The contact mix-up and font callback form a clear escalating gag. All four fields read."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 30,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "6105f52f594b0fea534ba0718061de6203877669273603d9701323b82f65ba4e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "6105f52f594b0fea534ba0718061de6203877669273603d9701323b82f65ba4e",
+      "notes": "Needs revision: mom rests after shopping and changes the planned dinner based on the groceries, but the ending only reminds the narrator to ask about the route. It is a caring account without a comic escalation. All four fields read."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 31,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f733e3499ed7ca55f787493ef16de0b39a422ac84bad17b574d2ba73dcb82bed",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f733e3499ed7ca55f787493ef16de0b39a422ac84bad17b574d2ba73dcb82bed",
+      "notes": "Needs revision: a market outing turns into a reunion with an old neighbor and shared fruit, but “fruit shopping became a nostalgia trip” is a gentle summary rather than an earned punchline. All four fields read; tip matches the outing."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 32,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "ccb33e68dabc26dd2384269d1881a3a0f95d2de9d3ae54e641a1b61b11aaf652",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ccb33e68dabc26dd2384269d1881a3a0f95d2de9d3ae54e641a1b61b11aaf652",
+      "notes": "The grandfather’s clock anxiety turns into memories of the old neighborhood; the family cannot recall some names, so he invents nicknames that make everyone laugh. The written joke list then turns night waking into a family story session, a coherent reversal from worry to shared humor. All four fields read; keep the health concern respectful."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 33,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "57f65ffa5f7eb617850c2edeb3b0ece1c45599f4903447cc1dac531adbe3c143",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "57f65ffa5f7eb617850c2edeb3b0ece1c45599f4903447cc1dac531adbe3c143",
+      "notes": "Needs revision: dad independently mails a letter and feels capable, but the scene is affirming rather than comic; the ending explains its meaning instead of delivering a punchline. All four fields read; tip tracks the errand."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 34,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "2983cfeb57e10e899c60d5efe7eef4e7712ef781669799e06192a4400ecd2ce4",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2983cfeb57e10e899c60d5efe7eef4e7712ef781669799e06192a4400ecd2ce4",
+      "notes": "The daughter’s undersea-book performance is interrupted by an apple slice sliding off the plate; the narrator turns apple slices into a fish prop, links the sink to waves, and the daughter repeats the scene only after securing the plate. The ending’s “apple fish can’t swim away” pays off the physical mishap. All four fields read."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -32085,74 +32085,74 @@
     {
       "file": "content/sentence_bank/long_health_services_39.json",
       "index": 1,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "b9b4e4724ba9a439231c78d91d0e81f3c748ae553b8b61093c956b595a1e9ba1",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b9b4e4724ba9a439231c78d91d0e81f3c748ae553b8b61093c956b595a1e9ba1",
+      "notes": "Needs revision: the bowel-preparation instruction is copied backward, which safely prompts a call to the nurse and keeps the prohibited snack at home, but the payoff is only an empty-bag aside. This sensitive procedure is treated responsibly; the comic thread is not strong enough. All four fields read; the tip matches the prep guidance."
     },
     {
       "file": "content/sentence_bank/long_health_services_40.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "093cbc74681062ad6804320e059af29b6da2eb1fe50d8c252d6f5877b2f9941d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "093cbc74681062ad6804320e059af29b6da2eb1fe50d8c252d6f5877b2f9941d",
+      "notes": "Needs revision: the narrator loses count while helping with prescribed knee exercises, then the mother awards a sticker after the count improves. The scene is coherent but the joke is mild and predictable, with little escalation beyond counting wrong. All four fields read; the tip matches the home exercise and tracking."
     },
     {
       "file": "content/sentence_bank/long_health_services_40.json",
       "index": 1,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "079b84e59bc3c8db05015c63765bf1d1bcd3aff0b7c38fc44d8d8eed6dbc5784",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "079b84e59bc3c8db05015c63765bf1d1bcd3aff0b7c38fc44d8d8eed6dbc5784",
+      "notes": "Needs revision: the label comparison becomes arithmetic confusion and a “math tutoring/expert grading” line, but it risks repeating the task’s calculation-centered pattern and offers no strong reversal. Medical content is appropriately left for the dietitian. All four fields read; the tip matches the label comparison."
     },
     {
       "file": "content/sentence_bank/long_health_services_41.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "9bffbaab52d0a2b27dad5ce77eed8405de630559910c972bf89f087aff8d3c52",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9bffbaab52d0a2b27dad5ce77eed8405de630559910c972bf89f087aff8d3c52",
+      "notes": "Needs revision: the wet medication label is handled safely by taking it back to the pharmacist; the only payoff is that grandpa also finds his glasses. The setup does not escalate into a distinct comic conflict. All four fields read; the tip matches the label check and medication organization."
     },
     {
       "file": "content/sentence_bank/long_health_services_41.json",
       "index": 1,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "5686298fa8d33799f7b610ac5849536a0449729f9b8dd613dac946fff06c184e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5686298fa8d33799f7b610ac5849536a0449729f9b8dd613dac946fff06c184e",
+      "notes": "Needs revision: aunt follows a sign to the wrong floor and later stores her sealed report correctly, but the arrow joke is a brief aside and the final promise about not getting lost has no earned callback. All four fields read; the tip matches the actual route and report handoff."
     },
     {
       "file": "content/sentence_bank/long_health_services_42.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "03b1008c04efb31e0664e6faec9e6aea7bad442410bc02154f1455f7502af57c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "03b1008c04efb31e0664e6faec9e6aea7bad442410bc02154f1455f7502af57c",
+      "notes": "Needs revision: the family correctly avoids reusing an old ointment and follows clinician instructions, but the only joke is the ointment having its own identity card. It is a mild pun without escalation. All four fields read; the tip reflects the old/new medicine distinction and follow-up date."
     },
     {
       "file": "content/sentence_bank/long_health_services_42.json",
       "index": 1,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "a4a46a5756be9f332c2aa16264524a0e4f1862022abf553844820b9e17d6570e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a4a46a5756be9f332c2aa16264524a0e4f1862022abf553844820b9e17d6570e",
+      "notes": "Needs revision: the hearing-aid fitting is coherent and respectful; the narrator’s joke is heard clearly and rejected as unfunny, a short anti-joke, but the rest is procedural and the ending has no further escalation. All four fields read; tip matches the trial and adjustment."
     },
     {
       "file": "content/sentence_bank/long_health_services_43.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "42dd3b0a536af20ce535ab22488a322841a100b4e1b59f8d5f24a8f642cd632d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "42dd3b0a536af20ce535ab22488a322841a100b4e1b59f8d5f24a8f642cd632d",
+      "notes": "Needs revision: mismatched socks create a quick laugh before a medically appropriate post-surgery visit, but the gag neither escalates nor returns at the ending; the question about buying fishballs is an unrelated mild aside. All four fields read; tip matches transport and follow-up."
     },
     {
       "file": "content/sentence_bank/long_health_services_43.json",
       "index": 1,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d879c78e48217587cf377301c1054af0f7fd93a6bf322f1c7a32f47b58983085",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d879c78e48217587cf377301c1054af0f7fd93a6bf322f1c7a32f47b58983085",
+      "notes": "Needs revision: the mismatched socks and fishball question are small warm details, while the surgery and accessible transport dominate without a developed comic conflict or payoff. All four fields read; the tip matches the visit."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
