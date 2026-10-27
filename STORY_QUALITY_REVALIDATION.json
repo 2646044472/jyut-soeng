@@ -2406,10 +2406,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 0,
-      "status": "pass",
+      "status": "needs_revision",
       "baseline_sha256": "70bca3dc1dce8c086364c5d26cd1fc0a00270c77657637a6b4f14761ce9efdd7",
-      "v2_sha256": "b9ebdb580f718828931387eae8412ee3a372fb9a93e3ff1197349e0fb4eaef88",
-      "notes": "Rebuilt the paper-boat sequence around the empty-boat win, repeated ferry returns, a full boat, and the captain being treated as a passenger who still has not bought a ticket; the escalation and final callback are causal and physically continuous. Manually checked all four fields and all 293 contextual Jyutping syllables; revised gloss and rehearsal tip match the new events. Category metadata retained."
+      "v2_sha256": "a6488ec4a974256d385d55448ce2a64e71031307856f6137fbf01ae0912485d7",
+      "notes": "Terra fine review and root scene review accept the timed trial, two unloaded crossings, award-to-next-shift reversal, and event-matched tip. Root manually checked all four fields and the 266 syllable mapping; 贏 is written jeng4, but an authoritative external dictionary lookup could not be reached in this environment, so this card stays out of pass pending that source check."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2673,7 +2673,7 @@
       "status": "needs_revision",
       "baseline_sha256": "1b47e42e1e1c5d5a35166fd8b37b366b11f38a691830b07a1c9c32fb5309926c",
       "v2_sha256": "1b47e42e1e1c5d5a35166fd8b37b366b11f38a691830b07a1c9c32fb5309926c",
-      "notes": "Main plot is banking proceeds and deposit conditions; the bus-driver-seat callback is isolated and does not earn a strong comic turn. Full story, gloss, Jyutping, and event-matched tip checked. 311 Han characters; retain only after rebuilding around a stronger causal comic sequence and within 220–320 characters."
+      "notes": "The main plot is banking proceeds and deposit conditions; the bus-driver-seat callback is isolated and does not earn a strong comic turn. Full story, gloss, Jyutping, and event-matched tip checked; rebuild around a stronger causal comic sequence."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2681,7 +2681,7 @@
       "status": "needs_revision",
       "baseline_sha256": "e128d815121accb481f272b0487ab9c45935b3e1546d6a9184d003211dea8924",
       "v2_sha256": "e128d815121accb481f272b0487ab9c45935b3e1546d6a9184d003211dea8924",
-      "notes": "Savings allocation is the main conflict and the photo deduction line is a mild tag, not a strong comic reversal. Full story, gloss, Jyutping, and tip checked. 329 Han characters, above the 320-character ceiling; rebuild with an earned comic escalation and synchronized fields."
+      "notes": "Savings allocation is the main conflict and the photo deduction line is a mild tag, not a strong comic reversal. Full story, gloss, Jyutping, and tip checked; rebuild with stronger comic escalation and synchronized fields."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2694,10 +2694,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 36,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "21580eb89d1c5c9ecf9e9fc2742a0ee886c1a3c45b27825b7b42761a459f552a",
       "v2_sha256": "21580eb89d1c5c9ecf9e9fc2742a0ee886c1a3c45b27825b7b42761a459f552a",
-      "notes": "The rhythm/nod misunderstanding is coherent and has a clear payoff, but 332 Han characters exceeds the 320-character ceiling. Full story, gloss, Jyutping, and tip checked; shorten while preserving the misunderstanding and ending before approval."
+      "notes": "The audio-isolation misunderstanding escalates when the shop assistant takes his rhythm-following nods as a color choice; the friend’s final question completes the joke. Full story, gloss, every Jyutping syllable, and event-matched tip checked; 289 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2721,7 +2721,7 @@
       "status": "needs_revision",
       "baseline_sha256": "9b33af7d79afb7805b1515911a6aab824b205a56821f50abbfd642042f4c9d53",
       "v2_sha256": "9b33af7d79afb7805b1515911a6aab824b205a56821f50abbfd642042f4c9d53",
-      "notes": "The duplicate transfer, suspicious alternate account, and safe callback form a coherent precautionary story, but the tension resolves procedurally and the cake line is a weak kicker. Full story, gloss, Jyutping, and tip checked. 331 Han characters exceeds the 320-character ceiling; rebuild with a stronger earned punchline and compliant length."
+      "notes": "The duplicate transfer, suspicious alternate account, and safe callback form a coherent precautionary story, but the tension resolves procedurally and the cake line is a weak kicker. Full story, gloss, Jyutping, and tip checked; rebuild with a stronger earned punchline."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2777,7 +2777,7 @@
       "status": "needs_revision",
       "baseline_sha256": "75a03d153e64df92dabad9a095759772bd97ef8c62d7fe35672fa7e56dab3f1a",
       "v2_sha256": "75a03d153e64df92dabad9a095759772bd97ef8c62d7fe35672fa7e56dab3f1a",
-      "notes": "The bill-box and spam-folder conceit has some visual comedy, but the core remains migrating and checking account bills, repeating the financial-notice pattern. It is also 324 Han characters, above the ceiling. Full story, gloss, Jyutping, and event-matched tip checked; replace the central conflict and shorten."
+      "notes": "The bill-box and spam-folder conceit has some visual comedy, but the core remains migrating and checking account bills, repeating the financial-notice pattern. Full story, gloss, Jyutping, and event-matched tip checked; replace the central conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2785,15 +2785,15 @@
       "status": "needs_revision",
       "baseline_sha256": "d05bbd408d0a1d2b42df013db62d6892ce1c3211dc4505637db45823c1a6cff7",
       "v2_sha256": "d05bbd408d0a1d2b42df013db62d6892ce1c3211dc4505637db45823c1a6cff7",
-      "notes": "Tax installments, allocating money, cooling repair and account checks dominate; the wedding/date joke is mild and does not create a strong escalating comic reversal. Full story, gloss, Jyutping, and tip checked; 323 Han characters exceeds the 320-character limit. Rebuild around a different conflict."
+      "notes": "Tax installments, allocating money, cooling repair and account checks dominate; the wedding/date joke is mild and does not create a strong escalating comic reversal. Full story, gloss, Jyutping, and tip checked; rebuild around a different conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 48,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "1c469224fec9ebb6657fad247524c8027529994a19b8bf43c87ca103c41b2810",
       "v2_sha256": "1c469224fec9ebb6657fad247524c8027529994a19b8bf43c87ca103c41b2810",
-      "notes": "The volunteer’s size-versus-color misunderstanding and repeated shirt inspections create a coherent comic premise, but the 342-character story exceeds the 320-character ceiling. Full story, gloss, Jyutping, and event-matched tip checked; shorten while preserving the escalation before approval."
+      "notes": "The volunteers repeatedly undo each other’s clothing piles because one sorts by size and the other by color; the increasingly careful inspection and “customs checkpoint” ending follow from the misunderstanding. Full story, gloss, Jyutping, and event-matched tip checked; 296 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2822,10 +2822,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 52,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2fbad52c3fe153d4d3cd5d194fbfa759c30d3993453b4d1b0fb6089fc8f6790e",
       "v2_sha256": "2fbad52c3fe153d4d3cd5d194fbfa759c30d3993453b4d1b0fb6089fc8f6790e",
-      "notes": "The disputed game and bystander’s counting hand make a coherent, naturally escalating misunderstanding with an earned final line, but the story is 330 Han characters, above the 320-character ceiling. Full story, gloss, Jyutping, and event-matched tip checked; shorten before approval."
+      "notes": "The coworkers dispute rock-paper-scissors timing, then mistake the third colleague’s counting fist for a game move; he ends up cleaning while they keep arguing. The hand-in-pocket callback is earned. Full story, gloss, Jyutping, and event-matched tip checked; 282 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2854,10 +2854,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 56,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "470cd22d29b17183f6287d6168583eaa6a29a1062ffce2875372077616f1a611",
       "v2_sha256": "470cd22d29b17183f6287d6168583eaa6a29a1062ffce2875372077616f1a611",
-      "notes": "The sunlight-drying water-calligraphy escalates into two people chasing fading characters, and the shoe entering the photo is an earned visual joke. However, 324 Han characters exceeds the 320-character limit. Full story, gloss, Jyutping, and event-matched tip checked; shorten before approval."
+      "notes": "The careful water-calligraphy dries in the sun, prompting both friends to chase fading characters; the bystander’s question and the shoe in the final photo pay off the visual scramble. Full story, gloss, Jyutping, and event-matched tip checked; 285 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2886,10 +2886,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 60,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ad122ab42b3842ba5b7f30a9b989cea3b40d9f2e309097f6385362e3ac445f93",
       "v2_sha256": "ad122ab42b3842ba5b7f30a9b989cea3b40d9f2e309097f6385362e3ac445f93",
-      "notes": "The three people blocking one another while searching for the fish is a clear, escalating visual misunderstanding; the staff member’s “introduced everyone’s backs” line is earned. At 324 Han characters it exceeds the 320-character ceiling. Full story, gloss, Jyutping, and event-matched tip checked; shorten before approval."
+      "notes": "The two friends and shop assistant keep blocking one another while searching for the fish; when it finally emerges, the clerk’s line about introducing their backs lands directly from the physical staging. Full story, gloss, Jyutping, and event-matched tip checked; 286 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2918,10 +2918,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 64,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "35029aa0441a540daf5d788e6baacf172852b5eb50d7f3798ba98c9509fdc7bb",
       "v2_sha256": "35029aa0441a540daf5d788e6baacf172852b5eb50d7f3798ba98c9509fdc7bb",
-      "notes": "The roommates’ clock relocation sets up the mistaken search in the wardrobe, but 329 Han characters exceeds the 320-character ceiling. Full story, gloss, Jyutping, and event-matched tip checked; shorten before approval."
+      "notes": "The roommates move the ticking clock to the hallway, then the narrator reflexively checks the wardrobe for the time and asks the clothes what time it is. The shirt-hanging callback extends the joke. Full story, gloss, Jyutping, and event-matched tip checked; 293 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2982,10 +2982,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 72,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "558d557a2505797a954f99a2c363799ac3f866a90406a1121a38d0064aa47ea8",
       "v2_sha256": "558d557a2505797a954f99a2c363799ac3f866a90406a1121a38d0064aa47ea8",
-      "notes": "needs_revision|The two friends secretly checking whether the other person’s yoga rest is over creates a coherent visual escalation and callback, but the story is 327 Han characters, over the 320-character ceiling. Full story, gloss, Jyutping, and event-matched tip checked; shorten before approval."
+      "notes": "Both yoga classmates secretly peek to see whether the rest period has ended, then repeat the behavior despite agreeing to watch the instructor. The raised finger aimed at the teacher and the friend’s hand dropping complete the visual callback. Full story, gloss, Jyutping, and event-matched tip checked; 287 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -3014,34 +3014,34 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 76,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "7e019c25d40fe3db6c8e1898cc4a4c50ef97a8e534088ebbd9e7fc99833786c3",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "7e019c25d40fe3db6c8e1898cc4a4c50ef97a8e534088ebbd9e7fc99833786c3",
+      "notes": "The friend repeatedly moves her head around the central flower vase, while the host keeps rotating it before realizing the flowers block their conversation. The final request to restart without competing with the flowers pays off the setup. Full story, gloss, Jyutping, and event-matched tip checked; 289 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 77,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f03999a06db60873dad06239f5ecd55aad1f71e5ef4f0372ea81ce5201c196c2",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f03999a06db60873dad06239f5ecd55aad1f71e5ef4f0372ea81ce5201c196c2",
+      "notes": "needs_revision|The tax-document request is safely clarified through official contact and a checklist, but the result is a procedural lesson with no comic escalation or earned payoff. Full story, gloss, Jyutping, and tip checked; rebuild as a distinct comedy story."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 78,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "24f98b4f71a9a9389dda13949285100950dd4f01581be8f362d43fdbf6fcc0bb",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "24f98b4f71a9a9389dda13949285100950dd4f01581be8f362d43fdbf6fcc0bb",
+      "notes": "needs_revision|Long hold music and the mother counting beats provide a setup, but the duplicate-charge inquiry resolves procedurally and the closing line returns to tracking dates. Full story, gloss, Jyutping, and tip checked; billing/refund is the core and the comedy remains weak."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 79,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f9e5d4db94460f2f4583748b6af60137f111938d7ed72860b4380e984d5795fe",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f9e5d4db94460f2f4583748b6af60137f111938d7ed72860b4380e984d5795fe",
+      "notes": "needs_revision|The disputed telecom bill is resolved by finding payment attached to an old account; the story is a practical complaint process and ends on recordkeeping advice. Full story, gloss, Jyutping, and tip checked; rebuild away from this repeated billing conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -3049,359 +3049,359 @@
       "status": "pass",
       "baseline_sha256": "895ed57fc35112bf94c6942261380f0ad5403d2cf0ccfbd37fd852f74f1417bb",
       "v2_sha256": "895ed57fc35112bf94c6942261380f0ad5403d2cf0ccfbd37fd852f74f1417bb",
-      "notes": "Avoiding the back row fails after each dance turn; the repeated reversal and final suggestion to move closer complete the joke. Explanation and retell tip match events."
+      "notes": "Choosing the back row fails after each dance turn reverses the formation; the clock becomes the accidental “front-row partner,” and the final suggestion that her friend move closer closes the callback. Full story, gloss, Jyutping, and event-matched tip checked; 295 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 81,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "1846ba4c9fdcdab2e92ab34b4e48fd2790c9b92fe72119c839ef6b7f5b9c78ed",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1846ba4c9fdcdab2e92ab34b4e48fd2790c9b92fe72119c839ef6b7f5b9c78ed",
+      "notes": "The added cleaning fee and unit-owner request for a calculation are the central conflict, with the resolution explaining the fee. This is another service-charge/accounting story and ends mildly; full story, gloss, Jyutping, and tip checked. Replace the money dispute with a more comic situation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 82,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "90134958d6825d7e24d088c71fb5bacc5c428e8f768b9de788dfa2ff1ddf6a97",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "90134958d6825d7e24d088c71fb5bacc5c428e8f768b9de788dfa2ff1ddf6a97",
+      "notes": "Delayed refund, evidence files and checking the next statement form a coherent but procedural sequence; the “detective” and champagne remarks are mild tags without an earned reversal. Full story, gloss, Jyutping, and event-matched tip checked; rebuild the plot."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 83,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "589b38af12badedf64582f613266bbfcd9d9a7e228ef7e45b8aa53f770c1c56d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "589b38af12badedf64582f613266bbfcd9d9a7e228ef7e45b8aa53f770c1c56d",
+      "notes": "The damaged toaster refund stalls on delivery evidence, then the brother’s wet-tea-stained receipt forces the cousin to recover the pre-shipping photo. Grandma’s new toaster and the brother being banned from using receipts as coasters complete the chain. Full story, gloss, Jyutping, and event-matched tip checked; 289 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 84,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "d543eae1ff7c0cc75d682a63e20f84c35ce43ae228a4f9d0429389c8d3e976bd",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d543eae1ff7c0cc75d682a63e20f84c35ce43ae228a4f9d0429389c8d3e976bd",
+      "notes": "The cleaner stops sweeping whenever the photographer raises her camera, until she explains she wants him and the broom in the shot. His later posing and directing a second photo complete the misunderstanding. Full story, gloss, Jyutping, and event-matched tip checked; 290 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 85,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "e125e3dfd6006a5a7b132a5c923615e345ff053d4da271776ae19286b4c6f746",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e125e3dfd6006a5a7b132a5c923615e345ff053d4da271776ae19286b4c6f746",
+      "notes": "The bank fee waiver, average-balance condition and refund are the core; “installment-sliced cake” is a fee/payment punchline. This repeats the restricted money/discount accounting setup. Full story, gloss, Jyutping, and event-matched tip checked; replace the central conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 86,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "17a594e0325078dbfddbf9ecb8e504eb3c9a049cb53e9047c1507f1e4441a254",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "17a594e0325078dbfddbf9ecb8e504eb3c9a049cb53e9047c1507f1e4441a254",
+      "notes": "needs_revision|This is a dispute over common-area management-fee allocation and a supplier quote, resolved by reviewing the minutes and recalculating the bill. It repeats the disallowed accounting/service-charge conflict; the “pump worker” tag is weak. Full story, gloss, Jyutping, and tip checked; rebuild around a different comic situation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 87,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "dc47e0adb1d7b46c89561f94320def25f055d11b98ab3bd9588b9c568972572d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "dc47e0adb1d7b46c89561f94320def25f055d11b98ab3bd9588b9c568972572d",
+      "notes": "needs_revision|The unexpected mobile-service charges lead to support calls, authorization checks and a refund; the paper-boat remark is a light aside, while billing/refund is the core. This repeats the money-notice pattern. Full story, gloss, Jyutping, and event-matched tip checked; replace the central plot."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 88,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "a1a43181391d30c6d57c232f507660c922b43c2e0bc1e7ded4a0400dd9ff9ca1",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a1a43181391d30c6d57c232f507660c922b43c2e0bc1e7ded4a0400dd9ff9ca1",
+      "notes": "The friend repeatedly signals for quiet while fishing, then the narrator notices her open bag; the fisherman’s line about the bag mattering more than the fish and her key-versus-fish reply form an earned exchange. Existing category 海外消費 mismatches and is preserved per metadata constraint. Full fields checked; 300 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 89,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "fb959679f80c8a8b57731fc8f24a9abdcbef458b58faf44e14d192aec53e0eed",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "fb959679f80c8a8b57731fc8f24a9abdcbef458b58faf44e14d192aec53e0eed",
+      "notes": "needs_revision|The misplaced travel card is handled sensibly by freezing and checking, then found in the passport sleeve; the sequence is practical rather than a strong comic story and ends as advice. Full story, gloss, Jyutping, and event-matched tip checked; rebuild with comic escalation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 90,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "b934aafef066e8f7bfcf2a046075f13506478a98cdefdc0579b78cd84a9e70da",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b934aafef066e8f7bfcf2a046075f13506478a98cdefdc0579b78cd84a9e70da",
+      "notes": "Currency-conversion selection, fees and the later statement difference are the entire conflict; the story ends as a consumer tip without a comic reversal. Full story, gloss, Jyutping, and event-matched tip checked; rebuild away from exchange-fee arithmetic."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 91,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "a071ca3c775c5595f27d430c7de15a9dc07f9126dcfcfa07ebc631e8efb6be81",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a071ca3c775c5595f27d430c7de15a9dc07f9126dcfcfa07ebc631e8efb6be81",
+      "notes": "The altered remittance attachment is caught and the transfer is confirmed after a wait, but the sequence is procedural guidance with no comic escalation or payoff. Full story, gloss, Jyutping, and event-matched tip checked; rebuild as a story."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 92,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "2ad73b4275e243283e4b388dc6b93c587d953f3340ba56eac0d89da0c1db9931",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2ad73b4275e243283e4b388dc6b93c587d953f3340ba56eac0d89da0c1db9931",
+      "notes": "Children keep stopping the read-aloud to find the hidden cat; the reveal that only its tail remains outside the house is followed by a final suspicion about the back cover. Existing category 跨境匯款 mismatches and is preserved per metadata constraint. Full fields checked; 299 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 93,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "4a728cfebf9cb0f3ee1e2d685f4d797bf5d0f6f0a2a076492b8358761a9192fd",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4a728cfebf9cb0f3ee1e2d685f4d797bf5d0f6f0a2a076492b8358761a9192fd",
+      "notes": "The urgent new-account message is safely checked through the old number and family code, but the ending is a routine tea joke/safety rule rather than a strong earned comic payoff. Full story, gloss, Jyutping, and tip checked; it also repeats the account-impersonation pattern. Rebuild."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 94,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "5966cd48b02101f5e48609905862a64fa81522226f7de42c6fca27b710b0a45c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5966cd48b02101f5e48609905862a64fa81522226f7de42c6fca27b710b0a45c",
+      "notes": "The login warning triggers a careful official-app check and password reset; the mother’s password written on a shopping receipt is an earned reversal, followed by her mistaking the normal login alert for danger and the cooking-timer sound callback. Full story, gloss, Jyutping, and event-matched tip checked; 304 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 95,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "546acdda086d319dba83838a0697b72aa9b5490a85aa4b1173d7ced921a3b97b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "546acdda086d319dba83838a0697b72aa9b5490a85aa4b1173d7ced921a3b97b",
+      "notes": "Grandpa nearly clicks the fake points link, then the one-digit sender mismatch and official hotline reveal the scam. His follow-up question about whether the “good person” has a uniform pays off the fake coupon framing. Full story, gloss, Jyutping, and event-matched tip checked; 307 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 96,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f0dc7a53ac22be6d6ddf24d459ace13a55286b31600f9ecace059309c94822b0",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f0dc7a53ac22be6d6ddf24d459ace13a55286b31600f9ecace059309c94822b0",
+      "notes": "The opening says a card-spend alert arrives, but the bank app later shows no such transaction and the story labels the accompanying message as the phishing alert; the source of the first alert is unclear. Full story, gloss, Jyutping, and tip checked; resolve that continuity before judging the fish/vegetable callback."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 97,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "bc2ba02f830158a81f93780fc314a60629806402dd682b8a07d2b37e92ddf6d8",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "bc2ba02f830158a81f93780fc314a60629806402dd682b8a07d2b37e92ddf6d8",
+      "notes": "The mistaken payee name and account takeover are caught by the two-person confirmation process, but the resolution is practical and the “money taking a wrong road” ending does not land as a strong comic payoff. Full story, gloss, Jyutping, and tip checked; rebuild with a more distinctive escalation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 98,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "15f25628edac85906e20759f0a7495ab942cf9d2c32f5112310c686971f42531",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "15f25628edac85906e20759f0a7495ab942cf9d2c32f5112310c686971f42531",
+      "notes": "The siblings discover their old photos show each holding a camera aimed at the other; when their mother tries a new picture, both phones block their faces again. Her question about saving faces or phones is an earned callback. Existing category 帳戶安全 mismatches and is preserved per metadata constraint. Full fields checked; 290 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 99,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "43741c9d08d4bfb073f89d8ba7b1945ace9622bb93827c3670a5fe49fc27a0ba",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "43741c9d08d4bfb073f89d8ba7b1945ace9622bb93827c3670a5fe49fc27a0ba",
+      "notes": "The password-recovery, document sorting, delegated access and later bank-message verification are several loosely joined safety subplots; the key left in the lock is a brief gag rather than an earned ending. Full story, gloss, Jyutping, and tip checked; rebuild and shorten only if the Han count requires it."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 0,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "447501a0653c60d270c6afca14d3561eb7143ecdd0e30849edbef6301865458b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "447501a0653c60d270c6afca14d3561eb7143ecdd0e30849edbef6301865458b",
+      "notes": "Two coworkers keep moving the same agenda stack into and out of each other’s video background; the host then asks where the agenda is, and they find it hidden below the cabinet. The visual gag and “ran behind us twice” line follow causally. Full story, gloss, Jyutping, and event-matched tip checked; 313 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 1,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "257ad72f56c581b9f8b19908e119418acc9840bf3d539f736cb505cfdc480d43",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "257ad72f56c581b9f8b19908e119418acc9840bf3d539f736cb505cfdc480d43",
+      "notes": "The cousin’s confident online-shop pitch collapses at the first price question, then the cat reveals old stock and becomes an accidental live-stream prop that generates sales. The cat-as-finance-director photo pays off the loan-risk setup. Full story, gloss, Jyutping, and event-matched tip checked; 295 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 2,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "53e15a3e2aca449c1205ea6853fa8e9440e4f53826df0a173d9e04f39d612007",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "53e15a3e2aca449c1205ea6853fa8e9440e4f53826df0a173d9e04f39d612007",
+      "notes": "The printer’s reluctance to release the wage slip builds through the crumpled page, the Atlantic salary joke and the hidden month; a second error on the form extends the scramble. The stapler warning is a visual callback after corrected submission. Full story, gloss, Jyutping, and event-matched tip checked; 310 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 3,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f81926724eb7bf96580baf0d404de28282c765d3788a63323e98d1634b7e3c9b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f81926724eb7bf96580baf0d404de28282c765d3788a63323e98d1634b7e3c9b",
+      "notes": "Borrowing for renovation, several installment debts and calculating rainy-season income dominate; the dog on the car-loan paper and tea-color collar are light tags, not enough to overcome the repeated family-budget conflict. Full story, gloss, Jyutping, and tip checked; rebuild around a less accounting-centered comic premise."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 4,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "b19326a8ae163453a5b9e54ad06835ec0d2d55b19a4a37ec88c6c6c266449d01",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b19326a8ae163453a5b9e54ad06835ec0d2d55b19a4a37ec88c6c6c266449d01",
+      "notes": "The note blocking the hands in sign-language practice escalates as the paper rises until it hides the speaker’s face; after the instructor removes it, she immediately raises it again to thank her friend, who points her back to the chair. Full story, gloss, Jyutping, and event-matched tip checked; 297 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 5,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "3888d9832b17d3cacf0ad73d1649f775e2dd0906222f8c1a0de2f41eb640618e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "3888d9832b17d3cacf0ad73d1649f775e2dd0906222f8c1a0de2f41eb640618e",
+      "notes": "A test-drive door opens on another customer holding a potted plant, then seasonal cashflow makes the uncle keep the old truck; seeing the same plant customer on the street gives the ending a callback. Full story, gloss, Jyutping, and event-matched tip checked; 292 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 6,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "ff307c9ba3647ee33ea9984fd9ee7b4fcfb959f51ed876ca9e67dcce037644b7",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ff307c9ba3647ee33ea9984fd9ee7b4fcfb959f51ed876ca9e67dcce037644b7",
+      "notes": "Dad hides his knee trouble by stopping to admire old photos; the showroom lift stalls halfway with birthday music, then he rides his installed lift like a tour guide to view the photos. The opening and ending connect. Full story, gloss, Jyutping, and event-matched tip checked; 297 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 7,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "46850bf5d50c5578451b50a6fe7985dd0d8bdd9c4572452f957ef81024591c04",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "46850bf5d50c5578451b50a6fe7985dd0d8bdd9c4572452f957ef81024591c04",
+      "notes": "The aunt’s lost-wallet retort and steamed bun offer add character, but the loan-guarantee story mainly walks through business-plan risk and ends on a cautionary receipt; the comic payoff is too mild. Full story, gloss, Jyutping, and event-matched tip checked; 293 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 8,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "9574b7cfa40415142715e07f01c9e9a0858db1a6a26c7f35c97336b8b052e3c7",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9574b7cfa40415142715e07f01c9e9a0858db1a6a26c7f35c97336b8b052e3c7",
+      "notes": "In a meeting rehearsal, the colleague reflexively agrees with every argument against the upstairs room, then finally raises lift-maintenance access and immediately agrees again. The repeated “yes” is a clear comic pattern and the tip matches. Full story, gloss, Jyutping, and event-matched tip checked; 282 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 9,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "b80c6f0ce8895a7172952fc7d73ee448a9a6bc6431fcf0c22abb4195a25e61a4",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b80c6f0ce8895a7172952fc7d73ee448a9a6bc6431fcf0c22abb4195a25e61a4",
+      "notes": "A salary slip used as a cookbook bookmark returns with a doodled chicken; the sister’s “culinary loan” quip pays off the missing-income-proof problem. The corrected documents and cautious wait follow coherently. Full story, gloss, Jyutping, and event-matched tip checked; 308 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 10,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "014a8c8247470b459e23acd60566566d6f3edf3d29b41e7aaa465f313f1e0d61",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "014a8c8247470b459e23acd60566566d6f3edf3d29b41e7aaa465f313f1e0d61",
+      "notes": "The credit-limit increase and temptation to buy a discounted machine are the central conflict, and the ending returns to the plush-toy warning, but this repeats the family-budget/credit-limit pattern. Full story, gloss, Jyutping, and event-matched tip checked; rebuild with a distinct non-accounting conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 11,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "75882e7950c09d99183afa6b86efed1c4669ec99882f7016537b70627cfbf2a3",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "75882e7950c09d99183afa6b86efed1c4669ec99882f7016537b70627cfbf2a3",
+      "notes": "The fishing stool collapsing in its box is a strong physical gag, but the story then centers on lowering a card limit, checking autopay, and explicitly reviewing water/electric bills and phone fees. This repeats the disallowed accounting/utility-notice pattern. Full fields checked; replace the central conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 12,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "8ea70f3879cc6b557c9fdbec378fae4df0c011d69139ede8544d1297ebf8ce5b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "8ea70f3879cc6b557c9fdbec378fae4df0c011d69139ede8544d1297ebf8ce5b",
+      "notes": "At the dock, each person mistakes the other for someone waiting to meet a third person; they both monitor the exit until the call reveals they were waiting for each other. The volunteer’s “first day helping find myself” line is an earned reversal. Inherited category 信貸額度 does not match and remains unchanged per metadata constraint. Full story, gloss, Jyutping, and event-matched tip checked; 287 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 13,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d549641d4249c9bab07828411cb3bfd0b7824904f78fd5e08919247f77fc4165",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d549641d4249c9bab07828411cb3bfd0b7824904f78fd5e08919247f77fc4165",
+      "notes": "The credit-limit warning, hotel preauthorization, installment balance and card payment make account reconciliation the core conflict; the cake joke is mild and repeats the accounting pattern. Full story, gloss, Jyutping, and event-matched tip checked; rebuild around a different conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 14,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "eecd186184ebabb28dcdacbb82f9e24b024f62992165fcf755bedd048ea9e643",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "eecd186184ebabb28dcdacbb82f9e24b024f62992165fcf755bedd048ea9e643",
+      "notes": "The supplementary-card request triggers the coffee-machine joke and the “secret snacks” plan collapses when alerts go to the primary card. The misspelled card and huge stage board then produce a second physical gag; the coffee-powder ending callbacks neatly. Full fields checked; 299 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 15,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "0c1d657bfbaaf07513841cf453f0c897f8866f2c40b8fe172e08d18255246dc1",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "0c1d657bfbaaf07513841cf453f0c897f8866f2c40b8fe172e08d18255246dc1",
+      "notes": "The higher card limit is the proposed solution, and the family writes income, rent, water/electric fees and repayment amounts to reject it. This is another household-budget/accounting conflict with a mild noodle gag; rebuild around a different comedic situation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 16,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "66ed42c23e2d96f98159622e89c28f44e56be5e83dc3667b68f067ba25436762",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "66ed42c23e2d96f98159622e89c28f44e56be5e83dc3667b68f067ba25436762",
+      "notes": "The friend keeps both people in the theater waiting for a post-credit scene that never comes; the ending repeats the premise and delivers little comic escalation. Existing category 信貸額度 does not match this movie story and remains unchanged per metadata constraint. Full fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 17,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "e7bbc7f2b2334f333f64c380d2c7aa015662c512ff4da251ad3343ab331fe8ab",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e7bbc7f2b2334f333f64c380d2c7aa015662c512ff4da251ad3343ab331fe8ab",
+      "notes": "The applicant nearly packs lunch into the document bag, then a blurry salary slip is compared to roast pork and sesame; the final lunchbox upload callback makes the paperwork mishap concrete. Full story, gloss, Jyutping, and event-matched tip checked; 283 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 18,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "6ff394bb76010ba212aacb473e5b7faf3a875d7aff95fbcd157f9f0ce4fb9a9c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "6ff394bb76010ba212aacb473e5b7faf3a875d7aff95fbcd157f9f0ce4fb9a9c",
+      "notes": "Mom’s online shopping escalates from a flowerpot to a singing duck, then the missing tray leads Dad to suggest planting “air”; the duck’s absence finally makes the home quiet. Full story, gloss, Jyutping, and event-matched tip checked; 291 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 19,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "30e4d89a7f5889340d7b15e502741b59e2475a28376fdca9e4cc40717900d97d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "30e4d89a7f5889340d7b15e502741b59e2475a28376fdca9e4cc40717900d97d",
+      "notes": "The lost card causes payment and reactivation steps, and the “fish” line recurs, but the story remains a practical card-reporting sequence; the recovery is a mild callback rather than a strong reversal. Full fields checked; rebuild the plot."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 20,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "34fbedf14a6b9a298f3fead312494892e74d944383e1e7df31332b2c34b5ba61",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "34fbedf14a6b9a298f3fead312494892e74d944383e1e7df31332b2c34b5ba61",
+      "notes": "Scene continuity and translation are coherent, but the waving misunderstanding resolves into a pleasant exchange and farewell without a strong escalation or earned comic punchline. Checked all four fields; rebuild the conflict/payoff."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 21,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "6778fdb59a8a50719fda86b116f34ee9804d29bdb7e4ecd3bf7896ea499e677c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "6778fdb59a8a50719fda86b116f34ee9804d29bdb7e4ecd3bf7896ea499e677c",
+      "notes": "The autocorrect-to-marriage setup and red-envelope callback are coherent, but the central conflict becomes phone-plan installments, fees and price comparison; it reinforces the repeated finance/accounting pattern. Checked all four fields; redesign around the communication misunderstanding."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 22,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "4e90c12611ce0808c14c0e13f9cfcf7ad6b8be591d7abf3fc5e144c8bfe17342",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4e90c12611ce0808c14c0e13f9cfcf7ad6b8be591d7abf3fc5e144c8bfe17342",
+      "notes": "The dental-anesthetic speech gag is quickly displaced by clinic/card date reconciliation and receipts; accounting dominates, while the dental-fee heartache line is mild. Checked all four fields; rebuild around the people/scene rather than reconciliation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 23,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d4832df321994ac57379c0f06b688e8ded86a9d22d41090abddb4d248d959651",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d4832df321994ac57379c0f06b688e8ded86a9d22d41090abddb4d248d959651",
+      "notes": "The pencil-drumming setup is lively, but the middle becomes installments and household-cost calculation; the neighbor’s later thumbs-up is a mild payoff. Checked all four fields; rework the scene so the performance misunderstanding drives the escalation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 24,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "92540853c98d4509ed8c1b7b0611fcd7c4f1ff9847674de3643cb4c0a48cd497",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "92540853c98d4509ed8c1b7b0611fcd7c4f1ff9847674de3643cb4c0a48cd497",
+      "notes": "The child must hold the string pattern while her mother tends the boiling pot; transferring the pattern leaves mother frozen in the same pose, and the final tea-vs-next-pattern line pays off the physical setup. Checked story, gloss, contextual Jyutping and event-matched tip."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
