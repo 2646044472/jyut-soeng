@@ -30965,10 +30965,10 @@
     {
       "file": "content/sentence_bank/long_health_services_11.json",
       "index": 53,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e41be76c6aa46627668a362788b67f1f96fc25071fde15bc3c5d6747c92d827a",
-      "v2_sha256": "e41be76c6aa46627668a362788b67f1f96fc25071fde15bc3c5d6747c92d827a",
-      "notes": "All four fields checked. The map-to-maze misunderstanding is visual, but the rest returns to appointment administration and the laugh does not escalate to an earned payoff."
+      "v2_sha256": "85d76e03beea226367214888cac0a221d72844186d1d7852b762ece268fe3cb4",
+      "notes": "Rewritten and individually reviewed across all four fields. Two duplicate notices lead the sister to draw a maze-like route, mistakenly mark their own home as the entrance and designate the kitchen a backup waiting room; the clinic confirms the duplicate, and the route’s home entrance returns at the end. The map setup, kitchen callback and father’s final line make the reversal specific. Checked Jyutping against each Han character and the Simplified gloss against the full story."
     },
     {
       "file": "content/sentence_bank/long_health_services_11.json",
