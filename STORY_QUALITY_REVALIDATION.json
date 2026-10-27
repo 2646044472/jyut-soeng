@@ -2408,8 +2408,8 @@
       "index": 0,
       "status": "pass",
       "baseline_sha256": "70bca3dc1dce8c086364c5d26cd1fc0a00270c77657637a6b4f14761ce9efdd7",
-      "v2_sha256": "3c967a24cee550da676050b1d09dc0acf35512c4efcf08261efc5dd2b4033e7b",
-      "notes": "Revised after editorial review: the empty-boat shortcut is called out, the single crossing avoids repeated unloading, and the sister eats the promised cookie before restarting the timer with a new queue. The ending returns the narrator’s hand to the boat’s stern without explaining the punchline or introducing an unseen second boat. Checked all four fields individually, full-scene continuity, 227 Han characters/227 manually aligned Jyutping syllables, full Mandarin gloss and event-matching tip; category and other metadata preserved."
+      "v2_sha256": "24b8e73c9d3bd9ecd8c265ce9b6f60cd4dc1a2b3ab40b70502e0920605bfc541",
+      "notes": "Repaired after renewed editorial review: the contest has one crossing; the empty-boat false start, spinning passenger boat and seasick line escalate the mishap, then the bored judge eats the cookie prize while waiting. The “next shift as usual” certificate gives the final reversal. Revised sentence, hand-authored Jyutping, complete gloss and event-specific tip; category retained. Checked contextual 載客 zoi3 haak3."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -14605,482 +14605,482 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 41,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "12df4d07c68988b30dc9c60e02774437e0d5a4b49e9a868e90d10cc2b3675915",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "12df4d07c68988b30dc9c60e02774437e0d5a4b49e9a868e90d10cc2b3675915",
+      "notes": "Food-safety choice is sensible and the tip matches the event, but after the allergy-safe meal selection the scene only settles into a pleasant lunch and group reminder; no comic escalation or earned punchline. Checked story, Jyutping, complete gloss, and event-matched tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 42,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "b7eef1db14ed713e81cb28fac706ca308e58f0e117faa75dd48ecfd0781bb8ef",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b7eef1db14ed713e81cb28fac706ca308e58f0e117faa75dd48ecfd0781bb8ef",
+      "notes": "The damaged-carton refund and roommate’s “apple ID photo” line provide one small gag, but delivery, refund, meal prep, and later reinforced box do not build to a stronger reversal; the tip overstates the box as armor. Checked all four fields and the tip mismatch."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 43,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c234a5d4c778a3128b34f9dd7cd0094caa2c648ca36b199c154b34f642f4cff1",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c234a5d4c778a3128b34f9dd7cd0094caa2c648ca36b199c154b34f642f4cff1",
+      "notes": "The “rice has character” joke recurs in the colleague’s yellow-rice question and later “no character” callback, but the forgotten chopsticks and successful second pot do not escalate the comic situation enough for the clarified bar. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 44,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "1c05d8dcd29042e6f4906beb026665ddf3757e486933bb00fd044a39d52b28d3",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1c05d8dcd29042e6f4906beb026665ddf3757e486933bb00fd044a39d52b28d3",
+      "notes": "Waiting for the half-price chicken leads the friend to fill the basket with snacks; the cashier briefly shows full price, the receipt restores the discount, and the mother’s “chicken half price, basket fatter” callback lands. The final hand adding chips extends the same joke. Discount is a central topic and remains flagged for the corpus quota audit. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 45,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "450c3c8ed2e9b281b893472e868fb975bf8cbe5ea6806b650cacb67efcc3cb2e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "450c3c8ed2e9b281b893472e868fb975bf8cbe5ea6806b650cacb67efcc3cb2e",
+      "notes": "The croissant crumbs and colleague’s sealed-but-soft bag are relatable details, but no conflict escalates and the ending resolves without a strong comic turn. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 46,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c10ed8e98ec0c87dcc10287214d3afc2e19f8e2325fdf307aaf5020e1a16e6aa",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c10ed8e98ec0c87dcc10287214d3afc2e19f8e2325fdf307aaf5020e1a16e6aa",
+      "notes": "The brother’s preference shifts from vermicelli to scallops, but it is a mild food-discovery anecdote; the father arriving after the plates are empty has no sharper consequence or payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 47,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f25a398c6231e6a2d89c852a53c8f7973981026be1e062786cdb6bdf58abd094",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f25a398c6231e6a2d89c852a53c8f7973981026be1e062786cdb6bdf58abd094",
+      "notes": "The raised tofu lid is handled sensibly; thick tofu wobbling like boats gives a visual comparison, but the “摇摇豆腐汤” and receipt reminder repeat that image without a developed escalation or strong ending. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 48,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "3dc3777106984687de4392cc9841ec1b245bc25e8065bda055efff1ff508dea7",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "3dc3777106984687de4392cc9841ec1b245bc25e8065bda055efff1ff508dea7",
+      "notes": "The sister’s over-seasoning and self-blame line are a single mild joke; subsequent noodle serving and next-time promise do not escalate or reverse the situation. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 49,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "9230eb5f9266ea2a80ee25f6fb393fc64d31f3ea55002d6cbd1e0e1020a76b87",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9230eb5f9266ea2a80ee25f6fb393fc64d31f3ea55002d6cbd1e0e1020a76b87",
+      "notes": "The album discovery and friend’s delay produce a warm memory-sharing scene, but the delayed arrival is explained and the ending is a pleasant future plan, with no comic escalation/payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 50,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "35cd304483b7b5eeb2fd7a166473e6bf0d8a4e175c6f2edc4acafb5e430406bf",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "35cd304483b7b5eeb2fd7a166473e6bf0d8a4e175c6f2edc4acafb5e430406bf",
+      "notes": "The friend boasts about spice, ignores the warning, overdoes curry, then needs help juggling water and tissues while nearly hitting a stool; the auntie adds water and the friend’s tongue-versus-boasting line pays off the setup. The escaped fishball prompts the auntie’s rescue and the friend saves sauce for tomorrow after declaring today’s spice trial complete. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 51,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "4239c9c6c9b33c88a1b563cc84690d54b87789e53087f922c89ed0b86ec899a4",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4239c9c6c9b33c88a1b563cc84690d54b87789e53087f922c89ed0b86ec899a4",
+      "notes": "The small-bag prediction is contradicted by the brother eating more, but the scene settles into a cooking success and an empty-plate photo; the photo gag is mild and not causally escalated. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 52,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "9749be91c809368d3bd7a4ab28b205dee2fe0ab793ae1c89e588f6dc8d172b4c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9749be91c809368d3bd7a4ab28b205dee2fe0ab793ae1c89e588f6dc8d172b4c",
+      "notes": "The defective lid spills red beans; the daughter physically chases and lines them up, then labels the replacement jar “red bean collection point.” Her later command that the beans come home and not escape again callbacks the runaway-bean scene. Checked all four fields; the usage tip matches."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 53,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "bdf73ca1aea02c7e425b40a46a9f4e69fda64d0f300d30404a1714b720cb5ce8",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "bdf73ca1aea02c7e425b40a46a9f4e69fda64d0f300d30404a1714b720cb5ce8",
+      "notes": "The sour-soup complaint and tough-beef chewing are separate mild moments; neither builds toward an earned comic reversal, and the mother’s “watch the fire” remark does not arise from a demonstrated mistake. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 54,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "256dc144a1b7fbb04a8d10176f3119b581bd65b275b8657a3f6b6ac7b21a37c6",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "256dc144a1b7fbb04a8d10176f3119b581bd65b275b8657a3f6b6ac7b21a37c6",
+      "notes": "The server correctly refuses to guess about an allergy, and the friend’s “like a detective” comparison stays a passing quip. The scene resolves safely but has no escalating comic conflict or payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 55,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "5375c8c244e3123f927fb53ae12e33357804ba5120d56653789388a5c24c0852",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5375c8c244e3123f927fb53ae12e33357804ba5120d56653789388a5c24c0852",
+      "notes": "The salmon skin sticks and tears into a map, followed by the roommate naming two places; this is a single visual comparison, while the cooking handoff ending adds no comic consequence. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 56,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "24f8c18869c2efdb77f1f2669a3032cf25206f2e6b51ccb8667f2aca76cd8398",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "24f8c18869c2efdb77f1f2669a3032cf25206f2e6b51ccb8667f2aca76cd8398",
+      "notes": "The two drink labels are reversed and the colleagues swap cups, but the drink exchange does not develop into a meaningful misunderstanding or reversal; the “slow half a beat” ending is mild. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 57,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c6e8e68e85534e69bf430cf181bc258b474fa1e401eda11d94895aa8f7c96c7c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c6e8e68e85534e69bf430cf181bc258b474fa1e401eda11d94895aa8f7c96c7c",
+      "notes": "The shopper remembers stocked yogurt and avoids a buy-two-get-one offer; breakfast preparation is pleasant, but “tastes better than the sale tag” and the inventory reminder do not create strong comedy. Promotion is central and should remain visible to quota analysis. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 58,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "5f65f15a1d041b65db5820f4710ce3a61e01e364ea6cc1c882474819d7bf1bb3",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5f65f15a1d041b65db5820f4710ce3a61e01e364ea6cc1c882474819d7bf1bb3",
+      "notes": "Trying to save the last radish nearly costs a fingernail; the first rushed cake falls apart into a flower, then its supposed failure becomes the sample that persuades the neighbor’s radish-averse son to try it. The fork reminder callbacks the opening near-injury. Checked all four fields; the usage tip tracks those events."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 59,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "bca4a60156cb5a1375c13efeab9101e78064865417b6a7c9f1df4338335e4310",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "bca4a60156cb5a1375c13efeab9101e78064865417b6a7c9f1df4338335e4310",
+      "notes": "The oven-safe packaging contradicts the microwave-only instructions, and the daughter’s question is a clear setup; safe cancellation turns dessert into eggs, but the later labels and reminder repeat the lesson without a strong comic reversal. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 60,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "4e2e117690c63331bd311785d80e99f628351bb6a28f5b7d31c6b8ff375435de",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4e2e117690c63331bd311785d80e99f628351bb6a28f5b7d31c6b8ff375435de",
+      "notes": "The damp old flour is discarded and the first pancake is overcooked, but the second succeeds and the child labels the storage jar; this is a practical cooking lesson with no strong comic payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 61,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "1cc676cdff9d06f97f1d27a93633c18063edeaa5a72b401f5cf13a87bce957af",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1cc676cdff9d06f97f1d27a93633c18063edeaa5a72b401f5cf13a87bce957af",
+      "notes": "The brother calls the unripe pear a stone twice, then labels it as sleeping and later declares it awake; this is a gentle anthropomorphic callback, but birthday tasting and the extra pear do not create a stronger escalation/payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 62,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "54f79ce270639a51cfe39e8df2e451615de92df99dab733dfb193ab558938177",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "54f79ce270639a51cfe39e8df2e451615de92df99dab733dfb193ab558938177",
+      "notes": "The family cannot identify an undated freezer bag and refuses to guess; the daughter turns the labelled packages into a seating chart, then places new dumplings at the back to prevent queue-jumping. The freezer-seat callback resolves the storage confusion with a distinct comic image. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 63,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "27b5ef255b90469628ab82ed90816b313f49c8fd7434dbb22b7ce8c9efffdf4e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "27b5ef255b90469628ab82ed90816b313f49c8fd7434dbb22b7ce8c9efffdf4e",
+      "notes": "The new-shirt concern motivates sauce on the side, but the meal proceeds neatly and the busy thumbs-up/napkin ending does not escalate the stain anxiety into a comic payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 64,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c29f5bf38f78898c7205835f030ae352eecf43d629329880d951e76902801477",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4917ca4295685d45815d1102945740f59971924bc60b7b4e1cf0dfd7b76a557a",
+      "notes": "The children’s ingredient nicknames and peninsula/watermelon mapping are playful, but the story lacks a developed comic turn; moreover, the old tip incorrectly says the younger brother was rejected by peanuts although the daughter rejects eating them. Corrected the tip to match the actual peanut handoff and map exchange; source hash updated. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 65,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "acd50d803ed5244f625f223fac021d1df565143106182c654f7241f2cd042a9a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "acd50d803ed5244f625f223fac021d1df565143106182c654f7241f2cd042a9a",
+      "notes": "The friends both assume the other knows the market route and circle twice; the thin ginger joke is one isolated gag, while successful stew and the photo to mother are straightforward. No strong escalating payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 66,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "573adc68a60dd2df2ca87502d625958e85652877ab7550bdf6447eb6ba77c483",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "573adc68a60dd2df2ca87502d625958e85652877ab7550bdf6447eb6ba77c483",
+      "notes": "The friend moves from avoiding cilantro to adding one leaf, but dividing the fish and saying the wait is less boring do not develop a comic misunderstanding or reversal. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 67,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "3311ee22ccaa298dcc8a2147e367b42d2540a97e00683c76115f263615181ea7",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "3311ee22ccaa298dcc8a2147e367b42d2540a97e00683c76115f263615181ea7",
+      "notes": "The loose blender lid causes a purple splash and the siblings tease the stained face; after that, the smoothie succeeds and is saved for breakfast. The mess does not build to a sufficiently strong comic payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 68,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "3c728e479760629d93f4cf20a9c52382d27caa6033f83a8fe3cbee10f4a8ccb7",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "3c728e479760629d93f4cf20a9c52382d27caa6033f83a8fe3cbee10f4a8ccb7",
+      "notes": "The roommate almost buys a large discounted oil bottle despite existing stock, then follows the cooking plan and labels the small bottle. This is practical purchase management with a mild calendar comparison, not a strong comic arc; promotion/price is a central topic for quota review. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 69,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "282d4702659dcec75d9aba4a9af5113cdd6740a3722a8790c54157d78ecb435c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "282d4702659dcec75d9aba4a9af5113cdd6740a3722a8790c54157d78ecb435c",
+      "notes": "Dad mistakes fresh lily bulbs for garlic, asks if they can be cooked, then enjoys the quick-fried dish so much that he blames the empty plate on the portion size. That closing excuse reverses his earlier suspicion and lands the payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 70,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "fe3ea0e3e0e671461b9ab537319daa9b5399b9f98a6206230829388fc93acf87",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "fe3ea0e3e0e671461b9ab537319daa9b5399b9f98a6206230829388fc93acf87",
+      "notes": "The sticky jar is sensibly cleaned and the dry-spoon reminder prevents recurrence; the line about honey fearing dishwashing and the father’s repeated question do not build into a clear comic payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 71,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f390c85b8ff9d2edf7a30b92835ce2751bdbf4f9c52b842270a3f1e8d2557894",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f390c85b8ff9d2edf7a30b92835ce2751bdbf4f9c52b842270a3f1e8d2557894",
+      "notes": "The cookie crumbs lead to two practical suggestions (better packaging and a little less sugar), but the office sample and family tasting remain a recipe feedback exchange without escalating comic consequences. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 72,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "334f0d40199d3a1ebb4877bc7c16b5a6ab9e7bb8947b30e19a19b3fcb480f129",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "334f0d40199d3a1ebb4877bc7c16b5a6ab9e7bb8947b30e19a19b3fcb480f129",
+      "notes": "The handmade fish ball bounces from the brother’s mouth and earns the “rebounds” line, but the rest is a meal and a fair split; the single gag does not develop into a stronger payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 73,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "48a89ffba7378b9d97cc870352437ff0b2e1bd425ae9e3249c454cabdc8c1d31",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "48a89ffba7378b9d97cc870352437ff0b2e1bd425ae9e3249c454cabdc8c1d31",
+      "notes": "The family avoids hard sugar pearls and waits for the birthday cake; the early delivery and mango-flower photo concern resolve plainly, with no comic escalation. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 74,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "7e97b6de71cec889dbab112e94a6f8dc72b8574094abc5c1025587dc1a56920c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "7e97b6de71cec889dbab112e94a6f8dc72b8574094abc5c1025587dc1a56920c",
+      "notes": "The brother mistakes vitamin gummies for snacks, then correctly warns a friend; the label/sticker callback is useful but does not create a comic reversal. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 75,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "8776cac12d3f77aafcc106334ff275c549f380f6ac07d328644a478f71051ce2",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "8776cac12d3f77aafcc106334ff275c549f380f6ac07d328644a478f71051ce2",
+      "notes": "The roommate’s “lumps” question is answered by tomato pulp and the container reminder returns, but the sauce preparation and cleanup are routine, without an earned comic turn. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 76,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c54cfabe196f897a158153c957e1ad21277134bacd414c30bb829f7f45f111b4",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c54cfabe196f897a158153c957e1ad21277134bacd414c30bb829f7f45f111b4",
+      "notes": "The father’s honey-sweet drink is rejected by the sister, and the calendar circle is used to track the open date; this is practical comparison and storage advice, not a strong comic arc. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 77,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "34f8db8576998d74866ec77025e44e719d0f4070cef934e4d32eecfd3e3a850a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "34f8db8576998d74866ec77025e44e719d0f4070cef934e4d32eecfd3e3a850a",
+      "notes": "The brother mistakes orange sweet-potato flesh for mango, nearly causes a plate mishap while rushing the pot, then takes charge of roasting the second one; the father’s “someone secretly roasted sweet potatoes” suspicion lets him proudly confess. The stealing/ownership callback closes the scene. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 78,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "ed93d615df47ddb5971b2a12223ece6ab764aa04c4c01d0cf5c81db6bc79587f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ed93d615df47ddb5971b2a12223ece6ab764aa04c4c01d0cf5c81db6bc79587f",
+      "notes": "The sister counts beef pieces and later asks for two bowls of fish-ball noodles without scallions, but the meal proceeds gently; the last dishwashing condition is a generic family joke, not an earned reversal. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 79,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "208f7430d55e9810df7d57414360d1fd67eb2a6c6b9973c833924e5f615bd0f3",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "208f7430d55e9810df7d57414360d1fd67eb2a6c6b9973c833924e5f615bd0f3",
+      "notes": "The siblings label two dumpling fillings, then steam pops the lid and the stickers smear; the wrong sauce on the chicken dumplings compounds the mix-up. They each vote for the other filling, so the promised contest ends in a mutual win. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 80,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2cb71c74a6b4964449d02ed6975e86bfc2521154086d30941649ba6c2be2f911",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2cb71c74a6b4964449d02ed6975e86bfc2521154086d30941649ba6c2be2f911",
+      "notes": "The broken tofu lid is responsibly exchanged; the sister says she will save the largest piece for Dad, leaves the smallest, then claims she was testing tenderness. That excuse is plausible but not prepared or developed into a strong payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 81,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "b6a2ebb7f88c222405cf247846df665e291ca0ee1b95997a86ff49c06b900170",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b6a2ebb7f88c222405cf247846df665e291ca0ee1b95997a86ff49c06b900170",
+      "notes": "The uneven water-chestnut chunks become an unexpected “hard candy” inside the steamed patty; Dad admits he was trying to sneak a taste, and the daughter charges him a final-piece “tasting fee.” The surprise and fee callback pay off the prep setup. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 82,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d888a8db2d4f452735657cdf60f67825ee14fc6d52e09f1411d2b380e4c2cf11",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d888a8db2d4f452735657cdf60f67825ee14fc6d52e09f1411d2b380e4c2cf11",
+      "notes": "The wheat-free label search is careful, but the rice-flour biscuits simply crumble; the storage-box discussion and portion reminder do not turn the inconvenience into a strong comic payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 83,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "49026068c425553bd03563ceb968680cff2b45ac57f6492fa44c10d655fdac50",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "49026068c425553bd03563ceb968680cff2b45ac57f6492fa44c10d655fdac50",
+      "notes": "The server teaches the group to remove fish meat safely, then the friend discovers a sauce stain while sharing the successful photo. It is a mild stain gag without a developed comic reversal. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 84,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "5beb7dd0ff9dd68267763e54c478ce5f04d37f4131ded09f7194c3644d07765f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5beb7dd0ff9dd68267763e54c478ce5f04d37f4131ded09f7194c3644d07765f",
+      "notes": "The cheese hash browns become a flower-and-sun breakfast, and the roommate requests “flower flavor”; this is a visual pun, but no conflict escalates and the ending does not add a stronger payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 85,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "dc322101a392da122e70743b6dd5b3e79733ded87c4611e62de2e2845f44e0ff",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "dc322101a392da122e70743b6dd5b3e79733ded87c4611e62de2e2845f44e0ff",
+      "notes": "The roommate’s installment joke about a large winter melon and the near salt/sugar mistake are separate mild gags; two meals are made successfully, but no coherent comic escalation or payoff links them. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 86,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "1615abbce3234088f190742c54ad877e9174c3f597f4c1909cbd7286e43e5b7a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1615abbce3234088f190742c54ad877e9174c3f597f4c1909cbd7286e43e5b7a",
+      "notes": "The porridge and fried dough are packed correctly and coworkers share the leftovers; the second coworker taking the last piece is ordinary office banter without a strong comic turn. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 87,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "bb605736d08113cee7378d64886e914e47dfb9d2f3cd1210780787306ba98053",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "bb605736d08113cee7378d64886e914e47dfb9d2f3cd1210780787306ba98053",
+      "notes": "A leaking rice bag scatters grains; the sister counts seven like forensic clues, and the delivery person later asks whether they left another trail. The callback turns the safe return/replacement process into a clear household joke. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 88,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "0860fedd93a09f3eb17a44dbce441adac36efb4c04ab0e9388fea57924b467a0",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "0860fedd93a09f3eb17a44dbce441adac36efb4c04ab0e9388fea57924b467a0",
+      "notes": "The sister carefully puts only half a spoon of sauce on the pork chop; Dad pours all of his sauce at once and immediately regrets the softened crust. His request for two bowls next time earns the server’s comeback about giving him a spoon first. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 89,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "5c49a14762dfb97e1c98ba83063d75e98f4337a7e4f98d73e7cc0f478c42ee2d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5c49a14762dfb97e1c98ba83063d75e98f4337a7e4f98d73e7cc0f478c42ee2d",
+      "notes": "The sour milk is exchanged safely and the roommate later complains that cleaning the coffee cup is harder than returning milk; the two small hassles do not build into a stronger comic reversal. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 90,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c2d07c9bfec82023dc7118ba7035a002a2163c0084a9b44267b4b1343061d6b7",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c2d07c9bfec82023dc7118ba7035a002a2163c0084a9b44267b4b1343061d6b7",
+      "notes": "The sister reads 马拉糕 as 马拉车 and the grandparents defer eating while she photographs it, but the final handbag/table preference is a separate mild detail rather than a payoff to the misreading. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 91,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "7a47bd4d608154144e6eb532af4c3bbba866158fa2b80b483375e5bb83e8d104",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "7a47bd4d608154144e6eb532af4c3bbba866158fa2b80b483375e5bb83e8d104",
+      "notes": "The sister calls the curved cob moon-shaped, then treats the corn silk as a broom and later gives the last kernel a star role; these are separate whimsical comparisons, without a coherent escalating conflict or punchline. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 92,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "1891be815aafdd80f057c2dd07e860cf629d1337bd2475c72c074113d158f51c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1891be815aafdd80f057c2dd07e860cf629d1337bd2475c72c074113d158f51c",
+      "notes": "The shipment is ten boxes short, a second count confirms the gap, and the group adapts by arranging a tasting table; the smiling-label butter cookies sell out before the missing boxes matter. The friend’s line that cookies—not boxes—ran short reverses the initial worry. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 93,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "9a9023010e66b03732f3fab0a2ac5672ccdbe351f1844da049e19a5309c086be",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9a9023010e66b03732f3fab0a2ac5672ccdbe351f1844da049e19a5309c086be",
+      "notes": "The child selects one pink plate to help his mother identify his sushi, then remembers that the single plate is the most expensive; this makes color/price bookkeeping the core comic device, a repeated money-led pattern the project must reduce. Checked all four fields; flag for quota-driven rewrite."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 94,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "7b862bf55798dd713287c266a06e5ce0eb06294633b67fff806878f549e2bcf8",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "7b862bf55798dd713287c266a06e5ce0eb06294633b67fff806878f549e2bcf8",
+      "notes": "The herbal tea smells floral enough that the roommate enters with a wok, but the misunderstanding is one brief gag followed by straightforward sleep advice; it lacks further escalation or payoff. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 95,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "fd57220a41c072481b26c53ea49295dd0eac386c60e291048ee1bf5b7f35a20d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "fd57220a41c072481b26c53ea49295dd0eac386c60e291048ee1bf5b7f35a20d",
+      "notes": "The warm wife cakes crumble, Dad saves the crumbs for ice cream, and the sister then steals a still-warm egg tart and gets sticky “transparent gloves.” Each food texture creates the next mishap; the final boxed tarts and no-stealing reminder callback her repeated tasting. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 96,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "842a28a32269e54d4ae60d9343f91482c80b9431b07bd6a5bf42fe64a06edaa6",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "842a28a32269e54d4ae60d9343f91482c80b9431b07bd6a5bf42fe64a06edaa6",
+      "notes": "The scale’s zero function solves the bowl-weight confusion and the sister jokes she will weigh herself next time; the earlier flour spill is handled as breakfast, so the incidents do not build toward a strong comic ending. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 97,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "3ec7ed66621fa5b2129c81a056f3e3d8044e45ad65e57a82b04e5863fa62c052",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "3ec7ed66621fa5b2129c81a056f3e3d8044e45ad65e57a82b04e5863fa62c052",
+      "notes": "The daughter labels regular eggs and salted eggs with drawings, and Dad mistakes the salted yolk for free-range; the family’s decision to keep buying regular eggs is practical, with little escalation. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 98,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c99bce7056c9f245a3f246606c7441d5f0cc341a5736191e8eef9c06e7bfcfd7",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c99bce7056c9f245a3f246606c7441d5f0cc341a5736191e8eef9c06e7bfcfd7",
+      "notes": "The oversized plates and sauce on the menu lead to a careful take-home of soup with no leaks; calling the unspilled pumpkin soup the most successful dish is a mild line rather than a strongly earned punchline. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 99,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "885a2b9cc4907e107b187bb452881f617e548ffa1148b9550959f8069bce0db3",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "885a2b9cc4907e107b187bb452881f617e548ffa1148b9550959f8069bce0db3",
+      "notes": "The story centers on itemized bill splitting, a one-bite dessert dispute and transfer calculation before Mom turns the table into a meeting. This repeats the money-led accounting pattern targeted by the brief and must be rewritten despite the meeting gag. Checked all four fields; core accounting conflict flagged for quota audit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 0,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "a845bf3f9fcc75507e6bc0b7bce73ae510dd835551e567acf035bed06a0f4814",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a845bf3f9fcc75507e6bc0b7bce73ae510dd835551e567acf035bed06a0f4814",
+      "notes": "The first small lettuce leaf splits and spills filling, creating the “leaking boat” name; Dad shows the sister how to wrap a larger leaf, and the next picnic’s classmates mistake the rice-and-meat wraps for salad. The leaky one is remembered best because she opens it to share the filling; Dad’s call to bring more lettuce to build boats closes the callback. Checked all four fields; manually aligned Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
