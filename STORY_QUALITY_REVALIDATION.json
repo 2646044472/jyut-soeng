@@ -2406,10 +2406,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "70bca3dc1dce8c086364c5d26cd1fc0a00270c77657637a6b4f14761ce9efdd7",
-      "v2_sha256": "76cffd289dc9e1f2bb25091eddfb2057050475b507a74bf1c9fb39d81e219c07",
-      "notes": "Reworked after fine review: a phone-timed ferry trial, concise two-trip physical sequence, award becomes a next shift, sister pins the badge as an employee ID, and blocks his attempt to remove it before saying his blowing skill qualifies him. Root review and dictionary evidence for 贏 remain pending; not counted as pass."
+      "v2_sha256": "a108158bffb1857112c10ca59882a5db3d9a942663e3228537f274d8d1b6544f",
+      "notes": "Rewritten and personally re-reviewed in all four fields. The empty-boat shortcut fails because passengers are still waiting; reaching out to push costs time, so he wins only by blowing the loaded boat across. The prize becomes an unexpected next shift, escalates to his reassignment as the boat's 'wind', and the straw/drinking-water callback lands without explaining the joke. Movement is one loaded crossing after the failed empty run; the tip matches those events. Contextual 載 zoi3 was previously checked against local Jyutping data and the compound 載客; no disputed 贏 remains."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
