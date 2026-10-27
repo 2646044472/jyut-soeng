@@ -2686,10 +2686,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 35,
-      "status": "pass",
+      "status": "needs_revision",
       "baseline_sha256": "601efd7d6495eb5b2fef24fb1c357dae21786197ae265cb4d3547074a207e59d",
       "v2_sha256": "601efd7d6495eb5b2fef24fb1c357dae21786197ae265cb4d3547074a207e59d",
-      "notes": "First-time landlord’s nervous public-account idea escalates into the tenant’s “阿爸好人” transfer note, repeated phone checking at the noodle shop, and Dad resisting the urge to announce his success to the whole group. The callback makes the ending earned. Full story, gloss, Jyutping, and event-matched tip checked; 316 Han characters."
+      "notes": "Reopened after checking the project-wide quota: rental collection and the tenant transfer are the core conflict, so this keeps a money-ledline in the corpus. The current version also resolves procedurally; replace the premise while preserving the 收款資料 category metadata. A candidate printer/karaoke draft was rejected because its wording and hand-authored Jyutping did not align cleanly; no candidate fields were counted."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
