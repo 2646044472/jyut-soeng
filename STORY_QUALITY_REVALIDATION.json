@@ -318,10 +318,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 39,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "a3051529719f850fbec269c25824ad9d9a1fabf2549040d291d6f47bfea5e1c6",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a3051529719f850fbec269c25824ad9d9a1fabf2549040d291d6f47bfea5e1c6",
+      "notes": "Pass: the patient’s repeated hand-raising while the dentist’s hands are occupied creates an escalating miscommunication; after blanking on the question, she asks whether talking too much wears down teeth, and the dentist notes he could not hear her speak. The next-visit closed-mouth callback lands. Four fields and contextual Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -486,394 +486,394 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 60,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "71ad60ff72495c14fbae0b06055623715b96c6bd58a81817cb386d132e97ea57",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "71ad60ff72495c14fbae0b06055623715b96c6bd58a81817cb386d132e97ea57",
+      "notes": "Pass: front and rear office rows argue over temperature until the mislocated sensor explains why the readings miss the hot rear seats; moving it and redirecting airflow resolves the conflict. The manager discarding the number and asking where people sit is a clean observational close. All four fields and Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 61,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f5639c5ce7ec2e162940b3a3841aaf8b198ba2e513a61ddc9393fbf71cdfb872",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f5639c5ce7ec2e162940b3a3841aaf8b198ba2e513a61ddc9393fbf71cdfb872",
+      "notes": "Needs revision: the “walk faster, flower opens sooner” misunderstanding is clear but remains a single mild anecdote without stronger escalation. The Simplified gloss also adds two sentences absent from the source (friend asks about smelling fragrance; narrator replies); remove or incorporate them during rewrite. Jyutping aligns with the source’s 243 Han characters. Four fields reviewed; no source edit."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 62,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "cc2bfd6b6f7f3f2ea51466ec6eb686d037562893c6a4472899c3fba1d2ef543c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "cc2bfd6b6f7f3f2ea51466ec6eb686d037562893c6a4472899c3fba1d2ef543c",
+      "notes": "Pass: a simple request triggers an increasingly anxious wait as the typing indicator blinks; the colleague drafts and deletes an overformal message, then sends only “可以，迟十分钟.” The bystanders’ quarterly-summary expectation and “busy eyes” callback provide an earned observational punchline. Four fields and Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 63,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "7a6eab5f6c09f381dd6da3bebd149eb48e452f214fdf503ebb18ab2063b783ab",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "7a6eab5f6c09f381dd6da3bebd149eb48e452f214fdf503ebb18ab2063b783ab",
+      "notes": "Pass: three friends recall contradictory door behavior from separate visits; the shopkeeper’s delivery-time doorstop reconciles the memories, and each person remembers having personally held the door. Clear misunderstanding/reversal with an earned character-based close. Full fields and Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 64,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "0c288741d5ca6fcc9628abad49a567db72adac109ec591ff17371e3f04c313fe",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "0c288741d5ca6fcc9628abad49a567db72adac109ec591ff17371e3f04c313fe",
+      "notes": "Pass: the fountain-pen enthusiast saves his prized pen, records the discussion with a ballpoint, and inspires everyone to put their own pens away. His two-word “好用” test and plan to carry one pen for writing and one for admiration are earned callbacks. All fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 65,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "6d9ba5ab14ebb440d791d4d6685ffa7f5326e86b2ef83b3151d349a1ee9df18c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "6d9ba5ab14ebb440d791d4d6685ffa7f5326e86b2ef83b3151d349a1ee9df18c",
+      "notes": "Pass: involuntary hiccups repeatedly reverse the narrator’s nod/shake signals into a changing RSVP; after the explanation, a final hiccup renews the neighbor’s question. The timing and final callback are coherent. All four fields and Jyutping reviewed; historical same-card v1 note records 嗝 gaak3 and 彈 taan4 reading checks."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 66,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "d51232c14285f6711e670e513eca0df4d16dde34192d3a50d051b940db667386",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d51232c14285f6711e670e513eca0df4d16dde34192d3a50d051b940db667386",
+      "notes": "Pass: the narrator’s coworker misreads the motion sensor, prompting several people to make the faucets dance; the cleaner’s still hands solve it, and the protagonist thanks the sensor for “cooperation.” Strong physical escalation and a clean ending. All fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 67,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "b545dd2fede01d3ed17cd2089c85ff4569bff1dcb3201eeae43ed3d02b7f71db",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b545dd2fede01d3ed17cd2089c85ff4569bff1dcb3201eeae43ed3d02b7f71db",
+      "notes": "Pass: the nephew deliberately ignores the narrator’s exposed shoes, then reverses the hide-and-seek rules by standing in the living room with eyes covered and waiting to be found. The adult search builds to a clear child-logic punchline. All four fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 68,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "33fd550e4571883749153e8e1ed6806ee0e2d793aa0db093eeeb30a103deb655",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "33fd550e4571883749153e8e1ed6806ee0e2d793aa0db093eeeb30a103deb655",
+      "notes": "Pass: ticklish feet turn a routine shoe shine into an involuntary tap-dance; spectators applaud and the shoeshiner asks if they want an encore, then the friend extends the spring-shoe image. Clear escalating physical comedy. All fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 69,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "d06d49adb6e6e1588431fe5d7bd6bfae730fb5fbbb151148cd7c8d622582c326",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d06d49adb6e6e1588431fe5d7bd6bfae730fb5fbbb151148cd7c8d622582c326",
+      "notes": "Pass: the client’s near/far glasses routine makes the consultant repeat himself under the wrong assumption; the reveal resolves the misunderstanding, then the client reverses roles by testing whether the consultant can be recognized from farther away. All four fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 70,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "d75efcae982e79fe6056744c8b0e03f465830984d9600adef1923c9deb6fc358",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d75efcae982e79fe6056744c8b0e03f465830984d9600adef1923c9deb6fc358",
+      "notes": "Pass: repeated firmness testing leaves fold marks on the buns; the shopkeeper says the bread thinks it has done wrong, then offers an untouched bun that is “most nervous” because it has not been interviewed. Clear escalation and personification payoff. All fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 71,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "9264731522bdd19af1981d056f41d7f7c19f64bb4d90db8122d142a3b678d628",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9264731522bdd19af1981d056f41d7f7c19f64bb4d90db8122d142a3b678d628",
+      "notes": "Needs revision: the paper-folding habit is coherent and the identical bag-seal triangle gives a small observational button, but the scene has little conflict or escalating misdirection and does not yet meet the strong-comedy bar. Add a sharper consequence/reversal. Four fields/Jyutping reviewed; no source edit."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 72,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "4cd29928e9d03d41c2f82cc1755aca56926f03bdc8aa0db3107b6fb5e5846cd8",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4cd29928e9d03d41c2f82cc1755aca56926f03bdc8aa0db3107b6fb5e5846cd8",
+      "notes": "Pass: the suitcase repeatedly jams the revolving door through its corner and handle; each attempt returns the narrator to the same entrance mat, then the doorman uses an ordinary side door. The “not yet in the room but already familiar with the entrance” line is a clear physical callback. Full fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 73,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "cce04f89a6ec96f2abbab1a32e7becabb9ff2263f98717e578c952afb96b0cf0",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "cce04f89a6ec96f2abbab1a32e7becabb9ff2263f98717e578c952afb96b0cf0",
+      "notes": "Pass: the helium balloon’s line repeatedly snags the drawer, box, and doorway while the narrator packs; the retiree leaves first and the balloon is left “on night shift.” The physical escalation supports the closing image. Four fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 74,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "b79e68364470d72b4cf4306ec25bcb805a4c5b2f005d0a99490359401c4c6119",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b79e68364470d72b4cf4306ec25bcb805a4c5b2f005d0a99490359401c4c6119",
+      "notes": "Pass: waiting for a colleague turns into absent-mindedly popping the protective bubble wrap row by row, while the fragile cup remains intact; the courier observes the packaging “finished work” before the item is opened. The accumulation and closing callback are earned. Four fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 75,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "58a5d70baa23da65fb31b33fa5d87a395d134eaaf7568b232b70c26e7a16608c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "58a5d70baa23da65fb31b33fa5d87a395d134eaaf7568b232b70c26e7a16608c",
+      "notes": "Pass: as the cat relocates between sun patches, the family keeps moving furniture until the living room is rearranged to the doorway; the father asks if they are moving, and the narrator observes they chased the sun for the cat. Clear escalation and household-observation payoff. Four fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 76,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "ee821252936a0cbe23b7cb1644a7d0116caf9f820d78f8947fa728c9904dd380",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ee821252936a0cbe23b7cb1644a7d0116caf9f820d78f8947fa728c9904dd380",
+      "notes": "Pass: an accidental ink drop changes 大 into 犬; the class treats it as intentional, the teacher uses the character difference as a lesson, and the narrator goes home having learned 犬 instead. The character-level visual reversal is clear and earned. Four fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 77,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "fd3a2c226b660fc2d976adcd2ade475584b6f2cc5e4e5d686b6728e560fdf8e1",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "fd3a2c226b660fc2d976adcd2ade475584b6f2cc5e4e5d686b6728e560fdf8e1",
+      "notes": "Pass: the self-proclaimed knife-and-fork expert loses the burger layers in successive cuts; a friend demonstrates eating by hand, and Ah Kin claims he was studying which layers live inside. The friend’s final “only now you begin eating” caps the physical escalation. Four fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 78,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "c1662c7a5af1e3e5e508ca0ff800f44f48ed64f9eaec30e54c39c2b681b53318",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c1662c7a5af1e3e5e508ca0ff800f44f48ed64f9eaec30e54c39c2b681b53318",
+      "notes": "Pass: the scorekeeper counts near-falls and pin posture instead of actual points, then separates official scoring from “potential reviews.” The final claim to have won every still-standing possibility is a clean absurd payoff. All fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 79,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "73b82e29ba9a86a926500e6d6b181cafd0907837bd6209644bc03b3312659c49",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "73b82e29ba9a86a926500e6d6b181cafd0907837bd6209644bc03b3312659c49",
+      "notes": "Pass: Ah Ling mistakes every pause in Ah Keung’s unfinished anecdote for a punchline; he tests her with a deliberate pause and then reveals he has not completed a single story all evening. The meta-joke about laughing through the setup and leaving the ending to him is earned. Four fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 80,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "d70f9661d5b9c0b54637e100cb92f9c3460955c6106d16620f34601fb5374ffd",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d70f9661d5b9c0b54637e100cb92f9c3460955c6106d16620f34601fb5374ffd",
+      "notes": "Pass: the newcomer keeps relocating and stopping because they think the class watches them; only when the group watches the instructor can they join, then they collide with a chair and return to sitting. The “most practiced move is sitting” callback turns the anxiety into a character joke. Four fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 81,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "a31191f4f6696deeff63dcca6407c1b1f3d42f54eeeb02c4b3f994d9ed97a66f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a31191f4f6696deeff63dcca6407c1b1f3d42f54eeeb02c4b3f994d9ed97a66f",
+      "notes": "Pass: participants turn ordinary hot tea into elaborate tasting metaphors; the narrator plainly says it is too hot, which makes the others realize they missed the practical point. The host’s question and “know you drank it after finishing” contrast land as an observational payoff. Four fields/Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 82,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "671e525eae247d7ba09304133cd37293a5b54fc1c4291fa9bda07710320af8a1",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "671e525eae247d7ba09304133cd37293a5b54fc1c4291fa9bda07710320af8a1",
+      "notes": "Root re-read story, Jyutping, full gloss and event-specific practice prompt. Clear voice-over-versus-ambient-sound escalation and final subtitle payoff; all 268 Han characters align with 268 hand-checked Jyutping tokens; gloss covers every event."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 83,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "1c6d5dbabe5e5a515ee72e4689e18fe3154e4478c4b40f9699f2d3a30c83ec4a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1c6d5dbabe5e5a515ee72e4689e18fe3154e4478c4b40f9699f2d3a30c83ec4a",
+      "notes": "Root reviewed all four fields. Repeated compliment-to-self-criticism pattern has a clear social observation, but the ending is mild and does not deliver a sufficiently earned comic payoff."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 84,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "e6013e3b34260672e850556ea658bdb557334654404cd2d60c52b5976457bf9e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e6013e3b34260672e850556ea658bdb557334654404cd2d60c52b5976457bf9e",
+      "notes": "Root reviewed all four fields and contextual readings. Household-object guesses escalate into an accidental tour-guide role; the honest-guide reversal and final search for a real guide land coherently; gloss and tip follow the actual events."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 85,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "ade0a8bcb836e77e54181cfed40e1535f47d7f9f0d556087d61e625afe3c5d60",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ade0a8bcb836e77e54181cfed40e1535f47d7f9f0d556087d61e625afe3c5d60",
+      "notes": "Root reviewed all four fields and contextual readings. One seated attendee makes others follow, defeating the standing-meeting premise; the accelerated meeting and renamed format escalate causally, ending on the table callback; gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 86,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "0983bc20f158c440d3dc2aaf4d914b505820e809b758df9be4d5bd730ce8c8ae",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "0983bc20f158c440d3dc2aaf4d914b505820e809b758df9be4d5bd730ce8c8ae",
+      "notes": "Root reviewed all four fields and contextual readings. Two neighbors push dust into a shared line until a cleaner erases their boundary; the line-thickening callback and next-day truce are coherent; gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 87,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2db11c81af53e7d5446f6193e7d96baf0c3b9eae3437190049006ed5d907f313",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2db11c81af53e7d5446f6193e7d96baf0c3b9eae3437190049006ed5d907f313",
+      "notes": "Root reviewed all four fields. The group debates a stone only to learn its owner likes its hand-sized feel; the social observation is understandable but the ending is mild and the promised larger stone does not make a strong payoff."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 88,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d3a4a066f54b6495362b7b02f089e382c83c5b05fda4394448aee1f52791631b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d3a4a066f54b6495362b7b02f089e382c83c5b05fda4394448aee1f52791631b",
+      "notes": "Root reviewed all four fields. The report-editing premise is funny, but deleting “completed” because a start date was mentioned is not logically justified; the work timeline/report status needs a clearer causal explanation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 89,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "c11e367bacd1d8de4d01bacbb4a344ed1929d0ddbed483c19905a6d4cb3bde14",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c11e367bacd1d8de4d01bacbb4a344ed1929d0ddbed483c19905a6d4cb3bde14",
+      "notes": "Root reviewed all four fields and contextual readings. The model train cannot match the real timetable, then happens to arrive at tea time; the clock/cake callback extends the reversal and the gloss and tip track the sequence."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 90,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "9edbb9ab899b47d851f9c210c631f4f6cf3e2f15385a4341ac876fc10a6589e6",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9edbb9ab899b47d851f9c210c631f4f6cf3e2f15385a4341ac876fc10a6589e6",
+      "notes": "Root reviewed all four fields and contextual readings. The dog’s repeated branch deliveries reveal that the owner is misreading the task; the owner ends up carrying the dog’s chosen collection, with a clear final exchange. Gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 91,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "6a7ea5f50661420d92fc11eb1182cf483c396723e318291683609e50a5a23e5e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "6a7ea5f50661420d92fc11eb1182cf483c396723e318291683609e50a5a23e5e",
+      "notes": "Root reviewed all four fields and contextual readings. The attempted lint removal keeps transferring the lint onto the helper, and the role reversal makes the source of the “snow” visible; gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 92,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "774c18952170bf49e70206e6f79437b800343c73011eefc2af1033ea1b4e7008",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "774c18952170bf49e70206e6f79437b800343c73011eefc2af1033ea1b4e7008",
+      "notes": "Root reviewed all four fields and contextual readings. Stretching is repeatedly mistaken for hailing a taxi, then the friend’s arrival makes the signal look intentional; both stop gesturing and the taxi finally passes. Gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 93,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "3f3e041912efc1130373ef6841e1c172392b55911a642cf85e7aad5f6ddd9579",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "3f3e041912efc1130373ef6841e1c172392b55911a642cf85e7aad5f6ddd9579",
+      "notes": "Root reviewed all four fields and contextual readings. Window-shopping stops make the allegedly fast walker fall behind, and nearly colliding while looking confirms the reversal; the ending restates the visual/physical mismatch cleanly. Gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 94,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "e8258caac8484b955e7a24a168ffbcf8b2cd7b4460ba64eac4a4286ebaa65225",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e8258caac8484b955e7a24a168ffbcf8b2cd7b4460ba64eac4a4286ebaa65225",
+      "notes": "Root reviewed all four fields. The florist and customer repeatedly fight the curved stem, but the explanation resolves the orientation without a strong comic turn; the personified closing line is mild."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 95,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "30c747eceb86ce6bff6be4e3a4048c2d389a74688d1f4b910ce26423e74b30a9",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "30c747eceb86ce6bff6be4e3a4048c2d389a74688d1f4b910ce26423e74b30a9",
+      "notes": "Root reviewed all four fields and contextual readings. Hair-washing directions become imagined bus turns, ending with the assistant’s stop-bell callback; the gloss and practice prompt follow those actual beats."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 96,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "d9c461acad723c5e408ab966099e6a46dd8ab49e6bed6f9ccf8baa790dc75192",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d9c461acad723c5e408ab966099e6a46dd8ab49e6bed6f9ccf8baa790dc75192",
+      "notes": "Root reviewed all four fields and contextual readings. Umbrellas tangle, fan open into a wind-driven “forest,” and continue catching after the rain stops; the double “clocking out” callback lands coherently."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 97,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "e3e8aff526315914262f05dfb53e96b807251d3be5f5336cd99bbdc472482217",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e3e8aff526315914262f05dfb53e96b807251d3be5f5336cd99bbdc472482217",
+      "notes": "Root reviewed all four fields and contextual readings. The elastic sheet turns two helpers into its tent, then the laundry basket solves the task; the final people-versus-sheet folding callback is earned. Gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 98,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "7daafdf8a022ba434144a926f65325fff599c96e593569974a2c6a1d093ea7bf",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "7daafdf8a022ba434144a926f65325fff599c96e593569974a2c6a1d093ea7bf",
+      "notes": "Root reviewed all four fields and contextual readings. The search expands while the missing puzzle piece travels on the organizer’s sleeve, and the group’s later sleeve-checking pays off the discovery. Gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 99,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "1320fba550a708af597df67b67a62641f4b66439ab0e1aa99f6d99a38883cb01",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1320fba550a708af597df67b67a62641f4b66439ab0e1aa99f6d99a38883cb01",
+      "notes": "Root reviewed all four fields and contextual readings. The unbroken peel becomes a relay that consumes more group effort than the fruit itself; the tiny apple and “not enough peel for everyone” finish the escalation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "14c7583aef71a911a51a1e57f0f398f5e2d83ab24145d5cc48a2b653ee6b2a8e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "14c7583aef71a911a51a1e57f0f398f5e2d83ab24145d5cc48a2b653ee6b2a8e",
+      "notes": "Root reviewed all four fields and contextual readings. The folding-chair setup is coherent, but the fixed strap is a routine obstacle and the final “buyer has no seat” line is mild rather than a strong payoff."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 1,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d5d474f4ad36b0a4267bc0a2b7b7a06c3ddd6a96139c6d257828e86659df9967",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d5d474f4ad36b0a4267bc0a2b7b7a06c3ddd6a96139c6d257828e86659df9967",
+      "notes": "Root reviewed all four fields and contextual readings. The cake board accidentally stabilizes the cups, but the transfer has little escalation and the “board worked overtime” ending is weak."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 2,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "3dd471e6fead7094b30c913f73c8dc5063003e608fb0cc1f1d48337ada79a20e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "3dd471e6fead7094b30c913f73c8dc5063003e608fb0cc1f1d48337ada79a20e",
+      "notes": "Root reviewed all four fields and contextual readings. The trapped plane is recovered by a gust in a coherent sequence, but the attempted rescue and safe-landing kicker do not build a substantial comic turn."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 3,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "751b2bead2e668dec7cf5315c9ca353dab39285bbb2b21b0da9fbe59ed289cad",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "751b2bead2e668dec7cf5315c9ca353dab39285bbb2b21b0da9fbe59ed289cad",
+      "notes": "Root reviewed all four fields and contextual readings. Adults’ fixes fail while a child in slippers crosses safely; the hidden protective film supplies a causal reversal, and the child’s score closes the scene."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 4,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "65cb67e0edbaf610ed0dd1df86c3f4e00380c94b1d9a5144ba76b8ecd6709dd6",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "65cb67e0edbaf610ed0dd1df86c3f4e00380c94b1d9a5144ba76b8ecd6709dd6",
+      "notes": "Root reviewed all four fields and contextual readings. Uneven wet laundry tips the rack, then the narrator admits he was only supporting one side; “single-side exercise” makes an earned callback."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 5,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "cd2159eda1ff6c7ad42be2b9015e8c59fb3c9caeda6d35cc5a8870201b6d4dc5",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "cd2159eda1ff6c7ad42be2b9015e8c59fb3c9caeda6d35cc5a8870201b6d4dc5",
+      "notes": "Root reviewed all four fields and contextual readings. Voice styles escalate as the microphone stays covered by the speaker’s palm; revealing the blocked port and “phone security guard” payoff are coherent. Gloss/tip match."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 6,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "e88c75ef44f6ba29cedf267f2305c7fb52eae9f5c051d830e2348aa8f4c3681d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e88c75ef44f6ba29cedf267f2305c7fb52eae9f5c051d830e2348aa8f4c3681d",
+      "notes": "Root reviewed all four fields and contextual readings. Watching each bubble too closely, then ignoring the pan entirely, creates a comic contrast but the repeated egg-cooking premise has a weak final payoff."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 7,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "79dc03a71e9c967266085202ad4e190eb75a74c259ac43c23c5d14f84f1401b6",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "79dc03a71e9c967266085202ad4e190eb75a74c259ac43c23c5d14f84f1401b6",
+      "notes": "Root reviewed all four fields and contextual readings. Steam repeatedly erases the customers’ viewing windows, which multiply into “tarts peeking”; a fresh hot tray immediately fogs the glass again. Gloss/tip match."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 8,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "1589e0698a7cb64eaa95dd8fdc88712fd5d5dd2766a3b32116f77a33e622fd73",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1589e0698a7cb64eaa95dd8fdc88712fd5d5dd2766a3b32116f77a33e622fd73",
+      "notes": "Root reviewed all four fields and contextual readings. The narrow registration table pushes the notes sideways until the organizer turns the book ninety degrees; the crooked-writing and “字先行一步” payoff grows from that physical problem. Gloss and practice tip match."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
