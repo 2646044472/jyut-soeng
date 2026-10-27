@@ -710,10 +710,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 88,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d3a4a066f54b6495362b7b02f089e382c83c5b05fda4394448aee1f52791631b",
-      "v2_sha256": "d3a4a066f54b6495362b7b02f089e382c83c5b05fda4394448aee1f52791631b",
-      "notes": "Root reviewed all four fields. The report-editing premise is funny, but deleting “completed” because a start date was mentioned is not logically justified; the work timeline/report status needs a clearer causal explanation."
+      "v2_sha256": "b9d63f185a3a6ac41a92b3523f7c2f22890246fc0de17eb11e9092102fe4514b",
+      "notes": "Main-agent reread and rewrote all four fields. Timeline is explicit: new workflow activated Wednesday and used for two days; the eight-character summary truncates progressively, coworkers compress it to an ambiguous status, and a new colleague mistakes the report for evidence that work has not begun. The manager’s follow-up request and three-day report-editing callback pay off the truncated tail. Checked each Jyutping syllable, full gloss, and tip against actual events."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -758,10 +758,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 94,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e8258caac8484b955e7a24a168ffbcf8b2cd7b4460ba64eac4a4286ebaa65225",
-      "v2_sha256": "e8258caac8484b955e7a24a168ffbcf8b2cd7b4460ba64eac4a4286ebaa65225",
-      "notes": "Root reviewed all four fields. The florist and customer repeatedly fight the curved stem, but the explanation resolves the orientation without a strong comic turn; the personified closing line is mild."
+      "v2_sha256": "c71373504edd435c444c0ff51a31990ec26f488ecc95469b0435e5e24fb004eb",
+      "notes": "Main-agent rewrote all four fields around a distinct online-shop product-photo scene. The flower’s curved head repeatedly points at other merchandise; each photo creates an unintended cue, and actual add-on orders turn the failed posing session into the shop’s accidental guide. The final flower-mud callback extends the same visual mechanism. Checked all syllables contextually, gloss completeness, event-matched tip, and retained category/metadata."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -814,18 +814,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 1,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d5d474f4ad36b0a4267bc0a2b7b7a06c3ddd6a96139c6d257828e86659df9967",
-      "v2_sha256": "d5d474f4ad36b0a4267bc0a2b7b7a06c3ddd6a96139c6d257828e86659df9967",
-      "notes": "Root reviewed all four fields and contextual readings. The cake board accidentally stabilizes the cups, but the transfer has little escalation and the “board worked overtime” ending is weak."
+      "v2_sha256": "b77b79d7773145d6b3a9c6473fc367556396a541f2db7b6e0e8226fc8d6f00e6",
+      "notes": "Main-agent rewrote and reviewed all four fields. Physical sequence is explicit: condensation makes the cups slide, two packing attempts fail, a cake board stabilizes layers but holds the lid open, and a customer catches a cup then gets recruited to hold the board. The repair technician mistakes the helper for staff; the customer’s shelf/shift line pays off the rescue and “托底” action. Checked Jyutping syllables, gloss, event-specific tip, and preserved row category/nonlanguage fields."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 2,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3dd471e6fead7094b30c913f73c8dc5063003e608fb0cc1f1d48337ada79a20e",
-      "v2_sha256": "3dd471e6fead7094b30c913f73c8dc5063003e608fb0cc1f1d48337ada79a20e",
-      "notes": "Root reviewed all four fields and contextual readings. The trapped plane is recovered by a gust in a coherent sequence, but the attempted rescue and safe-landing kicker do not build a substantial comic turn."
+      "v2_sha256": "dbfaaecd9a54b96305695e773a7102308de562bd27078c21daf93f07e9333047",
+      "notes": "Main-agent rewrote and reviewed all four fields. A paper plane is caught in the curtain slot; adults escalate from reaching to broom and folding ladder, while their rescue wrinkles the curtain. A side-door draft frees the plane into lost property, turning the child into its claimant; the final line flips the adults into trainees who must practice rescue before another test flight. Checked Jyutping, full gloss, event-aligned tip, and kept metadata."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
@@ -854,10 +854,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 6,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e88c75ef44f6ba29cedf267f2305c7fb52eae9f5c051d830e2348aa8f4c3681d",
-      "v2_sha256": "e88c75ef44f6ba29cedf267f2305c7fb52eae9f5c051d830e2348aa8f4c3681d",
-      "notes": "Root reviewed all four fields and contextual readings. Watching each bubble too closely, then ignoring the pan entirely, creates a comic contrast but the repeated egg-cooking premise has a weak final payoff."
+      "v2_sha256": "6aa1014eedcca85cc92a53b84c02d951543d959741cf84162a5522061033c8a5",
+      "notes": "Main-agent rewrote and reviewed all four fields. The waiting class watches the student treat each bubble as an alarm; he infers the first egg succeeded because he left, then burns the second while ignoring it too long. The teacher distinguishes heat control from bubble-watching; the student over-literalizes “come back to flip it” and waits at the doorway. Checked causal timeline, contextual Jyutping, complete gloss, event-matched tip, and preserved category."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
@@ -990,10 +990,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 23,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ef9d20ab04da9a6910e5fd093d44d4587704516bc87c04248064367004ca414c",
-      "v2_sha256": "ef9d20ab04da9a6910e5fd093d44d4587704516bc87c04248064367004ca414c",
-      "notes": "Root reviewed all four fields and contextual readings. Flattening boxes and reserving some for plant guards is coherent, but the “box shop” and lying/standing close resolve into a mild practical observation rather than a strong comic reversal."
+      "v2_sha256": "611b3a72dfcf203c946dba199222ee0175fbda741e3a842fff64174646835d39",
+      "notes": "Main-agent rewrote and reviewed all four fields. Two neighbors’ opposing box uses escalate when the neighbor’s cat moves through the cartons, drawing the residents into a rescue; it ultimately chooses the flattened cardboard as its bed. This resolves the flatten-or-keep dispute with two plant guards and a cat-sized room. The neighbor carries the “room” home on checkout, paying off the cat-as-boarder callback. Checked contextual Jyutping, complete gloss, event-matched tip, and metadata preservation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
@@ -1742,18 +1742,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 17,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "95cefa79b7e95fad5d43cf83909e5ea862109317fbfce084cd699a2e8c86b68f",
-      "v2_sha256": "95cefa79b7e95fad5d43cf83909e5ea862109317fbfce084cd699a2e8c86b68f",
-      "notes": "镜子清洁冲突逐步升级且事件连贯，但细路“原来我个样一直都喺度”只是温和观察，未形成有力的喜剧反转；需要重构包袱。四字段均已审读。"
+      "v2_sha256": "36b4c3b21cf836fc372c5e27d9fcf6651725e5f97c8701658b7350b58da0c509",
+      "notes": "Main-agent rewrote and reviewed all four fields. The resident’s circular cleaning and cleaner’s straight strokes escalate into a two-person contest that blocks elevator boarding; after one patch is cleared, he presses his own palm to the mirror and leaves the new print. The child’s “daily check-in” line exposes the loop and pays off his daily routine. Checked contextual Jyutping, complete gloss, event-specific tip, and preserved metadata."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 18,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9f7c31d570057869ef765bf15034766982652cd3fedd7b63487e4d8613f09c2e",
-      "v2_sha256": "9f7c31d570057869ef765bf15034766982652cd3fedd7b63487e4d8613f09c2e",
-      "notes": "师傅反复别袖和最后左右袖不对称的因果清楚，但结尾只是实用解决，“单手看时间”未构成有力笑点；需要重构喜剧递进。四字段均已审读。"
+      "v2_sha256": "a09a7f7118cc3d32f9555bc57675b33c7e6496cc43d8b75292033fa1d6d824d6",
+      "notes": "Main-agent rewrote and reviewed all four fields. The uncle checks his watch by pulling up his cuff, repeatedly undoing the tailor’s pins; his urgency makes the fitting take longer. Measuring his normal work gesture finally fixes the sleeve, but he has missed his shift. The “cuff made it on time; I didn’t” line pays off the time-checking loop. Checked Jyutping, complete gloss, story-specific tip, and kept metadata."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -1782,10 +1782,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 22,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "25b96c8082a4a1281d5e5348b3fb552cde58c999f12ebd2abaf9533738dea2b7",
-      "v2_sha256": "25b96c8082a4a1281d5e5348b3fb552cde58c999f12ebd2abaf9533738dea2b7",
-      "notes": "阿波逐户等早安、主人被迫配合的情节连贯，但“陪你返工”仍偏可爱收尾，喜剧冲突及反转不够有力；需要强化。四字段均已审读。"
+      "v2_sha256": "471bfe51e15cd511da02b85497650e1b581078217f7ecd475a42524e9037e00a",
+      "notes": "Main-agent rewrote and reviewed all four fields. The dog’s route escalates from waiting for two neighbors’ greetings to making the owner ring doors; when the owner tries to leave alone, the dog requires his own greeting before descending. The owner realizes he is the dog’s attendance assistant and is the one delayed by the roll call. Checked plot continuity, Jyutping, complete gloss, story-specific tip, and preserved category."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -1822,10 +1822,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 27,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ae36b00257662b2afd1f051bcc61fee0e02322000092f9a35655c80953e6afbd",
-      "v2_sha256": "ae36b00257662b2afd1f051bcc61fee0e02322000092f9a35655c80953e6afbd",
-      "notes": "阿兰把客气邀请当真并带凳上门，椅子摇晃的场面连贯，但整体冲突轻，最后“客气话有张凳接住”包袱力度不足；需要加强。四字段均已审读。"
+      "v2_sha256": "0e51604ed35f3c7d588bb7692d1d2bc0f10dce7f1df1a970038eac0db4615e25",
+      "notes": "邻居带摺凳赴随口邀请，家中椅脚不稳引发互让摺凳的循环；最后只有摺凳真正“坐过”，形成动作回扣。已逐项核对正文场景因果、逐字粤拼（张椅段已校正多出的 go2）、完整释义及贴合事件的复述提示；保留原分类和元数据。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -1838,10 +1838,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 29,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "145b4832c881fe3a341b9ce54f0d96bd8fa186acdf5dea4066d944767e42aaef",
-      "v2_sha256": "145b4832c881fe3a341b9ce54f0d96bd8fa186acdf5dea4066d944767e42aaef",
-      "notes": "旧同事点单建立时间错位，后续信息也一致，但“记性更新慢了几年”及别替他落单的收尾主要是温和提醒，喜剧递进与反转不足。四字段均已审读。"
+      "v2_sha256": "fad7660415e683c720a1165292e030b311cc750d94d098577517645362af9b0e",
+      "notes": "旧同事把点单自动补全升级成背诵旧档案，彼此习惯的角色反转揭示叙述者也被旧记忆记住，店员以“两位都照旧”回扣。逐项审读正文因果、逐字手写粤拼、完整释义和贴合情节的练习提示；保留源分类与元数据。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -1902,10 +1902,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 37,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5ea2337f94a4e03a6e03a7e55671df34ced8f120d0b86424711ab8447cf95f22",
-      "v2_sha256": "5ea2337f94a4e03a6e03a7e55671df34ced8f120d0b86424711ab8447cf95f22",
-      "notes": "同事把普通周末包装得很忙，阿杰诚实说睡了一早上，主管和阿珊跟着坦白；整体是温和共鸣，最后“睡觉没排行程表”未形成强笑点。需要更有力的喜剧递进与收尾。四字段均已审读。"
+      "v2_sha256": "bffb1d059e356abe20b74d79829c7ccc85c608fc7eb7c627b27093b681e868ba",
+      "notes": "同事把轻松周末包装成忙碌经历，阿杰的坦白被主管升级成正式分享任务；同事带道具示范，主管再要求周五交稿，反转让“休息”也变成工作。逐项审阅因果、场景、手写粤拼、完整释义与贴合情节的提示，保留原分类及元数据。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -1934,10 +1934,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
       "index": 41,
-      "status": "needs_revision",
+      "status": "pending",
       "baseline_sha256": "11eaf2f3c25affdce35bfdd79b59c15c26bc98f811fb4655972ded3583c3d7fb",
       "v2_sha256": "11eaf2f3c25affdce35bfdd79b59c15c26bc98f811fb4655972ded3583c3d7fb",
-      "notes": "阿康只唱副歌的原因及两人轮流守歌段说得通，但笑点停留在可爱默契，“守副歌/守尾音”不足以支撑强喜剧收尾。四字段均已审读，需重构。"
+      "notes": "Candidate rewrite preserved outside the staged checkpoint. Pending main review: the manually entered Jyutping has 265 whitespace tokens against 273 Han characters; contextual word-by-word correspondence has not been verified. Do not count as V2 pass."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
