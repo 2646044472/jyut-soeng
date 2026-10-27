@@ -186,7 +186,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 
 **Overall mechanical pass: 5000/5000.**
 
-**Goal (main-agent language review within the first 5000 source rows): 351/5000; remaining: 4649.**
+**Goal (main-agent language review within the first 5000 source rows): 350/5000; remaining: 4650.**
 
 **Contiguous reviewed source-order prefix: 0/5000.**
 
@@ -194,8 +194,8 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 
 **Valid language reviews outside the first 5000 source rows: 0.**
 
-**Corpus language review: 351/5000; source rows without a valid review: 4649.**
+**Corpus language review: 350/5000; source rows without a valid review: 4650.**
 
-**Clarified quality revalidation (`macau-comedy-revalidation-v2`): 906/5000 pass; 3146 need revision; 948 pending.**
+**Clarified quality revalidation (`macau-comedy-revalidation-v2`): 907/5000 pass; 3145 need revision; 948 pending.**
 
 `STORY_LANGUAGE_REVIEW.json` remains the historical `macau-comedy-upgrade-v1` ledger. A stale historical hash is not current approval. `STORY_QUALITY_REVALIDATION.json` records current hashes and individual revalidation decisions; hashes verify synchronization but do not assess language quality.

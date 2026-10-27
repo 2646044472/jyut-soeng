@@ -32157,10 +32157,10 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "58f02972e72d74cac16a8b9d28b108dd601a538b23e34392b2275c19f4fcb009",
-      "v2_sha256": "58f02972e72d74cac16a8b9d28b108dd601a538b23e34392b2275c19f4fcb009",
-      "notes": "The last-minute tidying and lost remote are ordinary household events; the aunt’s comment is a mild tease without a comic escalation or earned payoff."
+      "v2_sha256": "46ae1e42a160471c5d040e416ec663926a3f3064b3783a8535520e64879add7d",
+      "notes": "Pass after full rewrite: the three-second selfie leaves dad half in frame; a later misunderstanding sends the family between phone and seats, and the ten-second timer finally holds dad still. Grandma hits zoom, making his nose fill the picture; that image becomes the caller photo and recurring greeting. Scene continuity, comic escalation, all four fields and contextual Jyutping individually checked; metadata/category unchanged."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
