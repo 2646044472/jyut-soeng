@@ -2686,10 +2686,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 35,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "601efd7d6495eb5b2fef24fb1c357dae21786197ae265cb4d3547074a207e59d",
-      "v2_sha256": "601efd7d6495eb5b2fef24fb1c357dae21786197ae265cb4d3547074a207e59d",
-      "notes": "Reopened after checking the project-wide quota: rental collection and the tenant transfer are the core conflict, so this keeps a money-ledline in the corpus. The current version also resolves procedurally; replace the premise while preserving the 收款資料 category metadata. A candidate printer/karaoke draft was rejected because its wording and hand-authored Jyutping did not align cleanly; no candidate fields were counted."
+      "v2_sha256": "d7894e3c2930d11a380351e038ca15affab0bc4a0b0f890d9003c07e49298c72",
+      "notes": "Replaced the rental/transfer conflict with a potting-class mishap; collection details are incidental enrollment context. Dad plants the nursery pot inside the larger pot, stomps the loose soil and floods the floor; the instructor fixes the planting, and Dad repeats his old-pot question when asked to teach the next group. Root individually reviewed continuity, comedy callback, all 271 Han characters and contextual readings (including corrected 直奔門口 zik6 ban1 mun4 hau2), complete Mandarin gloss, and event-matched tip. Category metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
