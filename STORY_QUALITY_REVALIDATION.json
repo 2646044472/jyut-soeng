@@ -86,10 +86,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 10,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d9649461c4a98a4768c3bb9e8e08a61775c7b2fb69fd1df3a0b9b0c25e22faeb",
-      "v2_sha256": "d9649461c4a98a4768c3bb9e8e08a61775c7b2fb69fd1df3a0b9b0c25e22faeb",
-      "notes": "Needs revision: the bag erupts into a physical chain reaction, but the second earring going travelling is a familiar light pun rather than an earned reversal or strong final joke. Rebuild the ending or premise; preserve category. All fields and Jyutping read in context; no source change."
+      "v2_sha256": "f3891a3799e4e52ae8449fb98bcd73dbf3fa9a4bb51a2f086e0b979dd88641de",
+      "notes": "Root rewrote the purse scene with a clearer cause/reversal: the daughter records the bag accident as evidence, they still cannot find the house key, then discover it in Dad’s own pocket; the recording exposes him as the scene-stealer. Finding the missing earring is a side discovery, not the resolution. All four fields manually reviewed; 240 Han characters and 240 hand-authored aligned Jyutping tokens. Category and other metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -118,10 +118,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 14,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9e7fe014cfc42d6433e3860375d822dde7f629e77ad580706a140cb0185072c0",
-      "v2_sha256": "9e7fe014cfc42d6433e3860375d822dde7f629e77ad580706a140cb0185072c0",
-      "notes": "Needs revision: the low-note / staff-line misread and group sing-along are vivid, but the opening “learn the phone” does not connect to the choir plot, and the calendar/high-note closing question is unclear. Tighten the setup and earn a sharper final callback. Four fields reviewed; no source edit."
+      "v2_sha256": "9b29bf06c7dbaf21c1ebbbf91c9c2fb561d6bfa272843ab9d1e2281311891f24",
+      "notes": "Root rebuilt the choir plot so the phone-learning setup now drives the escalation: Dad misreads low voice and a staff-line instruction, then sends his wrong-lyric recording to the choir group; a classmate repeats it and the ensemble follows. The calendar tag callbacks to his first misunderstanding. All four fields manually reviewed; 247 Han characters / 247 hand-authored aligned Jyutping tokens. Category and other metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
