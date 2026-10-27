@@ -3174,18 +3174,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 96,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f0dc7a53ac22be6d6ddf24d459ace13a55286b31600f9ecace059309c94822b0",
-      "v2_sha256": "f0dc7a53ac22be6d6ddf24d459ace13a55286b31600f9ecace059309c94822b0",
-      "notes": "The opening says a card-spend alert arrives, but the bank app later shows no such transaction and the story labels the accompanying message as the phishing alert; the source of the first alert is unclear. Full story, gloss, Jyutping, and tip checked; resolve that continuity before judging the fish/vegetable callback."
+      "v2_sha256": "3dbde2488e3533b5726e806ba3257f926682bd53502d2c14d1e9c97195a6dbf8",
+      "notes": "After a fake bank text, Dad applies cautious link checking to a birthday invitation and recipe URL; the family swaps the recipe link for a screenshot, and he jokes the dish can steal appetite instead of data. Verified all four fields and contextual Jyutping, including 程式 cing4 sik1, 菜譜 coi3 pou2, and 確認 kok3 jing6."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 97,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "bc2ba02f830158a81f93780fc314a60629806402dd682b8a07d2b37e92ddf6d8",
-      "v2_sha256": "bc2ba02f830158a81f93780fc314a60629806402dd682b8a07d2b37e92ddf6d8",
-      "notes": "The mistaken payee name and account takeover are caught by the two-person confirmation process, but the resolution is practical and the “money taking a wrong road” ending does not land as a strong comic payoff. Full story, gloss, Jyutping, and tip checked; rebuild with a more distinctive escalation."
+      "v2_sha256": "b4816f3b5c1e7dbe358bffb5e8f5db99948e033065d5c318822f31062044e6af",
+      "notes": "Panorama mode repeatedly stitches a moving friend; the teacher’s crooked hat draws a hand into the image, then the subject follows the camera during the final take and is split into two half-bodies. Root corrected the photographer/subject continuity and missing second 偏 syllable; checked all four fields and contextual Jyutping, including 全景 cyun4 ging2, 橫掃 waang4 sou3, and 拼 ping3."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -3198,10 +3198,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 99,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "43741c9d08d4bfb073f89d8ba7b1945ace9622bb93827c3670a5fe49fc27a0ba",
-      "v2_sha256": "43741c9d08d4bfb073f89d8ba7b1945ace9622bb93827c3670a5fe49fc27a0ba",
-      "notes": "The password-recovery, document sorting, delegated access and later bank-message verification are several loosely joined safety subplots; the key left in the lock is a brief gag rather than an earned ending. Full story, gloss, Jyutping, and tip checked; rebuild and shorten only if the Han count requires it."
+      "v2_sha256": "b7ea56ecb74eef3c2893bcc8744be170710cecbac3c0d20efb89f4b840762e1f",
+      "notes": "The father’s awkward face-unlock setup grows through glasses/head positioning; the daughter’s face completes enrollment, so the phone recognizes its helper rather than its owner. He asks if she must clock him in. Root clarified why the glasses fall, checked all four fields and contextual Jyutping (面容 faai3 min6, 老花 lou5 faa1, 眨眼 zaap3, 超前? not present)."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
@@ -3230,10 +3230,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 3,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f81926724eb7bf96580baf0d404de28282c765d3788a63323e98d1634b7e3c9b",
-      "v2_sha256": "f81926724eb7bf96580baf0d404de28282c765d3788a63323e98d1634b7e3c9b",
-      "notes": "Borrowing for renovation, several installment debts and calculating rainy-season income dominate; the dog on the car-loan paper and tea-color collar are light tags, not enough to overcome the repeated family-budget conflict. Full story, gloss, Jyutping, and tip checked; rebuild around a less accounting-centered comic premise."
+      "v2_sha256": "cd992cd83051ed34e5fb8ec903075f4c7e5afaa29dab00996c69e19eb2a8199d",
+      "notes": "Repeatedly moving the sofa only partway leaves several paint outlines; the family discovers its silhouette and Dad pretends the incomplete job is a portrait. Root clarified which wall section was painted and replaced 尺 with colloquial 呎 while checking all four fields and Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
@@ -3286,10 +3286,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 10,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "014a8c8247470b459e23acd60566566d6f3edf3d29b41e7aaa465f313f1e0d61",
-      "v2_sha256": "014a8c8247470b459e23acd60566566d6f3edf3d29b41e7aaa465f313f1e0d61",
-      "notes": "The credit-limit increase and temptation to buy a discounted machine are the central conflict, and the ending returns to the plush-toy warning, but this repeats the family-budget/credit-limit pattern. Full story, gloss, Jyutping, and event-matched tip checked; rebuild with a distinct non-accounting conflict."
+      "v2_sha256": "dd4d2e392c829654f05a5eff64058c4f5cd9a7f5f96c72a06f9a2a24b63f6044",
+      "notes": "Repeated balloon-dog failures turn into a string of loops; Dad repurposes it as a queue divider, and children circle the chairs twice. Root reviewed all four fields and contextual Jyutping, including 自告奮勇 zi6 gou3 fan5 jung5, 蝸牛 wo1 ngau4, and 隊長 deoi6 zoeng2."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
