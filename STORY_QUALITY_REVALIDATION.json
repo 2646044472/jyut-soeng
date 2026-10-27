@@ -8144,7 +8144,7 @@
       "status": "needs_revision",
       "baseline_sha256": "3a977abf9703479ef6d6be98c1aa9f7fbed407d0f78af3cd24090b9ff8946af4",
       "v2_sha256": "3a977abf9703479ef6d6be98c1aa9f7fbed407d0f78af3cd24090b9ff8946af4",
-      "notes": "Read all four fields. The grandson mistakes a welfare-form name check for a demand for his pocket money, a brief domestic misunderstanding, but the paperwork resolves directly and the ending returns to routine processing without a developed escalation or punchline. Eligibility paperwork for a monetary benefit is the central conflict."
+      "notes": "Needs revision: a grandson sees his name on an elder-care subsidy form and fears losing his pocket money; the misunderstanding resolves immediately and the rest is application procedure, so the payoff is too mild."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_101.json",
@@ -8152,7 +8152,7 @@
       "status": "needs_revision",
       "baseline_sha256": "2c2c75f45a5b1aaa8ad10a2a3f9c2b42fab85fab26ef8897e8c05d885e49240e",
       "v2_sha256": "2c2c75f45a5b1aaa8ad10a2a3f9c2b42fab85fab26ef8897e8c05d885e49240e",
-      "notes": "Read all four fields. The cash fallback and unsupported card terminal are handled safely, but the test succeeds after changing counters and the ending is reassurance, not a comic reversal. Cross-border card use and fees are the central conflict."
+      "notes": "Needs revision: the grandmother learns a cross-border card is not accepted by one clinic machine and pays cash before retrying at another counter; this is practical travel preparation without a comic turn."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_102.json",
@@ -8160,15 +8160,15 @@
       "status": "needs_revision",
       "baseline_sha256": "90efcdf66de6bd0d34566cc76760179d586dbdf7e12bfe108c333474b4b02a8f",
       "v2_sha256": "90efcdf66de6bd0d34566cc76760179d586dbdf7e12bfe108c333474b4b02a8f",
-      "notes": "Read all four fields. Vehicle fees, old direct debit, and transfer documents are checked methodically; dad’s final line simply delays the joyride until the car transfer is complete. The story has no developed comic escalation and its central conflict is vehicle-payment administration."
+      "notes": "Needs revision: father and son verify vehicle fees and cancel an old debit before transfer; the final ticket line is a mild admonition, not an earned comic reversal."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_103.json",
       "index": 0,
-      "status": "pass",
+      "status": "needs_revision",
       "baseline_sha256": "912565bd33ea57d4b8cc16649db7d1d4274ee96c629b47ea4c4a311810b4405f",
       "v2_sha256": "912565bd33ea57d4b8cc16649db7d1d4274ee96c629b47ea4c4a311810b4405f",
-      "notes": "Read all four fields. The low moving quote reveals hidden charges, rain adds a physical obstacle, and the labeled boxes let the family finish on time; dad’s ‘split the bill clearly so siblings don’t split up’ callback gives the logistics a short, earned pun. Gloss and tip track the work. Core conflict is still quote/budget/cost sharing and must be counted in the money-topic quota."
+      "notes": "Needs revision: the family checks mover’s add-on fees, protects a piano from rain and labels boxes; “账单拆得清，兄妹先唔会拆伙” is a predictable pun without escalation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_104.json",
@@ -8176,7 +8176,7 @@
       "status": "needs_revision",
       "baseline_sha256": "797045f45f47e9c6f20b3210882514a091ed80878649ec11eccd576bf4992dae",
       "v2_sha256": "797045f45f47e9c6f20b3210882514a091ed80878649ec11eccd576bf4992dae",
-      "notes": "Read all four fields. The leak turns into a low-cost loose joint and the saved grocery money still allows tea, but the resolution is reassuring accounting rather than escalating comedy. Repair reserve and household money remain central."
+      "notes": "Needs revision: a small plumbing repair is covered by a reserve fund and preserves the grandmother’s tea invitation; the ending is reassurance, not a strong joke."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_105.json",
@@ -8184,7 +8184,7 @@
       "status": "needs_revision",
       "baseline_sha256": "f5e389a37cbc1abc87b6161127f52af0a17e20a7db471fb4e0678e79197ed146",
       "v2_sha256": "f5e389a37cbc1abc87b6161127f52af0a17e20a7db471fb4e0678e79197ed146",
-      "notes": "Read all four fields. Adjusting care-center days allows the sister to rest and grandpa resets the old alarm to help her; this is a kind caregiving resolution with no comic conflict or punchline. Service fees and benefit approval remain central."
+      "notes": "Needs revision: the family reduces day-care sessions around clinic visits and the grandfather offers to accompany his daughter to market; the old-alarm-clock detail does not create a comic payoff."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_106.json",
@@ -8192,7 +8192,7 @@
       "status": "needs_revision",
       "baseline_sha256": "8f1ed3725680889898b03b56a0159e26cca150810f23cd473f7da7f3bdf24805",
       "v2_sha256": "8f1ed3725680889898b03b56a0159e26cca150810f23cd473f7da7f3bdf24805",
-      "notes": "Read all four fields. The family balances admission costs, insurance, and benefit timing, then grandpa’s tea-pot line relieves the tension but does not build an earned comic turn. The conflict is entirely payment and benefit planning."
+      "notes": "Needs revision: an elder-care subsidy is pending, so the family separates one-time and monthly costs; the tea-pot line is a mild tag that does not resolve a comic conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_107.json",
@@ -8200,7 +8200,7 @@
       "status": "needs_revision",
       "baseline_sha256": "0324720f0a2fca25977ddc878beae1b8415fc0de51ad371907142ff48e1ac7bb",
       "v2_sha256": "0324720f0a2fca25977ddc878beae1b8415fc0de51ad371907142ff48e1ac7bb",
-      "notes": "Read all four fields. A missing account-name letter catches a real transfer risk before confirmation; the family follows a sensible verification sequence, but the closing ‘most expensive lesson’ moral replaces a comic payoff. Tuition/transfer fees are the central conflict."
+      "notes": "Needs revision: the family catches a one-letter mismatch in an overseas tuition account and combines transfers to save fees; “the most expensive lesson” is a mild closing line after an informative process."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_108.json",
@@ -8208,7 +8208,7 @@
       "status": "needs_revision",
       "baseline_sha256": "aa45d4f7108994c183129a4da0ff46fcf09fce609588b4c255964bd53b80e982",
       "v2_sha256": "aa45d4f7108994c183129a4da0ff46fcf09fce609588b4c255964bd53b80e982",
-      "notes": "Read all four fields. The unnamed make-up-class screenshot and adjusted lesson explain the discrepancy, after which the family settles the correct fee. The final no-extra-class-money line merely restates the resolution; the conflict is pure fee reconciliation."
+      "notes": "Needs revision: a missing student name on a tutoring receipt causes a class-count question that is resolved with the school; the ending merely notes they avoided paying for one extra lesson."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_11.json",
@@ -10141,402 +10141,402 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_83.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f6126c43506e58259e6d5fde720b547f1329b6a9cfa726e0a5e62a378467af60",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f6126c43506e58259e6d5fde720b547f1329b6a9cfa726e0a5e62a378467af60",
+      "notes": "Needs revision: a family discovers that the father bought medicine with his own card and resolves conflicting clinic-expense records; the ending promises egg tarts but turns into a lesson about reducing suspicion, without a comic payoff."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_84.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "b92f8ed9d30092b41fd2d862bf7f1f9460184cbe6189de8df7bdb1b752aa2453",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b92f8ed9d30092b41fd2d862bf7f1f9460184cbe6189de8df7bdb1b752aa2453",
+      "notes": "Needs revision: the siblings compare bathroom quotes and protect the mother from slipping; the final line about not holding the wall is a mild relief tag, not an escalating or surprising joke."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_85.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "9fb25fa8114dbf6e950439b506f85ef3f64c6a04d09980f6e57e5cfb88b8ee98",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9fb25fa8114dbf6e950439b506f85ef3f64c6a04d09980f6e57e5cfb88b8ee98",
+      "notes": "Needs revision: relatives add a backup pickup person after a late clinic ride, then the grandmother jokes that the roster resembles a restaurant and offers tea; the joke is mild and the story remains a care-scheduling lesson."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_86.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "4ce6a404ad1038a6712c80cd1a5bf76458275cf7ddcfce5a2d1198159983dbee",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4ce6a404ad1038a6712c80cd1a5bf76458275cf7ddcfce5a2d1198159983dbee",
+      "notes": "Needs revision: a tenant is wrongly suspected of late parking rent because management fees still leave the old account; the family updates the account and finds little net income, with no comic reversal."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_87.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "6c65bfde4c413e77333642baee77b7a35f6bce0d6bd2f8dc335df0350f66501d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "6c65bfde4c413e77333642baee77b7a35f6bce0d6bd2f8dc335df0350f66501d",
+      "notes": "Needs revision: the grandmother reallocates allowance after exploring bus passes and cheaper medicine, and tutoring is deferred; the story resolves practically and ends with reassurance rather than comedy."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_88.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "40b7b2686163a54e1bdeae02d5f71688710cfcdb54d7312a4f08ed668e1b37ba",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "40b7b2686163a54e1bdeae02d5f71688710cfcdb54d7312a4f08ed668e1b37ba",
+      "notes": "Needs revision: two transfers and an outdated management account create a believable double-payment scare, then the family confirms the debit timing; the ending “差点被自己吓着” is weak, and the 323-character story is over the upper limit."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_89.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "40e1101ff3b5e39a605b3f858ccf2d779361e0c31fc6446c0a032978a8240a8e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "40e1101ff3b5e39a605b3f858ccf2d779361e0c31fc6446c0a032978a8240a8e",
+      "notes": "Needs revision: relatives compare cleaner quotes and set a shared-hours process; the loose flowerpot is handled safely but does not drive a comic turn, and the story is 321 characters, above the upper limit."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_90.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "632eeab055cdc9457a91b5bc2e25839803cfaa69c7686cb3b394393c0a4fd59f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "632eeab055cdc9457a91b5bc2e25839803cfaa69c7686cb3b394393c0a4fd59f",
+      "notes": "Needs revision: the father nearly gives a caller his bank credentials, the family detects a trial charge and freezes the card; this is clear anti-fraud advice, but the ending about not being scared is not a comic payoff."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_91.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "a5b8488fc7baf4d980dfde18eaa794bb17824fc25b6c0be0456d870526518a69",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a5b8488fc7baf4d980dfde18eaa794bb17824fc25b6c0be0456d870526518a69",
+      "notes": "Needs revision: a lost pair of glasses triggers a household budget review and a medicine-price adjustment; the ending about saving money early is explanatory, with no comic escalation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_92.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "8ea632b5bbfec7501c0f143941edd9cfe43e04509ed4d5c9941bbc62138ab4ba",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "8ea632b5bbfec7501c0f143941edd9cfe43e04509ed4d5c9941bbc62138ab4ba",
+      "notes": "Needs revision: two families move from a disagreement about baby costs to a proportional split, and find a lost bus ticket in a diaper bag; the reconciliation is warm but lacks an earned comic reversal."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_93.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "9fe9e861febdaff58df73208352bf09477d103c84754955719afbed8021c53c4",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9fe9e861febdaff58df73208352bf09477d103c84754955719afbed8021c53c4",
+      "notes": "Needs revision: a child asks whether birthday red packets must be surrendered, and the grandmother explains voluntary saving; the story is a gentle financial-literacy lesson without comedy."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_94.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f8412e3c3c3787dafd06a22882b09a0b025a05b8a8c15a88bbbaca57dbac6e09",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f8412e3c3c3787dafd06a22882b09a0b025a05b8a8c15a88bbbaca57dbac6e09",
+      "notes": "Needs revision: adult children check insurance eligibility and divide dental and eyeglass costs with their grandfather; the plan is coherent but has no comic escalation or punchline."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_95.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d10209e687a2347451fb5d0b1a06677ef38ee16c51361f25643140f126355b27",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d10209e687a2347451fb5d0b1a06677ef38ee16c51361f25643140f126355b27",
+      "notes": "Needs revision: the couple and parents document a down-payment loan and sale proceeds to protect family relationships; the result is sensible planning, with no comic escalation or punchline."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_96.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "9e8b6c15dfe9ff1bd8368192c19894d7ae21eb3d73d28f100f8b0665d7ac852c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9e8b6c15dfe9ff1bd8368192c19894d7ae21eb3d73d28f100f8b0665d7ac852c",
+      "notes": "Needs revision: an insurance adviser’s projected education return is checked against savings and direct tuition payment; the family delays signing, but the ending is a practical decision rather than comedy."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_97.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f4742196a4581703ecc03dc84a1b5a4441d7b13f9a5e62c2223e863536427986",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f4742196a4581703ecc03dc84a1b5a4441d7b13f9a5e62c2223e863536427986",
+      "notes": "Needs revision: the relatives clarify hospital deposits and reimbursement after two cousins nearly withdraw cash; the grandmother’s “账比眼科报告清楚” is a mild tag, not a strong payoff."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_98.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "36dbc8e2b48ebc62019e7f8467b0df4d28cf224fad4349af85f0b859b0247d07",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "36dbc8e2b48ebc62019e7f8467b0df4d28cf224fad4349af85f0b859b0247d07",
+      "notes": "Needs revision: a returned policy renewal letter reveals an old address and prompts a careful privacy-conscious update; the letter returning as a reminder is a light wordplay tag without escalation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_99.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "36c11a9eee2619350398c728b29037579a3fb2ad013c24564b140d94b714bf0c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "36c11a9eee2619350398c728b29037579a3fb2ad013c24564b140d94b714bf0c",
+      "notes": "Needs revision: an aunt and uncle preserve liquidity while allocating a deposit at maturity; the tea-and-interest-rate line is a small tag on an otherwise explanatory money plan."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "cb4e96c423ff770c5fc2a5ba6b03d7b571d5ef91c627382eac0800a017e6f2ab",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "cb4e96c423ff770c5fc2a5ba6b03d7b571d5ef91c627382eac0800a017e6f2ab",
+      "notes": "Needs revision: the fish-label misunderstanding is clarified and the dinner is warm, but the rain and meal details do not escalate into a comic reversal; the ending is a general family sentiment."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 1,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "971bc02ba2a41f59e9261c965995aa2dff439d6aa64072bd22eff4edd2d5057f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "971bc02ba2a41f59e9261c965995aa2dff439d6aa64072bd22eff4edd2d5057f",
+      "notes": "Pass: the leafy greens hide a snail, the daughter panics while the father gently relocates it, and her “小客人” remark lands as the family nearly burns the next pan. The physical sequence is coherent; the complete gloss and retelling tip match the scene, and the Jyutping was read against the Cantonese text."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 2,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "84394e390ce8fb41681f827d19509dfce2b26105daf8a043d636cbeeb17ff9bc",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "84394e390ce8fb41681f827d19509dfce2b26105daf8a043d636cbeeb17ff9bc",
+      "notes": "Needs revision: the wrinkled oranges prompt a freshness check and a return to a childhood drying method; it is a nostalgic food anecdote without a comic escalation or payoff."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 3,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "84405049190c1fa5a103c0385b984a32991a59ac85b67efdce7dcc35704d96e9",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "84405049190c1fa5a103c0385b984a32991a59ac85b67efdce7dcc35704d96e9",
+      "notes": "Needs revision: a forgotten carrot is replaced by a neighbour’s radish and the soup becomes a symbol of kindness; the ending is affectionate but not a developed joke."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 4,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2263782813495f46b40401e05ef83d90b57de02b1f1a183791502b3dd645e16e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2263782813495f46b40401e05ef83d90b57de02b1f1a183791502b3dd645e16e",
+      "notes": "Needs revision: a broken lift makes the rice bag heavy, a student neighbour helps carry it, and the household shares dinner; this is a pleasant exchange with no comic conflict or reversal."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 5,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "153ecdf7c1d8cf89c3f6de259e49a8f61f93f7b9cda9283525461485a6197d20",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "153ecdf7c1d8cf89c3f6de259e49a8f61f93f7b9cda9283525461485a6197d20",
+      "notes": "Needs revision: shrimp shells become a buoyancy experiment before dinner, but the lesson is explained directly and the ending is an educational summary rather than a comic payoff; at 319 characters it is near the length ceiling."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 6,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2f80f4b3bf36a1467ac659150e644383c2051805ae33959478a71d9b183d676b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2f80f4b3bf36a1467ac659150e644383c2051805ae33959478a71d9b183d676b",
+      "notes": "Needs revision: a cracked egg and a delayed family dinner are handled by changing the menu; the “egg saved dinner” line is only a mild practical tag, without a comic escalation."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 7,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "6f73f8a57eb8bcd410fe1702befc8b32fa819ffb3868ed19ad1658bb5e448739",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "6f73f8a57eb8bcd410fe1702befc8b32fa819ffb3868ed19ad1658bb5e448739",
+      "notes": "Needs revision: sprouted tomato seeds prompt a food-safety check and the family makes two tomato dishes; the story is a cooking tip, not a comic scene."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 8,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "339621e797a1657d2757e92f9a971186d02299f6a814014a2526607612a5842a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "339621e797a1657d2757e92f9a971186d02299f6a814014a2526607612a5842a",
+      "notes": "Needs revision: a brother oversalts fish porridge, the family dilutes it and adds century egg, then finds a small fish bone; the sequence is practical but has no earned comic payoff."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 9,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "0770e36988c1c2f71c5240bc70bacabd3a95f99846e82e870a840090b5991b2a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "0770e36988c1c2f71c5240bc70bacabd3a95f99846e82e870a840090b5991b2a",
+      "notes": "Needs revision: the narrator helps a market shopper who slips in the rain and receives thanks; it is a sincere kindness vignette without comedy."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 10,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "a4c999aebb26599bbc25fdfed98af41393185d641a4a159a8f9783733f6ea84c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a4c999aebb26599bbc25fdfed98af41393185d641a4a159a8f9783733f6ea84c",
+      "notes": "Pass: a mistaken cold coffee becomes a ticking-time-pressure scene; the narrator’s anxious table-tapping turns into improvised “live music,” then the sleeve becomes a concert ticket and the barista sends a blank sleeve as a metronome joke. The sequence escalates coherently; Jyutping, full gloss and event-matched tip were individually read."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 11,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "71a15dd63798ebe6f8b32aa67c25f163874c0c967920af1fae4de0e8eb70571f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "71a15dd63798ebe6f8b32aa67c25f163874c0c967920af1fae4de0e8eb70571f",
+      "notes": "Pass: the child’s upside-down menu question starts the joke, then bus spotting turns him into a self-appointed traffic announcer, even interrupting the mother wiping his mouth. The scene escalates naturally and the staff reaction is earned; Jyutping, full gloss and tip match the events."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 12,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "710e41c0b4a0f56e2fbc368bd6c588bcd95160ca8fa416dce936dfa355e5a311",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "710e41c0b4a0f56e2fbc368bd6c588bcd95160ca8fa416dce936dfa355e5a311",
+      "notes": "Needs revision: a lunch order is timed around an earlier meeting, a coworker gives directions and the forgotten pen is returned; the ending about eating vegetables and energy is a weak, unrelated tag."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 13,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "725567b4cd611bc550743a3162340b5a5783dfd91f64459087878a5f169d23dd",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "725567b4cd611bc550743a3162340b5a5783dfd91f64459087878a5f169d23dd",
+      "notes": "Needs revision: a missed breakfast order and a proofreading favour lead to a “comma went missing” joke, but the actual error is a misplaced digit; the punchline does not follow from the scene."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 14,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "deafce1658f3beb4d3481959c5778cc84ff93b5caa089f4ff55498901955f03f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "deafce1658f3beb4d3481959c5778cc84ff93b5caa089f4ff55498901955f03f",
+      "notes": "Needs revision: a child invents “pineapple-bun island” from an upside-down menu and draws a sightseeing map; it is an appealing image but the story stays a calm mood anecdote without a developed comic conflict."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 15,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "8ca1c0cd08053c911cf5ccbb2b3be68bc22df1f06dc66e4bbe4dad3668b96071",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "8ca1c0cd08053c911cf5ccbb2b3be68bc22df1f06dc66e4bbe4dad3668b96071",
+      "notes": "Needs revision: leftover fried rice is saved and the brother writes a promise not to dump food; the actions support a sensible waste lesson but not a strong comic reversal."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 16,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "83c70213ecbb8750fbe8b277d07869ef78de79b2973f64fdb359f50879b728e6",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "83c70213ecbb8750fbe8b277d07869ef78de79b2973f64fdb359f50879b728e6",
+      "notes": "Needs revision: a family handles a peanut allergy safely by checking with the kitchen and choosing plain toast; the “little safety officer” tag is mild and the story is mainly instructional."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 17,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "b83f9845a163ab6cc2fd6069df6d7efcf629237009f90a08ed0c3318ce4a5b39",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b83f9845a163ab6cc2fd6069df6d7efcf629237009f90a08ed0c3318ce4a5b39",
+      "notes": "Needs revision: two old classmates share pineapple buns and recall school days, but the crumbs are a small affectionate detail rather than an escalating joke."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 18,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "a1c29fe3688a2959f17fba08ed065f8c1e5ebc32593b86ef6b502035b21afebe",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a1c29fe3688a2959f17fba08ed065f8c1e5ebc32593b86ef6b502035b21afebe",
+      "notes": "Needs revision: the tea cup obscures the narrator’s mouth and a breakfast modification is repeated back correctly; the final bus-route reminder is unrelated, and the scene lacks a strong payoff."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 19,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "6e09991cd46a27944b1896ded456194dc88a239fa7708479fe051e938c5603cd",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "6e09991cd46a27944b1896ded456194dc88a239fa7708479fe051e938c5603cd",
+      "notes": "Needs revision: a sugar packet joke and “milk tea as mouthwash” line add wordplay, but the tasting conversation does not build to a consequential comic turn."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 20,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "cd6cfed2abaf4dc23175ce1380fe121b37ff65d98499e073151303af77a71c38",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "cd6cfed2abaf4dc23175ce1380fe121b37ff65d98499e073151303af77a71c38",
+      "notes": "Needs revision: separated sauce accommodates family preferences and leftovers are saved; the scene resolves smoothly without a comic conflict or reversal."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 21,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "b210482680f0623727ae152875fe132e1cc556ba30d278342bae6621db48394a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b210482680f0623727ae152875fe132e1cc556ba30d278342bae6621db48394a",
+      "notes": "Needs revision: a leaking soup container is replaced and the household updates delivery notes after a wrong turn; the story is a service-resolution report without comedy."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 22,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "835376ee71aa99708000eeb8ffe0a02bc7acebca8fcb8d2c656bf8f7747fbb12",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "835376ee71aa99708000eeb8ffe0a02bc7acebca8fcb8d2c656bf8f7747fbb12",
+      "notes": "Needs revision: a delivery rider finds the correct entrance after the resident sends a photo and the household updates the map; the mutual thanks are warm but there is no comic payoff."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 23,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "a785e138192f6d2ec178674c421d97b0e33ab1feec15f8fe770931854210c26e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a785e138192f6d2ec178674c421d97b0e33ab1feec15f8fe770931854210c26e",
+      "notes": "Needs revision: a restaurant misses the no-cutlery note, prompting the narrator to use a personal set and a coworker to try one; this is a practical habit story without a developed joke."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 24,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "b6f432943fae9360150e19dbb74a713762537e32a675c749b6185a00414805e9",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b6f432943fae9360150e19dbb74a713762537e32a675c749b6185a00414805e9",
+      "notes": "Needs revision: coworkers accurately share allergy information and confirm ingredients with the restaurant; it is a safety checklist and ends without comic escalation."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 25,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "0a0032796699c672d48fae303200bdbc290a07c5229ee9e63b93920c01b59844",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "0a0032796699c672d48fae303200bdbc290a07c5229ee9e63b93920c01b59844",
+      "notes": "Needs revision: a rainy delivery, spare napkin and extra chopsticks lead to a neighbour sharing dinner; the scene is warm but does not produce a comic turn."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 26,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "9fc8942f0083a305070adeaf7315fb2ee17a00b84ba7b7d308e3339b5c5dd459",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9fc8942f0083a305070adeaf7315fb2ee17a00b84ba7b7d308e3339b5c5dd459",
+      "notes": "Needs revision: a supermarket corrects a stale shelf price and the customer stores the receipt; the resolution is administrative and has no joke."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 27,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "a650f9de15ad286b3e679a547f710fb05e1b8c12720bb7fac4b75922b3eda85a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a650f9de15ad286b3e679a547f710fb05e1b8c12720bb7fac4b75922b3eda85a",
+      "notes": "Needs revision: yogurt and blueberries are sorted by expiry date to avoid waste; the family plan works as intended, with no comic conflict or payoff."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 28,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "b454f5f59c1ff95183e490a8501521aca062a35f3240e79996f6c400c7faaf7c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b454f5f59c1ff95183e490a8501521aca062a35f3240e79996f6c400c7faaf7c",
+      "notes": "Needs revision: a stuck cart is swapped and children compare the narrator to a bus driver; the joke is a passing line and does not develop into a comic sequence."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 29,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "5d0a2270f863b04f22d8be86ae8f428ca838d929801cf3579de0a0f8e88d7a78",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5d0a2270f863b04f22d8be86ae8f428ca838d929801cf3579de0a0f8e88d7a78",
+      "notes": "Needs revision: forgotten shopping bags lead to reusable bags and the customer shares a paper bag with another shopper; this is a pleasant environmental habit story without comedy."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 30,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "ede9ee0c30064a1b274f3161b5cf293f45ebc73ad884d08c6ad97d75e0a2b105",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ede9ee0c30064a1b274f3161b5cf293f45ebc73ad884d08c6ad97d75e0a2b105",
+      "notes": "Needs revision: a shopping list becomes a tomato-chicken soup and the family enjoys leftovers; the events are orderly and end with generic praise."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 31,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "31756f360aeca5acad979a4ce570ab6a04a6e6c4052fe00af461c8cb64895518",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "31756f360aeca5acad979a4ce570ab6a04a6e6c4052fe00af461c8cb64895518",
+      "notes": "Needs revision: a member price mismatch is corrected by the cashier and the customer checks the receipt; the story is a routine service interaction without a comic turn."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 32,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "ba6e266057a829098a1981a0cbef32aa9a916339882273ca263d98e04feb4ff7",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ba6e266057a829098a1981a0cbef32aa9a916339882273ca263d98e04feb4ff7",
+      "notes": "Needs revision: extra onions are shared with neighbours and become a communal soup; the neighbourly meal is warm but has no comic escalation or punchline."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
