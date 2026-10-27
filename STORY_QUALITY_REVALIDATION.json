@@ -2454,18 +2454,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 6,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c0b30fcaab9f561b17a985e9121fd42ffdea0961d6926b57754701a41717b12c",
-      "v2_sha256": "c0b30fcaab9f561b17a985e9121fd42ffdea0961d6926b57754701a41717b12c",
-      "notes": "银行通知误会最终揭晓为自己设置的水费自动扣款，和此前假客服/转账通知故事重复；饭店辣酱误会与猪扒包对白未产生有力喜剧升级。四字段均已审读，需改写。"
+      "v2_sha256": "c3997306cccb7047468c7e696ccacd198dd6ddae2da51f5fcef5fc7332d0447a",
+      "notes": "The father’s mismatched hiking-pole steps first block his family, then make following hikers mistake him for a guide; at the fork he stalls with the map while the youngest has already chosen a path. The final line admits the poles can’t choose the route. Main reviewed all four fields and context-checked 240 aligned Jyutping syllables; complete gloss/tip and category preserved. Corpus search found only a distinct weather outing with unused hiking poles."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 7,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "37784d4cd2cb4d33f603fb0957f5e8ccadd0751072f18a6f88b781ab0a12aff3",
-      "v2_sha256": "37784d4cd2cb4d33f603fb0957f5e8ccadd0751072f18a6f88b781ab0a12aff3",
-      "notes": "搬家后处理银行地址确认和健身室续会通知，主线是保存账户文件与更改资料；铁盒和电子版的结尾缺少鲜明笑点，整体偏事务说明。四字段均已审读，需改写。"
+      "v2_sha256": "3ae0c9213a33e32f85a71fed5cfdb4debd0e38d59dc10729883248a0c05a9885",
+      "notes": "A held-open elevator door prevents the car from moving; the father discovers he has pressed 開門, not 關門, then stays inside at the ground floor to hold the same button for people boarding upward. The final line extends his earnest misunderstanding. Main manually reviewed all four fields, context-checked Jyutping syllables and complete gloss/tip; category preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2478,10 +2478,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 9,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "91f8ca885642469e683504c1f52570a861b161f299e7edf14ad67d881474efaf",
-      "v2_sha256": "91f8ca885642469e683504c1f52570a861b161f299e7edf14ad67d881474efaf",
-      "notes": "婆婆登录账户查退款而找不到旧利是封，重设后发现退款到账；但主要是账户处理流程，树外读字的梗较轻，未形成强喜剧递进。四字段均已审读，需重构。"
+      "v2_sha256": "d1b92504a36ac05300e7590a3370017ba3b7c440e51dfc7463110378afd857d1",
+      "notes": "At the park, the father’s cardboard fan sends bubbles first toward walkers and then an exercise group; he stops, but the final bubble hovers by his nose until a sneeze pops it. The grandmother then limits him to holding the fan; “帮佢哋散场” closes the escalating interference with a bubble-show callback. Main reviewed all four fields, context-checked 243 Jyutping syllables, full gloss and event-matched retelling tip; category preserved. Corpus search found only a separate swimming-lesson bubble reference, not this plot."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2510,10 +2510,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 13,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d147bbdc60575f4fef549210e81ac51257a0ab695b50d704b8260fff7cec0563",
-      "v2_sha256": "d147bbdc60575f4fef549210e81ac51257a0ab695b50d704b8260fff7cec0563",
-      "notes": "重复扣款导致追退款及编号跟进，与已标记的账单/退款主线重复；孖胎蛋糕与证物梗反复出现但笑点温和。四字段均已审读，需重构。"
+      "v2_sha256": "cdcc3284294da81a5155979e0a55df68606fd46c48d32f5685c8667f99a64ba9",
+      "notes": "At a community fair, Dad repeatedly lifts the curtain before his sister finishes, then hides the rabbit doll in his sleeve and forgets it. When the empty hat fails, the sister pulls the toy halfway out; its hand hooks the cuff, turning his mistake into the reveal. Afterward the staff asks about another act, and Dad says the rabbit must be willing to get offstage because it is still hanging onto him. Root reviewed all four fields, corrected the cue to wait until the sister finishes speaking, verified 265 Han/265 aligned Jyutping units (including 勇 jung5 and contextual 勾 ngau1), and matched the complete gloss/tip. Category preserved. Corpus search found no comparable magic-hat/sleeve plot."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2574,10 +2574,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 21,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7478401c5ba88235d86e741f7e0f1efb06d1f494be02cf36ae20a51625324145",
-      "v2_sha256": "7478401c5ba88235d86e741f7e0f1efb06d1f494be02cf36ae20a51625324145",
-      "notes": "洗衣机分期金额、手续费、总价折扣和家电储蓄构成家庭购买成本核算主线；硬币打拍子的附带笑点不足以改变重复算账观感。四字段均已审读，需改写。"
+      "v2_sha256": "1e5ec28c8b7d6a59eeb55ab57f429ddaab62c58ec2f787cd4d34f436973825e5",
+      "notes": "The father overlabels stationery until long strips tangle pencils, eraser and scissors; while trying to correct the mess he sticks 剪刀 on his own shirt, then the sister labels his hand 停手. Each repair attempt increases the clutter and the final label stops him from touching the machine. Main reviewed all four fields, corrected the printed list to include the scissors label, context-checked 290 Jyutping syllables, full gloss/tip, and preserved category. Targeted corpus scan found labeling mix-ups for food/storage but no stationery-tangle premise; this physical escalation and self-label payoff is distinct."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2734,10 +2734,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 41,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6e5754b900dcfca1a3f60d055e9805ce1f88061e540d7d5febf23d2fe5ccb47c",
-      "v2_sha256": "6e5754b900dcfca1a3f60d055e9805ce1f88061e540d7d5febf23d2fe5ccb47c",
-      "notes": "The account-change scam and bakery timer create parallel interruptions, but resolution is procedural and the “sweetest” money line is a weak kicker. Full story, gloss, Jyutping, and tip checked; rebuild to give the bakery action a comic consequence and an earned ending."
+      "v2_sha256": "058e26bf891fe736c2e675a639d6a7d3eb67c98006c279a73b30a41fde0b8361",
+      "notes": "A fan oscillates toward a partly open door, repeatedly slamming it; Dad escalates from a slipper to an empty bin and books, disrupting the whole room. The sister spots that the fan direction triggers the movement and turns it to the wall; the father realizes he has been fighting his own fan. Root reviewed all four fields, corrected the falling-book action for physical continuity, checked 252 aligned Jyutping syllables, correcting 罅 to laa3, full gloss and event-matched tip, and preserved category. Corpus comparison found an unrelated cabinet hinge repair story but no fan-driven door/wedge sequence."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
