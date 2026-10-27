@@ -2406,10 +2406,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "70bca3dc1dce8c086364c5d26cd1fc0a00270c77657637a6b4f14761ce9efdd7",
-      "v2_sha256": "a1f7194babf100b1ac53424ded19654b318ced7b8ce861d38a19f484e91d70fc",
-      "notes": "Fine-audit correction: pending a stronger rewrite. Current plot leaves the ferry rules unclear and spends too long on repeated unloading logistics; the prize-fine-print reveals the extension but the final sentence explains the joke instead of landing a concise earned payoff."
+      "v2_sha256": "74077365a260bb5c128647851640c5f250bb91b039ad55d6c8dd34a753ad5173",
+      "notes": "Rewritten and individually reviewed after fine-audit rejection: the first empty-boat attempt, passenger loading and no-hands rule escalate through clear one-way ferry action; the win reverses into a queue of ten new paper passengers and the cookie becomes overtime pay. The sister’s demand that the captain keep sailing makes the job joke earned without inventing an unshown return trip. Full story, gloss and tip aligned; all four language fields reviewed; category metadata retained."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
