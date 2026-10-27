@@ -36957,10 +36957,10 @@
     {
       "file": "content/sentence_bank/long_home_family_07.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "287f72deb7933731d12f432ea14129c0bd5eb9ee1b0ffde23d86050364ef4d91",
-      "v2_sha256": "287f72deb7933731d12f432ea14129c0bd5eb9ee1b0ffde23d86050364ef4d91",
-      "notes": "All four fields match the window-seepage sequence, but the main turn is factual diagnosis and repair; “毛巾有功” is a single mild tag, followed by instructional wrap-up rather than escalating comedy."
+      "v2_sha256": "c74a7ba957866b1dda86769c1abe800120a292858af5a46192c9e6bc134d2c24",
+      "notes": "Rewritten and main-reviewed: the repeated towel fix expands into a taped “construction zone” and Dad’s engineer briefing; the outside seal, not the towel, fixes the leak. He then insists the towel passes a rain test and writes a report defending its effort, which pays off the overconfident maintenance routine. Gloss and tip match; Jyutping has 275 tokens aligned to 275 Han characters."
     },
     {
       "file": "content/sentence_bank/long_home_family_07.json",
