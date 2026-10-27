@@ -9,15 +9,15 @@
       "status": "pass",
       "baseline_sha256": "d50fff2605d585d75a7d2d178cb23a5b26a8cf58358af2cf39a1b7afcb4bab01",
       "v2_sha256": "38b8bd3b47576f8fd1cb19f38484b1abc669c9ebc2d9bc2f4c8ad1b64bd989bc",
-      "notes": "Pass after manual correction of Jyutping 洗碗 (wun2) and 演 (jin2). Family skit escalates from mistaken household role assignment to neighbor intervention and grandmother’s role reversal, with the overtime line as callback. Checked full story, gloss, all Jyutping syllables for 293 Han characters, and event-matched practice tip."
+      "notes": "The daughter’s rent-collection play is mistaken for a real family dispute; neighbor intervention raises the stakes, then grandma reverses the landlord/tenant roles and the father gets an after-hours dishwashing line. Budget is background, not the conflict. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 1,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a81bf135a40e7437a0ea2cbf1197f64fd0842c96240f9b46103a7de73d5d2ec2",
       "v2_sha256": "a81bf135a40e7437a0ea2cbf1197f64fd0842c96240f9b46103a7de73d5d2ec2",
-      "notes": "Needs revision: the bank queue and bus-route confusion are coherent, and the long-journey callback is understandable, but the escalation and ending remain mild; the final bus-ticket question adds a second tag without a stronger earned reversal. All four fields and Jyutping alignment/context reviewed; retain as a flagged repair, not a pass."
+      "notes": "Bank waiting becomes a bus-route game when the child reads queue numbers aloud; the aunt’s “long-distance ride” and the departing uncle’s senior-ticket callback pay off the setting. Retirement account is incidental, not a money dispute. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -25,15 +25,15 @@
       "status": "pass",
       "baseline_sha256": "b6b62c5fc4a0f4c0ec5f2df62823bf493b23cf7eb33ef51c44e4f4452bad952d",
       "v2_sha256": "b6b62c5fc4a0f4c0ec5f2df62823bf493b23cf7eb33ef51c44e4f4452bad952d",
-      "notes": "Pass: the prop-introduction meeting escalates through the toy delivery cart reaching the supervisor, a comic literal sign-off, and the tea bag becoming the meeting highlight. Sequence is plausible and four fields match the incidents. Reviewed all Jyutping readings; 擰緊 ning6 corroborated by existing CantoDict citation in the historical review notes. Han/syllable count checked."
+      "notes": "The toy delivery truck rolls to the manager, who signs for it; later the airborne tea bag is promoted to meeting highlight. The two physical accidents escalate and connect to the meeting prompt. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 3,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "36d90aedb01d73716f4ba9a01c1a154c2ac2f9604f4270f6a0e8d057d841ff01",
       "v2_sha256": "36d90aedb01d73716f4ba9a01c1a154c2ac2f9604f4270f6a0e8d057d841ff01",
-      "notes": "Needs revision: the pottery sequence is coherent, but the conflict stays mild and resolves into a pleasant repurpose rather than building to a strong reversal or punchline. Flag for a new comedic engine. Jyutping also needs rechecking: 攞 in 攞返屋企 is recorded lo5 and appears suspect; do not pass until corrected from a reliable reading source. Four fields were read; no content was changed."
+      "notes": "The misshapen bowl becomes a boat, holds tea, and prompts the mother’s “learning shipbuilding” line. This is a coherent physical transformation with an earned closing callback. Checked all four fields, including glossary and event-matched tip."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -41,7 +41,7 @@
       "status": "pass",
       "baseline_sha256": "d31cc8633ec3031fe6e9c290578b6dac20e1191f9e9eb5152d3483e4a965f121",
       "v2_sha256": "d31cc8633ec3031fe6e9c290578b6dac20e1191f9e9eb5152d3483e4a965f121",
-      "notes": "Pass: the early clapper causes a group-wide rhythm drift, the chorus becomes mosquito-slapping, and the phone alert reveals the washing-machine sound conditioning; final half-beat question callbacks cleanly. Sequence, colloquial dialogue, four-field match, and contextual Jyutping read in full."
+      "notes": "The choir copies an early clapper, then his phone emits a washer-finished alert that explains his reflex; the final half-beat/washing-machine question closes that callback. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -2408,8 +2408,8 @@
       "index": 0,
       "status": "needs_revision",
       "baseline_sha256": "70bca3dc1dce8c086364c5d26cd1fc0a00270c77657637a6b4f14761ce9efdd7",
-      "v2_sha256": "a6488ec4a974256d385d55448ce2a64e71031307856f6137fbf01ae0912485d7",
-      "notes": "Terra fine review and root scene review accept the timed trial, two unloaded crossings, award-to-next-shift reversal, and event-matched tip. Root manually checked all four fields and the 266 syllable mapping; 贏 is written jeng4, but an authoritative external dictionary lookup could not be reached in this environment, so this card stays out of pass pending that source check."
+      "v2_sha256": "76cffd289dc9e1f2bb25091eddfb2057050475b507a74bf1c9fb39d81e219c07",
+      "notes": "Reworked after fine review: a phone-timed ferry trial, concise two-trip physical sequence, award becomes a next shift, sister pins the badge as an employee ID, and blocks his attempt to remove it before saying his blowing skill qualifies him. Root review and dictionary evidence for 贏 remain pending; not counted as pass."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -3406,602 +3406,602 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 25,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "a98c5f1525d2b4f5d2a51dc5f618e0da70a53f1723993aa8c7b7b29030bd149a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a98c5f1525d2b4f5d2a51dc5f618e0da70a53f1723993aa8c7b7b29030bd149a",
+      "notes": "The opening eye-test insult and freckles callback are lively, but the main plot shifts to installment disclosure, cancellation fees and document checks. The financial contract dominates the conflict; rebuild around the family/optical-shop misunderstanding."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 26,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "6617d35d9cbd6f212cb02487e0c7a9f248f87d8a555ea10f13f4ad8df5717912",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "6617d35d9cbd6f212cb02487e0c7a9f248f87d8a555ea10f13f4ad8df5717912",
+      "notes": "The sales call, oven mitt, and burnt-tart callback make a clear scene, but the central action is calculating installment interest, fees and total repayment, repeating the accounting-led pattern. Retain the physical setup while replacing that conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 27,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "72858fdddaf7b8b504543601f7ebf9dc543e0c2185d9427597cddb04b57f2bd3",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "72858fdddaf7b8b504543601f7ebf9dc543e0c2185d9427597cddb04b57f2bd3",
+      "notes": "The defective sofa turns sitting into a slide toward dad; the family tests a safe workaround on the floor, dad scores the slide like a sports replay, and the “no more competition” line pays it off after repair. Finance terms are service context rather than the comic conflict. Four fields and contextual readings checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 28,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "57a33c95fb6f880c4cdbd62651c2d059fa91035e88810eafc4047ea3d089e9bf",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "57a33c95fb6f880c4cdbd62651c2d059fa91035e88810eafc4047ea3d089e9bf",
+      "notes": "The toothpaste squeezing disagreement escalates into dividing sides, then the roommate borrows the other tube and deliberately reaches for the middle to provoke the owner. “Shop-owner supervision” closes that exact callback. Four fields and contextual readings checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 29,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "7adf864cd7f0d469b11a21499beb59177ecaaa1363ffc6c290e4e2a737587a62",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "7adf864cd7f0d469b11a21499beb59177ecaaa1363ffc6c290e4e2a737587a62",
+      "notes": "The birthday-cake appliance gag is a brief setup, then the story centers on multiple installment dates, statements, receipts and automatic-payment cancellation; accounting dominates. Rebuild the conflict away from payment reconciliation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 30,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "5b4d098edf5651953cb9e2520b2c9e9d8c8c1f716195fe6286b1d53646c5dbb1",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5b4d098edf5651953cb9e2520b2c9e9d8c8c1f716195fe6286b1d53646c5dbb1",
+      "notes": "A rushed colleague nearly pays an unverified lender while a rib keeps falling from his chopsticks; the private payee, unverifiable registration and bank call escalate the check, and “anti-scam alarm” pays off the lunch mishap. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 31,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f7c81b9b3d91dfa5e471d07d35309a6c7ad29f3e3af0934d9ed254e1b46a9f20",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f7c81b9b3d91dfa5e471d07d35309a6c7ad29f3e3af0934d9ed254e1b46a9f20",
+      "notes": "The proposed shop is resolved through mortgage risk, household bills and affordability calculations, so money/accounting is the core conflict. The noodle-loss callback is mild; rebuild around a nonfinancial shop or family misunderstanding."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 32,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "b8682a2f63b3f28067288e8d731eeb44f72ae625e8241dd9cb6812f0a0677515",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b8682a2f63b3f28067288e8d731eeb44f72ae625e8241dd9cb6812f0a0677515",
+      "notes": "The umbrella and file stack physically prevent a greeting; each person helps free a hand, and the receptionist remembers only the objects rather than their names. The final line directly closes the handoff sequence. Checked four fields."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 33,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "0b901a5509acf672be07baf1339ee9ffa227de146d87f8e20c6cbf823f7dee33",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "0b901a5509acf672be07baf1339ee9ffa227de146d87f8e20c6cbf823f7dee33",
+      "notes": "The ad promises to erase credit history; the brother’s whiteboard eraser makes the phrase physical, and “擦白板，唔擦人生” pays that setup after they verify the official process. Checked four fields."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 34,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "4d96b2893a8bf11fa967d59a8f232d28c314830efd26e416863d9f029c5f108c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4d96b2893a8bf11fa967d59a8f232d28c314830efd26e416863d9f029c5f108c",
+      "notes": "The urgent ferry-payment scam makes the cousin panic; the melting ice cream makes him stop and inspect the link, and “only it needs defrosting” is an earned visual pun. Official bank confirmation closes the safety sequence. Checked four fields."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 35,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "5a92faa945bcc8d6202d9e7d2749eabb9bde366cd015fc032c99ac895a32a6b0",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5a92faa945bcc8d6202d9e7d2749eabb9bde366cd015fc032c99ac895a32a6b0",
+      "notes": "The flower-shop freezer and dry-flower callback are vivid, but the main conflict is whether and how the friends lend money, document the loan and collect repayment. Rebuild as a nonfinancial flower-shop mishap while keeping category metadata."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 36,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "b7cbe03e27bd074bb499c59528855ab46d040278002be1fc36a81fcb48c15888",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b7cbe03e27bd074bb499c59528855ab46d040278002be1fc36a81fcb48c15888",
+      "notes": "A spoken line from a mystery book makes the colleague play detective; the story’s real lost-key case then catches the same person, and the cup-side discovery plus “two cases” line closes the role reversal. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 37,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f9e5f86ae859098534fc5de72a9d98623b772194fc174a4f007ae250c74abdaf",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f9e5f86ae859098534fc5de72a9d98623b772194fc174a4f007ae250c74abdaf",
+      "notes": "A loan balance, transfer screenshot, deposit and reconciliation drive the plot; the shrimp-dumpling and receipt tags are mild callbacks. This continues the account/repayment pattern and needs a different central conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 38,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "7befbf5d70b401d5749ccea550d115a43e5cb760d5e61d8043af411c82707889",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "7befbf5d70b401d5749ccea550d115a43e5cb760d5e61d8043af411c82707889",
+      "notes": "Rates, property charges, tutoring costs, budget arithmetic and staged payment dominate; the rice cooker callback does not shift the accounting premise. Rewrite away from utility/property bills and calculations."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 39,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "882e82f8feb03b8a4e7eb370005dac00919fb5a342e8319d77b4c85fc9a81018",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "882e82f8feb03b8a4e7eb370005dac00919fb5a342e8319d77b4c85fc9a81018",
+      "notes": "The story revolves around a loan advertisement, fee/rate comparison, hospital payment timing and financing choice; the wet tissue joke is light. Rebuild around a nonfinancial bus-stop or communication conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 40,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "2b0acc6f4f06e42c82a786878367b6882e7ba3d995fb05fabca4853cbb116277",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2b0acc6f4f06e42c82a786878367b6882e7ba3d995fb05fabca4853cbb116277",
+      "notes": "The careful stamper fills scrap paper while the gift card stays blank; the crooked flower becomes intentional, then her friend tries to protect the card from more “testing” as class ends. Clear perfectionism-to-acceptance turn and matching tip. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 41,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "54920967facbeb9196b7974544605ead9c6af88f23866eedf08acd9bbaeb089f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "54920967facbeb9196b7974544605ead9c6af88f23866eedf08acd9bbaeb089f",
+      "notes": "The central plot is setting a medical reserve by tracking bills and pausing a subscription; the family reassurance is warm but does not deliver the requested comic escalation or reversal. Rebuild around a distinct nonfinancial scene."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 42,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "4bc51ac72eab96fda70f9b5129a9130523a9c6f0922f7df45f3590f7b1b28d06",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4bc51ac72eab96fda70f9b5129a9130523a9c6f0922f7df45f3590f7b1b28d06",
+      "notes": "The joke that the baby spends money is followed by savings targets, purchases, duplicate warmers and refunds; coffee-budget and diaper-pot callbacks are mild. Accounting/savings dominates and should be replaced."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 43,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "ef94d71efe32601a7fc2d5ff84cdb1271a0ff482868921b9f6f824082198b621",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ef94d71efe32601a7fc2d5ff84cdb1271a0ff482868921b9f6f824082198b621",
+      "notes": "The first-wage allocation, savings transfer and planned tea outing make finance the central conflict; the umbrella receipt adds a sentimental turn but no strong comic progression. Rebuild around a stronger scene."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 44,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "ae411d2e8392f302de2d6bd5621c3320c31294be83a80ede88b54d97be5c8660",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ae411d2e8392f302de2d6bd5621c3320c31294be83a80ede88b54d97be5c8660",
+      "notes": "The shopper freezes beside a mannequin; a customer mistakes her for one, and her answer reveals the confusion. The customer then mistakes the narrator for staff; the closing line pays off her long pose. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 45,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "bffaa06da90c3d6ff9837a20b3c36a671e1a0187153f60c6445115978537f4de",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "bffaa06da90c3d6ff9837a20b3c36a671e1a0187153f60c6445115978537f4de",
+      "notes": "The Taiwan trip is negotiated through rewards, refund, insurance and itinerary arithmetic; the son’s elephant request changes the budget, then the airplane-star joke is mild. Money planning dominates and the ending does not land strongly."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 46,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "444d599cc9d396a0701fad6a2e16e7b7fcf28f244193eed8bac0bd4c1d5ee5d8",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "444d599cc9d396a0701fad6a2e16e7b7fcf28f244193eed8bac0bd4c1d5ee5d8",
+      "notes": "Medical reserve, account tracking, receipts and correcting the soy-milk entry dominate the story. The family scene is warm but has little comic escalation; rebuild around a more distinct event."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 47,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "6cf01ed59e5e666b0ea0ff0d32d4cedc9a2a03eec2da53439c3f51755cacfeb4",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "6cf01ed59e5e666b0ea0ff0d32d4cedc9a2a03eec2da53439c3f51755cacfeb4",
+      "notes": "The burst pipe and floating slipper are vivid, but the story turns into automatic transfers, long-term/emergency accounts and monthly “mop rent” calculations. Savings/account management remains central; rework."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 48,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "4062f69a1a241e06911b11628dc80356f60d89c7e19c6f9b4b4409aefb8a3bea",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4062f69a1a241e06911b11628dc80356f60d89c7e19c6f9b4b4409aefb8a3bea",
+      "notes": "The chicken-driver drawing is playful, but school fees, utility bills, savings targets and postponing a television purchase drive the plot; the chicken callback is mild. Replace the budget-centered conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 49,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "81da1097ea564f22e5604b54592174e6d3a01a72fc6f6655599503aa68cf0586",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "81da1097ea564f22e5604b54592174e6d3a01a72fc6f6655599503aa68cf0586",
+      "notes": "The grandmother’s mistaken month and rushed bank trip are coherent, but interest-rate comparisons, deposit terms and locked-up travel money dominate. The date/date pun is not a strong payoff; rebuild around a broader, more comedic misunderstanding."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 50,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "7ed1eec390780bcd81c27aa06c9a28001e5bde60d1b117d56eb11b8951384480",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "7ed1eec390780bcd81c27aa06c9a28001e5bde60d1b117d56eb11b8951384480",
+      "notes": "The “all locked” question and school-bus calendar are coherent, but the core remains allocating education money across deposit terms and cash flow; the turns are mostly financial explanation, with a mild final reminder. Needs a stronger comic scene."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 51,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "0961818bd0ac63d9366b90c17d7a2532e97d0cbdd3776276742d1e1363c04873",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "0961818bd0ac63d9366b90c17d7a2532e97d0cbdd3776276742d1e1363c04873",
+      "notes": "The high-interest pitch makes the narrator impulsive; the sister literally locks his wallet, then frames withdrawal restrictions as an escape room. The key left on the fridge with a warning completes that physical lock callback. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 52,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "99e492e56629bc492846dd5535ec908b0906f3e1b685b194c929a0d127d0bc50",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "99e492e56629bc492846dd5535ec908b0906f3e1b685b194c929a0d127d0bc50",
+      "notes": "The noisy old fridge and brick-hard ice cream make the deposit decision physical; the father preserves the dessert until the new fridge arrives, then asks whether interest is frozen too. The payoff is earned and the deposit split is clear. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 53,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "97be6f863dd7c429734458266da010647ac4c9ccd33b3685eee811e47ca1406d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "97be6f863dd7c429734458266da010647ac4c9ccd33b3685eee811e47ca1406d",
+      "notes": "Several household due dates collide with maturing deposits; the story is driven by payment scheduling and liquidity management. The daughter’s bus-route metaphor is clear but the punchline remains mild; rebuild away from account-calendar arithmetic."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 54,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "859a0a21f892ef07bfa096a83465fc483b2386e6b7e54d4019bad69e061d8d87",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "859a0a21f892ef07bfa096a83465fc483b2386e6b7e54d4019bad69e061d8d87",
+      "notes": "Dad boasts about moving fast, then his glasses slide into the tea and the mother counters that he cannot read quickly. The magnifying glass used on the early-withdrawal clause pays off that setup. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 55,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "1c8f738f490d23eaf139bbb2003f7484fb8498c094e54eb9d258dc6701696836",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1c8f738f490d23eaf139bbb2003f7484fb8498c094e54eb9d258dc6701696836",
+      "notes": "The scholarship story is mainly allocating school, transport and lunch costs across savings jars; the serious financial plan is lightly decorated by the bus-ticket idea, without strong comedic escalation. Rework around the child’s school commute or a more vivid misunderstanding."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 56,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "d191436e47df9e0495212531e9c10ba8f82e724a5e3008f5740a626728363458",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d191436e47df9e0495212531e9c10ba8f82e724a5e3008f5740a626728363458",
+      "notes": "The official deposit date conflicts with the phone reminder while a broken washer creates pressure; the family verifies the source, postpones the deposit and the final leak makes the “deposit also flooded” line pay off both threads. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 57,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "962bb1314fb849c0cd75a62a31113958e7402726b4fc1b718037075de927a0fd",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "962bb1314fb849c0cd75a62a31113958e7402726b4fc1b718037075de927a0fd",
+      "notes": "“Returns high enough to laugh” turns into dad joking that the ad laughs at them; the magnifying glass, early-withdrawal rules, and dad’s ad-host performance build the callback. The final magnifier line follows from the scene. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 58,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "eb977a2b5ff959a53cd059cb845d6b353d33164543bf53f1f36300d7b6563740",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "eb977a2b5ff959a53cd059cb845d6b353d33164543bf53f1f36300d7b6563740",
+      "notes": "The insurance renewal is compared through premiums, limits, receipts and actual usage; the receipt queue/clinic sports-day joke is mild. This is another account-comparison scene and needs a stronger character-led comic conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 59,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "e449f8ccd28d068d089558d988ba0bea7f7aaa7feb20e8ed722e9b0fc99acd67",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e449f8ccd28d068d089558d988ba0bea7f7aaa7feb20e8ed722e9b0fc99acd67",
+      "notes": "The one-tenth premium increase prompts dad to use the calculator like a TV remote, then to claim hair-dye reimbursement when he hears “age adjustment.” The family compares coverage and keeps the original plan; the hair callback gives the scene a clear comic tag. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 60,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "2b8e1cd8afacbab90eeee40d22bee365ed443deef90cca36d20510bba71cf981",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2b8e1cd8afacbab90eeee40d22bee365ed443deef90cca36d20510bba71cf981",
+      "notes": "Dad boasts about ten claim-free years, but the mother recalls his midnight wrong-number tow call; checking rescue coverage reveals a small price difference, and the final flat-tire memory callbacks to her slippers directing the tow truck. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 61,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "58b9d40d5d0a8fa7bad69a7f9398df68a190125b6a8fb2ef80d1d7e28652e00b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "58b9d40d5d0a8fa7bad69a7f9398df68a190125b6a8fb2ef80d1d7e28652e00b",
+      "notes": "Most of the action is updating a phone number, resending a policy and correcting an address; the “phone recognizes us” tag is mild and does not create strong comedic escalation. Rebuild around a vivid person-led misunderstanding."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 62,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "9d048c51c9d51c07f382a4b682531435c3e314bcf44e319b9e5e6c5431baee3e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9d048c51c9d51c07f382a4b682531435c3e314bcf44e319b9e5e6c5431baee3e",
+      "notes": "Grandma hears “medical transport” as an ambulance ride to the airport and asks to bring pineapple cakes; the family checks age and cancellation conditions, then she packs cakes against baggage delay. The cake callback gives a clear comic payoff. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 63,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "bd810504ecb68be1fcc9d5304a413dd0a2024027e4dd39d3e18ae956943de039",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "bd810504ecb68be1fcc9d5304a413dd0a2024027e4dd39d3e18ae956943de039",
+      "notes": "The old address, saved draft and delayed renewal form a coherent administrative mix-up, but “move the address before the boxes” is a mild tag. It lacks the strong escalation and reversal required under the clarified bar."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 64,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "9986862060e87d9f3aec8d7df61ef4d7154e590a37d6728bea1fb65818fcc25b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9986862060e87d9f3aec8d7df61ef4d7154e590a37d6728bea1fb65818fcc25b",
+      "notes": "The cabinet door repeatedly springs open, escalating into a family repair attempt; the old folded policy envelope is revealed as the shim, and the “best lock” line closes the physical cause. Tip matches the exact reveal. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 65,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "427b0762a46e989cba1f386ec33fdf8e0a5403f348623872cc053afdee4df4d9",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "427b0762a46e989cba1f386ec33fdf8e0a5403f348623872cc053afdee4df4d9",
+      "notes": "The story is about correcting insurance contact details and finding a leak hotline; the Mars line is brief and the dual-paper/e-mail ending is practical rather than a strong comic reversal. Rebuild with a more vivid person-led conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 66,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "724b09070e4e81637a95574c755801e3b87869692e3158d2268f7d6c1a03d46c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "724b09070e4e81637a95574c755801e3b87869692e3158d2268f7d6c1a03d46c",
+      "notes": "Dad labels himself an orchid caretaker, then treats four plants as bosses and shows up for a daily calendar timecard; the slow-blooming plant’s refusal to approve leave closes that workplace roleplay. Checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 67,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2ee5637ac3395b78c318aebad1da641072edc825c669cf740958526bf4ccb479",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2ee5637ac3395b78c318aebad1da641072edc825c669cf740958526bf4ccb479",
+      "notes": "The core problem is cancelling auto-renewal while a premium is still charged, followed by evidence and account correction. This repeats service-fee reconciliation, with no strong comic payoff; rebuild."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 68,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "1e9763ad1c440abb37701cf723bbb79205417f0563c632ad492baa5ccdf69f84",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1e9763ad1c440abb37701cf723bbb79205417f0563c632ad492baa5ccdf69f84",
+      "notes": "The two volunteers politely push the registration table in circles while narrowing the aisle; the locked wheel explains the failure, and a quarter-turn solves both paths. Concrete physical escalation and a compact earned tag. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 69,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2e53f5aa4157e0a529b67af05c7a1e32141d0967b64a449b527c0be9f6efe14b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2e53f5aa4157e0a529b67af05c7a1e32141d0967b64a449b527c0be9f6efe14b",
+      "notes": "A fall leads into coverage limits, overlapping outpatient benefits and premium comparison; the final anti-slip sticker is practical advice, not a comic reversal. Rewrite around a stronger scene and payoff."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 70,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "1b9730d0e5cca334788fe04a0de4f1a009878fcd87f3d6135f2ab23e050d3713",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1b9730d0e5cca334788fe04a0de4f1a009878fcd87f3d6135f2ab23e050d3713",
+      "notes": "Kitchen ceiling leaks onto a new rice cooker; the mother’s address-pointing during repeated customer-service calls makes the family spill the catch basin, and the brother’s basin-as-vegetable-washer idea gets him chased out. The physical spill callback makes the insurance comparison a scene, not just arithmetic. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 71,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "26ef8643638e6dd3eb7e4d66afa3922828b2f05450f603dda56aaa3f39a508bc",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "26ef8643638e6dd3eb7e4d66afa3922828b2f05450f603dda56aaa3f39a508bc",
+      "notes": "Premium notices prompt dad to threaten cancellation; the mother asks whether the chicken-feet dish can be made “spicy” like the policy waiting period. That specific joke interrupts the comparison, and the decision to cancel duplicate cover follows the discovered overlap. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 72,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "f7d704b3c99e96d0cb5ce552190f2cf72033510a765166f5c6d2f8ed4a605351",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f7d704b3c99e96d0cb5ce552190f2cf72033510a765166f5c6d2f8ed4a605351",
+      "notes": "Grandma mistakes medical transport for an airport ambulance and asks to bring pineapple cakes; the brother then treats a water toy as medical equipment, and the actual stuck zipper tests the packing. The final safety reminder pays off the opening packing gag. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 73,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "da7a267e3cde6ce9fede37e91cea80c9a790f8528438eb059acd7dac9336d69a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "da7a267e3cde6ce9fede37e91cea80c9a790f8528438eb059acd7dac9336d69a",
+      "notes": "The narrator’s refusal-practice turns her into the vendor’s radio demonstrator; she cannot refuse the customers until she finally explains why she came, then asks whether the pretend job includes a radio. The role reversal and ending are earned. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 74,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "eabf6b45b1022e1d4e4e5e598d88646a331d15b6da6860674401bfd3074e2349",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "eabf6b45b1022e1d4e4e5e598d88646a331d15b6da6860674401bfd3074e2349",
+      "notes": "The plot is comparing renewal payment schedules, recalculating household expenses and setting automatic savings; the final coffee offer returns to price-checking. It repeats calculation-led family budgeting and needs a stronger, less finance-centered conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 75,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "807058cee6072aabf20cce008abbec3b46ee3f7ff290f8f0ea41f1af91f583ca",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "807058cee6072aabf20cce008abbec3b46ee3f7ff290f8f0ea41f1af91f583ca",
+      "notes": "The oven smoke sets off the building alarm and reveals the brother’s assumption that building insurance covers his furniture; the burnt pastries, coverage clarification, and next-day neighbors’ comment about smell/fire blanket connect the comic consequence to the policy check. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 76,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "8b3d2531e7be8eef7fe9671e802ccb244297c727e6c72d91a7b4f9231a8abea1",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "8b3d2531e7be8eef7fe9671e802ccb244297c727e6c72d91a7b4f9231a8abea1",
+      "notes": "The sprained ankle leads into receipt simulations, hospital self-pay and annual-cost comparisons; the father checking three times whether it is calculated is the main joke. The core remains insurance arithmetic with a mild payoff."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 77,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f476ca6dc9da69201f84450cc0a3a6dc392b6149f1473577ca3e33abbb552ea0",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f476ca6dc9da69201f84450cc0a3a6dc392b6149f1473577ca3e33abbb552ea0",
+      "notes": "Renewal paperwork, old utility proof, bank details, income reporting and a missed pension cell dominate. The waiting stool and reference-number actions are procedural rather than a comedic story; rebuild."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 78,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d5ec191a48b011979529d6d84a87011fc100b5edc92d3dbe3d1f4f248d6e5321",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d5ec191a48b011979529d6d84a87011fc100b5edc92d3dbe3d1f4f248d6e5321",
+      "notes": "The family benefit renewal is mostly moving-address paperwork, attachments, copying details and correcting a date. The cardboard-box line is a mild tag; it lacks meaningful comic escalation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 79,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "9bfa22244681acf9ba9f2e315409aa989ab7e4e701d64d736de36d3936773e16",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9bfa22244681acf9ba9f2e315409aa989ab7e4e701d64d736de36d3936773e16",
+      "notes": "The transport subsidy rejection leads to retrieving a bank proof, postal-address checking, receipt numbers and payment timing. The “three proofs” line is mild and the plot remains administrative; rebuild."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 80,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "445eb417212b3a08d2c9776c5c33144c052f3da29ef22d1ac0810e021368d423",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "445eb417212b3a08d2c9776c5c33144c052f3da29ef22d1ac0810e021368d423",
+      "notes": "The story is mainly organizing medical-aid receipts, correcting dates and matching family expenses; the clinic joke is brief and the ending returns to filing. It is still an administrative paperwork scene with weak comic payoff."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 81,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "0c95a5b4350a906a574245a3af0d7ccde6d7eef251d6027491fac9eba4ab77b3",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "0c95a5b4350a906a574245a3af0d7ccde6d7eef251d6027491fac9eba4ab77b3",
+      "notes": "The application is accepted but the address attachment is unreadable, then the family rescans and waits for verification. The distinction between receipt and completeness is useful but procedural, with little humor or reversal."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 82,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "5ef6be15aca7ba5cc244397bd1c343ef04d0450585eac9648ba875e6447c1589",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5ef6be15aca7ba5cc244397bd1c343ef04d0450585eac9648ba875e6447c1589",
+      "notes": "The asset declaration, updated bank statements and account balances dominate; the grandfather’s worry about counting coins and the signature moment do not create a strong comic progression."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 83,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "de4decf281b36b9e84785a069feb473682898f37091f0df7cad9adf2437f2536",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "de4decf281b36b9e84785a069feb473682898f37091f0df7cad9adf2437f2536",
+      "notes": "The storm deadline, school office closing and one-letter error create a clear race to correct the daughter’s proof; the final line makes her name the thing renewing the household allowance. The tip follows the chronology. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 84,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "33cbc8a1a1f252751451436d95f3d1482a3e4bd51f296d9a27d12f83c423c056",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "33cbc8a1a1f252751451436d95f3d1482a3e4bd51f296d9a27d12f83c423c056",
+      "notes": "The old account name differs from the new ID and a grandfather’s photo resolves it, but the plot is administrative and the payoff is mild. Jyutping also contains a malformed mixed-script segment near the account-name explanation; needs full manual correction."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 85,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "0d90a462b8f58d60ef597be27faae5110e88b1cb438f2371ef48f7c6c37e77da",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "0d90a462b8f58d60ef597be27faae5110e88b1cb438f2371ef48f7c6c37e77da",
+      "notes": "The letter is left under the fish tank and gets wet at the corner; the grandmother’s old proof-of-rent joke adds a second reason to preserve paperwork, then she draws the fish on the folder and bans the tank from storing mail. The closing image follows the mishap. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 86,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "5869f53bea2ef0785b2ba110c7ef77a9208dab4faf7a24d1ff3b8f213df91cd6",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5869f53bea2ef0785b2ba110c7ef77a9208dab4faf7a24d1ff3b8f213df91cd6",
+      "notes": "The electricity bill repeats the same amount because a subsidy starts next month; the plot is utility-bill date checking and refund timing, directly repeating the specified bill/accounting pattern. Rewrite."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 87,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "9da6ace4ca5de438077b847a3497bb39b815f3deab2dcbc937e7b69863fc521e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9da6ace4ca5de438077b847a3497bb39b815f3deab2dcbc937e7b69863fc521e",
+      "notes": "An unfamiliar “bakery” charge looks like theft until the uncle finds the wrinkled cake receipt and remembers the night-shift guard’s birthday. The handwritten shop name turns a complaint into a false alarm; the “check first, scare yourself later” tag pays it off. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 88,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "cf103ac5943925a95d0830a241a8aeb3b0e20ac6f4c4f1dcae738799b22270fb",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "cf103ac5943925a95d0830a241a8aeb3b0e20ac6f4c4f1dcae738799b22270fb",
+      "notes": "The roaming charge is checked against a sunset photo, then a refund is tracked through notices and bills. The “wallet goes out to sea” line is mild; the core remains charge/refund reconciliation. Rebuild around the travel misunderstanding."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 89,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "36d055ef3fa70a7a3be03b498deaca24bb79411dbdcb8276dc8f13308701d452",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "36d055ef3fa70a7a3be03b498deaca24bb79411dbdcb8276dc8f13308701d452",
+      "notes": "The elevator surcharge is disputed through meeting minutes, scanned attachments and a corrected bill. The fish-ball ticket is an opening gag, but the main conflict is invoice/document reconciliation; the ending remains procedural."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 90,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2f20181486d7e089c27241f4239a17efc7416a77729f1bd0022d852082e51733",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2f20181486d7e089c27241f4239a17efc7416a77729f1bd0022d852082e51733",
+      "notes": "The transfer delay resolves when the landlord finds a junk-mail notice; the whiteboard clock is repeated but the closing gag only restates waiting. The story stays procedural and money-led, with no escalating comic reversal. I checked sentence, Jyutping, full gloss and tip against each other; needs a new comic conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 91,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "aebe93d89febfec532e0b34e9954eeab81ac90364dcb666d9bc5bb4625309bc0",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "aebe93d89febfec532e0b34e9954eeab81ac90364dcb666d9bc5bb4625309bc0",
+      "notes": "The refund decision is unclear: the platform first rejects eligibility because the box was discarded, then a partial refund appears without explaining why the terms allow it. The crooked light/design line is mild and does not resolve that contradiction. All four fields checked; rebuild the causal sequence and payoff."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 92,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "01b6733c700cbfbdcd4995253eba8e4273afcfa3130419ba0862b461380e4244",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "01b6733c700cbfbdcd4995253eba8e4273afcfa3130419ba0862b461380e4244",
+      "notes": "The complaint never identifies what is wrong with the original rice cooker, yet the center arranges replacement; the later keep-warm alert is unrelated to the missing receipt and not a meaningful misunderstanding. Candy-in-the-bag is a one-beat gag, not escalation. All four fields checked; establish the appliance problem and a causal comic turn."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 93,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "e0261656aea42bfb5ea3230a59c6f57423bd4ee8ca29658b28a0d49d2f4a478f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e0261656aea42bfb5ea3230a59c6f57423bd4ee8ca29658b28a0d49d2f4a478f",
+      "notes": "The old card information explains the missed broadband debit and the fee is waived, but the rest is a sequence of account updates. The mobile-data tag is mild and the final warning repeats the setup; no strong comic escalation. All four fields checked; rebuild away from the bill/complaint routine."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 94,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "62910a8a005f257478a870fa060b07267f2b296054200841046292217e026f86",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "62910a8a005f257478a870fa060b07267f2b296054200841046292217e026f86",
+      "notes": "The postal-world joke is repeated at the end, while the actual attachment filing error resolves administratively. The bird greeting and dim-sum line are small tags without a stronger reversal. All four fields checked; change the central conflict and ending."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 95,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "a83e4cda29cc3253f7272eacedb366dead20486b283d4547b13a4cb85260f8a8",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a83e4cda29cc3253f7272eacedb366dead20486b283d4547b13a4cb85260f8a8",
+      "notes": "The mistaken fee is refunded, then the aunt’s careful tea-seat check echoes the opening price dispute but adds little escalation. The final family-group line repeats the price-check premise. All four fields checked; the money/service-fee dispute remains the main plot and needs a more distinctive comic engine."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 96,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c2e57ce275f9d54e3c8a27e278c7af0b341bf7d7859c39d8936e85ccd3c785ca",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c2e57ce275f9d54e3c8a27e278c7af0b341bf7d7859c39d8936e85ccd3c785ca",
+      "notes": "The family allocates a tax refund and corrects a duplicate water bill, then accepts ordinary saving until birthdays; the “finance minister” label and approval sticker do not produce an escalating misunderstanding or payoff. All four fields checked; this repeats the specified calculation/utility-bill pattern."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 97,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "3be2f970060d57e8afb6bb62c84752a4e12511c761aab27592f1fdcbca51ac8e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "3be2f970060d57e8afb6bb62c84752a4e12511c761aab27592f1fdcbca51ac8e",
+      "notes": "The deposit plan is adjusted after the exchange-trip deposit date changes, then ends with a reminder to pack a passport. The decision is sensible but the conflict and ending are not comic; interest-rate comparisons and planning dominate. All four fields checked; rebuild the story around a stronger character-driven event."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 98,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "3ed4c4022783654989d1983693c35750646092acec65619e290d8063b827d66d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "3ed4c4022783654989d1983693c35750646092acec65619e290d8063b827d66d",
+      "notes": "The cake rescued during a past tow is a useful reason to choose roadside coverage, but the story mainly compares insurance clauses and concludes with a moral reminder. The callback does not create enough present-tense escalation or a strong punchline. All four fields checked; money/insurance remains central."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 99,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "e50e651c4744ecf3805b19c4b5611fdb5e3ee11b8461dcb5d6f24fa4841a2ed3",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e50e651c4744ecf3805b19c4b5611fdb5e3ee11b8461dcb5d6f24fa4841a2ed3",
+      "notes": "The missing card and duplicate restaurant debit converge on the card beside forgotten ginger in the reusable bag, and the dry-ginger soup line gives a coherent callback. But the bank investigation is resolved procedurally and the final image is a mild tag rather than a strong earned reversal; money dispute still drives the story. All four fields checked; revise for sharper comedy and reduce the finance core."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
