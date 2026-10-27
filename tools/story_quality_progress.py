@@ -19,8 +19,10 @@ JYUTPING_TOKEN = re.compile(r"[a-z]+[1-6]")
 ALLOWED_JYUTPING_SEPARATORS = re.compile(r"[,，.。:：;；?!？！、「」『』“”\"'\s]")
 STORY_TIP_PREFIX = "故事练习："
 LANGUAGE_REVIEW_PATH = ROOT / "STORY_LANGUAGE_REVIEW.json"
+QUALITY_REVALIDATION_PATH = ROOT / "STORY_QUALITY_REVALIDATION.json"
 REVIEW_GOAL = 5_000
 ACTIVE_REVIEW_ROUND = "macau-comedy-upgrade-v1"
+ACTIVE_REVALIDATION_ROUND = "macau-comedy-revalidation-v2"
 
 
 def row_digest(row: dict) -> str:
@@ -38,6 +40,19 @@ def language_reviews() -> dict[tuple[str, int], dict]:
         if key in indexed:
             raise ValueError(f"Duplicate language review: {key}")
         indexed[key] = review
+    return indexed
+
+
+def quality_revalidations() -> dict[tuple[str, int], dict]:
+    ledger = json.loads(QUALITY_REVALIDATION_PATH.read_text(encoding="utf-8"))
+    if ledger.get("review_round") != ACTIVE_REVALIDATION_ROUND:
+        raise ValueError("Unexpected quality revalidation round")
+    indexed = {}
+    for record in ledger.get("cards", []):
+        key = (record["file"], record["index"])
+        if key in indexed:
+            raise ValueError(f"Duplicate quality revalidation: {key}")
+        indexed[key] = record
     return indexed
 
 
@@ -84,8 +99,13 @@ def source_files() -> list[tuple[Path, bool]]:
 
 def render_report() -> tuple[str, int, int]:
     reviews = language_reviews()
+    revalidations = quality_revalidations()
     reviewed = 0
+    v2_passed = 0
+    v2_needs_revision = 0
+    v2_pending = 0
     matched_reviews = set()
+    matched_revalidations = set()
     valid_reviewed_keys = set()
     source_keys = []
     sections: list[str] = [
@@ -106,22 +126,38 @@ def render_report() -> tuple[str, int, int]:
             review = reviews.get(key)
             if review is not None:
                 matched_reviews.add(key)
-                if review["sha256"] != row_digest(row):
-                    raise ValueError(f"Stale language review: {key}")
                 dimensions = ("naturalness", "distinct_plot", "jyutping_readings_and_tones", "complete_gloss")
                 if (
-                    review.get("review_round") == ACTIVE_REVIEW_ROUND
+                    review.get("sha256") == row_digest(row)
+                    and review.get("review_round") == ACTIVE_REVIEW_ROUND
                     and all(review.get(dimension) is True for dimension in dimensions)
                     and not audit(row, selected)
                 ):
                     reviewed += 1
                     valid_reviewed_keys.add(key)
+            revalidation = revalidations.get(key)
+            if revalidation is not None:
+                matched_revalidations.add(key)
+                status = revalidation.get("status")
+                current_hash = row_digest(row)
+                if status in {"pass", "needs_revision"} and revalidation.get("v2_sha256") != current_hash:
+                    raise ValueError(f"Stale quality revalidation: {key}")
+                if status == "pass":
+                    v2_passed += 1
+                elif status == "needs_revision":
+                    v2_needs_revision += 1
+                elif status == "pending":
+                    v2_pending += 1
+                else:
+                    raise ValueError(f"Unknown quality revalidation status {status!r}: {key}")
         passed = sum(not audit(row, selected) for row in rows)
         total += len(rows)
         passing += passed
         sections.append(f"| `{path.relative_to(ROOT).as_posix()}` | {passed}/{len(rows)} | {len(rows) - passed} |")
     if matched_reviews != reviews.keys():
         raise ValueError("Language review references missing source rows")
+    if matched_revalidations != revalidations.keys() or len(revalidations) != total:
+        raise ValueError("Quality revalidation ledger does not match source rows")
     goal_keys = source_keys[:REVIEW_GOAL]
     goal_key_set = set(goal_keys)
     goal_reviewed = sum(key in valid_reviewed_keys for key in goal_keys)
@@ -139,7 +175,8 @@ def render_report() -> tuple[str, int, int]:
         f"**First uncovered goal row: `{first_goal_gap[0]}` index {first_goal_gap[1]}.**" if first_goal_gap else "**First uncovered goal row: none.**", "",
         f"**Valid language reviews outside the first {REVIEW_GOAL} source rows: {reviewed_outside_goal}.**", "",
         f"**Corpus language review: {reviewed}/{total}; source rows without a valid review: {total - reviewed}.**", "",
-        f"Only records marked `{ACTIVE_REVIEW_ROUND}` count toward this review round. Language review records are maintained manually in `STORY_LANGUAGE_REVIEW.json`; hashes only detect later edits, they do not assess language quality. Existing mechanically passing stories without a current-round review remain pending language review.", "",
+        f"**Clarified quality revalidation (`{ACTIVE_REVALIDATION_ROUND}`): {v2_passed}/{total} pass; {v2_needs_revision} need revision; {v2_pending} pending.**", "",
+        f"`STORY_LANGUAGE_REVIEW.json` remains the historical `{ACTIVE_REVIEW_ROUND}` ledger. A stale historical hash is not current approval. `STORY_QUALITY_REVALIDATION.json` records current hashes and individual revalidation decisions; hashes verify synchronization but do not assess language quality.", "",
     ))
     return "\n".join(sections), passing, total
 
@@ -151,7 +188,7 @@ def main() -> None:
         type=Path,
         help="Write the generated checklist to this path; otherwise print it.",
     )
-    parser.add_argument("--require-complete", action="store_true", help="Fail unless every source card passes story acceptance.")
+    parser.add_argument("--require-complete", action="store_true", help="Fail unless every source card mechanically passes and has a current v2 pass.")
     args = parser.parse_args()
     report, passing, total = render_report()
     if args.output:
@@ -160,8 +197,11 @@ def main() -> None:
         print(f"Wrote mechanical checklist to {output_path}")
     else:
         print(report, end="")
-    if args.require_complete and passing != total:
-        raise SystemExit(f"Story upgrade incomplete: {passing}/{total} mechanically accepted.")
+    if args.require_complete:
+        revalidations = quality_revalidations()
+        accepted = sum(record.get("status") == "pass" for record in revalidations.values())
+        if passing != total or accepted != total:
+            raise SystemExit(f"Story upgrade incomplete: {accepted}/{total} v2 reviewed, {passing}/{total} mechanically accepted.")
 
 
 if __name__ == "__main__":
