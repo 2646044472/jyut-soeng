@@ -2446,10 +2446,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 5,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "11c1a24df69d50697405c69d94a5f893cc893c3cdac2c3ba930eda8e2e942e8b",
-      "v2_sha256": "11c1a24df69d50697405c69d94a5f893cc893c3cdac2c3ba930eda8e2e942e8b",
-      "notes": "电话费和保险费还从旧账户扣，搬行时核对银行扣款并提醒缴费，沿用家庭账户账单主线；误解电话费和雪糕十元的笑点不足。四字段均已审读，需改写。"
+      "v2_sha256": "891373dfc1559a36b96c5fd0e872f283f4f358b7391d9840f4158894d711c72e",
+      "notes": "A father’s confident bowling lesson backfires twice into the gutter; his niece waits, aims against his demo and knocks all ten pins down. The exit-arrow callback extends his misplaced certainty. Corpus review found a different bowling setting in long_family_finance_services_01[550] (coworker scorekeeper, not parent-child lesson). Main reviewed all four fields, checked 246 aligned Jyutping syllables and complete gloss/tip, and preserved category."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
