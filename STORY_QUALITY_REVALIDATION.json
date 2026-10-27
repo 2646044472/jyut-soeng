@@ -10277,10 +10277,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "cb4e96c423ff770c5fc2a5ba6b03d7b571d5ef91c627382eac0800a017e6f2ab",
-      "v2_sha256": "cb4e96c423ff770c5fc2a5ba6b03d7b571d5ef91c627382eac0800a017e6f2ab",
-      "notes": "Needs revision: the fish-label misunderstanding is clarified and the dinner is warm, but the rain and meal details do not escalate into a comic reversal; the ending is a general family sentiment."
+      "v2_sha256": "80f21062eb1b8ebc17efbe91a8c260db669226d8c466921e73d495a486e22cd4",
+      "notes": "The daughter’s fish interview turns into a street-side “guest” segment as both stallholders enter the shot; at home the missing fish footage makes the assignment’s “neighborhood interview” unexpectedly count two stallholders, and the closing callback casts the fish as the silent star. Main agent checked sentence, hand-aligned Jyutping, full gloss and story-specific tip; category and nonlanguage metadata retained."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
