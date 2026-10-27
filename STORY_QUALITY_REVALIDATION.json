@@ -38941,10 +38941,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 148,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2a78f171adfdbc722a90eab9e23090da55d7557165dd719917be4015bf5cff83",
-      "v2_sha256": "2a78f171adfdbc722a90eab9e23090da55d7557165dd719917be4015bf5cff83",
-      "notes": "The smoke alarm and “charcoal sun” establish a comic setup, but the final breakfast sequence repeats itself: the family takes turns, then a second egg is introduced and the火候 card is repeated. The Chinese gloss duplicates these sentences too. Fix the continuity and strengthen the payoff; current Jyutping tracks the Cantonese text."
+      "v2_sha256": "289d539f180f46a9df320afbc57bf3f4e22d52695ee881d4860f598d820aa2bb",
+      "notes": "Rewritten after the weak first attempt and duplicate breakfast ending. First overheated egg triggers a smoke-alarm panic; Dad turns the retry into a filmed “sunrise” lesson, but burnt toast sets off the alarm again while he poses as the instructor. The returned sunrise/sunset image and firefighter cameo pay off both alarms. Main reviewed the full prose, contextual Jyutping, complete gloss and tip against events; category and other metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
