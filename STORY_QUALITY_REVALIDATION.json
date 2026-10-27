@@ -2408,8 +2408,8 @@
       "index": 0,
       "status": "pass",
       "baseline_sha256": "70bca3dc1dce8c086364c5d26cd1fc0a00270c77657637a6b4f14761ce9efdd7",
-      "v2_sha256": "74077365a260bb5c128647851640c5f250bb91b039ad55d6c8dd34a753ad5173",
-      "notes": "Rewritten and individually reviewed after fine-audit rejection: the first empty-boat attempt, passenger loading and no-hands rule escalate through clear one-way ferry action; the win reverses into a queue of ten new paper passengers and the cookie becomes overtime pay. The sister’s demand that the captain keep sailing makes the job joke earned without inventing an unshown return trip. Full story, gloss and tip aligned; all four language fields reviewed; category metadata retained."
+      "v2_sha256": "0d8eb18b9c14d36162209a214d774ed262e5e6a4c8c52bfe557080c052f9f687",
+      "notes": "Rewritten and individually re-reviewed against the clarified comedy bar: the empty-boat false start is corrected by one clear three-passenger crossing, with controlled blowing as the physical escalation. The cookie visibly disappears while the sister awards a captain badge and starts a new passenger queue; the narrator accepts another boat, leaving the unpaid “prize” as a visual reversal. Four fields and contextual Jyutping were read together; gloss covers the full sequence, tip matches actual events, and inherited category/metadata remain unchanged."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -12605,402 +12605,402 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 91,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "b9ac968a5bc1664dba6b169e70870abe3353a076be420416e1d0b93cc1bc5791",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b9ac968a5bc1664dba6b169e70870abe3353a076be420416e1d0b93cc1bc5791",
+      "notes": "The neighbor tests a second-hand bag and discovers a loose seam; disclosure is fair, but the rain and cleaning advice do not create a comic payoff."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 92,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "dfb54151fccd038f38f9473431ca9e767394f6a7dc091d89f1f7faf5c80a76ae",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "dfb54151fccd038f38f9473431ca9e767394f6a7dc091d89f1f7faf5c80a76ae",
+      "notes": "The birthday dinner’s split-bill setup creates a fair objection about beer, the group resolves it item by item, and the celebrant adds tarts that the driver jokes must enter the shared bill. The ending ties back to the accounting dispute; all four fields match."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 93,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2d1a192718e1a257129db49d8e46743bd6b7305b237f092518d02c76edcfbc2f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2d1a192718e1a257129db49d8e46743bd6b7305b237f092518d02c76edcfbc2f",
+      "notes": "A duplicate soup is removed from the bill after checking the table number; competent service, but no comic escalation or punchline."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 94,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "40cd02083bbe6940ff6d7821ff182ff6b2ee5431e74043657c5af5048323c051",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "40cd02083bbe6940ff6d7821ff182ff6b2ee5431e74043657c5af5048323c051",
+      "notes": "The narrator shops from a weekly list and uses leftovers before they spoil; the “small food shop” line is mild, with no developed joke."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 95,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "46d04d2b4841322238124365e60821c2f58766e9eebf400a2989bd89d085402a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "46d04d2b4841322238124365e60821c2f58766e9eebf400a2989bd89d085402a",
+      "notes": "Comparing rice package dates and drying the rice bin prevents waste; this is a household food-storage report, not a comic story."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 96,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "09b8d484915aceb166f484c80319e164257960f7cc944dcb002147a75d3c0a33",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "09b8d484915aceb166f484c80319e164257960f7cc944dcb002147a75d3c0a33",
+      "notes": "An accidental oversalting is rescued with water and radish, then the soup becomes hot-pot broth; the “taste before salting” note and brother’s tongue drawing make an earned family callback. All four fields match."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 97,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "7f70d336304062d27d04a187ffcd216d734da61d7b6b5ccfd163cf6229cb4d64",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "7f70d336304062d27d04a187ffcd216d734da61d7b6b5ccfd163cf6229cb4d64",
+      "notes": "Leftover rice becomes fried rice and the cucumber garnish improves its look; the cooking sequence is straightforward without comic escalation."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 98,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "ce6a10b2e17c131c97e9e45dc59c036c4ab15c1a1470e7ace48d92edeadeb44d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ce6a10b2e17c131c97e9e45dc59c036c4ab15c1a1470e7ace48d92edeadeb44d",
+      "notes": "A dented canned-fish tin is exchanged and a receipt retained; the mother’s inspection joke is mild and the plot is a routine quality report."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 99,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "ea5477de393326bc710d720605b74b614aa29b8d4a871ee0b05ef280e65a4dee",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ea5477de393326bc710d720605b74b614aa29b8d4a871ee0b05ef280e65a4dee",
+      "notes": "The family shares shopping and cooking duties so the mother can rest; helpful outcome, with no comic conflict or reversal."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 0,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "b0e62311f8f4c63ed31e9b794c7d31f42c8cf701ea4c9c8bad18f7873ee7a8b4",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "824d374f3fbb3cc815b4129718a8c48c4511cd93952664d794a17b32e1a17fda",
+      "notes": "Corrected during individual four-field review: removed an unsupported extra question about buying more fish, reconciled the gloss with the action, clarified that the narrator puts bones aside before the mother collects them, and aligned the tip to the sister’s actual change of mind and the bird callback. The fear of the fish eye, tasting the cheek meat, and the bird waiting for bones form a coherent light comic arc. Jyutping was checked against the revised sentence; metadata retained."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 1,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "21443753b5862778b41a891c8b74b490c505bc3c65c07d070d9e1d3728abffb0",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "21443753b5862778b41a891c8b74b490c505bc3c65c07d070d9e1d3728abffb0",
+      "notes": "A leaking market bag ruins the narrator’s clothes but the vegetables are protected; repair advice and tea make a gentle anecdote, with no strong comic escalation."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 2,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "cf0107699704ee8ae07c814339508291cf6fd5880df1d42eb4dd4ceb849fb619",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "cf0107699704ee8ae07c814339508291cf6fd5880df1d42eb4dd4ceb849fb619",
+      "notes": "The meal nearly sticks, then the kitchen loses power, turning dinner into a “停電套餐”; the family eats by phone light and a neighbor follows the aroma. The linked mishaps escalate into a clear comic label; four fields align."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 3,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "0c3e1199a1d575ea40c91de27908ae48533aff3a73ce3896c394e0b945a3cf5e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "0c3e1199a1d575ea40c91de27908ae48533aff3a73ce3896c394e0b945a3cf5e",
+      "notes": "The tofu sticks and breaks, the narrator salvages it as an egg pancake, and the brother ceremonially calls the intact piece a “奖牌.” The cooking mistake turns into a small family gag and callback; all fields align."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 4,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d85aa31ced9998a6a3b16ba13f48707f9c6cfebc94b633c7b3cb700725d1c983",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "8d1310d773adeecf933a687dcb34413641d900d43b10d47ec584965e3a9c3d6d",
+      "notes": "The child questions the fruit seller after a sour orange, then the family makes ice pops; the ending is a pleasant recipe-sharing scene without a stronger comic reversal. Gloss corrected to match all events."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 5,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "e287115f3a1a5e730d63b25d87f7dfa4b0d7aa7266d1616c46f3a04338620395",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e287115f3a1a5e730d63b25d87f7dfa4b0d7aa7266d1616c46f3a04338620395",
+      "notes": "A shrimp jumps from the bag while the sister guards the kitchen with a broom; the family finds it by the sponge and later seats the escapee in the middle as a crowned dinner guest. Clear setup, physical escalation and earned callback; all fields align."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 6,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "99c6de2e439082046423b802c6e9032e00ee7d960f43be7ea7a283ba716a35de",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "99c6de2e439082046423b802c6e9032e00ee7d960f43be7ea7a283ba716a35de",
+      "notes": "Needs revision: the vendor, neighbor and narrator exchange spinach/fritter compliments, but the next-day vendor callback does not escalate the scene or deliver a reversal; the plot remains a pleasant cooking anecdote. Read sentence, Jyutping, complete gloss and event-matched tip; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 7,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "859f3d81683622767d06db9e72e6b168e39128ca6791cf76e9b632cc3200bb20",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "859f3d81683622767d06db9e72e6b168e39128ca6791cf76e9b632cc3200bb20",
+      "notes": "Needs revision: the condensation is explained and the sugar-label mix-up leads to a correction, but the colleague simply calls sweet tea a reward and promises to verify next time; the two incidents do not build to a strong earned comic payoff. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 8,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "189da45a6d37262304e1df3b3e42621c9c6973e9095b0bfe99bc294174504c30",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "189da45a6d37262304e1df3b3e42621c9c6973e9095b0bfe99bc294174504c30",
+      "notes": "Needs revision: the elder’s photos and the child’s fallen drawing make a warm waiting-room scene, but there is no comic conflict, escalation or punchline. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 9,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f99a647f564d6a767ace8218b51d1eb361ef2de77ebf9c91ded3b5942edcdcf3",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f99a647f564d6a767ace8218b51d1eb361ef2de77ebf9c91ded3b5942edcdcf3",
+      "notes": "Needs revision: allergy precautions are clearly explained and the gloss/tip follow the meal, but the friend’s generic praise and promise to check next time yield no comic reversal. Since this is a safety-sensitive allergy story, keep the handling details accurate if rewritten. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 10,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "944552bc680636f80e26f26d48c478a8f602d8907f7584cb21cb3a770ebac8fe",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "944552bc680636f80e26f26d48c478a8f602d8907f7584cb21cb3a770ebac8fe",
+      "notes": "Needs revision: the family identifies a potentially unsafe soup and improves the labeling routine, but the practical safety lesson has no comedic escalation or earned ending. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 11,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "701b7d49bc06dc2445806ef0a09a0e8219b0d5a0760e4d681e8e532b6157890d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "701b7d49bc06dc2445806ef0a09a0e8219b0d5a0760e4d681e8e532b6157890d",
+      "notes": "Needs revision: the misplaced yogurt promotion and swollen lid create a sequence of shopping corrections, but the later receipt-splitting remark is incidental and no comic reversal grows from the events. The repeated price/discount/receipt material also reinforces the overused money thread. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 12,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c862b52cb8c1afa22ef2e5658c28b2e8b600f96f3bacc48beaefd877eddf0f1d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c862b52cb8c1afa22ef2e5658c28b2e8b600f96f3bacc48beaefd877eddf0f1d",
+      "notes": "Needs revision: the allergy-sensitive order is carefully corrected and the tip matches, but the replacement meal and safety checks remain procedural; the sister calling the narrator an inspector is a mild label without a comic escalation. Preserve allergy-safe handling in any rewrite. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 13,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "df194d8dbdf1ade91288757eb0c9b981a78c0b41cb9aa6b53b6a00e445cd27a4",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "df194d8dbdf1ade91288757eb0c9b981a78c0b41cb9aa6b53b6a00e445cd27a4",
+      "notes": "Needs revision: broken eggs lead to a refund and a size correction, then the mother’s praise closes a practical customer-service anecdote without a strong comic turn. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 14,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "179df13d205c351dea6b2fce5ac95a9e02c7667242c50d699b812830f99d0435",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "179df13d205c351dea6b2fce5ac95a9e02c7667242c50d699b812830f99d0435",
+      "notes": "Needs revision: the unsafe second-hand oven is correctly rejected and the safety lesson is clear, but the scene resolves straightforwardly and the compensation tray/second purchase add no earned joke. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 15,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "cadf3ff3cfa066273cc9c52c3955183f708b50dc41ffe7051fbf868e6539bac6",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "cadf3ff3cfa066273cc9c52c3955183f708b50dc41ffe7051fbf868e6539bac6",
+      "notes": "Needs revision: the grandmother’s kindness, mistaken price and forgotten vegetables form several pleasant incidents, but the ending only summarizes a meal and sharing; there is no causal comic payoff. The arithmetic/price error is also another money-led conflict. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 16,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "84a75458c49b7fad857474d2153fb3bb9a7a86c44f6f5ebc75bf6dbef62252fd",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "84a75458c49b7fad857474d2153fb3bb9a7a86c44f6f5ebc75bf6dbef62252fd",
+      "notes": "Needs revision: careful accommodations for a family meal, an oversized cake box and a photo make a useful service story, but nothing escalates into comedy or a reversal. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 17,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "6947998c6e2fc04c0974e2a7321f12fae6ca3b35e5f2c2dab14d9f5fe24de8ee",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "6947998c6e2fc04c0974e2a7321f12fae6ca3b35e5f2c2dab14d9f5fe24de8ee",
+      "notes": "Needs revision: the chili mix-up and duplicate restaurant charges are handled carefully, but the story is procedural and ends with a thank-you; no earned comic payoff. The account discrepancy is another money-led conflict. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 18,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f0df727ccd6969376104587e726973414890ad782e8cb0047d68acbeda29960e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f0df727ccd6969376104587e726973414890ad782e8cb0047d68acbeda29960e",
+      "notes": "Needs revision: a same-name coffee order causes a correction and the coworker buys egg tarts, but the meeting merely starts three minutes late and the afternoon-tea remark is incidental. No strong causal escalation or punchline. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 19,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "59c28e71bde564ed798d6a60748bc03006679f32d2326d196bbe30f2370f84a8",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "59c28e71bde564ed798d6a60748bc03006679f32d2326d196bbe30f2370f84a8",
+      "notes": "Needs revision: undercooked chicken is handled safely and the glossary/tip follow the events, but the story turns into an instructional recap without a comic reversal. Preserve safe food handling in any rewrite. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 20,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "985f8aad0fd3d72ba76ffdedc12ab0112cf60598d062214a6e6f0f0357c07706",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "985f8aad0fd3d72ba76ffdedc12ab0112cf60598d062214a6e6f0f0357c07706",
+      "notes": "Needs revision: the soup is discarded after the outage and the family’s food-safety routine is explained twice near the end; it is a practical lesson, not an escalating comic story. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 21,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2116adf60f93e833f9c889f1185315a39fc09fc561a2c1d54567c0b83861bee6",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2116adf60f93e833f9c889f1185315a39fc09fc561a2c1d54567c0b83861bee6",
+      "notes": "Needs revision: the egg carton leads to a return, a routine dinner and a storage tip. The abrupt “记低。” fragment and repeated photo/recording action near the end also interrupt continuity; no comic reversal. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 22,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "53419a8075ac9f1a58da3c2eebfb03ed93bbfd7a55f76b7527eb2bc3c3ce282a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "53419a8075ac9f1a58da3c2eebfb03ed93bbfd7a55f76b7527eb2bc3c3ce282a",
+      "notes": "Needs revision: a leaking ice pack and sudden rain create practical transport trouble, resolved by cooking promptly; the safety advice is clear but there is no comic escalation or punchline. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 23,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "ecfa27f1eed0a59aa2f45131644236321274d16f6339feb2d32366d0935f8bff",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ecfa27f1eed0a59aa2f45131644236321274d16f6339feb2d32366d0935f8bff",
+      "notes": "Needs revision: one spoiled peach is exchanged, then the good fruit becomes dessert. The daughter’s extra bowl is a pleasant surprise but does not build an earned comic turn. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 24,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "60e6f600450dd61865044bca4bad92d18dcd81f57d4ecde263d4d3dcdd3ca217",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "60e6f600450dd61865044bca4bad92d18dcd81f57d4ecde263d4d3dcdd3ca217",
+      "notes": "Needs revision: the thermos leak gets a straightforward exchange; the dialogue/action repeats “first help me exchange it,” and the later park test simply confirms the repair. No comic escalation or reversal. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 25,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "3c78ba807431230ef2b2d50b5f397249be60ead80f056596bbb742e5184cff43",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "3c78ba807431230ef2b2d50b5f397249be60ead80f056596bbb742e5184cff43",
+      "notes": "Needs revision: the friend teases the narrator about avoiding sweat, but that line is not paid off; the spilled water is unrelated, and the ending is a list of future plans. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 26,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "4638452171380ff654941d576224531d75bfea2378b95400593f51ad859076c9",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4638452171380ff654941d576224531d75bfea2378b95400593f51ad859076c9",
+      "notes": "Needs revision: the wrong noodle bowls and missing spoon are handled professionally, but the replacement arrives correctly and the story closes with a review and storage note. No comic escalation or payoff. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 27,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "784e946471a54ddae8cc86f9e0b521161af22fa1aec315b0400bead6586459fd",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "784e946471a54ddae8cc86f9e0b521161af22fa1aec315b0400bead6586459fd",
+      "notes": "Needs revision: the brother prevents the narrator from discarding mushroom-soaking water, and the soup succeeds; this is a cooking tip with a mild correction rather than a developed comic conflict. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 28,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "25c70f4f4b82c917249ff893b79a5c07839f10c1017898608ca24be7f2139d1b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "25c70f4f4b82c917249ff893b79a5c07839f10c1017898608ca24be7f2139d1b",
+      "notes": "Needs revision: a rice-cooker sale is tested after a dead outlet, then proceeds normally. The buyer’s capacity question and transfer are routine; no comic reversal. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 29,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "69b34226350c2add44e3839973ece19f780c9ee6cdabd7cb2212581179e49092",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "69b34226350c2add44e3839973ece19f780c9ee6cdabd7cb2212581179e49092",
+      "notes": "Needs revision: the buy-one-get-one discount leads to a duplicate-stock return and a shopping reminder; this is a core promotion/expense plot and has no comedic escalation. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 30,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "4739f2951341183b69aa92a7588f15a027117d9963574f8428e3dd7eab7ca371",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4739f2951341183b69aa92a7588f15a027117d9963574f8428e3dd7eab7ca371",
+      "notes": "Needs revision: the child behaves well at breakfast and twice invites his father next time; the scene is warm but the duplicated invitation is not a punchline or reversal. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 31,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "bba6ac9739a060bdadacf5cdf658b1e0b26e22e2558e69a6f8627ab3685b0d41",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "bba6ac9739a060bdadacf5cdf658b1e0b26e22e2558e69a6f8627ab3685b0d41",
+      "notes": "Needs revision: the family’s enjoyment of salted eggs is warm but the extra mother quote and storage advice interrupt the ending; no comic escalation or payoff. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 32,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "a580d555410a1810ecc555c7f5179b5d2b6b3a0f25d142d1f1ea3070d971ccbf",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a580d555410a1810ecc555c7f5179b5d2b6b3a0f25d142d1f1ea3070d971ccbf",
+      "notes": "Needs revision: forgetting the mesh bag leads to paper bags and a reminder by the clasp, but the repeated bag-storage instructions do not escalate or land a joke. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 33,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "652bca43e60796a50506ce7d95d9fff61dd718d4f848b5df3ddd228afaa71ae5",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "652bca43e60796a50506ce7d95d9fff61dd718d4f848b5df3ddd228afaa71ae5",
+      "notes": "Needs revision: excess soy sauce is diluted and the sibling teases the narrator, but the ending repeats several future-prevention reminders; the rescue is straightforward and lacks a strong punchline. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 34,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "28e38abbf70faa898c1d3defe414bd3de1275118d9e1c6ec92926e2070df7cd2",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "28e38abbf70faa898c1d3defe414bd3de1275118d9e1c6ec92926e2070df7cd2",
+      "notes": "Needs revision: the unsweetened milk-tea tasting is a pleasant preference discovery, but the story repeats future tasting plans and has no conflict-driven comic reversal. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 35,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "1e2940745877bd15a01d5f3b8ed3247cf622e3a290191d4fb2e75f403ad6cd55",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1e2940745877bd15a01d5f3b8ed3247cf622e3a290191d4fb2e75f403ad6cd55",
+      "notes": "Needs revision: spoiled lettuce is reported and removed from the shelf, then the narrator buys spinach; this is a service/safety process with no comedic escalation or earned ending. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 36,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "08c992d0de74ff274fa9c2382836d36600236f362da1d781f56ae05412c0b6d7",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "08c992d0de74ff274fa9c2382836d36600236f362da1d781f56ae05412c0b6d7",
+      "notes": "Needs revision: the reduced-price chicken is cooked and leftovers are used, but this is a meal-planning anecdote with no comic escalation or punchline; the repeated coworker/daughter follow-ups add no reversal. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 37,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2eef41befe6c77903d2d88612af7a5219b698e589a8fc3465b29fc61620d164a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2eef41befe6c77903d2d88612af7a5219b698e589a8fc3465b29fc61620d164a",
+      "notes": "Needs revision: adjusting curry heat and potato size succeeds, but the family’s follow-up planning is practical and the story has no comic payoff. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 38,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f4a3b3bf231db479be3fd4425d452bffb5671601ea570f04cb3fff4008deedfb",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f4a3b3bf231db479be3fd4425d452bffb5671601ea570f04cb3fff4008deedfb",
+      "notes": "Needs revision: the soup is prepared successfully and the family likes it; this is a cooking anecdote without conflict-driven comedy. The closing storage/preparation information is repetitive. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 39,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f78ad15a801a182098a5e5c9d0a573907002b1fc62545d9c4d1dd4635fd0240d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f78ad15a801a182098a5e5c9d0a573907002b1fc62545d9c4d1dd4635fd0240d",
+      "notes": "Needs revision: the first attempt loses fish skin, then the mother’s technique produces a successful second attempt. The explanation and safety reminder remain instructional, without an earned comic reversal. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 40,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "01699b4b42d371e1db315277b19afa8ea8ea5c1fea30b7251c1cb22578f1f9dd",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "01699b4b42d371e1db315277b19afa8ea8ea5c1fea30b7251c1cb22578f1f9dd",
+      "notes": "Needs revision: a leaking salad dressing is replaced and coworkers enjoy the meal, but the later color/recipe questions repeat the same compliment and do not escalate. Jyutping spells 我 as ng5 in two places; correct to ngo5 during rewrite. Four fields read; no source edit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
