@@ -2582,10 +2582,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 22,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a554d199d4bac54564d23215ce2fe0b906add0744a3059feb228b5864fab8674",
-      "v2_sha256": "a554d199d4bac54564d23215ce2fe0b906add0744a3059feb228b5864fab8674",
-      "notes": "旅行者计算海外提款费用、限定取现金额并核对扣款，主线是旅行现金规划；风铃让行李箱响的结尾有画面但偏轻，题材与账目反复出现。四字段均已审读，需改写。"
+      "v2_sha256": "98650786ba7f1936ec78db98d6d51d06180c0d746ded9a33ab417b9f34ebf385",
+      "notes": "Root reviewed all four fields. A bottle rejected from the station keeps rolling; helpers build a cardboard chute that turns the queue into a bell-like rhythm before the station master reveals the collection bin is full. Manually reviewed every aligned syllable, including 響 hoeng2, 撕 si1, 排隊 deoi6 and 伸 san1; complete gloss and retelling tip. Corpus search found no comparable rolling-bottle/chute/music/full-bin chain; category and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2614,10 +2614,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 26,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "0446f78dc6a410c09c8437cfdca016132d9e95d1baeac61615ebb894429c38da",
-      "v2_sha256": "0446f78dc6a410c09c8437cfdca016132d9e95d1baeac61615ebb894429c38da",
-      "notes": "提前提定期存款支付空调维修，需要比较利息、费用和活期余额；纸扇吹走利息及复职的笑点仍依赖家电维修与金融计算主线。四字段均已审读，需改写。"
+      "v2_sha256": "c87abac42976390425816f1b92fc997832a220d4f28979a8bb41dae03cc05872",
+      "notes": "Root rejected the duplicate tai-chi draft and accepted this screened science-museum sound exhibit instead. Dad mistakes his reflected whisper for a person answering, escalates by searching and asking who insulted him, then confides in the echo before Mum reveals it is his own voice. Main reviewed all four fields, all aligned syllables, full gloss, and event-matched tip. Corpus matches are broad sound/echo jokes, not paired acoustic-dish dialogue; metadata/category preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2646,18 +2646,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 30,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "01b09d8ff527922b2b552f39fbf6a3e40b1f183bb78abe2e204a0bc96569e22a",
-      "v2_sha256": "01b09d8ff527922b2b552f39fbf6a3e40b1f183bb78abe2e204a0bc96569e22a",
-      "notes": "婆婆因自动续存担心钱自己搬房，最终讨论定期资金如何分配给饭局；蟹和搬房双关不足，仍是家庭储蓄安排主线。四字段均已审读，需改写。"
+      "v2_sha256": "2e70f961b86b63482b487be04f521dc54681a3903a517312207fbf7355f734b7",
+      "notes": "Root rewrote/reviewed all four fields. Uncle boasts about his direction sense, mistakes his reflection for a visitor, follows its mirrored gestures into repeated loops, and the younger sister finds the tactile wall strip; the exit wave and “he never follows my directions” pay off his boast. Main checked aligned Jyutping, full gloss and event-matched tip. Corpus comparison found no mirror-maze self-chase plot; nearby mirror cleaning/map-route stories use different conflicts. Metadata/category preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 31,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "92450edf806123f0c1fdab1451ed131274fc68e0eae5b3f8fd87162ed8030036",
-      "v2_sha256": "92450edf806123f0c1fdab1451ed131274fc68e0eae5b3f8fd87162ed8030036",
-      "notes": "应急金与教育储备分开后遇到水管爆裂，重点是家庭储蓄归类、支付维修费和学费；同“银行认亲戚”的说法重复亲属账户梗。四字段均已审读，需改写。"
+      "v2_sha256": "09db077225febe8355dede971e5a00581a8ed359eedeaef90ea8bd53a24a0066",
+      "notes": "Root reviewed all four fields. The remote-control car’s three escalating runs knock down a gate, snag at a mat, then slide into Dad’s slipper; his attempt to intervene sends the other slipper onto the track, and the drained battery ends the race with a slipper record. Manually reviewed aligned Jyutping, correcting 耗 hou3; full gloss and event-matched tip. Corpus toy-car/track search found no comparable obstacle-and-slipper finish; distinct from nearby soft-dart game. Category and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -2670,10 +2670,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 33,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "1b47e42e1e1c5d5a35166fd8b37b366b11f38a691830b07a1c9c32fb5309926c",
-      "v2_sha256": "1b47e42e1e1c5d5a35166fd8b37b366b11f38a691830b07a1c9c32fb5309926c",
-      "notes": "The main plot is banking proceeds and deposit conditions; the bus-driver-seat callback is isolated and does not earn a strong comic turn. Full story, gloss, Jyutping, and event-matched tip checked; rebuild around a stronger causal comic sequence."
+      "v2_sha256": "4742b83d8aaaa8c10dc54acec2ab7e654c16e5740fe70455b1571d28065adb58",
+      "notes": "Root reviewed all four fields. A nephew winds a toy frog too far; it bounces across the bank lobby, draws a multi-person chase, and stalls at a tissue; the mother’s request to wind one notch less earns the final callback that the nephew can finally keep up. Manually reviewed aligned Jyutping, correcting 門墊 din6 and ensuring the two syllables for 當擋板; complete gloss/tip. Corpus found no matching runaway-windup-frog chain; bank setting is incidental and money is not the conflict. Metadata/category preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
