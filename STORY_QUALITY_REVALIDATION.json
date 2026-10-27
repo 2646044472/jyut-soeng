@@ -1936,8 +1936,8 @@
       "index": 41,
       "status": "pass",
       "baseline_sha256": "11eaf2f3c25affdce35bfdd79b59c15c26bc98f811fb4655972ded3583c3d7fb",
-      "v2_sha256": "818dd284905e8f724a0385e7bae1815a596a929edc1f3c95a24488c99877014e",
-      "notes": "互相礼让导致整段主歌落空，副歌高分让他们把礼貌误认成默契；再次互让扩展到服务员，服务员用“收碟不是收咪”抢到唯一完整笑点。逐字核对274个发音单位（含“唱K”的K=kei1）与正文；复审场景、释义和复述提示，保留原分类与元数据。"
+      "v2_sha256": "cc79df6aa4aa42a3a5321e6c43c8374b34bf110c05efe0f9b1be60badc76a63d",
+      "notes": "Re-reviewed all four fields. Replaced literal Latin K with 歌 so every written character has its manually checked pronunciation; adjusted Jyutping go1 and gloss to match. The mutual-mic-yield escalation and waiter punchline remain coherent; complete gloss and event-matched practice tip verified. Category and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -2376,8 +2376,8 @@
       "index": 96,
       "status": "pass",
       "baseline_sha256": "77206547d6226f1665ea3bc79b4974235faccb8235cd98f0da88cf95a5b352bc",
-      "v2_sha256": "9e5b9423900496730a00365702eb4493dd28a1bee2f9f7118184801fdd99cc40",
-      "notes": "爸爸拍煮鱼教程却一直用前置镜头，妈妈让他把镜头放低，他听成音量调高；家人最后发现只有他的脸，没有鱼。逐字核对234音节，复审连续性、完整释义和提示；未沿用假链接冲突，类别及元数据保留。"
+      "v2_sha256": "a2e69af1139e26a105a52cdfc4ee90d546f3b2004b4eb15dcbb7e1f3f6afc807",
+      "notes": "Re-reviewed all four fields. Corrected two non-syllabic Jyutping separators (the ideographic list comma and an ellipsis) to allowed commas; all 234 Han syllables remain individually aligned. Camera framing misunderstanding, complete gloss, and event-matched retelling tip checked; category and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_03.json",
@@ -36959,16 +36959,16 @@
       "index": 0,
       "status": "pass",
       "baseline_sha256": "287f72deb7933731d12f432ea14129c0bd5eb9ee1b0ffde23d86050364ef4d91",
-      "v2_sha256": "c74a7ba957866b1dda86769c1abe800120a292858af5a46192c9e6bc134d2c24",
-      "notes": "Rewritten and main-reviewed: the repeated towel fix expands into a taped “construction zone” and Dad’s engineer briefing; the outside seal, not the towel, fixes the leak. He then insists the towel passes a rain test and writes a report defending its effort, which pays off the overconfident maintenance routine. Gloss and tip match; Jyutping has 275 tokens aligned to 275 Han characters."
+      "v2_sha256": "54648db24f1396d3c2faead872ae06118c30459719512db44b1efc3d5a2ff04f",
+      "notes": "Re-reviewed all four fields. Story’s repeated towel fixes escalate into a mock construction zone and Dad’s overconfident “towel passed the test” report; the actual seal repair and callback are coherent. Gloss and Jyutping reviewed; changed only the required exact practice-tip prefix to 故事练习：. Category and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_07.json",
       "index": 1,
       "status": "pass",
       "baseline_sha256": "91b56d2f7f848a2bde5e413f869bcd641f8e90a15292af64b7c69225c90ac452",
-      "v2_sha256": "839ad67f7530f7bf1f8ebea8d8a2324fda4bb079d0dbb4a2232cb7737d99fb46",
-      "notes": "Rewritten and individually reviewed all four fields: the family-photo attempts escalate from a cropped head to a collision and cat chase; the sent photo reveals the cat alone faced the camera, earning Dad’s director tag. Simplified gloss covers every beat; corrected Jyutping now has 257 syllable tokens for 257 Han characters; retelling prompt matches."
+      "v2_sha256": "83c076998d6a75e761e8c14dbeadcf8138ada7010fb7158ce9a346701cc763db",
+      "notes": "Re-reviewed all four fields. The camera failures escalate from a cropped head to collision and a cat chase; the final image reveals the cat alone facing the lens, earning the director callback. Gloss and Jyutping reviewed; changed only the required exact practice-tip prefix to 故事练习：. Category and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_07.json",
@@ -37799,8 +37799,8 @@
       "index": 5,
       "status": "pass",
       "baseline_sha256": "40c4b9f87072c1e568e9c50d80a4ac91d8f8e2500612954a3d7b64cb1ed666be",
-      "v2_sha256": "2a9606dbe0af491505b3b8aa9241c54ae542d3f06189000710a524c0521a73b5",
-      "notes": "Main rewrote the original thin bag-storage anecdote with a causal comic chain: the bag airplane sticks immediately, a folded loaner is hard to unfold, and the neighbor turns the one-box rule into a request for a bag hotel; Dad blames the bags for bringing relatives, and the overnight limit is the earned callback. Individually checked all four fields, 266 Han characters/266 Jyutping tokens, full gloss and tip-to-events. Category and nonlanguage metadata preserved. Contextual 掟 deng3 (“throw”) and 黐 ci1 (“stick”) are colloquial readings; no uncertain pronunciation remains."
+      "v2_sha256": "c7fc56edd2605ac27a58d37d71ad12d3d7a48b35805931ad205c4f4b2f3120c2",
+      "notes": "Re-reviewed all four fields. Bag airplane, awkwardly folded borrowed bag, and the neighbor’s “bag storage” request form a causal escalation; Dad’s bags bringing relatives and the overnight hotel label pay off the setup. Gloss and Jyutping reviewed; changed only the required exact practice-tip prefix to 故事练习：. Category and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -38943,8 +38943,8 @@
       "index": 148,
       "status": "pass",
       "baseline_sha256": "2a78f171adfdbc722a90eab9e23090da55d7557165dd719917be4015bf5cff83",
-      "v2_sha256": "289d539f180f46a9df320afbc57bf3f4e22d52695ee881d4860f598d820aa2bb",
-      "notes": "Rewritten after the weak first attempt and duplicate breakfast ending. First overheated egg triggers a smoke-alarm panic; Dad turns the retry into a filmed “sunrise” lesson, but burnt toast sets off the alarm again while he poses as the instructor. The returned sunrise/sunset image and firefighter cameo pay off both alarms. Main reviewed the full prose, contextual Jyutping, complete gloss and tip against events; category and other metadata unchanged."
+      "v2_sha256": "2dede47ff080b908a7a03e1d293d1b461a42d64160cb6a955537b322cceba277",
+      "notes": "Re-reviewed all four fields. Egg smoke alarm, Dad’s filmed lesson, and the toaster setting off the alarm again escalate into the “sun not up, fire service first” title; the sunrise/sunset callback and final title are coherent. Gloss and Jyutping reviewed; changed only the required exact practice-tip prefix to 故事练习：. Category and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
