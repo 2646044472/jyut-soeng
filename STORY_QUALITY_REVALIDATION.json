@@ -21229,10 +21229,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
       "index": 4,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c2c88d2c247afd82f0e3429e093b174657ba576f4739937dba79ba86de929a9a",
-      "v2_sha256": "c2c88d2c247afd82f0e3429e093b174657ba576f4739937dba79ba86de929a9a",
-      "notes": "Needs revision: choosing one soy sauce and forgetting the other creates no consequential misunderstanding; the proposed blind tasting is only a future plan. The gloss matches the story and tip names the forgotten bottle. Four fields read; needs a stronger present-tense comic reversal."
+      "v2_sha256": "56e0a9baf7fa05a2bb8964d0d04e2473cd0f8aba72e9817accb2a4934c78deb0",
+      "notes": "Pass after root rewrite and four-field review: she boasts about not making salty sauce, mistakes 淡口, pretends to study the label, spills too much vinegar and saves the dip; the explicitly purchased but unused low-salt bottle sets up the “醋水” callback. Clarified the bottle purchase and what she actually used; usageTip matches the punchline. Root checked all 277 Jyutping syllables against the text, including word-level 淡口 taam5 hau2 and 室友 sat1 jau5; complete gloss checked. Readings cross-checked against local Rime Cantonese word dictionary jyut6ping3.words.dict.yaml (淡口 line 39913; 室友 line 35514). Nonlanguage metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
@@ -21405,402 +21405,402 @@
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 1,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "a55f0f5fd680a3f5f21fd0dd53c932b77acbe9b0031e742e10eeaa4b5d49f42d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a55f0f5fd680a3f5f21fd0dd53c932b77acbe9b0031e742e10eeaa4b5d49f42d",
+      "notes": "Needs revision: choosing lean pork and finding oversized water chestnut create a recipe anecdote; the “dice” comparison is a brief mild joke, while leftover sandwiches and nutrition advice do not escalate or pay it off. The gloss tracks the story; the tip matches the cooking sequence. Four fields read; retain metadata and rebuild the plot around a stronger causal comic turn."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 2,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "7410a800f6848a9b6a926a5b888196165fab0f1b5adb91a94909c939d11434db",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "7410a800f6848a9b6a926a5b888196165fab0f1b5adb91a94909c939d11434db",
+      "notes": "Needs revision: a discounted fish, choosing it before closing and saving leftovers for lunch make low price/savings the core frame; the tofu splashing is a minor kitchen mishap, with no escalating comic reversal. Gloss and tip cover the scene. Four fields read; rework away from the price-led plot and recheck contextual readings after rewriting."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 3,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "02443e5994da813728da2eb98f2cb915c575cf126290137db6692ccba18a03f7",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "02443e5994da813728da2eb98f2cb915c575cf126290137db6692ccba18a03f7",
+      "notes": "Needs revision: the story follows a soup recipe, the brother eats a jujube early and asks about goji berries as snacks, then the family likes the soup; these are mild, disconnected domestic beats without causal escalation or a comic payoff. Gloss and tip match the cooking sequence. Four fields read; retain category and redesign the conflict before rewriting."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 4,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "bff71fd825c6515d93a6e04d36914a9322e23236db7cb38d28537f8efa5f2813",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "bff71fd825c6515d93a6e04d36914a9322e23236db7cb38d28537f8efa5f2813",
+      "notes": "Needs revision: the bento order is swapped and corrected, then the forgotten water bottle makes the coworkers walk again; these are ordinary service and memory mishaps without a strong causal escalation or an earned comic reversal. Gloss and tip match the events. Four fields read; replace the routine lunch anecdote with a distinct comic conflict and recheck readings after revision."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 5,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "055b55c7670e60929d430101cabca5c50dde19574def21c944e081df24712d8b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e70eb7dc8224b127524475688eb57646aaf50d202a6d8adc75b95dfb5ca081e0",
+      "notes": "Pass after root reviewed all four fields: a lunch-photo challenge turns deliberately healthy garnishes into repeated fried-food illusions; a coworker arrives expecting fried chicken, the face-covering photo undercuts the health claim, then the cafeteria asks to advertise it and the final “don’t enlarge it” callback lands. Escalation is causal and the scenes connect. Jyutping checked against 266 Han characters; 敏 man5, 糙米 cou3 mai5, 視覺 si6 gok3 and 錯覺 co3 gok3 checked in local Rime Cantonese dictionaries. Simplified gloss and usageTip match all events. Metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 6,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "ddfc6e87d8c2dcf61f56f9eaab1cf78f47d73212bf59ac3575d5b296f749e1ed",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ddfc6e87d8c2dcf61f56f9eaab1cf78f47d73212bf59ac3575d5b296f749e1ed",
+      "notes": "Needs revision: coffee beans and grind settings frame a brewing lesson; the too-bitter cup is corrected, while the neighbor compliment and planned office brew do not create a comic reversal. Tip summarizes the instructions. Four fields read; rewrite with a stronger character-driven comic engine and recheck readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 7,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "96e724b861a966dd6519b16a578ff94761907b98d33a103d3a43b327b92a38d7",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "96e724b861a966dd6519b16a578ff94761907b98d33a103d3a43b327b92a38d7",
+      "notes": "Needs revision: the melon rolls during a bus stop, is left to ripen, then a child says it tastes better than a football; the beats do not escalate into a strong reversal, and the fruit-sharing ending is routine. Gloss and tip cover the events. Four fields read; rework the plot and recheck readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 8,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "1acf95ce47bfcdedde1fad00809bc570865fee016db3aebc2aec9f4fc08c413e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4027bc61c005e0b6ca73166f9509b2d15145594153f825fd5889e263ebb89e44",
+      "notes": "Pass after root reviewed all four fields: the cat takes over the empty rice sack after already monopolizing the kitchen stool; the roommate moves the bed out of the cooking path, and the cat’s final ownership of the bag resolves the conflict with a compact callback. Scene actions are coherent; Jyutping was manually checked syllable-by-syllable against 247 Han characters, gloss covers the full story, and the Simplified usageTip follows the actual ending. Candidate changed only language fields; metadata preserved. Animal behavior is plausible and no local facts are asserted."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 9,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "cf1d55db14d2a72d955aedff72f24fa25b5d088c743b242aed3231dea1111d7a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9b6a94bb9769813ec65d55600ea467c96b6ed5f83954bdfd3883dc924bccfb34",
+      "notes": "Pass after root reviewed all four fields: the student turns fruit labels into notices, the shopkeeper reads them aloud, customers queue for the mock morning assembly and the teacher starts roll call; the retiring principal then returns the basket as a final assignment, paid off by the student’s last label. Escalation, reversal and physical scene are coherent. Root checked all 232 Jyutping syllables against the text and consulted local Rime Cantonese word entries for 標籤 biu1 cim1, 早會 zou2 wui2, 散會 saan3 wui2, 通告 tung1 gou3, 仍然 jing4 jin4 and 生效 sang1 haau6. Complete Simplified gloss and story-specific tip checked; nonlanguage metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 10,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "7197db65b33b24ce43f4ad8a56e2e19c6e6ab0859f875807f8eab59467e27105",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "7197db65b33b24ce43f4ad8a56e2e19c6e6ab0859f875807f8eab59467e27105",
+      "notes": "Needs revision: a soft frozen-shrimp delivery leads to a customer-service replacement and delayed meal; the two-day wait and dinner preparation are routine logistics, with no comic misunderstanding or earned payoff. Gloss and tip cover events. Four fields read; rework into a story with distinct, coherent comic escalation and preserve the food-shopping category."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 11,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "db145d6197c9ff1f08242ac02c12c8d819b6f574f61e8174d163f4be2a112421",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "db145d6197c9ff1f08242ac02c12c8d819b6f574f61e8174d163f4be2a112421",
+      "notes": "Needs revision: an absent carton of milk and a mistaken neighboring parcel are two separate delivery corrections; neither escalates or pays off, and the final reminder to call ahead is instructional. Gloss and tip match. Four fields read; rebuild into one coherent comic misunderstanding and recheck readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 12,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "413b27c6ad106d3d4b166ad42da585fba00af6f76a2430ddd696c08c07368b3f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "413b27c6ad106d3d4b166ad42da585fba00af6f76a2430ddd696c08c07368b3f",
+      "notes": "Needs revision: a too-thick cheese slice slips from a sandwich; the “going on a trip” line is a mild anthropomorphic quip, followed by a practical fix and a formulaic everyone-laughed ending. No escalation or earned reversal. Gloss matches, while the tip names the shopping and rescue. Four fields read; rewrite around a stronger comic conflict and recheck readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 13,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "202c56f47e533abf7ef07450d529c1d7d0ab5f6cca6c77cec9662983f50b60ad",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "202c56f47e533abf7ef07450d529c1d7d0ab5f6cca6c77cec9662983f50b60ad",
+      "notes": "Needs revision: honey selection and crystallization are explained as a storage lesson; warming the jar resolves it routinely, and the cleanliness advice has no story conflict or comic payoff. Gloss and tip match the procedural sequence. Four fields read; rewrite with a fresh character-driven escalation and recheck pronunciation."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 14,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2bc5c643fd8aacfc3a84f637bfc445f5d83efbc9b431ab626d443846fe3a9966",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2bc5c643fd8aacfc3a84f637bfc445f5d83efbc9b431ab626d443846fe3a9966",
+      "notes": "Needs revision: separated noodle sauce turns viscous and the noodles taste unevenly; a coworker’s “two flavors in a meeting” quip prompts a practical fix, then a procedural tip. One mild line is not a strong comedic escalation or reversal. Gloss and tip follow the facts. Four fields read; develop a more consequential comic payoff and recheck readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 15,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d3579342561ba74927d5f76a572d86c1043cbde39abea1eff5efde4e12f888b9",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d3579342561ba74927d5f76a572d86c1043cbde39abea1eff5efde4e12f888b9",
+      "notes": "Needs revision: single-serving meal portions are misunderstood, and “dinner or tasting” is a mild line; eggs fill the gap, customer service explains the portion and sends a coupon, then the story returns to meal planning. No strong escalation/payoff; pricing is incidental, not the main conflict. Gloss and tip match. Four fields read; rebuild the comic arc and recheck readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 16,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "cecf0fa7630ae2740a4e658ca7e7de42f850f170141a3e221487a136e9791f50",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "cecf0fa7630ae2740a4e658ca7e7de42f850f170141a3e221487a136e9791f50",
+      "notes": "Needs revision: lunchbox faces and a lid that keeps food in place are a pleasant school-prep anecdote; the tilted smile and peer questions do not escalate into a strong payoff. The closing water-bottle reminder and extra corn are disconnected. Gloss and tip match. Four fields read; create a distinctive comic reversal and recheck readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 17,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f9f469a5274c43f2810791231ae1d5f42d71d398a7a7ce7665c5306cfe938a95",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f9f469a5274c43f2810791231ae1d5f42d71d398a7a7ce7665c5306cfe938a95",
+      "notes": "Needs revision: a curry recipe proceeds through spice selection, a neighbor’s “spice shop” quip and a brother mistaking cinnamon for sugar; these are mild, disconnected reactions, and the meal resolution has no reversal. Gloss and tip match. Four fields read; make the misunderstanding drive a stronger escalation and recheck readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 18,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d8b75874799e85dccfd81c3cddf5e01d2ae4c53dfeb71be218a647f616e9cb0a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d8b75874799e85dccfd81c3cddf5e01d2ae4c53dfeb71be218a647f616e9cb0a",
+      "notes": "Needs revision: the story is a reimbursement/e-receipt issue (money-related core), followed by a coupon purchase; it duplicates the sentence “下次我會先開會員程式...” verbatim, then repeats troubleshooting instructions. The lost-mail and coupon beats do not form a comic reversal. Gloss broadly covers events; tip emphasizes the email find. Four fields read; preserve identity, repair duplication and develop a distinct plot; count as money-led for final quota review."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 19,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "65254e5e2f39cf8cd83c665471f4645cb9a32e91919439550b5ffd17a21d00ba",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "65254e5e2f39cf8cd83c665471f4645cb9a32e91919439550b5ffd17a21d00ba",
+      "notes": "Needs revision: snacks spill during traffic, tomato rolls under the mat, and the family turns the stop into a picnic; the beats resolve pleasantly but do not build to a strong comic reversal. The final “crumb-filled car” is a practical worry, not a payoff. Gloss and tip match. Four fields read; replace with an earned comic ending and recheck readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 20,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "e937dcb8770a227f286a19d1f1763578d8755a3c771c3b75353ed63d0a3da4c8",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e937dcb8770a227f286a19d1f1763578d8755a3c771c3b75353ed63d0a3da4c8",
+      "notes": "Needs revision: the neighbor lends garlic and rescues oversalted beans with tomato; this is a warm cooking exchange without comic escalation or a reversal. The closing line about discounted closing-time vegetables explains the setting but does not land. Gloss and tip match. Four fields read; retain metadata and build a more distinctive comedy engine."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 21,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "a2f8d392a95ff390f44fd0151efee9e0ebc23d1489ccdd1361b4d7373b2a45aa",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a2f8d392a95ff390f44fd0151efee9e0ebc23d1489ccdd1361b4d7373b2a45aa",
+      "notes": "Needs revision: cereal spills onto the table and is compared to a beach, then the father and narrator clean up and return to expiry-date organization. This is a small accident followed by storage advice, without escalating conflict or a strong payoff. Gloss and tip match. Four fields read; create a fresher comic arc and recheck Jyutping on rewrite."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 22,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "1b317e81d9f7527749778268df133e96f62fd4017a005ebbf1f39c33c2c51351",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1b317e81d9f7527749778268df133e96f62fd4017a005ebbf1f39c33c2c51351",
+      "notes": "Pass after root read all four fields: the question about oil’s smoke point leads the roommate to overheat an empty pan, then the literal “why is the whole room full of smoke?” is an earned wordplay reversal tied to the cooking mishap. Sequence is coherent. Root checked all 233 Jyutping tokens against Han characters and reviewed the complete Simplified gloss and event-matched tip; metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 23,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "0ddcbc5aa26993c0b36056c43d218d87bd956e514d81db983ae1d029214c415d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "0ddcbc5aa26993c0b36056c43d218d87bd956e514d81db983ae1d029214c415d",
+      "notes": "Needs revision: an overworked employee forgets a spoon, heats soup in a cup and splashes it; “tomato fountain” is a mild simile, then the solution is to store utensils and a heatproof cup. No escalating conflict or earned reversal. Gloss and tip match. Four fields read; create a stronger comic payoff and recheck readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 24,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "6ad9282a7d3b4a013026fd65357772319cb5299b2c4bc310ff2c6effd2007df6",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "6ad9282a7d3b4a013026fd65357772319cb5299b2c4bc310ff2c6effd2007df6",
+      "notes": "Needs revision: a rushed dinner shifts to a different tomato box, tofu is discovered at the bottom of the bowl, and a green onion nearly falls; “ingredients you can call roll on” is a mild pun, not an escalated payoff. The ending returns to recipe notes. Gloss and tip match. Four fields read; rebuild with a stronger story arc and recheck readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "48bb01993a42543b1c7f307019eac26f754f555e14d64bbef245ebee349cc5ba",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "48bb01993a42543b1c7f307019eac26f754f555e14d64bbef245ebee349cc5ba",
+      "notes": "Needs revision: washing sand from watercress and cutting carrots smaller lead to a sweeter soup; the cousin asking for a larger pot is a mild appetite line, not an earned comic reversal. Pricing is only incidental. Gloss and tip match. Four fields read; rebuild around a stronger character conflict and recheck readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 1,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "734a515270580d035e9ff287ec95dd5bc932cba8de3dda4aa448f1b4387e4737",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "734a515270580d035e9ff287ec95dd5bc932cba8de3dda4aa448f1b4387e4737",
+      "notes": "Needs revision: online pickup shows a missing vegetable, then an unsecured cold box; both are separate service glitches, while “漏網魚” is a single mild pun and the dinner is unaffected. No causal escalation or earned reversal. Gloss and tip match. Four fields read; consolidate around a stronger comic misunderstanding, avoiding another routine delivery incident."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 2,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "e7dee75e2905aa3aa68c17d3ccfbfce08903b2ac445fefc06bb66f78c6616ed0",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e7dee75e2905aa3aa68c17d3ccfbfce08903b2ac445fefc06bb66f78c6616ed0",
+      "notes": "Needs revision: the child hands grandpa the sesame bag instead of the whole-wheat one; grandpa likes it, then the child plans to label bags. This is a small flavor mix-up with a pleasant response but no escalating conflict or earned punchline. Gloss and tip match. Four fields read; make the mix-up drive a stronger, distinct reversal."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 3,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "fd0ee941f4a29506e8f9d883ad32150f1404e5432faedbaa14b5f56bdf18ef97",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "fd0ee941f4a29506e8f9d883ad32150f1404e5432faedbaa14b5f56bdf18ef97",
+      "notes": "Needs revision: sequence is out of order—the story returns home, washes/marinates shrimp, then describes the fishmonger removing shells and returns home again. The sister reaches for a raw shrimp but is only stopped; the meal praise does not pay off an escalating gag. Gloss and tip cover events. Four fields read; repair continuity and strengthen the comedy."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 4,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "e8f38bac29c53adc6cba9e1840ad76d4c5c0ef858aa10627a12bd4e5301261ef",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e8f38bac29c53adc6cba9e1840ad76d4c5c0ef858aa10627a12bd4e5301261ef",
+      "notes": "Needs revision: it says the grandfather chooses and buys one tea before the shop owner offers two more samples, then he chooses the second; this ordering is unclear. Over-brewing at home becomes a tea lesson, with no comic escalation or payoff. Gloss and tip match. Four fields read; clarify purchase sequence and build a real comic reversal."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 5,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "bf41f9e940355150acedb398abafe55f8e349cdaa312335a0b0c1b12b66036c8",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "bf41f9e940355150acedb398abafe55f8e349cdaa312335a0b0c1b12b66036c8",
+      "notes": "Needs revision: the central conflict is controlling weekly spending; groceries, coupons and the electric bill frame the cash-budget exercise, so count as money-led for final quota review. The only payoff is a few saved coins against a skipped potato-chip bag, a weak gag with no escalating reversal. Gloss and tip match. Four fields read; replace this accounting/budget plot with a distinct nonfinancial comic engine."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 6,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "a6c197e3164e7f27a39b15301a77b502ef631040c3a5de437fa20a1f93b1cb5b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "a6c197e3164e7f27a39b15301a77b502ef631040c3a5de437fa20a1f93b1cb5b",
+      "notes": "Needs revision: a neighbor with an injured foot receives grocery help and shares oranges in return; the exchange is kind but sentimental, without conflict escalation, misunderstanding or comic reversal. The “oranges taste sweeter” line is a soft sentiment, not a punchline. Gloss and tip match. Four fields read; keep the neighborhood setting but develop an actual comedic engine."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 7,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "3d6c93c5af46b80ad89c658e8d6aee1b1c66e36a839d8ffbe2402cf22a9a6bbb",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "3d6c93c5af46b80ad89c658e8d6aee1b1c66e36a839d8ffbe2402cf22a9a6bbb",
+      "notes": "Needs revision: ice leaks in the cooler bag, then the guests freeze lemon tea into ice cubes to flavor soda; it is a practical workaround with a weak “saved the tea” tag, not an escalating comic reversal. The party context is clear; gloss and tip match. Four fields read; strengthen the consequence and punchline."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 8,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d46800050101274aa5be363c725457c7404af6f53df2be7e7ddc5f7a12611136",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d46800050101274aa5be363c725457c7404af6f53df2be7e7ddc5f7a12611136",
+      "notes": "Needs revision: a brief blackout makes the narrator bump a cookie box; grandma catches it and says it is lucky the box, not her, was hit. The rest is a neighborly gift exchange, with no escalating conflict or strong reversal. Gloss and tip match. Four fields read; rework the scene into stronger character-driven comedy while preserving the food-shopping category."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 9,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f6ce1a8362e5a90a46448e3a941ddf1b8652e3acb595fa501b3474c0bbb37f20",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f6ce1a8362e5a90a46448e3a941ddf1b8652e3acb595fa501b3474c0bbb37f20",
+      "notes": "Needs revision: the wrong sodium label leads to a saltier soup, then water and corn correct it and a yellow dot prevents a repeat. This is a practical health-label lesson; the final “enough flavor” comment is not a comic payoff. Gloss and tip match. Four fields read; develop a character-driven escalation without relying on a label-checking lesson."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 10,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "068d5be9c6e5b5426dcc126753fe13ae5e2a3a2ab7380165cdf9fdb41dfa2e49",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "068d5be9c6e5b5426dcc126753fe13ae5e2a3a2ab7380165cdf9fdb41dfa2e49",
+      "notes": "Pass after root reviewed all four fields: a thick tomato sauce sticks to the wooden spoon; the roommate and narrator shake the pan to free it, splashing the wall, which triggers the “sauce painted the kitchen” punchline. The action escalates causally and remains physically legible. Root checked 229 Jyutping syllables against the Han text, full Simplified gloss and event-matched practice tip; metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 11,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "1ac7d11d88b5fe8544ae1641df855d3689f31cac4d4079230e85a8d1cf3ac7b2",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1ac7d11d88b5fe8544ae1641df855d3689f31cac4d4079230e85a8d1cf3ac7b2",
+      "notes": "Needs revision: the cooler is too small, water bottles substitute for ice bricks, and a compressed apple is called a little moon; the fix works but ends with the weak reassurance that it is edible. No strong escalation or reversal. Gloss and tip match. Four fields read; turn the sizing problem into a more consequential comic payoff."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 12,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "09e75c02bc9d0ad9ee69096ae68deec59d0d7f73ebe238db0fd657b02c4ff6c0",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "09e75c02bc9d0ad9ee69096ae68deec59d0d7f73ebe238db0fd657b02c4ff6c0",
+      "notes": "Needs revision: torn oil-stick bag causes a replacement purchase, then a thermos lid pops from the steam; the two mishaps are loosely connected, and “tomorrow I’ll buy again” is not an earned payoff. The scene is warm but not strongly funny. Gloss and tip match. Four fields read; unify the escalating events and land a sharper ending."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 13,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "86d6f1c11aee36f3cc9c79f0dc3031e27e687a865930a18442d0ecd24d159d86",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "86d6f1c11aee36f3cc9c79f0dc3031e27e687a865930a18442d0ecd24d159d86",
+      "notes": "Needs revision: missing greens, a bruised tomato and swapped receipts stack routine order errors; the customer returns the extra tomatoes, and the final “checker” role is a weak tag. The store-service correction pattern is repetitive, not a distinct comedy structure. Gloss and tip match. Four fields read; rebuild around a genuinely different conflict and earned payoff."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 14,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "5969a98de2917ae53339b5fa03cf177b98f09d3df895edbdf3265b952f038cae",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5969a98de2917ae53339b5fa03cf177b98f09d3df895edbdf3265b952f038cae",
+      "notes": "Needs revision: a seed-heavy eggplant prompts a return to the stall for selection advice, then the family cooks it successfully; this is product guidance with a routine exchange, and “next time I’ll choose” is not a comic payoff. Gloss and tip match. Four fields read; use the market setting for a stronger character conflict and distinct ending."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 15,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "1957c6f01791311bacdcd9098e025ae78018983e5b94f9da529dc9ce4fd068e9",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "1957c6f01791311bacdcd9098e025ae78018983e5b94f9da529dc9ce4fd068e9",
+      "notes": "Needs revision: frozen dumplings are cooked by package directions, the brother’s confusion nearly pulls down a tissue, and the grandfather says one bag is enough for two. The meal lesson and requests for more dumplings do not build an earned joke. Gloss and tip match. Four fields read; develop a nonprocedural comedic conflict and recheck readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 16,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "9f004fd78b869d381bc11e833b53d06f9745cb8138f3bbc0965b50b612a3179a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9f004fd78b869d381bc11e833b53d06f9745cb8138f3bbc0965b50b612a3179a",
+      "notes": "Needs revision: choosing oat milk leads to a smoothie and then reusing its carton for bean sprouts; the spilled milk is an unrelated small accident, and the sprouts are a pleasant recycling payoff rather than comedy. No escalating conflict or punchline. Gloss and tip match. Four fields read; build a stronger causal comic reversal around the breakfast scene."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 17,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "e206969bb1609684d38e6a51dca49813df719eadd9dfa20b911688d5a9bbfaa0",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e206969bb1609684d38e6a51dca49813df719eadd9dfa20b911688d5a9bbfaa0",
+      "notes": "Needs revision: a fishmonger removes bones, relatives share soup and fish, and the guest calls the fish “easy” to eat; this is a warm meal scene with a mild line, no escalating conflict or reversal. The final request to meet the fishmonger is unmotivated. Gloss and tip match. Four fields read; develop a sharper story engine and payoff."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 18,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "9d8cf381c4c8c2cf0d52a2878b02752f11293e9a734a5068eb191598da28ce6b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "9d8cf381c4c8c2cf0d52a2878b02752f11293e9a734a5068eb191598da28ce6b",
+      "notes": "Needs revision: spilled water erases labels, coworkers recheck the order list and avoid a cheese mix-up; the wrong-box risk never becomes a consequence, and the final instruction to move drinks is ordinary. No escalating comic payoff. Gloss and tip match. Four fields read; turn the labeling confusion into a coherent, earned comedic reversal."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 19,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2b386cb82a78d39c347597b7cf002aa60bb5b94e94ef2623c752689b17c198b2",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2b386cb82a78d39c347597b7cf002aa60bb5b94e94ef2623c752689b17c198b2",
+      "notes": "Needs revision: careful allergen-label checking is followed by the father nearly taking a snack, then a reminder; the safety concern resolves without escalation or a comedic payoff. Do not make the allergy itself the joke. Gloss and tip match. Four fields read; retain respectful handling and find a separate, character-led comic engine."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 20,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "3d24bd013ec261aa11e080f634ab095b043018e5e2dfa0f4c22592e378203338",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "3d24bd013ec261aa11e080f634ab095b043018e5e2dfa0f4c22592e378203338",
+      "notes": "Needs revision: the brother overdoes chili powder and coughs, but the others simply pass water and share noodles; the “spice-level meeting” line is a weak tag, not an earned reversal. Concrete field error: Mandarin gloss says 青瓜, while the sentence and Jyutping say 青菜. Four fields read; rewrite the plot and correct the gloss discrepancy."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 21,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "b8a4cb38ba49859db5acf7c302a8195d786a4da1beeefbff62196ae7f764ac47",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b8a4cb38ba49859db5acf7c302a8195d786a4da1beeefbff62196ae7f764ac47",
+      "notes": "Needs revision: rain blows the breakfast bag away; the narrator chases it while holding coffee, then reaches the meeting. The clerk’s “exercise before breakfast” quip is mild, and the coworker asking for another meal is not a reversal. Gloss and tip match. Four fields read; make the scramble cause a sharper payoff rather than end with weather planning."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 22,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "ca7511d1646568a9ef1134739903438b3e487060406fd93eba8d747970e08449",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ca7511d1646568a9ef1134739903438b3e487060406fd93eba8d747970e08449",
+      "notes": "Needs revision: family improvises lettuce wraps with beef, neighbors smell the food, and the brother suggests mushrooms; this reads as a recipe-sharing anecdote with no conflict escalation or comic reversal. Gloss and tip match. Four fields read; retain the food scene but add a distinctive character-driven comic arc and earned ending."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 23,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d7415f04c647a460616d00d24841612ce0a42dc913815276f10ddb1a4661f3f7",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d7415f04c647a460616d00d24841612ce0a42dc913815276f10ddb1a4661f3f7",
+      "notes": "Needs revision: coworkers share fruit with a new parent; the emotional thanks and promise of cookies are warm, while the banana peel photo mishap is too minor to form an earned comedic arc. Do not make postpartum stress the joke. Gloss and tip match. Four fields read; preserve the kind relationship but add a respectful, character-based comic reversal."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 24,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "cb66e250a70023859be9e1e3eb193eb5c3ebffff58db256d1adbb5f746ea5eda",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "cb66e250a70023859be9e1e3eb193eb5c3ebffff58db256d1adbb5f746ea5eda",
+      "notes": "Needs revision: the first frozen burger patty breaks apart into “fried meat,” then egg binds the next patty and the family scores the meal; this is one mild kitchen mishap followed by procedural recovery, without stronger escalation or reversal. The freezing/shaping sequence is also underspecified. Gloss and tip match. Four fields read; clarify physical steps and create a sharper payoff."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 25,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "2b6f0e8e4943f54d6f17751ce11a14dd9c5ca84eb9961f81176e668affbc89cc",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2b6f0e8e4943f54d6f17751ce11a14dd9c5ca84eb9961f81176e668affbc89cc",
+      "notes": "Pass after root reviewed all four fields: in rain the hot-dog bag blows open, a coworker catches it with the meeting agenda, cheese stains the paper, and the returning coworkers with “documents” prompt the boss’s new-menu quip. The physical beats escalate coherently to the visual ending. Root checked all 226 Jyutping syllables against the text, complete Simplified gloss and story-specific tip; metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
