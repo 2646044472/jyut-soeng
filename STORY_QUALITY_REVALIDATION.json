@@ -3294,10 +3294,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 11,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "75882e7950c09d99183afa6b86efed1c4669ec99882f7016537b70627cfbf2a3",
-      "v2_sha256": "75882e7950c09d99183afa6b86efed1c4669ec99882f7016537b70627cfbf2a3",
-      "notes": "The fishing stool collapsing in its box is a strong physical gag, but the story then centers on lowering a card limit, checking autopay, and explicitly reviewing water/electric bills and phone fees. This repeats the disallowed accounting/utility-notice pattern. Full fields checked; replace the central conflict."
+      "v2_sha256": "ceed13c57630f5a1d248aeef3ea66f2267f32f2e4230281849f62297213282a5",
+      "notes": "A volunteer accidentally selects the nature-exhibit audio at a clothing-art show; visitors interpret clothesline imagery and tea stains as migration clues, ending with a bird carrying a teacup. Root reviewed all four fields and contextual readings including 候鳥遷徙 hau6 niu5 cin1 ci2, 茶漬 caa4 zik1 and 導賞 dou6 soeng2."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
@@ -3310,10 +3310,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 13,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d549641d4249c9bab07828411cb3bfd0b7824904f78fd5e08919247f77fc4165",
-      "v2_sha256": "d549641d4249c9bab07828411cb3bfd0b7824904f78fd5e08919247f77fc4165",
-      "notes": "The credit-limit warning, hotel preauthorization, installment balance and card payment make account reconciliation the core conflict; the cake joke is mild and repeats the accounting pattern. Full story, gloss, Jyutping, and event-matched tip checked; rebuild around a different conflict."
+      "v2_sha256": "9ffaac6d113a3b3857e3db2d924bc4914da16470bec5c84263d84318d5234647",
+      "notes": "Dad’s quick shoe-tying lesson escalates from loose bows to long loops and an unremovable double knot; the daughter solves it, then Dad knots his own shoe and needs her help. Root reviewed all four fields and contextual readings, including 兔耳 tou3 ji5, 鞋帶 haai4 daai3, and 死結 sei2 git3."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
@@ -3326,10 +3326,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 15,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "0c1d657bfbaaf07513841cf453f0c897f8866f2c40b8fe172e08d18255246dc1",
-      "v2_sha256": "0c1d657bfbaaf07513841cf453f0c897f8866f2c40b8fe172e08d18255246dc1",
-      "notes": "The higher card limit is the proposed solution, and the family writes income, rent, water/electric fees and repayment amounts to reject it. This is another household-budget/accounting conflict with a mild noodle gag; rebuild around a different comedic situation."
+      "v2_sha256": "2874a3a01f9d8c7dbd804202c9fab854b2e7a94e757563c79176cb2d373c4250",
+      "notes": "The uncle’s systematic stool tests sound like an opening cue; once the repair is complete, the crowd waits for him to finish testing each chair. His untested waiting-area seat is silent, and he concludes he was the loudest part of the sound check. Root reviewed all four fields and corrected 音效 to jam1 haau6."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
@@ -3358,10 +3358,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 19,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "30e4d89a7f5889340d7b15e502741b59e2475a28376fdca9e4cc40717900d97d",
-      "v2_sha256": "30e4d89a7f5889340d7b15e502741b59e2475a28376fdca9e4cc40717900d97d",
-      "notes": "The lost card causes payment and reactivation steps, and the “fish” line recurs, but the story remains a practical card-reporting sequence; the recovery is a mild callback rather than a strong reversal. Full fields checked; rebuild the plot."
+      "v2_sha256": "de5f78936ceaab970632ba82c7479aac8fcda458c3f8e93de5689b41fdc7c5d5",
+      "notes": "Dogs return each other’s balls until the park turns into a relay; Dad loses a shoe while chasing them and his own dog retrieves the shoe instead of the ball. The daughter’s final line calls back to Dad crouching to tie it. Root verified the candidate’s path/index/category against canonical source hash 30e4d89a... (worker had omitted sort_keys), reviewed all four fields/contextual Jyutping, and corrected 蹲 to deon1."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
