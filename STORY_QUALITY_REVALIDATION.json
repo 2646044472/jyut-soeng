@@ -33319,8 +33319,8 @@
       "index": 45,
       "status": "needs_revision",
       "baseline_sha256": "1d800b2c581c1d970ab664a864df6e44ad3290f8310339f6148fafd22c25857f",
-      "v2_sha256": "1d800b2c581c1d970ab664a864df6e44ad3290f8310339f6148fafd22c25857f",
-      "notes": "Needs revision: the siblings negotiate quiet time and a lamp encourages the sister, but the story has no comic escalation or payoff; the usage tip also invents dining-table zoning absent from the events. Root read all four fields; no source edit."
+      "v2_sha256": "a4d8e5f358bb8becf4a02420e9d77b3bfaea3579c2a8dd494a35ed2ee5fab1e5",
+      "notes": "Needs revision: the siblings negotiate quiet time and a lamp encourages the sister, but the story has no comic escalation or payoff. Tip now matches the actual living-room rotation and lamp callback; root reviewed all four fields and the corrected tip."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
@@ -33559,8 +33559,8 @@
       "index": 75,
       "status": "needs_revision",
       "baseline_sha256": "fce0f1e33b9cce841ed35569ace4efb372d0c5a724f448c4e9f5af237c9680a5",
-      "v2_sha256": "fce0f1e33b9cce841ed35569ace4efb372d0c5a724f448c4e9f5af237c9680a5",
-      "notes": "Needs revision: grandpa’s coin repeatedly falls in the flowerpot and the family riffs on a money tree, but the payoff remains a gentle practice anecdote; additionally “錢” is transcribed cin4 in the key line and needs correction to cin2. Root read all four fields; no source edit."
+      "v2_sha256": "3864505d80b3e21da7974ec85c48fa338f521b64340ee246894adc0bf50da719",
+      "notes": "Needs revision: grandpa’s coin repeatedly falls in the flowerpot and the family riffs on a money tree, but the payoff remains a gentle practice anecdote. Root corrected 錢 in 錢樹 from cin4 to cin2 and verified the contextual reading; full comedic rewrite remains pending."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
@@ -33887,8 +33887,8 @@
       "index": 16,
       "status": "needs_revision",
       "baseline_sha256": "777dd15e565f3dcc8f67f1bdb71214232a7c6917ae7cac5390306c1c5eed0d08",
-      "v2_sha256": "777dd15e565f3dcc8f67f1bdb71214232a7c6917ae7cac5390306c1c5eed0d08",
-      "notes": "Needs revision: the son gives his father room to finish a story and the family laughs at a boat-trip memory, but the written Jyutping for 噴茶 is pu1; the contextual colloquial reading is pan3. Retain the plot for repair only after the reading is corrected and the full four fields rechecked. Root read all four fields; no source edit."
+      "v2_sha256": "8ffed54c9095611d8490020b64cce2eebb2a77eb9027514a74a988a3a0045a33",
+      "notes": "Needs revision: the son gives his father room to finish a story and the family laughs at a boat-trip memory, but the story still lacks strong comic escalation. Root corrected contextual 噴茶 from pu1 to pan3 and rechecked the Jyutping; full comedic rewrite remains pending."
     },
     {
       "file": "content/sentence_bank/long_home_family_03.json",
