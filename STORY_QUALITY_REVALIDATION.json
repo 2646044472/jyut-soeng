@@ -126,10 +126,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 15,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9601c17b22b563851db2f3828dda7cfb9f0b1e1ca0f2e34d4618b54cb939002a",
-      "v2_sha256": "9601c17b22b563851db2f3828dda7cfb9f0b1e1ca0f2e34d4618b54cb939002a",
-      "notes": "Needs revision: the parrot repeating the property manager’s “keep quiet” phrase is a clear comic turn, but the next-day empty fishbowl/vocal-practice scene has no causal link or understandable payoff. Clarify why the father practices and how it connects to the manager, or replace the ending. Four fields reviewed; no source edit."
+      "v2_sha256": "08acf259fb679be6e0a309ba516c644f7be94746fd99c387984c1ebda5f2c73e",
+      "notes": "Root rewrote and individually reviewed the video scene: one continuous take explains all three neighborhood sounds; the escalating movement into the wardrobe and onto the balcony makes the sound montage coherent; the uncle’s parade mishearing earns the chair-moving callback. Root checked natural Cantonese, context-specific Jyutping/tone for each character, complete Simplified gloss and event-matched tip. Category and all other metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -142,10 +142,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 17,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d074dae3ca3d321e7ef0952ff07c6d8c46ca86c622762cc83f81b3f7448c73a4",
-      "v2_sha256": "d074dae3ca3d321e7ef0952ff07c6d8c46ca86c622762cc83f81b3f7448c73a4",
-      "notes": "Needs revision: the misplaced-phone sequence is clear, but returning to the market and enlarging a lock-screen reminder produces a predictable forgetfulness tag; the dog-photo detail is decorative and not causally involved. Rework for a stronger reversal. Four fields and Jyutping reviewed; no source edit."
+      "v2_sha256": "b2862586e6a2ae9b80133b1183b2d185327a043b65ad6ebc1a6549ae64722d9d",
+      "notes": "Root rewrote and individually reviewed all four fields. Dad adjusts the game target, his own failed demonstration catches a ring on his tool bag, then the swinging bag becomes a moving target and the children safely ring him instead; the prize/sign ending follows from the reversal. Root checked traditional colloquial Cantonese, each context-specific Jyutping tone (including 擲 zaak6 and 搖 jiu4), complete Simplified gloss, and story-specific tip. Category and all nonlanguage metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -158,18 +158,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 19,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9377f390732fc728cafaad722e90e6547b21c4bc9dd57a79bf52359a48891e9d",
-      "v2_sha256": "9377f390732fc728cafaad722e90e6547b21c4bc9dd57a79bf52359a48891e9d",
-      "notes": "Needs revision: the umbrella catches rolling groceries and becomes a practical basket, but the escalation resolves as resourcefulness; the final line is a mild utility joke, not a strong comedic reversal. Rebuild the ending/premise. Four fields and Jyutping reviewed; no source edit."
+      "v2_sha256": "0e76fa96689c51d6ea0832ea85e5774b0991f272d7affc4af63fc85b9c609798",
+      "notes": "Root adopted and manually revised the candidate, then individually reviewed all four fields. Dad’s prior history of killing real plants motivates Granny buying an artificial one; repeated watering, tilting/drainage, and the dropper escalate the rescue attempt before the hard plastic leaf and no-water label reveal it. The final floor-as-pond line turns the spill into a direct earned consequence. Root checked every Jyutping character/tone, including 垂 ceoi4, 倒 dou2, 壺 wu4, and 窪 waa1, full Simplified gloss, and event-matched tip. Source category and every other metadata field preserved; only the four language fields changed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 20,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "37d46a03b434cf83f7b3245e503c9fc6e7f762fb006cf436996d62e337c4e9a0",
-      "v2_sha256": "37d46a03b434cf83f7b3245e503c9fc6e7f762fb006cf436996d62e337c4e9a0",
-      "notes": "Needs revision: the water spill, moving pots, and reciprocal reminder sign are coherent but mild; the second sign mostly repeats the first rather than creating a stronger earned comic turn. Rework the conflict/ending. Root reread all four fields; candidate triage agreed only as non-counting advice."
+      "v2_sha256": "417a627284e589b70ff5d19c42bad14f430744b5adbb663dd34453780caafd27",
+      "notes": "Root revised the candidate to make the doorbell reflex explicit while Dad knows the timer is being tested, then individually reviewed all four fields. A loud timer requested for the kitchen is tested through successive wrapping; its two-note doorbell sound repeatedly pulls Dad to the entrance, and the recipient’s own test repeats the reflex. The last line is a direct callback with the timer in her hand. Root checked all contextual Jyutping, full Simplified gloss and story-specific tip; other metadata/category preserved. Root later clarified that Chen hears the repeat ring and comes upstairs explicitly; gloss and Jyutping were synchronized."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -190,18 +190,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 23,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d4daa08db330379d043301384fbb4bcf32964894f708cf00a75b7def0ab359a7",
-      "v2_sha256": "d4daa08db330379d043301384fbb4bcf32964894f708cf00a75b7def0ab359a7",
-      "notes": "Needs revision: the paper owl, wind-fan scare, and mistaken laundry call are coherent but resolve into an affectionate birdwatching station; the “guard” line is only a mild relabeling, without a strong reversal. Strengthen the conflict and payoff. Four fields and Jyutping read; no source edit."
+      "v2_sha256": "92d39b9afa9e4bebda65d3553af6725fed334e8bebd0b9e8dabc6abd6b5b687d",
+      "notes": "Root adopted and individually reviewed the candidate. The family clears the dining table, tea table, and pots after assuming obstacles block the robot, but the spot-clean setting keeps it circling one small area; the escalating room-wide move ends in the earned one-circle/whole-room callback. Root manually checked the corrected machine name 機械人 gei1 haai6 jan4 and every Jyutping character/tone, full Simplified gloss and scene-specific tip. Preserved category/metadata; only four language fields changed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 24,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7faa603a0a92d64391222ddcabeba429c06270232082313f5b52e5b1dd3147e3",
-      "v2_sha256": "7faa603a0a92d64391222ddcabeba429c06270232082313f5b52e5b1dd3147e3",
-      "notes": "Needs revision: the elevator courtesy escalates through repeated delays and forgotten floor selection, but the welcome-desk punchline is predictable and mild. The Mandarin gloss also uses 他 for the aunt twice; correct pronouns when revising. All four fields and Jyutping reviewed; no source edit."
+      "v2_sha256": "e2e3c3a856eb7add55fed565cef01ff5c747fecd6e3166d7976db21cf94a48f5",
+      "notes": "Four-field main review: After one orange falls through the mesh, the aunt retrieves and puts it back, ties the bag mouth too tight for onions, then cuts it open; the oranges escape through the still-open mesh bottom and the vendor helps catch them. At home she stores the empty bag beside saved bags; the niece’s final wordplay pays off the reuse habit. Physical action sequence checked, along with colloquial text, Jyutping, full gloss and event-specific tip."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -222,10 +222,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 27,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3e6bbfee4326269dd5111a9e0055b44da62154ae8287856e44cf3dc7ab543dd7",
-      "v2_sha256": "3e6bbfee4326269dd5111a9e0055b44da62154ae8287856e44cf3dc7ab543dd7",
-      "notes": "Needs revision: the wobbling-table investigation resolves the physical cause, but “ground tester / vibration instrument” labels are abstract and do not deliver a strong comic punchline. Give the reveal a sharper earned consequence. Four fields and Jyutping reviewed; no source edit."
+      "v2_sha256": "cab06dba92a37f1da1e68893724ef6c2f169bc32e4215c1061652b6de40ca1cf",
+      "notes": "Four-field main review: Dad spins blindfolded and mistakes the audience direction for the donkey picture; turning his back to the picture, he pins the paper tail to a loose thread on his own shirt. The tail trails across the floor, giving the children a reason to chase him. Clarified the physical attachment and removal, and checked colloquial language, Jyutping, full gloss and event-specific tip."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -238,10 +238,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 29,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "10cf90c82d9de7658ec6f90a56e70532241fb8da0bad76a65ec94db8a75d73be",
-      "v2_sha256": "10cf90c82d9de7658ec6f90a56e70532241fb8da0bad76a65ec94db8a75d73be",
-      "notes": "Needs revision: the office staff overplans a route and a wheelchair user demonstrates a simpler layout, but the result is an earnest accessibility lesson; the quoted line is a practical observation rather than a comic payoff. Preserve the useful setting while adding an earned comedic turn. Four fields and Jyutping reviewed; no edit."
+      "v2_sha256": "7aac34b18ee32a0ff68e8fde5aa94f87ff5162beedc5365f7444e18c818ad0d2",
+      "notes": "Four-field main review: A repeated size adjustment turns one ID into four miniature copies; the uncle mistakes the layout for four identities, then asks to reproduce it for the whole family. The employee explicitly disables the four-in-one setting, resolving the print sequence. Reviewed colloquial wording, character-to-syllable Jyutping, full gloss and event-matched retelling tip."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -262,10 +262,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 32,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "62a1d4fde0687ca1adb3cbe1f5a3bc92fd39ec37fc6c09cf865da8e58e2aa6d4",
-      "v2_sha256": "62a1d4fde0687ca1adb3cbe1f5a3bc92fd39ec37fc6c09cf865da8e58e2aa6d4",
-      "notes": "Needs revision: the double registration and repeated hand-raising create understandable confusion, but the final “counting identities” sentence restates the premise abstractly instead of escalating it. Find a more concrete earned punchline. Four fields and Jyutping reviewed; no source edit."
+      "v2_sha256": "8771f6193a8ad35e3b0c7db3495cb5b1f6ef7bcefd692de1a3927f9630007541",
+      "notes": "Four-field main review: The aunt signs both resident and volunteer rolls; narrator confirms her name is checked twice, then she physically walks between both headcount lines. The organizer asks her to stand with one foot in each. Her final “count people, not shoes” line resolves the duplicate-count confusion and pays off the staging. Checked all four fields and colloquial Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -278,10 +278,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 34,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "015e13e0210744aac2d0f89f3917ee435ee2749a7bde7f06907c932b74687aad",
-      "v2_sha256": "015e13e0210744aac2d0f89f3917ee435ee2749a7bde7f06907c932b74687aad",
-      "notes": "Needs revision: mixing up sender/recipient and repeating the same-address error are coherent, but resolving by hand-delivery is routine and the postman line is a mild practical tag, not a strong reversal. Rebuild toward a sharper comic payoff. Four fields and Jyutping reviewed; no source edit."
+      "v2_sha256": "672bec173bbfba71e2020301f9a19610c01e38c747e5c94bc1053cb5d8b90d76",
+      "notes": "Four-field main review: The accordion-fold dragon repeatedly springs out of undersized packaging, then extends through the living room and turns unpacking into a family dragon dance. Revised the recipient reference for clarity and made the final line address the recipient directly. Checked continuity, colloquial wording, Jyutping alignment/readings, complete gloss and event-matched tip."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -294,10 +294,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 36,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6c347d3ed522445cf0516d4f7625342b02ad45a8174fea760fb525fb68cc336c",
-      "v2_sha256": "6c347d3ed522445cf0516d4f7625342b02ad45a8174fea760fb525fb68cc336c",
-      "notes": "Needs revision: the group’s menu indecision consumes breakfast and ends with a familiar “make your own choice” line; the repeated hesitation is understandable but not a strong escalating comic turn. Rework the conflict/punchline. All four fields and Jyutping reviewed; no source edit."
+      "v2_sha256": "0fb5d9733215734b48706bfa33e607bce485e41a0826473eb9e36ba8735b1fb3",
+      "notes": "Four-field main review: An aunt says she will turn the lazy Susan, but her cuff repeatedly catches the rim and speeds it up; dishes, chopsticks and the tissue box move, the server frees the sleeve, and the cousin’s final “turning the table” line lands as both action and dinner joke. Clarified that the tray moves the tissue box. Checked physical continuity, colloquial Cantonese, Jyutping, full gloss and tip."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -334,18 +334,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 41,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b4ffb18f23fde68109a1de0cd3025a8a2a407bd78991865c1976ea72efc160af",
-      "v2_sha256": "b4ffb18f23fde68109a1de0cd3025a8a2a407bd78991865c1976ea72efc160af",
-      "notes": "Needs revision: the shop’s intentionally fast wall clock can support the early-closing joke, but the adjustment mechanics are unclear—customers set their watches fast by five while the wall clock remains fastest, and the uncle’s waiting time is hard to reconcile. Clarify the clock relationships before preserving the two-closing-times punchline. Four fields/Jyutping read; no source edit."
+      "v2_sha256": "92a969b26343d9bbdcb61df0d30f8b7c2ac9d9da6ea1192df21c74d87042c40a",
+      "notes": "Four-field main review: Oil and wheel replacement do not stop the squeak, but manually spinning wheels is silent; lifting the suitcase makes it squeak again. The rubber duck charm explains the sound, and the warranty question pays off in the shop-knows-you-are-leaving line. Checked coherent cause/effect, natural Cantonese, Jyutping, complete gloss and event-matched tip."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 42,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7a66496cc5d8abfd58f93d3cab745a589dc4dc27fb1efeae8dc5a56fbb7e38cd",
-      "v2_sha256": "7a66496cc5d8abfd58f93d3cab745a589dc4dc27fb1efeae8dc5a56fbb7e38cd",
-      "notes": "Needs revision: a locksmith trainee “tests” unlocked padlocks and gets exposed, but “the reminder is what we need to copy” is abstract and weak after the reveal. Add a concrete character-driven payoff. All fields and Jyutping reviewed; no source edit."
+      "v2_sha256": "bb8ea70e2da9667473e0ec54dad5fb6ac9288c09a130539d60b0e523eb777338",
+      "notes": "Four-field main review: The aunt repeatedly signs larger after no response; the reveal is that she wrote on the still-attached factory shipping film, not the tablet. The three signatures turn her failed attempts into a keepsake; the clerk redirects her to the screen for the actual record. Clarified the film as factory packaging rather than an ordinary screen protector. Checked all fields/Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -358,10 +358,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 44,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "93bde5bd01ea7856b4f6006ccec59a79f4065baa1e474cbaca4cf37c12b9a714",
-      "v2_sha256": "93bde5bd01ea7856b4f6006ccec59a79f4065baa1e474cbaca4cf37c12b9a714",
-      "notes": "Needs revision: the baited knight and pinned-king setup is difficult to validate as chess; the story does not establish how the player’s rook delivers the final check, and returning the knight to the start with a “let it finish a game” line is disconnected. Clarify board logic and earn the close. Four fields/Jyutping read; no source edit."
+      "v2_sha256": "6049efd0989b285da742b797cd0a5a663c56e75b19a761215b30791992f12929",
+      "notes": "Four-field main review: Multiple pieces slide whenever Chen reaches across; rotating the board, moving tea and padding the leg fail, while another player can sit still. The sleeve is isolated as the cause and the final “sleeve moved two steps first” line pays off the chess game. No tactical chess outcome is asserted. Checked continuity, colloquial text, aligned readings, complete gloss and event-specific tip."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -414,18 +414,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 51,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e85be83bf6516aa3fa092f5b388888837aaa3c502b6d59c61a28389489019900",
-      "v2_sha256": "e85be83bf6516aa3fa092f5b388888837aaa3c502b6d59c61a28389489019900",
-      "notes": "Needs revision: turning the upside-down puzzle cover explains the sky/sea mismatch, but the final missing piece under the table is not identified as sky, so “the real sky is under the table” is disconnected. Clarify that link or replace the closing joke. Four fields/Jyutping reviewed; no source edit."
+      "v2_sha256": "c81fe08c77e34d32dcd40f7427a1420d7af94e80eaaef1ac910651a0a127a17c",
+      "notes": "Four-field main review: The group reads the puzzle image upside down, confuses sky and sea, then finds the final piece under the table; its white cloud corner visibly completes the missing sky. The punchline now follows that physical clue instead of claiming the sky itself is below the table. Checked causal sequence, full gloss/tip and Jyutping alignment/readings."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 52,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "1e12e48b14fd1e1cb6f758c4fb3e3951f804f2bb3e2077fb2b9bf9219a799478",
-      "v2_sha256": "1e12e48b14fd1e1cb6f758c4fb3e3951f804f2bb3e2077fb2b9bf9219a799478",
-      "notes": "Needs revision: the silent family makes a chain of noises and the grandmother’s “you all walk like thieves” line is clear, but the final jingly keys are not tied to the earlier sounds and the closing instruction lacks a sharper payoff. Clarify or replace the extra beat and strengthen the close. Four fields/Jyutping reviewed; no source edit."
+      "v2_sha256": "babbdbf18e0735c70661a50b0d95e7bcdf8f55d330d257c5949c91becd3a08b9",
+      "notes": "Four-field main review: Grandpa follows the compass past a visible sign, repeatedly loops to the same pavilion, and a test away from/near his coat reveals the magnetic phone clasp pulling the needle. The joke and retelling tip follow the demonstrated cause. Generic outdoor setting avoids unverified local facts. Checked continuity, colloquial wording, contextual Jyutping, complete gloss and tip."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -470,10 +470,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 58,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3579525f42a57e24cb2603df129a301a727bcb8103c20fe17ca3e3b268de9b7a",
-      "v2_sha256": "3579525f42a57e24cb2603df129a301a727bcb8103c20fe17ca3e3b268de9b7a",
-      "notes": "Needs revision: the perfume trials progressively blend on the sleeve and the “nose needs a holiday” ending is understandable, but the repeated samples and generic nose-vacation payoff remain mild. Build a more distinctive reversal or character consequence. Four fields and Jyutping reviewed; no source edit."
+      "v2_sha256": "e0438aa7d654a778340ceb35b5b31b663dd90b706c13524a7c0149ceaa6af592",
+      "notes": "Four-field main review: Poor vision makes the mascot bump a table and loop back; the head turn looks like dancing, a tail snag makes the lion bow, and children applaud the accidental finale. Explicitly linked the tail to his costume and corrected “follow the remembered direction” to natural colloquial 跟住記住嘅方向行. Checked context/continuity, Jyutping, gloss and tip."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -494,10 +494,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 61,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f5639c5ce7ec2e162940b3a3841aaf8b198ba2e513a61ddc9393fbf71cdfb872",
-      "v2_sha256": "f5639c5ce7ec2e162940b3a3841aaf8b198ba2e513a61ddc9393fbf71cdfb872",
-      "notes": "Needs revision: the “walk faster, flower opens sooner” misunderstanding is clear but remains a single mild anecdote without stronger escalation. The Simplified gloss also adds two sentences absent from the source (friend asks about smelling fragrance; narrator replies); remove or incorporate them during rewrite. Jyutping aligns with the source’s 243 Han characters. Four fields reviewed; no source edit."
+      "v2_sha256": "7905a6caad6379c1feb5b570065c3f3c1c61cd86975a0569f15fc71f859ec60e",
+      "notes": "Four-field main review: The family searches the room while Dad meticulously circles clues on the hint card; the last clue says the answer is at hand, and his sister points out the key rubber-banded to the card he is holding. The box contains only a note repeating the clue, and Dad becomes the punchline. Checked scene continuity, colloquial text, Jyutping, complete gloss and event-specific tip."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -574,10 +574,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 71,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9264731522bdd19af1981d056f41d7f7c19f64bb4d90db8122d142a3b678d628",
-      "v2_sha256": "9264731522bdd19af1981d056f41d7f7c19f64bb4d90db8122d142a3b678d628",
-      "notes": "Needs revision: the paper-folding habit is coherent and the identical bag-seal triangle gives a small observational button, but the scene has little conflict or escalating misdirection and does not yet meet the strong-comedy bar. Add a sharper consequence/reversal. Four fields/Jyutping reviewed; no source edit."
+      "v2_sha256": "7c1c13f52135f5cdf50bdc83efedaa609181fa2c60b70e3be6b55501ad521607",
+      "notes": "Four-field main review: The narrator’s napkin-folding habit hides a coffee bag’s name label, leading to a wrong pickup and a returned bag switched with its neighbor. The clerk opens and checks every bag; the narrator helps while the queue gathers, then the clerk hands over the narrator’s own drink with the “opened every bag” callback. Clarified the swapped position and checked all four fields/Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -670,10 +670,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 83,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "1c6d5dbabe5e5a515ee72e4689e18fe3154e4478c4b40f9699f2d3a30c83ec4a",
-      "v2_sha256": "1c6d5dbabe5e5a515ee72e4689e18fe3154e4478c4b40f9699f2d3a30c83ec4a",
-      "notes": "Root reviewed all four fields. Repeated compliment-to-self-criticism pattern has a clear social observation, but the ending is mild and does not deliver a sufficiently earned comic payoff."
+      "v2_sha256": "c489ee7dae7dd49a52a0b2843f6dfd9ae47c4d685915db1f2588e88d75592106",
+      "notes": "Four-field main review: A butterfly rests on the floral print on the aunt’s sleeve; she freezes, visitors gather, mistake it for another display flower, and even pose in front of her for photos. The guide asks them to wait at a distance. When it flies to a real flower, the guide calls her a moving exhibit; the aunt’s photo-background line pays off the mistaken identity. Removed an unsupported claim that the butterfly was uninjured and added the photo action that motivates the final line. Checked all fields and Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -702,10 +702,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
       "index": 87,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2db11c81af53e7d5446f6193e7d96baf0c3b9eae3437190049006ed5d907f313",
-      "v2_sha256": "2db11c81af53e7d5446f6193e7d96baf0c3b9eae3437190049006ed5d907f313",
-      "notes": "Root reviewed all four fields. The group debates a stone only to learn its owner likes its hand-sized feel; the social observation is understandable but the ending is mild and the promised larger stone does not make a strong payoff."
+      "v2_sha256": "e017f9e6ca0a21e5e3fd8480fed3e8162c35be281c6ec0a7ba62c245e4d328c8",
+      "notes": "Four-field main review: Staff debate whether the muddy round object is a stone, toy or egg; the gardening uncle identifies a sprouting potato. Clarified the “awaiting claim” paper straddles lid and box, so the sprout can lift it and the lid; the custodian mistakes the lid movement for a reason to seal it. The final “item opened the box” line pays off the growth. Checked all fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -806,10 +806,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "14c7583aef71a911a51a1e57f0f398f5e2d83ab24145d5cc48a2b653ee6b2a8e",
-      "v2_sha256": "14c7583aef71a911a51a1e57f0f398f5e2d83ab24145d5cc48a2b653ee6b2a8e",
-      "notes": "Root reviewed all four fields and contextual readings. The folding-chair setup is coherent, but the fixed strap is a routine obstacle and the final “buyer has no seat” line is mild rather than a strong payoff."
+      "v2_sha256": "673e36700e2edb9eb824148cb89c83321ebe63c8835aa1af7bea8bc97f69a322",
+      "notes": "Four-field main review: The aunt intentionally overfills a single connected pastry sheet pressed into multiple tray wells; custard runs between cells, and the uncut pastry sheet lifts as one oversized tart. A judge asks why there are no individual tarts; “they agreed to come out together” pays off the fused bake, and “全家撻” is the name callback. Clarified the connected base to make the one-piece lift plausible. Checked all fields/Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
@@ -958,10 +958,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 19,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "399f70c81f7bb7c21511dee71d3ff1bec606b75b153c9762d73e71c34e969912",
-      "v2_sha256": "399f70c81f7bb7c21511dee71d3ff1bec606b75b153c9762d73e71c34e969912",
-      "notes": "Root reviewed all four fields and contextual readings. The crooked spoon becomes more comfortable, but the resolution is primarily a practical lesson; the final ruler line does not make a strong enough comic payoff."
+      "v2_sha256": "0078caa6a84edad0a8b54b6ba982197f895cc328d26561ef7790825dbd6b44d0",
+      "notes": "Four-field main review: The first faint whistle stops one classmate, and the wider, louder second note halts several; one student assumes class is over. When the whistle is set aside, carving resumes, so the teacher uses it as the dismissal signal. The “whole class stop button” line pays off the repeated reaction. Checked continuity, idiomatic Cantonese, Jyutping, complete gloss and specific tip."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
@@ -1278,10 +1278,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 59,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "79b25b62f1be56a49ce59e2929035d1651f146e019afd1ed0cb2408f6c5dad64",
-      "v2_sha256": "79b25b62f1be56a49ce59e2929035d1651f146e019afd1ed0cb2408f6c5dad64",
-      "notes": "Root reviewed all four fields and contextual readings. The retired employee’s old badge and visitor-book entry build a clear recognition scene, but the return-to-work punchline relies only on not clocking in and lacks a strong comic reversal."
+      "v2_sha256": "0d967f78f8dd47834e653804a3ecdad5a4c50e6e686fce214892fdbca70fd6da",
+      "notes": "Four-field main review: A retired employee visits the old office with her old staff ID, finds a misplaced contract using her memory of the old filing system, and gets mistaken for a returning senior colleague. New staff queue for her help; the visitor visit turns into training, and the trainer sign-in form pays off the mistaken role. Added the old ID handoff to explain why security returns it. Checked all fields/Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
@@ -1366,10 +1366,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 70,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "bf7f436b549ee97ecdafe1e847ae9c78742ba9d57363856427c5dd72b8a99079",
-      "v2_sha256": "bf7f436b549ee97ecdafe1e847ae9c78742ba9d57363856427c5dd72b8a99079",
-      "notes": "Root reviewed all four fields and contextual readings. Root reviewed all four fields. The story introduces only two drinks, but Jyutping and the Simplified gloss add an unintroduced “少冰美式” call; all fields must agree. The ending also changes from the stated “叫號服務” to a different collection-service joke. Gloss and usage tip checked against the stated events."
+      "v2_sha256": "c6d8dd8f7e4c39e217ab45ffb2a3f2a2c9a11f620c064028333ef125ba31ada0",
+      "notes": "Four-field main review: Two people named Ah Ming share the order queue; both answer, drinks go to the wrong hands, and a second call makes the line more chaotic. The regular customer calls the drink names instead, after which the barista gets the hot tea and the customer gets milk tea; the free-number-service punchline follows the workaround. Removed the unsupported cup-lid handoff and checked all fields/Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
@@ -1566,10 +1566,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 95,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b6d465f38852c4d79059f13ae81fadd17942c8e555e2da9c65b7207d0d79f936",
-      "v2_sha256": "b6d465f38852c4d79059f13ae81fadd17942c8e555e2da9c65b7207d0d79f936",
-      "notes": "Root reviewed all four fields and contextual readings. Root reviewed all four fields. The usage tip calls the protagonist 阿荣 although the story’s host is 我; this must be corrected. The story’s tea lesson interrupted by a guest who drinks ahead of the explanation also ends mildly and needs a stronger earned comic payoff. Gloss and tip checked against names and events."
+      "v2_sha256": "37638990665331ef72580a91d71d6a991e385e034a68166ac559796fa70779eb",
+      "notes": "Four-field main review: The guest finishes each pour before the host can explain steeping, and the host’s own leaves overbrew while he demonstrates. Replaced an unclear bus-stop announcement with two buses visibly departing and clarified the fresh replacement cup as tea. The guest quotes his own advice back to him, paying off the lesson. Checked all four fields and Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
