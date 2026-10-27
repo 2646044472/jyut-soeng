@@ -36597,402 +36597,402 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 55,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "77a162833ad64ad11f5bc7c82a16b9880d79c4aa3041627a7a16c784223b16ab",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "77a162833ad64ad11f5bc7c82a16b9880d79c4aa3041627a7a16c784223b16ab",
+      "notes": "Needs revision for both comedy quality and plot duplication: the siblings’ bathroom schedule, queue conflict and a near-overflowing basin closely repeat the earlier 05[95] bathroom rota/plug/fishpond story; changing names and details does not make the core conflict distinct. Checked all four fields. Jyutping, Mandarin gloss and usage tip were checked against actual events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 56,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "4599eca20df5eb761d5397b25c54a0d72b85b426c4a721b0ae77a5501217d022",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4599eca20df5eb761d5397b25c54a0d72b85b426c4a721b0ae77a5501217d022",
+      "notes": "The curry is shared at work and the father prepares two bowls before the family potluck, but the final “save a plate” line is a mild tag; there is no strong escalating conflict or earned reversal. Checked four fields and field alignment. Jyutping, Mandarin gloss and usage tip were checked against actual events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 57,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "ccd9035e0a81e76bef8b57d001fdcad1efef0d7ed46e50c8163fc147392ebe5b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ccd9035e0a81e76bef8b57d001fdcad1efef0d7ed46e50c8163fc147392ebe5b",
+      "notes": "A medicine reminder prevents double-dosing, and the grandparents joke that they nearly queue to take medicine; the safety scenario is handled carefully but the single mild line does not create strong comedic escalation. Checked all four fields. Jyutping, Mandarin gloss and usage tip were checked against actual events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 58,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "fc4bbd5a4811a5a804382781521b8590dddeb2e11bca786a8e743e3d2596195e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "fc4bbd5a4811a5a804382781521b8590dddeb2e11bca786a8e743e3d2596195e",
+      "notes": "After repeated video-call mistakes (mute and ending), grandma finally connects but shows the ceiling; her “am I holding a meeting with the ceiling?” line and closing callback pay off the earlier interface failures. The directions are coherent and tip matches. Checked all four fields. Jyutping, Mandarin gloss and usage tip were checked against actual events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 59,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "e48b8c800bad70c462c1f8f332e2110fa6feebe22f39d71a58bb998481c813fe",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "e48b8c800bad70c462c1f8f332e2110fa6feebe22f39d71a58bb998481c813fe",
+      "notes": "The father’s intrusive questions are repaired through an apology and listening agreement, helping the son solve a group-report issue; this is a supportive communication vignette without comic escalation or a punchline. Checked all four fields. Jyutping, Mandarin gloss and usage tip were checked against actual events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 60,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d089bce0f9202df532f99d2dd951e9b0dc08ebab161862842c804070667d5e0f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d089bce0f9202df532f99d2dd951e9b0dc08ebab161862842c804070667d5e0f",
+      "notes": "The drooping leaves and snail prompt a watering correction, but the ending is a plant-care routine rather than a comic payoff. The Mandarin gloss also duplicates one sentence about the son asking for a guidebook; this field needs correction with any later story revision. Checked all four fields. Jyutping, gloss and usage tip were checked against current text and events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 61,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "307df641b69051ed96ef0e1e1caec18192c264db1c6b24ab531bddaefcd1ecc5",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "307df641b69051ed96ef0e1e1caec18192c264db1c6b24ab531bddaefcd1ecc5",
+      "notes": "The family first treats the upstairs neighbor as someone to avoid disturbing, then her four knocks reveal she is keeping piano time; the “not a complaint, I am counting beats” reversal and four-clap encore form a coherent comic callback. Checked all four fields. Jyutping, gloss and usage tip were checked against current text and events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 62,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "dab8b7e10bd1c49dfecfe4255a6f3f91d397f4a56b3ebb1ae6f19984eb47c845",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "dab8b7e10bd1c49dfecfe4255a6f3f91d397f4a56b3ebb1ae6f19984eb47c845",
+      "notes": "A sugar mistake turns soup into syrup, the neighbor’s salted-egg rescue becomes a shared meal, and the hosts later hide the sugar before serving; mom’s “not syrup this time” line pays off the first mistake. Checked four fields and tip match. Jyutping, gloss and usage tip were checked against current text and events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 63,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "3422b01d04f6a978505268e11dbc3c6222bb81c56494bc7c6d8ff06a6f6ccb3d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "3422b01d04f6a978505268e11dbc3c6222bb81c56494bc7c6d8ff06a6f6ccb3d",
+      "notes": "The construction starts early, the family moves tea to the park, and the owner apologizes with cookies; “renovation includes afternoon tea” is a mild line but not an escalating conflict or strong payoff. Checked all fields. Jyutping, gloss and usage tip were checked against current text and events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 64,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "8d4a588b184459db00841cf8343b4535e29a15f53c9552766b3ec33ed5238f24",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "8d4a588b184459db00841cf8343b4535e29a15f53c9552766b3ec33ed5238f24",
+      "notes": "Everyone blames the call freeze on network or old phones until the brother’s tablet download is found; the image then clears enough for grandma’s hair-length joke and an encore turn. Checked all four fields and event logic. Jyutping, gloss and usage tip were checked against current text and events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 65,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "481b7c3c8a116e704db89b64da5122769bcb02ac8376d3397b9e717474cd7cc0",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "481b7c3c8a116e704db89b64da5122769bcb02ac8376d3397b9e717474cd7cc0",
+      "notes": "Kitchen decluttering finds a borrowed tray and near-expiry pasta, then prompts a planned baked-pasta dinner; this is useful organization without an escalating comic turn or punchline. Checked all fields. Jyutping, gloss and usage tip were checked against current text and events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 66,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "cb237bf5bfc074ec161cd7f13584e3ca1a763ccd8a6a18d1039953135a85393b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "cb237bf5bfc074ec161cd7f13584e3ca1a763ccd8a6a18d1039953135a85393b",
+      "notes": "Dad’s glasses nearly fall into dumpling filling and the loose screw is fixed, but the cooking mishap and neighborhood contest are not developed into a strong comic payoff. The ending is practical advice. Checked four fields. Jyutping, gloss and usage tip were checked against current text and events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 67,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "13c5e374fcd9c6920e564f44167a383628d5f86fc664406c2a98c17e835fa47b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "13c5e374fcd9c6920e564f44167a383628d5f86fc664406c2a98c17e835fa47b",
+      "notes": "Money/payment-core: a mobile transfer amount is mistyped from 100 to 1,000 and verified before confirmation. It is a useful payment-safety episode, but not a comedy story and contributes to the money-mainline cap. Checked all four fields. Jyutping, gloss and usage tip were checked against current text and events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 68,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "8c186b90cfecca1a9500f7b53bdb4768b1f32fc8a1cea26d2efa6d679a82eeb3",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "8c186b90cfecca1a9500f7b53bdb4768b1f32fc8a1cea26d2efa6d679a82eeb3",
+      "notes": "Expired noodles prompt a cupboard inventory and shopping list; the family avoids a duplicate purchase, but the story resolves as a pantry-organization lesson without a comic escalation or punchline. Checked all fields. Jyutping, gloss and usage tip were checked against current text and events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 69,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "f55a1f1cb2291f5f54e9f7ac2549806f2d84d002402abc0fa0c5e3427372ee3a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "f55a1f1cb2291f5f54e9f7ac2549806f2d84d002402abc0fa0c5e3427372ee3a",
+      "notes": "Moving boxes block the hall until an old album sparks reminiscence; the family eventually clears the passage, but the memory scene is warm rather than comic and has no earned ending. Checked all four fields. Jyutping, gloss and usage tip were checked against current text and events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 70,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2643efa68a197f6d8cccece958547300204f13ecc4a7cd6256e8b30a3f15b08e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2643efa68a197f6d8cccece958547300204f13ecc4a7cd6256e8b30a3f15b08e",
+      "notes": "The cousin feels pressured by exam check-ins, so the family agrees on boundaries; the scene resolves through communication and is supportive but has no comic escalation or payoff. Read all four fields and checked Jyutping/context, full gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 71,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "2210911d9e48220661f608909c17647748450d997b738ca9999307eb69975e50",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "2210911d9e48220661f608909c17647748450d997b738ca9999307eb69975e50",
+      "notes": "The family organizes socks and discovers a misplaced belt, then the son helps his brother; the “family lost-item meeting” line is mild and the story remains an organization lesson, without a strong comic turn. Read all four fields and checked Jyutping/context, full gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 72,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "5bbaa331d059713d68389f059dd6c706f8922708951909d049bf4cbc3d884a25",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "5bbaa331d059713d68389f059dd6c706f8922708951909d049bf4cbc3d884a25",
+      "notes": "Mom eases into stretching with shorter routines and medical cautions; it is a responsible exercise-advice story without comic conflict or punchline. Read all four fields and checked Jyutping/context, full gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 73,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c1c3a080bf2b18cc60171610e3072e06a328167c4654b140f2cf99f110a6192b",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c1c3a080bf2b18cc60171610e3072e06a328167c4654b140f2cf99f110a6192b",
+      "notes": "The earlier dinner schedule works after a market fish stall is closed and the father makes tofu-tomato soup; the family conversation is warm, with no escalating comedy or earned ending. Read all four fields and checked Jyutping/context, full gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 74,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "113f453d1b633a038dcb877b74d699d8bb59f11ddcb8da1968cacd13856ba8df",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "113f453d1b633a038dcb877b74d699d8bb59f11ddcb8da1968cacd13856ba8df",
+      "notes": "The parents’ different light needs escalate to dad holding the newspaper against his nose and asking if mom wants him to read one line; labels on the dimmer solve the clash, and dad puts the paper down to watch TV with her. Checked all four fields. Read all four fields and checked Jyutping/context, full gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 75,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d48ddb218023edde135156212060e612db110f303eaec5a958058771dbdc83e5",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d48ddb218023edde135156212060e612db110f303eaec5a958058771dbdc83e5",
+      "notes": "The clogged sink prompts chemical safety precautions and a call to building management; the small blockage is resolved safely, but this is procedural advice without comic escalation or payoff. Read all four fields and checked Jyutping/context, full gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 76,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "b45292ca153125331a7dc87632e56cdb40be0d566454be5f987c45a34279eb98",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b45292ca153125331a7dc87632e56cdb40be0d566454be5f987c45a34279eb98",
+      "notes": "After surgery, mom uses the call bell and the family arranges care; the daughter’s kind line reframes asking for help but this is a gentle recovery story, not comedy. Read all four fields and checked Jyutping/context, full gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 77,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "29ef7d38d13f5ca4e809dabe8df6108d8d6786fd226663ace680a3c0e7e79d30",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "29ef7d38d13f5ca4e809dabe8df6108d8d6786fd226663ace680a3c0e7e79d30",
+      "notes": "The father learns the ticket app, verifies the movie and saves two tickets; it is a practical phone-payment walkthrough with no comic escalation or payoff. Payment is incidental to the lesson, not the main conflict. Read all four fields and checked Jyutping/context, full gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 78,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "0dec0d914fe8739c1250548bcc14faa3aa5032bc51467285067aee186d120ca1",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "0dec0d914fe8739c1250548bcc14faa3aa5032bc51467285067aee186d120ca1",
+      "notes": "Rain changes the hiking plan to a park and lunch; the heart-shaped leaf game and “faster than the rain” are pleasant observations without an earned comic reversal. Read all four fields and checked Jyutping/context, full gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 79,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "7eb299037eadbd9c3c2e3d6cc9c5157cf61ca5b6d538775b39ea537ebbf4862c",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "7eb299037eadbd9c3c2e3d6cc9c5157cf61ca5b6d538775b39ea537ebbf4862c",
+      "notes": "The hidden vacuum plug causes a search that pulls bags and a slipper from the cupboard; a wall rack fixes storage, but the ending only says the plug is now visible, without a strong comic payoff. Read all four fields and checked Jyutping/context, full gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 80,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "104cc17e4cdd49e19cd007eb1296f4f933a216d72185f1b72ace927f093ce3ef",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "104cc17e4cdd49e19cd007eb1296f4f933a216d72185f1b72ace927f093ce3ef",
+      "notes": "Needs revision: the daughter sets a boundary for after-hours work and the family listens over dinner; this is a respectful work-life lesson without comedic escalation or punchline. All four language fields were read; Jyutping, full gloss and tip were checked against the events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 81,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "ec5402a1589a8dd185d32b321065f112843554c143d279991615c7c92cd23059",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ec5402a1589a8dd185d32b321065f112843554c143d279991615c7c92cd23059",
+      "notes": "Needs revision: the family slows a walk and watches flowers, a child’s ball and light rain; the experience is pleasant but does not build a comic conflict or payoff. All four language fields were read; Jyutping, full gloss and tip were checked against the events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 82,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "16b9d2f174552aff4b700145c616d2eb5e4b5f947db49e1d7643f51574ca0446",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "16b9d2f174552aff4b700145c616d2eb5e4b5f947db49e1d7643f51574ca0446",
+      "notes": "Needs revision: a nervous learner tries a driving lesson with stepwise instruction; it is supportive skill-building and ends with a plan, without comedy. All four language fields were read; Jyutping, full gloss and tip were checked against the events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 83,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "3e7369938dff96629ec60f7fc3e53c13cd01e5391372e5b43e74605a3135a4db",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "3e7369938dff96629ec60f7fc3e53c13cd01e5391372e5b43e74605a3135a4db",
+      "notes": "Needs revision: bruised fruit is checked and turned into juice/breakfast to reduce waste; this is a practical food-storage story without a humorous escalation or earned punchline. All four language fields were read; Jyutping, full gloss and tip were checked against the events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 84,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c6239a7b7a628cca23050c113fa73de6affd83d07088a331de62131293de2e2a",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c6239a7b7a628cca23050c113fa73de6affd83d07088a331de62131293de2e2a",
+      "notes": "Needs revision: the couple renegotiates Sunday breakfast around hiking and shares a schedule; the conflict is handled directly and ends as relationship advice, not a comedy story. All four language fields were read; Jyutping, full gloss and tip were checked against the events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 85,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "8030cc540f11ae7dd3bfd8ef5b82b860a5509646dadaa371024618c9d5173683",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "8030cc540f11ae7dd3bfd8ef5b82b860a5509646dadaa371024618c9d5173683",
+      "notes": "Needs revision: the family matches a new shirt with trousers and shoes, then takes a photo; there is no meaningful conflict escalation or comic ending. All four language fields were read; Jyutping, full gloss and tip were checked against the events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 86,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c4535f7d33b36b806bc8bc7962017bfb1845bbcae6b7abb48f2fa54fd1b5214d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c4535f7d33b36b806bc8bc7962017bfb1845bbcae6b7abb48f2fa54fd1b5214d",
+      "notes": "Needs revision: quiet time and conversation are balanced, with dad accidentally listening to the family chat; it is a mild observation, but no strong comic arc or payoff develops. All four language fields were read; Jyutping, full gloss and tip were checked against the events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 87,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d14853807e25da2b12909172510b5251c4ace98eb49a6db9dbd12bb5f3673f65",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d14853807e25da2b12909172510b5251c4ace98eb49a6db9dbd12bb5f3673f65",
+      "notes": "Needs revision: a jammed lock leads to contacting management and replacing the lock cylinder; the safety process is useful but has no comic escalation or punchline. All four language fields were read; Jyutping, full gloss and tip were checked against the events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 88,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "22ce3b56aa01512e83616657e5ead5ed0d88d9a04af8d85ee0a6e29a8e477b98",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "22ce3b56aa01512e83616657e5ead5ed0d88d9a04af8d85ee0a6e29a8e477b98",
+      "notes": "Needs revision: leftover porridge is stored and reused for breakfast; the family coordinates meal timing, but the story is practical household planning without comedy. All four language fields were read; Jyutping, full gloss and tip were checked against the events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 89,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "614bf060e4a7d656e7970a7107c8e1ba3351e4a750565955baa8f9819284b572",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "614bf060e4a7d656e7970a7107c8e1ba3351e4a750565955baa8f9819284b572",
+      "notes": "Needs revision and repair-cost-core flag: the family investigates a draft, compares the quote and replaces one lock rather than all windows; cost avoidance is central, but the small “nearly replaced every window” tag is not a strong comic payoff. All four language fields were read; Jyutping, full gloss and tip were checked against the events."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 90,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "73856c97ae44248cb45effc439d157534a56646850ae0a1499d0cd596c9b7fa3",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "73856c97ae44248cb45effc439d157534a56646850ae0a1499d0cd596c9b7fa3",
+      "notes": "Needs revision: a forgotten board game ruleset leads to a wrong move and a childhood story, but the game becomes a pleasant family activity; losing and dishwashing do not produce an earned comic ending. Read and compared all four language fields, including contextual Jyutping and tip alignment."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 91,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "fac4f2a3010df1fc6595ee32083f35d30155fdf87143a435a66ff06fd3f1d71d",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "fac4f2a3010df1fc6595ee32083f35d30155fdf87143a435a66ff06fd3f1d71d",
+      "notes": "Needs revision: the family adapts low-sugar cooking with a nutritionist’s guidance; it is responsible food advice and ends with another recipe trial, without comic escalation. Read and compared all four language fields, including contextual Jyutping and tip alignment."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 92,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "c138dffe41405fc2e8ed4fbf0e859b2a12f5ee27b7351df23f38cdc24668966f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "c138dffe41405fc2e8ed4fbf0e859b2a12f5ee27b7351df23f38cdc24668966f",
+      "notes": "Needs revision: borrowed tables and shared dishes make the Mid-Autumn meal manageable, but it is event-planning guidance without a strong comic turn or payoff. Read and compared all four language fields, including contextual Jyutping and tip alignment."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 93,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "acac09fca011854fc30b2f0ee03deb326503d65d51559cd41eddede4b0bd475e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "acac09fca011854fc30b2f0ee03deb326503d65d51559cd41eddede4b0bd475e",
+      "notes": "Needs revision: the hearing aid is found in a bathrobe, then the family creates a storage routine; the search is resolved practically without comedy. Read and compared all four language fields, including contextual Jyutping and tip alignment."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 94,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "30161ea734d0f8e8d4469c9a87b4c4fa9482b101bef06a8df7d4bc04c133731f",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "30161ea734d0f8e8d4469c9a87b4c4fa9482b101bef06a8df7d4bc04c133731f",
+      "notes": "Needs revision and money-core flag: school-trip allowance, planned purchases and an envelope budget are the central conflict; the story is financial education with no comic payoff. Read and compared all four language fields, including contextual Jyutping and tip alignment."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 95,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "80e36d1abfd9fcd27141679ff514c376362e9cb3ff5fde2407cd188f5881c9d7",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "80e36d1abfd9fcd27141679ff514c376362e9cb3ff5fde2407cd188f5881c9d7",
+      "notes": "Needs revision: chore zones and sequencing prevent family members from colliding while cleaning; the near-mix-up of cloths is minor and the ending is a housework routine, not comedy. Read and compared all four language fields, including contextual Jyutping and tip alignment."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 96,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "ef18a79961d13827b485f0435ca0c7d63b5b3a662b563b1f966db4f0516d83cc",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "ef18a79961d13827b485f0435ca0c7d63b5b3a662b563b1f966db4f0516d83cc",
+      "notes": "Needs revision: a large-button dock and voice dialing help grandpa use his phone; the successful call is a practical technology lesson without an escalating joke. Read and compared all four language fields, including contextual Jyutping and tip alignment."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 97,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "b97cb5c1fe7c6a710ba91c6112426f004e50a9088d17ab4d80b123737bf4f0e2",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "b97cb5c1fe7c6a710ba91c6112426f004e50a9088d17ab4d80b123737bf4f0e2",
+      "notes": "Needs revision: scanning old photos helps the family recall a ferry trip and grandpa falls asleep waiting; the scene is nostalgic archiving with no comic escalation or punchline. Read and compared all four language fields, including contextual Jyutping and tip alignment."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 98,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "4f6d313b5d6644dc82987a202c428bc4a0030160985e5be73bbefa303581121e",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "4f6d313b5d6644dc82987a202c428bc4a0030160985e5be73bbefa303581121e",
+      "notes": "Needs revision: a noisy exhaust fan is cleaned and checked safely, avoiding replacement; the savings tag is mild and this is a maintenance lesson, not a comedic story. Read and compared all four language fields, including contextual Jyutping and tip alignment."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 99,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "6097f2dfa546d99c041fe4ea5d636ac986d0d791a92731b726cd4ca54b712258",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "6097f2dfa546d99c041fe4ea5d636ac986d0d791a92731b726cd4ca54b712258",
+      "notes": "Needs revision: formal portrait attempts fail until the couple remembers a wrong-train trip and laughs naturally; the photo is a warm memory but the scene lacks a strong comic reversal or ending. Read and compared all four language fields, including contextual Jyutping and tip alignment."
     },
     {
       "file": "content/sentence_bank/long_home_family_07.json",
       "index": 0,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "287f72deb7933731d12f432ea14129c0bd5eb9ee1b0ffde23d86050364ef4d91",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "287f72deb7933731d12f432ea14129c0bd5eb9ee1b0ffde23d86050364ef4d91",
+      "notes": "All four fields match the window-seepage sequence, but the main turn is factual diagnosis and repair; “毛巾有功” is a single mild tag, followed by instructional wrap-up rather than escalating comedy."
     },
     {
       "file": "content/sentence_bank/long_home_family_07.json",
       "index": 1,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "91b56d2f7f848a2bde5e413f869bcd641f8e90a15292af64b7c69225c90ac452",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "91b56d2f7f848a2bde5e413f869bcd641f8e90a15292af64b7c69225c90ac452",
+      "notes": "The wet towel damages homework and prompts a repair routine, but the towel-team salute and “knows how to get home” drawing are mild isolated gags; consequences do not build to a strong earned reversal."
     },
     {
       "file": "content/sentence_bank/long_home_family_07.json",
       "index": 2,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "d3a0bf1a25cbf81de677a4dd85ed69401ff549c75376190af405851949e51cdb",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "d3a0bf1a25cbf81de677a4dd85ed69401ff549c75376190af405851949e51cdb",
+      "notes": "The bulb is safely replaced and the Jyutping/gloss/tip follow the actions, but “斗氣” is a brief self-deprecating line in an instructional scene, without comic escalation or a substantial payoff."
     },
     {
       "file": "content/sentence_bank/long_home_family_07.json",
       "index": 3,
-      "status": "pending",
+      "status": "pass",
       "baseline_sha256": "26c82c34cc88ccc6ec844184b38685f61f33d53b2eb89c873ab788130f0874fd",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "26c82c34cc88ccc6ec844184b38685f61f33d53b2eb89c873ab788130f0874fd",
+      "notes": "The role-play escalates causally: mother grabs the teacher phone, then as classmate demands a cover, apologizes implausibly fast, and turns clinical by offering water and oranges. Daughter’s usable boundary line resolves the real group issue; the final warning not to expose mom’s classmate act is earned. Gloss, Jyutping, and tip match the scene."
     },
     {
       "file": "content/sentence_bank/long_home_family_07.json",
       "index": 4,
-      "status": "pending",
+      "status": "needs_revision",
       "baseline_sha256": "6ad6a34bbaf47d37935d4e0cd3de2a1983ccc6659d40d1db5758240c36730f27",
-      "v2_sha256": null,
-      "notes": null
+      "v2_sha256": "6ad6a34bbaf47d37935d4e0cd3de2a1983ccc6659d40d1db5758240c36730f27",
+      "notes": "The phone interruptions and misplaced spreadsheet set up a tea break, but the travel-story callback and “只接熱水，不接工作” are mild; the story resolves smoothly without an escalating comic reversal. Four fields otherwise track the events."
     },
     {
       "file": "content/sentence_bank/long_home_family_07.json",
