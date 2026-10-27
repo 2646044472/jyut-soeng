@@ -37797,10 +37797,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 5,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "40c4b9f87072c1e568e9c50d80a4ac91d8f8e2500612954a3d7b64cb1ed666be",
-      "v2_sha256": "40c4b9f87072c1e568e9c50d80a4ac91d8f8e2500612954a3d7b64cb1ed666be",
-      "notes": "Four fields checked. The bag-folding/neighbor borrowing scene is coherent, but the paper-plane moment is a single mild gag; the ending returns to orderly storage without a stronger comic escalation or reversal."
+      "v2_sha256": "2a9606dbe0af491505b3b8aa9241c54ae542d3f06189000710a524c0521a73b5",
+      "notes": "Main rewrote the original thin bag-storage anecdote with a causal comic chain: the bag airplane sticks immediately, a folded loaner is hard to unfold, and the neighbor turns the one-box rule into a request for a bag hotel; Dad blames the bags for bringing relatives, and the overnight limit is the earned callback. Individually checked all four fields, 266 Han characters/266 Jyutping tokens, full gloss and tip-to-events. Category and nonlanguage metadata preserved. Contextual 掟 deng3 (“throw”) and 黐 ci1 (“stick”) are colloquial readings; no uncertain pronunciation remains."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
