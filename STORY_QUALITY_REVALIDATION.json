@@ -11973,10 +11973,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 12,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3b560fd9b370c3537ee758a138b898a447353d1d797e5d96880bd36e690966d8",
-      "v2_sha256": "3b560fd9b370c3537ee758a138b898a447353d1d797e5d96880bd36e690966d8",
-      "notes": "The filling dropping and “catching” comparison is a brief gag, but it does not develop into a sustained escalation or earned ending."
+      "v2_sha256": "dd659517f8bae538425162947a66f893fc59a183884c2838a7ff9532b8fc0ba7",
+      "notes": "Pass: The nephew’s layers of napkin, lunchbox and towel trap steam and soften the curry-puff crust; the crisp flakes stay on paper. The team’s question and the sauna-box callback expose his overprotection. Checked the packaging sequence, four fields and readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -34597,10 +34597,10 @@
     {
       "file": "content/sentence_bank/long_home_family_04.json",
       "index": 5,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b46f29419aeda039ba94357d092419398e97ced8059d993c54674f84c2f1bd1d",
-      "v2_sha256": "b46f29419aeda039ba94357d092419398e97ced8059d993c54674f84c2f1bd1d",
-      "notes": "Needs revision: the grandfather gradually meets neighbors after moving, and the rain detour keeps him from staying home; this is a warm adjustment story without a comic escalation or payoff. Checked all four fields; source unchanged."
+      "v2_sha256": "f2a2003efbd52374ea4ddd1c22fa44ae2d720368d0de78af91e4af36cccdc5b0",
+      "notes": "Pass: Grandpa’s casual “come for tea sometime” becomes a specific appointment; his attempts to soften it create a group tea visit with mismatched cups and too little tea. Neighbors turn the visit into a shared story circle, while the year-end calendar line callbacks to his accidental hosting schedule. Checked all four fields and readings."
     },
     {
       "file": "content/sentence_bank/long_home_family_04.json",
@@ -34613,10 +34613,10 @@
     {
       "file": "content/sentence_bank/long_home_family_04.json",
       "index": 7,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8fee1517503bc81d9816a286bfd0583e32e11c935bd016026da35353caed55b7",
-      "v2_sha256": "8fee1517503bc81d9816a286bfd0583e32e11c935bd016026da35353caed55b7",
-      "notes": "Needs revision: the video call pointed at the ceiling and the burnt fish offer a visual joke and callback, but the Jyutping is collapsed without spaces, so its syllable correspondence and readings cannot be approved. Checked the story, gloss and tip; source unchanged."
+      "v2_sha256": "3e90ef7a2caa046daf2d61dd039648eca9bb93e107639a285b0cdf4f2f907125",
+      "notes": "Pass: In a video lesson, the father repeatedly interprets “turn/flip it” as instructions for the phone, while the fish waits in the pan. Mom safely tells him to turn off the burner; after clarifying, he sets the camera and flips the fish. The final line callbacks to both meanings. Reviewed all four fields and action sequence."
     },
     {
       "file": "content/sentence_bank/long_home_family_04.json",
