@@ -21373,10 +21373,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
       "index": 22,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ff74eab93b229fb1b140e0cda17094411f1fac0cc27e8169de9ac8b409551fa4",
-      "v2_sha256": "ff74eab93b229fb1b140e0cda17094411f1fac0cc27e8169de9ac8b409551fa4",
-      "notes": "Needs revision: the cat rejects new food and accepts a gradual mix, then waits for treats; the cat’s dish joke is a single mild aside and the rest is feeding guidance, not escalating comedy. Gloss and tip match. Four fields read."
+      "v2_sha256": "bafba1f034431125cd88d40b676b819603460538d757512707239384c8217213",
+      "notes": "Root selected the package-label detective after screening: rejected mutual paraphrasing as a mild conversation-loop; rejected mistaken trainee as an overused service-role swap. Human friend treats front-label phrases and a printed paw as evidence, blocks the clerk from moving the package, and refuses the narrator’s suggestion to turn the bag over; the owner simply flips it to the ingredient list. The cat is not mocked for health/feeding behavior. Compared against accepted pet plots FSS01[16], FSS02[14,77,36], home08[156], home09[72] and related cat behavior stories; none uses ingredient-label detective escalation. Root reviewed all four fields, contextual Jyutping, gloss and tip; category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
