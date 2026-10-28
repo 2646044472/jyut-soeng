@@ -32165,10 +32165,10 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 1,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "cee9ff78d2af40b4838086ebb1100507a8c4c2f4a760e7d3d36f989e9a52a9fc",
-      "v2_sha256": "cee9ff78d2af40b4838086ebb1100507a8c4c2f4a760e7d3d36f989e9a52a9fc",
-      "notes": "The pillow dust and “sunshine smell” make a warm family anecdote, but the story is a pleasant routine without a strong comic turn."
+      "v2_sha256": "9089f1b1d1228b5f4ee793d6a2bec03f6931a1fdfa777d0219480c7250c0756c",
+      "notes": "Main-agent four-field review: tidying the desk uncovers paper; Dad’s increasingly misguided airplane adjustments send attempts into slippers and the sofa gap before one glides into his pocket. The child calls the pocket the accurate airport; Dad claims the ticket reached the pilot, and the child asks for another parking space. The fixed 家務 category remains supported by desk tidying; the comic scene is distinct from existing construction and reflection plots. Root converted 把 to colloquial 將, corrected the flight description and sofa-gap wording, reviewed each of 241 contextual Jyutping units, and synchronized gloss and tip."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -32365,10 +32365,10 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 26,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2320b9430d4f1ba4355cce5138240dfec93c6d387510faffcef17f506c10818c",
-      "v2_sha256": "2320b9430d4f1ba4355cce5138240dfec93c6d387510faffcef17f506c10818c",
-      "notes": "Needs revision: the rainy detour leads to a useful covered route and a neighbor’s milk errand; the shopkeeper’s “guide” line is mild and the story has no meaningful escalation or reversal. Root read all four fields; no source edit."
+      "v2_sha256": "cf7d8c2a1aeabf32b1b94148b42486f40270f7b21ca7e641a954d846ace0c63a",
+      "notes": "Main-agent four-field review: roommates blame a heavy shampoo bottle for the slipping suction rack, remove every item without fixing it, then discover a cup straddling grout. Moving to smooth tile resolves it; the roommate reloads their own largest conditioner and jokes that the wall appreciates their products. Distinct rental-life cause/reversal; no rent/payment or health-risk conflict. Root changed Mandarin-influenced 把 to 將, clarified the removed/reloaded conditioner, reviewed all 264 contextual Jyutping tokens, and aligned gloss/tip."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
