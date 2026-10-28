@@ -22597,10 +22597,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 7,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e70551f4d9fa257f212aeedfc462f1bcc6f570670fb2ad8e7b89efd0bd64398f",
-      "v2_sha256": "e70551f4d9fa257f212aeedfc462f1bcc6f570670fb2ad8e7b89efd0bd64398f",
-      "notes": "Needs revision: grandma misreads the appointment time as waiting for the narrator to finish work, then finds the clinic address resembles a shopping street. Both are understandable confusions, but the story resolves them practically and ends on a rain reminder without a strong punchline. All four fields read; tip matches the itinerary."
+      "v2_sha256": "bf6eb9f155aeb51f6e2f4611a26801e116fcad8d11ca150aab8daf0b7775fad8",
+      "notes": "Root re-authored/reviewed all four fields. The explicit blue corridor loop makes Dad’s repeated search for a room named 此 physically coherent; he follows the route, returns to reception, and Grandma’s chair/“you are here” line pays it off. Comedy stays on harmless wayfinding language, not treatment or symptoms. Manually checked continuity, natural Cantonese, Jyutping, full gloss and story-specific tip; distinct from accepted patient-guide and accessibility-route stories."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
