@@ -35359,24 +35359,24 @@
       "index": 0,
       "status": "pass",
       "baseline_sha256": "7e3d970a18eba04788f0d1be938ea749aeb8e0ec20b7bc805d815bd5d9c30418",
-      "v2_sha256": "d38c8a47922e007db9da8915d12606fca2d6a52fa2f034cdf044fc333a52ffd1",
-      "notes": "Main-agent revalidated all four fields after a full rewrite. Dad uses a spirit level to carry a birthday cake, makes the family tilt and turn to chase the bubble, and the cream slides sideways; the guard mistakes their diagonal procession for dance practice. The grandmother’s “cream moved house” line and the final request to find a flat road callback to the level. Checked physical sequence, natural phrasing, contextual Jyutping, complete Mandarin gloss and event-specific retelling tip; category and other metadata preserved."
+      "v2_sha256": "383cb3c1fc4a630d3832d2ae27d23eb1bfefaba2670ebdd014175ac909526101",
+      "notes": "Main-agent revalidated all four fields after a full rewrite. Dad uses a spirit level to carry a birthday cake, makes the family tilt and turn to chase the bubble, and the cream slides sideways; the guard mistakes their diagonal procession for dance practice. The grandmother’s “cream moved house” line and the final request to find a flat road callback to the level. Checked physical sequence, natural phrasing, contextual Jyutping, complete Mandarin gloss and event-specific retelling tip; category and other metadata preserved. Mechanical-gate correction: changed only the required usageTip prefix to exact `故事练习：`; re-read this card-specific prompt against the story events and rechecked the updated row hash."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 1,
       "status": "pass",
       "baseline_sha256": "39d3c08f9942032c6f2c64a7173fa00396d1367f8f66f3cf3da051bd32ae95be",
-      "v2_sha256": "eed2195bade2cb52494b89d9c0f201be2af65d410448e228cc9f532818ce869c",
-      "notes": "Main-agent four-field review after a full plot rebuild. Voice input repeatedly turns the family’s request for folding chairs into paper folding; relatives arrive with craft supplies and paper, while grandmother calmly unfolds chairs and sums up the phone’s “arrangement.” Distinct communication-confusion mechanism, escalating consequences and callback; physical scene coherent. Manually checked all Jyutping against the text, complete Mandarin gloss and story-specific retelling tip; category and other metadata preserved."
+      "v2_sha256": "de337f88c52515b89d621acfe62e594a0796911de2159a1d95876a6a59d09835",
+      "notes": "Main-agent four-field review after a full plot rebuild. Voice input repeatedly turns the family’s request for folding chairs into paper folding; relatives arrive with craft supplies and paper, while grandmother calmly unfolds chairs and sums up the phone’s “arrangement.” Distinct communication-confusion mechanism, escalating consequences and callback; physical scene coherent. Manually checked all Jyutping against the text, complete Mandarin gloss and story-specific retelling tip; category and other metadata preserved. Mechanical-gate correction: changed only the required usageTip prefix to exact `故事练习：`; re-read this card-specific prompt against the story events and rechecked the updated row hash."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 2,
       "status": "pass",
       "baseline_sha256": "1bafb79b68d787598c9fe8b580ad66b20f53ccacc9350b3406e4ab7ec8ab1c53",
-      "v2_sha256": "2192dba30cee145da887845eb8b48161a4007e96a00dbe78d691e82a6acc4076",
-      "notes": "Main-agent four-field re-review after rebuilding the scene around a harmless seating/labeling overreach. Grandma safely prepared and verified the cousin’s food; Dad turns serving into numbered traffic control, gets caught marking his own chopsticks “check,” and the cousin’s “you have rules, not peanuts” line returns the joke to his overmanagement. Humor targets Dad’s procedure, not the allergy. Checked context, complete Mandarin gloss, tip, and 233 Jyutping units one by one; metadata preserved."
+      "v2_sha256": "e28533eee8e048b6265062fe5e6dfd79a68e7580063f31f700f8724d6e7a66a9",
+      "notes": "Main-agent four-field re-review after rebuilding the scene around a harmless seating/labeling overreach. Grandma safely prepared and verified the cousin’s food; Dad turns serving into numbered traffic control, gets caught marking his own chopsticks “check,” and the cousin’s “you have rules, not peanuts” line returns the joke to his overmanagement. Humor targets Dad’s procedure, not the allergy. Checked context, complete Mandarin gloss, tip, and 233 Jyutping units one by one; metadata preserved. Mechanical-gate correction: changed only the required usageTip prefix to exact `故事练习：`; re-read this card-specific prompt against the story events and rechecked the updated row hash."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -36159,8 +36159,8 @@
       "index": 0,
       "status": "pass",
       "baseline_sha256": "1af9190abd87b4168abc0c53a37f384e27731e47dd3d1f8fb420f2e8983e8d0f",
-      "v2_sha256": "94d05922302e78f7487116435d5f9c5c76ba274bf988b65488b12221ca284bb2",
-      "notes": "Main-agent rebuilt and reviewed all four fields. Dad forgets his key and waits in the lobby; each small act of holding the door, pressing the lift and pointing to the mailroom gets him more mistaken for the new building manager, until a child’s toy car triggers one last automatic door-opening. His wife brings the key, a resident calls “shift change,” and Dad’s “tomorrow I bring my key and won’t take the shift” callbacks to the opening. Checked the scene sequence, colloquial phrasing, contextual Jyutping, complete gloss and exact-events retelling tip; category/metadata preserved."
+      "v2_sha256": "4678fa61943bf5677e2139bf688bb48f183e3fde986484a984c04420e1191804",
+      "notes": "Main-agent rebuilt and reviewed all four fields. Dad forgets his key and waits in the lobby; each small act of holding the door, pressing the lift and pointing to the mailroom gets him more mistaken for the new building manager, until a child’s toy car triggers one last automatic door-opening. His wife brings the key, a resident calls “shift change,” and Dad’s “tomorrow I bring my key and won’t take the shift” callbacks to the opening. Checked the scene sequence, colloquial phrasing, contextual Jyutping, complete gloss and exact-events retelling tip; category/metadata preserved. Mechanical-gate correction: changed only the required usageTip prefix to exact `故事练习：`; re-read this card-specific prompt against the story events and rechecked the updated row hash."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -36263,8 +36263,8 @@
       "index": 13,
       "status": "pass",
       "baseline_sha256": "c460ec931acd391e12ef249f10bbd411b2ddfb53baa285155c990f73f5a98cea",
-      "v2_sha256": "04688fcbb978cfd46d1c82e340fd3104e83cdd0293ae451b01af2cf9bcd26db9",
-      "notes": "Main-agent rebuilt and reviewed all four fields. The overnight guest wants only his familiar blue night-light, but the family successively brings a table lamp, cushion and blanket, turning the bedroom into a living room. When Dad starts to move a doormat inside too, the cousin says to leave it outside so he can find home in the morning; next day the cousin tells the brother he has found home’s entrance. The escalation follows the adults’ literal over-helping and the mat/entrance callback closes it. Checked physical sequence, Cantonese usage, every Jyutping unit, complete Mandarin gloss and matching retelling tip; source category and other metadata preserved."
+      "v2_sha256": "07a7f010b9a0e3dc664a1ec11a61ed7ebca53c287273be1804ac75ff1e5fd82e",
+      "notes": "Main-agent rebuilt and reviewed all four fields. The overnight guest wants only his familiar blue night-light, but the family successively brings a table lamp, cushion and blanket, turning the bedroom into a living room. When Dad starts to move a doormat inside too, the cousin says to leave it outside so he can find home in the morning; next day the cousin tells the brother he has found home’s entrance. The escalation follows the adults’ literal over-helping and the mat/entrance callback closes it. Checked physical sequence, Cantonese usage, every Jyutping unit, complete Mandarin gloss and matching retelling tip; source category and other metadata preserved. Mechanical-gate correction: changed only the required usageTip prefix to exact `故事练习：`; re-read this card-specific prompt against the story events and rechecked the updated row hash."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -37335,8 +37335,8 @@
       "index": 47,
       "status": "pass",
       "baseline_sha256": "c257ac3a8843111fd92d1359e032c12231c9904b22e04016d6f129f2d36d0a40",
-      "v2_sha256": "d2455dd624bfdd32c7c43fc9657c0bf79e1bd7b3d4c07824cd84d5b7faf9858d",
-      "notes": "Main-agent rebuilt and checked all four language fields. With the TV off, Dad turns his spoon into a dinner-table microphone, narrating soup service; the children add a scoreboard and replay, then replay exposes Mom’s deliberate last-fish move. Dad wins “best commentary” but not the fish, and the sponge/next-night callback lands the turn. Scene actions and food movement are explicit. Hand-checked every Jyutping unit against the final body; Mandarin gloss and retelling tip cover the same beats. Original category and metadata preserved."
+      "v2_sha256": "59a21e24159d9c9149f59374038a4ca6e7d069b6868a3a3fa847f25effd261de",
+      "notes": "Main-agent rebuilt and checked all four language fields. With the TV off, Dad turns his spoon into a dinner-table microphone, narrating soup service; the children add a scoreboard and replay, then replay exposes Mom’s deliberate last-fish move. Dad wins “best commentary” but not the fish, and the sponge/next-night callback lands the turn. Scene actions and food movement are explicit. Hand-checked every Jyutping unit against the final body; Mandarin gloss and retelling tip cover the same beats. Original category and metadata preserved. Mechanical-gate correction: changed only the required usageTip prefix to exact `故事练习：`; re-read this card-specific prompt against the story events and rechecked the updated row hash."
     },
     {
       "file": "content/sentence_bank/long_home_family_07.json",
