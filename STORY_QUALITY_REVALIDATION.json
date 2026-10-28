@@ -11877,10 +11877,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6ceac116477199258f3b2e533983d094931044e06a79438dd7b6f78db544a417",
-      "v2_sha256": "6ceac116477199258f3b2e533983d094931044e06a79438dd7b6f78db544a417",
-      "notes": "The dietary search and loose cake box are resolved safely; the final reassurance is pleasant but lacks a meaningful comic reversal."
+      "v2_sha256": "9652d93ec3f4f7d69d3f94dbabdecf8c8bf6ae86523b1a4e876f6b262a7d2f4c",
+      "notes": "Main agent individually reviewed all four fields. Dad tests New Year couplets aloud in a newsreader voice; his son’s repeated 「好！」 turns the purchase into an accidental public performance as nearby shoppers join in. The vendor’s 「笑口常開」 selection and the final applause callback pay off the opening voice. Scene progression, full gloss and event-specific retelling tip checked. Main manually checked Jyutping character by character; category and metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -22557,10 +22557,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 2,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a832c4c3c3438d47f92d5c6eaa05b1e886f1590a7bed9b2a481ec668cd513898",
-      "v2_sha256": "a832c4c3c3438d47f92d5c6eaa05b1e886f1590a7bed9b2a481ec668cd513898",
-      "notes": "Needs revision: a misplaced symptom entry is clarified with phone notes, then the father produces three pens. The “secretary” quip is mild and the extra pens do not develop into a payoff; the rest is form-filling procedure. All four fields read; gloss/tip match."
+      "v2_sha256": "d467bf231d0fa03eb6533a621f81a0edc69d16153193bc212115f3d5a097d870",
+      "notes": "Main agent manually rewrote and individually reviewed all four fields. Dad over-documents the sleep form, first entering waking twice as a number and later writing it out again; the duplicate becomes his self-described subtitle. His three pens and escalating extra details set up the form-filling payoff. The sequence, complete Simplified gloss and event-specific retelling tip were checked. Main aligned and checked contextual Jyutping readings; category and metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
