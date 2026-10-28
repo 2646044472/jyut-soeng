@@ -10381,10 +10381,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 13,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "725567b4cd611bc550743a3162340b5a5783dfd91f64459087878a5f169d23dd",
-      "v2_sha256": "725567b4cd611bc550743a3162340b5a5783dfd91f64459087878a5f169d23dd",
-      "notes": "Needs revision: a missed breakfast order and a proofreading favour lead to a “comma went missing” joke, but the actual error is a misplaced digit; the punchline does not follow from the scene."
+      "v2_sha256": "33d411ad5428046df6e4bc8d05093d1cb1e8c4a923ea636c55d68aa5d5c8179d",
+      "notes": "Pass: A coworker turns the short planning breakfast into formal agenda items and votes, then the waiter reverses the chair role by declaring the final item is eating. The colleague votes on his own egg sandwich, completing the meeting callback. Checked the escalating sequence, natural terms, all four fields and readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -11093,10 +11093,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 2,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "cbe253def4eef2d997fc599b4000e45e454e29f0e37e14aa1001618577d959a1",
-      "v2_sha256": "cbe253def4eef2d997fc599b4000e45e454e29f0e37e14aa1001618577d959a1",
-      "notes": "Needs revision: an oil-smoke alarm briefly interrupts cooking and the family eats the vegetables, but the response is practical and the ending celebrates a successful meal without a strong comic payoff."
+      "v2_sha256": "d1a291b5c6bd4ce5f1f17ab8e12f879b62216ee5ead2aa7ddab0aa8b664754a2",
+      "notes": "Pass: Small raw-lettuce tastes spread from daughter to brother to Dad until little remains; Dad blames the wok, and the daughter points out the family ate it raw. The cook/guest callback and brother refusing the stalk complete the beat. The alarm is treated safely and is not the joke. Reviewed all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -33821,10 +33821,10 @@
     {
       "file": "content/sentence_bank/long_home_family_03.json",
       "index": 8,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7194781c695b97bc26fa4760e8cb1ff537704d325e0d389a015394d89fed9dd6",
-      "v2_sha256": "7194781c695b97bc26fa4760e8cb1ff537704d325e0d389a015394d89fed9dd6",
-      "notes": "Needs revision: a night-shift brother arrives late in rain with tofu pudding, and a cousin likens his wet hair to a waterfall; the one visual quip does not develop into comic escalation. Root read all four fields; no source edit."
+      "v2_sha256": "04381756493dd58543bf58d6aa7c53dfd6314dcd847f430eff7f4b1d37022580",
+      "notes": "Pass: The brother’s dripping hair is mistaken for several ceiling leaks; the family carries a basin after him, then Dad checks the dry ceiling. Grandma calls the moving source a leak that came home for dinner, and he protects the tofu pudding. Removed a variable lunar date. Checked all four fields and readings."
     },
     {
       "file": "content/sentence_bank/long_home_family_03.json",
@@ -33861,10 +33861,10 @@
     {
       "file": "content/sentence_bank/long_home_family_03.json",
       "index": 13,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6b66edaf10c30d1d30cf0a66cdd154f6604f513adedc4b1d0d4b88edab78f28d",
-      "v2_sha256": "6b66edaf10c30d1d30cf0a66cdd154f6604f513adedc4b1d0d4b88edab78f28d",
-      "notes": "Needs revision: the aunt’s torn rice bag rolls tomatoes across the floor, but the later kite visit changes to a warm companionship story; the initial spill is isolated and not an escalating payoff. Root read all four fields; no source edit."
+      "v2_sha256": "17703a4334f9db9161fe8f58316f70aac497a47e70b50355611e9f2377742205",
+      "notes": "Pass: The aunt arrives empty-handed but is repeatedly sent to pour tea, find the remote and receive a parcel, turning the visit into a service counter. She then asks the family to serve her tea, callbacks to their requests, and has Dad find his own remote. Checked actions, all four fields and readings."
     },
     {
       "file": "content/sentence_bank/long_home_family_03.json",
