@@ -16117,10 +16117,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 30,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "49537072bb4490745a821d482eb5272d3180d9c547a9bccef7027fa8d5f2c12b",
-      "v2_sha256": "49537072bb4490745a821d482eb5272d3180d9c547a9bccef7027fa8d5f2c12b",
-      "notes": "A delayed school bus leads the family to change its restaurant booking, and an SMS helps the second staff member locate the table; the reservation problem resolves routinely. Checked all four fields."
+      "v2_sha256": "37da9a8944665522d083025017bda2ec70a522ee78e5ee3c6b86bbad90905cb3",
+      "notes": "Former classmates defer ordering to their teacher; roll call is mistaken for reservation verification, and the late classmate answers 到 too. “下一位” triggers a full-table callback; the server’s parent-meeting question leads to the former latecomer being handed the order. Manually reviewed all four fields, scene continuity, full gloss and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
