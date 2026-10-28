@@ -37901,10 +37901,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 18,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d99ec0b6b12f26b04dfe2be01653d42e81a144f22629bab5196ed64b052eaaec",
-      "v2_sha256": "d99ec0b6b12f26b04dfe2be01653d42e81a144f22629bab5196ed64b052eaaec",
-      "notes": "Four fields checked. Salary/home-buying questions cause table tension; a date receipt pivots to the couple’s first outing and a second dinner callbacks to avoiding salary questions. This is a money/status-centered core conflict and remains a mild, low-escalation anecdote."
+      "v2_sha256": "d3cedd872fc77b0c7c7905de791d24aef592deb9b3634a58bcb9b4c81ad247fc",
+      "notes": "Root re-authored and reviewed all four fields. Dad ignores the prominent heat/use label to impress his daughter's new partner, then his hiccuping welcome toast exposes the bluff; the empty-spoon callback and milk toast pay it off. Removed the former salary/home-buying conflict. Manually checked scene logic, Cantonese, Jyutping, complete gloss and event-specific tip."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
