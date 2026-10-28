@@ -4438,10 +4438,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 54,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c0663747d4a2e9d6df1b16635140337bd97fce21cbbd0d2f184ea166b19a4d3f",
-      "v2_sha256": "c0663747d4a2e9d6df1b16635140337bd97fce21cbbd0d2f184ea166b19a4d3f",
-      "notes": "The story divides dorm expenses, lists household allowance, logs small charges, compares monthly budget and controls coffee purchases. This is the direct student expense-calculation pattern; a coffee tree is a mild device, not an escalating story. All four fields checked."
+      "v2_sha256": "30b0f5a5a94270367248a539d37a3a941bb02cc073ddf2e95446533f2329ab1a",
+      "notes": "Root re-authored the money-centered dorm-budget lesson as a dorm-laundry mishap: the sister reads “cold water” as protection against color transfer, washes red sportswear with white shirts, then bluffs about a “warm-color mode”; at orientation, the resulting pink shirts are mistaken for a club uniform and the roommate appoints her laundry lead. The escalation follows from the color bleed, and the ending calls back to the laundry bag. Root reviewed all four language fields, manual Jyutping alignment, full Mandarin coverage, matching tip, and unchanged metadata. Compared with accepted row 03[98] audio-recording mishaps and 09[18] repair queue, this uses a distinct laundry-color misunderstanding / accidental team-uniform payoff. Money is no longer the conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
