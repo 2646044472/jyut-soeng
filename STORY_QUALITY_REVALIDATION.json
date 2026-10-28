@@ -32285,10 +32285,10 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 16,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "fe8764ea5982c865ae7da5493f129c83540d9a231f5db41b91458d495687a128",
-      "v2_sha256": "fe8764ea5982c865ae7da5493f129c83540d9a231f5db41b91458d495687a128",
-      "notes": "The coffee stain becomes an island on the cloth and prompts a small mapping activity, but the story does not escalate beyond a gentle family aside."
+      "v2_sha256": "adfff1012a2cf2e45a730c340330038f4047ee559c7f06420ef01ebb87f158bb",
+      "notes": "Root reviewed all four fields. The written right-side direction is interpreted from different positions, turning long boards into doors; correcting the top/bottom and moving the cabinet create new obstructions until a sideways bench stores no shoes. The diagram is finally read from the back, and the cabinet has “stored” the family first. Jyutping checked in context; gloss/tip match; category preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -32341,26 +32341,26 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 23,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4d89db9be841026f293bf1acec315ed61df02515a909469e4df51c5dceec11c5",
-      "v2_sha256": "4d89db9be841026f293bf1acec315ed61df02515a909469e4df51c5dceec11c5",
-      "notes": "Needs revision: the roommates suspect high water use, find a leaking cistern and split the corrected bill. This repeats the water-bill/accounting conflict and ends in a practical record-keeping lesson without comedy. Root read all four fields; no source edit."
+      "v2_sha256": "869b59b06ae12375d7c35cbb61912716090e78d71ff46fca81fc3fe4258d7bbf",
+      "notes": "Root reviewed and fixed the water-state sequence: the shower has stopped, then the bathroom sink runs while she brushes, so housemates think the timed shower continues. The knock-back rhythm becomes an imagined usage rule; the toothbrush reveal resolves it. No meter/bill/accounting plot. Jyutping and gloss checked; tip matches; metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 24,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4c2bd2be2a48c007b12ef3aae78df8f13292b94bdd625e6eb226f2b573285bb5",
-      "v2_sha256": "4c2bd2be2a48c007b12ef3aae78df8f13292b94bdd625e6eb226f2b573285bb5",
-      "notes": "Needs revision: a slow bank screen creates a plausible double-payment worry, resolved by checking the transaction and waiting for the landlord. It is a payment-procedure anecdote with no comic escalation or earned punchline. Root read all four fields; no source edit."
+      "v2_sha256": "57bc222e8215b5b09173524962179d0a8c2c86bc2a9d9693d0ac6402bbff0d5b",
+      "notes": "Root reviewed all four fields and corrected 阿杰 to git6. The motion-sensor light and repeated hand-waving become a Morse-code misunderstanding; flatmates mistake the flashes for a rescue signal and rush out with kitchen tools. The sensor explanation creates the assignment that he must keep waving and patrol the kitchen. Jyutping checked in context; gloss/tip match; metadata preserved, no rent/payment conflict."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 25,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "035093746b42247085d54b0add602546818af04c03eb51999d974cffba0ed9b7",
-      "v2_sha256": "035093746b42247085d54b0add602546818af04c03eb51999d974cffba0ed9b7",
-      "notes": "Needs revision: the inspection finds a real leak and leads to a sensible repair, but the sequence stays procedural and ends with a thank-you; the recorder/checklist setup does not earn a comic turn. Rebuild around a distinct, causal misunderstanding. Root read sentence, Jyutping, full gloss and tip; no source edit."
+      "v2_sha256": "6952c64cf3e684e2acb2a6bc99637a731e18f6ecb4f982e38bfa82a3a507fdc2",
+      "notes": "Root reviewed and corrected the causal phrasing “地板唔平.” The glass marble curves during handover; family members keep nudging it while trying to test the floor, then slow-motion reveals Dad kicked it first. The final clean roll and “footwork needs a retest” pay off the game. Jyutping checked in context; gloss/tip match; category preserved; no money conflict."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
