@@ -22309,10 +22309,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 9,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "065e6e2029b3f1e5a19d5382ab7eef9c45eabb77dcca28c98ff4a718250c1271",
-      "v2_sha256": "065e6e2029b3f1e5a19d5382ab7eef9c45eabb77dcca28c98ff4a718250c1271",
-      "notes": "Needs revision: mooncakes are packed, nearly mixed with grocery bags, and shared with an aunt. This is a careful holiday errand without a comic conflict or reversal. All four fields read; gloss/tip match."
+      "v2_sha256": "ee8169c2b52768e2fc5166219e4ed9c6627a093b0ca9e27b709547a5cb347f91",
+      "notes": "Main checked all four fields and found a missing Jyutping syllable in 「交換完成」; corrected it to gaau1 wun6 jyun4 sing4 and rechecked full alignment. The narrator and aunt each arrive with low-sugar custard mooncakes for the other; reciprocal politeness makes them pass the bags back and forth until the bag nearly falls. Their shared preference explains the duplicate choice, and the cousin physically assigns each bag with 「交換完成，今次唔准退貨」. Continuity, complete gloss, event-specific tip, readings and category/metadata checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -39965,10 +39965,10 @@
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 76,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ca2fc20d7d5bc6b8f15e05387d1f033f46b7c73e57e65d147826620f246cc5ff",
-      "v2_sha256": "ca2fc20d7d5bc6b8f15e05387d1f033f46b7c73e57e65d147826620f246cc5ff",
-      "notes": "The wet carton collapses and toys spill into the hallway, a usable comic mishap, but the story immediately returns to sorting and recycling. The closing storage observation is practical and does not build on the spill."
+      "v2_sha256": "60e0bad25a55e8a2611d53493fc97b33c508765f27aaa8acee91b45aa109dafd",
+      "notes": "Main agent individually reviewed all four fields. Daughter marks a one-reader bedsheet fort; Dad’s thick jacket knocks the entrance down, and the brother’s pillow supports lead to another collapse. The family makes Dad the roof support, then the amended sign turns the failed entrance into his permanent seat. Physical sequence is coherent, ending pays off the entrance rule, and gloss/tip match actual events. Main checked Jyutping context and corrected 輪流 leun4; category/metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
