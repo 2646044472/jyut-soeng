@@ -13549,10 +13549,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
       "index": 9,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "995a8c30d85fb0dedcaf37562be7c6b6ad7306a099946dbfc7e6fa090b30205d",
-      "v2_sha256": "995a8c30d85fb0dedcaf37562be7c6b6ad7306a099946dbfc7e6fa090b30205d",
-      "notes": "Needs revision: a borrowed coconut-milk container prompts a neighbor to bring a new one and share a recipe; the meal succeeds, but the story is a warm exchange without a comic turn. Four fields read; no source edit."
+      "v2_sha256": "04f24d0fe35f226ee8939734855e366c7331658c9472869fec93f99ec3dd9469",
+      "notes": "Root manually revised and checked all four fields. The mismatched container/lid search spreads through the stairwell and turns into a shared dinner; the box-circling callback and lids-needing-a-meeting payoff follow from the events. Reviewed each Jyutping token in context, including spoken forms 聽朝、還返畀、搵返、交返畀. Gloss covers the complete sequence and tip tracks its events. Metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
@@ -34893,10 +34893,10 @@
     {
       "file": "content/sentence_bank/long_home_family_04.json",
       "index": 42,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8dd8cb7402cf2d7551b961e5d0655ffbc3834beceabfbea11b467e850d7b8bc3",
-      "v2_sha256": "8dd8cb7402cf2d7551b961e5d0655ffbc3834beceabfbea11b467e850d7b8bc3",
-      "notes": "Needs revision: grandma reclaims control of her calligraphy after her daughter moves the page; the teacher’s “crooked but interesting” remark is gentle encouragement, not a strong comic reversal. Checked all four fields; source unchanged."
+      "v2_sha256": "0289214ce756aeef4409392cbfe6675189ff00b5cedb87778340c02542c96a7d",
+      "notes": "Root rewrote/reviewed all four fields. The father directs everyone through the low-magnification finder, repeated re-aiming loses the Moon, and the covered main eyepiece exposes the mix-up; “mini Moon” and the closing turn-the-Moon callback land on the actual viewing mistake. Checked optics/action continuity, distinctness against accepted star/astronomy and hobby plots, all contextual Jyutping, full Simplified gloss and event-matched tip; preserved category."
     },
     {
       "file": "content/sentence_bank/long_home_family_04.json",
@@ -38189,10 +38189,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 54,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "09e90412615f0d63f31fdee1321cf80aee7f245c92db0ab8b6a772ca631186d3",
-      "v2_sha256": "09e90412615f0d63f31fdee1321cf80aee7f245c92db0ab8b6a772ca631186d3",
-      "notes": "Four fields checked. The TV’s “three episodes watched” clashes with Dad insisting he saw one, but the timer merely standardizes viewing; the ending guessing game is a weak continuation rather than a stronger payoff."
+      "v2_sha256": "c72086003a5f730e6fa5ffda797a677f67c467eb30b3ed7737f057fd862241b3",
+      "notes": "Root reviewed the full story sequence and all four synchronized fields. Dad’s confident title/credit guesses escalate into waiting for the director to appear; the ending callbacks to the credit misunderstanding. Corrected 醒來 from the candidate’s erroneous seng6 to sing2; reviewed the remaining contextual readings and every Jyutping token against the text. Gloss covers the full sequence; tip asks for the actual progression. Metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
