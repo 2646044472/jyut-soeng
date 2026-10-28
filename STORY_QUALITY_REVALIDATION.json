@@ -11909,10 +11909,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 4,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8e7b5d5eac1bc715c2bbafebaf730bda25d2616507a0366fc9e7564220e5fe66",
-      "v2_sha256": "8e7b5d5eac1bc715c2bbafebaf730bda25d2616507a0366fc9e7564220e5fe66",
-      "notes": "Dietary handling is carefully explained and resolved, but the office meal proceeds smoothly with no comic conflict or payoff."
+      "v2_sha256": "7806c6fdf4a12772594ee24752b13e639686cf28acf8d6aea9c7349e6bc33c04",
+      "notes": "Main-agent four-field review: colleagues’ overprecise sampling makes small pastries crumble; the crumbs are rebranded as a tasting buffet, and the group finally eats whole pieces. This is distinct from the previously found coworker pass-around/thank-you story; workplace setting is an end-of-year gathering, but no payment conflict. Root revised Mandarin-influenced 把 constructions into natural Cantonese 將, reviewed 243 contextual Jyutping units against each Han character, completed the full gloss, and aligned the practice tip with the actual sequence."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -11925,10 +11925,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 6,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "767ca941eca43c14457b70902eccc57b25d6ebe56c1887e7e2435921aacda50b",
-      "v2_sha256": "767ca941eca43c14457b70902eccc57b25d6ebe56c1887e7e2435921aacda50b",
-      "notes": "Unexpected neighbors join dessert, but there is enough food and the story remains a pleasant hosting anecdote without escalation."
+      "v2_sha256": "d1e7aa628a8592416c8ad476eed6d937227fb9db39e9ca35a75a4cc674b43692",
+      "notes": "Main-agent four-field review: the cousin teases the narrator’s chopstick skill, prompting an overconfident offer to serve; sauce-clinging noodles tangle during attempts to split them, the narrator ends up holding the platter while the aunt serves him, and the cousin asks for the same service. The physical action is plausible and the role reversal is earned; distinct from accepted family food mishaps and meal-host stories. Root corrected the initial joke’s direction, replaced Mandarin-influenced 把 constructions, clarified a clump of noodles rather than dough, checked all 250 Jyutping tokens against characters, and synchronized the full gloss and tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
