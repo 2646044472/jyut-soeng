@@ -4185,7 +4185,7 @@
       "status": "needs_revision",
       "baseline_sha256": "a8642f1706668de93abac9c5b4125d051d2c07503ee8b1e724750055e8364546",
       "v2_sha256": "31b5cbac126c8d8d520dbec71ebf87ad6dcaef9179ec94c7f4d4e1f3ed58c5b5",
-      "notes": "Root rejected the just-pushed voice-message rewrite on a second corpus comparison: long_family_finance_services_03[?] already uses a family birthday greeting recording with microphone/audio mishaps. The current row shares the same core recording setup and repeated-take sound failure despite a different obstacle and callback. Keep row explicitly needs_revision; do not count its prior one-turn approval. Rewrite around a distinct non-financial premise."
+      "notes": "Root rejected the just-pushed voice-message rewrite on a second corpus comparison: passing long_family_finance_services_03.json[98] already uses a family birthday greeting recording with microphone/audio mishaps and repeated takes. The current row shares the same core recording setup and sound-failure engine despite a different obstacle and callback. Keep row explicitly needs_revision; do not count its prior one-turn approval. Rewrite around a distinct non-financial premise."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
