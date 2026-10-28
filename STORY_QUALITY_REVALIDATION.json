@@ -33093,10 +33093,10 @@
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 17,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7c3234aa9124f4e70ac9526073f14b2c84f0fdc01436d530aad99d47e7e8b2f4",
-      "v2_sha256": "7c3234aa9124f4e70ac9526073f14b2c84f0fdc01436d530aad99d47e7e8b2f4",
-      "notes": "Needs revision: mother and daughter learn to crochet coasters while father moves cups for safety; a button box recalls an older memory. This is a warm craft scene without a comic arc. Root read all four fields; no source edit."
+      "v2_sha256": "1cb0fca2d59031ea19271302e6c538bc2823c5911c68718da9943196e39283d8",
+      "notes": "Root re-authored and individually reviewed all four fields. After the family agrees not to plan anything, Dad turns rest into a series of questions about start time, duration, next activity and whether the rest succeeded. The daughter’s homework callback and his self-interruption earn the punchline. Distinct from accepted schedule/log and passive-reading stories. Root checked causal escalation, natural Cantonese, every Jyutping unit/tone, complete gloss and tip; category and other metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
@@ -36181,10 +36181,10 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 3,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3f909046a30af17595859c0f1fa7c112218a71c245aa6694da06bc8e54c489bc",
-      "v2_sha256": "3f909046a30af17595859c0f1fa7c112218a71c245aa6694da06bc8e54c489bc",
-      "notes": "The family delivers soup to the late meeting, and the long spoon is useful for broth sediment; this is a caring service anecdote with one mild utensil tag, not sustained comedic escalation or a strong ending. Checked all four fields. Jyutping, complete gloss and usage tip were checked against the current story."
+      "v2_sha256": "cd803b48be20fc0b3bee12c243184507eabfe2cff49bae0ed09c6e00bd2f3ace",
+      "notes": "Root re-authored and individually reviewed all four fields. Daughter explicitly asks Dad to use her name instead of her childhood nickname; he overcorrects with generic descriptions in the school corridor, making several students and a teacher turn around. She later mirrors his formal address to point out his reversed admission sticker, closing the callback. Checked continuity, natural dialogue, each Jyutping unit/tone, full gloss and story-specific tip. Distinct from the other lane’s public-library volunteer role confusion; category/other metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
