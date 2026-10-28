@@ -22581,10 +22581,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 5,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2fbcad1c97a99d1e924a54e0f0c1d2fc7d357575110c8d36827e0a262ec2e8f8",
-      "v2_sha256": "2fbcad1c97a99d1e924a54e0f0c1d2fc7d357575110c8d36827e0a262ec2e8f8",
-      "notes": "Needs revision: the medical card is found stuck to a receipt and the child chooses a dinosaur sticker, but the events resolve routinely without building a comic reversal. All four fields read; tip matches the card and the child’s reluctance."
+      "v2_sha256": "a03a2e1132ad95a8188e7e6c3146acccc175361035807ac91eca21b075027dfa",
+      "notes": "Root re-authored and individually reviewed all four fields. Father tells his daughter the dental visit is simple, then volunteers to demonstrate; when the chair reclines and the dentist raises a mirror, he grips the armrests and closes his eyes. The daughter calmly coaches him through breathing and later gives him an “adult comfort” dinosaur sticker while keeping the brave one for herself. Root checked clinic sequence, harmless comic escalation and payoff, natural wording, every Jyutping syllable/tone, complete Mandarin gloss and event-matched tip; category/metadata preserved. Compared with accepted corpus plots; no matching parent-patient/child-coach sticker reversal found."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
