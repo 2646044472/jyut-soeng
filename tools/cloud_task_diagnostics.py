@@ -16,6 +16,7 @@ from pathlib import Path
 import re
 import subprocess
 import time
+from urllib.parse import urlsplit, urlunsplit
 import uuid
 
 
@@ -39,6 +40,21 @@ def sanitize(text: str, limit: int = 500) -> str:
         r"\1=<redacted>",
         text,
     )
+    def safe_url(match: re.Match[str]) -> str:
+        raw = match.group(0).rstrip(".,;)")
+        try:
+            parts = urlsplit(raw)
+            host = parts.hostname or "<redacted-host>"
+            if parts.port:
+                host += f":{parts.port}"
+            safe = urlunsplit((parts.scheme, host, parts.path, "<redacted>" if parts.query else "", ""))
+            return safe + match.group(0)[len(raw):]
+        except ValueError:
+            return "<redacted-url>"
+
+    text = re.sub(r"https?://[^\s<>\"']+", safe_url, text, flags=re.IGNORECASE)
+    text = re.sub(r"\b(?:gh[pousr]_[A-Za-z0-9_]{12,}|github_pat_[A-Za-z0-9_]{12,}|sk-[A-Za-z0-9_-]{16,}|xox[baprs]-[A-Za-z0-9-]{12,})\b", "<redacted-token>", text)
+    text = re.sub(r"\bAKIA[0-9A-Z]{16}\b", "<redacted-key>", text)
     text = re.sub(r"(https?://)[^/@\s]+:[^/@\s]+@", r"\1<redacted>@", text)
     return text.strip()[:limit]
 
@@ -142,15 +158,26 @@ def changed_pass_rows(local_path: Path, base_json: str | None) -> int | None:
 
 def rotate_bounded(line: bytes) -> None:
     LOG.parent.mkdir(parents=True, exist_ok=True)
+    if len(line) > MAX_LOG_BYTES:
+        raise ValueError("diagnostic record exceeds maximum log size")
     prior = LOG.with_suffix(LOG.suffix + ".1")
     if LOG.exists() and LOG.stat().st_size + len(line) > MAX_LOG_BYTES:
         if prior.exists():
             prior.unlink()
         os.replace(LOG, prior)
-    if len(line) > MAX_LOG_BYTES:
-        line = line[-MAX_LOG_BYTES:]
     with LOG.open("ab") as f:
         f.write(line)
+
+
+def overall_failures(checks: dict, branch: str, remote_sha: str | None, head: str) -> list[str]:
+    failed = [name for name, result in checks.items() if result.get("exit_status") != 0]
+    if branch != BRANCH:
+        failed.append("expected_branch")
+    if not remote_sha:
+        failed.append("remote_sha_unavailable")
+    if remote_sha and head != remote_sha:
+        failed.append("remote_head_mismatch")
+    return sorted(set(failed))
 
 
 def main() -> int:
@@ -161,11 +188,6 @@ def main() -> int:
     ap.add_argument("--observed-phase", default=None)
     ap.add_argument("--spec-revision", default=None)
     ap.add_argument("--network-policy-state", default=None)
-    ap.add_argument(
-        "--record-prior-executor-error",
-        action="store_true",
-        help="include the exact sanitized unavailable-executor error observed earlier",
-    )
     args = ap.parse_args()
 
     run_id = str(uuid.uuid4())
@@ -254,20 +276,11 @@ def main() -> int:
         },
         "checks": safe_checks,
     }
+    failed_checks = overall_failures(checks, record["git"]["branch"], remote_sha, head)
+    record["overall_status"] = "failed" if failed_checks else "ok"
+    record["failed_checks"] = failed_checks
     line = (json.dumps(record, ensure_ascii=False, separators=(",", ":")) + "\n").encode()
     rotate_bounded(line)
-
-    if args.record_prior_executor_error:
-        incident = {
-            "record_type": "prior_tool_error",
-            "run_id": run_id,
-            "reported_at_utc": "2026-10-28T03:39Z (user-supplied minute; exact failure time was not captured)",
-            "tool": "exec_command",
-            "classification": "executor_unavailable_before_command_execution",
-            "exact_error": "No usable execution environment is available. Wait for an environment to become available before using this tool.",
-            "note": "The environment-status tool concurrently reported connected/running; a later probe succeeded. No root cause can be inferred from this single recovery.",
-        }
-        rotate_bounded((json.dumps(incident, ensure_ascii=False, separators=(",", ":")) + "\n").encode())
 
     print(json.dumps({
         "log_path": str(LOG.relative_to(ROOT)),
@@ -278,9 +291,11 @@ def main() -> int:
         "dirty_file_count": dirty["count"],
         "v2_pass": local_counts.get("pass"),
         "changed_pass_rows_vs_remote_ledger": local_unpushed_pass,
+        "overall_status": record["overall_status"],
+        "failed_checks": record["failed_checks"],
         "log_size_bytes": LOG.stat().st_size,
     }, ensure_ascii=False))
-    return 0
+    return 0 if not failed_checks else 1
 
 
 if __name__ == "__main__":
