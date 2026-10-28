@@ -31,3 +31,7 @@ The pages showed user reports and automated duplicate notices, not a maintainer-
 `tools/cloud_task_diagnostics.py` runs a fixed, read-only snapshot. It records UTC start/end/duration and exit status per check; sanitized errors; a hashed environment identifier plus safe status fields; disk/memory/load and process names without arguments; branch/HEAD/dirty filenames; remote SHA; and V2 ledger counts/difference. It never records environment variables, process arguments, file contents, or credentials. The JSONL log rotates at 64 KiB with at most one previous copy. Diagnostic files live outside `content/` and are excluded from story-quality counts.
 
 The logger was run once after the shell returned. Future failures that occur before the logger can start will still require an out-of-band task note or runtime-side log; this script cannot record an executor that never launched it.
+
+## Work after the diagnostic snapshot
+
+After the snapshot, the main agent completed the individual four-field review of `long_food_shopping_19.json[27]`, corrected the Jyutping for 抱 to `pou5`, and prepared its source/ledger update. The diagnostic JSONL is a point-in-time record and still correctly reports the earlier 1,289 pass count; the row is not included in that snapshot.
