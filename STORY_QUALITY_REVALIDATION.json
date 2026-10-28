@@ -10317,10 +10317,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 5,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "153ecdf7c1d8cf89c3f6de259e49a8f61f93f7b9cda9283525461485a6197d20",
-      "v2_sha256": "153ecdf7c1d8cf89c3f6de259e49a8f61f93f7b9cda9283525461485a6197d20",
-      "notes": "Needs revision: shrimp shells become a buoyancy experiment before dinner, but the lesson is explained directly and the ending is an educational summary rather than a comic payoff; at 319 characters it is near the length ceiling."
+      "v2_sha256": "74f4c2b9d86687ae13942e01a4d21f83f17b543a3650b825fcad5e14ba859b08",
+      "notes": "Root individually re-reviewed all four fields. Reframed the child’s homework as drawing seafood so no live squid is taken to school. The stallholder gently lifts a squid in a net, warns against touching the basin, and returns it; a splash leaves ink on the open worksheet, which the child treats as an autograph. Blotting spreads the mark into calligraphy, the seller stops him from reaching toward the basin, and the child imagines the teacher recognizing a seafood calligrapher. Jyutping checked against every Han character in context; Simplified gloss covers the updated action sequence and tip matches the story. Category and all non-language metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
