@@ -38,6 +38,10 @@ The logger runs after shell access returns. Future failures that occur before th
 - The logger no longer appends a historical failure event with an inferred timestamp. Historical timing remains described here as unknown. New snapshots record an overall status and return nonzero when required checks fail. URL queries/fragments and recognized token formats are redacted from error text.
 - The V2 mechanical audit identified 13 rows in `long_family_finance_services_05.json` previously marked pass despite deterministic failures. They were reopened and then repaired/re-reviewed: indices 26, 31, 39, 41, 42, 43, 45, 46, 48, 49, 76, 95, and 97. Corrections replaced unaligned `DJ` with Cantonese wording and matching Jyutping, restored eleven required story-tip prefixes, and replaced an unspoken em dash with a mechanically aligned comma. All 13 current rows pass the deterministic audit, their V2 hashes were updated, and the total remains 1,290 pass / 3,710 needing revision. This mechanical status is not a substitute for the full-corpus quality work.
 
+## Resource snapshot
+
+At 2026-10-28 03:59:50 UTC, the checkout container reported AMD EPYC 9V74 80-Core Processor as its CPU model and exposed 5 logical CPUs. `/sys/fs/cgroup/cpu.max` was `400000 100000`, equivalent to a 4-CPU quota; host-visible CPU counts do not establish a dedicated allocation. Host-visible memory was 33 GiB total / 32 GiB available, while the cgroup memory cap was 32 GiB and current use about 69 MiB. The checkout filesystem was 32 GiB total / 30 GiB available. `nvidia-smi` and `rocm-smi` were not installed, so GPU availability is unknown. The diagnostic logger now records host-visible CPU model/count, cgroup CPU/memory limits and current use, and whether those GPU query tools exist.
+
 ## Work after the diagnostic snapshot
 
 After the snapshot, the main agent completed the individual four-field review of `long_food_shopping_19.json[27]`, corrected the Jyutping for 抱 to `pou5`, and prepared its source/ledger update. The diagnostic JSONL is a point-in-time record and still correctly reports the earlier 1,289 pass count; the row is not included in that snapshot.

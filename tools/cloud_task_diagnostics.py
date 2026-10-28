@@ -14,6 +14,7 @@ import json
 import os
 from pathlib import Path
 import re
+import shutil
 import subprocess
 import time
 from urllib.parse import urlsplit, urlunsplit
@@ -130,6 +131,36 @@ def ledger_counts(path: Path) -> dict:
         }
     except Exception as exc:
         return {"error": f"{type(exc).__name__}: ledger could not be read"}
+
+
+def read_fixed(path: str) -> str | None:
+    try:
+        return Path(path).read_text(encoding="utf-8").strip()
+    except (OSError, UnicodeError):
+        return None
+
+
+def resource_limits() -> dict:
+    cpu_model = None
+    cpuinfo = read_fixed("/proc/cpuinfo")
+    if cpuinfo:
+        cpu_model = next(
+            (line.split(":", 1)[1].strip() for line in cpuinfo.splitlines()
+             if line.lower().startswith("model name") and ":" in line),
+            None,
+        )
+    return {
+        "host_visible_logical_cpus": os.cpu_count(),
+        "host_visible_cpu_model": sanitize(cpu_model or "", 160) or None,
+        "cgroup_v2_cpu_max": read_fixed("/sys/fs/cgroup/cpu.max"),
+        "cgroup_v1_cpu_quota_us": read_fixed("/sys/fs/cgroup/cpu/cpu.cfs_quota_us"),
+        "cgroup_v1_cpu_period_us": read_fixed("/sys/fs/cgroup/cpu/cpu.cfs_period_us"),
+        "cgroup_v2_memory_max_bytes": read_fixed("/sys/fs/cgroup/memory.max"),
+        "cgroup_v2_memory_current_bytes": read_fixed("/sys/fs/cgroup/memory.current"),
+        "cgroup_v1_memory_limit_bytes": read_fixed("/sys/fs/cgroup/memory/memory.limit_in_bytes"),
+        "cgroup_v1_memory_usage_bytes": read_fixed("/sys/fs/cgroup/memory/memory.usage_in_bytes"),
+        "gpu_query_tools": {name: shutil.which(name) is not None for name in ("nvidia-smi", "rocm-smi")},
+    }
 
 
 def ledger_map(data: dict) -> dict[tuple[str, int], tuple[str, str]]:
@@ -269,6 +300,7 @@ def main() -> int:
             "basis_note": "ledger statuses/hashes only; not semantic-review proof",
         },
         "resources": {
+            "limits_and_visibility": resource_limits(),
             "disk": short_lines(checks["disk"], count=3),
             "memory": short_lines(checks["memory"], count=4),
             "load": short_lines(checks["load"], count=1),
