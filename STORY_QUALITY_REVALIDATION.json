@@ -12493,10 +12493,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 77,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a9dfa72d98c6811d34793ab995c83cb57d7893230a2e7ec6b56bcfeb7de494ce",
-      "v2_sha256": "a9dfa72d98c6811d34793ab995c83cb57d7893230a2e7ec6b56bcfeb7de494ce",
-      "notes": "“加底” is misheard as “加蛋” and creates a clear small misunderstanding, but the correction and flavor exchange do not build to a stronger comic payoff."
+      "v2_sha256": "2c8c9804175c9552d3978615f99ad830ee039e2b707b5624832c3057cdd8c1de",
+      "notes": "Rebuilt as a confident tea-shop order literalized into a second rice layer: the colleague hides extra rice beneath the curry, thinks he is done, then has to scrape the revealed bottom layer. Root individually reviewed the four fields, serving/bowl continuity, comic escalation and punchline; corrected colloquial syntax and contextual Jyutping including 額外 ngaak6 ngoi6 and 梗係 gang2 hai6. Gloss and practice tip match the events."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -39485,10 +39485,10 @@
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 16,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "77797b559a388328add78460be4b81488b37a749eb69876fc6d2fdf2d186bfcd",
-      "v2_sha256": "77797b559a388328add78460be4b81488b37a749eb69876fc6d2fdf2d186bfcd",
-      "notes": "The snack conflict becomes a sharing routine and reveals Mom also wants chips on her commute; the family scene is warm, but it has no substantial misunderstanding, escalation or earned punchline."
+      "v2_sha256": "2f64fcea95d5ccfdb33def978786419ea3c310ce9d2b8d947d2c0c7ba9d40281",
+      "notes": "Rebuilt as a family yo-yo lesson: Dad’s premature pull and excuses escalate through a string tangle; the younger sister fixes the twist, succeeds by waiting for the sleeper, then returns the patience lesson to Dad. Root individually reviewed the plot, continuity, all four fields, full gloss, event-specific tip and contextual Jyutping; corrected 彈 taan4, 瞓醒 fan3 sing2 and replaced Mandarin-influenced 把 with 將條."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
@@ -39533,10 +39533,10 @@
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 22,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "490d20440caed5fb159e2cec482af377b40434cafbd0b81e1684d22c5c18ff54",
-      "v2_sha256": "490d20440caed5fb159e2cec482af377b40434cafbd0b81e1684d22c5c18ff54",
-      "notes": "The soup is hot on top and cold below, leading to a microwave-timing checklist and a clean bowl of porridge. The opening complaint is a small observation, not a developed comedic conflict."
+      "v2_sha256": "29e2294f44c374729281d512a13ff175214c143a91305a2bc589371ab1a2d860",
+      "notes": "Rebuilt as a family kazoo lesson: Dad confidently blows without sound, misdiagnoses a blocked membrane, while the younger sister’s humming reveals the correct technique; she coaches him and the roles reverse into a playful conductor promotion. Root individually reviewed scene continuity, four fields, simple-instrument logic, full gloss, practice tip and contextual Jyutping. Final character-by-character alignment review caught Mandarin 他 in the Cantonese sentence; changed it to 佢, which matches keoi5."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
