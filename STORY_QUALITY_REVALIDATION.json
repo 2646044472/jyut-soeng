@@ -16141,10 +16141,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 33,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6a08e761a242c701576482018deaeff4c3d547e2f1711e14ad646adc9ef8b41d",
-      "v2_sha256": "6a08e761a242c701576482018deaeff4c3d547e2f1711e14ad646adc9ef8b41d",
-      "notes": "The tied crab moves in its bag and startles the narrator, then the family steams it and shares the meat; this brief scare is not developed into a stronger joke. Checked all four fields."
+      "v2_sha256": "2aaec8a07ebaa2ba478b848b064be9461bd67221341b82f66d6c7a3551b57408",
+      "notes": "Root rewrote/reviewed all four fields. The niece invites the live crab as a dinner guest and invents a chore vote; the crab’s movement seems to choose Dad, then the niece tries to manipulate the bag and is caught by her own no-moving-the-guest rule. The claw’s final direction and Dad’s “guest eats, then leaves” payoff the setup. Root checked full-corpus crab/voting signatures, physical continuity, contextual Jyutping/tones, gloss and tip; category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -37789,10 +37789,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 4,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "98afd871bc271effc7774124bdbbe998424d3b1b426b1e65a0774d6792e38260",
-      "v2_sha256": "98afd871bc271effc7774124bdbbe998424d3b1b426b1e65a0774d6792e38260",
-      "notes": "Grandma’s first high heat setting splashes soup and she succeeds next time; the final claim she watched the flame is a mild competence tag without a comic reversal."
+      "v2_sha256": "1d81350d02223a2a15e383e512b658cb502b87a9c94c1c0d2fa6f4d7d0f0fb53",
+      "notes": "Root rewrote/reviewed all four fields. Grandma mistakes the induction stove’s confirmation beep for a rebuke; her grandson turns it into a low-heat cue, and she later uses the same beep to catch him sneaking cake. The shared sound and “I am the stove” callback complete the role reversal. Compared nearest accepted machine-sound and in-home weather presenter stories; this uses a different family conflict and consequence. Root checked contextual Jyutping/tones, gloss, tip and physical sequence; category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
