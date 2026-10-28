@@ -33029,10 +33029,10 @@
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 9,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f1a63bd107a9e8b4ba775c47d65fd9db821af4ca4bd46d8900a0be526a3412af",
-      "v2_sha256": "f1a63bd107a9e8b4ba775c47d65fd9db821af4ca4bd46d8900a0be526a3412af",
-      "notes": "Needs revision: the family corrects who appears in an old photo, then the cousin recognizes his father holding a paper boat. The discovery is coherent but the final line simply identifies it, without a developed comic payoff. Root read all four fields; no source edit."
+      "v2_sha256": "d835585044c0646e8fa986cb81324e7013d0421e2baa324504a97e3fa384948b",
+      "notes": "Pass: Dad’s relational name tags create competing first-person viewpoints; each clarification adds more text, then the whole table points to itself when he labels his own chest “I.” He flips the tag to “you all” to resolve the perspective joke. Corrected gesture continuity; reviewed all four fields."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
@@ -33045,10 +33045,10 @@
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 11,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9d40163eb01058b587e548e691b28a8049cb57fee4964e4fc67721ee211374f2",
-      "v2_sha256": "9d40163eb01058b587e548e691b28a8049cb57fee4964e4fc67721ee211374f2",
-      "notes": "Needs revision: dad repeatedly practices piano, recalls an old song with grandma and finally plays for the family, but the missed note is only a mild aside and the ending repeats that he wants another recording. The story lacks comic escalation. Root read all four fields; no source edit."
+      "v2_sha256": "d620a99edfb12a44e376eb78fb8f38f1fce27985206d8954d0bef284667bcd4a",
+      "notes": "Pass: The family’s anticipation of the father’s recurring wrong note turns into a cue; when he finally plays it correctly, they wait for it, so he repeats the mistake to earn applause. The reversal targets the family’s routine, not the learner. Reviewed all four fields."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
@@ -33061,18 +33061,18 @@
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 13,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c3a751e15547c2375721418869206dcc052bda3f80484b4e7f52457bb2e4bf72",
-      "v2_sha256": "c3a751e15547c2375721418869206dcc052bda3f80484b4e7f52457bb2e4bf72",
-      "notes": "Needs revision: the brother is caught trying to alter dice, admits impatience, and the family restates fair play before the younger child wins. The resolution is constructive but there is no strong comic escalation or ending. Root read all four fields; no source edit."
+      "v2_sha256": "3704a5948f2d6e7890bea1ab775fe869df1934293195561c4fd501fe5ca861c2",
+      "notes": "Pass: The brother honestly spends every six on launching a new plane instead of moving those already in play, creating a jammed runway while his sister advances. He wins takeoffs but not the race; the destination callback lands without relying on cheating. Reviewed all four fields and game sequence."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 14,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d2b3121a35a3575c33be150ca20ef365bf09c5e571f26f55307093cb66877255",
-      "v2_sha256": "d2b3121a35a3575c33be150ca20ef365bf09c5e571f26f55307093cb66877255",
-      "notes": "Needs revision: a father tries stretching after a long television session, adopts the routine and invites another video; the mention of funny news does not form a comic payoff. The scene is instructional and gentle. Root read all four fields; no source edit."
+      "v2_sha256": "d8814e151ca7d6969ab709bffc9bd42ad85e9ce992d83492b487d824347dbbd4",
+      "notes": "Pass: The father repeatedly changes channels with the remote while stretching; the family imitates the twists until the video disappears, then the football broadcast pulls him upright. His thumb, not his stiff back, gets the workout. Reviewed all four fields and actions."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
