@@ -25101,10 +25101,10 @@
     {
       "file": "content/sentence_bank/long_health_services_04.json",
       "index": 20,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5e6c5481300bc5eaf6691804c6f44c0c87fe313c3534d40c51f971ae273ae968",
-      "v2_sha256": "5e6c5481300bc5eaf6691804c6f44c0c87fe313c3534d40c51f971ae273ae968",
-      "notes": "The appointment paper sticks to a grocery receipt and the nurse asks whether the visitor came for bloodwork or groceries, but this single line does not develop into a comic reversal. Checked all four fields and tip."
+      "v2_sha256": "cc761650f17ccf8aa65cc4d2c0b6b5f29cd34b1841c6e016d52135ce59b39c2c",
+      "notes": "Root-selected clinic waiting-room role reversal after screening three fingerprints: rejected appointment-paper/grocery-coupon confusion as too close to the baseline; rejected helping patients fill forms as a generic unofficial-helper arc; chose directions/queue guidance escalating until other patients and staff treat the companion as the clerk. His uncle then follows the wrong queue and the clerk asks if he is new staff. Checked against accepted health-service rows sharing appointment/registration themes; no pass with this unofficial-clerk escalation. Root reviewed four fields, full gloss, contextual Jyutping, action continuity; category and nonlanguage metadata preserved. No symptom or safety joke."
     },
     {
       "file": "content/sentence_bank/long_health_services_04.json",
