@@ -32277,10 +32277,10 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 15,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "65122993232897effe6a7957004b7c790c248afac96b16c3c1fa518b94b0d884",
-      "v2_sha256": "65122993232897effe6a7957004b7c790c248afac96b16c3c1fa518b94b0d884",
-      "notes": "The car-road joke and nightly ticket ritual are mild, but the story ends with a general tidy-up observation rather than a strong comic payoff."
+      "v2_sha256": "779a562cc0f6bfd9253c05c757a15ab96b2de2039533a6833c5ad9997b64ebf8",
+      "notes": "Root reviewed all four fields and corrected contextual pronunciations: 嫌 jim4, 抹 maat3, 哥哥 go1 go1, 鍋 wo1. Dishwashing turns into a ticketed queue; the pot marked last contains soup, turning the queue into a second dinner. The brother and father resume chores to reach dessert/soup, paying off their attempts to skip the queue. Gloss/tip match; category preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -32293,18 +32293,18 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 17,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c32ccb1dcf5467c4258bd5c6dadc4af36d36d42a7b30f78e9f8842efc28c85bf",
-      "v2_sha256": "c32ccb1dcf5467c4258bd5c6dadc4af36d36d42a7b30f78e9f8842efc28c85bf",
-      "notes": "The cloudy morning delays the father’s wake-up and prompts a new alarm, but “the sun waiting” is a mild line without an earned comic reversal."
+      "v2_sha256": "ae02c4815bae41eebb49af15951515a7684b9ed23438e2caf40383d9100749db",
+      "notes": "Root reviewed all four fields and corrected contextual 撳 to gam6. The initial unsafe stool idea is stopped; dad switches off the light before tightening the loose existing bulb. Mom then toggles it to test, creating a brief false alarm; the testing note adds dad as light-duty operator, and his morning question pays off the roster. Gloss/tip match and category preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 18,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "059bf4cfa6f0bb1d57f060c8ede86fbc1a0d8ed84e6969de7fee108a3b20d7ca",
-      "v2_sha256": "059bf4cfa6f0bb1d57f060c8ede86fbc1a0d8ed84e6969de7fee108a3b20d7ca",
-      "notes": "The daughter’s shirt becomes a mock team uniform, but the mosquito-net “captain” joke stays a small aside rather than a strong escalating payoff."
+      "v2_sha256": "aa932941c0130c0c71386ffc5f8481ccc364dd589332b3dac5f5b1bb691f2654",
+      "notes": "Root reviewed all four fields. A white flour trail becomes the child’s detective case; the father denies responsibility, each backward step adds a print, and the daughter finds flour lodged in his shoe tread. The ripped bag explains the route, after which he is assigned to mop and calls the prints his house stamp. Jyutping checked in context, including 凹槽 nap1 cou4 and 黐 ci1; gloss/tip match; metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -32317,26 +32317,26 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 20,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ff283d6a4e6e58c596bdea72f0a0515db3e471c8067ebf6222ffb144d857312d",
-      "v2_sha256": "ff283d6a4e6e58c596bdea72f0a0515db3e471c8067ebf6222ffb144d857312d",
-      "notes": "Needs revision: the two visits compare light, traffic and fees and lead to a practical lease decision; there is no interpersonal conflict, comic escalation or earned ending. The housing-cost details are informational rather than a developed story. Root read all four fields; no source edit."
+      "v2_sha256": "30a2014d34fd821b9ccba1be169804f432d7f9cad07e23d10ab8520cdb2b2f52",
+      "notes": "Root reviewed and tightened all four fields. At a rental viewing the sliding door repeatedly rolls open; removing a box makes it faster, the owner’s crouched repair stance resembles a bow, and each next room is interrupted by the door returning. The single final “already terminated my lease” punchline pays off the sequence; redundant second exit joke removed. No rent/deposit/bill conflict; Jyutping checked in context; category preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 21,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c98ae3aa1c613ee13ce1afb9d9cfdfa26bec57055029641274e88f67a15c1374",
-      "v2_sha256": "c98ae3aa1c613ee13ce1afb9d9cfdfa26bec57055029641274e88f67a15c1374",
-      "notes": "Needs revision: the damp corner and rain leak are photographed, repaired by the landlord and followed by sensible furniture placement. This is a useful maintenance report but has no comic progression or payoff. Root read all four fields; no source edit."
+      "v2_sha256": "13905a3ce2fcb8eabf3c660a0f266e1aabe7f1263fd5c60d2f6a94d1bcbac786",
+      "notes": "Root reviewed all four fields, correcting 尺寸 to cek3 cyun3. The bed, wardrobe and foldout table block each other in sequence; every item fits but no one can stand inside, and the father’s “furniture has moved in first” line pays off the spatial escalation. Gloss/tip match; category preserved; no money conflict."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 22,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7578fe062b886bae9cd4c4de854cd5735022433cff3f7c4fd1f3b52870e97ea9",
-      "v2_sha256": "7578fe062b886bae9cd4c4de854cd5735022433cff3f7c4fd1f3b52870e97ea9",
-      "notes": "Needs revision: the tenant catches a date mismatch in an old lease and completes a careful checklist. The family’s “ask first, argue less” line is a routine moral, with no comic reversal; rent/deposit terms dominate the conflict. Root read all four fields; no source edit."
+      "v2_sha256": "8ee7583648516bcbb662fcdd05f7894d6438db29d5d0d5b3235ddb5fbd398c5b",
+      "notes": "Root reviewed all four fields and removed a second redundant exit-cleaning punchline. A lease reminder triggers immediate cleaning, which spreads from a speck to shoes, table and contract; everyone must protect the paperwork, and the landlord’s “you already handed over the unit” is the single payoff. Jyutping manually reviewed; gloss/tip match; category preserved and no financial conflict."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
