@@ -4224,7 +4224,7 @@
       "index": 27,
       "status": "pass",
       "baseline_sha256": "a4ff1979ee7a5329e3cd6db0aaab62eb937e9133983ab6a2c7c4aa8f235a55ab",
-      "v2_sha256": "89ac690987e624fc3f24a97eed606192c0bbbd272ab9491ea253401bc99563d0",
+      "v2_sha256": "e286b7c630d8cc054153d7f1b76d953ef7c629a1a772fa82990b931d053b3a5f",
       "notes": "Main-agent four-field review: ordinary veterinary checkup with the father’s overdone reassurance escalating into visible fear, then the dog calmly comforts him; the role reversal and snack callback are coherent and distinct from the existing pet-care and child-vaccination plots. Jyutping reviewed against the Cantonese text; full gloss and story-specific tip match the events."
     },
     {
@@ -11917,10 +11917,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 5,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9a7a440bcef82f030ce20192f739447d57a6bfd5f4ac6d6a5bb7af28b9d876a8",
-      "v2_sha256": "9a7a440bcef82f030ce20192f739447d57a6bfd5f4ac6d6a5bb7af28b9d876a8",
-      "notes": "The phone muffled under vegetables creates a mild misunderstanding; the rest returns to shopping logistics and the ending is procedural."
+      "v2_sha256": "c88f9926f76ead24e8cfdd5a638042c2bc3a62f47d115b22f1143569659e4392",
+      "notes": "Main-agent four-field review: fruit tower repeatedly rolls from a rounded base; napkin wedges worsen the lower layer, a flat tray stabilizes it, and an inedible flat-bottomed decorative mandarin stabilizes the summit. The family hesitates to dismantle the display, then gives the fake fruit the closing “shift” callback. Distinct from the existing family sandcastle, market-purchase, and coworker pass-around stories. Jyutping reviewed character-by-character; full gloss and tip match the final sequence."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
