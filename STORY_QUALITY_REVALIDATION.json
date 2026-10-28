@@ -35621,10 +35621,10 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 33,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9957385fe113e4855b9002caf1b6ab5b6687a61db403cf7a1629e54334e74c5c",
-      "v2_sha256": "9957385fe113e4855b9002caf1b6ab5b6687a61db403cf7a1629e54334e74c5c",
-      "notes": "The local fitted-sheet draft was withdrawn after duplicate check against accepted long_family_finance_services_01.json[97] (same elastic corners, helping hands and tent-like reversal). Restored baseline source row; needs a new distinct premise."
+      "v2_sha256": "db60c2da72bccdb41c17280c878908a6b482d47111a2f9af1152d84caed403b8",
+      "notes": "Root replaced and withdrew the fitted-sheet duplicate (accepted finance01[97]). Screened twin-identity/game-rule and bedtime-story chains as common or weak; selected an over-planned park itinerary that the twins turn into a schedule for Grandpa, enforcing the walk, slide and rest slots until he asks whether his own rest must be on time. Compared against accepted family_finance_services_05[88] (travel-photo schedule; distinct conflict/payoff). Root checked four fields, timeline consistency, all contextual Jyutping, full gloss/tip match; category and other metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
