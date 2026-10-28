@@ -17493,10 +17493,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
       "index": 2,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ded4398c0b0040107ca17ae2b50ae75b582cd5fce6848620b69f1f1c55c89bd1",
-      "v2_sha256": "ded4398c0b0040107ca17ae2b50ae75b582cd5fce6848620b69f1f1c55c89bd1",
-      "notes": "Needs revision: a wrong-building delivery, wet labels and a near-spicy meal are solved by checking containers and names; the manager’s label suggestion is routine, not a comic reversal. Read all four fields; tip matches the delivery mix-up."
+      "v2_sha256": "aa273e93e4825895d4d7f8d68334d94c0942e45276a1a9e0d3591f4df02cbc3f",
+      "notes": "Root re-authored and individually reviewed all four fields. Two coworkers share the name 阿明; the narrator’s left/right pointing is reversed from the server’s viewpoint, and the pair then both point at each other. One coworker changes his order after smelling curry, so the ambiguity grows from identity to matching orders; at work both stand when their manager calls the same name, and the narrator hands them the receipt as a cue to divide the presentation. Root checked scene continuity, the earned callback, colloquial phrasing, every Jyutping syllable/tone, full Mandarin coverage and the event-matched practice tip; category/metadata preserved. Compared the conflict and ending with corpus references; no matching same-name restaurant-to-work-assignment plot found."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
