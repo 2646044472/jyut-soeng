@@ -35365,18 +35365,18 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 1,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "39d3c08f9942032c6f2c64a7173fa00396d1367f8f66f3cf3da051bd32ae95be",
-      "v2_sha256": "39d3c08f9942032c6f2c64a7173fa00396d1367f8f66f3cf3da051bd32ae95be",
-      "notes": "Needs revision: father opens a misdelivered flat-pack table, then helps the neighbor install it and writes a delivery-check rule; this is a practical mistake with a mild ending, not a comic arc. Checked all four fields; source unchanged."
+      "v2_sha256": "eed2195bade2cb52494b89d9c0f201be2af65d410448e228cc9f532818ce869c",
+      "notes": "Main-agent four-field review after a full plot rebuild. Voice input repeatedly turns the family’s request for folding chairs into paper folding; relatives arrive with craft supplies and paper, while grandmother calmly unfolds chairs and sums up the phone’s “arrangement.” Distinct communication-confusion mechanism, escalating consequences and callback; physical scene coherent. Manually checked all Jyutping against the text, complete Mandarin gloss and story-specific retelling tip; category and other metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 2,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "1bafb79b68d787598c9fe8b580ad66b20f53ccacc9350b3406e4ab7ec8ab1c53",
-      "v2_sha256": "1bafb79b68d787598c9fe8b580ad66b20f53ccacc9350b3406e4ab7ec8ab1c53",
-      "notes": "Needs revision: the family catches a mislabeled peanut-containing sauce and separates foods for an allergic guest; safety handling is careful but not a comedy. Checked all four fields; source unchanged."
+      "v2_sha256": "2192dba30cee145da887845eb8b48161a4007e96a00dbe78d691e82a6acc4076",
+      "notes": "Main-agent four-field re-review after rebuilding the scene around a harmless seating/labeling overreach. Grandma safely prepared and verified the cousin’s food; Dad turns serving into numbered traffic control, gets caught marking his own chopsticks “check,” and the cousin’s “you have rules, not peanuts” line returns the joke to his overmanagement. Humor targets Dad’s procedure, not the allergy. Checked context, complete Mandarin gloss, tip, and 233 Jyutping units one by one; metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
