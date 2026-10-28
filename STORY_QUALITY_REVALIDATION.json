@@ -16173,10 +16173,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 37,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7ef5093c2ed435d166eadf637e2db4355a43ba3de5b0e1c1bdf5a5f468a88276",
-      "v2_sha256": "7ef5093c2ed435d166eadf637e2db4355a43ba3de5b0e1c1bdf5a5f468a88276",
-      "notes": "The husband steals chicken-soup noodles, then scallions fall and stick to his slipper while the couple searches; the visual beat is mild and the meal ends plainly. Checked all four fields."
+      "v2_sha256": "8022ca178673f3cba42766b318df0153976452eca4c8fffd69041ccef05b6945",
+      "notes": "Root rewrote and reviewed all four fields. Husband calls himself the soup-noodle taste tester, repeatedly samples his wife’s noodles, and leaves a scallion trail on his slipper. His own noodles disappear while he claims to save the broth; the next-morning broth/noodle callback closes the escalation. Root checked contextual Jyutping, gloss, tip and continuity; full-corpus scan found no accepted spouse/noodle-theft signature. Category and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
