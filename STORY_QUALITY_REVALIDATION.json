@@ -35445,10 +35445,10 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 11,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "08102542c4340998b438067287f443ea4c11e7f0b488338c19950cf520c8988c",
-      "v2_sha256": "08102542c4340998b438067287f443ea4c11e7f0b488338c19950cf520c8988c",
-      "notes": "Needs revision. The visiting schedule leads to relatives leaving soup and washing dishes, which is considerate, but the scene resolves as gentle newborn-care advice. There is no meaningful conflict escalation, comic reversal or punchline. Read all four fields; gloss and tip cover actual events."
+      "v2_sha256": "c56b40eca50818c872aa2ba20f8a73b03019701ae53ce7fae39fa2cca32f9518",
+      "notes": "Root rewrote and individually reviewed the full card. The family message explicitly sets a one-minute visitor limit; aunt calls her cousin to take the next slot, he announces it in the group, and more relatives arrive and form a quiet hallway queue. Dad writes queue numbers and visitors relay the baby’s frown as a live update; Mom calls it a baby exhibition and closes the day, then the baby wakes after the line is gone. Root reviewed causal continuity, distinctness from accepted neighborhood service-visit and moving-box queue scenes, all contextual Jyutping (291 units), complete Mandarin gloss, event-matched prompt, and unchanged metadata. The visitor queue mechanism is supported by the sequential relay, not a shared source story."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
