@@ -22589,10 +22589,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 6,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f6dfc5f62a85918a7d8182421b30b9d4e39e9f22167c6e8d90910cee69d5ee12",
-      "v2_sha256": "f6dfc5f62a85918a7d8182421b30b9d4e39e9f22167c6e8d90910cee69d5ee12",
-      "notes": "Needs revision: grandma interprets making soup as evidence she cannot be very ill, then asks not to be assigned dishwashing. These are mild lines around a health concern and the rotating companion chart feels procedural; no strong payoff. All four fields read; tip matches the symptom report and family rota."
+      "v2_sha256": "a92fc782f6a0d6d5c45527305bf85fad21af1594b9762ecd98e628bd6283261c",
+      "notes": "Main individually reviewed all four fields and replaced a provisional soup/cooking scene that echoed a nearby approved elder-care story. In the new scene the family hears genuine dizziness advice and overprotects Grandma by putting chairs at the doorway, sofa and dining table; everyone then offers a different seat as she moves for her glasses and to the window. The furniture-showroom line pays off the increasing number of chairs without minimizing the symptom. Contextual Jyutping, full gloss/tip and unchanged category/metadata checked."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -39397,10 +39397,10 @@
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 5,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "18bbc1c08f48dfbd7334391995d20b34dd636719628c3ad360816696e65e8ac7",
-      "v2_sha256": "18bbc1c08f48dfbd7334391995d20b34dd636719628c3ad360816696e65e8ac7",
-      "notes": "The old-battery sorting lesson includes a small symbol mix-up, but it resolves straightforwardly and ends with adding charging cables to a reminder. It lacks a developed comic escalation or payoff."
+      "v2_sha256": "b035fdc0e8ca6cd82338cc98b516328fd04bb25fcb21506cb8c5fc9efbb3e34f",
+      "notes": "Main individually reviewed all four fields. The family treats used batteries as retirees: prepared tributes are interrupted by a late-found third battery, Dad gets carried away in his emcee role, and another forgotten remote-control cell creates a sequel callback. The recycling action is coherent; contextual Jyutping, full gloss, event-specific tip and unchanged category/metadata checked."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
