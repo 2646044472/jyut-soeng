@@ -22245,10 +22245,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 1,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7abbd13c6b264256d0d43587086f4046621bb20483f6e936708fee150661dff7",
-      "v2_sha256": "7abbd13c6b264256d0d43587086f4046621bb20483f6e936708fee150661dff7",
-      "notes": "Needs revision: a beef slice flies from the wok and the father’s line is a usable one-off pun, but the neighbor borrowing soy sauce and tomorrow’s lunch portion do not escalate that gag; the ending returns to cooking instructions. All four fields read; gloss/tip match."
+      "v2_sha256": "7ac6aa09638d8ffd607fd522a81a8d26fb4446d3fbefe02dd25fc67cbfbc29b3",
+      "notes": "Main agent reviewed all four candidate fields and corrected 否則 to zak1. Dad’s wok demonstration sends one beef slice into the aunt’s bowl; her joke turns his toss into an accidental serving, and the family sets out plates, making Dad the server while the narrator cooks. Aunt’s request for another slice in the same delivery style earns the callback. Physical action, role reversal and full gloss/tip checked; metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -22261,10 +22261,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 3,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "fe25307c6dd03e894f17749fdf645d5bd91918634cc44d488b03a3d875e69b96",
-      "v2_sha256": "fe25307c6dd03e894f17749fdf645d5bd91918634cc44d488b03a3d875e69b96",
-      "notes": "Needs revision: a loose lid makes infant puree watery, then pumpkin thickens it and the child tastes two spoonfuls. Keep infant feeding gentle and safe; the scene is caregiving, not comedy, and ends with storage rules. All four fields read; gloss/tip match."
+      "v2_sha256": "5794834e05cfd7d4ac48aa385629e0ec72fd82dc455023689f28b285ad8cdfb5",
+      "notes": "Main agent individually reviewed all four fields and corrected contextual 姪 (zat6) readings in both Jyutping occurrences. Adults repeatedly direct the first-bite recording, the baby sets the spoon-tapping rhythm and accepts food once they stop staging it; playback centers the crowded adults and crops the baby to one corner. Distinct role reversal and visual payoff; full gloss and event-specific tip checked; metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
