@@ -16061,10 +16061,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 23,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4ed6176f269ec5be7b7ce5bf3234a66200f7648aacd44d1072b59e9de0a4a751",
-      "v2_sha256": "4ed6176f269ec5be7b7ce5bf3234a66200f7648aacd44d1072b59e9de0a4a751",
-      "notes": "A power cut interrupts frozen dumpling storage, then the family checks texture and cooks a second batch through; this is safe food handling with no comic payoff. Checked all four fields."
+      "v2_sha256": "e3eee6cecf95a04f165f4895e242b5dccc0847ab32aa9330f0290ded5026270f",
+      "notes": "Root selected the literal “睇住” role-misreading after screening three fingerprints: rejected scallion-as-sign seller confusion as a familiar mistaken-expert gag; rejected produce-bunch relay as a lost-property/ownership loop. Here the niece guards one selected bunch so literally she blocks the vendor and shoppers; escalating appointment checks and a visitor register turn her into market security. Compared against accepted food_shopping_01[0], [2], food_shopping_08[22,45,64,75,78,82,90]; none uses guard/permission escalation. Root checked all four fields, contextual readings, complete gloss and category/metadata preservation."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -35624,7 +35624,7 @@
       "status": "needs_revision",
       "baseline_sha256": "9957385fe113e4855b9002caf1b6ab5b6687a61db403cf7a1629e54334e74c5c",
       "v2_sha256": "9957385fe113e4855b9002caf1b6ab5b6687a61db403cf7a1629e54334e74c5c",
-      "notes": "The early alarms lead to a chaotic departure and a misplaced bottle, but the roles and presence of the father/backpack are unclear after the twins are sent to grandpa; the resolution is a reminder to reset alarms, with a weak kicker. Checked all four fields; event sequence has continuity ambiguity."
+      "notes": "The local fitted-sheet draft was withdrawn after duplicate check against accepted long_family_finance_services_01.json[97] (same elastic corners, helping hands and tent-like reversal). Restored baseline source row; needs a new distinct premise."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
