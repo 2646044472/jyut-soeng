@@ -22277,10 +22277,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 5,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6884fe7986f912eacbdac3e82ef0ce0d3e363d8b00a711ef2e0263359c6fe980",
-      "v2_sha256": "6884fe7986f912eacbdac3e82ef0ce0d3e363d8b00a711ef2e0263359c6fe980",
-      "notes": "Needs revision: delayed salad preparation and dropped cherry tomatoes get a “rescue operation” line, then lemon fixes the flavor. It is one mild joke followed by an ordinary meal, without escalation or reversal. All four fields read; gloss/tip match."
+      "v2_sha256": "dd4578ad185225dc3df73a7eb66d39532e049a8b9cfc1143dc9cb82b30791316",
+      "notes": "Main agent rechecked the four final fields after fixing a checkout continuity gap: after the wrong aisle, narrator guides the sister back to complete the basket; at checkout he points to the lettuce already in the basket. She still answers with the only list item she remembers, the no-raw-onion restriction, before dividing roles and sending him to navigate. This makes the callback visible and physically coherent. Main reviewed the entire body/gloss/tip and contextual Jyutping alignment again; category and metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
