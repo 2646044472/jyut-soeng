@@ -16069,10 +16069,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 24,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4a08736278acfdaf2b29224d85c8450812f963347046ecca9ba9ea0813b8b4cb",
-      "v2_sha256": "4a08736278acfdaf2b29224d85c8450812f963347046ecca9ba9ea0813b8b4cb",
-      "notes": "The grandmother requests less oil in beef chow fun and enjoys the result; the cousin changes his opinion after tasting it, a simple meal resolution without escalation. Checked all four fields."
+      "v2_sha256": "76b79013ff63223ccf1c9312458636200c368544f06fed735050fb1fdf7aeee4",
+      "notes": "Root selected the senior-coworker speaking-for-junior premise after screening: rejected a reluctant host/seating arc and last-bite politeness as generic or too familiar. A meeting-chair habit carries into dinner; the senior answers for the junior, chooses his dish and drink, and physically turns the menu to the page he thinks fits. The junior reverses it by ordering the senior’s usual dish, then reveals he has not finished speaking. Compared against accepted food_shopping_03[29] (another person remembers someone else’s changing food preferences), food_shopping_02[10] (group venue choice) and restaurant order/seat mix-ups; this is an authority/turn-taking conflict between coworkers, not preference memory. Root reviewed all four fields, contextual Jyutping, full gloss/tip and metadata."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
