@@ -16149,10 +16149,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 34,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "cf943344e11291ac54ad84635f97371997dfdc03f10840c91468a61e572f6b65",
-      "v2_sha256": "cf943344e11291ac54ad84635f97371997dfdc03f10840c91468a61e572f6b65",
-      "notes": "A restaurant cannot guarantee gluten-free preparation, so the group changes venues and confirms separate utensils; the scene centers safe accommodation, with no comic reversal. Checked all four fields."
+      "v2_sha256": "d5a4dbf29cdefd85d1299a11c0049d644c3ae54bc901f1ee32589d60dcec1cb5",
+      "notes": "Root individually reviewed four fields. The friend’s gluten-free ingredients and separate preparation are confirmed before ordering; the comedy comes from an aunt rehearsing her niece’s job interview so earnestly that the waiter answers as the candidate, then asks if he passed. Changed the implausible coffee-shop setting to a restaurant. Manually checked safe sequence, continuity, Cantonese, Jyutping, full gloss and event-specific tip; no joke targets allergy symptoms."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
