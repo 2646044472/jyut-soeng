@@ -4222,10 +4222,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 27,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a4ff1979ee7a5329e3cd6db0aaab62eb937e9133983ab6a2c7c4aa8f235a55ab",
-      "v2_sha256": "a4ff1979ee7a5329e3cd6db0aaab62eb937e9133983ab6a2c7c4aa8f235a55ab",
-      "notes": "Grandmother mistakes a transfer icon for candy, verifies a repayment against her notebook, interrogates her grandson about a market debt and approves another loan. The plot is entirely borrowing/repayment bookkeeping, a repeated family-money pattern. All four fields checked; rebuild."
+      "v2_sha256": "89ac690987e624fc3f24a97eed606192c0bbbd272ab9491ea253401bc99563d0",
+      "notes": "Main-agent four-field review: ordinary veterinary checkup with the father’s overdone reassurance escalating into visible fear, then the dog calmly comforts him; the role reversal and snack callback are coherent and distinct from the existing pet-care and child-vaccination plots. Jyutping reviewed against the Cantonese text; full gloss and story-specific tip match the events."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
