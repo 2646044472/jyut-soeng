@@ -16085,10 +16085,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 26,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8f08cb75e959526602ac16b03c53fd149dfa262fada6ca6dcf3720de74cf4922",
-      "v2_sha256": "8f08cb75e959526602ac16b03c53fd149dfa262fada6ca6dcf3720de74cf4922",
-      "notes": "The grandmother’s sore teeth require smaller fish slices and leftover porridge is refrigerated; the proposed cousin order next time is a practical continuation without comedy. Checked all four fields."
+      "v2_sha256": "6d09bd056ff6c1612aeb8a3add4086e722e061764559e6249ba003a46d921126",
+      "notes": "Root selected the active-call mutual-QA premise after screening: rejected a group-order call turning into a meeting and a spokesperson/moderator arc as overlapping group-order chatter. Here a customer-service worker reflexively answers a real takeaway call as an agent; the clerk mistakes her for an evaluator, and each raises the formality until their review consumes lunch without an order. Compared against accepted family_finance_services_04[66] (incoming unrelated call misread as an interview): different initiating event, roles and escalation. Root reviewed all four fields, contextual Jyutping, gloss completeness, event-to-tip match and category/metadata."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
