@@ -33741,10 +33741,10 @@
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 98,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8b8f8ceeb83f597759821e2f3f838f2e18bad6a1b47ffdd075b1428838e098fb",
-      "v2_sha256": "8b8f8ceeb83f597759821e2f3f838f2e18bad6a1b47ffdd075b1428838e098fb",
-      "notes": "Needs revision: generations choose songs and share memories, then sing off-key together; this is a warm music-sharing scene with no strong comic conflict or payoff. Root read all four fields; no source edit."
+      "v2_sha256": "c392d8e4280e69d4cc71b8bfa51da753f47f47bafec4d9dbb0d37831a93169b6",
+      "notes": "Root rewrote and individually reviewed the entire card as a dance-mat rhythm game. Dad coaches too aggressively and raises difficulty; the siblings blame timing/sensor; Dad misses a step and nearly kicks the table. Grandma, whose sewing-machine pedal has trained her rhythm, follows the arrows and wins, then coaches Dad through a level. The reversal derives from a distinct physical skill, compared with accepted singing-recording/misheard lyric and bowling/Jenga/ring-toss stories. Root manually reviewed all Jyutping readings (259 units), complete Mandarin gloss, matching tip and unchanged metadata. Root corrected three manually transcribed syllables in 自告奮勇 (gou3 fan5 jung5) and 跺腳 (do2 goek3), cross-checked against local Rime character readings. Alignment remains 259/259."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
