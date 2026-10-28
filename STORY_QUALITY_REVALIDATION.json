@@ -16125,10 +16125,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 31,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "852ef2187a3656060aa950d08fb623a69f4d9c70467faea6168d55215d812cea",
-      "v2_sha256": "852ef2187a3656060aa950d08fb623a69f4d9c70467faea6168d55215d812cea",
-      "notes": "The masked date is checked before buying discounted steak, then the family times cooking around a late guest; the special price frames the purchase, flagged for the money-topic quota, while the payoff is practical. Checked all four fields."
+      "v2_sha256": "bae5b69ddec5fc78a1129ae42256f5f7480cfd8a7309051d669e85b298f50628",
+      "notes": "Selected the father-as-trolley-driving-instructor plot after comparing two alternatives: an accidental aisle-guide role had a weaker navigation payoff, and a child acting as store manager felt generic. The driving lesson builds through verbal signals, needless stops, a following queue and the father wedged at a narrow turn; the child takes over and calls for the coach to retest. Distinct from approved checkout, product-testing, expiry/date, shopping-list, and cart-carrying plots. Main reviewed all four fields, continuity, complete gloss, context Jyutping (卡喺 kaat1 hai2), and story-specific tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
