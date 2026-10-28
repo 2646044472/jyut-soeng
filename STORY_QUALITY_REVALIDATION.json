@@ -34877,10 +34877,10 @@
     {
       "file": "content/sentence_bank/long_home_family_04.json",
       "index": 40,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6bd87b42a0b150a28c8300a68d39cc5f2f03339e32ba8d2b86845ac0ccaa228a",
-      "v2_sha256": "6bd87b42a0b150a28c8300a68d39cc5f2f03339e32ba8d2b86845ac0ccaa228a",
-      "notes": "Needs revision: the family sorts safe old toys and shares a memory about the wooden car; it is a warm keepsake scene, not a comedy. The Jyutping is collapsed without word spaces, so syllable correspondence cannot be approved. Checked the story, gloss and tip; source unchanged."
+      "v2_sha256": "ad48e1d424da35b0e4546d18f76494d0173c0df4da85e0217c398f4cb6a8df03",
+      "notes": "Rewrote the safe-toy sorting into an escalating label gag: the wheel comes off during Grandma’s demonstration, the grandson applies the supervision label back to her, and the closing box label completes the role reversal. Checked physical continuity, punchline setup/payoff, the colloquial 阿婆 reading, all Jyutping syllables in context, complete Simplified gloss and event-matched retelling tip. Preserved category."
     },
     {
       "file": "content/sentence_bank/long_home_family_04.json",
@@ -36773,10 +36773,10 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 77,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "29ef7d38d13f5ca4e809dabe8df6108d8d6786fd226663ace680a3c0e7e79d30",
-      "v2_sha256": "29ef7d38d13f5ca4e809dabe8df6108d8d6786fd226663ace680a3c0e7e79d30",
-      "notes": "The father learns the ticket app, verifies the movie and saves two tickets; it is a practical phone-payment walkthrough with no comic escalation or payoff. Payment is incidental to the lesson, not the main conflict. Read all four fields and checked Jyutping/context, full gloss and tip match."
+      "v2_sha256": "e6506715ff0350ce9ff638374bc569348a463d835943e4b13a6281b65f8909a7",
+      "notes": "Rebuilt the phone-payment lesson as a cinema-entry misunderstanding: the father overapplies the instruction to hide the payment code, blocks the entry QR at the scanner, then the queue and staff explanation resolve it; the last “遮碼表演” callback lands on the same action. Checked event continuity, four fields, all 276 Jyutping tokens in context, full Simplified gloss and story-matched retelling tip; category preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -38053,10 +38053,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 37,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6759fc49265810fd5b6092b7d95bb4b680e74a768a4dd33752d78de636a40397",
-      "v2_sha256": "6759fc49265810fd5b6092b7d95bb4b680e74a768a4dd33752d78de636a40397",
-      "notes": "Four fields checked. The shy guest is invited to lead, then tells a funny pigeon-and-chips tale; this is a pleasant social reveal but the single anecdote does not create enough escalating comic conflict or reversal."
+      "v2_sha256": "4280dabb0a338488f5a33ca27b2c28534c1d1a0e1853ae1bf0119eb0592f4dd4",
+      "notes": "Root individually reviewed the rules-dispute scene: the self-appointed referee’s line-by-line rulings stall the game and snack serving; the quiet classmate reveals the end-of-game scoring rule, making the referee-player finish last; the appeal and snack callback land on that cause. Compared with accepted chess pieces sliding, life-size chess literal play, and no-laugh games; distinct conflict/reversal. Checked all fields, contextual Jyutping, full Simplified gloss and event-matched tip; category preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -38141,10 +38141,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 48,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "041cda95530db90c3e47f99920b06d6a56847f3da1729d75b0e9bc24603c45bc",
-      "v2_sha256": "041cda95530db90c3e47f99920b06d6a56847f3da1729d75b0e9bc24603c45bc",
-      "notes": "Four fields checked. The orange shirt becomes a useful landmark in rain and the father’s choice is reduced to socks, but the sequence is agreeable and lacks a strong comic reversal."
+      "v2_sha256": "5de7d9711828d0711c7bd531dade72dd9e2349ab3b64497459866446040b4c52",
+      "notes": "Root individually reviewed all four candidate fields and accepted the family market scene: the son’s orange shirt draws escalating requests for directions/announcements, then the father gets lost while trying to guide; the closing boundary callback follows the role reversal. Checked continuity, distinctness against accepted sign/volunteer stories, contextual Jyutping, full Simplified gloss and matched retelling tip; category preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
