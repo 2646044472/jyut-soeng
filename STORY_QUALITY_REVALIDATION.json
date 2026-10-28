@@ -2902,10 +2902,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
       "index": 62,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b0f52fcc65b119a0b72159726acebb6a8d8494ad92e10e725f75ffa717a3fde4",
-      "v2_sha256": "b0f52fcc65b119a0b72159726acebb6a8d8494ad92e10e725f75ffa717a3fde4",
-      "notes": "The stale credit-report entry is resolved through paperwork and waiting; the “more punctual than following a drama” line is only a mild tag and there is no escalating comic turn. Full story, gloss, Jyutping, and event-matched tip checked; rebuild around a distinct, funnier situation."
+      "v2_sha256": "69d7dd29dbc64ffe13c05357b0d3e64c8927c6eaa6267216ff15f85ff64d8f41",
+      "notes": "Root independently rewrote/reviewed all four fields. Credit-record lookup is only the opening context; the core comedy is a family rehearsing an old answering-machine greeting until a neighbor’s steamer message catches Dad answering the supposedly empty home. Added that the machine speaker plays the incoming message so the live interruption is physically clear. Gloss and tip match. Contextual Jyutping checked manually; metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_04.json",
@@ -3854,10 +3854,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 81,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "0c95a5b4350a906a574245a3af0d7ccde6d7eef251d6027491fac9eba4ab77b3",
-      "v2_sha256": "0c95a5b4350a906a574245a3af0d7ccde6d7eef251d6027491fac9eba4ab77b3",
-      "notes": "The application is accepted but the address attachment is unreadable, then the family rescans and waits for verification. The distinction between receipt and completeness is useful but procedural, with little humor or reversal."
+      "v2_sha256": "7b136f336fe9155df6fbc6619b8ca2105eabfa45ab6e9a20e7709c6b88014396",
+      "notes": "Root individually reviewed all four fields. The brief renewal frame leads into a neighborhood talk where successive seating requests turn Dad’s tidy rows into a maze and place him in the center holding the last chair; the host mistakes him for the discussion leader. The chair/chairman line is an earned visual/wordplay payoff, and the cleanup question callbacks to the seating task. Gloss and tip match. Manually reviewed Jyutping; corrected 姨姨 reading to ji4 ji4. Preserved all metadata."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
@@ -3910,10 +3910,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 88,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "cf103ac5943925a95d0830a241a8aeb3b0e20ac6f4c4f1dcae738799b22270fb",
-      "v2_sha256": "cf103ac5943925a95d0830a241a8aeb3b0e20ac6f4c4f1dcae738799b22270fb",
-      "notes": "The roaming charge is checked against a sunset photo, then a refund is tracked through notices and bills. The “wallet goes out to sea” line is mild; the core remains charge/refund reconciliation. Rebuild around the travel misunderstanding."
+      "v2_sha256": "875983ca2c282f575d2d42d5a74f9b5cd06421c776fedd9d850dd8caf9929585",
+      "notes": "Root caught and corrected a candidate continuity error: the first pigeon photo has everyone crouch while only Aunt stands with hands up; the later retake is the one sent to the group, where she is the only one still guarding against pigeons. Individually re-reviewed all four fields and contextual readings (伸手伸 san1, 手臂 bei3, 蹲低 deon1 dai1, 重影 cung4 jing2); full gloss/tip match. Metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
@@ -10301,18 +10301,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 3,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "84405049190c1fa5a103c0385b984a32991a59ac85b67efdce7dcc35704d96e9",
-      "v2_sha256": "84405049190c1fa5a103c0385b984a32991a59ac85b67efdce7dcc35704d96e9",
-      "notes": "Needs revision: a forgotten carrot is replaced by a neighbour’s radish and the soup becomes a symbol of kindness; the ending is affectionate but not a developed joke."
+      "v2_sha256": "f18d6c99c9590883e569f10c9fa6e0228136de6f144441244833ad8bef9b9861",
+      "notes": "Root reworked and reviewed all four fields. To keep the dog’s action physically clear and safe, the empty bag is caught between its mouth and chair back; it drags the chair and makes noise, then the family quickly checks it. Sister’s apron snags while she catches the dog, and Dad’s delivery-worker line callbacks to the dragging. Jyutping manually reviewed in context; gloss/tip match; metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 4,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2263782813495f46b40401e05ef83d90b57de02b1f1a183791502b3dd645e16e",
-      "v2_sha256": "2263782813495f46b40401e05ef83d90b57de02b1f1a183791502b3dd645e16e",
-      "notes": "Needs revision: a broken lift makes the rice bag heavy, a student neighbour helps carry it, and the household shares dinner; this is a pleasant exchange with no comic conflict or reversal."
+      "v2_sha256": "405ee6f0af9cad6d9c24450a4ea7d580a4730311169ac17ccb8a5014f4c7522f",
+      "notes": "Root reworked the candidate’s ambiguous location: Dad stays below directing while the bag reaches the apartment; an upstairs voice confirms delivery, so the referee realizes only the rice went up. Individually reviewed all four fields; the relay escalates from Dad’s failed carry to him directing neighbors, then the sweet-potato second leg forces the referee to join. Jyutping and contextual readings checked; gloss/tip match. Removed a surplus syllable in 吹哨指揮. Metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -10325,10 +10325,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 6,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2f80f4b3bf36a1467ac659150e644383c2051805ae33959478a71d9b183d676b",
-      "v2_sha256": "2f80f4b3bf36a1467ac659150e644383c2051805ae33959478a71d9b183d676b",
-      "notes": "Needs revision: a cracked egg and a delayed family dinner are handled by changing the menu; the “egg saved dinner” line is only a mild practical tag, without a comic escalation."
+      "v2_sha256": "11429f0baf76e5075c467e239dad1332364580e7c40b3902a685172c4f0639fd",
+      "notes": "Root individually reviewed all four fields. A cracked egg prompts the brother to become an overzealous guard; his chopstick barriers expand to block the kitchen and form a human queue, then Mom simply cooks the egg and Dad reassigns him as waiter. The empty checkpoint and final admission joke pay off the setup. Jyutping manually checked in context; gloss/tip match and metadata is preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -10373,10 +10373,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 12,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "710e41c0b4a0f56e2fbc368bd6c588bcd95160ca8fa416dce936dfa355e5a311",
-      "v2_sha256": "710e41c0b4a0f56e2fbc368bd6c588bcd95160ca8fa416dce936dfa355e5a311",
-      "notes": "Needs revision: a lunch order is timed around an earlier meeting, a coworker gives directions and the forgotten pen is returned; the ending about eating vegetables and energy is a weak, unrelated tag."
+      "v2_sha256": "4da3aa5e85b695e799b7d7dba0150609afc49059ed0e12e7fddcc40a29d8ce56",
+      "notes": "Root independently reviewed all four fields. The alternating attempts to steady the table make it rock in new directions, forcing the coworkers to hold the table and bowls until the waiter spots the short leg; the cold lunch earns the table-approval punchline. Gloss/tip match. Corrected manual Jyutping tone in 換 (wun6) and 休 (jau1); metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -10389,10 +10389,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 14,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "deafce1658f3beb4d3481959c5778cc84ff93b5caa089f4ff55498901955f03f",
-      "v2_sha256": "deafce1658f3beb4d3481959c5778cc84ff93b5caa089f4ff55498901955f03f",
-      "notes": "Needs revision: a child invents “pineapple-bun island” from an upside-down menu and draws a sightseeing map; it is an appealing image but the story stays a calm mood anecdote without a developed comic conflict."
+      "v2_sha256": "82170be023773237a95b379201db5d709db868ba4d340d9a099aa6d2ca741ee3",
+      "notes": "Root reviewed the full story and four fields. The child turns the upside-down menu into an island map; the tea flood, shrinking map, rescue-bun boat and captains eating the island form a causal escalation and callback. Root changed Mandarin-like 掰 to colloquial 拗開 and rechecked the two aligned Jyutping syllables. Gloss/tip cover the complete sequence; category/metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -10429,10 +10429,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 19,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6e09991cd46a27944b1896ded456194dc88a239fa7708479fe051e938c5603cd",
-      "v2_sha256": "6e09991cd46a27944b1896ded456194dc88a239fa7708479fe051e938c5603cd",
-      "notes": "Needs revision: a sugar packet joke and “milk tea as mouthwash” line add wordplay, but the tasting conversation does not build to a consequential comic turn."
+      "v2_sha256": "33dfc4d9c8afa088093eea524e05f1788c7ca048c8b0c2819295bb24eadcd2c3",
+      "notes": "Root reviewed all four fields. Different taste preferences escalate into a full cup of collaborative “improvements,” and everyone prefers the untouched original; the final request to talk less pays off the opinions theme. The testing/mixing sequence is coherent, no finance core; gloss and tip match. Jyutping manually checked; corrected the syllable count for 下次 (haa6 ci3). Metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -22701,10 +22701,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 20,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "179554791ca06503985c6ea61d3e145717e78b0059b981574311ae64425dcb2f",
-      "v2_sha256": "179554791ca06503985c6ea61d3e145717e78b0059b981574311ae64425dcb2f",
-      "notes": "Needs revision: the child asks if a needle has teeth and calls it a tiny mosquito, but the reassuring vaccine scene has no further escalation or strong ending. Keep the child’s fear gentle; all four fields read."
+      "v2_sha256": "88417dd13a1be287d2c7be9bcc1bb59201b99b93c52b3439afe9afcd7b467c5a",
+      "notes": "Root replaced the mild “tiny mosquito” tag with a distinct child-character callback: the dinosaur guards the needle, then is assigned to guard the cousin. The fear is respected, the injection remains routine and brief, and the cousin’s handoff earns the ending. Individually reviewed all fields and Jyutping context; gloss/tip match; metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
