@@ -11893,10 +11893,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 2,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8b8658c3648bd309af6d7417add29a7f4ded39408b28a51e4a29efd36daf80b6",
-      "v2_sha256": "8b8658c3648bd309af6d7417add29a7f4ded39408b28a51e4a29efd36daf80b6",
-      "notes": "The sesame filling burst gives one light visual gag, but it is a single mishap without a causal escalation or stronger earned ending."
+      "v2_sha256": "3c4700a49f5621e5e84c20aae04a964ab49871bb90265b3006c6c892f8610473",
+      "notes": "Root re-reviewed all four fields and revised the candidate to avoid the public-performance/crowd-participation signature in accepted food03[0]. Dad overanalyzes two package photos, turns the comparison around, zooms his phone until it blocks half his face, then admits he should choose by taste; the daughter’s “bring your stomach to buy vegetables” and his bigger-bag reply carry the callback. Jyutping checked in context, including 粒 lap1; Simplified gloss matches the final visual action and bag contents, and tip matches the callback. Category and non-language metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -23341,10 +23341,10 @@
     {
       "file": "content/sentence_bank/long_health_services_02.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "43d5b0243c7c77b955f18e3412d360ac70b90b498e6393d137ceed26527123e8",
-      "v2_sha256": "43d5b0243c7c77b955f18e3412d360ac70b90b498e6393d137ceed26527123e8",
-      "notes": "Needs revision: the broken queue machine and changed medicine packaging are resolved normally; the father mistaking the shopping list for the prescription is a mild ending without a developed buildup. Medication details stay careful and serious. All four fields read; gloss/tip match."
+      "v2_sha256": "e6848b5f23ea12882d242f667c54de1c03587928695c4c1cb5cc9523e9e76da9",
+      "notes": "Root re-reviewed all four fields. A dead queue display makes patients unsure about missed numbers; the clerk still calls numbers, and two waiting customers spontaneously split relay/cross-checking roles. The uncle gets absorbed in relaying his own call and misses his turn; the aunt sends him in, then has already taken over when he returns. The final “today I get to wait for someone to call my name” pays off the role reversal. No medication advice or illness joke. Jyutping reviewed in context; changed “逐位數字核對” and Simplified gloss reflect the same action. Usage tip matches the sequence. Category/non-language metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_health_services_02.json",
