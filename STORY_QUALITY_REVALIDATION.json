@@ -28917,10 +28917,10 @@
     {
       "file": "content/sentence_bank/long_health_services_08.json",
       "index": 97,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d2346c83f6ded15b2f4b8b29a948eae64219d4172f2a126eb787fc815c0a23f9",
-      "v2_sha256": "d2346c83f6ded15b2f4b8b29a948eae64219d4172f2a126eb787fc815c0a23f9",
-      "notes": "Needs revision: the family patiently gives the child time and the giraffe card elicits new words, but there is no comic arc; do not make speech delay the joke. Preserve supportive communication guidance. Tip matches."
+      "v2_sha256": "0602947b1f60c64373b01bf3c8267bb38384341fefa47d1b23bd26dbe6a60a66",
+      "notes": "Pass after root review of all four fields. Grandma deliberately invents wrong animal names to invite corrections; other family members overextend the game to ordinary dinner items, the child closes the card box and sets a boundary, and grandma later claims separate credit for her invented names. Punches land on adult over-involvement and grandma’s self-satisfaction, not the child’s speech. Root corrected 碗 wun2, 筷 faai3, 家 gaa1, 糾 gau2, and 盒 hap6; independent character-by-character review confirmed final 290 Han/290 tokens. Final gloss quote/register and event-specific tip checked. Metadata/category preserved; plot differs from accepted speech-practice and timer reversals."
     },
     {
       "file": "content/sentence_bank/long_health_services_08.json",
