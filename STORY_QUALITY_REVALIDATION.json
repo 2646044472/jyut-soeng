@@ -3878,10 +3878,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 84,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "33cbc8a1a1f252751451436d95f3d1482a3e4bd51f296d9a27d12f83c423c056",
-      "v2_sha256": "33cbc8a1a1f252751451436d95f3d1482a3e4bd51f296d9a27d12f83c423c056",
-      "notes": "The old account name differs from the new ID and a grandfather’s photo resolves it, but the plot is administrative and the payoff is mild. Jyutping also contains a malformed mixed-script segment near the account-name explanation; needs full manual correction."
+      "v2_sha256": "67213fac836017caaaf27557c31d10cfa3f5a07fc7ba3e4cb825d828fe0915e9",
+      "notes": "Root reviewed and tightened all four fields. The broad renewal context only opens the scene; a calligraphy session turns one character into a long paper scroll, drawing the room into a collective rescue, and the doorway-length exchange pays off the expansion. Jyutping checked manually; improved natural phrasing for the character in her name and aligned new syllables; gloss/tip match. Metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
@@ -3894,10 +3894,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 86,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5869f53bea2ef0785b2ba110c7ef77a9208dab4faf7a24d1ff3b8f213df91cd6",
-      "v2_sha256": "5869f53bea2ef0785b2ba110c7ef77a9208dab4faf7a24d1ff3b8f213df91cd6",
-      "notes": "The electricity bill repeats the same amount because a subsidy starts next month; the plot is utility-bill date checking and refund timing, directly repeating the specified bill/accounting pattern. Rewrite."
+      "v2_sha256": "558d688f2c04d063f501522fb7897b9da8a14010f5df56750046b865dc2a972c",
+      "notes": "Root independently reviewed the story and all four fields. A brief renewal errand leads into a large plant’s leaves keeping the lift door open, pressing floor buttons and requiring neighbors to pass in/out; the plant greets the building before reaching home. The progression is physically plausible for large leaves and the final anthropomorphic callback fits. Jyutping checked in context; metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
@@ -3934,10 +3934,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 91,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "aebe93d89febfec532e0b34e9954eeab81ac90364dcb666d9bc5bb4625309bc0",
-      "v2_sha256": "aebe93d89febfec532e0b34e9954eeab81ac90364dcb666d9bc5bb4625309bc0",
-      "notes": "The refund decision is unclear: the platform first rejects eligibility because the box was discarded, then a partial refund appears without explaining why the terms allow it. The crooked light/design line is mild and does not resolve that contradiction. All four fields checked; rebuild the causal sequence and payoff."
+      "v2_sha256": "ccaa96976f982f36b5b66de19fe7bf98446bf5e260c57eb8f6a718358f9bb00d",
+      "notes": "Root independently reviewed all four fields. Light leaking through the cracked shade changes the paper dragon’s features; the child narrates them, then Dad’s stretching shadow expands the cast and turns the one-dragon show into a clan genealogy. Strong visual escalation/callback; gloss and tip match. Jyutping manually checked; category metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
@@ -32205,10 +32205,10 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 6,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "dba22504f65c9bbe010eee467c10f17b9fd5656ad3f103fc44a87bc9f5fbc6b3",
-      "v2_sha256": "dba22504f65c9bbe010eee467c10f17b9fd5656ad3f103fc44a87bc9f5fbc6b3",
-      "notes": "The shoe pile causes a near-trip and a mistaken pair, but the ending is simply a tidier hallway, without a strong comic payoff."
+      "v2_sha256": "3f360e1918d94482b31ae91d290fb0663eeedc1b0576b7b3cbb252a47c51320c",
+      "notes": "Root reviewed all four fields. The wet shoe pile leads to the cousin’s improvised labeling and size sorting, which increasingly mismatches pairs; the friends leave in “close enough” shoes, and the cousin discovers he has Dad’s slippers while his own pair went with a guest. The closing line callbacks to his overconfident shoe-management role. Jyutping checked manually; gloss/tip match; metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -32229,10 +32229,10 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 9,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d075d4e594eb9566fc036fdd8fd6c332f050a153a42914dbc464c737f6863122",
-      "v2_sha256": "d075d4e594eb9566fc036fdd8fd6c332f050a153a42914dbc464c737f6863122",
-      "notes": "The robot’s curtain entanglement leads to a rescue label and pre-departure list, but the child’s monster comparison is mild and the ending is mostly practical cleanup."
+      "v2_sha256": "637c3b8a8ec230a58cdd00cddc88154c2e9154cb01755061537802e33c6299af",
+      "notes": "Root reviewed all four fields. Successive obstacles make the whole family mirror the vacuum’s turns and lifts; the “we are its navigation” line and the untouched rice grain/meal-evidence callback pay off the chase. Physical sequence remains clear; Jyutping manually reviewed; gloss/tip match. Metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
