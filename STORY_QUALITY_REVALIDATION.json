@@ -39501,10 +39501,10 @@
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 18,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2c44bb42fc1344f37c381a03c97f524365dde274d97342321faa10e615512fd4",
-      "v2_sha256": "2c44bb42fc1344f37c381a03c97f524365dde274d97342321faa10e615512fd4",
-      "notes": "The drill seems dead because its charger is not plugged in, and the shelf installation later recovers a lost board-game piece; this is a neat coincidence but the story mostly demonstrates checking instructions and sorting accessories, without a strong escalating payoff."
+      "v2_sha256": "e7fddd63ee5b890c282c36c262f8153df330730e0a0971071c39e18f9d46ee47",
+      "notes": "Pass after main review of comedy, causal action and all four fields. The new drill fails because its unplugged charger is discovered, then successful shelf work attracts a chair repair and two queued items; the fake charging notice gets a clear callback when grandma claims her glasses are already in the queue. Independent character-level Jyutping review corrected 螺 to lo4 and 鎖緊 to so2 gan2; final 242 Han/242 aligned syllables checked. Full gloss and event-specific tip match; category and all other metadata preserved. Similar accepted furniture repair story has a different scene mechanism and payoff."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
