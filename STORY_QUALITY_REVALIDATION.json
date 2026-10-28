@@ -22749,10 +22749,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 26,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4924256ab422691ee872e22c71135ce5967b87445c077640ce6c1221a7e5fe54",
-      "v2_sha256": "4924256ab422691ee872e22c71135ce5967b87445c077640ce6c1221a7e5fe54",
-      "notes": "Needs revision: a gust sends grandma’s hat into a flower bed and a dog owner helps retrieve it; the mistaken dog memory is a brief smile, with no developed escalation or ending callback. All four fields read."
+      "v2_sha256": "f7ee07a352c4af140c2a70bbec04d7126edc75fbb27b6723e00c9d7859a3e7e6",
+      "notes": "Main agent rewrote and individually reviewed all four fields. Grandpa sets three staggered alarms for steaming sweet potatoes; each mistaken “ready” call sends the older attendees to the kitchen again. While waiting, he turns the repeated trips into a chair stretch; the third ring lands during the raised-arm pose and the potatoes are actually ready. The grandmother’s final contrast between timer accuracy and Grandpa’s punctual exercise class is the payoff. Scene is coherent, complete gloss and event-specific tip checked. Jyutping manually aligned and readings checked in context; category/metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -39949,18 +39949,18 @@
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 74,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "748277c09f67a6585ed89e8303d06ca17b3a0e6df9e9bb902d11564608a8576d",
-      "v2_sha256": "748277c09f67a6585ed89e8303d06ca17b3a0e6df9e9bb902d11564608a8576d",
-      "notes": "The chore list makes the cleaning assignment fair and everyone finishes, but the only joke is grandma hoping to draw the easiest task next time. The small-dessert line adds another weak tag; the story lacks a stronger comic progression."
+      "v2_sha256": "5e8ced3d4070fda835eb5029c039ae811a4d8ed08ee34ab8c1005d555435e9ab",
+      "notes": "Main agent reviewed all four fields. A deliberately incomplete shoe-cabinet clue causes Dad to search three pairs of trainers; a dropped second clue sends the family crawling under the sofa and uncovers a long-lost slipper. Grandpa’s old hiding place reveals the remote and his silent role in the hunt. Dad claims the slipper as treasure; the child’s 「尋鞋記」 title closes the shoe callback. Physical sequence, complete gloss and event-specific tip reviewed; manually checked all 283 Jyutping tokens. Metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 75,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "62377fd4b7f8584f623690cd3cd3d2172f459dd679979004a9e00eb39e5caf99",
-      "v2_sha256": "62377fd4b7f8584f623690cd3cd3d2172f459dd679979004a9e00eb39e5caf99",
-      "notes": "The chair repair uncovers a sentimental childhood memory and the family keeps the chair. It is coherent and warm, but the memory and blanket ending do not produce a comic escalation or payoff."
+      "v2_sha256": "f44e99705a697daf47158e4e5c10ddff3413eee2614857ec7dbb87829bc51586",
+      "notes": "Main agent individually reviewed and rewrote all four fields. Dad’s newspaper shim makes the rattan chair tilt; during repair his hands get caught while he tries to help. The repaired chair is quiet, but his own knees squeak; the newspaper then stabilizes the dining table as a callback. Physical sequence is plausible and the ending pays off the opening shim. Gloss and event-specific tip match. Jyutping manually aligned; corrected 檢 gim2, 粒 lap1, and 腕 wun2 after checking character context. Metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
