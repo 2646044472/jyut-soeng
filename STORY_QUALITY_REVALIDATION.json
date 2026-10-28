@@ -35397,10 +35397,10 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 5,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "164c4ed12dabfbc524dcc1725b346556f1614a5672dec246b2521feddc5f55fe",
-      "v2_sha256": "164c4ed12dabfbc524dcc1725b346556f1614a5672dec246b2521feddc5f55fe",
-      "notes": "Needs revision: the bus-direction mistake has realistic safe recovery, but after the initial panic the rest resolves as straightforward travel advice and pride in independence; there is no escalating comic turn or earned punchline. Read sentence, Jyutping, full gloss and tip; fields correspond and tip matches events."
+      "v2_sha256": "deb8a45c4e90129e89f3d46c671440ce34e128b5af974c1c9391809f22317ab4",
+      "notes": "Root re-authored and individually reviewed all four fields. On a crowded bus, the boy stands early at three stops to avoid blocking the aisle; passengers repeatedly assume he is getting off and make room, while he sits back because it is not his stop. At the real stop he waits until the door opens, and the row yields again; the uncle asks if it is finally true. Root checked plausible passenger movement, natural Cantonese, every Jyutping token/tone, full gloss and matching tip; category/metadata preserved. Searched accepted bus stories: existing examples concern route direction/queues, not this repeated early-standing etiquette misunderstanding."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
