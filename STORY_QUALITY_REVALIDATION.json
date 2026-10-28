@@ -33085,10 +33085,10 @@
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 16,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2996d63c37fd6ea289e2bcd28b790b068acc4de9f6d6ec35802f905ab2874f3d",
-      "v2_sha256": "2996d63c37fd6ea289e2bcd28b790b068acc4de9f6d6ec35802f905ab2874f3d",
-      "notes": "Needs revision: folded cranes become a wind chime, with a crooked beak and a wave-like rustle; the activity is pleasant but has no consequential conflict or strong reversal. Root read all four fields; no source edit."
+      "v2_sha256": "81168797394a6ae1d397a07e8de3c3a2c5bf07bfa487b4d9fac4eba7435422b2",
+      "notes": "Root re-authored and individually reviewed all four fields. Dad says he is flexible but switches away after each opening song, guesses one singer, and never reaches an episode; the reveal is that he wants to hear themes and identify singers. The family tests this by letting one intro finish and turning off the TV, but he immediately asks for the next song. Distinct from accepted sweep-robot interruption, opera viewing, and misplaced remote stories. Root checked causality, dialogue, all Jyutping readings/tones, complete gloss and matching tip; category/other metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
@@ -33757,10 +33757,10 @@
     {
       "file": "content/sentence_bank/long_home_family_03.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b524c0c374b9a4b96b068b120911a78f12065e16427f72007375f5aa115eac90",
-      "v2_sha256": "b524c0c374b9a4b96b068b120911a78f12065e16427f72007375f5aa115eac90",
-      "notes": "Needs revision: the brother negotiates a quiet evening during a packed family visit, then rain changes plans to a family meal and a next-day walk. This is a warm rest-and-connection story without comic escalation. Root read all four fields; no source edit."
+      "v2_sha256": "012acd00d39de2f64bfb5795097adc4da4dc81298f6c08301d1ad0c71af667d6",
+      "notes": "Root re-authored and individually reviewed all four fields. A returning brother is repeatedly treated as a hotel guest: family brings tea, prevents him from fetching or clearing anything, follows him to the washroom, then offers a towel through the door. The escalation earns the final “I am home, not in a hotel” complaint. Checked distinctness from accepted hospitality/home scenes, continuity, colloquial wording, every Jyutping unit/tone, full gloss and tip; category and other metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_03.json",
@@ -35389,10 +35389,10 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 4,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "0e2616d0b06479d3cda007f657dd2c35bb473023256686be6f120c0d91cf7d96",
-      "v2_sha256": "0e2616d0b06479d3cda007f657dd2c35bb473023256686be6f120c0d91cf7d96",
-      "notes": "Needs revision: dad tightens a faucet handle without fixing a cracked washer, then learns to check the water meter and call a plumber; the repair is practical without comic escalation. This is a water-leak maintenance story rather than a bill/accounting plot. Checked all four fields; source unchanged."
+      "v2_sha256": "84cbdfd2705f06612c35f23a229cf10ea58f63c896b7bb0a786f42c947ff2c9a",
+      "notes": "Root refined the locally reviewed draft before push: the parrot learns Dad’s repeated “等陣先” instead of “早晨,” then repeats it while Dad delays getting out of bed. Daughter’s final comparison makes the bird’s learning speed and Dad’s habit the earned punchline. The final plot avoids the other lane’s returning-guest scene. Root re-reviewed continuity, plausible imitation, colloquial Cantonese, all Jyutping units/readings and tones, full gloss and story-specific tip; category and other metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
