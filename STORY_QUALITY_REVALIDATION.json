@@ -13149,10 +13149,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 59,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8ecf49075051f4b8ab3cc3f47fcc7a6586231c75bb5e344789e49a6bb857d22d",
-      "v2_sha256": "8ecf49075051f4b8ab3cc3f47fcc7a6586231c75bb5e344789e49a6bb857d22d",
-      "notes": "Needs revision: the narrator follows ripening advice and bananas are ready for the picnic, but the outcome is entirely smooth and the ending only repeats the next outing request. Four fields read; no source edit."
+      "v2_sha256": "6312a5f755da078a791cce81548f20c540433267e744bb7dbe3d4a5f68217f56",
+      "notes": "V2 manually reviewed: a three-day ripening plan escalates into a phone reminder and a friend arriving late while the bananas are ready; the “most punctual picnic partner” callback pays off the scheduling setup. Selection/storage details retained; all four fields and Jyutping readings checked; no family theme.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -22197,10 +22198,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 45,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d5b235b26fa9c8b91a274946307d760432ccac3cd8b1ead8b3270323a80a6408",
-      "v2_sha256": "d5b235b26fa9c8b91a274946307d760432ccac3cd8b1ead8b3270323a80a6408",
-      "notes": "Needs revision: wind threatens the picnic bag and a thermos secures it, then the group waits in a pavilion. “First round against the wind” is a mild quip, but the event has no second escalation or earned ending. All four fields read; tip matches."
+      "v2_sha256": "eed9fd967554b529a1eb334cba6f12bcda0ab3ea1ce2b3c015c7705b0ae4909b",
+      "notes": "V2 manually reviewed: the picnic bread and sweets are threatened by gusts; successive items are used as weights, escalating into a “who can hold it down” contest, then the pinned menu becomes the wind’s assigned seat. Food packing details retained; all four fields and readings checked; friendship plot, no family theme.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -23246,10 +23248,11 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 88,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "93e934174c605ecc77469bffb87c613cba78ef596950c1b8af3b98249c14dfc6",
-      "v2_sha256": "93e934174c605ecc77469bffb87c613cba78ef596950c1b8af3b98249c14dfc6",
-      "notes": "The leak and neighbor’s scorched soup are parallel mishaps; they do not build into one comic conflict, and the ending only schedules another inspection."
+      "v2_sha256": "b38eca30eef8494b3fa7686b0eb044a5c610963efb57689323f18a7307ad5911",
+      "notes": "V2 manually reviewed: an apartment leak is safely isolated and repaired; the neighbor’s help distracts her from a pot, tying the drip bucket and dried soup into a water-balance gag and a callback about using a phone timer instead of the bucket. Existing electrical/leak safety steps preserved; all four fields and readings checked; neighbor, not family.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
