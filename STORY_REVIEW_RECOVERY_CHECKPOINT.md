@@ -298,3 +298,11 @@
 - Checked Macau Cantonese and contextual Jyutping (271 Han characters / 271 syllables), the revised readings, full Simplified Chinese gloss, event-specific practice tip, and event order. Screened approved stories; the closest character-trigram Jaccard similarity was 0.0165 against the distinct handmade dumpling-shop lunch at `long_food_shopping_13.json` index 33.
 - Updated the V2 status/hash, rebuilt the app bundle, verified exact source-to-app sentence/Jyutping/gloss/tip/category mirrors, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`. The mechanical story audit had no failures; `python tools/validate_content.py` passed (8,000 entries), the checklist was regenerated, and `git diff --check` passed. Unit tests were not run.
 - Current V2 total: 1,662 pass / 3,338 needs_revision / 0 pending. Content commit: `8d8b9a9a74be3b3f1f382be742915f3dfc40c7cf`; recovery-checkpoint commit and remote verification remain.
+
+
+## Active continuation - 2026-10-30, duplicate-screen continuation batch 26
+
+- Continued in the independent worktree; local HEAD and `origin/codex/macau-story-upgrade-batch-progress` were both `db5d32d9b1729d650593529077fcebd7eb8f6e8e` before this review. The Desktop worktree remains untouched.
+- Re-screened `content/sentence_bank/long_food_shopping_15.json` zero-based index 19 and kept it `needs_revision`. Its torn frozen-pea bag, peas rolling under an appliance, escapee-personification and supermarket exchange repeat the approved frozen-pea escape plot at `long_food_shopping_07.json` index 96. The low character-trigram similarity (0.0099) does not change the semantic overlap. Rewrote the V2 note to document the duplicate and the reason not to approve it; source content remains unchanged.
+- Regenerated `STORY_QUALITY_CHECKLIST.md`; the revalidation ledger remains synchronized with source hashes. No app rebuild was needed because neither card content nor approval status changed. `git diff --check` passed; unit tests were not run.
+- V2 total remains 1,662 pass / 3,338 needs_revision / 0 pending. The ledger-note and recovery-checkpoint commits and remote verification remain.
