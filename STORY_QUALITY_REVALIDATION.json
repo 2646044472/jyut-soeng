@@ -34469,10 +34469,10 @@
     {
       "file": "content/sentence_bank/long_home_family_03.json",
       "index": 89,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6117cceb9909f4062f2ec48ea54b2f32450f3de6ddfa095aac9e949a15600924",
-      "v2_sha256": "6117cceb9909f4062f2ec48ea54b2f32450f3de6ddfa095aac9e949a15600924",
-      "notes": "Needs revision: the mother and daughter exchange name-mix-up stories and the dessert gets cold, but the repeated mistake is summarized rather than built into a strong comic payoff. Checked all four fields; source unchanged."
+      "v2_sha256": "14c797170119a4e066cab97d1abb4ef5c3f2b704f90753d892f2ec234dfcc4c7",
+      "notes": "Rebuilt the mild name-mixup anecdote as a concrete family restaurant role-play: the father escalates the pretend service, a misdelivered courier mistakes the scene for a shop, and the mother applies the family's own queue rule to the father. Reviewed Cantonese causality and punchline, every Jyutping syllable against the 262 Han characters, complete Simplified gloss, and event-specific retelling prompt."
     },
     {
       "file": "content/sentence_bank/long_home_family_03.json",
