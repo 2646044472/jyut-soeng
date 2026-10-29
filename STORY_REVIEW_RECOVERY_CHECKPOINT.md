@@ -98,3 +98,15 @@
 - `python tools/validate_content.py` passed (8,000 entries), progress report regenerated, and `git diff --check` passed. V2 total is 1,643 pass / 3,357 needs_revision / 0 pending. Unit tests were not run in this batch.
 - Batch commit `64d3b17c0ca6fd306e83dd5ed0f1045af10ad2e7` (`Review Cantonese water delivery story`) was pushed by ordinary fast-forward from `1caf5a7`. Post-push `git ls-remote` confirmed the target branch at exactly `64d3b17c0ca6fd306e83dd5ed0f1045af10ad2e7`; local `HEAD` matched at verification time.
 - Continue with distinct non-family-core stories; do not pass the reverted index 2 unless its delivery plot is made distinct from the approved wrong-address story.
+
+
+## Active continuation — 2026-10-30, market batch 7
+
+- Independent worktree: `C:\Users\bankey\Documents\Codex\2026-10-29\task\jyut-soeng-v2-worktree`; Desktop repository remains untouched.
+- Before this batch, local and remote target branch were both `a016cdf207d6da178f078cd6503a996cb4c96cad`; the remote target ref was checked before commit.
+- Completed V2 review for `content/sentence_bank/long_food_shopping_06.json` zero-based index 85. The roommate’s “winter melon installments” joke now runs through the vendor weighing and labeling the two portions, separate meals, a “final installment paid” shopping-list note, and the callback that a watermelon could be bought in four installments.
+- Reviewed Cantonese, contextual Jyutping, complete Simplified Chinese gloss, and `故事练习：` prompt. Han/Jyutping alignment is 226/226. Highest trigram Jaccard against previously approved stories was 0.0132; the nearest lexical match is unrelated.
+- Updated the V2 hash/status, rebuilt the app bundle, and verified exact source text, Jyutping, gloss, usage tip, `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), progress report regenerated, and `git diff --check` passed. Current V2 total: 1,644 pass / 3,356 needs_revision / 0 pending. Unit tests were not run in this batch.
+- This batch is ready for local commit and ordinary fast-forward push from `a016cdf`; record the resulting commit and post-push remote SHA after verifying them.
+- Continue screening for distinct, non-family-core stories.
