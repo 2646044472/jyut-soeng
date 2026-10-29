@@ -8589,10 +8589,11 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_11.json",
       "index": 47,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e2fe772d0344bd5893d7f76fb0de6fa27cb0fc1c01f0abf17ab52e3a4729ecbd",
-      "v2_sha256": "e2fe772d0344bd5893d7f76fb0de6fa27cb0fc1c01f0abf17ab52e3a4729ecbd",
-      "notes": "Read all four fields. The old till and a duplicate charge are handled through a trial of the new machine, a bank refund, and daily reconciliation. The ending returns to making milk tea; there is no comic reversal or payoff. Payment processing is central."
+      "v2_sha256": "727c9acd127f33fbe5ed9aa66c099fe9be04a7d7a3237626b4697655daf579e9",
+      "notes": "V2 manually reviewed: during lunch the old till jams and temporarily hides a receipt; a prospective terminal is compared using written service terms and tested. The new printer produces two copies, and a regular jokes that it has a photocopier; the shop verifies there is one transaction, labels the customer and shop copies, and the final callback contrasts a till that swallowed receipts with one that has receipt “twins.” Commercial workplace scene, no family plot and no billing dispute; generic fee/process language only, no specific refund-time claim; all four fields/readings checked, category preserved.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_11.json",
