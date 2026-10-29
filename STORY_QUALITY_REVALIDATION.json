@@ -10702,10 +10702,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 53,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e858da958143f07aceb9d8842e85e6c55f6116ad3f0c3fbedf4e965170397d31",
-      "v2_sha256": "e858da958143f07aceb9d8842e85e6c55f6116ad3f0c3fbedf4e965170397d31",
-      "notes": "Needs revision: mold in the bread is reported and the family buys egg tarts instead; the sea-side breakfast is a pleasant substitute, not a comedic reversal."
+      "v2_sha256": "2cf8a313efeafc811dd881adb2d2632cce77abcf786f9005e7f96ac3f83079cf",
+      "notes": "Kept the mold report, batch check, refund and supplier notice explicit without opening or eating the affected bread. Rebuilt the breakfast around the daughter assigning the egg tart and soy milk temporary shifts; the later fresh loaf returns to work while the tart clocks out, then the final line gives it an extra shift in her stomach. Compared with neighboring food-return stories; the shift-roster callback is distinct. Reviewed colloquial Cantonese, contextual Jyutping, full gloss and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
