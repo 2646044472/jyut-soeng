@@ -213,5 +213,5 @@
 - Reviewed Macau Cantonese, contextual Jyutping (229 Han characters / 229 syllables), Simplified Chinese gloss, and practice tip. The closest approved-story trigram Jaccard score was 0.0186; the approved honey bulk-order story concerns leaky jar seals and has a different plot.
 - Updated the V2 hash/status, rebuilt the app bundle, verified exact source-to-app mirrors and `qualityPriority=1`, regenerated the checklist, and passed `python tools/validate_content.py` (8,000 entries) and `git diff --check`.
 - Current V2 total: 1,653 pass / 3,347 needs_revision / 0 pending. Unit tests were not run.
-- Content commit `3b55886` (`Review Cantonese crystallized honey story`) was pushed by ordinary fast-forward. Update this checkpoint commit with the verified final SHA.
+- Content commit `3b55886` (`Review Cantonese crystallized honey story`) was pushed by ordinary fast-forward. The follow-on checkpoint commit `c6e54ca43524439fdd03d69bac44b74dd710a001` was also pushed and confirmed with `git ls-remote`.
 - Continue reviewing distinct non-family-core stories across the full 5,000-card scope.
