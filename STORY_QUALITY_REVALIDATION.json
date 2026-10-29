@@ -22534,10 +22534,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 35,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "83c3482840748232c639eea5c6752633f0e91a51d3b14eca1c3873bf89a628a8",
-      "v2_sha256": "83c3482840748232c639eea5c6752633f0e91a51d3b14eca1c3873bf89a628a8",
-      "notes": "Needs revision: missing utensils and cheese stuck to a cap are repaired; friends eat lunch and record what to pack next time. No meaningful comic reversal or ending. All four fields read; gloss/tip match."
+      "v2_sha256": "f33bc276214093f61813da26bd21aa9382bcfdb7fe597a6aeb82af1f23d35225",
+      "notes": "Rebuilt the hiking-sandwich anecdote around a connected picnic problem: after the group forgets utensils and cheese sticks to the thermos lid, a friend produces a miniature kitchen, earning the callback that next time they can open a shop on the summit. The supermarket sandwich ingredients and hike remain central. Reviewed colloquial Macau Cantonese, contextual Jyutping (241 Han characters / 241 syllables), full Simplified Chinese gloss, and practice tip. The closest character-trigram match among approved stories was an unrelated clinic follow-up (Jaccard 0.0212)."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
