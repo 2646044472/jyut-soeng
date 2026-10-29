@@ -10414,10 +10414,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 17,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b83f9845a163ab6cc2fd6069df6d7efcf629237009f90a08ed0c3318ce4a5b39",
-      "v2_sha256": "b83f9845a163ab6cc2fd6069df6d7efcf629237009f90a08ed0c3318ce4a5b39",
-      "notes": "Needs revision: two old classmates share pineapple buns and recall school days, but the crumbs are a small affectionate detail rather than an escalating joke."
+      "v2_sha256": "6bc50f27dcaab91d859dcf6c514b1f6b432a265510f02444e1f222d0cd54c387",
+      "notes": "Manually reviewed all four fields and contextual Jyutping. A nonfamily after-work tea-restaurant scene with an old classmate: the hot pineapple-bun crust scatters, attempts to catch and corral the crumbs fail, the crumbs become a half-bun “model,” and another customer asks for help before the server closes the “puzzle class.” Distinct escalating pastry-crumb gag; no money conflict or family-centered plot. 248 Han characters; Jyutping aligned and tone-checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -12038,10 +12038,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 20,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "35e3f9533c014cb0249843bb1fe3781529aa448931e68195f29f38297dc6db75",
-      "v2_sha256": "35e3f9533c014cb0249843bb1fe3781529aa448931e68195f29f38297dc6db75",
-      "notes": "The burnt bread and power outage lead neighbors to share soup, but the ending is a warm exchange plan rather than comedy."
+      "v2_sha256": "bb13ddbd79756460b3f6b73455c4f3fdbf8a2a720e5ca9d5e2198bd156532e49",
+      "notes": "Manually reviewed all four fields and contextual Jyutping. Nonfamily neighbor/community meal: undercooked bread is safely sliced and pan-fried through; a neighbor child and then more residents turn a soup-and-bread thank-you into a corridor queue, ending with the shopkeeper-like “aroma-only delivery” callback and next-day opening. 258 Han characters; tone-checked and mechanically aligned. No family-centered plot or money conflict."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
