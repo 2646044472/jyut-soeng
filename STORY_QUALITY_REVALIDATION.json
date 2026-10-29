@@ -21344,10 +21344,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
       "index": 18,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e4061ee8c35a4b77be1d9868c739167af489f96b3090d01e32ddd23854187212",
-      "v2_sha256": "e4061ee8c35a4b77be1d9868c739167af489f96b3090d01e32ddd23854187212",
-      "notes": "Needs revision: “少粉” is misheard as fewer fish balls, but the restaurant corrects the order; the “eat air” line and hot soup timer do not build into a strong payoff. Tip matches the order misunderstanding. Four fields read."
+      "v2_sha256": "703a0e08939096f51caad96f4029bafef28d679afe89319db264242891cf2c9b",
+      "notes": "Passed after fixing the event order so the order misunderstanding happens before the meal ends. Clarified the partial hearing, replaced the disconnected joke with a fish-ball day-off/return-to-work callback, and removed a newly opened shop setup that overlapped a nearby approved coworker lunch story. Checked 271 Han characters against 271 Jyutping syllables, revised readings, complete Mandarin gloss, practice tip, and plot distinctness; maximum character-trigram Jaccard against approved stories was 0.0165."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
