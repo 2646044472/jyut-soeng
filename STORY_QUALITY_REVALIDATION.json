@@ -33221,10 +33221,10 @@
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 33,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "054bbf21d17aa5cec20aaf1cd2646325ae4033a30abc29339f2520d5077d99bc",
-      "v2_sha256": "054bbf21d17aa5cec20aaf1cd2646325ae4033a30abc29339f2520d5077d99bc",
-      "notes": "Needs revision: a family creates a TV schedule; a lost parrot on the news gives the daughter a way to help, and a drama brings up a travel memory. The scenes add topics but do not build a strong comic arc. Root read all four fields; no source edit."
+      "v2_sha256": "f1022fc9016a11d286f1aaefc3e8f85b1b9f2613d30879d8e4f506321e3144d7",
+      "notes": "Root rewrote the flat family-boundary scene as recursive thanks at dinner: one courteous reply triggers the next, everyone delays eating, and grandmother’s cooling soup turns the ritual into a callback. Reviewed all four fields and contextual Jyutping character by character; category and other metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
@@ -34141,10 +34141,10 @@
     {
       "file": "content/sentence_bank/long_home_family_03.json",
       "index": 48,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "31322d87f390b2a74b3cf2382c822ff9eac897b6eaf51b8c09a9d5d8e7b14ccc",
-      "v2_sha256": "31322d87f390b2a74b3cf2382c822ff9eac897b6eaf51b8c09a9d5d8e7b14ccc",
-      "notes": "Needs revision: a rainstorm disrupts a tightly planned family trip, and a toy-shop detour helps the father value unscheduled time; the resolution is thoughtful but not comic. Root read all four fields; no source edit."
+      "v2_sha256": "f63a98f351cb3e2e19b54af36eb7c4199d92b4d976b6a01666b425ddddfc5545",
+      "notes": "Root rewrote the flat travel itinerary as a repeated “順便” catchphrase that fills a daughter’s bingo card; the completed card makes Dad recognize his own overplanning, and the family chooses to stay at one exhibit. Reviewed all four fields and contextual Jyutping character by character; category and other metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_03.json",
