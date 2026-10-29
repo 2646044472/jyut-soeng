@@ -10494,10 +10494,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 27,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a650f9de15ad286b3e679a547f710fb05e1b8c12720bb7fac4b75922b3eda85a",
-      "v2_sha256": "a650f9de15ad286b3e679a547f710fb05e1b8c12720bb7fac4b75922b3eda85a",
-      "notes": "Needs revision: yogurt and blueberries are sorted by expiry date to avoid waste; the family plan works as intended, with no comic conflict or payoff."
+      "v2_sha256": "d68d2ef6754710cb86edf552d69d42013d1d34ec063de049007a806f921576a8",
+      "notes": "The sister turns expiry-date rotation into a yogurt “shift roster,” with the older carton on duty first and blueberries as backup. Dad tries to skip the queue for the newer carton; the “clocking out on time” stamp and next-shop callback complete the office-roleplay gag. Compared with approved `long_food_shopping_07.json` index 25 (strawberry selection and family fruit tasting), `long_food_shopping_13.json` index 1 (blueberry pancake guessing game), and `long_family_finance_services_12.json` index 36 (bulk coffee saving/expiry arithmetic); the mechanisms differ. Reviewed colloquial Cantonese, contextual Jyutping, complete gloss and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",

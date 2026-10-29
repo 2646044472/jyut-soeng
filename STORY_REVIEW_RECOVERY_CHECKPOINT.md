@@ -431,3 +431,13 @@
 - Kept it `needs_revision`, recording the need for a distinct joke that grows from the delivery/chopsticks while preserving the neighbor beat. Source and app mirror are unchanged.
 - Checklist regenerated; `python tools/validate_content.py` passed (8,000 entries), and `git diff --check` passed. V2 remains 1,670 pass / 3,330 needs_revision / 0 pending.
 - Commit and remote verification follow. Continue across all remaining cards.
+
+
+## Active continuation - 2026-10-30, yogurt shift-roster batch 41
+
+- Continued from clean HEAD `ebe07f2`; confirmed the target branch matched before editing.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 27. The sister turns expiry-date order into a yogurt shift roster, gives the fridge a clock-in station, stops Dad from letting a newer carton cut the queue, and stamps the older carton “on time” when breakfast uses it. Blueberries serve as backup and the next-shopping callback closes the office-roleplay gag.
+- Compared with approved `long_food_shopping_07.json` index 25 (strawberry selection/family tasting), `long_food_shopping_13.json` index 1 (blueberry pancake guessing), and `long_family_finance_services_12.json` index 36 (bulk coffee savings/expiry arithmetic); mechanisms differ. Reviewed Cantonese, Jyutping (222 Han / 222 syllables), full Simplified gloss and practice tip. Nearest non-self trigram Jaccard was 0.0196, with no plot-level duplicate.
+- Updated ledger hash/status and rebuilt app assets; exact source-to-app sentence/Jyutping/gloss/tip verified with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,671 pass / 3,329 needs_revision / 0 pending. Unit tests were not run.
+- Content and checkpoint are ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.
