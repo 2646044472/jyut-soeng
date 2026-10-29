@@ -20832,10 +20832,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 9,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "620e24a1686fd3c7ade5e65dbd9e413f17cd1ed40ef6856cae70a76ea6f54ee6",
-      "v2_sha256": "620e24a1686fd3c7ade5e65dbd9e413f17cd1ed40ef6856cae70a76ea6f54ee6",
-      "notes": "The cousin picks the wrong spicy soup, drinks milk, and everyone later discovers they like it. The heat reaction supplies one gag, but no further escalation or strong final punchline; tip/gloss match. Reviewed sentence, Jyutping, full gloss and story-specific tip; no source edit."
+      "v2_sha256": "1339063b551bb5cd54a6e1d316298028aaacb1665a81815b4fa58dee2f98a21a",
+      "notes": "Rebuilt the hotpot sequence around the cousin’s accidental “cooling station”: guests who first hand her milk then compete for the spicy fish balls, and both the mala pot and milk run out. Distinct from approved spice-bravado, utensil-management, and food-shape hotpot plots. Reviewed colloquial Cantonese, contextual Jyutping (257/257 Han/syllables), complete gloss and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",

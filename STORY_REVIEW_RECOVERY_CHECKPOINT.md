@@ -367,3 +367,13 @@
 - Re-screened `content/sentence_bank/long_food_shopping_14.json` zero-based index 14. The group order is mislabeled, coworkers verify the order, and the shop remakes the drink; this repeats approved wrong-drink-label-and-remake plots at `long_food_shopping_02.json` index 51 and `long_food_shopping_04.json` index 73. Kept it `needs_revision` and recorded the overlaps. No source or app content changed.
 - Regenerated the mechanical checklist; `python tools/validate_content.py` passed (8,000 entries), and `git diff --check` passed. No app rebuild or unit tests were needed.
 - V2 total remains 1,666 pass / 3,334 needs_revision / 0 pending. Note-only ledger and checkpoint commits follow; continue screening and rewriting distinct eligible stories across the full 5,000-card scope.
+
+
+## Active continuation - 2026-10-30, hotpot cooling-station batch 34
+
+- Resumed from clean worktree HEAD `e634719` after verifying V2 counts at 1,666 pass / 3,334 needs_revision / 0 pending.
+- Reworked `content/sentence_bank/long_food_shopping_14.json` zero-based index 9. The cousin who takes the wrong mala soup becomes the group’s “cooling station” as everyone else unexpectedly competes for spicy fish balls; both the mala pot and the milk run out, and she volunteers to buy clear soup next time.
+- The plot’s escalation and ending differ from approved spice-bravado, hotpot-utensil management, and food-shape stories. Reviewed Macau Cantonese, contextual Jyutping (257 Han characters / 257 syllables), complete Simplified Chinese gloss, and story-specific practice tip.
+- Updated the V2 ledger hash/status, rebuilt the app bundle, and confirmed exact source-to-app sentence/Jyutping/gloss/tip matches with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries); checklist regenerated; `git diff --check` passed. New V2 count: 1,667 pass / 3,333 needs_revision / 0 pending. Unit tests were not run.
+- Content, app mirror, ledger, checklist, and this recovery note are ready for local commits. Continue reviewing distinct cards across all 5,000.
