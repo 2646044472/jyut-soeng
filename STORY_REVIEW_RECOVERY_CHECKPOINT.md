@@ -151,3 +151,13 @@
 - Updated V2 status/hash, rebuilt the app bundle, and verified exact sentence, Jyutping, gloss, usage tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), progress report regeneration completed, and `git diff --check` passed. Current V2 count: 1,648 pass / 3,352 needs_revision / 0 pending. Unit tests were not run.
 - Continue reviewing distinct non-family-core cards across the full 5,000-card scope.
+
+
+## Active continuation — 2026-10-30, delayed tea batch 12
+
+- Continued in the independent worktree; before this batch the remote target was verified at `e6c37df520a16e672beeb1602bb88449e525b893`.
+- Completed V2 review for `content/sentence_bank/long_food_shopping_08.json` zero-based index 61. After coworkers brew tea and finish their meeting, the delayed delivery arrives at adjournment; Ah Mei calls it “散會茶” and says next time she will ask when the meeting ends.
+- Workplace takeaway communication remains central. Reviewed Cantonese (including changing the Mandarin-influenced 看 to 睇), contextual Jyutping, full Simplified Chinese gloss, and practice tip. Han/Jyutping alignment is 243/243. Highest approved-story trigram Jaccard was 0.0166; nearest lexical match is a distinct breakfast-order story.
+- Updated V2 status/hash, rebuilt the app bundle, and verified exact sentence, Jyutping, gloss, usage tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), progress report regeneration completed, and `git diff --check` passed. Current V2 count: 1,649 pass / 3,351 needs_revision / 0 pending. Unit tests were not run.
+- Continue reviewing distinct non-family-core cards across the full 5,000-card scope.

@@ -16368,10 +16368,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 61,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b8767434e0a5232dc6d60e58b7e2a5674de002cef1d36e94e8a9d7ccf98b0d18",
-      "v2_sha256": "b8767434e0a5232dc6d60e58b7e2a5674de002cef1d36e94e8a9d7ccf98b0d18",
-      "notes": "A delayed tea order prompts the coworkers to brew tea themselves, and the vendor later refunds the drink fee; the “brain can keep turning” line is a mild observation without a strong escalation. Checked all four fields."
+      "v2_sha256": "de7e9902da9123bcab155fd83105891fe9e3ebc1f260906600301d71b7a1a997",
+      "notes": "Reworked the delayed office afternoon-tea order into a callback: after coworkers brew tea and finish the meeting, the delivery arrives just as they adjourn; Ah Mei calls it “adjournment tea,” and says next time she will ask when the meeting ends. Workplace takeaway communication remains central and distinct from approved drink-label and meeting-roll-call plots. Checked Cantonese, contextual Jyutping, full Simplified Chinese gloss, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
