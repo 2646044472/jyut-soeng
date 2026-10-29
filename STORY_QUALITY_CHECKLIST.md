@@ -196,6 +196,8 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 
 **Corpus language review: 298/5000; source rows without a valid review: 4702.**
 
-**Clarified quality revalidation (`macau-comedy-revalidation-v2`): 1515/5000 pass; 3485 need revision; 0 pending.**
+**Clarified quality revalidation (`macau-comedy-revalidation-v2`): 1552/5000 pass; 3448 need revision; 0 pending (recounted directly from `STORY_QUALITY_REVALIDATION.json` on 2026-10-29).**
+
+The 5,000 source rows independently pass the current mechanical `audit()` checks. The full progress helper still stops on a stale hash for the preserved local pronunciation edit at `content/sentence_bank/long_health_services_09.json` index 2; it has not been altered to force a global pass.
 
 `STORY_LANGUAGE_REVIEW.json` remains the historical `macau-comedy-upgrade-v1` ledger. A stale historical hash is not current approval. `STORY_QUALITY_REVALIDATION.json` records current hashes and individual revalidation decisions; hashes verify synchronization but do not assess language quality.

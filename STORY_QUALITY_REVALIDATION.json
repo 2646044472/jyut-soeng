@@ -6131,11 +6131,11 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 60,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f283dee530ed301028862fcb5b607bcf9c9a47dd3abbea41e51cd73963eb82f5",
-      "v2_sha256": "f283dee530ed301028862fcb5b607bcf9c9a47dd3abbea41e51cd73963eb82f5",
-      "notes": "A gym changes class times and the family seeks a refund; the “sunset moved to two” tag is mild and the claim process dominates the story. Individually checked sentence, Jyutping, full gloss and story-specific usageTip.",
-      "revalidated_at": "2026-10-27"
+      "v2_sha256": "b4117e23a8c574b4bc8ac2fa6d4bf0445cdbec4821a7b19c9653c910f4d852bc",
+      "notes": "V2 manually reviewed: distinct workplace fitness-class schedule dispute; class was moved into the workday, the proposed “noon fat-burning” slogan collides with meeting notifications, and the resolution returns to the schedule callback. Sentence, Jyutping/readings, complete Simplified gloss and story-specific usageTip reviewed; category and row identity preserved; no family theme.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
@@ -22461,10 +22461,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 28,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6c71946f4c09e144afc850d7157cfe92f93ffb9c70a056516d1c93d5b0683943",
-      "v2_sha256": "6c71946f4c09e144afc850d7157cfe92f93ffb9c70a056516d1c93d5b0683943",
-      "notes": "Needs revision: a first-time rice purchase ends with forgetting to pay for the rice, but the story treats this as a one-step embarrassment and pivots to an unrelated rice-cooker compliment. No sustained comic escalation. All four fields read; gloss/tip match."
+      "v2_sha256": "853fae403bc1cef386f142cedd41dbf33d11347ea77d038c1127fd4baf9347cb",
+      "notes": "V2 manually reviewed: a first-time solo rice-shop visit escalates from nearly carrying off the demonstration scoop to discovering the rice bag is unpaid; the friend’s rice-cooker question returns the scoop callback. Advice about rice type and water absorption preserved; all four fields and Jyutping reviewed; no family theme.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -31757,10 +31758,11 @@
     {
       "file": "content/sentence_bank/long_health_services_19.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e1bf95dbd5dfa18ee1ebe11974234783a98d9af6ad67f28838eb7fdd9dcde76e",
-      "v2_sha256": "e1bf95dbd5dfa18ee1ebe11974234783a98d9af6ad67f28838eb7fdd9dcde76e",
-      "notes": "All four fields checked. The neighbor’s glasses on his cap and note about weather are familiar mild asides; the diary clarification is the main useful arc, without strong comedy."
+      "v2_sha256": "c2394c63df9a070ed413e7c2b044439c4953c0a283c25171317ba0415fc64f9b",
+      "notes": "V2 manually reviewed: a first-person patient learns to separate dates, sensations and weather in a symptom log; the waiting-room neighbor’s glasses “missing” on his hat returns as a callback, then the weather column turns into a light joke about reporting rain as a side effect. Clinical reminder not to stop medication without advice is retained. All four fields and Jyutping readings reviewed; no family theme.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_health_services_19.json",
@@ -31877,10 +31879,11 @@
     {
       "file": "content/sentence_bank/long_health_services_26.json",
       "index": 1,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f5208cbd4406b8607f074dbbd58139a18c752765bf676b2f815b1727d037e614",
-      "v2_sha256": "f5208cbd4406b8607f074dbbd58139a18c752765bf676b2f815b1727d037e614",
-      "notes": "All four fields checked. Bringing two pairs of shoes becomes an “open a shoe shop” remark, but the gait assessment has no stronger reversal or payoff."
+      "v2_sha256": "538f9c6dfc9bf2565b12a37f528049f2da5837ee7af8603bd4dd42ece4022645",
+      "notes": "V2 manually reviewed: a first-person patient brings two pairs of shoes for a gait assessment, follows the therapist’s supported weight-shift and gradual stair guidance, and is cautioned not to copy online videos; the “shoe shop” setup escalates into a phone video becoming a “旁聽生” and closes with a “不賣拖鞋” sign. Existing clinical boundaries preserved; all four fields/readings checked; no family theme.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_health_services_27.json",
