@@ -405,3 +405,13 @@
 - Kept the card `needs_revision` and clarified its ledger note: do not create humor by weakening allergy precautions or having anyone taste uncertain food; a later revision should draw humor from a separate, low-risk detail.
 - Source and app mirror are unchanged. Checklist regenerated; `python tools/validate_content.py` passed (8,000 entries), and `git diff --check` passed. V2 totals remain 1,669 pass / 3,331 needs_revision / 0 pending.
 - Commit and remote verification follow. Continue reviewing distinct cards across the full set.
+
+
+## Active continuation - 2026-10-30, separated-sauce traffic batch 38
+
+- Continued from clean HEAD `1bac524b0a61f4cfbc5747135741d316c56d135a`; confirmed remote target matched before editing.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 20. The requested separate sauces become “no-chili” and chili traffic lanes; the younger brother uses chopstick barriers, makes a zebra crossing, and issues a hand-drawn pass before the family’s “sauce traffic jam” callback.
+- Screened against approved spicy-food taste reversals and food-sharing stories; the traffic-control sauce gag is distinct. Reviewed Cantonese, Jyutping (239 Han / 239 syllables), full Simplified Chinese gloss, and practice tip.
+- Updated V2 hash/status and app bundle; exact source-to-app sentence/Jyutping/gloss/tip matches verified, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,670 pass / 3,330 needs_revision / 0 pending. Unit tests were not run.
+- Content and recovery note are ready for local commit and remote fast-forward verification. Continue reviewing all remaining cards.
