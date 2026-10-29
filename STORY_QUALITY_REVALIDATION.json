@@ -11405,10 +11405,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 41,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "39c90605a1aa584c2bd97ba9ac473925e15e1e760ffd4a87555ea674488b66e4",
-      "v2_sha256": "39c90605a1aa584c2bd97ba9ac473925e15e1e760ffd4a87555ea674488b66e4",
-      "notes": "Needs revision: an office lunch becomes a tense football finish and a late return to work; the goal reversal supplies suspense, but the story is a sports recap without a character-driven joke or comic punchline."
+      "v2_sha256": "49e495ef937003e7cea45b275c4599dd9c7b183e2c58ac6086eab0ebf6548517",
+      "notes": "V2 reviewed: a suspenseful football finish escalates public viewing; the return to work pays off the extra-time motif as a joke about clocking in late. Public cafe, no family plot."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
