@@ -215,3 +215,13 @@
 - Current V2 total: 1,653 pass / 3,347 needs_revision / 0 pending. Unit tests were not run.
 - Content commit `3b55886` (`Review Cantonese crystallized honey story`) was pushed by ordinary fast-forward. The follow-on checkpoint commit `c6e54ca43524439fdd03d69bac44b74dd710a001` was also pushed and confirmed with `git ls-remote`.
 - Continue reviewing distinct non-family-core stories across the full 5,000-card scope.
+
+## Active continuation — 2026-10-30, king oyster mushroom batch 17
+
+- Continued in the independent worktree; before this batch, local and remote target refs matched at `338ee264be87ec524d919592fa77a1aeddcfa3c7`.
+- Replaced `content/sentence_bank/long_food_shopping_09.json` zero-based index 76 with a cooking-class group shopping for king oyster mushrooms. One classmate interprets “chicken-leg mushroom” literally, separates chicken from mushrooms in the basket, and writes a label that makes another group ask where the meat is. Mushroom selection and cooking-class shopping remain central; the story avoids family-interaction focus.
+- Reviewed Macau Cantonese and revised written phrasing for natural spoken Cantonese; contextual Jyutping aligns at 237 Han characters / 237 syllables. Simplified Chinese gloss and practice tip were checked. The nearest lexical trigram match was an unrelated coworker farewell cake story (Jaccard 0.0200).
+- Updated the V2 status/hash, rebuilt the app bundle, verified exact source-to-app mirrors and `qualityPriority=1`, regenerated the checklist, and passed `python tools/validate_content.py` (8,000 entries) and `git diff --check`.
+- Current V2 total: 1,654 pass / 3,346 needs_revision / 0 pending. Unit tests were not run.
+- Content commit `d2f82db` (`Review Cantonese king oyster mushroom story`) was pushed by ordinary fast-forward. The checkpoint update follows this content commit.
+- Continue reviewing distinct non-family-core stories across the full 5,000-card scope.
