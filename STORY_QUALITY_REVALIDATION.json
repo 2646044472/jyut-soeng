@@ -10805,10 +10805,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 66,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f1c41825eacf87135e5fa42183bc1475019ad00a6a11c40662d40c0e50f78cf7",
-      "v2_sha256": "f1c41825eacf87135e5fa42183bc1475019ad00a6a11c40662d40c0e50f78cf7",
-      "notes": "Needs revision: the rice cooker is tested and sold with a helpful measuring mark; the student’s kitchen queue motivates the purchase, but the scene resolves straightforwardly without comic escalation."
+      "v2_sha256": "1ac30c33ad2420355a1d4cf04f1ba7dbe473e4639801dd78d349704e4c7b132f",
+      "notes": "A nearby dorm student comes to inspect a used rice cooker and asks to test-cook a small cup of rice in the shared kitchen. Other students waiting to use the stove mistake the test for a tasting queue and line up with bowls; the buyer jokes the cooker is only at an interview. After the rice comes out well, classmates ask whether the interviewer kept a bowl. The buyer buys it, and his dorm-group post says “hired, no queue tonight.” Student, seller, and dorm kitchen form a distinct marketplace/workplace-adjacent scene with no family-interaction premise. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -11157,10 +11157,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 10,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3f25ce1982b218477edba0ca9d8686ce78c6ecf57603ab45ae334dcb47c0a9e5",
-      "v2_sha256": "3f25ce1982b218477edba0ca9d8686ce78c6ecf57603ab45ae334dcb47c0a9e5",
-      "notes": "Needs revision: forgetting cash at the market and helping a queue at the ATM lead to preparing an emergency cash pocket; the story is coherent but ends as practical advice without a comic reversal."
+      "v2_sha256": "6f5fe49bb5d2dd4a466eceff9747280434c02c1e38e9a38cff1473bae2050998",
+      "notes": "At the market, the narrator has no cash; the fish vendor holds a grass carp while they use the ATM. A customer misreads “cancel” as cancelling the queue, so the line watches the screen; the narrator reminds everyone not to say a PIN aloud and helps her cancel the mistaken operation. The following week she is now teaching another customer the cancel/confirm buttons, and the fish vendor recruits her to manage the fish line too. Public market and ATM scene with a vendor and unrelated customers; the cash issue is setup rather than a spending dispute. Checked all four fields and contextual Jyutping; 確認 kok3 jing6 checked against project dictionary notes."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11989,10 +11989,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 14,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "47dd0041ee829cae00dfbd97706abc8a24ece039e7050b928a5fd602bc525907",
-      "v2_sha256": "47dd0041ee829cae00dfbd97706abc8a24ece039e7050b928a5fd602bc525907",
-      "notes": "Flavor choice and helping a lost child resolve smoothly; two unrelated scenes do not combine into a comic escalation."
+      "v2_sha256": "1fe156294c7551b7025bb0e28aebfbf42c726fbd592627d0b8139f57cda4735d",
+      "notes": "After work the narrator and coworker debate cheese thickness for corn. Other customers join in with percentages until the stall turns into a comic public referendum; the closer says plain corn is best and no meeting was needed. Workplace banter grows into a public queue gag, not a family premise. All four fields and contextual Jyutping manually checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
