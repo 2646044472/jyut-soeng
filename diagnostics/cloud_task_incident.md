@@ -45,3 +45,11 @@ At 2026-10-28 03:59:50 UTC, the checkout container reported AMD EPYC 9V74 80-Cor
 ## Work after the diagnostic snapshot
 
 After the snapshot, the main agent completed the individual four-field review of `long_food_shopping_19.json[27]`, corrected the Jyutping for 抱 to `pou5`, and prepared its source/ledger update. The diagnostic JSONL is a point-in-time record and still correctly reports the earlier 1,289 pass count; the row is not included in that snapshot.
+
+
+## 2026-10-29 intermittent exec-server outage
+
+- Three calls failed before shell execution: two `exec-server transport disconnected` errors (the second reported session recovery timing out after 25 seconds) and a later `No usable execution environment is available` error. The affected calls were one edit invocation for `long_food_shopping_17[7]` and two read-only probes. All three failed at process creation; none of their command bodies ran. The attempted card edit was subsequently completed and saved in the repo.
+- Exact per-error timestamps were not captured by the executor. The first successful recovery probe emitted `2026-10-29 05:12:42 UTC`; the failures occurred before that. I recorded the events with null exact timestamps and this explicit bound in `cloud_task_runtime.jsonl` rather than inferring exact times.
+- The cloud environment status endpoint reported `connected/running` and policy `enforced` after recovery. The post-recovery resource check showed about 30 GiB free on the 32 GiB workspace filesystem and about 16 GiB memory available. `ps` showed only defunct Git processes; no active Git push was running. The status/resource check at 05:12:42 succeeded, and a current status read at 05:13 UTC again reported connected/running.
+- No network/security settings were changed, and no workspace reset, cleanup, archive, or rebuild was performed. The cause remains undetermined; diagnostics support an intermittent executor transport/availability fault rather than disk or memory exhaustion.

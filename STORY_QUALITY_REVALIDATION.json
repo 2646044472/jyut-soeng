@@ -21447,10 +21447,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 6,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ddfc6e87d8c2dcf61f56f9eaab1cf78f47d73212bf59ac3575d5b296f749e1ed",
-      "v2_sha256": "ddfc6e87d8c2dcf61f56f9eaab1cf78f47d73212bf59ac3575d5b296f749e1ed",
-      "notes": "Needs revision: coffee beans and grind settings frame a brewing lesson; the too-bitter cup is corrected, while the neighbor compliment and planned office brew do not create a comic reversal. Tip summarizes the instructions. Four fields read; rewrite with a stronger character-driven comic engine and recheck readings."
+      "v2_sha256": "a9a12f8e6a1e88ed0932cc903eebe84125bdf3fb716ad7bc23e62d636e80b8dd",
+      "notes": "V2 manually reviewed: checked roast-date/store guidance and clarified the overly fine grind as the cause of bitterness; the coarser retry succeeds. That leads to a workplace callback: one intended pour becomes a queue, and the supervisor creates a hand-brew rota with the narrator first on duty. Neighbor and coworker scenes, no family theme; all four fields and readings checked.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
@@ -21656,10 +21657,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 7,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3d6c93c5af46b80ad89c658e8d6aee1b1c66e36a839d8ffbe2402cf22a9a6bbb",
-      "v2_sha256": "3d6c93c5af46b80ad89c658e8d6aee1b1c66e36a839d8ffbe2402cf22a9a6bbb",
-      "notes": "Needs revision: ice leaks in the cooler bag, then the guests freeze lemon tea into ice cubes to flavor soda; it is a practical workaround with a weak “saved the tea” tag, not an escalating comic reversal. The party context is clear; gloss and tip match. Four fields read; strengthen the consequence and punchline."
+      "v2_sha256": "b0a9cffc072c64642040172bec298314d4f86a995019b4c73b81e7f5b7af8bb1",
+      "notes": "V2 manually reviewed: the leaking ice sleeve threatens the lemon tea, prompting a sealed-bag rescue. The guests keep sweet and sugar-free drinks separate, turn the tea into ice, then treat the most sour cup as a contest finalist; the ice melts before the result, making the votes pointless. Checked all four fields and readings; colleague/friend party, no family theme.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
@@ -24187,10 +24189,11 @@
     {
       "file": "content/sentence_bank/long_health_services_03.json",
       "index": 5,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b35ad962b814eb45effc85911bca07394f9cc4cec4fbd8d60aadbd175f08054b",
-      "v2_sha256": "b35ad962b814eb45effc85911bca07394f9cc4cec4fbd8d60aadbd175f08054b",
-      "notes": "Needs revision: arriving breathless after the bus affects the first measurement, but the second reading and log are routine; the bus-timetable question and “do not run next time” line are only mild. All four fields read; gloss/tip match."
+      "v2_sha256": "a97b5f2ab10021c4e985b456b1e7ede0136a0a4bc3d18c57bc8db4615f3edb40",
+      "notes": "V2 manually reviewed: retains the nurse-directed rest and repeat measurement, log-for-clinician advice, and do-not-change-medication caution. The bus-rushing trigger returns as a table entry: the uncle waits for the next bus and records “the bus arrived first, and so did I,” paying off his request to track bus time. All four fields/readings checked; community public-health visit, no family theme.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_health_services_03.json",
