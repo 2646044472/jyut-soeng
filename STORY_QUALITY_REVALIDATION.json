@@ -18344,10 +18344,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_11.json",
       "index": 8,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "642864c9ace04ad574d963a9e16cb608a0c4d0309babe8a0d707a75082b75b50",
-      "v2_sha256": "642864c9ace04ad574d963a9e16cb608a0c4d0309babe8a0d707a75082b75b50",
-      "notes": "Needs revision: a rainy charity barbecue is changed to pan-frying and leftover tofu is gifted to the cleaner, who returns oranges; this is a pleasant community story without comedic escalation or reversal. Checked all four fields; tip matches events."
+      "v2_sha256": "0abcd4ee1a4e4299ac6a7342a097aecfcc7b03498efb00fc1005f88e317809cb",
+      "notes": "Nonfamily neighborhood charity-fair blind taste test: an overconfident volunteer calls tofu chicken, tofu puff fish ball and shiitake char siu, then claims only the labels were wrong; he misidentifies the same tofu under two sauces and is suspended as the stall’s meat judge. Four fields and contextual Jyutping reviewed; category and identity retained."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_11.json",
