@@ -22081,10 +22081,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 29,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f63f848f8b49623e431a29da6b032a658282a2706e52da177e0849157fa0c4c5",
-      "v2_sha256": "f63f848f8b49623e431a29da6b032a658282a2706e52da177e0849157fa0c4c5",
-      "notes": "Needs revision: staff mistake lactose-free milk for a coffee flavor, then the boss samples it and reveals the unclaimed old carton is his. The ownership reveal is promising but the story diffuses across dairy exposition and ends with a routine promise; needs a sharper causal comic payoff. All four fields read."
+      "v2_sha256": "73beb97d3b7f82aea0cf53cc3a509aecd4ed742263abadd01f20a544c1b464fc",
+      "notes": "V2 manually reviewed: a week-old office-fridge carton goes unclaimed; the boss recognizes his own “take it Monday” reminder and admits it stayed there a week. It is discarded; fresh milk gets names and dates, escalating into an office “milk registry” and a callback about the boss having to claim his own carton. Workplace/retail scene, no family theme; all four fields and readings checked; lactose-free coffee confusion removed to avoid overlap with a prior milk/coffee story.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
