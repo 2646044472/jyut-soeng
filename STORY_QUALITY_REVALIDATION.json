@@ -27397,10 +27397,10 @@
     {
       "file": "content/sentence_bank/long_health_services_07.json",
       "index": 7,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "91511b6786c6623ac53c71a5cd07f93724bc275206ebd1a40801fa210b2e12ef",
-      "v2_sha256": "91511b6786c6623ac53c71a5cd07f93724bc275206ebd1a40801fa210b2e12ef",
-      "notes": "Needs revision: the friend helps the first-time donor relax by counting wall squares, briefly loses count, then safeguards the donor card. The small laugh has no escalation or punchline; post-donation rest is treated properly. Tip matches. Reviewed all four fields."
+      "v2_sha256": "1ab051e5918abce01c2e81568adb297cbb548869f5a3bc95147b81ca370f2530",
+      "notes": "V2 reviewed: the donor’s friend loses his place while counting ceiling squares, then carefully safeguards the transparent donor-card sleeve; he declines the counting job next time. Friendship and blood-donation setting, with existing safety guidance preserved."
     },
     {
       "file": "content/sentence_bank/long_health_services_07.json",
