@@ -27,3 +27,21 @@
 - Continue the V2 semantic review from the next eligible non-family-core `needs_revision` card after `long_food_shopping_01.json` index 78. Screen category fit and semantic duplication before editing; skip family-core cards and category conflicts.
 - There are two local commits beyond the remote base; neither is pushed. A new screenshot showed Hiddify as connected, but this execution environment still cannot connect to `127.0.0.1:12338`; `Test-NetConnection` and one `git ls-remote` attempt failed. Do not alter proxy/network settings or retry GitHub until the local proxy is confirmed reachable.
 - Four cloud-task uncommitted edits remain unverified and were not transferred: three source Jyutping edits and three app mirror Jyutping fields. Do not overwrite them or refresh their hashes alone.
+
+## Pause checkpoint — 2026-10-29
+
+- Historical pause state; superseded by the active resumption update below.
+- Current V2 ledger count remains 1,622 pass / 3,378 needs_revision / 0 pending. The five draft edits in `content/sentence_bank/long_food_shopping_02.json` at zero-based indexes 15, 21, 24, 32, 35 are unfinished and are NOT counted as reviewed/pass. The source file is modified in the worktree; retain it as-is for resumption. Jyutping alignment still needs manual correction (including unresolved `???` tokens in index 24); no app mirror, ledger hash, validation, checkpoint batch completion, or commit was made for this draft batch.
+- Last confirmed committed local HEAD is `75af26fdcf6268b61dc3066d891fcafc088e1a40`, following local commit `0a435f2876aab9e5afacdf2a06a23dba944cd89e`; both remain unpushed.
+- Resume from those five unfinished rows first, completing manual Jyutping review, semantic review, app mirror and validation before any ledger pass update. Then continue non-family-core cards only.
+- Desktop worktree remains untouched. The proxy's `127.0.0.1:12338` port was last checked and was unreachable in this execution environment. Do not retry or change proxy/network settings while paused.
+
+
+## Active resumption update — 2026-10-29
+
+- GitHub access was rechecked from this Windows execution environment through Hiddify `127.0.0.1:12334`: GitHub API returned HTTP 200, and `git ls-remote` confirmed `origin/codex/macau-story-upgrade-batch-progress` at `661226fab3c703078bc7f6075df04358a46b9cf9`. No proxy or DNS settings were changed.
+- Resumed the five unfinished drafts in `content/sentence_bank/long_food_shopping_02.json` at indexes 15, 21, 24, 32, and 35. Indexes 15, 24, 32, and 35 passed human V2 review after story, contextual Jyutping, Mandarin gloss, and practice-tip review. Index 21 remains `needs_revision`: its back-lane/navigation conflict duplicates the already-passed delivery-location story at `long_food_shopping_01.json` index 22. Its Jyutping has been repaired, but it needs a new non-family plot before approval.
+- Current V2 ledger: 1,626 pass / 3,374 needs_revision / 0 pending. All five source rows have current ledger hashes; only four were counted as pass. IDs, order, and categories were preserved. The four approved app mirrors are `qualityPriority=1`; index 21 remains `qualityPriority=0`.
+- `python tools/build_assets.py`, `python tools/validate_content.py` (8,000 entries), `python -m unittest discover -s tools/tests -p 'test*.py'` (7 run, 1 skipped), and `git diff --check` passed. `STORY_QUALITY_CHECKLIST.md` was regenerated to match the ledger.
+- Desktop worktree remains untouched. The four unrelated cloud-task uncommitted edits remain unverified and were not transferred.
+- Next action: replace the duplicate plot at index 21 with a distinct workplace/public non-family story, review all four fields and Jyutping, rebuild and verify the mirror, then continue from index 36 while checking category fit and family-core restrictions.

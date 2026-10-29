@@ -11198,10 +11198,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 15,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a8b895f8af327d3a482ea97ff2255f6e743a867a7f92727d9bd327c60abc4998",
-      "v2_sha256": "a8b895f8af327d3a482ea97ff2255f6e743a867a7f92727d9bd327c60abc4998",
-      "notes": "Needs revision: the shopper returns after spinach arrives and helps an older customer with her basket; the account is friendly and instructional, with no comic conflict or reversal."
+      "v2_sha256": "54d84076fedc97171edd2eb04013d37e24505296147102c6edd93063c395d9eb",
+      "notes": "Manually rechecked the spinach-market timing, setup-to-payoff progression, natural dialogue, contextual readings (including 將張紙 and 唔會), complete Mandarin gloss, and practice tip. Distinct from existing market stories: the vendor turns a three-minute late delivery into an attendance joke."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11248,8 +11248,8 @@
       "index": 21,
       "status": "needs_revision",
       "baseline_sha256": "424c0a161bd18edba6e899d6c408d87982bbb501a4924ca1079c02e3029db0e4",
-      "v2_sha256": "424c0a161bd18edba6e899d6c408d87982bbb501a4924ca1079c02e3029db0e4",
-      "notes": "Needs revision: a map sends a delivery worker to the back lane and the family checks a tilted sauce container; the route is corrected safely, but the story is a straightforward handover report."
+      "v2_sha256": "0c8f199d0ab7840284380f81866f193600e81c3d56c5a4205bbcf82360cf8500",
+      "notes": "Needs revision after semantic de-duplication: this back-lane/navigation conflict substantially overlaps the already-approved delivery-location story in long_food_shopping_01.json index 22. Jyutping and mirror have been corrected, but the story needs a different non-family plot before it can pass."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11270,10 +11270,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 24,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8ee40e36d3522c3b6e212d12eaf6867cefb92924c9c25db3b82d2d5ac9b7f8c3",
-      "v2_sha256": "8ee40e36d3522c3b6e212d12eaf6867cefb92924c9c25db3b82d2d5ac9b7f8c3",
-      "notes": "Needs revision: a meat order is changed to a vegetable meal, but the coworker’s “not just eat fruit” line has no setup in the story; the scene otherwise resolves as an ordinary order correction."
+      "v2_sha256": "c995efd4916afdd3b3da14c123dab8a25ea7297726029ff1318a05cbb59b2fb8",
+      "notes": "Manually rechecked both same-surname lunch orders, the correction before cooking, the label mix-up and closing callback; restored the exact readings gam6 for 撳 and mat1 for 乜. Workplace ordering plot is distinct from reviewed stories; gloss and practice tip track the full scene."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11334,10 +11334,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 32,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f01833828e2790811b53bbfba4640943276e4fae0f812583a7d3e5daa0d0081e",
-      "v2_sha256": "f01833828e2790811b53bbfba4640943276e4fae0f812583a7d3e5daa0d0081e",
-      "notes": "Needs revision: the restaurant stores a birthday cake, arranges a private room and celebrates smoothly; the surprise is intact, but no mishap, escalating conflict or strong punchline occurs."
+      "v2_sha256": "98ae586b1cff205b2443a0bc9c7871bae7a3d6f938140c7d3d16e3658344a800",
+      "notes": "Manually rechecked the cake handoff, accidental reveal, improvised cover story and second fake surprise. Corrected 枱 to toi4 and added jan4 for 人 in 成枱人; gloss and practice tip preserve the reveal and callback."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11358,10 +11358,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 35,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8ff8fa9c087d77572b409c5d263d4a6d8a5c379cd7b7e9f6ff887580822e0208",
-      "v2_sha256": "8ff8fa9c087d77572b409c5d263d4a6d8a5c379cd7b7e9f6ff887580822e0208",
-      "notes": "Needs revision: vegetarian diners confirm a separate broth and ladle, then eat safely; the interaction is careful and pleasant but has no comic turn."
+      "v2_sha256": "72b1d2094fa7d719964288257956d79bb6abee644d319574cd2d601a3db7506e",
+      "notes": "Manually rechecked the separate vegetarian broth setup, utensil mix-up, escalating “網勺管理員” bit and sign-out callback; checked every Jyutping syllable against context. Distinct classmate dining scene; gloss and practice tip match."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
