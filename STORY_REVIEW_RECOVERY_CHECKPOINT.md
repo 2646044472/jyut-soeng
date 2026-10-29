@@ -415,3 +415,11 @@
 - Updated V2 hash/status and app bundle; exact source-to-app sentence/Jyutping/gloss/tip matches verified, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,670 pass / 3,330 needs_revision / 0 pending. Unit tests were not run.
 - Content and recovery note are ready for local commit and remote fast-forward verification. Continue reviewing all remaining cards.
+
+
+## Active continuation - 2026-10-30, leaking soup delivery screen batch 39
+
+- Re-screened `content/sentence_bank/long_food_shopping_01.json` zero-based index 21. The leaking soup is photographed and replaced, then the household updates the delivery address note. These steps solve the service issue but do not create a comic escalation or payoff.
+- Compared it with approved `long_home_family_08.json` indexes 166 (delivery misunderstanding and address-note correction) and 171 (delivery wait interrupted by a soup near-boil). Surface details differ, but this card still follows a routine correction pattern; kept it `needs_revision` and recorded the reason.
+- Source and app mirror are unchanged. Checklist regenerated; `python tools/validate_content.py` passed (8,000 entries), `git diff --check` passed. V2 remains 1,670 pass / 3,330 needs_revision / 0 pending.
+- Commit and remote verification follow. Continue the full 5,000-card review.

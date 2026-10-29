@@ -10449,7 +10449,7 @@
       "status": "needs_revision",
       "baseline_sha256": "b210482680f0623727ae152875fe132e1cc556ba30d278342bae6621db48394a",
       "v2_sha256": "b210482680f0623727ae152875fe132e1cc556ba30d278342bae6621db48394a",
-      "notes": "Needs revision: a leaking soup container is replaced and the household updates delivery notes after a wrong turn; the story is a service-resolution report without comedy."
+      "notes": "The leaking soup is photographed, replaced, and followed by an address-note update after the courier turns into the wrong lane. Those actions resolve the service issue but create no comic escalation or payoff. Screened against approved `long_home_family_08.json` indexes 166 (delivery misunderstanding/address-note fix) and 171 (delivery wait/soup interruption); the surface details differ, but this card currently uses the same routine correction pattern. Keep needs_revision until the leak itself drives a distinct comic event."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
