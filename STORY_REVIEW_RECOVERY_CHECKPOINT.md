@@ -359,3 +359,11 @@
 - Re-screened `content/sentence_bank/long_food_shopping_19.json` zero-based index 25. Its reusable-box and produce-damage plot is too close to approved `content/sentence_bank/long_family_finance_services_01.json` index 24, where fruit falls from a reusable shopping bag and bystanders rescue it. Kept the card `needs_revision` and recorded the plot overlap and lack of an independent payoff in the V2 note.
 - Source content and app mirror did not change. Regenerated the mechanical checklist; `python tools/validate_content.py` passed (8,000 entries), ledger hashes remain synchronized, and `git diff --check` passed. No app rebuild or unit tests were needed.
 - V2 total remains 1,666 pass / 3,334 needs_revision / 0 pending. This is a note-only ledger update; checkpoint commit and remote verification follow. Continue screening and rewriting distinct eligible stories across the full 5,000-card scope.
+
+
+## Active continuation - 2026-10-30, office drink-order duplicate screen batch 33
+
+- Continued in the independent worktree; local HEAD and the target remote branch were both `ff58f102e004f8b9d30cfc6db6c5ddcd7ab7a871` before this review. The Desktop worktree remains untouched.
+- Re-screened `content/sentence_bank/long_food_shopping_14.json` zero-based index 14. The group order is mislabeled, coworkers verify the order, and the shop remakes the drink; this repeats approved wrong-drink-label-and-remake plots at `long_food_shopping_02.json` index 51 and `long_food_shopping_04.json` index 73. Kept it `needs_revision` and recorded the overlaps. No source or app content changed.
+- Regenerated the mechanical checklist; `python tools/validate_content.py` passed (8,000 entries), and `git diff --check` passed. No app rebuild or unit tests were needed.
+- V2 total remains 1,666 pass / 3,334 needs_revision / 0 pending. Note-only ledger and checkpoint commits follow; continue screening and rewriting distinct eligible stories across the full 5,000-card scope.
