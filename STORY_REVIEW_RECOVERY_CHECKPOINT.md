@@ -262,3 +262,12 @@
 - Reviewed Macau Cantonese, contextual Jyutping (276 Han characters / 276 syllables), complete Simplified Chinese gloss, and practice tip. Screened approved stories for the missing-phone and phone-under-market-bag premise; no matching plot was found.
 - Updated V2 status/hash, rebuilt the app bundle, verified exact source-to-app mirrors, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`, and regenerated the checklist. `python tools/validate_content.py` passed (8,000 entries), and `git diff --check` passed. Current V2 total: 1,658 pass / 3,342 needs_revision / 0 pending. Unit tests were not run.
 - Content commit: `04bfb21` (`Review Cantonese market phone story`). Recovery checkpoint is being committed separately; continue reviewing distinct cards across the full 5,000-card scope.
+
+
+## Active continuation — 2026-10-30, milk-bottle skyline batch 22
+
+- Continued in the independent worktree `C:\Users\bankey\Documents\Codex\2026-10-29\task\jyut-soeng-v2-worktree`; the Desktop worktree remains untouched. Before this batch, local HEAD and `origin/codex/macau-story-upgrade-batch-progress` were both `eeb0d2afd8c98d582740a036b231b4bde06960d8`.
+- Reworked `content/sentence_bank/long_food_shopping_11.json` zero-based index 2. The squat local-milk bottle now pays off at the school presentation: classmates line the bottles up as Macau's skyline, and the daughter calls the all-low-rise display a milk building. Supermarket dairy remains central; the plot is not a family conflict.
+- Reviewed Macau Cantonese, contextual Jyutping (272 Han characters / 272 syllables), complete Simplified Chinese gloss, and matching practice tip. No approved story matched the milk-building/skyline joke; maximum character-trigram Jaccard similarity against other approved stories was 0.0165.
+- Updated the V2 status/hash, rebuilt the app bundle, verified exact source-to-app mirrors for sentence, Jyutping, gloss and practice tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`. The mechanical story audit reported no failures; `python tools/validate_content.py` passed (8,000 entries), the checklist was regenerated, and `git diff --check` passed. Unit tests were not run.
+- Current V2 total: 1,659 pass / 3,341 needs_revision / 0 pending. Commit and remote verification are the remaining steps for this batch.
