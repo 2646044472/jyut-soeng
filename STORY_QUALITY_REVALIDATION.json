@@ -14461,10 +14461,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 23,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5c21ee841552a1af47fe4e7f496c1843213d4a9a9734ca13270416654c0cad7d",
-      "v2_sha256": "5c21ee841552a1af47fe4e7f496c1843213d4a9a9734ca13270416654c0cad7d",
-      "notes": "The coworkers pair cheese and bitter coffee, then improvise around a broken oven; the odd pairing and kid’s preference are pleasant but do not escalate into a strong comic ending. Checked all four fields."
+      "v2_sha256": "dbc170589e70c611c3f617b9ab83be4cf12cb3f3646299d5af6b6137b5f19d69",
+      "notes": "V2 reviewed: coworkers pair the mild cheese with coffee and apples while the broken toaster prompts an improvised tasting report; the manager jokes that its repair request is the only item with a complete rationale. Workplace scene, no family plot."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -26181,10 +26181,10 @@
     {
       "file": "content/sentence_bank/long_health_services_05.json",
       "index": 55,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "315054b756a84a28250b3478b2b4a93183b79112da959f2d41dedadb80d92ac7",
-      "v2_sha256": "315054b756a84a28250b3478b2b4a93183b79112da959f2d41dedadb80d92ac7",
-      "notes": "Needs revision: rescheduling amid station announcements causes a mild ticket-booking misunderstanding, then the protagonist confirms dates correctly; the ending is procedural rather than a strong payoff. All four fields read."
+      "v2_sha256": "233f5a3045f1c749d775e4658e339f5b5e3f4ffd1ed90c8ec2751d396fe46a14",
+      "notes": "V2 reviewed: a rescheduled specialist visit collides with a work trip; calendar colors and a tiny gap prompt a coworker to ask whether it is a train platform or clinic waiting room. Transit/workplace scene, no family plot."
     },
     {
       "file": "content/sentence_bank/long_health_services_05.json",
