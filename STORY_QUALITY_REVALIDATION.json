@@ -21459,10 +21459,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 7,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "96e724b861a966dd6519b16a578ff94761907b98d33a103d3a43b327b92a38d7",
-      "v2_sha256": "96e724b861a966dd6519b16a578ff94761907b98d33a103d3a43b327b92a38d7",
-      "notes": "Needs revision: the melon rolls during a bus stop, is left to ripen, then a child says it tastes better than a football; the beats do not escalate into a strong reversal, and the fruit-sharing ending is routine. Gloss and tip cover the events. Four fields read; rework the plot and recheck readings."
+      "v2_sha256": "d50dccd4d8d0c60b408b81c43551305f07e4b33ba741ffa8d758cc5c3a67d02b",
+      "notes": "Passed after extending the bus-ride melon-as-football image into the grandson’s closing joke: the edible \"football\" needs no teams because the whole team shares it. The shopkeeper’s ripeness advice, careful transport, grandmother’s extra ripening day, and family sharing now form one causal arc. Checked 263 Han characters against 263 Jyutping syllables, revised tones/readings, complete Mandarin gloss, and event-specific practice tip. No approved melon-football plot was found; maximum character-trigram Jaccard against approved stories was 0.0159, with a different family-outing premise as the nearest match."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
