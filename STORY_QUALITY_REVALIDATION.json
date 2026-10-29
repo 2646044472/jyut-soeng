@@ -30055,10 +30055,11 @@
     {
       "file": "content/sentence_bank/long_health_services_10.json",
       "index": 37,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b97c9e148389f102ab3cd702966b101cd0c7f6c653afe474f62bd76d9b997634",
-      "v2_sha256": "b97c9e148389f102ab3cd702966b101cd0c7f6c653afe474f62bd76d9b997634",
-      "notes": "Read all four fields. The stretch-mistaken-for-dance premise expands to coworkers joining, but ends with a pleasant activity note rather than an earned punchline; revise for a sharper callback while keeping the exercise advice intact."
+      "v2_sha256": "428a6547f2a44ed48787f1e18085739cba609e3fba3ee0477f9f6d1b7bd6b6b7",
+      "notes": "V2 manually reviewed: the narrator follows the therapist’s existing gentle neck/shoulder stretches at work; one coworker mistakes them for dance, others join and film, the manager asks about a performance, and the department later schedules a “stretch rehearsal.” The last coworker takes responsibility for muting the music, closing the callback. Workplace, no family theme; original therapist guidance retained, no new treatment claims; all four fields/readings checked, category preserved.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_health_services_10.json",
