@@ -235,3 +235,13 @@
 - Current V2 total: 1,655 pass / 3,345 needs_revision / 0 pending.
 - Content commit `020e04b` (`Review Cantonese egg roll gift story`) was pushed by ordinary fast-forward. The checkpoint update follows this content commit.
 - Continue reviewing distinct non-family-core stories across the full 5,000-card scope.
+
+## Active continuation — 2026-10-30, avocado ripening batch 19
+
+- Continued in the independent worktree; before this batch, local and remote target refs matched at `0b0753e7ab60b2520eb5d9342c8e4c1d7849fdd0`.
+- Replaced `content/sentence_bank/long_food_shopping_10.json` zero-based index 6 with a workplace avocado-selection story. One avocado ripens in a paper bag beside bananas while another stays on the desk; a coworker records their firmness as a playful weather report, with a manager callback at the end. Fresh produce selection and ripening remain central; no approved avocado-specific plot was found.
+- Reviewed Macau Cantonese, contextual Jyutping (246 Han characters / 246 syllables), Simplified Chinese gloss, and practice tip. The nearest lexical trigram match was an unrelated sourdough office lunch story (Jaccard 0.0173).
+- Updated V2 status/hash, rebuilt the app bundle, verified exact source-to-app mirrors and `qualityPriority=1`, regenerated the checklist, and passed `python tools/validate_content.py` (8,000 entries) and `git diff --check`.
+- Current V2 total: 1,656 pass / 3,344 needs_revision / 0 pending. Unit tests were not run.
+- Content commit `3d8685d` (`Review Cantonese avocado ripening story`) was pushed by ordinary fast-forward. The checkpoint update follows this content commit.
+- Continue reviewing distinct non-family-core stories across the full 5,000-card scope.
