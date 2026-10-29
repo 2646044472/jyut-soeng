@@ -10710,10 +10710,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 54,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "66ad3f22133bd5638d61d7b0d38659c496eaa5cd5f1572823209ac2be5396823",
-      "v2_sha256": "66ad3f22133bd5638d61d7b0d38659c496eaa5cd5f1572823209ac2be5396823",
-      "notes": "Needs revision: a sour yogurt leads to a refund and replacement fruit dessert; the store’s service response works smoothly and the ending is a routine product follow-up."
+      "v2_sha256": "e05b0018ceb3dfd6128cd9ed925a8d922642c7fdcb9955a9a6a811e244dc1aff",
+      "notes": "Kept the sealed yogurt, abnormal-condition report, batch hold, refund and refrigerator check explicit; no one tastes the questionable product. Added the mother’s folding stool in anticipation of a long return, but the refund finishes before she opens it. The “fridge on shift / stool on standby” callback is distinct from approved stool stories about a meeting and a water-station queue. Reviewed colloquial Cantonese, contextual Jyutping, full gloss and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",

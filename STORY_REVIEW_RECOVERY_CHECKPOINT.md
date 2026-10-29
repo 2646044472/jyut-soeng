@@ -507,3 +507,12 @@
 - Updated V2 hash/status and rebuilt app assets; source/app sentence, Jyutping, gloss and tip match, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,677 pass / 3,323 needs_revision / 0 pending. Unit tests were not run.
 - Ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.
+
+## Active continuation - 2026-10-30, folding-stool yogurt return batch 50
+
+- Continued from clean HEAD `2a7efcf98095f7cd029a5545f2d514bf808d4e84`; GitHub branch was verified at the same SHA. Desktop worktree remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 54. Kept the yogurt sealed, reported its abnormal condition, held the batch, refunded the purchase and checked the refrigerator; nobody tastes the questionable food. The mother brings a folding stool expecting a long return, but the refund finishes before she opens it. Her daughter says the refrigerator is working overtime while the stool can take the day off; the closing line calls back to checking whether the fridge is on shift before bringing the stool.
+- Compared with approved stool stories about a meeting and a water-station queue; the return-counter timing reversal is distinct. Reviewed colloquial Cantonese, contextual Jyutping (309 Han / 309 syllables), full Simplified Chinese gloss and practice tip.
+- Updated V2 hash/status and rebuilt app assets; source/app sentence, Jyutping, gloss and tip match, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,678 pass / 3,322 needs_revision / 0 pending. Unit tests were not run.
+- Ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.
