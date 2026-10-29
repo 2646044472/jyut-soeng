@@ -254,3 +254,11 @@
 - A separate candidate at index 5 remains `needs_revision`: its olive-oil leak and replacement core was too close to an approved olive-oil leak/exchange story in `long_food_shopping_10.json` index 32, even though a proposed office-meeting ending differed.
 - Updated V2 status/hash, rebuilt the app bundle, verified exact source-to-app mirrors, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`, then regenerated the checklist. `python tools/validate_content.py` passed (8,000 entries), and `git diff --check` passed. Current V2 total: 1,657 pass / 3,343 needs_revision / 0 pending. Unit tests were not run.
 - Content commit: `ef3632e` (`Review Cantonese tomato noodle story`). Recovery checkpoint is being committed separately; continue reviewing eligible distinct cards across the full 5,000-card scope.
+
+## Active continuation — 2026-10-30, market phone batch 21
+
+- Continued in the independent worktree; before this batch, local HEAD and the target remote branch were both `b13d43852fcc52ab90c760fdf773326f67d18537`. The Desktop worktree remains untouched.
+- Replaced `content/sentence_bank/long_food_shopping_11.json` zero-based index 0. A market vendor pauses the fish stall’s ice knocking so a coworker’s call can be heard; the phone rings from the shopper’s own bag under the Chinese kale. The vendor pretends to weigh the phone and quotes it free while charging for the kale. Market shopping remains central.
+- Reviewed Macau Cantonese, contextual Jyutping (276 Han characters / 276 syllables), complete Simplified Chinese gloss, and practice tip. Screened approved stories for the missing-phone and phone-under-market-bag premise; no matching plot was found.
+- Updated V2 status/hash, rebuilt the app bundle, verified exact source-to-app mirrors, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`, and regenerated the checklist. `python tools/validate_content.py` passed (8,000 entries), and `git diff --check` passed. Current V2 total: 1,658 pass / 3,342 needs_revision / 0 pending. Unit tests were not run.
+- Content commit: `04bfb21` (`Review Cantonese market phone story`). Recovery checkpoint is being committed separately; continue reviewing distinct cards across the full 5,000-card scope.
