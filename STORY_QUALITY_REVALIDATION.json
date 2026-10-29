@@ -12270,10 +12270,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 49,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "1452e14dc763b43f7ad4355b30c25aab4f2d2c700378cd55c0404ddae11b8303",
-      "v2_sha256": "1452e14dc763b43f7ad4355b30c25aab4f2d2c700378cd55c0404ddae11b8303",
-      "notes": "A meeting runs late and coworkers share a quick bowl of congee; the urgency stays mild and ends with a practical pre-order suggestion."
+      "v2_sha256": "46b7655c30ed940a9927ddd592c841f346cda322e223382f80c31c6c70d2e048",
+      "notes": "Rewritten as a nonfamily office-lunch scene: the congee becomes a cooling timer for an overlong meeting, prompting the team to compress the agenda; the manager asks for two bowls next time, and the narrator puts the second in the agenda. Four fields reviewed together; plot distinct from existing food-delivery mix-up stories."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
