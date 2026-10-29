@@ -28429,10 +28429,10 @@
     {
       "file": "content/sentence_bank/long_health_services_08.json",
       "index": 36,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7b287ccd1130f2ab227f31e2bb4955fb1a694fe24a970c3c8e030354fc71cf90",
-      "v2_sha256": "7b287ccd1130f2ab227f31e2bb4955fb1a694fe24a970c3c8e030354fc71cf90",
-      "notes": "Needs revision: the reminder’s red-banner/fire-alarm confusion is brief and not strongly motivated, and the story has no larger payoff. Keep eye-drop directions and warning symptoms clear. Tip matches."
+      "v2_sha256": "827215bc2f2d46d518ab729a1e18f84979be52f09e02f53ffb3e82ab9b34b5a9",
+      "notes": "V2 reviewed: a coworker mistakes the eye-break reminder for a fire drill after a café changes its red sign; the next day the team adopts the break and tells the manager they are reviewing the sign as well as the report. Workplace scene; eye-care instructions and warning symptoms preserved."
     },
     {
       "file": "content/sentence_bank/long_health_services_08.json",
