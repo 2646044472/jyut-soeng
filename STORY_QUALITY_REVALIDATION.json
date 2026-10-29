@@ -10638,10 +10638,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 45,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6a98354923a5ca626b645f96adccf16bd9cc07cd735b809e78d8d3a6e0f3ac17",
-      "v2_sha256": "6a98354923a5ca626b645f96adccf16bd9cc07cd735b809e78d8d3a6e0f3ac17",
-      "notes": "Needs revision: the smooth steamed egg avoids bubbles and the family plans an alternative shrimp version, but the “judge” and first-taster tags remain mild and do not become a strong comic scene."
+      "v2_sha256": "f01f4fde666bcc847501a7c14ff190c069c9f0e94b7bd76b0a4d510e9248c49e",
+      "notes": "Kept the steaming method but rebuilt the ending around the sister’s judge/score sheet and Dad’s over-enthusiastic first-taster role: he keeps taking spoonfuls “for fairness” until half the sample is gone; the shrimp-version callback limits him to one spoon. Compared with approved `long_home_family_04.json` index 91 (salt/sugar error turns egg into pudding), `long_family_finance_services_02.json` index 28 (salty coconut cake and condensation cloth), and `long_food_shopping_11.json` index 8 (blind charity-fair ingredient misidentification); mechanisms differ. Reviewed colloquial Cantonese, contextual Jyutping, full gloss and tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",

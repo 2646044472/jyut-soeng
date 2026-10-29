@@ -443,6 +443,16 @@
 - Content and checkpoint are ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.
 
 
+## Active continuation - 2026-10-30, steamed-egg sample judge batch 47
+
+- Continued from clean HEAD `45c42b272ebe5db9098e980746ada3a07112e043`; confirmed target remote matched before editing.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 45. Kept the bubble-skimming, covered bowl and timer sequence; the daughter signs up to judge the next shrimp version, while Dad volunteers as first taster and keeps taking spoonfuls “for fairness.” Her score sheet records the sample already half gone, and she limits his next round to one spoon.
+- Compared with approved `long_home_family_04.json` index 91 (salt/sugar mistake turns egg into pudding), `long_family_finance_services_02.json` index 28 (salty coconut cake/condensation cloth), and `long_food_shopping_11.json` index 8 (blind ingredient misidentification); mechanisms differ. Reviewed Cantonese, Jyutping (254 Han / 254 syllables), complete gloss and practice tip. Closest non-self trigram Jaccard was 0.0200.
+- Updated V2 hash/status and rebuilt app assets; exact source-to-app sentence/Jyutping/gloss/tip verified with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,675 pass / 3,325 needs_revision / 0 pending. Unit tests were not run.
+- Content and checkpoint are ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.
+
+
 ## Active continuation - 2026-10-30, hidden-candy duplicate screen batch 44
 
 - Re-screened `content/sentence_bank/long_food_shopping_01.json` zero-based index 40. Its nephew pockets a candy, is discovered, returns it and receives one after completing the list.
