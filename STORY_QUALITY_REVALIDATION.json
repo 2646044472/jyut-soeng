@@ -11438,10 +11438,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 45,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5e1b6525be068792f7b535e5430012ec2c28bde56d2eadf694b3da1814c7fc81",
-      "v2_sha256": "5e1b6525be068792f7b535e5430012ec2c28bde56d2eadf694b3da1814c7fc81",
-      "notes": "Needs revision: leaking milk tea leads to repackaging and itemized payment; colleagues praise the careful packaging, but there is no comic conflict or earned ending."
+      "v2_sha256": "b53d90a2375fcd028bb6ee185f03e182df5a62c2b2b11bbf9139dedac0937e63",
+      "notes": "Distinct office tea handoff. Rechecked the leaking cup response and pastry separation, then strengthened the hospitality callback; Mandarin gloss and tip follow the scene."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11590,10 +11590,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 64,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "dc3c9e1f82bd0c6b4d9d53c2bb65823cb1b51298c37876a4cb6c2b3ffcc3f966",
-      "v2_sha256": "dc3c9e1f82bd0c6b4d9d53c2bb65823cb1b51298c37876a4cb6c2b3ffcc3f966",
-      "notes": "Needs revision: the coffee is mistaken for a bad batch before the neighbor identifies the darker roast; this is a useful tasting correction, but the story resolves as an explanation and ends without a strong comic payoff."
+      "v2_sha256": "6d35002df5d38f2e375e46b2b23cd1964ddcd4b35e5c44710f6f822625e9f078",
+      "notes": "Distinct coffee-roast misunderstanding. Rechecked roast readings and updated the close so the neighbor’s borrowing-sugar visit pays off as a repeat taste test; removed duplicated gloss text."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11622,10 +11622,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 68,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d78547e88b92e2c5ccb1d80ab897684feec4782eeca457c999897e81da17b7dc",
-      "v2_sha256": "d78547e88b92e2c5ccb1d80ab897684feec4782eeca457c999897e81da17b7dc",
-      "notes": "Needs revision: a kettle with a loose contact is replaced after testing, but the neighbor’s “again broke something” joke has no setup in this story; the rest is a straightforward warranty report."
+      "v2_sha256": "8a4c23f3437f48772240cf0bcac9e919082d7f060ed2ae46ceef16a915fccb84",
+      "notes": "Distinct kettle warranty story. Rechecked all readings including 鄰居 leon4; tied the upstairs neighbor’s question to the “hot water arrived on time” callback."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11654,10 +11654,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 72,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d5185c32dcf5be4fd4033c53d27419ade38b9a8d4b7b13ab5f4eb4bee408d8f7",
-      "v2_sha256": "d5185c32dcf5be4fd4033c53d27419ade38b9a8d4b7b13ab5f4eb4bee408d8f7",
-      "notes": "Needs revision: a freezer is being defrosted, so the shopper switches to fish slices for curry after checking allergens and remembered coconut milk; the meal works, but no comic conflict or payoff develops."
+      "v2_sha256": "c16af83f8cc67d555605ac90ac23946ed2992523d99bd770caeaa8db613e2ecf",
+      "notes": "Distinct roommate supermarket trip. Rechecked the shrimp-ingredient check and fish-curry timing; the forgotten coconut milk now returns as a shopping-test callback."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11670,10 +11670,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 74,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a0317e0f15eb88d337a482a7c32e070c16adc61774a2ae835e2c1b5ae3e16a7d",
-      "v2_sha256": "a0317e0f15eb88d337a482a7c32e070c16adc61774a2ae835e2c1b5ae3e16a7d",
-      "notes": "Needs revision: the shopper finds unsalted butter and a price-tag issue while baking cookies; the neighbor jokes about a bakery aroma, but the ending is a routine portion and waste lesson."
+      "v2_sha256": "e25127a65988d04a5c27551644f9debe3a27500c1b8022b5ee23ec4fe529ca27",
+      "notes": "Distinct supermarket butter and cookie story. Rechecked the salt-free label, price correction and cookie sharing; added a short bakery misunderstanding as the closing joke."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
