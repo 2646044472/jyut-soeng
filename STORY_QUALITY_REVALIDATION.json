@@ -14367,10 +14367,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 11,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5a492dd8a10103961faf91d742b32db5140e6e8fa0b721acc84be75b3b5f350c",
-      "v2_sha256": "5a492dd8a10103961faf91d742b32db5140e6e8fa0b721acc84be75b3b5f350c",
-      "notes": "The restaurant makes seating accessible for a cane user and stroller, then serves ginger tea during rain; the staff care is pleasant but not comedic. Checked all four fields."
+      "v2_sha256": "5f930350414d66ae5671ae06940274452e1fe45b0a99a3e51b327ac9a58aef75",
+      "notes": "Rewritten as a nonfamily restaurant-reservation scene, keeping the cane user’s seating needs and clear route. The late friend reports traffic while the chair is checked in first, receives water, and is eventually marked the “on-time guest”; the friend goes into the waitlist. Humor targets the friend’s lateness and reservation bookkeeping, not mobility needs. Four fields reviewed."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
