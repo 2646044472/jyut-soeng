@@ -130,3 +130,13 @@
 - Updated the V2 status/hash, rebuilt the app bundle, and verified exact sentence, Jyutping, gloss, usage tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), progress report regeneration completed, and `git diff --check` passed. Current V2 count: 1,646 pass / 3,354 needs_revision / 0 pending. Unit tests were not run.
 - Continue reviewing distinct non-family-core cards across the full 5,000-card scope.
+
+
+## Active continuation — 2026-10-30, takeaway batch 10
+
+- Continued in the independent worktree; before this batch the remote target was verified at `70704d13497f1450cdcd03c7059f701c7b15ea5a`.
+- Completed V2 review for `content/sentence_bank/long_food_shopping_08.json` zero-based index 2. In a workplace takeaway scene, a coworker nearly pours a separated chili-oil packet into a shared clear soup; colleagues mark a tiny “ask first” restricted zone, and the next day the coworker labels his packet and gets a mock safety-pass joke.
+- Category remains takeaway communication and the workplace exchange is central. Reviewed Cantonese, contextual Jyutping, full Simplified Chinese gloss, and practice tip. Han/Jyutping alignment is 240/240. Highest approved-story trigram Jaccard was 0.0126; the nearest lexical match was an unrelated anonymous Q&A scene.
+- Updated V2 status/hash, rebuilt the app bundle, and verified the exact sentence, Jyutping, gloss, usage tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1` mirror.
+- `python tools/validate_content.py` passed (8,000 entries), progress report regeneration completed, and `git diff --check` passed. Current V2 count: 1,647 pass / 3,353 needs_revision / 0 pending. Unit tests were not run.
+- Continue reviewing distinct non-family-core cards across the full 5,000-card scope.
