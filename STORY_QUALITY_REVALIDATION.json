@@ -10878,10 +10878,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 75,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "fad710ea5bf826e1efc1fe30ed382526f709e5da3841b59bececcfe9a7cc0cb3",
-      "v2_sha256": "fad710ea5bf826e1efc1fe30ed382526f709e5da3841b59bececcfe9a7cc0cb3",
-      "notes": "Needs revision: a wobbly secondhand table is tightened and transported safely; the closing comparison with the photo is a mild observation, but the account has no comic turn."
+      "v2_sha256": "f4d876b03f43ec40458921927a2643c42345c01a15d9bb57d980542bbe1b05be",
+      "notes": "Replaced the overlapping used-table deal-and-loose-screw repair with a distinct used-coat story. Three old shopping lists all say to buy milk; a fourth note says the refrigerator is full. The seller jokes that the coat includes a reminder service and tries to charge more. After following the garment-care label, the buyer writes the same reminder for themself, extending the forgetful-owner callback. Compared against long_food_shopping_04.json index 90 (the earlier, unapproved wobbly-chair repair story), approved long_home_family_08.json index 141 (a spoken wrong-item purchase that leads to adding reminders to a list), and approved long_food_shopping_01.json indexes 17 and 28 (pastry handling and a faulty cart). The coat-pocket discovery, repeating milk notes, and buyer inheriting the reminder habit have a distinct plot mechanism. Reviewed colloquial Cantonese, contextual Jyutping (281 Han/281 syllables), complete gloss, public handoff, garment-label washing, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
