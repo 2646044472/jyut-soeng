@@ -11518,10 +11518,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 55,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a5fb93d2d55a10e6eb62f5089ba29b07300be84e21b2ca1a7120444846d42db2",
-      "v2_sha256": "a5fb93d2d55a10e6eb62f5089ba29b07300be84e21b2ca1a7120444846d42db2",
-      "notes": "Needs revision: leftover curry is reheated safely, a coworker learns the recipe and the narrator clears fridge space; the “small recipe” conclusion is practical and does not create a comedic turn."
+      "v2_sha256": "3b7c5226f9fa5d88531748cf660f487a1deffc14973e550aebe2e83dd6bac399",
+      "notes": "Nonfamily workplace food-safety comedy: a coworker mistakes the safely stored and reheated leftover curry for a nearby takeout shop; the desk-side menu, pretend orders and “branch” question escalate the misunderstanding, with the order-list callback closing it. All four fields and contextual Jyutping reviewed; category and identity retained."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
