@@ -625,3 +625,13 @@
 - Updated the V2 row hash/status and rebuilt the app bundle. Exact source/app sentence, Jyutping, gloss, and tip match for indexes 67 and 68; metadata is `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/build_assets.py`, `python tools/validate_content.py` (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, and `git diff --check` passed. Current V2 total: 1,689 pass / 3,311 needs_revision / 0 pending.
 - Next audit: zero-based index 69, which remains `needs_revision`; screen the used-rice-cooker story against the surrounding used-appliance sequence before revising it.
+
+
+## Active continuation — 2026-10-30, secondhand-wallet stamp-card callback batch 62
+
+- Continued from local/remote `HEAD` `51f3b064a4bb236cfd016539b1ba5802af468b85`; the Desktop repository remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 69. Replaced the repetitive used-rice-cooker defect/cancellation story with a secondhand wallet handover. After the buyer returns the forgotten near-complete café stamp card, the seller redeems a free milk tea and gives it to the buyer; “interest / account balance” returns on the receipt that goes into the new wallet.
+- Screened the nearby used-appliance stories and searched wallet/stamp-card plots. The corpus has a family grocery-promotion story with a stamp card that earns a rice cooker, but its plot and callback differ from this honest-return/free-drink handover.
+- Reviewed colloquial Cantonese, contextual Jyutping (232 Han / 232 syllables), complete Simplified Chinese gloss, and practice tip. Updated the V2 row hash/status and rebuilt the app bundle. Exact source/app sentence, Jyutping, gloss, and tip match for indexes 67–69; each has `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/build_assets.py`, `python tools/validate_content.py` (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, and `git diff --check` passed. Current V2 total: 1,690 pass / 3,310 needs_revision / 0 pending.
+- Next audit: zero-based index 70, which remains `needs_revision`; screen the used-blender safety-interlock plot against the new distinct batch and surrounding secondhand stories.
