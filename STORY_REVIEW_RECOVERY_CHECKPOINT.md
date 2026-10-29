@@ -183,4 +183,5 @@
 - Online food delivery remains central. Reviewed Cantonese, contextual Jyutping, full Simplified Chinese gloss, and practice tip. Han/Jyutping alignment is 263/263. Highest approved-story trigram Jaccard was 0.0183.
 - Updated V2 status/hash, rebuilt the app bundle, and verified exact sentence, Jyutping, gloss, usage tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), progress report regeneration completed, and `git diff --check` passed. Current V2 count: 1,651 pass / 3,349 needs_revision / 0 pending. Unit tests were not run.
+- Batch commit `350d9f8a6be39d0e424f366ffb08fa383654b4e0` (`Review Cantonese switched beef delivery story`) was pushed by ordinary fast-forward from `3c85c22`; `git ls-remote` confirmed the target ref at the same SHA.
 - Continue reviewing distinct non-family-core cards across the full 5,000-card scope.
