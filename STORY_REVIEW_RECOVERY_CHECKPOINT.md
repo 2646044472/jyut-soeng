@@ -174,3 +174,13 @@
 - `python tools/validate_content.py` passed (8,000 entries), progress report regeneration completed, and `git diff --check` passed. Current V2 count: 1,650 pass / 3,350 needs_revision / 0 pending. Unit tests were not run.
 - Batch commit `19fb9a36153e2368f61232b11f36b0dd9841a41f` (`Review Cantonese syrup order story`) was pushed by ordinary fast-forward from `7efb820`; `git ls-remote` confirmed the target ref at the same SHA.
 - Continue reviewing distinct non-family-core cards across the full 5,000-card scope.
+
+
+## Active continuation — 2026-10-30, switched delivery batch 14
+
+- Continued in the independent worktree; before this batch the remote target was verified at `3c85c22b40811ff408f6cca8947b691ac56172b4`.
+- Completed V2 review for `content/sentence_bank/long_food_shopping_08.json` zero-based index 85. Two recipients verify the swapped beef orders before exchanging them; the guard draws a seat-number route on the lobby board and appoints himself the next delivery treasure-hunt host.
+- Online food delivery remains central. Reviewed Cantonese, contextual Jyutping, full Simplified Chinese gloss, and practice tip. Han/Jyutping alignment is 263/263. Highest approved-story trigram Jaccard was 0.0183.
+- Updated V2 status/hash, rebuilt the app bundle, and verified exact sentence, Jyutping, gloss, usage tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), progress report regeneration completed, and `git diff --check` passed. Current V2 count: 1,651 pass / 3,349 needs_revision / 0 pending. Unit tests were not run.
+- Continue reviewing distinct non-family-core cards across the full 5,000-card scope.
