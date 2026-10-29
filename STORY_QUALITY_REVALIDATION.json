@@ -12622,10 +12622,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 93,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2d1a192718e1a257129db49d8e46743bd6b7305b237f092518d02c76edcfbc2f",
-      "v2_sha256": "2d1a192718e1a257129db49d8e46743bd6b7305b237f092518d02c76edcfbc2f",
-      "notes": "A duplicate soup is removed from the bill after checking the table number; competent service, but no comic escalation or punchline."
+      "v2_sha256": "eda48c92b44857091355f02982de1108ed965d1c850ba24a7e0b8e9f3da67df3",
+      "notes": "Pass after V2 rewrite. Nonfamily coworker dinner, category 埋單AA retained. The duplicate soup escalates into a fictitious fourth coworker (“湯仔”); the neighboring diner reveals the bowl already drank and left, paying off the setup. Four fields reviewed; jyutping aligned and readings checked in context. Money-mainline (bill-sharing conflict); counts toward the 500 cap."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
