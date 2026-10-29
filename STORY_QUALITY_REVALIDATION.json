@@ -10910,10 +10910,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 79,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c57f2ff6b00bd4f58e6f1707b8d628985e342630390c628bd5ac688d5a9201c1",
-      "v2_sha256": "c57f2ff6b00bd4f58e6f1707b8d628985e342630390c628bd5ac688d5a9201c1",
-      "notes": "Needs revision: the late guest misses the main course and learns the dessert was a birthday treat, then buys coffee; this has a small situational joke but its main conflict and resolution are late-arrival bill allocation, repeating the money-accounting pattern."
+      "v2_sha256": "7711cdac6135203cd696f3a9e832410772f3efc04aabac119aa214a605d25813",
+      "notes": "Rebuilt the muddy arrival/bill scene around fair allocation: the late friend missed the shared mains, confirms the birthday pudding is a treat, pays for his own coffee, and is excluded from the main-course split. His three-bus transfer becomes a fictional “pudding station” route, with the direct “main-course station” line as the callback. Compared with approved long_food_shopping_08.json index 30 (a class reunion mistaken for a teacher’s roll call); that story’s joke is the roll-call misunderstanding, not who pays for food missed. The new card keeps consumption-based settlement distinct and removes the unfair five-way main-course charge. Reviewed colloquial Cantonese, contextual Jyutping (224 Han/224 syllables), complete gloss, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
