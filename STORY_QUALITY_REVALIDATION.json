@@ -21416,10 +21416,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 2,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7410a800f6848a9b6a926a5b888196165fab0f1b5adb91a94909c939d11434db",
-      "v2_sha256": "7410a800f6848a9b6a926a5b888196165fab0f1b5adb91a94909c939d11434db",
-      "notes": "Needs revision: a discounted fish, choosing it before closing and saving leftovers for lunch make low price/savings the core frame; the tofu splashing is a minor kitchen mishap, with no escalating comic reversal. Gloss and tip cover the scene. Four fields read; rework away from the price-led plot and recheck contextual readings after rewriting."
+      "v2_sha256": "6b908248a5dd72948581c5b32bda2dc7d5c2edf0d08742c085a1759b0a659790",
+      "notes": "V2 manually reviewed: closing-time fish shopping grows from freshness questions into a formal receiving inspection. The fishmonger labels the head/body bags and has the customer sign; at home the roommate continues the “acceptance” joke by approving the soup, and the receipt becomes a second sign-off. Roommate/community scene, no family theme; category retained and all four fields plus Jyutping readings checked.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
