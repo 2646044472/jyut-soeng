@@ -397,3 +397,11 @@
 - Updated ledger hash/status and app bundle; exact source-to-app sentence/Jyutping/gloss/tip matches verified with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,669 pass / 3,331 needs_revision / 0 pending. Unit tests were not run.
 - Content and recovery checkpoint are ready for local commit; continue reviewing all remaining cards.
+
+
+## Active continuation - 2026-10-30, allergy-safety screen batch 37
+
+- Re-screened `content/sentence_bank/long_food_shopping_01.json` zero-based index 16. The family correctly checks peanut-allergy risk with the kitchen and declines the dish when cross-contact cannot be ruled out. The safety handling must remain explicit; the current scene still lacks a comic turn.
+- Kept the card `needs_revision` and clarified its ledger note: do not create humor by weakening allergy precautions or having anyone taste uncertain food; a later revision should draw humor from a separate, low-risk detail.
+- Source and app mirror are unchanged. Checklist regenerated; `python tools/validate_content.py` passed (8,000 entries), and `git diff --check` passed. V2 totals remain 1,669 pass / 3,331 needs_revision / 0 pending.
+- Commit and remote verification follow. Continue reviewing distinct cards across the full set.

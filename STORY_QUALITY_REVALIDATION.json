@@ -10409,7 +10409,7 @@
       "status": "needs_revision",
       "baseline_sha256": "83c70213ecbb8750fbe8b277d07869ef78de79b2973f64fdb359f50879b728e6",
       "v2_sha256": "83c70213ecbb8750fbe8b277d07869ef78de79b2973f64fdb359f50879b728e6",
-      "notes": "Needs revision: a family handles a peanut allergy safely by checking with the kitchen and choosing plain toast; the “little safety officer” tag is mild and the story is mainly instructional."
+      "notes": "The family verifies the peanut-allergy risk with the kitchen and declines the item when cross-contact cannot be ruled out; this is responsible safety guidance and must remain intact. The scene still reads as an instructional exchange without an earned comic turn, so it remains needs_revision. Any future rewrite must keep the allergy precautions explicit and derive humor from a separate, low-risk detail."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
