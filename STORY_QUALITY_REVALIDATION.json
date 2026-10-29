@@ -13429,10 +13429,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 94,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "1b07db9aa38c35d6e41e60eac08da6ac03e2227a7b0cf9ca7a79408802db0915",
-      "v2_sha256": "1b07db9aa38c35d6e41e60eac08da6ac03e2227a7b0cf9ca7a79408802db0915",
-      "notes": "Needs revision: coworkers misguess coffee roast and a small filter overflows, but the story says everyone laughs without giving a strong joke; the ending is a standard invitation to teach the manager. Four fields read; no source edit."
+      "v2_sha256": "3d672321e57249f8973cb2b37ac7db18792b38ea4904550cae1212cdd6981037",
+      "notes": "V2 reviewed: coworkers blind-taste medium roast, guess the roast wrong, then overflow a small filter; when the manager asks for lessons, the first lesson is sizing because the table drank the first cup. Distinct workplace coffee plot, no family."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
