@@ -33157,10 +33157,10 @@
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 25,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3827db35b1d8e376b445e92efc4cad4e19a4a63c4005c4f4babf6416b9ff9ffa",
-      "v2_sha256": "3827db35b1d8e376b445e92efc4cad4e19a4a63c4005c4f4babf6416b9ff9ffa",
-      "notes": "Needs revision: the family argues over New Year visits, then a turn-taking rule lets the quieter sister explain why grandma should be visited first. The outcome is considerate but does not develop into comedy. Root read all four fields; no source edit."
+      "v2_sha256": "10f4148e141b45a9889afa02b26a8629b997e10024241b3572210c757540d879",
+      "notes": "Rebuilt the weak family disagreement as a New Year countdown split across a phone, television and kitchen electronic clock. The held cake knife, staggered midnights and delayed TV create a coherent three-beat escalation and callback. Root checked all four fields and contextual Jyutping character by character; category and other metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
