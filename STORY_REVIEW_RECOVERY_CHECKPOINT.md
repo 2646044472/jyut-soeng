@@ -443,6 +443,14 @@
 - Content and checkpoint are ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.
 
 
+## Active continuation - 2026-10-30, hidden-candy duplicate screen batch 44
+
+- Re-screened `content/sentence_bank/long_food_shopping_01.json` zero-based index 40. Its nephew pockets a candy, is discovered, returns it and receives one after completing the list.
+- Compared the reveal/confession chain with approved `content/sentence_bank/long_home_family_09.json` index 71, where Grandma secretly slips a sweet into a schoolbag and the family discovers it. The character roles differ, but hidden candy + discovery + honesty resolution are too close to pass. Kept index 40 `needs_revision` and recorded that the next rewrite must drop the pocketing/reveal mechanism and build from the store-manager role or list rule.
+- Source and app mirror are unchanged. Checklist regenerated; `python tools/validate_content.py` passed (8,000 entries), and `git diff --check` passed. V2 remains 1,673 pass / 3,327 needs_revision / 0 pending.
+- Commit and remote verification follow. Continue reviewing the full set.
+
+
 ## Active continuation - 2026-10-30, curry-list responsibility batch 43
 
 - Continued from clean HEAD `c53058a50cb47c3ee25bf07b8a64054bf8d6414f`; confirmed target remote matched before editing.

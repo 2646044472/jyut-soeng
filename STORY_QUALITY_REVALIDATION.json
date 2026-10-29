@@ -10601,7 +10601,7 @@
       "status": "needs_revision",
       "baseline_sha256": "b45df027c950a63fa4d5e7fd7e1d0a57dfe17ec283017db11971e190d95c143f",
       "v2_sha256": "b45df027c950a63fa4d5e7fd7e1d0a57dfe17ec283017db11971e190d95c143f",
-      "notes": "Needs revision: the nephew secretly pockets a candy after agreeing to buy one only after the list is complete, then gives it back; the reveal is understandable, but the ending turns into a rule reminder and the humor remains mild."
+      "notes": "The nephew pockets a candy before the list is complete, is discovered and returns it, then receives one by agreement. This reveal/confession chain overlaps the approved secret-sweet-in-schoolbag plot in `long_home_family_09.json` index 71; the character roles differ, but the hidden candy, discovery and honesty resolution are too close. Keep needs_revision. A future rewrite should drop the pocketing/reveal mechanism and build a distinct joke from the supermarket “store manager” role or the list rule."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
