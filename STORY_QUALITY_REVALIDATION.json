@@ -11869,10 +11869,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 99,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c65059ffdbd03143d679e4c903d070b39386cc25e3a8f458133be73cbf0b7182",
-      "v2_sha256": "c65059ffdbd03143d679e4c903d070b39386cc25e3a8f458133be73cbf0b7182",
-      "notes": "Needs revision: a faulty lunch bag is exchanged after inspection, and the buyer chooses the original size because the lunchbox is small; this remains a product-return procedure without an earned comic payoff. Read all four fields; the tip matches the defect and replacement."
+      "v2_sha256": "e7027ddc831202cdd49d4dc4717d3edf62364dae6079f6b57e021cb06f34e60f",
+      "notes": "V2 reviewed: a defective insulated-bag zipper is tested, replaced and checked in use; the coworker’s “maintenance account” joke pays off the accumulated warranty-card and receipt paperwork. Workday retail scene, no family plot."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
