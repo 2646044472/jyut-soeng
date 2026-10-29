@@ -193,4 +193,5 @@
 - Rejected the proposed comedy rewrite for `content/sentence_bank/long_food_shopping_09.json` zero-based index 8 after comparing it with the approved secondhand toaster trial in `long_food_shopping_03.json` index 90. The item and plot were duplicates despite a different final joke, so the original row was restored and remains `needs_revision`; the V2 pass count did not increase.
 - Updated the row hash/notes, rebuilt the app bundle from canonical content, and verified `python tools/validate_content.py` (8,000 entries), progress report regeneration, and `git diff --check`. The source row remains correctly aligned with its Jyutping.
 - Current V2 count remains 1,651 pass / 3,349 needs_revision / 0 pending. Unit tests were not run.
+- Correction commit `df5587f9b6f08ea0b89987305b2bcc95fc6dfac1` (`Reject duplicate secondhand toaster story`) was pushed by ordinary fast-forward from `0e6f288`; `git ls-remote` confirmed the target ref at the same SHA.
 - Continue screening distinct non-family-core stories; require plot-level uniqueness, not just a changed punchline.
