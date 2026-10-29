@@ -18280,10 +18280,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_11.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6f61db4dfab098562f9ddcc2c09240f15ab375f8d42636c2142d91bf4e7bcce7",
-      "v2_sha256": "6f61db4dfab098562f9ddcc2c09240f15ab375f8d42636c2142d91bf4e7bcce7",
-      "notes": "Needs revision: the phone is simply found at the bottom of the shopping bag, then the vendor gives recipe advice and garlic; the market noise and final phone call do not build to a comic reversal. Checked all four fields; tip matches events."
+      "v2_sha256": "38d9cafc0f57fe78adc1c164f92199ab44c11fe1411ce212d465e7a6485d43be",
+      "notes": "Reviewed all four fields; turned a routine missing-phone search into a market-wide pause and a visual reveal that the phone was ringing from under the vegetables in the shopper’s own bag. The vendor’s mock weighing and price quote complete the market-specific payoff. Checked the contextual Jyutping line syllable by syllable."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_11.json",
