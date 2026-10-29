@@ -534,3 +534,12 @@
 - Updated V2 hash/status and rebuilt app assets; source/app sentence, Jyutping, gloss and tip match, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,680 pass / 3,320 needs_revision / 0 pending. Unit tests were not run.
 - Indices 56–63 retain their current ledger decisions and were not changed in this batch. Continue reviewing all 5,000 cards.
+
+## Active continuation - 2026-10-30, secondhand oven stage-light callback batch 53
+
+- Continued from clean HEAD `46db007c6b01052cafa4b52322ca62837fe3a8ab`; GitHub branch was verified at the same SHA. Desktop worktree remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 65. Kept the safe process: cut power when the lamp flickers, find and disclose the loose extension-board connection, test the oven, then unplug and cool it before handover. The mother mistakes the two flashes for stage lighting; the buyer asks whether the “stage light” comes with the oven, paying off the quip.
+- Compared with approved secondhand-oven transaction stories; this lamp/extension-board callback is distinct. Reviewed Cantonese, contextual Jyutping (256 Han / 256 syllables), full Simplified Chinese gloss and practice tip.
+- Updated V2 hash/status and rebuilt app assets; source/app sentence, Jyutping, gloss and tip match, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,681 pass / 3,319 needs_revision / 0 pending. Unit tests were not run.
+- Indices 56–63 retain their current ledger decisions and were not changed in this batch. Continue reviewing all 5,000 cards.
