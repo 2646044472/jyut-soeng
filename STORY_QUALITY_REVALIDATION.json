@@ -22228,10 +22228,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 47,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "82290df1da663e334b29d62eb211c12408a6d2ccd7282353e6aa233fcd25e554",
-      "v2_sha256": "82290df1da663e334b29d62eb211c12408a6d2ccd7282353e6aa233fcd25e554",
-      "notes": "Needs revision: the bakery loses the order under the company name, then misses two characters on the cake; the farewell is delayed and ends with a price-sticker joke. The punchline is weak and the story gives ordering/payment logistics more space than an earned comic turn. All four fields read; gloss/tip match."
+      "v2_sha256": "62c165d8dcc6d0e36bae23fba02c7ef981cd0b986faf8aa9b55ff858792740b4",
+      "notes": "Rewritten as a nonfamily workplace farewell: the order is filed under the company English name, the bakery loses it, then the cake omits the final two characters of “前程似錦.” The departing colleague jokes that the missing words await handover and closes on “正式交付.” Reviewed four fields and contextual Jyutping; 264 Han/tokens, row audit clean. Checked for comparable farewell-cake / handover inscription stories; none found."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -30201,10 +30201,10 @@
     {
       "file": "content/sentence_bank/long_health_services_10.json",
       "index": 55,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "82ad81ddc5ab2d76da797bab17636c5ae2f769e6c85e193fa1573f61eb65565b",
-      "v2_sha256": "82ad81ddc5ab2d76da797bab17636c5ae2f769e6c85e193fa1573f61eb65565b",
-      "notes": "Read all four fields. Confusing a vaccine name with a mouth sore prompts a clear explanation, but the misunderstanding resolves immediately and the ending merely says not to guess; strengthen the arc without mocking symptoms or compromising screening."
+      "v2_sha256": "f505587fca073a4f2d810388209f2278a1c08731139983b34e57992c0ce28a13",
+      "notes": "Rebuilt as a nonfamily clinic-assessment comedy: the narrator over-prepares for a shingles-vaccine consultation, files a mouth-corner red spot under chronic illness, then is asked when it began; an adjacent patient quietly folds away his own questions as the narrator’s list grows. The clinical team assesses and explains arrangements; no self-diagnosis or unsupported eligibility advice. Reviewed all four fields and contextual readings; 317 Han/Jyutping units and clean row audit. Distinct from other vaccine stories, which focus on appointment dates, prior reactions, or confusing self-injection."
     },
     {
       "file": "content/sentence_bank/long_health_services_10.json",
