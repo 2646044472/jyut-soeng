@@ -315,3 +315,13 @@
 - Checked Macau Cantonese and contextual Jyutping (263 Han characters / 263 syllables), including the revised final line and tones, complete Simplified Chinese gloss and matching practice tip. Screened approved stories; maximum character-trigram Jaccard was 0.0159, with a different family-outing story as the nearest match.
 - Updated V2 status/hash, rebuilt the app bundle, verified exact source-to-app sentence/Jyutping/gloss/tip/category mirrors, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`. The mechanical story audit had no failures; `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. Unit tests were not run.
 - Current V2 total: 1,663 pass / 3,337 needs_revision / 0 pending. Content commit: `70eaf8bedcae487cedf155f46eab36b4f46efd92`; recovery-checkpoint commit and remote verification remain.
+
+
+## Active continuation — 2026-10-30, instant-soup overtime batch 28
+
+- Continued in the independent worktree `C:\Users\bankey\Documents\Codex\2026-10-29\task\jyut-soeng-v2-worktree`; the Desktop repository remains untouched. Before this batch, local HEAD and `origin/codex/macau-story-upgrade-batch-progress` were both `c17647f5f07c150476b30d246617695db38bbdbf`.
+- Reworked `content/sentence_bank/long_food_shopping_16.json` zero-based index 23. Supermarket instant soup bought for overtime becomes a workplace deadline mix-up: coworkers turn food-use dates and flavors into an assigned project schedule, and the empty drawer earns the final on-time-delivery joke. The supermarket item and overtime use remain central; this is not a family-interaction-core story.
+- Reviewed Macau Cantonese, contextual Jyutping (242 Han characters / 242 syllables), the complete Simplified Chinese gloss, and matching practice tip. Screened approved cards for semantic overlap; the nearest character-trigram match was an unrelated office lunch contest (Jaccard 0.0125).
+- Updated the V2 status/hash, rebuilt `app/src/main/assets/builtin/content.json`, verified exact sentence/Jyutping/gloss/tip/category mirrors, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`, then regenerated the checklist. `python tools/validate_content.py` passed (8,000 entries), and `git diff --check` passed. Unit tests were not run.
+- Current V2 total: 1,664 pass / 3,336 needs_revision / 0 pending. Content commit: `5f3771e06efe92421b782d55f5fc07a4a21ea296`. This checkpoint is being committed separately; remote verification is the next step.
+- Continue reviewing distinct eligible stories across the full 5,000-card scope.
