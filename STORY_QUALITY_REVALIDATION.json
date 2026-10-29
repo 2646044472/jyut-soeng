@@ -10926,10 +10926,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 81,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ad732c82541f026ba7d12b92b79846728593cf3265fc3a38ea03168e818512e5",
-      "v2_sha256": "ad732c82541f026ba7d12b92b79846728593cf3265fc3a38ea03168e818512e5",
-      "notes": "Needs revision: a wrong-table dish is removed and coworkers divide shared versus individual food; the correction is procedural and the ending repeats a generic “say it clearly before calculating” lesson."
+      "v2_sha256": "ed10c3f41a652a1801672661c5fa7dde4e46533dff7b9fd785c7202eb3266d2e",
+      "notes": "Rebuilt the procedural wrong-dish correction as a mistaken-table-number story with an absent shrimp-ball “coworker” callback: the group checks meal photos and asks staff to verify the order record; the manager confirms the neighboring table received it, removes the item, and reprints the bill before payment. The cashier and Ah Yan extend the joke to double clock-ins, then the group-chat tag closes the callback. Compared with approved index 76 (a delayed repeat order that did produce an extra plate at this table): here no extra dish arrived; a one-digit table selection sent the charge to the wrong bill. Also screened against approved indexes 77–80 (cutlery/zero fee, transfer signal, fair late-arrival split, service-fee/empty-chair misunderstanding); the mistaken POS table and “two desks/two clock-ins” mechanism is distinct. Reviewed colloquial Cantonese, contextual Jyutping (275 Han/275 syllables; 名 is ming4 in the “name” joke and 長 is zoeng2 in 店長), complete Simplified Chinese gloss and event-specific practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
