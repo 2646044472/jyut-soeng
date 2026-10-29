@@ -22989,10 +22989,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 56,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "99ea75d0855f4df726a969e45578a3432ece82de031728e5613af9cd5f9c5dfc",
-      "v2_sha256": "99ea75d0855f4df726a969e45578a3432ece82de031728e5613af9cd5f9c5dfc",
-      "notes": "Needs revision: the parent attends a school meeting while the child counts a fire engine and draws a slide into the school building; the scene is pleasant but the child’s drawing has no escalation or strong joke. All four fields read; tip matches the meeting and drawing."
+      "v2_sha256": "ecc7f229d5ffc0513767799fb629b6dfe08bb06f7d8d0c636c0edf84f41e43f0",
+      "notes": "Root rewrote the mild school-meeting report as a child drawing an absurd slide exit because her father keeps extending the parent meeting with questions. The teacher mistakes the drawing for a campus proposal, then the child reveals its real destination; the father asks whether he may leave and she points to the marked “Dad exit.” Root individually reviewed all four fields, scene logic, and Jyutping word by word; 244 Han characters and 244 aligned manually authored Jyutping units. Gloss covers the full story, tip matches the sequence, category and metadata unchanged. Distinct from accepted parent-meeting and school-play stories: the engine is the child designing an escape route for her father’s endless questions."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
