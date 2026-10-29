@@ -12101,10 +12101,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 28,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9a159c352d7d9dbfbf2cd2578f105f4cb26489bfda2db3c88b9c7c38d8c64fba",
-      "v2_sha256": "9a159c352d7d9dbfbf2cd2578f105f4cb26489bfda2db3c88b9c7c38d8c64fba",
-      "notes": "The sauce spill creates a real slip hazard and the cleaner’s line has wordplay, but the subsequent package and recipe logistics disperse the joke instead of escalating to a strong payoff."
+      "v2_sha256": "9a7e71b343c9437ec78d5a2b3281640dd8870fbb0abc6327b212bdd40557aaba",
+      "notes": "V2 reviewed: chili oil spills in a public hallway and is cleaned before delivery; the cleaner’s “save the floor first” line returns in a final callback where the reminder is posted for the floor itself. Neighbor/community scene, not family-centered."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -12733,10 +12733,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 7,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "859f3d81683622767d06db9e72e6b168e39128ca6791cf76e9b632cc3200bb20",
-      "v2_sha256": "859f3d81683622767d06db9e72e6b168e39128ca6791cf76e9b632cc3200bb20",
-      "notes": "Needs revision: the condensation is explained and the sugar-label mix-up leads to a correction, but the colleague simply calls sweet tea a reward and promises to verify next time; the two incidents do not build to a strong earned comic payoff. Four fields read; no source edit."
+      "v2_sha256": "2ab2da6bdef5fa4890505ce45af4bdcbc4636d59ae4f1c58aa2ea30e059c21ec",
+      "notes": "V2 reviewed: cup condensation initially looks like a leak, then a wrong sugar label makes the shared tea sweeter than expected; the colleague volunteers to inspect next time but demands breakfast as the inspection fee. Workplace breakfast plot."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -12789,10 +12789,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 14,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "179df13d205c351dea6b2fce5ac95a9e02c7667242c50d699b812830f99d0435",
-      "v2_sha256": "179df13d205c351dea6b2fce5ac95a9e02c7667242c50d699b812830f99d0435",
-      "notes": "Needs revision: the unsafe second-hand oven is correctly rejected and the safety lesson is clear, but the scene resolves straightforwardly and the compensation tray/second purchase add no earned joke. Four fields read; no source edit."
+      "v2_sha256": "4ed8febeed113cc04c1f388e5efadf06297bb827879347fda615f368844c312a",
+      "notes": "V2 reviewed: testing exposes a cracked appliance wire, so the buyer safely cancels and buys a warranted unit later; the complimentary tray pays off the failed deal as the only item carried away from that first pickup, with the oven itself an “included safety lesson.” Nonfamily second-hand sale."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -13557,10 +13557,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
       "index": 10,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "fb378b6c22b8da516a18be5eb837fa9fb00c4aacf7566372159d20439d39654c",
-      "v2_sha256": "fb378b6c22b8da516a18be5eb837fa9fb00c4aacf7566372159d20439d39654c",
-      "notes": "Needs revision: a half-jin purchase connects the narrator to a neighbor, but the recipe sharing and promise to alternate cooking remain a warm slice-of-life anecdote without a comic reversal. Four fields read; no source edit."
+      "v2_sha256": "ab1b7df163a301d14bd5ef7a99f61f0f01a6f79766a1328a6bae3f3a799add13",
+      "notes": "V2 reviewed: buying a single-person portion of pork unexpectedly introduces the upstairs neighbor to a shared hot pot; the seller’s half-jin suggestion returns as a joke about keeping half for the next neighbor knock. Neighbor/friend story, no family theme."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
@@ -15261,10 +15261,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 23,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "dfa1ec1807de1e7c3b8c8c5b87a32794f1b28e0fd110c12bb19c369088d5b0a7",
-      "v2_sha256": "dfa1ec1807de1e7c3b8c8c5b87a32794f1b28e0fd110c12bb19c369088d5b0a7",
-      "notes": "The restaurant spills soup on pale trousers; staff provide an apron and refund a drink, while the friend makes a napkin tie. The service is considerate, but the “strongest flavor is apology” narration explains the experience rather than delivering a strong comic payoff. Checked all four fields."
+      "v2_sha256": "16ef3cc9cc8026e9695e28a22611af37a6ba121c89ec393646b037fc31ebbe5e",
+      "notes": "V2 reviewed: a restaurant spill is handled respectfully and the friend improvises a napkin tie; the final callback extends the boss persona to the bus stop with “car is here, closed for the night.” Public restaurant/friend plot."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
