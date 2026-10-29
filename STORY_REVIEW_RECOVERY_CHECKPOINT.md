@@ -589,3 +589,13 @@
 - Updated V2 hash/status and rebuilt app assets. Exact source/app sentence, Jyutping, gloss, and tip match; metadata is `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/build_assets.py`, `python tools/validate_content.py` (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, and `git diff --check` passed. Current V2 total: 1,686 pass / 3,314 needs_revision / 0 pending. No unit tests were run.
 - Next: continue from index 63 and preserve the full 5,000-card review scope.
+
+
+## Active continuation - 2026-10-30, tofu-casting callback batch 59
+
+- Continued from clean local HEAD `1f92e20b31f7d4b05190257f0a3fac86255e954e`; immediately before preparing this batch, `git ls-remote` confirmed the authorized target branch at the same SHA. The Desktop checkout remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 63 from a family dinner into a coworker meal in the company kitchen. Kept the sealed tofu package, receipt, same-price exchange, store’s explanation of firm versus soft tofu, and use of the soft tofu in fish soup. A coworker jokes that the upright firm tofu is a guest actor who will not enter the soup; after the exchange, soft tofu is cast as the lead and firm tofu as a frying-pan cameo. The “next episode” line asks shoppers to check the label before cooking.
+- Screened against the approved fish-market tofu-pitch story and the office instant-soup deadline misunderstanding. Their vendor-promotion and project-tracking mechanisms differ from this tofu-type return and film-casting callback. Reviewed colloquial Cantonese, contextual Jyutping (234 Han / 234 syllables), complete Simplified Chinese gloss, and practice tip.
+- Updated the V2 hash/status and rebuilt app assets. Exact source/app sentence, Jyutping, gloss, and tip match; metadata is `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/build_assets.py`, `python tools/validate_content.py` (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, and `git diff --check` passed. Current V2 total: 1,687 pass / 3,313 needs_revision / 0 pending. No unit tests were run.
+- Indices 64–66 are already pass; continue from index 67 and preserve the full 5,000-card review scope.
