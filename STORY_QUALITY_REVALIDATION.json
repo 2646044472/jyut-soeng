@@ -10470,10 +10470,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 24,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b6f432943fae9360150e19dbb74a713762537e32a675c749b6185a00414805e9",
-      "v2_sha256": "b6f432943fae9360150e19dbb74a713762537e32a675c749b6185a00414805e9",
-      "notes": "Needs revision: coworkers accurately share allergy information and confirm ingredients with the restaurant; it is a safety checklist and ends without comic escalation."
+      "v2_sha256": "63545166ae52a019b6815077d5fe5e66719151ffea469b2e16d07a8caf7a3b9d",
+      "notes": "Human-reviewed V2 rewrite: a new coworker misreads 走蔥 as 蔥另放, then the open-speaker order becomes a 配料研討會 and the separately packed scallions return for a comic sign-in callback. Nonfamily workplace scene; category and metadata preserved. Reviewed all four fields and Cantonese readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -23519,10 +23519,10 @@
     {
       "file": "content/sentence_bank/long_health_services_02.json",
       "index": 20,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "28f0fd15edc90b696b0403cc9afd602707b6b32489819a064b3f3955d1bda4a0",
-      "v2_sha256": "28f0fd15edc90b696b0403cc9afd602707b6b32489819a064b3f3955d1bda4a0",
-      "notes": "Needs revision: tooth sensitivity is recorded for follow-up and a coworker jokes about documenting ice cream. This is a dental instruction and diary routine; no escalation or punchline. All four fields read; gloss/tip match."
+      "v2_sha256": "82e3b05bd1bb77834ac9c154d3418feb3f531319c2a9a1dc0cc5e2ebe2ceca22",
+      "notes": "Human-reviewed V2 rewrite: an office symptom log escalates into a mock dental-news bulletin and urgent press conference; at the follow-up the coworker’s warmed milk tea is added to the observation list. Nonfamily workplace scene, distinct from the dental records/evidence plot; category and nonlanguage metadata preserved. All four language fields, readings, and token alignment reviewed."
     },
     {
       "file": "content/sentence_bank/long_health_services_02.json",
