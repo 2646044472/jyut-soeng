@@ -195,3 +195,13 @@
 - Current V2 count remains 1,651 pass / 3,349 needs_revision / 0 pending. Unit tests were not run.
 - Correction commit `df5587f9b6f08ea0b89987305b2bcc95fc6dfac1` (`Reject duplicate secondhand toaster story`) was pushed by ordinary fast-forward from `0e6f288`; `git ls-remote` confirmed the target ref at the same SHA.
 - Continue screening distinct non-family-core stories; require plot-level uniqueness, not just a changed punchline.
+
+## Active continuation — 2026-10-30, basil storage batch 15
+
+- Continued in the independent worktree; before this batch, local and remote target refs matched at `6e46cfaf85242210794fa5b38f1a0fa117f7e15f`.
+- Replaced `content/sentence_bank/long_food_shopping_09.json` zero-based index 16 with a distinct workplace basil-preservation story. A coworker mistakes the basil water cup for dishes, starts the dishwasher, then treats the basil as a rotating intern and adds it to the duty roster; the closing joke leaves the cup on night duty. The food-preservation category remains central.
+- Reviewed Macau Cantonese, contextual Jyutping (226 Han characters / 226 syllables), Simplified Chinese gloss, and practice tip. Plot-level trigram screening against approved cards had a maximum Jaccard score of 0.0169.
+- Updated the V2 hash and status, rebuilt the app bundle, verified exact source-to-app mirrors and `qualityPriority=1`, regenerated the checklist, and passed `python tools/validate_content.py` (8,000 entries) and `git diff --check`.
+- Current V2 total: 1,652 pass / 3,348 needs_revision / 0 pending. Unit tests were not run.
+- Content commit `9b081f0ea1e645f3ab00bda404df7ee6db3078bc` (`Review Cantonese basil storage story`) was pushed by ordinary fast-forward. GitHub connector and `git ls-remote` both confirmed the target branch at that SHA.
+- Continue reviewing distinct non-family-core stories across the full 5,000-card scope.
