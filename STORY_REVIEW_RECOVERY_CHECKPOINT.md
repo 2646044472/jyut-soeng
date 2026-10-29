@@ -525,3 +525,12 @@
 - Updated V2 hash/status and rebuilt app assets; source/app sentence, Jyutping, gloss and tip match, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,679 pass / 3,321 needs_revision / 0 pending. Unit tests were not run.
 - Ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.
+
+## Active continuation - 2026-10-30, almond-cake intact-piece contest batch 52
+
+- Continued from clean HEAD `ec0a06fa17c891d452a8fbe7dbdf3d2805b7be12`; GitHub branch was verified at the same SHA. Desktop worktree remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 64. Kept the damaged-box report and same-batch inspection/replacement. At the tea visit, everyone reaches for the most intact almond cake at once and breaks it into pieces; the grandmother’s final inspection becomes the callback.
+- Compared with approved fragment-sharing and mooncake stories; the intact-piece contest after a transit-damage exchange is distinct. Reviewed Cantonese, contextual Jyutping (255 Han / 255 syllables), full Simplified Chinese gloss and practice tip.
+- Updated V2 hash/status and rebuilt app assets; source/app sentence, Jyutping, gloss and tip match, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,680 pass / 3,320 needs_revision / 0 pending. Unit tests were not run.
+- Indices 56–63 retain their current ledger decisions and were not changed in this batch. Continue reviewing all 5,000 cards.

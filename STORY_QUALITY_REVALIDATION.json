@@ -10790,10 +10790,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 64,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "41ffdf64093c68cb89435d6cf4fb9642f3c0932e0f863ad02104622267dd62e9",
-      "v2_sha256": "41ffdf64093c68cb89435d6cf4fb9642f3c0932e0f863ad02104622267dd62e9",
-      "notes": "Needs revision: broken almond cakes are replaced and the guests joke about tasting the most intact one; the isolated line is a mild tag, while the rest is a routine return-and-hosting account rather than escalating comedy."
+      "v2_sha256": "408b31651ad122c3b6907430927e7772e6d89332020c99f35418211c11a29c5a",
+      "notes": "Kept the damaged packaging report and same-batch inspection/replacement. Strengthened the tea visit into a payoff: the guests all reach for the most intact almond cake at once, break it into pieces, and the grandmother is asked to make the final inspection. Compared with approved fragment-sharing and mooncake stories; this specific intact-piece contest after a transit-damage exchange is distinct. Reviewed colloquial Cantonese, contextual Jyutping, full gloss and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
