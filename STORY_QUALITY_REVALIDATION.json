@@ -34541,10 +34541,10 @@
     {
       "file": "content/sentence_bank/long_home_family_03.json",
       "index": 98,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d32f633b361a4cd99a5a87ebabcf60570a5607ed89ffcbfa17a0534d5426288a",
-      "v2_sha256": "d32f633b361a4cd99a5a87ebabcf60570a5607ed89ffcbfa17a0534d5426288a",
-      "notes": "Needs revision: the father’s criticism of the new apartment softens when he recognizes his old lamp, leading to a warm shared memory; the scene has no comic turn. Checked all four fields; source unchanged."
+      "v2_sha256": "8e8cfef18a940664da174af39865fce644e69466ff3fdbda9cc5881467a4d976",
+      "notes": "Main-agent revalidation: father clears chairs and marks a robot vacuum’s route with paper strips; the machine drags them into looping tracks and announces completion after bumping its dock. The family follows the mess to find a missing earring, turning his shortcut lesson into an accidental treasure map. Main agent rewrote and checked all four fields and aligned Jyutping."
     },
     {
       "file": "content/sentence_bank/long_home_family_03.json",
