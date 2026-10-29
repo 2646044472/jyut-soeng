@@ -74,3 +74,15 @@
 - `python tools/validate_content.py` passed (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md` completed, and `git diff --check` passed. Current clarified V2 count is 1,641 pass / 3,359 needs_revision / 0 pending. No unit tests were run in this batch.
 - Content and metadata were committed locally as `fd243a7fbc3b74e0bf3f50f5b03fbb901d60a8f9` (`Review six Cantonese food stories`), pushed by ordinary fast-forward from `30a205e`, and then verified with `git ls-remote` at that exact SHA. Local `HEAD` matched the remote target at verification time.
 - Continue with eligible non-family-core cards in `long_food_shopping_03.json` after index 89. Do not count any card unless its language and comedy review is complete and source, ledger, and app mirror are synchronized.
+
+
+## Active continuation — 2026-10-29, shopping batch 5
+
+- Independent worktree: `C:\Users\bankey\Documents\Codex\2026-10-29\task\jyut-soeng-v2-worktree`; desktop repository remains untouched.
+- Before this batch, local and remote target branch were both `6149100d765939152f3f2af24242a4c27ed1739f`; the remote target ref was checked immediately before preparing the batch.
+- Completed V2 review for `content/sentence_bank/long_food_shopping_04.json` zero-based index 11. Reworked the misplaced yoghurt promotion sign into a price-tag investigation that escalates when coworkers send more shelf-tag photos and appoint the narrator a mock “supermarket price-tag inspector.” This workplace-shopping plot differs from approved transaction and bill-sharing stories.
+- Reviewed Cantonese, contextual Jyutping, Simplified Chinese gloss, and `故事练习：` prompt. Corrected contextual readings including 乳酪 `jyu5 lok6`, 只限 `zi2 haan6`, 埋單 `maai4 daan1`, 十分鐘 `sap6 fan1 zung1`, and 轉行 `zyun2 hang4`; all 268 Han characters align with 268 Jyutping syllables.
+- Current approved-story trigram Jaccard maximum was 0.0144. Updated the V2 status/hash, rebuilt the app bundle, and verified exact source-to-app text, Jyutping, gloss, usage tip, `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), progress report regenerated, and `git diff --check` passed. V2 total: 1,642 pass / 3,358 needs_revision / 0 pending. Unit tests were not run in this batch.
+- Batch changes are ready for local commit and ordinary fast-forward push from `6149100`; record the resulting commit and post-push remote SHA after verifying them.
+- Continue with distinct, non-family-core stories. Index 90 in this file is a used-toaster trial plot and is too close to approved index 89’s used-rice-cooker trial; leave it `needs_revision`. Avoid family-interaction-core cards.
