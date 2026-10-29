@@ -635,3 +635,13 @@
 - Reviewed colloquial Cantonese, contextual Jyutping (232 Han / 232 syllables), complete Simplified Chinese gloss, and practice tip. Updated the V2 row hash/status and rebuilt the app bundle. Exact source/app sentence, Jyutping, gloss, and tip match for indexes 67–69; each has `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/build_assets.py`, `python tools/validate_content.py` (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, and `git diff --check` passed. Current V2 total: 1,690 pass / 3,310 needs_revision / 0 pending.
 - Next audit: zero-based index 70, which remains `needs_revision`; screen the used-blender safety-interlock plot against the new distinct batch and surrounding secondhand stories.
+
+
+## Active continuation — 2026-10-30, pinhole-curtain pointer gag batch 63
+
+- Continued from local/remote `HEAD` `f4786eab7e60c8acfdbcc89ce0b3912f383b37b3`; the Desktop repository remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 70. Replaced the repetitive blender safety-interlock story with a secondhand blackout curtain whose disclosed pinhole sends a moving sunspot across a whiteboard. Volunteers mistake the dot for the presenter’s laser pointer and stand when it reaches “lunch break”; the director asks if another hole can cue the end of day, paying off the disclosed defect and negotiated discount.
+- Screened against curtain stories elsewhere in the corpus; those concern reducing window glare and do not use the pinhole as a moving false pointer. Reviewed colloquial Cantonese, contextual Jyutping (235 Han / 235 syllables), complete Simplified Chinese gloss, and practice tip.
+- Updated the V2 row hash/status and rebuilt the app bundle. Exact source/app sentence, Jyutping, gloss, and tip match for indexes 67–70; each has `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/build_assets.py`, `python tools/validate_content.py` (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, and `git diff --check` passed. Current V2 total: 1,691 pass / 3,309 needs_revision / 0 pending.
+- Next audit: zero-based index 71, which remains `needs_revision`; compare its used-oven troubleshooting story with index 65 before revising.

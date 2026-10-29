@@ -10838,10 +10838,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 70,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "65cdbc0537f809dea33d150eba4be10e08c21e688c988a578bf9a9546a284762",
-      "v2_sha256": "65cdbc0537f809dea33d150eba4be10e08c21e688c988a578bf9a9546a284762",
-      "notes": "Needs revision: the blender’s safety interlock explains the alarming sound and the machine then works normally; the child clapping and “test machine more exciting than drink” do not build a meaningful comic escalation."
+      "v2_sha256": "57d70e181c8bb7309e30ea92ad15381af9a4c17aca0b3d6557df9f32e45bc705",
+      "notes": "Replaced the repetitive secondhand-blender safety-interlock story with a disclosed pinhole in a secondhand blackout curtain. The moving sunspot on the whiteboard is mistaken for the presenter’s laser pointer, leading attendees to stand at the “lunch break” line; the director asks whether another hole can cue the end of day. Screened against curtain stories in other files; those concern reducing glare and have no pinhole/false-pointer mechanism. Reviewed colloquial Cantonese, contextual Jyutping (235 Han / 235 syllables), complete Simplified Chinese gloss, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
