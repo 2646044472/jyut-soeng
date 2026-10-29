@@ -21399,10 +21399,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f347ec713de125665bd0245462355ec8c0ac07faab49c06ba6a8e7ca7691b2ff",
-      "v2_sha256": "f347ec713de125665bd0245462355ec8c0ac07faab49c06ba6a8e7ca7691b2ff",
-      "notes": "Needs revision: the grocery delivery misses its planned arrival while the customer is on the metro; she rushes home, then carries bags upstairs during lift repair and a neighbor helps. The sequence is coherent but remains a mild delivery/logistics anecdote without a strong comic reversal. The practice tip matches these current events. Four language fields have not been revalidated."
+      "v2_sha256": "9f6e046ebdc4da21240c541fb992064ca12dec64e0487bc07e0ac10890c963f2",
+      "notes": "V2 manually reviewed: the scheduled delivery misses the customer at the metro; cold goods are handled and the neighbor helps carry the bags during lift repair. The “whole supermarket” line develops into the gap between delivery to the building lobby and to the apartment door; the review-page choice and “six flights included” callback pay it off. Neighbor/community scene, no family theme; all four fields and readings checked.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
@@ -21512,10 +21513,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 14,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2bc5c643fd8aacfc3a84f637bfc445f5d83efbc9b431ab626d443846fe3a9966",
-      "v2_sha256": "2bc5c643fd8aacfc3a84f637bfc445f5d83efbc9b431ab626d443846fe3a9966",
-      "notes": "Needs revision: separated noodle sauce turns viscous and the noodles taste unevenly; a coworker’s “two flavors in a meeting” quip prompts a practical fix, then a procedural tip. One mild line is not a strong comedic escalation or reversal. Gloss and tip follow the facts. Four fields read; develop a more consequential comic payoff and recheck readings."
+      "v2_sha256": "9fa243e9eda9fbc7259cc83de989d50eb40ce4a99677113c00153ee4656bbefc",
+      "notes": "V2 manually reviewed: the roommate’s unevenly coated noodles prompt a coworker to call the lunchbox a two-flavor meeting. Colleagues split into “有味派/冇味派,” someone chairs the meeting by tapping the box, warm water reunites the factions, and the coworkers pass a sauce-separating resolution. Workplace/roommate scene, no family theme; all four fields, Jyutping alignment and readings checked.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
