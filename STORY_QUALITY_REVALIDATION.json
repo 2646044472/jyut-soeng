@@ -7213,10 +7213,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 84,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "bcb4c667084a4ae067f698b97fc7cb138b684da2bee0309828f3848f3b7c4545",
-      "v2_sha256": "bcb4c667084a4ae067f698b97fc7cb138b684da2bee0309828f3848f3b7c4545",
-      "notes": "月票與步行小路的比較帶出女兒不想只被問成績，但結尾轉換問題偏溫情，缺少明確笑點。 金錢/帳務/車輛成本為核心情節，列入最終題材比例與重複主線盤點。四欄均逐張檢查：粵語正文、粵拼、完整普通話釋義、篇章專屬復述提示。"
+      "v2_sha256": "f6ee3c5738f5ac23ea68a3c7f07c3643e6c75ebbf144b0d96c1b4f0d6bcc8a52",
+      "notes": "Rewritten as a nonfamily exchange-student transit-pass comedy: a low-use monthly pass turns into a “ride it back” checklist, leading to needless one-stop detours and a driver asking if they are lost; the next month’s single ticket closes on the ride-for-purpose punchline. Reviewed sentence, Jyutping, complete simplified gloss and story-specific tip; 302 Han characters/tokens, mechanical row audit clean. No close match found in reviewed transit stories; the joke mechanism is sunk-cost overuse."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
