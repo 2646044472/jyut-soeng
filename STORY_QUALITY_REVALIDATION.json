@@ -34533,10 +34533,10 @@
     {
       "file": "content/sentence_bank/long_home_family_03.json",
       "index": 97,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7919a5459e2956ce3b8d65f5c1900ee5bf660c077d2d541a907cea0e4d81f474",
-      "v2_sha256": "7919a5459e2956ce3b8d65f5c1900ee5bf660c077d2d541a907cea0e4d81f474",
-      "notes": "Needs revision: mother and daughter laugh when she reverses the yoga movements, then she catches up and helps a classmate; the single mistake is mild and has no stronger comic payoff. Checked all four fields; source unchanged."
+      "v2_sha256": "f6d16dba2617b391d54698902b697e9340f5b9e50b8caafd722b92ff7415d1c5",
+      "notes": "Main-agent revalidation: the mother copies the yoga teacher’s mirror image, then her daughter is drawn into the reversal; the instructor turns their opposite movements into a two-sided mirror demonstration, and the mother’s final offer to replace the instructor pays back the reverse-class gag. Individually checked all four fields and Jyutping alignment."
     },
     {
       "file": "content/sentence_bank/long_home_family_03.json",
