@@ -10558,10 +10558,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 35,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "05e8abbfa05de1fd445c19bd7f02ff410a32d834cc18dbc03c4cc11d9e6de109",
-      "v2_sha256": "05e8abbfa05de1fd445c19bd7f02ff410a32d834cc18dbc03c4cc11d9e6de109",
-      "notes": "Needs revision: a planned grocery list avoids buying too many vegetables and saves time; the story is a practical planning lesson with no comic turn."
+      "v2_sha256": "0607a78e2706f90c0f35ed79f9dc2585dedaf25ecb437e85573cbf96e0c1d5ec",
+      "notes": "Rebuilt the practical menu list into a family negotiation: Dad requests curry, then the sister assigns the proposer to buy ingredients, cook and wash the pot. His handwritten “taster exempt from washing” clause is crossed out, completing the list-as-agreement callback. The planned meals still drive the supermarket purchases. Screened against approved grocery-list, menu and family-cooking stories; none shares this proposal-to-kitchen-duty reversal. Reviewed colloquial Cantonese, contextual Jyutping, complete gloss and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",

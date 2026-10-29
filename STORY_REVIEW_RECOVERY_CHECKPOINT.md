@@ -443,6 +443,16 @@
 - Content and checkpoint are ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.
 
 
+## Active continuation - 2026-10-30, curry-list responsibility batch 43
+
+- Continued from clean HEAD `c53058a50cb47c3ee25bf07b8a64054bf8d6414f`; confirmed target remote matched before editing.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 35. The weekly shopping list stays central; when Dad requests curry, his daughter writes the proposer down for ingredients, cooking and washing the pot. His handwritten “taster exempt from washing” clause is crossed out, paying off the list-as-agreement joke.
+- Screened against approved grocery-list, menu and family-cooking stories; none shares this proposal-to-kitchen-duty reversal. Reviewed colloquial Cantonese, Jyutping (259 Han / 259 syllables), complete gloss and practice tip. Nearest non-self trigram Jaccard was 0.0154; no plot-level duplicate found.
+- Updated V2 hash/status and rebuilt app assets; exact source-to-app sentence/Jyutping/gloss/tip verified with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,673 pass / 3,327 needs_revision / 0 pending. Unit tests were not run.
+- Content and checkpoint are ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.
+
+
 ## Active continuation - 2026-10-30, supermarket traffic officer batch 42
 
 - Continued from clean HEAD `f851576857b47113c6c10cf53b1f860e0a300cc2`; confirmed the target remote branch matched before editing.
