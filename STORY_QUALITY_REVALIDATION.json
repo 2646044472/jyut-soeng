@@ -15800,10 +15800,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 90,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d772820f58d3e39b15f9427aa92eff520cc64ab697d4f8a47dcfaf5c24695e37",
-      "v2_sha256": "d772820f58d3e39b15f9427aa92eff520cc64ab697d4f8a47dcfaf5c24695e37",
-      "notes": "The narrator shares curry puffs at a meeting, where colleagues enjoy crumbs and coffee pairing; this improves a dull meeting but lacks a comic reversal. Checked all four fields."
+      "v2_sha256": "f61d8055c2cc5f358cb3ec2477eb72e667c6dda95a16881a8f405ba832fb862a",
+      "notes": "Rewrote a curry-puff meeting gag: flaky crumbs become an upward “performance curve,” prompting a tasting budget and blind test; coworkers bring a ruler to measure the crumbs at the next meeting, and the manager asks which puff will draw the chart. Fits the market-food category and is distinct from approved curry-puff packing and pastry-crumb plots. Checked Cantonese, contextual Jyutping (including 枱 toi2), full Simplified Chinese gloss, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",

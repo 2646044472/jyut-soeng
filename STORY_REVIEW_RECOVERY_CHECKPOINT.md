@@ -110,3 +110,13 @@
 - `python tools/validate_content.py` passed (8,000 entries), progress report regenerated, and `git diff --check` passed. Current V2 total: 1,644 pass / 3,356 needs_revision / 0 pending. Unit tests were not run in this batch.
 - Batch commit `661ada89137c955afc80ac5aef7d4d1826ac68cd` (`Review Cantonese winter melon story`) was pushed by ordinary fast-forward from `a016cdf`. Post-push `git ls-remote` confirmed the target branch at exactly `661ada89137c955afc80ac5aef7d4d1826ac68cd`; local `HEAD` matched at verification time.
 - Continue screening for distinct, non-family-core stories.
+
+## Active continuation — 2026-10-30, market batch 8
+
+- Continued in the independent worktree `C:\Users\bankey\Documents\Codex\2026-10-29\task\jyut-soeng-v2-worktree`; the Desktop repository remains untouched. Local HEAD started at `ce6c0571ccf09db7d6c05e10958d2ff88f32be8e`.
+- Completed V2 review for `content/sentence_bank/long_food_shopping_07.json` zero-based index 90. A curry puff’s flaky crumbs become a rising “performance curve” during a quarterly meeting; the manager adds a tasting budget and schedules a blind test; at the next meeting coworkers arrive with a ruler to measure the crumbs, and the manager asks which curry puff will draw the chart.
+- Checked Cantonese, contextual Jyutping, complete Simplified Chinese gloss, practice prompt, and category fit. Corrected 枱 to `toi2`. Han/Jyutping alignment is 229/229. The top trigram Jaccard match against V2-approved stories was 0.0152 and involved an unrelated snack-packing plot.
+- Updated the V2 status/hash and rebuilt the app bundle. Source sentence, Jyutping, gloss, usage tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1` were checked in the corresponding bundle entry.
+- `python tools/validate_content.py` passed (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md` completed, and `git diff --check` passed. Current V2 count: 1,645 pass / 3,355 needs_revision / 0 pending. Unit tests were not run.
+- The GitHub connector listed `codex/macau-story-upgrade-batch-progress` at `ce6c0571ccf09db7d6c05e10958d2ff88f32be8e`; local branch name `codex/macau-story-upgrade-batch-progress-resume` is not a remote branch. If the ordinary fast-forward push and follow-up `git ls-remote` succeed, record their SHA here.
+- Continue reviewing distinct non-family-core cards across the full 5,000-card scope.
