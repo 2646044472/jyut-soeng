@@ -5542,10 +5542,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 92,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9787aef14addd4deea52879582572a0a8045af1b8b6bb8075b3c1107ecfab5ad",
-      "v2_sha256": "9787aef14addd4deea52879582572a0a8045af1b8b6bb8075b3c1107ecfab5ad",
-      "notes": "Root individually reviewed all four fields. The later-arriving statement is not the newer one, but the resolution is a routine bank confirmation and the tea-cup ordering joke is slight. The story centers on a balance-notice discrepancy with no strong escalation. Needs rewrite."
+      "v2_sha256": "6d23ec010dd4e3d4fe87294703432a681d9a03c8909c48b8ca3d1b38802422dd",
+      "notes": "Human-reviewed V2 rewrite: an individual verifies two bank balance notices whose delivery order is opposite their issue dates; labeling the corrected and void copies turns them into a mock two-part series. No funds were disputed or lost; nonfamily account-notification scene, distinct from the interest-rate/household planning plots; category and metadata preserved. Reviewed all four fields and exact Jyutping alignment."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
