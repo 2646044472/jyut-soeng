@@ -20800,10 +20800,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 5,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e4595bf49c3bb319c256c87078c4ea206bf70adf881b2755b30cb79acd65c2bc",
-      "v2_sha256": "e4595bf49c3bb319c256c87078c4ea206bf70adf881b2755b30cb79acd65c2bc",
-      "notes": "The saffron price prompts a practical joke about opening a restaurant, then mussels and rice are cooked successfully. The setup does not grow into a second comic beat; the takeaway line is ordinary praise, so no strong escalation. Reviewed sentence, Jyutping, full gloss and story-specific tip; no source edit."
+      "v2_sha256": "2655bd7170fe226837e5e2680e9de1307a7dbe67b4c90742cb501ab7a9027e1e",
+      "notes": "The friend’s “not opening a restaurant” line now escalates through a casual invitation, a waiting sign, a hand-made menu, custom seafood orders, and a request to book next week; the last line callbacks the no-reservations group message. Four fields reviewed; manually checked all 301 character/Jyutping pairs and contextual tones, including 訂位 ding3; simplified gloss and tip checked; no family-centered plot."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
