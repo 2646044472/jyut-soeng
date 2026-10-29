@@ -139,4 +139,6 @@
 - Category remains takeaway communication and the workplace exchange is central. Reviewed Cantonese, contextual Jyutping, full Simplified Chinese gloss, and practice tip. Han/Jyutping alignment is 240/240. Highest approved-story trigram Jaccard was 0.0126; the nearest lexical match was an unrelated anonymous Q&A scene.
 - Updated V2 status/hash, rebuilt the app bundle, and verified the exact sentence, Jyutping, gloss, usage tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1` mirror.
 - `python tools/validate_content.py` passed (8,000 entries), progress report regeneration completed, and `git diff --check` passed. Current V2 count: 1,647 pass / 3,353 needs_revision / 0 pending. Unit tests were not run.
+- Batch commit `4f8c4e6cf55070d9d871496dbc79d9c8a10c8ccc` (`Review Cantonese takeaway communication story`) was pushed by ordinary fast-forward from `70704d1`; `git ls-remote` confirmed the target ref at the same SHA.
 - Continue reviewing distinct non-family-core cards across the full 5,000-card scope.
+
