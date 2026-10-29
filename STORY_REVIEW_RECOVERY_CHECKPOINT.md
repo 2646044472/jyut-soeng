@@ -451,6 +451,16 @@
 - Commit and remote verification follow. Continue reviewing the full set.
 
 
+## Active continuation - 2026-10-30, off-duty shopkeeper candy callback batch 46
+
+- Continued from clean HEAD `a0bd9c42c70e9d2dc4bcc26af4caa827c661c755`; confirmed the target remote branch matched before editing.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 40 and removed the overlapping hidden-candy reveal entirely. The nephew follows the grocery list, carefully bags the food as a “shop manager,” then picks one candy only after the list is complete and asks for it to be scanned. His line—“off duty now, I’m a customer, not stock”—and the hat/shift callback complete the identity-switch gag.
+- Compared against approved `long_home_family_09.json` index 71 (secret schoolbag sweet) and `long_food_shopping_01.json` index 28 (faulty cart steering shoppers to checkout); the new story has neither mechanism. Reviewed colloquial Cantonese, Jyutping (227 Han / 227 syllables, including contextual 店長 zoeng2), full Simplified gloss and tip.
+- Updated V2 hash/status and rebuilt app assets; exact source-to-app sentence/Jyutping/gloss/tip verified with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,674 pass / 3,326 needs_revision / 0 pending. Unit tests were not run.
+- Content and checkpoint are ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.
+
+
 ## Active continuation - 2026-10-30, curry-list responsibility batch 43
 
 - Continued from clean HEAD `c53058a50cb47c3ee25bf07b8a64054bf8d6414f`; confirmed target remote matched before editing.
