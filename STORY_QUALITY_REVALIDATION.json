@@ -34421,10 +34421,10 @@
     {
       "file": "content/sentence_bank/long_home_family_03.json",
       "index": 83,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3880bc9f769fcfef987c6c31c7c0c0c0d34c284d4ec490b20198e1cf926cb8c1",
-      "v2_sha256": "3880bc9f769fcfef987c6c31c7c0c0c0d34c284d4ec490b20198e1cf926cb8c1",
-      "notes": "Needs revision: the game noise and sleep conflict is addressed with headphones and an auto-shutdown setting; the notes and agreed curfew are gentle, with no earned comic payoff. Checked all four fields; source unchanged."
+      "v2_sha256": "29b2f66ea5d7273034fa502323fe3c967bd5ae4ebd01459516915c01d1044d84",
+      "notes": "Root reviewed all four candidate language fields and integrated the rewrite after independently verifying source identity. Father sets a one-round stopping rule, repeats the son’s “last round” excuses during a demo, then downloads the game himself; the son applies the father’s rule to reclaim the phone. Checked causal role reversal, distinctness from accepted family/game plots, contextual Jyutping readings and tones (including ding6, zoeng1, haa6 zoi3), complete Simplified Chinese gloss, and event-specific prompt. Clarified the exact repeated “last round” excuse in the dialogue and kept its quoted Jyutping aligned."
     },
     {
       "file": "content/sentence_bank/long_home_family_03.json",
