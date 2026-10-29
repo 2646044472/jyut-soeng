@@ -516,3 +516,12 @@
 - Updated V2 hash/status and rebuilt app assets; source/app sentence, Jyutping, gloss and tip match, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,678 pass / 3,322 needs_revision / 0 pending. Unit tests were not run.
 - Ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.
+
+## Active continuation - 2026-10-30, halftime biscuit passing batch 51
+
+- Continued from clean HEAD `03d333a0206bd789a063dde3b39bc58031b44714`; GitHub branch was verified at the same SHA. Desktop worktree remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 55. Kept the spicy packet sealed and exchanged it at the same price for sea-salt flavor. At halftime, the biscuits are passed around faster than the ball; the captain writes “two packs next time” on the empty bag, and the cousin records that one pack was not enough to pass around.
+- Compared with approved spicy-food/bravado stories; this is an unopened wrong-flavor exchange with a soccer passing callback, not a taste-tolerance reversal. Reviewed Cantonese, contextual Jyutping (271 Han / 271 syllables), full Simplified Chinese gloss and practice tip.
+- Updated V2 hash/status and rebuilt app assets; source/app sentence, Jyutping, gloss and tip match, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,679 pass / 3,321 needs_revision / 0 pending. Unit tests were not run.
+- Ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.

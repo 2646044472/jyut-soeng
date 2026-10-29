@@ -10718,10 +10718,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 55,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4156c058d535b782f4212acf7b18bbfab3c12562717bf32afbdcf8ab8ceca104",
-      "v2_sha256": "4156c058d535b782f4212acf7b18bbfab3c12562717bf32afbdcf8ab8ceca104",
-      "notes": "Needs revision: the cousin exchanges a mistakenly chosen spicy snack before sharing it with teammates; the process succeeds, but the ending is a reminder to read packaging rather than a strong joke."
+      "v2_sha256": "2c89582646deddca0ab7621cc33bd2f55e9eb3775320519f9ef6e5a1616e3a67",
+      "notes": "Kept the snack sealed during the exchange and checked its package before the same-price swap. Rebuilt the ending around the team sharing it at halftime: the biscuits get passed around faster than the ball, the captain writes “two packs next time” on the empty bag, and the cousin records that one pack was not enough to pass around. Compared with approved spicy-food/bravado stories; this is an unopened wrong-flavor exchange with a soccer passing callback, not a taste-tolerance reversal. Reviewed colloquial Cantonese, contextual Jyutping, full gloss and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
