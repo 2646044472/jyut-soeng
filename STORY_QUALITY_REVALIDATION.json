@@ -4478,10 +4478,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 59,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "712da0a5c98b77aa9490acf2899ef525aeae51e7fcfc78fe7c24067e0bd625fc",
-      "v2_sha256": "712da0a5c98b77aa9490acf2899ef525aeae51e7fcfc78fe7c24067e0bd625fc",
-      "notes": "The grandmother separates pension money into envelopes, lists medical and household costs, sets savings transfers and reclassifies an emergency medical expense. This is pure family budgeting/allocation with a mild ice-cream tag. All four fields checked; rework."
+      "v2_sha256": "10a18e0654121f0399d6be5d69ca61a6b62c23cbe8c94cfcdce2c0f4cdee4f46",
+      "notes": "The family tries to give grandma a quiet retirement day, but dad fills the calendar and everyone keeps interrupting to help; even the dog waits at the door with slippers. Grandma finally sends them away for breakfast, then puts dad’s alarm clock into a slipper and tells the family to schedule their own rest. Replaces pension envelope allocation with a specific, escalating family scene about over-managing someone’s day off. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
@@ -4558,10 +4558,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 69,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7dd50e241b54df0c48b895eebb19d2736f8f97d34a8f7a548946f7fa29042aeb",
-      "v2_sha256": "7dd50e241b54df0c48b895eebb19d2736f8f97d34a8f7a548946f7fa29042aeb",
-      "notes": "Re-audited against the clarified stronger comedy bar after the paperboat continuity concern. All four fields reviewed. The missing reverse side and duplicate early-postmarked letter are coherent, and the paper-birth line is a recognizable joke, but the resolution is routine and the noodle ending does not land a strong payoff. Needs a sharper consequence/reversal; preserve as pending repair."
+      "v2_sha256": "0aa3d1ed09f17369139dc255d2b6d21bd8cd809305f21216f4e44288d6af9d6b",
+      "notes": "At a government service desk, a customer learns that one photocopy is missing its reverse side; she jokes the back page was on holiday, then makes the whole queue inspect both sides. The clerk handles the double-sided copies and receipt. A duplicate notice arrives later, prompting a “did the letter have twins?” call; the clerk confirms it was mailed before the supplement was received. The customer labels the pair “arrived at different times, not two assignments” and saves a blank receipt as the next sample. Public counter scene with clerk and queue; no family-centered conflict. Checked all four fields and Jyutping; 塞唔入 verified as sak1 from LSHK Jyutping table."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
@@ -10421,10 +10421,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 18,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a1c29fe3688a2959f17fba08ed065f8c1e5ebc32593b86ef6b502035b21afebe",
-      "v2_sha256": "a1c29fe3688a2959f17fba08ed065f8c1e5ebc32593b86ef6b502035b21afebe",
-      "notes": "Needs revision: the tea cup obscures the narrator’s mouth and a breakfast modification is repeated back correctly; the final bus-route reminder is unrelated, and the scene lacks a strong payoff."
+      "v2_sha256": "b064d225633e49a9cde1c6b50cc0c22b7fe3a5d5b2f122e8c3546131eb64a2da",
+      "notes": "In a busy cha chaan teng, a tea cup muffles a customer’s breakfast order; the waiter mishears it and nearby office workers and students start supplying hand signals, escalating the confusion into two egg sandwiches. The customer finally clears the cup, the whole shop goes quiet, and the waiter quips that the menu is faster to read than hear. A neighboring office worker offers to translate; the closing line turns the offer back on his own breakfast. Public café scene with non-family roles. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -10453,10 +10453,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 22,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "835376ee71aa99708000eeb8ffe0a02bc7acebca8fcb8d2c656bf8f7747fbb12",
-      "v2_sha256": "835376ee71aa99708000eeb8ffe0a02bc7acebca8fcb8d2c656bf8f7747fbb12",
-      "notes": "Needs revision: a delivery rider finds the correct entrance after the resident sends a photo and the household updates the map; the mutual thanks are warm but there is no comic payoff."
+      "v2_sha256": "9618d55ee9a828ea75d6f7e148de376bba0a9de61b41e46868242b46e69b8131",
+      "notes": "The delivery driver follows GPS into the back lane, so the customer waits outside holding a “front entrance” sign. The driver mistakes the customer for a lobby worker; neighbors then queue up with elevator questions and a courier slip, and the pair sort the bags before handing over the hot soup. The customer later removes the portrait from the entrance photo to avoid looking like building management again; the driver asks whether the temporary doorman job pays. Public delivery/wayfinding scene with a stranger and residents, not a family mix-up. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -10501,10 +10501,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 28,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b454f5f59c1ff95183e490a8501521aca062a35f3240e79996f6c400c7faaf7c",
-      "v2_sha256": "b454f5f59c1ff95183e490a8501521aca062a35f3240e79996f6c400c7faaf7c",
-      "notes": "Needs revision: a stuck cart is swapped and children compare the narrator to a bus driver; the joke is a passing line and does not develop into a comic sequence."
+      "v2_sha256": "9f6ddd17d41d19766f1e7f2a4646a2a150215eb0a4d6189e9ed0ed84fd781325",
+      "notes": "In the frozen-food aisle, a stuck cart keeps steering left; the clerk marks it out of service and tests the wheel while the cart makes a slow circle. Two shoppers mistake the path for a shortcut and ask the narrator to guide them; after swapping carts, three customers keep following him all the way to checkout. The cashier asks if they are a group, and the clerk tags the bad cart “no self-guided tours.” Public supermarket scene with unrelated shoppers and service staff. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
