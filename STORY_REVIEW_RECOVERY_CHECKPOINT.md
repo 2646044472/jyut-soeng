@@ -387,3 +387,13 @@
 - Updated V2 status/hash, rebuilt the app bundle, and verified exact source-to-app sentence/Jyutping/gloss/tip matches with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries); checklist regenerated; `git diff --check` passed. V2 count: 1,668 pass / 3,332 needs_revision / 0 pending. Unit tests were not run.
 - Source, app mirror, ledger, checklist, and recovery note are ready for local commit and remote fast-forward verification. Continue across all 5,000 cards.
+
+
+## Active continuation - 2026-10-30, fried-rice inspector batch 36
+
+- Continued from clean HEAD `c5f6f7ae1870209773d98b24c15b9d7b460bd81f`; confirmed the target remote branch matched before editing. Desktop worktree remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 15. The brother packs leftover fried rice, labels a drawn shrimp as the “waste inspector,” and the sister ends its shift by handing him the container-washing job. His request to promote the shrimp to a stricter lobster inspector pays off the callback.
+- Screened against approved leftover stories, including the power-outage dinner and restaurant box mix-up; the supervising-paper-shrimp and chore-handoff mechanism is distinct. Reviewed colloquial Cantonese, Jyutping (221 Han / 221 syllables), complete Simplified Chinese gloss, and practice tip.
+- Updated ledger hash/status and app bundle; exact source-to-app sentence/Jyutping/gloss/tip matches verified with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,669 pass / 3,331 needs_revision / 0 pending. Unit tests were not run.
+- Content and recovery checkpoint are ready for local commit; continue reviewing all remaining cards.
