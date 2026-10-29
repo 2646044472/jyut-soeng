@@ -33149,10 +33149,10 @@
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 24,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e92a78c1422098be7580321d89e7763b73bc251752a154b14e0521932e4ef36d",
-      "v2_sha256": "e92a78c1422098be7580321d89e7763b73bc251752a154b14e0521932e4ef36d",
-      "notes": "Needs revision: the narrator listens to a tired mother, who later resolves a colleague misunderstanding by sending a message. This is sincere support with no comic conflict or ending. Root read all four fields; no source edit."
+      "v2_sha256": "a3373d3b57449267c65b31a848b2eb9ed1253461d04ceabe041809d9cf07ab7a",
+      "notes": "Root rewrote the venting scene as an escalating literal response to “想靜一靜”: the father imposes silence, removes the clock/phone, and moves the squeaky sofa; the neighbor mistakes the furniture in the corridor for a house move and carries out the shoe rack. The mother’s final line clarifies the real request and lands the physical callback. Root individually reviewed colloquial phrasing, scene continuity, all Jyutping in context, complete Mandarin gloss, and event-matched tip; metadata/category unchanged. Distinct from accepted household furniture/repair plots: trigger is over-literalizing quiet, escalation is silent household moving, and payoff is neighbor recruited into the misunderstanding."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
