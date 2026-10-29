@@ -662,3 +662,11 @@
 - Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 72. Replaced the mild recovery-exercise ending with two connected wordplay beats: a seller assumes “有車” means a private car when the buyer means a handcart, and a broken lift turns the oversized soup pot into “大煲／大鑊.”
 - Preserved safe handling: the buyer checks the pot, secures it on a handcart, avoids a warned slippery alley for a handrailed route, and tests it with half a pot of water; the seller with a back injury does not lift or push the load. Screened approved oven stories at indexes 65 and 71 and other pot/elevator plots; the used-pot transport and wordplay mechanism is distinct. Reviewed colloquial Cantonese, contextual Jyutping (306 Han / 306 syllables), complete Simplified Chinese gloss, and practice tip.
 - Updated the V2 row hash/status; next rebuild app assets, verify exact source/app fields and all content gates, then commit and push. Expected progress after regeneration: 1,693 pass / 3,307 needs_revision / 0 pending.
+
+
+## Active continuation — 2026-10-30, cracked-juicer photo-filter callback batch 66
+
+- Continued from verified local/remote checkpoint `5d6c9a88627b9c8ff687716c3a7253cfd9a86578` in the independent worktree; the Desktop checkout remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 73. The seller's listing photo used a different, intact cup; after the buyer finds a crack, they check the model and call a parts shop, learning the replacement is discontinued. The seller corrects the listing. The close distinguishes a photo filter from a juicer's filtering action.
+- Preserved the safety step: the manual warns against operating a cracked cup, so the pair does not plug it in or attempt a powered test. Screened other juicer/filter stories; no same mechanism was found. Reviewed colloquial Cantonese, contextual Jyutping (260 Han / 260 syllables), complete Simplified Chinese gloss, and practice tip.
+- Updated the V2 row hash/status; next rebuild app assets, verify source/app mirrors and content gates, then commit and push. Expected progress after regeneration: 1,694 pass / 3,306 needs_revision / 0 pending.

@@ -10862,10 +10862,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 73,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3f19a12be3ca546cc8c846b5764040d9c05b3f1efe41ddfc71f1c61f234f32e0",
-      "v2_sha256": "3f19a12be3ca546cc8c846b5764040d9c05b3f1efe41ddfc71f1c61f234f32e0",
-      "notes": "Needs revision: a cracked juicer is discovered and the sale is politely cancelled; there is no escalating conflict or reversal, and the line about checking in person is instructional."
+      "v2_sha256": "098fdfa156fc2890810fecff7ff5e6a8049f4fd03cd837ba5d99f533d7112ad5",
+      "notes": "Replaced the polite no-sale report with a photo-filter/juice-filter callback. The listing photo showed a different, intact cup; the seller checked the model and called a parts shop, then confirmed the replacement cup was discontinued. Kept the safety step: the manual says not to operate a cracked cup, so they did not plug it in and cancelled the sale. Searched the corpus for juicer, filter, and cracked-cup stories; this mechanism is unique in the set. Reviewed colloquial Cantonese, contextual Jyutping (260 Han / 260 syllables), complete Simplified Chinese gloss, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
