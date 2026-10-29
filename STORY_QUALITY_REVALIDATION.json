@@ -10846,10 +10846,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 71,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4361052b7668bd6ade04c3c4917162bd5cc7c645ea2fd130274a2d33df6af92f",
-      "v2_sha256": "4361052b7668bd6ade04c3c4917162bd5cc7c645ea2fd130274a2d33df6af92f",
-      "notes": "Needs revision: the oven has several repair issues, but each is resolved by a technician and negotiated return terms; “secondhand can bake a good mood” is a weak pun after a troubleshooting report, not an earned payoff."
+      "v2_sha256": "8e04c7dfcd7d6aa27fd1eb38dcee63008ea416736c0dac6cf69c6b496f495b64",
+      "notes": "Replaced the serial oven-troubleshooting sale with a home demonstration that neighbors mistake for a tart-shop opening. The neighbors queue for the test tart; the sold notice and “only firing the oven, not opening a shop” callback resolve that misunderstanding. Screened against approved index 65 (flickering lamp/stage-light joke and extension-board issue), approved long_food_shopping_04 index 14 (unsafe damaged appliance), and other oven/tart stories; the plot mechanism is distinct. Reviewed colloquial Cantonese, contextual Jyutping (309 Han / 309 syllables), complete Simplified Chinese gloss, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
