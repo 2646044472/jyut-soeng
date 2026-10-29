@@ -280,3 +280,12 @@
 - Reviewed Macau Cantonese and contextual Jyutping (290 Han characters / 290 syllables), including the changed opening and punchline; checked complete Simplified Chinese gloss and event-specific tip. Similar birthday fruit-card stories in other categories use different family/cake plots; no matching office potluck joke was found. Maximum character-trigram Jaccard against approved stories was 0.0095.
 - Updated the V2 hash/status, rebuilt the app bundle, verified exact source-to-app text/Jyutping/gloss/tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`. The mechanical audit had no failures; `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. Unit tests were not run.
 - Current V2 total: 1,660 pass / 3,340 needs_revision / 0 pending. Content commit: `a64146aa74d1ddc081e1a3993b2a91e9d6a0d023`; the checkpoint commit and remote verification remain.
+
+
+## Active continuation — 2026-10-30, handmade dumpling shop batch 24
+
+- Continued in the independent worktree; local HEAD and the target remote were `121057b56563a6dadfc73910dde891180fa016b2` before this batch. The Desktop worktree remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_13.json` zero-based index 33. A new handmade dumpling shop's lunch offer grows into a night-shift group tasting; the owner sends two uncooked dumplings for a boiled-versus-pan-fried comparison, and the coworkers vote only for two more next time. The food-shop/workplace plot is distinct from approved frozen-dumpling failures and family cooking stories.
+- The old V2 note described a radish-cake story, not this source row; replaced it with an accurate summary during revalidation. Checked Macau Cantonese, contextual Jyutping (295 Han characters / 295 syllables), full Simplified Chinese gloss and practice tip. The nearest approved story is an unrelated coworker spice-bravado reversal (maximum character-trigram Jaccard 0.0153).
+- Updated the V2 hash/status, rebuilt the app bundle, verified exact source-to-app sentence/Jyutping/gloss/tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`. Mechanical audit had no failures; `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. Unit tests were not run.
+- Current V2 total: 1,661 pass / 3,339 needs_revision / 0 pending. Content commit: `538b05250692e7560fda6110f14479785f5cd661`; the checkpoint commit and remote verification remain.
