@@ -26485,10 +26485,10 @@
     {
       "file": "content/sentence_bank/long_health_services_05.json",
       "index": 93,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "338d108875daa332e47a13419ba59ac52ee42f8bc93e7a7b43228f7be3a89857",
-      "v2_sha256": "338d108875daa332e47a13419ba59ac52ee42f8bc93e7a7b43228f7be3a89857",
-      "notes": "Needs revision: the “one-finger meditation” quip turns the brace into a kung-fu image, but the office reaction is a single tag without an escalating comic arc. All four fields read; preserve therapy limits and recheck Jyutping after rewrite."
+      "v2_sha256": "33742ab7dd8382792034255595dd74e203fb3d1114d0731636296bef400abf0e",
+      "notes": "V2 reviewed: the existing hand-therapy safety plan is preserved; coworkers call the brace “one-finger zen,” and a friend extends the joke to voice replies as “no-finger zen.” Work and friendship setting, no family plot."
     },
     {
       "file": "content/sentence_bank/long_health_services_05.json",
