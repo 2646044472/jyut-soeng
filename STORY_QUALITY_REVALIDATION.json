@@ -34477,10 +34477,10 @@
     {
       "file": "content/sentence_bank/long_home_family_03.json",
       "index": 90,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "839fe4c835c0282b7f314b515abd2e244405d325c25804868da78089a2cad6cb",
-      "v2_sha256": "839fe4c835c0282b7f314b515abd2e244405d325c25804868da78089a2cad6cb",
-      "notes": "Needs revision: the aunt stops comparing grades after the cousin shares a soccer comic, whose missed shot is corrected by a teammate; this gentle nested story supports connection but does not give the main scene a strong comic escalation. Checked all four fields; source unchanged."
+      "v2_sha256": "803497bbcb9d1dd5ff95d95c32d24b3f745b1ffb89d82cf5002f2112cd19b1fc",
+      "notes": "Rebuilt the grade-comparison anecdote as a family-history exhibit: the aunt expands the display with long explanations, attracts a queue, and gets a one-minute limit that still cannot contain her account. The final bell/recess callback is earned by the school setting. Main review checked distinct plot, natural colloquial phrasing, all 270 character-aligned contextual Jyutping tokens, complete Simplified gloss, and story-specific retelling tip; category/nonlanguage metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_home_family_03.json",
