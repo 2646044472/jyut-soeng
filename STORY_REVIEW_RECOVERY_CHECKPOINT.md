@@ -62,3 +62,15 @@
 - Updated V2 hashes and notes for the three approved rows, rebuilt `app/src/main/assets/builtin/content.json`, and verified exact sentence, Jyutping, gloss, and usage-tip mirrors with `qualityPriority=1`.
 - Validation passed: `python tools/validate_content.py` (8,000 entries), unit tests (7 run, 1 skipped), `python tools/story_quality_progress.py` (1,635 pass / 3,365 needs_revision / 0 pending), and `git diff --check`. Mechanical checks passed for all 5,000 scoped stories; human V2 review remains incomplete.
 - Batch commit: `cf088bf1068bdcdc5c035dbccef7ae16408bf39b` (`Review three Cantonese food stories`). The authorized ordinary push succeeded by fast-forward, and a post-push `git ls-remote` confirmed `origin/codex/macau-story-upgrade-batch-progress` at the same SHA. Local `HEAD` matched the remote target at verification time.
+
+
+## Active continuation — 2026-10-29, food stories batch 4
+
+- Independent worktree: `C:\Users\bankey\Documents\Codex\2026-10-29\task\jyut-soeng-v2-worktree`; desktop repository remains untouched.
+- Before this batch, local and remote target branch were both `30a205e9ff82eff7a3607017395d0e6222ec7383`. The remote target ref was read with `git ls-remote` immediately before preparing this batch.
+- Rewrote and completed V2 review for `content/sentence_bank/long_food_shopping_03.json` zero-based indexes 24, 29, 37, 39, 42, and 89. These are rooftop tomato “dessert stall” escalation; a party fruit platter mistaken for a traffic roundabout; the 新居順利/新居順路 wordplay; a farewell cake’s corrected-name plaque, dead phone, and mock name certificate; a mislabeled lunch delivery turned into a fruit meeting; and a used rice cooker purchase whose measuring cup becomes a “test prop.” No family-core story was rewritten.
+- Reviewed Cantonese text, simplified gloss, practice prompt, contextual Jyutping, and category fit. Adjusted the orange phrasing at index 29 and made the buyer explicit at index 89. Han/Jyutping counts: 266/266, 241/241, 244/244, 266/266, 297/297, and 271/271. Trigram Jaccard comparisons with current V2-approved stories had maxima from 0.008 to 0.017; used only as a duplicate screen alongside plot review.
+- Updated all six V2 decisions and current row hashes, rebuilt `app/src/main/assets/builtin/content.json`, and checked each exact sentence, Jyutping, gloss, usage tip, `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1` mirror.
+- `python tools/validate_content.py` passed (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md` completed, and `git diff --check` passed. Current clarified V2 count is 1,641 pass / 3,359 needs_revision / 0 pending. No unit tests were run in this batch.
+- This batch is prepared on top of `30a205e`; commit, ordinary fast-forward push, and post-push remote SHA verification are the remaining actions for this checkpoint.
+- Continue with eligible non-family-core cards in `long_food_shopping_03.json` after index 89. Do not count any card unless its language and comedy review is complete and source, ledger, and app mirror are synchronized.
