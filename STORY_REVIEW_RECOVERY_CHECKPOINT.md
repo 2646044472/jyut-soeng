@@ -489,3 +489,12 @@
 - Updated V2 hash/status and app assets; exact source-to-app sentence/Jyutping/gloss/tip verified with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,672 pass / 3,328 needs_revision / 0 pending. Unit tests were not run.
 - Content and checkpoint are ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.
+
+## Active continuation - 2026-10-30, chopped-coriander excuse batch 48
+
+- Continued from clean HEAD `3839000bf6829de38abb3027a48174b2c00cd83d`; verified `origin/codex/macau-story-upgrade-batch-progress-resume` matched before editing. Desktop worktree remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 50. Removed the unrelated congee-sticking problem. The brother claims he dislikes coriander, adds two spoonfuls when the guest does, then admits he dislikes chopping it. His sister records the excuse as a recipe note; the final line teases him for pretending not to like pre-chopped coriander.
+- Compared the plot mechanism with approved spicy-food/bravado stories; no approved coriander-prep excuse or recipe-label callback found. Reviewed Cantonese, contextual Jyutping (232 Han / 232 syllables), full Simplified Chinese gloss and practice tip.
+- Updated V2 hash/status and rebuilt app assets; source/app sentence, Jyutping, gloss and tip match, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,676 pass / 3,324 needs_revision / 0 pending. Unit tests were not run.
+- Ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.

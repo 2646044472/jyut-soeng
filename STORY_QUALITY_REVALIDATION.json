@@ -10678,10 +10678,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 50,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c6754b730d978d713a0ea8e4657e40998a8bc2e518a7a54186f1b2977ba770fc",
-      "v2_sha256": "c6754b730d978d713a0ea8e4657e40998a8bc2e518a7a54186f1b2977ba770fc",
-      "notes": "Needs revision: a brother claims not to like cilantro, then adds two spoonfuls, while the congee nearly sticks; the final shared meal is warm, but the story has two loose cooking issues rather than one strong comic escalation."
+      "v2_sha256": "aaefc4801324482b73aaeca051dffe5c83e5c3506146782aae3cd14d5f42a526",
+      "notes": "Removed the unrelated congee-sticking issue and focused the scene on the brother claiming he dislikes coriander, then adding two spoonfuls when it is already chopped. His admission that he dislikes chopping, not eating it, is recorded by his sister as a label; the final “please stop pretending” note pays off the claim. Compared with approved spicy-food/bravado plots; no approved coriander-prep excuse or label callback found. Reviewed colloquial Cantonese, contextual Jyutping, full gloss and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
