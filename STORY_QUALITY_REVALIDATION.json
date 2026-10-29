@@ -20875,7 +20875,7 @@
       "status": "needs_revision",
       "baseline_sha256": "cfd90ad2f6e5be26c119c717babd5b133917eedf66b7c29405f727736ee47842",
       "v2_sha256": "cfd90ad2f6e5be26c119c717babd5b133917eedf66b7c29405f727736ee47842",
-      "notes": "Needs revision: coworkers discover mislabeled drinks, get replacements and egg tarts, then joke about writing names on cups; the service mix-up is resolved but the ending is predictable and not strong enough to carry the long story. All four fields read; tip matches the correction."
+      "notes": "Needs revision: the coworkers’ group drink order is mislabeled, the team identifies it by checking the order, and the shop remakes the drink. This repeats the approved wrong-drink-label-and-remake plots in content/sentence_bank/long_food_shopping_02.json index 51 and content/sentence_bank/long_food_shopping_04.json index 73. Keep needs_revision until the office group-order story has a distinct comic conflict and payoff. All four fields read."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
