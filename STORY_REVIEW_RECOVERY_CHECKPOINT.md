@@ -654,3 +654,11 @@
 - Screened approved index 65 (lamp flicker mistaken for stage lighting) and approved `long_food_shopping_04.json` index 14 (damaged wiring and safe cancellation), plus other oven/tart stories. Their plot mechanisms differ from this neighbor queue and shop-opening misunderstanding. Reviewed colloquial Cantonese, contextual Jyutping (309 Han / 309 syllables), full Simplified Chinese gloss, and practice tip.
 - Updated the V2 row hash/status and rebuilt the app assets. Source/app sentence, Jyutping, gloss, and tip must match exactly; generated metadata should remain `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - Current expected V2 total after regeneration: 1,692 pass / 3,308 needs_revision / 0 pending. Next, continue to the next eligible `needs_revision` card while screening category and plot duplication, preserving the 5,000-card scope.
+
+
+## Active continuation — 2026-10-30, handcart and large-pot wordplay batch 65
+
+- Continued from verified local/remote checkpoint `d33f29ae2ab17ef29f22a0618294d87bab041b7d` in the independent worktree; the Desktop checkout remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 72. Replaced the mild recovery-exercise ending with two connected wordplay beats: a seller assumes “有車” means a private car when the buyer means a handcart, and a broken lift turns the oversized soup pot into “大煲／大鑊.”
+- Preserved safe handling: the buyer checks the pot, secures it on a handcart, avoids a warned slippery alley for a handrailed route, and tests it with half a pot of water; the seller with a back injury does not lift or push the load. Screened approved oven stories at indexes 65 and 71 and other pot/elevator plots; the used-pot transport and wordplay mechanism is distinct. Reviewed colloquial Cantonese, contextual Jyutping (306 Han / 306 syllables), complete Simplified Chinese gloss, and practice tip.
+- Updated the V2 row hash/status; next rebuild app assets, verify exact source/app fields and all content gates, then commit and push. Expected progress after regeneration: 1,693 pass / 3,307 needs_revision / 0 pending.

@@ -10854,10 +10854,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 72,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "249d0e032f7f2a33316b0df1ee0df09dd655157237a7d6275243b5ec9e6fe0f0",
-      "v2_sha256": "249d0e032f7f2a33316b0df1ee0df09dd655157237a7d6275243b5ec9e6fe0f0",
-      "notes": "Needs revision: a seller’s back injury and broken elevator create a safety problem that is handled sensibly; “交收似做復康運動” is a mild line, while the story ends in practical advice rather than comedy."
+      "v2_sha256": "93140efb2012bf549737277f652e67c2ae89dda9b3663c31d50c8476a9ca51eb",
+      "notes": "Reworked the oversized used-soup-pot handover with a clear cart/car misunderstanding and a “大煲／大鑊” wordplay callback. The original transport/seller-injury risk is handled safely: the buyer secures the pot to a handcart, avoids the warned slippery alley for a handrailed route, and the seller does not lift or push the load. Checked against approved oven-sale stories (indexes 65 and 71) and other pot/elevator stories; this item-and-transport wordplay plot is distinct. Reviewed colloquial Cantonese, contextual Jyutping (306 Han / 306 syllables), complete Simplified Chinese gloss, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
