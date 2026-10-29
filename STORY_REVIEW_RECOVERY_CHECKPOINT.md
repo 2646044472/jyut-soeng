@@ -570,3 +570,12 @@
 - Updated V2 hash/status and rebuilt app assets; source/app sentence, Jyutping, gloss and tip match, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,684 pass / 3,316 needs_revision / 0 pending. Unit tests were not run.
 - Indices 60–63 retain their current ledger decisions and were not changed in this batch. Continue reviewing all 5,000 cards.
+
+## Active continuation - 2026-10-30, full-fat / omniscience callback batch 57
+
+- Continued from clean local HEAD `974871a9af2187d85384ebd976e5185ad334eb08`. Before editing, the authorized remote branch `origin/codex/macau-story-upgrade-batch-progress-resume` was read successfully and matched that SHA. The Desktop checkout remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 60. Kept the unopened low-fat/full-fat exchange and changed the color-band reminder into a Cantonese homophone payoff: `全脂／全知`. After replacing color marks with written words on the list, the aunt asks whether the narrator is now omniscient; the answer is “我唔全知，但我知要睇字.”
+- Reviewed colloquial Cantonese, contextual Jyutping (226 Han characters / 226 syllables), the full Simplified Chinese gloss, and practice tip. The plot was compared with nearby retail-return stories and is distinct by its fat-level/omniscience wordplay.
+- Updated the V2 decision and current row hash, rebuilt app assets, and confirmed exact source/app matches for sentence, Jyutping, gloss, and usage tip; app metadata is `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/build_assets.py`, `python tools/validate_content.py` (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, and `git diff --check` passed. Current V2 total: 1,685 pass / 3,315 needs_revision / 0 pending. No unit tests were run.
+- Next: continue semantic and language review from index 62 in this source file; preserve the remaining 5,000-card scope.

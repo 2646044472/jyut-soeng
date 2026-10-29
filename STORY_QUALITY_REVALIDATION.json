@@ -10758,10 +10758,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 60,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b2e8b7d0041fe7cc0132fd5c798ccd1b4f76ae8102b92f5f120abc68809856c2",
-      "v2_sha256": "b2e8b7d0041fe7cc0132fd5c798ccd1b4f76ae8102b92f5f120abc68809856c2",
-      "notes": "Needs revision: the wrong milk fat level is exchanged before cooking; the neighbor’s color-label advice and the final reminder are practical, with no meaningful comic escalation."
+      "v2_sha256": "fe90d05de372a5a7a0a72bc67dc86f30feabfb82863f72c7cdeef2fe8a0033ea",
+      "notes": "Kept the low-fat/full-fat label mix-up and unopened same-price exchange. Replaced the general “read the label” reminder with a Cantonese homophone payoff: 全脂 and 全知 sound alike; after changing the shopping list to use words instead of color bands, the aunt asks if the narrator is now omniscient, and the reply is “I don’t know everything, but I know to read the text.” Compared with other retail-return stories; the fat-level/omniscience wordplay is distinct. Reviewed colloquial Cantonese, contextual Jyutping, full gloss and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
