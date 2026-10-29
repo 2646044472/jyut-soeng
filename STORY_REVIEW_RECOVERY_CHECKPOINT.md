@@ -441,3 +441,13 @@
 - Updated ledger hash/status and rebuilt app assets; exact source-to-app sentence/Jyutping/gloss/tip verified with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,671 pass / 3,329 needs_revision / 0 pending. Unit tests were not run.
 - Content and checkpoint are ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.
+
+
+## Active continuation - 2026-10-30, supermarket traffic officer batch 42
+
+- Continued from clean HEAD `f851576857b47113c6c10cf53b1f860e0a300cc2`; confirmed the target remote branch matched before editing.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 30. The child’s small trolley repeatedly meets the narrator’s cart in narrow aisles; their right-of-way standoff becomes a traffic jam, the scallion is used as a turn signal, and the child directs the checkout lane. The closing “traffic officer” vacation callback pays off the supermarket encounter while the shopping list and tomato-chicken soup remain central.
+- Screened approved cart/trolley stories; their squeaky-wheel, moving-carton and delivery-trolley plots differ from this supermarket right-of-way scene. Reviewed Cantonese, Jyutping (223 Han / 223 syllables), complete gloss and practice tip. Nearest non-self trigram Jaccard was 0.0219; no plot-level duplicate found.
+- Updated V2 hash/status and app assets; exact source-to-app sentence/Jyutping/gloss/tip verified with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,672 pass / 3,328 needs_revision / 0 pending. Unit tests were not run.
+- Content and checkpoint are ready for local commit and remote fast-forward verification. Continue reviewing all 5,000 cards.
