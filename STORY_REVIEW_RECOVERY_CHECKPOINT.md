@@ -245,3 +245,12 @@
 - Current V2 total: 1,656 pass / 3,344 needs_revision / 0 pending. Unit tests were not run.
 - Content commit `3d8685d` (`Review Cantonese avocado ripening story`) was pushed by ordinary fast-forward. The checkpoint update follows this content commit.
 - Continue reviewing distinct non-family-core stories across the full 5,000-card scope.
+
+## Active continuation — 2026-10-30, tomato noodle batch 20
+
+- Continued in the independent worktree `C:\Users\bankey\Documents\Codex\2026-10-29\task\jyut-soeng-v2-worktree`; the Desktop worktree remains untouched. Before this batch, local HEAD and the target remote branch were both `c7f23360600939cef4984658b38ca91633bc9d8d`.
+- Replaced `content/sentence_bank/long_food_shopping_10.json` zero-based index 3 with a distinct shared-apartment tomato beef noodle story. A neighbor asks to borrow soy sauce, gets soup to taste, and advertises it in the corridor group; the roommate turns the unexpected queue into an improvised condiment-rental service. The cooking category stays central and family interaction is no longer the story core.
+- Reviewed Macau Cantonese, all 278 contextual Jyutping syllables against 278 Han characters, complete Simplified Chinese gloss, and practice tip. Screened the core noodle/neighbor premise against approved stories; no matching tomato-beef-noodle or soy-sauce-borrowing plot was found.
+- A separate candidate at index 5 remains `needs_revision`: its olive-oil leak and replacement core was too close to an approved olive-oil leak/exchange story in `long_food_shopping_10.json` index 32, even though a proposed office-meeting ending differed.
+- Updated V2 status/hash, rebuilt the app bundle, verified exact source-to-app mirrors, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`, then regenerated the checklist. `python tools/validate_content.py` passed (8,000 entries), and `git diff --check` passed. Current V2 total: 1,657 pass / 3,343 needs_revision / 0 pending. Unit tests were not run.
+- Content commit: `ef3632e` (`Review Cantonese tomato noodle story`). Recovery checkpoint is being committed separately; continue reviewing eligible distinct cards across the full 5,000-card scope.
