@@ -19352,10 +19352,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_12.json",
       "index": 34,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e03e30d63b87e85d21ed82cf32a763adc199af6f347b8c8f056f212cb86dc1a7",
-      "v2_sha256": "e03e30d63b87e85d21ed82cf32a763adc199af6f347b8c8f056f212cb86dc1a7",
-      "notes": "Reviewed all four fields. Sharing a convenience-store bun and an apple leads to a future breakfast rota; “saved my life” is generic, with no comedic setup."
+      "v2_sha256": "346abd52ba78da5776f28872d756ac7d36b27b61266148c7730f071494c10fcb",
+      "notes": "Rewritten as a nonfamily workplace breakfast scene. A coworker’s “救命” hyperbole triggers an escalating group-chat check-in; the team creates a clearly food-only breakfast emergency box, and the manager later comes back asking for rescue. Four fields reviewed; no family plot."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_12.json",
