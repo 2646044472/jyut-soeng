@@ -21184,10 +21184,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 53,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "844e58ef4217ee35e4628f4eda86a2758e0621e69b162f6ce4085c4140374cc4",
-      "v2_sha256": "844e58ef4217ee35e4628f4eda86a2758e0621e69b162f6ce4085c4140374cc4",
-      "notes": "A crushed oat bar becomes a yogurt-and-banana snack, which the runner shares at practice. This is a useful salvage idea but has no escalation or reversal; tip/gloss match. Reviewed sentence, Jyutping, full gloss and story-specific tip; no source edit."
+      "v2_sha256": "4b85ad566f3bfffd9d9f93e8c77e332f04c359bd7e08103fa693d8551d1442d3",
+      "notes": "Rewritten and approved as a nonfamily running-club comedy: the novice overprepares labeled race snacks, then bottle ice accidentally sets the team’s pace; after he replaces the noisy bottle, the team refuses to run without its “music.” Reviewed all four fields and contextual Jyutping; 252 Han characters/tokens, mechanical row audit clean. Distinct from other running cards and ice-party stories: the comic engine is an accidental cadence cue and team dependence."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
