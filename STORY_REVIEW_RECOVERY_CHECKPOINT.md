@@ -205,3 +205,13 @@
 - Current V2 total: 1,652 pass / 3,348 needs_revision / 0 pending. Unit tests were not run.
 - Content commit `9b081f0ea1e645f3ab00bda404df7ee6db3078bc` (`Review Cantonese basil storage story`) was pushed by ordinary fast-forward. GitHub connector and `git ls-remote` both confirmed the target branch at that SHA.
 - Continue reviewing distinct non-family-core stories across the full 5,000-card scope.
+
+## Active continuation — 2026-10-30, honey selection batch 16
+
+- Continued in the independent worktree; before this batch, local and remote target refs matched at `8537cb3ce71a295a201164d7364eb23c7acfe8e0`.
+- Replaced `content/sentence_bank/long_food_shopping_09.json` zero-based index 75 with a distinct supermarket honey-selection story for a workplace baking group. A crystallized jar is mistaken for spoiled, the label is checked, a neighboring shopper imitates a phone-light inspection as barcode scanning, and the jar gets a “snow-scene honey” note before baking confirms it is fine. The shopping and product-selection category remains central.
+- Reviewed Macau Cantonese, contextual Jyutping (229 Han characters / 229 syllables), Simplified Chinese gloss, and practice tip. The closest approved-story trigram Jaccard score was 0.0186; the approved honey bulk-order story concerns leaky jar seals and has a different plot.
+- Updated the V2 hash/status, rebuilt the app bundle, verified exact source-to-app mirrors and `qualityPriority=1`, regenerated the checklist, and passed `python tools/validate_content.py` (8,000 entries) and `git diff --check`.
+- Current V2 total: 1,653 pass / 3,347 needs_revision / 0 pending. Unit tests were not run.
+- Content commit `3b55886` (`Review Cantonese crystallized honey story`) was pushed by ordinary fast-forward. Update this checkpoint commit with the verified final SHA.
+- Continue reviewing distinct non-family-core stories across the full 5,000-card scope.
