@@ -615,3 +615,13 @@
 
 - Content batch commit `c7d1384cd443a925ca8d5fede342bdb8f0eae951` was pushed by ordinary fast-forward to `origin/codex/macau-story-upgrade-batch-progress-resume`; a subsequent `git ls-remote` returned the same SHA. Local `HEAD` matched, and the worktree was clean at verification.
 - V2 total remains 1,688 pass / 3,312 needs_revision / 0 pending. Continue at `content/sentence_bank/long_food_shopping_01.json` zero-based index 68; keep the remaining 5,000-card objective in scope.
+
+
+## Active continuation — 2026-10-30, office-chair height callback batch 61
+
+- Continued from verified local/remote checkpoint commit `571f791106eca9ca80460c484c0fbd3dacc0494b`; the Desktop repository remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 68. Replaced the repetitive used-coffee-machine leak/repair transaction with a secondhand office-chair purchase. The seated buyer mistakes normal downward adjustment for a defect; the seller demonstrates the height lever, the buyer confirms the lift and swivel, and the coworkers turn the chair’s height into a “chair promoted, person not” office callback.
+- Reviewed colloquial Cantonese, contextual Jyutping (228 Han / 228 syllables), complete Simplified Chinese gloss, and practice tip. Screened for existing office-chair / height-control plots.
+- Updated the V2 row hash/status and rebuilt the app bundle. Exact source/app sentence, Jyutping, gloss, and tip match for indexes 67 and 68; metadata is `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/build_assets.py`, `python tools/validate_content.py` (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, and `git diff --check` passed. Current V2 total: 1,689 pass / 3,311 needs_revision / 0 pending.
+- Next audit: zero-based index 69, which remains `needs_revision`; screen the used-rice-cooker story against the surrounding used-appliance sequence before revising it.

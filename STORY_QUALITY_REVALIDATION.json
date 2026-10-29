@@ -10822,10 +10822,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 68,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "73f13ef3b74473ab484a790d3618bb9907556d0aabb1b7d417e4bd42a97c1d0f",
-      "v2_sha256": "73f13ef3b74473ab484a790d3618bb9907556d0aabb1b7d417e4bd42a97c1d0f",
-      "notes": "Needs revision: the coffee-machine leak is diagnosed and repaired before purchase, but the ending calls a lengthy inspection reassuring rather than comic; the 336 Han-character story also exceeds the 320-character limit."
+      "v2_sha256": "d44fa64574f25b3254af6e4f243d6e2c0e80cbc93ac5d8f8eee3d459e35269e5",
+      "notes": "Replaced the secondhand coffee-machine repair story with an office-chair height-control misunderstanding. The buyer checks the used chair, mistakes the normal lower-while-seated control for a fault, and confirms the lift and swivel before agreeing the price. At work, “chair promoted, person not” returns when the manager overhears a joke about waiting for a raise notice. Screened for office-chair and height-adjustment plot duplicates. Reviewed colloquial Cantonese, contextual Jyutping (228 Han / 228 syllables), complete Simplified Chinese gloss, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
