@@ -561,3 +561,12 @@
 - Updated V2 hash/status and rebuilt app assets; source/app sentence, Jyutping, gloss and tip match, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,683 pass / 3,317 needs_revision / 0 pending. Unit tests were not run.
 - Indices 58–63 retain their current ledger decisions and were not changed in this batch. Continue reviewing all 5,000 cards.
+
+## Active continuation - 2026-10-30, soy-milk nose inspector batch 56
+
+- Continued from clean HEAD `c5c27ff5e177fcf8eb3200dc063ac41e2bfc494a`; GitHub branch was verified at the same SHA. Desktop worktree remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 59. Preserved the no-tasting response, documentation, batch withdrawal, refund and refrigeration advice. The brother’s “nose before the alarm” quip becomes a self-appointed early-shift inspector: he checks the replacement package seal and date, asks when his nose can clock out, and is told the checklist is sufficient.
+- Compared with neighboring dairy-return plots; the family nose-inspector shift callback is distinct. Reviewed Cantonese, contextual Jyutping (268 Han / 268 syllables), full Simplified Chinese gloss and practice tip.
+- Updated V2 hash/status and rebuilt app assets; source/app sentence, Jyutping, gloss and tip match, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,684 pass / 3,316 needs_revision / 0 pending. Unit tests were not run.
+- Indices 60–63 retain their current ledger decisions and were not changed in this batch. Continue reviewing all 5,000 cards.

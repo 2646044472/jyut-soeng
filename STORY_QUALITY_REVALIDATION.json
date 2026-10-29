@@ -10750,10 +10750,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 59,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "09ee387d4ecc228bdc4a7d1c504d5b9027aea16ddcba912e6296217edca3e480",
-      "v2_sha256": "09ee387d4ecc228bdc4a7d1c504d5b9027aea16ddcba912e6296217edca3e480",
-      "notes": "Needs revision: sour, swollen soy milk is correctly stopped and refunded, but the brother’s “nose before the alarm” remark is a small tag on a safety procedure, not a developed comic story."
+      "v2_sha256": "c29ba5f7440412da17e643ca1e912cb383250bc1fd389b007c551f9811f8cf3d",
+      "notes": "Preserved the no-tasting response, documentation, batch withdrawal, refund and refrigeration advice. The brother’s “nose before the alarm” quip becomes a self-appointed early-shift inspector: the next morning he checks the package seal and date, asks when his nose can clock out, and is told the checklist is sufficient. The nose is a joke, not a substitute for label or refrigeration checks. Compared with neighboring dairy-return plots; the family nose-inspector shift callback is distinct. Reviewed colloquial Cantonese, contextual Jyutping, full gloss and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
