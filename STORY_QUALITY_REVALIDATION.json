@@ -21400,7 +21400,7 @@
       "status": "needs_revision",
       "baseline_sha256": "f347ec713de125665bd0245462355ec8c0ac07faab49c06ba6a8e7ca7691b2ff",
       "v2_sha256": "f347ec713de125665bd0245462355ec8c0ac07faab49c06ba6a8e7ca7691b2ff",
-      "notes": "Needs revision: breakfast porridge brings neighbors to the door, but the breakfast-shop misunderstanding stops at a mild invitation and does not escalate into an earned comic reversal. Tip matches the setup but omits the building manager. Read sentence, Jyutping, gloss and tip together; retain inherited category and metadata."
+      "notes": "Needs revision: the grocery delivery misses its planned arrival while the customer is on the metro; she rushes home, then carries bags upstairs during lift repair and a neighbor helps. The sequence is coherent but remains a mild delivery/logistics anecdote without a strong comic reversal. The practice tip matches these current events. Four language fields have not been revalidated."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
@@ -34317,10 +34317,10 @@
     {
       "file": "content/sentence_bank/long_home_family_03.json",
       "index": 70,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3912c3bb78d6b90e8bea9d4bef9e51104b7c02fa163581790a6fe7982dffc76f",
-      "v2_sha256": "3912c3bb78d6b90e8bea9d4bef9e51104b7c02fa163581790a6fe7982dffc76f",
-      "notes": "Needs revision: the competing needs for quiet and household sound are resolved through a schedule; the morning tea and jokes show harmony but no actual comic incident or payoff. Checked all four fields; source unchanged."
+      "v2_sha256": "f3e054a6a31696ffe122303b35815e5c9b33284a5ee08547f51acb5d00f77d3a",
+      "notes": "Root reviewed and rewrote all four fields. Dad wants the family close but still while birdwatching; each family member movement scares one bird away, then one lands on Dad’s sun hat. They watch Dad trying not to move, until he laughs and scares the bird off. The reversal is distinct from the corpus telescope/moon scene and sound-based quiet stories. Checked the physical action sequence, contextual Jyutping including 僵硬 goeng1 ngaang6, complete Simplified gloss and story-specific tip."
     },
     {
       "file": "content/sentence_bank/long_home_family_03.json",
