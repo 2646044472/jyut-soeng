@@ -172,4 +172,5 @@
 - Takeaway drink ordering remains central. Reviewed Cantonese, contextual Jyutping, full Simplified Chinese gloss, and practice tip. Han/Jyutping alignment is 251/251. Highest approved-story trigram Jaccard was 0.0147.
 - Updated V2 status/hash, rebuilt the app bundle, and verified exact sentence, Jyutping, gloss, usage tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), progress report regeneration completed, and `git diff --check` passed. Current V2 count: 1,650 pass / 3,350 needs_revision / 0 pending. Unit tests were not run.
+- Batch commit `19fb9a36153e2368f61232b11f36b0dd9841a41f` (`Review Cantonese syrup order story`) was pushed by ordinary fast-forward from `7efb820`; `git ls-remote` confirmed the target ref at the same SHA.
 - Continue reviewing distinct non-family-core cards across the full 5,000-card scope.
