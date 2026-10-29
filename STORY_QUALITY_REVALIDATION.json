@@ -21774,10 +21774,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 21,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b8a4cb38ba49859db5acf7c302a8195d786a4da1beeefbff62196ae7f764ac47",
-      "v2_sha256": "b8a4cb38ba49859db5acf7c302a8195d786a4da1beeefbff62196ae7f764ac47",
-      "notes": "Needs revision: rain blows the breakfast bag away; the narrator chases it while holding coffee, then reaches the meeting. The clerk’s “exercise before breakfast” quip is mild, and the coworker asking for another meal is not a reversal. Gloss and tip match. Four fields read; make the scramble cause a sharper payoff rather than end with weather planning."
+      "v2_sha256": "a8348f9c640672f4f6d0485deaa67708e8d27c2387697b0e77c75fbad942df6e",
+      "notes": "V2 manually reviewed: an urgent breakfast run escalates when wind turns the bread bag into a small flag; the customer juggles coffee, catches the snagged bag with commuters’ help, and coworkers create a breakfast rescue role plus weather-report duty. Clear commuter/workplace setting, no family theme; category retained and all four fields/readings checked.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
@@ -21895,10 +21896,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 6,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "aa2f78d405e7ada3eda44c4a4b722cb7c59eb8de08c13d495c52a6edfb62d03a",
-      "v2_sha256": "aa2f78d405e7ada3eda44c4a4b722cb7c59eb8de08c13d495c52a6edfb62d03a",
-      "notes": "Needs revision: the first roll opens, friend teaches a tighter wrap, and cousin enjoys fish sauce after tasting it. This is a pleasant cooking tutorial; no escalating comic conflict or reversal. All four fields read; tip is event-aligned."
+      "v2_sha256": "9c5124f36d160d1e4f9c7cfecec031972e7e82aa3231e74fc74ad5d1c984f2f7",
+      "notes": "V2 manually reviewed: the friend’s spring-roll lesson escalates from an overfilled, loose “open door” roll to an over-tight wrapper that tears, then to a correctly folded roll. The failed prototypes get an “inspection” label, but the friend eats one anyway; the final note calls back to both opening and demolition. Friend cooking scene, no family theme; all four fields and readings checked.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
