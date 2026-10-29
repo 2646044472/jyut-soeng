@@ -10918,10 +10918,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 80,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3f72785804bdc2245b2b1260ccb0a69b476e6bcd1c0d82d2a056699c43c6d9db",
-      "v2_sha256": "3f72785804bdc2245b2b1260ccb0a69b476e6bcd1c0d82d2a056699c43c6d9db",
-      "notes": "Needs revision: a guest mistakes a listed service fee for a duplicate charge, then a coupon reduces the total; the misunderstanding is cleared through routine calculation and ends with advice, repeating the restaurant-charge theme."
+      "v2_sha256": "cd9406ac11c39aaf2aa22d28430107773d488e983b4dd10dcdc0d9f64528ddfa",
+      "notes": "Rebuilt the routine service-fee explanation into a distinct “加一 means one extra diner” misunderstanding: Ah Keung counts chairs before dinner, then reserves an empty chair and searches the order sheet for the imaginary fifth diner. The posted notice resolves the Macau hotpot usage; he checks the amount against it, moves the chair, and the friend’s “the chair left but 加一 stayed” line pays off both meanings. Compared with approved adjacent indexes 76–79 (extra dim sum plate, zero-fee/cutlery allocation, weak-signal transfer and fair late-arrival split); none uses the service-charge-as-guest misunderstanding or empty-chair callback. Reviewed natural colloquial Cantonese, contextual Jyutping (245 Han/245 syllables; 數 read sou2 as the verb), complete Simplified Chinese gloss and event-specific practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
