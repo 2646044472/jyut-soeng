@@ -543,3 +543,12 @@
 - Updated V2 hash/status and rebuilt app assets; source/app sentence, Jyutping, gloss and tip match, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,681 pass / 3,319 needs_revision / 0 pending. Unit tests were not run.
 - Indices 56–63 retain their current ledger decisions and were not changed in this batch. Continue reviewing all 5,000 cards.
+
+## Active continuation - 2026-10-30, hot-joke ice-cream verdict batch 54
+
+- Continued from clean HEAD `45269483cb6c3c9cf49fbd1d5f391c60aacf593a`; GitHub branch was verified at the same SHA. Desktop worktree remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 56. The niece jokes that her “hot jokes” melted the ice cream; the store’s temperature log identifies a freezer fault instead. The replacement-photo caption “fridge guilty, joke innocent” pays off the false explanation. No one tastes the softened product; the package/time are recorded, the freezer is checked and affected stock is paused.
+- Compared with the approved family ice-cream photo and sleeve-stain story; the cold-chain verdict and joke-alibi mechanism is distinct. Reviewed Cantonese, contextual Jyutping (273 Han / 273 syllables), full Simplified Chinese gloss and practice tip.
+- Updated V2 hash/status and rebuilt app assets; source/app sentence, Jyutping, gloss and tip match, with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. V2 count: 1,682 pass / 3,318 needs_revision / 0 pending. Unit tests were not run.
+- Indices 57–63 retain their current ledger decisions and were not changed in this batch. Continue reviewing all 5,000 cards.
