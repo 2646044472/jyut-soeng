@@ -579,3 +579,13 @@
 - Updated the V2 decision and current row hash, rebuilt app assets, and confirmed exact source/app matches for sentence, Jyutping, gloss, and usage tip; app metadata is `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/build_assets.py`, `python tools/validate_content.py` (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, and `git diff --check` passed. Current V2 total: 1,685 pass / 3,315 needs_revision / 0 pending. No unit tests were run.
 - Next: continue semantic and language review from index 62 in this source file; preserve the remaining 5,000-card scope.
+
+
+## Active continuation - 2026-10-30, soy-sauce newspaper desk batch 58
+
+- Continued from clean local HEAD `2d0046f688afba497a44890b0b637114ea5012ab`; immediately before preparing this batch, `git ls-remote` confirmed the authorized target branch at the same SHA. The Desktop checkout remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 62. Retained leak isolation, photos, batch/receipt records, same-batch inspection, shelf hold, warehouse bottle checks, and exchange of a sealed replacement. Removed the unnecessary home leak test. The father turns the absorbent old newspaper into a mock soy-sauce column: cracked bottle headline, “kitchen nearly became an oilfield” subhead, and a callback appointing him reporter for the next trace.
+- Reviewed colloquial Cantonese, contextual Jyutping (278 Han / 278 syllables), full Simplified Chinese gloss, and practice tip. The newspaper reporting payoff was compared with nearby return stories and is distinct.
+- Updated V2 hash/status and rebuilt app assets. Exact source/app sentence, Jyutping, gloss, and tip match; metadata is `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/build_assets.py`, `python tools/validate_content.py` (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, and `git diff --check` passed. Current V2 total: 1,686 pass / 3,314 needs_revision / 0 pending. No unit tests were run.
+- Next: continue from index 63 and preserve the full 5,000-card review scope.

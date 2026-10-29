@@ -10774,10 +10774,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 62,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "332ad50ecc571cd0587bb892b064a74bfbcc85f23b5ed55f1cc43643866f3ef2",
-      "v2_sha256": "332ad50ecc571cd0587bb892b064a74bfbcc85f23b5ed55f1cc43643866f3ef2",
-      "notes": "Needs revision: a leaking soy sauce bottle leads to containment, batch checks and replacement; the newspaper comment is a mild afterthought and the story stays procedural."
+      "v2_sha256": "57840e947180ab6c3031678964b8dc9f7691781aef37caa80b11975489431685",
+      "notes": "Kept the leak containment, photo/receipt/batch record, same-batch check, section hold, and sealed replacement. Recast the father’s old-newspaper callback as a mock soy-sauce column: the headline is a cracked bottle and the subhead says the kitchen nearly became an oilfield; he is appointed next time’s reporter. Compared with nearby food-return plots; the newspaper field-report payoff is distinct. Reviewed colloquial Cantonese, contextual Jyutping, full gloss, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
