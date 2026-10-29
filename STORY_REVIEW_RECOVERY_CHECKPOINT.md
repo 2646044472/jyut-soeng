@@ -599,3 +599,13 @@
 - Updated the V2 hash/status and rebuilt app assets. Exact source/app sentence, Jyutping, gloss, and tip match; metadata is `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/build_assets.py`, `python tools/validate_content.py` (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, and `git diff --check` passed. Current V2 total: 1,687 pass / 3,313 needs_revision / 0 pending. No unit tests were run.
 - Indices 64–66 are already pass; continue from index 67 and preserve the full 5,000-card review scope.
+
+
+## Active continuation — 2026-10-30, cooler-capacity handover batch 60
+
+- Resumed from local `HEAD` `8ecf84e4591db1f326dc5a2089e005893fb353f7`; immediately before editing, `git ls-remote` confirmed `origin/codex/macau-story-upgrade-batch-progress-resume` at the same SHA. The Desktop repository remains untouched.
+- Replaced `content/sentence_bank/long_food_shopping_01.json` zero-based index 67. The previous new-blender safety-interlock plot overlapped the still-unapproved index 70 blender story and also repeated the adjacent secondhand appliance run. The replacement is a secondhand cooler-box capacity negotiation: 24 250 ml cans fit without two ice packs, but only 18 fit with them. Buyer and seller agree on a price adjustment and a clearer listing; a hiking-group “ice included?” exchange pays off as a “who covers the carrying?” wordplay gag.
+- Reviewed colloquial Cantonese, contextual Jyutping (259 Han / 259 syllables), complete Simplified Chinese gloss, and practice tip. Compared adjacent secondhand appliance stories and searched the corpus for cooler/ice-pack plots.
+- Updated the V2 row hash/status and rebuilt the app bundle. Exact source/app sentence, Jyutping, gloss, and tip match; metadata is `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/build_assets.py`, `python tools/validate_content.py` (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, and `git diff --check` passed. V2 remains 1,688 pass / 3,312 needs_revision / 0 pending.
+- Next audit: zero-based index 68, which remains `needs_revision`; screen its used-coffee-machine story before revising it.

@@ -10814,10 +10814,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 67,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e76e6ae27f3e1790f887a58e24b461278ba38a7ebfafa8c66bf7ba8e849c093c",
-      "v2_sha256": "e76e6ae27f3e1790f887a58e24b461278ba38a7ebfafa8c66bf7ba8e849c093c",
-      "notes": "Needs revision: a blender is inspected and sold at an agreed price after rain moves the handover; both parties behave sensibly, leaving no conflict escalation or comic ending."
+      "v2_sha256": "7db1426e45ceea4b88090b74a5d7d82ddc6449987c18dd1ae2d47ff4749554aa",
+      "notes": "Replaced the overlapping blender interlock story with a secondhand cooler-box capacity negotiation. At handover, 24 250 ml cans fit without ice packs but only 18 with two packs; the buyer and seller agree on a reduced price and revise the listing to clarify the capacity. At the weekend hike, “ice included?” pays off in a wordplay-based division of carrying tasks. Screened against adjacent secondhand appliance stories and searched the corpus for cooler/ice-pack plots. Reviewed colloquial Cantonese, contextual Jyutping (250 Han / 250 syllables), complete Simplified Chinese gloss, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
