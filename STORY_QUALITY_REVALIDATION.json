@@ -10894,10 +10894,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 77,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "28b34fb2790a01ebea3625b8316a0638e9c1bfe2de2e4fda90e88bf657280049",
-      "v2_sha256": "28b34fb2790a01ebea3625b8316a0638e9c1bfe2de2e4fda90e88bf657280049",
-      "notes": "Needs revision: the group separates shared dishes from personal items and checks a delivery receipt; the process is routine, with no comedic conflict or payoff."
+      "v2_sha256": "98e742cccdb1031e446b1cfeb558e93ea781b88f6dcea0d27db304ee3d4dbd5b",
+      "notes": "Rebuilt the generic delivery-receipt procedure around a comic mismatch: an overcareful coworker allocates the zero-dollar delivery fee precisely, then discovers he selected no cutlery and the office drawer has only three pairs for four people. A teammate lends an unopened backup pair; he stocks four spare pairs, completing the equal-split callback. Compared with approved long_food_shopping_01.json index 76 (duplicate dim sum order and an unclaimed final piece) and index 78 (weak-signal payments and transfer screenshots); neither shares the zero-fee/cutlery shortage mechanism. Screened approved meal-bill stories; none share this plot. Reviewed colloquial Cantonese, contextual Jyutping, complete gloss, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
