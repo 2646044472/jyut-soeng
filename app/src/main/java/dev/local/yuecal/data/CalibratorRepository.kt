@@ -674,6 +674,7 @@ class CalibratorRepository @Inject constructor(
         audioAsset = audioOverride ?: audioAsset,
         sourceLabel = sourceLabel.ifBlank { defaultSource },
         sortOrder = sortOrder.coerceAtLeast(1),
+        qualityPriority = qualityPriority.coerceIn(0, 1),
         createdAt = createdAt,
         updatedAt = updatedAt,
         isActive = true,

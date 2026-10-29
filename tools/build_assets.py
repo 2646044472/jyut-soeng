@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -9,6 +10,29 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "content"
 SENTENCE_BANK_DIR = CONTENT_DIR / "sentence_bank"
 OUTPUT_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
+
+
+def reviewed_sentence_entry_ids() -> set[str]:
+    ledger_path = ROOT / "STORY_QUALITY_REVALIDATION.json"
+    if not ledger_path.exists():
+        return set()
+
+    ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
+    reviewed_ids: set[str] = set()
+    for record in ledger.get("cards", []):
+        if record.get("status") != "pass":
+            continue
+        source_path = ROOT / record["file"]
+        rows = json.loads(source_path.read_text(encoding="utf-8"))
+        index = record["index"]
+        if index < 0 or index >= len(rows):
+            continue
+        row = rows[index]
+        encoded = json.dumps(row, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()
+        if hashlib.sha256(encoded).hexdigest() != record.get("v2_sha256"):
+            continue
+        reviewed_ids.add(f"sentence-bank-{source_path.stem}-{index + 1:04d}")
+    return reviewed_ids
 def build_prompt_text(raw: str, entry_type: str) -> str:
     text = str(raw or "").strip()
     if text:
@@ -98,6 +122,10 @@ def load_all_entries() -> list[dict]:
         entries.extend(load_entries(path, entry_type))
     for path in sorted(SENTENCE_BANK_DIR.glob("*.json")):
         entries.extend(load_independent_sentence_entries(path))
+    reviewed_ids = reviewed_sentence_entry_ids()
+    for entry in entries:
+        if entry["id"] in reviewed_ids:
+            entry["qualityPriority"] = 1
     return entries
 
 

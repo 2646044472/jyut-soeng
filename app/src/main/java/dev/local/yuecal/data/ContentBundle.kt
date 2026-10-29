@@ -27,4 +27,5 @@ data class ContentEntryAsset(
     val audioAsset: String? = null,
     val sourceLabel: String = "import",
     val sortOrder: Int = 0,
+    val qualityPriority: Int = 0,
 )

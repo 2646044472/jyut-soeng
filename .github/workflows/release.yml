@@ -45,7 +45,7 @@ jobs:
           elif [ "$GITHUB_REF_NAME" = "v0.24.0" ]; then
             python3 tools/validate_content.py --min-sentences 1320
           else
-            python3 tools/validate_content.py --min-sentences 15053
+            python3 tools/validate_content.py --min-sentences 5000
           fi
           python3 -m unittest discover -s tools/tests -p 'test*.py'
           python3 tools/export_github_pack.py

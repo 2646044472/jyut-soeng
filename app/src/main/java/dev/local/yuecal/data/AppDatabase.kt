@@ -41,6 +41,7 @@ data class CalibrationEntryEntity(
     val audioAsset: String?,
     val sourceLabel: String,
     val sortOrder: Int,
+    val qualityPriority: Int = 0,
     val createdAt: Long,
     val updatedAt: Long,
     val isActive: Boolean,
@@ -224,7 +225,8 @@ interface EntryDao {
         WHERE e.isActive = 1
           AND e.entryType = :entryType
           AND p.entryId IS NULL
-        ORDER BY CASE
+        ORDER BY CASE WHEN :entryType = 'sentence' THEN e.qualityPriority ELSE 0 END DESC,
+        CASE
             WHEN e.category IN ('正音重点词', '高频回应', '高频连接', '判断表达') THEN 0
             ELSE 1
         END ASC, RANDOM()
@@ -400,7 +402,7 @@ interface SessionDao {
 
 @Database(
     entities = [CalibrationEntryEntity::class, ReviewProgressEntity::class, StudyAttemptEntity::class],
-    version = 4,
+    version = 5,
     exportSchema = false,
 )
 abstract class AppDatabase : RoomDatabase() {
@@ -416,6 +418,14 @@ val MIGRATION_3_4 = object : Migration(3, 4) {
             ALTER TABLE calibration_entries
             ADD COLUMN isActive INTEGER NOT NULL DEFAULT 1
             """.trimIndent(),
+        )
+    }
+}
+
+val MIGRATION_4_5 = object : Migration(4, 5) {
+    override fun migrate(database: SupportSQLiteDatabase) {
+        database.execSQL(
+            "ALTER TABLE calibration_entries ADD COLUMN qualityPriority INTEGER NOT NULL DEFAULT 0",
         )
     }
 }
