@@ -4422,18 +4422,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 52,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e80ed7615f0ba4ccdce07144ad83dd6939101f4b7864b311d5bf6be0d2623b9b",
-      "v2_sha256": "e80ed7615f0ba4ccdce07144ad83dd6939101f4b7864b311d5bf6be0d2623b9b",
-      "notes": "The story investigates a larger electricity bill by checking readings, room use and family habits, then posts usage times and compares next month’s amount. It is directly a power-bill/accounting story, capped at 1%; all four fields checked, rewrite."
+      "v2_sha256": "f84d14c2e5d1f77fd09437c597a7e0f6f4a2b04a163d92a4c77bb3d81881898b",
+      "notes": "The family investigates uneven room temperatures, with dad reporting each room as a different climate; siblings act out penguin and desert scenes, then dad accidentally uses the television remote on the air conditioner and denies the mistake. The sports channel exposes him, the family labels the remotes, and his forehead label “person” closes the running control confusion. No bill arithmetic drives the plot. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 53,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f431a4a67a998a17d5af883e0645edd76b7022b5116d784565405c09b71decf6",
-      "v2_sha256": "f431a4a67a998a17d5af883e0645edd76b7022b5116d784565405c09b71decf6",
-      "notes": "A family trip is planned by itemizing transport, hotel, food and insurance costs, leaving an emergency budget, then charging a taxi to the reserve. The rice-cooker packing gag is mild; budgeting is the core. All four fields checked; change the conflict."
+      "v2_sha256": "c1bb576417bb169df0c65fe04ec5995fd386020fdfee3c7a4d5884b2ac7948be",
+      "notes": "Packing for a Hong Kong overnight stay, dad secretly insists a rice cooker is essential; its hidden rice paddle clangs like a travel bell, and the younger brother turns each ding into a hotel bellhop bow. At the hotel dad drags the noisy case down the corridor to announce breakfast, while grandma uses the paddle to tell them breakfast is downstairs and checkout is next. Replaces cost itemization with a connected packing-to-hotel comic escalation. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
@@ -4446,10 +4446,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 55,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a1fca9b0ccf1308ffb2f6cc251ea86c558ab9cbdcd3342e84da5fc5a0358ff7c",
-      "v2_sha256": "a1fca9b0ccf1308ffb2f6cc251ea86c558ab9cbdcd3342e84da5fc5a0358ff7c",
-      "notes": "Several phone/internet/insurance bills are debited before payday; the family audits them, moves dates and celebrates fee savings. This is explicitly bill checking/payment timing and a family money routine, capped by the prompt. All four fields checked; replace."
+      "v2_sha256": "0b412f917ed2db03653df938efd03284c288d864ce65349cfa1777e9304c5dd0",
+      "notes": "Dad sets a mobile banking password and repeatedly hides it where the whole family can find it: on the phone, fridge, and in a biscuit tin. He finally locks it in a drawer, but the key tag labels the drawer as “password drawer,” exposing the hiding place. The secret-keeping attempts escalate through family interactions rather than bill timing or expense calculations. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
@@ -4462,18 +4462,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 57,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7475edc72c3cf62df0ae7194a46138e8a52c300d30269497da725afa827c3e5f",
-      "v2_sha256": "7475edc72c3cf62df0ae7194a46138e8a52c300d30269497da725afa827c3e5f",
-      "notes": "A higher electricity bill leads to comparing three periods of usage, setting a timer and measuring a lower bill. The “energy-saving officer”/shoe-as-evidence tags do not create a strong comic turn. Direct electric-bill accounting pattern; all four fields checked."
+      "v2_sha256": "800343593f09460192dfcd53440f28b89d8b43b47f9b07f7e4ec6e1f10f4aa50",
+      "notes": "Dad turns a mouldy shoe-cabinet smell into a family investigation, with the children acting as forensic investigators and the dog identifying a wet umbrella. Dad blames the shoes until his own sniff triggers sneezing; mom finds his hidden umbrella behind the cabinet panel. The case file acquits the umbrella after “education,” then dad hangs the investigation badge on it as a daily check-in. Replaces electricity-bill comparison with a distinct household mystery. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 58,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2903980ae70ac163d20b2e83e20c30ffb3a442e193a65162f94d247606c14200",
-      "v2_sha256": "2903980ae70ac163d20b2e83e20c30ffb3a442e193a65162f94d247606c14200",
-      "notes": "The retirement-payment story checks deposit timing and calculates monthly utilities, medicines, groceries and travel, then waits for a deposit notice. This is a finance-planning/account-confirmation story without comic escalation; all four fields checked."
+      "v2_sha256": "72d481403f917aa87ee7a6031a01cd9217335f16190f0a68026af9d15bb9477a",
+      "notes": "Dad turns the arrival of his first retirement deposit into a family awards ceremony: the siblings add a drum-roll ringtone, grandma sets out a guest table, and three unrelated phone alerts make him announce fake winners. When the actual deposit arrives, no one stands; dad gives his own acceptance speech, and grandma hands him an award for washing cups after the ceremony. Moves away from deposit arithmetic and builds a repeated false-alarm escalation. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
