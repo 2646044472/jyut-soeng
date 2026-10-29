@@ -23535,10 +23535,10 @@
     {
       "file": "content/sentence_bank/long_health_services_02.json",
       "index": 22,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c5c3097d414747243c220e058acc40a6be50ceda20e4649f22c44d6890e30865",
-      "v2_sha256": "c5c3097d414747243c220e058acc40a6be50ceda20e4649f22c44d6890e30865",
-      "notes": "Needs revision: a high filling is adjusted and the speaker says the tooth must queue; the wordplay is unprepared and the rest is an ordinary adjustment. No escalating scene. All four fields read; gloss/tip match."
+      "v2_sha256": "23ccc3b04546181fcbd07e311b9a975278fdef9fc913b47bcbddb86b5d8e2c9d",
+      "notes": "Human-reviewed V2 rewrite: post-filling bite imbalance gets checked and adjusted with articulating paper; a coworker mistakes a bitten wrapper for a failed filling, ending with a self-directed judgment call-back. Nonfamily dental-care scene; category and nonlanguage metadata preserved; all four fields and Jyutping alignment reviewed."
     },
     {
       "file": "content/sentence_bank/long_health_services_02.json",
