@@ -225,3 +225,13 @@
 - Current V2 total: 1,654 pass / 3,346 needs_revision / 0 pending. Unit tests were not run.
 - Content commit `d2f82db` (`Review Cantonese king oyster mushroom story`) was pushed by ordinary fast-forward. The checkpoint update follows this content commit.
 - Continue reviewing distinct non-family-core stories across the full 5,000-card scope.
+
+## Active continuation — 2026-10-30, egg-roll gift batch 18
+
+- Continued in the independent worktree; before this batch, local and remote target refs matched at `88a81da416bdafd69d800b0c8c3b235e3b181a21`.
+- Replaced `content/sentence_bank/long_food_shopping_09.json` zero-based index 86 with a supermarket souvenir-purchase story. Coworkers choose egg rolls for a two-bus trip, compare flavors and dates, switch a short-dated tin, and keep the gift dry in heavy rain. The recipient mistakes the tin for a stationery box; after sharing the egg rolls, it becomes a pen holder, paying off the weight joke. The story uses a different character from the preceding honey card and has a distinct travel/packaging plot.
+- Reviewed Macau Cantonese, contextual Jyutping (265 Han characters / 265 syllables), Simplified Chinese gloss, and practice tip. Updated the source hash/status and exact app mirror with `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), the checklist was regenerated, and `git diff --check` passed. Unit tests were not run.
+- Current V2 total: 1,655 pass / 3,345 needs_revision / 0 pending.
+- Content commit `020e04b` (`Review Cantonese egg roll gift story`) was pushed by ordinary fast-forward. The checkpoint update follows this content commit.
+- Continue reviewing distinct non-family-core stories across the full 5,000-card scope.
