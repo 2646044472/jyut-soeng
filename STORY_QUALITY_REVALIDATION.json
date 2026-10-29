@@ -21547,10 +21547,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 18,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d8b75874799e85dccfd81c3cddf5e01d2ae4c53dfeb71be218a647f616e9cb0a",
-      "v2_sha256": "d8b75874799e85dccfd81c3cddf5e01d2ae4c53dfeb71be218a647f616e9cb0a",
-      "notes": "Needs revision: the story is a reimbursement/e-receipt issue (money-related core), followed by a coupon purchase; it duplicates the sentence “下次我會先開會員程式...” verbatim, then repeats troubleshooting instructions. The lost-mail and coupon beats do not form a comic reversal. Gloss broadly covers events; tip emphasizes the email find. Four fields read; preserve identity, repair duplication and develop a distinct plot; count as money-led for final quota review."
+      "v2_sha256": "4e8d2db963ee55e93c5395cbae43370db1057b5f7bbd70bc9f1f3c6230c96442",
+      "notes": "V2 manually reviewed: a work reimbursement e-receipt lands in spam; the colleague mistakes the instruction and submits the whole spam-list screenshot, prompting finance’s dry clarification. The final paper direction note pays off the paperless setup. Workplace/public retail scene, no family theme; category preserved and all four fields/readings checked.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
