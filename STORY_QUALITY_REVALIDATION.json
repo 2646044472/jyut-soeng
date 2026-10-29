@@ -6626,11 +6626,11 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 15,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e7faed17c033695762617bcf036febf2c6dfa3ea6be05d71294786f696f73f64",
-      "v2_sha256": "e7faed17c033695762617bcf036febf2c6dfa3ea6be05d71294786f696f73f64",
-      "notes": "A same-day water-heater repair is coordinated for a child’s performance, followed by butterfly-costume photos and a towel; the family detail is pleasant but does not build to a strong comic payoff. Individually checked sentence, Jyutping, full Mandarin gloss and story-specific usageTip.",
-      "revalidated_at": "2026-10-27"
+      "v2_sha256": "ed92e1d1c23e5aff1f394dd51e18fbb59356b4393c32b998ee4f3f20c5110a6b",
+      "notes": "V2 manually reviewed: a tenant reports the failed hot-water heater; the landlord confirms maintenance responsibility, explains the professional visit and fees before booking, and the tenant provides increasingly frequent route updates as the technician approaches and stops at the wrong entrance. Their messages become a “delivery livestream”; after the repair the tenant declares the livestream over. Workplace-at-home and rental-service scene, no family theme or money dispute; all four fields/readings checked, category preserved.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
