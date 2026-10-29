@@ -22380,10 +22380,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 16,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "eeb7c4de88f1c6ba5ad285fafe0cea5071942bd8c45ae7e34306ef4ffd2a4391",
-      "v2_sha256": "eeb7c4de88f1c6ba5ad285fafe0cea5071942bd8c45ae7e34306ef4ffd2a4391",
-      "notes": "Needs revision: the group notices too late that a vegetarian guest dislikes garlic, adapts the cooking, then searches for the vegetarian oyster sauce. It resolves as a checklist scene without escalating humor. All four fields read; gloss/tip match."
+      "v2_sha256": "19a2acc5b6c71b18804527a33f13e614affffcc43c0935c849f4d093d7100b47",
+      "notes": "A coworker dinner for a vegetarian guest turns into a label-and-version maze: garlic-free, mild and no-scallion variants each get a label, while four coworkers hesitate to taste before checking the requirements. The final callback finds the “no garlic” label on an empty pot, which the cook certifies for next time. Reviewed all four fields and contextual Jyutping; workplace/friend dinner, not family-centered."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
