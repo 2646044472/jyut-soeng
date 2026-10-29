@@ -333,3 +333,12 @@
 - Re-screened `content/sentence_bank/long_food_shopping_17.json` zero-based index 18, the office group-salad order. The closest approved character-trigram match was an unrelated coworker Thai-curry bravado story in `long_food_shopping_10.json` index 38 (Jaccard 0.0142); no semantic duplicate was found. Kept it `needs_revision` because wet labels only cause a routine order recheck, without an escalating consequence or satisfying comic reversal. Updated the ledger rationale; source content and app mirror remain unchanged.
 - `python tools/validate_content.py` passed (8,000 entries), the mechanical checklist was regenerated, the V2 hash still matches the source row, and `git diff --check` passed. No app rebuild was needed. V2 total remains 1,664 pass / 3,336 needs_revision / 0 pending.
 - Continue reviewing eligible distinct stories across the full 5,000-card scope.
+
+
+## Active continuation — 2026-10-30, hiking sandwich batch 30
+
+- Continued in the independent worktree; before this batch, local HEAD and the target remote branch were both `176a8b3a08aae911764ce502f26e08320ed7df4a`. The Desktop worktree remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_19.json` zero-based index 35. The hiking group forgets cutlery, cheese sticks to a thermos lid, and a friend opens a miniature kitchen to rescue the sandwich; the summit-shop callback pays off the food-and-hike setup. The supermarket sandwich ingredients stay central.
+- Reviewed colloquial Macau Cantonese, contextual Jyutping (241 Han characters / 241 syllables), full Simplified Chinese gloss, and practice tip. The nearest approved character-trigram match was an unrelated clinic follow-up (Jaccard 0.0212).
+- Updated the V2 status/hash, rebuilt `app/src/main/assets/builtin/content.json`, verified exact sentence/Jyutping/gloss/tip/category mirrors, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`. The mechanical audit had no failures; `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. Unit tests were not run.
+- Current V2 total: 1,665 pass / 3,335 needs_revision / 0 pending. Content commit: `02bf2a4741a25eca8754f46326fb64424a130ff9`; checkpoint commit follows this update. Continue reviewing eligible distinct stories across the full 5,000-card scope.
