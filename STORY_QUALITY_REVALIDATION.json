@@ -34405,10 +34405,10 @@
     {
       "file": "content/sentence_bank/long_home_family_03.json",
       "index": 81,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e95d83e73d5a20e20bf22b8b61225621486f839b2cc2f5c007b86d1625baf8b1",
-      "v2_sha256": "e95d83e73d5a20e20bf22b8b61225621486f839b2cc2f5c007b86d1625baf8b1",
-      "notes": "Needs revision: the father improves video calls by asking about his son’s new life, and the tomato update adds warmth; this is relationship repair without a comic arc. Checked all four fields; source unchanged."
+      "v2_sha256": "55dec8d682ef895701fcde5b47f0e9a6d8d10133ae2804b89efb592431ec593c",
+      "notes": "Root manually rewrote and reviewed all four language fields. A phone-survey checklist starts as the father awkwardly tries to ask about his son abroad; a single balcony tomato turns the call into an over-serious harvest inspection, and the final question about when the tree returns callbacks to his repeated question about his son. Checked escalation, contextual Jyutping, complete Simplified gloss and story-specific retelling tip."
     },
     {
       "file": "content/sentence_bank/long_home_family_03.json",
