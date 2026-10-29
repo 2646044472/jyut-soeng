@@ -108,5 +108,5 @@
 - Reviewed Cantonese, contextual Jyutping, complete Simplified Chinese gloss, and `故事练习：` prompt. Han/Jyutping alignment is 226/226. Highest trigram Jaccard against previously approved stories was 0.0132; the nearest lexical match is unrelated.
 - Updated the V2 hash/status, rebuilt the app bundle, and verified exact source text, Jyutping, gloss, usage tip, `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries), progress report regenerated, and `git diff --check` passed. Current V2 total: 1,644 pass / 3,356 needs_revision / 0 pending. Unit tests were not run in this batch.
-- This batch is ready for local commit and ordinary fast-forward push from `a016cdf`; record the resulting commit and post-push remote SHA after verifying them.
+- Batch commit `661ada89137c955afc80ac5aef7d4d1826ac68cd` (`Review Cantonese winter melon story`) was pushed by ordinary fast-forward from `a016cdf`. Post-push `git ls-remote` confirmed the target branch at exactly `661ada89137c955afc80ac5aef7d4d1826ac68cd`; local `HEAD` matched at verification time.
 - Continue screening for distinct, non-family-core stories.
