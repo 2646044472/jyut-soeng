@@ -21589,10 +21589,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 23,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "0ddcbc5aa26993c0b36056c43d218d87bd956e514d81db983ae1d029214c415d",
-      "v2_sha256": "0ddcbc5aa26993c0b36056c43d218d87bd956e514d81db983ae1d029214c415d",
-      "notes": "Needs revision: an overworked employee forgets a spoon, heats soup in a cup and splashes it; “tomato fountain” is a mild simile, then the solution is to store utensils and a heatproof cup. No escalating conflict or earned reversal. Gloss and tip match. Four fields read; create a stronger comic payoff and recheck readings."
+      "v2_sha256": "0cfeb7c1c94908b8723a3e7d3bc4721162ddce3837ab887cb0757ac044768815",
+      "notes": "Rebuilt the instant-soup overtime anecdote into a workplace misunderstanding: food-use dates are mistaken for project deadlines, coworkers assign owners and progress to soup flavors, and the empty drawer wins the team’s on-time delivery joke. Food shopping and ready soup for overtime stay central. Reviewed Macau Cantonese, contextual Jyutping (242 Han characters / 242 syllables), the full Simplified Chinese gloss, and the matching practice tip. The nearest approved character-trigram match was an unrelated office lunch contest (Jaccard 0.0125)."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
