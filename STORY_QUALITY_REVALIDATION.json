@@ -30785,10 +30785,11 @@
     {
       "file": "content/sentence_bank/long_health_services_11.json",
       "index": 28,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ec4f61b1b67e6988dda95f9620ecb5c0ef005677f5f7cace4bc9be660f1f02aa",
-      "v2_sha256": "ec4f61b1b67e6988dda95f9620ecb5c0ef005677f5f7cace4bc9be660f1f02aa",
-      "notes": "Read all four fields. The report pages are inserted in reverse order and the “reports line up” joke is mild but not paid off; revise for a clearer escalation while keeping results contextual and avoiding self-diagnosis."
+      "v2_sha256": "480bde49e558d5224ea22f0e49809ed05238dbf099145674a111d8841440fd3d",
+      "notes": "V2 manually reviewed: a follow-up message leads the narrator to bring prior blood-test reports and a supplement list; two close dates were inserted in reverse order, and the nurse corrects them. The older report becomes the “prequel,” while the folder label warns not to jump straight to the ending. The doctor explains the results and next steps; no self-diagnosis or new medical guidance. Solo clinic scene, no family theme; all four fields/readings checked, category preserved.",
+      "revalidated_at": "2026-10-29"
     },
     {
       "file": "content/sentence_bank/long_health_services_11.json",
