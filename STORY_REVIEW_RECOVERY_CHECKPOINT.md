@@ -50,3 +50,15 @@
 - New V2 total: 1,632 pass / 3,368 needs_revision / 0 pending. `python tools/build_assets.py`, content validation (8,000), unit tests (7 run, 1 skipped), and `git diff --check` passed for the second batch.
 - The last reviewed commit `c0586f49c338cb218cac3cb53e712467adecab87` was pushed and verified on the target branch; the worktree was clean at that point.
 - Next action: continue after index 74, screen for non-family-core and semantic uniqueness, and later revisit the deferred rows above rather than treating them as completed.
+
+
+## Active continuation — 2026-10-29, shopping stories batch 3
+
+- Working tree: `C:\Users\bankey\Documents\Codex\2026-10-29\task\jyut-soeng-v2-worktree`, branch `codex/macau-story-upgrade-batch-progress-resume`. The desktop worktree remains untouched.
+- The remote target branch `origin/codex/macau-story-upgrade-batch-progress` was read successfully at `2de9add8e0d24a1f4d0e4a67989fdac980009cff` before this batch; the local starting HEAD matched.
+- Completed V2 review for `content/sentence_bank/long_food_shopping_02.json` zero-based indexes 84, 86, and 98. Rewrote the stories, reviewed all four language fields, manually checked contextual Jyutping readings against 250, 251, and 257 Han characters, and preserved array order/category.
+- Index 84 is now a freezer-label and breakfast-draw story, screened against the approved lunchbox leak story. Index 86 is an oatmeal-package return with an earned shelf-inspector gag. Index 98 is a coworker roast-chicken split that escalates into a mock meeting and written minutes.
+- Indexes 85 and 89 remain `needs_revision` after screening for family-interaction focus. Earlier deferred indexes 36, 37, 43, and 59 also remain `needs_revision`.
+- Updated V2 hashes and notes for the three approved rows, rebuilt `app/src/main/assets/builtin/content.json`, and verified exact sentence, Jyutping, gloss, and usage-tip mirrors with `qualityPriority=1`.
+- Validation passed: `python tools/validate_content.py` (8,000 entries), unit tests (7 run, 1 skipped), `python tools/story_quality_progress.py` (1,635 pass / 3,365 needs_revision / 0 pending), and `git diff --check`. Mechanical checks passed for all 5,000 scoped stories; human V2 review remains incomplete.
+- This batch has not yet been committed or pushed. After committing, fast-forward push to the authorized remote target branch and verify its SHA; then record the confirmed remote SHA here.

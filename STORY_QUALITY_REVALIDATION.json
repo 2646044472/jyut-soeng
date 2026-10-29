@@ -11750,10 +11750,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 84,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b69a5173294f004cff872c9c268196c60c4f04b89c3abc8773bedf56e51dc6cb",
-      "v2_sha256": "b69a5173294f004cff872c9c268196c60c4f04b89c3abc8773bedf56e51dc6cb",
-      "notes": "Needs revision: condensation prompts a practical cooling method and a sun drawing, but the repeated test only confirms the instruction; no meaningful comic turn develops. Read all four fields; the tip accurately covers the condensation and second opening."
+      "v2_sha256": "8db19c06fca642f788f53874bd08dddcc92247334337e07f894cab92f3593f28",
+      "notes": "Rewrote as distinct freezer-storage and breakfast-draw comedy; labels progress from date-only to flavor plus date. Read all four fields, aligned and checked all 250 Jyutping readings including contextual tones, and screened against the approved lunchbox leak story."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11766,10 +11766,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 86,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7f2b140eab29479890b2a26e25ccb5af365171b9162929fad996e563796eccba",
-      "v2_sha256": "7f2b140eab29479890b2a26e25ccb5af365171b9162929fad996e563796eccba",
-      "notes": "Needs revision: the unsealed oatmeal box is exchanged after a careful but routine return; the later “inspector” tease is not earned by an escalating comic sequence. Read all four fields; usageTip matches the return and replacement."
+      "v2_sha256": "c0f3f7e497dd3b5c00c4fbca2c4c3a7d006a1e8c02a829a4cbca2fa78215a705",
+      "notes": "Rewrote the loose oatmeal seal return with a gradual shelf-inspector gag. Read all four fields, aligned and checked all 251 contextual Jyutping readings, and checked the replacement story against approved grocery returns."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11862,10 +11862,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 98,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "61e4e26282390762b25e529087e825a7ca6ea5eb926ceb7f603d8cacde810c76",
-      "v2_sha256": "61e4e26282390762b25e529087e825a7ca6ea5eb926ceb7f603d8cacde810c76",
-      "notes": "Needs revision: a shopper buys roast chicken, shares breast meat with a child and plans leftovers; rain and meal planning do not develop into a comic conflict or reversal. Read all four fields; the tip matches the food-selection and storage events."
+      "v2_sha256": "efb5148510be60cb40d297991b8352a6c2386a66376c7bcc83e4f205decce835",
+      "notes": "Rewrote as coworkers splitting the final roast chicken; a simple portion decision escalates into a mock short meeting and written minutes. Read all four fields, aligned and checked all 257 contextual Jyutping readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
