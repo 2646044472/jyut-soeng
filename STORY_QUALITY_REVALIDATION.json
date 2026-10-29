@@ -17368,10 +17368,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_09.json",
       "index": 86,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f4f035642cd832fa91b408fe58059d0625ab6c2d92e21d76b9c75e16b4db6746",
-      "v2_sha256": "f4f035642cd832fa91b408fe58059d0625ab6c2d92e21d76b9c75e16b4db6746",
-      "notes": "Needs revision: a bakery substitutes a fresh tin with a longer date and the rain does not damage it; the child’s “eat one, collect one” tag is disconnected from the family scene and not an earned payoff. Read all four fields; tip matches the transport and tin."
+      "v2_sha256": "f454b15dc16b77821a749e50a6c769371f50a93988e334f266fe5468cec6a728",
+      "notes": "Replaced the family souvenir sketch with coworkers choosing egg-roll gifts for a two-bus trip. They compare flavors and dates, switch a short-dated tin, protect it from rain, then reveal the recipient mistook the heavier tin for a stationery box; after sharing the egg rolls, the tin becomes a pen holder and pays off the weight joke. Category-aligned supermarket gift selection, distinct from approved pastry stories. Reviewed Cantonese, contextual Jyutping, Simplified Chinese gloss, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_09.json",
