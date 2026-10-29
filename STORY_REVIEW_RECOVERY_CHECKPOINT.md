@@ -141,3 +141,13 @@
 - `python tools/validate_content.py` passed (8,000 entries), progress report regeneration completed, and `git diff --check` passed. Current V2 count: 1,647 pass / 3,353 needs_revision / 0 pending. Unit tests were not run.
 - Batch commit `4f8c4e6cf55070d9d871496dbc79d9c8a10c8ccc` (`Review Cantonese takeaway communication story`) was pushed by ordinary fast-forward from `70704d1`; `git ls-remote` confirmed the target ref at the same SHA.
 - Continue reviewing distinct non-family-core cards across the full 5,000-card scope.
+
+
+## Active continuation — 2026-10-30, office drink batch 11
+
+- Continued in the independent worktree; before this batch the remote target was verified at `73f207a44ea9984104b00d1a1f58d0dea1620a9d`.
+- Completed V2 review for `content/sentence_bank/long_food_shopping_08.json` zero-based index 50. A new coworker drinks the wrong no-sugar milk tea and explains that he “drank no sugar,” not “heard no sugar” in the meeting conclusion; the callback makes the manager ask to remove “meeting conclusion: half-sugar” from the minutes.
+- Company drink ordering remains central. Reviewed Cantonese, contextual Jyutping, full Simplified Chinese gloss, and practice tip. Han/Jyutping alignment is 228/228. Highest approved-story trigram Jaccard was 0.0112.
+- Updated V2 status/hash, rebuilt the app bundle, and verified exact sentence, Jyutping, gloss, usage tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), progress report regeneration completed, and `git diff --check` passed. Current V2 count: 1,648 pass / 3,352 needs_revision / 0 pending. Unit tests were not run.
+- Continue reviewing distinct non-family-core cards across the full 5,000-card scope.

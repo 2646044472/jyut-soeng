@@ -16280,10 +16280,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 50,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3a08dd9718014b48ab4a0ae5a676f3e94f82ba6025191e499a85deb6bb81576d",
-      "v2_sha256": "3a08dd9718014b48ab4a0ae5a676f3e94f82ba6025191e499a85deb6bb81576d",
-      "notes": "Missing and wet drink labels lead the coworkers to verify sweetness and swap a cup; the no-sugar grimace is a mild beat and the story ends with a practical spreadsheet suggestion. Checked all four fields."
+      "v2_sha256": "908e620556e5e6345b677bad51e48c3d660b1989e18970c321047591a0c9e3e6",
+      "notes": "Rewrote the company drink-order mix-up into a wordplay callback: a new coworker mistakes his no-sugar milk tea for a critique of the meeting; coworkers agree on cup labels, and the manager asks to delete “meeting conclusion: half-sugar” from the minutes. The office drink order remains central and distinct from previously approved meal-order plots. Checked Cantonese, contextual Jyutping, complete Simplified Chinese gloss, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
