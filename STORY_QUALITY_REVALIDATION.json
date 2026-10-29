@@ -6500,10 +6500,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 1,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3f6a9f5ca70be91c0e92e5d8b136b4dc04c8e9ca0cf1a47b2b40ebf26ed3a4d7",
-      "v2_sha256": "3f6a9f5ca70be91c0e92e5d8b136b4dc04c8e9ca0cf1a47b2b40ebf26ed3a4d7",
-      "notes": "The retirement-fund letters become playing cards and the colleague separates side dishes, but the joke stays mild and the story is mostly routine fund-fee and transfer comparison. Individually checked sentence, Jyutping, full Mandarin gloss and story-specific usageTip.",
+      "v2_sha256": "37e1bcac78bc81ff62fc32ae521c3efb16ed8555b47285061db650f20ab04db1",
+      "notes": "V2 reviewed: an employee compares retirement-fund account details before deciding whether to consolidate; the playing-card joke expands to sorting side dishes and splitting a noodle bill. Workplace and dining scene, no family plot. Existing account-transfer facts unchanged.",
       "revalidated_at": "2026-10-27"
     },
     {
@@ -23317,10 +23317,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 97,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "40931880ef9f249e89e1fc397231a6426d6b6fa9ce4546792bb4dd9d1bcd875e",
-      "v2_sha256": "40931880ef9f249e89e1fc397231a6426d6b6fa9ce4546792bb4dd9d1bcd875e",
-      "notes": "The pothole is reported and repaired safely; the breakfast gift and “best breakfast” line are an earnest reward, not a developed joke."
+      "v2_sha256": "177f333bf18acdd8d4127f2593a16253d2d3b7ce4bffd25788b88d203639cc31",
+      "notes": "V2 reviewed: a passerby keeps a student away from floodwater hiding a loose drain cover, reports it and waits for a safe repair; the porridge seller’s breakfast joke earns a callback that the new cover has “clocked in” as the street’s most down-to-earth worker. Public-safety scene; no family plot."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
