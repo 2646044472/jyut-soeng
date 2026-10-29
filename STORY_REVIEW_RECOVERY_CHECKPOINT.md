@@ -118,5 +118,15 @@
 - Checked Cantonese, contextual Jyutping, complete Simplified Chinese gloss, practice prompt, and category fit. Corrected 枱 to `toi2`. Han/Jyutping alignment is 229/229. The top trigram Jaccard match against V2-approved stories was 0.0152 and involved an unrelated snack-packing plot.
 - Updated the V2 status/hash and rebuilt the app bundle. Source sentence, Jyutping, gloss, usage tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1` were checked in the corresponding bundle entry.
 - `python tools/validate_content.py` passed (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md` completed, and `git diff --check` passed. Current V2 count: 1,645 pass / 3,355 needs_revision / 0 pending. Unit tests were not run.
-- The GitHub connector listed `codex/macau-story-upgrade-batch-progress` at `ce6c0571ccf09db7d6c05e10958d2ff88f32be8e`; local branch name `codex/macau-story-upgrade-batch-progress-resume` is not a remote branch. If the ordinary fast-forward push and follow-up `git ls-remote` succeed, record their SHA here.
+- The GitHub connector listed `codex/macau-story-upgrade-batch-progress` at `ce6c0571ccf09db7d6c05e10958d2ff88f32be8e`; local branch name `codex/macau-story-upgrade-batch-progress-resume` is not a remote branch. The ordinary fast-forward push succeeded, and `git ls-remote` confirmed the target ref at `c8e921a4d9aeafb4f21a6e665301d2d3506ebe28`.
+- Continue reviewing distinct non-family-core cards across the full 5,000-card scope.
+
+
+## Active continuation — 2026-10-30, market batch 9
+
+- Continued in the same independent worktree; before this batch the verified remote target was `c8e921a4d9aeafb4f21a6e665301d2d3506ebe28`.
+- Completed V2 review for `content/sentence_bank/long_food_shopping_07.json` zero-based index 96. A loose frozen pea rolls from a punctured bag to the freezer door, leading the nephew and staff to discover the door ajar; the nephew calls it a runaway who led them to the fault, asks whether it should pay separately at checkout, and records that it rejoined its team on the shopping list.
+- Grocery shopping remains central and is category-aligned. Reviewed Cantonese, contextual Jyutping, full Simplified Chinese gloss, and practice tip. Han/Jyutping alignment is 255/255. Highest approved-story trigram Jaccard was 0.0185; the closest match concerns frozen seafood being unavailable and has a different plot.
+- Updated the V2 status/hash, rebuilt the app bundle, and verified exact sentence, Jyutping, gloss, usage tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), progress report regeneration completed, and `git diff --check` passed. Current V2 count: 1,646 pass / 3,354 needs_revision / 0 pending. Unit tests were not run.
 - Continue reviewing distinct non-family-core cards across the full 5,000-card scope.
