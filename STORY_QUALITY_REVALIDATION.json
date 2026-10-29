@@ -14477,10 +14477,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 25,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c55ceb299e98c1a1b20882308bb430f40e5ad30050cfed322108d508d7540a9c",
-      "v2_sha256": "c55ceb299e98c1a1b20882308bb430f40e5ad30050cfed322108d508d7540a9c",
-      "notes": "A leaking soy-sauce jar makes the narrator hold soup in the lobby while the courier fetches a bag, but the customer service agent then inexplicably sends another plate of rice rolls after the food is intact; the ending does not resolve that extra replacement coherently. Checked all four fields."
+      "v2_sha256": "fbb18bdd4be6bd79f9cf76b13fa84a892cf2ce8a6f0e09482cd6593f4a0846b6",
+      "notes": "V2 reviewed: colleagues protect late-night porridge during a leaking soy-sauce-bag handoff; the clear compensation and guard’s “porridge relay / rice-roll relay” callback give the lobby scene a comic payoff. Workplace and public-service setting."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -16109,10 +16109,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 29,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "eb2bfd8a89e69503fa1133c69df8cb44fb6d25de1221af74c508c420eb2e4a0c",
-      "v2_sha256": "eb2bfd8a89e69503fa1133c69df8cb44fb6d25de1221af74c508c420eb2e4a0c",
-      "notes": "A coworker forgets chopsticks after the office meal order excludes disposable cutlery, then borrows and returns the shared set; the repeated reminder is mild, with no strong comic escalation. Checked all four fields."
+      "v2_sha256": "5fdccf7a966ea0b5b88d5aa2fe0759a440d281f8a7435057c91cef0462d7f524",
+      "notes": "V2 reviewed: the no-cutlery order exposes a coworker’s forgotten chopsticks; after the written reminder, he carries a separate pair outside his bag as a reminder and keeps the inner pair for eating. Workplace callback, no family plot."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
