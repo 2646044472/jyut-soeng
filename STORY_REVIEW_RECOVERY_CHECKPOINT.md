@@ -185,3 +185,12 @@
 - `python tools/validate_content.py` passed (8,000 entries), progress report regeneration completed, and `git diff --check` passed. Current V2 count: 1,651 pass / 3,349 needs_revision / 0 pending. Unit tests were not run.
 - Batch commit `350d9f8a6be39d0e424f366ffb08fa383654b4e0` (`Review Cantonese switched beef delivery story`) was pushed by ordinary fast-forward from `3c85c22`; `git ls-remote` confirmed the target ref at the same SHA.
 - Continue reviewing distinct non-family-core cards across the full 5,000-card scope.
+
+
+## Active continuation — 2026-10-30, secondhand deduplication check
+
+- Continued in the independent worktree; the remote target before this review was `0e6f288edb0f857b25568b853d47477ad824c78a`.
+- Rejected the proposed comedy rewrite for `content/sentence_bank/long_food_shopping_09.json` zero-based index 8 after comparing it with the approved secondhand toaster trial in `long_food_shopping_03.json` index 90. The item and plot were duplicates despite a different final joke, so the original row was restored and remains `needs_revision`; the V2 pass count did not increase.
+- Updated the row hash/notes, rebuilt the app bundle from canonical content, and verified `python tools/validate_content.py` (8,000 entries), progress report regeneration, and `git diff --check`. The source row remains correctly aligned with its Jyutping.
+- Current V2 count remains 1,651 pass / 3,349 needs_revision / 0 pending. Unit tests were not run.
+- Continue screening distinct non-family-core stories; require plot-level uniqueness, not just a changed punchline.

@@ -16747,7 +16747,7 @@
       "status": "needs_revision",
       "baseline_sha256": "d0bb3bed3fa0eada69ab9078f35c7659c27264d8d0b1e12e32fa63519070e99f",
       "v2_sha256": "d0bb3bed3fa0eada69ab9078f35c7659c27264d8d0b1e12e32fa63519070e99f",
-      "notes": "Needs revision: the toaster is disclosed, tested and sold, then a forgotten cleaning brush is returned; the transaction has no escalating comic conflict or earned punchline. Read all four fields; tip accurately follows the sale and brush."
+      "notes": "Kept the original row and did not approve the new joke: the toaster sale and slow-pop test duplicate the approved secondhand toaster testing story in long_food_shopping_03.json index 90, despite a different closing line. Needs a distinct secondhand transaction plot. Checked all four fields against the restored source row."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_09.json",
