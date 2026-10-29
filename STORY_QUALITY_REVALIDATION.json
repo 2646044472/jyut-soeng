@@ -15960,10 +15960,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 10,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ebceb554a4e3313a24e5618eaa75d477edb535bf58c1f6a4cf450f1c74d81db5",
-      "v2_sha256": "ebceb554a4e3313a24e5618eaa75d477edb535bf58c1f6a4cf450f1c74d81db5",
-      "notes": "The narrator detects unwanted syrup, obtains a corrected drink and labels the cups; the later lemon seed stuck in a straw is a small separate incident rather than an escalating punchline. Checked all four fields."
+      "v2_sha256": "b20e72a5336b467c0a8b65ce2b65056149fdcf27a25ac793a4d5f37bdb0a0b7c",
+      "notes": "Reworked the incorrect syrup order as an escalating office-personification gag: the remade cup is marked “syrup temporarily away,” and Ah Zhe reserves the old cup a seat, then asks whether the syrup has officially resigned. Takeaway drink communication remains central and distinct from previously approved cup-label mix-ups. Checked Cantonese, contextual Jyutping, complete Simplified Chinese gloss, and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
