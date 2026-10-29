@@ -271,3 +271,12 @@
 - Reviewed Macau Cantonese, contextual Jyutping (272 Han characters / 272 syllables), complete Simplified Chinese gloss, and matching practice tip. No approved story matched the milk-building/skyline joke; maximum character-trigram Jaccard similarity against other approved stories was 0.0165.
 - Updated the V2 status/hash, rebuilt the app bundle, verified exact source-to-app mirrors for sentence, Jyutping, gloss and practice tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`. The mechanical story audit reported no failures; `python tools/validate_content.py` passed (8,000 entries), the checklist was regenerated, and `git diff --check` passed. Unit tests were not run.
 - Current V2 total: 1,659 pass / 3,341 needs_revision / 0 pending. Commit and remote verification are the remaining steps for this batch.
+
+
+## Active continuation — 2026-10-30, office potluck birthday batch 23
+
+- Continued in the independent worktree; local HEAD and the target remote were `7a03e38e6778b1da8a888e474c75da9633032332` before this batch. The Desktop worktree remains untouched.
+- Reworked `content/sentence_bank/long_food_shopping_13.json` zero-based index 90, an office sushi potluck. The opening now establishes that the meal is for the manager's birthday. After coworkers eat mango pieces from the fruit-letter 快, leaving 生日樂, the manager jokes that the happiness has been eaten. The supermarket run is incidental; the office lunch and food are central.
+- Reviewed Macau Cantonese and contextual Jyutping (290 Han characters / 290 syllables), including the changed opening and punchline; checked complete Simplified Chinese gloss and event-specific tip. Similar birthday fruit-card stories in other categories use different family/cake plots; no matching office potluck joke was found. Maximum character-trigram Jaccard against approved stories was 0.0095.
+- Updated the V2 hash/status, rebuilt the app bundle, verified exact source-to-app text/Jyutping/gloss/tip, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`. The mechanical audit had no failures; `python tools/validate_content.py` passed (8,000 entries), checklist regenerated, and `git diff --check` passed. Unit tests were not run.
+- Current V2 total: 1,660 pass / 3,340 needs_revision / 0 pending. Content commit: `a64146aa74d1ddc081e1a3993b2a91e9d6a0d023`; the checkpoint commit and remote verification remain.
