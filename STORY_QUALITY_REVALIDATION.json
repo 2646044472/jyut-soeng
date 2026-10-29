@@ -10334,10 +10334,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 7,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6f73f8a57eb8bcd410fe1702befc8b32fa819ffb3868ed19ad1658bb5e448739",
-      "v2_sha256": "6f73f8a57eb8bcd410fe1702befc8b32fa819ffb3868ed19ad1658bb5e448739",
-      "notes": "Needs revision: sprouted tomato seeds prompt a food-safety check and the family makes two tomato dishes; the story is a cooking tip, not a comic scene."
+      "v2_sha256": "5aa98f0a308d0cd1e57174f0680be9a4187f23befe2ee40ec2d92e6db62da71f",
+      "notes": "Rebuilt the sprouted-tomato food-safety explanation into the daughter’s “tomato kindergarten”: seedlings get seats, lean toward the kitchen, and the entire class graduates into soup. Market produce remains central; the class/soup callback supplies the comic reversal. Reviewed colloquial Cantonese, Jyutping (221 Han / 221 syllables), complete gloss and practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",

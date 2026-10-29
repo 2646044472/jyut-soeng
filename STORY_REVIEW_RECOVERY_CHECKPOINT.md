@@ -377,3 +377,13 @@
 - Updated the V2 ledger hash/status, rebuilt the app bundle, and confirmed exact source-to-app sentence/Jyutping/gloss/tip matches with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/validate_content.py` passed (8,000 entries); checklist regenerated; `git diff --check` passed. New V2 count: 1,667 pass / 3,333 needs_revision / 0 pending. Unit tests were not run.
 - Content, app mirror, ledger, checklist, and this recovery note are ready for local commits. Continue reviewing distinct cards across all 5,000.
+
+
+## Active continuation - 2026-10-30, tomato kindergarten batch 35
+
+- Continued from clean HEAD `b4ae950`; verified the target remote branch was also at `b4ae9500cbb394cd2383da79c51d369366019205` before editing.
+- Reworked `content/sentence_bank/long_food_shopping_01.json` zero-based index 7. The daughter treats sprouted tomato seeds as a kindergarten class: they get seats, lean toward the kitchen, and all graduate into the tomato soup. The market-produce setup now drives an escalating comic scene and a final callback.
+- Reviewed colloquial Cantonese, Jyutping (220 Han characters / 220 syllables), complete Simplified Chinese gloss, and practice tip. Character-trigram screening against approved stories found no close match (closest non-self score 0.0164, an unrelated story).
+- Updated V2 status/hash, rebuilt the app bundle, and verified exact source-to-app sentence/Jyutping/gloss/tip matches with `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries); checklist regenerated; `git diff --check` passed. V2 count: 1,668 pass / 3,332 needs_revision / 0 pending. Unit tests were not run.
+- Source, app mirror, ledger, checklist, and recovery note are ready for local commit and remote fast-forward verification. Continue across all 5,000 cards.
