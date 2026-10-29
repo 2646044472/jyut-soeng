@@ -23661,10 +23661,10 @@
     {
       "file": "content/sentence_bank/long_health_services_02.json",
       "index": 40,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "90178a6a9b83fa9e1a0130e4b11187cf9816074ec046d7cfa1c365f1bc997de8",
-      "v2_sha256": "90178a6a9b83fa9e1a0130e4b11187cf9816074ec046d7cfa1c365f1bc997de8",
-      "notes": "Needs revision: an old dental image reveals a useful clue and “tooth left clues” is a small pun, but the routine record transfer does not develop into a comic scene. All four fields read; gloss/tip match."
+      "v2_sha256": "665d6d20cfa8027f99c199b9e0d48f8d80315dbbb5b8d0d77a5d56e229a0a3a3",
+      "notes": "V2 reviewed: an archived dental image reveals a clue for follow-up; a friend mistakes the floss for case evidence, and the narrator says it only cleans, it does not solve the case. Friendship and clinic records, no family plot."
     },
     {
       "file": "content/sentence_bank/long_health_services_02.json",
@@ -27413,10 +27413,10 @@
     {
       "file": "content/sentence_bank/long_health_services_07.json",
       "index": 9,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4b8ef688984bccf5a9d20b2b390f1de1cab047b1a7ddfe9a4564b3fab71d2db8",
-      "v2_sha256": "4b8ef688984bccf5a9d20b2b390f1de1cab047b1a7ddfe9a4564b3fab71d2db8",
-      "notes": "Needs revision: exercise ECG safety and monitoring are clear, but the shoe-lace reminder and monitoring beep produce no comic turn. This reads as preparation and reassurance, not a story with an earned punchline. Tip matches. Reviewed all four fields."
+      "v2_sha256": "e241ed929000d00283183864ea7b15a4b1f6dc3e93485a73aa2e8208fe4577d7",
+      "notes": "V2 reviewed: the supervised exercise ECG instructions and symptom checks remain unchanged; after the machine beeps and the patient reports no chest pain, the closing callback says the shoelaces were the most stable part of the test. No added clinical advice."
     },
     {
       "file": "content/sentence_bank/long_health_services_07.json",
