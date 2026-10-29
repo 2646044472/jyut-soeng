@@ -351,3 +351,11 @@
 - Reviewed all four fields, Macau Cantonese, contextual Jyutping (272 Han characters / 272 syllables), and category fit. The maximum character-trigram Jaccard against V2-approved stories was 0.0120; nearest hits were unrelated receipt filing and fruit-return stories. No plot-level duplicate was found.
 - Updated the V2 status/hash, rebuilt `app/src/main/assets/builtin/content.json`, and verified exact source-to-app sentence/Jyutping/gloss/tip mirrors, blank `exampleSentence`, `entryType=sentence`, and `qualityPriority=1`. The mechanical checklist reported 5,000/5,000; `python tools/validate_content.py` passed (8,000 entries), the checklist was regenerated, and `git diff --check` passed. Unit tests were not run.
 - Current V2 total: 1,666 pass / 3,334 needs_revision / 0 pending. Content commit: `fbcac21` (`Review Cantonese mango story card`); recovery-checkpoint commit and remote verification follow. Continue reviewing eligible distinct stories across the full 5,000-card scope.
+
+
+## Active continuation - 2026-10-30, reusable-container duplicate screen batch 32
+
+- Continued in the independent worktree; local HEAD and `origin/codex/macau-story-upgrade-batch-progress` were both `252fa1d65a011a36791d59b07864af9fed070599` before this review. The Desktop worktree remains untouched.
+- Re-screened `content/sentence_bank/long_food_shopping_19.json` zero-based index 25. Its reusable-box and produce-damage plot is too close to approved `content/sentence_bank/long_family_finance_services_01.json` index 24, where fruit falls from a reusable shopping bag and bystanders rescue it. Kept the card `needs_revision` and recorded the plot overlap and lack of an independent payoff in the V2 note.
+- Source content and app mirror did not change. Regenerated the mechanical checklist; `python tools/validate_content.py` passed (8,000 entries), ledger hashes remain synchronized, and `git diff --check` passed. No app rebuild or unit tests were needed.
+- V2 total remains 1,666 pass / 3,334 needs_revision / 0 pending. This is a note-only ledger update; checkpoint commit and remote verification follow. Continue screening and rewriting distinct eligible stories across the full 5,000-card scope.
