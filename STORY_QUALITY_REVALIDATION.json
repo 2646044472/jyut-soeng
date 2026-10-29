@@ -20600,10 +20600,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 90,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "df9f56ee0f05f3f298c9f3765e6b2f3154dd70fc5e29d03051811e72be1acad8",
-      "v2_sha256": "df9f56ee0f05f3f298c9f3765e6b2f3154dd70fc5e29d03051811e72be1acad8",
-      "notes": "The packed fridge and birthday reveal offer possible comedy, but the story does not establish who arranged the manager’s birthday cake; calling the manager the planned “main character” conflicts with him revealing the occasion. The crooked fruit sign is underdeveloped, so continuity and punchline both need revision; the tip covers only part of the events. Reviewed sentence, Jyutping, full gloss and story-specific tip; no source edit."
+      "v2_sha256": "4d98e581b3cc9ff64469ed53b59739b38c36e6b2a7a7cc886b40572278c3463a",
+      "notes": "The office lunch is explicitly organized to celebrate the manager. Coworkers eat mango pieces from the fruit-letter 快, leaving 生日樂; the manager says they have eaten the happiness. The visual gag is grounded in the shared lunch, not a family conflict. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
