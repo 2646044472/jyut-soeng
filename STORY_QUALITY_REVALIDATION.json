@@ -23485,10 +23485,10 @@
     {
       "file": "content/sentence_bank/long_health_services_02.json",
       "index": 18,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "52f4495ac6fb798b26249802732595504760771e23a76e0d83b0bf23a8191079",
-      "v2_sha256": "52f4495ac6fb798b26249802732595504760771e23a76e0d83b0bf23a8191079",
-      "notes": "Needs revision: a moved pharmacy is found by asking for the bread shop and following its smell. This is a useful navigation anecdote with a gentle joke, but no escalation or earned comic reversal. All four fields read; gloss/tip match."
+      "v2_sha256": "ea0aee67718c863ab06cdf13899b9f3cc63324c58aee5f92e77d2edcf9aff48b",
+      "notes": "V2 reviewed: the friend’s “follow the bread smell” direction gets an explicit backup instruction in the phone note: check the map if the smell is missing. Everyday navigation and friendship, no family plot."
     },
     {
       "file": "content/sentence_bank/long_health_services_02.json",
@@ -25933,10 +25933,10 @@
     {
       "file": "content/sentence_bank/long_health_services_05.json",
       "index": 24,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "502f0ce2679a54387e92c81498580d34092dbe37e574ec7e0497db709f20d112",
-      "v2_sha256": "502f0ce2679a54387e92c81498580d34092dbe37e574ec7e0497db709f20d112",
-      "notes": "A colleague supports someone with dry, light-sensitive eyes, but the scene remains earnest and has no comic escalation. All four fields checked; rewrite around a benign surrounding misunderstanding."
+      "v2_sha256": "65061d37129b6a00e87c6475a51902a840d80a8f8ecccdcce04670fbab6e6da5",
+      "notes": "V2 reviewed: after a coworker helps during light-sensitive eyes and the protagonist returns wearing glasses, the coworker’s oversized slide leaves only “next page” visible; the manager mistakes the meeting for a word-by-word unveiling. Workplace scene; medical guidance preserved."
     },
     {
       "file": "content/sentence_bank/long_health_services_05.json",
