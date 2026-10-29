@@ -10574,10 +10574,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 37,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9c3ecc854b3a542fa34ec681b9dd01149efb98f659b475d35d033ee73ea89558",
-      "v2_sha256": "9c3ecc854b3a542fa34ec681b9dd01149efb98f659b475d35d033ee73ea89558",
-      "notes": "Needs revision: a shopper checks soy-milk ingredients and chooses a low-sugar product; the ending repeats that reading labels is sensible, without a joke."
+      "v2_sha256": "5789fa06bfbd4b767f532e8eeb3f0ea55d4a87d4813dab55624144164b1e154c",
+      "notes": "Human-reviewed V2 rewrite: a solo shopper performs an over-serious blind tasting, misreads the samples because their labels are hidden under cup pads, and gives their own reading skills the lowest score. Nonfamily supermarket scene, distinct from the aisle crowd/price quiz and office order plots; category and nonlanguage metadata preserved. Reviewed all four fields and exact Jyutping alignment."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -22982,10 +22982,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 53,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "eb27c9ebcac0bee335651e18ab03852631eef28e63012f10e52828c8bf88005d",
-      "v2_sha256": "eb27c9ebcac0bee335651e18ab03852631eef28e63012f10e52828c8bf88005d",
-      "notes": "Needs revision: inconsistent school notice times are resolved by calling the office and marking the correct calendar entry. The son’s “won’t mix it up” line merely restates the fix; no comic escalation. All four fields read; tip matches the confirmation."
+      "v2_sha256": "5985cda2143ab5fae2715d6240500e46a142cc78628aaa773a19209ba2ee0a4c",
+      "notes": "Human-reviewed V2 rewrite: a night-school test notice distinguishes candidate-card pickup from exam entry; a student buries the card in a calendar after the second time, leading to the callback that the card also needs to report. Nonfamily student scene, distinct from parent-teacher meeting checklist; category and nonlanguage metadata preserved. Reviewed four fields and exact Jyutping alignment."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -23751,10 +23751,10 @@
     {
       "file": "content/sentence_bank/long_health_services_02.json",
       "index": 49,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4ad6bc6f409a5b08e32591034c80215fad504205ad36af63dcf36ae401508838",
-      "v2_sha256": "4ad6bc6f409a5b08e32591034c80215fad504205ad36af63dcf36ae401508838",
-      "notes": "Needs revision: mirror reversal confuses left/right, then the dog mistakes the towel for a toy; the two beats do not compound into a strong earned payoff, and the ending simply repeats the towel image. All four fields read; gloss/tip match."
+      "v2_sha256": "d68344674434ab6914abb48656da43159f477cf2ffe6801ae4d87dc9d125b540",
+      "notes": "Human-reviewed V2 rewrite: the narrator’s home video mirror reverses left/right, labels both arms, stops after two uncertain repetitions, and checks with the therapist; the therapist jokes that the arms are exchanging identities. Nonfamily rehabilitation scene, distinct from dental, office news, and school exam stories; category and metadata preserved. Clinical directions remain individualized; all four fields and Jyutping alignment reviewed."
     },
     {
       "file": "content/sentence_bank/long_health_services_02.json",
