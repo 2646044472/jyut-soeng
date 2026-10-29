@@ -609,3 +609,9 @@
 - Updated the V2 row hash/status and rebuilt the app bundle. Exact source/app sentence, Jyutping, gloss, and tip match; metadata is `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
 - `python tools/build_assets.py`, `python tools/validate_content.py` (8,000 entries), `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, and `git diff --check` passed. V2 remains 1,688 pass / 3,312 needs_revision / 0 pending.
 - Next audit: zero-based index 68, which remains `needs_revision`; screen its used-coffee-machine story before revising it.
+
+
+## Remote confirmation — 2026-10-30
+
+- Content batch commit `c7d1384cd443a925ca8d5fede342bdb8f0eae951` was pushed by ordinary fast-forward to `origin/codex/macau-story-upgrade-batch-progress-resume`; a subsequent `git ls-remote` returned the same SHA. Local `HEAD` matched, and the worktree was clean at verification.
+- V2 total remains 1,688 pass / 3,312 needs_revision / 0 pending. Continue at `content/sentence_bank/long_food_shopping_01.json` zero-based index 68; keep the remaining 5,000-card objective in scope.
