@@ -86,3 +86,15 @@
 - `python tools/validate_content.py` passed (8,000 entries), progress report regenerated, and `git diff --check` passed. V2 total: 1,642 pass / 3,358 needs_revision / 0 pending. Unit tests were not run in this batch.
 - Batch commit `ca0908c66726c8526f8dd1a652460025d9337146` (`Review Cantonese supermarket promotion story`) was pushed by ordinary fast-forward from `6149100`. Post-push `git ls-remote` confirmed the target branch at exactly `ca0908c66726c8526f8dd1a652460025d9337146`; local `HEAD` matched at verification time.
 - Continue with distinct, non-family-core stories. Index 90 in this file is a used-toaster trial plot and is too close to approved index 89’s used-rice-cooker trial; leave it `needs_revision`. Avoid family-interaction-core cards.
+
+
+## Active continuation — 2026-10-30, delivery batch 6
+
+- Independent worktree: `C:\Users\bankey\Documents\Codex\2026-10-29\task\jyut-soeng-v2-worktree`; the Desktop repository remains untouched.
+- Before this batch, local and remote target branch were both `1caf5a70eb96a69d47d1e2a8b3fef14923e45db3`; the remote target ref was checked before editing.
+- A draft rewrite of `long_food_shopping_05.json` index 2 introduced a delivery navigation loop, but it overlaps the approved wrong-address delivery plot in `long_food_shopping_09.json` index 96. I restored index 2 to its original source row and kept it `needs_revision`.
+- Completed V2 review for `content/sentence_bank/long_food_shopping_05.json` zero-based index 94 instead. The revised story turns bottles rolling in a rain-softened delivery carton into repeated door-knocking; a neighbor joins the handoff, asks whether the water has gone to sleep when it stops knocking, and the narrator leaves a sign for the next delivery. This is distinct from the nearest approved plots after inspecting the top trigram matches.
+- Reviewed Cantonese, contextual Jyutping, complete Simplified Chinese gloss, and `故事练习：` prompt. Han/Jyutping alignment is 270/270. Highest approved-story trigram Jaccard was 0.0128. Updated the current V2 hash/status, rebuilt the app bundle, and verified exact source text, Jyutping, gloss, practice tip, `entryType=sentence`, blank `exampleSentence`, and `qualityPriority=1`.
+- `python tools/validate_content.py` passed (8,000 entries), progress report regenerated, and `git diff --check` passed. V2 total is 1,643 pass / 3,357 needs_revision / 0 pending. Unit tests were not run in this batch.
+- This batch is prepared on top of `1caf5a7`; record the local commit and post-push remote SHA after the ordinary fast-forward push.
+- Continue with distinct non-family-core stories; do not pass the reverted index 2 unless its delivery plot is made distinct from the approved wrong-address story.
