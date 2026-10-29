@@ -11246,10 +11246,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 21,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "424c0a161bd18edba6e899d6c408d87982bbb501a4924ca1079c02e3029db0e4",
-      "v2_sha256": "0c8f199d0ab7840284380f81866f193600e81c3d56c5a4205bbcf82360cf8500",
-      "notes": "Needs revision after semantic de-duplication: this back-lane/navigation conflict substantially overlaps the already-approved delivery-location story in long_food_shopping_01.json index 22. Jyutping and mirror have been corrected, but the story needs a different non-family plot before it can pass."
+      "v2_sha256": "0f2dd5f00b25b126c88bc7fb5a6480621a76abfd21f43c297acad12621c91a93",
+      "notes": "New workplace story replaces the duplicate delivery-navigation plot. Manually checked the accidental speaker routing, escalating meeting misunderstanding, callback and every Jyutping syllable; the Mandarin gloss and story tip match the full scene."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
