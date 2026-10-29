@@ -21597,10 +21597,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 24,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6ad9282a7d3b4a013026fd65357772319cb5299b2c4bc310ff2c6effd2007df6",
-      "v2_sha256": "6ad9282a7d3b4a013026fd65357772319cb5299b2c4bc310ff2c6effd2007df6",
-      "notes": "Needs revision: a rushed dinner shifts to a different tomato box, tofu is discovered at the bottom of the bowl, and a green onion nearly falls; “ingredients you can call roll on” is a mild pun, not an escalated payoff. The ending returns to recipe notes. Gloss and tip match. Four fields read; rebuild with a stronger story arc and recheck readings."
+      "v2_sha256": "ea0ff8b38d9979b08f128f8831ed0891447c4535b0ebfce44d64729177b40739",
+      "notes": "A roommate’s “ten-minute” tomato-egg udon recipe turns into comic time accounting: he pauses the timer for prep and waiting, overcooks the noodles, then labels the meal as two minutes by excluding washing, chopping, boiling, re-cooking and eating. The grocery-queue callback completes the joke. All four fields and contextual Jyutping reviewed; roommate dinner, not family-centered."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
