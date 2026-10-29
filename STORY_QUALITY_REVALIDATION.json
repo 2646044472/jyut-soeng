@@ -4366,10 +4366,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 45,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "de370ae672aafc975db09de26758d214ea61bd88cc93cd99c8fda827f7dd830e",
-      "v2_sha256": "de370ae672aafc975db09de26758d214ea61bd88cc93cd99c8fda827f7dd830e",
-      "notes": "A social-media “bank insider” offers to recover a mistaken transfer, followed by hotline checks and waiting for a refund. The milk-tea consultant gag is mild and the scam/transfer-recovery structure repeats several adjacent stories. All four fields checked; replace."
+      "v2_sha256": "07cea34adbc1e9567253dc4c3e8ad1e54667395369825827a2c8b1199e7451b3",
+      "notes": "Replaced the mistaken-transfer/social-media recovery plot with an image-verification challenge for an online reading account: grandma counts a zoo zebra, the family adds a sheep, and the dog fogs the screen before auntie finally passes. All four fields checked; contextual Jyutping and complete gloss reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
@@ -4398,26 +4398,26 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 49,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "127e3833b15c0171d8672e410ff7c43df0c42bfc02f38496eccd0067213857ba",
-      "v2_sha256": "127e3833b15c0171d8672e410ff7c43df0c42bfc02f38496eccd0067213857ba",
-      "notes": "Reduced income leads directly to family-budget recalculation, subscription cuts, planned savings and a low-cost outing. The bus drawing and cherries are warm but do not create a strong comic reversal; this repeats the requested family-accounting structure. All four fields checked."
+      "v2_sha256": "c11959eeede7ceb4e77db5a9f5694d14f4927cfd29bcf1dbc3a88ca11cf8ce5a",
+      "notes": "Replaced the monthly budget recalculation with a family splitting cherries after dad becomes part-time: they debate cutting each cherry, sorting by fruit stem, draw “half portion,” and finish by cutting the “full-time reward” into quarters. All four fields checked; contextual Jyutping and complete gloss reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 50,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "035895b172c91163b00bf86be03e9e30db8f51d8fd4e79730b1f8320e8c47972",
-      "v2_sha256": "035895b172c91163b00bf86be03e9e30db8f51d8fd4e79730b1f8320e8c47972",
-      "notes": "The family opens supermarket receipts, divides groceries into spending groups, sets a snack quota and checks savings; this is direct expense calculation and allowance management. The star chart is pleasant but does not turn it into a comic story. All four fields checked; rebuild."
+      "v2_sha256": "6416e394052866107aa09485453931faf40d7ce44f266bf8a9f598e763b97a5d",
+      "notes": "The self-checkout scanner beeps become a family orchestra when a rolled scallion label triggers repeated errors; grandma calls vegetables, the employee fixes the label, and the encore becomes a spinach march led by the scallion. Spending is incidental, not the comic conflict. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 51,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a0cf0d8c12a62ec4f1169d4bf0d65f897903c7c8c8ecb478d98d98eadf683148",
-      "v2_sha256": "a0cf0d8c12a62ec4f1169d4bf0d65f897903c7c8c8ecb478d98d98eadf683148",
-      "notes": "Care costs are split among four children, fares are itemized, a neighbor ride is corrected, and income-based contributions are calculated. The final tea-shop line is procedural, and the story even repeats the “next time it is the sister’s turn” setup with inconsistent details. All four fields checked; rewrite."
+      "v2_sha256": "3befc88155ec68410466ee2b447de5a3ede3e18a042585ae7bfa7b258fb233df",
+      "notes": "A clinic calls for “Ms. Chan” and the whole Chan family rises, then dad rehearses grandma’s symptoms so convincingly the nurse mistakes him for another patient. Grandma clarifies, while the family labels him as an accompanying relative; he still raises his hand on the next call. Replaces duplicate expense splitting with a clinic identity mix-up. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
