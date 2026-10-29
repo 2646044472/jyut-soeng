@@ -34357,10 +34357,10 @@
     {
       "file": "content/sentence_bank/long_home_family_03.json",
       "index": 75,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "01b6e3bdd3a9c367cf53c061494e7f4ffda3f22641632c2b5e3a213b08883507",
-      "v2_sha256": "01b6e3bdd3a9c367cf53c061494e7f4ffda3f22641632c2b5e3a213b08883507",
-      "notes": "Needs revision: the ticket mistake does split the family into two shows, but the boys’ performance afterward is a pleasant retelling rather than a strong comic reversal; the closing reminder to check ticket times is instructional. Checked all four fields; source unchanged."
+      "v2_sha256": "3a927ad325235d707de894fe0a266f09c275eedb7c2f794ac02da7a12b6331d5",
+      "notes": "Root reviewed and edited all four candidate fields, clarifying that Dad claims to predict the tricks before the magician produces the hat. Dad is invited to inspect it; his own handkerchief slips in, appears with the rabbit, and he still blames the sleeve. Checked action sequence, distinctness from corpus performance plots, contextual Jyutping readings/tones, full Simplified Chinese gloss and event-specific prompt."
     },
     {
       "file": "content/sentence_bank/long_home_family_03.json",
