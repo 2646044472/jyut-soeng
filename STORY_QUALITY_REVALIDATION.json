@@ -4582,18 +4582,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 72,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "382d436635b6f21a8fac1a733ab0bca261389265217b71046cec2420dda42096",
-      "v2_sha256": "382d436635b6f21a8fac1a733ab0bca261389265217b71046cec2420dda42096",
-      "notes": "The father panics over a delayed transfer for a roof repair, repeatedly checks a receipt and learns an address is missing; the bucket-color question is a small tag. This repeats the cross-border transfer/receipt follow-up plot. All four fields checked; change the core."
+      "v2_sha256": "01e87748303dc5f1fdd3009ec6b339e2b33bd568a548b4bb00ce0cdceeddb702",
+      "notes": "Rebuilt the story around the father enabling bank transaction alerts after misplacing his card. The repeated spoken “received” grows into a family joke when even a milk-tea purchase triggers his mock self-approval; raising the threshold quiets the phone but prompts the family to question every line of the statement. This removes the delayed cross-border transfer, receipt chasing, roof leak and bucket-color tag. Cross-screened nearby bank cards and the same file for transaction-notification/threshold plots; no matching core found. Checked all four fields, Cantonese dialogue, plot progression, full gloss and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 73,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d4af442cef392fba207e620edfbb6ac8274c6f91ce0d24e2573b7b0433feac8c",
-      "v2_sha256": "d4af442cef392fba207e620edfbb6ac8274c6f91ce0d24e2573b7b0433feac8c",
-      "notes": "Two identical shoe-store charges trigger a bank dispute, receipt comparison and case tracking; the wet-floor callback leaves the shoes “double value.” This is a duplicate-charge/accounting dispute with a mild ending, repeated in this cluster. All four fields checked; rewrite."
+      "v2_sha256": "a82ef05873ff48188b09b3638c7e7111372d4258858583c7b0cb4103eb692af9",
+      "notes": "Replaced the duplicate-card dispute with a distinct term-deposit maturity story. The grandmother treats the deposit as someone she must visit; an arrival reminder and a call to check the renewal rate turn that personification into a decision to renew, then the calendar note about bringing fruit pays off the visiting joke. Checked neighboring deposit stories and found no matching visit/reminder/personification plot. Reviewed the service details, natural dialogue, escalation, all four fields, full gloss and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
