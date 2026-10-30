@@ -22248,10 +22248,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 49,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "058eac0266949cea26d30bdf2aee00a644c2fe5610de2452925ea66e102a6196",
-      "v2_sha256": "058eac0266949cea26d30bdf2aee00a644c2fe5610de2452925ea66e102a6196",
-      "notes": "Needs revision: the tomato-bean sauce splashes, the sister adjusts the heat, and the meal feeds two people; “small can is enough” is not a comic payoff. The story is a recipe anecdote. All four fields read; tip matches."
+      "v2_sha256": "670f364f8cabdf25839b010335bdd6332db0cfed9f2e80515f74b7381c01caf0",
+      "notes": "Rebuilt the tomato-and-chickpea pasta anecdote as a shared-apartment timed cooking challenge. The sauce thickens, the roommate’s quick splash scatters sauce at the stove, and his final rule excludes kitchen cleanup, which immediately becomes a second timed round. Compared existing pasta and canned-food stories; this timer-rules escalation differs from herb misidentification and ordinary cooking lessons. Reviewed all four fields, natural Cantonese and contextual Jyutping.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
