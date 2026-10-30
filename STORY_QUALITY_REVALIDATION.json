@@ -4734,10 +4734,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 91,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "31159e722b858b9ab7d22d49786c7d9b1e35700f53adc6f46f7f5fb44b36b834",
-      "v2_sha256": "31159e722b858b9ab7d22d49786c7d9b1e35700f53adc6f46f7f5fb44b36b834",
-      "notes": "Two June payroll documents create a false double-income total; the family sorts documents by date, reconciles the duplicate pay record and fills the tax form. This is pure income calculation/record reconciliation, directly in the limited pattern. All four fields checked; change the conflict."
+      "v2_sha256": "18c6d90604c877c899bbe1e39fe811b76d41cd326288ee6f4ccd219a598c587a",
+      "notes": "Recast the double-June-entry confusion as a child’s bus-route explanation rather than extended document handling. The two employer records are traced to one June payment: the old employer’s settlement plus its payment notice, with the new job beginning in July. The child maps the papers to boarding/alighting and asks for only one fare; the paperwork establishes the facts, while the route gives the payoff. Checked payroll sequence, all four fields, Cantonese phrasing, gloss and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
