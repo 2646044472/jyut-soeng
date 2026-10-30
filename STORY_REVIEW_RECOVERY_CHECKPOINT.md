@@ -205,6 +205,13 @@
 - No content rewrite was warranted in this set after plot-level comparison; no status changed, no cards were withdrawn, and no pass was added. V2 remains 1,748 pass / 3,252 needs_revision / 0 pending. This is a screening-only checkpoint, not counted as content output.
 - Next ten unique needs-revision cards in source order: `long_food_shopping_18[17–26]`. Continue toward a genuinely rewriteable premise; do not repeat screened IDs or pad the pass count.
 
+## Active continuation — 2026-10-30, food shopping 18 cards 17–26
+
+- Reviewed all ten unique `needs_revision` rows `content/sentence_bank/long_food_shopping_18.json[17–26]` against their four-field source text and V2 notes. No pre-existing pass was re-counted.
+- Kept them all `needs_revision`: [17] lunchbox note and forgotten fruit resolve as a sharing lesson; [18] frozen peas mistaken for candy gets only a one-beat cold reaction; [19] tofu stirring warning and leftover soup are cooking instructions; [20] discounted pork pricing/package inspection remain the main story (money-mainline); [21] bruised basil recovery is a cooking tip; [22] archaeological bread gag and stale-bread storage are two disconnected incidents; [23] low-sugar yogurt is a routine with no comic turn; [24] discount arithmetic drives the story and the bag bump is only a false alarm (money-mainline); [25] split bag/banana dragon and cracked orange/juice are two mild, unrelated observations; [26] carrot-as-rocket is a warm neighbor moment without an earned turn.
+- The set did not contain a rewrite candidate with a sufficiently distinct, coherent escalation to justify a pass; no source row was edited, no pass added, no prior pass withdrawn. V2 remains 1,748 pass / 3,252 needs_revision / 0 pending. This is a review checkpoint, not content output.
+- Next unique source-order group: `long_food_shopping_18[27–36]`, all statuses to be verified before review. Continue looking for an actual rewriteable premise.
+
 ## Active continuation — 2026-10-30, basil storage batch 15
 
 - Continued in the independent worktree; before this batch, local and remote target refs matched at `6e46cfaf85242210794fa5b38f1a0fa117f7e15f`.
