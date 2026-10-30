@@ -4918,10 +4918,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 14,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "25d7bae4f0b0597e7c6d17514797bba041f52933edf67a94d53e9a45702a78ee",
-      "v2_sha256": "25d7bae4f0b0597e7c6d17514797bba041f52933edf67a94d53e9a45702a78ee",
-      "notes": "Root individually reviewed all four fields. The flower-car idea and near-collision with the pot are coherent, but the story shifts into subsidy, purchase comparisons and paperwork; “cleaning is the most expensive extra fee” is a small domestic observation, not a strong reversal. Wheelchair-cost/benefit core and insufficient comedic payoff; revise."
+      "v2_sha256": "c923e9a0c9c878ecda0a3602827c326254ff95e6a0a7b81169ae4bbdbdbdce0f",
+      "notes": "Rebuilt the flower-car and expense comparison around a route-test misunderstanding: three relatives give simultaneous traffic directions, the wheelchair stalls, and the father turns the family into the ones taking a directing test. The borrowing decision stays brief and justified by measuring the doorway first. Checked the physical route, escalating signals, all four fields, and screened against nearby medical-cost stories."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
