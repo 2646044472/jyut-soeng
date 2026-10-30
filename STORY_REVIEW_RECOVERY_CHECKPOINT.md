@@ -797,3 +797,10 @@ The 1,705 baseline already included `content/sentence_bank/long_home_family_01.j
 - 1708: `content/sentence_bank/long_food_shopping_04.json[58]` — milk-return evidence lineup and roommate “return” callback; commit `64f4288a48e378264265afba672cf679e305df8a`.
 
 The V2 ledger contains one pass record for each row and its current source hash. The mechanical 5,000/5,000 result is not a semantic pass. Current live `-resume` is `64f4288a48e378264265afba672cf679e305df8a`; the original goal branch remains unchanged at `3839000bf6829de38abb3027a48174b2c00cd83d`.
+
+## Active continuation — 2026-10-30, temporary-wallet receipt callback
+
+- Continued after the verified 1,708/5,000 baseline. Reworked `content/sentence_bank/long_food_shopping_01.json[82]`, category `埋單分賬`, as a friends-at-lunch story. The narrator forgets their wallet and has a nearly dead phone; a friend pays, lends a charging cable, and the bank transfer remains “processing.” The friend warns against repeating it, keeps the receipt as the temporary wallet, and the next-day completion message lets the receipt “retire.” This replaces the source’s duplicate convenience-store charging scene with one escalating payment/receipt callback. No family-centered story or category change.
+- Compared across the corpus for wallet/transfer-pending/receipt-retirement mechanisms; no other matching plot chain found. Manually reviewed all four fields and Jyutping (229 Han / 229 syllables); Simplified gloss and exact-prefix `故事练习：` tip included. The generated app story entry matches source sentence, Jyutping, gloss, tip, and category; its `exampleSentence` remains empty per the story-entry schema.
+- V2 hash: `64053679dffe6d59e52f01ff05a1f6b37c76dff4b372e47ef2cdc8a99961d050`. V2 status is now 1,709 pass / 3,291 needs revision / 0 pending. Mechanical 5,000/5,000 does not replace semantic review.
+- `build_assets.py`, `validate_content.py` (8,000 entries), progress/checklist refresh, mirror assertions, and `git diff --check` pass. Commit/push and remote verification pending.

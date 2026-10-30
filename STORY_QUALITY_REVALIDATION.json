@@ -10934,10 +10934,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 82,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "342d3fd2809c1dbc449958fda083c028d60e7202faba48d613efb53a7b532179",
-      "v2_sha256": "342d3fd2809c1dbc449958fda083c028d60e7202faba48d613efb53a7b532179",
-      "notes": "Needs revision: forgotten wallet and delayed transfer create a practical payment problem, but the story repeats the convenience-store charging scene twice and closes with phone/battery advice rather than a coherent earned punchline."
+      "v2_sha256": "64053679dffe6d59e52f01ff05a1f6b37c76dff4b372e47ef2cdc8a99961d050",
+      "notes": "The receipt becomes a temporary wallet while a delayed transfer is left alone to avoid a duplicate payment; the friend’s “money not back from work yet” and receipt retirement callback resolve the payment wait. Removed the original repeated charging scene. Manually reviewed all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
