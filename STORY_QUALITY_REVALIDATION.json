@@ -22147,18 +22147,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 37,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "25fa70a4d5daccb171833166a1752b0a1da7c0e3889187cf5d80fbf1feaa60a1",
-      "v2_sha256": "25fa70a4d5daccb171833166a1752b0a1da7c0e3889187cf5d80fbf1feaa60a1",
-      "notes": "Needs revision; money-mainline. The grocery substitution, refund amount/date and menu adjustment drive the story; arithmetic/financial resolution is the core. It counts toward the finance quota. All four fields read; tip matches."
+      "v2_sha256": "61e5b98beccf6d0411ac3b013ba6acda9669b298fe8318dd4787e32d5ab30e76",
+      "notes": "Rebuilt the refund and menu-adjustment sequence as a roommate-and-vegetable interview: the substitute gai lan is assessed for wok experience, its stems get the promotion callback, then the next order asks not to send another candidate. Compared adjacent food-shopping cards, especially the eggplant buy/cut chore-scope gag, and removed any shared responsibility punchline. Reviewed all four fields and contextual Jyutping; gloss and tip match."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 38,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9792b88b3ffbe69931f0ce46ec76df458bb42b3804a0283d7f18a58eb171829d",
-      "v2_sha256": "9792b88b3ffbe69931f0ce46ec76df458bb42b3804a0283d7f18a58eb171829d",
-      "notes": "Needs revision: olive oil tastes stronger than expected, the roommate suggests trying it on tomatoes, then asks to use it again. This is a taste test, not comic escalation; the ending repeats the plan. All four fields read; tip matches."
+      "v2_sha256": "37f0a0e420597a0205c543f62fc85a6901d1c1dd31c92f5dcece81f4f2a60312",
+      "notes": "Rebuilt the tasting anecdote as a roommate misreading “store away from heat”: refrigeration clouds the olive oil, warm water clears it, and the roommate starts tracking the bottle’s work schedule. The cause-and-effect is grounded in olive oil’s low-temperature clouding; ending returns to the roommate’s personification of the bottle. Screened against adjacent olive-oil overpour, blind-tasting, and cooking-duty stories; no matching gag chain. Reviewed all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
