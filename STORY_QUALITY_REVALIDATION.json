@@ -5134,10 +5134,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 41,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b5e083c234076fa84c0f7970befb6c76273ec49027b9a61cd646a3621c127725",
-      "v2_sha256": "b5e083c234076fa84c0f7970befb6c76273ec49027b9a61cd646a3621c127725",
-      "notes": "Root individually reviewed all four fields. The grandmother brings a fish receipt to prove her address, but the phrase “the fish has a name, I do not” does not connect clearly to the application requirement; the later tea for a remote clerk is a mild tag. This is an administrative form/water-bill proof story without strong escalation. Needs rewrite."
+      "v2_sha256": "2b0cfb89bffb005bd6194aa5172ce64a235772cccea78412dec01cab8e71fdf6",
+      "notes": "Rebuilt the application-and-hotline scene around the grandmother treating hold time as staffed tea service: she sets tea beside the phone, answers the hold prompt as if it were a queue caller, then counts the wait as application work hours. When the allowance is approved, the agent accepts documents but not tea, leaving the household to consume the whole pot. Reviewed all four fields, sequence, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
