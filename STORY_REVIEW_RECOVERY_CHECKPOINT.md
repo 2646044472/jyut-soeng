@@ -875,3 +875,9 @@ The V2 ledger contains one pass record for each row and its current source hash.
 
 - Continued from 1,719/5,000. The next ledger card `long_family_finance_services_06.json[61]` is a parents/pension story and remains skipped per the no-family constraint. Reworked `content/sentence_bank/long_food_shopping_04.json[18]` (`茶餐廳外賣`), a non-family coworker coffee pickup. A same-name order swaps hot/cold labels; the coworker buys egg tarts while they wait, then writes a name-plus-temperature check into the meeting record. The manager changes the agenda to “drink identity check,” and the button is that the coffee never attended the meeting, but the team held another meeting for it.
 - Manually reviewed all four fields and Jyutping; 309 Han characters / 309 syllables, full Simplified gloss, exact `故事练习：` tip. V2 hash `5c561943794ef5f12ea2b1a7bb3631ed89b887a947e49eacbe01b83cf2d09e98`. Build/validation passed; current expected count 1,720/5,000. Commit and push pending.
+
+
+## Active continuation — 2026-10-30, second-hand cooker pop-up demo
+
+- Continued from 1,720/5,000 with `content/sentence_bank/long_food_shopping_04.json[28]` (`二手交易`), a non-family sale. The mall outlet fails, so security sends buyer and seller to a second test area. The working cooker attracts waiting customers asking model/capacity questions; seller and buyer answer together, turning the check into an impromptu product launch. The guard’s explicit “when is the next launch?” gets the new-teapot callback. Keeps a small-water test only, no unsafe use advice.
+- Manually reviewed all four fields and contextual Jyutping; 224 Han characters / 224 syllables, complete Simplified gloss and exact `故事练习：` prefix. Hash `4caecf9552d892436fb0121504119e7a4698b92e456d0edf74c4d87e340d96df`. Current expected progress 1,721/5,000; validation passed, commit/push pending.

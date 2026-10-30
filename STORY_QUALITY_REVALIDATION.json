@@ -12902,10 +12902,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 28,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "25c70f4f4b82c917249ff893b79a5c07839f10c1017898608ca24be7f2139d1b",
-      "v2_sha256": "25c70f4f4b82c917249ff893b79a5c07839f10c1017898608ca24be7f2139d1b",
-      "notes": "Needs revision: a rice-cooker sale is tested after a dead outlet, then proceeds normally. The buyer’s capacity question and transfer are routine; no comic reversal. Four fields read; no source edit."
+      "v2_sha256": "4caecf9552d892436fb0121504119e7a4698b92e456d0edf74c4d87e340d96df",
+      "notes": "Reworked the non-family resale into a public mini product launch: the dead outlet sends seller and buyer to a second test area; while the cooker is verified there, passersby ask product questions and seller/buyer answer as if presenting a new model. Security guard’s “when is the next one?” pays off with the seller’s new tea-pot joke. Preserves second-hand trade category; no unsafe cooking guidance added. Manually reviewed four fields and Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
