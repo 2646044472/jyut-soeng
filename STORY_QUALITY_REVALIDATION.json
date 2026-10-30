@@ -4840,8 +4840,8 @@
       "index": 4,
       "status": "needs_revision",
       "baseline_sha256": "7ef517a73dd6a30e172e5c81f7cfb79074692bc70ba014b9935c3dc30955196d",
-      "v2_sha256": "7ef517a73dd6a30e172e5c81f7cfb79074692bc70ba014b9935c3dc30955196d",
-      "notes": "Root reviewed all four fields. The gold-lock bravado is undercut by grandma failing to insert the key, then the old height marks and new lock lead to a pleasant callback; however, no escalating conflict develops and the final “at least she can get in” line is too slight. Repair-cost/quote discussion remains central. Needs rewrite."
+      "v2_sha256": "27360024dcff1fe90219d0a3fd393dc34fd2e022891007c9ca98d42cd6cf9522",
+      "notes": "Reworked and checked all four fields, but hold as needs_revision: the repeated pull-to-confirm lock behavior overlaps the door-checking loop in long_home_family_08 index 182 and the forgetful-key scenario in long_home_family_09 index 49. The neighbor-signoff punchline is clear but still rides the same remembered-lock behavior. Keep this candidate and rebuild around a different repair situation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
