@@ -240,6 +240,11 @@
 - No source row was rewritten or promoted; no prior pass withdrawn. V2 remains 1,748 pass / 3,252 needs_revision / 0 pending. Skipped no story for quota reasons, and did not count review-only work as new output.
 - Next unique needs-revision card is `long_food_shopping_19[37]` (indices 35 and 36 are pre-existing passes); after it, continue to the next lexicographic sentence-bank file and verify statuses/category suitability before forming the next workset.
 
+## Follow-up check — 2026-10-30, food shopping 19 index 37
+
+- Read all four fields and the existing V2 note for `long_food_shopping_19[37]`, whose premise concerns a grandmother’s elevated blood pressure and a doctor’s low-sodium advice. Kept it `needs_revision`; it is a practical health/recipe lesson, so adding a comedy mechanism here would risk making the medical guidance or condition the joke. No source change, new pass, or withdrawal. V2 remains 1,748 / 3,252 / 0.
+- The next lexicographic file is `long_health_services_01.json`; inspect topic/category first and skip medical/safety-core cards rather than forcing jokes. Continue with the next suitable non-sensitive card set after that screening.
+
 ## Active continuation — 2026-10-30, basil storage batch 15
 
 - Continued in the independent worktree; before this batch, local and remote target refs matched at `6e46cfaf85242210794fa5b38f1a0fa117f7e15f`.
