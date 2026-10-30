@@ -11142,10 +11142,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 8,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "05c1f3b17ebf56fd3bb6350efc9774d07a8cbdad0175a2818c4e010523026b85",
-      "v2_sha256": "05c1f3b17ebf56fd3bb6350efc9774d07a8cbdad0175a2818c4e010523026b85",
-      "notes": "Needs revision: the stallholder teaches safe mussel selection and the narrator discards one that will not close; the meal succeeds, but the account remains an instructional shopping anecdote."
+      "v2_sha256": "8f411acfbc32a484a852d43a8ed5990b397731e5780797970bab1d3eec953079",
+      "notes": "Rebuilt the shopping lesson into a character-driven two-stage 'shell exam': Auntie takes the vendor's advice seriously and checks each live shell, then follows the separate cooked-shell discard rule at home; one failed shell is discarded at each stage. Her closed-at-market/open-in-kitchen callback gives the opposing rules an earned comic payoff without making food safety itself the joke. Cross-screened approved long_food_shopping_14[5] (saffron-cost decision and an early-arriving guest around seafood rice); no shell-closing gag, mussel handling rule, or family dinner pattern is reused. Checked all four fields and contextual Jyutping. Category and baseline digest preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
