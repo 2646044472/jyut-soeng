@@ -12222,10 +12222,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 43,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "91c37a371e60d5e0fffc2677210cde2a76f669548ad3d9a91b5bd3c1ca3aad98",
-      "v2_sha256": "91c37a371e60d5e0fffc2677210cde2a76f669548ad3d9a91b5bd3c1ca3aad98",
-      "notes": "The group adjusts a dressing until it tastes good; the sequence is a recipe demonstration without a meaningful comic conflict."
+      "v2_sha256": "dcd31c5dfa28117a19bd00b5be2591641131bc7b0e5e19884fc083e1482078d5",
+      "notes": "Original source is an office-lunch coworker tasting story; home preparation is incidental and no family member drives the plot. Rebuilt the joke around 阿健 arguing that one bite is too little and each person needs a spoonful, then choosing the largest soup spoon; the over-dressed salad draws greens and lunch boxes from neighboring desks until a small tasting becomes a floor-wide salad buffet. Distinct from nearby [42] leaking labels/meeting, [46] incremental seasoning/version joke, [47] rice-test lab, and [long_food_shopping_04][40] leaking sauce bag personified as already eating. Manually reviewed all four fields and contextual Jyutping; category and other metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
