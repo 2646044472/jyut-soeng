@@ -27368,10 +27368,10 @@
     {
       "file": "content/sentence_bank/long_health_services_07.json",
       "index": 1,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e0b3d3c1a2f9a24535e1004d0a0b03048d597ecbccb2aae3005dde8fee562e80",
-      "v2_sha256": "e0b3d3c1a2f9a24535e1004d0a0b03048d597ecbccb2aae3005dde8fee562e80",
-      "notes": "Needs revision: earwax treatment and the sister’s joke culminate in laughing while eating, a mild tag rather than a developed misunderstanding or reversal. Preserve the instruction not to insert cotton swabs after cleaning. Tip matches. Reviewed all four fields."
+      "v2_sha256": "6568d880f344ba4f9982168b268c316bbbbc8cc3e42e9938708ebb532d636b7e",
+      "notes": "Preserves ENT examination, telling the clinician if treatment hurts, and the instruction not to use cotton swabs afterward. At work, the narrator forgets the laptop volume was raised while one ear was blocked; coworkers answer a remote greeting, creating a small office audience and a clear volume-setting callback. Non-family workplace scene. Manually reviewed all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_health_services_07.json",
