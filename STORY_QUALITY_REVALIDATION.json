@@ -4574,10 +4574,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 71,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "495859d5b597b02e97bdfe1b17b87cb4397bcb08f1e1ea64f0dfa65d9ca8cc5a",
-      "v2_sha256": "495859d5b597b02e97bdfe1b17b87cb4397bcb08f1e1ea64f0dfa65d9ca8cc5a",
-      "notes": "The paper bank statement fee leads to switching to electronic delivery and correcting an obsolete email; the flyer substitutes for a pot mat. The “paper money” joke is mild, and bank-statement fees remain the central money issue. All four fields checked; rewrite."
+      "v2_sha256": "b515ab8b9116ae5b7639db34fbcec368e6267ea7062ad67574464b2038171c87",
+      "notes": "Kept the bank e-statement service but rebuilt the payoff around the mother's reflex to use her sister as the family mailbox. The sister says the address has been retired; the mother recovers and verifies her own login, downloads a sample and checks archived statements. The closing exchange turns years of forwarding bank mail into the sister's mock pension and service credit. This replaces the grocery-flyer/pot-mat object swap and strengthens the email-address callback. Cross-screened nearby statement stories: approved index 74 concerns large-print accessibility and an old mailing address, not email setup or sibling mail-handling. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
