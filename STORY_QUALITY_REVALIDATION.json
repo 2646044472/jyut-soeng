@@ -22139,10 +22139,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 36,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5f27b6f615565311b3321320d05460a2c3182fc8150ff68a799132041e9a277e",
-      "v2_sha256": "5f27b6f615565311b3321320d05460a2c3182fc8150ff68a799132041e9a277e",
-      "notes": "Needs revision: buying and labeling coffee beans, sharing a cup and photographing the roast date form a practical routine with no conflict or comic turn. All four fields read; gloss/tip match."
+      "v2_sha256": "3ee749a3a1ccfb82ca78b199724a3efaa771afbade957571e0c6c81b2c6f3b6d",
+      "notes": "Rebuilt from roast-date recording and coffee sharing into a nonfamily hand-grinding scene. A coworker promises one minute, but the manual grinder takes five; colleagues count strokes and cheer him, and his “smoothest part is my wrist” line earns the next-day callback when they expect him to lead a coffee workout. Screened against corpus coffee notes: distinct from medium-roast blind tasting, grinder noise/water-tank failure, hand-brew queue, and office coffee rota. Reviewed all four fields, natural Cantonese, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
