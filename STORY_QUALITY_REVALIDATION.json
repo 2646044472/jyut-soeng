@@ -32453,10 +32453,10 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 34,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2b28ae81454c47ec84970de8fa9bd59dcb7b489a2cc8922f1567b1f689f3711b",
-      "v2_sha256": "2b28ae81454c47ec84970de8fa9bd59dcb7b489a2cc8922f1567b1f689f3711b",
-      "notes": "Needs revision: the move-out records establish that a stain predates the tenant, and an old key is identified as belonging to a storage lock; the final thought merely restates that discovery. The story remains procedural with a weak kicker. Root read all four fields; no source edit."
+      "v2_sha256": "6b3bae405c17ddba1b47b9cfec8ba2f369800e73217159002ea92480be78f6d4",
+      "notes": "V2 rewritten as a non-family roommate move-out scene in category 租屋. The original stain/old-key inventory process had no comic escalation; the new conflict comes from an emptied flat causing voices to echo across rooms. The landlord mistakes the reflections for additional residents, checks rooms and struggles to complete the handover count, ending with the note “住戶兩位，回音五位.” Compared against approved move-out inventory/magnet and lease-cleaning stories; none has the empty-room echo / phantom-tenant counting chain. An approved piano pedal/room-echo story uses a sustained musical note, not voices or rental inspection. Manually reviewed all four fields, contextual Jyutping, complete Simplified gloss and exact story-tip prefix."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
