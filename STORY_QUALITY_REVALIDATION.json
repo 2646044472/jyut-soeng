@@ -5014,10 +5014,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 26,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e199c31fb2d8b0c05fe93b82483af608811174f84529b235b813cdd6475cd336",
-      "v2_sha256": "e199c31fb2d8b0c05fe93b82483af608811174f84529b235b813cdd6475cd336",
-      "notes": "Root individually reviewed all four fields. The paperwork covers the table and the child’s star marks aid approval; however, the star is only repeated literally, and the final “office on the dining table” line is a mild observation. The story centers on grant application/payment logistics without a strong payoff."
+      "v2_sha256": "5999c04f4fa4715effee4fbbdede731fb936f5c4a4f8b879ec77ff0de0d0ec56",
+      "notes": "Rebuilt the tuition-aid story around the child mistaking the application reference number for a raffle number: waiting for review becomes an imagined draw, and partial aid leads to the earned “second draw” line before the real payment date callback. Kept the school’s document, stamp, and budget checks clear. Reviewed all four fields, chronology, distinct wordplay, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
