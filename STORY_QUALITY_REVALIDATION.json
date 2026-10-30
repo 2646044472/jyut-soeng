@@ -20416,10 +20416,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 67,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "afdf605339fad76f43551dc7cbef3083e18a5f3a06ec812fbfa9924d54272f9e",
-      "v2_sha256": "afdf605339fad76f43551dc7cbef3083e18a5f3a06ec812fbfa9924d54272f9e",
-      "notes": "Blind tasting lets the father mistake cumin for pepper, a clear small gag, but the remaining spice organization and later soup preparation do not build on it. The final bottle-arrangement line is practical rather than a callback payoff; tip/gloss match. Reviewed sentence, Jyutping, full gloss and story-specific tip; no source edit."
+      "v2_sha256": "ec0ecf885f2a2a1339cad96378afc9a876bd71f38b18383554c7a60bd014cd29",
+      "notes": "Rebuilt the low-salt spice-shopping setup into an aisle misunderstanding: two shoppers mistake the narrator for staff, the clerk hands over a spice guide while serving the queue, and the cashier’s new-colleague question completes the unpaid-shift callback. Kept the category, avoided blind tasting/spice misidentification/jar-label plot from approved long_home_family_08[152]. Reviewed Cantonese, all 241 contextual Jyutping syllables, full Simplified gloss and story-specific tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
