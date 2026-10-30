@@ -5414,10 +5414,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 76,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9b36ce52c93a54e25edf42249077a085f1e7f3eee9976b126244dbd29f86dffd",
-      "v2_sha256": "9b36ce52c93a54e25edf42249077a085f1e7f3eee9976b126244dbd29f86dffd",
-      "notes": "Root individually reviewed all four fields. The father’s enthusiasm for shredding statements is delayed by the need to retain proof and check his credit report; the final milk-tea choice is routine and the old documents are not transformed into a strong punchline. Loan-clearance/account verification core; revise."
+      "v2_sha256": "df4814c8b4944707f60db66b45f5176bd0c68d7825182b4d0a6a12914452e672",
+      "notes": "Rebuilt the paid-off loan as a habit-transfer comedy: the father replaces his monthly payment reminder with a milk-tea day, asks to drink the tea in installments, then marks the first sip as a payment and finishes the cup “in one go.” Removes credit-report updating and document-retention checks; reviewed natural Cantonese, logic, the installment/sip callbacks, all four fields, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
