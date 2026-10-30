@@ -5030,10 +5030,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 28,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "84cb0e0176dd95b50b45f67ba5a2a552124986c9038feccacc64f0bb42e84aee",
-      "v2_sha256": "84cb0e0176dd95b50b45f67ba5a2a552124986c9038feccacc64f0bb42e84aee",
-      "notes": "Root individually reviewed all four fields. The moon-as-salted-egg joke and finger-in-frame mishap are clear, but the ending turns into a warm family portrait and a sentimental line rather than the requested strong comic payoff. The phone/scholarship calculation is central. Needs a more comic, escalating ending."
+      "v2_sha256": "acb702b34ab550b4922f175c7512bbabeb6099ec35498760ce40624b404da221",
+      "notes": "Rebuilt the scholarship story with an escalating night-photography attempt: finger, streetlight, blurred timer selfie, then an unplanned portrait of grandma waiting at the window. The moon/teacher comparison and grandma’s hair-prep line pay off the failed attempts. Reviewed all four fields, causal flow, distinction from the earlier park photo story, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
