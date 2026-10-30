@@ -4838,10 +4838,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 4,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7ef517a73dd6a30e172e5c81f7cfb79074692bc70ba014b9935c3dc30955196d",
-      "v2_sha256": "27360024dcff1fe90219d0a3fd393dc34fd2e022891007c9ca98d42cd6cf9522",
-      "notes": "Reworked and checked all four fields, but hold as needs_revision: the repeated pull-to-confirm lock behavior overlaps the door-checking loop in long_home_family_08 index 182 and the forgetful-key scenario in long_home_family_09 index 49. The neighbor-signoff punchline is clear but still rides the same remembered-lock behavior. Keep this candidate and rebuild around a different repair situation."
+      "v2_sha256": "165457898cde78307e665ddd5370d31713cdc0c3f9c94466b2c228cbc509dfca",
+      "notes": "Rebuilt from the repeated-lock confirmation loop into a doorbell repair episode: the grandson’s tape-stuck button triggers a wedding march; the grandfather turns the repair test into a reception, then offers water to a delivery worker as if the wedding were merely postponed. Checked all four fields and screened against the cited lock-checking cards; the comic mechanism is ringtone-driven role-play, not repeated confirmation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
