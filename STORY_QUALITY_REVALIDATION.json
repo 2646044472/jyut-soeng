@@ -22417,10 +22417,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 19,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "03bca81137c7b15f9dfbac0b2dc9bc37cde23b72dac908665b0246e57d31778f",
-      "v2_sha256": "03bca81137c7b15f9dfbac0b2dc9bc37cde23b72dac908665b0246e57d31778f",
-      "notes": "Needs revision: buying and preparing winter-melon soup follows a recipe; the rain and the brother calling it warmer than rainy weather are a gentle observation, not an earned punchline. All four fields read; tip matches."
+      "v2_sha256": "6c26a1fe1364e3e01f5dce31833104e7e4e69f9359f4dac5ed5a16eb74ceb312",
+      "notes": "Rebuilt the soup dinner around a connected fish-serving reversal: after the father warns against stirring the fish apart, the brother takes the instruction literally and serves every fish piece into his own bowl. His claim that only his bowl needs to be warmer callbacks to the rainy-day line. Reviewed the complete Cantonese, simplified gloss, contextual Jyutping, tip, and plot distinction from nearby soup and ingredient mishap cards.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
