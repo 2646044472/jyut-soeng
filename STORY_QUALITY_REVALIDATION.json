@@ -5318,10 +5318,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 64,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "993f7cfba31c83f53c2ba8a9d570b885a134fe6446211164011e84aab1be31cb",
-      "v2_sha256": "993f7cfba31c83f53c2ba8a9d570b885a134fe6446211164011e84aab1be31cb",
-      "notes": "Root individually reviewed all four fields. The duplicate visit line is verified from the care log and corrected without blaming the nurse, but the story resolves as a billing adjustment and ends with a chair for the caregiver. The sentiment is humane, not comic; care-bill correction is central. Needs a stronger comedic plot."
+      "v2_sha256": "a10d52fa6718329748b43e6df2af8324d95571bc3a14f8c030379d5d1b9c5db9",
+      "notes": "Rebuilt as a clinic escort misunderstanding: grandmother reads escort and waiting as two different attendants, circles the two lines in red, asks whether patients earn a waiting allowance, then wants to be listed as accompanying the escort. The itemized service hours are checked and explicitly not duplicate billed; the comic turn comes from her claiming attendance credit. Reviewed natural Cantonese, logic, all four fields, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
