@@ -226,6 +226,13 @@
 - No row was rewritten or promoted. No prior pass withdrawn. V2 remains 1,748 pass / 3,252 needs_revision / 0 pending.
 - Next source-order IDs begin `long_food_shopping_18[48–49]`, followed by eligible needs-revision rows in `long_food_shopping_19.json`; verify a unique ten-card queue and status before continuing.
 
+## Active continuation — 2026-10-30, food shopping 18 tail and 19 cards 0–18
+
+- Reviewed all four fields for the next ten unique needs-revision IDs: `long_food_shopping_18[48–49]` and `long_food_shopping_19[0,7,8,10,11,15,17,18]`. All ten statuses were verified from the V2 ledger; intervening pre-existing passes were not counted.
+- Kept all ten at `needs_revision`: [18:48] mango ripening/“red spot” lesson is an ordinary storage explanation; [18:49] sauce splashes once, heat is lowered, and the small-can observation does not pay off; [19:0] scattered dates and overflowing soup are disconnected mishaps before a warm delivery; [19:7] office salad spill is caught and resolves safely, with a low-sugar label note; [19:8] undercooked pasta and excess cheese are two unrelated cooking mistakes; [19:10] fogged glasses and a caught corn piece remain minor kitchen incidents; [19:11] oversized potatoes/over-spiced curry use familiar “too spicy, apple rescue” mechanics, already present in approved curry stories including `long_food_shopping_10[38,86]` and `14[39]`; [19:15] planning, replacement soy milk, quantities and date labels are household logistics; [19:17] rain simply relocates a barbecue from canopy to oven; [19:18] delivering prepared food and setting a reminder for a mobility-limited grandmother is practical caregiving, not a comedy premise.
+- No source row was rewritten, no pass added, and no prior pass withdrawn; V2 remains 1,748 pass / 3,252 needs_revision / 0 pending. Kept dietary and caregiving content respectful, and did not promote a card on mechanical correctness alone.
+- Next source-order needs-revision cards after this batch: `long_food_shopping_19[19,20,23–26,29]`, then continue the next unreviewed statuses in source order to form the next unique workset.
+
 ## Active continuation — 2026-10-30, basil storage batch 15
 
 - Continued in the independent worktree; before this batch, local and remote target refs matched at `6e46cfaf85242210794fa5b38f1a0fa117f7e15f`.
