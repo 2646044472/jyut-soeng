@@ -4534,10 +4534,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 66,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8d0dfbf69cb0f818ddf7a0266ee3d5e1955aea1a69c0587d31286d0f33e2c7e2",
-      "v2_sha256": "8d0dfbf69cb0f818ddf7a0266ee3d5e1955aea1a69c0587d31286d0f33e2c7e2",
-      "notes": "The household recalculates retirement income against rent, utilities, medicines and care costs, then allocates sibling contributions and bills. The shoe sticker is an emotional image, not a comic reversal; this is direct family expense allocation. All four fields checked; rewrite."
+      "v2_sha256": "85d62433fcbfd8e2b925f01f5c7e1d648a1c1c0b2c1a51eec3ade568610bc7fe",
+      "notes": "Rebuilt the budget vignette around the grandmother's playful attempt to buy the left shoe this month and the right one next month. The shoe shop refuses to split the pair; household recalculation then shows the cost-of-living increase outweighs the pension adjustment. Siblings set a regular care-cost transfer date, so she need not chase them. The bill-versus-worn-heel line and the closing 'balance' callback tie the budget pressure to the shoe gag. Cross-screened adjacent approved retirement stories; this is distinct from the prior contact-verification and seminar-reserve stories. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
