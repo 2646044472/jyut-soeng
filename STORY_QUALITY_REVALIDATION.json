@@ -23166,10 +23166,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 76,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "cd116232a00fa2b2f77c0200307c7ae2f2aab18ce26c0d8bb9c4e62dc0c8fda8",
-      "v2_sha256": "cd116232a00fa2b2f77c0200307c7ae2f2aab18ce26c0d8bb9c4e62dc0c8fda8",
-      "notes": "Needs revision: the grandmother worries a volunteer will inspect her home, then receives a gentle visit and exercises; the reassuring correction is practical, with no comic payoff. All four fields read."
+      "v2_sha256": "c30e1ca0254cb4f7015879f02406df669f27315245ca40718acf4771c7f33364",
+      "notes": "V2主审：原稿围绕家人替行动不便的婆婆安排上门探访、整理住所和伸展动作；新稿完全改为成人报名做社区探访义工，与梁伯在活动室见面，删除亲属关系、居家护理和原有行动需要。喜剧机制是访员带表格想逐项了解服务对象，梁伯反过来逐项问访员的空闲和午餐习惯，记录结果倒转，最后两人约定轮流倾听；不是只替换人物称谓。保留公共服务类别。与已通过的志愿者衣架认领、报名名单重复、服务说明术语化等故事不同；也对比 long_health_services_03[47] 的上门探访找眼镜，后者以丢失物品调查为主，本卡是问卷角色反转与双向探访。逐项审阅繁体口语粤语、逐字粤拼、完整简体释义和贴合情节的复述提示；正文297汉字/粤拼297音节，顺序及其他元数据未变。"
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
