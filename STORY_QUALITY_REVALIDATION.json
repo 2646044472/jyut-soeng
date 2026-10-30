@@ -20328,10 +20328,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 56,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6ba1298ba0d71fa7b0f8c3ecd86b0319b458ad3891d8b0444889e76fb644263c",
-      "v2_sha256": "6ba1298ba0d71fa7b0f8c3ecd86b0319b458ad3891d8b0444889e76fb644263c",
-      "notes": "The wrapper substitution and shrimp-free filling create a coherent adaptation, and the early dumplings resemble flowers, but the teasing has no later callback or stronger escalation. The successful meal ends the anecdote plainly; tip/gloss match. Reviewed sentence, Jyutping, full gloss and story-specific tip; no source edit."
+      "v2_sha256": "7a13804064528f0a3062bb081810bf34e303efb006fa604450eb7bd9c873f469",
+      "notes": "Rewrite: the uncle first teases that the poorly folded wontons look like flowers, then requests those “flower-style wontons” after enjoying the mushroom filling. The payoff reuses the exact visual setup and makes the earlier imperfect folds a preferred style rather than adding an unrelated tag. Re-reviewed all four fields and aligned Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
