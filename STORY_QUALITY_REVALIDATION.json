@@ -4702,10 +4702,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 87,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e058eecd87a8b8b4dcfaa0b8bdd7baceb0d2afda342531771dfc7c1c02fac2ca",
-      "v2_sha256": "e058eecd87a8b8b4dcfaa0b8bdd7baceb0d2afda342531771dfc7c1c02fac2ca",
-      "notes": "The broadband company says two months are unpaid; the narrator compares statements, contacts support and waits for a correction from an old account. The hold-music joke is mild and bill/transaction reconciliation is central. All four fields checked; rewrite."
+      "v2_sha256": "eac2926917ecf84cd1adb927a99ef97add981fa65f0a61a5efce865e87642330",
+      "notes": "Rebuilt the broadband fee dispute around the sister turning the long hold tune into a home concert. The two bank debits support the billing query; the provider finds the payments under an old account and keeps service active. Her request to deduct the imaginary accompaniment fee and the closing offer to make the next caller wait pay off the repeated music. Checked all four fields, service logic, Cantonese phrasing, gloss and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
