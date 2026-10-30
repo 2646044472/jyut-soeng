@@ -12134,10 +12134,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 32,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "63d51568df19996ede750b29bbf5f13b413abd36aa4d5105a6c2fb088399defa",
-      "v2_sha256": "63d51568df19996ede750b29bbf5f13b413abd36aa4d5105a6c2fb088399defa",
-      "notes": "The pastry remains intact and colleagues share lunch; the ending is an ordinary plan to repeat the meal, without a comic turn."
+      "v2_sha256": "f2d8e301e5a50216ef239b30c7404403dfe8503cb49bf2fd3f9c6ca03c20bca0",
+      "notes": "Reworked the routine croissant tea break into a workplace video-call misunderstanding: the crisp pastry crunches sound like applause to the remote colleagues; the late coworker takes a bite and triggers a second mistaken unanimous-vote reaction. Preserves bakery category and colleague setting; manually reviewed all four fields and Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",

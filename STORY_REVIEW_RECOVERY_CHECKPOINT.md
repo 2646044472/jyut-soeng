@@ -857,3 +857,9 @@ The V2 ledger contains one pass record for each row and its current source hash.
 
 - Continued from 1,716/5,000 with `content/sentence_bank/long_food_shopping_02.json[65]` (`日常退換貨`), non-family friend picnic. Kept the safe return of an unused chipped glass box and the store clarification that the rough spot was folded protective film. Strengthened the loose cucumber at the picnic into the punchline: the lunchbox is securely sealed, yet the cucumber slips away while the lid is open; friends joke that next time the food must be counted before lunch.
 - Manually reviewed four fields and Jyutping; 229 Han characters / 229 syllables, complete Simplified gloss and exact `故事练习：` tip. Hash `b77635af8180d9cc28b93239c29848fb3199c9dd94bf6450041602830606ff29`. Current expected progress 1,717/5,000; build, validation, commit and push pending.
+
+
+## Active continuation — 2026-10-30, croissant applause mix-up
+
+- Continued from 1,717/5,000. The next ledger row `long_family_finance_services_06.json[61]` is explicitly a father/parents retirement-payment scene, so skipped it without edits or counting. Selected `content/sentence_bank/long_food_shopping_03.json[32]` (`麵包店`), a non-family coworker tea break. Reworked it so coworkers eat crisp croissants during a video meeting; the remote team mistakes the pastry crunch for applause, and the late coworker triggers a second “unanimous vote” mishearing. A corpus search found a separate watch-ticking story with applause, but its plot is a household’s interrupted listening attempt, not a food-noise/meeting misunderstanding.
+- Manually reviewed all four fields and contextual Jyutping; 248 Han characters / 248 syllables, complete Simplified gloss, exact `故事练习：` tip. V2 hash `f2d8e301e5a50216ef239b30c7404403dfe8503cb49bf2fd3f9c6ca03c20bca0`. Current expected progress 1,718/5,000; validation and push pending.
