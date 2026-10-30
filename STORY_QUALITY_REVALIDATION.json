@@ -12078,10 +12078,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 25,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "54fecc9894cb78a1db122fdb424f64522ac5f43f24faa12cd7b8aa3a562d4298",
-      "v2_sha256": "54fecc9894cb78a1db122fdb424f64522ac5f43f24faa12cd7b8aa3a562d4298",
-      "notes": "Borrowed containers prevent a spill and are returned; the granddaughter’s observation is mild, with no escalating misunderstanding or punchline."
+      "v2_sha256": "6eed889cff34c9e8a02268966b334d62d464031b74de4462fe755503ae2869e4",
+      "notes": "Manual V2 review: rewrote the non-family neighbor food-sharing story around a leaking lunch box that is replaced by borrowed sealed containers. Neighbors keep returning the boxes with another dish, turning a simple loan into an escalating floor-to-floor food relay; the “last receiver washes” sign becomes “add a dish,” and the last neighbor asks whether his contribution is exempt. The shared meal and neighbor exchange remain central to 鄰里共享食物. Reviewed all four fields, contextual Jyutping, complete Simplified gloss, exact tip prefix, and unchanged category. Search for the distinctive relay/sign wording and similar container-return plots found no matching mechanism; the leak is only the setup, not the comic resolution."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
