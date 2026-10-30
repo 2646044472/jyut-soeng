@@ -23591,10 +23591,10 @@
     {
       "file": "content/sentence_bank/long_health_services_02.json",
       "index": 29,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "1fa965cce8b1e5ff40ade5d9127b31a8143e41cd095c2ed8366dd5e1d659b83a",
-      "v2_sha256": "1fa965cce8b1e5ff40ade5d9127b31a8143e41cd095c2ed8366dd5e1d659b83a",
-      "notes": "Needs revision: a dental cleaning appointment is rescheduled, the route changes, and the narrator finds parking; the market purchase and address note are logistical details. No comic escalation or payoff. All four fields read; gloss/tip match."
+      "v2_sha256": "77bba79bff50d2fb235c2eaa6b9872015880b48e40f724b19933568cf29f6e7e",
+      "notes": "A rescheduled dental-cleaning appointment coincides with roadworks; temporary route signs loop the narrator back to the same market stall. The seller recognizes the vegetable bag, and the receptionist’s market question pays off the loop. The narrator confirms the side-street entrance and arrives early. Preserves appointment logistics without adding clinical advice. Manually reviewed all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_health_services_02.json",
