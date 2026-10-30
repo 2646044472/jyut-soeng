@@ -12534,10 +12534,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 82,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5283d9533fce15552fd22ff0b17cfb17e10b03096475095da52130e57389cd4c",
-      "v2_sha256": "5283d9533fce15552fd22ff0b17cfb17e10b03096475095da52130e57389cd4c",
-      "notes": "An undated cut-watermelon label leads to a phone call and exchange; the result is procedural and ends with routine shopping advice."
+      "v2_sha256": "a1694cb77db6754d0cb1df1ef2cb74df8be051acb40578a6ea640c4aa6823523",
+      "notes": "Pass after V2 rewrite. Nonfamily office lunch; category 食物保存與過敏 retained. The missing cut-fruit date prevents the coworkers from opening it; a colleague invents an employee badge and an afternoon-tea roll-call entry for the “watermelon new hire,” then the expiry date and badge both get processed before the fruit’s comic one-day resignation. They verify the shop record and exchange it before sharing; cold storage and date checks remain explicit. Four fields reviewed; Jyutping aligned and contextual readings checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
