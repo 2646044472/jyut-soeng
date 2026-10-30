@@ -12078,10 +12078,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 25,
-      "status": "pass",
+      "status": "needs_revision",
       "baseline_sha256": "54fecc9894cb78a1db122fdb424f64522ac5f43f24faa12cd7b8aa3a562d4298",
       "v2_sha256": "6eed889cff34c9e8a02268966b334d62d464031b74de4462fe755503ae2869e4",
-      "notes": "Manual V2 review: rewrote the non-family neighbor food-sharing story around a leaking lunch box that is replaced by borrowed sealed containers. Neighbors keep returning the boxes with another dish, turning a simple loan into an escalating floor-to-floor food relay; the “last receiver washes” sign becomes “add a dish,” and the last neighbor asks whether his contribution is exempt. The shared meal and neighbor exchange remain central to 鄰里共享食物. Reviewed all four fields, contextual Jyutping, complete Simplified gloss, exact tip prefix, and unchanged category. Search for the distinctive relay/sign wording and similar container-return plots found no matching mechanism; the leak is only the setup, not the comic resolution."
+      "notes": "Re-audited for cross-card semantic distinctness against content/sentence_bank/long_food_shopping_17.json[6]. Both stories use a neighbor food-sharing cycle that accumulates food across households and ends with a corrective rule/sign plus a continuing-loop joke: this card circulates a borrowed box with added dishes, while [17][6] repeatedly returns oranges through the shopping rota and ends with “only out, never in” plus seeds. The objects and immediate trigger differ, but the central circulation/accumulation arc and rule-based payoff are too close for a distinct V2 pass under the current diversity requirement. Source row/hash unchanged; retain needs_revision and rewrite around a different neighbor-sharing mechanism before counting."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -32437,10 +32437,10 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 32,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f76f3099068e7bccc514f6659f9d50a5961a395659f4c3dcfbfee3a5b79cffee",
-      "v2_sha256": "f76f3099068e7bccc514f6659f9d50a5961a395659f4c3dcfbfee3a5b79cffee",
-      "notes": "Needs revision: the cat chooses the cardboard box over its scratch board, prompting a mild “busier than me” comment; the rest is deposit documentation and a clean move-out. The gag does not escalate or pay off. Root read all four fields; no source edit."
+      "v2_sha256": "2b734211f9003811e806795bb33eaa5837e3d6030a5dd6f082729fb62bcd73bc",
+      "notes": "Manual V2 review: rewrote the non-family rental/pet story around a landlord’s wall-scratch concern and a cat that rejects its scratching board, chases and dismantles cardboard boxes instead, then leaves the apartment walls intact and the boxes flattened for recycling. The monthly box callback escalates the mismatch between the tenant’s formal scratch-board plan and the cat’s practical choice; at move-out, the landlord asks why extra cardboard remains, and the narrator presents the cat’s “move-out report.” The rental agreement and landlord inspection remain central to category 租屋. Reviewed all four fields, contextual Jyutping, complete Simplified gloss, exact tip prefix, and unchanged category. Exact phrase and pet-scratch/cardboard searches found no same rental/inspection plot; no family-core plot."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
