@@ -22163,10 +22163,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 39,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "076fed7be32b4bf9bf2edc7feeb9893de65705b7238d128c2b77629cbaa47d75",
-      "v2_sha256": "076fed7be32b4bf9bf2edc7feeb9893de65705b7238d128c2b77629cbaa47d75",
-      "notes": "Needs revision: fish shopping and steaming are coherent and the “no takeaway” line is a mild observation, but the story has no conflict beyond cooking steps and closes as a lesson. All four fields read; gloss/tip match."
+      "v2_sha256": "0305e58a7a6e7a23e406689d56c0ccd30f595d6ec270a1e52d7958cc3138b21c",
+      "notes": "Rebuilt the procedural fish-steaming story around the cousin misapplying the clear-eye freshness check after cooking: steaming turns the eyes opaque, so he checks the flesh, then returns to the stall asking for a cooked fish with clear eyes; the fishmonger points to one still in the tank. Compared similar corpus stories about selecting fish by eye, steaming with lemon, and family cooking; the before/after-eye misunderstanding and deadpan callback are distinct. Reviewed all fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
