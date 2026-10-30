@@ -22521,10 +22521,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 31,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f807be3ac1c18db2ad75c47d6ae6df05d229287448ffa3090c5bd6061f985db8",
-      "v2_sha256": "f807be3ac1c18db2ad75c47d6ae6df05d229287448ffa3090c5bd6061f985db8",
-      "notes": "Needs revision: the grandmother’s curry is prepared and shared with the neighbor; uneven potato size becomes a cooking tip, not a gag, and the ending is a recipe request. No escalating conflict or payoff. All four fields read; gloss/tip match."
+      "v2_sha256": "aefca831d1037eafcfc891d61636b632f3bf6001b344f389bc0f46ccee255410",
+      "notes": "Recast the family curry recipe as a roommate meal to diversify the family-heavy run. The roommate cooks and portions a full pot of rice before the curry is ready; a neighbor’s hot bread arrives mid-cook, everyone moves from rice bowls to dipping bread, and the untouched rice makes the expected curry-rice dinner lose its “main role.” The payoff is the rice being left onstage while bread becomes the meal. Reviewed the full Cantonese, translation, Jyutping and tip.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
