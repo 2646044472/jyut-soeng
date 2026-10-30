@@ -22408,10 +22408,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 18,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f1a79d124fa5156ed7a1f30e6e662a7e142f61e67635285c288cbf8cca5302dc",
-      "v2_sha256": "f1a79d124fa5156ed7a1f30e6e662a7e142f61e67635285c288cbf8cca5302dc",
-      "notes": "Needs revision: delivering low-salt prepared food to grandmother is kind and the phone reminder is useful, but the scene has no escalating comedy or reversal. All four fields read; tip matches."
+      "v2_sha256": "4b7e4fc897b7fdad480015f89d38d0a4da7413e9418ea893660b8d51306d3811",
+      "notes": "Reworked the practical prepared-meal delivery into a connected service joke: after the grandmother labels and stores the remaining food, she asks for a reheating reminder and adds a reciprocal empty-container return reminder to the narrator’s phone. The “takeout delivery” setup now pays off as a return-and-reuse service. Kept the low-salt choice and safe date-checking, and reviewed all four fields and contextual Jyutping.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
