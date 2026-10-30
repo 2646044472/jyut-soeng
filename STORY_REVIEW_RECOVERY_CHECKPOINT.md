@@ -219,6 +219,13 @@
 - No candidate was sufficiently distinct to rewrite in this set without substituting another stock gag or disturbing the category. No source changes, no new passes, no withdrawals. V2 remains 1,748 pass / 3,252 needs_revision / 0 pending.
 - Next unique source-order group: `long_food_shopping_18[37–46]`; verify statuses before reviewing and continue seeking a premise for a real rewrite.
 
+## Active continuation — 2026-10-30, food shopping 18 cards 37–46
+
+- Reviewed all four fields and V2 notes for `content/sentence_bank/long_food_shopping_18.json[37–46]`; index 45 is an existing pass (wind escalation and menu-seat callback) and was not counted again.
+- Kept the other nine at `needs_revision`: [37] grocery replacement/refund and menu adjustment are money-mainline; [38] olive oil taste test resolves with a suggestion to reuse it; [39] fresh-fish shopping and steaming remain an instructional routine; [40] vegetarian/ingredient restrictions should remain handled seriously, and the near-mistake has no consequential turn; [41] allergen checks are correctly treated seriously and the team-food logistics do not produce comedy; [42] concealed tea gift ends sentimentally; [43] honey gift and shared breakfast are warm but have no reversal; [44] seafood porridge is a cooking sequence and its sentence/gloss differ on how the scallops thaw (the source sentence has both seafood portions in the lower fridge compartment; the gloss changes to one refrigerated and one in a bowl of water); [46] over-salted sauce and spilled sesame sauce are disconnected minor mishaps.
+- No row was rewritten or promoted. No prior pass withdrawn. V2 remains 1,748 pass / 3,252 needs_revision / 0 pending.
+- Next source-order IDs begin `long_food_shopping_18[48–49]`, followed by eligible needs-revision rows in `long_food_shopping_19.json`; verify a unique ten-card queue and status before continuing.
+
 ## Active continuation — 2026-10-30, basil storage batch 15
 
 - Continued in the independent worktree; before this batch, local and remote target refs matched at `6e46cfaf85242210794fa5b38f1a0fa117f7e15f`.
