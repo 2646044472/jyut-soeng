@@ -4718,10 +4718,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 89,
-      "status": "pass",
+      "status": "needs_revision",
       "baseline_sha256": "7671b4e872b09c95e1d4350cac2e71f25d66205fddeeede10590735ee2bc041c",
       "v2_sha256": "0b229f61b1ec33e87121da63b8382c77bfd6017ad9dec4b751c8cd12c11fe9d6",
-      "notes": "Rewrite: the upstairs neighbor hears the two-month combined electricity notice as a two-month dance event, escalates by volunteering to lead it, then the office confirms the prior notice was missed and the charge simply covers two months. At home, the kitchen light makes the callback land. Checked all four fields, category retained, and Jyutping aligned token by token."
+      "notes": "Needs revision after semantic re-review: the combined two-month notice is factual, but the neighbor jumping from hearing “dance” to volunteering and searching for music has no motivated chain; the final kitchen-light line is only a loose callback. Preserve this text but do not count it as a V2 pass; rewrite with grounded escalation."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
@@ -20272,10 +20272,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 49,
-      "status": "pass",
+      "status": "needs_revision",
       "baseline_sha256": "45746208a4a494b5d50b0de65d6d57834c60d3f4af88fbf42d58b62c80d9cf4b",
       "v2_sha256": "00adac5fce11d9d4246cf77fffb258e3b1235b303d2aa2a7ad49757ba48c12ce",
-      "notes": "Rewrite: when the lunch name labels blow away, the usually quiet A-Kin steps in to confirm each meal rather than guess, redistributes fruit and saves a portion for the late coworker. The sealed peanut spread stays separately put away; his “dispatch list” line callbacks to his fruit delivery role. Checked all four fields, allergy handling, and Jyutping alignment."
+      "notes": "Needs revision after cross-corpus semantic review: this repeats the core of long_food_shopping_03.json[42]—office lunch identifiers fail, coworkers must verify each box, and distribution/fruit becomes a public group activity. The label mechanism differs (wet labels versus blown-away labels), but the conflict and resolution are too close. Preserve this text but do not count it as a V2 pass; replace the plot."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -20296,10 +20296,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 52,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "71615346c399d80a16594105d8db1c2f834a340dcf7edc1bb8244a3bf95935bb",
-      "v2_sha256": "71615346c399d80a16594105d8db1c2f834a340dcf7edc1bb8244a3bf95935bb",
-      "notes": "The first cake is dry because the oven temperature was raised, then a lower setting fixes it; the school and recipe messages make a warm success anecdote, not a strong comic story. Tip and gloss align with the sequence. Reviewed sentence, Jyutping, full gloss and story-specific tip; no source edit."
+      "v2_sha256": "7060e2d75e90453a5d8625aaa252f2ef49d36663417be28505b9803e0b430134",
+      "notes": "Rewrite: the first high-temperature attempt dries into something the nephew calls a biscuit; they correct the recipe temperature and verify the cake before removing it. When the teacher asks for the recipe, the nephew offers both a “biscuit version” and a cake version, paying off the first failure. Compared the plot against approved cake stories; no same school-baking-paper/failed-cake/version-joke chain found. Reviewed all four fields and aligned Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
