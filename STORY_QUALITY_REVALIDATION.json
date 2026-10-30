@@ -22058,10 +22058,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 26,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "77b9bfa4308dd8f8ec4ac9ce99d87705b4e2910a5b399c808cbd198c4dbea49a",
-      "v2_sha256": "99d6da7f892880329758056010c15b4b3af65e49fb60756d97cc5d83934ad778",
-      "notes": "Rewritten bowl-inspection gag still overlaps the prior sugar-adjustment and yogurt taste-test plots. Keep as needs_revision pending a distinct soup conflict and ending. Jyutping and four fields are mechanically synchronized; semantic uniqueness not approved."
+      "v2_sha256": "2cabf8a7a801c3918a7d0e56c1d3b633883b8afac3a870128bd2024983de2084",
+      "notes": "Rebuilt from a repeated family taste-test into a community soup-sale scene. Two literal questions about chicken carcass and corn core prompt increasingly overlong signage; the user-manual line pays off that escalation. Checked all four fields, colloquial dialogue, scene logic and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
