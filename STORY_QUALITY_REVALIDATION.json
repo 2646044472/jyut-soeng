@@ -11550,10 +11550,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 59,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "788ccfe91b1cbaf0d6e460ce8c348ee0356452406ccd24fe08f1e52e1443d7fe",
-      "v2_sha256": "788ccfe91b1cbaf0d6e460ce8c348ee0356452406ccd24fe08f1e52e1443d7fe",
-      "notes": "Needs revision: after a new thermos is filled, inverted and found leak-free, tea is wet again the next day; the repeated leak test and shop return are not clearly reconciled. The tissue “陪跑” line is promising but the sequence needs continuity repair."
+      "v2_sha256": "eeac99860c9ac963f1fe89b31e98dc764c92790afd54f8c20287a57426d0b186",
+      "notes": "Repaired the apparent second leak: the replacement thermos is dry; tea from the first leak remained trapped in the bag lining. The coworkers mistake the stain for another defect, then the reveal turns the paper-towel precaution into an off-duty callback. Retains the return/exchange category and workplace setting; manually reviewed all four fields and Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",

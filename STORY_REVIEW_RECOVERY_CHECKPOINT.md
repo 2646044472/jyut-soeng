@@ -844,3 +844,10 @@ The V2 ledger contains one pass record for each row and its current source hash.
 - Manually reviewed all four fields and the new Jyutping. Body is 273 Han characters / 273 Jyutping tokens; Simplified gloss is complete, usage tip has the exact `故事练习：` prefix. V2 hash `08d5140b291f7355eb9f64099e0b0ce03c300564f3ea8c1ee2a2d489706bfe3d`.
 - Also corrected the previous checkpoint’s `long_food_shopping_01.json[25]` character/syllable note from 273/272 to 273/273; no story content changed.
 - Current ledger progress: 1,715/5,000 semantic passes; 3,285 need revision; 0 pending. `story_quality_progress.py`, `build_assets.py`, `validate_content.py`, mirror assertions, and `git diff --check` are to be rerun before commit. Current branch remains `codex/macau-story-upgrade-batch-progress-resume`; original branch is protected and untouched.
+
+
+## Active continuation — 2026-10-30, thermos leak false alarm
+
+- Continued from 1,715/5,000 and reworked `content/sentence_bank/long_food_shopping_02.json[59]` (`日常退換貨`), a non-family coworker story. The replacement thermos had passed an upside-down test, but the bag was still wet the next day. A second shop check shows the cup is dry; opening the bag lining reveals tea left from the first leak. The reveal repairs the cause-and-effect; after the bag dries, the paper towels “finally get off duty.”
+- Manually reviewed all four fields and contextual Jyutping; 230 Han characters / 230 syllables, full Simplified gloss and exact `故事练习：` tip. V2 hash `eeac99860c9ac963f1fe89b31e98dc764c92790afd54f8c20287a57426d0b186`.
+- A first bookkeeping-script attempt did not persist its in-memory edits; progress validation correctly caught the stale hash. No ledger-only change was made. The corrected write persisted source and ledgers, and their hashes now match. Current expected progress is 1,716/5,000; checks and push pending.
