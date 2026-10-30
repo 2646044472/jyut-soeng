@@ -5534,10 +5534,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 91,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "26549434bddc89daa15fdb38d933fe39022e0e0213007af9cf9c19fac9b65416",
-      "v2_sha256": "26549434bddc89daa15fdb38d933fe39022e0e0213007af9cf9c19fac9b65416",
-      "notes": "Root individually reviewed all four fields. The daughter misjudges when her three-month deposit matures before tuition is due, then divides her red-envelope savings and draws an alarm clock; the ending is sensible advice rather than a strong comic payoff. Fixed-deposit/tuition planning is central. Needs more comedy."
+      "v2_sha256": "1f570e7f68089102476a386c89db2173772cc413dd68e00b379b06dbe40b593e",
+      "notes": "Rebuilt the fixed-deposit/tuition date mismatch around a visual “到校 / 到期” split: the daughter keeps tuition money in her schoolbag and the fixed-deposit portion in a drawer, then catches her father putting the maturity envelope in the schoolbag. Preserves the liquidity decision and bank-term check while replacing the sleeping-money alarm topper with a date-wordplay payoff. Reviewed all four fields, logic, Cantonese and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
