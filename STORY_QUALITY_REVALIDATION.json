@@ -4934,10 +4934,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 16,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "030c28497dc4377b85b7b4d361da6ca59cf2a0fcbd38270784226241871d1516",
-      "v2_sha256": "030c28497dc4377b85b7b4d361da6ca59cf2a0fcbd38270784226241871d1516",
-      "notes": "Root individually reviewed all four fields. The discharge photo resolves the extra hospital day, and the grandmother’s double/checkout line offers a small joke, but there is no escalating comic consequence or earned reversal after that; the remainder is payment and recordkeeping. Hospital-bill dispute is the central conflict. Needs a stronger comedic rewrite."
+      "v2_sha256": "4a24f7865b5dcd6f0e0588b932a212128563511cc787308b6adce6256dc324de",
+      "notes": "Rebuilt the duplicate-day billing error around a home-hotel role-play: the corrected bed-transfer charge briefly turns the family into room service, with the do-not-disturb sign, pillow request and attempted tip charge escalating the conceit. The corrected invoice closes the dispute, and the flipped sign pays off the room-service thread. Checked chronology and all four fields; corrected contextual Jyutping for 咪 mai6, 核 hat6, 聽 teng1, 枕 zam2, and 搵 wan2. The bill correction remains explicit and clinically neutral."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
