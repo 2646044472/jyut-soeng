@@ -5118,10 +5118,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 39,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2941c3baee59e7127bd9f16aa816cd8c3f4e7e7c9fc2ee5b20ec686685389ec5",
-      "v2_sha256": "2941c3baee59e7127bd9f16aa816cd8c3f4e7e7c9fc2ee5b20ec686685389ec5",
-      "notes": "Root individually reviewed all four fields. The folded statement and discarded queue ticket establish the scene, but the reveal is a planned birthday cake and the closing ticket is only a sentimental keepsake. There is no strong comic conflict or reversal; overseas support payment and fee tracking dominate. Revise."
+      "v2_sha256": "cb1205f71d9d1812c33df74b330e6bf0bbc0a810de89acca64d3369ec3f3fc99",
+      "notes": "Rebuilt the remittance-date story around a queue-ticket misunderstanding: grandpa mistakes an old branch queue number for the transfer’s place in line and phones his overseas son to ask when it will be called. The family checks actual posting dates and fees, then the ticket becomes the only “payment” that truly waited in a queue. Reviewed all four fields, payment logic, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
