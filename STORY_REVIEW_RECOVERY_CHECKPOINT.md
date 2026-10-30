@@ -212,6 +212,13 @@
 - The set did not contain a rewrite candidate with a sufficiently distinct, coherent escalation to justify a pass; no source row was edited, no pass added, no prior pass withdrawn. V2 remains 1,748 pass / 3,252 needs_revision / 0 pending. This is a review checkpoint, not content output.
 - Next unique source-order group: `long_food_shopping_18[27–36]`, all statuses to be verified before review. Continue looking for an actual rewriteable premise.
 
+## Active continuation — 2026-10-30, food shopping 18 cards 27–36
+
+- Read all four fields and V2 statuses for `content/sentence_bank/long_food_shopping_18.json[27–36]`; index 29 is an existing pass and was not counted as new.
+- Kept the nine other rows `needs_revision`: [27] low-salt soy sauce produces only a mild-fish observation and a dishwashing tag with no setup; [28] repeats the children’s fish-ball train imagery already noted as a recurring food-personification engine; [30] the caught tea-egg yolk is isolated from the ordinary congee lesson and resembles the previously rejected cooling/fan punchline mechanism; [31] budget/price tracking is central and counts toward the money-mainline quota; [32] egg exchange plus neighbor bread errand is routine; [33] sesame overpour and sesame spill are unrelated kitchen mishaps; [34] thin eggplant pieces are salvaged as the tastiest layer but yield only a mild tag; [35] dropped cereal as a train repeats the food-train motif and ends in routine label reading; [36] coffee bean choice, sharing and date photography have no comic conflict.
+- No candidate was sufficiently distinct to rewrite in this set without substituting another stock gag or disturbing the category. No source changes, no new passes, no withdrawals. V2 remains 1,748 pass / 3,252 needs_revision / 0 pending.
+- Next unique source-order group: `long_food_shopping_18[37–46]`; verify statuses before reviewing and continue seeking a premise for a real rewrite.
+
 ## Active continuation — 2026-10-30, basil storage batch 15
 
 - Continued in the independent worktree; before this batch, local and remote target refs matched at `6e46cfaf85242210794fa5b38f1a0fa117f7e15f`.
