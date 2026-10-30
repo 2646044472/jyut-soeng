@@ -21654,10 +21654,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 6,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a6c197e3164e7f27a39b15301a77b502ef631040c3a5de437fa20a1f93b1cb5b",
-      "v2_sha256": "a6c197e3164e7f27a39b15301a77b502ef631040c3a5de437fa20a1f93b1cb5b",
-      "notes": "Needs revision: a neighbor with an injured foot receives grocery help and shares oranges in return; the exchange is kind but sentimental, without conflict escalation, misunderstanding or comic reversal. The “oranges taste sweeter” line is a soft sentiment, not a punchline. Gloss and tip match. Four fields read; keep the neighborhood setting but develop an actual comedic engine."
+      "v2_sha256": "ce36d737322451fa6ff8fbec9566bd9aa04fe2b827ba7cbe88574ae70fe19ffb",
+      "notes": "In the shared grocery rota, the injured neighbor returns oranges as thanks; the next helper misreads “there are oranges” as a restock request. The orange stock grows through the rota, prompting a “only out, never in” note and a final orange-seed callback. The neighbor-help plot stays non-family and retains its category. Manually reviewed all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
