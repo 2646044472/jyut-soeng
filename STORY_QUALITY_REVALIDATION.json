@@ -22382,10 +22382,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 15,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6fce38bb1c8f99122d4f6a45926a4eb97550fd20b38e0e2ce0f30a94e3838d24",
-      "v2_sha256": "6fce38bb1c8f99122d4f6a45926a4eb97550fd20b38e0e2ce0f30a94e3838d24",
-      "notes": "Needs revision: meal planning, price/quantity checks and date labels are household logistics. The missing milk is replaced with soy milk, but the double date sticker does not create a comic reversal. All four fields read; tip matches."
+      "v2_sha256": "5a1d2977be1563982524b919f4453d297da94cde3027da33f2d6a26a1a97dde0",
+      "notes": "Rebuilt the holiday grocery plan around a forgotten-milk substitution and a label misunderstanding: the sibling treats a package date plus use-by date as two birthdays, then compares the vegetables’ “shelf life” with his own lack of holiday. Kept practical three-day planning and date-order handling; checked nearby pantry and date-label stories for overlap. Reviewed all four fields, colloquial Cantonese and contextual Jyutping.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
