@@ -4958,10 +4958,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 19,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "0a6a267242218ade9f8eea119ed760e48f02a16d1dd11bc620b1cc48a899d4d8",
-      "v2_sha256": "0a6a267242218ade9f8eea119ed760e48f02a16d1dd11bc620b1cc48a899d4d8",
-      "notes": "Root individually reviewed all four fields. The medicine receipt/sugar comparison is coherent, but the main action is reviewing prices, consulting the doctor and filing receipts; “audible ledger” and candy closing are mild observations rather than a strong punchline. Medication-cost/accounting core. Needs rewrite."
+      "v2_sha256": "bc36c2f3da73ade0bced370a067f0376081b2064509d911c26802a7518bb07e7",
+      "notes": "Rebuilt the medicine-cost story around a pharmacy name-call mix-up: three choir members share the surname Chan, their repeated simultaneous responses escalate into an accidental harmony, and prescription numbers safely distinguish each pickup. Kept any medication change under the doctor’s approval and the pharmacist’s directions. Reviewed colloquial flow, causal escalation, plot distinction, complete Simplified gloss, event-specific tip, and contextual Jyutping for all Han characters, including 藥房 fong4."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
