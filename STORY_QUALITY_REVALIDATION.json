@@ -5238,10 +5238,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 54,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ffdaf00b38620429c368390287de31e004a636742196bc30aa8c9d1d1f048a7d",
-      "v2_sha256": "ffdaf00b38620429c368390287de31e004a636742196bc30aa8c9d1d1f048a7d",
-      "notes": "Root individually reviewed all four fields. The missing charity number is resolved through an official call and replacement receipt; the market stall and tomato purchase are a mild tag, not a reversal. Most of the story is donation receipt/account verification, with little comedic escalation. Needs a stronger comic plot."
+      "v2_sha256": "a2f133cda329ec8e69b58ddd43a48a71a8abb1269138d022d545ed1c1e9daebd",
+      "notes": "Rebuilt the missing-number receipt around mom’s overenthusiastic evidence hunt: she offers the neighboring tomato stall as a witness, and the volunteer says the location is enough—no need to call the tomatoes to court. After the replacement receipt arrives, the volunteer mistakes her return for another audit, earning the year-end-report punchline. Reviewed all four fields, verification logic, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
