@@ -22747,10 +22747,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 21,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4e4b4b1cef861540fd555983199ebc5cf388bc077ce798b430a310427df44b18",
-      "v2_sha256": "4e4b4b1cef861540fd555983199ebc5cf388bc077ce798b430a310427df44b18",
-      "notes": "Needs revision: a nighttime elevator alert is mistaken for a knock, identified as a cleaning vehicle, and grandma relaxes through family stories. The warm reassurance is coherent but lacks a comic payoff. All four fields read; tip matches the events."
+      "v2_sha256": "a2bb2416f2262ba2223db1be6b89b5f76498caa9705c338d05227a337b9a1bdf",
+      "notes": "Rebuilt the quiet reassurance scene around a recurring, correctly identified elevator/cleaning-cart cue: the neighbor records the vehicle time, hears it arrive three minutes late the next night, and jokes that it must clock in. The ending callbacks to her being able to sleep before its shift ends. No medical advice or safety response is changed. Reviewed all four fields and contextual Jyutping alignment."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
