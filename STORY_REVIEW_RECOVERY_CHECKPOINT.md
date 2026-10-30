@@ -869,3 +869,9 @@ The V2 ledger contains one pass record for each row and its current source hash.
 
 - Continued from 1,718/5,000 with `content/sentence_bank/long_food_shopping_03.json[46]` (`辦公室午餐`), non-family coworkers. Kept the request for pickled greens on the side and made 阿健’s gradual additions build into a software-testing bit: he records each portion, calls the meal “still in the test version,” then asks the shop to stamp “version one” while they have eaten only half the bowl. Removed unrelated frozen-soymilk and restaurant-recommendation beats. No health/safety claims added.
 - Manually reviewed all four fields and Jyutping; 252 Han characters / 252 syllables, complete Simplified gloss and exact `故事练习：` tip. Hash `f5d74765780704aa68cc7a9c6c5edd7593bbd4ae54c746219f4d5c9b2906d844`. Current expected count 1,719/5,000; checks and push pending.
+
+
+## Active continuation — 2026-10-30, coffee identity meeting
+
+- Continued from 1,719/5,000. The next ledger card `long_family_finance_services_06.json[61]` is a parents/pension story and remains skipped per the no-family constraint. Reworked `content/sentence_bank/long_food_shopping_04.json[18]` (`茶餐廳外賣`), a non-family coworker coffee pickup. A same-name order swaps hot/cold labels; the coworker buys egg tarts while they wait, then writes a name-plus-temperature check into the meeting record. The manager changes the agenda to “drink identity check,” and the button is that the coffee never attended the meeting, but the team held another meeting for it.
+- Manually reviewed all four fields and Jyutping; 309 Han characters / 309 syllables, full Simplified gloss, exact `故事练习：` tip. V2 hash `5c561943794ef5f12ea2b1a7bb3631ed89b887a947e49eacbe01b83cf2d09e98`. Build/validation passed; current expected count 1,720/5,000. Commit and push pending.
