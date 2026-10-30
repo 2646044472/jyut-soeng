@@ -238,7 +238,7 @@
 - Reviewed all four fields and ledger statuses for `content/sentence_bank/long_food_shopping_19.json[19,20,23,24,25,26,29,31,33,34]`.
 - Kept all ten `needs_revision`: [19] recipe and weather observation without comedic consequence; [20] egg-bag scare, burnt toast, and egg timing are disconnected ordinary mishaps; [23] the missed fermented beans are supplied by a neighbor and the meal resolves pleasantly, without a comic consequence; [24] a lactose-free milk near-mix-up is caught before use, then only labels are added; [25] reusable containers and produce protection repeat the approved falling-produce/reusable-bag plot at `long_family_finance_services_01[24]`; [26] discounted ready-to-cook chicken and markdown bananas make the story money-core; [29] allergy-label checks and trial-snack verification are correctly serious and procedural; [31] caregiving curry meal is warm and instructional; [33] doorbell interruption produces an exact duplicated neighbor question (“可唔可以試一口？”) and has no payoff; [34] smoothie spill is cleaned up, but “晚安莓果” is a disconnected tag.
 - No source row was rewritten or promoted; no prior pass withdrawn. V2 remains 1,748 pass / 3,252 needs_revision / 0 pending. Skipped no story for quota reasons, and did not count review-only work as new output.
-- Next unique needs-revision IDs in source order are `long_food_shopping_19[35,37]`, then continue into the next sentence-bank file after verifying its status list.
+- Next unique needs-revision card is `long_food_shopping_19[37]` (indices 35 and 36 are pre-existing passes); after it, continue to the next lexicographic sentence-bank file and verify statuses/category suitability before forming the next workset.
 
 ## Active continuation — 2026-10-30, basil storage batch 15
 
