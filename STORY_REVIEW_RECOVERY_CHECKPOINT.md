@@ -787,3 +787,13 @@
 - Manually reviewed the four fields and corrected the contextual reading of `助理` to `zo6 lei5`. Body is 246 Han / 246 Jyutping syllables; Simplified gloss and exact-prefix practice tip included. Search found no other use of the lost-property lineup / returning-roommate / scale gag. V2 and language review hashes now match `000385215baab6fddc8724d258d039115e29d853a47a44547e0f7f250782e2c2`.
 - `build_assets.py`, `validate_content.py` (8,000 entries), progress/checklist refresh, and `git diff --check` pass. V2 status is 1,708/5,000 pass, 3,292 need revision, 0 pending; mechanical 5,000/5,000 remains only a structural count.
 - This checkpoint is awaiting commit/push and live remote verification. Keep original target untouched, preserve the protected four-file checkout and patch, then continue another non-family candidate after verification.
+
+## Pass-count reconciliation — 1705 to 1708
+
+The 1,705 baseline already included `content/sentence_bank/long_home_family_01.json[56]` (neighbor water-leak/drip-clock story; commit `47f4243868892881efedc20a649df8879cca33c5`). The next three unique V2 pass rows account for 1706→1708:
+
+- 1706: `content/sentence_bank/long_food_shopping_03.json[91]` — second-hand lunch bag product interview; commit `28d56fdac35e2d06a932839de02408d8961d052f`.
+- 1707: `content/sentence_bank/long_food_shopping_06.json[55]` — salmon-skin Macau/Taipa map callback; commit `762ce9ff15b2b4cd620feac37238369883b91e79`.
+- 1708: `content/sentence_bank/long_food_shopping_04.json[58]` — milk-return evidence lineup and roommate “return” callback; commit `64f4288a48e378264265afba672cf679e305df8a`.
+
+The V2 ledger contains one pass record for each row and its current source hash. The mechanical 5,000/5,000 result is not a semantic pass. Current live `-resume` is `64f4288a48e378264265afba672cf679e305df8a`; the original goal branch remains unchanged at `3839000bf6829de38abb3027a48174b2c00cd83d`.
