@@ -10446,10 +10446,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 21,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b210482680f0623727ae152875fe132e1cc556ba30d278342bae6621db48394a",
-      "v2_sha256": "b210482680f0623727ae152875fe132e1cc556ba30d278342bae6621db48394a",
-      "notes": "The leaking soup is photographed, replaced, and followed by an address-note update after the courier turns into the wrong lane. Those actions resolve the service issue but create no comic escalation or payoff. Screened against approved `long_home_family_08.json` indexes 166 (delivery misunderstanding/address-note fix) and 171 (delivery wait/soup interruption); the surface details differ, but this card currently uses the same routine correction pattern. Keep needs_revision until the leak itself drives a distinct comic event."
+      "v2_sha256": "6d2ea7d15c16b3063f95dcaba94c1bb33a3fb5339ee721c160613879b4a1fa5f",
+      "notes": "Rebuilt the spill response around over-courteous staging: the first bowl leaks, then the family lays a place at the table for its replacement and gives it a formal entrance. The sister calls it a VIP; Dad's callback that the first bowl left before sitting down earns the personification. Cross-screened approved long_family_finance_services_01[38] (a family struggles with a tight jam-jar lid; this rewrite has no container-opening gag); also checked long_home_family_08[171] (Dad waits for a neighbor's parcel while soup nearly boils over; mismatched shoes drive the gag) and [166] (delivery call mistaken for a repair visit); this card has no waiting, mistaken-recipient, address-note or container-opening plot. Checked all four fields and contextual Jyutping. Category and baseline digest preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
