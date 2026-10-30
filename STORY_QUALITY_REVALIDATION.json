@@ -23038,10 +23038,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 60,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "18a5a8dbced2a8139b3cdda7ef835e3263abe74ac3d147b20972947bc7925fc3",
-      "v2_sha256": "18a5a8dbced2a8139b3cdda7ef835e3263abe74ac3d147b20972947bc7925fc3",
-      "notes": "Needs revision: the child asks why he needs an ID and later colors a smiley face on the receipt; the scene stays procedural and the “small adult” line is mild. Also the Simplified gloss contains an untranslated Traditional sentence (“我們把回執…”) near the end, so it is not fully Simplified. All four fields read."
+      "v2_sha256": "1a7ed452e12ff7bda92ef7a5d6b8938a80cbad410932d0879b8283afbb5e91c4",
+      "notes": "V2 rewritten as a non-family certificate-service story. A friend rehearses the face from an old ID photo; the routine identity check triggers an over-serious pose, a huge looping signature, a clerk’s dry correction, then increasingly anxious front-camera checks and the retirement-photo callback. Category and row identity preserved. Compared with approved certificate-service queue-ticket chase (index 65), this has no queue-paper pursuit; no matching old-photo rehearsal / signature / retirement punchline found in the category. Manually reviewed all four fields, including contextual Jyutping, complete Simplified gloss, and exact story-tip prefix."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
