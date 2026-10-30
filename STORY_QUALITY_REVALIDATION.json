@@ -8549,10 +8549,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_11.json",
       "index": 42,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "279cf320280017384a39076954a6aa180c7bd793bceb70c0512aa83a4eaed76d",
-      "v2_sha256": "279cf320280017384a39076954a6aa180c7bd793bceb70c0512aa83a4eaed76d",
-      "notes": "Read all four fields. A 60-day payment term squeezes payroll, and a missing acceptance date is corrected with a deposit clause; the bread-at-lunch detail and egg tarts are mild, but the story ends on a straightforward cash-flow fix without a comic payoff. Business financing is central."
+      "v2_sha256": "aa743f4ad414ebc5b515dec8b7c03b72cfefef13ae3247f2e0f122e3eacef7c7",
+      "notes": "Read and reviewed all four fields. The freelancer cash-flow issue remains central: client payment is delayed while payroll and software fees recur; the accountant separates receivables from cash, the owner checks overdraft costs, negotiates staged acceptance/payment, and retains operating funds. A partner misreads the receivable as money already received, leading to a coffee order that is cancelled, then a closing callback after payment arrives. Category remains freelance cash flow; contextual Jyutping checked against the Cantonese text."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_11.json",
