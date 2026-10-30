@@ -10622,10 +10622,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 43,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f6e23fc99af171a097eb59d4423b8affcbe4a65ccbc0cff1f23c108d27a79494",
-      "v2_sha256": "f6e23fc99af171a097eb59d4423b8affcbe4a65ccbc0cff1f23c108d27a79494",
-      "notes": "Needs revision: too much chili leads to coconut milk, potato, apple and a neighbour’s pickled radish; the sister’s water-speed line is amusing, but the extra beats diffuse the escalation and the story ends on a recipe note rather than a strong payoff."
+      "v2_sha256": "75a1bcac91ff15786c1a29f447bf550cdabeab7d216730ed0bd34c70fd931844",
+      "notes": "Manual V2 review: recast as a non-family community cooking class. The friend repeatedly interprets the cooking term 「收汁」 literally and fills a measuring cup; classmates mistake the cup for a drink, the instructor restores the sauce, and the closing 「收火」 callback is answered by pointing to the stove switch. Kept the category and all four language fields; reviewed Cantonese wording, Jyutping line by line, Simplified gloss, and exact practice-tip prefix. Cross-corpus search found no matching collect-the-sauce / collect-the-fire gag."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
