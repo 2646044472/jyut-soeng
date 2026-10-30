@@ -14719,10 +14719,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 55,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5375c8c244e3123f927fb53ae12e33357804ba5120d56653789388a5c24c0852",
-      "v2_sha256": "5375c8c244e3123f927fb53ae12e33357804ba5120d56653789388a5c24c0852",
-      "notes": "The salmon skin sticks and tears into a map, followed by the roommate naming two places; this is a single visual comparison, while the cooking handoff ending adds no comic consequence. Checked all four fields."
+      "v2_sha256": "1acdf6a74d1e9881b38c787a13f727103ef6f58a5288087bddeda46f34c3026c",
+      "notes": "V2四字段主审：街市档主按外脆内嫩要求选中间厚切三文鱼并分包；回家煎鱼时计时器响，转身拿碟导致鱼皮黏锅裂成两块。室友先把碎片认作澳门半岛和氹仔，拼图时又散出碎片变成离岛，葱段搭桥再被夹断；最后“最远离岛”被室友吃掉收尾。原分类街市買餸与鱼档采购相符；室友场景非家庭核心。检索其他地图/鱼皮故事并比较；仅此卡以煎鱼裂皮及地图连锁笑点为冲突机制。人工核对自然粤语、语境粤拼声调、完整普通话释义与练习提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
