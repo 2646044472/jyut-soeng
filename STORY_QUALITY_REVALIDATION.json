@@ -22060,16 +22060,16 @@
       "index": 26,
       "status": "needs_revision",
       "baseline_sha256": "77b9bfa4308dd8f8ec4ac9ce99d87705b4e2910a5b399c808cbd198c4dbea49a",
-      "v2_sha256": "77b9bfa4308dd8f8ec4ac9ce99d87705b4e2910a5b399c808cbd198c4dbea49a",
-      "notes": "Needs revision: a fallen carrot becomes a toy rocket and the soup is shared with the neighbor; the story is warm but the play scene does not produce a strong reversal. All four fields read; gloss and tip match."
+      "v2_sha256": "99d6da7f892880329758056010c15b4b3af65e49fb60756d97cc5d83934ad778",
+      "notes": "Rewritten bowl-inspection gag still overlaps the prior sugar-adjustment and yogurt taste-test plots. Keep as needs_revision pending a distinct soup conflict and ending. Jyutping and four fields are mechanically synchronized; semantic uniqueness not approved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 27,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f3ff551b7f0de3187f57fd18284c802a02a44a1afee367d4506b3bc7ce8ae481",
-      "v2_sha256": "f3ff551b7f0de3187f57fd18284c802a02a44a1afee367d4506b3bc7ce8ae481",
-      "notes": "Needs revision: using the wrong low-salt soy bottle leaves the fish pleasantly mild; the family’s response is routine, and the ending shifts to washing dishes without a prior comic setup. All four fields read; tip matches."
+      "v2_sha256": "e3b5c2b0cb00471b9e79d845577fcb10b2f7e935b4008db5a31734705c2f1225",
+      "notes": "Rebuilt around the low-salt soy bottle and Dad’s habitual two-ring pour. He ignores the label, claims he was giving the fish two choices, and next-day labeling turns his job into the hardest task. Reviewed colloquial dialogue, all four fields and contextual Jyutping. Removed a stray extra sentence particle; semantic focus remains distinct."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
