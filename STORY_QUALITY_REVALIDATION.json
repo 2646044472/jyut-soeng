@@ -22131,10 +22131,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 35,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "076d3ae06f56877b152c90963717723308a4348f13dc2f55f3a7b84b5ea050b9",
-      "v2_sha256": "076d3ae06f56877b152c90963717723308a4348f13dc2f55f3a7b84b5ea050b9",
-      "notes": "Needs revision: a few cereal rings spill and become a toy train; the child also repeats the label’s sugar information. The train image is a small gag but the story lacks escalation and ends with breakfast instructions. All four fields read; tip matches."
+      "v2_sha256": "e74eb0a12c88f127db7187d24650674b7546ba8edbea617c3ba9faccc86d0226",
+      "notes": "Rebuilt from the family train/sugar-tasting sequence into a night-shift meal-naming scene. The worker calls the 1 a.m. cereal his breakfast while a coworker treats the same meal as dinner; a delivery worker joins the debate, the manager calls it an employee meal, and the “low sugar, not low time difference” line closes the loop. Screened against corpus notes on timezone birthday/cake and night-shift family routines; no matching shift-meal label/cereal callback found. Checked all four fields, colloquial Cantonese and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
