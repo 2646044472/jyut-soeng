@@ -22091,10 +22091,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 30,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5dd60b4a42f58dd300f2b4549f5088bd36302eed58971ac123a86a6f93539e93",
-      "v2_sha256": "5dd60b4a42f58dd300f2b4549f5088bd36302eed58971ac123a86a6f93539e93",
-      "notes": "Needs revision: a dropped egg yolk is caught and celebrated, but the later testing of hard rice with a fan repeats the “hot food/cooling equipment” punchline structure from another reviewed story. The meal ends as instruction, so both payoff and distinctiveness fail. All four fields read."
+      "v2_sha256": "93449fa3f232ec973eda2a1f499dab47097d211aa6a63bd32641bb95b3aa243a",
+      "notes": "Replaced the dropped-yolk and fan-cooling sequence with a shared-lodging congee scene. The friend forgets to subtract the measuring cup, so the rice-water ratio is wrong; overnight absorption turns the thin porridge into a thick block, and the spoon-standing test callbacks to his overmeasurement. Workplace peer scene, not another family food lesson; reviewed all four fields and contextual readings."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
