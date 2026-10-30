@@ -5278,10 +5278,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 59,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "494615d21e51fa32c49ed720034263c415123244327dc5ee1a112c1baeab1bda",
-      "v2_sha256": "494615d21e51fa32c49ed720034263c415123244327dc5ee1a112c1baeab1bda",
-      "notes": "Root individually reviewed all four fields. The carbon-stained receipt and competing month dates create a clear discrepancy, but the solution is a corrected reprint; the tax-crumbs line is a small tag without meaningful escalation. Donation-record correction/accounting core; needs stronger comedy."
+      "v2_sha256": "f5e83673b23baa6ecd82b4b771f759daa72880d263a88db213fa247ac3738b10",
+      "notes": "Rebuilt the receipt-date discrepancy around the biscuit-jar oil ring: grandpa first mistakes the circular mark for an official stamp, then confirms the donation record and gets the receipt corrected. While waiting, he keeps the biscuit jar away from the mail pile; the final line says it can stamp only a ring of oil. Reviewed all four fields, date logic, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
