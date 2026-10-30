@@ -6491,10 +6491,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b3587050e0b7fc5fe48c672778fadefae15b92f110a33100c87546dca259830d",
-      "v2_sha256": "b3587050e0b7fc5fe48c672778fadefae15b92f110a33100c87546dca259830d",
-      "notes": "The retirement travel drawing becomes a family budget discussion and an ordinary market stroll; the medication-box map and noodle “first stop” are warm but do not deliver strong comedy. Individually checked sentence, Jyutping, full Mandarin gloss and story-specific usageTip.",
+      "v2_sha256": "2de50fc040888734c73959aa99f9ebd6a64ef6f1157c42bc3e063b7207dc986c",
+      "notes": "Rebuilt around an old coworker who writes “周圍行” in his retirement plan, then gets mistaken for a neighborhood guide; tourists extend the route, even familiar stallholders stop to listen, and the final “no one asks directions” callback lands. Retirement planning frames the scene, without a money dispute or family template. Checked all four fields, full Simplified gloss and contextual Jyutping; 221 Han characters / 221 aligned tokens.",
       "revalidated_at": "2026-10-27"
     },
     {
