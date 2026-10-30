@@ -10942,10 +10942,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 83,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c5c182bdae418145fed3db5292ed3766a5501f0ad11a38e4e8e05fad8ddf026f",
-      "v2_sha256": "c5c182bdae418145fed3db5292ed3766a5501f0ad11a38e4e8e05fad8ddf026f",
-      "notes": "Needs revision: the meat/vegetarian bill split, swapped tofu, and missed tea charge form a routine restaurant-accounting sequence; “eat vegetarian next time” is not a developed comic payoff."
+      "v2_sha256": "08d5140b291f7355eb9f64099e0b0ce03c300564f3ea8c1ee2a2d489706bfe3d",
+      "notes": "Rebuilt the colleague lunch bill story around increasingly formal item-by-item accounting: a missing tea triggers a seat chart and the joke that the table has become a shareholders’ meeting. Keeps the original colleague setting and category; manually reviewed all four fields and the new dialogue/payoff."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
