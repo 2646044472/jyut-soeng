@@ -22426,10 +22426,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 20,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f58d71daa7327a74bc24987e83893fb510ad546a60e9e1168dc04e919573d7d6",
-      "v2_sha256": "f58d71daa7327a74bc24987e83893fb510ad546a60e9e1168dc04e919573d7d6",
-      "notes": "Needs revision: a shopping-bag wobble nearly drops eggs, then burnt toast is liked and an egg is rescued from overcooking. These are separate mishaps; no comic story arc. All four fields read; gloss/tip match."
+      "v2_sha256": "389694bd716f78727369144779a9d7f0902e0c6851cf32ad3dc0966763c10cf5",
+      "notes": "Connected the burnt-toast and egg problems through one brunch service: the early friend upgrades the crisp toast into a “starter” and asks for another slice while the narrator is distracted; the grandmother rescues the eggs on low heat. The friend then arranges both dishes as starter and main, turning the mishap into the story’s callback. Reviewed the full Cantonese, complete gloss, contextual Jyutping, tip, and distinction from approved baking and breakfast stories.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
