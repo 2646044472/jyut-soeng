@@ -22340,10 +22340,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 10,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6496192bdb3704fb5039dd7deec809477e61ff2293abbd86637af52809373301",
-      "v2_sha256": "6496192bdb3704fb5039dd7deec809477e61ff2293abbd86637af52809373301",
-      "notes": "Needs revision: steam fogs the father’s glasses and a corn piece nearly falls back into soup; the suggested face shield is a mild tag, not an earned punchline. The rest is recipe narration. All four fields read; gloss/tip match."
+      "v2_sha256": "fa748a7688081f43cae2a854b394da8d14b94e29dfbede57dfa8198b1ebb078a",
+      "notes": "Rebuilt the cooking anecdote around steam obscuring the father’s glasses, a near-falling corn piece caught by the ladle, and his improvised “visibility report” that reads the soup surface as weather. The closing forecast joke pays off the fog and corn rescue. Compared nearby corn soup and home safety stories; this dad’s mock weather report is distinct. Reviewed all four fields, natural Cantonese and contextual Jyutping.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
