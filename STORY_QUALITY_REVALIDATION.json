@@ -5110,10 +5110,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 38,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "64c31a3cdd41c7a8b06c1fd5c0be73215ca3523791019bdee42442bd5debdecc",
-      "v2_sha256": "64c31a3cdd41c7a8b06c1fd5c0be73215ca3523791019bdee42442bd5debdecc",
-      "notes": "Root individually reviewed all four fields. The magnifying-glass and “will the money go travelling?” lines are clear, and the final two-bank pun repeats that image, but the story is bank comparisons and verification rather than escalating comedy. Needs a stronger reversal; core international transfer scenario is repetitive."
+      "v2_sha256": "fa2c10aa22adc2746b90c34afb3d6421006ea5036233d2739e59c44859c4a888",
+      "notes": "Rebuilt the bank-comparison story around the “zero fee” reversal: the aunt first chooses the advertised free option, then checks both banks’ official net-to-recipient estimates including FX and intermediary fees, and chooses the fee-charging option that delivers more. The magnifier punchline shifts from tiny print to the final credited amount. Reviewed all four fields, transfer logic, distinct plot, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
