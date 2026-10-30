@@ -21994,10 +21994,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 18,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e4df3a4a3d1ae8d59f679fb5be4dbe2b1cfdad1fcc4dd6d9443c376d88cf014a",
-      "v2_sha256": "e4df3a4a3d1ae8d59f679fb5be4dbe2b1cfdad1fcc4dd6d9443c376d88cf014a",
-      "notes": "Needs revision: the child mistakes frozen peas for candy, then eats them cooked with rice; the cold reaction and “pretend candy” line are one small gag without escalation. All four fields read; gloss and tip cover the scene."
+      "v2_sha256": "b5bbc1902ee3340ebeda7c2d29d886dee87a6dd6ed03c8171c2a942bafd96df1",
+      "notes": "Rebuilt the pea scene around the sister trying to break apart a frozen clump with a rolling pin. The noise is mistaken for drumming, the torn bag scatters peas across a clean tray, and Dad chasing one with chopsticks earns the fishing joke. The “don’t drum” label callbacks to the opening and closes the scene. Manually checked all four fields, colloquial Cantonese, Jyutping character alignment and contextual readings, complete Simplified gloss, and story-specific tip; category and nonlanguage metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
