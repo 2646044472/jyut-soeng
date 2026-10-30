@@ -12998,10 +12998,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 40,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "01699b4b42d371e1db315277b19afa8ea8ea5c1fea30b7251c1cb22578f1f9dd",
-      "v2_sha256": "01699b4b42d371e1db315277b19afa8ea8ea5c1fea30b7251c1cb22578f1f9dd",
-      "notes": "Needs revision: a leaking salad dressing is replaced and coworkers enjoy the meal, but the later color/recipe questions repeat the same compliment and do not escalate. Jyutping spells 我 as ng5 in two places; correct to ngo5 during rewrite. Four fields read; no source edit."
+      "v2_sha256": "e55a23c027a0e2d063998af9b78934745b3a0c45bdaa5f365127f58aa64f2e73",
+      "notes": "Pass after V2 rewrite. Nonfamily coworker lunch; category 超市購物 retained. The leaking dressing means the bag has “eaten” before lunch; coworkers label it as already served, keep the replacement dressing sealed until the salad is plated, ask whether the bag wants corn, and finally refuse to feed it again. The spill is exchanged before eating; distinct from the separate missing-label watermelon and “走糖” tea-shop wordplay. Four fields reviewed; Jyutping aligned and contextual readings checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
