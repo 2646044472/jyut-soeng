@@ -4950,10 +4950,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 18,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c6593ae6bce4e3e756788d7f51afebae60bba92f77a58915a6cc2f87273443e0",
-      "v2_sha256": "c6593ae6bce4e3e756788d7f51afebae60bba92f77a58915a6cc2f87273443e0",
-      "notes": "Root individually reviewed all four fields. The allergy-test/exam misunderstanding is clear and recurs with the cheating line, but the final tomato question and “no second exam” line simply restate the premise; there is no substantial escalation or reversal. Clinic fee detail further dilutes the joke. Needs rewrite."
+      "v2_sha256": "85411fbc89035d17605d99f6bea26f6166bf44c444bc79f05377d4707c8ae1fb",
+      "notes": "Replaced the exam-pun and fee-heavy allergy story with a safe, distinct color-based suspect lineup: the brother mistakes the family’s red mark beside shrimp for a reason to accuse every red package, the clinician explains results in context, and the brother then labels ingredients correctly. The red jersey becomes the final false suspect. Kept guidance clinician-led and checked all four fields, natural speech, coherence and Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
