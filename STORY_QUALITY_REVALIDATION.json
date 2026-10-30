@@ -5246,10 +5246,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 55,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d0c8dea44ea31028501345f9242b57e3a472f7afdd875464cf37dc753dfdaf89",
-      "v2_sha256": "d0c8dea44ea31028501345f9242b57e3a472f7afdd875464cf37dc753dfdaf89",
-      "notes": "Root individually reviewed all four fields. The suspicious donation photo and private account are handled safely, but the resolution is choosing a smaller amount after household budgeting; the father’s line is advice, not a punchline. Donation amount/account verification is the core conflict and needs a more comic treatment."
+      "v2_sha256": "e4ad5985b2df6565dc02da2e9868191b8fdac75c37eeb43ada20788178f70f22",
+      "notes": "Rebuilt the disaster-donation scene around two audiences: dad wants the donation to be anonymous publicly, while the household still has to record the exact amount for rent and medical expenses. They reject a private-account appeal, verify the charity through its registered official channel, and agree on an affordable amount. Mom’s “anonymous outside, itemized inside” line closes the generosity-versus-ledger conflict. Reviewed all four fields, safety logic, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
