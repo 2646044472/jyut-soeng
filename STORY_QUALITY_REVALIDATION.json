@@ -13359,10 +13359,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 85,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "fba222d386ed1627cbb6af29162f522aaf09c0e79c40311f8287db48d3de0a62",
-      "v2_sha256": "fba222d386ed1627cbb6af29162f522aaf09c0e79c40311f8287db48d3de0a62",
-      "notes": "Needs revision: a missing honey jar prompts a recipe substitution that friends like, but the scene resolves smoothly as a cooking success story; the high honey price is an incidental money mention, not a comic reversal. Four fields read; no source edit."
+      "v2_sha256": "bd864cb3907e3dcd1e3ae81b7738dbb99ec26cc4d9795b2600c780d725cb2e8a",
+      "notes": "Kept the friend dinner and lemon-herb substitution after honey ran out. The friend records “friend arrives half an hour early” as if it were an ingredient, then asks whether arriving an hour early means he can eat two more wings. The host answers with a rising-heartbeat callback to the rushed cooking. Corpus search found other chicken-wing/honey stories, but they center family barbecue, surplus sharing, or sauce burning; none uses the missing-ingredient/early-guest recipe misclassification. Manually reviewed four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
