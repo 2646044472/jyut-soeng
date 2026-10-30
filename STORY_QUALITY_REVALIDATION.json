@@ -21986,10 +21986,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 17,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "835753b44980990d2f5515ec1b0d2a1b093be188879cfa7b86e89bc00e073c6d",
-      "v2_sha256": "835753b44980990d2f5515ec1b0d2a1b093be188879cfa7b86e89bc00e073c6d",
-      "notes": "Needs revision: the child hides a biscuit in the lunchbox, forgets fruit, then shares an apple. The classmates’ question is mild; it ends as a lesson about packing order, with no reversal. All four fields read; gloss and tip match."
+      "v2_sha256": "b0e240c6ff1a14378eddd0378cbde0ddacc45a2562fc3398b2d8a8199654637c",
+      "notes": "Rebuilt the lunchbox scene around the boy’s attempt to obey the fruit-first rule by turning the lunchbox upside down. The apple rolls to the top, the rice ball sticks to the lid, and he catches the yogurt before setting everything straight; the mother’s final reminder callbacks to his plan. Manually checked all four fields, colloquial Cantonese, Jyutping character alignment and contextual readings, complete Simplified gloss, and scene-specific practice tip; category and all other metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
