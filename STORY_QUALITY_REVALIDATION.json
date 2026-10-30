@@ -22827,10 +22827,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 31,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f733e3499ed7ca55f787493ef16de0b39a422ac84bad17b574d2ba73dcb82bed",
-      "v2_sha256": "f733e3499ed7ca55f787493ef16de0b39a422ac84bad17b574d2ba73dcb82bed",
-      "notes": "Needs revision: a market outing turns into a reunion with an old neighbor and shared fruit, but “fruit shopping became a nostalgia trip” is a gentle summary rather than an earned punchline. All four fields read; tip matches the outing."
+      "v2_sha256": "f325bfd3f0514936ef5761ac2a379a8cbfeab2245208e9688fb03273d54c4229",
+      "notes": "Rebuilt the mild market reunion as a fruit-picking lesson with an escalating student/exam framing: two old neighbors teach the narrator, the stallholder mistakes it for staff training, and the picked fruit receives a literal “pass” label. The final line callbacks to the grade. Screened against accepted neighborly fruit-sharing and grapefruit-pushing stories; this uses a distinct teaching/exam mechanism. Reviewed all four fields and contextual Jyutping alignment."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
