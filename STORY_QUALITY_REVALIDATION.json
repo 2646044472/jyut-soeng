@@ -19896,10 +19896,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 2,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "cb8268ba7faddc3512ec6ea2a3e6c06d2bba819f121589765f611bac554c299e",
-      "v2_sha256": "cb8268ba7faddc3512ec6ea2a3e6c06d2bba819f121589765f611bac554c299e",
-      "notes": "Reviewed all four fields. A fire alarm interrupts curry cooking after the cook once confused sugar with salt; the meal is rescued, but neither event pays off the other in a strong joke."
+      "v2_sha256": "2af9a1fe64ab38ff1d9324505335ced69031efc8ecd7e25e79f61fb173ed3bbf",
+      "notes": "V2 主審：原稿的糖鹽失手與火警疏散互不遞進，改為完全非家庭的公司聚餐採買。阿健自訂「一趟不拿籃」挑戰，手臂逐步被法包、葡萄、餅乾和番茄佔滿；最後取會員碼時需同事托物，店員點出「一趟」其實靠接力，回公司後阿健回扣並承認下次先拿籃。保留分類「買公司聚餐材料」。使用 6.1-terra 對單卡機制作獨立審閱；另查找「一趟/購物籃/雙手」與購物場景，未見同一自訂空手搬運挑戰及收銀接力鏈；已通過蔬菜包葉故事雖用生菜與食材，核心是葉片破裂與野餐造船，不同於購物搬運。逐項人工核對正文、語境粵拼、完整簡體釋義、提示前綴；待鏡像建置核驗。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
