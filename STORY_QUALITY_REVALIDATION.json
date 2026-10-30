@@ -4542,10 +4542,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 67,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c45d9f39caa477e18a8d4fac8f107636db699e58edb6de9eda336d224b918016",
-      "v2_sha256": "c45d9f39caa477e18a8d4fac8f107636db699e58edb6de9eda336d224b918016",
-      "notes": "The mother borrows a child’s pink homework book for a pension-tax question; a clerk calls her a student, then she completes the form by asking questions. The scene is procedural and resolves as an explicit lesson, without a strong comic payoff. All four fields checked; rebuild."
+      "v2_sha256": "b2e365ef206202cfa2869b6dbf6e348a00bd4735c1dcb11892f507a8703db573",
+      "notes": "Rebuilt the tax-help encounter through the volunteer's point of view, retaining the pink homework notebook but giving it an escalating assignment/grade/receipt callback. The attendee asks what to report for a retroactive pension payment; staff checks her notice, explains the forms, attachments and deadline, and tells her to leave uncertain fields blank. She methodically checks off each question, then asks whether the stamped receipt is her grade sheet. This replaces the original one-beat student mix-up and explicit lesson ending. Checked all four fields and contextual Jyutping; no duplicated joke found in the surrounding reviewed retirement cards."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
