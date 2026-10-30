@@ -5270,10 +5270,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 58,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b66aa3c67d93cc343517ce0575bfcb94d95d513a8f1aff4d91e9505a6538864d",
-      "v2_sha256": "b66aa3c67d93cc343517ce0575bfcb94d95d513a8f1aff4d91e9505a6538864d",
-      "notes": "Root individually reviewed all four fields. The worn coat and mistaken payment graphic form a coherent charity-donation scene, but the grandfather’s closing statement is an earnest moral about not donating unwanted items, not comedy. Payment verification and donation choice dominate; needs a more humorous, earned ending."
+      "v2_sha256": "099d4c1a8a128a7aa50b0adc4f07037b8eb326d66e3cb055a86d01f18d75ba0d",
+      "notes": "Rebuilt the worn-coat donation around a useful second life: the center accepts funds for properly sized new winter clothes, while grandpa repurposes the torn coat fabric into a deep pocket for the grandson’s backpack. The backpack now “wears” winter clothing and keeps the keys. Reviewed all four fields, donation handling, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
