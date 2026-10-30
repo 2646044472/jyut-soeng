@@ -4718,10 +4718,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 89,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7671b4e872b09c95e1d4350cac2e71f25d66205fddeeede10590735ee2bc041c",
-      "v2_sha256": "0b229f61b1ec33e87121da63b8382c77bfd6017ad9dec4b751c8cd12c11fe9d6",
-      "notes": "Needs revision after semantic re-review: the combined two-month notice is factual, but the neighbor jumping from hearing “dance” to volunteering and searching for music has no motivated chain; the final kitchen-light line is only a loose callback. Preserve this text but do not count it as a V2 pass; rewrite with grounded escalation."
+      "v2_sha256": "8b6fe7c3399d8af22e972ec13a0ddfe44f01739c370ea8a5cfe84cb863b813c0",
+      "notes": "Rebuilt the loose dance-party joke around a real check of the corridor motion sensor: the neighbor’s plaza-dance playlist motivates her movements, and the sensor follows her like a spotlight. Management confirms the combined bill is simply a late notice for two correctly metered months. The final “two steps” line pays off both the light and dance. Checked billing logic, all four fields, colloquial Cantonese, complete gloss and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
