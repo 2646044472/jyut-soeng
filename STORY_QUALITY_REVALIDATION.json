@@ -35674,10 +35674,10 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 34,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9aa69955ccda125fec1bfe280862e8debc7d06ccd68127e1d82ff8c99bdba6a1",
-      "v2_sha256": "9aa69955ccda125fec1bfe280862e8debc7d06ccd68127e1d82ff8c99bdba6a1",
-      "notes": "The painter uses the wrong dark blue and the wall suits the room, but the mistake resolves as a simple decorating choice; there is no escalating comic reversal or punchline. Checked all four fields; tip corresponds."
+      "v2_sha256": "797ad6e42d0031f3ac885b742b16787f02679a4c7572afa8433f21e15fd44ce3",
+      "notes": "Pass after restructuring the decorating scene into an escalating visual gag: dad offers himself as a blue swatch, his matching shirt disappears against the wall, and the painter asks if he should paint the father’s features. The final “swatch that walks away” line callbacks to his model role. Checked all four fields and contextual Jyutping. Cross-screened approved wall/paint scenes: the sofa-shaped paint outline in long_family_finance_services_05[3] uses a different joke engine. Category and baseline digest preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
