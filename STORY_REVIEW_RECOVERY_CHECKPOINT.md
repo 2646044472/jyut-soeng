@@ -863,3 +863,9 @@ The V2 ledger contains one pass record for each row and its current source hash.
 
 - Continued from 1,717/5,000. The next ledger row `long_family_finance_services_06.json[61]` is explicitly a father/parents retirement-payment scene, so skipped it without edits or counting. Selected `content/sentence_bank/long_food_shopping_03.json[32]` (`麵包店`), a non-family coworker tea break. Reworked it so coworkers eat crisp croissants during a video meeting; the remote team mistakes the pastry crunch for applause, and the late coworker triggers a second “unanimous vote” mishearing. A corpus search found a separate watch-ticking story with applause, but its plot is a household’s interrupted listening attempt, not a food-noise/meeting misunderstanding.
 - Manually reviewed all four fields and contextual Jyutping; 248 Han characters / 248 syllables, complete Simplified gloss, exact `故事练习：` tip. V2 hash `f2d8e301e5a50216ef239b30c7404403dfe8503cb49bf2fd3f9c6ca03c20bca0`. Current expected progress 1,718/5,000; validation and push pending.
+
+
+## Active continuation — 2026-10-30, noodle bowl version testing
+
+- Continued from 1,718/5,000 with `content/sentence_bank/long_food_shopping_03.json[46]` (`辦公室午餐`), non-family coworkers. Kept the request for pickled greens on the side and made 阿健’s gradual additions build into a software-testing bit: he records each portion, calls the meal “still in the test version,” then asks the shop to stamp “version one” while they have eaten only half the bowl. Removed unrelated frozen-soymilk and restaurant-recommendation beats. No health/safety claims added.
+- Manually reviewed all four fields and Jyutping; 252 Han characters / 252 syllables, complete Simplified gloss and exact `故事练习：` tip. Hash `f5d74765780704aa68cc7a9c6c5edd7593bbd4ae54c746219f4d5c9b2906d844`. Current expected count 1,719/5,000; checks and push pending.

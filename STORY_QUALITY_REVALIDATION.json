@@ -12246,10 +12246,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 46,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "0eb36c19b06aca7f1adf18ba589a69988dc7a38984ea8650d16053456833bd81",
-      "v2_sha256": "0eb36c19b06aca7f1adf18ba589a69988dc7a38984ea8650d16053456833bd81",
-      "notes": "The restaurant separates condiments after a missed request; the rest is a straightforward meal and plan to return."
+      "v2_sha256": "f5d74765780704aa68cc7a9c6c5edd7593bbd4ae54c746219f4d5c9b2906d844",
+      "notes": "Focused the office-lunch story on the coworker’s gradual seasoning: he records each small addition as if testing a new software release, and the loyalty-card stamp becomes “version one” while they have only eaten half the bowl. Keeps the condiment separate; no health or safety advice added. Manually reviewed all four fields and Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
