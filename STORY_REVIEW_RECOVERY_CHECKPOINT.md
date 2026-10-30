@@ -1420,3 +1420,11 @@ The V2 ledger contains one pass record for each row and its current source hash.
 - Manually reviewed all four fields; Cantonese sentence/Jyutping align at 225 Han characters / 225 syllables. Checked full Simplified gloss and event-specific tip. Source hash: `c11347c3d26d72ebfabede4d82b38075415863f4172d4ffba8b04acf30706cc3`.
 - Rebuilt app bundle and verified exact sentence, Jyutping, gloss and tip mirror plus `qualityPriority=1`. `python tools/validate_content.py` passed (8,000 entries); unit tests passed (7 run, 1 skipped); checklist regenerated; `git diff --check` passed.
 - Ten-card set adds `14[7]`: additions 1, withdrawals 0, deletions 0, net +1. V2 is 1,746 pass / 3,254 needs revision / 0 pending. Other set members remain needs-revision under their individual notes; no category changed. Next unique queue begins at `long_food_shopping_14[11]`; project incomplete.
+
+## Active continuation — 2026-10-30, ten-card work set: `long_food_shopping_14[11–14,17–21,43]`
+
+- Continued after the previous verified resume commit `83f4993ff818238bfbccc27a3ba99b543956fdab`; excluded already-passed `[15]` and `[16]`. Reconciled ten unique needs-revision IDs across this source file, retaining categories.
+- Reworked `[43]` (`在家工作買快手午餐材料`) as a WFH lunch story. The daughter uses the three-minute noodle timer to help the father eat on time; his workday outlasts the cooking timer, so she leaves it beside his computer as a next-day reminder. The timer ties setup, action and callback together. No similar approved WFH-lunch timer plot found; no category change.
+- Reviewed all four fields. Macau Cantonese and Jyutping align at 221 Han characters / 221 syllables; full Simplified gloss and event-specific practice tip match. Source SHA-256: `c4f9e5eccc83e5220c4c42738815a046849cfbec62535bbc416ad27cb794004e`.
+- Rebuilt the app bundle; exact source-to-app sentence, Jyutping, gloss and tip plus `qualityPriority=1` verified. `python tools/validate_content.py` passed (8,000 entries); unit tests passed (7 run, 1 skipped); checklist regenerated; `git diff --check` passed.
+- This set adds `[43]`: additions 1, withdrawals 0, deletions 0, net +1. V2 is now 1,747 pass / 3,253 needs revision / 0 pending. The other nine cards remain needs-revision under their specific notes. The next queued row to resume is `long_food_shopping_14[22]`; project incomplete.

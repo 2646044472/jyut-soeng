@@ -21104,10 +21104,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 43,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "851ab4fc6effb43f3dbac2b1c1b091c4976cbc14ecbf92f04f69cc8c556f8d1a",
-      "v2_sha256": "851ab4fc6effb43f3dbac2b1c1b091c4976cbc14ecbf92f04f69cc8c556f8d1a",
-      "notes": "The daughter learns to make quick soup noodles and volunteers to refill ingredients. This is a warm family cooking scene without conflict escalation or an earned joke; tip/gloss match. Reviewed sentence, Jyutping, full gloss and story-specific tip; no source edit."
+      "v2_sha256": "c4f9e5eccc83e5220c4c42738815a046849cfbec62535bbc416ad27cb794004e",
+      "notes": "Rebuilt the work-from-home lunch scene around the father's repeatedly delayed meal: the daughter prepares the fast ingredients, times the three-minute noodles, then calls out his workday for outlasting the cooking timer and leaves it by his computer the next day. The same timer links the opening problem, action and callback. Distinct from approved office-meeting food distribution and cooking-failure stories; no source-category change. Reviewed all four fields; Cantonese/Jyutping align at 221 Han characters / 221 syllables, with a complete Simplified gloss and event-specific tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
