@@ -11630,10 +11630,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 69,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7b2b819699476706f586b3ac4a2ddfaf68ae6ffaaefe5cdf5e07e142e67245ef",
-      "v2_sha256": "7b2b819699476706f586b3ac4a2ddfaf68ae6ffaaefe5cdf5e07e142e67245ef",
-      "notes": "Needs revision: the narrator avoids carrying a family-size yogurt after a planned sports outing moves indoors; “not carrying it all night” is a light tag, with no meaningful comic escalation or payoff."
+      "v2_sha256": "129e03365011eaa2442f1b5908c799ab2a566e2523f78444a2ed7aea1eaee21a",
+      "notes": "Manual V2 review: rewrote as a non-family after-work badminton group scene. A foil seal pull tab breaks, attempts with a tissue and dry towel fail, nearby players join the countdown, and the printed opening arrow lets 阿文 finish it; 「開封一比零」 turns the group’s applause into a sports-score callback. Kept category and shopping context. Manually reviewed all four fields, contextual Jyutping one Han character at a time, full Simplified gloss, exact practice-tip prefix, and source/app mirror. Cross-corpus scan found no matching difficult-seal / countdown / opening-score mechanism."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
