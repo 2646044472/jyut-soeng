@@ -20496,10 +20496,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 77,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a9a8b6046cbd9e6d598fa4a5c178c831ebde9095edcb635b87ffe5ac1ff81fa0",
-      "v2_sha256": "a9a8b6046cbd9e6d598fa4a5c178c831ebde9095edcb635b87ffe5ac1ff81fa0",
-      "notes": "The child learns to compare produce and later splashes water while washing it; the rest is a shopping lesson and a reflection on learning. The wet-shirt moment is not developed into a payoff. Tip/gloss match. Reviewed sentence, Jyutping, full gloss and story-specific tip; no source edit."
+      "v2_sha256": "7b011e70637d0ab7c69380f4ac69ab2e981877a911e3b311235a35273b08501e",
+      "notes": "Rebuilt the child-at-market story around his goal of trying to bargain: the stallholder’s free scallion makes him doubt whether he negotiated or was simply being polite; he tests the lesson at the tomato stall and records the giveaway as his only ‘saving’. The final self-question is a light, earned callback. Distinct from the corpus’s shopping/price-check stories; no market safety issue or category change. Reviewed all four fields; Macau Cantonese and contextual Jyutping align at 228 Han characters / 228 syllables; full Simplified gloss and story-specific tip match."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
