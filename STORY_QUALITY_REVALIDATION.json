@@ -5406,10 +5406,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 75,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "0bf1f95ea730b93bfbe70e657a0da270b16cc90e4754e3cbe43fd22e716f8d3c",
-      "v2_sha256": "0bf1f95ea730b93bfbe70e657a0da270b16cc90e4754e3cbe43fd22e716f8d3c",
-      "notes": "Root individually reviewed all four fields. The son’s rooftop-star drawing shifts the family plan to a cheaper local outing, but the ending is tender reassurance rather than a comic reversal. The plot is a loan-interest increase followed by household expenditure calculations. Needs a stronger, funny payoff."
+      "v2_sha256": "936c5ade90864ce7eb2ec392dcef2f23ad225c5e7f70e4e8f9974a07a9a88644",
+      "notes": "Rebuilt the interest-rate announcement as a child’s rooftop star-hotel role-play: paper-star room fees, self-service breakfast, a no-phone night-sky rule, then a clouded sky and an “owed refund with no interest” punchline. Preserves the planning context but replaces budget calculations and tender reassurance with escalating hotel rules and an interest/refund reversal. Reviewed all four fields, logic, Cantonese and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
