@@ -11630,10 +11630,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 69,
-      "status": "pass",
+      "status": "needs_revision",
       "baseline_sha256": "7b2b819699476706f586b3ac4a2ddfaf68ae6ffaaefe5cdf5e07e142e67245ef",
       "v2_sha256": "129e03365011eaa2442f1b5908c799ab2a566e2523f78444a2ed7aea1eaee21a",
-      "notes": "Manual V2 review: rewrote as a non-family after-work badminton group scene. A foil seal pull tab breaks, attempts with a tissue and dry towel fail, nearby players join the countdown, and the printed opening arrow lets 阿文 finish it; 「開封一比零」 turns the group’s applause into a sports-score callback. Kept category and shopping context. Manually reviewed all four fields, contextual Jyutping one Han character at a time, full Simplified gloss, exact practice-tip prefix, and source/app mirror. Cross-corpus scan found no matching difficult-seal / countdown / opening-score mechanism."
+      "notes": "Re-evaluated after category-fit audit: the supermarket visit is only a brief setup, while the story’s central event and punchline occur at the badminton court as friends struggle with the yogurt seal. This does not sufficiently fulfill category `超市買嘢`; do not count it as V2 pass. Rewrite with a supermarket-shopping-centered comic progression or retain needs_revision."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -12014,10 +12014,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 17,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "fa42b086a852765182f716360f6e9c15cb7d3a827f36e3dcd6e85efd6e89299f",
-      "v2_sha256": "fa42b086a852765182f716360f6e9c15cb7d3a827f36e3dcd6e85efd6e89299f",
-      "notes": "Finding the elder’s bus card and sharing chestnuts makes a pleasant rainy-evening scene, but no comic conflict or reversal develops."
+      "v2_sha256": "d345e49d648e3d200093edc0330529d47ce3d252d957949752806fa735d2e06e",
+      "notes": "Manual V2 review: rewrote the non-family street-snack story around a friend who calls himself a chestnut quality inspector, over-samples a small bag, draws a queue with absurd “試食要先買栗子” signage, eats the bag during inspection, then asks for a large portion. The comic escalation remains at the roasted-chestnut stall and fulfills 街頭小食; it does not rely on a family role swap. Reviewed all four fields, contextual Jyutping, complete Simplified gloss, exact usage-tip prefix, and unchanged category. Exact distinctive-phrase and chestnut/food-review searches found no same mechanism in the corpus. The punchline is a self-exposing contradiction, not a money dispute."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
