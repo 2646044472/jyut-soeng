@@ -5382,10 +5382,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 72,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "09c07d7913e530340ad93e1f9aa8059e05d21d145801666b17eaa27e9369f2c4",
-      "v2_sha256": "09c07d7913e530340ad93e1f9aa8059e05d21d145801666b17eaa27e9369f2c4",
-      "notes": "Root individually reviewed all four fields. The mother packs a heavy lunch after learning the outing fee excludes food, but the ending is simply friends waiting to ask how many servings of fried rice noodles she brought. It is a pleasant logistical anecdote with a mild topper, not strong escalation. Trip-cost core; revise."
+      "v2_sha256": "5e43150bcf2a998be38235eff2283de62b18ec2fe378642854cb6a8d582794b4",
+      "notes": "Rebuilt the day trip around a lunchbox of fried rice noodles compressed into a brick by the bus ride. A seat-bump sound triggers a brick joke, tourists mistake the sharing for organized tasting, and the close repeats the brick image. Removed trip-cost and receipt verification; reviewed all four fields, Cantonese, event logic, escalation and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
