@@ -22843,10 +22843,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 33,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "57f65ffa5f7eb617850c2edeb3b0ece1c45599f4903447cc1dac531adbe3c143",
-      "v2_sha256": "57f65ffa5f7eb617850c2edeb3b0ece1c45599f4903447cc1dac531adbe3c143",
-      "notes": "Needs revision: dad independently mails a letter and feels capable, but the scene is affirming rather than comic; the ending explains its meaning instead of delivering a punchline. All four fields read; tip tracks the errand."
+      "v2_sha256": "bf503ebcfb256aff794ca80d69c5f9a66bd5771baa3f473cc4d1e66ed619e926",
+      "notes": "Rebuilt the quiet mailing errand as a tracking/read-receipt escalation: Dad triple-checks the address, repeatedly refreshes delivery status, and learns that “delivered” does not mean “read.” He decides not to register the next letter so he can wait for a reply instead of tracking his phone. Read all four fields, checked the mail-flow logic, distinctness and contextual Jyutping alignment."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
