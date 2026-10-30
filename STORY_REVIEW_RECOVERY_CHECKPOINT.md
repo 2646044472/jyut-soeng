@@ -851,3 +851,9 @@ The V2 ledger contains one pass record for each row and its current source hash.
 - Continued from 1,715/5,000 and reworked `content/sentence_bank/long_food_shopping_02.json[59]` (`日常退換貨`), a non-family coworker story. The replacement thermos had passed an upside-down test, but the bag was still wet the next day. A second shop check shows the cup is dry; opening the bag lining reveals tea left from the first leak. The reveal repairs the cause-and-effect; after the bag dries, the paper towels “finally get off duty.”
 - Manually reviewed all four fields and contextual Jyutping; 230 Han characters / 230 syllables, full Simplified gloss and exact `故事练习：` tip. V2 hash `eeac99860c9ac963f1fe89b31e98dc764c92790afd54f8c20287a57426d0b186`.
 - A first bookkeeping-script attempt did not persist its in-memory edits; progress validation correctly caught the stale hash. No ledger-only change was made. The corrected write persisted source and ledgers, and their hashes now match. Current expected progress is 1,716/5,000; checks and push pending.
+
+
+## Active continuation — 2026-10-30, picnic cucumber escape
+
+- Continued from 1,716/5,000 with `content/sentence_bank/long_food_shopping_02.json[65]` (`日常退換貨`), non-family friend picnic. Kept the safe return of an unused chipped glass box and the store clarification that the rough spot was folded protective film. Strengthened the loose cucumber at the picnic into the punchline: the lunchbox is securely sealed, yet the cucumber slips away while the lid is open; friends joke that next time the food must be counted before lunch.
+- Manually reviewed four fields and Jyutping; 229 Han characters / 229 syllables, complete Simplified gloss and exact `故事练习：` tip. Hash `b77635af8180d9cc28b93239c29848fb3199c9dd94bf6450041602830606ff29`. Current expected progress 1,717/5,000; build, validation, commit and push pending.

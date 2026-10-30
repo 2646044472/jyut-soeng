@@ -11598,10 +11598,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 65,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "92cd5686bb89d97b64b8ca8cbc14bfb87e864b46436ab40e71ae8a303e42cbd9",
-      "v2_sha256": "92cd5686bb89d97b64b8ca8cbc14bfb87e864b46436ab40e71ae8a303e42cbd9",
-      "notes": "Needs revision: a cracked glass lunchbox is exchanged and then used for a picnic; the cucumber rolling under the bench adds slapstick, but the close returns to packing and compliments rather than an earned punchline."
+      "v2_sha256": "b77635af8180d9cc28b93239c29848fb3199c9dd94bf6450041602830606ff29",
+      "notes": "Kept the safe exchange of an unused chipped box and the clarification that the rough edge was folded protective film. Strengthened the picnic cucumber escape into the payoff: the box is secure, but the cucumber slips away during the open-lid moment; the group jokes about counting the food before the meal. Preserves category; manually reviewed all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
