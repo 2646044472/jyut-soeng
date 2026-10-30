@@ -21996,16 +21996,16 @@
       "index": 18,
       "status": "pass",
       "baseline_sha256": "e4df3a4a3d1ae8d59f679fb5be4dbe2b1cfdad1fcc4dd6d9443c376d88cf014a",
-      "v2_sha256": "b5bbc1902ee3340ebeda7c2d29d886dee87a6dd6ed03c8171c2a942bafd96df1",
+      "v2_sha256": "de085a45676ea6f8c1e12151bb2f2a5c4c13fa79fccdc2f98ffaf395c844f0be",
       "notes": "Rebuilt the pea scene around the sister trying to break apart a frozen clump with a rolling pin. The noise is mistaken for drumming, the torn bag scatters peas across a clean tray, and Dad chasing one with chopsticks earns the fishing joke. The “don’t drum” label callbacks to the opening and closes the scene. Manually checked all four fields, colloquial Cantonese, Jyutping character alignment and contextual readings, complete Simplified gloss, and story-specific tip; category and nonlanguage metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 19,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "bff82629b1ca6c76ab7ee7cb9e5c1136ae71fcae79bb464082f7d080bd28fcb7",
-      "v2_sha256": "bff82629b1ca6c76ab7ee7cb9e5c1136ae71fcae79bb464082f7d080bd28fcb7",
-      "notes": "Needs revision: the sister nearly stirs delicate tofu, is redirected to a spoon, and the leftover soup becomes lunch. This is cooking instruction and reassurance rather than a comic story. All four fields read; gloss and tip match."
+      "v2_sha256": "cb22cda463543b77abc526e07a92e8649a45cc6304232ac1d314655cee5ac58c",
+      "notes": "Rebuilt the soup scene around the sister repeatedly checking the pot: steam fogs her glasses, then Dad’s, and he nearly mistakes the scallion garnish for fish. Her earlier warning not to stir the tofu pays off when she stops him, and the next-day callback has her watching the pot from a distance with her glasses on. Manually checked all four fields, colloquial Cantonese, contextual Jyutping, full Simplified gloss, and the story-specific tip; category and nonlanguage metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
