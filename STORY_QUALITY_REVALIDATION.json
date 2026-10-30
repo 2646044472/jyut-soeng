@@ -4798,10 +4798,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 99,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "20d7498aa77049df6c33d53d9b3fc9a0d3d233875c1b6def2742685d53f5a3df",
-      "v2_sha256": "20d7498aa77049df6c33d53d9b3fc9a0d3d233875c1b6def2742685d53f5a3df",
-      "notes": "A missing tax attachment triggers an extension, repeated employer follow-up and delivery tracking; tea in the rice bowl and turning the clock to the wall are gentle tags without a strong comic escalation. Tax-document processing is central. All four fields checked; rewrite."
+      "v2_sha256": "75f7b2678e7c8a83719d6afb73c0f1084786f4cf572065f6b8a0db5667a92e92",
+      "notes": "Rebuilt the missing-attachment story around a ticking clock and the mother’s distracted tea mistake. She follows the official extension process, obtains the employer proof, checks the filing year and delivery record; after the package arrives, the father hands her a clean cup and she closes with “補件搞掂，今次到我補返杯茶,” linking the missing-item process to topping up tea. Screened out the clock-to-wall tag because that callback appears in another sleep story. Checked all four fields, deadline sequence, colloquial Cantonese, gloss and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
