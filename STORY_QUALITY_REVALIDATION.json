@@ -32413,10 +32413,10 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 29,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6b8a88df8e648911968e4587a27c27cb24fb6a161caaf333eda035dc6d7d9828",
-      "v2_sha256": "6b8a88df8e648911968e4587a27c27cb24fb6a161caaf333eda035dc6d7d9828",
-      "notes": "Needs revision: the cardboard mock-up and wrong-size delivery create a coherent shoe-cabinet problem, but the exchange resolves it routinely and the toe/key line is a weak kicker. Root read all four fields; no source edit."
+      "v2_sha256": "e44f98a02157b8ee4a69c9341a197330acff373176d0cf7e0c53cd7489791844",
+      "notes": "V2四字段主审：租屋室友共同量制鞋柜纸箱模型，门把未计入导致模型被顶歪；再以尺和订单处理送错尺寸，刚完成收纳的室友翌日又把拖鞋放回柜前造成新险情。笑点由连续量度失误升级为新柜解决不了不收鞋的习惯，室友蹲下收鞋并取消障碍赛。剧情与租屋分类匹配，非家庭核心；人工逐字核对正文、粤拼读音声调、完整普通话释义及故事练习提示，未发现语义重复。"
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
