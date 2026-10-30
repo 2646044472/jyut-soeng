@@ -21978,10 +21978,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 16,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f92391748ba5721e7456d2b0a724f049d994e4465e300e41799032dd22b65eb2",
-      "v2_sha256": "f92391748ba5721e7456d2b0a724f049d994e4465e300e41799032dd22b65eb2",
-      "notes": "Needs revision: the coffee machine stops because its water tank is not seated; coworkers mistake this for empty beans and the cleaner requests filters. The simple troubleshooting resolves without comic escalation. All four fields read; gloss accurately reflects the repeated “new colleague” subject but could be smoother; tip matches."
+      "v2_sha256": "96c780d2edf7fa4996f8b50adafbd3aa2d0b23ccb4cb7d3c24d4c19a6fc7c4d3",
+      "notes": "Manually rewrote and reviewed all four fields. The coffee-machine outage is misdiagnosed as empty or bad beans despite a half bag in view; the dry water tank resolves it, then the off-center carafe spills coffee, prompting an apology and a practical checklist. The refill discussion escalates into a half-page list, and the next-morning water-tank callback closes the scene. Checked colloquial Cantonese, every Jyutping token against its Han character, full Simplified gloss, and event-specific usage tip; category and other metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
