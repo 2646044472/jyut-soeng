@@ -4830,10 +4830,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 3,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7a1d4a870cda52d6efb47a16ee0124cc311d394eb8d4d9d81eb4c08d51402589",
-      "v2_sha256": "7a1d4a870cda52d6efb47a16ee0124cc311d394eb8d4d9d81eb4c08d51402589",
-      "notes": "Root reviewed all four fields. The watermelon-as-lift joke is a usable setup, but the actual scene becomes a notice/pro-rata-fee explanation and budget entry; “升降/亂收” is a weak pun rather than an earned comic payoff. Pure assessment/fee dispute is the core. Needs rewrite."
+      "v2_sha256": "3e6d0c5d69fc8a3417f5de2b8d0c929a37a535e1f722a210fcb5beabf8b60c3c",
+      "notes": "Rebuilt the lift-repair fee vignette around neighbors reporting stops for a top-floor watermelon and carrying it up in shifts. The management notice keeps repair timing and cost allocation in context, while the fruit-as-passenger bit escalates through landing changes and pays off when the repaired lift only takes its rind on the return trip. Cross-screened fruit/elevator and passenger/stop-reporting motifs; checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
