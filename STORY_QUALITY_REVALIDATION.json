@@ -32397,10 +32397,10 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 27,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e119cf105d0adca8e402a129809e82dec1e1aa0c979c1bc2cc2340cac257d557",
-      "v2_sha256": "e119cf105d0adca8e402a129809e82dec1e1aa0c979c1bc2cc2340cac257d557",
-      "notes": "Needs revision: the hot room motivates choosing and installing curtains, but the rainy-day doubt resolves predictably when the sun returns; the roommate’s relief is a gentle observation, not a strong comic payoff. Root read all four fields; no source edit."
+      "v2_sha256": "c83ed0ca06767a42f8209e4985505c2e17968f1aa3202ed90643d6ab01972c1d",
+      "notes": "V2 pass: west-facing afternoon heat melts the desk chocolate and trips the phone warning; a cardboard shade sends the roommate chasing a moving patch of shadow until he ends up in the hallway, then a removable curtain solves it. The chocolate callback earns the closing “recovery” line. Rewrote the prior routine curtain anecdote into one continuous physical escalation. Manually reviewed all four fields and contextual Jyutping; 237 Han characters / 237 syllable tokens. Kept rental category, identity, order, and other metadata unchanged."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
