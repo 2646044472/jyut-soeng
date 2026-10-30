@@ -4686,18 +4686,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 85,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4726ad759722a4d6aef2b7d60dd0442c3f324ee44285dd0d10a75acf28fdd1a5",
-      "v2_sha256": "4726ad759722a4d6aef2b7d60dd0442c3f324ee44285dd0d10a75acf28fdd1a5",
-      "notes": "The grandfather misreads a meal-fee line, then reveals he fears losing his chess companion; the close is sentimental, not a comic reversal. The price notice and budget entry are central. All four fields checked; replace the fee conflict."
+      "v2_sha256": "4ea65637835a5c4ef81cc424d8c221c2599623e93a03b037732de5f151d3da6c",
+      "notes": "Replaced the meal-price misunderstanding and sentimental chess ending with a library late-return story. The grandfather’s mystery novel keeps him past the due date; a renewal reminder helps him return the next volume on time, but the sequel has already been borrowed. The closing line makes the culprit late in revealing the ending. Cross-screened library and public-service charge stories; found no matching overdue-mystery/return-date callback. Checked all four fields, borrowing procedure, Cantonese dialogue, full gloss and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 86,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4af6b4fb529eb540bfc1394308b3fbafcdb0d2cfe7be64c0988cf41a4a936bdd",
-      "v2_sha256": "4af6b4fb529eb540bfc1394308b3fbafcdb0d2cfe7be64c0988cf41a4a936bdd",
-      "notes": "The father rushes a vehicle-tax payment, leaves his keys beside breakfast, and finds them while preparing to drive. The breakfast-key gag is clear, but tax payment and receipt storage remain the main action in a long service-payment set. All four fields checked; diversify."
+      "v2_sha256": "0b1a7a25a827a0bba1c41e6926710f940a7358f4cda835ab2c20ab091c7d752e",
+      "notes": "Rebuilt the vehicle-tax payment vignette as a postal-service fee story about confusing word count with postage weight and size. The grandfather first compresses two pages into tiny handwriting, then fills a postcard once the clerk explains the rate; his final question about each extra sentence making the mail carrier walk farther pays off the misunderstanding. Cross-screened existing postal stories about registered delivery and packing a paper dragon; none use this word-count/postage-rate gag. Checked postal-service details, all four fields, Cantonese dialogue, full gloss and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
