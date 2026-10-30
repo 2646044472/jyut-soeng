@@ -20816,10 +20816,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 7,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a754ec8cac0a92f5ba56c758ca3fececa7040604078a02dd02d09066a18b6c05",
-      "v2_sha256": "a754ec8cac0a92f5ba56c758ca3fececa7040604078a02dd02d09066a18b6c05",
-      "notes": "A large-print cake message solves the grandmother’s reading concern, then the cake nearly slips during a bus stop. The careful handling ends in a sweet family photo, not a comic reversal; tip/gloss match. Reviewed sentence, Jyutping, full gloss and story-specific tip; no source edit."
+      "v2_sha256": "c11347c3d26d72ebfabede4d82b38075415863f4172d4ffba8b04acf30706cc3",
+      "notes": "Rebuilt the birthday-cake order around the large-print constraint: the short inscription forces the family to trim its greeting, grandma refuses to remove her age, and her long spoken blessing pays off the four-word limit. Distinct from approved cake transport mishaps, cake-level accidents, and scheduling/serving plots; no joke about age or eyesight. Reviewed all four fields; Macau Cantonese and contextual Jyutping align at 225 Han characters / 225 syllables; complete Simplified gloss and event-specific tip checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
