@@ -22659,10 +22659,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 10,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "dd4ab63c5d31ff2bb326f8d4f33542542c02eefcae43d79a6473f3c55c127758",
-      "v2_sha256": "dd4ab63c5d31ff2bb326f8d4f33542542c02eefcae43d79a6473f3c55c127758",
-      "notes": "Needs revision: the clinic chair becomes a “companion” for the mother’s bag and a better sofa, but these are isolated anthropomorphic asides; the scene has no escalating conflict or strong ending. All four fields read; tip matches the chair/waiting scene."
+      "v2_sha256": "c8b0e52993fbbd74f768406d0cbe4303ada1f39d71bf957c377b2aeeab34669f",
+      "notes": "Rebuilt the isolated chair/bag asides into one escalating waiting-room mix-up: mom gives the bag a seat as her companion, a neighbor nearly misses her number, and staff mistake the bag for an absent patient. The callback has mom accompany the bag out. Read all four fields, kept the clinic visit ordinary, and reviewed contextual Jyutping with exact Han/syllable alignment."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
