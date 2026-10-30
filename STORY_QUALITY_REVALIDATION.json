@@ -22349,10 +22349,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 11,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8a04385a2c4fa9a9d7fcc4c81babd100935d8dc80f6467ee4685c36f1ff5eea1",
-      "v2_sha256": "8a04385a2c4fa9a9d7fcc4c81babd100935d8dc80f6467ee4685c36f1ff5eea1",
-      "notes": "Needs revision: potatoes stay hard and curry turns too spicy; apple softens the sauce, but the neighbor’s question and future plan do not pay off the mishaps. Needs a stronger escalation and ending. All four fields read; gloss/tip match."
+      "v2_sha256": "9b97eb41fe935187a8bfa9bd3ab566da64578ebeebcaff6fd1d16e1a2566a320",
+      "notes": "Rebuilt the curry story around the roommate’s elaborate “mild” safety protocol: three labeled water cups plus a drinking-time log, then a neighbor is recruited as the taste judge. The curry proves mild, so the cups remain unused and the roommate books the same judge for a future extra-hot batch. Compared other curry stories in the corpus; avoids the common over-spicing-and-apple-rescue plot. Reviewed all four fields, natural Cantonese and contextual Jyutping.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
