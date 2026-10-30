@@ -5310,10 +5310,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 63,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a8432ef87496921da7cb3fe51a8481466d83b70db65392561b63455c2f8d773f",
-      "v2_sha256": "a8432ef87496921da7cb3fe51a8481466d83b70db65392561b63455c2f8d773f",
-      "notes": "Root individually reviewed all four fields. The email typo explains the missing receipt, and the logo difference is clarified as a street-stall mark, but the plot is a sequence of verification steps ending in a moral about hunger. No strong comic reversal; donation receipt/account procedure is central."
+      "v2_sha256": "33f78de8396c32c0ca6bbfb241e0b8d562f63b33dd9d1722ac56aaf3db14ff0f",
+      "notes": "Rebuilt the food-bank donation receipt delay around two mix-ups: aunt reads her email address in one breath and omits a letter, then worries when the event-stall logo differs from the organization’s receipt logo. The family confirms the payment and official organization name; aunt labels the two logos “one organization, two uniforms.” Reviewed all four fields, payment and identity checks, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
