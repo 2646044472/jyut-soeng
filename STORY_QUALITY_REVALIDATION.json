@@ -5054,10 +5054,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 31,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e7369dfa55252f1356eac067d85fdc82ef82590b0ca75ac45546d34cd24019e7",
-      "v2_sha256": "e7369dfa55252f1356eac067d85fdc82ef82590b0ca75ac45546d34cd24019e7",
-      "notes": "Root individually reviewed all four fields. The mother’s concern about her daughter’s breakfast is clear, and the two-salts detail recurs, but transfer-delay investigation and fees drive the story; the final dinner photo only reassures her. No strong comic escalation or payoff; repeated overseas-remittance core."
+      "v2_sha256": "c8f0c645300ffaad86fd238f5fb3bc30d1dc8f4434447ac0cce742e8e644e19a",
+      "notes": "Rebuilt the monthly-transfer story around the mother reading “funds credited” as the daughter arriving at the door: the greeting repeats with slippers set out, then the ticket and “bank delivery” line resolve it. Kept the bank’s official exchange-rate, fee and arrival-date check explicit; the breakfast/soup reassurance plot is removed. Reviewed all four fields, timeline, distinct wordplay, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
