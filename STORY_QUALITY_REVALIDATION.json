@@ -22239,10 +22239,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 48,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8080e5193fec708fb13eec1b0a622977eef56ed4d9c86a508edacda8dffa0d78",
-      "v2_sha256": "8080e5193fec708fb13eec1b0a622977eef56ed4d9c86a508edacda8dffa0d78",
-      "notes": "Needs revision: the brother mistakes mango ripening spots for spoilage, then the family waits and eats it. This is a produce lesson with a mild misunderstanding but no escalating conflict or ending payoff. All four fields read; tip matches."
+      "v2_sha256": "f5c4961bfb2a4053546ae55da88450a52d75eadec5c4c009ebfa48a578c969aa",
+      "notes": "Rebuilt the mango produce card around an apartment-mate’s over-organized ripeness roster: a red spot triggers a quarantine order, scent and softness clear the fruit, and the final “fruit department” schedule completes the workplace-style callback. Compared related mango storage and family fruit stories; this shared-apartment scheduling plot is distinct. Reviewed all four fields, colloquial Cantonese and contextual Jyutping.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
