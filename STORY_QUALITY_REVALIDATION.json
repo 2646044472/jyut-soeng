@@ -23206,10 +23206,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 81,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "9292185d8230fde00ad470a36a706762a0238ac5bd07984abf1130f5c2cbabca",
-      "v2_sha256": "9292185d8230fde00ad470a36a706762a0238ac5bd07984abf1130f5c2cbabca",
-      "notes": "Needs revision: a neighbor applies for meal delivery, worries about congee, and then offers water to a sweaty delivery worker after an elevator delay. This is a caring service story with no comic reversal; cost and service information remain procedural. All four fields read."
+      "v2_sha256": "353b7a27342a3c77046671235abd74709fa91e11962b49deee222514ece016f4",
+      "notes": "V2 主審：保留公共服務中心送餐申請、無辣要求、試餐和升降機故障等核心情境，改成陳姨把一次回訪卡的單一笑臉拆成菜式、送達、職員三項評價；「不想叫個笑臉替升降機道歉」收束歸責笑點，週三有湯的期待再回扣菜單。故事關係為鄰居與服務職員，非家庭核心；比較已通過送餐、回訪、餐飲評分故事，未見相同情節鏈或機制。逐項人工核對繁體粵語正文、粵拼、完整簡體釋義、usageTip 精確前綴；來源/應用鏡像待建置檢查。"
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
