@@ -12950,10 +12950,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 34,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "28e38abbf70faa898c1d3defe414bd3de1275118d9e1c6ec92926e2070df7cd2",
-      "v2_sha256": "28e38abbf70faa898c1d3defe414bd3de1275118d9e1c6ec92926e2070df7cd2",
-      "notes": "Needs revision: the unsweetened milk-tea tasting is a pleasant preference discovery, but the story repeats future tasting plans and has no conflict-driven comic reversal. Four fields read; no source edit."
+      "v2_sha256": "bc396b0eab65fe49410c3d599cd39d326fcf068c5b111c3e745035b0fc7572f6",
+      "notes": "Pass after V2 rewrite. Nonfamily tea-shop scene; category 茶餐廳 retained. The waiter labels a no-sugar drink “走糖,” which one customer reads as a missing sugar packet; other customers check their cups, the customer treats the sugar jar as something to register, and the waiter nearly turns the drink label into “走單,” prompting a final paid/not-paid callback. Four fields reviewed; Jyutping aligned and contextual readings checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
