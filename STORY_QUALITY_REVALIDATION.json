@@ -10406,10 +10406,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 16,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "83c70213ecbb8750fbe8b277d07869ef78de79b2973f64fdb359f50879b728e6",
-      "v2_sha256": "83c70213ecbb8750fbe8b277d07869ef78de79b2973f64fdb359f50879b728e6",
-      "notes": "The family verifies the peanut-allergy risk with the kitchen and declines the item when cross-contact cannot be ruled out; this is responsible safety guidance and must remain intact. The scene still reads as an instructional exchange without an earned comic turn, so it remains needs_revision. Any future rewrite must keep the allergy precautions explicit and derive humor from a separate, low-risk detail."
+      "v2_sha256": "ac6bbca1817457ce5f47d4f0c3e25d4ec792c5c0363b18b44760efe4fed9af2f",
+      "notes": "Rebuilt the restaurant scene around the new dessert: the sibling asks the waiter to confirm peanut ingredients and kitchen equipment contact, then declines it when safety cannot be guaranteed. They choose a familiar packaged snack with a clear label. Dad saves the dessert picture as his phone background; the allergy reminder turns it into a mock pending application, with an earned queue callback. Allergy precautions remain explicit and serious. Cross-screened the approved photo-based produce comparison in long_food_shopping_03[2]: that card compares package photos and ends in a shopping-bag callback; this card uses an allergy-safe order decision and approval/waiting joke. Checked sentence, contextual Jyutping, complete gloss and event-matched tip. Category and baseline digest preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -22587,10 +22587,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 1,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7e435efd2a357f390a55b5023a65aca85eb2fb892e952c0c98e45ccb93095c8b",
-      "v2_sha256": "7e435efd2a357f390a55b5023a65aca85eb2fb892e952c0c98e45ccb93095c8b",
-      "notes": "Needs revision: the early appointment, traffic and rain create ordinary travel stress, but the aunt holds the medicine bag rather than the umbrella; the story ends with folded appointment paper. No comic reversal. All four fields read; gloss/tip match."
+      "v2_sha256": "58f0aabaf0643884cf4cc7b94182db7660cc5b701881ad29c4b73ebeca216d07",
+      "notes": "Rebuilt the rescheduling scene around a grounded reversal: the appointment moves thirty minutes earlier, but the doctor is delayed by thirty minutes, making the old slip's time correct again. Grandma keeps both the SMS and paper slip, and the 'backup' line pays off that setup; traffic and rain only raise the time pressure. Cross-screened approved long_health_services_01[0] (medication-list recovery at a follow-up); that card turns on finding and checking a medicine record, while this card turns on the offset appointment and delay. Checked sentence, contextual Jyutping, complete gloss and event-matched tip. Category and baseline digest preserved."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
