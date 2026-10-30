@@ -12606,10 +12606,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 91,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b9ac968a5bc1664dba6b169e70870abe3353a076be420416e1d0b93cc1bc5791",
-      "v2_sha256": "b9ac968a5bc1664dba6b169e70870abe3353a076be420416e1d0b93cc1bc5791",
-      "notes": "The neighbor tests a second-hand bag and discovers a loose seam; disclosure is fair, but the rain and cleaning advice do not create a comic payoff."
+      "v2_sha256": "ef622077063cc0cfab3fcbb047cc1f88ca4f42cfc47ef47ba29392007325998d",
+      "notes": "V2四字段主审：邻居为自带午餐挑选二手保温袋，依次检查旧味、内层、拉链及饭盒收纳；突降雨水引出她把面交验货说成“防水试验”，卖家明确说明袋不防水。发现一角车线松后暂停交收、说明并缝补，再让买家重试；最终以“袋子面试买家”和每天记得带午餐收尾。类别二手交易匹配，情节为邻里买卖而非家庭核心。与此前破汁沙拉袋、滤汁机照片、旧衣口袋提醒及普通家电测试比较，检测清单加雨天误会及车线披露回扣机制不同。人工核对粤语正文、语境粤拼声调、完整普通话释义和个性化复述提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
