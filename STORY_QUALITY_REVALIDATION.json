@@ -4886,10 +4886,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 10,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d658290370363b73caa59f7d2bc063b01186da473462d568defb3312646fc59d",
-      "v2_sha256": "d658290370363b73caa59f7d2bc063b01186da473462d568defb3312646fc59d",
-      "notes": "Root individually reviewed all four fields. The medicine-as-biscuit misunderstanding and the father presenting the biscuit receipt as reimbursable are clear, but the bulk of the story is prescription verification, insurance claims and household bookkeeping; the ending repeats the sun/moon label rather than escalating the joke. Accounting/claims core and a weak payoff; revise."
+      "v2_sha256": "fad30055c55d6cc7cfcd659383621a4cd52b7a2ba248f10b40bf064562ccd0c4",
+      "notes": "Recentered the medical-expense story on keeping prescription items and ordinary snacks separate. The family confirms the new medicine instructions with the clinic and checks the policy before sorting the expenses; the father’s request to claim the biscuit receipt turns into “報唔到銷，唯有即場消化,” then he takes the largest piece before the family has agreed on portions. Checked medication-safety sequence, expense distinction, all four fields, Cantonese, gloss and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
