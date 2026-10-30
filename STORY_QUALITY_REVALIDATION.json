@@ -22539,10 +22539,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 33,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f41c7d1a2d4ea5a334fd4f44d463935f63a5b7e693bf9626466b4e1ab2611394",
-      "v2_sha256": "f41c7d1a2d4ea5a334fd4f44d463935f63a5b7e693bf9626466b4e1ab2611394",
-      "notes": "Needs revision: the doorbell interrupts cooking and the mother salvages the greens, then the neighbor asks to taste them. The story repeats the neighbor’s garlic-smell question verbatim and returns the borrowed plate without a strong payoff. All four fields read; translation/tip follow it."
+      "v2_sha256": "e16b4c81636fbbaf72dba90009c57bd3d6c06090ff87e0a4a32fc7a147e69d71",
+      "notes": "Rebuilt as a shared-rental cooking episode: separately timed stems and leaves are treated as two teams; the shrinking leaves arrive as a few representatives while the stems earn the full-attendance award. This avoids the repeated neighbor/borrowed-plate ending and shifts away from family. Read all four fields, checked the recipe sequence, contextual Jyutping and exact Han/syllable alignment."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
