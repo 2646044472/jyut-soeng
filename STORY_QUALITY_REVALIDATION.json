@@ -5254,10 +5254,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 56,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "146393813362c0aa4372042107dd365a7fc9243eeb3f9ad2bfb896705c1e1205",
-      "v2_sha256": "146393813362c0aa4372042107dd365a7fc9243eeb3f9ad2bfb896705c1e1205",
-      "notes": "Root individually reviewed all four fields. The overlap between new bank transfers and the old card is clear, and the metaphor of closing the old road matches the cancellation problem, but the story is mostly refund/authorization procedure with no comic reversal. Repeated donation-accounting core; revise."
+      "v2_sha256": "334cc69fbe244c0025909b71a9fdc562e6e36dc2f46ce0ad39a92352295c0e6a",
+      "notes": "Rebuilt the recurring-donation change as a “retirement” story: the new bank transfer starts before the old card authorization is canceled, so both payments run. Dad records the duplicate, gets the old charge refunded and authorization canceled, then marks the card’s last workday. The old card becomes a volunteer that kept donating by working overtime. Reviewed all four fields, payment sequence, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
