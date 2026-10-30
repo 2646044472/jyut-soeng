@@ -4806,10 +4806,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2b4de2451e57ebc004bb2e42cd201279aa67c0122df920ed5cec93f314ead45e",
-      "v2_sha256": "2b4de2451e57ebc004bb2e42cd201279aa67c0122df920ed5cec93f314ead45e",
-      "notes": "Root reviewed sentence, Jyutping, complete gloss and usageTip. The cat waiting for drips is a concrete setup, but the contractor quote comparison and payment/retention details take over; the cat “unemployment” line is only a mild topper, followed by an unrelated tart scare and a generic shower-relief ending. Fails the stronger comedy gate and is a direct money/repair-cost core; rewrite needed."
+      "v2_sha256": "11c797551259c865b252dec302418aff248715f4cdf2ed9e2475c09b5a39073f",
+      "notes": "Rebuilt as a shared-rental story to reduce the family template. The stuck door turns the narrow gap into a temporary bookshelf; after the hinge repair, the roommate returns the book to the real shelf and posts “借書請入門” as an earned callback. The repair quote is incidental, and there are no health, scam, or safety stakes. Reviewed all four fields, checked the Simplified gloss against the Cantonese, and manually corrected contextual Jyutping for 鉸 gaau2 and 傳 cyun4; 234 Han characters with 234 aligned tokens."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
