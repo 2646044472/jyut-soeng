@@ -5342,10 +5342,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 67,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "fadbceb3d2820936235bdcb69294245e385ab5f680eff73bdd94163a4580b7a2",
-      "v2_sha256": "fadbceb3d2820936235bdcb69294245e385ab5f680eff73bdd94163a4580b7a2",
-      "notes": "Root individually reviewed all four fields. The pool-water misunderstanding and sibling’s lap-count interruption are coherent, but the core is a duplicate water-bill notice/payment verification. This exact utility-bill conflict must remain within the <=1% corpus quota; rewrite to a different comic source."
+      "v2_sha256": "429ba6e4870e22a759a557fcc33f3814794edfbcd45ed91da6d9f9aabd146c21",
+      "notes": "Replaced the repeated water-bill/payment verification plot with a public-pool lesson story. The “freestyle” class name prompts a free-trial and per-lap pricing misunderstanding, then the learner takes “freestyle” as license to splash the next lane; the final line ties the fee pun back to learning control. Reviewed all four fields, logic, colloquial Cantonese and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
