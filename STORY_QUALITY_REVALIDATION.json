@@ -4630,10 +4630,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 78,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a9743b31a230776e3b5f5be869da3fcf7c8f99b9eec034bfcd4d2147692a4707",
-      "v2_sha256": "a9743b31a230776e3b5f5be869da3fcf7c8f99b9eec034bfcd4d2147692a4707",
-      "notes": "The grandmother fears an unexplained withdrawal, checks old deposits and uses receipts to reconstruct a cash withdrawal before signing the bankbook. The dental-pain explanation is gentle but there is no stronger comic reversal; bank balance reconciliation is central. All four fields checked."
+      "v2_sha256": "6e7ffd654cce0e071100c28763879d91653323681e2afa84b44fe88c4f9033fd",
+      "notes": "Rebuilt the bankbook scene around a real, carefully checked withdrawal and an escalating receipt-based reconstruction: clinic, congee shop and bus ticket. The teller calls the cloth bag a better bookkeeper than its owner; the grandmother assigns it the accountant role and treats the last candy as working capital. The joke lands on her playful bookkeeping, not on financial anxiety. Confirmed the source fields and contextual Jyutping; transaction is checked with staff and the remaining pages are verified before signing."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
