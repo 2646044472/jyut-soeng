@@ -5486,10 +5486,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 85,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7abe89c1015d49be119ed9ea72a3a3d3d622a3ff91c84cde91544bfb30808753",
-      "v2_sha256": "7abe89c1015d49be119ed9ea72a3a3d3d622a3ff91c84cde91544bfb30808753",
-      "notes": "Root individually reviewed all four fields. The mother delays a dental visit because she fears breaking a fixed deposit; the family rearranges liquid savings, then stores the apple, but the story remains a practical finance/health lesson. The “eat interest?” pun is not developed into a strong ending. Needs rewrite."
+      "v2_sha256": "58ba324f41d9790f4a43e796297e10d8e3e0133d730ed121144063f928bee5a8",
+      "notes": "Kept the savings and dental-cost context but developed the “eat interest?” setup into a stronger apple/interest/mold payoff. The family separates liquid emergency and living funds before the fixed deposit, gets the mother to a dentist promptly, then blends the painful-to-chew apple; the closing line contrasts interest growing on deposits with mold growing on apples. Reviewed logic, all four fields, Cantonese and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
