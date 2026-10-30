@@ -5174,10 +5174,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 46,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f8bab4fcec554f8cd9b3190e372113113d98d208e9fc67f11fdadf34ab6d85f3",
-      "v2_sha256": "f8bab4fcec554f8cd9b3190e372113113d98d208e9fc67f11fdadf34ab6d85f3",
-      "notes": "Root individually reviewed all four fields. The file attachment opens after support reissues it, while the grandfather leaves his fishing-rod bag at the copier; “does grandpa need a backup too?” is a mild joke but the sequence does not escalate to a strong payoff. Generic document-service episode; revise."
+      "v2_sha256": "4dab7ecb3380780a51b71c5eebb4d0c6f60e85256de7c1016afb4ff55dcd49ea",
+      "notes": "Reworked the damaged-attachment episode so the digital file and physical fishing-rod bag become parallel “attachments”: support securely reissues and names the file, which prints successfully, while grandpa leaves the actual bag beside the printer. The staff’s backup question lands on the one attachment that cannot be copied. Reviewed all four fields, file-handling logic, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
