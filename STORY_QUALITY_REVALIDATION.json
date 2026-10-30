@@ -22471,17 +22471,18 @@
       "index": 25,
       "status": "pass",
       "baseline_sha256": "81662c0ca1b46c48a949f95ffbc71e49550f978ceedba3780c4f7c4f8be3a3e4",
-      "v2_sha256": "df494b1fc9be84dd15f6f1bbff750a3436e3337d299eac5d6f8ee1c864d98ac1",
+      "v2_sha256": "f7784c68c6a9e855c4e0780991564db51f6a0f6de5a98fe82463c94b6a0242b0",
       "notes": "Rebuilt the reusable-container card around tare weights, avoiding the approved reusable-bag produce-drop story. The fishmonger first weighs the empty container; as the narrator records each tare, the vegetable and tofu sellers begin asking for the numbers, and the tomato seller hands over the scale for the next customer. At home the narrator recites container weights before groceries, then discovers the notebook contains no food weights. This completes the customer-to-market-scale-assistant reversal. Reviewed all four fields, contextual Jyutping, and cross-card distinction.",
       "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 26,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8e3ee3d0bbbe82a5840dd933839562293415be26289c656c45dd6cac49326589",
-      "v2_sha256": "8e3ee3d0bbbe82a5840dd933839562293415be26289c656c45dd6cac49326589",
-      "notes": "Needs revision; money-core. Discounted chicken and marked-down bananas motivate the purchase and the story’s wrap-up emphasizes getting a cheap dish plus dessert. The label mix-up itself is routine, with no strong comic reversal. Counts toward the financial-mainline quota. All four fields read; gloss/tip match."
+      "v2_sha256": "9bbee98b6942aa683187708b11bcc256b241637aaf9ca81e50dd1363c74aa375",
+      "notes": "Kept the financial mainline: near-expiry chicken is bought at half price and portioned safely, while only two discounted bananas are chosen for the next breakfast. The roommate first reads the freezer label as a day off, then interprets the dates as a shift roster; the final “dishwashing shift, due tonight” callbacks to both labels and his question. This is distinct from the earlier markdown dinner-and-dessert story. Reviewed all four fields and contextual Jyutping.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
