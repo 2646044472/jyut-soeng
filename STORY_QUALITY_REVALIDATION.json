@@ -5112,7 +5112,7 @@
       "index": 38,
       "status": "pass",
       "baseline_sha256": "64c31a3cdd41c7a8b06c1fd5c0be73215ca3523791019bdee42442bd5debdecc",
-      "v2_sha256": "fa2c10aa22adc2746b90c34afb3d6421006ea5036233d2739e59c44859c4a888",
+      "v2_sha256": "eb722fc084ae7d29a5cb8bd90abe2c778a119f3f83b7093b0b56f0b7ef15992e",
       "notes": "Rebuilt the bank-comparison story around the “zero fee” reversal: the aunt first chooses the advertised free option, then checks both banks’ official net-to-recipient estimates including FX and intermediary fees, and chooses the fee-charging option that delivers more. The magnifier punchline shifts from tiny print to the final credited amount. Reviewed all four fields, transfer logic, distinct plot, and contextual Jyutping."
     },
     {
@@ -5120,7 +5120,7 @@
       "index": 39,
       "status": "pass",
       "baseline_sha256": "2941c3baee59e7127bd9f16aa816cd8c3f4e7e7c9fc2ee5b20ec686685389ec5",
-      "v2_sha256": "cb1205f71d9d1812c33df74b330e6bf0bbc0a810de89acca64d3369ec3f3fc99",
+      "v2_sha256": "57be724986ed8a7a7694a39f8db6986bc903e370ef852642301d5ba9d4323290",
       "notes": "Rebuilt the remittance-date story around a queue-ticket misunderstanding: grandpa mistakes an old branch queue number for the transfer’s place in line and phones his overseas son to ask when it will be called. The family checks actual posting dates and fees, then the ticket becomes the only “payment” that truly waited in a queue. Reviewed all four fields, payment logic, and contextual Jyutping."
     },
     {
@@ -5136,7 +5136,7 @@
       "index": 41,
       "status": "pass",
       "baseline_sha256": "b5e083c234076fa84c0f7970befb6c76273ec49027b9a61cd646a3621c127725",
-      "v2_sha256": "2b0cfb89bffb005bd6194aa5172ce64a235772cccea78412dec01cab8e71fdf6",
+      "v2_sha256": "45ba2cfc2c6a23c3e25b85d214ae53833ffcdcc233ef377de47b9afd81c7d71c",
       "notes": "Rebuilt the application-and-hotline scene around the grandmother treating hold time as staffed tea service: she sets tea beside the phone, answers the hold prompt as if it were a queue caller, then counts the wait as application work hours. When the allowance is approved, the agent accepts documents but not tea, leaving the household to consume the whole pot. Reviewed all four fields, sequence, and contextual Jyutping."
     },
     {
@@ -5168,7 +5168,7 @@
       "index": 45,
       "status": "pass",
       "baseline_sha256": "a72b44f44c4326a67633973cd15d471b4b72e77fd0cefbd9d9734bfd43f17450",
-      "v2_sha256": "f8ff4e1b9c874ad2f9329994c2f1ac73a777500100f930ca2f3dbf0638cfe627",
+      "v2_sha256": "47e31bca017dcb129ee7943e30d871e2b38a7db5accb216916f1837f948dc83e",
       "notes": "Rebuilt the correction-link wait around the repeated page refresh: mom turns the cookie jar into a phone lockbox and charges one cookie per refresh. When the secure link finally arrives, the jar vibrates and the family corrects the application without resubmitting. The allowance form needs no restart, but the cookies are gone from top to bottom. Reviewed all four fields, process logic, distinct comic escalation, and contextual Jyutping."
     },
     {
@@ -5176,7 +5176,7 @@
       "index": 46,
       "status": "pass",
       "baseline_sha256": "f8bab4fcec554f8cd9b3190e372113113d98d208e9fc67f11fdadf34ab6d85f3",
-      "v2_sha256": "4dab7ecb3380780a51b71c5eebb4d0c6f60e85256de7c1016afb4ff55dcd49ea",
+      "v2_sha256": "de676e98c3e6d764533a72b7c9cb6d35f24f5090fdfa64a6e760c6220315db96",
       "notes": "Reworked the damaged-attachment episode so the digital file and physical fishing-rod bag become parallel “attachments”: support securely reissues and names the file, which prints successfully, while grandpa leaves the actual bag beside the printer. The staff’s backup question lands on the one attachment that cannot be copied. Reviewed all four fields, file-handling logic, and contextual Jyutping."
     },
     {
@@ -5184,7 +5184,7 @@
       "index": 47,
       "status": "pass",
       "baseline_sha256": "592bb32aedeed8f0b550d6af416a72b3b67787c8e92bbce624ba0e7cefd1c34a",
-      "v2_sha256": "0f5ecec81154c9801d8ac20ca1c1422dca31ecd8e649c33750b2251f70ad5d2d",
+      "v2_sha256": "2e4f93594c2d1beee29cea46dffb6439fae061f3d3888b5fdf22f7ec397c6102",
       "notes": "Rebuilt the renewal-link warning around a safe official-site check and a comic overcorrection: after avoiding the suspicious login, grandpa later phone-verifies mom’s ordinary tofu message as if it were a spoofed link. Mom’s “password stayed in, but grandpa nearly went out” line pays off the street metaphor. Reviewed all four fields, security logic, and contextual Jyutping."
     },
     {
@@ -5192,7 +5192,7 @@
       "index": 48,
       "status": "pass",
       "baseline_sha256": "0e8dd23527d33ab1a9561a634554346734bd5124b1eae585f5a61e3bd7f0b17d",
-      "v2_sha256": "53d4533b71c6a618eb963048425c5619c69132dfabb7c44be227849751399245",
+      "v2_sha256": "3a533e407d4cd85ad4a765dcb19ce24614dc2d4daea093699453875935110bfc",
       "notes": "Rebuilt the scan mishap around a literal reading of “account transfer”: dad moves the coffee table to improve the photo, then his finger and reflective glove keep entering the frame. Support clarifies that only the document needs a clean background. The account is still being transferred when the table has already “moved” to three addresses. Reviewed all four fields, process logic, distinct escalation, and contextual Jyutping."
     },
     {
@@ -5200,7 +5200,7 @@
       "index": 49,
       "status": "pass",
       "baseline_sha256": "8ea6bb6fe7c1e2174da273a547427fc28142db2c214a3c022831a45d0b0eba69",
-      "v2_sha256": "6008741365e73a1656e9a70ccd1ba2b73289bacb361eeb2a095e7f7a2dd48811",
+      "v2_sha256": "2bca83d5d355c44303a2844ea4eaffbd736328a7313ae5b627c30cfa9a946b37",
       "notes": "Rebuilt the maintenance-delay scene around mom treating the grocery receipt as another applicant in a roll-call queue. The family checks the official restoration notice and saves evidence, then uploads the actual income proof. After submission, mom asks whether her grocery receipt can claim the hours she spent waiting as an “allowance for waiting.” Reviewed all four fields, deadline logic, comedy progression, and contextual Jyutping."
     },
     {
@@ -5208,7 +5208,7 @@
       "index": 50,
       "status": "pass",
       "baseline_sha256": "01df36098a66816b702a90b23ca57e5e127f4aeaab9cf585b92534cddfa92030",
-      "v2_sha256": "8654b89da732c167cd197eb9dcdbeb98894c14a1f94c7d8096bb887786a89571",
+      "v2_sha256": "f5c99ba5cc56bfe6c065b36512050f6ff432e9da481cfb2d5cd32eb4e683b669",
       "notes": "Rebuilt the address-change episode around “junk” in two forms: the confirmation email is filtered into the spam folder, while physical junk mail from the old home nearly takes valid grocery coupons to the trash. Mom rescues and uses the coupons, then says she will check what “junk” is worth before discarding it. Verified the new address through the official account and support. Reviewed all four fields and contextual Jyutping."
     },
     {
@@ -5216,7 +5216,7 @@
       "index": 51,
       "status": "pass",
       "baseline_sha256": "5fbef393763c26da4819d68f1111799dd28c14dacc95a7a8fac7a504f96d4368",
-      "v2_sha256": "1f685b65caeffd159f3118b5dc8c8422ca7ca385b54353068dd30158c93ba17f",
+      "v2_sha256": "ad1351a54f745c4d9d7ca62656834afbc0f55c64b794e8a99ee1cd9656ca9999",
       "notes": "Rebuilt the receipt-upload mishap around the thermos becoming the accidental “evidence manager”: the key bill is stuck under it, a glare obscures another image, and aunt finally sends the receipts without the thermos entering frame. Her closer says the application covers medicine, not the thermos. Reviewed all four fields, upload sequence, distinct callback, and contextual Jyutping."
     },
     {
@@ -5240,7 +5240,7 @@
       "index": 54,
       "status": "pass",
       "baseline_sha256": "ffdaf00b38620429c368390287de31e004a636742196bc30aa8c9d1d1f048a7d",
-      "v2_sha256": "a2f133cda329ec8e69b58ddd43a48a71a8abb1269138d022d545ed1c1e9daebd",
+      "v2_sha256": "7fd81b5a7de6871c112053aa522a735908f7b23c3215779eb91b9e67c52b673c",
       "notes": "Rebuilt the missing-number receipt around mom’s overenthusiastic evidence hunt: she offers the neighboring tomato stall as a witness, and the volunteer says the location is enough—no need to call the tomatoes to court. After the replacement receipt arrives, the volunteer mistakes her return for another audit, earning the year-end-report punchline. Reviewed all four fields, verification logic, and contextual Jyutping."
     },
     {
@@ -5248,7 +5248,7 @@
       "index": 55,
       "status": "pass",
       "baseline_sha256": "d0c8dea44ea31028501345f9242b57e3a472f7afdd875464cf37dc753dfdaf89",
-      "v2_sha256": "e4ad5985b2df6565dc02da2e9868191b8fdac75c37eeb43ada20788178f70f22",
+      "v2_sha256": "ec5c4d3ee69c5c1d12e583e9a342a30860228961b8c7384df8473778451e1022",
       "notes": "Rebuilt the disaster-donation scene around two audiences: dad wants the donation to be anonymous publicly, while the household still has to record the exact amount for rent and medical expenses. They reject a private-account appeal, verify the charity through its registered official channel, and agree on an affordable amount. Mom’s “anonymous outside, itemized inside” line closes the generosity-versus-ledger conflict. Reviewed all four fields, safety logic, and contextual Jyutping."
     },
     {
@@ -5256,16 +5256,16 @@
       "index": 56,
       "status": "pass",
       "baseline_sha256": "146393813362c0aa4372042107dd365a7fc9243eeb3f9ad2bfb896705c1e1205",
-      "v2_sha256": "334cc69fbe244c0025909b71a9fdc562e6e36dc2f46ce0ad39a92352295c0e6a",
+      "v2_sha256": "48facb153c20b64ec728cc9b6202422a95929be68c2fa942b53b27bf02d6bd00",
       "notes": "Rebuilt the recurring-donation change as a “retirement” story: the new bank transfer starts before the old card authorization is canceled, so both payments run. Dad records the duplicate, gets the old charge refunded and authorization canceled, then marks the card’s last workday. The old card becomes a volunteer that kept donating by working overtime. Reviewed all four fields, payment sequence, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 57,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "0ee9077439ad3cb7d59123289179f1b0e4af9fb65702824dbf9416220a2c5f38",
-      "v2_sha256": "0ee9077439ad3cb7d59123289179f1b0e4af9fb65702824dbf9416220a2c5f38",
-      "notes": "Root individually reviewed all four fields. The tea-cup stain on the annual report and paused donation are concrete, but the correction is simply an appendix mismatch; the final maxim explains the lesson rather than delivering a joke. Donation-purpose account dispute is central and lacks strong escalation."
+      "v2_sha256": "c244fdf46ac02a3f27bb17a44a8e1695b1de18aec058715952d793b8875ff8b7",
+      "notes": "Rebuilt the annual-report concern as a visual misunderstanding: mom sees the flower-garden page and fears the designated lunchbox donation was misused, so the family checks receipts, pauses recurring payments, and asks for the appendix. The appendix resolves the discrepancy; the tea ring on the garden page becomes a little pond, so mom jokes that she has watered it enough. Reviewed all four fields, donation records logic, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
