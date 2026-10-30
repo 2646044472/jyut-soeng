@@ -5062,10 +5062,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 32,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8c48f5be07de207fe0a0c599678c497aecf0a9fcd22b39134261342d17f71d81",
-      "v2_sha256": "8c48f5be07de207fe0a0c599678c497aecf0a9fcd22b39134261342d17f71d81",
-      "notes": "Root individually reviewed all four fields. The crooked glasses and “don’t send two deposits” line add a little levity, but the central sequence is careful account verification for a surgical deposit. The smiley note at the end explains the theme rather than delivering a punchline. Remittance/payment core; revise."
+      "v2_sha256": "36a967d47c26fa6374f406fdc6291d82bed617bc9b3ae0b802ad342575b5986e",
+      "notes": "Rebuilt the surgical-deposit story around keeping the bank reference concise while the father sends a three-minute voice message: the uncle’s “more transfer time” line pays off the two channels. Preserved the safety sequence of refusing an unknown link, confirming account details with the hospital, and checking bank fees before sending. Reviewed all four fields, chronology, distinct humor, and contextual Jyutping, including 姓名 ming4."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
