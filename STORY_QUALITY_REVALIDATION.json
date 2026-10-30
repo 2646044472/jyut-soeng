@@ -22323,10 +22323,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 8,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "556c98c6b0f5934c865d5febb500439839bdcbb30a37aa152145efb2cee3756c",
-      "v2_sha256": "556c98c6b0f5934c865d5febb500439839bdcbb30a37aa152145efb2cee3756c",
-      "notes": "Needs revision: the pasta is undercooked, then the cheese is overdone and tomatoes are added; the brothers end by celebrating an improved recipe. Two cooking corrections are not a comic escalation, and the ending simply reports success. All four fields read; tip matches."
+      "v2_sha256": "6eb7f5f1ec05b7b3391827f736ed8415deee1686024f9e5bc8fe94594a9d71e8",
+      "notes": "Rebuilt the undercooked-pasta and excess-cheese sequence around the younger brother’s promise to record an unedited cooking demo. Each correction stays in the footage, then he reframes the advice as part of the demonstration, making the camera plan drive the comic turn. Compared the adjacent timed-pasta challenge; this recording-and-reframing plot is distinct. Reviewed all four fields, natural Cantonese and contextual Jyutping.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
