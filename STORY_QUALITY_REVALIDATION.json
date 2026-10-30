@@ -22107,10 +22107,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 32,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "26a34cb5aa72a7da22c53262de650ab842f0899d6f5823262a722251f3a42852",
-      "v2_sha256": "26a34cb5aa72a7da22c53262de650ab842f0899d6f5823262a722251f3a42852",
-      "notes": "Needs revision: a cracked egg is exchanged, then a neighbor asks for bread and receives one. It resolves as errands and neighborly help; no comic escalation. All four fields read; gloss and tip match."
+      "v2_sha256": "98e8afec61beb89a721b11f63bfb49fa9bac5d36285e18bf76b02206b282de30",
+      "notes": "Rebuilt the neighbor errand as a conversational misunderstanding: “買咗麵包未” is taken as a request, leading to an unnecessary second trip; the next-day milk question gets a callback answer. Everyday Macau Cantonese, distinct from adjacent family food gags, with all four fields and contextual Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
