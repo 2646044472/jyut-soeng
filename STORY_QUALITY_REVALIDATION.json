@@ -4942,10 +4942,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 17,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "03b204e547d095c9759b972ad605ea7f4c97c8a56e4d53db54e1e62aff447436",
-      "v2_sha256": "03b204e547d095c9759b972ad605ea7f4c97c8a56e4d53db54e1e62aff447436",
-      "notes": "Root individually reviewed all four fields. The caregiver first offers soup, and the grandmother checks for dried tangerine peel; later the measuring-cup request is practical, not a comic payoff. Most escalation is hourly/weekend pricing and service rules, with no earned reversal. Needs a new stronger story; care-cost core."
+      "v2_sha256": "c2614a4cce6532bde6fa4a7ff49112b0dbc0585381edf43322f4ca6ccbcccdae",
+      "notes": "Rebuilt the home-care visit around a practical call-bell test: ordinary requests escalate into the grandmother checking that someone will respond if she falls; on the next visit she hands the bell to the narrator and turns the test into a shift assignment. Reviewed colloquial flow, causal progression, distinction from neighboring billing and medication-ledger stories, complete Simplified gloss, event-specific tip, and contextual Jyutping for all 251 Han characters."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
