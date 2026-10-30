@@ -5214,10 +5214,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 51,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5fbef393763c26da4819d68f1111799dd28c14dacc95a7a8fac7a504f96d4368",
-      "v2_sha256": "5fbef393763c26da4819d68f1111799dd28c14dacc95a7a8fac7a504f96d4368",
-      "notes": "Root individually reviewed all four fields. The receipt stuck to the thermos and upload loop make concrete mishaps, but the scene only repeats sorting/resubmitting paperwork; the tip is simplified Mandarin rather than Traditional colloquial Cantonese, so it also fails the required field style. Needs rewrite/review."
+      "v2_sha256": "1f685b65caeffd159f3118b5dc8c8422ca7ca385b54353068dd30158c93ba17f",
+      "notes": "Rebuilt the receipt-upload mishap around the thermos becoming the accidental “evidence manager”: the key bill is stuck under it, a glare obscures another image, and aunt finally sends the receipts without the thermos entering frame. Her closer says the application covers medicine, not the thermos. Reviewed all four fields, upload sequence, distinct callback, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
