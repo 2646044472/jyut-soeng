@@ -21409,10 +21409,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 1,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a55f0f5fd680a3f5f21fd0dd53c932b77acbe9b0031e742e10eeaa4b5d49f42d",
-      "v2_sha256": "a55f0f5fd680a3f5f21fd0dd53c932b77acbe9b0031e742e10eeaa4b5d49f42d",
-      "notes": "Needs revision: choosing lean pork and finding oversized water chestnut create a recipe anecdote; the “dice” comparison is a brief mild joke, while leftover sandwiches and nutrition advice do not escalate or pay it off. The gloss tracks the story; the tip matches the cooking sequence. Four fields read; retain metadata and rebuild the plot around a stronger causal comic turn."
+      "v2_sha256": "4a4341ea4994bce218214454ff1a002974ca69c8a1003afc1bdbbbbe45e0fce8",
+      "notes": "Rebuilt the meat-stall story around the sister’s request for leaner pork and the uneven water-chestnut pieces in the steamed patty. Their crunch becomes a family dice-guessing rule; Dad wins the title but the younger brother takes the last slice, and Dad’s objection to smaller pieces callbacks to the “dice king” game. Compared with approved `long_food_shopping_10[57]` (grandmother corrects a meat-mixing mistake and Dad asks for more rice) and `long_food_shopping_03[44]` (orange tasting and fruit-sharing luck); the goal, conflict, escalation and payoff differ. No food-safety risk or category change. All four fields manually reviewed; Jyutping matches 245/245 Han characters, full Simplified gloss and event-specific tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
