@@ -22257,10 +22257,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 0,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a13180ed71e30241f71aa9af2d60ade53e3deef88f39081b95f29328646f2c29",
-      "v2_sha256": "a13180ed71e30241f71aa9af2d60ade53e3deef88f39081b95f29328646f2c29",
-      "notes": "Needs revision: red dates scatter, then soup foam spills and grandma says haste means washing the stove; these are two loosely connected mishaps followed by storage advice. The final empty-bowl photo is sentimental, not a comic reversal. All four fields read; gloss/tip match."
+      "v2_sha256": "b2b051facc8d91f00f134da7d0140212f1b81c1b7fa4b398811a90c5e8bba27c",
+      "notes": "Rebuilt the chicken soup card around one connected escape motif: red dates spill across a clean counter into a bowl, then the roommate guards the simmering pot but foam crosses the stove edge; the labeled “authorized departure” box pays off both incidents when soup is delivered. Kept the mushroom soaking and filtered water details; reviewed all four fields, safety logic, natural Cantonese and contextual Jyutping.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
