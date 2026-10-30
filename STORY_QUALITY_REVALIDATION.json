@@ -5038,10 +5038,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 29,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "237e99903040e150d243220b26fac5b33e2507f2a937b7d014f2611ef2918363",
-      "v2_sha256": "237e99903040e150d243220b26fac5b33e2507f2a937b7d014f2611ef2918363",
-      "notes": "Root individually reviewed all four fields. The new stop changes the child’s wake-up expectation and adds a safe crossing, but the episode resolves as routine route planning; “five minutes later” is not a punchline. The bus-fee comparison and family schedule dominate. Needs stronger conflict and reversal."
+      "v2_sha256": "5fb34d73ec082f2d2d5ebf44807b1ce49ffdfd2112acf02ea934ee7afe9c822f",
+      "notes": "Rebuilt the changed-route story around a safe, repeated misunderstanding: the son treats the bus attendant’s wave as a crossing signal, is corrected to follow the pedestrian light, then keeps returning the greeting while waiting. The final line explains the prolonged waving; fee review stays in the setup. Reviewed all four fields, safety chronology, distinction from the prior bus-fare story, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
