@@ -5166,10 +5166,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 45,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a72b44f44c4326a67633973cd15d471b4b72e77fd0cefbd9d9734bfd43f17450",
-      "v2_sha256": "a72b44f44c4326a67633973cd15d471b4b72e77fd0cefbd9d9734bfd43f17450",
-      "notes": "Root individually reviewed all four fields. The application repair and phone-in-cookie-jar scene are clear, but the ending simply reopens the jar; there is no strong reversal, and the story remains form/approval logistics rather than comedy. Benefits-application core, needs rewrite."
+      "v2_sha256": "f8ff4e1b9c874ad2f9329994c2f1ac73a777500100f930ca2f3dbf0638cfe627",
+      "notes": "Rebuilt the correction-link wait around the repeated page refresh: mom turns the cookie jar into a phone lockbox and charges one cookie per refresh. When the secure link finally arrives, the jar vibrates and the family corrects the application without resubmitting. The allowance form needs no restart, but the cookies are gone from top to bottom. Reviewed all four fields, process logic, distinct comic escalation, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
