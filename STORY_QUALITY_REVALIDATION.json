@@ -22222,10 +22222,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 46,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "0046050b33fab1359c9e17a474bcbcc8deb9203bcc76332c6e76162ba0695985",
-      "v2_sha256": "0046050b33fab1359c9e17a474bcbcc8deb9203bcc76332c6e76162ba0695985",
-      "notes": "Needs revision: the salted sweet sauce, spilled sesame paste, and leftover rice roll are separate small inconveniences; the “I like plain” line is unprepared, and no escalation produces a payoff. All four fields read; gloss and tip cover the actual events."
+      "v2_sha256": "db4fa5f4d353c8f48dfce04a73469132737208a097b75c7239b205dffa5d86b3",
+      "notes": "Rebuilt the disconnected sauce mishaps into a continuous breakfast gag: the spilled sesame paste becomes a “highway,” sliced rice rolls are judged as road sections, and the brother who drew the route is assigned to clear it and plan tomorrow’s breakfast route. Checked adjacent food stories for overlapping contest and spill plots; reviewed all four fields, colloquial Cantonese and contextual Jyutping.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
