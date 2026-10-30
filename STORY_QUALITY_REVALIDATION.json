@@ -5286,10 +5286,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 60,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7be99a842bb660d7d6c737298b65a04017070b024d4280d3c8547bbf5b734c40",
-      "v2_sha256": "7be99a842bb660d7d6c737298b65a04017070b024d4280d3c8547bbf5b734c40",
-      "notes": "Root individually reviewed all four fields. The mother’s questions sensibly change the donation amount, and the receipt confirms names, but the ending is a small heartfelt cake moment rather than comedic reversal. Birthday donation/payment arrangement dominates; revise for stronger humor."
+      "v2_sha256": "736fa4327b983a1f5658d22797f57cfa440f9bf578f5fd07fee045fa79044e5c",
+      "notes": "Rebuilt the birthday-donation scene as a mock gift check-in: mom asks three practical questions, confirms the student-uniform project and amount, then insists the receipt list both parents by name. The birthday card needs no signature, but the receipt makes the birthday couple work as check-in clerks. Reviewed all four fields, donation and receipt sequence, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
