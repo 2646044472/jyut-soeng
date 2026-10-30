@@ -22755,10 +22755,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 22,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5fbf05b8170991bb1bd24bb74f183ec27f849831c6e691e46a8dc7a69c3b63d4",
-      "v2_sha256": "5fbf05b8170991bb1bd24bb74f183ec27f849831c6e691e46a8dc7a69c3b63d4",
-      "notes": "Needs revision: grandpa adapts to hand tremor with a spoon and non-slip cloth; a splash while washing a cup creates a small laugh, but the story remains primarily supportive and procedural, without a strong comic arc. All four fields read."
+      "v2_sha256": "0e19dcf0ba378d0b574aa6c1a0bf85e7edbc940530319892990d95a3559b08fc",
+      "notes": "Rebuilt the caring but procedural meal scene around the grandfather choosing his own adjustments and asking not to be watched. The family comically turns away too completely; after he splashes water while washing his own cup, he compares it to a table shower and repeats the request that they not watch. The joke is his own, while the tremor and adaptation remain respectful. Reviewed four fields and Jyutping context/alignment."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
