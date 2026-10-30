@@ -48,32 +48,28 @@ jobs:
             python3 tools/validate_content.py --min-sentences 5000
           fi
           python3 -m unittest discover -s tools/tests -p 'test*.py'
-          python3 tools/export_github_pack.py
 
       - name: Restore release keystore
         env:
           YUET_SOENG_KEYSTORE_B64: ${{ secrets.YUET_SOENG_KEYSTORE_B64 }}
         run: |
           mkdir -p signing
-          if [ -n "$YUET_SOENG_KEYSTORE_B64" ]; then
-            printf '%s' "$YUET_SOENG_KEYSTORE_B64" | base64 --decode > signing/yuet-soeng-sideload.jks
-          else
-            git show v0.6.1:signing/yuet-soeng-sideload.jks > signing/yuet-soeng-sideload.jks
+          if [ -z "$YUET_SOENG_KEYSTORE_B64" ]; then
+            echo "YUET_SOENG_KEYSTORE_B64 is required for a signed release; configure it in repository Actions secrets." >&2
+            exit 1
           fi
+          printf '%s' "$YUET_SOENG_KEYSTORE_B64" | base64 --decode > signing/yuet-soeng-sideload.jks
           test -s signing/yuet-soeng-sideload.jks
 
       - name: Build and test
         run: |
           ./gradlew --no-daemon --console=plain :app:testDebugUnitTest :app:assembleDebugAndroidTest :app:assembleRelease
 
-      - name: Prepare release artifacts
+      - name: Prepare APK artifact
         run: |
           VERSION="${GITHUB_REF_NAME#v}"
           mkdir -p release-artifacts
           cp app/build/outputs/apk/release/app-release.apk "release-artifacts/yuet-soeng-${VERSION}.apk"
-          cd dist/github
-          zip -rq "../../release-artifacts/yuet-soeng-content-${VERSION}.zip" jyut-soeng
-          cp "../../release-artifacts/yuet-soeng-content-${VERSION}.zip" "../../release-artifacts/yuet-soeng-content.zip"
 
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
@@ -82,4 +78,3 @@ jobs:
           body_path: RELEASE_NOTES.md
           files: |
             release-artifacts/*.apk
-            release-artifacts/*.zip
