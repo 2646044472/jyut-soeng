@@ -7837,10 +7837,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
       "index": 62,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8961618c1441bfbe2aed7e8d86e2d097c4016d46e91facf6776f689ac771b567",
-      "v2_sha256": "8961618c1441bfbe2aed7e8d86e2d097c4016d46e91facf6776f689ac771b567",
-      "notes": "將學費報銷誤當可換電腦的鋪墊明確，但後續主要是出勤、補助預算與旅行照片；太太嫌臉大只是單一輕梗，整篇喜劇遞進不足。 四欄逐張檢查正文、粵拼、完整普通話釋義及符合本篇實際情節的復述提示。"
+      "v2_sha256": "50c54559b44d8b01eaea5f145f20e32d9d5fde46bb33bf6eae000973c377d17b",
+      "notes": "V2 rebuilt as a non-family workplace professional-development story; the original spouse, travel photo and weak face-size gag were removed. A colleague checks the company course-allowance process and completes the claim, then turns a one-sentence team update about a presentation course into an overbuilt slide deck. Its chart, Q&A and appendix escalate until he finally delivers the very lesson he was asked to report: put the conclusion first. This changes the causal conflict and comedy mechanism rather than swapping relatives for coworkers. Category and row identity preserved. Compared with approved freelance-design scope creep, a family/presentation-practice story, and procedural expense stories, no matching allowance-claim / overlong one-sentence-results presentation chain found. Manually reviewed all four fields, contextual Jyutping, full Simplified gloss and exact story-tip prefix."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
