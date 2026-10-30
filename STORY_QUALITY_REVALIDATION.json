@@ -5182,10 +5182,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 47,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "592bb32aedeed8f0b550d6af416a72b3b67787c8e92bbce624ba0e7cefd1c34a",
-      "v2_sha256": "592bb32aedeed8f0b550d6af416a72b3b67787c8e92bbce624ba0e7cefd1c34a",
-      "notes": "Root individually reviewed all four fields. The medical-voucher phishing risk is explained safely, but the grandfather’s birthday/URL memory gag is slight and the closing says the password “didn’t go out” rather than landing an earned reversal. This is a benefit-renewal/security tutorial core; needs a stronger story."
+      "v2_sha256": "0f5ecec81154c9801d8ac20ca1c1422dca31ecd8e649c33750b2251f70ad5d2d",
+      "notes": "Rebuilt the renewal-link warning around a safe official-site check and a comic overcorrection: after avoiding the suspicious login, grandpa later phone-verifies mom’s ordinary tofu message as if it were a spoofed link. Mom’s “password stayed in, but grandpa nearly went out” line pays off the street metaphor. Reviewed all four fields, security logic, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
