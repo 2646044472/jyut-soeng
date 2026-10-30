@@ -4646,10 +4646,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
       "index": 80,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d61d104566490a7165a6251ee240d4d5b2cf4fe8f7a506a5b848539b95de5cdf",
-      "v2_sha256": "d61d104566490a7165a6251ee240d4d5b2cf4fe8f7a506a5b848539b95de5cdf",
-      "notes": "A high water bill leads directly to checking the meter, comparing readings and contacting the water company; the plastic duck “small pool” joke is strong but the core is a water-bill dispute, limited to 1% by the prompt. All four fields checked; rewrite."
+      "v2_sha256": "034fdbb0bda1bd199ab08190fb0df10061c8dcfd95fbcfae768caeb9f1e089c9",
+      "notes": "Replaced the duplicate high-water-bill dispute with a service-call story: the family mistakes a clock ticking through the cabinet for a leak, checks the meter correctly, and gets the utility technician to confirm the reading. The daughter counting ticks pays off the father’s “time is leaking” line by calculating his dinner delay. Cross-screened meter, leak and interruption stories; none use a false clock sound as the cause or this inspection-and-dinner callback. Checked all four fields, service logic, Cantonese dialogue, gloss and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_06.json",
