@@ -22115,10 +22115,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 33,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8884548ec7a0a6b22fbc05e0932a69bc63c16a2300e42768e0d973d82f589455",
-      "v2_sha256": "8884548ec7a0a6b22fbc05e0932a69bc63c16a2300e42768e0d973d82f589455",
-      "notes": "Needs revision: sesame oil is overpoured and redistributed, then sesame spills during a photo. These kitchen mishaps do not build into a reversal; the ending merely says to take photos before eating. All four fields read; gloss/tip match."
+      "v2_sha256": "11dd5c4e54d8fbad58f09601001e5dde1641a8e10e5bf495fdb2876394c42301",
+      "notes": "Rebuilt the overpour/photo mishap as a single escalating bibimbap problem: dividing the excess oil spreads it across both bowls, so the pair doubles the meal and the roommate treats the oil bottle as the host. The final reply callbacks to the bottle inviting the table. Checked distinct plot focus, colloquial dialogue and all four fields with contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
