@@ -22179,10 +22179,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 41,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2bbbe5de3113737c5b2dcb0ff1f6cabb081739b137440a6339b39323dcda0498",
-      "v2_sha256": "2bbbe5de3113737c5b2dcb0ff1f6cabb081739b137440a6339b39323dcda0498",
-      "notes": "Needs revision: careful allergen checks are appropriate and should stay serious; after the snacks are safely shared, the only ending is a general lesson about preparation. Move any future comedy to harmless hiking logistics. All four fields read; gloss/tip match."
+      "v2_sha256": "7b4b65804c37f52da83b0b43609cd18493a445c61cabdaa7cc135aa2728b2a21",
+      "notes": "Kept Minmin’s peanut allergy screening factual and careful: she confirms the ingredients, her safe snack stays sealed and separate from the peanut snacks, and she verifies the package before eating. Rebuilt the comedy around a harmless route-distance misunderstanding: A-Dong reads a four-kilometre round trip as four kilometres each way, so his imagined itinerary “walks” eight kilometres while the group walks four. Compared existing hiking snack stories; this avoids the shared-bar refusal and rain-pavilion mechanisms. Reviewed all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
