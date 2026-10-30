@@ -22195,18 +22195,20 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 43,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2273272528d2d6611567949d64b72bd550d4edba7f727476ca0cfcc4c21d5713",
-      "v2_sha256": "2273272528d2d6611567949d64b72bd550d4edba7f727476ca0cfcc4c21d5713",
-      "notes": "Needs revision: a child dislikes honey, the narrator remembers the aunt’s breakfast, and the gift becomes a shared meal. This is a sweet exchange without a comic reversal. All four fields read; gloss/tip match."
+      "v2_sha256": "389cedfed1a783b47275e2b3d66f1fb3b853fd5bad9a94bb1f37db21ed04c367",
+      "notes": "Rebuilt the honey card as an office aroma tasting: colleagues give conflicting flower notes, the manager turns it into a formal review, and the next-day bread plus “continuation supplies” turns the review into a recurring event. Compared nearby tea, bakery and food stories; the workplace voting and ongoing aroma panel differ from gift-giving and breakfast plots. Reviewed all four fields, natural Cantonese and contextual Jyutping.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 44,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "97e73b5d1af0dffd98c3bc94cfc1abf22ccff28dc37e9bddd45c9971e79ca9b5",
-      "v2_sha256": "97e73b5d1af0dffd98c3bc94cfc1abf22ccff28dc37e9bddd45c9971e79ca9b5",
-      "notes": "Needs revision: the seafood congee is a cooking sequence with a mild menu-planning tag, not a strong comic story. The sentence says seafood is thawed separately on plates in the refrigerator, while the gloss changes one package to thawing in a basin; this semantic mismatch must be corrected on rewrite. All four fields read."
+      "v2_sha256": "b01abcf7f9c96fe4a82e170d433a6f2f2f61abc60280ff4f8ad395b151a23570",
+      "notes": "Rebuilt the seafood congee card around the younger brother’s increasingly bureaucratic attempt to divide shrimp fairly: a two-shrimp bowl earns a mock membership discount, then he asks to collect stamps and produces a phone tally. Sentence and Mandarin gloss now both thaw the shrimp and scallops separately on covered plates in the refrigerator lower compartment, and the cooking sequence now explicitly goes from washing rice to cooking congee to adding seafood; reviewed all four fields, natural Cantonese and contextual Jyutping.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
