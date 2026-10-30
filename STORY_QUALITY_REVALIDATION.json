@@ -22504,10 +22504,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 29,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "621137cebea72fcfb90de2226dab24bf16e05a4cbe175727eec3afd6b0429dbd",
-      "v2_sha256": "621137cebea72fcfb90de2226dab24bf16e05a4cbe175727eec3afd6b0429dbd",
-      "notes": "Needs revision: allergen label checking is handled appropriately and should remain serious; the extra cheese snack is checked and given only after confirming safety. The sequence is procedural and ends in a shopping reminder, without a comic turn. All four fields read; gloss/tip match."
+      "v2_sha256": "01a2b94542005ae474044f418113c45f944486f980a0833a5c9ffb9ad97f4fd2",
+      "notes": "Kept allergen checks explicit and serious: the narrator rejects packages with shared-equipment warnings and checks the unplanned cheese sample before handing it to the child. Added a separate, gentle payoff about documentation: the narrator saves package-back photos for the sister’s checks, and the child asks why every snack photo shows only the back. The answer—front for choosing, back for checking—callbacks to the whole careful shopping process without making the allergy risk the joke. Reviewed all four fields and contextual Jyutping.",
+      "revalidated_at": "2026-10-30"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
