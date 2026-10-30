@@ -5294,10 +5294,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 61,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "021400ee3fec524946ac6e7957d33e7ea4677b73d4162f91382310db752c43b8",
-      "v2_sha256": "021400ee3fec524946ac6e7957d33e7ea4677b73d4162f91382310db752c43b8",
-      "notes": "Root individually reviewed all four fields. The one-to-one match and rent reminder set up the colleague’s “missing zero” question, but the joke is a single money quip followed by documentation and amount tracking. Matching-donation arithmetic is the core. Does not meet the stronger comedy gate."
+      "v2_sha256": "2afab50bf4ec5d88bb25cbb3efe68b391f3f34b7b26d67dc746f5e2cc32baa14",
+      "notes": "Rebuilt the workplace match campaign around the overlooked constraint: the company matches donations, not rent. The narrator checks the cap, deadline and receipt timing, donates an affordable 300, and submits the proof. A coworker asks about a missing zero; the narrator jokes that it was reserved for rent, then the coworker asks when rent will be matched too. Reviewed all four fields, matching sequence, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
