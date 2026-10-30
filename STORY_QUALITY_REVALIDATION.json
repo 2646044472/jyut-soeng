@@ -22187,10 +22187,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 42,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e4fa8e8fb14b8f0067e1ee668d736a07fe81e3b0e8e1bf8716de68b919c67446",
-      "v2_sha256": "e4fa8e8fb14b8f0067e1ee668d736a07fe81e3b0e8e1bf8716de68b919c67446",
-      "notes": "Needs revision: the birthday tea gift is concealed and the grandfather invites the narrator to the park; the story becomes a sentimental shared-tea scene, not a comedy with escalation. All four fields read; tip tracks the surprise."
+      "v2_sha256": "bda683955e5adbc06ab34fd4bcaad5cc6398209025d15539dfb2e558d21f33bf",
+      "notes": "Rebuilt the sentimental birthday tea gift around the real Phoenix Dancong varietal name “Duck Shit Fragrance”: a colleague mistakes the name for an ingredient, the tea proves floral, and he still asks not to read its full name aloud at work. Checked nearby Oolong and tea-shop stories; this name-based workplace misreading differs from their brewing-time and gift-giving plots. Reviewed all four fields, natural Cantonese and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
