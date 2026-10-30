@@ -5094,10 +5094,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 36,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c284a567c919f1db16338385fe20b861d5cb1499a50400cd606c73de2f9af802",
-      "v2_sha256": "c284a567c919f1db16338385fe20b861d5cb1499a50400cd606c73de2f9af802",
-      "notes": "Root individually reviewed all four fields. The son pretends to faint over dorm charges, then the family allocates laundry money, return airfare and transfers; the sock ending is an ordinary callback without escalation. Repeated overseas tuition/accommodation budgeting core. Needs a new premise."
+      "v2_sha256": "021c9e65f88274804b85c81b3fd8be7db5c6315f646ea9d9512f57f56c5ca235",
+      "notes": "Rebuilt the student-transfer story around the son mistaking the fixed per-cycle charge as a per-garment charge: he washes one shirt at the full cycle price, then shares a full drum with roommates. The father mistakes the collection for a dorm laundromat; the closing line shows the student has learned to combine costs. Kept FX and minimum-fee checks in the setup. Reviewed all four fields, distinct premise, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
