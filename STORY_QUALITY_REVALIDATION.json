@@ -23078,10 +23078,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 65,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4fac1b35db7b0a3e6f5d47bd89b41c7e70974a51f960673445b57f4e8855cd73",
-      "v2_sha256": "4fac1b35db7b0a3e6f5d47bd89b41c7e70974a51f960673445b57f4e8855cd73",
-      "notes": "Needs revision: grandma asks for an in-person queue number and nearly follows the wrong line, then helps another elder; the ending about bringing a large-font pen is mild, with no escalating comic payoff. All four fields read; tip matches the service-center visit."
+      "v2_sha256": "38d7c9cccc17948248b14a36c717c92581a5ac4cfe4df92d5411dc0cb3f9524e",
+      "notes": "Pass after V2 rewrite. Nonfamily service-center scene; category 辦證服務 retained. The newly printed queue slip is blown across the hall; the narrator chases it, bystanders mistake the chase for a called number and line up behind him, and the friend closes with “we were chasing one piece of paper.” The pair reaches the correct counter and keeps the slip pinned down. No specific procedural or legal claims. Four fields reviewed; Jyutping aligned and readings checked."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
