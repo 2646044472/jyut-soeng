@@ -5086,10 +5086,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 35,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d1f845be12b0b3eaf487e62c9feb0a54e2aa38cacd694912b94900853ee0a610",
-      "v2_sha256": "d1f845be12b0b3eaf487e62c9feb0a54e2aa38cacd694912b94900853ee0a610",
-      "notes": "Root individually reviewed all four fields. The discrepancy is resolved by exchange-rate conversion and intermediary fees; the aunt pauses her calculator to ask about the medical visit, and the final childhood-riddle memory is unrelated to the transaction. This is mostly remittance accounting with no coherent comic payoff. Needs rewrite."
+      "v2_sha256": "b10b9864f010d9de47875b05f7e7b6a451f38878b2bc032f513f51bf58c4eb43",
+      "notes": "Rebuilt the medical-support transfer around the apparent shortfall and the aunt’s offer to top it up: the family confirms FX and intermediary fees, finds the net amount sufficient, then avoids paying a second fee to resend the difference. The closing “cheapest transfer is no second transfer” line pays off the calculation. Reviewed all four fields, financial logic, distinct plot, and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
