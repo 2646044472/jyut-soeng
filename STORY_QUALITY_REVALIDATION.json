@@ -5206,10 +5206,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 50,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "01df36098a66816b702a90b23ca57e5e127f4aeaab9cf585b92534cddfa92030",
-      "v2_sha256": "01df36098a66816b702a90b23ca57e5e127f4aeaab9cf585b92534cddfa92030",
-      "notes": "Root individually reviewed all four fields. The relocation-address confirmation is delayed by spam filtering, and the coupon is an incidental recovery with no strong reversal; the story ends on a mild “best bargain” line. Insurance-address administration is the core. Rewrite with a stronger comic payoff."
+      "v2_sha256": "8654b89da732c167cd197eb9dcdbeb98894c14a1f94c7d8096bb887786a89571",
+      "notes": "Rebuilt the address-change episode around “junk” in two forms: the confirmation email is filtered into the spam folder, while physical junk mail from the old home nearly takes valid grocery coupons to the trash. Mom rescues and uses the coupons, then says she will check what “junk” is worth before discarding it. Verified the new address through the official account and support. Reviewed all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
