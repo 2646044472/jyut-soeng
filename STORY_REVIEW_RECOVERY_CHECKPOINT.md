@@ -196,6 +196,15 @@
 - Correction commit `df5587f9b6f08ea0b89987305b2bcc95fc6dfac1` (`Reject duplicate secondhand toaster story`) was pushed by ordinary fast-forward from `0e6f288`; `git ls-remote` confirmed the target ref at the same SHA.
 - Continue screening distinct non-family-core stories; require plot-level uniqueness, not just a changed punchline.
 
+## Active continuation — 2026-10-30, food shopping 18 cards 5–16
+
+- Verified resume at `cde629b1c74562d65122aab2374bafb6fc492e4b`; protected legacy branch remained `3839000bf6829de38abb3027a48174b2c00cd83d`.
+- Read all four fields for `long_food_shopping_18.json` indices 5, 7–11, and 13–16. Index 6 and 12 are pre-existing passes and were not counted in this review batch.
+- Kept all ten reviewed rows at `needs_revision`. Reasons: [5] tea-timer explanation without comic consequence; [7] smooth potato salad/chicken preparation and an unearned “didn’t mix up the order” tag; [8] nutrition adjustment without comic arc; [9] safe school birthday-food handling; [10] one milk-overflow gag that does not connect to the closing banana theft; [11] pleasant biscuit recovery/children’s smile-face arrangement; [13] one sour-plum grimace with an easy dilution and a Cantonese sentence punctuation/wording glitch (“阿媽見到就，叫我”); [14] missing plates, a routine return trip, and familiar crooked-candle “fireworks”; [15] generic office dish exchange; [16] coffee-machine troubleshooting followed by a shopping-list reminder.
+- Compared index 14 with approved birthday-cake stories at `long_food_shopping_01[90,98]`, `09[53,65]`, `13[52,90]`, `14[7]`, and `19[21]`; its birthday-cake mishap/candle device overlaps familiar plot territory and does not yet have a distinct earned escalation. Index 15’s office lunch swap also has a highly recurrent group-meal engine, so neither was promoted based on a punchline alone.
+- No content rewrite was warranted in this set after plot-level comparison; no status changed, no cards were withdrawn, and no pass was added. V2 remains 1,748 pass / 3,252 needs_revision / 0 pending. This is a screening-only checkpoint, not counted as content output.
+- Next ten unique needs-revision cards in source order: `long_food_shopping_18[17–26]`. Continue toward a genuinely rewriteable premise; do not repeat screened IDs or pad the pass count.
+
 ## Active continuation — 2026-10-30, basil storage batch 15
 
 - Continued in the independent worktree; before this batch, local and remote target refs matched at `6e46cfaf85242210794fa5b38f1a0fa117f7e15f`.
