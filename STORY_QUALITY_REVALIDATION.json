@@ -12687,10 +12687,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 1,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "21443753b5862778b41a891c8b74b490c505bc3c65c07d070d9e1d3728abffb0",
-      "v2_sha256": "21443753b5862778b41a891c8b74b490c505bc3c65c07d070d9e1d3728abffb0",
-      "notes": "A leaking market bag ruins the narrator’s clothes but the vegetables are protected; repair advice and tea make a gentle anecdote, with no strong comic escalation."
+      "v2_sha256": "8022d4176c25e40c07b8de0f19b019d4a8ba9025ecf4581bcc4fcb3551ed51bf",
+      "notes": "Rewritten to remove the family-centered repair anecdote. At a market and bus stop, a leaking bag worries waiting passengers; the stallholder repairs it, then jokes about turning the next grocery trip into another bag test. Coworkers mistake the scallions for a potted plant, giving the closing callback. Manually checked story, contextual Jyutping, complete Mandarin gloss, and matching practice tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -12711,10 +12711,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 4,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d85aa31ced9998a6a3b16ba13f48707f9c6cfebc94b633c7b3cb700725d1c983",
-      "v2_sha256": "8d1310d773adeecf933a687dcb34413641d900d43b10d47ec584965e3a9c3d6d",
-      "notes": "The child questions the fruit seller after a sour orange, then the family makes ice pops; the ending is a pleasant recipe-sharing scene without a stronger comic reversal. Gloss corrected to match all events."
+      "v2_sha256": "bc76a4c242053345bafbeb7f874bd6f27e5071f740e662a44209bf9e1c89539e",
+      "notes": "Rewritten as a workplace and market story with no family focus: sour oranges become ice pops, and the seller relabels the fruit by its new use; the colleague saves the sourest one for the narrator, whose paper cup nearly drops amid the laughter. All four fields manually checked and aligned."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -12743,18 +12743,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 8,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "189da45a6d37262304e1df3b3e42621c9c6973e9095b0bfe99bc294174504c30",
-      "v2_sha256": "189da45a6d37262304e1df3b3e42621c9c6973e9095b0bfe99bc294174504c30",
-      "notes": "Needs revision: the elder’s photos and the child’s fallen drawing make a warm waiting-room scene, but there is no comic conflict, escalation or punchline. Four fields read; no source edit."
+      "v2_sha256": "f6806e112e8e705cf8661e7a0170c492a212cf74ea691dd1bf9405d1bb372cdb",
+      "notes": "Rewritten as a non-family, non-money dinner reservation among coworkers. An over-organized seating chart and repeated chair moves block the server, then the night-shift delay makes the elaborate exit plan unnecessary; the server’s meeting-chart callback resolves the joke. Added the coworker’s air-conditioning preferences to bring the story into the preferred length; all four fields and contextual Jyutping were manually checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 9,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f99a647f564d6a767ace8218b51d1eb361ef2de77ebf9c91ded3b5942edcdcf3",
-      "v2_sha256": "f99a647f564d6a767ace8218b51d1eb361ef2de77ebf9c91ded3b5942edcdcf3",
-      "notes": "Needs revision: allergy precautions are clearly explained and the gloss/tip follow the meal, but the friend’s generic praise and promise to check next time yield no comic reversal. Since this is a safety-sensitive allergy story, keep the handling details accurate if rewritten. Four fields read; no source edit."
+      "v2_sha256": "7fa186ebb3147427c498130179ce7898d50f7180560d709bc57a1fbe70f4f801",
+      "notes": "Rewritten with careful allergy handling: the narrator asks the restaurant in advance, staff confirm preparation details and recommend avoiding an unclear sauce, and a staff member removes the peanut snack. The friend’s folded-menu “paper wall” is the comic behavior and callback. Manually checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
