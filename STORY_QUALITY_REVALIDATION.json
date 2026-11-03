@@ -12199,10 +12199,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 40,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "00c7c0bc33d7f246c560362ed666b9bb15cf34b4b568b55e96de4f5a89218d0d",
-      "v2_sha256": "00c7c0bc33d7f246c560362ed666b9bb15cf34b4b568b55e96de4f5a89218d0d",
-      "notes": "The lunchbox leak, hidden eggs and teasing about cooking create a few light beats, but no stronger reversal unifies them into a satisfying comic ending."
+      "v2_sha256": "f0c7c0eb9dcde5919b696d31143319655a9b83fdb5232be778c547d234b8e77b",
+      "notes": "Non-family, non-money office lunch. Rewrote the unrelated lunchbox mishap as a growing paper-towel “dam” built around the wrong sauce leak; the coworker’s dry lunchbox and the narrator’s burst soy-sauce packet pay off the mistaken blame. Manually checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -12239,10 +12239,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 45,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "63c65cca142d964ae152d5c6a2b074393a135f1ba6e687d479586611e232e034",
-      "v2_sha256": "63c65cca142d964ae152d5c6a2b074393a135f1ba6e687d479586611e232e034",
-      "notes": "An overly sour soup is improved with pumpkin and the cook credits an inherited recipe; the correction is warm and practical, not a comic arc."
+      "v2_sha256": "630fe37d250016eceb4f290ccfd4a431fbd8fba790c3453057208d92d2b35157",
+      "notes": "Non-family, non-money office lunch. Rewrote the weak soup-adjustment scene around the narrator confidently blaming tomato soup after reusing a spoon from lemon tea; coworkers’ tasting and the clean-spoon retest set up the reversal, with a playful straw callback. Manually reviewed story, complete simplified-Chinese gloss, contextual Jyutping, and the story-specific tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
