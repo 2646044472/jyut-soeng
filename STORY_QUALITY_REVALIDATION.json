@@ -13079,66 +13079,66 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 50,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "b11996c74945e9abfebe55cbbe362388b2b50104b176a375b83e2d015e3d841d",
-      "v2_sha256": "b11996c74945e9abfebe55cbbe362388b2b50104b176a375b83e2d015e3d841d",
-      "notes": "Needs revision: mother and daughter share fresh buns and plan another purchase; the scene is pleasant but has no meaningful conflict, escalation or reversal. Four fields read; no source rewrite."
+      "v2_sha256": "2db1f5f85dece40bcae6f54e3f28eadd080dd43450edf30f75baaeb72f7ed4f4",
+      "notes": "V2 人工通過：同事把餐包辦成選舉，阿志點票時將自己拿著餐包的手算作芝麻包選票，最後自己被取消資格。四字段與逐字語境粵拼已核對；非家庭、非金錢主題。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 51,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4e301b054960af218466dc3000c60b37585a5412c1b04bec1553983bcdc929cf",
-      "v2_sha256": "4e301b054960af218466dc3000c60b37585a5412c1b04bec1553983bcdc929cf",
-      "notes": "Needs revision: an undated leftover is safely discarded and the refrigerator relabeled, but the mother repeats the date-writing lesson at the end; this is a practical food-safety scene without comedy. Four fields read; no source edit."
+      "v2_sha256": "adc2d0a6475e5a1ddbf63e6727566a5ef4f78bf094e87044dd12e3a681089651",
+      "notes": "V2 人工通過：辦公室處理日期不明的雞肉後，多人認領空盒，盒主又留下「人已領，肉未到期」標籤。四字段與粵拼聲調逐字核對；非家庭主題，安全處理保持清楚。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 52,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d526e3ea64ef2c32034bb7428447ea0ddc6eb0b4898be7246ef909ce5f2451fb",
-      "v2_sha256": "d526e3ea64ef2c32034bb7428447ea0ddc6eb0b4898be7246ef909ce5f2451fb",
-      "notes": "Needs revision: the grandmother spots a potentially spoiled chili and they choose another pack, but the cooking succeeds without conflict or a comic payoff. The savings line is incidental; four fields read."
+      "v2_sha256": "414d67dceae0c8669a115e2cade0be276dc069cdae4923a3cff3e7e9888d2006",
+      "notes": "V2 人工通過：同事把辣椒分級，另一人誤當辣度考試，最後湯匙排隊等派學生證。故事、語境粵拼、完整簡體翻譯及練習提示均人工核對；非家庭、非金錢主題。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 53,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "d6968f0d65e49818c064eca55d54f055441bf18e463029e786b38a6af52faf75",
-      "v2_sha256": "d6968f0d65e49818c064eca55d54f055441bf18e463029e786b38a6af52faf75",
-      "notes": "Needs revision: a duplicate tea charge is politely corrected, followed by more receipts and account-check reminders. This is a core bill discrepancy without a comic turn. Four fields read; no source edit."
+      "v2_sha256": "c66a3c279b16b8e3d00457e4dda6839778a6ff287f56dd48cb6c57dc2a48728a",
+      "notes": "V2 人工通過：隔桌茶水單落錯桌，空杯被當成隱形同事，並獲貼「茶水部」員工證及「已下班」標籤。四字段及粵拼逐字核對；笑點不靠費用爭議。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 54,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6956e0b706e9175c9980a8a955975233b069ac1e02e1780233b5d0de67206eda",
-      "v2_sha256": "6956e0b706e9175c9980a8a955975233b069ac1e02e1780233b5d0de67206eda",
-      "notes": "Needs revision: a checkout outage threatens the ice cream and staff assist an elderly customer; the resolution is considerate but has no distinct comic reversal or punchline. Four fields read; no source edit."
+      "v2_sha256": "475a377418f0074143f7fda6f431ae1956e2a97c081f65016272549fd48b2ba6",
+      "notes": "V2 人工通過：西瓜滾下秤台，阿朗的名牌黏到瓜身，客人誤認它是試食員。四字段與語境粵拼逐字核對；「秤」採 cing3；非家庭、非金錢主題。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 55,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "69490eba3bd170ead0f2f9fbb4bce9671b2aba655f300eb76b34b340197f8765",
-      "v2_sha256": "69490eba3bd170ead0f2f9fbb4bce9671b2aba655f300eb76b34b340197f8765",
-      "notes": "Needs revision: spilled hot soup leads to a multi-step replacement and bag test, then a lesson about carrying soup upright. Procedural repair, not an earned joke. Four fields read; no source edit."
+      "v2_sha256": "b733066440a78484145b4cdcef2b380885f7f7da97fb80f2f82bb222f46d5f88",
+      "notes": "V2 人工通過：雨水沖散外賣袋字跡，三碗湯麵被認成三個阿朗，最後騎手發現自己的袋留在阿朗手上。四字段及粵拼逐字核對；非家庭、非金錢主題。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 56,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f8d7d4359112ba234c59204d506422bb2245f0ae9f475064d2a85c7985b7691e",
-      "v2_sha256": "f8d7d4359112ba234c59204d506422bb2245f0ae9f475064d2a85c7985b7691e",
-      "notes": "Needs revision: the dented can is rejected for safety and the alternative salad is eaten; the price discussion and storage reminder do not form a comic escalation. Four fields read; no source edit."
+      "v2_sha256": "23b5657924c8e597ea660c9f04148b0051be23f494cb9267745648ffad1d9b3b",
+      "notes": "V2 人工通過：店主提醒凹罐密封風險，同事把貨架罐頭排成會議隊伍，還替凹罐安排主持工作。四字段與語境粵拼逐字核對；非家庭、非金錢主題。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 57,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5ed5a1729f3bd74871373fd242c2a7f1e6fbc6a8b8dd6bc3bf67691be17156e6",
-      "v2_sha256": "5ed5a1729f3bd74871373fd242c2a7f1e6fbc6a8b8dd6bc3bf67691be17156e6",
-      "notes": "Needs revision: a missing shrimp dumpling is replaced and peanuts are offered as compensation, but the birthday meal proceeds warmly without a comic payoff. Four fields read; no source edit."
+      "v2_sha256": "85b2a2245cb9b0af45cb979838207fc0cde44d7c6239760202f1861940c4086a",
+      "notes": "V2 人工通過：廚房工作單「稍後」被當成點心預約，客人替蝦餃留座，最後阿朗說自己還在等散場。四字段與語境粵拼逐字核對；非家庭、非金錢主題。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
