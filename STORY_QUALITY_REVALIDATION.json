@@ -5558,18 +5558,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 94,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "31a7b59fdc2f4b76817af256750bfe631ef28bc4b4be66d1f978f9afb1a25339",
-      "v2_sha256": "31a7b59fdc2f4b76817af256750bfe631ef28bc4b4be66d1f978f9afb1a25339",
-      "notes": "Root individually reviewed all four fields. The “boat must reach shore” line summarizes why tuition cannot be locked in a deposit, but the story is mostly maturity-date/withdrawal rules and ends with a familiar metaphor, not a strong comic turn. Fixed-deposit tuition planning core; revise."
+      "v2_sha256": "036a206d74b8be4f15e046cd94ed23af8c337cc23b03f094cf7e4208f90a77d2",
+      "notes": "Rebuilt the deposit-calendar mismatch as a child’s bus route: the school fee falls due three days before maturity, the route map makes the timing conflict visible, and Dad becomes a passenger when he parks his tea on the date. Manually reviewed all four fields, including 304 Han characters aligned to 304 contextual Jyutping syllables, the complete Simplified translation, and the story-specific practice tip. Banking terms stay general and are confirmed with the bank; category and card position preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 95,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "1fefc4617d5badedeeda6edc921bfc07dc3ef70e7aa72de92d9ab0d5141f89a8",
-      "v2_sha256": "1fefc4617d5badedeeda6edc921bfc07dc3ef70e7aa72de92d9ab0d5141f89a8",
-      "notes": "Root individually reviewed all four fields. The taxi/medical-cost mix-up starts a sibling review, and the father’s hidden wheelchair quote surfaces a real concern; the kitchen timer and blue-chair tag are mild, not a strong earned payoff. Family-care expense/accounting dispute is central and duplicates the family-money pattern. Needs a new comedy engine."
+      "v2_sha256": "a1915e4d5f5ea321c187f2f07f62e6135d92323b7b3aaab4c2c5566f191c71b9",
+      "notes": "Replaced the duplicate taxi/medical accounting dispute with three siblings overcounting the same fare while Dad tries to show a mobility-chair quote. His marked floor sketch explains what he needs and shifts the discussion into a shared decision; the timer beeps resolve into the soup he has been cooking, so he hands the spoon to the loudest sibling. Manually reviewed all four fields, including 277 Han characters aligned to 277 contextual Jyutping syllables, a complete Simplified translation, and an event-matched practice tip. The chair is not the joke; category and position are unchanged."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
@@ -5582,10 +5582,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 97,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "66c8559edbb5afb2085fa71c6861f94f86341072522c39f7623a9d148a17a69b",
-      "v2_sha256": "66c8559edbb5afb2085fa71c6861f94f86341072522c39f7623a9d148a17a69b",
-      "notes": "Root individually reviewed all four fields. The siblings’ documented caregiving and medication contributions lead to a negotiated split, but the ending is a warm meal and lowered voices, not comedy. This is precisely the recurring family-argument/expense-allocation structure that the task asks to replace. Needs a different conflict."
+      "v2_sha256": "10f957e1bf992e7f99f02f474067de6c8f40189d67821a36c2175a26977e08a2",
+      "notes": "Rebuilt the family expense discussion as anniversary-dinner planning: Dad adds a “clapping” column, turns the restaurant confirmation call into an awards speech, then reveals he has written the siblings in as sponsors. The behavior escalates naturally from the budget board to the call and pays off in his formal thank-you. Manually reviewed all four fields, including 254 Han characters aligned to 254 contextual Jyutping syllables, a complete Simplified translation, and a story-matched practice tip; category and position preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
@@ -5598,10 +5598,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_07.json",
       "index": 99,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "91b59eb948851edaa21604f8839399f77771e5a01585db6944e2719d858b2ded",
-      "v2_sha256": "91b59eb948851edaa21604f8839399f77771e5a01585db6944e2719d858b2ded",
-      "notes": "Root individually reviewed all four fields. The aunt’s overlarge contribution envelope is explained by misunderstanding which home-care services are for her; the family tests a month and resolves the amount, then she brings a fish dish. The ending is warm but not a strong comic reversal, and the central family household-cost accounting repeats the conflict pattern explicitly targeted by the task. Needs a different, funnier premise."
+      "v2_sha256": "f2092c4c74a6ddfb3cd5e6043bd28eaecf4208353261af4cf21a29558381c277",
+      "notes": "Rebuilt the shared-expense scene around Aunt’s literal chair measuring and Dad turning the dining room into a mock meeting; the “fridge department head” label and chore list reveal that she mainly wants a role in the home. The rotation note pays off the chair labels. Manually reviewed all four fields, including 254 Han characters aligned to 254 contextual Jyutping syllables, a complete Simplified translation, and a story-specific practice tip. Category and position preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
@@ -5638,10 +5638,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 4,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c81b2c74786e26e212e773c1b33c9ca24dc74ae8846d4b27ea5a8c9f87c44c94",
-      "v2_sha256": "c81b2c74786e26e212e773c1b33c9ca24dc74ae8846d4b27ea5a8c9f87c44c94",
-      "notes": "Root individually reviewed all four fields. The agent’s foot holding the broken toilet door and the neighbor’s water-pipe warning are concrete, but the story resolves as a prudent home-purchase checklist; the final pineapple-bun line is mild rather than a strong comic reversal. Mortgage/property-cost core and insufficient payoff. Needs a stronger plot."
+      "v2_sha256": "5d2ea1fa4e0c4a4e5d469cd257124e5b38c949f15894c1b62967757956ba25d2",
+      "notes": "Rebuilt the property viewing as an appetite-led viewing: the sister rushes toward the flat for the Macau street and bakery, then the bathroom door flattens her bun and traps the brochure on repeated tries. She pauses, checks renovation costs and asks the bank and tradesperson before deciding; the return visit to test whether the door “eats” another bun pays off the opening. Manually reviewed all four fields, including 260 Han characters aligned to 260 contextual Jyutping syllables, complete Simplified translation and scene-matched tip. Category and position preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
@@ -5662,18 +5662,18 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 7,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "35985ce4ce0e4050900feb4c1f755c3dec8ba8fc79a5afec79060f1c8733bd5a",
-      "v2_sha256": "35985ce4ce0e4050900feb4c1f755c3dec8ba8fc79a5afec79060f1c8733bd5a",
-      "notes": "Root individually reviewed all four fields. The mother’s camellia controls the move timeline, and the penalty period justifies waiting; the realtor’s stage-play remark and plant-as-protagonist are mild, without a strong reversal. The story is mostly home-sale dates, fees and mortgage settlement. Needs sharper comedy."
+      "v2_sha256": "9644de769b1058f6bceaa263278ea13fd84eb5e6c8ad131c1366b0c37a1edc8a",
+      "notes": "Rebuilt the sale-and-move scene around Mom scheduling the flower as the priority client: she checks settlement and payment timing with the bank and lawyer, brings the pot to test the new window, and Dad rehearses its route like a stage entrance. The plant arriving first earns the final house-deed callback. Manually reviewed all four fields, including 250 Han characters aligned to 250 contextual Jyutping syllables, a complete Simplified translation and a story-specific tip. Category and position preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 8,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "4156d1d56ee4617c31cbe5e5197ecb8d7137322a2c98e22e21492a3aa77b3358",
-      "v2_sha256": "4156d1d56ee4617c31cbe5e5197ecb8d7137322a2c98e22e21492a3aa77b3358",
-      "notes": "Root individually reviewed all four fields. The siblings argue about missing property documents, then find the deed in the Christmas-light box and make peace over dessert, but the “ceasefire” ending is slight and the core is an ownership-ratio/legal-fee procedure. Needs a stronger comedic payoff and less document-accounting plot."
+      "v2_sha256": "43bb313ab9168716c112cf3fd4acdc1ce8bb5019e8b7d2736026db25d800fa83",
+      "notes": "Rebuilt the shared-property document hunt around the siblings’ filing chaos, escalating box labels, a mock archive manager and a cat blocking the final box. The old photograph reveals their own forgotten checklist; they seek legal and bank confirmation. Manually reviewed story, contextual Jyutping, full Simplified Chinese gloss and matching retelling prompt."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
@@ -5694,10 +5694,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 11,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "59dc5201e711ca46f9dd207d13fcb9621a5310026bdfe7ccd6b1a27c15439649",
-      "v2_sha256": "59dc5201e711ca46f9dd207d13fcb9621a5310026bdfe7ccd6b1a27c15439649",
-      "notes": "Root individually reviewed all four fields. The student spends on egg waffles and repeated stickers, then offers a sticker to remind her parent about coffee; this is a mild lesson about limits, not a strong comic escalation. Credit-card budgeting and repayment dominate. Needs a more distinctive payoff."
+      "v2_sha256": "0ed9e4d7a7f7d35006a19736583b4483b0e0dee5e98023bb6c80e9bd3fb95635",
+      "notes": "Rebuilt the card around a first-year student fronting group purchases, the family finding promised reimbursements were not available credit, and her setting an upfront split rule. The classmate’s thumb-only reply and final transfer provide the comic callback. Manually reviewed all four fields and all 281 contextual Jyutping syllables; retained category and row position."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
@@ -5726,19 +5726,19 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 15,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5d6334ccb5b2bf9d312503aa272769949f30385f21dab7f6ddc4c6147b34f8aa",
-      "v2_sha256": "5d6334ccb5b2bf9d312503aa272769949f30385f21dab7f6ddc4c6147b34f8aa",
-      "notes": "The overseas-card-fee comparison, exchange-rate checking and statement review repeat the financial-planning conflict; the payoff is simply that the cousin treated them, with the noodles donated as a tidy moral. The “supply line” setup does not escalate into a distinct comic reversal. Individually checked sentence, Jyutping, full gloss and story-specific usageTip.",
+      "v2_sha256": "371ed3e7145efbf35ada9686729db62107fd787050b768180abc3b79e2f38124",
+      "notes": "Rebuilt as a work trip with separate company and personal card purchases: the confident receipt sorter hides both in a “not sure” envelope, then tries to pass off a souvenir flag as exhibition equipment. Finance questions uncover the distinction; the flag becomes a receipt divider. Manually reviewed all four fields and all 274 contextual Jyutping syllables; category and row position retained.",
       "revalidated_at": "2026-10-27"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 16,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "cb64244486c66ef8b06399b9159186cf50d2796020803ecc4c80c7bd1e6a5824",
-      "v2_sha256": "cb64244486c66ef8b06399b9159186cf50d2796020803ecc4c80c7bd1e6a5824",
-      "notes": "The installment calculation and milk-tea cup counting lead to a sensible purchase decision, but the son’s “cups reproduce” and “bill sent a row of milk tea” are mild wordplay rather than an earned escalating payoff. Individually checked sentence, Jyutping, full gloss and story-specific usageTip.",
+      "v2_sha256": "cc63fd6fc76dc0866d6606c663f8033347f20931d3545cb92cce77c8065997cb",
+      "notes": "Rebuilt the installment decision around a band drummer who turns each monthly payment into a beat; the rhythm slows as the full amount is counted and ends at the sheet-music stand. The band checks the actual performance schedule, borrows a spare drum for the confirmed show, and the folded promotion becomes a beat marker. Manually reviewed all four fields and all 277 contextual Jyutping syllables; category and position retained.",
       "revalidated_at": "2026-10-27"
     },
     {
@@ -5762,28 +5762,28 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 19,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "93aa7339028a4641b7d4706ff1f07ad448d40103fc9011d3aba56a7e37f73a6e",
       "v2_sha256": "93aa7339028a4641b7d4706ff1f07ad448d40103fc9011d3aba56a7e37f73a6e",
-      "notes": "The unused card is cancelled and its dinosaur corner saved, but the retirement/“rent” jokes do not build to a strong reversal; the points-to-coupon and utility-autopay checks dominate the scene. Individually checked sentence, Jyutping, full gloss and story-specific usageTip.",
+      "notes": "V2 manual review retained the card-cancellation story: the family verifies automatic payments and rewards before cancelling, waits for confirmation, then saves the child’s dinosaur corner as the keepsake. The fee and “retirement” callback resolve the opening; reviewed all four fields and all 268 contextual Jyutping syllables.",
       "revalidated_at": "2026-10-27"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 20,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c7c33cf0194308c89ea248d4d0a78773f8ee00a60cef06f254554c0fee722301",
-      "v2_sha256": "c7c33cf0194308c89ea248d4d0a78773f8ee00a60cef06f254554c0fee722301",
-      "notes": "The tax notice is a misdelivered letter and the neighbor’s glasses-on-head search is familiar mild farce. The ending only repeats the narrator’s earlier warning; no stronger comic reversal develops. Individually checked sentence, Jyutping, full gloss and story-specific usageTip.",
+      "v2_sha256": "c708b051e7287076a0239bad10165ab95623a97e0ed3c068aeb94f8f970b0cf1",
+      "notes": "V2 rewrite uses a generic tax notice and official-site verification rather than an unverified local tax label. The mismatched address keeps the family from paying it; the neighbor finds his glasses on his head and gets his own letter back, with the mother’s final challenge closing the opening joke. Manually reviewed all four fields and all 275 contextual Jyutping syllables.",
       "revalidated_at": "2026-10-27"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 21,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "6ef593be6d071796f2e62df8c58be3dea8b7ed1a5086f0b376fd3f79b1d56911",
-      "v2_sha256": "6ef593be6d071796f2e62df8c58be3dea8b7ed1a5086f0b376fd3f79b1d56911",
-      "notes": "The rice receipt mistaken as a deduction opens a tax-paperwork scene, but the missing name dot and receipt-as-cup-mat ending do not escalate into a satisfying comic payoff. Individually checked sentence, Jyutping, full gloss and story-specific usageTip.",
+      "v2_sha256": "34b3910eec36dd6ed9fd2601dbaf977d2e9b985596cc093cd3442afe2eb65cb1",
+      "notes": "V2 manual review retained the filing-night joke: the rice receipt becomes an accidental “tax deduction” question, then the group catches an outdated income year and a missing dot in the name before submitting. Corrected the contextual Jyutping readings for 咁 and 名; reviewed all four fields and all 277 syllables.",
       "revalidated_at": "2026-10-27"
     },
     {
@@ -5798,37 +5798,37 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 23,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "a4f42c88361f66f37e6fedbb3bc620edf938590f3a8c3f31fac04d25fece1801",
-      "v2_sha256": "a4f42c88361f66f37e6fedbb3bc620edf938590f3a8c3f31fac04d25fece1801",
-      "notes": "The income/tax confusion is clarified and the sister apologizes for taking a photo; the dropped-butter embarrassment and final refusal to share milk tea do not resolve into a strong earned punchline. Individually checked sentence, Jyutping, full gloss and story-specific usageTip.",
+      "v2_sha256": "7fe669c0d323b7325ee1fc94a2228cbad88d94defda6584bc42af76bd34630e7",
+      "notes": "V2 manual review retained the notice-reading misunderstanding: the narrator mistakes annual income for tax due, jolts the butter onto his sister’s plate, then checks the amount against company and withholding records. His apology and the sister’s “this drink is not shared” callback resolve the conflict. Corrected the Jyutping for 擰 and 請; reviewed all four fields and all 252 syllables.",
       "revalidated_at": "2026-10-27"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 24,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e8b8591ef62180f4133472234a8cd3931a2c8d806e76a89a2c9551cfb5484fc4",
       "v2_sha256": "e8b8591ef62180f4133472234a8cd3931a2c8d806e76a89a2c9551cfb5484fc4",
-      "notes": "The wife’s old loan note prevents another impulsive loan, but the story resolves as financial advice and a warm porridge metaphor. The flower/interest joke is not developed into a substantial comic turn. Individually checked sentence, Jyutping, full gloss and story-specific usageTip.",
+      "notes": "V2 manual review retained the missed part-time income and the urge to borrow: the wife brings out the earlier loan note, they verify payment arrangements and borrowing cost, and upcoming paydays remove the need for another loan. The cooling porridge returns in the ending. Reviewed all four fields and all 276 contextual Jyutping syllables.",
       "revalidated_at": "2026-10-27"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 25,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c8f3d9c6267bbaf8ca8abdda9e2305ee0bfccd269e415510eb6c0a40de31587a",
-      "v2_sha256": "c8f3d9c6267bbaf8ca8abdda9e2305ee0bfccd269e415510eb6c0a40de31587a",
-      "notes": "The viral tax-reduction rumor is corrected by checking official limits, but the scene resolves as routine fact-checking and a reminder to read fine print; the rice-cooker framing never pays off comically. Individually checked sentence, Jyutping, full gloss and story-specific usageTip.",
+      "v2_sha256": "ace3995678505e2bcc3a0faecae216c1c2ef92ba0c9797c2947fb405c5d2193d",
+      "notes": "Rewrote the rumor scene without hard-coding a time-sensitive rates concession. The mother moves out the old rice cooker for a hoped-for replacement, the neighbor nearly stops her transfer, and the missing period/amount on the screenshot sends them to the current official notice. The old cooker’s “retirement exemption” pays off the opening. Reviewed all four fields and all 274 contextual Jyutping syllables.",
       "revalidated_at": "2026-10-27"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 26,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2f4da403ebd92be7864c7dd39625584830c9193261d983110cded2db9385ac74",
-      "v2_sha256": "2f4da403ebd92be7864c7dd39625584830c9193261d983110cded2db9385ac74",
-      "notes": "Grandma mistakes the dependent-tax inquiry for an age test and enjoys the flattering guess, but this is a pleasant misunderstanding without escalating conflict or a strong comic turn. Individually checked sentence, Jyutping, full gloss and story-specific usageTip.",
+      "v2_sha256": "989004287e6f4f8e9beb1874400307a05bf06c5c7ae61c92bddd8d911851a32a",
+      "notes": "Rebuilt the support-document scene with little financial detail: the sisters compete to describe their care, grandma mistakes it for a choice of where she will live, then turns the old photo album into a Sunday duty roster and threatens to post their childhood “evidence.” Reviewed all four fields and all 290 contextual Jyutping syllables.",
       "revalidated_at": "2026-10-27"
     },
     {
@@ -5843,29 +5843,29 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 28,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "13d100ad3016cd513e28177b0f4871c7375b095187e1134aa158bc294c6e628f",
-      "v2_sha256": "13d100ad3016cd513e28177b0f4871c7375b095187e1134aa158bc294c6e628f",
-      "notes": "The son reverses six and nine while helping with an online tax payment, then receives a pretend “checker” title. The mistake is low-stakes and the ending only repeats the role; the core remains payment checking. Individually checked sentence, Jyutping, full gloss and story-specific usageTip.",
-      "revalidated_at": "2026-10-27"
+      "v2_sha256": "4e088366fe0af77d6d07ca761235df2590e308f1020cdec6ec1ccff464a9b8e9",
+      "notes": "The son urges a repeat payment, then checks the completed transaction and asks for a self-appointed inspector certificate. At the elevator he catches his own impulse to press a button twice, declares it passed after one press, and reveals he printed his certificate himself. Payment is only the setup; the comic turn comes from his behavior. Manually checked the story, contextual Jyutping and tones, complete Mandarin gloss, and story-specific practice tip.",
+      "revalidated_at": "2026-11-03"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 29,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7a852c59a2bdb5877383b0a39f445d5ef6e51c69ddc0e6efff62d4f9d1c523ed",
-      "v2_sha256": "7a852c59a2bdb5877383b0a39f445d5ef6e51c69ddc0e6efff62d4f9d1c523ed",
-      "notes": "Grandma’s flower notebook is a warm observation, but the payroll/document scene has no real escalation or comic payoff; the final flower-as-pass joke is mild. Individually checked sentence, Jyutping, full gloss and story-specific usageTip.",
-      "revalidated_at": "2026-10-27"
+      "v2_sha256": "4bcd3b82b093cf59688913e76c1f1f42d6eba42850b336f9221fca0bbf4dfc00",
+      "notes": "A missing filing notice triggers the father to blame the caregiver. Grandma questions his memory; moving flower pots splashes mud, and the hidden notice plus his glasses cloth expose where he put it. Grandma turns his excuse into a flower-recognition chore. Money details are absent; the conflict and reversal come from family behavior. Manually checked the story, contextual Jyutping and tones, complete Mandarin gloss, and story-specific practice tip.",
+      "revalidated_at": "2026-11-03"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
       "index": 30,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8d58334824ba710bf09d0f49fa9d778b9159ccdd6498cc3a9a8c8b3c8d5abd65",
-      "v2_sha256": "8d58334824ba710bf09d0f49fa9d778b9159ccdd6498cc3a9a8c8b3c8d5abd65",
-      "notes": "The son calls appliances family heirlooms and asks whether the fan needs ID, but the insurance inventory and policy review remain procedural; the fan joke does not escalate to a strong payoff. Individually checked sentence, Jyutping, full gloss and story-specific usageTip.",
-      "revalidated_at": "2026-10-27"
+      "v2_sha256": "32e5a1dac0a7831731ea21b6f4282c293d0adf6f009948780d398dfa2c7f56cd",
+      "notes": "The son turns a squeaky fan into a self-appointed interview guest and labels it a family heirloom. A tag reveals it belongs to the neighbor; returning it uncovers a reciprocal borrowed chair, so the child switches from interviewer to household loan auditor. Insurance is only the scene, with no amounts or invented coverage claims. Manually checked the story, contextual Jyutping and tones, complete Mandarin gloss, and story-specific practice tip.",
+      "revalidated_at": "2026-11-03"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_08.json",
@@ -11118,18 +11118,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 5,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "3b18eeec3d923eff430e18a6b79b418efd19aeb54b0e1a06e3a623104b1448d7",
-      "v2_sha256": "3b18eeec3d923eff430e18a6b79b418efd19aeb54b0e1a06e3a623104b1448d7",
-      "notes": "Needs revision: the son mistakes squid tentacles for seaweed and the father recalls confusing ginger with scallion; this offers a small visual joke, but the plot resolves as a routine cooking lesson and ends by declaring a catchphrase."
+      "v2_sha256": "d8abcd6c681e1875aebdce7fa8370d5f95b5d7e3cd2b121c5c39f8234147f752",
+      "notes": "Manual V2 review of all four fields. Reworked the squid/ingredient confusion into one escalating scene: the father confidently teaches, misidentifies ginger and scallion, then the younger brother labels the bowls and directs the cooking; the labels return as a shopping reminder. Reviewed contextual Jyutping, complete Simplified gloss, and story-specific tip. Category, ID, order, and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 6,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8a9ac5e65b8391b7a1c492f7c9bb34ef3742a7d4cb518ef2e1cf752e75ba44df",
-      "v2_sha256": "8a9ac5e65b8391b7a1c492f7c9bb34ef3742a7d4cb518ef2e1cf752e75ba44df",
-      "notes": "Needs revision: the narrator protects grandmother’s takeaway from rain and discovers she rolled up his wet sleeve; the tender reversal is clear, but it is sentimental rather than comedic."
+      "v2_sha256": "504c955201f8e85f00f595eb296d88d2b8b03bfc638c2beffb2e133bc65be02d",
+      "notes": "Manual V2 review of all four fields. Rebuilt the scene around Grandma hiding chilli sauce for herself: she claims to have quit spicy food, fetches the sauce from a high cupboard on a stool, progressively eats it after her grandson refuses, then admits she only meant to stop sharing. Contextual Jyutping, complete Simplified gloss, and story-specific tip reviewed; category and row position preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11630,10 +11630,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 69,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7b2b819699476706f586b3ac4a2ddfaf68ae6ffaaefe5cdf5e07e142e67245ef",
-      "v2_sha256": "129e03365011eaa2442f1b5908c799ab2a566e2523f78444a2ed7aea1eaee21a",
-      "notes": "Re-evaluated after category-fit audit: the supermarket visit is only a brief setup, while the story’s central event and punchline occur at the badminton court as friends struggle with the yogurt seal. This does not sufficiently fulfill category `超市買嘢`; do not count it as V2 pass. Rewrite with a supermarket-shopping-centered comic progression or retain needs_revision."
+      "v2_sha256": "7e7a708b7311c094c55952021996ce0cc83689e975af0fe0c5c933c171ad51b2",
+      "notes": "V2 pass after category-fit rewrite: the supermarket remains the central setting and action; three coworkers’ blind-tasting prep escalates through the missteering cart and seaweed eye-mask misunderstanding, ending with the shopper trying to choose not to remember the missing cups. No family or money-centered conflict. Manually checked story (296 Han characters), contextual Jyutping alignment and tones, complete Simplified Mandarin gloss, and event-matched usageTip with the required 故事练习： prefix. Checked all four fields; no matching blind-tasting/cart-steering mechanism found in corpus search."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11902,10 +11902,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 3,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e601a8bddf8a15f7b191be66e37945602775263e41301c7c0dcd130626187766",
-      "v2_sha256": "e601a8bddf8a15f7b191be66e37945602775263e41301c7c0dcd130626187766",
-      "notes": "The first dumpling failure and uncle’s congee remark could support comedy, but the recovery becomes a straightforward lesson and the ending only assigns next year’s practice."
+      "v2_sha256": "5f2f76e05a80342d7b112f2ac10a32273ea84f4ffb4afab6137e6a52dfa056c4",
+      "notes": "Rewrote the kitchen scene around the narrator agreeing to Grandma’s gentle knotting instruction but over-tightening the zongzi; cousin catches the rice, shows the “leafless zongzi” on video, and Grandma turns the saved ingredients into porridge. All four fields manually reviewed; 280 Han / 280 Jyutping tokens.",
+      "revalidated_at": "2026-11-03"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -12078,10 +12079,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 25,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "54fecc9894cb78a1db122fdb424f64522ac5f43f24faa12cd7b8aa3a562d4298",
-      "v2_sha256": "6eed889cff34c9e8a02268966b334d62d464031b74de4462fe755503ae2869e4",
-      "notes": "Re-audited for cross-card semantic distinctness against content/sentence_bank/long_food_shopping_17.json[6]. Both stories use a neighbor food-sharing cycle that accumulates food across households and ends with a corrective rule/sign plus a continuing-loop joke: this card circulates a borrowed box with added dishes, while [17][6] repeatedly returns oranges through the shopping rota and ends with “only out, never in” plus seeds. The objects and immediate trigger differ, but the central circulation/accumulation arc and rule-based payoff are too close for a distinct V2 pass under the current diversity requirement. Source row/hash unchanged; retain needs_revision and rewrite around a different neighbor-sharing mechanism before counting."
+      "v2_sha256": "71bde79f2a1ed52e14beb50f05cac1fb0a9a61677812231bacb09d60a299ef3e",
+      "notes": "V2 pass after distinctness rewrite: replaced the borrowed-container/food-circulation loop with a shared-dinner misunderstanding around a deliberately named “蛋定啲” steamed egg, a mislabeled placard, and the neighbor interpreting its seaweed eyes as a children’s dessert. This avoids the repeated accumulating-dishes/rule-sign mechanism recorded in the prior audit. No family or money-centered conflict. Manually checked all four fields, 262 Han characters with contextual Jyutping alignment and tones, full Simplified gloss, and event-specific usageTip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -12206,10 +12207,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 41,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ed6d3e263a3dfd481363e723abce547d6072a359820bf2f741627d9993a945f5",
-      "v2_sha256": "ed6d3e263a3dfd481363e723abce547d6072a359820bf2f741627d9993a945f5",
-      "notes": "The uncertain sauce label is handled safely and the group shares food; the last policy reminder is explanatory, with no comic escalation."
+      "v2_sha256": "7e976df21da36abd63bbe514ed9cf19b4d0bebf4f75149f5abdbdf7ad6f26539",
+      "notes": "Office lunch, no family or money focus. The colleague safely sets aside a sauce with an obscured ingredient label and confirms the full list with the shop. An overzealous lunch recorder splits plain rice into absurdly precise labels, then pulls a label roll from desk to pantry and ends up wearing the final warning. Rewrote and checked all four fields, including contextual Jyutping; new setup and escalation avoid the old allergy-safety-only plot."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -12726,10 +12727,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 6,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "99c6de2e439082046423b802c6e9032e00ee7d960f43be7ea7a283ba716a35de",
-      "v2_sha256": "99c6de2e439082046423b802c6e9032e00ee7d960f43be7ea7a283ba716a35de",
-      "notes": "Needs revision: the vendor, neighbor and narrator exchange spinach/fritter compliments, but the next-day vendor callback does not escalate the scene or deliver a reversal; the plot remains a pleasant cooking anecdote. Read sentence, Jyutping, complete gloss and event-matched tip; no source edit."
+      "v2_sha256": "58d3b01d2b0db57dbe0c81d9fd5b70e491aaf94a52b0a9b9d73419c3bb5b17e8",
+      "notes": "V2 manual pass: at the market, Ah Ling practices singing to a friend on video while following the vendor’s chopping rhythm; as the queue speeds up, she rushes the chorus, and the friend calls the knife the accompaniment. Category 街市買餸 retained. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -12758,10 +12759,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 10,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "944552bc680636f80e26f26d48c478a8f602d8907f7584cb21cb3a770ebac8fe",
-      "v2_sha256": "944552bc680636f80e26f26d48c478a8f602d8907f7584cb21cb3a770ebac8fe",
-      "notes": "Needs revision: the family identifies a potentially unsafe soup and improves the labeling routine, but the practical safety lesson has no comedic escalation or earned ending. Four fields read; no source edit."
+      "v2_sha256": "1c979a1a32d6180bcb4491337ce2caca444d2a1ce2b8c39ebbe5eaafef34e116",
+      "notes": "V2 manual pass: the father theatrically guards the fridge during a blackout, then rejects guessing or tasting soup with an unreadable date and uncertain temperature; after safe disposal, labels take over the “guarding” role. Checked all four fields and contextual Jyutping; category 食物保存 retained."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -13511,10 +13512,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
       "index": 4,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e01b4575baf80978dfa6ba5fc49df9ec0b21e64496e9e1e9a98cb08f67c184b7",
-      "v2_sha256": "e01b4575baf80978dfa6ba5fc49df9ec0b21e64496e9e1e9a98cb08f67c184b7",
-      "notes": "Needs revision: delayed food and a hot-tea/cold-tea mix-up are politely corrected, but the diners’ laughter is asserted without a distinct joke or strong reversal; the rest is routine lunch timing. Four fields read; no source edit."
+      "v2_sha256": "7338ec1f19b367ecf5af0303d8c32c085b05c494e1b172872c7c4031b419a451",
+      "notes": "V2 pass after replacing the duplicate drink-mix-up premise: a colleague rearranges a baked pork-chop rice plate for a perfectionist lunch photo, turning peas and sauce into a road map; his colleagues eat before he finishes, so the empty plate earns the “full marks” photo. No family or money-centered conflict. Manually reviewed story (264 Han characters), contextual Jyutping alignment and tones, full Simplified gloss, and matching usageTip. Distinct mechanism checked against the source corpus."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
@@ -14055,10 +14056,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
       "index": 72,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "e6e2eb93a63b2aa6c64a301ce9e989eab957069e7156a9baff06b03b6392913f",
-      "v2_sha256": "e6e2eb93a63b2aa6c64a301ce9e989eab957069e7156a9baff06b03b6392913f",
-      "notes": "A pot handle detaches and hot water spills, followed by a safe repair and inspection; the serious hazard is handled as consumer advice and has no comic resolution. Checked all four fields."
+      "v2_sha256": "cd226344b6922f0941a6225b5b71af2929b45ebaf1cad75333de176e99384f27",
+      "notes": "V2 pass after replacing the hot-water safety incident with a pot-lid mismatch return: three wrong lids turn the counter into an improvised fitting show, attracting customers who offer to judge and test their thermos cups. The clerk identifies the misboxed small-pot lid and verifies the correct fit. No family or money-centered conflict. Manually reviewed all four fields (264 Han characters), contextual Jyutping alignment and tones, full Simplified gloss, and story-specific usageTip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
@@ -14407,10 +14408,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 16,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "0c0086397a79ac63c16eb1b9a3fe86ee54f7d9cc77d4ddded429c6ab54fac461",
-      "v2_sha256": "0c0086397a79ac63c16eb1b9a3fe86ee54f7d9cc77d4ddded429c6ab54fac461",
-      "notes": "Too much curry powder makes the dish too spicy, so coconut milk softens it; the roommate’s water comment is a small line, but there is no further comic escalation. Checked all four fields."
+      "v2_sha256": "82d9d0e9b67e51d7fa6094af26bd6c583e08bff19e0ce8a4623bfdc5b65143f2",
+      "notes": "V2 pass after replacing the duplicate curry-and-water-evaluation loop with a roommate’s failed one-handed omelet flip: the egg lands on a clean pot lid, folds into a half-moon, and the phone records only the empty stove because its camera faces the wall. The final dish name and “kitchen scenery” recording pay off the filming setup. No family or money-centered conflict. Manually reviewed all four fields (253 Han characters), contextual Jyutping alignment and tones, full Simplified gloss, and story-specific usageTip; checked corpus for similar pan-flip/camera gag."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -15096,18 +15097,20 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 2,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "c2095f9fa9c10805e7d8ce503a2b0249275f59e9547a9788a0e0db15f6deb0fc",
-      "v2_sha256": "c2095f9fa9c10805e7d8ce503a2b0249275f59e9547a9788a0e0db15f6deb0fc",
-      "notes": "The restaurant adapts seating to the father’s cane and hearing; his mistaken question about the chair recognizing the cane is a small observation, followed by a warm birthday meal and future reservation, without comic escalation. Checked all four fields."
+      "v2_sha256": "7e497e4d4767b6b303f00de4fb1ec1cb90ba2b124c0d80e7ea4c9115fd3e6dc4",
+      "notes": "Reworked the birthday booking around Dad’s reluctance to be fussed over and his increasingly deliberate arrangements for the cane’s place at the table, cake space and family photo; manually checked all four fields (286 Han / 286 Jyutping tokens), including deng6 in 訂枱, gwaai2 zoeng6 拐杖 and si6 jing3 侍應.",
+      "revalidated_at": "2026-11-03"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 3,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "67b2b18a7f383999736fc05042ff5da5d12740b91f5f67a5cf7202d5aaad1125",
-      "v2_sha256": "67b2b18a7f383999736fc05042ff5da5d12740b91f5f67a5cf7202d5aaad1125",
-      "notes": "A stacked order ticket causes the sweet tea mix-up; staff promptly remake both drinks and label the tickets. The later drink and pineapple bun are routine, so the misunderstanding has little comic payoff. Checked all four fields."
+      "v2_sha256": "1e04673ba876c1f3a962869985d0f4ece68ca1178938d72318a0f41ac282af6d",
+      "notes": "Luna reviewed all four fields after a substantive rewrite: Ah Long boasts he can smell sugar, repeatedly guesses wrong and makes excuses; the waiter offers unsweetened lemon slices, and he abandons the test for plain water. Root applied the final explicit re-sniffing step, manually aligned 269 Han/Jyutping syllables and checked tones, full Simplified gloss and event-specific tip. Terra limited review confirmed result-complement dou2 for 分到 and 聽到. Removed a nose-clock-out ending because it duplicated approved food01[59]; corpus notes and nearest stories were inspected. No money-led conflict; inherited category and metadata retained.",
+      "revalidated_at": "2026-11-03"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -15136,10 +15139,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 7,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7c0c39cb2422c1600aa4ade6f2e6a41672e7720722c6a3374524d1f23b35d4df",
-      "v2_sha256": "7c0c39cb2422c1600aa4ade6f2e6a41672e7720722c6a3374524d1f23b35d4df",
-      "notes": "A leaking egg is exchanged, then the sister separates the fresh eggs from older stock; the double-yolk “extra prize” is a small pleasant surprise rather than an earned reversal. Checked all four fields."
+      "v2_sha256": "37e990d32b0d084b0198af1d5c301b0d80ff2fc303244a98fee60a5a770489e8",
+      "notes": "V2 manual pass: the father returns a folding grocery trolley that will not close; the bag strap is caught in the hinge, and he repeats the same mistake at home, turning the return into an earned overtime callback. Category 日常退換貨 retained. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -15168,10 +15171,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 11,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "26ee22af0f3c388c903afe79cdc35ac1f8928c3581d125e95df419d35108d9b3",
-      "v2_sha256": "26ee22af0f3c388c903afe79cdc35ac1f8928c3581d125e95df419d35108d9b3",
-      "notes": "The burnt toast becomes a Macau map and the family forgets the eggs while tracing routes; the saved “island” as a bookmark is a gentle callback but does not form a strong escalating comedy. Checked all four fields."
+      "v2_sha256": "faf825d9e34a56918a9afb45170ede62e960d470db81f61f1c122b7a57a437ba",
+      "notes": "V2 manual pass: the radish leaves are loosely banded and still splay outward, sweeping a nearby hat; spinning the radish to avoid people makes the leaves sweep around, then the vendor turns the leaves downward and secures them. Category 街市買餸 retained. Checked all four fields and contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -15192,10 +15195,11 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 14,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "2a56fd03ff2acfffdad2d284f7cfed7e27f6c0dd8889898208183114ebb43c22",
-      "v2_sha256": "2a56fd03ff2acfffdad2d284f7cfed7e27f6c0dd8889898208183114ebb43c22",
-      "notes": "The fish eyes make the sister recoil and ginger becomes a hairstyle, but cooking and saving fish head for porridge resolve routinely; the twenty-dollar saving line adds an unrelated money tag. Checked all four fields."
+      "v2_sha256": "e0c5b207ed351501a9d373c8eae810fffd19d13692ed58c554b5907b0342fca1",
+      "notes": "Rewrote the routine fish-cooking and money-saving ending as a fish-voice exchange that turns Dad’s teasing into his own quiet-time rule; manually reviewed all four fields, 251 Han / 251 Jyutping tokens.",
+      "revalidated_at": "2026-11-03"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -25237,10 +25241,10 @@
     {
       "file": "content/sentence_bank/long_health_services_04.json",
       "index": 32,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "8cc221155ba876e1c82e9707dfc3be5b3075888ddb656b5ae031fce68811cb0e",
-      "v2_sha256": "8cc221155ba876e1c82e9707dfc3be5b3075888ddb656b5ae031fce68811cb0e",
-      "notes": "The narrator counts bus-stop names while trying to sleep and later forgets the diary on the fridge; the first image is mildly funny but does not build to an earned ending. Checked all four fields and tip."
+      "v2_sha256": "ef58e7829f40596a688ce036f2a0060a93f3ed59eae56bed793fa088a89b96aa",
+      "notes": "V2 pass after rewriting the sleep diary as a distinct self-directed comic sequence: the narrator tries to count bus stops to fall asleep, over-extends the metaphor into drawing a route map, and the doctor notices the transfer arrows. Kept the clinician’s instruction to record usual sleep and coffee habits without self-directed changes. No family or money-centered conflict. Manually reviewed story (295 Han characters), contextual Jyutping alignment and tones, complete Simplified gloss, and event-matched usageTip."
     },
     {
       "file": "content/sentence_bank/long_health_services_04.json",
@@ -37890,10 +37894,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 11,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f74d9679b6172cf7b204cf2c240b98ff8b63d949fbde3e8d24fdf65e853bbec1",
-      "v2_sha256": "f74d9679b6172cf7b204cf2c240b98ff8b63d949fbde3e8d24fdf65e853bbec1",
-      "notes": "Four fields checked. The apron-wearing bowl drawing is a clear visual joke, but it is surrounded by a chore dispute and takeout schedule without a causal comic build or callback. Tip matches the scenes."
+      "v2_sha256": "84baa5b3d7947492a6a3765500f44da3a9f835e6dd9228c2df1e774688012d47",
+      "notes": "Manual V2 review of all four fields. The chore dispute becomes the daughter’s bowl-shaped Dad mascot; Dad tries to disclaim the washing turn, then the drawing gains hands and a sponge. On the next cooking night it becomes his “coworker,” completing a distinct visual callback. Contextual Jyutping was checked syllable by syllable; category and order preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -37978,10 +37982,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 22,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "5735c749d9cf575195c4d0eaf1b942fabccd3a594eb90883f3eb502c7eb03760",
-      "v2_sha256": "5735c749d9cf575195c4d0eaf1b942fabccd3a594eb90883f3eb502c7eb03760",
-      "notes": "Four fields checked. Dad’s overcorrection disrupts guitar practice and the recording reveals the rushing, but the family reaches a calm routine without a strong comic reversal or ending."
+      "v2_sha256": "34f56ee62d12be8ad164adf92c0720d2c36d2e34dfec414b0682b99d0eb5771e",
+      "notes": "Manual V2 review of all four fields. Reworked the noisy guitar practice into a family role reversal: Dad cannot hold back his repeated “half a beat slow” correction; the phone captures it, the sister turns the phrase into a refrain, and Dad joins as backing vocal. Contextual Jyutping, Simplified gloss, and story-specific tip reviewed; category and row position preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -38002,10 +38006,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 25,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f6f74f78598a7e25f05ba826e9972cdad0675158411ff403bc05e2cd392b9aca",
-      "v2_sha256": "f6f74f78598a7e25f05ba826e9972cdad0675158411ff403bc05e2cd392b9aca",
-      "notes": "Four fields checked. The privacy dispute produces a “wardrobe paused” note and misplaced sock, but reconciliation follows an explicit boundary talk; the later crooked note is a thin callback, not a strong comic turn."
+      "v2_sha256": "68fb047ebd118b915f3aaa2ba20dd5653b0c87ec77b6978bf02068d6ef47d100",
+      "notes": "Manual V2 review of all four fields. The mother’s over-literal room boundary turns folded clothes, letters and then a sock into a hallway “waiting-to-fold zone”; Dad names the accidental queue, and the daughter and mother agree to knock and ask before touching belongings. Screened approved long_home_family_08[104] (video-call background and meal interruption), [52] (donation boxes outside a bedroom), [68] (bathroom timer), and long_family_finance_services_06[55] (password notes); their mechanisms differ. Checked all 287 contextual Jyutping readings, including 襪 mat6, full Simplified gloss, story-specific tip, unchanged category and order."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -38026,10 +38030,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 28,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "ae890239392d3fa563186b54e6b82c257d99bf526c05cd465f554a41f406297d",
-      "v2_sha256": "ae890239392d3fa563186b54e6b82c257d99bf526c05cd465f554a41f406297d",
-      "notes": "Four fields checked. The old ticket recalls a rainy first date and the umbrella note repeats at the end, but it is a warm memory with a small callback rather than strong comedic escalation."
+      "v2_sha256": "e16bf0812b401fd27e3cc92157419c360bb1428a8ac93e8f90b10b74d00cc199",
+      "notes": "Manual V2 review of all four fields. The old movie ticket holds the mother’s “bring an umbrella next time” note from their rainy first date. Dad insists he remembers, then taps his wallet at the door because he has carried the reminder but left the umbrella on its hook. The daughter tapes the ticket to the handle; when he carries both, Mom’s question about who brought whom earns the reversal. Screened approved long_home_family_09[0] (a stove checklist and a currently needed show ticket), long_family_finance_services_03[67] (a hidden birthday umbrella gift), and the nearest text neighbor long_home_family_09[0]; their purpose and plot turns differ. Checked all 262 contextual Jyutping syllables, complete Simplified gloss, story-specific tip, unchanged category and order."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -38074,10 +38078,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 34,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "7e0f28d3ed32ddf1eeee3594c747503e7bf8cb83fea778c0cd61e68d4fea3427",
-      "v2_sha256": "7e0f28d3ed32ddf1eeee3594c747503e7bf8cb83fea778c0cd61e68d4fea3427",
-      "notes": "Four fields checked. The child states a summer plan and the grandfather must change a tea date, but the scheduling quip is a mild observation and the rest resolves as a pleasant plan rather than escalating comedy."
+      "v2_sha256": "13769a08c3b71b6626796e62065b3661c4a7e96de4940a181ceee226afbda43f",
+      "notes": "Manually reviewed and rewrote story, contextual Jyutping, full Simplified gloss and story-specific usageTip. Story is 281 Han characters; all 281 Jyutping syllables were aligned character by character. The grandparents’ summer art/swimming dispute escalates through the grandfather’s dining-table breaststroke demonstration, the spilled cup and “wet fish” painting, then resolves with a rest day and the posted cup-clearing reminder. Screened all 5,000 retained rows for the paired art-class/swimming premise and the signature motifs “蛙泳手勢”, “濕魚圖”, “游泳畫班” and “濕魚”; no other row matched the premise or signatures. Preserved category, ID, order and metadata."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -38274,10 +38278,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 59,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "78dd8f20880721115650a56166ad0926c999826136cf64c2d46858765f876650",
-      "v2_sha256": "78dd8f20880721115650a56166ad0926c999826136cf64c2d46858765f876650",
-      "notes": "Four fields checked. A loose school badge prompts the family to sew it back and Dad calls a crooked stitch a fish; the scene is reassuring, but the small visual quip does not build into stronger comedy."
+      "v2_sha256": "2d4b32c085cf5c0d41552f1e7d6df95fcef6fe2cc2089a96c7a134c0fce02750",
+      "notes": "Manually reviewed and rewrote story, contextual Jyutping, complete Simplified gloss and story-specific usageTip. Story is 257 Han characters; all 257 Jyutping syllables align by punctuation groups and character counts. The loose badge escalates through an ill-fitting borrowed jacket and a crooked stitch that becomes a fish; the sister first hides it, then points it out for the class photo, with the “fish attended” note as callback. Screened all 5,000 rows for paired motifs 校徽+班相, 徽章+縫線, 校服+校徽+縫, and 魚+校徽; no other row matched. No money-centered plot. Preserved category, ID, order and metadata."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -38290,10 +38294,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 61,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "65572de8b642c0e00460e6ef0643393dd456db8bd98bf92874b54aed6618be85",
-      "v2_sha256": "65572de8b642c0e00460e6ef0643393dd456db8bd98bf92874b54aed6618be85",
-      "notes": "Four fields checked. The sofa cannot turn at the stairs and uncovers a drawing and remote, but the memory changes Dad’s attitude and the family watches a film on the floor; it is sentimental rather than strongly comic."
+      "v2_sha256": "8a41b533f77a719517dfe382bfc49428272bb6695a55f6bca84d5a11da5fd582",
+      "notes": "Manually reviewed all four language fields; 263 Han characters and 263 contextual Jyutping syllables align by punctuation group. Dad turns a paper-box post office into an overformal mail route; the notes escalate and the last letter reveals he was holding the scissors. Screened all 5,000 rows: keyword matches were unrelated (postal-rate confusion, a misdelivered registered letter, a health-kit return and packing a paper dragon). No money-centered plot. Preserved category, order and metadata."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -38338,10 +38342,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 67,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "dc41a86849b5cef686decbc6ee83b470c2576a9119cf96c229d08ec2d4890c7e",
-      "v2_sha256": "dc41a86849b5cef686decbc6ee83b470c2576a9119cf96c229d08ec2d4890c7e",
-      "notes": "Four fields checked. The family learns to listen before advising and walks together; this is supportive relationship guidance without a comedic conflict or reversal."
+      "v2_sha256": "32d5c0c0a1f6ba8ba547c5a40a82c64ed4980c2f5778c794230fb35f6f0d6317",
+      "notes": "Manually reviewed all four language fields: 258 Han characters and 258 contextual Jyutping syllables align by punctuation groups. Dad first turns listening into a rapid-fire advice performance; the chopstick holder speaking token stops interruptions, and the callback lets the daughter return the same cue to him. Screened all 5,000 retained stories for the distinctive chart/microphone/speaking-token combination; no match. No money-centered plot. Preserved category, order and metadata."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -38362,10 +38366,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 70,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "f5db54b3d1e86ed748313ca14bef7e0f85de819a3bcb4986c572aad0c92b8c38",
-      "v2_sha256": "f5db54b3d1e86ed748313ca14bef7e0f85de819a3bcb4986c572aad0c92b8c38",
-      "notes": "Four fields checked. Core conflict is managing weekly allowance, purchase money and a football registration fee; the budgeting lesson dominates, and repairing a teammate’s car is a pleasant practical ending rather than a strong comic payoff."
+      "v2_sha256": "4d3b1d60e1e0dc0ecffd43eec80159c9cf4a7ef87d4f2eae6f6a6cedecf3a061",
+      "notes": "Manually reviewed four language fields: 238 Han characters and 238 contextual Jyutping syllables align character by character. Replaced the money-centered allowance premise with weekly scheduling: overplanning tangles football gear and model parts, while Dad’s timer interrupts sorting; the rest reminder then catches Dad instead. Screened all 5,000 stories for the distinctive schedule/football-bag/timer mechanism; no match. No money-centered plot. Preserved category, order and metadata."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -38722,10 +38726,10 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 115,
-      "status": "needs_revision",
+      "status": "pass",
       "baseline_sha256": "661a737127c248eafec88d804316dfe0930f6766007954d9fff10c695266865f",
-      "v2_sha256": "661a737127c248eafec88d804316dfe0930f6766007954d9fff10c695266865f",
-      "notes": "Four fields checked. Soup delivery turns into an apparent neighborhood tasting, then relatives exchange soup for radish cake; the exchange is pleasant but the “warming the heart” line is sentimental, not strong comedy."
+      "v2_sha256": "449bedc418ce1954a545331f2b2d8a4144a5ac140367b35f621fba4a03318d23",
+      "notes": "Manually reviewed story, contextual Jyutping, full Simplified gloss and story-specific usageTip. Story is 281 Han characters; all 281 syllables were aligned character by character. The father’s cautious soup delivery escalates when a neighbor mistakes it for a soup giveaway and joins with porridge; his “soup captain” title and final group-chat rule land as callbacks. Checked contextual forms including 騎樓 ke4 lau4, 拎 ling1 and 隊長 deoi6 zoeng2. Screened the exact/pair motifs across retained rows. Compared with long_home_family_08[105] (grandmother’s market autonomy) and long_home_family_03[8] (late family return in rain with a thermos); the scene, conflict and payoff differ. Preserved category, ID, order and metadata; no money-centered plot."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
