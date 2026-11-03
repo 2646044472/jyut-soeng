@@ -12241,8 +12241,8 @@
       "index": 45,
       "status": "pass",
       "baseline_sha256": "63c65cca142d964ae152d5c6a2b074393a135f1ba6e687d479586611e232e034",
-      "v2_sha256": "630fe37d250016eceb4f290ccfd4a431fbd8fba790c3453057208d92d2b35157",
-      "notes": "Non-family, non-money office lunch. Rewrote the weak soup-adjustment scene around the narrator confidently blaming tomato soup after reusing a spoon from lemon tea; coworkers’ tasting and the clean-spoon retest set up the reversal, with a playful straw callback. Manually reviewed story, complete simplified-Chinese gloss, contextual Jyutping, and the story-specific tip."
+      "v2_sha256": "6a8ac91a4c6d860c11742c7ffcf1283c8ae55d31b8f4e6dd9bf4221ac83be400",
+      "notes": "Non-family, non-money office lunch. Removed the coworker taste panel to avoid overlap with the adjacent noodle “version test” story. The narrator overstates the soup complaint and insists on his palate; the clean-spoon retest reveals lemon residue, with a spoon-as-two-jobs / straw callback. Manually rechecked all four fields, including contextual Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
