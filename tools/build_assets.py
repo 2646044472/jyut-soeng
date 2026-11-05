@@ -9,7 +9,26 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "content"
 SENTENCE_BANK_DIR = CONTENT_DIR / "sentence_bank"
+STORY_SELECTION_PATH = CONTENT_DIR / "story_library_selection.json"
 OUTPUT_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
+
+
+def story_selection() -> tuple[set[str], set[str]]:
+    if not STORY_SELECTION_PATH.exists():
+        raise SystemExit(f"Missing active story selection manifest: {STORY_SELECTION_PATH}")
+    selection = json.loads(STORY_SELECTION_PATH.read_text(encoding="utf-8"))
+    active_ids = selection.get("active_ids", [])
+    excluded_ids = selection.get("excluded_ids", [])
+    if (
+        len(active_ids) != selection.get("target_active_cards")
+        or len(active_ids) != len(set(active_ids))
+        or len(excluded_ids) != selection.get("excluded_cards")
+        or len(excluded_ids) != len(set(excluded_ids))
+        or set(active_ids) & set(excluded_ids)
+        or len(active_ids) + len(excluded_ids) != selection.get("source_cards")
+    ):
+        raise SystemExit("Story selection manifest has an invalid active/excluded ID partition")
+    return set(active_ids), set(excluded_ids)
 
 
 def reviewed_sentence_entry_ids() -> set[str]:
@@ -81,11 +100,18 @@ def load_entries(path: Path, entry_type: str) -> list[dict]:
     return entries
 
 
-def load_independent_sentence_entries(path: Path) -> list[dict]:
+def load_independent_sentence_entries(
+    path: Path, selected_ids: set[str], source_ids: set[str]
+) -> list[dict]:
     rows = json.loads(path.read_text(encoding="utf-8"))
     entries: list[dict] = []
     for index, row in enumerate(rows, start=1):
         entry_id = f"sentence-bank-{path.stem}-{index:04d}"
+        if entry_id in source_ids:
+            raise SystemExit(f"Duplicate source story ID: {entry_id}")
+        source_ids.add(entry_id)
+        if entry_id not in selected_ids:
+            continue
         entries.append(
             {
                 "id": entry_id,
@@ -120,8 +146,20 @@ def load_all_entries() -> list[dict]:
             else "word"
         )
         entries.extend(load_entries(path, entry_type))
+    selected_ids, excluded_ids = story_selection()
+    found_ids: set[str] = set()
+    source_ids: set[str] = set()
     for path in sorted(SENTENCE_BANK_DIR.glob("*.json")):
-        entries.extend(load_independent_sentence_entries(path))
+        selected_entries = load_independent_sentence_entries(path, selected_ids, source_ids)
+        found_ids.update(entry["id"] for entry in selected_entries)
+        entries.extend(selected_entries)
+    if source_ids != selected_ids | excluded_ids:
+        unknown = sorted(source_ids - selected_ids - excluded_ids)
+        stale = sorted((selected_ids | excluded_ids) - source_ids)
+        raise SystemExit(f"Story selection/source mismatch: {len(unknown)} unlisted, {len(stale)} missing IDs")
+    if found_ids != selected_ids:
+        missing = sorted(selected_ids - found_ids)
+        raise SystemExit(f"Active story IDs missing from source: {missing[:10]}")
     reviewed_ids = reviewed_sentence_entry_ids()
     for entry in entries:
         if entry["id"] in reviewed_ids:

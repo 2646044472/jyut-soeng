@@ -12,6 +12,7 @@ from meaning_rules import is_low_info_usage
 
 ROOT = Path(__file__).resolve().parent.parent
 BUNDLE_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
+STORY_SELECTION_PATH = ROOT / "content" / "story_library_selection.json"
 ASSET_ROOT = ROOT / "app" / "src" / "main" / "assets"
 STANDALONE_SENTENCE_PREFIX = "sentence-bank-"
 LEGACY_GENERATED_MARKERS = (
@@ -53,7 +54,7 @@ MIN_LEGACY_CURATED_SENTENCE_LENGTH = 30
 MIN_LEGACY_CURATED_SENTENCE_SYLLABLES = 28
 MIN_CURATED_SENTENCE_SEGMENTS = 2
 MIN_CURATED_SENTENCE_GLOSS_HAN_COUNT = 160
-MIN_CURATED_SENTENCE_COUNT = 5000
+MIN_CURATED_SENTENCE_COUNT = 3000
 JYUTPING_TOKEN = re.compile(r"[a-z]+[1-6]")
 JYUTPING_ALLOWED_SEPARATORS = re.compile(r"[,，.。:：;；?!？！、「」『』“”\"'\s]")
 HAN_CHARACTER = re.compile(
@@ -111,6 +112,8 @@ def main(
 ) -> None:
     bundle = json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
     entries = bundle["entries"]
+    selection = json.loads(STORY_SELECTION_PATH.read_text(encoding="utf-8"))
+    expected_story_ids = set(selection.get("active_ids", []))
     if len(entries) < 250:
         raise SystemExit(f"Expected at least 250 curated entries, found {len(entries)}")
 
@@ -131,6 +134,19 @@ def main(
         )
 
     sentences = [entry for entry in entries if entry.get("entryType") == "sentence"]
+    bundled_story_ids = {
+        entry["id"]
+        for entry in sentences
+        if str(entry.get("id", "")).startswith(STANDALONE_SENTENCE_PREFIX)
+    }
+    if bundled_story_ids != expected_story_ids:
+        missing = sorted(expected_story_ids - bundled_story_ids)
+        unexpected = sorted(bundled_story_ids - expected_story_ids)
+        raise SystemExit(
+            f"Active story bundle mismatch: {len(missing)} missing, {len(unexpected)} excluded or unknown IDs present"
+        )
+    if len(expected_story_ids) != selection.get("target_active_cards"):
+        raise SystemExit("Story selection manifest target does not match its active ID count")
     for field, label in (
         ("displayText", "opening"),
         ("gloss", "gloss"),

@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SOURCE_PATHS = sorted(ROOT.glob("content/*sentence*_bank.json"))
 INDEPENDENT_SOURCE_PATHS = sorted((ROOT / "content" / "sentence_bank").glob("*.json"))
 BUNDLE_PATH = ROOT / "app" / "src" / "main" / "assets" / "builtin" / "content.json"
+SELECTION_PATH = ROOT / "content" / "story_library_selection.json"
 HAN_CHARACTER = re.compile(
     r"[\u3400-\u9fff\uf900-\ufaff\U00020000-\U0002FA1F\U00030000-\U000323AF]"
 )
@@ -79,7 +80,13 @@ class DailySentenceContentTest(unittest.TestCase):
             if row.get("entryType") == "sentence"
         }
 
-        self.assertEqual(len(bundled), 5000)
+        selection = json.loads(SELECTION_PATH.read_text(encoding="utf-8"))
+        active_ids = set(selection["active_ids"])
+        standalone_ids = {
+            entry_id for entry_id in bundled if entry_id.startswith("sentence-bank-")
+        }
+        self.assertEqual(len(standalone_ids), 3000)
+        self.assertEqual(standalone_ids, active_ids)
         self.assertTrue({row["id"] for row in source_rows}.issubset(bundled))
         for source in source_rows:
             with self.subTest(entry_id=source["id"]):
@@ -150,19 +157,24 @@ class DailySentenceContentTest(unittest.TestCase):
             for row in bundle["entries"]
             if row.get("entryType") == "sentence"
         }
-        expected_ids = {
+        source_ids = {
             f"sentence-bank-{path.stem}-{index:04d}"
             for path, index, _ in source_rows
         }
+        selection = json.loads(SELECTION_PATH.read_text(encoding="utf-8"))
+        expected_ids = set(selection["active_ids"])
         bundled_independent_ids = {
             row["id"]
             for row in bundle["entries"]
             if row.get("entryType") == "sentence" and row["id"].startswith("sentence-bank-")
         }
 
+        self.assertEqual(len(source_ids), 5000)
         self.assertEqual(expected_ids, bundled_independent_ids)
         for path, index, source in source_rows:
             entry_id = f"sentence-bank-{path.stem}-{index:04d}"
+            if entry_id not in expected_ids:
+                continue
             with self.subTest(entry_id=entry_id):
                 entry = bundled[entry_id]
                 self.assertEqual(source["sentence"], entry["displayText"])
