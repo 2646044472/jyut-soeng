@@ -2294,3 +2294,209 @@ The V2 ledger contains one pass record for each row and its current source hash.
 - Originals and candidates are in `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-food04-standup-lunch-chair-hotpot/`.
 - Rebuilt **6,000** app entries; content validation passed. Full active mirror/hash check found **3,000** selected IDs and **1,668** active passes, 0 mismatches and 0 stale hashes. `git diff --check` passed. Remote resume SHA and local HEAD remain `e2785852820d40c72ae44a6eba5ff8ddbd23c9c7`; no commit or push.
 - Current V2: **2,219 pass / 2,781 needs_revision / 0 pending**; active library: **1,668 pass / 1,332 needs_revision**. Genuine approvals beyond HEAD: **43**. Final tests and the full semantic/topic/mechanism audit remain outstanding.
+
+## Commit / remote verification — 2026-11-06
+
+- Committed the 43 genuine V2 approvals accumulated since `e2785852820d40c72ae44a6eba5ff8ddbd23c9c7` as `d345e0c967c47d3009dde687507588fab4ec866f` (`Review 43 Macau Cantonese story cards`). The staged set included only reviewed source rows, the V2 ledger, generated content mirror, active selection counts, checklist, and recovery checkpoint. `STORY_LANGUAGE_REVIEW.json` was deliberately left unstaged as a separate historical ledger.
+- Pushed by fast-forward to `origin/codex/macau-story-upgrade-batch-progress-resume`. Post-push `git ls-remote` returned the exact SHA `d345e0c967c47d3009dde687507588fab4ec866f`; local HEAD matches and `git rev-list` reports 0 ahead / 0 behind.
+- The remaining worktree modification is only `STORY_LANGUAGE_REVIEW.json`; preserve it for separate review. Current V2 remains **2,219 pass / 2,781 needs_revision / 0 pending**; active set **1,668 pass / 1,332 needs_revision / 0 pending**. Full 5,000-card semantic/topic/mechanism review and final tests remain incomplete.
+
+## V2 continuation — 2026-11-06, sticky-table coworker dinner
+
+- Reworked active `long_food_shopping_05[14]`, keeping its ID, order, and restaurant category. The previous family meal became a coworker dinner: syrup sticks a sleeve, napkin and chopsticks; neighboring diners mistake the rescue for a cleaning demo and ask about booking a slot; the napkin returns as a temporary name tag.
+- Manually checked story, contextual Jyutping and tones, complete Simplified gloss, and matching `故事练习：` tip. Story/Jyutping are **263/263**. Corrected `扯` (`ce2`) and checked `服務員` (`fuk6 mou6 jyun4`) in both occurrences.
+- Original and candidate are saved under `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-food05-sticky-table-standup/`.
+- Rebuilt **6,000** app entries; validator passed. Full active mirror/hash audit checked **3,000** selected IDs and **1,669** active V2 passes: 0 mismatches and 0 stale hashes. `git diff --check` passed. Remote/local HEAD remain `d345e0c967c47d3009dde687507588fab4ec866f`; this new card is uncommitted.
+- Current V2: **2,220 pass / 2,780 needs_revision / 0 pending**; active library: **1,669 pass / 1,331 needs_revision / 0 pending**. New V2 approvals since `d345e0c`: **1**. Full semantic/topic/mechanism audit and final tests remain incomplete.
+
+## V2 continuation — 2026-11-06, rainy teahouse open-mic stand-up
+
+- Rewrote active `long_food_shopping_06[26]`, preserving its ID, source order, category, and nonlanguage metadata. The brother/family breakfast became a rainy after-work teahouse scene with three coworkers: umbrellas drip into buckets, the door bell becomes an entrance cue, and a friend improvises a mock open-mic set; the final bell prompts an earned mistaken encore. This directly follows the user's clarification that each story should sound like stand-up being told aloud, with fewer family and money-centered plots.
+- Manually checked the spoken Cantonese story, contextual Jyutping with tones, full Simplified gloss, and story-specific `故事练习：` prompt. Story/Jyutping counts: **273/273**. Original and final candidate are archived at `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-rainy-teahouse-openmic/`.
+- Rebuilt **6,000** app entries and `tools/validate_content.py` passed. Full source/active audit checked **5,000** unique source IDs, **3,000** active IDs, all **2,221** current V2 pass hashes, and active source/app fields: 0 stale hashes, 0 active mirror mismatches, 0 selected IDs missing. `git diff --check` passed. No tests run.
+- Current V2: **2,221 pass / 2,779 needs_revision / 0 pending**. Active library: **1,670 pass / 1,330 needs_revision**. New approvals beyond committed/remote `d345e0c967c47d3009dde687507588fab4ec866f`: **2**. No commit or push; continue accumulating toward the next approximately 50-pass checkpoint. Full semantic/topic/mechanism audit and final tests remain incomplete.
+- The V1 `STORY_LANGUAGE_REVIEW.json` remains an unrelated preexisting dirty historical ledger and was not staged or edited in this continuation. The latest task-thread API lookup for `01a18c7b-82fd-75b0-9f9a-62ddd8fe9154` reported the durable host could not determine whether the thread exists; use this checkpoint and the V2 ledger for the next resume.
+
+## V2 continuation — 2026-11-06, rooftop herb-garden spoon mix-up
+
+- Reworked active `long_home_family_01[67]`, retaining its ID, position, `鄰里` category, and other nonlanguage metadata. Neighbors trade mint and basil plants on a shared rooftop; a spoon used to mark watering turns is misread by two people, so the pots are watered twice. They find a blocked drain, clear it, and the smell of mint prompts a neighbor to mistake the rooftop for a tea stall. The closing returns the spoon to its real tea-serving job. The story centers neighbors and shared gardening, not a family or money plot.
+- Manually checked all four fields, spoken Cantonese, contextual Jyutping readings/tones, full Simplified gloss, and matching `故事练习：` prompt. Story/Jyutping counts: **279/279**. Original and candidate archived at `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-rooftop-herb-spoon/`.
+- Rebuilt **6,000** app entries; content validation passed. Current full source/active mirror/hash audit checked **5,000** unique source IDs, **3,000** active IDs and all V2 pass hashes: 0 stale hashes, 0 active mirror mismatches, and 0 selected IDs missing. `git diff --check` passed. No tests run.
+- Current V2: **2,222 pass / 2,778 needs_revision / 0 pending**. Active library: **1,671 pass / 1,329 needs_revision**. Genuine approvals beyond committed/remote `d345e0c967c47d3009dde687507588fab4ec866f`: **3**. No commit or push; continue accumulating toward the next roughly 50-pass checkpoint. Full semantic/topic/mechanism audit and final tests remain incomplete.
+- In this screening batch, 15 active candidates across `long_food_shopping_07`–`09` were reviewed; family-led, safety-fact-heavy, money-led, or repetitive mechanisms stayed `needs_revision`. The rooftop-neighborhood card was selected for a substantial rewrite and passed all four-field review.
+
+## V2 continuation — 2026-11-06, stairwell light switch mistaken for decoration
+
+- Rewrote active `long_home_family_01[51]` without changing its ID, position, `維修` category, or other nonlanguage metadata. Removed the family-care setup and fixed a real V2 defect: the old Simplified gloss incorrectly said a bag blocked a sensor, while the story described a timer left in manual mode. The new neighbor scene has a new tenant ask whether the switch is decoration; after the timer is restored, residents queue to press it like an entry badge, and the final tenant thanks the automatic light. This is a distinct, low-stakes stand-up situation with no family or money-centered plot.
+- Manually reviewed the rewritten Cantonese story, contextual Jyutping and tones, full Simplified gloss, and story-specific `故事练习：` prompt. Story/Jyutping counts: **240/240**. Original and candidate archived at `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-stairwell-switch-openmic/`.
+- Rebuilt **6,000** app entries; content validator passed. Full source/active mirror/hash audit verified **5,000** unique source IDs, **3,000** active IDs, all current V2 pass hashes, and active story fields: 0 stale hashes, 0 mirror mismatches, 0 selected IDs missing. `git diff --check` passed. No tests run.
+- Current V2: **2,223 pass / 2,777 needs_revision / 0 pending**. Active library: **1,672 pass / 1,328 needs_revision**. New approvals beyond committed/remote `d345e0c967c47d3009dde687507588fab4ec866f`: **4**. No commit or push; continue toward the approximately 50-pass checkpoint. Full semantic/topic/mechanism audit and final tests remain incomplete.
+- Reviewed roughly ten-plus active NRev candidates across `long_food_shopping_09`–`11` and the neighbor/maintenance subset. Kept candidates with family/money leads, high-stakes food or health facts, or previously used order/label/ripeness mechanisms in `needs_revision`; advanced the stairwell card after correcting its contradictory gloss.
+
+## V2 continuation — 2026-11-06, stopped clock enters the community-theater script
+
+- Reworked active `long_home_family_01[47]`, retaining its stable ID, order, `維修` category, and all nonlanguage metadata. The earlier school assignment and family memories became a street-neighborhood theater rehearsal: actor Ah Cheung refuses to accept that he is late because the rehearsal-room clock is stuck, repeatedly interrupts his entrance, and the troupe writes his question into the script. After the clock is repaired, he arrives too early and is asked to wait outside for his new cue. The story is a spoken comedy with no family or money-centered lead.
+- Manually reviewed the Cantonese story, contextual Jyutping readings/tones, full Simplified gloss, and story-specific `故事练习：` prompt. Final story/Jyutping counts: **241/241**. The initial 220-character candidate draft is also preserved beside the final candidate; archive: `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-stopped-clock-rehearsal/`.
+- Rebuilt **6,000** app entries; content validator passed. Full source/active audit checked **5,000** unique source IDs, **3,000** selected IDs, all V2 pass hashes and active mirror fields: 0 stale hashes, 0 mismatches, 0 selected IDs missing. `git diff --check` passed. No tests run.
+- Current V2: **2,224 pass / 2,776 needs_revision / 0 pending**. Active library: **1,673 pass / 1,327 needs_revision**. New approvals beyond committed/remote `d345e0c967c47d3009dde687507588fab4ec866f`: **5**. No commit or push; continue toward the approximately 50-pass checkpoint. Full corpus semantic/topic/mechanism audit and final tests remain incomplete.
+- This review batch inspected the clock, repair, neighbor, food-order and other active candidate groups; retained candidates with duplicated clock/temperature/order mistakes, weak escalation, or safety issues in `needs_revision`. The theater version replaces the original anecdote with a distinct plot.
+
+## V2 continuation — 2026-11-06, book-swap lunch mystery
+
+- Reworked active `long_food_shopping_10[87]`, preserving its ID, source order, `外賣落單` category, and other nonlanguage metadata. The story centers a street association's old-book swap and volunteer lunch: identical box tops cause a brief delivery scare, one volunteer turns the missing labels into a mystery, and the tags appear underneath. A child's question about borrowing an empty box extends the book-and-lunch joke to an “already read” shelf. It is told as spoken Macau Cantonese, with a community premise and no family or money-led plot.
+- Manually checked all four fields, natural Cantonese, contextual Jyutping and tones, complete Simplified gloss, and story-specific `故事练习：` tip. Story/Jyutping counts: **242/242**. Original and final candidate archived under `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-book-swap-lunch-labels/`.
+- Rebuilt **6,000** app entries; content validation passed. Full source/active audit checked **5,000** unique source IDs, **3,000** selected IDs, every V2 pass hash and active mirror field: 0 stale hashes, 0 mismatches, 0 selected IDs missing. `git diff --check` passed. No tests run.
+- Current V2: **2,225 pass / 2,775 needs_revision / 0 pending**. Active library: **1,674 pass / 1,326 needs_revision**. New approvals beyond committed/remote `d345e0c967c47d3009dde687507588fab4ec866f`: **6**. No commit or push; continue toward the approximately 50-pass checkpoint. Full semantic/topic/mechanism audit and final tests remain incomplete.
+- This candidate batch screened active rows from `long_food_shopping_09`–`11`; avoided family-led, money-led, food-safety or repeated hot/cold drink, misdelivery, and fruit-ripeness mechanisms. The old-book/lunch concept was selected and rewritten into a distinct community comedy plot.
+
+## V2 continuation — 2026-11-06, shared-flat drawer inspection loop
+
+- Reworked active `long_home_family_01[48]`, preserving its ID, source order, `維修` category, and other metadata. The family kitchen became a shared-flat kitchen. Roommates find an elastic band jammed in the drawer rail and restore smooth operation; Ah Kin then repeatedly checks that it is closed, becoming the new source of noise. The posted “one check is enough” reminder provides the callback. No family or money-centered lead.
+- Manually reviewed all four language fields, spoken Cantonese, contextual Jyutping readings/tones, full Simplified gloss, and matching `故事练习：` tip. Final story/Jyutping counts: **243/243**. Original and both candidate versions are preserved under `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-shared-drawer-inspection/`.
+- Rebuilt **6,000** app entries and passed content validation. Full source/active hash and mirror audit verified **5,000** unique source IDs, **3,000** active IDs, all V2 pass hashes and active fields: 0 stale hashes, 0 mirror mismatches, 0 selected IDs missing. `git diff --check` passed. No tests run.
+- Current V2: **2,226 pass / 2,774 needs_revision / 0 pending**. Active library: **1,675 pass / 1,325 needs_revision**. New approvals beyond committed/remote `d345e0c967c47d3009dde687507588fab4ec866f`: **7**. No commit or push; next commit remains near the 50-pass checkpoint. Full corpus semantic/topic/mechanism audit and final tests remain incomplete.
+- Reviewed approximately ten active maintenance/neighbor candidates. Repeated noise/clock/temperature mechanisms and safety-heavy repair stories stayed `needs_revision`; the shared-drawer card was rewritten into a distinct behavior-driven plot.
+
+
+## V2 continuation — 2026-11-06, stand-up cadence and a four-card batch
+
+- 用户进一步明确叙述口吻应像台上讲脱口秀：先观察日常细节，再逐步加码，笑点落在人怎么反应，最后用前文元素回扣；仍减少家庭/金钱主线。按此风格完成两张真实 `needs_revision` 卡：`long_food_shopping_10[46]`（办公室外卖标签被当成鉴定证物，芝士粘在盒盖底下解开误会，最后把饭盒评审和报告逗号作双回扣）及 `long_home_family_01[62]`（大厦邻里试汤会，甜汤救锅后变成评分现场，阿诚只准大家夸一句）。保留 ID、顺序、分类和元数据。
+- 另外依用户新口吻调整已通过的 `long_home_family_01[54]`（搬屋锅铲乐队）及 `[63]`（大堂互相让路变成导航会议），这两张仅更新内容哈希和审核说明，未算新增通过。四卡故事均手工写作并逐项检查粤语、语境粤拼声调、完整简体释义和本故事复述提示；故事/粤拼为 **252/252、255/255、253/253、268/268** 汉字/音节。原稿和终稿保存在 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-standup-story-54-63/` 与 `batch-standup-late-dinner-soup-swap/`。
+- 重建 **6,000** 条 app 内容并通过 `tools/validate_content.py`。完整确定性审计确认 5,000 个唯一源 ID、3,000 活跃 ID、2,000 排除 ID、所有通过哈希及活跃镜像字段一致；0 过期哈希、0 镜像差异。`git diff --check` 通过。未运行测试。
+- 当前 V2：**2,228 通过 / 2,772 待修 / 0 pending**；3,000 张活跃库：**1,677 通过 / 1,323 待修**。相对已提交/远端 `d345e0c967c47d3009dde687507588fab4ec866f` 新增 **9** 张真实通过（本批其中2张），未达约50张检查点，未提交/推送；全库语义、题材和重复机制复核及最终测试仍未完成。
+
+
+## V2 continuation — 2026-11-06, stairwell tour, curry translation and fries temperature report
+
+- 延续用户指定的脱口秀讲述方式，筛看约 10 张活跃待修候选，最终改写 3 张真实 `needs_revision` 卡：`long_home_family_01[53]`（电梯维修时的楼梯导赏，掉落的葱变成临时景点）、`long_food_shopping_09[15]`（餐厅错放咖喱后，朋友和邻桌都把叙述者当辣度翻译/餐牌顾问）、`long_food_shopping_10[92]`（邻里焗薯条小班从试温、焦边、失踪薯条发展成温度报告）。家庭与消费不是主线。保留 ID、顺序、分类及元数据。
+- 手工撰写并逐项检查每张卡的故事、语境粤拼和声调、完整简体释义、对应故事的 `故事练习：` 提示；故事/粤拼为 **257/257、264/264、280/280** 汉字/音节。原稿和终稿在 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-standup-stairs-curry-fries/`。
+- 重建 **6,000** 条 app 内容并通过 `tools/validate_content.py`。确定性全量审计确认 5,000 个唯一源 ID、3,000 活跃 ID、2,000 排除 ID、所有 V2 通过哈希及活跃镜像字段一致；0 过期哈希、0 镜像差异。`git diff --check` 通过；未运行测试。
+- 当前 V2：**2,231 通过 / 2,769 待修 / 0 pending**；3,000 张活跃库：**1,680 通过 / 1,320 待修**。相对远端检查点 `d345e0c967c47d3009dde687507588fab4ec866f` 累计新批真实通过 **12** 张，未达约50张提交点；远端和本地 SHA 起始时一致，未提交/推送。全库语义、题材和重复机制审计及最终测试仍未完成。历史任务 ID `01a18c7b-82fd-75b0-9f9a-62ddd8fe9154` 本轮通过 Codex 线程接口仍无法读取（durable host 无法确认），以当前 X 工作区和续跑检查点接续。
+
+## V2 continuation — 2026-11-06, office tasting, lunch note and stairwell open mic
+
+- 按用户再次明确的“就是当在讲脱口秀”校准讲述节奏，完成三张活跃 `needs_revision` 卡：`long_food_shopping_11[75]`（蛋黄酱失手变成游泳池，湿纸袋逼人换饭盒，午会字条作包袱、下周沙律回扣）、`long_food_shopping_13[28]`（豆浆/燕麦饮品试味被同事演成项目经理与主持人，空杯后揭开低糖标签，再以茶叶蛋主持风格收尾）、`long_home_family_01[30]`（街坊把火警钟测试楼梯导引演成观众入口，回音误导楼上排队，字幕梗回扣）。三张均保留原 ID、顺序、分类和元数据；题材不以家庭或金钱为主。原稿与终稿保存在 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-standup-office-drill-batch/`。
+- 手写并人工逐项复核故事、语境粤拼及声调、完整简体释义、对应故事的 `故事练习：`；逐字与音节分别 **259/259、253/253、251/251**。确认三张语句有台上讲述感、人物反应形成递进，并有前后铺垫的回扣。
+- 重建 **6,000** 条 app 内容并通过 `tools/validate_content.py`；全量检查 **5,000** 源行、**3,000** 活跃 ID、所有 V2 pass 哈希、所有活跃镜像字段一致。0 过期通过哈希、0 镜像差异；`git diff --check` 通过。未运行测试。
+- 当前 V2：**2,234 通过 / 2,766 待修 / 0 pending**；3,000 张活跃库：**1,683 通过 / 1,317 待修**。相对远端提交 `d345e0c967c47d3009dde687507588fab4ec866f` 累计新增 **15** 张真实通过。未提交/推送；全库语义、题材与重复机制审计及最终测试仍待完成。
+
+## V2 continuation — 2026-11-06, upstairs running commentary and roommate chore promotion
+
+- 按用户的脱口秀口吻改写两张活跃 `needs_revision` 卡：`long_home_family_01[28]`（楼上跑步机令水杯变成免费地震仪，邻居听到楼下录音后加防震垫，最后回扣“观众不用起身”）和 `[31]`（室友轮值表误排三日洗碗，室友临时升任“洗碗部主管”逐碗评分，最后以“不准升职”与三日回扣）。保留卡 ID、顺序、`租屋` 分类及非语言元数据；改为邻里/室友段子，无家庭或金钱主线。原稿、候选稿和终稿均保存在 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-standup-neighbor-chart/`。
+- 手写并人工复核故事、逐字语境粤拼/声调、完整简体释义及本故事 `故事练习：`；故事/粤拼 **233/233、242/242**。复核时修正「垃圾」双音节、`磁石`、`休息/假`等映射，另将不便于粤拼校验的斜线分栏写法改为自然连接词。
+- 重建 **6,000** 条内容并通过 `tools/validate_content.py`。全量结构审计确认 **5,000** 源行、**3,000** 活跃 ID、**2,000** 排除 ID、**6,000** 构建条目；3,000 活跃镜像字段匹配，所有 pass 哈希为当前值，0 stale hash、0 mismatch。`git diff --check` 通过；未运行测试。
+- 当前 V2：**2,236 通过 / 2,764 待修 / 0 pending**；活跃库 **1,685 通过 / 1,315 待修**。相对已核实远端 `d345e0c967c47d3009dde687507588fab4ec866f` 新增 **17** 张真实通过；远端 SHA 未变，未提交/推送。全库语义、题材和重复机制统计及最终测试仍待完成。
+
+## V2 continuation — 2026-11-06, rice-crust sound check and café stand-up briefing
+
+- 对照用户“就像讲脱口秀”的风格，筛查了一组约十张活跃待修候选，改写两张非家庭、非金钱主线卡：`long_food_shopping_10[44]`（同事等煲仔饭时，阿欣主持饭焦听声测试，先把热水壶判成插播，再录饭焦声作前后对照）；`long_food_shopping_13[72]`（阿朗把咖啡早餐改成站立简报，牛角包碎屑变待办，排队客人临时接任清理组长，最后回扣纸碟留白写议程）。保留 ID、顺序、分类和非语言元数据。原稿、候选和终稿存于 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-standup-cafe-rice-stage/`。
+- 人工核对四字段、口语节奏、人物行为递进、语境粤拼声调、完整简体释义与对应复述提示；故事/粤拼 **233/233、253/253**。
+- 重建 **6,000** 条内容并通过 `tools/validate_content.py`。确认 **5,000** 源行、**3,000** 活跃 ID、**2,000** 排除 ID、**6,000** 构建条目；活跃镜像字段匹配、所有 pass 哈希为当前值、0 stale hash、0 mismatch；`git diff --check` 通过。未运行测试。
+- V2 累计 **2,238/5,000 通过、2,762 待修、0 pending**；活动库 **1,687/3,000 通过、1,313 待修**。相对已核验远端 `d345e0c967c47d3009dde687507588fab4ec866f` 累计新增 **19** 张通过，未提交/推送；最终语义、题材/重复机制审计及测试仍待完成。
+
+## V2 continuation — 2026-11-06, farmers-market vegetable open mic and shared-dinner ten-second set
+
+- 筛查一组活跃待修卡后，改写两张社区题材卡，避免亲属/金钱主线：`long_food_shopping_12[18]` 把街坊农墟菜名介绍写成即兴舞台，菜心、小棠菜变主角与替身，番茄因「脸红」被请上麦克风做主持；`long_food_shopping_03[22]` 将原本的过敏安全情节彻底换成社区共享晚饭开麦，阿荣把炒饭改名「鑊氣返工」，挑战十秒介绍铃声，最后咖喱才让他坐下来。均保留 ID、顺序、分类和其余元数据。原始卡、候选及终稿保存在 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-standup-market-potluck/`。
+- 手写并人工复核故事、粤拼逐字/声调、完整简体翻译、对应 `故事练习：`；故事/粤拼 **254/254、236/236**。
+- 重建 **6,000** 条内容并通过 `tools/validate_content.py`。确认源卡 **5,000**、活跃 **3,000**、排除 **2,000**、构建 **6,000**；活跃镜像字段一致、全部通过哈希为当前值；0 stale hash、0 mirror mismatch。`git diff --check` 通过，未运行测试。
+- V2 为 **2,240/5,000 通过、2,760 待修、0 pending**；活跃库 **1,689/3,000 通过、1,311 待修**。远端分支仍为 `d345e0c967c47d3009dde687507588fab4ec866f`，相对该点累计新增 **21** 张通过；未提交/推送。全库语义、题材/重复机制统计及最终测试待完成。
+
+## V2 continuation — 2026-11-06, the study table accidentally sits an oral exam
+
+- 按“像台上讲脱口秀”的口吻改写活跃待修 `long_food_shopping_05[25]`，保留茶餐厅与温书场景、原 ID/顺序/分类：同学把「景色」读成「警察」，全桌起立；风景台词引来隔壁桌误以为短剧；阿健再用计时器考一轮，把侍应也卷入，最后怀疑侍应是考官，回扣整晚只温熟一个词。无家庭或金钱主线。原稿、候选及终稿保存在 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-standup-study-cafe/`。
+- 手写并人工复核故事、逐字粤拼和声调、完整简体普通话翻译、匹配的 `故事练习：`；故事/粤拼 **262/262**。
+- 重建 **6,000** 条内容并通过 `tools/validate_content.py`；确认 **5,000** 源行、**3,000** 活跃、**2,000** 排除、**6,000** 构建条目；活跃镜像与全部 V2 pass 哈希一致，0 stale hash/0 mismatch。`git diff --check` 通过；未运行测试。
+- 当前 V2：**2,241/5,000 通过、2,759 待修、0 pending**；活动库 **1,690/3,000 通过、1,310 待修**。相对已核验远端 `d345e0c967c47d3009dde687507588fab4ec866f` 累计新增 **22** 张通过；未提交/推送。全库语义题材/重复机制统计及最终测试仍待完成。
+
+## V2 continuation — 2026-11-06, the nutrition lecture advances to the dessert slide twice
+
+- 将活跃待修 `long_health_services_03[6]` 改写成社区营养讲座的舞台小事故：保留讲者提醒个人健康问题向医护确认的谨慎信息，改由慢半拍遥控器把甜品投影片连跳出来，引发街坊排起试食队；讲者澄清后，屏幕又误跳回“开场”，听众开始收椅，最后回扣遥控器要连按三次。保留 ID、顺序、`健康講座` 分类和其他非语言元数据；原稿/候选/终稿保存在 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-standup-community-lecture/`。
+- 手工写作并逐项复核故事、语境粤拼声调、完整简体译文和对应 `故事练习：`；**255/255** 字/音节。
+- 重建 **6,000** 条内容并通过 `tools/validate_content.py`。确定性全量审计通过：5,000 源行、3,000 活跃、2,000 排除、6,000 构建条目；3,000 活跃镜像和全部通过哈希吻合，0 stale hash/0 mismatch。`git diff --check` 通过；未运行测试。
+- V2 **2,242/5,000 通过、2,758 待修、0 pending**；活跃库 **1,691/3,000 通过、1,309 待修**。远端仍为 `d345e0c967c47d3009dde687507588fab4ec866f`；相对远端累计新增 **23** 张通过，未提交/推送。全库语义、题材/重复机制审计与最终测试仍待完成。
+
+## V2 continuation — 2026-11-06, two batches of stand-up stories
+
+- 按用户希望的“像在讲脱口秀”节奏，完成两组共 **10** 张活跃 `needs_revision` 卡，保留原 ID、顺序、分类与其余字段：`long_food_shopping_08[59]`（阿朗把换好的蓝莓拍成群组照片，街坊逐渐加入“影楼”，最后相中最清楚的是人脸、蓝莓只剩影）、`long_food_shopping_08[72]`（野餐冰袋漏水、纸巾被风吹走、阿杰坐在失物台旁的垫子上）、`long_food_shopping_09[71]`（点锅变成会议、年糕被列入议程、豆腐放错锅）、`long_food_shopping_10[9]`（同事共用雪柜、菜心排班、蒜头切成骰子）、`long_health_services_01[77]`（升降机安全等候、安静告示与肚声报告）；`long_health_services_01[52]`（学校考察录音笔误播早晨迟到笑话）、`long_health_services_01[57]`（读书介绍变四格漫画即兴演出）、`long_health_services_01[90]`（麻雀误成公园球赛客队）、`long_health_services_01[93]`（雨天地图变糊，朋友把避雨点走成街檐巡礼）、`long_home_family_01[33]`（合租屋漏水，先关总水掣并联络管理处，滴水声被楼下街坊误听成排练，师傅纠正“浴室总指挥”）。主线均不以家庭或金钱为冲突。另曾试写 `long_food_shopping_11[19]` 汤料版本，未通过此轮筛选；原源卡已恢复，原稿与候选草稿均保留在第一组归档目录，没有计入通过数。
+- 十张故事、粤拼、完整简体译文和对应 `故事练习：` 均逐卡人工复核。故事/粤拼字数：**256/256、260/260、267/267、265/265、256/256、248/248、281/281、245/245、238/238、244/244**。每篇均在 220–320 汉字范围；分句 token 对齐通过；粤拼按语境逐字检查声调。原稿和终稿分别归档于 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/2026-11-06-standup-five-food-community/` 与 `.../2026-11-06-standup-second-five/`。
+- 重跑 `python3 tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`、`python3 tools/build_assets.py`（6,000 条）和 `python3 tools/validate_content.py`，全部通过；`git diff --check` 通过。确定性全量审计确认 5,000 个唯一源 ID、3,000 活跃、2,000 排除、6,000 构建条目；V2 pass 哈希全部当前，活跃源/镜像字段一致，0 stale hash、0 mirror mismatch、0 missing。十篇与已通过卡的最高字符三元组 Jaccard 为 0.0084–0.0179，故事机制另作人工比较。未运行单元测试。
+- 当前 V2：**2,252/5,000 通过、2,748 待修、0 pending**；3,000 张活动库 **1,701 通过、1,299 待修**。续跑分支本地与远端均为 `d345e0c967c47d3009dde687507588fab4ec866f`，相对该远端累计新增 **33** 张真实 V2 通过；未提交/推送，未达约 50 张提交点。主线分支远端仍为 `3839000bf6829de38abb3027a48174b2c00cd83d`，未触碰。全库语义、题材/重复机制统计及最终测试仍待完成。
+
+
+### 2026-11-06 续跑确认
+
+- 按用户澄清，口吻以“像在台上讲脱口秀”为准：第一人称口述感、铺垫后递进、人物行为制造笑点、结尾回扣；题材继续压低家庭与金钱主线。
+- 复核 `long_food_shopping_08[59]` 最终稿：街市换莓后拍群组照，旁人被误带入拍摄，蓝莓最终被阿朗的脸挡住。251 汉字/251 粤拼音节；四字段齐全，简体译文逐句对应，复述提示以“故事练习：”开头。更新后的终稿与 V2 哈希一致。
+- 进度仍为 V2 2,252/5,000 通过、2,748 待修、0 pending；活动库 1,701/3,000 通过、1,299 待修。续跑远端 SHA `d345e0c967c47d3009dde687507588fab4ec866f`；本地还有 33 张本轮新增通过，尚未到约 50 张提交点，未提交/推送。
+- 已重建 6,000 条内容并通过 `tools/validate_content.py`；`git diff --check` 通过。完整 V2 语义/题材/重复审计、最终构建校验与相关测试仍待完成；本轮没有运行单元测试。
+
+
+## V2 continuation — 2026-11-06, honey-route stand-up card
+
+- 从 V2 待修卡中改写 `content/sentence_bank/long_food_shopping_08.json[92]`，保留 ID、分类 `超市購物` 和其他元数据。蜂蜜瓶口糖渍触发清洁，提示胶带被两位顾客先后误当成“蜂蜜导赏团”路线，清洁员与主管澄清后在收银处回扣“附送一段行程”。故事 269 汉字/269 音节，逐句复核粤拼声调、完整简体译文及 `故事练习：` 提示；原稿和终稿存于 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-standup-honey-route/`。
+- 更新 `macau-comedy-revalidation-v2` 当前哈希及源/镜像，重建 6,000 条内容；`tools/validate_content.py` 与 `git diff --check` 通过。未运行测试。
+- 续跑分支仍在远端同一 SHA；该分支本地有 **34** 张未提交的 V2 新通过，未推送，低于约 50 张检查点。
+
+
+## V2 continuation — 2026-11-06, active tea-shop stand-up plus excluded source audit
+
+- Rewrote active `long_food_shopping_08[17]` as a coworker’s overconfident tea blind test: the sweet cup prompts a mock tasting, the lemon blocks the straw, and the cup label returns as a sleeve badge. Rejected and archived an earlier mock-meeting draft because `long_food_shopping_09[71]` already uses food-to-meeting mechanics. Final story 251 Han / 251 manually written Jyutping syllables; all four fields reviewed.
+- Also completed V2 review for `long_food_shopping_08[92]` (269/269), a supermarket cleanup-tape route mistaken twice for a honey tour. It is an excluded source row, so it raises the all-source V2 count but not the selected 3,000 active count. Original and final drafts are archived.
+- Current V2: **2,254/5,000 pass**, 2,746 needs revision, 0 pending; active **1,702/3,000 pass**, 1,298 needs revision. Since remote SHA `d345e0c967c47d3009dde687507588fab4ec866f`, 35 V2 approvals are uncommitted (34 active, 1 excluded); no push. Main branch remains untouched.
+- Synchronized active selection progress: 1,702 pass / 1,298 needs revision / 0 pending. Full deterministic audit found 5,000 unique source IDs, a disjoint 3,000 active / 2,000 excluded partition, 3,000 active sentence mirrors, 0 missing active mirrors, 0 excluded mirrors, 0 V2 hash mismatches, and 0 active four-field mirror mismatches.
+- `tools/story_quality_progress.py`, `tools/build_assets.py` (6,000 entries), `tools/validate_content.py`, and `git diff --check` passed. No tests run. Full semantic / topic / joke-mechanism audit and final test suite remain outstanding.
+
+
+### 2026-11-06 同批次补充
+
+- 再完成两张活动 V2 卡：long_food_shopping_08[17]（茶底盲测专家与杯贴回扣，251/251）以及 long_health_services_01[64]（同事把文件夹排队误认成会议名牌，点名副本回扣，290/290）。前一张的会议式候选已归档并因接近 [09][71] 而拒绝；后者保留辦證服務分类，不声称具体机关流程。两张四字段均已人工复核。
+- 同步活动库台账计数为 1,703 pass / 1,297 needs_revision / 0 pending。全源 V2 为 2,255 / 5,000 pass、2,745 needs_revision。相对远端累计 36 张新通过（35 张活动卡、1 张排除源卡），未提交/推送。
+- 最近一次确定性审计再次确认：5,000 个唯一源 ID；3,000 活动/2,000 排除正确分区；6,000 条构建；活动镜像缺失/字段不一致均为 0；通过卡哈希陈旧为 0。内容构建、校验和 git diff --check 通过；测试仍未运行。
+
+
+## V2 continuation — 2026-11-06, coworker delivery slot and two community-class scenes
+
+- 新增三张活动 V2 卡，保留 ID、顺序、分类与元数据：long_food_shopping_14[11] 同事误读送货时段、在电梯前像值班一样等候（260/260）；long_health_services_03[9] 讲座投影遥控延迟，阿叔从连拍转场变成“定格助手”（252/252，保留一般紧急求助指引）；long_health_services_03[15] 长者伸展班把“慢慢”做成慢动作、全班跟着定格，毛巾飞落地后回扣“休息拍”（262/262，保留不适就停的提醒）。均按脱口秀递进写法人工复核四字段；没有家庭或金钱主线。
+- 同步活动计数为 **1,706/3,000 pass、1,294 needs_revision、0 pending**；全源 V2 为 **2,258/5,000 pass、2,742 needs_revision、0 pending**。相对远端累计 **39** 张新通过（38 张活动卡、1 张排除源卡），尚未提交/推送，未到约 50 张提交点。
+- 重建 6,000 条内容并通过构建、完整内容校验、diff check。确定性审计：5,000 源卡、3,000 活动/2,000 排除分区正确，活动故事镜像 3,000/3,000，四字段镜像差异 0，V2 陈旧哈希 0。测试、全库语义/题材/重复机制审计仍待完成。
+
+### 2026-11-06 草莓果酱候选复核
+
+- 用户明确要求故事听起来像在台上讲脱口秀，并减少家庭和金钱主线。我复看新写的 `long_food_shopping_13[74]` 时，发现它与已通过的 `[27]` 同属同事煮草莓果酱、检查浓稠度并处理烹煮问题，叙事机制过近；已将该候选从 `pass` 撤回为 `needs_revision`，保留源文和归档稿，不计入通过数。
+- 当前计数恢复为 V2 **2,258/5,000 pass、2,742 needs_revision、0 pending**；活动库 **1,706/3,000 pass、1,294 needs_revision**。活动选择台账已同步，故事构建仍为 6,000 条并通过完整内容校验；待按不重复机制重写该卡后再作人工审核。
+
+### 2026-11-06 草莓面试卡重写
+
+- 将 `long_food_shopping_13[74]` 的重叠果酱烹煮机制彻底换成超市“面试草莓”并带到办公室的喜剧递进：选果评语、旁人接话、同事误认新人名单、午休后“见习生集体离职”。保留原 ID、顺序、分类与非语言元数据；故事 278 汉字，粤拼逐字对齐 278 音节，译文和复述提示人工撰写并逐项复核。候选与改写前源文件均存档于 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-standup-jam-exam/`。
+- 此次按台上讲脱口秀的节奏完成四字段人工 V2 复核，检查了该卡与已通过故事的果酱烹煮机制区别，更新 V2 当前哈希。活动计数同步为 **1,707 pass / 1,293 needs_revision / 0 pending**；全源 **2,259 pass / 2,741 needs_revision / 0 pending**。
+- 重建 6,000 条并通过完整内容校验、`git diff --check`。全量确定性核对：5,000 唯一源键、3,000/2,000 活动/排除分区、3,000 活动镜像四字段完全一致、通过卡哈希均当前。单元测试未运行。
+
+### 2026-11-06 下一組脫口秀式 V2 改寫
+
+- 新完成三張活動卡並保留 ID、順序、分類及其餘元數據：`long_food_shopping_06[30]`（室友把菜心水盆溢水當成河道救援，255/255）、`long_health_services_03[18]`（阿媽參觀日間照護中心時把歌詞卡變點歌表，260/260）、`long_health_services_03[19]`（陪朋友搭無障礙車的主角反覆核對，手機殼背後的提醒紙回扣成“地圖、時鐘、考官”，268/268）。均為繁體澳門口語；逐卡手工複核故事、語境粵拼與聲調、完整簡體翻譯、對應復述提示。三篇都以人物反應製造包袱；無金錢主線，僅一篇家庭角色。
+- 原稿各自歸檔於 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-standup-washroom-river/`、`.../batch-standup-daycare-song-list/`、`.../batch-standup-accessible-ride/`。
+- V2 現為 **2,262/5,000 pass、2,738 needs_revision、0 pending**；活動庫 **1,710/3,000 pass、1,290 needs_revision**。自已核驗遠端 `d345e0c967c47d3009dde687507588fab4ec866f` 共新增 **43** 張通過，尚未到約 50 張提交點，未提交/推送；原分支與 main 均未改。
+- 重建 6,000 條內容、完整內容校驗及 `git diff --check` 通過。確定性全量審計：5,000 唯一源鍵、3,000/2,000 分區正確、活動鏡像 3,000/3,000 四字段一致、通過哈希陳舊 0。全庫語義/題材/重複機制終審及測試未完成；本批沒有跑單元測試。
+
+### 2026-11-06 杏仁餅巴士護送卡補充
+
+- 改寫 `long_food_shopping_03[7]`（節日辦年貨）：主角帶杏仁餅搭巴士去同事聚會，一路像押運文件般護盒，最後空盒仍被司機當作乘客，成為「餅已落車、人未放工」回扣。保留既有分類和 ID；258 漢字/258 音節，故事、粵拼聲調、完整簡體譯文及復述提示逐項人工複核。原稿及改寫前檔案已存於 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-standup-almond-bus-escort/`。
+- 全源 V2 更新為 **2,263/5,000 pass、2,737 needs_revision、0 pending**；活動庫 **1,711/3,000 pass、1,289 needs_revision**。自遠端 SHA `d345e0c967c47d3009dde687507588fab4ec866f` 新增 **44** 張通過；未提交、未推送，尚差約 6 張到提交檢查點。
+- 重建 6,000 條內容及完整驗證、`git diff --check` 均通過；全量唯一源鍵、活動/排除分區、活動鏡像四字段及通過哈希審計均通過。單元測試未跑。
+
+### 2026-11-06 睡眠日誌卡重寫
+
+- 改寫 `long_health_services_03[7]`：把覆診所需的兩週睡眠日誌改成主角過度排版、室友收起三色筆、最後拿空白格開玩笑的遞進。保留睡眠日誌用途與類別，不新增診斷或治療指引。故事 272 漢字/272 粵拼音節；四字段人工複核，粵拼聲調與逐字對齊通過。候選和改寫前源文件歸檔於 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-standup-sleep-diary/`。睡眠日記記錄內容與估算時間的寫法，參照 [NHLBI](https://www.nhlbi.nih.gov/resources/sleep-diary) 與 Oxford Health 指引。
+- 累計 V2 **2,265/5,000 pass、2,735 needs_revision、0 pending**；活動庫 **1,712/3,000 pass、1,288 needs_revision**。自遠端 `d345e0c967c47d3009dde687507588fab4ec866f` 新增 **46** 張通過；未提交/推送。
+- 重建 6,000 條內容，完整校驗與 diff check 通過；5,000 源行及唯一鍵、3,000/2,000 分區、活動鏡像字段、V2 通過哈希全量審計無差異。單元測試未跑。
+
+### 2026-11-06 計數校正
+
+- 對續跑遠端台賬逐卡比較後確認：遠端基線是 2,219 pass；本地目前 **2,264 pass**，所以真正新增通過為 **45**，不是上一條記錄中寫的 46。先前曾報 2,263/44，亦與當時本地台賬有 1 張誤差；後續以此處的 5,000 行 ledger 狀態逐鍵差異為準。活動庫為 1,712/3,000 pass，1,288 needs_revision。尚未提交、未推送。
+
+### 2026-11-06 续跑：脱口秀口吻及本批提交点
+
+- 用户进一步明确：故事要像正在台上讲脱口秀。写法按口语讲述、递进节奏、人物反应和回扣收尾处理；继续减少家庭与金钱主线。新增改写 `long_health_services_03[21]`：朋友预约女医生时，叙述者把诊所提醒和买洗衣液的事项混在手机日程，朋友最后接管带路并请洗衣液离开行程表。保留预约时段、携带检查资料等原情境；四字段人工撰写/复核，故事 257 汉字、257 粤拼音节。原始卡快照留在 `/home/bankey/Documents/Codex/DevWork/data/jyut-soeng-v2-review-2026-11-06/batch-standup-clinic-calendar/`。
+- 续跑远端当前基线仍是 `d345e0c967c47d3009dde687507588fab4ec866f`，逐键比较后确认本地 V2 是 **2,267/5,000 pass**，较该基线新增 **48** 张 pass；活动库 **1,715/3,000 pass、1,285 needs_revision、0 pending**。本检查点按“约 50 张”提交；不是凑满十张才审，也不把机械通过计入人工数。
+- 重建 6,000 条内容并通过完整内容校验、`git diff --check`。确定性核验：5,000 个唯一台账键，3,000/2,000 活动/排除互斥分区，活动镜像 3,000/3,000 的故事、粤拼、简体译文、复述提示与源卡一致，V2 pass 当前哈希无陈旧项。全库语义/题材/重复机制终审及测试尚未运行。
+- 此批只涉及 V2 故事卡、四字段审核台账、选择计数、进度清单、恢复检查点及构建镜像；准备提交到续跑分支。未改 main、未发 APK/标签、未部署或付款。

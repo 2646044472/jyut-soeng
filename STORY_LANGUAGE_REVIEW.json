@@ -24455,13 +24455,13 @@
   {
     "file": "content/sentence_bank/long_food_shopping_06.json",
     "index": 91,
-    "sha256": "7a47bd4d608154144e6eb532af4c3bbba866158fa2b80b483375e5bb83e8d104",
-    "review": "main-agent language review",
+    "sha256": "36adb597e3cbb59c01e6516122ccff829530354450ad856a8a76c9aa3626869d",
+    "review": "main-agent V2 language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "妹妹挑中彎月形粟米，剝玉米衣後把細鬚當掃把，煲湯時又把鹽和甜味扯上；核讀「剝」mok1 等字音及全篇釋義。"
+    "notes": "V2 主审重写为同事把番茄挑选变成选美：主持式拍摄、檔主切开番茄提醒看内里，歪番茄全入酱，冠军失踪及留前排作回扣。逐字核对正文与粤拼声调；简体释义完整，复述提示对应故事。"
   },
   {
     "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -24532,13 +24532,13 @@
   {
     "file": "content/sentence_bank/long_food_shopping_06.json",
     "index": 98,
-    "sha256": "c99bce7056c9f245a3f246606c7441d5f0cc341a5736191e8eef9c06e7bfcfd7",
-    "review": "main-agent language review",
+    "sha256": "9462a03c1db1734dca89d1b78551fa82be71cc926f5384f8b7f5768bd4a19da1",
+    "review": "main-agent V2 language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "大份量擠滿桌面，汁濺餐牌成笑話，南瓜湯打包後紙巾仍乾；逐句覆核西餐、焗魚扒、保溫袋等讀音及完整釋義。"
+    "notes": "V2 主審重寫茶餐廳早餐故事：茄汁樽堵塞後噴出紅線，朋友把薯條排成等候車輛、以筷子設欄杆，旁桌客人跟住排隊；向新樽詢問心情回扣。逐字核對 264 字全文與語境粵拼、完整簡體釋義及復述提示。"
   },
   {
     "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -32636,12 +32636,12 @@
     "file": "content/sentence_bank/long_food_shopping_14.json",
     "index": 12,
     "sha256": "cfc6de53a15c392db73dd45577a48d475b136e938c53275a239804b4614be515",
-    "review": "main-agent language review",
-    "naturalness": true,
-    "distinct_plot": true,
-    "jyutping_readings_and_tones": true,
-    "complete_gloss": true,
-    "notes": "熟香蕉做蛋糕時混進蛋殼，家人撈起後烤出金黃蛋糕。"
+    "review": "main-agent V2 candidate review",
+    "naturalness": false,
+    "distinct_plot": false,
+    "jyutping_readings_and_tones": false,
+    "complete_gloss": false,
+    "notes": "香蕉蛋糕改寫候選因粵拼音節數未對齊而退回；失敗草稿留存於 batch-banana-shell-case/after-row.json，原稿與 V2 needs_revision 狀態恢復。"
   },
   {
     "file": "content/sentence_bank/long_food_shopping_14.json",
@@ -32745,13 +32745,13 @@
   {
     "file": "content/sentence_bank/long_food_shopping_14.json",
     "index": 22,
-    "sha256": "efe437a5c3538b3bfe8c0bcb5ac4e5c6f2f2fb552f98d31416ac4db5df637b26",
-    "review": "main-agent language review",
+    "sha256": "adc362b686abb3fa15867cca2712c8b20104e148aabbf2d6b40b5851b2ad2278",
+    "review": "main-agent V2 language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "Audited a late salmon dinner, thawing mishap and neighbor visit; removed duplicated timeline and checked readings."
+    "notes": "V2 主審重寫為室友阿朗把晚餐辦成派對、街坊實為歸還餐盤，盤底餅乾碎回扣上週分享；逐字核對 259 字；覆核沙律 leot6、黏 nim4 等語境讀音、粵拼聲調、完整普通話釋義和復述提示。"
   },
   {
     "file": "content/sentence_bank/long_food_shopping_14.json",

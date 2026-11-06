@@ -7,8 +7,8 @@
   "excluded_cards": 2000,
   "selection_policy": "Active set remains exactly 3,000 stable IDs in source order. Removed 177 cards with strong explicit financial-service/transaction text signals and replaced them with V2-passed excluded stories with no strong financial text signal and no close-family keywords; replacement selection cycles categories for breadth. Category labels and lexical screens are only proxies, not a completed semantic topic audit. Active needs_revision cards still require manual V2 rewriting and four-field review.",
   "active_v2_status_counts": {
-    "pass": 1668,
-    "needs_revision": 1332,
+    "pass": 1715,
+    "needs_revision": 1285,
     "pending": 0
   },
   "active_family_category_cards": 368,
