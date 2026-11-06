@@ -4,7 +4,7 @@
   "scope": "Independent manual second review of all 5,000 original source rows, including existing V2 passes, for stand-up/life-bit quality, natural Macau colloquial Cantonese, contextual tone-marked Jyutping, complete Simplified gloss and story-specific retelling prompt. Final active library target is 2,000; all source rows and drafts remain preserved.",
   "source_cards": 5000,
   "target_active_cards": 2000,
-  "active_selection_status": "2000 current V2-pass cards selected; 614 oral pass, 1 need revision, 1385 pending; active-card re-audit continues, while excluded source cards remain preserved.",
+  "active_selection_status": "2000 current V2-pass cards selected; 664 oral pass, 1 need revision, 1335 pending; active-card re-audit continues, while excluded source cards remain preserved.",
   "cards": [
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -14433,10 +14433,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 10,
-      "status": "pending",
-      "source_sha256": "a4c999aebb26599bbc25fdfed98af41393185d641a4a159a8f9783733f6ea84c",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "989db35b2f45b8905348ee5dfc22a452babb0dad95f244d18eb36fb1a6935fae",
+      "topic_notes": [
+        "coffee_order",
+        "bus_commute",
+        "mistaken_order_callback"
+      ],
+      "notes": "Manual pass: a mistaken coffee order, bus countdown and table-tapping riff escalate to a blank sleeve/metronome callback. Corrected 空檔 hung1 dong3; all four fields were read in context."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -14503,10 +14507,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 18,
-      "status": "pending",
-      "source_sha256": "b064d225633e49a9cde1c6b50cc0c22b7fe3a5d5b2f122e8c3546131eb64a2da",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "08b9cf0231f35bd4cef2b7d8b917c8ac1c185e25bf2416ed52eef001dba21388",
+      "topic_notes": [
+        "cafe_order",
+        "gesture_miscommunication",
+        "workplace_lunch"
+      ],
+      "notes": "Manual pass: a muffled egg-sandwich order becomes whole-table gesture choreography, and the narrator returns the translation favor. Pinyin separators were normalized; all four fields checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -14577,10 +14585,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 26,
-      "status": "pending",
-      "source_sha256": "9e630e798710d686af0b0c74c9ff86a36ec4800a5626ba4f7cd854f2cd4ae559",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "2e5d02b8797561516b89a64e0b2c3ee4c7ffb29c434839a8f35490fd62625af6",
+      "topic_notes": [
+        "supermarket_queue",
+        "price_label_check",
+        "collective_quiz"
+      ],
+      "notes": "Manual pass: a shelf-label mismatch turns the line into a price quiz, then the egg and next-round callback closes it. Tightened the final shelf-round phrasing; all four fields checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -15350,10 +15362,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 18,
-      "status": "pending",
-      "source_sha256": "1d8c67059d1fdf3a4ecf84d88027687b00b465343181e15e55488f4b75ac727d",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "824525b4a94f93f31276d23eaef759554140199082063f2e3e356ebb04b84066",
+      "topic_notes": [
+        "wet_spice_bag",
+        "market_stall",
+        "shared_cooking"
+      ],
+      "notes": "Manual pass: the torn spice pouch gets a practical fix and returns as the first cleaning job; cooking roles and the callback are clear."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -15403,10 +15419,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 24,
-      "status": "pending",
-      "source_sha256": "c995efd4916afdd3b3da14c123dab8a25ea7297726029ff1318a05cbb59b2fb8",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "06ae160f6c06ed89939d544d911af7cf2d4161d7321c35afad5e1091021e3740",
+      "topic_notes": [
+        "office_lunch_orders",
+        "same_surname",
+        "name_mixup"
+      ],
+      "notes": "Manual pass: two same-surname orders are corrected before cooking and the labeled boxes resolve the mix-up. Retelling prompt now uses simplified wording consistent with the draw-lot joke."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -15456,10 +15476,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 30,
-      "status": "pending",
-      "source_sha256": "760f9c738fd0d78149bc6985b7f69f8c746ff61d1a9dc1cb8fd5cd13892b4a0e",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "c34d861bbbfa5c2616c19730ea34939bd44a598ea72188bae5699fb72831f379",
+      "topic_notes": [
+        "delivery_mixup",
+        "apology_wontons",
+        "coworker_lunch"
+      ],
+      "notes": "Manual pass: one sticker-checked delivery exchange leads to apology wontons mediating the lunch; removed the duplicate exchange paragraph and aligned the full gloss."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -16117,10 +16141,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 7,
-      "status": "pending",
-      "source_sha256": "7cb6583b5fc6d8666ba4ace80796f98df3a62a1ac7a1f18baeb94bcca75eceab",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "0a013885bc8819c4a1f8e133afe329c662c02c27cd9b3311ab55620dacd00ed1",
+      "topic_notes": [
+        "bus_ride",
+        "almond_cookies",
+        "protective_coworker"
+      ],
+      "notes": "Manual pass: guarding almond cookies on the bus grows into an offer to escort the projector, with the still-at-work callback. Pinyin punctuation normalized."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16141,10 +16169,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 10,
-      "status": "pending",
-      "source_sha256": "573934da80b192492545d1cb1ab03c6e8937c81714e19be36a62ba2a60f3bd48",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "f84720a2eeb0d12cce9f64d323f7e49652b140793bec251ef8444cfa38f28a9b",
+      "topic_notes": [
+        "street_food",
+        "vendor_role_reversal",
+        "spicy_sauce"
+      ],
+      "notes": "Manual pass: the vendor’s tasting challenge and escalating food comments land on a clear role-reversal callback; all four fields checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16170,10 +16202,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 13,
-      "status": "pending",
-      "source_sha256": "65607582d515b6da0ce75c1d4d8461b684292dd1f100a38e14a6c019f10fad13",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "09366e3c13dd273c5c9c629097d94be4f6f5be6ddc2ddd2e9109f8915702f1dd",
+      "topic_notes": [
+        "food_service",
+        "tray_rotation",
+        "label_confusion"
+      ],
+      "notes": "Manual pass: tray rotation and left/right labels create a concrete misunderstanding with a clean payoff; all four fields checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16224,10 +16260,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 18,
-      "status": "pending",
-      "source_sha256": "ba1f365c705c72846838a5481894df0eed29cfd1334d126347c1654c2ee8d196",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "f718cdaf1dbaa55924941eea323ef41854c6efee03abb6ce9747e6cae3f809d1",
+      "topic_notes": [
+        "beach_walk",
+        "squid_stall",
+        "wind_blown_packaging"
+      ],
+      "notes": "Manual pass: wind turns an ordinary squid snack into a juggling problem; the cup-as-rack and lemon-cup callback are coherent. Clarified which cup contains lemon juice and aligned its reading."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16256,10 +16296,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 22,
-      "status": "pending",
-      "source_sha256": "7f300a37a62a554df71c806581f0c5ed00f4fd6b6bf35ae7ae9b84eb4572eb6c",
+      "status": "pass",
+      "source_sha256": "b42357aad93dafbb53499c58155fd5285e950298c12d0ca59fbe4bf3efec3945",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16285,10 +16325,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 25,
-      "status": "pending",
-      "source_sha256": "71bde79f2a1ed52e14beb50f05cac1fb0a9a61677812231bacb09d60a299ef3e",
+      "status": "pass",
+      "source_sha256": "60bdde292ffa44cdcafaee73a3e398958fc81321204205415c3613b05c54beb8",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16317,10 +16357,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 29,
-      "status": "pending",
-      "source_sha256": "09e53d0840e62647eb7e8fe8486c83297d21e1f0e4056f7eb62fb49fe22bc2d1",
+      "status": "pass",
+      "source_sha256": "cfab75d73792727056127b27708dd57dd80ac2903ec8f09ad59d8895c08a7fb1",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16415,10 +16455,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 40,
-      "status": "pending",
-      "source_sha256": "f0c7c0eb9dcde5919b696d31143319655a9b83fdb5232be778c547d234b8e77b",
+      "status": "pass",
+      "source_sha256": "6f29f72e259b55cc3af0516879cf14e72e0616d35a278fc1ac5542d9662517b1",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16431,10 +16471,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 42,
-      "status": "pending",
-      "source_sha256": "878bb2ebfdd9c6d4cb12de95d9988c8f312b78ac99f2a02666f9d2d2ba0cac99",
+      "status": "pass",
+      "source_sha256": "bc986189361c43382894160e6d50ccfd4e56a40f05b1bca11710507b5312136f",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16460,42 +16500,42 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 45,
-      "status": "pending",
-      "source_sha256": "6a8ac91a4c6d860c11742c7ffcf1283c8ae55d31b8f4e6dd9bf4221ac83be400",
+      "status": "pass",
+      "source_sha256": "3d2cec7da11eb9aa8c37dfabc8c3d6a988ea829380f823dfe7e0095a23cd7d33",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 46,
-      "status": "pending",
-      "source_sha256": "f5d74765780704aa68cc7a9c6c5edd7593bbd4ae54c746219f4d5c9b2906d844",
+      "status": "pass",
+      "source_sha256": "fdf896f61a4fafcc527b503514efd5c50ea8f37cc4bf3a9c41b8b2614e3a0687",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 47,
-      "status": "pending",
-      "source_sha256": "6fa3a9f20fb290aa5b21393f7dc568236fea082d8c092c626a6c26239fde3ca9",
+      "status": "pass",
+      "source_sha256": "0d300a02fcc8122e3699a127f0f6a5acccf74e1f7fdc022d518ea26ffb925639",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 48,
-      "status": "pending",
-      "source_sha256": "8a3eb48e1e65692f2489d3c4cbe69e2f63e20ab7ed569bf01123fb2649ecf2ab",
+      "status": "pass",
+      "source_sha256": "75509d368c797cc745c3584dede674c312e7d6a692c77757ebd5cdd2b557f4d4",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 49,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "46b7655c30ed940a9927ddd592c841f346cda322e223382f80c31c6c70d2e048",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16943,10 +16983,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 4,
-      "status": "pending",
-      "source_sha256": "fe9db443612a29aec9b388ff713f5378bd2b588b97cb026dc40b7244f6e37bab",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "0d1c2c542010e6426adfd6a9b2eaf3e05a69223243f3cfaa8615be7f347011a8",
+      "topic_notes": [
+        "fruit_stall",
+        "sour_oranges",
+        "ice_pop_callback"
+      ],
+      "notes": "Manual pass: a sour-orange batch becomes a雪條 experiment and the stall sign extends the joke. Replaced Mandarin-style 冰棒, made the final laughter subject explicit, and checked syut3 tiu2."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -16971,18 +17015,26 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 7,
-      "status": "pending",
-      "source_sha256": "2ab2da6bdef5fa4890505ce45af4bdcbc4636d59ae4f1c58aa2ea30e059c21ec",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "40a735181e4e474139d54f908d3f8c8a06da605fda0f937f7e1151cad7799f54",
+      "topic_notes": [
+        "tea_shop_breakfast",
+        "cold_drink_condensation",
+        "wrong_sugar_label"
+      ],
+      "notes": "Manual pass: condensation leads to a mislabeled drink, then the coworker turns inspection into a breakfast shift. Repaired the condensation cause and checked 午休 ng5 jau1 / 半份蛋治 bun3 fan6 daan6 zi6."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 8,
-      "status": "pending",
-      "source_sha256": "f6806e112e8e705cf8661e7a0170c492a212cf74ea691dd1bf9405d1bb372cdb",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "a79bfbb02708e877fcb834789d6d10055f28e25a1aad9b143ce04ac664b77afa",
+      "topic_notes": [
+        "workplace_seating",
+        "table_rearrangement",
+        "meeting_callback"
+      ],
+      "notes": "Manual pass: a colleague’s seating arrangement becomes an impromptu dance/meeting plan, with the office return callback; all four fields checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -17080,10 +17132,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 20,
-      "status": "pending",
-      "source_sha256": "a6d1e8e7dd9e1cedc9494f769cc0266c5cbd1ac5c7e66938f1c4289e6d6b1491",
+      "status": "pass",
+      "source_sha256": "25c234fafe7f0761525e701be625d485406afac8d5809e7d3e853fdfa444b5b0",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -17141,10 +17193,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 27,
-      "status": "pending",
-      "source_sha256": "37d8ef5ab4bf9ca76fc3b1382a6b866be11d18ddc6e9662958e2247016696c65",
+      "status": "pass",
+      "source_sha256": "b85326c84a7a48567ae531d0e207e4be7617b279a6b54b83bbdd6c217f5c669e",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -17770,10 +17822,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
       "index": 4,
-      "status": "pending",
-      "source_sha256": "7338ec1f19b367ecf5af0303d8c32c085b05c494e1b172872c7c4031b419a451",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "76caeeaef919d893563755ece8db0e62dc05163ffd170eb38736e8904e08c5d3",
+      "topic_notes": [
+        "lunch_photo",
+        "food_styling",
+        "empty_plate_callback"
+      ],
+      "notes": "Manual pass: arranging a pork-chop plate as a route map delays lunch until the colleagues eat the subject of the photo; the empty-plate finish works."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
@@ -17881,10 +17937,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
       "index": 17,
-      "status": "pending",
-      "source_sha256": "4965bac8a0324138b98bca51973bcd5b695e6668c785217bc215438030ae398d",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "f8e85e936732a8a87f3bf1a64bc738eb7a04ce8d72364f133106e93dd0b610ef",
+      "topic_notes": [
+        "glass_lunchbox",
+        "safe_replacement",
+        "candidate_test"
+      ],
+      "notes": "Manual pass: the cracked lunchbox is handled safely, then white-rice testing is promoted to a soup-candidate interview; all four fields checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
@@ -18497,10 +18557,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
       "index": 94,
-      "status": "pending",
-      "source_sha256": "8dbe9bbbc4c1b7f255a0b265ce8915bf5977bb319db821dd8a8fec5d5858624f",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "422f9ad9a6b759e9a6e460e0a7885c585cdf42413c47bfb5a004c4739080112f",
+      "topic_notes": [
+        "heavy_delivery_box",
+        "wet_cardboard",
+        "neighbor_misunderstanding"
+      ],
+      "notes": "Manual pass: water bottles knock inside a wet carton, waking neighbors until cardboard silences them; the sign completes the doorway callback."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
@@ -18604,10 +18668,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 7,
-      "status": "pending",
-      "source_sha256": "8dee5a4e421ee606c7903e8913be7de7861e4ff871decea91a95bc476f3462ba",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "0ea8c1976f9b9dfcf2d000b1a5ada05ccd1ab3f215fcb054cfed326f61eb4eb8",
+      "topic_notes": [
+        "shared_fridge",
+        "curry_prep",
+        "schedule_misunderstanding"
+      ],
+      "notes": "Manual pass: cooking rotation is mistaken for rotating curry boxes; the curry-patrol and two-roster callbacks stay clear. Replaced formal 冷藏 with 放入雪櫃 and aligned Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -18654,10 +18722,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 12,
-      "status": "pending",
-      "source_sha256": "15f0fdde8f49433c1fc43054a5f40de64fd118f8f9b0cf44a74ca988b5a9c917",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "da94ae6a5563fdb7274088796be560be3eff84083b241a602645f30bbad3ab35",
+      "topic_notes": [
+        "food_delivery",
+        "paper_sign",
+        "role_swap"
+      ],
+      "notes": "Manual pass: a wind-blown pickup note assigns the coworker and guard temporary roles, then returns to the guard. Replaced Mandarin-like clauses with colloquial Cantonese and aligned pinyin/gloss."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -18686,10 +18758,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 16,
-      "status": "pending",
-      "source_sha256": "82d9d0e9b67e51d7fa6094af26bd6c583e08bff19e0ce8a4623bfdc5b65143f2",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "500aa7f2aae2918b62fbd70e660eb8007e59a7e7190c9bec032ed44047ca7664",
+      "topic_notes": [
+        "egg_pancake",
+        "phone_video",
+        "wall_shot"
+      ],
+      "notes": "Manual pass: a failed flip escalates into a moon-shaped pancake while the phone films a wall; the “kitchen scenery” callback lands."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -18726,10 +18802,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 21,
-      "status": "pending",
-      "source_sha256": "e79957f4794652684b733ec369b37e43fbce4f1bd608e7d4085ecef94107a820",
+      "status": "pass",
+      "source_sha256": "022deef248bdab95412c1c7f82d584141f80cbc9f3a2e653efbc0a9717c3d325",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -18758,18 +18834,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 25,
-      "status": "pending",
-      "source_sha256": "fbb18bdd4be6bd79f9cf76b13fa84a892cf2ce8a6f0e09482cd6593f4a0846b6",
+      "status": "pass",
+      "source_sha256": "e9ce2295cc245a81979b4a58d473cbaac086bb1f39755324272ec48da43a4273",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 26,
-      "status": "pending",
-      "source_sha256": "cbe9eaa3ad21a7fd4b80d9e62a0ebcd882256617edf2b8df5a8160741943506e",
+      "status": "pass",
+      "source_sha256": "7be32abd6cc5cfc225c7ec3c26ee58720ddb15ba3d87a82402d9c7607db21d44",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -18955,10 +19031,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 49,
-      "status": "pending",
-      "source_sha256": "36e05645b7d81cf3d21940f2bcb1938c20b810e47951b873604acac43ca44472",
+      "status": "pass",
+      "source_sha256": "c248f2d27d5f6aefdaad00a21ad33e9438380cfa219a039d8e9a133e74537072",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -19011,10 +19087,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 56,
-      "status": "pending",
-      "source_sha256": "1b412ece0cd338dbdf80e9f81c7b39dfc73979395c584cf6caef911f3ea67f2c",
+      "status": "pass",
+      "source_sha256": "077c58d20567d579d186594f705debbd2128a88c670329c33f5bed1344efe123",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -19131,10 +19207,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 71,
-      "status": "pending",
-      "source_sha256": "f86d5403706494da8b24fc87355e1a304cb282cf260569af49fc0005cecc6b82",
+      "status": "pass",
+      "source_sha256": "545cc8556fed969184783ac54d6b5614a4613a147ef7a6279b302914f28713c4",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -19251,10 +19327,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 86,
-      "status": "pending",
-      "source_sha256": "aca579353a488bbb8cd67d18ae77625ef500f58184dfa43b1a34277899bff6d9",
+      "status": "pass",
+      "source_sha256": "1bb8cdd63f5cae4d8512077199e28fd18339198d4e37a05ea2ec9e200bae2731",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -19347,10 +19423,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 98,
-      "status": "pending",
-      "source_sha256": "9462a03c1db1734dca89d1b78551fa82be71cc926f5384f8b7f5768bd4a19da1",
+      "status": "pass",
+      "source_sha256": "1c2d685844d29324a1d398c00fbd2c692c8f9a7b09492b0b00ffaf88f58d1887",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -19391,10 +19467,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 3,
-      "status": "pending",
-      "source_sha256": "1e04673ba876c1f3a962869985d0f4ece68ca1178938d72318a0f41ac282af6d",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "cce52cccaa1a000696d78841d86b1e84604878b30bbf34ccee26ec2ec8a773d0",
+      "topic_notes": [
+        "sweetness_test",
+        "tea_shop",
+        "sensory_reveal"
+      ],
+      "notes": "Manual pass: the self-appointed tea taster blames each wrong guess until the waiter points out that lemon smell cannot identify sugar; all four fields and tones checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -19503,10 +19583,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 17,
-      "status": "pending",
-      "source_sha256": "50bc314db1f1368ea5f3cbca72bd03a3b4d08592f0e17de5ad187be468a47f81",
+      "status": "pass",
+      "source_sha256": "5f0bea7e36e9b58b790a4dccaa18ceb5771039a0a0afba3ce59183289a12521d",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually reviewed after revision; stand-up/life-story turn is coherent and distinct, Jyutping was checked character by character for context and tone, and the Mandarin gloss and story-specific prompt match. Selected within the active 2,000; not centered on family or money."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -20334,10 +20414,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 18,
-      "status": "pending",
-      "source_sha256": "e4d3022663a42e60c41479c4b7851b160488ed3148d245e0ebc161709051c3c3",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "5e94ab9b6b444f0186669a9103831579ee99d195aca5c04214b8152c2cde884b",
+      "topic_notes": [
+        "office_shared_fruit",
+        "kiwi_sorting",
+        "work_assignment_callback"
+      ],
+      "notes": "Manual pass: a coworker’s fruit ranking fails when the softest kiwi is sour; the “found work first” callback closes the scene."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -20382,10 +20466,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 24,
-      "status": "pending",
-      "source_sha256": "76b79013ff63223ccf1c9312458636200c368544f06fed735050fb1fdf7aeee4",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "77a6a9769f02ec334c6f29cdaf14806a64302d82e25928417df64dc8a3490834",
+      "topic_notes": [
+        "restaurant_ordering",
+        "senior_colleague",
+        "speaker_role_reversal"
+      ],
+      "notes": "Manual pass: the senior keeps ordering for the narrator until the narrator orders the senior’s usual dish; the final unfinished sentence returns the speaking turn."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -20398,10 +20486,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 26,
-      "status": "pending",
-      "source_sha256": "6d09bd056ff6c1612aeb8a3add4086e722e061764559e6249ba003a46d921126",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "21ce27856e05d7ac3b89677cf8240bc9f7c2c79e1e04a59df21a898f487270c6",
+      "topic_notes": [
+        "customer_service",
+        "call_script",
+        "service_audit_misunderstanding"
+      ],
+      "notes": "Manual pass: the colleague’s rehearsed customer-service call becomes an imagined service audit; the empty order list is a clear payoff."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -21132,10 +21224,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_09.json",
       "index": 16,
-      "status": "pending",
-      "source_sha256": "2051c85edab99bd3bdd45ccbd487c9f05c63c19ec9d1213ced6cab2c96e43033",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "6ba3c402b81b97b6a0ec1d8f05d306efaadc965dd14a9e8f766df3e555b4cbd1",
+      "topic_notes": [
+        "basil_care",
+        "dishwasher_misunderstanding",
+        "plant_work_roster"
+      ],
+      "notes": "Manual pass: basil-care instructions become a rotating-intern job and then a night-shift roster. Replaced the uncertain botanical compound with natural branch wording and corrected 幾 gei2."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_09.json",
@@ -21172,10 +21268,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_09.json",
       "index": 21,
-      "status": "pending",
-      "source_sha256": "4936c5b8b938e50979858566ac12a379ea3a4f5330b6e04a80890412c58f2963",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "a613b9d95276256c6460c0f00539699ce057e05fd438a185ca5af9e06426b29e",
+      "topic_notes": [
+        "cooking_class",
+        "sticky_meatball",
+        "glove_mishap"
+      ],
+      "notes": "Manual pass: a sticky meatball turns a gloved hand into a moving class hazard, resolved by wet hands. Added the omitted instructor/tool-clearing actions to the complete Simplified gloss."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_09.json",
@@ -21332,10 +21432,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_09.json",
       "index": 41,
-      "status": "pending",
-      "source_sha256": "0d2f0d52b6f793a705c742050b8cc94c19ebdb98b474385bc5ca4eb98d15dc1e",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "5cb5c8e09ab36215fb8c01dba4a6b7c40b9cf9872f4ca7a7aa19038394318a4a",
+      "topic_notes": [
+        "curry_cooking",
+        "potato_sizes",
+        "spice_preference"
+      ],
+      "notes": "Manual pass: tiny potato cuts, a mild-curry claim and the colleague’s triple chili loop build to the fair-pot/unfair-bowl callback."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_09.json",
@@ -22128,10 +22232,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
       "index": 38,
-      "status": "pending",
-      "source_sha256": "44b0879b467249f54d4f9239bda0e69ace1e44c0c4e148377c0ee56d157e4151",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "6735659cc064595af6d150f8ffaa31eda9b7389f3e5061863d2e7e4f96b505b4",
+      "topic_notes": [
+        "restaurant_dinner",
+        "spicy_curry",
+        "false_confidence"
+      ],
+      "notes": "Manual pass: a colleague’s chili bravado turns into a lemongrass excuse and a coconut-rice rescue, ending with a modest iced-tea promise."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
@@ -22168,10 +22276,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
       "index": 43,
-      "status": "pending",
-      "source_sha256": "1121d69f97b179862045d48ff89554b94c12fa4aeba97a3b51f21e0e6929c4e6",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "360b37ce09df11a780f53ef6285178b035b69346ea9bdc0db4576dc01020e58b",
+      "topic_notes": [
+        "volunteer_lunch",
+        "beef_cooking",
+        "meeting_callback"
+      ],
+      "notes": "Manual pass: the beef is returned to the wok and cooked through; the “seven-tenths is meeting time” callback turns the teaser into the next cook. Updated the safety wording, gloss, Jyutping and practice prompt."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
@@ -22192,10 +22304,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
       "index": 46,
-      "status": "pending",
-      "source_sha256": "c136f6f159ca2708cf88c31a19a1ef188af862ef395f8ebef7c14bfe6fc37ee4",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "9d27db13173a02175db35ea75b567abafb783dcfd8d59a43f400570eb212ecdd",
+      "topic_notes": [
+        "overtime_meal",
+        "food_vote",
+        "report_approval_callback"
+      ],
+      "notes": "Manual pass: coworkers arbitrate two delivery boxes as if they were evidence, then the report/meal approval line closes the overtime scene. Corrected 古董 to gu2 dung2."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
