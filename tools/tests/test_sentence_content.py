@@ -85,7 +85,9 @@ class DailySentenceContentTest(unittest.TestCase):
         standalone_ids = {
             entry_id for entry_id in bundled if entry_id.startswith("sentence-bank-")
         }
-        self.assertEqual(len(standalone_ids), 3000)
+        self.assertEqual(len(active_ids), selection["target_active_cards"])
+        self.assertEqual(selection["target_active_cards"], 2000)
+        self.assertEqual(len(standalone_ids), selection["target_active_cards"])
         self.assertEqual(standalone_ids, active_ids)
         self.assertTrue({row["id"] for row in source_rows}.issubset(bundled))
         for source in source_rows:
@@ -123,7 +125,22 @@ class DailySentenceContentTest(unittest.TestCase):
             dict(topic_counts),
         )
 
+        selection = json.loads(SELECTION_PATH.read_text(encoding="utf-8"))
+        active_ids = set(selection["active_ids"])
+        self.assertEqual(selection["target_active_cards"], 2000)
+        self.assertEqual(len(active_ids), 2000)
+        revalidation = json.loads((ROOT / "STORY_QUALITY_REVALIDATION.json").read_text(encoding="utf-8"))
+        passed_ids = {
+            f"sentence-bank-{Path(record['file']).stem}-{record['index'] + 1:04d}"
+            for record in revalidation["cards"]
+            if record.get("status") == "pass"
+        }
+        self.assertTrue(active_ids.issubset(passed_ids))
+
         for path, index, row in rows:
+            entry_id = f"sentence-bank-{path.stem}-{index:04d}"
+            if entry_id not in active_ids:
+                continue
             with self.subTest(source=f"{path.name}:{index}"):
                 sentence = row["sentence"].strip()
                 jyutping = row["jyutping"].strip().lower()
