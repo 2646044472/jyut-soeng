@@ -4,7 +4,7 @@
   "scope": "Independent manual second review of all 5,000 original source rows, including existing V2 passes, for stand-up/life-bit quality, natural Macau colloquial Cantonese, contextual tone-marked Jyutping, complete Simplified gloss and story-specific retelling prompt. Final active library target is 2,000; all source rows and drafts remain preserved.",
   "source_cards": 5000,
   "target_active_cards": 2000,
-  "active_selection_status": "2000 current V2-pass cards selected; 716 oral pass, 1 need revision, 1283 pending; active-card re-audit continues, while excluded source cards remain preserved.",
+  "active_selection_status": "2000 current V2-pass cards selected; 753 oral pass, 1 need revision, 1246 pending; active-card re-audit continues, while excluded source cards remain preserved.",
   "cards": [
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -14928,10 +14928,17 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 63,
-      "status": "pending",
-      "source_sha256": "d49b2cb229c8ad91a3b0a9cb12fb3b703a16759893d91d43fa39bc19fd263267",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "c0619abbe60c3f76010f01a0c21d684a448200f53765cb7d7931b6cfa339a2a1",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "market_exchange",
+        "tofu_mixup",
+        "physical_comedy",
+        "running_callback"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 234 Han characters/234 Jyutping tokens). Story, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and matching retelling prompt were reviewed; independent semantic and pronunciation reviewers passed. The firm-versus-soft tofu mix-up is resolved through a market exchange; the upright block, coworkers’ guest-appearance joke, and label reminder make one clear callback."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -15476,10 +15483,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 27,
-      "status": "pending",
-      "source_sha256": "524513a46df5e8b88464313b4dbab52717702bfe4772958429d0be0dd7d2eb2b",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "0d37c5fab7a99db1f893dd5d36a1707847f7a058788436852a1c6e23080ef006",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "takeout_delivery",
+        "arrival_misread",
+        "unplanned_meeting_place",
+        "map_callback",
+        "strong_callback"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 232 Han characters/232 Jyutping tokens). Story, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and matching retelling prompt were reviewed; independent semantic and pronunciation reviewers passed. The two arrivals refer to a delivered meal and a person getting home. The map-not-open reply explains the missing meetup plan; both meals then travel to the estate rest area, and the address screenshot closes the bit."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -15520,10 +15535,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 32,
-      "status": "pending",
-      "source_sha256": "98ae586b1cff205b2443a0bc9c7871bae7a3d6f938140c7d3d16e3658344a800",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "5a2ed8e38c2450b39a57e690a8066f876fe54a0bc94b40e19195912be3a64be1",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "strong_callback",
+        "standup_life_bit",
+        "food"
+      ],
+      "notes": "生日蛋糕紙條兩度被念出，阿朗用同名掩飾；侍應停手等反應、蛋糕不認得自己成為段子。已修正成枱/全枱語境讀音和拎 ling1。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -17125,10 +17145,17 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 9,
-      "status": "pending",
-      "source_sha256": "7fa186ebb3147427c498130179ce7898d50f7180560d709bc57a1fbe70f4f801",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "259f556257a0cac98c61f0504c10ccef1dac02ef05270a7dfb0e6f2a83116316",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "restaurant_allergy_check",
+        "menu_wall",
+        "behavioral_comedy",
+        "safety_clear"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 268 Han characters/268 Jyutping tokens). Story, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and matching retelling prompt were reviewed; independent semantic and pronunciation reviewers passed. The order checks are clear and avoid an unsafe food claim. The friend folds a menu into a barrier, then the waiter’s plan-view joke pays off that behavior."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -17226,10 +17253,17 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 18,
-      "status": "pending",
-      "source_sha256": "5c561943794ef5f12ea2b1a7bb3631ed89b887a947e49eacbe01b83cf2d09e98",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "129871d97bb311bf8d52124bb205e79a6f3006b4be4cef4240cf3f283bf48799",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "cafe_order_mixup",
+        "same_name",
+        "meeting_agenda_callback",
+        "workplace_life"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 306 Han characters/306 Jyutping tokens). Story, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and matching retelling prompt were reviewed; independent semantic and pronunciation reviewers passed. The same-name mix-up now traces both cups correctly: the hot drink is returned to its customer and the cold one goes to the narrator. The delayed coffee story becomes a meeting agenda item."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -17286,10 +17320,17 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 24,
-      "status": "pending",
-      "source_sha256": "43e6040e22fed2a3d7266a374710045054a4f2f44e6cfa85aabe3d06b13baffb",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "0c4147c43a67c8484eb9bbb2c829e3998f15a69251244e5467c2b1bd52ed2d43",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "color_change_mug",
+        "tide_misread",
+        "office_observation",
+        "visual_callback"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 239 Han characters/239 Jyutping tokens). Story, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and matching retelling prompt were reviewed; independent semantic and pronunciation reviewers passed. The heat-reactive shoreline is demonstrated at the service desk, then coworkers record water changes as a tide report; the manager’s question and the final land line complete the escalation."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -17326,10 +17367,17 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 29,
-      "status": "pending",
-      "source_sha256": "d8665789029d9be9e58ca4f6489fc75bbfa33c57a1c663723f459fe5834963c4",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "05e06686376b0c6f6580e040db5e5028107ec7659848581022c1a5e6ccdf091b",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "self_checkout",
+        "weight_mismatch",
+        "queue_mimicry",
+        "physical_comedy"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 244 Han characters/244 Jyutping tokens). Story, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and matching retelling prompt were reviewed; independent semantic and pronunciation reviewers passed. The old paper bag presses on the bagging zone and explains the unexpected weight. The queue copies the narrator’s bag-lifting motion, then the checkout staff dismisses the impromptu synchronized exercise."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -17342,18 +17390,32 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 31,
-      "status": "pending",
-      "source_sha256": "a6aaf550c3ece6b452c702ac0c98c00d6137afd4892d74e1ed77ebce432f0dd3",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "2ed2916a9dd3ddd7d8ef7bcf377650e71b77c56361158f67b212cdd90fbaac20",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "market",
+        "salted_egg_idiom",
+        "literal_misunderstanding",
+        "label_escalation"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 268 Han characters/268 Jyutping tokens). Story, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and matching retelling prompt were reviewed; independent semantic and pronunciation reviewers passed. The market phrase “起沙” is mistaken for actual sand; the colleague’s inspection labels spread through the pantry, prompting the vendor’s food-inspection-office callback."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 32,
-      "status": "pending",
-      "source_sha256": "43ad204b51926deb18e1737c8ede16f78be92a8f62cfdb808a56057c6313ebbd",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "ece1c384a9d3ba4c9970c80f5404e001b63d379eb1f5f5983588e09273d4609b",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "market_list",
+        "marked_item_misread",
+        "workday_callback",
+        "group_comedy"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 274 Han characters/274 Jyutping tokens). Story, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and matching retelling prompt were reviewed; independent semantic and pronunciation reviewers passed. A covered checkbox leads to a missed scallion, public market announcements, and the “下班” line being read as a shopping item. The Simplified gloss uses names rather than assuming anyone’s gender."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -17406,10 +17468,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 39,
-      "status": "pending",
-      "source_sha256": "2f25e57de6b92ef6bb4f698f9907d99fb2881a8137359bb6301701b102046d33",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "225af4e9ea42541b1ea51b2a601c1672a8522d2f5634474af7b4405c2e14249f",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "shared_kitchen",
+        "fish_flip",
+        "sports_commentary",
+        "chopsticks_collision",
+        "callback"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 241 Han characters/241 Jyutping tokens). Story, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and matching retelling prompt were reviewed; independent semantic and pronunciation reviewers passed. The countdown that helped the fish turn intact continues at dinner: three pairs of chopsticks collide while the tail stays on the plate. The Simplified gloss and prompt match the revised ending."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -21720,10 +21790,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_09.json",
       "index": 52,
-      "status": "pending",
-      "source_sha256": "47046d681db597fb8e0ac3b80df2eb3086889682e706cfdd29623dc75113858c",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "cf48f498498358382c5c697bda7e2b205156f9a492f04da2abb70a96e895dc39",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "strong_callback",
+        "standup_life_bit",
+        "food"
+      ],
+      "notes": "點越南粉者搶著擠檸檬、加辣椒，服務員預備多張紙巾，朋友把湯比作落雨打雷。已校正擠汁 zai1 zap1、拎 ling1、成羹讀音及四欄。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_09.json",
@@ -24768,10 +24843,16 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 12,
-      "status": "pending",
-      "source_sha256": "44e35a3d7e06870f03b636fc1e83ed3262366f7b415cb5431fabf88f68741eff",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "b493904dd4257517f62bd91c0335276dee616e3da6d4dfd43c38ab94a6459020",
+      "topic_notes": [
+        "standup_life_bit",
+        "hiking",
+        "snacks",
+        "polite_offer_loop",
+        "callback"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 262 Han characters/262 Jyutping syllables). Friends politely pass an emergency energy bar among their bags until the summit; a new rule assigns opening it to the first person who says “you eat first.” Damp crackers are safely discarded. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -24792,10 +24873,17 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 15,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "23628644d097484940c54bff6aff42466e2f122046c661531f00dea5fd85aace",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "standup_life_bit",
+        "community_picnic",
+        "relay_race",
+        "food",
+        "physical_comedy",
+        "callback"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 266 Han characters/266 Jyutping syllables). A teammate lays out a picnic like a relay route and gets everyone running with the food; the flag later tells him the finish line means it is his turn to eat. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -25620,10 +25708,16 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 3,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "48deff42d9a6116873035098906e3530b6738e5e8fb1f3ea1703ccdf642dece7",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "standup_life_bit",
+        "workplace_lunch",
+        "food_container",
+        "physical_comedy",
+        "callback"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 261 Han characters/261 Jyutping syllables). Overfilled takeout boxes turn lunch into a lid test, then a chicken leg springs the lid open; the coworkers solve the missing-rice problem with bread. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
@@ -25747,18 +25841,31 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 17,
-      "status": "pending",
-      "source_sha256": "b45b84d45eca933bc844cd6d62dd6b81de5f4ab7d0ff01d38f8ff84e0a72828b",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "c34118c83e10d7d4f662245cb141701e777ee35132698c3a9a0e2a0aced96386",
+      "topic_notes": [
+        "standup_life_bit",
+        "workplace_lunch",
+        "noodles",
+        "paper_cup",
+        "physical_comedy",
+        "callback"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 232 Han characters/232 Jyutping syllables). A soup-and-noodles separation request becomes a paper-cup spill, an evidence display and a next-day “witness” reveal. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 18,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "015c8bbbd7a20ebcef39166c9eb66ad1b997bdaa6946124402fad7fae6c62193",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "standup_life_bit",
+        "community_market",
+        "volunteer",
+        "question_board",
+        "service_role"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 254 Han characters/254 Jyutping syllables). A cautious market volunteer keeps checking facts until the queue treats him as the information desk; the reversed sign sends every question back to him. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
@@ -26572,18 +26679,31 @@
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 2,
-      "status": "pending",
-      "source_sha256": "10c034966b77f7c44582f229d774bd26fce31e847b511fae0354f8e3d98ccaa2",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "3596a061fcefc196d95e205dcf4b5be4fcd9965c30582e8917a3140bc9552e01",
+      "topic_notes": [
+        "standup_life_bit",
+        "bakery",
+        "label_misread",
+        "taste_test",
+        "wordplay"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 235 Han characters/235 Jyutping syllables). Mislabelled bagels prompt a tasting argument, sesame evidence and a sticky label that assigns a coworker to the sesame faction; the host declines the taste court. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
       "index": 3,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "d95724a96f73fca3a3e7d11585ad8bd48000107aff3ce58df6476dcdd4b6a8aa",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "standup_life_bit",
+        "cooking_class",
+        "shrimp",
+        "short_video",
+        "visual_comedy",
+        "callback"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 245 Han characters/245 Jyutping syllables). A shrimp-cleaning demo becomes a zipper bit, then the camera and crew promote the wok spatula to lead actor; the cook ends as its backup shrimp hand. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
@@ -26828,26 +26948,45 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 3,
-      "status": "pending",
-      "source_sha256": "cdc21582c3408db10b78fb6fd4552c49dea729b7f66d2e5edc9992f3a6ae39f1",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "ef72cdc2ccd0acb6bed4c293570158b1282ed632410cccd52ef7e84c1fa301fb",
+      "topic_notes": [
+        "standup_life_bit",
+        "community_lunch",
+        "delayed_delivery",
+        "board_game",
+        "tofu"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 283 Han characters/283 Jyutping syllables). The group turns a delayed tofu delivery into a dice game; a near-erased status note escalates the wait, and the late tofu becomes the winner’s prize. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 4,
-      "status": "pending",
-      "source_sha256": "5d4207c75352b32e9417fa555b4e25b01ebb02ac118734ab2a97ee6eb2b0c1b2",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "b743d329e7d60925e0f3d80d6d8b979c72193cb92ed273895d49ea486262b62f",
+      "topic_notes": [
+        "standup_life_bit",
+        "cooking_class",
+        "clams",
+        "attendance_list",
+        "physical_comedy"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 237 Han characters/237 Jyutping syllables). An overconfident volunteer counts clams on the attendance list, mistakes stuck clams for missing classmates, then adds himself as the final name. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 5,
-      "status": "pending",
-      "source_sha256": "7baf015b2a51bdad6576235a06e27acf8deaf9ab0c26fcc8ee89c6b8f8454b1a",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "dcbb2816410349063e1024e036f312302593764c90a62ff496cd8133ff341e61",
+      "topic_notes": [
+        "standup_life_bit",
+        "tea",
+        "blind_tasting",
+        "rain",
+        "umbrella",
+        "sensory_reveal"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 226 Han characters/226 Jyutping syllables). A tea tasting group invents elaborate rainy-street aromas before discovering the wet umbrella by the door; the final label is “obviously right” without smelling. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -27225,10 +27364,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 2,
-      "status": "pending",
-      "source_sha256": "bdab0af9e17b0ad2485788ee6e72eb5361d07bf847355b997de785a32008daae",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "d453d7d8ff84070b5a1186e85b523c58746168a3a0a78a55b025f62d5782ade3",
+      "topic_notes": [
+        "new_home",
+        "roommate",
+        "food_storage",
+        "visual_payoff"
+      ],
+      "notes": "Rebuilt as a move-in pantry bit: duplicate salt becomes a cupboard-door problem, then leaking oats cover the table and look like snow. The roommate’s “snow on day one” line pays off the spill. Updated the paper label and spill wording; checked the complete Simplified gloss, contextual Jyutping, and story-specific prompt."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -27265,10 +27409,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 7,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "460fdd311c88d42594a32c5f397fe3404f3a08616f278b9f715cffec57abafd4",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "workplace_lunch",
+        "teamwork",
+        "food_accident"
+      ],
+      "notes": "Reviewed the full card: coworkers rescue a tipping salad, discover the mild dressing is low-sugar, and an apple apology turns into a pineapple-bun promise. The accident, explanation, and callback form one clear office-lunch sequence."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -27297,10 +27445,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 11,
-      "status": "pending",
-      "source_sha256": "9b97eb41fe935187a8bfa9bd3ab566da64578ebeebcaff6fd1d16e1a2566a320",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "eec55ca6d7976303e72d16a8cf36c64fcbfb1d456d42fbd84a2aa4ac47ca5757",
+      "topic_notes": [
+        "roommate_cooking",
+        "neighbor_involvement",
+        "curry",
+        "spice_protocol"
+      ],
+      "notes": "Reviewed the mild-curry protocol: the roommate labels three water levels and logs drinking times, then recruits a neighbor as taste judge. The curry is mild enough that the roommate has not used even the first cup; the judge is invited back for an extra-hot batch. Compared with [31], this shares roommate/neighborhood cooking context but has a distinct water-test mechanism."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -27321,10 +27474,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 14,
-      "status": "pending",
-      "source_sha256": "576459bfd8666b60683d981483ae26ea61317046f31d8bae1ee0c69e5bbe136f",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "cf9912e56145f0a7e7a7924d81a246c390845e5b00f85b669000e5ad88ad7dd6",
+      "topic_notes": [
+        "hosting_friends",
+        "food_tasting",
+        "fruit_callback"
+      ],
+      "notes": "Checked the cheese-board story after aligning the final toast and Simplified gloss with the escaping grapes. The bread bag stops the roll toward the wine, then blind tasting mistakes blue cheese for smoked cheese; the grape callback closes the sequence. Removed a duplicated board-setup sentence from the gloss."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -27337,18 +27494,26 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 16,
-      "status": "pending",
-      "source_sha256": "19a2acc5b6c71b18804527a33f13e614affffcc43c0935c849f4d093d7100b47",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "e3b6873e59131ab535b0cf3cb2af7bc7a2400242d52d0a8d7e6045bb1b4efb8b",
+      "topic_notes": [
+        "workplace_meal",
+        "dietary_preferences",
+        "label_mixup"
+      ],
+      "notes": "Rewrote the coworker meal as a dietary-label maze: vegetarian, no-garlic, mild, and no-scallion requirements multiply the versions, then the “no garlic” label is found on an unused wok. Reviewed the full gloss, Jyutping, and matching prompt."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 17,
-      "status": "pending",
-      "source_sha256": "1666fc35b7bf8d4e6cc743a85cbc36021b1d629ee2a94cec7362f8ccdc369678",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "202662150e91e238e2d8112bac9e4a9b12c1bf4f485ba7163a100fdbc2eb0b19",
+      "topic_notes": [
+        "outdoor_cooking",
+        "weather_escalation",
+        "neighbor_involvement"
+      ],
+      "notes": "Reordered the barbecue weather escalation: the grill stays outdoors after shutdown, while ingredients and half-cooked wings move indoors to finish in the oven. The neighbor carries the table twice before receiving the reserved skewer, which supports the barbecue-versus-moving punchline. Checked the fully Simplified retelling prompt."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -27385,10 +27550,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 22,
-      "status": "pending",
-      "source_sha256": "2c76f91e1f03469b399819beff83811832a2c32e319637998f10ceda84036b89",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "94091425fd00138ab31c96108d3d8f427835f595c356107d3d482ae3ddb177b1",
+      "topic_notes": [
+        "market_life",
+        "fruit_selection",
+        "label_overload",
+        "self_callback"
+      ],
+      "notes": "Reviewed the market-mango story: conflicting ripeness opinions multiply the labels, the vendor-picked mango proves the advice, and a sticker on A Long’s sleeve turns the ripeness scale back on him. Updated the gloss to match the current “not ripe until next week” line."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -27409,10 +27579,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 25,
-      "status": "pending",
-      "source_sha256": "f7784c68c6a9e855c4e0780991564db51f6a0f6de5a98fe82463c94b6a0242b0",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "725beaa8a945a7678fdf64cec8caab7751f951fb4842b9349c6d20e36c5ca597",
+      "topic_notes": [
+        "market_shopping",
+        "reusable_containers",
+        "tare_weight",
+        "role_reversal"
+      ],
+      "notes": "Corrected contextual readings for 朝早 and 試吓 and rechecked the two 細簿 occurrences. The reusable-container customer records only tare weights, becomes the market sellers’ scale assistant, then discovers the notebook lacks the food weights. All four fields align."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -27425,18 +27600,28 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 27,
-      "status": "pending",
-      "source_sha256": "b1d7d0d35af82964ca7ad4770b03119b761fb6f6d751710562046cef781745dd",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "5c6167635c93497b8522915b343b6ece2a541ab9e2df93e99050a5af97b6f155",
+      "topic_notes": [
+        "market_shopping",
+        "recipe_list",
+        "misread_steps",
+        "taste_test"
+      ],
+      "notes": "Reviewed the shopping-category story: the friend treats recipe steps and “taste test” as items to buy, then adds the shopkeeper to the tasting list before changing it to his own name. The market trip, complete Simplified gloss, and event-specific practice prompt align."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 28,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "853fae403bc1cef386f142cedd41dbf33d11347ea77d038c1127fd4baf9347cb",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "market_life",
+        "rice_shop",
+        "demonstration_tool",
+        "purchase_mistake"
+      ],
+      "notes": "Reviewed the rice-shop scene: a first-time buyer nearly carries off the demonstration scoop, then notices the rice bag is still unpaid; the cooked-rice question brings the scoop callback back. Rice advice remains intact and all four fields align."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -27457,18 +27642,28 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 31,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "aefca831d1037eafcfc891d61636b632f3bf6001b344f389bc0f46ccee255410",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "roommate_cooking",
+        "neighbor_involvement",
+        "curry",
+        "food_gift"
+      ],
+      "notes": "Reviewed the roommate curry dinner: rice is ready before the curry, a neighbor brings hot bread, and the group switches to bread for dipping until the untouched rice loses its expected “main role.” Compared with [11], it shares roommate/neighborhood cooking context but uses a separate bread-versus-rice mechanism."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 32,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "7605e9f6fbcfa747ae2d58a8871e8d00cdad2935000cccf718a8429c1da6b3bf",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "workplace",
+        "shopping_return",
+        "oil_spill",
+        "callback"
+      ],
+      "notes": "Reviewed the leaking olive-oil return: a verified replacement is overprotected on the bus, but the stained document pouch remains and is mistaken for an ink stamp. The final line turns the return problem onto the bag; all four fields align."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -27941,18 +28136,28 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 52,
-      "status": "pending",
-      "source_sha256": "d36b77469ba2d4767b835ce243cb50389396f6f69b570b7571bea2935bed9864",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "79f34bd2ccba1f4f7d73832a08f15edec48943856026f973445299dfc1fc4962",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "strong_callback",
+        "standup_life_bit",
+        "school"
+      ],
+      "notes": "錄音考察由海浪錄音逐步升級成誤播同學報到片段；新增老師提醒等環境安靜，阿朗仍然自信負責，結尾只保留全班「聽到未」回扣。逐項檢查故事、粵拼聲調、簡譯和提示。"
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 53,
-      "status": "pending",
-      "source_sha256": "5985cda2143ab5fae2715d6240500e46a142cc78628aaa773a19209ba2ee0a4c",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "d4ea5be41ca11963bfc986a8ee74fe6a85f581919768de380f35b42d76f237c9",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "strong_callback",
+        "standup_life_bit",
+        "education"
+      ],
+      "notes": "夜校分清領准考證與開考時間，背書同學望鐘望到覺得分針變慢，證件又被夾進日曆簿。四個「背」按背誦義統一為 bui6；逐項檢查四欄。"
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -28005,10 +28210,17 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 60,
-      "status": "pending",
-      "source_sha256": "1a7ed452e12ff7bda92ef7a5d6b8938a80cbad410932d0879b8283afbb5e91c4",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "9b809fe9e616a46035fe754524f1b8df3469da895749cc01ebcf3278232acbc3",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "public_service",
+        "id_photo",
+        "signature_gag",
+        "visual_comedy"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 248 Han characters/248 Jyutping tokens). Story, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and matching retelling prompt were reviewed; independent semantic and pronunciation reviewers passed. The smile practice, oversized signature, and retirement-photo line form a clean escalation; the unsupported glasses tag was removed and the Simplified gloss stays gender-neutral."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -28133,10 +28345,15 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 76,
-      "status": "pending",
-      "source_sha256": "c30e1ca0254cb4f7015879f02406df669f27315245ca40718acf4771c7f33364",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "bea853544f5a1a31b771dc8b2655f54604cb9abbae9bb70720553284cb6f5b72",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "strong_callback",
+        "standup_life_bit",
+        "public_service"
+      ],
+      "notes": "社區探訪義工帶表格與筆，梁伯也帶本簿，訪問最後反轉成兩人互相記錄與輪流傾聽。逐項檢查四欄和語境粵拼。"
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -29640,10 +29857,16 @@
     {
       "file": "content/sentence_bank/long_health_services_03.json",
       "index": 62,
-      "status": "pending",
-      "source_sha256": "36e051733f90027ed581b07d260a5cb294654540fe1b42da1e46b61ee62261c8",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "0c50f22d7903a73d5187f952e4373aa3aa0707054ac3e4b6d9721ddacf636882",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "strong_callback",
+        "standup_life_bit",
+        "community_event",
+        "physical_comedy"
+      ],
+      "notes": "社區運動班尋水樽引發全班追樽兼搬椅，水樽下週再從袋口返場；已合併重複的全班指揮句。逐項核對四欄及粵拼。"
     },
     {
       "file": "content/sentence_bank/long_health_services_03.json",
@@ -30944,10 +31167,16 @@
     {
       "file": "content/sentence_bank/long_health_services_05.json",
       "index": 24,
-      "status": "pending",
-      "source_sha256": "65061d37129b6a00e87c6475a51902a840d80a8f8ecccdcce04670fbab6e6da5",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "032c6e63a45ff87c850bc1dc4810163a41891b2c229d29750d06de1097b902a9",
+      "topic_notes": [
+        "standup_life_bit",
+        "eye_care",
+        "workplace_meeting",
+        "projector",
+        "visual_comedy"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 264 Han characters/264 Jyutping syllables). The eye-care steps follow clinician instructions; next day, coworkers enlarge the slide until only “Please see next page” remains and the meeting becomes its advertisement. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
     },
     {
       "file": "content/sentence_bank/long_health_services_05.json",
@@ -33211,10 +33440,17 @@
     {
       "file": "content/sentence_bank/long_health_services_08.json",
       "index": 6,
-      "status": "pending",
-      "source_sha256": "854e0133b478da33732d869f84d1d97e922aeecdef3702b75922a274f32bfb94",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "0854cf58ba3030151ac2482fa5a9b479561be0ad4fb26a200d0725872c02f0bf",
+      "topic_notes": [
+        "standup_life_bit",
+        "hearing_aid",
+        "workplace_meeting",
+        "whiteboard",
+        "projector",
+        "visual_comedy"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 255 Han characters/255 Jyutping syllables). A fitted hearing aid is followed by coworkers repositioning themselves and a whiteboard until it blocks the projector; the meeting joke does not replace professional adjustment. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
     },
     {
       "file": "content/sentence_bank/long_health_services_08.json",
@@ -35696,10 +35932,17 @@
     {
       "file": "content/sentence_bank/long_health_services_11.json",
       "index": 16,
-      "status": "pending",
-      "source_sha256": "51b00fefb27f849fb558e4740f9c65c90488a95cd8b64307269b04eb886e1a66",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "f31bc69fd598fb25473f81999faf1e65cfca69af3125cf9daa8d20489d10b121",
+      "topic_notes": [
+        "standup_life_bit",
+        "work_injury",
+        "workplace",
+        "safety_meeting",
+        "oranges",
+        "absurd_escalation"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 284 Han characters/284 Jyutping syllables). The injury report and doctor’s no-heavy-lifting advice stay clear while coworkers turn a half-box of customer oranges into an overmanaged relay and safety meeting. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
     },
     {
       "file": "content/sentence_bank/long_health_services_11.json",
@@ -35792,10 +36035,17 @@
     {
       "file": "content/sentence_bank/long_health_services_11.json",
       "index": 28,
-      "status": "pending",
-      "source_sha256": "480bde49e558d5224ea22f0e49809ed05238dbf099145674a111d8841440fd3d",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "8abaecfbc930b666f62b779b7ec86b769c3903920aa9c99789cf8244003c9041",
+      "topic_notes": [
+        "standup_life_bit",
+        "healthcare",
+        "medical_report",
+        "document_management",
+        "date_label",
+        "callback"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 238 Han characters/238 Jyutping syllables). New/old report labels cover the dates, prompting a nurse to restore the useful information; the ending returns to the date rather than the patient’s expression. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
     },
     {
       "file": "content/sentence_bank/long_health_services_11.json",
@@ -37467,10 +37717,18 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 35,
-      "status": "pending",
-      "source_sha256": "d07b8cc11883417ad7c5380c95d019dc0e9649e3c8351c3e01c6844fcf95d25d",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "4cac39827dc07097decd3d3eaf640da7ddc647c07d5f00609386fbffbd5bc844",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "shared_housing",
+        "plumbing_repair",
+        "tool_behavior",
+        "sound_misread",
+        "callback"
+      ],
+      "notes": "Manual four-field oral pass (2026-11-07; 258 Han characters/258 Jyutping tokens). Story, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and matching retelling prompt were reviewed; independent semantic and pronunciation reviewers passed. This is a roommate maintenance scene, not a family or money plot. The roommate’s measuring tape, completed-tool joke, and mistaken upstairs water performance build around safe repair steps."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -37571,10 +37829,15 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 48,
-      "status": "pending",
-      "source_sha256": "43ecdc4ead39ed9f00a134406b7831f98e02e3ce5e9a0ee26576724e82890a59",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "02240161afc6b4f9b382b6187b28c5ad55c668ee7231a07f7941e1c072f97198",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "strong_callback",
+        "standup_life_bit",
+        "shared_housing"
+      ],
+      "notes": "室友修好抽屜後，阿健反覆巡查到室友聽見腳步便先掩耳，最後半夜照讀「確認一次就夠」。逐項核對四欄、粵拼和回扣。"
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -37619,10 +37882,15 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 54,
-      "status": "pending",
-      "source_sha256": "59ec9a08069f6afc17615b26914a2e12e91f1cdddeee2417cb3217690727ddf8",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "9b7003714641912709ccef0fee15d388acddcfe122931775fa20c4f2d080b1af",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "strong_callback",
+        "standup_life_bit",
+        "neighbors"
+      ],
+      "notes": "街坊搬屋把走廊變成鑊鏟樂隊演出；管理處通告、小朋友要求排練與住客追問夜場逐步加碼。逐項檢查四欄及粵拼。"
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -37691,18 +37959,28 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 63,
-      "status": "pending",
-      "source_sha256": "87d4dcdfbea3e077d9c5a21906c8569f858d4bbbfcfd1db857695ba2868a3844",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "e18581e643ad6fddeaab71a3a51354a79b102489c1a8ae5f0c3d18dc6dd0ebfc",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "strong_callback",
+        "standup_life_bit",
+        "neighbors"
+      ],
+      "notes": "鄰居互相讓路變成同步閃避，重複停頓再說「你先」形成節奏；阿婆解圍後兩人又同步替她擋門。逐項核對四欄和粵拼。"
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 64,
-      "status": "pending",
-      "source_sha256": "61190cc3dd9166b126073389fa923570d62fcd35df1037e8f0e0edb8b584585c",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "920807441e9a8f494132b0cad1b0f2a1cee75b3906e93fd059c7a7bb2e2bb0ba",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "strong_callback",
+        "standup_life_bit",
+        "neighbors"
+      ],
+      "notes": "街坊送還未拆的錯投掛號信，後來郵差遞來另一封請他們代讀門牌；地址查詢台與監考回扣連貫。已校正郵差 caai1、第二朝 ziu1 等讀音。"
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -37723,10 +38001,15 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 67,
-      "status": "pending",
-      "source_sha256": "a7dfa9482ac1333b0139312b96355c23338c7eb16789a720e46d947dab89da21",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "82967cceee80e6fab2d0a11c0614ea280ff36d599d602696624539dac53cbab3",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "strong_callback",
+        "standup_life_bit",
+        "neighbors"
+      ],
+      "notes": "天台街坊因匙羹柄方向理解相反而重複淋水，接水盤近乎溢出後改用白板勾選；茶檔誤會回扣到浸腳位。逐項校對四欄及逐字粵拼。"
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
