@@ -4,7 +4,7 @@
   "scope": "Independent manual second review of all 5,000 original source rows, including existing V2 passes, for stand-up/life-bit quality, natural Macau colloquial Cantonese, contextual tone-marked Jyutping, complete Simplified gloss and story-specific retelling prompt. Final active library target is 2,000; all source rows and drafts remain preserved.",
   "source_cards": 5000,
   "target_active_cards": 2000,
-  "active_selection_status": "2,000 current V2-pass cards selected; 916 oral pass, 0 needs_revision, 1084 pending; active-card re-audit continues, while excluded source cards remain preserved.",
+  "active_selection_status": "2,000 current V2-pass cards selected; 966 oral pass, 0 needs_revision, 1034 pending; active-card re-audit continues, while excluded source cards remain preserved.",
   "cards": [
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -1176,14 +1176,15 @@
       "file": "content/sentence_bank/long_family_finance_services_02.json",
       "index": 1,
       "status": "pass",
-      "source_sha256": "42c4343f1e8f9155a42073b1170158e020b84a516c022ee88ffe30e43a921d3e",
+      "source_sha256": "c0cc36301a93f3303f069c10edaa0c2d28ab396f5377774fd7d607c6d1016471",
       "topic_notes": [
+        "friends",
         "ice_cream_shop",
-        "workplace",
-        "customer_becomes_coworker",
-        "not_family_or_money_centered"
+        "overexplained_lift_count",
+        "unnecessary_coordination",
+        "reopened_prior_pass"
       ],
-      "notes": "A broken freezer turns a customer into a temporary shelf and then a coworker; clarified that the storage box is for keeping ice cream cold."
+      "notes": "2026-11-08 root reread all four fields and accepted substantive repair after rejecting lost-lid-under-arm drafts as repeated. Extra explanations interrupt a shared count before lifting a light box; a helper finishes another trip and the friend carries this box himself, then hands over one ice cream without waiting for a count. Narrator explicitly came to help, sealed cups move to a backup freezer; no customer-to-staff promotion, lost object or oversized board. Contextual 師傅 si1 fu2, 矮 ai2 and heavy 重 cung5 checked. Restores a prior pass reopened during B28; not a new pass relative to HEAD 80888."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_02.json",
@@ -6138,14 +6139,14 @@
       "file": "content/sentence_bank/long_family_finance_services_05.json",
       "index": 92,
       "status": "pass",
-      "source_sha256": "74db58000cade9fd8cf9dbe8cb5b279d39e57e2fe1ce0370cde8ff194e373f12",
+      "source_sha256": "98b7c2b22af4bab593564a72d54a08faeced1751ac2a934f6b0899f02b72030d",
       "topic_notes": [
-        "public_service",
-        "queue",
-        "device_video_evidence",
-        "not_family_or_money_centered"
+        "旧通过实质修复",
+        "昨日录像与现场明确分开",
+        "围观挡视线",
+        "重播与现场叫号回扣"
       ],
-      "notes": "Four fields re-audited. The complaint video attracts a crowd that blocks the live number display; stepping back proves the self-created obstruction. Changed 螢幕 in the prompt to 屏幕 and rewrote the prompt in Simplified Mandarin."
+      "notes": "2026-11-08 root reread and approved all four repaired fields. 限定修复原投诉录像机制。明确录像拍于昨日，围观者研究跳号速度，先提醒并非当前轮次。当前围观只由现场动作叙述，录像不显示当前人群；职员分别记录原投诉和处理视线阻挡，未把退开当成修复跳号速度。螢幕jing4 mok6、畫面waa2 min2、閃sim2；按根指定幕采用中大依据mok6，轉快的旋转切换用zyun3。 Restores a previous HEAD oral pass; not a new promotion. Source membership/category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_05.json",
@@ -15168,10 +15169,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 68,
-      "status": "pending",
-      "source_sha256": "d44fa64574f25b3254af6e4f243d6e2c0e80cbc93ac5d8f8eee3d459e35269e5",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "bedffbfe34f25ddfe241d15d6ef358fc9781c47e5eaa038ca0aa76d476c9224d",
+      "topic_notes": [
+        "二手办公椅",
+        "转椅取物",
+        "视像通话不断转向",
+        "升降动作回扣"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 保留二手办公椅及升降误会，改为买家逐渐依赖转椅取物，视像通话不断侧脸，站起身又碰调节杆回扣。删去升职加薪及经理参与。 v2补明电话固定放面前，对白只问不断望别处，转椅旋转逐处用zyun3。 Root read all four original candidate fields, then reread all changed passages and final additional cards. Source application follows final contextual review, not automatic candidate approval. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -15200,34 +15206,54 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 71,
-      "status": "pending",
-      "source_sha256": "8e04c7dfcd7d6aa27fd1eb38dcee63008ea416736c0dac6cf69c6b496f495b64",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "9ef4a1cc9df607e3f5120df9fb58550cf6d0faf6f4ab1782c062c91cc6a01f55",
+      "topic_notes": [
+        "二手焗炉",
+        "蛋挞试机",
+        "聊天放凉食物",
+        "翻热与冷却装箱冲突"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 保留上门买二手焗炉及蛋挞试机，统一两个人两个蛋挞，聊天令蛋挞放凉，卖家惯性想翻热反而打断冷却装箱。停在重新插电之前。 v2删除漏面粉推断，改为追问旅行经历和翻相簿实际拖慢吃挞，冷却用凍晒。 Root read all four original candidate fields, then reread all changed passages and final additional cards. Source application follows final contextual review, not automatic candidate approval. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 72,
-      "status": "pending",
-      "source_sha256": "93140efb2012bf549737277f652e67c2ae89dda9b3663c31d50c8476a9ca51eb",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "baada2c66cdc76a5f2643b88fc5993b5821e48a4d7a9b36f90cd19e70897d21c",
+      "topic_notes": [
+        "二手汤锅",
+        "尺寸遗漏水龙头高度",
+        "逐杯加水",
+        "现成大水壶"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 保留黑沙环二手大汤煲，删伤腰搬运逞强。尺寸只量爐頭而漏量龙头高度，无法直接接水后逐杯添加，朋友用现成大水壶解决，回扣想省步骤反而多走。 v2明确煲身高度与龙头下空间，鋅盤按sink口语sing1 pun2，转锅与往返次数用zyun3。 Root read all four original candidate fields, then reread all changed passages and final additional cards. Source application follows final contextual review, not automatic candidate approval. Root verified colloquial sink 鋅盤 sing1 pun2 in a primary language-learning vocabulary and CantoDict; does not replace every elemental 鋅 reading. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 73,
-      "status": "pending",
-      "source_sha256": "098fdfa156fc2890810fecff7ff5e6a8049f4fd03cd837ba5d99f533d7112ad5",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "4bae823477cbfdaa6cc6e0875738ba1b1dacfb909dddf623fac1d7d5559d7999",
+      "topic_notes": [
+        "二手榨汁机",
+        "裂纹误认头发",
+        "配件缺货不通电",
+        "橙汁改吃橙"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 保留裂杯、照片与实物不符和不通电前提。把滤镜说教改成误认头发越擦越清楚的动作，配件电话只确认当前无货，买橙欲榨汁改切橙吃，碟子承接洗机回扣。 v2把卻改但係，隻碟用dip2。 切橙后明确摆上碟，再提隻碟已有动作依据。 Root read all four original candidate fields, then reread all changed passages and final additional cards. Source application follows final contextual review, not automatic candidate approval. Retained supported 瓣 faan6 variant after Words.hk check. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 74,
-      "status": "pending",
-      "source_sha256": "e50bbf1db8dd319009d74cc23ad5fb63d700d1dd80aab511877e864169604b1c",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "b2246ab4ef67b896228286c3ceb436c0b7a59cb07237f37aec7af7151ccdc261",
+      "topic_notes": [
+        "二手餐具",
+        "六碗六碟",
+        "气泡膜响声误会",
+        "收手后脚踩回扣"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 保留十二件餐具交收，明确六碗六碟。删清单点名文书司机签收，改成朋友闲按气泡纸引发反复检查，收手后退却踩响的动作升级。 v2收尾改指着放低的大片气泡纸，道具位置连续，碟用dip2。 Root read all four original candidate fields, then reread all changed passages and final additional cards. Source application follows final contextual review, not automatic candidate approval. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -15240,18 +15266,28 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 76,
-      "status": "pending",
-      "source_sha256": "22765b1bbf0dec22f5e31a52073a2e5befff1b6550211167d7d5049e7676b4e6",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "3791336bbb49026fb8ca01d1cb584e0ad10daceda873d04f5e96579cf97ef84e",
+      "topic_notes": [
+        "手机重复点单",
+        "四人平分额外烧卖",
+        "本人反复查单",
+        "电梯重复按键回扣"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 保留误按双份及分账背景，明确四人五碟、额外四粒每人一粒。删拥挤摆盘、退单虚构规则和公共项目开会，改查清已知事实时别人已分好，电梯重复按键回扣习惯。 v2口袋改褲袋，電梯改升降機，画面转圈用zyun3。畫面保留waa6 min6，不排斥口语变调waa2 min2。 碟采用名词口语dip2，燒賣按中大日常对话点心词表siu1 maai2。 Root read all four original candidate fields, then reread all changed passages and final additional cards. Source application follows final contextual review, not automatic candidate approval. Root restored five food-serving/classifier 碟 dip6 tokens after candidate overgeneralized noun dip2. Adopted whole-word colloquial 畫面 waa2 min2 and elevator classifier 部 bou6. Other cards retain object 碟 dip2. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 77,
-      "status": "pending",
-      "source_sha256": "98e742cccdb1031e446b1cfeb558e93ea781b88f6dcea0d27db304ee3d4dbd5b",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "1b45ccd8cff8d36e1673c40e4af21521d7c673efe09ea0caaf69cd955af3c805",
+      "topic_notes": [
+        "同事外卖分账",
+        "自带筷子",
+        "收据盖住盒盖内筷子",
+        "拿盒去洗险带收据"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 保留外卖分账和四人三双备用筷子，补明自带一双所以无需餐具。原零元分四和共享栏位删去，改为收据遮住盒盖里另一只筷子，拿账单去洗再次回扣手上动作。 倒轉按Words.hk dou3 zyun3，区别倒水dou2。 Root read all four original candidate fields, then reread all changed passages and final additional cards. Source application follows final contextual review, not automatic candidate approval. Root explicitly placed one chopstick onto the lid before the receipt covers it, closing the previously missing physical step. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -15296,10 +15332,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 83,
-      "status": "pending",
-      "source_sha256": "08d5140b291f7355eb9f64099e0b0ce03c300564f3ea8c1ee2a2d489706bfe3d",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "2dc41734c30a34278625346bf01e89c22112cd42f1192ec4598b447b6a5f851a",
+      "topic_notes": [
+        "六人午餐分账",
+        "两位素食者",
+        "避冷气换位不带咖啡",
+        "按旧位置认饮品失效"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 统一总人数六人，其中四人分肉菜。删错豆腐、座位图和股东审批，改成阿明避冷气换位却把咖啡留原处，按旧座位认饮品无效，最后自己取杯再被冷气吹回。 v2补明我让位也换过一次，之后我原先位置才有指代依据。 抿一啖改更口语飲咗一啖。 Root read all four original candidate fields, then reread all changed passages and final additional cards. Source application follows final contextual review, not automatic candidate approval. Root corrected 伙計 fo2 gei3. Six diners, two vegetarian diners and four meat eaters remain consistent; seat switching drives the bit rather than monetary conflict. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -15416,10 +15457,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 98,
-      "status": "pending",
-      "source_sha256": "d68c67272e3bd8f6e608de05e1db933867dd4e59dfe243f119d66334d59608c2",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "27ca5dfee1c560516bdeb13976fd8b739fad735f06f7f9ae279e7df81e23fe5a",
+      "topic_notes": [
+        "friends",
+        "leftovers",
+        "packing_triggers_appetite",
+        "bill_sharing_background"
+      ],
+      "notes": "2026-11-08 active-2000 batch29: Root handwritten replacement preserves bill sharing as brief setup. Three friends decline leftovers then find reasons to eat them once packed; five dumplings must be accounted for. No family frame, money conflict or invented staff role. Five are explicit: Kin and Ching take one each first, then each of the three friends takes one. Man only requests a taste before that last round. Root reread the final story, contextual Jyutping, complete Simplified gloss and matching prompt. 碟 dip2 noun/dip6 classifier and 對稱 deoi3 cing3 checked in Words.hk; 餡 haam2 checked in CUHK. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -15855,10 +15901,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 40,
-      "status": "pending",
-      "source_sha256": "269253cb1daeb76ac510fc243952e1409f8cfaf0d9de80771b23cee8cc7a20f8",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "58f8117b781284441499c9b503c23468920df069cfcd2db096c3e0427fa2430d",
+      "topic_notes": [
+        "茶餐厅搭枱",
+        "热奶茶叫声",
+        "提早认领与真正送到反拒",
+        "半举手摸头"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 保留茶餐厅搭枱阿叔与热奶茶，删冷热饮送错及冰导致发炎的推断，改水吧叫饮品时提前应声，真正送到又拒收，半举手摸头掩饰回扣。 Root final review: Root read all four fields; repeated premature claim becomes mistaken refusal then a half-raised-hand cover-up. No health inference. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -15893,18 +15944,28 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 44,
-      "status": "pending",
-      "source_sha256": "79999c24519554862e37d99e37833dccce36d6802c314da3a79eb11ea7598839",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "f4c7b2fa88b27826c30caddb7a04606db0946034e9a599e129a8d8f3fde30204",
+      "topic_notes": [
+        "茶餐厅咖喱饭",
+        "黄色衣服藏渍",
+        "白袋带显出转印",
+        "提袋远离衣服"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 保留朋友茶餐厅咖喱饭场景，删错点额外餐免费取消及剩菜早餐。以黄色衫看不清咖喱渍、转印白色袋带推动两次察觉，人物实际改变提袋方法。 Root final review: Root read all four fields; curry remaining on shirt transfers to the previously introduced white strap. No promise of stain removal. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 45,
-      "status": "pending",
-      "source_sha256": "b53d90a2375fcd028bb6ee185f03e182df5a62c2b2b11bbf9139dedac0937e63",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "5e9b150ed9c870b9a5941db9e3ede23d09532219d65290885aea22d9fcdcc793",
+      "topic_notes": [
+        "办公室下午茶",
+        "漏杯已在店处理",
+        "叙述只听半句",
+        "文件纸巾笔袋连锁反应"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 保留下午茶奶茶漏杯更换和分开装面包，删待遇福利付款标签。把回到办公室叙述先说漏了造成即时防水反应，阿玲抢先补已换好的信息，最后讲完整句子回扣。 Root final review: Root repaired document continuity: colleagues relax without putting documents down, so carrying them back to a seat later follows. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -15930,26 +15991,41 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 48,
-      "status": "pending",
-      "source_sha256": "0c25ff389b2e8feb622ca7b6f620453aae954b19eb09b14d4bea5f9bd8c0a415",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "e025e84370681a3ae14205ea573ce808f94440849c850c6aa6f916f319ea993c",
+      "topic_notes": [
+        "雨天新口岸",
+        "否认等位",
+        "逐栏看熟餐牌",
+        "扣好伞带准备入座"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 保留新口岸雨天等茶餐厅，表妹改成年朋友，删等位期间已有汤、免费券及让位安排。朋友一面否认等位一面把整张餐牌看熟，扣伞带和不用看餐牌落单体现行动。 Root final review: Root read all four fields; denying a wait contrasts with detailed menu study and closing the umbrella. Generic fictional establishment in 新口岸, no unverified named venue. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 49,
-      "status": "pending",
-      "source_sha256": "8ed3d6db2f50fa056c21fe051bca2bec19bb81c092a95c2883b7e407d1b5b2d8",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "7a915e3eb2220104a6a486202b845db896d6cb33a9e6e75514897551892e1565",
+      "topic_notes": [
+        "食物过敏背景",
+        "无法核实改自备餐",
+        "两个同名同事",
+        "眼镜面条均不能分辨"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 保留新同事花生过敏及午饭，删图表会议职员证。未知配料用具不尝试，改自备餐与同事外卖在公司吃；笑点来自两个同名同事介绍不清，过敏处置独立完成。致敏物背景核实参考 https://www.cfs.gov.hk/tc_chi/multimedia/multimedia_pub/multimedia_pub_fsf_231_04.html Root final review: Root made the allergy background concrete and colloquial: unknown ingredients and possible utensil contact prompt eating own food. Repeated identifiers fail until full names used. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 50,
-      "status": "pending",
-      "source_sha256": "19cd0b36ff94f1e8e791933795860a10e58e93f33390a071d1d52299344094cb",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "5cddfb70b566ff5fc26ccc6368d8478a6830db2ad402f99042a606a6dc711822",
+      "topic_notes": [
+        "过敏提前核实",
+        "不确定菜式放弃",
+        "饭后合照近啲指令歧义",
+        "人物向前摄影者向后"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 保留酒楼生日与虾过敏背景，家宴改成年朋友生日，我遵医嘱提前核实，不确定酱汁放弃。自查后删与40同为举手误认的初稿，改饭后合照中近啲方向误解，人物互相拉手向前而摄影者退到墙边，最后明确横向靠近。致敏物背景参考 https://www.cfs.gov.hk/tc_chi/multimedia/multimedia_pub/multimedia_pub_fsf_231_04.html Root final review: Root read replacement four fields, shortened procedural background into spoken wording and added narrator’s mistaken reliance on photographer oversight. All three 電話 use waa2. Initial raised-hand/toast draft rejected as too close to 40. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -15999,18 +16075,28 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 56,
-      "status": "pending",
-      "source_sha256": "b5fa4b0c70ceb56f12a5a6f1b0de302fdf0bcbb9634b8ee34fea80faeea4089a",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "3c3d613964214d8dd5d80437e1cf08b48253e21ce1d4b51cc9deb117f405ac6f",
+      "topic_notes": [
+        "白饭冷藏带饭",
+        "冷链与彻底加热背景",
+        "饭盒倒扣脱模失败",
+        "直接开饭省步骤"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 保留白饭保存及公司午餐，删等水气散尽、闻味判断与家人同到公司炒饭的混乱。保存背景按CFS自备餐盒指引，不加温度时长数字；人物想倒扣饭成饭山，最后只得拨平直接吃。食安参考 https://www.cfs.gov.hk/tc_chi/multimedia/multimedia_pub/multimedia_pub_fsf_165_01.html 倒扣按反转容器语境用dou3，反轉faan2 zyun3按Words.hk核实。 Root final review: Root read all four fields and official CFS lunchbox source. Quick cooling/refrigeration and thorough reheating remain brief background, no invented time/temperature rule; physical failed rice mold drives comedy. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 57,
-      "status": "pending",
-      "source_sha256": "ef2048823fa3c6a98b365f9e92ed9e31ea13117f0b3abd6bce1151ac867597a5",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "e83f882d002b00e13f9cf4236f3236f663c047485631e768b56b78075ddeeb7f",
+      "topic_notes": [
+        "牛奶按包装保存",
+        "相对日期今朝噚朝失效",
+        "改写实际开封日期",
+        "新旧纸条同时留下"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 保留牛奶日期和保存分类，家庭换合租早餐并重写为今朝改噚朝的相对日期失效。确知昨日开封，使用前核对实际日期与包装要求，删鼻闻判断、过期饮用和排队值日表。背景参考澳门消委会与市政署奶品保存建议 https://www.consumer.gov.mo/News/Data/PDF/CH/2022/5/05202238102105_%E6%B6%B2%E6%85%8B%E5%A5%B6%E8%87%B4%E7%97%85%E8%8F%8C%E6%AA%A2%E6%B8%AC%E5%A0%B1%E5%91%8A.pdf 收尾明确撕走旧纸后才放回，留下实际日期。 Root final review: Root read all four fields, selected spoken 電話 waa2 and 閂門 saan1; exact known opening date replaces relative day labels. No smell-based safety judgment. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -28399,18 +28485,26 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 21,
-      "status": "pending",
-      "source_sha256": "a2bb2416f2262ba2223db1be6b89b5f76498caa9705c338d05227a337b9a1bdf",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "8d9c3caad085f5e638d6655568afe1c42a4eabadff2dfc29dd4b4736ceb32add",
+      "topic_notes": [
+        "探访长者",
+        "声源误判",
+        "窗帘拉绳"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 重写为探访街坊时查窗帘拉绳敲窗框，风与动作直接验证声源，笑点落在帮忙者过早判断。 Root independently read all four fields, including final manually synchronized edits; valid dialect variants were not blanket-rejected. Adopted whole-word 窗簾 coeng1 lim2; verified 衫夾 saam1 gep2 in Words.hk. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 22,
-      "status": "pending",
-      "source_sha256": "0e19dcf0ba378d0b574aa6c1a0bf85e7edbc940530319892990d95a3559b08fc",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "42416777b9033d6ba20d259f0567f254fa04ed9426e345b6a0720c83886d7ea6",
+      "topic_notes": [
+        "社区陪饭",
+        "添菜过度",
+        "冬菇被遮"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 重写为义工添菜遮住老人想吃的冬菇，移除手震、器具调整及家庭围观，不拿身体能力作笑点。 Root independently read all four fields, including final manually synchronized edits; valid dialect variants were not blanket-rejected. Corrected 長者 zoeng2 ze2 and noun 碟 dip2 while retaining classifier 半碟 dip6. Established two mushrooms before one is transferred, leaving one for the final action. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -28439,10 +28533,14 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 26,
-      "status": "pending",
-      "source_sha256": "f7ee07a352c4af140c2a70bbec04d7126edc75fbb27b6723e00c9d7859a3e7e6",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "fb86c0e581c0560401e5b8c7eb6315f663a950d434b522222f86bf5237044df3",
+      "topic_notes": [
+        "社区收拾",
+        "透明餐盒盖",
+        "先问再帮"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 替换三个闹钟、固定蒸煮时间及带操，改社区义工抢先帮忙却拿错盒盖和收纳意图。 Root independently read all four fields, including final manually synchronized edits; valid dialect variants were not blanket-rejected. Selected raised-corner 翹 kiu4 following contextual dictionary evidence, not hiu3. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -28463,10 +28561,14 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 29,
-      "status": "pending",
-      "source_sha256": "c7aac3801187559abd9a816e9170d78232911e183ee4a2e87909e590f6c1be21",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "646a636b8f15698d95de417728fb8c66f6e391b1e3001c61c487ff6b937a4098",
+      "topic_notes": [
+        "探访街坊",
+        "球迷朋友",
+        "过早判断"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 保留手机联系朋友的生活场景，反转成帮忙者误以为老人选错人，删除字体设置与视力笑点。 Root independently read all four fields, including final manually synchronized edits; valid dialect variants were not blanket-rejected. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -28479,34 +28581,50 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 31,
-      "status": "pending",
-      "source_sha256": "f325bfd3f0514936ef5761ac2a379a8cbfeab2245208e9688fb03273d54c4229",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "4df6d33e1dc96de561a897b98d9ddd9c98f8b1a2cc2bc8a559e7046235d33af6",
+      "topic_notes": [
+        "陪长者买果",
+        "相对方向",
+        "过度看手势"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: Root rewrote the orientation setup: narrator visibly holds two fruits while facing two seated elders; their relative left/right describes the same fruit. Sitting on the same side resolves the coordinates. This removes awkward blind reaching behind a fruit stall and gives the bag handoff a matching callback. Root independently read all four fields, including final manually synchronized edits; valid dialect variants were not blanket-rejected. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 32,
-      "status": "pending",
-      "source_sha256": "ccb33e68dabc26dd2384269d1881a3a0f95d2de9d3ae54e641a1b61b11aaf652",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "4626d4f3bc2e62dce052278da7d3162ea73550eab705d42038ed1db72c462d3e",
+      "topic_notes": [
+        "社区合照",
+        "长者让位",
+        "照顾者入镜"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 完全移除夜醒与午睡调整后的改善断言，改义工帮长者拍活动照时对方不断让位。 Root independently read all four fields, including final manually synchronized edits; valid dialect variants were not blanket-rejected. Replaced written 挪/收窄膊頭 with 移/縮埋膊頭 and synchronized Jyutping/gloss. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 33,
-      "status": "pending",
-      "source_sha256": "bf503ebcfb256aff794ca80d69c5f9a66bd5771baa3f473cc4d1e66ed619e926",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "9708d37e85eefa1a3c6c029dbc541724d1bfefaf39fccf49ec7e0c91521d1383",
+      "topic_notes": [
+        "陪长者寄信",
+        "旧友通话",
+        "书信与电话"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 保留书信联系旧友，将到家立即送达改为隔几日由收信人电话确认，删除邮政追踪流程和即时已送达。 Root independently read all four fields, including final manually synchronized edits; valid dialect variants were not blanket-rejected. Established a retained draft before reading paragraph three of the mailed letter. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 34,
-      "status": "pending",
-      "source_sha256": "2983cfeb57e10e899c60d5efe7eef4e7712ef781669799e06192a4400ecd2ce4",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "0c0d7ea15f93041a0ee5a4527d088ae59bde908d7d889b0d997f40c7e28ddcc9",
+      "topic_notes": [
+        "亲子照料",
+        "可吃道具",
+        "故事改编"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: 保留一张有效亲子场景，改为可吃道具逐步缩水带动故事变化，删除不在场的洗手盆海浪与苹果自行滑走。 Root independently read all four fields, including final manually synchronized edits; valid dialect variants were not blanket-rejected. Corrected noun 碟 dip2 and supplied fresh apple slices for the second rehearsal after the first plate was emptied. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -28599,18 +28717,26 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 46,
-      "status": "pending",
-      "source_sha256": "e60308c825872a1a17467483563459cea4618439341eb164711ce5e6a1273fbd",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "f68041934a8139c72f618cb5eb91a6548c830b2319093d4ccae246ab96cac7f9",
+      "topic_notes": [
+        "接孩子",
+        "扣外套",
+        "成人心急"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 完全移除操场擦伤处理，改接孩子扣外套的成人心急与孩子反过来等待，不教医疗操作。 Root final review: Established wearing the coat before buttoning; retained this limited parent-child role reversal. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 47,
-      "status": "pending",
-      "source_sha256": "1b475b1be83ab7ded3259a7cccefc058512ac3b35d6201c846706a3a69df1ddd",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "1077cd71e647937f576895a376ac0a884e192c3888f031aaf5b999aeaedd5b4f",
+      "topic_notes": [
+        "儿童活动",
+        "发光鞋",
+        "好奇试步"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 移除口罩防雾与呼吸教学，改儿童活动义工陪孩子欣赏发光鞋，转入旁边等候后才继续互动。 Root final review: Replaced 用慢步 with natural 慢慢行多次. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -28689,18 +28815,26 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 56,
-      "status": "pending",
-      "source_sha256": "ecc7f229d5ffc0513767799fb629b6dfe08bb06f7d8d0c636c0edf84f41e43f0",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "91065b884854e28ec0e0b3fe93ed99fe6279e50e9c95cb9b1c99a45fbc3f3fd9",
+      "topic_notes": [
+        "家长会义工",
+        "轻箱误会",
+        "同箱变重"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 改家校义工与家长搬箱的轻重误会，去掉孩子画滑梯与老师随意延后家长提问。 Root final review: Replaced written 挪/沉 with spoken walking/heavy wording; did not tell narrator to release then claim all three carried. Show box contents before all hands lift. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 57,
-      "status": "pending",
-      "source_sha256": "74abefd4077ba0dfbc4a94253fe898eb835ae03a5a121f746b699f5920a006c5",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "d96ad5df86361cba3c7cfe25cd1b58c86a87245096a4f9a957efa08fc14f2f0f",
+      "topic_notes": [
+        "阅读义工",
+        "买书前言",
+        "主角迟迟未出场"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 完全手写自然粤语，改老师与阅读义工的成人互动，不复用四格漫画、同学演戏或孩子改故事。 Root final review: The visible dog on the cover now explains the child’s question before the narrator starts the plot. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -28713,10 +28847,14 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 59,
-      "status": "pending",
-      "source_sha256": "d22b3468792740b98e3cdd74aafe657647d950f910f0a5d89c235f9c08a13b19",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "42d06ce1e09671ba3fc42db71a5d57192842389dda48c60ef3fca16728907768",
+      "topic_notes": [
+        "陪办证",
+        "厚书压文件",
+        "来电分心"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 移除具体证件补领清单和三套标签分类，改陪办证前压平文件却只拿走厚书的分心行为，不陈述办证要求。 Root final review: Root read all four fields; phone distraction explains taking the book while leaving its underlying documents. No document-rule claim. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -28885,10 +29023,14 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 78,
-      "status": "pending",
-      "source_sha256": "fdfd507889eac91f844c7bcece36e9a9eb17013158c8e149618278673f68ee8d",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "6b49a1fba175182b4f814376a0bb583efb5eee86c1df5635474ac665bfb6ab47",
+      "topic_notes": [
+        "社区资料摊位",
+        "水瓶压册",
+        "派与留"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 完全移除市民自行摆绕路牌、关水阀和确认安全等处置，改社区资料摊位整齐与方便领取的行为冲突。 Root final review: Corrected raised-corner 翹 kiu4 and natural 撳實/盒入面/收檔嗰陣. Hand actually presses before the final release. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -28909,10 +29051,14 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 81,
-      "status": "pending",
-      "source_sha256": "2bfcae965b63ab6b226e47a4fc4acd5346d4c83d8fc7c70a9744b4697fbcc9e6",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "4ce027b95091f2e1613ef6ad1b287cd4303f9ebd73b19db1ca74043ed8d7c451",
+      "topic_notes": [
+        "送餐义工",
+        "摺袋受阻",
+        "忘记自己的饭"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 保留社区送餐成人互动，去掉膝痛、食物敏感、试用期、回访评分及中心改变制度，笑点只在义工忘记袋底自己的饭。 Root final review: Root read all four fields; a personal lunch at the bag bottom is a physical obstruction, not a missing recipient delivery. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -28957,10 +29103,14 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 87,
-      "status": "pending",
-      "source_sha256": "88aba0fcf3e3a667653b0a6d1402fd31ccc6a84de53564a99bf5e84051a9f0b3",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "1430f67eda4e7675405742603a9a4cdde62e2836cc5a9fabca756497f2792649",
+      "topic_notes": [
+        "火警演习",
+        "结束后的遥控",
+        "室友衣夹"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: 改为已通知的消防演习，撤离与集合期间不安排笑闹、寻找或折返取物，笑点全在宣布结束后。仅采用按指示到集合点及获准后返回的概括，不写灭火或烟火处置。 Root final review: Made drill narration colloquial and removed duplicated procedural sentences, while all comic observations remain after the exercise ends and return is permitted. Replaced Mandarin-like 回佢一句 with 正想駁嘴. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -31766,15 +31916,15 @@
       "file": "content/sentence_bank/long_health_services_05.json",
       "index": 24,
       "status": "pass",
-      "source_sha256": "032c6e63a45ff87c850bc1dc4810163a41891b2c229d29750d06de1097b902a9",
+      "source_sha256": "9f255eac5d1ab24a72faa03598acc754541ca5255e7ae76d502ba5ddb552577b",
       "topic_notes": [
-        "standup_life_bit",
-        "eye_care",
-        "workplace_meeting",
-        "projector",
-        "visual_comedy"
+        "旧通过实质修复",
+        "眼部不适即停工求诊",
+        "之后返工时间线",
+        "字号变大重新分页",
+        "半句跨页影响抄笔记"
       ],
-      "notes": "Manual four-field oral pass (2026-11-07; 264 Han characters/264 Jyutping syllables). The eye-care steps follow clinician instructions; next day, coworkers enlarge the slide until only “Please see next page” remains and the meeting becomes its advertisement. Checked Macau spoken register, contextual tone-marked Jyutping, complete Simplified Mandarin gloss, and story-matched retelling prompt. No family or money plot is central."
+      "notes": "2026-11-08 root reread and approved all four repaired fields. 限定修复眼镜不适后的原字号翻页机制。求诊发生在工作不适后，先向诊所说明症状，再检查交代并返家，之后返工没有倒叙等候。医疗只写个人求诊与遵医嘱，不增加诊疗步骤。会中用可重新分页的会议笔记，字号放大导致句头句尾跨页，改回原字号才恢复完整段落，替换原幻灯片只剩导航标题的不明操作。新稿直接描述眼干怕光，省去原眨/眯动作。檔案dong2 on3、眼鏡ngaan5 geng2、隱形眼鏡jan2 jing4 ngaan5 geng2逐词查Words.hk。螢幕jing4 mok6、投影幕tau4 jing2 mok6按根指定采用mok6。词典 https://words.hk/zidin/%E6%AA%94%E6%A1%88 https://words.hk/zidin/%E7%9C%BC%E9%8F%A1 https://words.hk/zidin/%E9%9A%B1%E5%BD%A2%E7%9C%BC%E9%8F%A1 求诊背景核实 https://www.nhs.uk/symptoms/dry-eyes/ Restores a previous HEAD oral pass; not a new promotion. Source membership/category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_health_services_05.json",
@@ -38568,10 +38718,15 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 42,
-      "status": "pending",
-      "source_sha256": "c2450c50434e2bce6397d377852a34324584362da145acc4f0111fbd223b4e0f",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "a3243b3284442321a943d719678191180c01a44742b2d89a84c8f0e47152d3d0",
+      "topic_notes": [
+        "friends",
+        "table_repair",
+        "shim_mistaken_for_rubbish",
+        "folded_napkin_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: Full second-draft rewrite avoids tasting-food depletion shared with another batch. Removing a cardboard table shim as rubbish causes a wobble; professional repair finishes, but the helper now protects a folded napkin. All four fields manually rewritten. Root independently read all four fields and applied contextual/continuity corrections where needed. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -38600,10 +38755,15 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 46,
-      "status": "pending",
-      "source_sha256": "2d928fd7e4318198acae85aa1ee622937d3e3b0e9352f48825e853ea7bae8764",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "0877df8efadaf7a17be3524bd1f97b21a0d5a8852f378c1f842d1460c7375ebe",
+      "topic_notes": [
+        "friends",
+        "door_handle",
+        "empty_biscuit_tin",
+        "suspicion_spreads_to_packaging"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: Kept only the workable tin-versus-food premise, with adult friend and separate unopened biscuits explicitly established. Worker repairs handle. Anxiety spreads from the tin to a clean paper bag. Words.hk 反轉 faan2 zyun3 checked and used for the physical turning-over actions. Root independently read all four fields and applied contextual/continuity corrections where needed. Explicitly opened the fresh biscuit packet before taking one; changed a paper bag allegedly containing a door to containing a door handle. All four fields manually reviewed; mechanical alignment is a separate check. 2026-11-08 B28 pronunciation follow-up: 確認 kok3 jing6; corrected mistaken koek3 only in this word after author follow-up and root dictionary check. No additional pass."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -38670,10 +38830,15 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 52,
-      "status": "pending",
-      "source_sha256": "e9a4cf945ea99a5c6562969c6f0bbe92a39476c452e33706f5c33610135cb34a",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "4a9e8936f6affc29f2666e179f40414b05d9e14540f5f356a76c4ffef67cf78d",
+      "topic_notes": [
+        "neighbours",
+        "doorbell_repair",
+        "earworm",
+        "short_chime_long_humming"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: Root rejected the first ending where a short bell implausibly made the visitor leave without delivering soup. Full root rewrite: the familiar long melody becomes an earworm, continuing through the visitor after the actual chime is shortened. 哼 hang1 humming, rather than hng1 disapproval, checked in Words.hk. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -38712,18 +38877,28 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 56,
-      "status": "pending",
-      "source_sha256": "0a0788b17bcd4adb7b6378a87b7454bb81a10b9e728049eab52b137f153aba37",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "abe52b6ac6f2e5bb437deb3eeebc472544c49b3f81ed312bfe1db1aa81bb1ddd",
+      "topic_notes": [
+        "neighbours",
+        "borrowed_umbrella",
+        "overcareful_return",
+        "new_loan_restarts_cycle"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: Full neighbour rewrite avoids another leak or water alarm. Overcareful umbrella return obstructs entry and threatens a new borrowing-and-cleaning cycle with the towel. Final line explicitly keeps the towel at home, stopping the second loan. Root independently read all four fields and applied contextual/continuity corrections where needed. Removed ambiguous towel being brought back indoors when its exact side of the door was unspecified. Chose directly supported zyun3 for rotating the umbrella handle. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 57,
-      "status": "pending",
-      "source_sha256": "75b4251645de4a4576d856faa356149509ef47b1ea7dd1d8c5be161f9c15adb0",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "f4a6a1b796b58b31ea55d5c00ae7a44a57f15496507efd2fa6ddbe8b03462b39",
+      "topic_notes": [
+        "neighbours",
+        "laundry",
+        "clip_count",
+        "forgotten_clip_on_own_shirt"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: Full adult-neighbour rewrite. Clip counting distracts from a returned towel; the missing clip is only visible when its wearer turns to leave. No reaching out of windows. Root independently read all four fields and applied contextual/continuity corrections where needed. Corrected noun 衣夾/夾 gaap2; retained clamping verb gaap3 (CC-Canto). All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -38736,10 +38911,15 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 59,
-      "status": "pending",
-      "source_sha256": "bc296abb51621e76cf149fd8b946f24145555b9959f0f2c1a2776a57f1df6f33",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "cc71e9281e665c1a9e83535a3a3b19d4273b59a3d5d24da67f1f63ec5d1a7f16",
+      "topic_notes": [
+        "neighbours",
+        "guitar",
+        "rhythmic_knocking_interrupts",
+        "cup_occupies_hands"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: Full rewrite avoids another amplified-singing scene. Rhythmic knocking is taken as interruption; holding a cup solves the narrator’s restless hands and becomes the next invitation ritual. Root independently read all four fields and applied contextual/continuity corrections where needed. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -38760,10 +38940,15 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 62,
-      "status": "pending",
-      "source_sha256": "add29d4d7a6a9a4bcf8236871e7eca68537da10d52a4c47be73e0a23514df9c1",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "6032b9956e982f7cf7706ef645bc78857371d093460dee37debc92ea4491b049",
+      "topic_notes": [
+        "neighbours",
+        "shared_soup",
+        "oversized_bowl",
+        "avoiding_refills_backfires"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: Full rewrite replaces sugar-salt mix-up and invented judging. An oversized personal bowl defeats the wish to avoid walking; the next visit repurposes it as a serving bowl. Root independently read all four fields and applied contextual/continuity corrections where needed. Compared with food72: bowl heat/holding at a neighbour meal versus pot height blocking a tap; different immediate conflicts and endings, despite both beginning with an oversized container. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -38794,10 +38979,15 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 65,
-      "status": "pending",
-      "source_sha256": "32fe4ddc0459cc8390f2f65d1cdad03acd4dcd1085fbad20c79e9792f7571460",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "7cc372165a9d66cacefe2c0c02d091fb4fc2340fcbf87d14c705662be795a73d",
+      "topic_notes": [
+        "neighbours",
+        "storm",
+        "dog_settles_humans_remain_scared",
+        "shopping_channel_excuse"
+      ],
+      "notes": "2026-11-08 active-2000 batch28: Adult-neighbour rewrite retains human-versus-dog fear reversal with concrete TV-channel and blanket actions. No child-care frame or animal-treatment instructions. Colloquial 踎 mau1 checked against Words.hk; 叼 diu1 checked against CUHK Lexis. Root independently read all four fields and applied contextual/continuity corrections where needed. Corrected contextual channel switching 轉台 zyun3 toi4, retaining 台 toi4; adopted 飯枱 faan6 toi2. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -38943,10 +39133,15 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 83,
-      "status": "pending",
-      "source_sha256": "d19d826c0370e315e29ee3b402f1a112938b89d5f821e0134d4228ac222bc85b",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "5df7bde5c20923b19a4fc8df2e23d8f71a81e5363d92b570762631192cce1250",
+      "topic_notes": [
+        "friends",
+        "baking",
+        "overtrimming_for_symmetry",
+        "guest_finishes_rejected_edges"
+      ],
+      "notes": "2026-11-08 active-2000 batch29: Replaced and preserved the cake-lettering draft after direct mechanism comparison with active-pass family02[80] (crowded farewell lettering down cake edge). New full handwritten story concerns repeatedly trimming a chipped cake for symmetry while the guest enjoys the rejected edge pieces and finishes eating before the host presents the cake. Cooking category retained, no family/money core. Root reread the final story, contextual Jyutping, complete Simplified gloss and matching prompt. 碟 dip2 noun/dip6 classifier and 對稱 deoi3 cing3 checked in Words.hk; 餡 haam2 checked in CUHK. All four fields manually reviewed; mechanical alignment is a separate check. Adopted directly supported rotational 轉 zyun3 in 轉住隻碟 after independent final review. 轉動 also records zyun2; no blanket assertion that every zyun2 rotation is wrong. New pass count unchanged."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -39159,66 +39354,106 @@
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 10,
-      "status": "pending",
-      "source_sha256": "072aa5c47cfffb8fd678c888766edd34ea63fd67025de0581ffdf8861d29b113",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "ae39edb2f172c25dc98e0a7b9fbe6548628e62f909697d4c7283dad1338f612d",
+      "topic_notes": [
+        "friends",
+        "old_photos",
+        "paper_frog",
+        "fearless_claim_meets_small_surprise"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: Replaced unsafe childhood tree-climb rescue with adult friends viewing an old photo. Accidental pressure launches an already-introduced folded frog, contradicting claimed fearlessness; covering it is the concrete final callback. Paper frog springing uses daan6, separately checked from playing piano taan4 in Words.hk 彈. 蛙 waa1 checked in PolyU phonetic teaching page. Root final review: Replaced written 卻 with natural 就. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 11,
-      "status": "pending",
-      "source_sha256": "d620a99edfb12a44e376eb78fb8f38f1fce27985206d8954d0bef284667bcd4a",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "7e0be9d673129786a4e71a0b195be650fd07a2535e05782b3bffb49d9b19422b",
+      "topic_notes": [
+        "roommates",
+        "piano_practice",
+        "learned_error_cue",
+        "successful_performance_loses_familiar_signal"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: Adult-roommate rewrite retains the useful learned-error cue with actual waiting, sock folding and delayed tea. Sighing after the recurring error becomes the learned stopping signal. No applause duties or invented signs. Root final review: Named both speakers at the turn where adjacent 佢 referred to different people. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 12,
-      "status": "pending",
-      "source_sha256": "dff9f79c5d51a5ebc87634623f49b282ebb04559c48dddd0f6672ca966ff4442",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "2b9608b9dd1cf725e6ccc678fa319a55160a64f38983da5c0aa503ba76dc62a7",
+      "topic_notes": [
+        "friends",
+        "jigsaw_loan",
+        "owner_reassembles_during_packing",
+        "photo_preserves_finished_view"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: Substantive replacement of rejected inverted-sea puzzle draft. Read active-pass family01[51] directly and screened pass-ledger puzzle/preservation notes and matching source sentences. Existing puzzle passes use orientation error, missing-piece search or misplaced-piece-on-body. This scene instead lends a completed streetscape puzzle: owner reflexively reconstructs exactly what borrower has just dismantled. Taking completed-image photos pays off the owner’s desire to keep seeing it. No missing object, sky/sea orientation, board rotation, furniture assembly or dining-surface shortage. Four fields manually authored and self-reviewed; original category and keys preserved. Root independently read all four fields; repaired 拎開道門 to 拉開道門 (pull open, not pick up/remove a door). Rejected sea/sky drafts remain archived. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 13,
-      "status": "pending",
-      "source_sha256": "3704a5948f2d6e7890bea1ab775fe869df1934293195561c4fd501fe5ca861c2",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "566f18413899e3d7df3008d58db5733c90902aff2a910baaa0e1416a34ffee08",
+      "topic_notes": [
+        "friends",
+        "board_game",
+        "announced_strategy_helps_opponents",
+        "hand_covers_talkative_mouth"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: Full board-game rewrite replaces the implausibly stationary four-plane scheme. Narrator announces plans before opponents choose moves, enabling avoidance. No universal game-rule claim; ordinary chosen movement and a single three-space threat suffice. Root final review: The second opponent now moves the threatened plane itself, so the stated avoidance actually follows. Adopted 揞 am2 for covering mouth. Adopted documented colloquial 棋盤 pun2; pun4 is not blanket-classed as wrong. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 14,
-      "status": "pending",
-      "source_sha256": "d8814e151ca7d6969ab709bffc9bd42ad85e9ce992d83492b487d824347dbbd4",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "3a91246e8a6c7e058848f58516ace38a299863512beb20601259c7170f88f69a",
+      "topic_notes": [
+        "friends",
+        "home_leisure",
+        "paused_video_extends_pose",
+        "second_pause_rest_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: Full adult-friend rewrite. Pausing an ordinary movement video accidentally extends the held pose; the second pause shows the friend has learned to rest. No claimed treatment benefit or prescribed exercise duration. Root final review: Explicitly forgetting to resume while comparing the pose explains the delayed release. Corrected 螢幕 jing4 mok6. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 15,
-      "status": "pending",
-      "source_sha256": "06f92c83fe6296ea7253f708a30d769d3728cba635d333804e09e27fcd56de72",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "1f145d4f25e1d3496e1057740e6035f4c4d06016f67d98e2388245e66f132f73",
+      "topic_notes": [
+        "friends",
+        "portrait_practice",
+        "indecisive_sitter",
+        "empty_chair_drawn_first"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: Full portrait rewrite removes nose/shadow exaggeration. An indecisive sitter repeatedly disrupts the available pose, so the artist first finishes the stationary chair. Final glasses condition calls back the concrete preparation loop. Root final review: Replaced written 整理額前/卻空住 with natural spoken phrasing. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 16,
-      "status": "pending",
-      "source_sha256": "81168797394a6ae1d397a07e8de3c3a2c5bf07bfa487b4d9fac4eba7435422b2",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "acf03b1afbce0abc0a25126d94b01b426d569ca9fbbf0e29b2cfe8107508c98e",
+      "topic_notes": [
+        "friends",
+        "detective_film",
+        "silent_spoilers_through_expression",
+        "eyebrow_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: Full second-draft film rewrite avoids repeating the paused-video mechanism in home02[14]. A repeat viewer keeps his verbal promise but reveals the mystery through posture and eyebrows; moving behind the first-time viewer restores direct viewing. No real film plot or actor facts. Root final review: Natural 名 meng2 and correct 螢幕 jing4 mok6. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
       "index": 17,
-      "status": "pending",
-      "source_sha256": "1cb0fca2d59031ea19271302e6c538bc2823c5911c68718da9943196e39283d8",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "2ca72cfcdf56ae0e7de45c7e8bf81e9c3a1bead7c141fe82230b9757b852abe5",
+      "topic_notes": [
+        "friends",
+        "handheld_game",
+        "avatar_customization_delays_play",
+        "battery_before_first_steps"
+      ],
+      "notes": "2026-11-08 active-2000 batch30: Full home-leisure rewrite replaces abstract rest planning. Avatar customization consumes battery before play; the first actual steps next day nearly become another costume inspection. Generic fictional handheld game only, no product specifications. Root final review: Corrected 螢幕 jing4 mok6. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_02.json",
