@@ -4,7 +4,7 @@
   "scope": "Independent manual second review of all 5,000 original source rows, including existing V2 passes, for stand-up/life-bit quality, natural Macau colloquial Cantonese, contextual tone-marked Jyutping, complete Simplified gloss and story-specific retelling prompt. Final active library target is 2,000; all source rows and drafts remain preserved.",
   "source_cards": 5000,
   "target_active_cards": 2000,
-  "active_selection_status": "2000 current V2-pass cards selected; 664 oral pass, 1 need revision, 1335 pending; active-card re-audit continues, while excluded source cards remain preserved.",
+  "active_selection_status": "2000 current V2-pass cards selected; 716 oral pass, 1 need revision, 1283 pending; active-card re-audit continues, while excluded source cards remain preserved.",
   "cards": [
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -14577,10 +14577,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 25,
-      "status": "pending",
-      "source_sha256": "018f3ad5bd878aaca53c2d0642be080a0ae72b3870ce7eed512759a0b42bedfa",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "f907347b0e4554df0fe860e569583554f699f174e5f41dd261df8559e399c01c",
+      "topic_notes": [
+        "delivery",
+        "neighbor_life",
+        "shared_food",
+        "misunderstanding",
+        "strong_callback",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "Four fields rechecked. Rainy-day takeaway chopsticks turn into a neighbor’s mistaken invitation and an expanding hallway meal; the third pair supplies the callback. Naturalness, contextual tones, full gloss and prompt checked; category and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -14669,10 +14677,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 34,
-      "status": "pending",
-      "source_sha256": "5762f827dc267a7dbbe7e22abcbc104deed1d97a30ca467bac4fece8bd08a893",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "7de34a38a51f84919760fb59230f9652e02c185593e1282f84522cdd1a274e29",
+      "topic_notes": [
+        "supermarket",
+        "food",
+        "personification",
+        "workplace",
+        "strong_callback",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "Four fields rechecked. Fish portions are split across two lunches and treated as co-workers, escalating to a “return to work” note and a no-meeting callback. Contextual tones, complete gloss and story-specific prompt checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -14968,10 +14984,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 70,
-      "status": "pending",
-      "source_sha256": "57d70e181c8bb7309e30ea92ad15381af9a4c17aca0b3d6557df9f32e45bc705",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "7bde9c154c36fa987dfeeea1c4fca9f79ac824cbffbb3426245b0a374202ae89",
+      "topic_notes": [
+        "second_hand_trade",
+        "community_event",
+        "meeting",
+        "visual_comedy",
+        "strong_callback",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "Four fields rechecked after changing「掛上窗後」to natural「掛好之後」. The pinhole light cues the meeting crowd and the supervisor’s closing callback; translated gloss and prompt follow the final story."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -15577,10 +15601,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 41,
-      "status": "pending",
-      "source_sha256": "49e495ef937003e7cea45b275c4599dd9c7b183e2c58ac6086eab0ebf6548517",
+      "status": "pass",
+      "source_sha256": "d878352a588c5427bea3b54eb3ac74fcb0e254eec9a9563ba6f90ba2add1214a",
       "topic_notes": [],
-      "notes": ""
+      "notes": "重寫茶餐廳睇波段子；球迷拉鋸、伙計拖慢收拾、撞柱後補中，最後把補時回扣打卡遲到。移除無關付款細節；四字段已核對。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -15668,10 +15692,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 51,
-      "status": "pending",
-      "source_sha256": "f1f3b08a1eeea8afa6ceaf252a4c3a5384b4c53c1ed355a73f06bc41607c4940",
+      "status": "pass",
+      "source_sha256": "064d0cc7d14d096aa4a55a4e10f6f8cdf74aa2d466ccd7ec05db8c6b8ec34f50",
       "topic_notes": [],
-      "notes": ""
+      "notes": "重寫燕麥奶與牛奶分道標示的茶水間段子；主管排隊後，水樽再貼「直行」延續笑點。確認燕麥 jin3 mak6、主管 zyu2 gun2、水樽 seoi2 zeon1；逐字核對四字段。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -16153,18 +16177,25 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 8,
-      "status": "pending",
-      "source_sha256": "d774670d7174faf01b51d1ce29f13c68aa2b6cf0a42bc474fe84f416261ac6a0",
+      "status": "pass",
+      "source_sha256": "c6bf17d925b6e5525bc8d5875f8ac7658a083c1e4b41812a6e490536d39242f8",
       "topic_notes": [],
-      "notes": ""
+      "notes": "重寫芝麻餅試味成評分表，再揭示阿朗把自己的普洱口味投射給舊同學。修正標題 biu1 tai4、覆 fuk1、刪 saan1 等讀音；故事、譯文與提示一致。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 9,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "7e72d7b0241a35d1a1c67e5ab2b96126e00e65ccd5a6734ee38836ec768b25d1",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "market_life",
+        "wayfinding",
+        "blackout",
+        "strong_callback"
+      ],
+      "notes": "四字段人工复核：街市停电后朋友凭摊灯带路，却绕回年糕档；把隔壁摊灯笼误作出口灯，最后以“下次站摊口不动就得”回扣。粤拼逐字、完整简体译文和提示核对通过。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16272,10 +16303,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 19,
-      "status": "pending",
-      "source_sha256": "0fffdbf814a06a665a06cde12b7c3748f3b96e9dbd38ef62c9cd78d15a3c6395",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "bfbfa9519d0c9bd46cbd82e08f29de67d461f66097bf01c2d73dafc58c253a77",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "steamed_cake",
+        "food_texture",
+        "bus_misroute",
+        "bag_venting",
+        "strong_callback"
+      ],
+      "notes": "四字段人工复核：重写成口语蒸蛋糕段子；同事发现搭错方向后急急脚转车，蛋糕仍鬆軟，末尾“留条罅畀巴士透气”回扣蒸汽袋。290字；粤拼逐字、译文和提示通过。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16304,10 +16343,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 23,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "46885b84fe1fd3345b4ea4fe55777363464886f9057178dbe9266b316d50616a",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "shared_food",
+        "community_lunch",
+        "table_stability",
+        "queue_misread",
+        "strong_callback"
+      ],
+      "notes": "四字段人工复核：木垫和“请勿搬动”告示令街坊端餸排成队，误会升级后改成“抹地唔好抽走枱脚垫”，结尾逐桌摇枱像验收。粤拼、译文和提示通过。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16439,10 +16486,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 38,
-      "status": "pending",
-      "source_sha256": "9a86d15d5775659c99c27e238b3e2b12b8320a046757455c2fddf0a0a68a0727",
+      "status": "pass",
+      "source_sha256": "42168b5e28c3d0cbde81b992356cf9fdd7daf7ff0ab0772602743524ba2d3c68",
       "topic_notes": [],
-      "notes": ""
+      "notes": "重寫蛋白撻被誤認成健身補充品、連甜品都要休息打卡的段子。按詞義核對蛋白撻 daan2 baak2 taat1、蛋白質 daan2 baak6 zat1、冷卻 laang5 koek3；四字段已核對。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16463,10 +16510,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 41,
-      "status": "pending",
-      "source_sha256": "7e976df21da36abd63bbe514ed9cf19b4d0bebf4f75149f5abdbdf7ad6f26539",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "c93638692510b9d1aa2e3dc95a37ab91dc412df806bb999df02eb43bd34127a5",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "workplace_lunch",
+        "allergy_labeling",
+        "overexplaining",
+        "physical_comedy",
+        "strong_callback"
+      ],
+      "notes": "四字段人工复核：先查清辣酱成分，再让过度细分午餐记录逐步升级，标签纸最后黏到记录员背脊。修正「餵食 wai3」，复述提示改为全简体；其余字段完整。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16692,10 +16747,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 69,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "ba94e1a27e306965feb5ef6b6d171f09b10f88eeeaaee5c0d029418fa33f4f15",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "delivery",
+        "rain",
+        "cold_tea",
+        "timer_misread",
+        "strong_callback"
+      ],
+      "notes": "四字段人工复核：雨夜外卖员受助、雨伞纸条提醒冷茶、闹钟声误认门铃逐步回扣。粤拼逐字、完整译文和提示通过。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16737,10 +16800,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 74,
-      "status": "pending",
-      "source_sha256": "44d2bcc13bde03e075af8ed880ea4a4cca5a4fc3e2014f06865d0917916074b7",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "b9a80367b30708cb9aa148c079a7c99d5472f35e762bf66eecf27daf460c2c6f",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "restaurant",
+        "travel_planning",
+        "traffic_misunderstanding",
+        "service_flow",
+        "strong_callback"
+      ],
+      "notes": "四字段人工复核：扩写至270字；旅行路线反复被出餐车打断，阿健一边画转车路线一边让车，同桌笑问是否顺便做交通警，换位后的路线回扣收尾。粤拼、译文和提示通过。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16761,10 +16832,17 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 77,
-      "status": "pending",
-      "source_sha256": "2c8c9804175c9552d3978615f99ad830ee039e2b707b5624832c3057cdd8c1de",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "5b35a05a2b6cb8d5182429eb7921770c291d4772b3e415335a38b61d458c67f8",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "curry_rice",
+        "order_misunderstanding",
+        "literal_wordplay",
+        "strong_callback"
+      ],
+      "notes": "四字段人工复核：把“加底”当真，额外白饭藏到咖喱饭底下，最后见到碗底才收工；修正「直接 zik6 zip3」。译文和提示对应。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -16801,10 +16879,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 82,
-      "status": "pending",
-      "source_sha256": "a1694cb77db6754d0cb1df1ef2cb74df8be051acb40578a6ea640c4aa6823523",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "94e9a1c3a2fcb28319e6619e70f5865663e7807126763be6fd688c107a7658b5",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "watermelon",
+        "date_label",
+        "food_safety",
+        "workplace_lunch",
+        "meeting_callback"
+      ],
+      "notes": "四字段人工复核：为西瓜包装日期致电超市核实、换盒后才分享，开会和预留肚位形成回扣。修正「忽然 fat1 jin4」「顏色 ngaan4」「盒側 zak1」，并把「未核实前」改成更口语的「问清楚之前」；237字。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -17076,10 +17162,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 13,
-      "status": "pending",
-      "source_sha256": "b07b7c262a3fcaf4c5ea4ba2cbb22c198364833e3cfd610f89f024d0e4140b2a",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "39dbdd6b73252c7eeedd855bf18a1faa80eed7ddeb8b34b1127583d8cdb45a75",
+      "topic_notes": [
+        "umbrella",
+        "physical_comedy",
+        "product_misunderstanding",
+        "workplace",
+        "strong_callback",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "Four fields rechecked. The display ring explains the stuck umbrella, which opens again in the corridor; the “please do not blossom” sign pays off at the end. Gloss and prompt match the story."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -17092,18 +17186,34 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 15,
-      "status": "pending",
-      "source_sha256": "d7174bb561c5aeee021326bd9883dea417fd65471be76513b2f3678772cdd4c3",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "aad910870793087160b4393f35009f5cfa9f98ea55937746a461c9dc313f3b7e",
+      "topic_notes": [
+        "market_life",
+        "street_food",
+        "wordplay",
+        "workplace",
+        "strong_callback",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "Four fields rechecked. The request to cut char siu thin is over-literalized into floss, then the label makes colleagues treat lunch as an instruction sheet. Contextual Jyutping and tones, gloss and prompt checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 16,
-      "status": "pending",
-      "source_sha256": "c6c44d2e8d220318da967f4431616450bce7a797cb376608dafb0e1c6ac15d47",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "608dbbf41f6c4528370dc73a262ff350bf32112f5fb964750ac040b6db50584b",
+      "topic_notes": [
+        "reading_group",
+        "restaurant_dinner",
+        "workplace_meeting",
+        "meeting_callback",
+        "strong_callback",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "Four fields rechecked. Book discussion becomes a quarterly-meeting bit, with the rib progressing from absent member to assigned reading and representative. Contextual Jyutping, complete gloss and matching prompt checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -17153,10 +17263,17 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 22,
-      "status": "pending",
-      "source_sha256": "af96e0837243767a3aa2b2a28cabf07719430139cefe9683445819cbd82ef0ad",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "9773b59d7d036da134e4f6b55472194f275d45769b1b3c13cee62cb84207ac17",
+      "topic_notes": [
+        "market_life",
+        "voice_input",
+        "vendor_role_reversal",
+        "strong_callback",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "Four fields rechecked. A spoken shopping list recruits the vegetable stall, fish stall and café into a relay; the fish vendor finishes the phone’s question. Jyutping, full gloss and story-specific prompt checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -19703,10 +19820,16 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 32,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "5d41b6f4acc66eb2ec6a40d31c3330f538369d172f795616a484617af9170d8a",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "workplace",
+        "tea",
+        "misunderstanding",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "辦公室同事飲奶茶，茶走與少甜的誤會逐步變成同事把主角當成茶味調整服務；「試用期」回扣茶味合格。四字段人工核對，句子與粵拼逐字對齊，音調按語境覆核。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -19735,10 +19858,17 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 36,
-      "status": "pending",
-      "source_sha256": "8a8ed79b2bbbb602c4f37eed21995ba26a19e80d1ae2bd7eedac1a1368a20998",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "6778f309bb74a546c7df8ad4ff490a45b8a43f15352e2a3aa706187567c8e7b5",
+      "topic_notes": [
+        "workplace",
+        "sports",
+        "physical_comedy",
+        "strong_callback",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "下班同事看球賽，飯盒裏的煎蛋被當成前鋒，海苔剪成球員補位；桌蓋被撞開後煎蛋才進場，成了補時入球。四字段人工核對，句子與粵拼逐字對齊，音調按語境覆核。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -19884,10 +20014,16 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 54,
-      "status": "pending",
-      "source_sha256": "1d548d5d4f0b80d20cf8645e8f0e9c4fc6ab817c5721659e372df390336b8309",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "8057ded80114462a962addb35df201bc432e63e2fcf191ea8c0d08f7388c546c",
+      "topic_notes": [
+        "workplace",
+        "water_misidentification",
+        "strong_callback",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "同事把冰水樽身凝水誤認作漏水，乾樽蓋與室溫重測逐步找出原因，最後同事排隊做杯樽檢查。四字段人工核對，句子與粵拼逐字對齊，音調按語境覆核。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -20020,10 +20156,16 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 71,
-      "status": "pending",
-      "source_sha256": "621ee5ecccf12c776df5c52fa5908aa8e5db0ed742b8ea42b03b26caf9bd0cb2",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "13ef676812e6f2727823cd6e415d71afc0fb29d37179ef37ec0c1de283d098fa",
+      "topic_notes": [
+        "wayfinding",
+        "delivery",
+        "service_routing",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "大堂壁畫與停車場魚形標誌令送餐員走錯方向；保安核對後貼新指引，第二次送餐順利，最後再回扣兩條魚。四字段人工核對，句子與粵拼逐字對齊，音調按語境覆核。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -20180,26 +20322,45 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 91,
-      "status": "pending",
-      "source_sha256": "efc3ba2c4b2915411c0812e2aa7310fc650bcf2470a489639528f04678b186bb",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "8cdaa360279a5ec0efee41647a2a9a775d2d6dc42c4977cb432d5153185c16cb",
+      "topic_notes": [
+        "volunteer",
+        "percussion",
+        "sound_comedy",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "社區中心廚房計時器與隔壁戲班鑼聲接連撞在一起，義工誤關火，領班抱鑼衝入；最後以「排練時請勿煮鑼」回扣。四字段人工核對，句子與粵拼逐字對齊，音調按語境覆核。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 92,
-      "status": "pending",
-      "source_sha256": "213c8a15e80ba7911edb875b6409c58a89dc5f12aa5fd74aedfec3aa42be8fee",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "6e640367fd08ae3be6fce327f1404180ea6f91a21deab7e3ec157fe52a4e9a3c",
+      "topic_notes": [
+        "community_garden",
+        "plant_care",
+        "food",
+        "strong_callback",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "社區菜園種蒜苗，街坊把入口小盆當花看；阿添記開花日期，阿雲剪苗炒菜後，他把日期改成上枱日期，眾人才知等的是午餐。四字段人工核對，句子與粵拼逐字對齊，音調按語境覆核。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 93,
-      "status": "pending",
-      "source_sha256": "b5d7acc81e0df7af8ce466a14a9facadba9828f6f6569b4b0aefa3be9e1f20fb",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "0eef09f5b1087866af66c481c5e4b61da9ac6fa95ee871b4f666b16176377337",
+      "topic_notes": [
+        "stationery_shop",
+        "shopping",
+        "product_misunderstanding",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "螢光筆的透明護套被誤認成故障，試色紙引來顧客逐支試色變成地圖；返工同事揭出拿錯筆，末尾以雨衣紙牌回扣。四字段人工核對，句子與粵拼逐字對齊，音調按語境覆核。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -20220,26 +20381,47 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 96,
-      "status": "pending",
-      "source_sha256": "17f55cc8b54813acf7126c935230cba909bd15b30dd2b78eebb3a3fd379011e9",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "3a0c0ff811a39105c8c8f42b16cbe4aab4bb5517d70b053036831a380b7a5844",
+      "topic_notes": [
+        "supermarket",
+        "frozen_food",
+        "physical_comedy",
+        "strong_callback",
+        "family_character_secondary",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "冷凍豌豆從破袋一路滾到沒關好的冰櫃，同行小朋友把它當逃兵，還問逃出來一粒要不要等隊友；最後記下它已歸隊。四字段人工核對，句子與粵拼逐字對齊，音調按語境覆核；購物是場景，沒有金錢主線。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 97,
-      "status": "pending",
-      "source_sha256": "13500b11eb6276b58dfad81110b8623df029799e982642255781535b3900f680",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "4a9049fa67ef90ae3fa8896ba1978774d7a6a4f7408865093e48c358a9225de5",
+      "topic_notes": [
+        "cooking_class",
+        "community_event",
+        "attendance_mixup",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "社區烹飪班的紅菜頭汁在簽到紙留下手印，學員把手印當新簽到方式；點名、辨認和猜到場先後接連升級，最後導師解釋只作到場記錄，阿添仍追問自己算不算簽到。四字段人工核對，句子與粵拼逐字對齊，音調按語境覆核。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 98,
-      "status": "pending",
-      "source_sha256": "d80da007ca585f40fb082040e88ebdd4062bfdc482b45ebb3e22f135ea0610e1",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "20c8072711ea79161a05da9f0d503e29c34cd8436041d69591b2daaebc08cd6e",
+      "topic_notes": [
+        "market_life",
+        "restaurant",
+        "food",
+        "visual_comedy",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "街市買蝦後到烹飪班蒸煮，阿聰被蒸氣遮住眼鏡，差點把鍋蓋當餐盤；同學讓他做塔台指揮蝦降落排隊，最後發現他一直指住空盤，真正蝦盤在身後。四字段人工核對，句子與粵拼逐字對齊，音調按語境覆核。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -20863,10 +21045,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 72,
-      "status": "pending",
-      "source_sha256": "2f6ae3e27af3e1b60329ebf9fb81543b4bda24df2a84de434a8320d0abe1e986",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "780828ff3605fad6e291ad2149ea99739eae344b1dc6fe01c9c3f7c1b43b4144",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "picnic",
+        "wind_blown_tissue",
+        "inventory_misunderstanding",
+        "physical_comedy",
+        "strong_callback"
+      ],
+      "notes": "四字段人工复核：野餐冰袋漏水、纸巾卷被风吹走，大家列清单点数，最后发现阿杰一直坐在垫子上。修正两处「墊 zin3」并补上阿杰的直接提问引语；279字，译文和提示齐全。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -22288,10 +22478,17 @@
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
       "index": 44,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "339f2e98e5887ab1699e85e57d6aa1a088d3348e04c7e2f30fdd10646e6bd2e5",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "claypot_rice",
+        "sound_comedy",
+        "timer",
+        "recording_callback"
+      ],
+      "notes": "四字段人工复核：等煲仔饭饭焦声时被水壶“插播”，最后录下饭焦并计划前后对照。粤拼、译文与提示通过。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
@@ -22508,10 +22705,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
       "index": 71,
-      "status": "pending",
-      "source_sha256": "14ce22bd2702f726015af6d6e0659c1757fbe635f395dabd124f0659e27f4441",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "0852204a3a97f4d9f0dc57788644dc153df89739812f547c7725cd5f36f9604c",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "frozen_vegetables",
+        "office_contest",
+        "visual_comedy",
+        "workplace",
+        "strong_callback"
+      ],
+      "notes": "四字段人工复核：用急冻菜排成盆栽比赛，评判追问植物名后报出“星期一醒神花”；修正「作品 zok3 ban2」「一粒粒 nap1 nap1」，译文和提示通过。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
@@ -22540,10 +22745,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
       "index": 75,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "00bcd8f2eab9c78a7f03313fde0247edcb075e7b694007d747532654052427e1",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "lunch",
+        "missing_document",
+        "workplace_lunch",
+        "task_expansion",
+        "strong_callback"
+      ],
+      "notes": "四字段人工复核：午餐面条被同事寻找会议记录打断，经理再把文件整理塞进午休，最后回扣“分一半”连汤都计埋。粤拼、译文和提示通过。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
@@ -22628,18 +22841,34 @@
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
       "index": 86,
-      "status": "pending",
-      "source_sha256": "96d8cfa5151f2c1a3ace0f2c35b8a85313c3b8564eac030340634657b4c8eaff",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "23ce7ac1377b0b89e356d94bc409f83ee5ea7b6e1ea3d379b57f8938323df1f7",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "restaurant",
+        "curry",
+        "naan",
+        "server_misunderstanding",
+        "strong_callback"
+      ],
+      "notes": "四字段人工复核：删除与既有辣味挑战重复的机制，改为朋友用烤饼清咖喱盘、服务员误认菜未上，甜品留给匙羹收尾。220字，粤拼逐字核对通过。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
       "index": 87,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "1810aa68f5dab5fe9764ab234597ebe8c97f9f0483a2e5db11c94b3c7f40b52e",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "book_exchange",
+        "lunch",
+        "label_misread",
+        "empty_tray",
+        "strong_callback"
+      ],
+      "notes": "四字段人工复核：旧书交换当天餐盒标签贴在盒底，八人低头被误认成读书会，空盒放上“已读”书架形成回扣。粤拼、译文和提示完整。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
@@ -23492,10 +23721,17 @@
     {
       "file": "content/sentence_bank/long_food_shopping_11.json",
       "index": 87,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "b7a153dc3d2c1b4c2931606a587fdae57f8dac10052c6429490fe5a130b76180",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "standup_life_bit",
+        "workplace_meeting",
+        "lunch",
+        "meeting_agenda",
+        "strong_callback"
+      ],
+      "notes": "四字段人工复核：三次搬会议地点仍保护午餐，主管被一页一口拖慢，散会后“订午餐”成第一项议程。粤拼、译文和提示通过。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_11.json",
@@ -24452,10 +24688,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 2,
-      "status": "pending",
-      "source_sha256": "2af9a1fe64ab38ff1d9324505335ced69031efc8ecd7e25e79f61fb173ed3bbf",
+      "status": "pass",
+      "source_sha256": "e319d59aff88da4ddefac73dcf612301481cbf8dc5a99c77ae796146d2d3e41e",
       "topic_notes": [],
-      "notes": ""
+      "notes": "重寫公司聚餐採買時拒拿購物籃、手上物品失衡的段子；保留法包、芝士等採買主題，將口語句改用「將」。四字段已核對。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -24715,18 +24951,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 34,
-      "status": "pending",
-      "source_sha256": "a446ee5c00fb3f4d82ce1f992c40bcf8b2399f770ad4032e2dc5cc0303eb4ce8",
+      "status": "pass",
+      "source_sha256": "14b4675157776270ee05c492192822461173f219b64b2229e10a269507b8c18e",
       "topic_notes": [],
-      "notes": ""
+      "notes": "重寫手沖咖啡的量測過度，直到咖啡凍了仍未分杯；次日再量同事伸手時間作回扣。四字段與拼音逐字核對。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 35,
-      "status": "pending",
-      "source_sha256": "46f35df3dcff7fa6fd98de040216feb924a1acccce197d3fb687c5e359091280",
+      "status": "pass",
+      "source_sha256": "112b7d17e038cb404a282c8310847e57e5905f3f4785fb9687bdc1e6eaad66fc",
       "topic_notes": [],
-      "notes": ""
+      "notes": "原稿生活喜劇通過；檢查手機午餐鬧鐘引發全組火警誤會的因果與結尾。修正烚蛋 saap3 daan2，四字段逐項核對。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -24875,10 +25111,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 53,
-      "status": "pending",
-      "source_sha256": "bd3a161bcd3d43501d01ba69bfff8db78234d394d127b873acd6f537d2441363",
+      "status": "pass",
+      "source_sha256": "8b4baf75feba2f8f0035dcf45575f8b5e4363bc615b4b4756601a56297c1d2b1",
       "topic_notes": [],
-      "notes": ""
+      "notes": "重寫水果袋在辦公室被當作會議用品反覆搬動的段子；加清楚標籤如何引發搬回會議室的因果。四字段已核對。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -25040,18 +25276,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 73,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "411b080d539b0f3136b096217aa83a12ca207fccb70375fde9ce70c12791af89",
       "topic_notes": [],
-      "notes": ""
+      "notes": "原稿微波爐倒數被裝修師傅當成拆櫃倒數，笑點因果完整；核對完整簡體翻譯、提示與逐字粵拼。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 74,
-      "status": "pending",
-      "source_sha256": "8c34e4be62179b7f816a9812ea3ba8e22589900a712f5ed777fc506967071422",
+      "status": "pass",
+      "source_sha256": "dd29de41eaf23bd0190b5a4a33a898114aed40a6c199aa7050bc930863dcecc9",
       "topic_notes": [],
-      "notes": ""
+      "notes": "原稿草莓被當成新員工面試，午休後集體「離職」的生活笑點成立。修正見習生 gin3 zaap6 sang1；四字段已核對。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -25080,10 +25316,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 78,
-      "status": "pending",
-      "source_sha256": "7b3c69b928fd9bef41e1c80c5d4635e808baca153e2c0b09f4d522f3ae404e75",
+      "status": "pass",
+      "source_sha256": "76ae761da4206906a93ba752094f837047efea0547b10bc4a296fde2f0f9663b",
       "topic_notes": [],
-      "notes": ""
+      "notes": "重寫包餃子外形比賽，餃子煮熟後摺痕消失，評判宣布一律合格；修正評判 ping4 pun3，補入等候時不敢眨眼的鋪墊。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -27253,10 +27489,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 35,
-      "status": "pending",
-      "source_sha256": "f33bc276214093f61813da26bd21aa9382bcfdb7fe597a6aeb82af1f23d35225",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "9f955fc1581dfc20d01f0280858a2b7646b66f1021388709c52de9860142f60f",
+      "topic_notes": [
+        "hiking",
+        "outdoor_activity",
+        "overprepared",
+        "physical_comedy",
+        "strong_callback",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "Four fields rechecked. The crushed sandwiches prompt the friend’s overprepared “mobile kitchen” reveal; the summit-shop callback completes the light hiking bit. Corrected contextual reading 直接 `zik6 zip3`; gloss and prompt match."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -27801,10 +28045,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 65,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "38d7c9cccc17948248b14a36c717c92581a5ac4cfe4df92d5411dc0cb3f9524e",
       "topic_notes": [],
-      "notes": ""
+      "notes": "原稿取號紙被風吹走、追紙引起排隊誤會，朋友以追一張紙收尾，機制清楚；四字段與拼音已核對。"
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -27881,10 +28125,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 75,
-      "status": "pending",
-      "source_sha256": "63b9477f116389dc83f457f31500d89bacc4fe8f5e016a455c9b1edfd2da7bc6",
+      "status": "pass",
+      "source_sha256": "37a551507f3145d5982f1eef150d1c8dd1a9bee738bc1bac0b7e8ac536d42e41",
       "topic_notes": [],
-      "notes": ""
+      "notes": "重寫手機攝影班反覆只拍到鞋的段子；揭示鏡子擺得太低後架高拍出光帶。核對捕捉 bou6 zuk1、鏡 geng3、斜 ce4 等讀音及四字段。"
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -27897,10 +28141,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 77,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "6ba7fa68bc90189e4d44b32f4448d8c5f7054fe804c8dc794417aa23768a5d5e",
       "topic_notes": [],
-      "notes": ""
+      "notes": "原稿升降機困人時把肚聲報告成乘客狀況，維修後回扣清楚；核對四字段與逐字粵拼。"
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -27913,18 +28157,18 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 79,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "5416d2a26dbb845c743ef37791f9682b37520a58e50c53c68fd30aad8b53c4a5",
       "topic_notes": [],
-      "notes": ""
+      "notes": "原稿有聲書倍速造成旁白急促與長停頓，最後把「速度掣退休」回扣完整；核對四字段與逐字粵拼。"
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 80,
-      "status": "pending",
-      "source_sha256": "d1c136eed60de2d2423cfcaa4751646062c19350bf26d197dcdb58ac73d02a0f",
+      "status": "pass",
+      "source_sha256": "5826c9edae1bf4149e74ace1e7c0ab0fb96df17edde98aaade000d552287a093",
       "topic_notes": [],
-      "notes": ""
+      "notes": "重寫回收紙箱摺得太像包裹、清潔同事再問垃圾或貨的段子。修正壓平 aat3 ping4、身份證 san1 fan6 zing3；全句拼音逐字核對。"
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -27937,10 +28181,10 @@
     {
       "file": "content/sentence_bank/long_health_services_01.json",
       "index": 82,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "29dee2e4594fbf91898c69372d935a4c067cafb8a5eee2e9761510e4a6e37ba7",
       "topic_notes": [],
-      "notes": ""
+      "notes": "原稿水箱檢查時螺絲掉落，住戶追問螺絲身份與合格與否；因果和收尾成立，四字段與逐字粵拼已核對。"
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -28941,10 +29185,17 @@
     {
       "file": "content/sentence_bank/long_health_services_03.json",
       "index": 7,
-      "status": "pending",
-      "source_sha256": "b7c109f49d96858ae8be6a05466ac039cc9a133bdc6b0a1fc6c79ce4ff286e5c",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "39b8b9d38d559e165d52afc7b8ca8a63e5456e337df1811ed2981f8ccc22bf6b",
+      "topic_notes": [
+        "sleep_diary",
+        "roommates",
+        "overplanning",
+        "strong_callback",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "Four fields rechecked; tip normalized to Simplified Mandarin. The sleep diary’s shift-roster framing builds through a misplaced night entry, the roommate collecting pens and the blank-cell callback. No medical advice was added."
     },
     {
       "file": "content/sentence_bank/long_health_services_03.json",
@@ -29005,10 +29256,18 @@
     {
       "file": "content/sentence_bank/long_health_services_03.json",
       "index": 15,
-      "status": "pending",
-      "source_sha256": "c857fe0ce2cbe86bbf5cf99b885c0efee6bcf21813983cc68df73b6aa4966760",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "4f4d34e555b3d2fc2e24dc8bfac4481ca1794cd12970724faa09ec224c0f66ff",
+      "topic_notes": [
+        "stretching_class",
+        "slow_motion",
+        "physical_comedy",
+        "uncle_character_secondary",
+        "strong_callback",
+        "standup_life_bit",
+        "not_family_or_money_centered"
+      ],
+      "notes": "Four fields rechecked after adding how the teacher gives out the towels and demonstrates the exercise. Slow-motion stretching spreads into a group freeze, the uncle pulls too hard and drops his towel, and the “rest beat” line closes the rhythm callback. Gloss and prompt match."
     },
     {
       "file": "content/sentence_bank/long_health_services_03.json",
