@@ -4,7 +4,7 @@
   "scope": "Independent manual second review of all 5,000 original source rows, including existing V2 passes, for stand-up/life-bit quality, natural Macau colloquial Cantonese, contextual tone-marked Jyutping, complete Simplified gloss and story-specific retelling prompt. Final active library target is 2,000; all source rows and drafts remain preserved.",
   "source_cards": 5000,
   "target_active_cards": 2000,
-  "active_selection_status": "2,000 current V2-pass cards selected; 816 oral pass, 1 needs_revision, 1183 pending; active-card re-audit continues, while excluded source cards remain preserved.",
+  "active_selection_status": "2,000 current V2-pass cards selected; 866 oral pass, 1 needs_revision, 1133 pending; active-card re-audit continues, while excluded source cards remain preserved.",
   "cards": [
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -14350,74 +14350,116 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 0,
-      "status": "pending",
-      "source_sha256": "80f21062eb1b8ebc17efbe91a8c260db669226d8c466921e73d495a486e22cd4",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "a013f84decffa9688be65ffedcf0319544e38a3f749978be8377594282e78185",
+      "topic_notes": [
+        "market_life",
+        "friends",
+        "camera_misdirection",
+        "waiting_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Street-market film assignment uses the wrong camera and muffled audio; the impatient buying-fish reminder survives. Corrected 畫面 waa6 min6 and dialogue punctuation. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 1,
-      "status": "pending",
-      "source_sha256": "971bc02ba2a41f59e9261c965995aa2dff439d6aa64072bd22eff4edd2d5057f",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "dff5bf867e737905436979ce139744f22e805829699dd2ac0fe679a993ef01d1",
+      "topic_notes": [
+        "market_life",
+        "roommates",
+        "snail",
+        "unwashed_dish_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: Rainy kale shopping reveals a snail; the roommate studies its leftovers while his own dish is unwashed. Corrected cooking phrasing, crouch mau1 and sink pun2; all four fields reviewed."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 2,
-      "status": "pending",
-      "source_sha256": "4469e93b0f3902f24334f402427a5dc8514e9e041b91af78353ca2244ebe8733",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "b1ae5b37deefb862a24eb1851dfc85bfcd783b7e2b67095285b90c38d2792cef",
+      "topic_notes": [
+        "community_choir",
+        "fruit_selection",
+        "rhythm_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Orange-tapping continues into choir rehearsal as the singer forgets to put the bag down; finally tasting resolves the pretend sound test. Corrected weight cung5 and Simplified prompt. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 3,
-      "status": "pending",
-      "source_sha256": "f18d6c99c9590883e569f10c9fa6e0228136de6f144441244833ad8bef9b9861",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "a2dde47de650cd71c3e0e3a0cd617a4be0b76f735394f4cfc42177722e8e8d0d",
+      "topic_notes": [
+        "dog",
+        "shopping_bag",
+        "scent_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: The dog follows a meat-scented shopping bag, including its later trip to the laundry. Plastic is put away; dog mat din3 and know dou6 corrected; complete four-field review."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 4,
-      "status": "pending",
-      "source_sha256": "405ee6f0af9cad6d9c24450a4ea7d580a4730311169ac17ccb8a5014f4c7522f",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "a19bf37478b60417d0de0eec01d37a2e4b107e299047a3b6689a100aba8b7a38",
+      "topic_notes": [
+        "neighbours",
+        "broken_lift",
+        "heavy_bag",
+        "avoiding_effort"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: A broken lift makes neighbours carry rice; a hand-change misunderstanding, buried key bag and forgotten sweet potatoes escalate the physical effort. Noun/classifier 袋 readings checked. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 5,
-      "status": "pending",
-      "source_sha256": "74f4c2b9d86687ae13942e01a4d21f83f17b543a3650b825fcad5e14ba859b08",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "82053af174e4a383c0ef91bbcb191eebd3fce1d6ce926e079dd5851a482a8376",
+      "topic_notes": [
+        "market_life",
+        "drawing",
+        "changing_subject",
+        "friends"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: The stallholder turns a cuttlefish, leading a drawing student to add too many legs; repeated drawing delays end when the cooked subject is eaten. Clarified who turns the fish and 簿 bou2. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 6,
-      "status": "pending",
-      "source_sha256": "11429f0baf76e5075c467e239dad1332364580e7c40b3902a685172c4f0639fd",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "f890c0497d7e4d5ea8e31736bc5711ab52f70a3cc163807f38eed9ecac7088f2",
+      "topic_notes": [
+        "roommates",
+        "eggs",
+        "overprotective_carrying"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: An overcareful egg buyer remains tense even after safe delivery and ordinary cooking begins. Replaced formal 全部完整 with 隻隻都冇爛; full contextual Jyutping/gloss/prompt review. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 7,
-      "status": "pending",
-      "source_sha256": "5aa98f0a308d0cd1e57174f0680be9a4187f23befe2ee40ec2d92e6db62da71f",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "e246219b6b3e159f1a928393f8a84c57d32cbda28a28d50f4b40e60c61a0c322",
+      "topic_notes": [
+        "roommates",
+        "tomato",
+        "closeup_misidentification",
+        "bean_sprouts_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: A close-up of germinated tomato seeds is mistaken for bean sprouts; a real bag of sprouts prompts the next-day callback. The anomalous tomato is set aside, with no eating-safety claim. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 8,
-      "status": "pending",
-      "source_sha256": "701be027a0340343abc500bd0f24074e1a682a13e7a8d057be0ccc4f8d06df8f",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "2f0e91eb116d9bcaefdcc0350fba603d057c5ea891746acdcee4d2c809e55d60",
+      "topic_notes": [
+        "roommates",
+        "bitter_gourd",
+        "saving_face",
+        "water_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: A bitter-gourd enthusiast keeps disguising water breaks; his earlier warning against sneaking bites becomes a warning against sneaking drinks. Refined colloquial worry phrasing. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -14445,10 +14487,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 11,
-      "status": "pending",
-      "source_sha256": "71a15dd63798ebe6f8b32aa67c25f163874c0c967920af1fae4de0e8eb70571f",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "ef8befb2571845ce65dfa7f994f65e71578680c5178bb91a2cf5678ade1acb25",
+      "topic_notes": [
+        "restaurant",
+        "bus_watching",
+        "child_character_secondary",
+        "misheard_question"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: A child watching buses answers a headcount with a bus number; a neighbouring diner calls buses so the child can eat. Parent is supporting context. 趷高腳 gat6 checked with CantoDict. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -14472,26 +14519,42 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 14,
-      "status": "pending",
-      "source_sha256": "82170be023773237a95b379201db5d709db868ba4d340d9a099aa6d2ca741ee3",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "9297712163d45ad6ff35d7ebf8f23aada0bcf82eda8825bf8a5a1dc4349b2300",
+      "topic_notes": [
+        "restaurant",
+        "child_character_secondary",
+        "parent_child_scene_sparse",
+        "menu_map",
+        "waiting_email"
+      ],
+      "notes": "2026-11-08 active-2000 batch24: A neighbouring child makes an island map from a menu and sugar packets; a spoon tilts the tea, the narrator helps wipe up, and the eaten bun contrasts with the still-unanswered email. Retained a limited parent/child scene. Replaced formal original narration with colloquial language and precise 擘 maak3; prompt now says tilted, not overturned. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 15,
-      "status": "pending",
-      "source_sha256": "ba5e0c89a5162c2be32c8946240e6264a4be92341c6e08eda3c7823a83555a4e",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "8603eb5396630bfbd91cac2ae00b2118e8b94d71291a10c43dd6f38156269dd3",
+      "topic_notes": [
+        "friends",
+        "leftovers",
+        "portion_expansion",
+        "book_borrowing_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch24: Half a portion of leftover rice is refrigerated, then expanded with egg and vegetables while a friend borrows a book; another container nearly starts the cycle again. Removed the paper-shrimp supervisor and family duty chart. Four fields checked, 襟食 kam1 sik6 retained. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 16,
-      "status": "pending",
-      "source_sha256": "ac6bbca1817457ce5f47d4f0c3e25d4ec792c5c0363b18b44760efe4fed9af2f",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "d47cb9266c29e9898fa27025ec9dc6f36c23d76f477c880165c61cad75c828b3",
+      "topic_notes": [
+        "friends",
+        "food_allergy_context_secondary",
+        "choice_paralysis",
+        "anything_is_fine_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch24: Retained the peanut-allergy context and declining a dish when kitchen contact cannot be guaranteed. The joke is the accompanying friend who says anything is fine yet struggles to choose. Full gloss corrected to ice-pop cabinet for 雪條櫃. 乳酪 jyu5 lok6 verified as a colloquial reading. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -14519,26 +14582,40 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 19,
-      "status": "pending",
-      "source_sha256": "33dfc4d9c8afa088093eea524e05f1788c7ca048c8b0c2819295bb24eadcd2c3",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "edc553df3809cf121de3a6ffd59a3ddfbd0f1e1a75a3a1eae7406abffb4f4790",
+      "topic_notes": [
+        "food_tasting",
+        "peer_pressure",
+        "milk_tea"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: Milk-tea tasters keep changing their cups to sound knowledgeable, then prefer the original cup. Taste-heavy cung5 and matching full gloss checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 20,
-      "status": "pending",
-      "source_sha256": "210e32230f98ff745a7113dc80dfb40f9c63fd8e98ddd2b7e6efc438c4147ee7",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "6bae3bd1d50fe138b9d2e79ba1fc028afb28251d732561ce08eb8b7c88d8884b",
+      "topic_notes": [
+        "friends",
+        "takeaway",
+        "table_space",
+        "presentation_vs_comfort"
+      ],
+      "notes": "2026-11-08 active-2000 batch24: A friend spreads two takeaways across restaurant-style plates, leaving no reach for sauce or room for water. Root replaced the washing-up ending because B23 food02[16] already ends with extra dishes: the final conflict is dining space and the original takeaway-box footprint. All four fields manually revised; 點醬 dim2 zoeng3 replaces literary 蘸. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 21,
-      "status": "pending",
-      "source_sha256": "6d2ea7d15c16b3063f95dcaba94c1bb33a3fb5339ee721c160613879b4a1fa5f",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "9083233045a65e98ac55eb069350172f9ce8225eb047d2fe837ed98dbf993e36",
+      "topic_notes": [
+        "roommates",
+        "food_delivery",
+        "container_clips",
+        "opposite_failures"
+      ],
+      "notes": "2026-11-08 active-2000 batch24: The first soup container leaks from an unfastened lid; the replacement is hard to open because two rear clips are still shut. Diners eat their meal first, and the roommate keeps the box to inspect the catches. Removed the whole-family guest-of-honour framing. Natural 裝到 replaces 舀到. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -14605,10 +14682,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 27,
-      "status": "pending",
-      "source_sha256": "d68d2ef6754710cb86edf552d69d42013d1d34ec063de049007a806f921576a8",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "d512ad672e4154e8a2bbba9db45c5d6c69643bb150b7d591c77618b555569b16",
+      "topic_notes": [
+        "roommates",
+        "fridge",
+        "lost_phone",
+        "helpful_overorganisation"
+      ],
+      "notes": "2026-11-08 active-2000 batch24: A roommate uses phone light to check yoghurt dates, frees both hands, and leaves the phone in the fridge. A call finds it; next morning he shows the phone before reaching for breakfast. Clarified both following mornings, removed staff-duty/chart framing; 梳化 so1 faa2 and 乳酪 jyu5 lok6 checked. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -14637,10 +14719,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 30,
-      "status": "pending",
-      "source_sha256": "3d0b6a4703055d24824ce642e0e664b53c9c5cf477395f9f90ae6d23c281800d",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "f390bdd5aae18e97b3b2853d74da6a0ed4a687ccd6214d5806e22eabfad35ff0",
+      "topic_notes": [
+        "supermarket",
+        "trolley",
+        "scallion_callback",
+        "child_customer_secondary"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: A trolley traffic game makes scallions into an indicator; the child questions eating the light and the roommate chooses brighter soup. Child and parent are secondary; all four fields checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -14832,18 +14919,26 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 51,
-      "status": "pending",
-      "source_sha256": "1f35d71c0db1dff6462525964abbcadef7c88e13e3220f4a74d2a6ca1960219e",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "79a4eb9167e691576a3a9dd8699d3a665ad53eea05c523948ba406a3bc4d2307",
+      "topic_notes": [
+        "food_returns",
+        "friends_dinner",
+        "dumpling_lump"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: A thawed dumpling lump is returned unopened; replacement vegetarian dumplings suit a guest and the old lump becomes the birthday-cake callback. Food handling and complete four-field alignment reviewed."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 52,
-      "status": "pending",
-      "source_sha256": "caee823997b037c5169c1e8d01c90b5d3d743d7c86baee3c20004245d9b9c877",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "0f914d11ca8c49f77ae9619030e1fc6e228d531179d4231ad1c176eff88f853d",
+      "topic_notes": [
+        "food_returns",
+        "detergent_leak",
+        "scent_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: A leaking detergent bottle and affected eggs are returned, then replaced and carried separately. Rain scent gives way to egg aroma; no contaminated food is eaten. Four fields reviewed."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -14880,18 +14975,28 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 57,
-      "status": "pending",
-      "source_sha256": "f3a7caf52c09789ce6ef2e5c172e1b52ece8ed26c73b5780d6a29e747627929c",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "61b11a15b1f146eb070c13754e18a5ebddfed43064d4c0b6d2dbae816310cbc5",
+      "topic_notes": [
+        "workplace",
+        "breakfast",
+        "oats",
+        "unhelpful_advice"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: Correct soy milk still makes overly thick oats after a colleague urges a larger portion; his reserved coffee milk is used while he holds the bowl. Behavioral escalation replaces meeting-record prose. Four fields checked; haak1 valid colloquial reading."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 58,
-      "status": "pending",
-      "source_sha256": "c7c155381911b0c8ccc1aa2b3f7d927b78b130bf8a9fbd67ba1b1351e4372f8f",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "27b27b5cbf0c80382ee54af52503e55832b06fb5f927b67cdb6b994193d02ce6",
+      "topic_notes": [
+        "friends",
+        "moving_home",
+        "food_photo",
+        "forgotten_rice"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: A replacement strawberry box reaches an unpacked new flat; a deep bowl causes fruit stacking, photo delays and a forgotten rice-cooker plug. Changed to 掛住; four fields reviewed."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -14959,18 +15064,27 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 66,
-      "status": "pending",
-      "source_sha256": "1ac30c33ad2420355a1d4cf04f1ba7dbe473e4639801dd78d349704e4c7b132f",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "fc79f705443635d28c3b130d73d31cc1e12cacec7e4cdec6862e12b3bfe042f2",
+      "topic_notes": [
+        "secondhand_context_secondary",
+        "dorm_life",
+        "rice_cooker",
+        "hospitality_trap"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: A rice-cooker test draws roommates carrying bowls; the seller ends up helping cook another pot. No interview/personification template; loeng4 bui1 checked with CantoDict. Full four-field review."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 67,
-      "status": "pending",
-      "source_sha256": "7db1426e45ceea4b88090b74a5d7d82ddc6449987c18dd1ae2d47ff4749554aa",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "5696c6de6b744c77e43338abfc74dfa7c735ee3b6b7e5fd67d60952246d1b3a8",
+      "topic_notes": [
+        "secondhand_context_secondary",
+        "hiking",
+        "capacity_vs_weight"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: Two ice packs displace six cans; a colleague volunteers backpack capacity then discovers the weight and buried water. No claim that backpack drinks stay cold. 揹 corrected to me1; full four-field review."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -15247,18 +15361,27 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 1,
-      "status": "pending",
-      "source_sha256": "2f0ed604bec62d633b27d8ded62924bfb2d85443a8a03a95d7ab5ace9312570a",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "2ac6d9d8897b2154129b8ecb5e6ed1f69a8cc689128e7af2354ef8758c26a5a0",
+      "topic_notes": [
+        "friends",
+        "cooking",
+        "tofu",
+        "false_confidence"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Chopstick bravado with cooked tofu makes two people repeatedly move the plate and chopsticks the wrong way. Replaced circling a stove with believable lateral movement; 時間 gaan1 and final spoon/fish-ball callback checked. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 2,
-      "status": "pending",
-      "source_sha256": "d1a291b5c6bd4ce5f1f17ab8e12f879b62216ee5ead2aa7ddab0aa8b664754a2",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "81e3b47fcf5997829ceeadef7eb144629b64c7795135fad43e9aa76599ceb6d7",
+      "topic_notes": [
+        "friends",
+        "hotpot",
+        "underestimated_vegetables"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Hotpot diners who insist they mainly eat meat repeatedly pad each bite with lettuce; the empty basin, ginger mistaken for a leaf and shopping photo expose the shortage. 撈 laau4 and table toi2 corrected. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -15279,18 +15402,28 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 5,
-      "status": "pending",
-      "source_sha256": "d8abcd6c681e1875aebdce7fa8370d5f95b5d7e3cd2b121c5c39f8234147f752",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "103344940234bc660b863c1f23434854506e3ab1b9358a5765ada55a151f58dd",
+      "topic_notes": [
+        "friends",
+        "cooking_tutorial",
+        "squid",
+        "saving_face"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: A video-taught squid-cutting boast delays dinner; inconsistent cuts, repeated photo positioning and the thick-piece excuse expose the gap between demonstration and result. 嚟 pronunciation checked. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 6,
-      "status": "pending",
-      "source_sha256": "504c955201f8e85f00f595eb296d88d2b8b03bfc638c2beffb2e133bc65be02d",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "a866b42672339ad3438733d020b714e088955c27f7a546eae8d971f8a1b3e4ee",
+      "topic_notes": [
+        "workplace",
+        "lunch",
+        "chilli_sauce",
+        "self_justification"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: A colleague claiming a mild diet repeatedly relocates then empties the chilli pots, blaming the small pots he requested. Workplace behavior, no family or money conflict. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -15303,10 +15436,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 8,
-      "status": "pending",
-      "source_sha256": "8f411acfbc32a484a852d43a8ed5990b397731e5780797970bab1d3eec953079",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "6798f7e70b8c077a205ed80bfab4430401c655a6667d746b89e54c83f995fa80",
+      "topic_notes": [
+        "friends",
+        "table_space",
+        "mussels",
+        "decoration_vs_use"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Flowers occupy the promised large plate; the shells reveal the difference between a food photo and eating. Clear bowl/plate references replace the earlier grading and food-advice mechanism. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -15319,10 +15457,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 10,
-      "status": "pending",
-      "source_sha256": "6f5fe49bb5d2dd4a466eceff9747280434c02c1e38e9a38cff1473bae2050998",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "fb853f8b08065d4ff65c03af6fbd2123a819f706a3ebe7a774a5417386007438",
+      "topic_notes": [
+        "market_life",
+        "forgetfulness",
+        "remote_call_misunderstanding"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: A fish buyer boasts of memory then repeatedly asks questions along the route; calling across the aisle confuses other buyers, and a finished-food photo reassures the stallholder. Removed ATM process and money plot. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -15377,10 +15519,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 16,
-      "status": "pending",
-      "source_sha256": "b37c5ac759c517389e45dead7fac6097e1eef2f7478baa9661bacf2d4be3a9c2",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "dd1aa95ad1ed6b139909722b53b5630e52f71e8b86a4d796aaaa6088013b6fa3",
+      "topic_notes": [
+        "workplace",
+        "papaya_dessert",
+        "overfilled_edible_bowl",
+        "extra_dishes_outcome"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Rejected the overprotective-papaya draft because it duplicated food01[6] carrying eggs. Rewrote around using hollow papaya as a bowl: overfilling with milk/sago creates spills and extra dishes. Clean zeng6 and sink pun2 corrected; root independently read all four fields. Domestic-cleanup outcome overlaps other cooking stories, but saving dishes by edible bowls and displacement by added filling are the specific mechanism. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -15616,10 +15763,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 39,
-      "status": "pending",
-      "source_sha256": "a8b6507d0583c0d836bc3a8bc41eb21a6424938501bddecaee731280d218d1ef",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "35c4c02889f72efaa4cbd3fdad0629fdc9da00d35e7a1d28a209cc0d97d521aa",
+      "topic_notes": [
+        "coworkers",
+        "cafe",
+        "proofreading",
+        "hungry_typo"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Proofreading expands across a cafe table until hot rice cannot land; a hungry typo turns meeting room into meeting meal. Removed contradictory payment flow; 伙計 fo2 gei3 corrected. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -35936,14 +36088,14 @@
       "file": "content/sentence_bank/long_health_services_10.json",
       "index": 78,
       "status": "pass",
-      "source_sha256": "3a70718df8fb1714cd607c5b5151cbb1752aa49f276ec6c3d91d6fb2f5eb4553",
+      "source_sha256": "bbb63e9a0dcb42be12c33c4b8cc5c67a6d0a7223cd5945363a01a5eb8262b601",
       "topic_notes": [
         "video_consultation",
         "camera_setup",
         "cat_interruption",
         "not_family_or_money_centered"
       ],
-      "notes": "B21 resumed final, 2026-11-08: root manually checked all four fields and incorporated independent read-only review. Phone framing, a jumping cat and a connection break develop the consultation scene; the same doctor makes the closing cat joke before ending the call. Final alignment 241/241; natural Cantonese, complete Simplified gloss and story-specific Simplified prompt rechecked."
+      "notes": "B21 resumed final, 2026-11-08: root manually checked all four fields and incorporated independent read-only review. Phone framing, a jumping cat and a connection break develop the consultation scene; the same doctor makes the closing cat joke before ending the call. Final alignment 241/241; natural Cantonese, complete Simplified gloss and story-specific Simplified prompt rechecked. 2026-11-08 batch22 limited correction: 扶穩手機 fu4 wan2 sau2 gei1 (CUHK); already-passed card, not a new pass."
     },
     {
       "file": "content/sentence_bank/long_health_services_10.json",
@@ -37749,66 +37901,103 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 0,
-      "status": "pending",
-      "source_sha256": "46ae1e42a160471c5d040e416ec663926a3f3064b3783a8535520e64879add7d",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "d06fa8c19e864492a256037c6da4eaf32a7f280fc56542b6df3233a91339aae2",
+      "topic_notes": [
+        "roommates",
+        "moving_home",
+        "group_photo",
+        "no_faces_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Roommates attempt a farewell photo; an elbow displaces the phone after a countdown, leaving only feet. Marking positions and removing tape pay off in the faceless group icon. Corrected physical phone contact and 踎 mau1. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 1,
-      "status": "pending",
-      "source_sha256": "9089f1b1d1228b5f4ee793d6a2bec03f6931a1fdfa777d0219480c7250c0756c",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "0896d46787542a9a50537749850ad4ac9e06e24795e1c3414bfcf0a704036892",
+      "topic_notes": [
+        "roommates",
+        "paper_planes",
+        "rediscovered_notes"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Paper-plane competition turns into recovering recipes and notes from used paper; the box stays empty until the narrator carries a plane into it. Removed unsupported return-home phrasing and formal 留下. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 2,
-      "status": "pending",
-      "source_sha256": "f2c4137206da014337aa31ce72886284a988a3aed824a1d19cf1e02a35be34e9",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "7cbb99230d3a138f13b67205e08eabc794692fe8397747b47ed4040c6f6e339d",
+      "topic_notes": [
+        "roommates",
+        "storage",
+        "nested_bags",
+        "lost_object_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Nested bag storage hides the organiser’s own cloth bag; after retrieving it he checks even an empty bag. Corrected same-morning timeline and garlic-storage purpose; natural 一個袋裝晒. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 3,
-      "status": "pending",
-      "source_sha256": "b7dd7b186602ab47c853bff0d3525c2a27efa3d037435eb93e4da76e9b2d3953",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "83d7a51018cb95a3428e3b3e069d39b96a06dec3437e137219fe14d2b1d4807b",
+      "topic_notes": [
+        "roommates",
+        "hosting_friends",
+        "table_setting",
+        "self_omission"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Overprecise table alignment and placing chopsticks beneath inverted bowls add work and omit the organiser’s own bowl. Removed impossible falling spoon and hidden outer label; 慳 haan1 corrected. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 4,
-      "status": "pending",
-      "source_sha256": "3e4ccbb63a6fe0b4980918891f28d4392b00b668a50cd3d644192214b220f928",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "44ce18421c1400116f759826da1544b5bd67711dded4253af486815464629d36",
+      "topic_notes": [
+        "roommates",
+        "soap_pump",
+        "misdirected_squirt"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Two people coordinate a blocked soap pump, get soap on both their clothes and reuse the offer to wash along with their hands. Contextual sink pun2 and dirty zou1 corrected. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 5,
-      "status": "pending",
-      "source_sha256": "30731540635779ea1849f6928ffd41a5a54a4b4a591998548cc96932fe7d7b93",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "34ed7be077f4c2ea0317ee0a06d7273db0a2737061f3ad1a3b5eeab7ff1d1714",
+      "topic_notes": [
+        "roommates",
+        "laundry",
+        "socks",
+        "conditioned_reaction"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Clipping socks together loses the whole pair behind a shirt because the helper tightens the clip over both items; next morning a call makes him inspect his shirt. Physical attachment and timing clarified. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 6,
-      "status": "pending",
-      "source_sha256": "3f360e1918d94482b31ae91d290fb0663eeedc1b0576b7b3cbb252a47c51320c",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "2ea5b37cdb7a3b0443b53a5a0624011b9222b594780c3f3ab8a2402c226c6460",
+      "topic_notes": [
+        "roommates",
+        "visiting_friends",
+        "umbrellas",
+        "football_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Moving wet umbrellas into the kitchen blocks the water jug; the organiser gets soaked and misses the goal while changing. Three spectators plus the absent roommate are counted consistently. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 7,
-      "status": "pending",
-      "source_sha256": "9fdb313de2fed8c267987ef99b287bb44779873231c66b6e9800c94736506919",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "b1957e691e0b4a953d45995a4fe1e04c3f8b6ad47d33d10bf92d87cbc98a157e",
+      "topic_notes": [
+        "roommates",
+        "window_cleaning",
+        "reflection_misidentification"
+      ],
+      "notes": "2026-11-08 active-2000 batch23: Two-sided window wiping gives way to chasing a bookcase reflection. Narrator returns indoors before identifying it, then opening the window moves the reflection; 趷 gat6 checked. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -37909,10 +38098,14 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 20,
-      "status": "pending",
-      "source_sha256": "30a2014d34fd821b9ccba1be169804f432d7f9cad07e23d10ab8520cdb2b2f52",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "8af5a7091f8730f3f399ffd256205a4611319b667a81de894cc54003f41435d7",
+      "topic_notes": [
+        "rental_context_secondary",
+        "sliding_door",
+        "self_justification"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: The landlord keeps explaining away a sliding door that will not stay closed; natural 拉埋 and 踎 plus contextual zik6/gaam1/zak1 corrected. Four fields reviewed."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -37933,18 +38126,26 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 23,
-      "status": "pending",
-      "source_sha256": "869b59b06ae12375d7c35cbb61912716090e78d71ff46fca81fc3fe4258d7bbf",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "618da93c2fb7442540a39c828a1a5e0341531a2fdac093c0478356955c836913",
+      "topic_notes": [
+        "roommates",
+        "bathroom",
+        "rhythm_miscommunication"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: A mouthful of toothpaste leads a roommate to answer timed knocks with knocks; the waiting pair turn the exchange into music and ignore the timer. Rewrote all four fields."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 24,
-      "status": "pending",
-      "source_sha256": "57bc222e8215b5b09173524962179d0a8c2c86bc2a9d9693d0ac6402bbff0d5b",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "00b9c98e9decb5f8ee77893fa5f3b8e47523a962df721780a4da2fbc61acc191",
+      "topic_notes": [
+        "roommates",
+        "motion_sensor_light",
+        "gesture_miscommunication"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: A food-carrying tenant waves at the corridor sensor; others mistake gestures for a cockroach alert. Four people then test the lamp while the meal cools. Rewrote all four fields and corrected headcount."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -37957,34 +38158,52 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 26,
-      "status": "pending",
-      "source_sha256": "cf7d8c2a1aeabf32b1b94148b42486f40270f7b21ca7e641a954d846ace0c63a",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "1aae605230650750f62b90c3de587ec8de3635d29b7b8a44baef94a7e249c9a4",
+      "topic_notes": [
+        "roommates",
+        "suction_shelf",
+        "misdiagnosed_weight"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: A suction shelf slips even after its bottles are removed; the tile seam, not the shampoo weight, is the cause. Natural colloquial object names and contextual kei4/gong1/juk1 checked."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 27,
-      "status": "pending",
-      "source_sha256": "c83ed0ca06767a42f8209e4985505c2e17968f1aa3202ed90643d6ab01972c1d",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "fdeaa546fe3efa3b68d16e7c341bc3d6d9d0dc19c2d348cb1b8271c203993dd6",
+      "topic_notes": [
+        "roommates",
+        "hot_room",
+        "chocolate_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: A west-facing room overheats chocolate, phone and roommate; they chase shade into the hallway and watch the chocolate recover. Colloquial phrasing and contextual zou1/toi2/daan6/co5 corrected."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 28,
-      "status": "pending",
-      "source_sha256": "c187119fa98c63b03517a9d3d452a223ec5cd07fc6694313253394d4c17da9d0",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "0f4d1f00c31ebd440201f561299581ede40ef331fa7936a61b7bfaa34b3e6d74",
+      "topic_notes": [
+        "neighbours",
+        "treadmill",
+        "vibration",
+        "still_audience_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: Treadmill vibration makes a downstairs cup move; a mat and a phone check establish a coherent upstairs/downstairs test, followed by next-evening stretching. Complete hand-authored Jyutping and four-field review."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 29,
-      "status": "pending",
-      "source_sha256": "e44f98a02157b8ee4a69c9341a197330acff373176d0cf7e0c53cd7489791844",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "96d8aa60f16664649340add57055d3f479b92550576580b1e231662189178d1d",
+      "topic_notes": [
+        "roommates",
+        "shoe_cabinet",
+        "measurement",
+        "slippers_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: A cardboard shoe-cabinet model exposes missing door clearance; even after the correct replacement, loose slippers trip the planner. Natural measuring phrasing and dat6/caa1/doi2 reviewed."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -37997,10 +38216,14 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 31,
-      "status": "pending",
-      "source_sha256": "ed95d0cab91b0e8732b863867746ed0cd21dd01641028c0365a4d21af04df34a",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "3d9b0c470777f55e4c3f1dbbda9d139466cb6c827be29fdd093c94deb1df09cd",
+      "topic_notes": [
+        "roommates",
+        "chore_rota",
+        "self_serving_memory"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: A self-serving reconstruction of a lost chore rota gives the narrator four days off; the roommate becomes a dishwashing supervisor until an original photo restores the rota. Precise Jyutping and complete gloss checked."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -38021,10 +38244,14 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 34,
-      "status": "pending",
-      "source_sha256": "6b3bae405c17ddba1b47b9cfec8ba2f369800e73217159002ea92480be78f6d4",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "2c143746ebc20fecc9ae3aadc39b3db207a8c8b74e7f00f90a10e7697b3ec1f0",
+      "topic_notes": [
+        "roommates",
+        "moving_home",
+        "echo_imitation"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: A roommate imitates an empty-flat echo from the kitchen; the landlord notices and draws out the mimic, who then covers his mouth. Replaced 躲/故意 with 匿/專登 and checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -38186,10 +38413,15 @@
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 51,
-      "status": "pending",
-      "source_sha256": "bc315d8092fad34adff49677e5a567c4e79a2fac0b35860ffb5d2d752f015842",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "b68f1cb7e6380e9d3d22302cfddd50d7822dcd6c09f75a0b454ec783e764e51e",
+      "topic_notes": [
+        "neighbours",
+        "building_maintenance",
+        "clean_patch_escalation",
+        "breakfast_callback"
+      ],
+      "notes": "2026-11-08 active-2000 batch22: A brighter replacement lamp exposes wall grime; competing clean patches trap two neighbours in wiping the landing. The narrator finally takes the lift for tea, contrasting looking energetic with having energy. Root rewrote and reviewed all four fields; original automatic-switch contradiction removed."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",

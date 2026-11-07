@@ -10280,72 +10280,72 @@
       "index": 0,
       "status": "pass",
       "baseline_sha256": "cb4e96c423ff770c5fc2a5ba6b03d7b571d5ef91c627382eac0800a017e6f2ab",
-      "v2_sha256": "80f21062eb1b8ebc17efbe91a8c260db669226d8c466921e73d495a486e22cd4",
-      "notes": "The daughter’s fish interview turns into a street-side “guest” segment as both stallholders enter the shot; at home the missing fish footage makes the assignment’s “neighborhood interview” unexpectedly count two stallholders, and the closing callback casts the fish as the silent star. Main agent checked sentence, hand-aligned Jyutping, full gloss and story-specific tip; category and nonlanguage metadata retained."
+      "v2_sha256": "a013f84decffa9688be65ffedcf0319544e38a3f749978be8377594282e78185",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Street-market film assignment uses the wrong camera and muffled audio; the impatient buying-fish reminder survives. Corrected 畫面 waa6 min6 and dialogue punctuation. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 1,
       "status": "pass",
       "baseline_sha256": "971bc02ba2a41f59e9261c965995aa2dff439d6aa64072bd22eff4edd2d5057f",
-      "v2_sha256": "971bc02ba2a41f59e9261c965995aa2dff439d6aa64072bd22eff4edd2d5057f",
-      "notes": "Pass: the leafy greens hide a snail, the daughter panics while the father gently relocates it, and her “小客人” remark lands as the family nearly burns the next pan. The physical sequence is coherent; the complete gloss and retelling tip match the scene, and the Jyutping was read against the Cantonese text."
+      "v2_sha256": "dff5bf867e737905436979ce139744f22e805829699dd2ac0fe679a993ef01d1",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. Rainy kale shopping reveals a snail; the roommate studies its leftovers while his own dish is unwashed. Corrected cooking phrasing, crouch mau1 and sink pun2; all four fields reviewed."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 2,
       "status": "pass",
       "baseline_sha256": "84394e390ce8fb41681f827d19509dfce2b26105daf8a043d636cbeeb17ff9bc",
-      "v2_sha256": "4469e93b0f3902f24334f402427a5dc8514e9e041b91af78353ca2244ebe8733",
-      "notes": "Root rewrote and individually reviewed all four language fields against the clarified comedy gate. The father’s escalating orange-tapping “audition” recruits the market, then one runaway orange gets its own entrance; the final three-part line callbacks to the scene. Physical path through the fish stall is clear. Gloss covers each event; tip follows the actual sequence. Hand-authored Jyutping was checked against each written character and tones; no uncertain readings."
+      "v2_sha256": "b1ae5b37deefb862a24eb1851dfc85bfcd783b7e2b67095285b90c38d2792cef",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Orange-tapping continues into choir rehearsal as the singer forgets to put the bag down; finally tasting resolves the pretend sound test. Corrected weight cung5 and Simplified prompt. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 3,
       "status": "pass",
       "baseline_sha256": "84405049190c1fa5a103c0385b984a32991a59ac85b67efdce7dcc35704d96e9",
-      "v2_sha256": "f18d6c99c9590883e569f10c9fa6e0228136de6f144441244833ad8bef9b9861",
-      "notes": "Root reworked and reviewed all four fields. To keep the dog’s action physically clear and safe, the empty bag is caught between its mouth and chair back; it drags the chair and makes noise, then the family quickly checks it. Sister’s apron snags while she catches the dog, and Dad’s delivery-worker line callbacks to the dragging. Jyutping manually reviewed in context; gloss/tip match; metadata preserved."
+      "v2_sha256": "a2dde47de650cd71c3e0e3a0cd617a4be0b76f735394f4cfc42177722e8e8d0d",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. The dog follows a meat-scented shopping bag, including its later trip to the laundry. Plastic is put away; dog mat din3 and know dou6 corrected; complete four-field review."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 4,
       "status": "pass",
       "baseline_sha256": "2263782813495f46b40401e05ef83d90b57de02b1f1a183791502b3dd645e16e",
-      "v2_sha256": "405ee6f0af9cad6d9c24450a4ea7d580a4730311169ac17ccb8a5014f4c7522f",
-      "notes": "Root reworked the candidate’s ambiguous location: Dad stays below directing while the bag reaches the apartment; an upstairs voice confirms delivery, so the referee realizes only the rice went up. Individually reviewed all four fields; the relay escalates from Dad’s failed carry to him directing neighbors, then the sweet-potato second leg forces the referee to join. Jyutping and contextual readings checked; gloss/tip match. Removed a surplus syllable in 吹哨指揮. Metadata preserved."
+      "v2_sha256": "a19bf37478b60417d0de0eec01d37a2e4b107e299047a3b6689a100aba8b7a38",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: A broken lift makes neighbours carry rice; a hand-change misunderstanding, buried key bag and forgotten sweet potatoes escalate the physical effort. Noun/classifier 袋 readings checked. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 5,
       "status": "pass",
       "baseline_sha256": "153ecdf7c1d8cf89c3f6de259e49a8f61f93f7b9cda9283525461485a6197d20",
-      "v2_sha256": "74f4c2b9d86687ae13942e01a4d21f83f17b543a3650b825fcad5e14ba859b08",
-      "notes": "Root individually re-reviewed all four fields. Reframed the child’s homework as drawing seafood so no live squid is taken to school. The stallholder gently lifts a squid in a net, warns against touching the basin, and returns it; a splash leaves ink on the open worksheet, which the child treats as an autograph. Blotting spreads the mark into calligraphy, the seller stops him from reaching toward the basin, and the child imagines the teacher recognizing a seafood calligrapher. Jyutping checked against every Han character in context; Simplified gloss covers the updated action sequence and tip matches the story. Category and all non-language metadata preserved."
+      "v2_sha256": "82053af174e4a383c0ef91bbcb191eebd3fce1d6ce926e079dd5851a482a8376",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: The stallholder turns a cuttlefish, leading a drawing student to add too many legs; repeated drawing delays end when the cooked subject is eaten. Clarified who turns the fish and 簿 bou2. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 6,
       "status": "pass",
       "baseline_sha256": "2f80f4b3bf36a1467ac659150e644383c2051805ae33959478a71d9b183d676b",
-      "v2_sha256": "11429f0baf76e5075c467e239dad1332364580e7c40b3902a685172c4f0639fd",
-      "notes": "Root individually reviewed all four fields. A cracked egg prompts the brother to become an overzealous guard; his chopstick barriers expand to block the kitchen and form a human queue, then Mom simply cooks the egg and Dad reassigns him as waiter. The empty checkpoint and final admission joke pay off the setup. Jyutping manually checked in context; gloss/tip match and metadata is preserved."
+      "v2_sha256": "f890c0497d7e4d5ea8e31736bc5711ab52f70a3cc163807f38eed9ecac7088f2",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: An overcareful egg buyer remains tense even after safe delivery and ordinary cooking begins. Replaced formal 全部完整 with 隻隻都冇爛; full contextual Jyutping/gloss/prompt review. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 7,
       "status": "pass",
       "baseline_sha256": "6f73f8a57eb8bcd410fe1702befc8b32fa819ffb3868ed19ad1658bb5e448739",
-      "v2_sha256": "5aa98f0a308d0cd1e57174f0680be9a4187f23befe2ee40ec2d92e6db62da71f",
-      "notes": "Rebuilt the sprouted-tomato food-safety explanation into the daughter’s “tomato kindergarten”: seedlings get seats, lean toward the kitchen, and the entire class graduates into soup. Market produce remains central; the class/soup callback supplies the comic reversal. Reviewed colloquial Cantonese, Jyutping (221 Han / 221 syllables), complete gloss and practice tip."
+      "v2_sha256": "e246219b6b3e159f1a928393f8a84c57d32cbda28a28d50f4b40e60c61a0c322",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: A close-up of germinated tomato seeds is mistaken for bean sprouts; a real bag of sprouts prompts the next-day callback. The anomalous tomato is set aside, with no eating-safety claim. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 8,
       "status": "pass",
       "baseline_sha256": "339621e797a1657d2757e92f9a971186d02299f6a814014a2526607612a5842a",
-      "v2_sha256": "701be027a0340343abc500bd0f24074e1a682a13e7a8d057be0ccc4f8d06df8f",
-      "notes": "Main individually reviewed all four fields and the distinct taste/bravado plot. The father publicly claims bitter melon is best bitter, drinks water after every bite, denies the obvious, then reaches for the jug again immediately after his daughter calls out the contradiction. Contextual Jyutping, complete gloss, matching retelling tip, and unchanged category/metadata checked."
+      "v2_sha256": "2f0e91eb116d9bcaefdcc0350fba603d057c5ea891746acdcee4d2c809e55d60",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: A bitter-gourd enthusiast keeps disguising water breaks; his earlier warning against sneaking bites becomes a warning against sneaking drinks. Refined colloquial worry phrasing. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -10368,8 +10368,8 @@
       "index": 11,
       "status": "pass",
       "baseline_sha256": "71a15dd63798ebe6f8b32aa67c25f163874c0c967920af1fae4de0e8eb70571f",
-      "v2_sha256": "71a15dd63798ebe6f8b32aa67c25f163874c0c967920af1fae4de0e8eb70571f",
-      "notes": "Pass: the child’s upside-down menu question starts the joke, then bus spotting turns him into a self-appointed traffic announcer, even interrupting the mother wiping his mouth. The scene escalates naturally and the staff reaction is earned; Jyutping, full gloss and tip match the events."
+      "v2_sha256": "ef8befb2571845ce65dfa7f994f65e71578680c5178bb91a2cf5678ade1acb25",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: A child watching buses answers a headcount with a bus number; a neighbouring diner calls buses so the child can eat. Parent is supporting context. 趷高腳 gat6 checked with CantoDict. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -10392,24 +10392,24 @@
       "index": 14,
       "status": "pass",
       "baseline_sha256": "deafce1658f3beb4d3481959c5778cc84ff93b5caa089f4ff55498901955f03f",
-      "v2_sha256": "82170be023773237a95b379201db5d709db868ba4d340d9a099aa6d2ca741ee3",
-      "notes": "Root reviewed the full story and four fields. The child turns the upside-down menu into an island map; the tea flood, shrinking map, rescue-bun boat and captains eating the island form a causal escalation and callback. Root changed Mandarin-like 掰 to colloquial 拗開 and rechecked the two aligned Jyutping syllables. Gloss/tip cover the complete sequence; category/metadata unchanged."
+      "v2_sha256": "9297712163d45ad6ff35d7ebf8f23aada0bcf82eda8825bf8a5a1dc4349b2300",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch24: A neighbouring child makes an island map from a menu and sugar packets; a spoon tilts the tea, the narrator helps wipe up, and the eaten bun contrasts with the still-unanswered email. Retained a limited parent/child scene. Replaced formal original narration with colloquial language and precise 擘 maak3; prompt now says tilted, not overturned. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 15,
       "status": "pass",
       "baseline_sha256": "8ca1c0cd08053c911cf5ccbb2b3be68bc22df1f06dc66e4bbe4dad3668b96071",
-      "v2_sha256": "ba5e0c89a5162c2be32c8946240e6264a4be92341c6e08eda3c7823a83555a4e",
-      "notes": "Reworked the leftover-rice scene around the brother’s paper-shrimp “waste inspector.” The sister ends its shift and hands him the washing job, then he asks for a lobster promotion with stricter oversight. The prop callback and chore handoff distinguish it from approved leftover-packing plots. Reviewed colloquial Cantonese, contextual Jyutping (Han/syllable count above), full gloss and practice tip."
+      "v2_sha256": "8603eb5396630bfbd91cac2ae00b2118e8b94d71291a10c43dd6f38156269dd3",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch24: Half a portion of leftover rice is refrigerated, then expanded with egg and vegetables while a friend borrows a book; another container nearly starts the cycle again. Removed the paper-shrimp supervisor and family duty chart. Four fields checked, 襟食 kam1 sik6 retained. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 16,
       "status": "pass",
       "baseline_sha256": "83c70213ecbb8750fbe8b277d07869ef78de79b2973f64fdb359f50879b728e6",
-      "v2_sha256": "ac6bbca1817457ce5f47d4f0c3e25d4ec792c5c0363b18b44760efe4fed9af2f",
-      "notes": "Rebuilt the restaurant scene around the new dessert: the sibling asks the waiter to confirm peanut ingredients and kitchen equipment contact, then declines it when safety cannot be guaranteed. They choose a familiar packaged snack with a clear label. Dad saves the dessert picture as his phone background; the allergy reminder turns it into a mock pending application, with an earned queue callback. Allergy precautions remain explicit and serious. Cross-screened the approved photo-based produce comparison in long_food_shopping_03[2]: that card compares package photos and ends in a shopping-bag callback; this card uses an allergy-safe order decision and approval/waiting joke. Checked sentence, contextual Jyutping, complete gloss and event-matched tip. Category and baseline digest preserved."
+      "v2_sha256": "d47cb9266c29e9898fa27025ec9dc6f36c23d76f477c880165c61cad75c828b3",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch24: Retained the peanut-allergy context and declining a dish when kitchen contact cannot be guaranteed. The joke is the accompanying friend who says anything is fine yet struggles to choose. Full gloss corrected to ice-pop cabinet for 雪條櫃. 乳酪 jyu5 lok6 verified as a colloquial reading. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -10432,24 +10432,24 @@
       "index": 19,
       "status": "pass",
       "baseline_sha256": "6e09991cd46a27944b1896ded456194dc88a239fa7708479fe051e938c5603cd",
-      "v2_sha256": "33dfc4d9c8afa088093eea524e05f1788c7ca048c8b0c2819295bb24eadcd2c3",
-      "notes": "Root reviewed all four fields. Different taste preferences escalate into a full cup of collaborative “improvements,” and everyone prefers the untouched original; the final request to talk less pays off the opinions theme. The testing/mixing sequence is coherent, no finance core; gloss and tip match. Jyutping manually checked; corrected the syllable count for 下次 (haa6 ci3). Metadata preserved."
+      "v2_sha256": "edc553df3809cf121de3a6ffd59a3ddfbd0f1e1a75a3a1eae7406abffb4f4790",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. Milk-tea tasters keep changing their cups to sound knowledgeable, then prefer the original cup. Taste-heavy cung5 and matching full gloss checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 20,
       "status": "pass",
       "baseline_sha256": "cd6cfed2abaf4dc23175ce1380fe121b37ff65d98499e073151303af77a71c38",
-      "v2_sha256": "210e32230f98ff745a7113dc80dfb40f9c63fd8e98ddd2b7e6efc438c4147ee7",
-      "notes": "The separated-sauce delivery becomes the younger brother’s miniature traffic system: chopstick barriers, “no-chili” and chili lanes, and a hand-drawn pass. The family reports in as they eat; the sauce traffic jam callback closes the scene. Distinct from approved spicy-food taste reversals and dish-sharing stories. Reviewed colloquial Cantonese, contextual Jyutping, complete gloss and practice tip."
+      "v2_sha256": "6bae3bd1d50fe138b9d2e79ba1fc028afb28251d732561ce08eb8b7c88d8884b",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch24: A friend spreads two takeaways across restaurant-style plates, leaving no reach for sauce or room for water. Root replaced the washing-up ending because B23 food02[16] already ends with extra dishes: the final conflict is dining space and the original takeaway-box footprint. All four fields manually revised; 點醬 dim2 zoeng3 replaces literary 蘸. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 21,
       "status": "pass",
       "baseline_sha256": "b210482680f0623727ae152875fe132e1cc556ba30d278342bae6621db48394a",
-      "v2_sha256": "6d2ea7d15c16b3063f95dcaba94c1bb33a3fb5339ee721c160613879b4a1fa5f",
-      "notes": "Rebuilt the spill response around over-courteous staging: the first bowl leaks, then the family lays a place at the table for its replacement and gives it a formal entrance. The sister calls it a VIP; Dad's callback that the first bowl left before sitting down earns the personification. Cross-screened approved long_family_finance_services_01[38] (a family struggles with a tight jam-jar lid; this rewrite has no container-opening gag); also checked long_home_family_08[171] (Dad waits for a neighbor's parcel while soup nearly boils over; mismatched shoes drive the gag) and [166] (delivery call mistaken for a repair visit); this card has no waiting, mistaken-recipient, address-note or container-opening plot. Checked all four fields and contextual Jyutping. Category and baseline digest preserved."
+      "v2_sha256": "9083233045a65e98ac55eb069350172f9ce8225eb047d2fe837ed98dbf993e36",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch24: The first soup container leaks from an unfastened lid; the replacement is hard to open because two rear clips are still shut. Diners eat their meal first, and the roommate keeps the box to inspect the catches. Removed the whole-family guest-of-honour framing. Natural 裝到 replaces 舀到. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -10496,8 +10496,8 @@
       "index": 27,
       "status": "pass",
       "baseline_sha256": "a650f9de15ad286b3e679a547f710fb05e1b8c12720bb7fac4b75922b3eda85a",
-      "v2_sha256": "d68d2ef6754710cb86edf552d69d42013d1d34ec063de049007a806f921576a8",
-      "notes": "The sister turns expiry-date rotation into a yogurt “shift roster,” with the older carton on duty first and blueberries as backup. Dad tries to skip the queue for the newer carton; the “clocking out on time” stamp and next-shop callback complete the office-roleplay gag. Compared with approved `long_food_shopping_07.json` index 25 (strawberry selection and family fruit tasting), `long_food_shopping_13.json` index 1 (blueberry pancake guessing game), and `long_family_finance_services_12.json` index 36 (bulk coffee saving/expiry arithmetic); the mechanisms differ. Reviewed colloquial Cantonese, contextual Jyutping, complete gloss and practice tip."
+      "v2_sha256": "d512ad672e4154e8a2bbba9db45c5d6c69643bb150b7d591c77618b555569b16",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch24: A roommate uses phone light to check yoghurt dates, frees both hands, and leaves the phone in the fridge. A call finds it; next morning he shows the phone before reaching for breakfast. Clarified both following mornings, removed staff-duty/chart framing; 梳化 so1 faa2 and 乳酪 jyu5 lok6 checked. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -10520,8 +10520,8 @@
       "index": 30,
       "status": "pass",
       "baseline_sha256": "ede9ee0c30064a1b274f3161b5cf293f45ebc73ad884d08c6ad97d75e0a2b105",
-      "v2_sha256": "3d0b6a4703055d24824ce642e0e664b53c9c5cf477395f9f90ae6d23c281800d",
-      "notes": "The child’s tiny shopping trolley meets the narrator’s cart in two narrow aisles, turning repeated right-of-way into a traffic jam. A scallion becomes a turn signal, the child directs the checkout line, and Dad’s request for another soup returns as a request to consult the “traffic officer” about vacation. Grocery list and tomato-chicken soup remain central. Screened against approved cart/trolley stories; no matching supermarket right-of-way plot. Reviewed Cantonese, contextual Jyutping, complete gloss and practice tip."
+      "v2_sha256": "f390bdd5aae18e97b3b2853d74da6a0ed4a687ccd6214d5806e22eabfad35ff0",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. A trolley traffic game makes scallions into an indicator; the child questions eating the light and the roommate chooses brighter soup. Child and parent are secondary; all four fields checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -10688,16 +10688,16 @@
       "index": 51,
       "status": "pass",
       "baseline_sha256": "4bd4b337cec3b143facde190747492bedba7651e61219f8a61093898a8ffff7d",
-      "v2_sha256": "1f35d71c0db1dff6462525964abbcadef7c88e13e3220f4a74d2a6ca1960219e",
-      "notes": "A roommate spots a leaking frozen-dumpling pack; store staff find several packs thawing in a damaged freezer section and replace it. A friend changes the filling request, and the group jokes that the dumplings had the biggest twist because they returned to the freezer twice before cooking. Roommate/friend interaction and a callback to the product’s round trip. All fields and contextual Jyutping reviewed."
+      "v2_sha256": "79a4eb9167e691576a3a9dd8699d3a665ad53eea05c523948ba406a3bc4d2307",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. A thawed dumpling lump is returned unopened; replacement vegetarian dumplings suit a guest and the old lump becomes the birthday-cake callback. Food handling and complete four-field alignment reviewed."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 52,
       "status": "pass",
       "baseline_sha256": "0be3ad24ce59af4e7595f947f47b8958e4b8b779517324ee9e1faedb79d94832",
-      "v2_sha256": "caee823997b037c5169c1e8d01c90b5d3d743d7c86baee3c20004245d9b9c877",
-      "notes": "Rewritten as a supermarket return after detergent leaks into the egg bag. The shopper documents the damage, staff separate contaminated goods, replace the eggs and refund detergent; the “breakfast ingredient” and “sous-chef” lines callback to the mixed bag. Public non-family scene; read and checked all four fields and contextual Jyutping; category and metadata preserved."
+      "v2_sha256": "0f914d11ca8c49f77ae9619030e1fc6e228d531179d4231ad1c176eff88f853d",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. A leaking detergent bottle and affected eggs are returned, then replaced and carried separately. Rain scent gives way to egg aroma; no contaminated food is eaten. Four fields reviewed."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -10736,16 +10736,16 @@
       "index": 57,
       "status": "pass",
       "baseline_sha256": "fa0a628b42e5339998c5b307eedae7c831f43a599984237e662e6903bacaa023",
-      "v2_sha256": "f3a7caf52c09789ce6ef2e5c172e1b52ece8ed26c73b5780d6a29e747627929c",
-      "notes": "Kept the soy milk sealed through the same-price exchange and made the shopkeeper’s “早晨加油” sticker earn its place: the office coworker turns “加油” into meeting encouragement, then extends “微甜” to the morning meeting and requests an on-time finish. The receipt sits beside the “sweetest meeting record” callback. Compared with other retail-return stories; the office breakfast/morning-meeting wordplay is distinct. Reviewed colloquial Cantonese, contextual Jyutping, full gloss and practice tip."
+      "v2_sha256": "61b11a15b1f146eb070c13754e18a5ebddfed43064d4c0b6d2dbae816310cbc5",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. Correct soy milk still makes overly thick oats after a colleague urges a larger portion; his reserved coffee milk is used while he holds the bowl. Behavioral escalation replaces meeting-record prose. Four fields checked; haak1 valid colloquial reading."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 58,
       "status": "pass",
       "baseline_sha256": "1dff19e0c943d7a6126d7f476065a244dabcd64c9757b08e501dfbfe0773bbf6",
-      "v2_sha256": "c7c155381911b0c8ccc1aa2b3f7d927b78b130bf8a9fbd67ba1b1351e4372f8f",
-      "notes": "For a friend’s new-home dinner, leaking strawberries lead to checking the batch and replacing them. At the gathering, the friend turns inspection into a mock criminal investigation with a magnifying glass, alibis for each berry, and the narrator appointed fruit investigator; eating the final evidence closes the case. Friendship and a hosting context; distinct from family plots. All four fields and contextual Jyutping manually reviewed."
+      "v2_sha256": "27b27b5cbf0c80382ee54af52503e55832b06fb5f927b67cdb6b994193d02ce6",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. A replacement strawberry box reaches an unpacked new flat; a deep bowl causes fruit stacking, photo delays and a forgotten rice-cooker plug. Changed to 掛住; four fields reviewed."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -10809,16 +10809,16 @@
       "index": 66,
       "status": "pass",
       "baseline_sha256": "f1c41825eacf87135e5fa42183bc1475019ad00a6a11c40662d40c0e50f78cf7",
-      "v2_sha256": "1ac30c33ad2420355a1d4cf04f1ba7dbe473e4639801dd78d349704e4c7b132f",
-      "notes": "A nearby dorm student comes to inspect a used rice cooker and asks to test-cook a small cup of rice in the shared kitchen. Other students waiting to use the stove mistake the test for a tasting queue and line up with bowls; the buyer jokes the cooker is only at an interview. After the rice comes out well, classmates ask whether the interviewer kept a bowl. The buyer buys it, and his dorm-group post says “hired, no queue tonight.” Student, seller, and dorm kitchen form a distinct marketplace/workplace-adjacent scene with no family-interaction premise. Checked all four fields and contextual Jyutping."
+      "v2_sha256": "fc79f705443635d28c3b130d73d31cc1e12cacec7e4cdec6862e12b3bfe042f2",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. A rice-cooker test draws roommates carrying bowls; the seller ends up helping cook another pot. No interview/personification template; loeng4 bui1 checked with CantoDict. Full four-field review."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 67,
       "status": "pass",
       "baseline_sha256": "e76e6ae27f3e1790f887a58e24b461278ba38a7ebfafa8c66bf7ba8e849c093c",
-      "v2_sha256": "7db1426e45ceea4b88090b74a5d7d82ddc6449987c18dd1ae2d47ff4749554aa",
-      "notes": "Replaced the overlapping blender interlock story with a secondhand cooler-box capacity negotiation. At handover, 24 250 ml cans fit without ice packs but only 18 with two packs; the buyer and seller agree on a reduced price and revise the listing to clarify the capacity. At the weekend hike, “ice included?” pays off in a wordplay-based division of carrying tasks. Screened against adjacent secondhand appliance stories and searched the corpus for cooler/ice-pack plots. Reviewed colloquial Cantonese, contextual Jyutping (250 Han / 250 syllables), complete Simplified Chinese gloss, and practice tip."
+      "v2_sha256": "5696c6de6b744c77e43338abfc74dfa7c735ee3b6b7e5fd67d60952246d1b3a8",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. Two ice packs displace six cans; a colleague volunteers backpack capacity then discovers the weight and buried water. No claim that backpack drinks stay cold. 揹 corrected to me1; full four-field review."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -11089,16 +11089,16 @@
       "index": 1,
       "status": "pass",
       "baseline_sha256": "d454e07907425c4931cb005949c8e03a3ea30c4a0b9098fec2569ed2eac6e579",
-      "v2_sha256": "2f0ed604bec62d633b27d8ded62924bfb2d85443a8a03a95d7ab5ace9312570a",
-      "notes": "Main individually reviewed all four fields. Father boasts of his chopstick skill after the vendor warns that the tofu is slippery; successive attempts move it from board to table to soup, until the sister catches it in a spoon. Her callback exposes his face-saving claim that he was only proving the vendor right. Jyutping context checked, including final 完咗 jyun4 zo2; gloss/tip synchronized; category/metadata unchanged."
+      "v2_sha256": "2ac6d9d8897b2154129b8ecb5e6ed1f69a8cc689128e7af2354ef8758c26a5a0",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Chopstick bravado with cooked tofu makes two people repeatedly move the plate and chopsticks the wrong way. Replaced circling a stove with believable lateral movement; 時間 gaan1 and final spoon/fish-ball callback checked. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 2,
       "status": "pass",
       "baseline_sha256": "cbe253def4eef2d997fc599b4000e45e454e29f0e37e14aa1001618577d959a1",
-      "v2_sha256": "d1a291b5c6bd4ce5f1f17ab8e12f879b62216ee5ead2aa7ddab0aa8b664754a2",
-      "notes": "Pass: Small raw-lettuce tastes spread from daughter to brother to Dad until little remains; Dad blames the wok, and the daughter points out the family ate it raw. The cook/guest callback and brother refusing the stalk complete the beat. The alarm is treated safely and is not the joke. Reviewed all four fields."
+      "v2_sha256": "81e3b47fcf5997829ceeadef7eb144629b64c7795135fad43e9aa76599ceb6d7",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Hotpot diners who insist they mainly eat meat repeatedly pad each bite with lettuce; the empty basin, ginger mistaken for a leaf and shopping photo expose the shortage. 撈 laau4 and table toi2 corrected. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11121,16 +11121,16 @@
       "index": 5,
       "status": "pass",
       "baseline_sha256": "3b18eeec3d923eff430e18a6b79b418efd19aeb54b0e1a06e3a623104b1448d7",
-      "v2_sha256": "d8abcd6c681e1875aebdce7fa8370d5f95b5d7e3cd2b121c5c39f8234147f752",
-      "notes": "Manual V2 review of all four fields. Reworked the squid/ingredient confusion into one escalating scene: the father confidently teaches, misidentifies ginger and scallion, then the younger brother labels the bowls and directs the cooking; the labels return as a shopping reminder. Reviewed contextual Jyutping, complete Simplified gloss, and story-specific tip. Category, ID, order, and metadata preserved."
+      "v2_sha256": "103344940234bc660b863c1f23434854506e3ab1b9358a5765ada55a151f58dd",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: A video-taught squid-cutting boast delays dinner; inconsistent cuts, repeated photo positioning and the thick-piece excuse expose the gap between demonstration and result. 嚟 pronunciation checked. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
       "index": 6,
       "status": "pass",
       "baseline_sha256": "8a9ac5e65b8391b7a1c492f7c9bb34ef3742a7d4cb518ef2e1cf752e75ba44df",
-      "v2_sha256": "504c955201f8e85f00f595eb296d88d2b8b03bfc638c2beffb2e133bc65be02d",
-      "notes": "Manual V2 review of all four fields. Rebuilt the scene around Grandma hiding chilli sauce for herself: she claims to have quit spicy food, fetches the sauce from a high cupboard on a stool, progressively eats it after her grandson refuses, then admits she only meant to stop sharing. Contextual Jyutping, complete Simplified gloss, and story-specific tip reviewed; category and row position preserved."
+      "v2_sha256": "a866b42672339ad3438733d020b714e088955c27f7a546eae8d971f8a1b3e4ee",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: A colleague claiming a mild diet repeatedly relocates then empties the chilli pots, blaming the small pots he requested. Workplace behavior, no family or money conflict. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11145,8 +11145,8 @@
       "index": 8,
       "status": "pass",
       "baseline_sha256": "05c1f3b17ebf56fd3bb6350efc9774d07a8cbdad0175a2818c4e010523026b85",
-      "v2_sha256": "8f411acfbc32a484a852d43a8ed5990b397731e5780797970bab1d3eec953079",
-      "notes": "Rebuilt the shopping lesson into a character-driven two-stage 'shell exam': Auntie takes the vendor's advice seriously and checks each live shell, then follows the separate cooked-shell discard rule at home; one failed shell is discarded at each stage. Her closed-at-market/open-in-kitchen callback gives the opposing rules an earned comic payoff without making food safety itself the joke. Cross-screened approved long_food_shopping_14[5] (saffron-cost decision and an early-arriving guest around seafood rice); no shell-closing gag, mussel handling rule, or family dinner pattern is reused. Checked all four fields and contextual Jyutping. Category and baseline digest preserved."
+      "v2_sha256": "6798f7e70b8c077a205ed80bfab4430401c655a6667d746b89e54c83f995fa80",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Flowers occupy the promised large plate; the shells reveal the difference between a food photo and eating. Clear bowl/plate references replace the earlier grading and food-advice mechanism. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11161,8 +11161,8 @@
       "index": 10,
       "status": "pass",
       "baseline_sha256": "3f25ce1982b218477edba0ca9d8686ce78c6ecf57603ab45ae334dcb47c0a9e5",
-      "v2_sha256": "6f5fe49bb5d2dd4a466eceff9747280434c02c1e38e9a38cff1473bae2050998",
-      "notes": "At the market, the narrator has no cash; the fish vendor holds a grass carp while they use the ATM. A customer misreads “cancel” as cancelling the queue, so the line watches the screen; the narrator reminds everyone not to say a PIN aloud and helps her cancel the mistaken operation. The following week she is now teaching another customer the cancel/confirm buttons, and the fish vendor recruits her to manage the fish line too. Public market and ATM scene with a vendor and unrelated customers; the cash issue is setup rather than a spending dispute. Checked all four fields and contextual Jyutping; 確認 kok3 jing6 checked against project dictionary notes."
+      "v2_sha256": "fb853f8b08065d4ff65c03af6fbd2123a819f706a3ebe7a774a5417386007438",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: A fish buyer boasts of memory then repeatedly asks questions along the route; calling across the aisle confuses other buyers, and a finished-food photo reassures the stallholder. Removed ATM process and money plot. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11209,8 +11209,8 @@
       "index": 16,
       "status": "pass",
       "baseline_sha256": "b37c5ac759c517389e45dead7fac6097e1eef2f7478baa9661bacf2d4be3a9c2",
-      "v2_sha256": "b37c5ac759c517389e45dead7fac6097e1eef2f7478baa9661bacf2d4be3a9c2",
-      "notes": "Pass after individual review: the family substitutes a papaya for a birthday dessert, then a blackout makes the candle both decoration and emergency light; the birthday wish for cold papaya escalates the scene, and the child’s next-time flashlight line is an earned payoff. Jyutping, gloss and tip match the narrated events."
+      "v2_sha256": "dd1aa95ad1ed6b139909722b53b5630e52f71e8b86a4d796aaaa6088013b6fa3",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Rejected the overprotective-papaya draft because it duplicated food01[6] carrying eggs. Rewrote around using hollow papaya as a bowl: overfilling with milk/sago creates spills and extra dishes. Clean zeng6 and sink pun2 corrected; root independently read all four fields. Domestic-cleanup outcome overlaps other cooking stories, but saving dishes by edible bowls and displacement by added filling are the specific mechanism. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -11394,8 +11394,8 @@
       "index": 39,
       "status": "pass",
       "baseline_sha256": "bcf3a0d3b67fd002531b71a875eb7f3fb0aeaadd9fe3cd5ccbdae25642f433b4",
-      "v2_sha256": "a8b6507d0583c0d836bc3a8bc41eb21a6424938501bddecaee731280d218d1ef",
-      "notes": "V2 reviewed: coworkers combine a rushed lunch with a clear division of slide-review tasks; the final agenda/minutes/lunch callback extends “mini-meeting” into the absurd idea of installing a kitchen in the meeting room."
+      "v2_sha256": "35c4c02889f72efaa4cbd3fdad0629fdc9da00d35e7a1d28a209cc0d97d521aa",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Proofreading expands across a cafe table until hot rice cannot land; a hungry typo turns meeting room into meeting meal. Removed contradictory payment flow; 伙計 fo2 gei3 corrected. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -30439,8 +30439,8 @@
       "index": 78,
       "status": "pass",
       "baseline_sha256": "de9a2ea1039394dee8433f04713b2eef55183132ff96ba59af2a4c46cfa54a6d",
-      "v2_sha256": "3a70718df8fb1714cd607c5b5151cbb1752aa49f276ec6c3d91d6fb2f5eb4553",
-      "notes": "B21 resumed final, 2026-11-08: root manually checked all four fields and incorporated independent read-only review. Phone framing, a jumping cat and a connection break develop the consultation scene; the same doctor makes the closing cat joke before ending the call. Final alignment 241/241; natural Cantonese, complete Simplified gloss and story-specific Simplified prompt rechecked."
+      "v2_sha256": "bbb63e9a0dcb42be12c33c4b8cc5c67a6d0a7223cd5945363a01a5eb8262b601",
+      "notes": "B21 resumed final, 2026-11-08: root manually checked all four fields and incorporated independent read-only review. Phone framing, a jumping cat and a connection break develop the consultation scene; the same doctor makes the closing cat joke before ending the call. Final alignment 241/241; natural Cantonese, complete Simplified gloss and story-specific Simplified prompt rechecked. 2026-11-08 batch22 limited correction: 扶穩手機 fu4 wan2 sau2 gei1 (CUHK); already-passed card, not a new pass."
     },
     {
       "file": "content/sentence_bank/long_health_services_10.json",
@@ -32235,64 +32235,64 @@
       "index": 0,
       "status": "pass",
       "baseline_sha256": "58f02972e72d74cac16a8b9d28b108dd601a538b23e34392b2275c19f4fcb009",
-      "v2_sha256": "46ae1e42a160471c5d040e416ec663926a3f3064b3783a8535520e64879add7d",
-      "notes": "Pass after full rewrite: the three-second selfie leaves dad half in frame; a later misunderstanding sends the family between phone and seats, and the ten-second timer finally holds dad still. Grandma hits zoom, making his nose fill the picture; that image becomes the caller photo and recurring greeting. Scene continuity, comic escalation, all four fields and contextual Jyutping individually checked; metadata/category unchanged."
+      "v2_sha256": "d06fa8c19e864492a256037c6da4eaf32a7f280fc56542b6df3233a91339aae2",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Roommates attempt a farewell photo; an elbow displaces the phone after a countdown, leaving only feet. Marking positions and removing tape pay off in the faceless group icon. Corrected physical phone contact and 踎 mau1. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 1,
       "status": "pass",
       "baseline_sha256": "cee9ff78d2af40b4838086ebb1100507a8c4c2f4a760e7d3d36f989e9a52a9fc",
-      "v2_sha256": "9089f1b1d1228b5f4ee793d6a2bec03f6931a1fdfa777d0219480c7250c0756c",
-      "notes": "Main-agent four-field review: tidying the desk uncovers paper; Dad’s increasingly misguided airplane adjustments send attempts into slippers and the sofa gap before one glides into his pocket. The child calls the pocket the accurate airport; Dad claims the ticket reached the pilot, and the child asks for another parking space. The fixed 家務 category remains supported by desk tidying; the comic scene is distinct from existing construction and reflection plots. Root converted 把 to colloquial 將, corrected the flight description and sofa-gap wording, reviewed each of 241 contextual Jyutping units, and synchronized gloss and tip."
+      "v2_sha256": "0896d46787542a9a50537749850ad4ac9e06e24795e1c3414bfcf0a704036892",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Paper-plane competition turns into recovering recipes and notes from used paper; the box stays empty until the narrator carries a plane into it. Removed unsupported return-home phrasing and formal 留下. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 2,
       "status": "pass",
       "baseline_sha256": "f2c4137206da014337aa31ce72886284a988a3aed824a1d19cf1e02a35be34e9",
-      "v2_sha256": "f2c4137206da014337aa31ce72886284a988a3aed824a1d19cf1e02a35be34e9",
-      "notes": "The family deliberately hesitates during a card game because the winner must choose a messy cupboard; the hidden scissors/tape/buttons expose everyone’s self-interest, and grandma’s callback that they feared choosing their own things earns the punchline. The next-week cupboard extends the joke. Checked all four fields."
+      "v2_sha256": "7cbb99230d3a138f13b67205e08eabc794692fe8397747b47ed4040c6f6e339d",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Nested bag storage hides the organiser’s own cloth bag; after retrieving it he checks even an empty bag. Corrected same-morning timeline and garlic-storage purpose; natural 一個袋裝晒. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 3,
       "status": "pass",
       "baseline_sha256": "b7dd7b186602ab47c853bff0d3525c2a27efa3d037435eb93e4da76e9b2d3953",
-      "v2_sha256": "b7dd7b186602ab47c853bff0d3525c2a27efa3d037435eb93e4da76e9b2d3953",
-      "notes": "Dad repeatedly restores the right-handed place setting while grandpa and sister move cutlery left; the mixed-up table culminates in dad copying the left-hand layout and picking up the spoon. The “left-or-right guessing game” question pays off the escalating confusion. Checked all four fields."
+      "v2_sha256": "83d7a51018cb95a3428e3b3e069d39b96a06dec3437e137219fe14d2b1d4807b",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Overprecise table alignment and placing chopsticks beneath inverted bowls add work and omit the organiser’s own bowl. Removed impossible falling spoon and hidden outer label; 慳 haan1 corrected. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 4,
       "status": "pass",
       "baseline_sha256": "3e4ccbb63a6fe0b4980918891f28d4392b00b668a50cd3d644192214b220f928",
-      "v2_sha256": "3e4ccbb63a6fe0b4980918891f28d4392b00b668a50cd3d644192214b220f928",
-      "notes": "The stuck soap pump is mistaken for an empty bottle, escalating through slow presses and shaking until the cleared nozzle sprays Dad’s sleeve; “the shirt got washed first” and his retreat from the lively pump complete the callback. Checked all four fields."
+      "v2_sha256": "44ce18421c1400116f759826da1544b5bd67711dded4253af486815464629d36",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Two people coordinate a blocked soap pump, get soap on both their clothes and reuse the offer to wash along with their hands. Contextual sink pun2 and dirty zou1 corrected. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 5,
       "status": "pass",
       "baseline_sha256": "30731540635779ea1849f6928ffd41a5a54a4b4a591998548cc96932fe7d7b93",
-      "v2_sha256": "30731540635779ea1849f6928ffd41a5a54a4b4a591998548cc96932fe7d7b93",
-      "notes": "The stuck spacebar visibly drives grocery items apart until the “姜” reaches the screen edge; the family discovers a crumb, then grandma keeps the oversized gaps for quantities, turning the fault into “expanding” the list. Checked all four fields."
+      "v2_sha256": "34ed7be077f4c2ea0317ee0a06d7273db0a2737061f3ad1a3b5eeab7ff1d1714",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Clipping socks together loses the whole pair behind a shirt because the helper tightens the clip over both items; next morning a call makes him inspect his shirt. Physical attachment and timing clarified. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 6,
       "status": "pass",
       "baseline_sha256": "dba22504f65c9bbe010eee467c10f17b9fd5656ad3f103fc44a87bc9f5fbc6b3",
-      "v2_sha256": "3f360e1918d94482b31ae91d290fb0663eeedc1b0576b7b3cbb252a47c51320c",
-      "notes": "Root reviewed all four fields. The wet shoe pile leads to the cousin’s improvised labeling and size sorting, which increasingly mismatches pairs; the friends leave in “close enough” shoes, and the cousin discovers he has Dad’s slippers while his own pair went with a guest. The closing line callbacks to his overconfident shoe-management role. Jyutping checked manually; gloss/tip match; metadata preserved."
+      "v2_sha256": "2ea5b37cdb7a3b0443b53a5a0624011b9222b594780c3f3ab8a2402c226c6460",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Moving wet umbrellas into the kitchen blocks the water jug; the organiser gets soaked and misses the goal while changing. Three spectators plus the absent roommate are counted consistently. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 7,
       "status": "pass",
       "baseline_sha256": "0d8973e18250b11dd9416187300d356a74e083614a8390ac8d4634f13e42eebd",
-      "v2_sha256": "9fdb313de2fed8c267987ef99b287bb44779873231c66b6e9800c94736506919",
-      "notes": "Root individually reviewed all four fields. The cleaning request for one reachable spray bottle escalates into Dad mapping every room, marking a route, moving the bucket repeatedly, and waiting for reports after the family cleans normally; the final straight-line window callback undercuts his over-planning. Plot fingerprint differs from accepted stair-relay, plant-care, or device-installation household stories. Jyutping manually checked character by character for tone and context; complete simplified gloss and story-specific practice tip verified; metadata preserved."
+      "v2_sha256": "b1957e691e0b4a953d45995a4fe1e04c3f8b6ad47d33d10bf92d87cbc98a157e",
+      "notes": "Retained macau-comedy-revalidation-v2 pass. 2026-11-08 active-2000 batch23: Two-sided window wiping gives way to chasing a bookcase reflection. Narrator returns indoors before identifying it, then opening the window moves the reflection; 趷 gat6 checked. All four fields manually reviewed; mechanical alignment is a separate check."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -32395,8 +32395,8 @@
       "index": 20,
       "status": "pass",
       "baseline_sha256": "ff283d6a4e6e58c596bdea72f0a0515db3e471c8067ebf6222ffb144d857312d",
-      "v2_sha256": "30a2014d34fd821b9ccba1be169804f432d7f9cad07e23d10ab8520cdb2b2f52",
-      "notes": "Root reviewed and tightened all four fields. At a rental viewing the sliding door repeatedly rolls open; removing a box makes it faster, the owner’s crouched repair stance resembles a bow, and each next room is interrupted by the door returning. The single final “already terminated my lease” punchline pays off the sequence; redundant second exit joke removed. No rent/deposit/bill conflict; Jyutping checked in context; category preserved."
+      "v2_sha256": "8af5a7091f8730f3f399ffd256205a4611319b667a81de894cc54003f41435d7",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. The landlord keeps explaining away a sliding door that will not stay closed; natural 拉埋 and 踎 plus contextual zik6/gaam1/zak1 corrected. Four fields reviewed."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -32419,16 +32419,16 @@
       "index": 23,
       "status": "pass",
       "baseline_sha256": "4d89db9be841026f293bf1acec315ed61df02515a909469e4df51c5dceec11c5",
-      "v2_sha256": "869b59b06ae12375d7c35cbb61912716090e78d71ff46fca81fc3fe4258d7bbf",
-      "notes": "Root reviewed and fixed the water-state sequence: the shower has stopped, then the bathroom sink runs while she brushes, so housemates think the timed shower continues. The knock-back rhythm becomes an imagined usage rule; the toothbrush reveal resolves it. No meter/bill/accounting plot. Jyutping and gloss checked; tip matches; metadata preserved."
+      "v2_sha256": "618da93c2fb7442540a39c828a1a5e0341531a2fdac093c0478356955c836913",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. A mouthful of toothpaste leads a roommate to answer timed knocks with knocks; the waiting pair turn the exchange into music and ignore the timer. Rewrote all four fields."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 24,
       "status": "pass",
       "baseline_sha256": "4c2bd2be2a48c007b12ef3aae78df8f13292b94bdd625e6eb226f2b573285bb5",
-      "v2_sha256": "57bc222e8215b5b09173524962179d0a8c2c86bc2a9d9693d0ac6402bbff0d5b",
-      "notes": "Root reviewed all four fields and corrected 阿杰 to git6. The motion-sensor light and repeated hand-waving become a Morse-code misunderstanding; flatmates mistake the flashes for a rescue signal and rush out with kitchen tools. The sensor explanation creates the assignment that he must keep waving and patrol the kitchen. Jyutping checked in context; gloss/tip match; metadata preserved, no rent/payment conflict."
+      "v2_sha256": "00b9c98e9decb5f8ee77893fa5f3b8e47523a962df721780a4da2fbc61acc191",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. A food-carrying tenant waves at the corridor sensor; others mistake gestures for a cockroach alert. Four people then test the lamp while the meal cools. Rewrote all four fields and corrected headcount."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -32443,32 +32443,32 @@
       "index": 26,
       "status": "pass",
       "baseline_sha256": "2320b9430d4f1ba4355cce5138240dfec93c6d387510faffcef17f506c10818c",
-      "v2_sha256": "cf7d8c2a1aeabf32b1b94148b42486f40270f7b21ca7e641a954d846ace0c63a",
-      "notes": "Main-agent four-field review: roommates blame a heavy shampoo bottle for the slipping suction rack, remove every item without fixing it, then discover a cup straddling grout. Moving to smooth tile resolves it; the roommate reloads their own largest conditioner and jokes that the wall appreciates their products. Distinct rental-life cause/reversal; no rent/payment or health-risk conflict. Root changed Mandarin-influenced 把 to 將, clarified the removed/reloaded conditioner, reviewed all 264 contextual Jyutping tokens, and aligned gloss/tip."
+      "v2_sha256": "1aae605230650750f62b90c3de587ec8de3635d29b7b8a44baef94a7e249c9a4",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. A suction shelf slips even after its bottles are removed; the tile seam, not the shampoo weight, is the cause. Natural colloquial object names and contextual kei4/gong1/juk1 checked."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 27,
       "status": "pass",
       "baseline_sha256": "e119cf105d0adca8e402a129809e82dec1e1aa0c979c1bc2cc2340cac257d557",
-      "v2_sha256": "c83ed0ca06767a42f8209e4985505c2e17968f1aa3202ed90643d6ab01972c1d",
-      "notes": "V2 pass: west-facing afternoon heat melts the desk chocolate and trips the phone warning; a cardboard shade sends the roommate chasing a moving patch of shadow until he ends up in the hallway, then a removable curtain solves it. The chocolate callback earns the closing “recovery” line. Rewrote the prior routine curtain anecdote into one continuous physical escalation. Manually reviewed all four fields and contextual Jyutping; 237 Han characters / 237 syllable tokens. Kept rental category, identity, order, and other metadata unchanged."
+      "v2_sha256": "fdeaa546fe3efa3b68d16e7c341bc3d6d9d0dc19c2d348cb1b8271c203993dd6",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. A west-facing room overheats chocolate, phone and roommate; they chase shade into the hallway and watch the chocolate recover. Colloquial phrasing and contextual zou1/toi2/daan6/co5 corrected."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 28,
       "status": "pass",
       "baseline_sha256": "13e1bb80fcbc205305fd9ada78cd13f411b52c093125370d3358552de8b20b11",
-      "v2_sha256": "c187119fa98c63b03517a9d3d452a223ec5cd07fc6694313253394d4c17da9d0",
-      "notes": "Rewrote the rental-neighbor conflict as a spoken stage bit: the downstairs water becomes a free seismic instrument, the upstairs runner hears the recording, adds a vibration mat, and the final no-ripple callback turns the neighbor into an audience member. Manually checked all four fields, contextual Jyutping readings/tones, full Simplified gloss and story-specific tip; 233 Han characters and 233 syllables."
+      "v2_sha256": "0f4d1f00c31ebd440201f561299581ede40ef331fa7936a61b7bfaa34b3e6d74",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. Treadmill vibration makes a downstairs cup move; a mat and a phone check establish a coherent upstairs/downstairs test, followed by next-evening stretching. Complete hand-authored Jyutping and four-field review."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
       "index": 29,
       "status": "pass",
       "baseline_sha256": "6b8a88df8e648911968e4587a27c27cb24fb6a161caaf333eda035dc6d7d9828",
-      "v2_sha256": "e44f98a02157b8ee4a69c9341a197330acff373176d0cf7e0c53cd7489791844",
-      "notes": "V2四字段主审：租屋室友共同量制鞋柜纸箱模型，门把未计入导致模型被顶歪；再以尺和订单处理送错尺寸，刚完成收纳的室友翌日又把拖鞋放回柜前造成新险情。笑点由连续量度失误升级为新柜解决不了不收鞋的习惯，室友蹲下收鞋并取消障碍赛。剧情与租屋分类匹配，非家庭核心；人工逐字核对正文、粤拼读音声调、完整普通话释义及故事练习提示，未发现语义重复。"
+      "v2_sha256": "96d8aa60f16664649340add57055d3f479b92550576580b1e231662189178d1d",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. A cardboard shoe-cabinet model exposes missing door clearance; even after the correct replacement, loose slippers trip the planner. Natural measuring phrasing and dat6/caa1/doi2 reviewed."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -32483,8 +32483,8 @@
       "index": 31,
       "status": "pass",
       "baseline_sha256": "3af3ed997b0d69aaa63b7aafaf88e8e37ef07de7e83a07b8cad593024574987d",
-      "v2_sha256": "ed95d0cab91b0e8732b863867746ed0cd21dd01641028c0365a4d21af04df34a",
-      "notes": "Rebuilt the shared-flat chore chart around a roommate who turns an accidental three-day dishwashing assignment into a supervisor role and rates each bowl; the new separate “done/not done” columns and a no-promotion rule returns in the ending. Manually checked all four fields, contextual Jyutping readings/tones, full Simplified gloss and story-specific tip; 242 Han characters and 242 syllables."
+      "v2_sha256": "3d9b0c470777f55e4c3f1dbbda9d139466cb6c827be29fdd093c94deb1df09cd",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. A self-serving reconstruction of a lost chore rota gives the narrator four days off; the roommate becomes a dishwashing supervisor until an original photo restores the rota. Precise Jyutping and complete gloss checked."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -32507,8 +32507,8 @@
       "index": 34,
       "status": "pass",
       "baseline_sha256": "2b28ae81454c47ec84970de8fa9bd59dcb7b489a2cc8922f1567b1f689f3711b",
-      "v2_sha256": "6b3bae405c17ddba1b47b9cfec8ba2f369800e73217159002ea92480be78f6d4",
-      "notes": "V2 rewritten as a non-family roommate move-out scene in category 租屋. The original stain/old-key inventory process had no comic escalation; the new conflict comes from an emptied flat causing voices to echo across rooms. The landlord mistakes the reflections for additional residents, checks rooms and struggles to complete the handover count, ending with the note “住戶兩位，回音五位.” Compared against approved move-out inventory/magnet and lease-cleaning stories; none has the empty-room echo / phantom-tenant counting chain. An approved piano pedal/room-echo story uses a sustained musical note, not voices or rental inspection. Manually reviewed all four fields, contextual Jyutping, complete Simplified gloss and exact story-tip prefix."
+      "v2_sha256": "2c143746ebc20fecc9ae3aadc39b3db207a8c8b74e7f00f90a10e7697b3ec1f0",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. A roommate imitates an empty-flat echo from the kitchen; the landlord notices and draws out the mimic, who then covers his mouth. Replaced 躲/故意 with 匿/專登 and checked all four fields."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -32644,8 +32644,8 @@
       "index": 51,
       "status": "pass",
       "baseline_sha256": "8c58fe07401aa1f3888f6b84a83ed21fa111d312f90dab535e6b46f8a69f7606",
-      "v2_sha256": "bc315d8092fad34adff49677e5a567c4e79a2fac0b35860ffb5d2d752f015842",
-      "notes": "Manually reviewed as spoken maintenance comedy with neighbors rather than family: the stairwell timer is left in manual mode, residents form a mock queue to press the switch, then a tenant thanks the now-automatic light. Checked all four fields and contextual Jyutping tones; Han/Jyutping counts 240/240."
+      "v2_sha256": "b68f1cb7e6380e9d3d22302cfddd50d7822dcd6c09f75a0b454ec783e764e51e",
+      "notes": "2026-11-08 active-2000 oral batch22; retained macau-comedy-revalidation-v2 pass. A brighter replacement lamp exposes wall grime; competing clean patches trap two neighbours in wiping the landing. The narrator finally takes the lift for tea, contrasting looking energetic with having energy. Root rewrote and reviewed all four fields; original automatic-switch contradiction removed."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
