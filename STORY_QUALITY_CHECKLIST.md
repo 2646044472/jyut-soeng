@@ -186,7 +186,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 
 **Overall mechanical pass: 5000/5000.**
 
-**Goal (main-agent language review within the first 5000 source rows): 237/5000; remaining: 4763.**
+**Goal (main-agent language review within the first 5000 source rows): 228/5000; remaining: 4772.**
 
 **Contiguous reviewed source-order prefix: 0/5000.**
 
@@ -194,7 +194,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 
 **Valid language reviews outside the first 5000 source rows: 0.**
 
-**Corpus language review: 237/5000; source rows without a valid review: 4763.**
+**Corpus language review: 228/5000; source rows without a valid review: 4772.**
 
 **Clarified quality revalidation (`macau-comedy-revalidation-v2`): 2296/5000 pass; 2704 need revision; 0 pending.**
 
