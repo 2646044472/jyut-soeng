@@ -2,7 +2,7 @@
 
 ## Latest verified checkpoint — 2026-11-09
 
-- Repository: `/home/bankey/Desktop/Projects/2646044472/jyut-soeng`; branch `codex/macau-story-upgrade-batch-progress-resume`. Before this batch, local HEAD and an independent `git ls-remote` both reported `3ee57df3af3e7a2b8e55f0208e5b0cec43dbad0f`. The separate `codex/macau-story-upgrade-batch-progress` branch remains untouched at `3839000bf6829de38abb3027a48174b2c00cd83d`.
+- Repository: `/home/bankey/Desktop/Projects/2646044472/jyut-soeng`; branch `codex/macau-story-upgrade-batch-progress-resume`. Commit `5f22dbc94abe679cd1843d5026729ef61369c058` was pushed, then independently verified by `git ls-remote` as the exact remote branch SHA. Its parent status checkpoint is `3ee57df3af3e7a2b8e55f0208e5b0cec43dbad0f`. The separate `codex/macau-story-upgrade-batch-progress` branch remains untouched at `3839000bf6829de38abb3027a48174b2c00cd83d`.
 - The exact 5,000 source story IDs, order, categories, metadata and draft files remain present. The runtime selection contains 2,000 active IDs plus 3,000 excluded IDs, with no overlap; excluded source rows were not deleted.
 - Active V2 ledger: **2,000 pass / 0 needs_revision / 0 pending**. Full-corpus V2 ledger: **2,296 pass / 2,704 needs_revision**. Active oral re-audit: **1,730 pass / 30 needs_revision / 240 pending**. There are **51 new active oral pass transitions** since `a1b26b04cd97813c6f733d70c982bafbdce9ffc1`; the 50-pass checkpoint is ready.
 - The batch reviewed original active pending stories and exact Jyutping, corrected aligned readings in `long_food_shopping_14[26]` and `long_home_family_08[0,37]`, repaired medical role/prompt wording in `long_health_services_10[60]` and `long_health_services_11[60]`, and returned `long_food_shopping_19[26]`, `long_food_shopping_17[18]` and `long_home_family_08[199]` for revision. Family/money-centered passes are tagged for sparse selection.
@@ -10,7 +10,7 @@
 - Complete app/unit tests remain **not run** because the final 2,000-card semantic selection is still being reviewed. No APK, GitHub Release, tag, deployment, payment or publishing occurred.
 - Root remains the sole repository writer. Subagents supplied read-only reviews and text candidates only. Luna/high was requested through supported settings for delegated work, but effective runtime model/effort cannot be independently confirmed; no GPU was used.
 - Preserve these uncommitted external candidate/source snapshots; they are intentionally excluded from this content commit: `content/story_review_drafts/long_family_finance_services_10_0042_external_candidate.json`, `content/story_review_drafts/long_family_finance_services_10_0042_external_candidate1.json`, and `content/story_review_drafts/long_family_finance_services_10_0042_source_before_candidate2.json`.
-- The historical task API could not retrieve task `01a18c7b-82fd-75b0-9f9a-62ddd8fe9154` (host unavailable); this checkpoint and the live ledgers are the continuation source. Continue with the 240 pending and 30 revision cards. Independently verify the remote SHA after the 50-pass push.
+- The historical task API could not retrieve task `01a18c7b-82fd-75b0-9f9a-62ddd8fe9154` (host unavailable); this checkpoint and the live ledgers are the continuation source. Continue with the 240 pending and 30 revision cards. The 50-pass checkpoint is pushed and independently verified.
 
 ## Earlier work log
 
