@@ -12,7 +12,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_family_finance_services_06.json` | 100/100 | 0 |
 | `content/sentence_bank/long_family_finance_services_07.json` | 100/100 | 0 |
 | `content/sentence_bank/long_family_finance_services_08.json` | 100/100 | 0 |
-| `content/sentence_bank/long_family_finance_services_09.json` | 100/100 | 0 |
+| `content/sentence_bank/long_family_finance_services_09.json` | 99/100 | 1 |
 | `content/sentence_bank/long_family_finance_services_10.json` | 100/100 | 0 |
 | `content/sentence_bank/long_family_finance_services_100.json` | 1/1 | 0 |
 | `content/sentence_bank/long_family_finance_services_101.json` | 1/1 | 0 |
@@ -184,7 +184,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_home_family_08.json` | 200/200 | 0 |
 | `content/sentence_bank/long_home_family_09.json` | 98/98 | 0 |
 
-**Overall mechanical pass: 5000/5000.**
+**Overall mechanical pass: 4999/5000.**
 
 **Goal (main-agent language review within the first 5000 source rows): 226/5000; remaining: 4774.**
 

@@ -6967,16 +6967,16 @@
       "index": 53,
       "status": "pass",
       "baseline_sha256": "9eb41646bb3072b2bf37213f18f83061429fb75b315aadb742ead0d518f8798b",
-      "v2_sha256": "9eb41646bb3072b2bf37213f18f83061429fb75b315aadb742ead0d518f8798b",
-      "notes": "半夜误入杂物房并称厨房不见，推动长者实际试住检验路线；最终不签租约、却记住面包店形成具体回扣。场景因果成立，四字段逐项核对。 Individually reviewed sentence, Jyutping, complete Mandarin gloss, and story-specific usageTip."
+      "v2_sha256": "c583ce40af16a4158303045c8d22a6a80995e815b6f2cbc7a101e752b4505012",
+      "notes": "半夜误入杂物房并称厨房不见，推动长者实际试住检验路线；最终不签租约、却记住面包店形成具体回扣。场景因果成立，四字段逐项核对。 Individually reviewed sentence, Jyutping, complete Mandarin gloss, and story-specific usageTip. Oral re-audit rewrite: moved the focus from moving expenses to the uncle mistaking the storage room for a kitchen; added the broom/mop shift-change callback. Four fields updated and current source hash synchronized."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 54,
       "status": "pass",
       "baseline_sha256": "ab95dec561b42b33b5c66cd88c73d51e47ae81054535b622611579365c9bafcc",
-      "v2_sha256": "ab95dec561b42b33b5c66cd88c73d51e47ae81054535b622611579365c9bafcc",
-      "notes": "电饭煲买机票的开场带出留学预算焦虑；后续视频中的三只饭碗证明女儿已适应，弟弟追问何时能去构成回扣。四字段逐项核对。 Individually reviewed sentence, Jyutping, complete Mandarin gloss, and story-specific usageTip."
+      "v2_sha256": "6b396c988f3551f2ede956aca429de70452715910ca2863a825ad1a3e269303c",
+      "notes": "电饭煲买机票的开场带出留学预算焦虑；后续视频中的三只饭碗证明女儿已适应，弟弟追问何时能去构成回扣。四字段逐项核对。 Individually reviewed sentence, Jyutping, complete Mandarin gloss, and story-specific usageTip. Oral re-audit rewrite: replaced the overseas-study cost explanation with a dorm laundry timer mistaken for a queue; updated full fields and synchronized current hash."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -6991,8 +6991,8 @@
       "index": 56,
       "status": "pass",
       "baseline_sha256": "ce96b344d546f180aca2d7c38c6efeaa98bc579dc7af0f1aec65d320fa6091e0",
-      "v2_sha256": "ce96b344d546f180aca2d7c38c6efeaa98bc579dc7af0f1aec65d320fa6091e0",
-      "notes": "重复订阅引出逐项核对，模型材料揭示太太是在准备生日礼物；夫妻又同时选中同一部戏，末句回扣重复扣款。逻辑完整且笑点连贯，四字段逐项核对。 Individually reviewed sentence, Jyutping, complete Mandarin gloss, and story-specific usageTip."
+      "v2_sha256": "3c8bd7f9e6b3909cbcd9f77ff077e347327be56842f849f32496831961d467c0",
+      "notes": "Pass after rewrite. The shared label scheme escalates through nested empty cartons and a bed-sheet box mislabeled by packing order, then the final unlabelled carton contains every label. Four fields checked; the gloss clarifies the nested boxes. Family moving context, money not central; flag for sparse final selection."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -7031,8 +7031,8 @@
       "index": 61,
       "status": "pass",
       "baseline_sha256": "a3200a7581346dd0c0d98de6a4c2dd435c8a3b8767fcddef96f40a4c21101dc1",
-      "v2_sha256": "a3200a7581346dd0c0d98de6a4c2dd435c8a3b8767fcddef96f40a4c21101dc1",
-      "notes": "女兒等候外套後發現更需要步行鞋，結尾把同一週等待法反用在父親的旅行袋上，角色倒轉與前文規則有清楚回扣。 金錢/帳務仍為核心題材，保留待最終題材比例盤點。逐項審讀正文、粵拼、完整普通話釋義及篇章專屬復述提示。"
+      "v2_sha256": "445329dafe31881f2c4d0a103a5337f533430b8734f165b9578fd5e678e9f065",
+      "notes": "口語複審重寫：女兒先自行設定每月買衫上限，再以外套能否一衣兩着作選擇背景；笑點仍由袖口勾背囊、朋友誤會手勢及掛衣架回扣推進。四字段已核對並同步現行哈希。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -7159,16 +7159,16 @@
       "index": 77,
       "status": "pass",
       "baseline_sha256": "e700da3cd6de6c091f2e261527381b7dd3287b0b254857f1d956b1f23288edde",
-      "v2_sha256": "e700da3cd6de6c091f2e261527381b7dd3287b0b254857f1d956b1f23288edde",
-      "notes": "爸爸從不催接送轉為試巴士，最後主動要求多開一欄比較車費與唱歌費，並暗示下月加課；記帳意外揭出新計劃，回扣合理。 四項語言欄位（金句正文、粵拼、完整普通話釋義及專屬復述提示）逐篇核對。"
+      "v2_sha256": "35309b8237658e5d841bb1881af8e949e0dd79eb16bb21edd3998bdea8f11fe9",
+      "notes": "爸爸從不催接送轉為試巴士，最後主動要求多開一欄比較車費與唱歌費，並暗示下月加課；記帳意外揭出新計劃，回扣合理。 四項語言欄位（金句正文、粵拼、完整普通話釋義及專屬復述提示）逐篇核對。 Oral re-audit rewrite: shifted the joke from service fees to a neighbor’s paper-bag “boarding pass”; full fields reviewed, with 折 corrected to 摺 and Jyutping zip3."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 78,
       "status": "pass",
       "baseline_sha256": "6018a98dd82dfaca97b61cc1faf567cd0e7c8a55e21b814d359446dad91e6420",
-      "v2_sha256": "6018a98dd82dfaca97b61cc1faf567cd0e7c8a55e21b814d359446dad91e6420",
-      "notes": "餐椅像有魔法的誤會先建立，孩子吃完便要抱、原來只愛太太煮的粟米，具體反轉又連回借椅與省空間。 四項語言欄位（金句正文、粵拼、完整普通話釋義及專屬復述提示）逐篇核對。"
+      "v2_sha256": "7226beea8caf62f6430cd3b85f4e396b8d0e101d5c94cea9e43ea24707f4b39d",
+      "notes": "餐椅像有魔法的誤會先建立，孩子吃完便要抱、原來只愛太太煮的粟米，具體反轉又連回借椅與省空間。 四項語言欄位（金句正文、粵拼、完整普通話釋義及專屬復述提示）逐篇核對。 Oral re-audit rewrite: replaced the child-seat/fee premise with a community object-exchange event and an escalating microphone press-conference gag; all four fields updated and current source hash synchronized. Oral re-audit rewrite retained the community-center equipment scene and added a brief fictional activity subsidy/venue-fee background to match the source category; current hash synchronized."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -7224,7 +7224,7 @@
       "status": "pass",
       "baseline_sha256": "63938dcb37aaf9b6c773073b92f3053dc1e7a187ece48f856c70f20aaf2b1a5a",
       "v2_sha256": "63938dcb37aaf9b6c773073b92f3053dc1e7a187ece48f856c70f20aaf2b1a5a",
-      "notes": "便宜車位的「幾步」先因米和冬瓜變得難走，太太再叫買半個冬瓜重新考慮，最後揭示車主其實靠摺車；誤導與回扣層層成立。 金錢/帳務/車輛成本為核心情節，列入最終題材比例與重複主線盤點。四欄均逐張檢查：粵語正文、粵拼、完整普通話釋義、篇章專屬復述提示。"
+      "notes": "Pass. Price is setup only; the cheaper parking option turns into a real walk with groceries, and the folding-bike reveal explains the neighbor’s “few steps.” Four fields and contextual Jyutping checked; flag for sparse use in the final mix."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -7263,8 +7263,8 @@
       "index": 90,
       "status": "pass",
       "baseline_sha256": "384ac056ecb33cba5126afb2ebba87a75b53e801cb13302e198f570794ca8e03",
-      "v2_sha256": "384ac056ecb33cba5126afb2ebba87a75b53e801cb13302e198f570794ca8e03",
-      "notes": "電腦裡三份「最後版本」引發全家整理；兒子把舊文件櫃位置記得比父親清楚，最後再問資料夾是否真正最後，夫妻齊聲否認形成有力回扣。 四欄逐篇檢查：粤語正文、粵拼、完整普通話釋義及對應實際事件的復述提示。"
+      "v2_sha256": "34dcfbbdaca43bd6dc07f3dc8a679b880f11c8d565ac478e5986492af72b71b2",
+      "notes": "Pass after rewrite. A folded water bill is misread as unpaid; the roommates role-play a bank inquiry until the hidden red stamp is revealed, then the next receipt gets a comically oversized stamp. Independent final review approved the four fields and Jyutping; financial-document topic should be used sparingly."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -7272,23 +7272,23 @@
       "status": "pass",
       "baseline_sha256": "d19c1a66840376eda2fe9e064f2fb02037966765ae59024d202a4587e472083c",
       "v2_sha256": "d19c1a66840376eda2fe9e064f2fb02037966765ae59024d202a4587e472083c",
-      "notes": "爸爸將維修單當成通宵功勞紀念，媽媽一句揭穿他只送宵夜；他隨即替粥加上大勾號補記功勞，反轉具體又自然。 四欄逐篇檢查：粤語正文、粵拼、完整普通話釋義及對應實際事件的復述提示。"
+      "notes": "Pass. The father’s old repair receipt triggers a concrete memory, the mother punctures his overnight-work claim, and he immediately adds a check mark for buying porridge. Four fields checked; family-centered and best used sparingly in final selection."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 92,
       "status": "pass",
       "baseline_sha256": "67cee835327c2d97290df24b5bd54e3af2b314939dc87051e564cea3fcf5a864",
-      "v2_sha256": "67cee835327c2d97290df24b5bd54e3af2b314939dc87051e564cea3fcf5a864",
-      "notes": "媽媽把銀行縮寫誤當車牌，爸爸拿苦瓜出場自嘲連車位都租不起；最後無車仍得負責煮飯，前後誤會與苦瓜道具連成笑點。 四欄逐篇檢查：粤語正文、粵拼、完整普通話釋義及對應實際事件的復述提示。"
+      "v2_sha256": "7f53f43ffc57cbb72c78b4467afabc7c6c19ad4c0c93d65d5465904e20eac76f",
+      "notes": "Pass after rewrite. The roommate enlarges a bank letter until only “balance” remains, then the folders turn the room into an exhibition; the monthly mailed “exhibits” close the callback. Independent final review approved the four fields and Jyutping; use sparingly in the final mix."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 93,
       "status": "pass",
       "baseline_sha256": "6c35dac60340ca408db2cc3170bdfdea76344f7b11b5452e2f539e9f37998e3f",
-      "v2_sha256": "6c35dac60340ca408db2cc3170bdfdea76344f7b11b5452e2f539e9f37998e3f",
-      "notes": "芝麻收據引出米錢、藥錢歸屬爭論，財政大臣理清代付後才發現爸爸還欠杏仁餅；以不必還的請客標籤作具體收尾。金錢帳務核心列入最終配額與重複盤點。 四欄逐篇檢查：粤語正文、粵拼、完整普通話釋義及對應實際事件的復述提示。"
+      "v2_sha256": "6f58aa0e0a67c00572a5770a7341198f471d68c3b9e89419e01b002052241cce",
+      "notes": "Pass after rewrite. Sorting the bank-letter stack directly affects table-leg height and the cup’s path; removing and replacing envelopes escalates the gag, then a cork pad lets the letters be filed and returns to the “bank letter off / table on shift” callback. Independent final review confirmed all four fields, category fit and 234/234 Han/Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -7303,8 +7303,8 @@
       "index": 95,
       "status": "pass",
       "baseline_sha256": "6f78ec5d612c084d866833769b5ced425dfacf114b155de298e05ad5eb26374d",
-      "v2_sha256": "6f78ec5d612c084d866833769b5ced425dfacf114b155de298e05ad5eb26374d",
-      "notes": "父母各自說已問銀行與仍在排隊，三封相似通知揭出根本不是同一件事；核對後爸爸連等候音樂都聽熟的尾句回扣清晰。 四欄逐篇檢查：粤語正文、粵拼、完整普通話釋義及對應實際事件的復述提示。"
+      "v2_sha256": "893890d0094806c47cb94dd4802b23fdc166bd79b31a3cbe58236e3ddcb2654b",
+      "notes": "Pass after rewrite. A drawn smile is mistaken for a completion mark, then the unfinished notice is moved back to the to-do slot; the roommate gets archived as “under observation.” Independent final review found the four fields aligned and no clear Jyutping tone errors."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -7319,8 +7319,8 @@
       "index": 97,
       "status": "pass",
       "baseline_sha256": "0d49146aa63043a0a7bf3c780f39151be08be8ae4ad646fa998264ae806ed720",
-      "v2_sha256": "0d49146aa63043a0a7bf3c780f39151be08be8ae4ad646fa998264ae806ed720",
-      "notes": "弟弟看見備份檔名便想拆風扇，實測才發現收據缺失；資料復原確認後，終於讓吵十年的風扇找新工作，動機與回扣明確。 四欄逐篇檢查：粤語正文、粵拼、完整普通話釋義及對應實際事件的復述提示。"
+      "v2_sha256": "402bacd65e6dedf5986a551ce762d9593f5b64c09f3e76ac962b219a928412cb",
+      "notes": "Pass after rewrite. Seventeen blank scans become “air maintenance records” with a “missing information” label; the final question returns to the original empty file. Independent review checked the four fields and Jyutping, including 掀起 hin1 hei2, 掃描 sou3 miu4, 搜尋 sau2 cam4, and 開始 hoi1 ci2."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -7328,7 +7328,7 @@
       "status": "pass",
       "baseline_sha256": "3025a46537eb5f8b0679916e7bea71179f7a6ebef2312599bd84e4a8ce677957",
       "v2_sha256": "3025a46537eb5f8b0679916e7bea71179f7a6ebef2312599bd84e4a8ce677957",
-      "notes": "街坊接力交棒順利、帳單交接卻失誤；問過付款方法被誤當已付款，最後母親隔着客廳替兩人裁判甩棒，體育比喻貫穿。金錢帳務核心列入最終配額與重複盤點。 四欄逐篇檢查：粤語正文、粵拼、完整普通話釋義及對應實際事件的復述提示。"
+      "notes": "Pass. The missed handoff at home contrasts with a clean relay exchange; “asked how to pay” is mistaken for “paid,” and the mother judges the handoff from the sofa. Four fields checked; family/bill setting flagged for sparse final use."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -7336,7 +7336,7 @@
       "status": "pass",
       "baseline_sha256": "bb4699e68305ce85feacdf353c54a5a414651ffc83eaec26e7bc5ea218f90f06",
       "v2_sha256": "bb4699e68305ce85feacdf353c54a5a414651ffc83eaec26e7bc5ea218f90f06",
-      "notes": "舊健身合約被當成不肯退會的成員；爸爸從催練腹肌轉為約海邊走路，並說這次不用簽合約，前後呼應有效。 四欄逐篇檢查：粤語正文、粵拼、完整普通話釋義及對應實際事件的復述提示。"
+      "notes": "Pass. The father treats an expired fitness contract as a membership still needing cancellation; the status-check process leads to his walk invitation and a no-contract callback. Four fields checked; family file-management theme flagged for sparse final use."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -7408,7 +7408,7 @@
       "status": "pass",
       "baseline_sha256": "22776c63a360818a21b5c9669a5b70dda730e134757bff3701f0e7b59b3cfe02",
       "v2_sha256": "22776c63a360818a21b5c9669a5b70dda730e134757bff3701f0e7b59b3cfe02",
-      "notes": "阿明只盯月供大字，咖啡兩次加料再把「杯價與最後要付的總額」落到眼前，前後比喻吻合並有清楚尾扣。金融成本為核心，仍列入最終題材配額。 逐張核查正文、粵拼、完整普通話釋義與實際事件相符的復述提示。"
+      "notes": "Pass. The large-print monthly payment versus small-print term leads to checking total cost; the two coffee add-ons return as a concrete ending. Four fields and Jyutping checked in independent review; finance is central, so use sparingly in the final selection."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -7439,8 +7439,8 @@
       "index": 12,
       "status": "pass",
       "baseline_sha256": "bba1356f1b8f2231ad1c44acef02d97fa1d209a8b13082122f2584ddf654bf42",
-      "v2_sha256": "bba1356f1b8f2231ad1c44acef02d97fa1d209a8b13082122f2584ddf654bf42",
-      "notes": "爸爸把常看平台的介绍视频误当自己真有使用，停订后孙子要看恐龙，他拿旧图书回应；“开新服务”的预期反转贴合订阅主题。 按篇逐项审读正文、粵拼、完整普通话释义和与实际情节一致的usageTip。"
+      "v2_sha256": "3db16a3c02377f754fc3604fa725a979bdba5a395df2259a86b8b42b1489e298",
+      "notes": "室友版共享串流故事经人工与独立复核，类别相符，口语、四字段及粤拼核对通过。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -7464,15 +7464,15 @@
       "status": "pass",
       "baseline_sha256": "6ea501ddfb2a1a8ec6f566a5a21b5599a0be2f27a83f7277c45345a52faf6abc",
       "v2_sha256": "6ea501ddfb2a1a8ec6f566a5a21b5599a0be2f27a83f7277c45345a52faf6abc",
-      "notes": "月费未变却少一次服务的发现后，生日会气球飞上天花板，家人把下一项服务改成救球；两种“服务”形成自然转场。 按篇逐项审读正文、粵拼、完整普通话释义和与实际情节一致的usageTip。"
+      "notes": "Pass. The unchanged monthly fee hides fewer cleanings and a changed scope; after clarification, the escaped balloon turns into a family retrieval operation. Independent review approved the four fields and Jyutping; family and fee topics should be limited in the final mix."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
       "index": 16,
       "status": "pass",
       "baseline_sha256": "c33f97580425bceaae746a1cf35011ad94741b91d8cb66f3ebbad869b00c4628",
-      "v2_sha256": "c33f97580425bceaae746a1cf35011ad94741b91d8cb66f3ebbad869b00c4628",
-      "notes": "去氹仔被误会成国际长途引出妹妹查地图、过桥数车，舅舅送地球仪让她继续问但不收长途费；谜底与道具回扣连贯。 按篇逐项审读正文、粵拼、完整普通话释义和与实际情节一致的usageTip。"
+      "v2_sha256": "3ba56db394da8ccbf8b628ac28df493aa8cf41558696ddd0f884e4e1371f3b7f",
+      "notes": "室友电话服务故事经人工及独立复核；已澄清帐单栏位误读并修正欄 laan4、打開 daa2 hoi1。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -7480,7 +7480,7 @@
       "status": "pass",
       "baseline_sha256": "2e32ec92332b44d7c49226f2e31a4145cf38946dbf2ce159e0721cd8b5f1d772",
       "v2_sha256": "2e32ec92332b44d7c49226f2e31a4145cf38946dbf2ce159e0721cd8b5f1d772",
-      "notes": "爸爸怪宽带卡顿，换好后屏幕不停但歌手自己没气；弟弟把升级后的问题定义为歌手该休息，设备对照产生清楚反转。 按篇逐项审读正文、粵拼、完整普通话释义和与实际情节一致的usageTip。"
+      "notes": "Pass. The frozen online accompaniment prompts a careful switch check; once the connection works, the father runs out of breath instead. Independent review approved the four fields and Jyutping; keep broadband-cost stories sparse in the final mix."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -7544,7 +7544,7 @@
       "status": "pass",
       "baseline_sha256": "66a10ba5c891ef79253ff81e32d9737fe10318cc868d6245ad3b6c7398c9d82d",
       "v2_sha256": "66a10ba5c891ef79253ff81e32d9737fe10318cc868d6245ad3b6c7398c9d82d",
-      "notes": "碎星形曲奇被買家說成拼圖，改善承托後他拼出笑臉並說不用自己拼；前後同一拼圖意象有清楚喜劇回收。 四欄逐張審讀正文、粵拼、完整普通話釋義及與實際事件吻合的復述提示。"
+      "notes": "Pass. Broken star cookies prompt a packaging fix; the buyer’s final smiley closes the before/after photo callback. Independent review approved the four fields and Jyutping; business costs remain background to the shipping and packaging gag."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -7552,7 +7552,7 @@
       "status": "pass",
       "baseline_sha256": "bfff7fba1274ddda43cb048428cdeeaa49c6e625fa5f6c3b34c4fd1522f7580d",
       "v2_sha256": "bfff7fba1274ddda43cb048428cdeeaa49c6e625fa5f6c3b34c4fd1522f7580d",
-      "notes": "客人每句「順便」使工作範圍不斷膨脹；堂妹立界線後，手機再響卻是新店掛好標誌的照片而非加工作，形成有效預期反轉。收入管理仍是背景，列入最終題材統計。 四欄逐張審讀正文、粵拼、完整普通話釋義及與實際事件吻合的復述提示。"
+      "notes": "Pass. Repeated “just one small change” prompts clear scope and payment milestones; the final shop-opening photo contrasts with the feared next request. Independent review approved the four fields and Jyutping; business-fee subject should be balanced in final selection."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -13612,8 +13612,8 @@
       "index": 15,
       "status": "pass",
       "baseline_sha256": "2b82642e9f2b35f7d589a53d995dc601e611d77e0fd2faf0b67ad0aaeeec0c23",
-      "v2_sha256": "2b82642e9f2b35f7d589a53d995dc601e611d77e0fd2faf0b67ad0aaeeec0c23",
-      "notes": "Pass: the phrase “one meal” is misunderstood as one person’s portion, so the brother stuffs two bags of shrimp into his schoolbag for the whole class; his overestimate carries into the next day’s sharing. This is a clear family misunderstanding with a concrete comic image and a callback to labeling portions. Four fields read; gloss/tip match and Jyutping reviewed."
+      "v2_sha256": "81365d29ceaed0415918e8748d0f07b087192c1d9e0bef78a90fc78d1ffac71e",
+      "notes": "主审逐字段复核后重写为室友生活段子，符合当前人工V2口语复审；粤拼已逐字校读，翻译及练习提示对应。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
@@ -13684,8 +13684,8 @@
       "index": 24,
       "status": "pass",
       "baseline_sha256": "eade60091c2927dab8e1e5abd19e329c4083f855495a35f0308e03420c76c690",
-      "v2_sha256": "eade60091c2927dab8e1e5abd19e329c4083f855495a35f0308e03420c76c690",
-      "notes": "Pass: the distracted narrator oversalts soup, the father mistakes the grimace for a burn, and the potato/garlic rescue turns the failure into a meal; his praise is followed by the mother hiding the salt spoon to prevent another slip. A coherent escalating kitchen mishap and earned callback. Four fields read; gloss/tip match and Jyutping reviewed."
+      "v2_sha256": "67eeb76bcb9e0cfac573f4dba6355c90e3d9070b8a809559cdba76205fb487d1",
+      "notes": "主审逐字段复核后重写为室友生活段子，符合当前人工V2口语复审；粤拼已逐字校读，翻译及练习提示对应。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
@@ -13884,8 +13884,8 @@
       "index": 49,
       "status": "pass",
       "baseline_sha256": "a9ffee4546cbfa1817fafcacd8b5831a1d8b36ed828cad2c9da6c4f55a5b8eeb",
-      "v2_sha256": "a9ffee4546cbfa1817fafcacd8b5831a1d8b36ed828cad2c9da6c4f55a5b8eeb",
-      "notes": "The brother over-salts the steamed egg by squeezing in half a dish of soy sauce, forcing everyone to drink water; the visible escalation earns a small comic beat, and a separate dipping dish gives a coherent fix. Checked all four fields."
+      "v2_sha256": "f36c9b535ae654bb3c7ebef8e8d7f3e7a844764de4b1599e64986f0c5d578903",
+      "notes": "主审逐字段复核后重写为室友生活段子，符合当前人工V2口语复审；粤拼已逐字校读，翻译及练习提示对应。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
@@ -14468,8 +14468,8 @@
       "index": 22,
       "status": "pass",
       "baseline_sha256": "1b11cb7b31fa7aaa5b23f5c0c1d14c32b5b9997ac915a0fdcd9d3209c26a4afa",
-      "v2_sha256": "1b11cb7b31fa7aaa5b23f5c0c1d14c32b5b9997ac915a0fdcd9d3209c26a4afa",
-      "notes": "A neglected microwave timer splashes curry onto a white sleeve, earning the nickname “curry-print shirt” and a next-morning callback; the recurring visual gag grows from the narrator’s distraction. Checked all four fields. Pass."
+      "v2_sha256": "9e585699079ed3e1835b816f5e5d11f931e38c5ecc370765cf6ed201171bbedf",
+      "notes": "主审逐字段复核后的室友生活段子；故事机制清晰，粤拼逐字校读，翻译及提示对应。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -14540,8 +14540,8 @@
       "index": 31,
       "status": "pass",
       "baseline_sha256": "b880c16ee83600494ede5ccf9f16f71acd2aa86ca7d47f34cbe3a731785d5c6b",
-      "v2_sha256": "b880c16ee83600494ede5ccf9f16f71acd2aa86ca7d47f34cbe3a731785d5c6b",
-      "notes": "The family creates a judging chart for fries, then the brother eats the straight “champion” before judging; the award flips into “first to disappear,” a clear, earned payoff after the near-drop and uneven first batch. Checked all four fields. Pass."
+      "v2_sha256": "75b236341068596152539dd5793641c1f892f8ed6566f05206cc2d6ec26f76bf",
+      "notes": "主审逐字段复核后的室友生活段子；故事机制清晰，粤拼逐字校读，翻译及提示对应。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -14605,8 +14605,8 @@
       "index": 39,
       "status": "pass",
       "baseline_sha256": "6f6721aae3d5745f1aa9a78ab4263d0b97945fadd36bfd38d943e503060cca34",
-      "v2_sha256": "6f6721aae3d5745f1aa9a78ab4263d0b97945fadd36bfd38d943e503060cca34",
-      "notes": "The first egg sticks, the second slides cleanly, the family makes a smiling plate, and the retired pan returns as a flower-pot tray; the callback gives the cookware test a modest but earned payoff. Checked all four fields. Pass."
+      "v2_sha256": "e3ec6e32b67510578a5771e810a37f42150b10fe33ca058df522bd2904614486",
+      "notes": "室友版已逐字段人工复核；独立复核指出的第三只蛋铺垫和承认声调已修正，哈希与镜像同步。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -14757,8 +14757,8 @@
       "index": 58,
       "status": "pass",
       "baseline_sha256": "5f65f15a1d041b65db5820f4710ce3a61e01e364ea6cc1c882474819d7bf1bb3",
-      "v2_sha256": "5f65f15a1d041b65db5820f4710ce3a61e01e364ea6cc1c882474819d7bf1bb3",
-      "notes": "Trying to save the last radish nearly costs a fingernail; the first rushed cake falls apart into a flower, then its supposed failure becomes the sample that persuades the neighbor’s radish-averse son to try it. The fork reminder callbacks the opening near-injury. Checked all four fields; the usage tip tracks those events."
+      "v2_sha256": "d0b7d5a9434fe7b76373250e1bb891f918d2b9b77405e1decebb9174bd04474c",
+      "notes": "室友/邻居日常煮食故事四字段经人工及独立复核，内容哈希已同步。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -14790,7 +14790,7 @@
       "status": "pass",
       "baseline_sha256": "54f79ce270639a51cfe39e8df2e451615de92df99dab733dfb193ab558938177",
       "v2_sha256": "54f79ce270639a51cfe39e8df2e451615de92df99dab733dfb193ab558938177",
-      "notes": "The family cannot identify an undated freezer bag and refuses to guess; the daughter turns the labelled packages into a seating chart, then places new dumplings at the back to prevent queue-jumping. The freezer-seat callback resolves the storage confusion with a distinct comic image. Checked all four fields."
+      "notes": "食物保存故事四字段人工复核并经独立审阅，逐字粤拼未见确定错误。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -14845,8 +14845,8 @@
       "index": 69,
       "status": "pass",
       "baseline_sha256": "282d4702659dcec75d9aba4a9af5113cdd6740a3722a8790c54157d78ecb435c",
-      "v2_sha256": "282d4702659dcec75d9aba4a9af5113cdd6740a3722a8790c54157d78ecb435c",
-      "notes": "Dad mistakes fresh lily bulbs for garlic, asks if they can be cooked, then enjoys the quick-fried dish so much that he blames the empty plate on the portion size. That closing excuse reverses his earlier suspicion and lands the payoff. Checked all four fields."
+      "v2_sha256": "5010c225267afa84897329ec43e40c2248ebf4d7624d8d3c3e8ff68a9898bd2c",
+      "notes": "主审审阅外部重写，改为室友把葱芫茜薄荷当花束；逐字段检查递进、回扣、粤拼及译文提示。橡筋读音依 Jyut Dictionary 核为 zoeng6 gan1。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -14909,8 +14909,8 @@
       "index": 77,
       "status": "pass",
       "baseline_sha256": "34f8db8576998d74866ec77025e44e719d0f4070cef934e4d32eecfd3e3a850a",
-      "v2_sha256": "34f8db8576998d74866ec77025e44e719d0f4070cef934e4d32eecfd3e3a850a",
-      "notes": "The brother mistakes orange sweet-potato flesh for mango, nearly causes a plate mishap while rushing the pot, then takes charge of roasting the second one; the father’s “someone secretly roasted sweet potatoes” suspicion lets him proudly confess. The stealing/ownership callback closes the scene. Checked all four fields."
+      "v2_sha256": "c8b4fc23e976e6415c8720768b1889082528490065399f9cb13072ca915cdd97",
+      "notes": "主审重写为室友把两条不同大小番薯排成轮班的生活段子；逐字段复核因果、回扣、粤拼、简体翻译及练习提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -14941,8 +14941,8 @@
       "index": 81,
       "status": "pass",
       "baseline_sha256": "b6a2ebb7f88c222405cf247846df665e291ca0ee1b95997a86ff49c06b900170",
-      "v2_sha256": "b6a2ebb7f88c222405cf247846df665e291ca0ee1b95997a86ff49c06b900170",
-      "notes": "The uneven water-chestnut chunks become an unexpected “hard candy” inside the steamed patty; Dad admits he was trying to sneak a taste, and the daughter charges him a final-piece “tasting fee.” The surprise and fee callback pay off the prep setup. Checked all four fields."
+      "v2_sha256": "f78a2cf7e378d984abac833bc8f17415795cd2bc99248d04d138669095faff6d",
+      "notes": "室友马蹄肉饼段子，动作递进到音效及片尾彩蛋回扣；主审逐字段复核。撻读 daat3、戳读 coek3。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -14973,8 +14973,8 @@
       "index": 85,
       "status": "pass",
       "baseline_sha256": "dc322101a392da122e70743b6dd5b3e79733ded87c4611e62de2e2845f44e0ff",
-      "v2_sha256": "58e980930ed1ccc42f2ee64af24b6fde1c21b66bd65b3bf730f761cd3428d65c",
-      "notes": "The roommate jokes that buying a whole winter melon requires installments; the vendor weighs both halves and labels them first and final installments. The two labels structure separate meals and the shopping-list payoff, then the vendor extends the joke to a four-installment watermelon and the roommate asks about interest. Distinct market-purchase running gag."
+      "v2_sha256": "26d73b874b15614a3f4a504becb6bd7636909b3b4297f63a0f125c69fd72ad0b",
+      "notes": "独立复核指出原分期/利息梗与用户题材要求冲突，改为室友把大冬瓜煮成连续剧；补上冬瓜全集粤拼后，主审逐字段复核。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -14989,16 +14989,16 @@
       "index": 87,
       "status": "pass",
       "baseline_sha256": "bb605736d08113cee7378d64886e914e47dfb9d2f3cd1210780787306ba98053",
-      "v2_sha256": "bb605736d08113cee7378d64886e914e47dfb9d2f3cd1210780787306ba98053",
-      "notes": "A leaking rice bag scatters grains; the sister counts seven like forensic clues, and the delivery person later asks whether they left another trail. The callback turns the safe return/replacement process into a clear household joke. Checked all four fields."
+      "v2_sha256": "cf36c6c6f87fae3e604c3baf68218aaefa2ae1b736072e9a21af763a30fd41da",
+      "notes": "室友网购触控灯的保护膜误会段子；主审复核所有四字段、叙事因果、粤拼逐字、简体翻译和提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 88,
       "status": "pass",
       "baseline_sha256": "0860fedd93a09f3eb17a44dbce441adac36efb4c04ab0e9388fea57924b467a0",
-      "v2_sha256": "0860fedd93a09f3eb17a44dbce441adac36efb4c04ab0e9388fea57924b467a0",
-      "notes": "The sister carefully puts only half a spoon of sauce on the pork chop; Dad pours all of his sauce at once and immediately regrets the softened crust. His request for two bowls next time earns the server’s comeback about giving him a spoon first. Checked all four fields."
+      "v2_sha256": "3d65df08af8822cee1d8345609891bb4d9d9aaa1a23031221137d69cfccae3ef",
+      "notes": "主审及独立复核逐字段通过茶餐厅分汁故事；修正街角 gaai1 gok3。脆边被酱汁浸软后回扣到两碗汁和匙羹，翻译及提示对应。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -15152,8 +15152,8 @@
       "index": 7,
       "status": "pass",
       "baseline_sha256": "7c0c39cb2422c1600aa4ade6f2e6a41672e7720722c6a3374524d1f23b35d4df",
-      "v2_sha256": "37e990d32b0d084b0198af1d5c301b0d80ff2fc303244a98fee60a5a770489e8",
-      "notes": "V2 manual pass: the father returns a folding grocery trolley that will not close; the bag strap is caught in the hinge, and he repeats the same mistake at home, turning the return into an earned overtime callback. Category 日常退換貨 retained. Checked all four fields and contextual Jyutping."
+      "v2_sha256": "f35b7ec133ecb01a3b16cfa9d8dc82cc2ee07a291854562ba830091a7c4b5d9c",
+      "notes": "折叠购物车段子四字段经人工与独立审阅；已把“弹开”粤拼修正为 taan4 hoi1。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -15209,8 +15209,8 @@
       "index": 14,
       "status": "pass",
       "baseline_sha256": "2a56fd03ff2acfffdad2d284f7cfed7e27f6c0dd8889898208183114ebb43c22",
-      "v2_sha256": "e0c5b207ed351501a9d373c8eae810fffd19d13692ed58c554b5907b0342fca1",
-      "notes": "Rewrote the routine fish-cooking and money-saving ending as a fish-voice exchange that turns Dad’s teasing into his own quiet-time rule; manually reviewed all four fields, 251 Han / 251 Jyutping tokens.",
+      "v2_sha256": "50e02eb72fc91446bb486064eb4fb06086e219600ff6d01823e4a0c60b911439",
+      "notes": "室友版街市买鱼段子四字段经人工与独立审阅通过，类别吻合。",
       "revalidated_at": "2026-11-03"
     },
     {
@@ -15298,8 +15298,8 @@
       "index": 25,
       "status": "pass",
       "baseline_sha256": "5f8070695713845a50288ea6937b81eeef293a1a1fa7af0ba36410270794ce41",
-      "v2_sha256": "5f8070695713845a50288ea6937b81eeef293a1a1fa7af0ba36410270794ce41",
-      "notes": "The sister spots two soft strawberries at the bottom and gets a replacement; at home the fruit becomes yogurt bowls and jam toast, then she stages a “strawberry tasting meeting” and Dad votes for the jam. The avoided waste escalates into a family tasting contest. Checked all four fields."
+      "v2_sha256": "76563fcb7e9259bccf250374ce63d021f268edf72cb93cc5030dac0649fd8f69",
+      "notes": "室友版草莓购物故事四字段经人工与独立终审通过；末句阿朗粤拼已纠正。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -16499,8 +16499,8 @@
       "index": 75,
       "status": "pass",
       "baseline_sha256": "9b0efefd1798d0cfbcbc8e930c0564a4734fcb8f69d73871c397669e4c639e8e",
-      "v2_sha256": "9b0efefd1798d0cfbcbc8e930c0564a4734fcb8f69d73871c397669e4c639e8e",
-      "notes": "The daughter adds too much cheese, shapes an oversized “giant meatball,” and it rolls under the table where the dog refuses to leave; the scale-up produces a clear visual payoff and callback. Checked all four fields."
+      "v2_sha256": "6b70bd4b195727f4673afd678f90163458403c86eed646ae672471faf27eb9a5",
+      "notes": "四字段经主审和独立复核通过；修正捏 nip6。室友生活段子因果清晰，落地肉丸弃置及生肉冷藏处理明确，皇冠肉丸回扣自然。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -16523,8 +16523,8 @@
       "index": 78,
       "status": "pass",
       "baseline_sha256": "0653709756832b3efef89049ac0bc455972efb3204984849fc5c4bac2de09ad9",
-      "v2_sha256": "0653709756832b3efef89049ac0bc455972efb3204984849fc5c4bac2de09ad9",
-      "notes": "The aunt arrives after everyone is full, and a slippery slice of toast makes the plate spin as all reach for it; the physical mishap earns a shared laugh and ends with the aunt arriving too late for dessert. Checked all four fields."
+      "v2_sha256": "e9d1d9381d9ee75fc4fd9177f6938009bd02d7685cf58f6db7bf34cf7236d633",
+      "notes": "室友版茶餐厅西多士故事经四字段人工与独立终审通过，打包/翻热/冷藏顺序已澄清。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -16555,8 +16555,8 @@
       "index": 82,
       "status": "pass",
       "baseline_sha256": "2be4e5a816026fba7856e2c4c7bfb3c5ad082c43c657f50dae6079cd0c1c3c91",
-      "v2_sha256": "2be4e5a816026fba7856e2c4c7bfb3c5ad082c43c657f50dae6079cd0c1c3c91",
-      "notes": "Missing water spinach is replaced with mint, which the brother calls toothpaste before taking a second large helping; the contradiction earns the family’s joke and the father’s later approval. Checked all four fields."
+      "v2_sha256": "0b063f9b0c598dd25d469972c49d487da3d672ccd6e6f979c733037ee13af179",
+      "notes": "网购蔬菜替换故事四字段经人工与独立复核，保留不加芫茜的备注并修正缺货替换冲突。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -16619,8 +16619,8 @@
       "index": 90,
       "status": "pass",
       "baseline_sha256": "cae475aadd557108cdcfd8a77b99c44913eabaa53c959d0ecc792e3e77e58cd0",
-      "v2_sha256": "cae475aadd557108cdcfd8a77b99c44913eabaa53c959d0ecc792e3e77e58cd0",
-      "notes": "Frozen banana portions save overripe fruit, then the father loosens the milkshake lid and sprays the table; his offer to tighten it next time gives the small spill a clear domestic payoff. Checked all four fields."
+      "v2_sha256": "871f47252ceaddab7c46e346d16fd3b6924a6883114c65b6d94becbbf16158b4",
+      "notes": "香蕉冷冻分装故事经人工及独立复核通过；已避免与已通过搅拌机飞溅故事重复。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",

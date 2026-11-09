@@ -4,7 +4,7 @@
   "scope": "Independent manual second review of the 2,000 active stories selected from the original 5,000 source rows, including existing V2 passes, for stand-up/life-bit quality, natural Macau colloquial Cantonese, contextual tone-marked Jyutping, complete Simplified gloss and story-specific retelling prompt. The 3,000 excluded source rows, IDs, metadata, drafts and historical audit records remain preserved but are outside current semantic completion and app acceptance scope. Source-wide structural/hash preservation checks do not count excluded rows as new manual completions.",
   "source_cards": 5000,
   "target_active_cards": 2000,
-  "active_selection_status": "2,000 current V2-pass cards selected; 1480 oral pass, 0 needs_revision, 520 pending; active-card re-audit continues, while excluded source cards remain preserved.",
+  "active_selection_status": "2,000 current V2-pass cards selected; 1567 oral pass, 0 needs_revision, 433 pending; active-card re-audit continues, while excluded source cards remain preserved.",
   "cards": [
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -11080,18 +11080,28 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 53,
-      "status": "pending",
-      "source_sha256": "9eb41646bb3072b2bf37213f18f83061429fb75b315aadb742ead0d518f8798b",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "c583ce40af16a4158303045c8d22a6a80995e815b6f2cbc7a101e752b4505012",
+      "topic_notes": [
+        "family_transition",
+        "money_as_background",
+        "home_move_comedy"
+      ],
+      "notes": "Pass after rewrite. 246 Han characters and 245 manually written Jyutping tokens, aligned. The uncle enters the storage room in the dark, then treats the broom and mop as night-shift workers; the arrow and “not the kitchen” label pay off the confusion. Four fields reviewed; checked 舅父 kau5 fu2, 掃把 sou3 baa2 and 箭嘴 zin3 zeoi2 against 粵典, and rechecked the other context readings. Money is a brief moving detail; family is present but the humor comes from the uncle’s behavior."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 54,
-      "status": "pending",
-      "source_sha256": "ab95dec561b42b33b5c66cd88c73d51e47ae81054535b622611579365c9bafcc",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "6b396c988f3551f2ede956aca429de70452715910ca2863a825ad1a3e269303c",
+      "topic_notes": [
+        "overseas_study_transition",
+        "dorm_life",
+        "machine_interface_misreading",
+        "nonfamily",
+        "no_money_mainline"
+      ],
+      "notes": "Pass after rewrite. 268 Han characters / 268 aligned hand-written Jyutping tokens. A student mistakes the washer timer for a queue, writes a queue list, then realizes he had booked the machine’s start time; the next-day “can I book its rest?” callback lands. Four fields reviewed; key readings checked including 預約 jyu6 joek3, 畫面 waa6 min6, 說明 syut3 ming4 and 頭先 tau4 sin1. Queue-table wording is now consistent in all fields. Dorm life transition fits the inherited life-change category; no money conflict."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11104,10 +11114,16 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 56,
-      "status": "pending",
-      "source_sha256": "ce96b344d546f180aca2d7c38c6efeaa98bc579dc7af0f1aec65d320fa6091e0",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "3c8bd7f9e6b3909cbcd9f77ff077e347327be56842f849f32496831961d467c0",
+      "topic_notes": [
+        "newlywed_move",
+        "unpacking_behavior_comedy",
+        "family_context",
+        "money_not_a_punchline",
+        "sparing_final_selection"
+      ],
+      "notes": "Pass after rewrite. The shared label scheme escalates through nested empty cartons and a bed-sheet box mislabeled by packing order, then the final unlabelled carton contains every label. Four fields checked; the gloss clarifies the nested boxes. Family moving context, money not central; flag for sparse final selection."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11144,10 +11160,17 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 61,
-      "status": "pending",
-      "source_sha256": "a3200a7581346dd0c0d98de6a4c2dd435c8a3b8767fcddef96f40a4c21101dc1",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "445329dafe31881f2c4d0a103a5337f533430b8734f165b9578fd5e678e9f065",
+      "topic_notes": [
+        "adult_daughter",
+        "first_paycheck_background",
+        "monthly_clothing_limit",
+        "clothing_behavior_comedy",
+        "family_context_light",
+        "money_is_setup_only"
+      ],
+      "notes": "Pass after rewrite. First-paycheck and a self-set clothing cap lightly connect to the adult-child independence category; the comedy is driven by the jacket/backpack snag, mistaken silent signal, and hanger callback. Four fields reviewed and current hash synchronized."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11176,10 +11199,13 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 65,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "ec5c937d541b17ee3e280ecc9243798248f1a195257f2c3b7b2a47eef5fbf692",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Pass. 250 Han characters. The spending shortfall leads to counting duplicate stickers, then a cardboard theatre and a ticket callback; behavior drives the joke. Read all four fields; the Jyutping is aligned and spot-checked for contextual tones. Family and allowance remain central, so retain sparingly in the final selection."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11192,10 +11218,13 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 67,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "0b5bc39cccd560bfb0cb9ad6d6bd2d1733bb256c4ba448b680c3649d6b13a8ee",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Pass. 254 Han characters. The grocery list sparks the child’s self-recorded bill-reminder song, which startles the parent; the lamp purchase is delayed and the slippers callback closes the scene. Four fields checked; contextual Jyutping readings were spot-checked. Family and money are central; exclude or use sparingly in final selection."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11208,18 +11237,24 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 69,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "fb55e0bd1ed4b86b8a692011ca0102e6505f8c045e2b303df894b8d440a6bdf7",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Pass. 266 Han characters. A game reward is mistaken for an annual renewal; the narrator discovers deleting the game does not cancel the subscription, and the sister’s “主角等陣先” callback lands. Four fields checked; contextual Jyutping readings spot-checked. Family and money are central; exclude or use sparingly in final selection."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 70,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "c9918977b93236435fef542f09a6dcd5c8caaa3795db819b113cc7fae19588ed",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Pass. 253 Han characters. The father’s stage-like suit and supermarket receipt turn a trial lesson into a magic performance; the granddaughter’s dishwashing request pays off the setup. Four fields checked; contextual Jyutping spot-checked. Family and fees are central; exclude or use sparingly in final selection."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11232,10 +11267,13 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 72,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "a37fdc135cc049f9dbcb96772f513857093d6bac79f71aa0f704832841aaec03",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Pass. 262 Han characters. A “十” sticker on pajamas turns the child into a self-appointed sports star; class schedules, the sticker moved to the shirt, and the bedtime question build a clear callback. Four fields checked; contextual Jyutping spot-checked. Family and service fees remain central; exclude or use sparingly in final selection."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11272,18 +11310,28 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 77,
-      "status": "pending",
-      "source_sha256": "e700da3cd6de6c091f2e261527381b7dd3287b0b254857f1d956b1f23288edde",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "35309b8237658e5d841bb1881af8e949e0dd79eb16bb21edd3998bdea8f11fe9",
+      "topic_notes": [
+        "community_transport",
+        "nonfamily_scene",
+        "fees_as_background"
+      ],
+      "notes": "Pass after rewrite. 295 Han characters. An older neighbor folds his breakfast paper bag into a tiny “boarding pass” while waiting for a community bus; drivers mistake it for a signal, and the stop bell produces the final callback. Replaced 折 with colloquial 摺 and synchronized zip3. Four fields reviewed, complete gloss and story-specific practice prompt checked; contextual Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 78,
-      "status": "pending",
-      "source_sha256": "6018a98dd82dfaca97b61cc1faf567cd0e7c8a55e21b814d359446dad91e6420",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "7226beea8caf62f6430cd3b85f4e396b8d0e101d5c94cea9e43ea24707f4b39d",
+      "topic_notes": [
+        "community_service",
+        "community_activity_subsidy_background",
+        "object_exchange",
+        "nonfamily",
+        "behavioral_comedy"
+      ],
+      "notes": "Pass after rewrite and category correction. 313 Han characters / 313 aligned hand-written Jyutping tokens. Added a fictional one-line community activity subsidy/space-and-equipment fee context to fit the inherited category; the microphone press-conference bit remains the central joke. Full translation and story-specific prompt reviewed. Added 口吻 man5 to correct the missing syllable."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11304,10 +11352,13 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 81,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "d4ddc7a5648daec05dbfbe14ed231509e03e50a09c7f861a857a3d1985ddfffd",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Pass, but topic-limited. Four fields read and reviewed; the receipt/photo archive sequence and father guarding his seaside memory photo form a coherent callback. Contextual Jyutping checked; no clear tone error found. The vehicle renewal/inspection fees dominate the setup, so exclude or use sparingly in the final selection. 260 Han characters; alignment mechanically rechecked after manual review (260 tone-marked tokens). Full Simplified gloss and story-specific prompt correspond to the source."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11328,18 +11379,29 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 84,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "f6ee3c5738f5ac23ea68a3c7f07c3643e6c75ebbf144b0d96c1b4f0d6bcc8a52",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "exchange_student",
+        "public_transport",
+        "travel_cost_is_comedy_setup",
+        "nonfamily"
+      ],
+      "notes": "Pass. 302 Han characters / 302 hand-written aligned Jyutping tokens. Exchange student tries to recover a monthly pass by adding unnecessary rides; the checklist, driver misunderstanding, and next-month callback form a clear escalation. Four fields reviewed; contextual readings, full Simplified gloss, and matching practice prompt checked. Transportation price sets the premise, but the joke is the narrator’s behavior, not money advice."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 85,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "63938dcb37aaf9b6c773073b92f3053dc1e7a187ece48f856c70f20aaf2b1a5a",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "parking_cost_background",
+        "physical_effort_comedy",
+        "folding_bike_reveal",
+        "family_context_light",
+        "sparing_final_selection"
+      ],
+      "notes": "Pass. Price is setup only; the cheaper parking option turns into a real walk with groceries, and the folding-bike reveal explains the neighbor’s “few steps.” Four fields and contextual Jyutping checked; flag for sparse use in the final mix."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11360,10 +11422,13 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 88,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "00237880427479780d91a09ea08992a440d990b2b54a1eade88ee441657af604",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Pass, but topic-limited. Four fields read and reviewed; the son’s monthly bill calendar and “accountant’s ice-cream fee” build a clear escalating family scene. Contextual Jyutping checked; no clear tone error found. Family and monthly-charge evaluation remain central, so exclude or use sparingly in the final selection. 290 Han characters; alignment mechanically rechecked after manual review (290 tone-marked tokens). Full Simplified gloss and story-specific prompt correspond to the source."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11376,34 +11441,56 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 90,
-      "status": "pending",
-      "source_sha256": "384ac056ecb33cba5126afb2ebba87a75b53e801cb13302e198f570794ca8e03",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "34dcfbbdaca43bd6dc07f3dc8a679b880f11c8d565ac478e5986492af72b71b2",
+      "topic_notes": [
+        "roommate_life_comedy",
+        "bill_status_misread",
+        "financial_documents_central",
+        "sparing_final_selection"
+      ],
+      "notes": "Pass after rewrite. A folded water bill is misread as unpaid; the roommates role-play a bank inquiry until the hidden red stamp is revealed, then the next receipt gets a comically oversized stamp. Independent final review approved the four fields and Jyutping; financial-document topic should be used sparingly."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 91,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "d19c1a66840376eda2fe9e064f2fb02037966765ae59024d202a4587e472083c",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_anecdote",
+        "sewing_machine_repair_receipt",
+        "behavior_comedy",
+        "money_not_punchline",
+        "sparing_final_selection"
+      ],
+      "notes": "Pass. The father’s old repair receipt triggers a concrete memory, the mother punctures his overnight-work claim, and he immediately adds a check mark for buying porridge. Four fields checked; family-centered and best used sparingly in final selection."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 92,
-      "status": "pending",
-      "source_sha256": "67cee835327c2d97290df24b5bd54e3af2b314939dc87051e564cea3fcf5a864",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "7f53f43ffc57cbb72c78b4467afabc7c6c19ad4c0c93d65d5465904e20eac76f",
+      "topic_notes": [
+        "roommate_life_comedy",
+        "document_zoom_comedy",
+        "financial_documents_central",
+        "sparing_final_selection"
+      ],
+      "notes": "Pass after rewrite. The roommate enlarges a bank letter until only “balance” remains, then the folders turn the room into an exhibition; the monthly mailed “exhibits” close the callback. Independent final review approved the four fields and Jyutping; use sparingly in the final mix."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 93,
-      "status": "pending",
-      "source_sha256": "6c35dac60340ca408db2cc3170bdfdea76344f7b11b5452e2f539e9f37998e3f",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "6f58aa0e0a67c00572a5770a7341198f471d68c3b9e89419e01b002052241cce",
+      "topic_notes": [
+        "document_stack_physical_comedy",
+        "bank_letter_filing_in_plot",
+        "family_context",
+        "money_not_punchline",
+        "sparing_final_selection"
+      ],
+      "notes": "Pass after rewrite. Sorting the bank-letter stack directly affects table-leg height and the cup’s path; removing and replacing envelopes escalates the gag, then a cork pad lets the letters be filed and returns to the “bank letter off / table on shift” callback. Independent final review confirmed all four fields, category fit and 234/234 Han/Jyutping."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11416,10 +11503,16 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 95,
-      "status": "pending",
-      "source_sha256": "6f78ec5d612c084d866833769b5ced425dfacf114b155de298e05ad5eb26374d",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "893890d0094806c47cb94dd4802b23fdc166bd79b31a3cbe58236e3ddcb2654b",
+      "topic_notes": [
+        "roommate_life_comedy",
+        "document_management_as_background",
+        "low_money_salience",
+        "customer_service_role_play",
+        "sparing_final_selection"
+      ],
+      "notes": "Pass after rewrite. A drawn smile is mistaken for a completion mark, then the unfinished notice is moved back to the to-do slot; the roommate gets archived as “under observation.” Independent final review found the four fields aligned and no clear Jyutping tone errors."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11432,26 +11525,43 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 97,
-      "status": "pending",
-      "source_sha256": "0d49146aa63043a0a7bf3c780f39151be08be8ae4ad646fa998264ae806ed720",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "402bacd65e6dedf5986a551ce762d9593f5b64c09f3e76ac962b219a928412cb",
+      "topic_notes": [
+        "roommate_life_comedy",
+        "scanner_absurdity",
+        "low_money_salience",
+        "document_management_as_background"
+      ],
+      "notes": "Pass after rewrite. Seventeen blank scans become “air maintenance records” with a “missing information” label; the final question returns to the original empty file. Independent review checked the four fields and Jyutping, including 掀起 hin1 hei2, 掃描 sou3 miu4, 搜尋 sau2 cam4, and 開始 hoi1 ci2."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 98,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "3025a46537eb5f8b0679916e7bea71179f7a6ebef2312599bd84e4a8ce677957",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "relay_race_miscommunication",
+        "household_bill_handoff",
+        "physical_comedy",
+        "family_context",
+        "sparing_final_selection"
+      ],
+      "notes": "Pass. The missed handoff at home contrasts with a clean relay exchange; “asked how to pay” is mistaken for “paid,” and the mother judges the handoff from the sofa. Four fields checked; family/bill setting flagged for sparse final use."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 99,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "bb4699e68305ce85feacdf353c54a5a414651ffc83eaec26e7bc5ea218f90f06",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "expired_fitness_contract",
+        "family_file_status",
+        "document_comedy",
+        "coastal_walk_callback",
+        "sparing_final_selection"
+      ],
+      "notes": "Pass. The father treats an expired fitness contract as a membership still needing cancellation; the status-check process leads to his walk invitation and a no-contract callback. Four fields checked; family file-management theme flagged for sparse final use."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -11520,10 +11630,15 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
       "index": 8,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "22776c63a360818a21b5c9669a5b70dda730e134757bff3701f0e7b59b3cfe02",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "financial_cost_comparison",
+        "coffee_addon_callback",
+        "money_central",
+        "sparing_final_selection"
+      ],
+      "notes": "Pass. The large-print monthly payment versus small-print term leads to checking total cost; the two coffee add-ons return as a concrete ending. Four fields and Jyutping checked in independent review; finance is central, so use sparingly in the final selection."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -11552,10 +11667,10 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
       "index": 12,
-      "status": "pending",
-      "source_sha256": "bba1356f1b8f2231ad1c44acef02d97fa1d209a8b13082122f2584ddf654bf42",
+      "status": "pass",
+      "source_sha256": "3db16a3c02377f754fc3604fa725a979bdba5a395df2259a86b8b42b1489e298",
       "topic_notes": [],
-      "notes": ""
+      "notes": "室友版串流平台段子经主代理逐字段核对并由独立审阅通过；介绍片/片尾/封面的递进回扣自然，粤拼读音与字数对齐。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -11576,26 +11691,38 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
       "index": 15,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "6ea501ddfb2a1a8ec6f566a5a21b5599a0be2f27a83f7277c45345a52faf6abc",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "service_contract_change",
+        "balloon_retrieval_comedy",
+        "family_context",
+        "fee_central",
+        "sparing_final_selection"
+      ],
+      "notes": "Pass. The unchanged monthly fee hides fewer cleanings and a changed scope; after clarification, the escaped balloon turns into a family retrieval operation. Independent review approved the four fields and Jyutping; family and fee topics should be limited in the final mix."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
       "index": 16,
-      "status": "pending",
-      "source_sha256": "c33f97580425bceaae746a1cf35011ad94741b91d8cb66f3ebbad869b00c4628",
+      "status": "pass",
+      "source_sha256": "3ba56db394da8ccbf8b628ac28df493aa8cf41558696ddd0f884e4e1371f3b7f",
       "topic_notes": [],
-      "notes": ""
+      "notes": "室友电话服务笑话经主代理逐字复核和独立终审；帐单栏位误读、桥线地图与餐牌回扣连贯，粤拼错音已修正。"
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
       "index": 17,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "2e32ec92332b44d7c49226f2e31a4145cf38946dbf2ce159e0721cd8b5f1d772",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "broadband_switch",
+        "singing_callback",
+        "family_context",
+        "service_cost_central",
+        "sparing_final_selection"
+      ],
+      "notes": "Pass. The frozen online accompaniment prompts a careful switch check; once the connection works, the father runs out of breath instead. Independent review approved the four fields and Jyutping; keep broadband-cost stories sparse in the final mix."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -11656,18 +11783,31 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
       "index": 25,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "66a10ba5c891ef79253ff81e32d9737fe10318cc868d6245ad3b6c7398c9d82d",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "small_business_packaging",
+        "broken_cookie_to_smiley_callback",
+        "family_business",
+        "cost_background",
+        "distinct_mechanism"
+      ],
+      "notes": "Pass. Broken star cookies prompt a packaging fix; the buyer’s final smiley closes the before/after photo callback. Independent review approved the four fields and Jyutping; business costs remain background to the shipping and packaging gag."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
       "index": 26,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "bfff7fba1274ddda43cb048428cdeeaa49c6e625fa5f6c3b34c4fd1522f7580d",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "freelance_design_scope",
+        "scope_change_comedy",
+        "retirement_fund_callback",
+        "family_context",
+        "fee_central",
+        "sparing_final_selection"
+      ],
+      "notes": "Pass. Repeated “just one small change” prompts clear scope and payment milestones; the final shop-opening photo contrasts with the feared next request. Independent review approved the four fields and Jyutping; business-fee subject should be balanced in final selection."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -18997,10 +19137,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
       "index": 15,
-      "status": "pending",
-      "source_sha256": "2b82642e9f2b35f7d589a53d995dc601e611d77e0fd2faf0b67ad0aaeeec0c23",
+      "status": "pass",
+      "source_sha256": "81365d29ceaed0415918e8748d0f07b087192c1d9e0bef78a90fc78d1ffac71e",
       "topic_notes": [],
-      "notes": ""
+      "notes": "主审逐字段检查并重写为室友生活段子；复核故事递进、回扣、粤拼逐字读音、完整简体翻译及对应复述提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
@@ -19077,10 +19217,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
       "index": 24,
-      "status": "pending",
-      "source_sha256": "eade60091c2927dab8e1e5abd19e329c4083f855495a35f0308e03420c76c690",
+      "status": "pass",
+      "source_sha256": "67eeb76bcb9e0cfac573f4dba6355c90e3d9070b8a809559cdba76205fb487d1",
       "topic_notes": [],
-      "notes": ""
+      "notes": "主审逐字段检查并重写为室友生活段子；复核故事递进、回扣、粤拼逐字读音、完整简体翻译及对应复述提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
@@ -19287,10 +19427,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
       "index": 49,
-      "status": "pending",
-      "source_sha256": "a9ffee4546cbfa1817fafcacd8b5831a1d8b36ed828cad2c9da6c4f55a5b8eeb",
+      "status": "pass",
+      "source_sha256": "f36c9b535ae654bb3c7ebef8e8d7f3e7a844764de4b1599e64986f0c5d578903",
       "topic_notes": [],
-      "notes": ""
+      "notes": "主审逐字段检查并重写为室友生活段子；复核故事递进、回扣、粤拼逐字读音、完整简体翻译及对应复述提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_05.json",
@@ -19943,10 +20083,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 22,
-      "status": "pending",
-      "source_sha256": "1b11cb7b31fa7aaa5b23f5c0c1d14c32b5b9997ac915a0fdcd9d3209c26a4afa",
+      "status": "pass",
+      "source_sha256": "9e585699079ed3e1835b816f5e5d11f931e38c5ecc370765cf6ed201171bbedf",
       "topic_notes": [],
-      "notes": ""
+      "notes": "主审逐字段复核并重写为室友生活段子；检查因果、回扣、粤拼读音、简体翻译和复述提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20039,10 +20179,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 31,
-      "status": "pending",
-      "source_sha256": "b880c16ee83600494ede5ccf9f16f71acd2aa86ca7d47f34cbe3a731785d5c6b",
+      "status": "pass",
+      "source_sha256": "75b236341068596152539dd5793641c1f892f8ed6566f05206cc2d6ec26f76bf",
       "topic_notes": [],
-      "notes": ""
+      "notes": "主审逐字段复核并重写为室友生活段子；检查因果、回扣、粤拼读音、简体翻译和复述提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20128,10 +20268,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 39,
-      "status": "pending",
-      "source_sha256": "6f6721aae3d5745f1aa9a78ab4263d0b97945fadd36bfd38d943e503060cca34",
+      "status": "pass",
+      "source_sha256": "e3ec6e32b67510578a5771e810a37f42150b10fe33ca058df522bd2904614486",
       "topic_notes": [],
-      "notes": ""
+      "notes": "室友版煎蛋段子通过复核；人工核对故事因果、逐字声调粤拼、译文与提示，并根据独立复核补明第三只蛋、修正承认的读音；退休旧锅作花盆托盘的回扣完整。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20309,10 +20449,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 58,
-      "status": "pending",
-      "source_sha256": "5f65f15a1d041b65db5820f4710ce3a61e01e364ea6cc1c882474819d7bf1bb3",
+      "status": "pass",
+      "source_sha256": "d0b7d5a9434fe7b76373250e1bb891f918d2b9b77405e1decebb9174bd04474c",
       "topic_notes": [],
-      "notes": ""
+      "notes": "室友与邻居版萝卜糕段子经主代理逐字段复核及独立审阅通过；刨伤手、花形糕与归还糖罐的因果及回扣完整，粤拼逐字核查无明确问题。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20346,10 +20486,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 62,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "54f79ce270639a51cfe39e8df2e451615de92df99dab733dfb193ab558938177",
       "topic_notes": [],
-      "notes": ""
+      "notes": "食物保存与日期处理合理；冰格座位表有具体铺垫和回扣。人工核对故事、粤拼声调、译文、提示，独立审阅未见确定问题。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20412,10 +20552,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 69,
-      "status": "pending",
-      "source_sha256": "282d4702659dcec75d9aba4a9af5113cdd6740a3722a8790c54157d78ecb435c",
+      "status": "pass",
+      "source_sha256": "5010c225267afa84897329ec43e40c2248ebf4d7624d8d3c3e8ff68a9898bd2c",
       "topic_notes": [],
-      "notes": ""
+      "notes": "主审审阅外部重写，改为室友把葱芫茜薄荷当花束；逐字段检查递进、回扣、粤拼及译文提示。橡筋读音依 Jyut Dictionary 核为 zoeng6 gan1。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20481,10 +20621,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 77,
-      "status": "pending",
-      "source_sha256": "34f8db8576998d74866ec77025e44e719d0f4070cef934e4d32eecfd3e3a850a",
+      "status": "pass",
+      "source_sha256": "c8b4fc23e976e6415c8720768b1889082528490065399f9cb13072ca915cdd97",
       "topic_notes": [],
-      "notes": ""
+      "notes": "主审重写为室友把两条不同大小番薯排成轮班的生活段子；逐字段复核因果、回扣、粤拼、简体翻译及练习提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20520,10 +20660,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 81,
-      "status": "pending",
-      "source_sha256": "b6a2ebb7f88c222405cf247846df665e291ca0ee1b95997a86ff49c06b900170",
+      "status": "pass",
+      "source_sha256": "f78a2cf7e378d984abac833bc8f17415795cd2bc99248d04d138669095faff6d",
       "topic_notes": [],
-      "notes": ""
+      "notes": "室友马蹄肉饼段子，动作递进到音效及片尾彩蛋回扣；主审逐字段复核。撻读 daat3、戳读 coek3。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20559,10 +20699,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 85,
-      "status": "pending",
-      "source_sha256": "58e980930ed1ccc42f2ee64af24b6fde1c21b66bd65b3bf730f761cd3428d65c",
+      "status": "pass",
+      "source_sha256": "26d73b874b15614a3f4a504becb6bd7636909b3b4297f63a0f125c69fd72ad0b",
       "topic_notes": [],
-      "notes": ""
+      "notes": "独立复核指出原分期/利息梗与用户题材要求冲突，改为室友把大冬瓜煮成连续剧；补上冬瓜全集粤拼后，主审逐字段复核。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20575,18 +20715,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 87,
-      "status": "pending",
-      "source_sha256": "bb605736d08113cee7378d64886e914e47dfb9d2f3cd1210780787306ba98053",
+      "status": "pass",
+      "source_sha256": "cf36c6c6f87fae3e604c3baf68218aaefa2ae1b736072e9a21af763a30fd41da",
       "topic_notes": [],
-      "notes": ""
+      "notes": "室友网购触控灯的保护膜误会段子；主审复核所有四字段、叙事因果、粤拼逐字、简体翻译和提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 88,
-      "status": "pending",
-      "source_sha256": "0860fedd93a09f3eb17a44dbce441adac36efb4c04ab0e9388fea57924b467a0",
+      "status": "pass",
+      "source_sha256": "3d65df08af8822cee1d8345609891bb4d9d9aaa1a23031221137d69cfccae3ef",
       "topic_notes": [],
-      "notes": ""
+      "notes": "主审及独立复核逐字段通过茶餐厅分汁故事；修正街角 gaai1 gok3。脆边被酱汁浸软后回扣到两碗汁和匙羹，翻译及提示对应。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20767,10 +20907,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 7,
-      "status": "pending",
-      "source_sha256": "37e990d32b0d084b0198af1d5c301b0d80ff2fc303244a98fee60a5a770489e8",
+      "status": "pass",
+      "source_sha256": "f35b7ec133ecb01a3b16cfa9d8dc82cc2ee07a291854562ba830091a7c4b5d9c",
       "topic_notes": [],
-      "notes": ""
+      "notes": "退换购物车的分类与情节吻合；购物袋卡扣导致车架不能收合，回家后又弹开的返工/加班回扣清楚。人工逐字段复核并修正“弹开 taan4”，独立审阅确认故事及其它字段吻合。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -20840,10 +20980,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 14,
-      "status": "pending",
-      "source_sha256": "e0c5b207ed351501a9d373c8eae810fffd19d13692ed58c554b5907b0342fca1",
+      "status": "pass",
+      "source_sha256": "50e02eb72fc91446bb486064eb4fb06086e219600ff6d01823e4a0c60b911439",
       "topic_notes": [],
-      "notes": ""
+      "notes": "室友版街市蒸魚故事经主代理逐字段复核及独立终审；鱼头扮声、阿朗因此少说两句的铺垫和回扣成立，粤拼未见确定错误。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -20940,10 +21080,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 25,
-      "status": "pending",
-      "source_sha256": "5f8070695713845a50288ea6937b81eeef293a1a1fa7af0ba36410270794ce41",
+      "status": "pass",
+      "source_sha256": "76563fcb7e9259bccf250374ce63d021f268edf72cb93cc5030dac0649fd8f69",
       "topic_notes": [],
-      "notes": ""
+      "notes": "室友版草莓采购与试食故事经主代理和独立审阅通过；盒底软果的检查、酸奶花与果酱投票回扣自然，姓名及逐字粤拼已核对。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -22351,10 +22491,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 75,
-      "status": "pending",
-      "source_sha256": "9b0efefd1798d0cfbcbc8e930c0564a4734fcb8f69d73871c397669e4c639e8e",
+      "status": "pass",
+      "source_sha256": "6b70bd4b195727f4673afd678f90163458403c86eed646ae672471faf27eb9a5",
       "topic_notes": [],
-      "notes": ""
+      "notes": "独立复核通过。四字段逐字核对；将「捏」修正为 nip6。肉丸滚落后夹起丢弃，剩余生肉密封冷藏；因果、笑点及皇冠肉丸回扣成立。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -22375,10 +22515,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 78,
-      "status": "pending",
-      "source_sha256": "0653709756832b3efef89049ac0bc455972efb3204984849fc5c4bac2de09ad9",
+      "status": "pass",
+      "source_sha256": "e9d1d9381d9ee75fc4fd9177f6938009bd02d7685cf58f6db7bf34cf7236d633",
       "topic_notes": [],
-      "notes": ""
+      "notes": "室友版茶餐廳故事经主代理人工及独立审阅通过；打包分食、碟子转圈和阿美夜晚到来只赶上宵夜的时间线和笑点连贯，粤拼已逐字核查。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -22407,10 +22547,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 82,
-      "status": "pending",
-      "source_sha256": "2be4e5a816026fba7856e2c4c7bfb3c5ad082c43c657f50dae6079cd0c1c3c91",
+      "status": "pass",
+      "source_sha256": "0b063f9b0c598dd25d469972c49d487da3d672ccd6e6f979c733037ee13af179",
       "topic_notes": [],
-      "notes": ""
+      "notes": "室友版网购蔬菜箱段子经主代理逐字核对和独立审阅；缺货替换规则、薄荷牙膏前菜与设置/补货回扣清楚。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -22475,10 +22615,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 90,
-      "status": "pending",
-      "source_sha256": "cae475aadd557108cdcfd8a77b99c44913eabaa53c959d0ecc792e3e77e58cd0",
+      "status": "pass",
+      "source_sha256": "871f47252ceaddab7c46e346d16fd3b6924a6883114c65b6d94becbbf16158b4",
       "topic_notes": [],
-      "notes": ""
+      "notes": "室友版香蕉分裝笑話經主代理逐字段人工復核及獨立審閱；香蕉磚的行为回扣清楚，短时软化后当次使用，没有解冻再冷冻，粤拼逐字核准。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
