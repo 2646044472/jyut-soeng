@@ -11081,13 +11081,13 @@
       "file": "content/sentence_bank/long_family_finance_services_09.json",
       "index": 53,
       "status": "pass",
-      "source_sha256": "c583ce40af16a4158303045c8d22a6a80995e815b6f2cbc7a101e752b4505012",
+      "source_sha256": "85ec43f4a7cca971a260b27948d58e3da6fb23ce4f041ff72ea8c8986735f378",
       "topic_notes": [
         "family_transition",
         "money_as_background",
         "home_move_comedy"
       ],
-      "notes": "Pass after rewrite. 246 Han characters and 245 manually written Jyutping tokens, aligned. The uncle enters the storage room in the dark, then treats the broom and mop as night-shift workers; the arrow and “not the kitchen” label pay off the confusion. Four fields reviewed; checked 舅父 kau5 fu2, 掃把 sou3 baa2 and 箭嘴 zin3 zeoi2 against 粵典, and rechecked the other context readings. Money is a brief moving detail; family is present but the humor comes from the uncle’s behavior."
+      "notes": "Pass after rewrite. 246 Han characters and 245 manually written Jyutping tokens, aligned. The uncle enters the storage room in the dark, then treats the broom and mop as night-shift workers; the arrow and “not the kitchen” label pay off the confusion. Four fields reviewed; checked 舅父 kau5 fu2, 掃把 sou3 baa2 and 箭嘴 zin3 zeoi2 against 粵典, and rechecked the other context readings. Money is a brief moving detail; family is present but the humor comes from the uncle’s behavior. Jyutping now omits the non-spoken arrow symbol while retaining the pronounced sign text; four fields rechecked."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_09.json",
@@ -11967,17 +11967,12 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
       "index": 41,
-      "status": "pending",
-      "source_sha256": "bf33d9b6b1a457a117f64e1fc45ce832aa5f42529cc412e6778fb31b782bf660",
+      "status": "pass",
+      "source_sha256": "cbf9384a91f7aafd7ba533f174f58d9d47db0b83f5f08a8436c997476c1cb54c",
       "topic_notes": [
-        "shared_storage_costs",
-        "musical_ornament_setup",
-        "label_swap_callback",
-        "family_context",
-        "money_sparing",
-        "pending_independent_final_review"
+        "distinct_behavior_comedy"
       ],
-      "notes": "Rewritten candidate adds a tree-mounted musical ornament to establish why the mislabeled box sings; awaiting independent final review."
+      "notes": "Independent final review approved the consistent narrator-in-the-tent viewpoint and callback; corrected 打開 to daa2 hoi1 and checked all four aligned fields. The shared-storage category remains background, with no fee or label-mix-up mechanism."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -20256,10 +20251,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 33,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "025e245e8d2d8bbbed520d69daaaea6a5f8df2d5edc1c8b3c82233304de5f699",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Revised the prompted retelling into complete Simplified Mandarin / corrected the unsafe mushroom-handling sentence. Manually rechecked story, contextual Jyutping, complete gloss and story-specific prompt."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20376,10 +20371,13 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 44,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "1c05d8dcd29042e6f4906beb026665ddf3757e486933bb00fd044a39d52b28d3",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Independent manual review: half-price roast chicken leads to a snack purchase that cancels the savings; the callback is clear. Money-saving is central, tag for sparse final use."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20851,10 +20849,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 95,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "fd57220a41c072481b26c53ea49295dd0eac386c60e291048ee1bf5b7f35a20d",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Independent manual four-field review: pastry crumbs and the child’s tart theft build through the family’s reactions; retelling prompt matches."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -22131,10 +22129,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 25,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "1b3c87cfb21517fe9fe261400b00e751dabcc1fe0c3f6a0559ffa9cacd5a8a0a",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Independent manual four-field review: miniature tart mould sparks an escalating toy-store/delivery game; payoff and prompt align."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -22218,18 +22216,18 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 33,
-      "status": "pending",
-      "source_sha256": "2aaec8a07ebaa2ba478b848b064be9461bd67221341b82f66d6c7a3551b57408",
+      "status": "pass",
+      "source_sha256": "d6a9b05f752e56c238686b6f7909fa51852e844c47bf336df8e86d24663c6a60",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Revised the prompted retelling into complete Simplified Mandarin / corrected the unsafe mushroom-handling sentence. Manually rechecked story, contextual Jyutping, complete gloss and story-specific prompt."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 34,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "d5a4dbf29cdefd85d1299a11c0049d644c3ae54bc901f1ee32589d60dcec1cb5",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Independent manual four-field review: allergy order is checked before serving; the interviewer mistake escalates and resolves cleanly."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -22250,10 +22248,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 37,
-      "status": "pending",
-      "source_sha256": "8022ca178673f3cba42766b318df0153976452eca4c8fffd69041ccef05b6945",
+      "status": "pass",
+      "source_sha256": "baa725db7f03451a5548323a5fb52e28e268ff52fe82aa5ade43e9f801f299de",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Revised the prompted retelling into complete Simplified Mandarin / corrected the unsafe mushroom-handling sentence. Manually rechecked story, contextual Jyutping, complete gloss and story-specific prompt."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -22320,10 +22318,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 45,
-      "status": "pending",
-      "source_sha256": "10c672094404398c2ba272726d9326680c5c67eea2212efd1207180b3409f9ab",
+      "status": "pass",
+      "source_sha256": "1208f63b7ae2640ddc144555830d0c4b31435234509fe67e206cfce721648345",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Replaced the questionable soft-mushroom instruction with discarding the suspect mushroom and checking/cold-storing only intact mushrooms. Manually rechecked all four fields and aligned the changed Jyutping."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -24376,10 +24374,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
       "index": 76,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "06766f1aa65d1343025a416cf69b4c1ec0af857c0dbcbf5e8e01bff956eb96db",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Independent manual four-field review: a scorched roll leads a colleague to trade jam; the behavioral joke and payoff are clear."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
@@ -24408,10 +24406,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
       "index": 80,
-      "status": "pending",
-      "source_sha256": "0bd15bc8cf910f10960d6822f969e1417ce250fe439fcb488046927db3b784ac",
+      "status": "pass",
+      "source_sha256": "aafae9729dfdd16c9861be30bcef80d8be03aa652df4b8fba97f9292763f9ddb",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Revised the prompted retelling into complete Simplified Mandarin / corrected the unsafe mushroom-handling sentence. Manually rechecked story, contextual Jyutping, complete gloss and story-specific prompt."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
@@ -24607,10 +24605,13 @@
     {
       "file": "content/sentence_bank/long_food_shopping_11.json",
       "index": 2,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "9af48643c2c394bfd8e033dd2cc6957d003a2c614ee700a246705d1cfe87cd53",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Independent four-field review: short milk-bottle/building joke is clear but family and local-product centered; tag for sparse use."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_11.json",
@@ -24869,18 +24870,21 @@
     {
       "file": "content/sentence_bank/long_food_shopping_11.json",
       "index": 33,
-      "status": "pending",
-      "source_sha256": "036970060b7ce2d908d0606a1fe42ef7dedeaca6f78a6ea29db794615f116b68",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "08cb7e1145329d6c08dd9b1590494f7ed6db4a95734e04b4adee453e4ec085d0",
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Rewrote the gas interruption to stop use and request qualified inspection before restarting; removed unsafe cylinder-replacement behavior. Manually rechecked all four fields and contextual Jyutping. Corrected two missing/incorrect contextual Jyutping syllables in 確認 and 繼續; character-to-syllable audit now aligns."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_11.json",
       "index": 34,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "9c3bef6cb1c245b9e86e69cd287abb5832c4a860ff33627f1fa178d3aef713b3",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Independent manual four-field review: the soup/noodle naming callback gives the cooking scene a clear behavior gag."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_11.json",
@@ -24932,10 +24936,13 @@
     {
       "file": "content/sentence_bank/long_food_shopping_11.json",
       "index": 40,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "dcdb6a49b711cfbcf54f63a4b7ccc3d142cd5df6b500a90124e1dc56675c201b",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Independent four-field review: children’s improvised tofu raft/food rescue creates the main joke; family-centered, tag for sparse use."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_11.json",
@@ -25597,10 +25604,13 @@
     {
       "file": "content/sentence_bank/long_food_shopping_12.json",
       "index": 12,
-      "status": "pending",
-      "source_sha256": "a9c9cdc5b086f02fd2b8a92d3bad921a321b8423b80f4bc2b011dea8b01fc077",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "1ece6efb14f31ec0c5c69cc72b5da470a9b282d9e4e8f257b4c2f072b42412ec",
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Completed the Simplified gloss to include package date, weight/price comparison, chosen package size, cooking and carry-home details, and the ending invitation; all four fields manually rechecked. Family-centered; keep sparse in final selection."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_12.json",
@@ -25636,10 +25646,13 @@
     {
       "file": "content/sentence_bank/long_food_shopping_12.json",
       "index": 16,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "4e3ece8993b1892026108ee4df6b2bafbc645279951e0f939423aa0a5edaca0f",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Independent manual four-field review: the child’s self-appointed breakfast-chef role and star-shaped banana request drive the scene; family centered, tag for sparse use."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_12.json",
@@ -25821,10 +25834,13 @@
     {
       "file": "content/sentence_bank/long_food_shopping_12.json",
       "index": 36,
-      "status": "pending",
-      "source_sha256": "438eabd4ceab174374d76b60389d2663be3475d94674e812e7921c525302eea7",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "929f9d173f8a888c744d02310486b373e25b7ac58041ebc97d5466497cb9389b",
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Revised mixed-register wording into colloquial Traditional Macau Cantonese; manually rechecked story, contextual Jyutping, complete Simplified gloss and story-specific prompt. Family-centered; keep sparse in final selection."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_12.json",
@@ -26062,10 +26078,13 @@
     {
       "file": "content/sentence_bank/long_food_shopping_12.json",
       "index": 64,
-      "status": "pending",
-      "source_sha256": "cf3fb827e55c82ec57b821e88709e0b863abd7d47e9318094138b32c4c350924",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "cfadde3873a4dba1d334c0235198f36e53def7101966bbdc9a7882237cc0afda",
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Revised mixed-register wording into colloquial Traditional Macau Cantonese; manually rechecked story, contextual Jyutping, complete Simplified gloss and story-specific prompt. Family-centered; keep sparse in final selection."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_12.json",
@@ -26181,10 +26200,13 @@
     {
       "file": "content/sentence_bank/long_food_shopping_12.json",
       "index": 77,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "36134edfc7a2b00f6c5121a1d09f082742148e9bfed8b232e21bee20bd5171a4",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Independent manual four-field review: thin batter creates a cooking mishap and a specific recovery callback; family-centered, tag for sparse use."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_12.json",
@@ -26393,10 +26415,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 1,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "0ebffd5dc7340a2b0a5c542a10eb9af1cd4abfc0b055e7eb25135535606170db",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "community_life_bit",
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "The oversized first pancake folds like a map; grandma turns the mistake into a blueberry treasure hunt, which the grandchildren carry through breakfast. Four fields checked; family-centered, retain sparingly."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -26715,10 +26741,13 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 36,
-      "status": "pending",
+      "status": "needs_revision",
       "source_sha256": "c1028ff052ff2ca87c04be8551f4667d24acd70f4ccf7757fc1e1098c0d66d36",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Needs rewrite/exclude from comedy selection: baby-food ingredient checks and allergen handling are important, but the card reads as safe-feeding instructions; the “one lesson” line is too mild to carry a stand-up story."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -26815,10 +26844,12 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 47,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "5808ab1a22d7996d6c25089f0979ed9c781220853b974a08de5df3b270953dbf",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "community_life_bit"
+      ],
+      "notes": "The new neighbor’s dog waits for the leash buckle before eating; the fresh-food bowl is refused until after the familiar walk, and the buckle becomes the “dinner bell.” Vet confirmation and safe food guidance are explicit. Four fields checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -26863,10 +26894,13 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 52,
-      "status": "pending",
+      "status": "needs_revision",
       "source_sha256": "7060e2d75e90453a5d8625aaa252f2ef49d36663417be28505b9803e0b430134",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Needs rewrite: the first cake is dry from a high oven setting, the second works, and the nephew proposes two recipe versions. This is a straightforward baking fix with little conflict, escalation or character payoff."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -26943,10 +26977,12 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 62,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "8158edb3fa5ffff2445663812f7f7aac2ee03ae42ab4ff6098652a90c6df490c",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "community_life_bit"
+      ],
+      "notes": "The volunteer counts both biscuit portions and water bottles as children; one child’s “why did you count me twice?” exposes the arithmetic mistake and the new board label closes it. Strong community-life bit; four fields checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -27090,10 +27126,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 77,
-      "status": "pending",
-      "source_sha256": "7b011e70637d0ab7c69380f4ac69ab2e981877a911e3b311235a35273b08501e",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "db845135f0724de2ced4046ca21bf350e9c6b560a20f5c23799c6713ce2af505",
+      "topic_notes": [
+        "community_life_bit",
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "The child cannot tell whether the market stallholder rewarded bargaining or politeness with a scallion; the later free-scallion entry becomes his measure of success. Corrected 檔主 to dong2 zyu2 twice; four fields checked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -27444,10 +27484,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 5,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "2655bd7170fe226837e5e2680e9de1307a7dbe67b4c90742cb501ab7a9027e1e",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually rechecked. Friends turn the casual paella invitation into a waiting line, menu, and repeat booking; the closing callback completes the restaurant escalation."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
@@ -27460,10 +27500,13 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 7,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "c11347c3d26d72ebfabede4d82b38075415863f4172d4ffba8b04acf30706cc3",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Four fields manually rechecked. Cake lettering constraint sets up grandma’s insistence on keeping her age, then her spoken blessing becomes the payoff. Family-centered scene; tag for sparse use in final selection."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
@@ -27476,10 +27519,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 9,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "1339063b551bb5cd54a6e1d316298028aaacb1665a81815b4fa58dee2f98a21a",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually rechecked. The cousin’s wrong hotpot choice escalates into an improvised cooling station; the group’s growing demand for spicy food pays off the milk setup."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
@@ -27554,10 +27597,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 16,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "27826bd60fa83f63910735f4146ecd4edd44b850ce1e70b52a2becfc2d5e811e",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually rechecked. One coffee bean becomes three supposed origins through changing grind settings; weighing the doses exposes the friend’s blind-tasting claims, with a clear photo-ID callback."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
@@ -27658,10 +27701,13 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 26,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "5435a97f3525f20f8ac4e673fb05a4016bde0cabf906a2016e8a0c554de3edc9",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Four fields manually rechecked. The cat’s cheese theft interrupts hosting preparations and triggers a specific seating adjustment; family roles are incidental, tag for sparse use."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
@@ -28074,10 +28120,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
       "index": 9,
-      "status": "pending",
-      "source_sha256": "5b19c300a18a7f518534eccb0161fe7cf3610b79baab989f5c912873f4a90745",
+      "status": "pass",
+      "source_sha256": "694416501a814efd3365f9a9d30646ebae47e6d62061f2d56b12b920d3d67413",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Manually segmented and reviewed all Jyutping syllables; corrected 訂單 ding3 daan1 and 青菜 cing1 coi3, and clarified “返去取貨點” to match the intended action. Story, full gloss and prompt rechecked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
@@ -28097,10 +28143,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
       "index": 11,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "da6d7733bc21c5dfbf5bfdf4a42e7159970d29b29caaa40223cbf36424792ece",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually rechecked. “Walk slowly” is taken literally as a timed corridor contest; the oven timer interruption and the little brother eating fastest complete the sequence."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
@@ -28152,10 +28198,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
       "index": 16,
-      "status": "pending",
-      "source_sha256": "6933f5999e67af7192e700d4b8eed598a6eb5f9f557cd0019fa24bdbd560eefd",
+      "status": "pass",
+      "source_sha256": "0c08479ae67ac6be257c3c8009e78eb0fc1feb248e1a4a226f1a9adf39c770bb",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Clarified that eggs are boiled and cooled before the shell gag, then manually rechecked the story, contextual Jyutping, full Simplified gloss and matching prompt."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
@@ -28192,10 +28238,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
       "index": 20,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "d6d233cf0b7d699227222a600986e3b75fc60ade70133e12bfc937b0c018e510",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually rechecked. The juice volunteer turns fruit selection into interviews, with the sour sample, longer queue, and award for the only non-runner forming a coherent callback."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
@@ -28244,10 +28290,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
       "index": 24,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "abf45da72f057a7a4cd25161455ce0f91c59e358d89c7c0223eaccaf085b905e",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Four fields manually rechecked. Batch-cooking onions escalate into tears and an overpacked menu; the Monday fridge callback is clear and the roommates’ actions drive the humor."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
@@ -33648,10 +33694,10 @@
     {
       "file": "content/sentence_bank/long_health_services_04.json",
       "index": 75,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "a3b6c532408d6d959092e6f0f4d3ec359b61f8873afca27c3dcb34802e42218f",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Independent manual four-field review: routine service visit has a clear behavior-led comic escalation."
     },
     {
       "file": "content/sentence_bank/long_health_services_04.json",
@@ -33670,10 +33716,10 @@
     {
       "file": "content/sentence_bank/long_health_services_04.json",
       "index": 77,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "7aefd6121cfa5e92e7f2ad699ef071b43bd17ca2569a31d2090f5668ea21acbd",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Independent manual four-field review: story, contextual Jyutping, full gloss, and practice prompt are aligned."
     },
     {
       "file": "content/sentence_bank/long_health_services_04.json",
@@ -33827,10 +33873,10 @@
     {
       "file": "content/sentence_bank/long_health_services_04.json",
       "index": 96,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "36a836b22932e6cdfc984056d72ee7cceb3a0dacf9ab9d0a71e0821f55a2b9d8",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Independent manual four-field review: the service setting supports a coherent life-bit, with a matching prompt."
     },
     {
       "file": "content/sentence_bank/long_health_services_04.json",
@@ -33859,10 +33905,13 @@
     {
       "file": "content/sentence_bank/long_health_services_05.json",
       "index": 0,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "da6fb07f957be27f29a75d3194ee5344d706756126be52fed765acaf2d96958a",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Independent manual four-field review: language and story fields align; family/medical topic should be sparse in final selection."
     },
     {
       "file": "content/sentence_bank/long_health_services_05.json",
@@ -33945,10 +33994,10 @@
     {
       "file": "content/sentence_bank/long_health_services_05.json",
       "index": 9,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "01c2ffd5a2b49eb183c6104677d613e9009c8a5e8cdfd4577dd9667a8eea6603",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Independent manual four-field review: service scene and behavior-led humor align across all fields."
     },
     {
       "file": "content/sentence_bank/long_health_services_05.json",
@@ -34015,10 +34064,10 @@
     {
       "file": "content/sentence_bank/long_health_services_05.json",
       "index": 17,
-      "status": "pending",
+      "status": "needs_revision",
       "source_sha256": "66849de8650528fd8b8a98be58e554fbdf328b59ea7acf2e8dcbae74ced9bdb1",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Independent reviewer found Simplified characters inside the Traditional Cantonese story (including 她/在); restore Traditional forms and recheck aligned Jyutping."
     },
     {
       "file": "content/sentence_bank/long_health_services_05.json",
@@ -34122,18 +34171,24 @@
     {
       "file": "content/sentence_bank/long_health_services_05.json",
       "index": 29,
-      "status": "pending",
-      "source_sha256": "a412bcbe57cc573337b89e41d8fc266ca8385741fe283a6acc8fd3edbb2e70cd",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "75c101328bb38ce72c9e2ed8f6ec1f30283803649994c2db09436eb25d87ae5e",
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Revised the prompted retelling into complete Simplified Mandarin / corrected the unsafe mushroom-handling sentence. Manually rechecked story, contextual Jyutping, complete gloss and story-specific prompt."
     },
     {
       "file": "content/sentence_bank/long_health_services_05.json",
       "index": 30,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "f262058c76747a21689fd86720aa51c53d8c148560293e1a6bade6646d830f69",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Independent manual four-field review: insulin-practice steps are followed by a reversed card mistaken for a menu; the nurse guidance and disposal steps remain clear. Family/medical topic should be sparse in final selection."
     },
     {
       "file": "content/sentence_bank/long_health_services_05.json",
@@ -34146,10 +34201,13 @@
     {
       "file": "content/sentence_bank/long_health_services_05.json",
       "index": 32,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "5203907fa267d5bdcfe319650af755d29a1ea944de7a4aac62db209af3d677a2",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Independent manual four-field review: the sibling’s nutrition-number weather forecast is a clear behavioral callback; family setting is incidental, with no money joke as the main subject."
     },
     {
       "file": "content/sentence_bank/long_health_services_05.json",
@@ -34775,10 +34833,10 @@
     {
       "file": "content/sentence_bank/long_health_services_06.json",
       "index": 8,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "20244b4ff8043122ec0484896bee9b21b9daf3dd96c23a793083093596249817",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Independent manual four-field review: contextual Jyutping and the story-specific prompt align."
     },
     {
       "file": "content/sentence_bank/long_health_services_06.json",
@@ -34799,10 +34857,10 @@
     {
       "file": "content/sentence_bank/long_health_services_06.json",
       "index": 11,
-      "status": "pending",
+      "status": "needs_revision",
       "source_sha256": "0fd79419da2ccbddc7ea57bf82365c11bc1b06260beaacc266b3f2569757419c",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Independent reviewer found the retelling prompt asks for an outing incident not present in the story; revise the prompt to cover the eye-pressure test, birthday-candle mix-up, and medical follow-up."
     },
     {
       "file": "content/sentence_bank/long_health_services_06.json",
@@ -36025,18 +36083,26 @@
     {
       "file": "content/sentence_bank/long_health_services_07.json",
       "index": 61,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "fb2d79fd6d4bcc712f286fbac48e8fe674a2cf844f7be8ff3f23a1cf9c39bc76",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "healthcare_life_bit",
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "The father boasts he is not afraid of needles, then hides behind the narrator when called; he watches ferry traffic through the draw, and the date reminder closes the family role reversal. Current manual Han/Jyutping alignment is 221/221; care instructions remain responsible."
     },
     {
       "file": "content/sentence_bank/long_health_services_07.json",
       "index": 62,
-      "status": "pending",
-      "source_sha256": "ac581bd256226f1d3b79aa2d4e6a4ebb924da4fa2025fa0475a2080cb0992e49",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "143aee0271808c6d6b97856b60759cb3f5351fa20c5e6eec6e8dfd1897e2a08a",
+      "topic_notes": [
+        "healthcare_life_bit",
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "The oxygen-machine alarm first sounds like a radio interruption; the line, warning and supplier guidance keep safety clear. Corrected the Simplified gloss “送货职员” to “设备人员” for 設備人員; four fields checked."
     },
     {
       "file": "content/sentence_bank/long_health_services_07.json",
@@ -36185,10 +36251,14 @@
     {
       "file": "content/sentence_bank/long_health_services_07.json",
       "index": 81,
-      "status": "pending",
-      "source_sha256": "2b63178b6fe4263df0df4b54b9e198470a92cb486a2d447d69a9d41dd8aa3371",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "e2db47658235ae3306d97e6189d90469a7c98a571e932127fd4f75b4a04ce598",
+      "topic_notes": [
+        "healthcare_life_bit",
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "The doctor’s “stone moving house” line and the daughter treating water times as homework create light callbacks without dismissing severe symptoms. Corrected 泌尿科 to bei3 niu6 fo1 and 超聲波 to ciu1 sing1 bo1; four fields checked."
     },
     {
       "file": "content/sentence_bank/long_health_services_07.json",
@@ -36324,10 +36394,14 @@
     {
       "file": "content/sentence_bank/long_health_services_07.json",
       "index": 98,
-      "status": "pending",
-      "source_sha256": "40be9c65150868bdef8b0cd6ee5b653165155253e239da55398bbd94ec1cee25",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "14419d5b651f39921b17df8309b71382d8fb92bb3496995230ad0a15b7290eff",
+      "topic_notes": [
+        "healthcare_life_bit",
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "The sister turns wound photos into a “scar weather map,” and the final “wound forecast” returns to that joke while keeping red flags clear. Corrected 恢復 to fui1 fuk6; all four fields and alignment checked."
     },
     {
       "file": "content/sentence_bank/long_health_services_07.json",
@@ -37078,26 +37152,37 @@
     {
       "file": "content/sentence_bank/long_health_services_08.json",
       "index": 82,
-      "status": "pending",
-      "source_sha256": "357b1af90b1b0db0c8301972d0456149e74b2e9cde26698cfef531abb2092e5a",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "be5c7683c96ad6dcdb95c674559609af74f7bf92078e1e768da7bcc0d4935381",
+      "topic_notes": [
+        "healthcare_life_bit",
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "The clinic explains routine hip screening; the father’s unnecessary question about a patient gown, the baby’s gel reaction and the grabbed glasses make a light family scene. Corrected the stray punctuation and aligned the prompt to the observed skin reaction. Four fields checked; infant/family medical topic, retain sparingly."
     },
     {
       "file": "content/sentence_bank/long_health_services_08.json",
       "index": 83,
-      "status": "pending",
-      "source_sha256": "94dd04d75645c2c7bb8bf6d64d57d228b32bfd639e95347dd31aef4bc76cac67",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "6383c12f2174ee7cd7870fdbc0c9e30554301b8b8917a8b290cadd1a30740234",
+      "topic_notes": [
+        "healthcare_life_bit",
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Jaw discomfort is handled by the dentist and therapist; the sister turns the mirror exercise into a singing audition by offering a wooden-spoon microphone. Corrected 器械 to hei3 haai6. The advice and red flags stay responsible; four fields checked."
     },
     {
       "file": "content/sentence_bank/long_health_services_08.json",
       "index": 84,
-      "status": "pending",
+      "status": "needs_revision",
       "source_sha256": "e5c13cac8f89f49289162f8beba5efdcf64c64d95c42f687331569aee6de7a26",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Needs rewrite before any final selection: after the story describes safe missing-person steps, it then models calling the support center first when the grandfather cannot be found. Correct the safety sequence and replace the caregiver-process explanation with a distinct, gentle life-bit; do not joke about cognitive impairment or a missing person."
     },
     {
       "file": "content/sentence_bank/long_health_services_08.json",
@@ -37198,10 +37283,14 @@
     {
       "file": "content/sentence_bank/long_health_services_08.json",
       "index": 97,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "340b4de708f270f500b90a0870ceaed4e20d42ddaf68e4853220063c96f390c9",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "healthcare_life_bit",
+        "family_and_money_central",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Animal-card practice escalates into the family testing the child at dinner; he puts the cards away and sets a boundary, then grandma divides credit for the invented names. Clear behavior-led callback; four fields checked; family/child topic, retain sparingly."
     },
     {
       "file": "content/sentence_bank/long_health_services_08.json",
