@@ -20998,8 +20998,8 @@
       "index": 26,
       "status": "pass",
       "baseline_sha256": "5435a97f3525f20f8ac4e673fb05a4016bde0cabf906a2016e8a0c554de3edc9",
-      "v2_sha256": "5435a97f3525f20f8ac4e673fb05a4016bde0cabf906a2016e8a0c554de3edc9",
-      "notes": "The hard-cheese platter is prepared for guests, but the cat darts up and steals a piece, prompting a chase under the sofa. The callback that it will “clear the platter before we eat” gives the theft a character-based payoff, and moving the table away closes the gag. Jyutping, full gloss and tip match the events. Reviewed sentence, Jyutping, full gloss and story-specific tip; no source edit."
+      "v2_sha256": "530264b394e58de373f91dd4e4da247eef42f6bed44307d6f977ee53563af170",
+      "notes": "The hard-cheese platter is prepared for guests, but the cat darts up and steals a piece, prompting a chase under the sofa. The callback that it will “clear the platter before we eat” gives the theft a character-based payoff, and moving the table away closes the gag. Jyutping, full gloss and tip match the events. Reviewed sentence, Jyutping, full gloss and story-specific tip; no source edit. Corrected 芝士 tone to zi1 si6; source hash synchronized."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
@@ -21979,8 +21979,8 @@
       "index": 11,
       "status": "pass",
       "baseline_sha256": "1fb13ccfc2aec891bded32ca58e7256a8526d3d7d654bab8f64dd9b6559f6fae",
-      "v2_sha256": "9cbfed881441d03c8ce147f3c5c7ede8bba95dc558b693a032b7c5519d83c37d",
-      "notes": "V2: Rewrote the neighbor tea gathering with a physical near-spill, biscuit rescue route drawn in jam, and a character-based callback. Manually checked story, contextual Jyutping (including 茶几 gei1), complete Simplified gloss, and story-specific tip."
+      "v2_sha256": "79d1a7e440e00e21801d68fc4a10b8ba1bf16b97f5b834b7014332ee64333f4a",
+      "notes": "V2: Rewrote the neighbor tea gathering with a physical near-spill, biscuit rescue route drawn in jam, and a character-based callback. Manually checked story, contextual Jyutping (including 茶几 gei1), complete Simplified gloss, and story-specific tip. Oral re-audit manually aligned Jyutping and synchronized revised wording; all four fields rechecked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -22158,8 +22158,8 @@
       "index": 33,
       "status": "pass",
       "baseline_sha256": "8884548ec7a0a6b22fbc05e0932a69bc63c16a2300e42768e0d973d82f589455",
-      "v2_sha256": "11dd5c4e54d8fbad58f09601001e5dde1641a8e10e5bf495fdb2876394c42301",
-      "notes": "Rebuilt the overpour/photo mishap as a single escalating bibimbap problem: dividing the excess oil spreads it across both bowls, so the pair doubles the meal and the roommate treats the oil bottle as the host. The final reply callbacks to the bottle inviting the table. Checked distinct plot focus, colloquial dialogue and all four fields with contextual Jyutping."
+      "v2_sha256": "15474f4b1663253a05b3b983fcc4171f9df1d18787a51db161b68916f650ebd4",
+      "notes": "Rebuilt the overpour/photo mishap as a single escalating bibimbap problem: dividing the excess oil spreads it across both bowls, so the pair doubles the meal and the roommate treats the oil bottle as the host. The final reply callbacks to the bottle inviting the table. Checked distinct plot focus, colloquial dialogue and all four fields with contextual Jyutping. Oral re-audit manually aligned Jyutping and synchronized revised wording; all four fields rechecked."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -22455,8 +22455,8 @@
       "index": 18,
       "status": "pass",
       "baseline_sha256": "f1a79d124fa5156ed7a1f30e6e662a7e142f61e67635285c288cbf8cca5302dc",
-      "v2_sha256": "4b7e4fc897b7fdad480015f89d38d0a4da7413e9418ea893660b8d51306d3811",
-      "notes": "Reworked the practical prepared-meal delivery into a connected service joke: after the grandmother labels and stores the remaining food, she asks for a reheating reminder and adds a reciprocal empty-container return reminder to the narrator’s phone. The “takeout delivery” setup now pays off as a return-and-reuse service. Kept the low-salt choice and safe date-checking, and reviewed all four fields and contextual Jyutping.",
+      "v2_sha256": "cf243e15e7cd10866255b8f945d4a7e27a662c5dc0c52b62829ccb111cba6a84",
+      "notes": "Reworked the practical prepared-meal delivery into a connected service joke: after the grandmother labels and stores the remaining food, she asks for a reheating reminder and adds a reciprocal empty-container return reminder to the narrator’s phone. The “takeout delivery” setup now pays off as a return-and-reuse service. Kept the low-salt choice and safe date-checking, and reviewed all four fields and contextual Jyutping. Oral re-audit manually aligned Jyutping and synchronized revised wording; all four fields rechecked.",
       "revalidated_at": "2026-10-30"
     },
     {
@@ -22464,8 +22464,8 @@
       "index": 19,
       "status": "pass",
       "baseline_sha256": "03bca81137c7b15f9dfbac0b2dc9bc37cde23b72dac908665b0246e57d31778f",
-      "v2_sha256": "6c26a1fe1364e3e01f5dce31833104e7e4e69f9359f4dac5ed5a16eb74ceb312",
-      "notes": "Rebuilt the soup dinner around a connected fish-serving reversal: after the father warns against stirring the fish apart, the brother takes the instruction literally and serves every fish piece into his own bowl. His claim that only his bowl needs to be warmer callbacks to the rainy-day line. Reviewed the complete Cantonese, simplified gloss, contextual Jyutping, tip, and plot distinction from nearby soup and ingredient mishap cards.",
+      "v2_sha256": "3c0e05c6bde672b74b112011a1e4788b1a518952758943f0407e72b3dd8efcde",
+      "notes": "Rebuilt the soup dinner around a connected fish-serving reversal: after the father warns against stirring the fish apart, the brother takes the instruction literally and serves every fish piece into his own bowl. His claim that only his bowl needs to be warmer callbacks to the rainy-day line. Reviewed the complete Cantonese, simplified gloss, contextual Jyutping, tip, and plot distinction from nearby soup and ingredient mishap cards. Oral re-audit manually aligned Jyutping and synchronized revised wording; all four fields rechecked.",
       "revalidated_at": "2026-10-30"
     },
     {
@@ -27675,8 +27675,8 @@
       "index": 30,
       "status": "pass",
       "baseline_sha256": "7d25dc7e30733eaab87f6610262ab4d84983480f54f0eb4f138344279dcb009b",
-      "v2_sha256": "7d25dc7e30733eaab87f6610262ab4d84983480f54f0eb4f138344279dcb009b",
-      "notes": "The daughter assumes she can get every travel vaccine immediately, then learns to follow the record and itinerary; the document-prep sequence escalates to the passport left at the copy shop. At the station she checks her bag three times, while the narrator discovers their own transit card is still on the table. The ending reverses who is prepared. Tip matches. Reviewed all four fields."
+      "v2_sha256": "bae713f01243deaa9177d09d879711eaa2f2c5b635f84f1bf653779507d3f287",
+      "notes": "The daughter assumes she can get every travel vaccine immediately, then learns to follow the record and itinerary; the document-prep sequence escalates to the passport left at the copy shop. At the station she checks her bag three times, while the narrator discovers their own transit card is still on the table. The ending reverses who is prepared. Tip matches. Reviewed all four fields. Oral re-audit prompt made complete Simplified Mandarin; four fields rechecked."
     },
     {
       "file": "content/sentence_bank/long_health_services_07.json",
@@ -27723,8 +27723,8 @@
       "index": 36,
       "status": "pass",
       "baseline_sha256": "8758c5921bcb1128d37d093c21a00c0ba774bea2d8e4d88b757bf7f4014f6881",
-      "v2_sha256": "8758c5921bcb1128d37d093c21a00c0ba774bea2d8e4d88b757bf7f4014f6881",
-      "notes": "The patient prepares a video visit with dated photos, then the cat jumps onto the table and blocks the camera; the doctor waits while the patient moves it, and the cat reclaims the spot afterward, prompting the patient to shut the door next time. The recurring interruption earns the ending, while emergency symptoms are clearly separated from routine video care. Tip matches. All four fields reviewed."
+      "v2_sha256": "799021d6ffdb5f20e887339f2c1bb38224935a7fe68ba8a1f4ba0ecdd111304e",
+      "notes": "The patient prepares a video visit with dated photos, then the cat jumps onto the table and blocks the camera; the doctor waits while the patient moves it, and the cat reclaims the spot afterward, prompting the patient to shut the door next time. The recurring interruption earns the ending, while emergency symptoms are clearly separated from routine video care. Tip matches. All four fields reviewed. Oral re-audit prompt made complete Simplified Mandarin; four fields rechecked."
     },
     {
       "file": "content/sentence_bank/long_health_services_07.json",
@@ -27819,8 +27819,8 @@
       "index": 48,
       "status": "pass",
       "baseline_sha256": "2f8f8cea96e7dc9283d2c3c7706d00358cf4376cfd37a7558021c1e6ac948885",
-      "v2_sha256": "2f8f8cea96e7dc9283d2c3c7706d00358cf4376cfd37a7558021c1e6ac948885",
-      "notes": "The grandfather repeatedly mishears a Saturday call as Sunday and waits the wrong day; the hearing specialist sets up phone accessories and the picture prompt. He successfully arranges a call with an old friend and later says the narrator need not be his “sound tube” anymore. This closes the initial communication problem with a fitting callback. Tip matches. All four fields reviewed."
+      "v2_sha256": "c5f78b69033b96e899e3185527e5b89f74d4332bf8e8a0563628ba691ed7534d",
+      "notes": "The grandfather repeatedly mishears a Saturday call as Sunday and waits the wrong day; the hearing specialist sets up phone accessories and the picture prompt. He successfully arranges a call with an old friend and later says the narrator need not be his “sound tube” anymore. This closes the initial communication problem with a fitting callback. Tip matches. All four fields reviewed. Oral re-audit prompt made complete Simplified Mandarin; four fields rechecked."
     },
     {
       "file": "content/sentence_bank/long_health_services_07.json",
@@ -30317,7 +30317,7 @@
       "index": 60,
       "status": "pass",
       "baseline_sha256": "586aef8fd02a183852a9f6dfaaf0626378c2ef50426c763a4cf39f305809bf97",
-      "v2_sha256": "586aef8fd02a183852a9f6dfaaf0626378c2ef50426c763a4cf39f305809bf97",
+      "v2_sha256": "a07928947b1257217144fba2c5b44fb5df42632142d2f501e13375f4ddb27931",
       "notes": "Individually checked sentence, contextual Jyutping, complete gloss and event-specific tip. The boy first spins out a bus story, then claims the cat rides free; later, when Dad interrupts, he raises a hand and asks to finish speaking, reversing the family’s roles and paying off the therapist’s turn-taking advice. His speech difficulty is treated respectfully, not as the joke."
     },
     {
@@ -31119,7 +31119,7 @@
       "index": 60,
       "status": "pass",
       "baseline_sha256": "78475de74ee34138d32d5069081d56ec47416d66ff7e3a78969b6c1e402a30b5",
-      "v2_sha256": "78475de74ee34138d32d5069081d56ec47416d66ff7e3a78969b6c1e402a30b5",
+      "v2_sha256": "915485df4e30bc03b81ee17ed74e6a8c7d3630b8a4e9185ba8f5759740cba5ef",
       "notes": "All four fields checked. The mistaken doorbell produces a concrete neighbor/food-delivery misunderstanding; the orange bag returns as the apology, giving the incident a coherent callback ending. Jyutping and gloss follow the events."
     },
     {
@@ -37863,7 +37863,7 @@
       "index": 0,
       "status": "pass",
       "baseline_sha256": "ca8321252afc7150d1b9bdacb078d7463e9aeae3a07b4dd6601537218e39a7d2",
-      "v2_sha256": "ca8321252afc7150d1b9bdacb078d7463e9aeae3a07b4dd6601537218e39a7d2",
+      "v2_sha256": "f7b0463b3022ec1df80acb0314de8560414e1ed422470b59ac7a01d263079aa6",
       "notes": "The shared-table conflict grows into an unexpected paper rocket entering Dad’s video call; his repeated “where did the rocket go” line follows naturally from showing the wrong desktop. The family’s schedule fixes the clash and the rocket callback remains comic. Gloss, Jyutping and tip match."
     },
     {
@@ -38160,7 +38160,7 @@
       "index": 37,
       "status": "pass",
       "baseline_sha256": "6759fc49265810fd5b6092b7d95bb4b680e74a768a4dd33752d78de636a40397",
-      "v2_sha256": "4280dabb0a338488f5a33ca27b2c28534c1d1a0e1853ae1bf0119eb0592f4dd4",
+      "v2_sha256": "3a8bc023332f549e82821c852a50f4a9ce045c2bd3f96b01e4ba42a3e01e9b22",
       "notes": "Root individually reviewed the rules-dispute scene: the self-appointed referee’s line-by-line rulings stall the game and snack serving; the quiet classmate reveals the end-of-game scoring rule, making the referee-player finish last; the appeal and snack callback land on that cause. Compared with accepted chess pieces sliding, life-size chess literal play, and no-laugh games; distinct conflict/reversal. Checked all fields, contextual Jyutping, full Simplified gloss and event-matched tip; category preserved."
     },
     {
