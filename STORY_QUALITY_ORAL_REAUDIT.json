@@ -4,7 +4,7 @@
   "scope": "Independent manual second review of the 2,000 active stories selected from the original 5,000 source rows, including existing V2 passes, for stand-up/life-bit quality, natural Macau colloquial Cantonese, contextual tone-marked Jyutping, complete Simplified gloss and story-specific retelling prompt. The 3,000 excluded source rows, IDs, metadata, drafts and historical audit records remain preserved but are outside current semantic completion and app acceptance scope. Source-wide structural/hash preservation checks do not count excluded rows as new manual completions.",
   "source_cards": 5000,
   "target_active_cards": 2000,
-  "active_selection_status": "2,000 current V2-pass cards selected; 1401 oral pass, 0 needs_revision, 599 pending; active-card re-audit continues, while excluded source cards remain preserved.",
+  "active_selection_status": "2,000 current V2-pass cards selected; 1466 oral pass, 4 needs_revision, 530 pending; active-card re-audit continues, while excluded source cards remain preserved.",
   "cards": [
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -11952,10 +11952,17 @@
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
       "index": 62,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "50c54559b44d8b01eaea5f145f20e32d9d5fde46bb33bf6eae000973c377d17b",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "not_family_centered",
+        "money_context_secondary",
+        "workplace",
+        "standup_life_bit",
+        "absurd_escalation",
+        "strong_callback"
+      ],
+      "notes": "All four fields manually checked. The manager asks for one sentence; A-kin turns his short-course report into slides, labels one pie-chart slice “colleagues watching me stare into space,” then gives the conclusion last. The final promise to learn to fit a slide deck into three pages callbacks the overlong report. The training allowance is background only; no family conflict. Jyutping/gloss match."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -15300,10 +15307,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
       "index": 75,
-      "status": "pending",
-      "source_sha256": "f4d876b03f43ec40458921927a2643c42345c01a15d9bb57d980542bbe1b05be",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "c191a1c73b87ffffd67dcda6967d05144194e4ab19b63756f200efc75823cb12",
+      "topic_notes": [
+        "secondhand_coat_pockets",
+        "forgotten_milk_lists",
+        "self_written_reminder_callback"
+      ],
+      "notes": "2026-11-09 主審補足便條鋪墊：把舊清單取出後才洗外套，睡前將「聽日唔好買奶」塞入內袋；次日看到才想起是自己昨晚寫的，回扣前面的壞記性與「提醒服務」。依獨立複核修正文意，對原粵拼插入音節間隔並逐字覆核聲調；更正返屋企 faan1 uk1 kei2。譯文和提示同步包含新鋪墊。293漢字/293音節。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -17483,10 +17494,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
       "index": 86,
-      "status": "pending",
-      "source_sha256": "448585602eb2cd64c8c42a36ab03f57a5d73b1d38f7fe2370cef54d0289c2d88",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "6482cc4631c52ec3dd72a707ee2b5a7a5106bb0ecac048103993f458b8c0dcaf",
+      "topic_notes": [
+        "frozen_dumpling_package",
+        "escape_joke_callback",
+        "child_follows_up_on_ice_cream"
+      ],
+      "notes": "2026-11-09 四字段人工复审并修结尾：儿童把急冻饺子说成越狱后，直接追问雪糕是否也要拉紧袋子；同一个小朋友的问题顺势让收银员回扣“雪糕不会开拉链，只会融化”，删去突兀插入的另一位客人。主审逐字核粤拼、声调、译文和提示；228汉字/228音节。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_03.json",
@@ -17872,10 +17887,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
       "index": 19,
-      "status": "pending",
-      "source_sha256": "e04e779dc297f3eadc93c53870a3992e2f34deddf67db2d3983877d1148e4d16",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "4b6cc5e8424cb2cc438049b1310be742570208ee8f4d3764507f96b745acd21d",
+      "topic_notes": [
+        "choir_takeaway_order",
+        "food_safety_stop_and_remake",
+        "rehearsal_callback"
+      ],
+      "notes": "2026-11-09 主審依獨立複核修掉普通話直譯與書面語：改為幫合唱團叫餐、落單時講全熟、即刻停口、叫店員同廚房講清楚、清開張枱、等緊嗰陣及臨場改台詞。合唱團將等重做變成排練段落，侍應以餐牌試戲回扣。主審逐字檢故事、粵拼聲調、完整簡體譯文及專屬提示；250漢字/250音節。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_04.json",
@@ -20117,10 +20136,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 40,
-      "status": "pending",
+      "status": "needs_revision",
       "source_sha256": "4efabf983d11f7e13dab9c57bb92292722f90ac5fe5c36d04069bdfe5e044f23",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "restaurant_reservation",
+        "board_game_at_meal",
+        "mechanism_overlap",
+        "rewrite_again"
+      ],
+      "notes": "2026-11-09 四字段初审退回改写：外部桌游餐厅稿把回合术语带到夹菜、添茶并以清碟决定输赢；active pass sentence-bank-long_food_shopping_18-0004 已有桌游会等送餐、掷骰轮流估时并以输赢分配盛饭/洗碗，核心“桌游会+餐食+回合/胜负规则”太近。外部候稿保留但不计通过；源卡继续needs_revision，须换掉桌游术语/输赢机制后再核四字段。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20230,10 +20254,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 52,
-      "status": "pending",
-      "source_sha256": "9749be91c809368d3bd7a4ab28b205dee2fe0ab793ae1c89e588f6dc8d172b4c",
+      "status": "pass",
+      "source_sha256": "8181db3a8a6dcbab4e1609e42c3c0e3d66f2e3baf71816bc043c138498864f70",
       "topic_notes": [],
-      "notes": ""
+      "notes": "2026-11-09 主審四字段覆核：密封罐蓋歪漏豆，女兒追豆、貼「紅豆集合處」，新蓋到後舊蓋墊花盆，生活笑點有行動鋪墊。修正「沿住」讀音 jyun4 zyu6；客服的「客」保留 haak3，按 Words.hk「客務」讀音核實。簡體譯文微調為自然語序，提示對應故事。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20599,10 +20623,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
       "index": 92,
-      "status": "pending",
-      "source_sha256": "1891be815aafdd80f057c2dd07e860cf629d1337bd2475c72c074113d158f51c",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "b744fa8cfc28594770e5ae4e5cb9b5a3f3a0b3e2544ad1b347d364d5aa8f889f",
+      "topic_notes": [
+        "automatic_open_manual_close_umbrella",
+        "button_misuse",
+        "friend_callback"
+      ],
+      "notes": "2026-11-09 主線改為把自動開遮誤當自動收遮：公司門口多次撳掣無效，店員示範先摺遮面再壓回遮柄；朋友以「自動買、手動退」回扣。改正原外部稿中按掣會令已開遮反覆彈開的不合理機制。主審逐項核故事、逐字粵拼及聲調、完整簡體譯文和專屬提示；235漢字/235音節。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_06.json",
@@ -20686,10 +20714,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 2,
-      "status": "pending",
-      "source_sha256": "7e497e4d4767b6b303f00de4fb1ec1cb90ba2b124c0d80e7ea4c9115fd3e6dc4",
+      "status": "pass",
+      "source_sha256": "2fb2f072b033493e3fa49c86ad7416bd55721923fe306265d9e6c35854e6119e",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Root independently reviewed all fields, fixed the booked-seat logic and ensured the callback text matches the corrected Jyutping for 一張凳. Group-chat arrival phrases repeatedly look like actual arrivals but are not; the last callback pays off the reservation theme."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -20798,10 +20826,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 13,
-      "status": "pending",
-      "source_sha256": "9e21c76d631d63d6d6c05dbfcc47f1b615d0cebe14dfb1b7a33e8d84461385f8",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "02b08c005d0e0ec89f27b64d97c82106236dafacbb483033b8237ba6ce0f9162",
+      "topic_notes": [
+        "restaurant_reservation",
+        "same_surname_table_mixup",
+        "mirror_reflected_waiter",
+        "sunset_callback"
+      ],
+      "notes": "Root manually accepted the original restaurant-life story after reviewing all four fields and correcting 名 to ming4. A same-surname reservation mix-up leads to a temporary small table and mirror; the cousin accidentally captures the waiter, the sunset passes, and a family member notices the reflected smile. Checked against active window-seat/sunlight and mirror-photo stories; the core same-surname booking and reflected-waiter callback is distinct. 252 Chinese characters and 252 tone-marked Jyutping syllables aligned; complete Simplified gloss and story-specific prompt verified. Category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -20930,10 +20963,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
       "index": 28,
-      "status": "pending",
-      "source_sha256": "219dd5df0f9c553a1c4a1ed17f48a7e9974d65e3eb13fa66c739e6148d532533",
+      "status": "pass",
+      "source_sha256": "f13630c5c0585cadb35ff3f94697577ac22ecd33bcff9c2ce5fca0b4465eade3",
       "topic_notes": [],
-      "notes": ""
+      "notes": "2026-11-09 主審四字段覆核並重寫結尾修正容器前後矛盾：兩個有蓋桶一直只裝糙米，洗衣粉保留在原裝樽；孫仔貼錯標籤後以大字和圖案重新分清，身份證笑點回扣。修正「清潔用品」用 jung6 ban2；逐字覆核粵拼聲調、簡體譯文及專屬提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -22193,10 +22226,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
       "index": 61,
-      "status": "pending",
-      "source_sha256": "de7e9902da9123bcab155fd83105891fe9e3ebc1f260906600301d71b7a1a997",
+      "status": "pass",
+      "source_sha256": "c428addffe8acc6d495de33c519092def0511b05017a95d68d7530a9b8fb75e1",
       "topic_notes": [],
-      "notes": ""
+      "notes": "2026-11-09 主審逐卡重寫書面直譯：改用外賣員停喺另一區、怕餓住開會、廚房一時太忙、退飲品錢、到場及補返數等口語。遲到熱茶與散會回扣保留並鋪墊；四字段及聲調逐項覆核。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_08.json",
@@ -26152,18 +26185,22 @@
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 9,
-      "status": "pending",
-      "source_sha256": "ffa17923b8b7f0efe440b2b8a3fe5c8b0527c39c7e28160eeb1f1f99878a4dd3",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "2905d1d5a7187379cf3d3dc449698a37877c7fce64d452eb3e1cec513ae2bf91",
+      "topic_notes": [
+        "roommate_life",
+        "two_broth_hotpot",
+        "cross_seasoning_comedy"
+      ],
+      "notes": "Root manually reviewed and accepted the two-broth hotpot scene: the roommate repeatedly cross-contaminates the mild and spicy pots while trying to taste them, then asks to create a third broth. Verified the story arc, contextual tone-marked Jyutping, corrected 宿舍 to suk1 se3, complete Simplified gloss and story-specific tip. Checked active hotpot/soy-milk stories; no matching cross-pot contamination mechanism. No family or money plot."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
       "index": 10,
-      "status": "pending",
-      "source_sha256": "4c9b9da6eab3dca3d84569a6fe36d30396951e08d51809adb5bf04b677289494",
+      "status": "pass",
+      "source_sha256": "6e26b4c6317fb44ce01cb78262972cbc3219f2037548d6822b0c5abc3509524b",
       "topic_notes": [],
-      "notes": ""
+      "notes": "2026-11-09 主審改善口語並修正「自告奮勇」讀音：改為「忽然話自己做主持」（zi6 gei2 zou6 zyu2 ci4）；「茶歇／當即／照稿」換成日常說法，讀牌拖慢開茶點及主管催吃形成笑點。逐項覆核粵拼聲調、簡體譯文及提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_13.json",
@@ -27503,10 +27540,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 42,
-      "status": "pending",
-      "source_sha256": "b5f3dbc71363fa6dab32acecc5feb969e87b2fa5196f0b39838594df4bed3421",
+      "status": "pass",
+      "source_sha256": "9813472e837a2b605969169d9e99c436734df28b8e660d543f6707e460196f01",
       "topic_notes": [],
-      "notes": ""
+      "notes": "2026-11-09 四字段人工复审。天气预报介绍把云朵蛋糕排队拖成提问大会，巧克力碎落上天气图后形成“朱古力雨”回扣；与 active pass 天气及义卖机制搜索未见近似。原 category/ID/元数据保留。补清耐热标签属于纸杯，避免指代模糊；“阿凱緊張到將塊牌反轉”采用自然口语语序。全篇口语、升级因果、译文和提示重读，逐音核对 282 汉字与粤拼音节；慈善义卖无价格/预算主线。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
@@ -27554,10 +27591,14 @@
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
       "index": 47,
-      "status": "pending",
-      "source_sha256": "47a5c4b536d5034b68556d37b20a64887fa68650edff271e486dcae977300ad2",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "896963f2c779ec833143dd21e327e0ea0a39d67f931eeb40ffc73665fa168274",
+      "topic_notes": [
+        "street_market",
+        "radish_cooking_class",
+        "vegetable_pointer_callback"
+      ],
+      "notes": "2026-11-09 主審重寫並逐卡復核：把街市買來、原本要示範刨絲的蘿蔔一路帶成課堂指揮棒，同學照著棒子提早準備；老師最後把刨絲任務交還給一直指揮的「我」。改口語開場與因果，結尾以「指揮棒都用咗半堂，唔好連刨絲都想交畀人」回扣。完整檢查故事、逐字粵拼及聲調、簡體譯文和專屬提示；270漢字/270音節。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_14.json",
@@ -27695,18 +27736,32 @@
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
       "index": 4,
-      "status": "pending",
-      "source_sha256": "56e0a9baf7fa05a2bb8964d0d04e2473cd0f8aba72e9817accb2a4934c78deb0",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "ffd324932bc4077b96cd0a475689343b73321a6bd0948eea34a1b53f11e1199a",
+      "topic_notes": [
+        "shared_meal_background",
+        "standup_life_bit",
+        "physical_escalation",
+        "strong_callback",
+        "not_family_centered",
+        "not_money_centered"
+      ],
+      "notes": "2026-11-09 四字段人工复核并采用全新情节：室友自信用筷子夹雪冻豆腐，豆腐滑落、夹碎后仍举起碎屑示范，朋友改用匙羹，末尾回扣“最难夹的是收回自己说过的话”。与active pass餐桌/食物故事比较，未见冷豆腐筷子越夹越散机制。保留日本豉油主题分类及原ID/顺序/元数据。简体译文和复述提示逐句对应；逐字手核粤拼语境声调，243个汉字对应243音节。“撈”原读音含捞起/搅拌歧义，改为“愈夾愈散”及 gaap3 saan3。室友聚餐只是场景背景，无家庭冲突或金钱主线。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
       "index": 5,
-      "status": "pending",
-      "source_sha256": "a86437e2c4c8a523606875ca5f536c6e8322c6675bb4754e6fbe4158797f440b",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "2a1ca51eed568ac97f73f2cbc032f9c7d458075d49d84e5455755120c19fb906",
+      "topic_notes": [
+        "friends_outdoor_walk",
+        "overchecking_nutrition_label",
+        "behavior_escalation",
+        "strong_callback",
+        "not_family_centered",
+        "not_money_centered"
+      ],
+      "notes": "2026-11-09 四字段人工复审并重写。朋友第一次饮完才问茶的糖分；下次出发前逐行、借眼镜和手机灯读标签，令同行者先走到转角；绕完一圈回到集合点时仍未开樽，末句回扣“次序改啱，行程排错”。检索 active pass 的食品标签/行山卡：已有成分过敏核对、食物成分侦查及路线里程误算，但没有以朋友过度读糖分拖慢海旁散步的同一机制。逐音核对带调 Jyutping；更新后故事242汉字/242音节，简体译文及复述提示逐句对应。海旁、营养标签等读音复核；分类及元数据保留。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
@@ -27739,10 +27794,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
       "index": 8,
-      "status": "pending",
-      "source_sha256": "d8e6fbb59da70d7aa7c868e09299119070fc374e07b86640fca94060fe86723b",
+      "status": "pass",
+      "source_sha256": "34fc581e95f3b110c0d7e4a459ac2b567c46272e88facf4a6b6d17809ca50390",
       "topic_notes": [],
-      "notes": ""
+      "notes": "2026-11-09 四字段人工复审并按粤语口语修订。把原文“看/拿/瞬间”改为“睇/拎/即刻”，用食谱、量杯和不同杯具引出量米研讨会；十人实际各有一碗且煲底有剩，末句回扣“容量够煲粥，唔够开会”。与 active pass 的量杯误解“收汁”、饭店饭粒黏锅、量杯混算重量等故事逐机制对比：当前笑点是全班围绕同一袋米开展过度讨论，粥成功煮成，未复用烹调失败情节。完整复核简体译文及复述提示；257 Han characters and 257 Jyutping syllables aligned; contextual 研討會 jin4 tou2 wui6 (Words.hk)."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
@@ -27786,26 +27841,39 @@
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
       "index": 13,
-      "status": "pending",
-      "source_sha256": "863e9aa04a2b5435e86a6a714e67a3bf4ac0293ac76fd3cbf0a2f4a2390ae2ba",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "3376061c482973be1bb469c501ea436fbfeb56c28795576556f77fec00864c8f",
+      "topic_notes": [
+        "pastry_box",
+        "recycling_behavior",
+        "physical_escalation",
+        "strong_callback",
+        "solo_life_bit",
+        "not_family_centered",
+        "not_money_centered"
+      ],
+      "notes": "2026-11-09 四字段人工复核后采用新机制：吃完老婆饼后试图摺平空纸盒，盒盖、四边和卡住衣角逐步升级，楼下清洁员示范先拉开纸扣；末句回扣“先睇吓个盒点摺”。原文采访/投票/出炉改票已完全删除。与 active pass 的凹损点心盒退换及回收纸箱发现信件对照，当前是折叠卡扣导致纸盒越折越立体，因果与回扣不同。修正粤拼：壓 aat3；结尾改“先睇吓个盒点摺”对应折平动作。230汉字与230个逐字核对带调粤拼音节一致，简体译文和复述提示对应故事。原分类、ID和元数据保留。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
       "index": 14,
-      "status": "pending",
-      "source_sha256": "42cc298cc08d8046ba34578c1f2b169f45773c3d64cc069cd857b5380c6cefa5",
-      "topic_notes": [],
-      "notes": ""
+      "status": "needs_revision",
+      "source_sha256": "5020ba6bcee4c816c1a668dc021b571e986efb6ad454b6718dc95079abfeb23a",
+      "topic_notes": [
+        "convenience_store",
+        "packaging_opening",
+        "mechanism_overlap",
+        "rewrite_again"
+      ],
+      "notes": "2026-11-09 四字段人工复核。收工买即期面包带回共享办公室，主角先揭错透明封口贴，贴纸黐手、袋口缩细、包装扭成麻花兼打结，同事指向尾端后即刻打开；末句回扣以后先搵贴纸尾。对比 active pass 的拉错抽绳收口、网袋漏橙、袋口误遮饮品名等故事：当前是封口胶贴方向不明造成反复越拆越窄，未复用上述动作机制。手工核对235个汉字与235个带调粤拼音节、完整译文和贴合故事的复述提示。保留原分类/ID/元数据，无家庭或金钱主线。 2026-11-09 终审发现本轮改写与 active pass sentence-bank-long_family_finance_services_02-0065（拉错抽绳、袋内物件滑出、旁人指出正确绳尾）在“包装从错误位置开启/收口、反复拉扯后由人指正”的核心机制近似；本故事保留在源文件作底稿，但重新标 needs_revision，不计人工通过，须彻底换掉开袋/封口机制。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
       "index": 15,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "e57b6a3697ded1d110e8b038f39f7dce9a287b32609d38faa0a963f73af8ed0b",
       "topic_notes": [],
-      "notes": ""
+      "notes": "2026-11-09 四字段人工复审。椰子鸡汤示范由鸡髀“做主角”起步，姜被误放上讲台后主持人即兴介绍成嘉宾，最后“落薑／落台”双关回扣现场。逐项复核粤语口语、动作因果、完整普通话译文及对应复述提示；手工核对 253 个汉字与 253 个 Jyutping 音节、语境声调。对读 active oral-pass 中社区表演、煮食班与食材拟人故事，未见同一讲台错放姜材机制。故事为社区活动，无家庭/金钱主线。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
@@ -28031,10 +28099,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
       "index": 12,
-      "status": "pending",
-      "source_sha256": "d30574a3e283b36a2eb54f1569e0db572ab419ffe0b4e65204ab9f4914afdcbe",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "9a5b96c7357f1009d8494c0cffb394b71d1fc20c653c767aa28e37558f7d394e",
+      "topic_notes": [
+        "coworker_relationship",
+        "supermarket_cheese_counter",
+        "awkward_avoidance",
+        "counter_rotation_callback"
+      ],
+      "notes": "Root manually accepted the replacement workplace-life gag. Two coworkers awkwardly avoid each other at the supermarket after a meeting disagreement, circle between cheese and ham counters, and the clerk jokes about rotating the counter; they then speak directly and resolve it. Verified story coherence and Macau colloquial delivery, 273 characters/273 tone-marked Jyutping syllables, contextual readings, full Simplified gloss and story-specific prompt. Scanned active passes for similar coworker avoidance, detour, table/chess movement, and thin-slicing mechanisms; no close match found. Category and non-language metadata preserved; no family or money center."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_16.json",
@@ -28500,10 +28573,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 2,
-      "status": "pending",
+      "status": "pass",
       "source_sha256": "a4fecc5cbf553a89b5b2fd7c6f679201393dc05f876b1d6e5428cf2de2692763",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "coworker_birthday",
+        "pear_cake_collapse",
+        "cake_sign_callback",
+        "not_family_centered"
+      ],
+      "notes": "Root retained and manually accepted the original after reviewing all four fields. The pear cake collapses; coworkers try to stabilize the birthday sign, the cake hollow becomes the joke’s “open space,” and the collapsed center prompts an unplanned speech expectation. Screened against active pass long_family_finance_services_03[98] (birthday recording/microphone/noise) and found the core cake-collapse/sign-as-stand and speech-expectation mechanism distinct. Verified 263 Chinese characters align with 263 tone-marked Jyutping syllables, contextual readings, full Simplified gloss and story-specific prompt. Office coworkers, no family or money focus; category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -28595,10 +28673,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 10,
-      "status": "pending",
-      "source_sha256": "9c1bb8d9c4af2ff5bb35dce187239b554160897175e08f87fc41e06f5b5c0ea8",
+      "status": "pass",
+      "source_sha256": "bfba0e032bdfdd4110ffdabf1a062835b5c05adb6ce01200be54883f46d673f3",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Main agent manually reviewed and corrected the opening to natural spoken Cantonese, retuned the final attendance joke, checked all four fields and corrected 匙羹 to ci4 gang1. The breakfast jar scraping sounds like a work notification; the cue spreads across the row, disappears with a plastic spoon, and returns as a deliberate attendance cue. Unique office-life mechanism."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -28619,10 +28697,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 13,
-      "status": "pending",
-      "source_sha256": "b9b77990b15e3afe15e641e5fa52e0243bbbd133425e3ab5426c2cd9cae3a91b",
+      "status": "pass",
+      "source_sha256": "c38a83466f4d684cfb2189b8841af49a52f3af7abece0afd08f4ef758ef9ee8c",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Root independently reviewed all four fields and manually checked local market dialogue and Jyutping. A new colleague misreads 当造 as made today, then links it to 当值 and asks the orange’s working hours; the farmer takes over the explanation. Distinct semantic-pun escalation, no family/money lead."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -28649,10 +28727,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 16,
-      "status": "pending",
-      "source_sha256": "96c780d2edf7fa4996f8b50adafbd3aa2d0b23ccb4cb7d3c24d4c19a6fc7c4d3",
+      "status": "pass",
+      "source_sha256": "2c4f7492f0a16403d26d5b7b8bb77cb3a4e2c566f3d37afab1b202801db6c2aa",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Root independently reviewed all four fields, the workplace pantry escalation, callback, and contextual Jyutping; checked 「位置」as wai2 against a Cantonese dictionary. A group replenishes coffee-room supplies but crowds the machine and nobody brews a cup; the first cup is treated as an opening ceremony. This differs from the adjacent office breakfast story about spoon noise triggering phone checks."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -28795,10 +28873,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 32,
-      "status": "pending",
-      "source_sha256": "98e8afec61beb89a721b11f63bfb49fa9bac5d36285e18bf76b02206b282de30",
+      "status": "pass",
+      "source_sha256": "7c43464dba5580968f9a053efd0268c0f88a5ece5e86c35fae8b5708f7a85667",
       "topic_notes": [],
-      "notes": ""
+      "notes": "2026-11-09 四字段人工复审。误把鄰居的“買咗麵包未”聽成託買，額外跑一趟後鄰居退回麵包；翌日再用“買咗牛奶未”作回扣，笑點不靠家庭金錢衝突。開頭破蛋換貨是收工採買背景，非主衝突。逐字重讀普通話及提示；把書面/普通話感較重的「拿返樓下」修成口語「拎返落樓下」並校對 ling1 faan2 lok6。手工核對 230 Han characters and 230 Jyutping syllables; key contextual tones 裂咗 lit6 zo2、託我買 tok3 ngo5 maai5、塞返 sak1 faan2。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -28883,10 +28961,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 40,
-      "status": "pending",
-      "source_sha256": "d470d5698a6aa06643e8d0ea4a8056ed2109610d7f334557d20177498692b259",
+      "status": "pass",
+      "source_sha256": "6c7c2f0beaf566da96f91008b02702199e77adca94812567667b4674469ef5ad",
       "topic_notes": [],
-      "notes": ""
+      "notes": "2026-11-09 主審四字段覆核：素蠔油名稱引出大叔追問蠔是否食素，晚飯用「有冇到場」回扣；改書面「把瓶、看配料」為「將樽擺上枱、睇成分」，修正「喺度」hai2 dou6。確認香菇 hoeng1 gu1 及整體粵拼、譯文和提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -28967,10 +29045,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
       "index": 48,
-      "status": "pending",
-      "source_sha256": "f5c4961bfb2a4053546ae55da88450a52d75eadec5c4c009ebfa48a578c969aa",
+      "status": "pass",
+      "source_sha256": "5449b9239be41d11fc022cad8a6ad58919a04e103ba4995df146deb4bf52d201",
       "topic_notes": [],
-      "notes": ""
+      "notes": "2026-11-09 主審四字段覆核：室友將三隻芒果排「今日、聽日、後備」，紅點誤會、延長觀察及甜品部更表逐步回扣。主審及獨立複核逐字檢查238個漢字/音節，修正檔主 dong3 zyu2；簡體譯文及專屬提示相符。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -29106,10 +29184,10 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 13,
-      "status": "pending",
-      "source_sha256": "c1c173b9b8ca24371ef973928a5aa517ab317ae623d443ce03fc2987135765f9",
+      "status": "pass",
+      "source_sha256": "c9345fef843e11dc82cb6428b85852134752f64767a57516984ddfe58870781b",
       "topic_notes": [],
-      "notes": ""
+      "notes": "2026-11-09 四字段人工复审与原卷寿司稿机制重写。保留学校文化日寿司材料category及ID；现在的笑点为食材名/粵拼卡引发同学排队跟读，材料始终没人拿，老师用“開飯”不用教收尾。不复用 active 春卷pass及原稿的卷制失败、馅料滚落、船形/旅行机制；与 active long_food_shopping_18[4] 点名簿数花甲/逃生者、long_family_finance_services_02[15] 语言交换模板式自我介绍均比较过：新卡笑点是食材粤拼卡引发排队跟读、材料留在桌上，因果链不同。重读全部四字段并校语境声调和逐字映射；228 汉字/粤拼音节。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -29321,10 +29399,15 @@
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
       "index": 34,
-      "status": "pending",
+      "status": "needs_revision",
       "source_sha256": "e272cb04cd5448e370d2ef9572c3f3a6a39a81d90e094b7e5e4b39fac598a7b6",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "frozen_berries",
+        "spill_becomes_art",
+        "mechanism_overlap",
+        "rewrite_again"
+      ],
+      "notes": "2026-11-09 初审退回：急冻莓果倒入攪拌機溅出乳酪、纸巾紫色污点被画成星图，次日又沿用星图吃莓果，叠加多段生活保存说明，笑点主线松散。核心“饮料/酱汁意外洒出变画面”已近似 active pass long_food_shopping_14[52] 青酱飞到围裙成日出、long_food_shopping_17[11] 番茄酱溅墙成画。原ID/类别/元数据和草稿保留；需改成非洒出绘画的新机制并重审四字段，此卡不计通过。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -33221,10 +33304,15 @@
     {
       "file": "content/sentence_bank/long_health_services_04.json",
       "index": 88,
-      "status": "pending",
-      "source_sha256": "05e40d1f51a36cf6364ae979f379a56b5bf593b747f5c7436bb731b83f05d537",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "2d72512a6fbf215e449e7631c687ba79a0a7725a3866a32356b83e55ac5c821d",
+      "topic_notes": [
+        "friend_life",
+        "tinnitus_care",
+        "fridge_suspect_notebook",
+        "mock_case_file_callback"
+      ],
+      "notes": "Root manually accepted this rewrite. Verified the story arc (fridge blamed, the sound follows her, she keeps symptom records, then clears the fridge) and retained the appointment/test facts. Updated the warning: sudden hearing loss or spinning vertigo should prompt immediate care, not just a routine clinic call. Checked 277 Chinese characters against 277 tone-marked Jyutping syllables, contextual readings, complete Simplified gloss and story-specific prompt. Screened active stories for tinnitus/fridge/legal-case mechanisms; no close duplicate. No treatment guidance added; category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_health_services_04.json",
@@ -33293,10 +33381,10 @@
     {
       "file": "content/sentence_bank/long_health_services_04.json",
       "index": 97,
-      "status": "pending",
-      "source_sha256": "a4c4c1ad5ccadb0fc88bd96ec1df512b4f89d6fee11e5189443e912b74fa3033",
+      "status": "pass",
+      "source_sha256": "db4275f5e36b1832dfa627e15281f1f2ce2c8c4b44e883292a577a366811e01b",
       "topic_notes": [],
-      "notes": ""
+      "notes": "A sore smile after dental adjustment is mistaken for disapproval at a meeting, so the boss restarts the presentation page by page; the thumb becomes a substitute signal and triggers another round. Four fields and contextual Jyutping manually reviewed; no specific medical guidance added."
     },
     {
       "file": "content/sentence_bank/long_health_services_04.json",
@@ -34734,10 +34822,16 @@
     {
       "file": "content/sentence_bank/long_health_services_06.json",
       "index": 70,
-      "status": "pending",
-      "source_sha256": "4391e347ae99f7873d68831753ce396bf9c2e2d734747552459b128dc708ba03",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "8e904e987d6e3e9117ae7da817c6d52d5c92dc8d421992578b3520661a009f33",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "health_services",
+        "adult_roommates",
+        "standup_life_bit",
+        "strong_callback"
+      ],
+      "notes": "All four fields manually checked. The narrator keeps the source timing from the doctor, asks a pharmacist how to separate calcium from the medicine, and follows that professional instruction without inventing a numeric interval. The midnight coffee mistake, roommate’s queue joke and second reminder build the life-bit callback. Used 藥劑師 / joek6 zai1 si1; complete Simplified gloss and matching tip."
     },
     {
       "file": "content/sentence_bank/long_health_services_06.json",
@@ -34798,10 +34892,10 @@
     {
       "file": "content/sentence_bank/long_health_services_06.json",
       "index": 78,
-      "status": "pending",
-      "source_sha256": "ea288ffa5340f30c0a43b7b0ff94c2c4e54a887781feece479d3c2c789096a14",
+      "status": "pass",
+      "source_sha256": "ec8114fbdec532f03e4bbf11fffef804d890822b490bc06e5ec56e4e25f4b44a",
       "topic_notes": [],
-      "notes": ""
+      "notes": "Root independently reviewed all four fields and contextual Jyutping. A roommate repeatedly dims the shared living-room light while trying to help with the narrator’s clinician-recommended quiet reading routine; the overhelp escalates into a makeshift library night shift. The callback is distinct from other active sleep, library, and lighting stories."
     },
     {
       "file": "content/sentence_bank/long_health_services_06.json",
@@ -35469,10 +35563,10 @@
     {
       "file": "content/sentence_bank/long_health_services_07.json",
       "index": 60,
-      "status": "pending",
-      "source_sha256": "01acf09b3075073ed2f720314bdc9d22facf2daf0491115534c29836fbd3cb39",
+      "status": "pass",
+      "source_sha256": "d2a04786c7b2a0b5c930aff9ec664f2a7142978bf5288e5e5a2cbb95ce16b40a",
       "topic_notes": [],
-      "notes": ""
+      "notes": "2026-11-09 主審逐卡覆核血糖監測器故事：警報與接放學提示混淆後分開提示音；保留按設備指引核對、不可只憑單一讀數改藥的安全資訊。修正「睇過」及「唔可以」等口語，並逐字檢查粵拼聲調、完整簡體譯文及專屬復述提示。"
     },
     {
       "file": "content/sentence_bank/long_health_services_07.json",
@@ -43961,26 +44055,40 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 3,
-      "status": "pending",
-      "source_sha256": "38caec38a65f9662c8510f3f241bc4d8df51b1ea1cb8008d505d6a8b43495861",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "7dfc80759f130d5803b91d5c52123887cb768b06e255a0ea31cb74b69db95952",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "shared_housing",
+        "neighbors",
+        "standup_life_bit",
+        "strong_callback"
+      ],
+      "notes": "All four fields manually checked. Roommates initially fear complaining about upstairs noise; a neighbor explains the mattress move, then the narrator discovers their own dining chair also makes the noise. Chair pads callback to the upstairs neighbor’s offer, and the story ends in a more natural greeting. Family roles removed; source category metadata preserved. Jyutping and Simplified gloss match."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 4,
-      "status": "pending",
-      "source_sha256": "84cbdfd2705f06612c35f23a229cf10ea58f63c896b7bb0a786f42c947ff2c9a",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "84af3d6a426cdda23869c363e91474fc3eb8e5374c4a3ee9914521eff1a2fda2",
+      "topic_notes": [
+        "roommate_life",
+        "procrastination_echo",
+        "pet_callback"
+      ],
+      "notes": "Root rewrote family roles as housemates while preserving source card metadata; the repeated “等陣先” teaches the parrot a new refrain, which it uses to delay the roommate the next morning. Manually reviewed colloquial story, causal escalation, contextual Jyutping and tones, full simplified translation, and story-specific retelling prompt. Distinct from router/umbrella/neighbor/noise mechanics; V2 and active membership unchanged."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 5,
-      "status": "pending",
-      "source_sha256": "deb8a45c4e90129e89f3d46c671440ce34e128b5af974c1c9391809f22317ab4",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "9176f0c8d0fabc7386aca5da537f8905aa57784abe620666264bb514779bb41c",
+      "topic_notes": [
+        "new_coworker_bus_ride",
+        "false_disembark_cues",
+        "backpack_knows_the_stop_callback"
+      ],
+      "notes": "Root manually reviewed the repeated bus-door misunderstandings: the new coworker gets up to clear space, triggers others to prepare to get off, then finally waits until the bus stops. The backpack “recognizes the stop” is the callback. Checked physical sequence, colloquial story, contextual Jyutping/tones, complete Simplified translation and story-specific retelling prompt; source category/metadata preserved. Distinct from bus-stop shelter and hand-on-seat stories."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -44209,10 +44317,14 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 34,
-      "status": "pending",
-      "source_sha256": "797ad6e42d0031f3ac885b742b16787f02679a4c7572afa8433f21e15fd44ce3",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "e1784a944611a6cdf6124e26a6b10476e1feba496241e40ae4e94036937e32cd",
+      "topic_notes": [
+        "roommate_life",
+        "home_renovation",
+        "human_color_sample_callback"
+      ],
+      "notes": "Root manually refined the draft’s final question into natural colloquial Cantonese and clarified the compared paint swatch. The room-mate group chooses wall color; a friend’s matching shirt becomes a living sample and the painter’s “walk away” tag supplies the callback. Manually reviewed continuity, stand-up timing, contextual Jyutping/tone readings, complete Simplified gloss and story-specific tip; original category/metadata preserved. Distinct from route-guide, voice-input and hobby-skill mechanisms."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -44635,10 +44747,14 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 86,
-      "status": "pending",
-      "source_sha256": "293c700078f55d44bb7154ebc036f18b3531fbbb943eb11443f1a47572b16d72",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "5b48d105f30709ee45fa0b7a4cf1070aa8b08773d9b57ec05c8df6c3bf03f7db",
+      "topic_notes": [
+        "adult_coworkers",
+        "office_shared_desk",
+        "sit_stand_height_callback"
+      ],
+      "notes": "Root manually reviewed and accepted the replacement workplace-life gag: coworkers repeatedly reset the shared sit-stand desk to their personal sitting/standing preferences, then a compromise height suits nobody. Removed the overlapping breakfast-as-sports commentary. Checked 255 Chinese characters against 255 tone-marked Jyutping syllables, contextual readings, complete Simplified gloss, and the story-specific retelling prompt. Original category and metadata preserved; no family or money plot."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -44771,18 +44887,23 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 3,
-      "status": "pending",
-      "source_sha256": "cd803b48be20fc0b3bee12c243184507eabfe2cff49bae0ed09c6e00bd2f3ace",
+      "status": "pass",
+      "source_sha256": "c3181e2899fb2f344e0060c90544d2c07d8a9d51ff8248705116abad38bd816e",
       "topic_notes": [],
-      "notes": ""
+      "notes": "2026-11-09 四字段人工复审。保留原“家庭相处”category与ID；父女只共同参加水彩班，冲突集中于纸巾/水滴令画中水流延长、透明杯身难辨，爸爸把河岸告示当画中元素，告示倒影补出杯身，并以“最后才见到杯”收尾。原源的学校开放日泛称误认与贴纸反转不复用。另比较 active pass 洗车玻璃水痕和餐厅杯面反光：当前情节是水彩班里意外水痕被改画河流、再用河岸告示作构图，具体因果不同。完整复核四字段、简体译文、故事练习提示和逐音节声调；手工对齐 284 个汉字与 Jyutping 音节。淨返 zing6 faan1、倒影 dou2 jing2 按 Words.hk/Jyut Dictionary词条核对。"
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 4,
-      "status": "pending",
-      "source_sha256": "2c71f2e89b3ed11a4b836478fedc5bb3bdabc75887246a8241a3d5e6c7170c68",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "5d0edbfeee122d4b81943701dd5e11e5a40210d380a42ccfd9b91728e9eb2abe",
+      "topic_notes": [
+        "community_story_workshop",
+        "collaborative_improv_escalation",
+        "deadline_callback",
+        "not_family_or_money_centered"
+      ],
+      "notes": "Root manually reviewed and tightened all four fields. Three participants keep adding retrieval and paperwork obstacles to an improvised stage story until the nine o’clock cue; the actual stage exposes that they have delayed their own ending. Checked scene logic, spoken Macau Cantonese, each contextual Jyutping syllable/tone, complete Simplified gloss and story-specific exercise tip. Preserved source ID, order, category and all other metadata; distinct meta-story/deadline mechanism."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -44819,10 +44940,16 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 9,
-      "status": "pending",
-      "source_sha256": "8fae08d8d1feb4fe6a4692353a4d01fd95e8ec606675c7bf7f69c4b098463b50",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "f4befb6caa5db007be7abca132028a10bde1caafd8e196d000c0a5be22db6a13",
+      "topic_notes": [
+        "family_centered",
+        "idiom_mutation",
+        "glasses_on_head_callback",
+        "family_phrasebook",
+        "earned_callback"
+      ],
+      "notes": "Root re-audited the original card rather than adopting a scene-swapped outside draft. The grandmother’s “一舉兩椅” wordplay is planted by the two-chair lift, clarified by the family phrasebook and paid off when Dad searches his pockets for glasses on his head; the daughter’s correction resolves the thread. Manually reviewed all four original fields, contextual Jyutping, complete Simplified gloss and story-specific tip. Corrected 摸 to mo2 for the hand-touch sense per 粵典. Preserved category and all source metadata; retained as one family-centered story for its distinct earned idiom callback."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -44835,10 +44962,15 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 11,
-      "status": "pending",
-      "source_sha256": "1c4cca40fe829e82b23ac32a1e3f0a9f824c7567839cdd4c7e6f829eede86404",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "a0c6c5180adfe4790e14be8503e6aa4e63f4daffb982783252d6922679f25cbf",
+      "topic_notes": [
+        "adult_roommates",
+        "dog_nail_clipping_signal",
+        "drawer_sound_callback",
+        "not_family_or_money_centered"
+      ],
+      "notes": "Root manually reviewed and clarified all four fields. The dog reacts to the drawer because the roommate takes out nail clippers and uses them to trim its nails; a controlled check confirms the sound cue, then the dog guards the drawer when the roommate reaches for the remote. Checked continuity, natural Cantonese, contextual Jyutping and tones, complete Simplified gloss and story-specific tip; preserved category and other metadata. Distinct pet-behavior callback. Lexical reference correction: changed 指甲鉗 and the same tool referred to as 把鉗 from kim4 to kim2 per 粵典. Jyutping corrected 指甲鉗/鉗 to kim2 per 粵典; colloquial story wording changed 抽屜 to 櫃桶 (gwai6 tung2), keeping the Simplified gloss idiomatic. References: https://words.hk/zidin/%E6%8C%87%E7%94%B2%E9%89%97 and https://words.hk/zidin/%E6%91%B7."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -44859,10 +44991,15 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 14,
-      "status": "pending",
-      "source_sha256": "f168c8a47abd080e1796a642dc2257e9e765d90dd6e418bba9f648aa62d5fbb6",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "ec8450fdf71136753e756acc2522150366ba791a960a4739a9eea4382ccf933c",
+      "topic_notes": [
+        "community_open_day",
+        "octopus_task_list",
+        "redistributed_chores",
+        "water_hand_callback"
+      ],
+      "notes": "Root refined the activity-room draft: replaced an unclear card-reading task with group-message replies and made the eight listed chores correspond to the open-day setup. Manually reviewed setup/escalation/callback, colloquial story, contextual Jyutping/tone readings, full Simplified gloss and story-specific tip. Family setup is now a friend-group community task scene; source category/metadata and active ID preserved. Unique octopus task-board mechanism."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -45235,10 +45372,16 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 61,
-      "status": "pending",
+      "status": "needs_revision",
       "source_sha256": "307df641b69051ed96ef0e1e1caec18192c264db1c6b24ab531bddaefcd1ecc5",
-      "topic_notes": [],
-      "notes": ""
+      "topic_notes": [
+        "family_centered",
+        "adult_music_practice",
+        "headphone_acoustic_continuity",
+        "neighbor_music_callback_overlap",
+        "revise_mechanism"
+      ],
+      "notes": "Root compared the existing source and outside draft: both keep the same electronic-piano headphone setup, upstairs neighbor tapping the tune, and a four-tap performance callback. Active oral-pass long_home_family_01[60] already has a neighbor tapping along to a guitar through the door and joining as accompanist, so the core music-neighbor rhythm mechanism repeats. The plugged-earphone setup also leaves the audible upstairs piano unexplained. Keep the source intact; return oral status to needs_revision pending a genuinely different, coherent life-bit rewrite."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -46419,10 +46562,16 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 9,
-      "status": "pending",
-      "source_sha256": "cf2491a38e0d8cd76194051de3a0ef71f54cbf0ad626633e2bae2c3774882cf0",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "15220d2f5d6511cd86365b4b8b9ad35f1c0aade164b37e56c986e0fe2a4e787a",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "friends",
+        "standup_life_bit",
+        "strong_callback",
+        "movie_night"
+      ],
+      "notes": "All four fields manually checked. A friend seals his killer guess to avoid spoiling a mystery, but the group reads his popcorn and facial expressions as clues and misses the film; his sealed guess is wrong, and the last line callbacks the habit. Changed the family group to friends while retaining the source category metadata. Jyutping and Simplified gloss match."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -46435,10 +46584,16 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 11,
-      "status": "pending",
-      "source_sha256": "84baa5b3d7947492a6a3765500f44da3a9f835e6dd9228c2df1e774688012d47",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "5299e226a5b1e99a660abb0b7f25eb492fe2ed9b6a41bee8b4dc201aa59111a8",
+      "topic_notes": [
+        "roommate_life",
+        "not_family_centered",
+        "table_clearing_misread",
+        "physical_escalation",
+        "callback"
+      ],
+      "notes": "2026-11-09 root四字段独立复核后接受室友合租改写。清枱者把“收走碗碟”当成唯一任务，第一晚搬到鋅盤、第二晚搬上窗台和书架，碗逐处迁移后才改清分工表；与 active pass 的丢失轮班表、过早收走调味碗等故事比较，角色和因果链均不同。把“水槽”改为澳门口语“鋅盤”，并同步修订粤拼 sing1 pun2。逐音核读256汉字/256音节、声调、完整简体译文及对应提示。保留原ID、顺序、家庭相处分类和非语言元数据；情节改成室友，不以家庭或金钱为主线。 Root二次改善结尾：阿堅问鋅盤本身是否也要列入分工表，阿晴递上百洁布叫他抹枱；故事、粤拼、译文和复述提示已同步人工复核。"
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -47819,10 +47974,15 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 184,
-      "status": "pending",
-      "source_sha256": "fbd429054100049f1d2e163ab2601ef20f488f3dbe3c6c73f89559de96061e90",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "84a50e0b8bda398443e4b706b4423333f394a8485926819a45d053bbae55889f",
+      "topic_notes": [
+        "roommate_life",
+        "new_glasses",
+        "overzealous_household_inspection",
+        "lint_roller_callback"
+      ],
+      "notes": "2026-11-09 活動卡完整校驗抓到原故事以ASCII句點收尾；主審保留既有V2及口語通過結論，改用中文句號，並將簡體譯文「蹲低」順為「蹲下來」。其他三字段內容不變。"
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -47979,18 +48139,28 @@
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 4,
-      "status": "pending",
-      "source_sha256": "d82b73454378d73977c3bfe912f93c7d1f913e45a84c0157bcf0f88388cba781",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "8ff8208a3260e9ec01799165fe447c8cab15e037cd2a84b5d1d39f89e7879ced",
+      "topic_notes": [
+        "adult_roommates",
+        "basil_phototropism",
+        "overmanaged_turning",
+        "chair_callback",
+        "not_family_or_money_centered"
+      ],
+      "notes": "Root manually reviewed and revised all four fields. The roommate repeatedly props, relocates and wheels the basil because it leans toward the window; the final chair turn pays back the repeated turning. Checked plant-scene continuity, colloquial Cantonese, contextual Jyutping/tone readings including 羅勒 lo4 lak6, complete Simplified gloss and story-specific tip. Preserved all category/metadata; distinct plant tending and human-chair callback."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 5,
-      "status": "pending",
-      "source_sha256": "b035fdc0e8ca6cd82338cc98b516328fd04bb25fcb21506cb8c5fc9efbb3e34f",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "ad59f157c03ff50c240b5914a8630da044cdd7176862d7ce2021ce8cf3430d7d",
+      "topic_notes": [
+        "community_recycling_day",
+        "battery_retirement_ceremony",
+        "new_battery_guest_callback"
+      ],
+      "notes": "Root reviewed the community battery-collection scene as a stand-up life bit: a volunteer personifies old batteries, the late-arriving battery delays the farewell ceremony, and the final cell is told to stay in its box. Checked story logic, colloquial register, contextual Jyutping and tones, full Simplified gloss and story-specific retelling tip. No local disposal-rule claim is made; original category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
@@ -48075,10 +48245,14 @@
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 16,
-      "status": "pending",
-      "source_sha256": "2f64fcea95d5ccfdb33def978786419ea3c310ce9d2b8d947d2c0c7ba9d40281",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "3c8986519b1ff04621a943d30dde1175cfe3921baf328cca971dbee8dee0cf53",
+      "topic_notes": [
+        "adult_hobby_meetup",
+        "premature_yo_yo_pull",
+        "coach_waiting_callback"
+      ],
+      "notes": "Root amended the draft so the first failed yo-yo return has an explicit premature pull, then manually reviewed the trick sequence, colloquial story, contextual Jyutping/tone readings, complete Simplified gloss and story-specific retelling prompt. Friend-group community scene replaces the family setup; source ID/order/category and metadata preserved. Distinct hobby-skill stumble/callback mechanism. Replaced Mainland-preferred “悠悠球” with the locally colloquial Cantonese “搖搖” and hand-checked jiu4 jiu4 reading."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
@@ -48123,10 +48297,14 @@
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 22,
-      "status": "pending",
-      "source_sha256": "29e2294f44c374729281d512a13ff175214c143a91305a2bc589371ab1a2d860",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "1fa151e7970e4e3234116ff7905221db40c6f47cd3fa049e72925f52a1602573",
+      "topic_notes": [
+        "community_instrument_trial",
+        "kazoo_humming_misunderstanding",
+        "pretend_conductor_callback"
+      ],
+      "notes": "Root reviewed the kazoo demonstration and corrected 嗝 to gaak3 in “打咗個嗝.” Checked that the device is hummed rather than blown, the embarrassment escalates into a silent conductor gag, and the ending callback matches. Manually reviewed colloquial story, contextual Jyutping/tones, full Simplified gloss and story-specific tip; category/metadata preserved. Distinct instrument-use mechanism."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
@@ -48395,10 +48573,17 @@
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 56,
-      "status": "pending",
-      "source_sha256": "f19b89dc77e6c1f292c8668f50385ceaefc0d99517fbc320f55ee17c06a88571",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "5d253da1d72222e7228859bf8ce4027b95721a7b67441117e2d98b95567beaa9",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "shared_housing",
+        "work_from_home",
+        "technology",
+        "standup_life_bit",
+        "strong_callback"
+      ],
+      "notes": "All four fields manually checked. The two roommates blame their computers and unstable Wi-Fi until the narrator finds the router wedged behind the television cabinet; relocating it lets both rooms stay connected. The “machine trapped” line and later group-chat thanks callback the discovery. Clarified that the narrator checks with the roommate before unplugging, then restarts the router; source category metadata preserved, with no family or money mainline. Jyutping/gloss match."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
@@ -48435,10 +48620,18 @@
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 61,
-      "status": "pending",
-      "source_sha256": "6e09c6852a910ebf33c3538c7be3a299cc46ba7f1dd6efc49de22822aa3cc32b",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "2fdc12aaa3ffdaa4e159e7a801b69292d7186abeaeff869c640dfb65423f2036",
+      "topic_notes": [
+        "not_family_or_money_centered",
+        "roommates",
+        "commute",
+        "rain",
+        "lost_property",
+        "standup_life_bit",
+        "strong_callback"
+      ],
+      "notes": "All four fields manually checked. Both roommates leave umbrellas behind in different places, then share a small one in the rain; they recover the narrator’s umbrella through the bus company lost-property channel. The empty cover at the door and “umbrella still has to wait for you” callback both forgotten umbrellas. Changed the location from a specific terminal office to the bus company’s lost-property service; corrected 手柄 sau2 beng3. Jyutping/gloss match; no family or money mainline."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
@@ -48552,10 +48745,16 @@
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 75,
-      "status": "pending",
-      "source_sha256": "f44e99705a697daf47158e4e5c10ddff3413eee2614857ec7dbb87829bc51586",
-      "topic_notes": [],
-      "notes": ""
+      "status": "pass",
+      "source_sha256": "71b3eff9ead3cd25615567ea1ac304496bd610c588450ba029743e846ebd5cf6",
+      "topic_notes": [
+        "chair_repair",
+        "unsafe_implausible_action",
+        "multiple_gag_engines",
+        "family_centered",
+        "rewrite_required"
+      ],
+      "notes": "Two roommates share one bathroom mirror; following each other’s movements turns a ten-second grooming promise into a repeated slow-motion dance. The six repetitions pay off the wait. Four fields and contextual Jyutping manually reviewed; no related active mechanism found."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
