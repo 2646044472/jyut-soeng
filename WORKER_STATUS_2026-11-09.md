@@ -2,14 +2,14 @@
 
 ## Latest verified checkpoint
 
-- Repository: `2646044472/jyut-soeng`; branch: `codex/macau-story-upgrade-batch-progress-resume`.
-- Source rows remain 5,000; active library selection remains exactly 2,000; excluded rows remain 3,000. All source files, IDs, order, categories, metadata and drafts are preserved.
-- Oral V2 re-audit: **1,466 pass, 530 pending, 4 needs_revision** among the 2,000 selected cards. At the prior branch HEAD the active oral pass count was 1,416, so this checkpoint adds **50 net manual passes**. V2 historical ledger: 2,296 pass / 2,704 needs_revision across 5,000 source rows; this is not the current 2,000-card oral completion count.
-- Selection manifest status counts and nonexclusive topic-note counts were recomputed from exact active IDs and the oral ledger. Story source hashes and app bundle were rebuilt.
-- Confirmed local HEAD and `origin/codex/macau-story-upgrade-batch-progress-resume` both at `277ccafc2fc558f82acc90cc62a58ab6787ee333` before checkpoint commit. No release, tag, APK build, or deployment.
-- Environment: isolated Temurin JDK 21.0.13+9 and Android command-line tools installed under `/tmp/jyut-soeng-*`; downloads passed official SHA-256 verification. SDK licenses accepted under the user's explicit authorization. No global environment, repository `local.properties`, security permissions, or drivers changed.
-- Verification: `build_assets.py` generated 5,000 bundled entries; `story_quality_progress.py` updated the checklist; `validate_content.py --require-story-upgrade --min-sentences 2000` passed on 5,000 entries; Python unittest discovery ran 7 tests, 6 passed and 1 expected skip because all 5,000 stories have not migrated; `:app:testDebugUnitTest` passed (34 tasks, 1 executed, remaining up to date); `git diff --check` passed. No full 5,000-card semantic re-review is claimed.
-- Main agent remained sole repository writer. No subagent wrote to the repository.
+- Repository: `2646044472/jyut-soeng`; branch: `codex/macau-story-upgrade-batch-progress-resume`; local HEAD and remote checkpoint last verified at `71c8bae11e1a80b8a381c678c9522726795c6d42`. No commit or push in this continuation.
+- The original 5,000 source rows, IDs, order, categories, metadata and drafts remain preserved. The runtime selection remains exactly 2,000 active IDs; 3,000 are excluded from the bundle, not deleted from source.
+- Active oral re-audit: **1,516 pass / 0 needs_revision / 484 pending**. Active V2 ledger: **1,999 pass / 0 needs_revision / 1 pending**. Corpus-wide V2 ledger: **2,295 pass / 2,704 needs_revision / 1 pending**.
+- Since the last remote checkpoint, **50** active oral reviews transitioned to pass in the local ledger; the next genuine pass reaches the ~50-card commit/push checkpoint. No commit or push yet. No APK build, release, tag, deployment or publication has occurred.
+- Latest accepted cards include `long_food_shopping_16[1,2,5,17]`, `17[12,15,19,22,23,24,25,28]`, and `18[7,12,18,21,22,23,24,25,26]`. New external work remains in progress for `long_food_shopping_18[19]`; `18[18]` is a roommate rewrite and `18[23]` a roommate breakfast rewrite, reducing family-centered scenes. Excluded `17[9]` remains restored from HEAD and is not part of active work.
+- `build_assets.py` regenerated the 5,000-entry bundle (2,000 selected stories plus existing core entries); `story_quality_progress.py` regenerated the checklist; `git diff --check` passed. The full `validate_content.py --require-story-upgrade --min-sentences 2000` and test suites were not run in this continuation because active oral review remains in progress. Earlier Python unittest discovery (7 tests: 6 pass, 1 expected skip) and isolated Gradle `:app:testDebugUnitTest` passed before this batch and have not been rerun.
+- Isolated Temurin JDK 21.0.13+9 and Android command-line tools remain under `/tmp/jyut-soeng-*`; official checksums were verified and SDK licenses were accepted under the user's explicit authorization. No global environment, repository `local.properties`, security permissions or drivers changed.
+- Root remains the sole repository writer. Subagents provided external drafts or read-only reviews. Effective model/effort receipts are not exposed for current workers.
 
 ## Earlier work log
 
@@ -38,3 +38,11 @@ Batch76 revalidated three more exact-hash active/pending/V2-pass candidates. `lo
 Latest continuation requested external drafts for all six active `needs_revision` cards, in three pairs. The first pass from agents A and C produced no drafts after locating further overlap; root then told both to radically replace the story mechanism while preserving ID/category/metadata and to deliver a complete four-field draft. Agent B is still working. This scope change addresses the repeated screening dead end. Root also improved already-passed `long_home_family_08[11]` by changing the final beat to the roommate asking whether the sink itself belongs on the chore chart; rechecked 256 Han / 256 Jyutping syllables and synchronized both ledger hashes and the app mirror. Full content build, 5,000-entry validator and diff check passed afterward. No unit tests or Android build ran.
 
 No GPU was used. No unit-test suite or Android build was run for this checkpoint. `build_assets.py` and `validate_content.py --require-story-upgrade --min-sentences 2000` completed successfully after the new card; the validator checked 5,000 content entries. The new card is 256 Han characters / 256 Jyutping syllables, and both oral/V2 ledger hashes match its source row. `git diff --check` is clean. The latest-history thread API again returned a durable-host unavailable error; the old task was not restarted. The worktree remains at 41 net new passes, below the ~50-card checkpoint; no commit/push or release has been made.
+
+
+## Checkpoint update — 2026-11-09 (50-pass threshold)
+
+- Correctly integrated and independently reviewed `long_food_shopping_18[19]`; the soup story matches its tofu-and-soup category. All four fields and contextual Jyutping passed manual review, with an independent second review. Updated current oral and V2 hashes/statuses and rebuilt the app mirror.
+- Active oral re-audit is now **1,516 pass / 0 needs_revision / 484 pending**; active V2 is **2,000 pass / 0 needs_revision / 0 pending**; corpus V2 is **2,296 pass / 2,704 needs_revision / 0 pending**. The previous top-line corpus values were stale; this checkpoint corrects them.
+- Since the remote base, there are **50 active oral pass transitions**. Rechecked active selection counts and hashes. Remote fetch confirmed branch base still `71c8bae11e1a80b8a381c678c9522726795c6d42`; changes are ready for the 50-pass checkpoint commit/push.
+- `python3 tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, `python3 tools/build_assets.py`, and `git diff --check` succeeded. Full validator and test suites remain unrun for this checkpoint; no APK/release/tag/deployment.
