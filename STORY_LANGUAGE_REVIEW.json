@@ -13723,13 +13723,13 @@
   {
     "file": "content/sentence_bank/long_family_finance_services_10.json",
     "index": 49,
-    "sha256": "45fdc20689b09efca1ed324ce14fde83703293dabd90ef8cd135e77481a8db50",
+    "sha256": "db044b99e1593a129dc4a21426ae6f8dcdf589a39cbf75d0259fba469e165b0d",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "保留姐弟合買父母洗衣機、日常使用與單一維修聯絡、保養票單保存及零件報價共同確認；不預設保養期內所有費用自動免費。 主審逐字核對零件、涵蓋、晾衫等讀音並移除粵拼中的中文引號；保養條款寫成逐項確認，沒有推定免費。",
+    "notes": "2026-11-10 manual non-family life-bit rewrite and four-field check. A squeaky park fitness machine is mistaken for a space signal; the narrator resumes stepping and poses as an instructor. Targeted Terra review found no clear Jyutping syllable or tone errors after sequence edits. 292/292 Han/Jyutping positions.",
     "reading_sources": [
       {
         "term": "零件",
@@ -18603,13 +18603,13 @@
   {
     "file": "content/sentence_bank/long_food_shopping_01.json",
     "index": 59,
-    "sha256": "09ee387d4ecc228bdc4a7d1c504d5b9027aea16ddcba912e6296217edca3e480",
+    "sha256": "4d9c3971a4645a2b86e74b3a1b6698b894ad59a2cafe161ee842de1e4fd762e4",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "主審核對豆奶異味後停飲、查雪櫃溫度、退款及安全保存的情節，檢查保質日期、下架、冷藏等讀音和全文譯文。"
+    "notes": "索引59：將「鼻子早過鬧鐘返工」延伸成室友自封雪櫃巡查員並準時收工，減少家庭主軸。四字段人工校對、繁體粵語與粵拼逐字核對。"
   },
   {
     "file": "content/sentence_bank/long_food_shopping_01.json",
@@ -19054,13 +19054,13 @@
   {
     "file": "content/sentence_bank/long_food_shopping_02.json",
     "index": 0,
-    "sha256": "8452815aebfdc0e79fb72a129e2135ae4397270660e9364202ee865300bd1cac",
+    "sha256": "bb3e6f42a7dd144e6ad4e1ab1d34163dedde6c3a1faefc7abaa285c594716a8b",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "主審將與煎魚不合的「蒸碟」改為砧板，補上檔主直接問答引號；核對鯧魚新鮮度、刮鱗去腮及為不吃薑的女兒分開調味的情節和讀音。"
+    "notes": "2026-11-11 root re-reviewed all four fields after the rewrite: number-ticket handoff escalates through fish selection, preparation, and a ginger callback; 304 Han/304 Jyutping tokens. Contextual readings for thin-paper 牌, 替, and 輪到 were independently checked."
   },
   {
     "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -19219,13 +19219,13 @@
   {
     "file": "content/sentence_bank/long_food_shopping_02.json",
     "index": 15,
-    "sha256": "a8b895f8af327d3a482ea97ff2255f6e743a867a7f92727d9bd327c60abc4998",
+    "sha256": "f9b1b7c6c38f39b60c9a34990318410ddd1bdcb2fc0a1eb696c995ee5fd6817b",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "主审核对菠菜缺货后次晨到货、向档主请教挑选并帮婆婆扶菜篮的情节，改正书面普通话句式，复核本地菠菜、叶梗、娃娃菜等读音与完整译文。"
+    "notes": "主审核对菠菜缺货后次晨到货、向档主请教挑选并帮婆婆扶菜篮的情节，改正书面普通话句式，复核本地菠菜、叶梗、娃娃菜等读音与完整译文。 2026-11-10 correction: the earlier note referred to a different spinach-shopping story and was stale for this row. Root reread all four current fields; corrected 同 in「我同兩位客人」to tung4; story and tip describe the delayed spinach delivery and sign callback."
   },
   {
     "file": "content/sentence_bank/long_food_shopping_02.json",
@@ -24664,13 +24664,13 @@
   {
     "file": "content/sentence_bank/long_food_shopping_07.json",
     "index": 10,
-    "sha256": "e3392c3b0577d87aadf996908df0b54d6db92599e4128d1dc8ecca59672bc987",
+    "sha256": "845310682469cebbe1555af309fc797b327de020171d9714ca40f03cdb3f190a",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "蒜蓉手滑多倒，烤雞翼香味引來隔壁婆婆端碗飯；妹妹發現雞翼未熟并留下醃料改進提醒，逐句核读粤拼与译文。"
+    "notes": "Root manually reviewed all four fields and corrected dictionary-confirmed tones before final approval: 斬件 zaam2 gin2 (粵典), 餐牌 caan1 paai2 (粵典), 放工 fong3 gung1, 焗 guk6, 收市 sau1 si5. All 224 Han/Jyutping positions remain aligned; the rewritten market-menu callback remains distinct and category-fit."
   },
   {
     "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -24686,13 +24686,13 @@
   {
     "file": "content/sentence_bank/long_food_shopping_07.json",
     "index": 12,
-    "sha256": "6e922859f75f140a6f08d19e24a78771701dd00b2fa3e4f3b93b2ec39cb43e7a",
+    "sha256": "19ede20882af3aa7bb3b98195ef0c06801007d39e17de186d762e0ee1c712426",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "书包摆放挤开饭壶盖后，父亲调整水樽与饭壶位置；香蕉在课堂变成纸船乘客，船票笑话收尾，逐字核读粤拼和释义。"
+    "notes": "2026-11-10 manual non-family baking-class rewrite and four-field check. The novice mistakes scoring bread for dividing portions; an edible flour map and one scoring slash set up the intact loaf and canceled route map. Root rechecked all fields and 271/271 Jyutping positions; targeted Terra audit found no clear error."
   },
   {
     "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -24763,13 +24763,13 @@
   {
     "file": "content/sentence_bank/long_food_shopping_07.json",
     "index": 19,
-    "sha256": "a84e0622791e6fb3213946ae01a9011aecb1d2fe5e4942627883d388707c6a97",
+    "sha256": "8e6cdd69690b3945a970ee167933fccb9456b23f3b4201fc834653c7ba9ebc5a",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "清湯粟米蔬菜變成蘿蔔船與魚丸船員，母親接演港口職員；補全魚丸情節後逐字核讀粵拼和完整譯文。"
+    "notes": "2026-11-10 manual non-family food-life rewrite and four-field check, including direct roommate dialogue. The cook extends a one-strand wall test into an improvised gallery, neglects the pot, then sees the video only demonstrated one. Root rechecked all fields and the 281/281 Jyutping alignment; Terra found no clear tone error after correction."
   },
   {
     "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -26890,13 +26890,13 @@
   {
     "file": "content/sentence_bank/long_food_shopping_09.json",
     "index": 12,
-    "sha256": "050ab4ca738949cf302f3c879b42f280917fdbbbd89f895482e44144644fb81a",
+    "sha256": "2d5888c7cdf95e93149e6e2de68bca62077cca8d1f15d852ff050a94aaaf9619",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "蒸肉餅時分開生熟接觸面、確認熟度並為怕腥家人另留一份；逐字核對粵拼和完整普通話譯文。"
+    "notes": "Root manually checked all four fields and 235/235 Jyutping positions. Readings checked: 蒸肉餅 zing1 juk6 beng2, 共享 gung6 hoeng2, 字幕 zi6 mou6, 關鍵 gwaan1 gin6, 訪問 fong2 man6, 水槽 seoi2 cou4, 捲起 gyun2 hei2, 正職 zing3 zik1. Colleague cooking-show mechanism replaces family/map setup."
   },
   {
     "file": "content/sentence_bank/long_food_shopping_09.json",
@@ -33868,13 +33868,13 @@
   {
     "file": "content/sentence_bank/long_food_shopping_17.json",
     "index": 18,
-    "sha256": "9d8cf381c4c8c2cf0d52a2878b02752f11293e9a734a5068eb191598da28ce6b",
+    "sha256": "703ea61d5abe784e3a602792fad91c9ad11c69c2970fc97d9e73004a43c31b9f",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "主审：补明不吃芝士的同事差点拿错盒，交代水浸标签后的清单核对；检查完整粤拼、释义和提示。"
+    "notes": "Manual 2026-11-10 four-field review. Corrected five contextual classifier readings 盒 hap6 and 沙律 leot2 using Words.hk; the office lunch-label mix-up and final self-order reveal form a distinct comic callback. Complete Simplified gloss and matching retelling prompt checked."
   },
   {
     "file": "content/sentence_bank/long_food_shopping_17.json",
@@ -34187,13 +34187,13 @@
   {
     "file": "content/sentence_bank/long_food_shopping_18.json",
     "index": 17,
-    "sha256": "835753b44980990d2f5515ec1b0d2a1b093be188879cfa7b86e89bc00e073c6d",
+    "sha256": "cdd12e956b4701d9dcbeec348f14bdd22c0e2f00b8dbeb05cb425ceb4cca0566",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "删去先说忘记水果再想起的矛盾重复，压缩分苹果的重复表达；拼音和释义已同步。"
+    "notes": "索引17：重寫為鄰居小朋友將午餐盒變成點名簿、餅乾缺席後以緊急支援回場。四字段人工檢查；粵語正文與粵拼逐字逐音節核對，家庭關係不構成笑點。"
   },
   {
     "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -43701,13 +43701,13 @@
   {
     "file": "content/sentence_bank/long_health_services_08.json",
     "index": 86,
-    "sha256": "c37a5907e103eabb16abc7f9530db49531fb27fbff1b256a96fe43674807a39c",
+    "sha256": "39c7e7f9b5089900ef7418c72474810dbf75f7df11758827c4ea55f77e442ed6",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "營養師逐步減鹽與爸爸把檸檬汁誤當清酒的插曲；補直接對話並核對餐單與標籤提醒。"
+    "notes": "Root manually reviewed all four fields and 253/253 Han/Jyutping positions. Checked 鈉 naap6, 營養標籤 jing4 joeng5 biu1 cim1, 搜查 sau1 caa4, 繼續 gai3 zuk6, 觀察 gun1 caat3, 作供 zok3 gung1. Roommate’s label-investigation bit avoids the prior family seasoning-mix-up mechanism."
   },
   {
     "file": "content/sentence_bank/long_health_services_08.json",
@@ -45934,13 +45934,13 @@
   {
     "file": "content/sentence_bank/long_health_services_10.json",
     "index": 89,
-    "sha256": "6d14a94ba2505ae141a2e197bfed752ffe0040aaf65847a9c487691917e9981a",
+    "sha256": "541d26ef710bb3fb6673cd0518b6584f1b06e434bb71bfccc8195174690253a9",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "索引89：主审确认自然完整，逐字粤拼与声调核对，释义覆盖全文。"
+    "notes": "索引89：重寫為室友將覆診日曆紅圈誤作看戲約會、再由醫院備註引出爆谷回扣；醫療跟進仍按醫生指示。四字段手工檢查；粵語正文與粵拼逐字逐音節核對。"
   },
   {
     "file": "content/sentence_bank/long_health_services_10.json",
@@ -45978,24 +45978,24 @@
   {
     "file": "content/sentence_bank/long_health_services_10.json",
     "index": 93,
-    "sha256": "553bb7c62c1420a843f29b67159553164604063305e2b3a976282ce33be68839",
+    "sha256": "0665ecb9649437fc8e2aeb18e2d43b48ce5cf8e1331419daa5558c054c254e92",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "索引93：主审确认自然完整，逐字粤拼与声调核对，释义覆盖全文；补入汽水口味对白。"
+    "notes": "Root manually reviewed all four fields and 286/286 Han/Jyutping positions. Confirmed 禁慾 gam3 juk6, 精液分析 zing1 jik6 fan1 sik1, 指示牌 zi2 si6 paai4, 空樽 hung1 zeon1, 覆診 fuk1 can2, 怪責 gwaai3 zaak3. Removed family-planning opening and unnatural 門口號碼 wording; gloss and story-specific prompt align."
   },
   {
     "file": "content/sentence_bank/long_health_services_10.json",
     "index": 94,
-    "sha256": "38e43372f3a79ff0a958f96065f234d1cc3ffd1a66bfd52f138cc79233252759",
+    "sha256": "7e7a7130ff8b99a4ed8fa3f8fdccf8a9fa834e6c2438940414b81aee6de85a5b",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "索引94：主审确认自然完整，逐字粤拼与声调核对，释义覆盖全文；补入超市洋葱情景对白。"
+    "notes": "索引94：重寫性健康診所用藥提示與超市買錯洋蔥的生活段子，最後以震動提示及不再亂買洋蔥回扣。藥物跟進限定由醫護提供；四字段及粵拼逐字人工核對。"
   },
   {
     "file": "content/sentence_bank/long_health_services_10.json",
@@ -47073,13 +47073,13 @@
   {
     "file": "content/sentence_bank/long_health_services_11.json",
     "index": 91,
-    "sha256": "8d398ae220f13e0109457b74c5c218fd2c2ccf36204c142978e37760ddc0e2d3",
+    "sha256": "3f72ca810d5ce95b1bc1fbce0eb3d573f1829885d4ab755ea40d6ed1780c7bdd",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "索引91：以伯伯的水樽、夾在月票裏的醫生指示紙和轉車圖魚形笑點串起腎科覆診交通安排；飲水限制由醫生個別交代並致電診所確認，不自行猜數字；逐字核對粤拼及完整釋義。",
+    "notes": "索引91：重寫為本人處理腎科覆診交通與飲水指示，魚形轉車箭嘴形成誤會及回扣。四字段人工檢查，粵拼逐字逐音節核對。",
     "reading_sources": [
       "https://words.hk/zidin/覆診"
     ]
@@ -47226,13 +47226,13 @@
   {
     "file": "content/sentence_bank/long_health_services_11.json",
     "index": 102,
-    "sha256": "cfa5144c12fdf95480d83da0a7f24f951b645c7b21e67e7a99931cb77a648f52",
+    "sha256": "be09299b86bb605efd4788f0fa0018ccd032c14c1c0032ae7204bbed7914c8d2",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "索引102：重寫血糖機示範故事，以媽媽把日期設定抄成讀數、反過來考兒子操作作為誤會和笑點；明確依該機說明書與護士示範，不泛化操作或記錄要求。逐句核對253字與253個粵拼音節，普通話釋義覆蓋全文，補個性化故事練習提示。"
+    "notes": "索引102：重寫為鄰居參加社區護士示範血糖機，設定頁日期誤當讀數後反過來給考官評語。依該機說明與護士示範，不泛化步驟或自行解讀讀數。逐句手工核對247字與247個粵拼音節，四字段齊全，繁體粵語故事、簡體普通話完整譯文及個性化復述提示相符。"
   },
   {
     "file": "content/sentence_bank/long_health_services_11.json",
@@ -47280,7 +47280,7 @@
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "索引106：重寫兒童視力檢查故事，以兒子緊張讀反大小字、把圖卡鴨想成校長作轉折；視光師說明度數仍要核對並等通知，不自行推測處方。逐字核對258字與258個粵拼音節；查證眼鏡 ngaan5 geng2、鏡片 geng3 pin2，完整翻譯並補個性化提示。 將書面「覆查」改為醫療口語「覆診 fuk1 can2」，避免模糊讀音。",
+    "notes": "Root read all four fields and checked 258/258 contextual positions. Readings checked: 視光師 si6 gwong1 si1, 視力 si6 lik6, 調轉 diu6 zyun2, 散光 saan3 gwong1, 校長 haau6 zoeng2, 副校長 fu3 haau6 zoeng2. Traditional Cantonese, complete Simplified gloss and story-specific prompt; child is the comic lead.",
     "reading_sources": [
       "https://words.hk/zidin/%E7%9C%BC%E9%8F%A1",
       "https://words.hk/zidin/%E9%8F%A1%E7%89%87"
@@ -47325,7 +47325,7 @@
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
     "sha256": "dfa6358b462dd2e56e3bfd2232fe3d35d00bd7ea8c64f01f2cea7085188f7738",
-    "notes": "女兒把吸水管和紙杯想成小船，在椅上扮船長指揮，出門後把貼紙貼在預約單；情節、醫療說明、譯文與逐字粵拼已人工核對。251字/251音節。"
+    "notes": "索引109：人工校正簡體「女儿」為繁體「女兒」，並逐句核對水手/船長回扣、粵拼、普通話譯文和故事練習提示；251字與251音節對齊。"
   },
   {
     "file": "content/sentence_bank/long_health_services_11.json",
@@ -47839,13 +47839,13 @@
   {
     "file": "content/sentence_bank/long_health_services_20.json",
     "index": 1,
-    "sha256": "65f4a6fc53ff17e4d3a6e382f5f2dc86da2baa99734cf5d7618e455e8d1faa75",
+    "sha256": "1e84dfd28e956bc407661fd65bbefe5e0d972e2ad9a3d923ae302af3859c4924",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "覆診改期撞期後協調時段、更新紙本日曆，最後發現帶錯買餸清單而毋須搭車；「圈圈」讀 hyun1；294字/294音節。"
+    "notes": "Root manually reviewed story, Jyutping, Simplified gloss and prompt. 260 Han characters align to 260 syllables; checked 短訊 dyun2 seon3, 接送 zip3 sung3, 預約 jyu6 joek3, 交接 gaau1 zip3, 摺 zip3, 便利貼 bin6 lei6 tip3. Solo patient rather than family-centered; appointments follow clinic confirmation."
   },
   {
     "file": "content/sentence_bank/long_health_services_21.json",
@@ -48043,13 +48043,13 @@
   {
     "file": "content/sentence_bank/long_health_services_29.json",
     "index": 1,
-    "sha256": "d5f53152b1182f4e15e22faa80907cc191caff2d917cd3396483ea262ced704d",
+    "sha256": "aa2bacc043c9de109e5bf2d252bc550fdd30c8e5865df56263b67fd381a7faf9",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "父親按治療師安排做術後屈膝伸直，老歌和扮主持帶出家庭笑點，白板記錄及覆診查看結果形成完整收束；把「復健姑娘」改成較貼近澳門用語的「康復姑娘」，並把場景落在家中。逐字核對粵拼及完整釋義。；224字/224音節"
+    "notes": "Root manual review: community rehabilitation-room host bit; 259 Han characters align to 259 contextual Jyutping syllables. Verified 屈 wat1, 膝 sat1, 伸 san1, 直 zik6, 復康 fuk6 hong1, 安歌 on1 go1, 廣告 gwong2 gou3; gloss and prompt match the story."
   },
   {
     "file": "content/sentence_bank/long_health_services_30.json",
@@ -57173,24 +57173,25 @@
   {
     "file": "content/sentence_bank/long_home_family_08.json",
     "index": 91,
-    "sha256": "9dc6a26edbec3e1de39a1341f8440e1285614b7376cea99833a3374cea1c74cf",
+    "sha256": "32d2f399e4a19a49d0c9ea77f0795c29fc886589fab71399ef17312564871ff7",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "人工逐句審校：樓上夜間練鼓舞引起誤會，家人先查安靜時段再溝通，最後支持孩子演出；補入親身交談的反思，對白及釋義完整。"
+    "notes": "2026-11-10 manual non-family rewrite and four-field check. The umbrella becomes an over-prepared speech aid, then its “收衫” and hidden “收遮” notes form the callback. All 251 Han positions aligned with contextual Jyutping, including 縮骨遮, 傘柄/傘骨, 便利貼 and 收衫/收遮."
   },
   {
     "file": "content/sentence_bank/long_home_family_08.json",
     "index": 92,
-    "sha256": "2cca9270e5ce9f638b57e8deb991d75c7a99e810f46e0e1900d35aa4164e3656",
+    "sha256": "29dd89954172022a7a44114939f2a2a2608798d49f9d275cb017c9b86f3a9a8e",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "人工逐句審校：洗衣液倒過量令泡沫溢出，家人對說明書和量杯後建立新習慣；補充量杯收納，釋義完整。"
+    "notes": "2026-11-10 manual rewrite and four-field check. Public washroom hand-dryer sensor routine becomes an escalating gesture-class bit; no family or money mainline. Independent targeted phonetic review corrected 揈 fing6 and 批准 pai1 zeon2; root reread every position and corrected the action-to-sensor setup.",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_home_family_08.json",
@@ -57305,24 +57306,26 @@
   {
     "file": "content/sentence_bank/long_home_family_08.json",
     "index": 103,
-    "sha256": "95996f7df890c13758b8010d275be12e2847543c843a7b8f3bab502aa809e6bf",
+    "sha256": "86b4b398cf63d8cb43b69231b15929bb485b2cca523908d8f15f1905c1ca3fac",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "人工逐句審校：浴室濕滑兩次驚嚇後加防滑墊、毛巾與掛架，肥皂跌落引出誤會；家庭安全做法清楚，釋義及提示完整。"
+    "notes": "2026-11-10 manual rewrite and four-field check. Park birdwatching novice repeatedly logs the same pigeon as different birds; no family or money mainline. Independent phonetic review confirmed contextual readings including 觀鳥活動 gun1 niu5 wut6 dung6, 認真 jing6 zan1 and 另一張 ling6 jat1 zoeng1; root checked all 236 Jyutping positions, full Simplified gloss and matching practice prompt.",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_home_family_08.json",
     "index": 104,
-    "sha256": "a9be348744f8ed7efa04d2a25994d32a15dedb5c5b80dad0438e37a67b41a025",
+    "sha256": "b02128c81b2720c0c7ffa51c287f598ff3f36e1b9ec559133aa3361cb7c06132",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "人工逐句審校：抽油煙機聲令視像會議被誤認在機場，獨立小桌和屏風改善工作空間，斷線時同事欣賞家庭笑聲；改為關咪並補正「會議室」漏讀的室 sat1，全文對齊。"
+    "notes": "2026-11-10 manual rewrite and four-field check. Portrait-studio applicant over-controls expressions until the naturally caught laugh pays off his initial complaint-face; no family or money mainline. Independent phonetic review confirmed the revised readings; root checked all 263 Han/Jyutping positions and complete gloss/prompt.",
+    "review_round": "macau-comedy-upgrade-v1"
   },
   {
     "file": "content/sentence_bank/long_home_family_08.json",
@@ -57426,13 +57429,13 @@
   {
     "file": "content/sentence_bank/long_home_family_08.json",
     "index": 114,
-    "sha256": "1a13a07d850d336d2731a667e1bccc9236ea8fe1c2f423c6db4dd6503f6b6ab2",
+    "sha256": "b5942adbacc60d2136bc775e4844d1119ce54ff1443ed33b1583624d025cc3d4",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "人工逐句審校：掛鐘慢由電池無力造成，明確補上換電池後撥準指針，下一次過快又有笑點；提醒和約飯情節前後一致。"
+    "notes": "2026-11-10 manual rewrite and four-field review: improv-class number-card bit with an explicit 6/9 setup and classmates joining the queue so the final line is supported. Checked Jyutping in context, including 抽到 cau1 dou2、倒轉 dou3 zyun3、轉正 zyun3 zing3、揸住 zaa1 zyu6; all Han-character positions align. Category retained."
   },
   {
     "file": "content/sentence_bank/long_home_family_08.json",
@@ -57580,13 +57583,13 @@
   {
     "file": "content/sentence_bank/long_home_family_08.json",
     "index": 128,
-    "sha256": "eb662ed6657704f1a0930da4cb6755545155215dc82b712ccce79f7a96b014f4",
+    "sha256": "29b98235e17bbbe796c83f4e611134eedbd3054d8180d6f3422d8ab1cbc35d80",
     "review": "main-agent language review",
     "naturalness": true,
     "distinct_plot": true,
     "jyutping_readings_and_tones": true,
     "complete_gloss": true,
-    "notes": "人工逐句審校：視像中斷令「比賽」聽成「買醬」，移動平板、關微波爐後訊號改善，親情對話和後續演出安排完整。"
+    "notes": "2026-11-10 manual non-family rewrite and four-field check. The leaky pump earns a CPR line; the connected pressure gauge is matched against the tire-sidewall range, and the accidentally pressed bell becomes the final thank-you callback. Manual Han/Jyutping position count 281/281; targeted Terra review found no clear syllable or tone mismatch. Corrected both counting-數 Jyutping readings to sou2 after independent review."
   },
   {
     "file": "content/sentence_bank/long_home_family_08.json",

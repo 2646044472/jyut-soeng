@@ -124,3 +124,45 @@ Continue from active oral `pending` and `needs_revision` rows only after checkin
 - Active oral counts are **1,831 pass / 63 needs_revision / 106 pending**. Compared with base SHA `588b17d...`, 49 cards currently transition from non-pass to pass; the batch is at the approximate 50-pass push cadence. V2 target remains 2,000 active cards.
 - Current app bundle has 5,000 entries (3,000 word entries and 2,000 story entries); active source/mirror four-field comparisons and current oral/V2 hashes were verified with zero mismatches. Content build, 5,000-entry validator, mechanical progress report and `git diff --check` passed. Full Python/Android tests remain deferred to the final 2,000-card audit.
 - `long_family_finance_services_10[72]` remains oral `needs_revision` because the choir's phone-alert beat follows an existing active choir-cue mechanism; its current candidate and original snapshot are preserved and it is not counted as passed. Other weak/repetitive drafts were retained locally and not counted.
+
+
+## 并发续审检查点 — 2026-11-10（本轮）
+
+- 核实仓库仍位于 `/home/bankey/Desktop/Projects/2646044472/jyut-soeng`，分支为 `codex/macau-story-upgrade-batch-progress-resume`。本地 HEAD 与通过 `git ls-remote` 新鲜读取的同分支远端 SHA 均为 `16f265711b7e3db651e0610e5ab897d95d79c2d9`。保留所有已有未提交文件和草稿；没有切分支、暂存或提交。root 是唯一仓库写入者；并行代理只读。
+- 重写活跃卡 `long_food_shopping_19[4]`（ID `sentence-bank-long_food_shopping_19-0005`）为非家庭姜茶生活段子：冻手反复搓手令姜片越切越多，茶太辣后逐次加水，室友问是不是开茶档，最后回扣煲到整栋楼都有得喝。四字段人工检查，276 汉字 / 276 粤拼音节；精确旧行保存在 `content/story_review_drafts/long_food_shopping_19_0005_source_before_rewrite.json`。
+- 重写活跃卡 `long_food_shopping_10[59]`（ID `sentence-bank-long_food_shopping_10-0060`）为微波薯仔反复拮窿、芝士从裂缝流到纸巾的生活段子；室友以通风工程、逃生门和芝士出口作回扣。四字段人工检查，253 汉字 / 253 粤拼音节；独立查重未发现相同动作机制。GPT-6.1 Terra 获限只读粤拼复核，指出“逐边多拮几下”略生硬；已改为“索性每边再拮几下”，并复核相关拼音。原行保存在 `content/story_review_drafts/long_food_shopping_10_0060_source_before_rewrite.json`。
+- 两卡保留 ID、数组位置、分类和其它元数据；更新 oral 与 `macau-comedy-revalidation-v2` 哈希、审核记录及 active 题材统计。活跃口审进度为 **1,834 pass / 60 needs_revision / 106 pending**；活跃 V2 为 **2,000 pass**。5,000 源卡仍完整分为 2,000 active / 3,000 excluded。相对远端基线 `16f2657...` 的新 pass 转移共 **3**（含本轮前已完成的 `long_family_finance_services_10[72]`），低于约 50 张的提交节奏。
+- `tools/build_assets.py` 重建 5,000 条内容包，含 2,000 active 故事；`tools/validate_content.py --require-story-upgrade --min-sentences 2000`、`tools/story_quality_progress.py`、`git diff --check` 通过。确定性完整性审计确认：5,000 源哈希与 oral 台账一致；适用 V2 哈希当前；active/excluded 精确、不重叠；应用包 2,000 故事 ID 与 active 集合一致，四字段和分类镜像错配为 0；两个快照的非语言字段/类别保留。完整 Python/Android 测试尚未运行，留待 2,000 张口审完成。
+- 最新任务线程 `01a18c7b-82fd-75b0-9f9a-62ddd8fe9154` 先前通过支持的 `read_thread` 接口返回 durable host unavailable，未读取到后续要求；没有重启退役任务。当前仍需逐卡完成剩余 166 张口审，并在结束时复核全库语义、题材和重复机制后跑项目要求的完整测试。此检查点不代表审核已完成；未 push、release、发 APK、打标签或部署。
+
+
+## 并行续审更新 — 2026-11-10（当前）
+
+- 当前 branch/HEAD/远端：`codex/macau-story-upgrade-batch-progress-resume`，本地与新鲜 `git ls-remote` 均为 `16f265711b7e3db651e0610e5ab897d95d79c2d9`；未提交/推送，root 单写入者。
+- 新完成人工口审：`long_home_family_07[2]` / `sentence-bank-long_home_family_07-0003`。四字段手工通过，277/277；完整旧行快照在 `content/story_review_drafts/long_home_family_07_0003_source_before_rewrite.json`。两次「盞」改为 `zaan2`，字幕 `zi6 mok6`；分类和 ID 未变。当前 active **1,842 pass / 57 needs_revision / 101 pending**，V2 **2,000 pass**；相对远端基线有 11 张当前 active 口审状态转为 pass。
+- 5,000 源行、2,000 active/3,000 excluded、当前哈希、应用包 2,000 故事及五字段/分类镜像均通过确定性核验。build、内容 validator、进度表和 `git diff --check` 通过；完整单元及 Android 测试待 2,000 张人工口审结束后运行。
+- 多代理只读筛选扩至 home 05–09、food 07–11/13/19、health 11/21/23 与 finance_services_11；剩余候选多为家庭/金钱主线、重复机制或临床安全内容，没有代理改写或计通过。`home_family_10` 源文件不存在。发现并修正 `long_home_family_09[9]` V2备注中的过时“仅零星风筝”描述，卡片仍口审 pending。旧工作区修改、候选和快照均保留；本轮没有发布 APK、Release、标签或部署。模型参数是针对 Luna/Terra 的请求设置，实际是否生效未独立确认。
+
+## 当前续审状态 — 2026-11-10
+
+- 本地/远端 resume 分支 SHA 均为 `16f265711b7e3db651e0610e5ab897d95d79c2d9`；保留全部未提交修改和源卡草稿。root 是唯一仓库写入者；代理只读审稿/审音。
+- 新通过 `long_home_family_07[17]`，改为非家庭主轴的办公室文件整理脱口秀；四字段人工复核为 258/258，原始整行在 `content/story_review_drafts/long_home_family_07_0018_source_before_office_rewrite.json`。分类、源位置、2,000 active 选集保持。
+- active oral **1,844/2,000 pass、57 needs_revision、99 pending**；active V2 **2,000/2,000**。自当前远端基线共同 active IDs 对比，有 12 张非 pass→pass，未到约 50 张推送点；未 commit/push。
+- 构建、完整 5,000 项内容机械校验、进度表、diff 检查及 5,000 源/2,000 镜像哈希审计通过。Python/Android 全套测试等待 2,000 张人工口审完成。
+- 无 APK、Release、tag 或部署；Pi/Tibo 保持暂停。
+
+
+## 续审更新 — 2026-11-10（粤拼口审）
+
+- root 完成活跃卡 `long_home_family_09[14]`（ID `sentence-bank-long_home_family_09-0015`）的四字段人工口审。故事是夜班后父亲补眠、兄妹做早餐时一路“嘘”人反而把他吵醒；249 汉字 / 249 粤拼音节，译文完整，提示以 `故事练习：` 开头。保留 ID、索引、`家庭相處` 类别及其它元数据；旧行快照在 `content/story_review_drafts/long_home_family_09_0015_source_before_pinyin_correction.json`。
+- 限定 Terra 粤拼复核（仅为请求设置，实际模型未独立验证）找到「打開」和「烘」的标音需改；root 修正为 `daa2 hoi1`、`hung3`，并复核 249 音节与全文。来源：[粤典](https://words.hk/zidin/%E6%89%93)、[粤音资料集叢](https://jyut.net/query?q=%E7%83%98)。口审及 V2 哈希已刷新。
+- 并行审查的两张食品退换货候选均因同 active pass 食品变质/冷藏故障机制重复而不采用；一张牛奶谐音候选递进弱、家庭场景较重，也不提升。选集仍为 2,000 active / 3,000 excluded。
+- 活跃口审 **1,845 pass / 57 needs_revision / 98 pending**；V2 **2,000 pass**。构建、5,000 项内容校验、进度表、全量哈希/镜像审计和 `git diff --check` 通过；active 镜像无错配。自远端基线当前有 14 张非 pass→pass，低于约 50 张提交点；Python/Android 测试待 2,000 张口审完毕。
+- HEAD 与新鲜远端 SHA 均为 `16f265711b7e3db651e0610e5ab897d95d79c2d9`；无 commit/push/APK/Release/tag/deploy/payment。root 单一写入者，草稿和既有改动均保留。
+
+
+## 续审状态 — 2026-11-10（购物车段子）
+
+- 本轮把 active `long_food_shopping_19[26]` 改成购物袋带勾住左前轆、手推车一路偏航的生活段子，266 汉字。全字段人工检查与独立粤拼/重复机制复核完成；当前哈希 `d0aa6bd6e53f5c94531b187f7bb7144472ebeeb4a2d3ea312edd517fd529b885`，记为 1 张新的口语通过。
+- active 进度 **1,846 pass / 57 needs_revision / 97 pending**；V2 当前哈希 **2,000/2,000 pass**。远端 resume 分支仍与本地 HEAD 同为 `16f265711b7e3db651e0610e5ab897d95d79c2d9`；从该基线共 15 张 active oral 非 pass→pass，仍未达约 50 张提交节奏；未 commit/push。
+- 更新 story 镜像、重算 `STORY_QUALITY_CHECKLIST.md`；内容包 5,000 项，包含 2,000 个 active 故事。源/镜像字段和 ID 集合相符，`git diff --check` 通过。另两卡只修正拼音/译文，仍为 needs_revision。完整 2,000 卡全库审计及测试留待口审完成；本轮未运行测试。草稿、快照和原有工作区修改均保留。

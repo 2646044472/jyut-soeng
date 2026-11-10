@@ -123,7 +123,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_food_shopping_09.json` | 100/100 | 0 |
 | `content/sentence_bank/long_food_shopping_10.json` | 100/100 | 0 |
 | `content/sentence_bank/long_food_shopping_11.json` | 100/100 | 0 |
-| `content/sentence_bank/long_food_shopping_12.json` | 100/100 | 0 |
+| `content/sentence_bank/long_food_shopping_12.json` | 99/100 | 1 |
 | `content/sentence_bank/long_food_shopping_13.json` | 110/110 | 0 |
 | `content/sentence_bank/long_food_shopping_14.json` | 55/55 | 0 |
 | `content/sentence_bank/long_food_shopping_15.json` | 25/25 | 0 |
@@ -184,9 +184,9 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 | `content/sentence_bank/long_home_family_08.json` | 200/200 | 0 |
 | `content/sentence_bank/long_home_family_09.json` | 98/98 | 0 |
 
-**Overall mechanical pass: 5000/5000.**
+**Overall mechanical pass: 4999/5000.**
 
-**Goal (main-agent language review within the first 5000 source rows): 229/5000; remaining: 4771.**
+**Goal (main-agent language review within the first 5000 source rows): 227/5000; remaining: 4773.**
 
 **Contiguous reviewed source-order prefix: 0/5000.**
 
@@ -194,7 +194,7 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 
 **Valid language reviews outside the first 5000 source rows: 0.**
 
-**Corpus language review: 229/5000; source rows without a valid review: 4771.**
+**Corpus language review: 227/5000; source rows without a valid review: 4773.**
 
 **Clarified quality revalidation (`macau-comedy-revalidation-v2`): 2296/5000 pass; 2704 need revision; 0 pending.**
 
