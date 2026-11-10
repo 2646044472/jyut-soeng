@@ -7735,8 +7735,8 @@
       "index": 49,
       "status": "pass",
       "baseline_sha256": "45fdc20689b09efca1ed324ce14fde83703293dabd90ef8cd135e77481a8db50",
-      "v2_sha256": "45fdc20689b09efca1ed324ce14fde83703293dabd90ef8cd135e77481a8db50",
-      "notes": "故障燈被媽媽說成洗衣機笑她，保修流程解決後衣服晾好，她回說機器笑完才肯做事；兩次笑臉反差清楚。 每篇正文、粵拼、完整普通話釋義及貼合本篇情節的復述提示均逐張檢查。"
+      "v2_sha256": "db044b99e1593a129dc4a21426ae6f8dcdf589a39cbf75d0259fba469e165b0d",
+      "notes": "Manual oral re-review rewrite: an apparently effortless park fitness machine squeaks like a space signal; the narrator resumes stepping faster, pretends to instruct a class, and asks the machine to wait until the signal ends. Four fields and contextual Jyutping were reviewed; targeted Terra audit found no clear syllable or tone errors after sequence edits."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -7888,8 +7888,8 @@
       "index": 68,
       "status": "pass",
       "baseline_sha256": "3e272a59c80617735eeda5d9778a6ae207c90e55d5063b0509a81690f9d26d98",
-      "v2_sha256": "3e272a59c80617735eeda5d9778a6ae207c90e55d5063b0509a81690f9d26d98",
-      "notes": "轉部門後習慣在舊站下車買豆漿，先以為要核通勤津貼，最後早餐店問豆漿送舊址還新址；地點改變與日常習慣連成回扣。 四欄逐張檢查正文、粵拼、完整普通話釋義及符合本篇實際情節的復述提示。"
+      "v2_sha256": "64470102a1f1b10670927a2acd37b99d9129b02511cb53934986d30e6a9c5974",
+      "notes": "Rewritten from a workplace transport allowance scenario into a nonfinancial commute-memory life bit. Four fields manually re-reviewed; current hash refreshed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -7920,8 +7920,8 @@
       "index": 72,
       "status": "pass",
       "baseline_sha256": "22546ea9c8903ec2ca62491ce65a12b7a9accaf8b1b363818c274627f9fcf968",
-      "v2_sha256": "22546ea9c8903ec2ca62491ce65a12b7a9accaf8b1b363818c274627f9fcf968",
-      "notes": "褲腳像布幕分隔飯桌，買乾衣機後兒子才第一次看見爸爸，改成輸波時抱枕頭；家庭使用場景中逐步形成有力反轉。電費核算為核心，留待題材盤點。 四欄逐篇檢查：正文、粵拼、完整普通話釋義及與情節一致的復述提示。"
+      "v2_sha256": "dc49d52ec145d53e26d034bfb12426ba64a818a5cecafaca594317eec4911dd6",
+      "notes": "Rewritten from a household energy-cost scenario into a community choir rhythm mix-up. All four fields manually re-reviewed and current hash refreshed."
     },
     {
       "file": "content/sentence_bank/long_family_finance_services_10.json",
@@ -15194,8 +15194,8 @@
       "index": 12,
       "status": "pass",
       "baseline_sha256": "6e922859f75f140a6f08d19e24a78771701dd00b2fa3e4f3b93b2ec39cb43e7a",
-      "v2_sha256": "6e922859f75f140a6f08d19e24a78771701dd00b2fa3e4f3b93b2ec39cb43e7a",
-      "notes": "The sideways bottle pops the lunch thermos lid, but the porridge survives and banana sticks to the outside; at school the child turns the banana into a boat crew, then makes a paper boat with a ticket. Dad’s proposed one-dollar fare extends the improvised ferry joke. Checked all four fields."
+      "v2_sha256": "19ede20882af3aa7bb3b98195ef0c06801007d39e17de186d762e0ee1c712426",
+      "notes": "Manual oral re-review rewrite with complete four-field alignment: the novice mistakes sourdough scoring for portioning, draws a bus-route seating map, and learns a single scoring cut lets the loaf expand without dividing it. Targeted Terra review found no clear tone/alignment errors."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -15251,8 +15251,8 @@
       "index": 19,
       "status": "pass",
       "baseline_sha256": "a84e0622791e6fb3213946ae01a9011aecb1d2fe5e4942627883d388707c6a97",
-      "v2_sha256": "a84e0622791e6fb3213946ae01a9011aecb1d2fe5e4942627883d388707c6a97",
-      "notes": "The son turns the last vegetables into an ocean, calls fish balls sailors and corn the sea, then secretly scoops the greens back as a sail; Mom takes the harbor-officer role and requires supplies before departure. The shared boat game escalates from one soup pot into a continuing adventure with a clear callback. Checked all four fields."
+      "v2_sha256": "8e6cdd69690b3945a970ee167933fccb9456b23f3b4201fc834653c7ba9ebc5a",
+      "notes": "Manual oral re-review rewrite with direct roommate dialogue: the cook overextends a one-strand pasta-wall test into mock kitchen art, neglects stirring, and finds noodles stuck to the pot; a fork confirms the pasta is cooked, while the video ending reveals only one strand was demonstrated. Four fields and contextual Jyutping reviewed; targeted Terra audit found no clear alignment/tone errors after corrections."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_07.json",
@@ -17988,8 +17988,8 @@
       "index": 61,
       "status": "pass",
       "baseline_sha256": "c46294f7419e7594d281a7481b304b140e9322b50717469ff58fda65f8d79d04",
-      "v2_sha256": "c46294f7419e7594d281a7481b304b140e9322b50717469ff58fda65f8d79d04",
-      "notes": "The jam-like blueberries lead to an accidental wash of the hidden toy dog; its juice-stained ear becomes a comic “earring,” then the cousin appoints it host and nearly forgets the picnic spoons. The mishap escalates into a character callback. Checked all four fields; Jyutping/gloss/tip match."
+      "v2_sha256": "f3dea37e72f7de6e774436e5adcb3bfd39b7e96c1f2220fc76b4b8289d9a7177",
+      "notes": "Rewritten away from the former family/picnic mishap. All four language fields manually reviewed for coherent food-storage scene, colloquial Cantonese, aligned tone-marked Jyutping, complete Simplified gloss, and matching retelling tip."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_10.json",
@@ -18060,7 +18060,7 @@
       "index": 70,
       "status": "pass",
       "baseline_sha256": "52e0b014a4a9bc85bbb43b5d0742d3f62e86dfd03aa95cd29407509ce257e094",
-      "v2_sha256": "52e0b014a4a9bc85bbb43b5d0742d3f62e86dfd03aa95cd29407509ce257e094",
+      "v2_sha256": "6d59df22a53c525a8b89ed423115deb630af4acd40f0ad46096dc8ec2bd21402",
       "notes": "The brother poses as a chef reporter, Grandma produces a photo disproving his denial of the shrimp-beard incident, and the family then discovers the photo exchange has triggered the birthday celebration; the shrimp-beard keepsake closes the callback. Checked all four fields; Jyutping/gloss/tip match."
     },
     {
@@ -21790,8 +21790,8 @@
       "index": 18,
       "status": "pass",
       "baseline_sha256": "9d8cf381c4c8c2cf0d52a2878b02752f11293e9a734a5068eb191598da28ce6b",
-      "v2_sha256": "bd08efc43d83065584009da47736aba68ba2f527b87875747a65eb4e12987f62",
-      "notes": "Rewrote and individually reviewed all four fields. When melted ice blurs salad labels, an overconfident coworker sorts trays by one topping and repeatedly misassigns them; the list shows overlapping requests, while his own all-in salad is the only one he recognizes. Checked colloquial Cantonese, contextual Jyutping, complete Simplified gloss and story-specific tip; category, metadata and position preserved."
+      "v2_sha256": "703ea61d5abe784e3a602792fad91c9ad11c69c2970fc97d9e73004a43c31b9f",
+      "notes": "Manual V2 re-review: wet labels cause the escalating workplace salad-order confusion; the unique combined order pays off the ending. Corrected contextual Jyutping 沙律 leot2 and 盒 hap6 (five classifier positions), and rechecked all four fields."
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
@@ -29480,8 +29480,8 @@
       "index": 55,
       "status": "pass",
       "baseline_sha256": "f004947e1109f4a316b444213472a53f3455708c27b19ad8e48b1bc5eecb7b96",
-      "v2_sha256": "f004947e1109f4a316b444213472a53f3455708c27b19ad8e48b1bc5eecb7b96",
-      "notes": "The unclear speech prompts a station-switch reply, then soaking the denture in a thermos becomes the “tea leaves” misunderstanding; the family’s label “clean water, not hot tea” callbacks to it. Dental soreness is handled carefully. Individually checked all four fields."
+      "v2_sha256": "bbf874f4fcf395531c15bb351706f3bf082cd0c3433bbbae9c966cf547247951",
+      "notes": "Rewritten from the family table scene into a neighbor reading-club life bit. Root rechecked the contextual Jyutping, complete Simplified translation and story-specific prompt. The narrator turns the denture-cleaning reminder into a thermos mistake; Amui returns the “change station” joke, and the reading-club callback pays it off. Kept the source dental guidance to use a soft brush, store in clean water when not worn, avoid hot water, and see the dentist for soreness/adjustment. The hot-water and fit guidance was cross-checked with NHS and ADA patient guidance."
     },
     {
       "file": "content/sentence_bank/long_health_services_09.json",
@@ -29736,8 +29736,8 @@
       "index": 87,
       "status": "pass",
       "baseline_sha256": "e3ed48c518a6e6b40e728f4e2b2f44f1fef7a49e4348aa650e99ac72d6679c52",
-      "v2_sha256": "e3ed48c518a6e6b40e728f4e2b2f44f1fef7a49e4348aa650e99ac72d6679c52",
-      "notes": "The test envelope becomes “homework”; the nephew’s confident recorder then writes the date on a shopping list and nearly brings detergent, before the aunt submits the kit correctly. This is a coherent escalating misunderstanding with a payoff; sensitive test guidance stays clear. Checked all four fields."
+      "v2_sha256": "2ffd663b1809a6508cd979deeadf75325a075b55aa180d4ba61d895c0141fdb3",
+      "notes": "The test envelope becomes “homework”; the nephew’s confident recorder then writes the date on a shopping list and nearly brings detergent, before the aunt submits the kit correctly. This is a coherent escalating misunderstanding with a payoff; sensitive test guidance stays clear. Checked all four fields. Oral re-audit rewrite 2026-11-10: neighbor’s polite euphemism/personality life bit, no family or money mainline. Refreshed current hash; sample handling is tied to kit/plan. Positive result follow-up cross-checked against Macau government screening details: https://www.gov.mo/zh-hant/news/291187/."
     },
     {
       "file": "content/sentence_bank/long_health_services_09.json",
@@ -29800,7 +29800,7 @@
       "index": 95,
       "status": "pass",
       "baseline_sha256": "8068a19bc49ee8cd83bb432119ef41415079ee6d6e1ebcfe6f8efba20040e425",
-      "v2_sha256": "8068a19bc49ee8cd83bb432119ef41415079ee6d6e1ebcfe6f8efba20040e425",
+      "v2_sha256": "ae7b22c69035bfee1cc592ce7c8ab7fa174eee482d0af8c29f6cb89d36ffd69e",
       "notes": "The grandson treats the eczema cream as superhero gear, reaches for it as paint, and is redirected to crayons; days later he callbacks the eye-area warning himself. The action escalates coherently while medication use remains supervised. Checked all four fields."
     },
     {
@@ -31503,8 +31503,8 @@
       "index": 107,
       "status": "pass",
       "baseline_sha256": "5033d3c59b652df26e366c587700ac2163aee1572a51b206d0ef2094be977417",
-      "v2_sha256": "5033d3c59b652df26e366c587700ac2163aee1572a51b206d0ef2094be977417",
-      "notes": "All four fields checked. Clearing the dining table makes it a mock clinic; the granddaughter becomes “table manager,” and the grandfather closes the clinic so snacks can open. The closing line returns to the opening table joke. Jyutping/gloss match."
+      "v2_sha256": "acc7b0a7e3c5ba25cf820a4f6e6ccc47e3497388ae8a908eb1dc24b1c5496209",
+      "notes": "All four fields checked. Clearing the dining table makes it a mock clinic; the granddaughter becomes “table manager,” and the grandfather closes the clinic so snacks can open. The closing line returns to the opening table joke. Jyutping/gloss match. Oral re-audit correction: simplified gloss now preserves 公公 exactly; retelling prompt no longer says the tin was opened. Source and app mirror retain the original story and metadata."
     },
     {
       "file": "content/sentence_bank/long_health_services_11.json",
@@ -31731,8 +31731,8 @@
       "index": 135,
       "status": "pass",
       "baseline_sha256": "1142fe0e3043abbfcd13c804065753a456ecc824576af6fc83d8d2793dea4105",
-      "v2_sha256": "1142fe0e3043abbfcd13c804065753a456ecc824576af6fc83d8d2793dea4105",
-      "notes": "All four fields checked. The old records stuck to a movie ticket are followed by the aunt nearly putting the new appointment card back into the ticket sleeve; the repeated card/ticket confusion earns the niece’s correction. Jyutping/gloss match."
+      "v2_sha256": "1063ae2f2242f081577489039df9531969efa0b224fe9cad952726aaf66f9a07",
+      "notes": "Oral re-audit rewrite: the patient leads their own transition from pediatric to adult rheumatology; medication, allergy and recent test records remain part of continuity, while the consultation escalates into an over-formal meeting report and “散会” callback. Root manually reviewed the four fields and contextual Jyutping. No family or money mainline. Continuity/young-person involvement aligns with NICE NG43 recommendations: https://www.nice.org.uk/guidance/NG43/chapter/recommendations"
     },
     {
       "file": "content/sentence_bank/long_health_services_11.json",
@@ -31859,8 +31859,8 @@
       "index": 1,
       "status": "pass",
       "baseline_sha256": "926e1d9fcebdc226ca9f2ca17e1530eb66202e5f92d01e08af98f9320868c6c1",
-      "v2_sha256": "926e1d9fcebdc226ca9f2ca17e1530eb66202e5f92d01e08af98f9320868c6c1",
-      "notes": "All four fields checked. The patient carefully follows the metal-item directions and repeats the checklist, but there is no comic conflict or reversal. Manually corrected Jyutping token alignment for 畫咗張表 and the reading of 簽名 (cim1 meng4)."
+      "v2_sha256": "a8e7867dfada6f6a49eb46611d1269588acb64971482aef22c37ec567e8290c1",
+      "notes": "All four fields checked. The patient carefully follows the metal-item directions and repeats the checklist, but there is no comic conflict or reversal. Manually corrected Jyutping token alignment for 畫咗張表 and the reading of 簽名 (cim1 meng4). Oral re-audit rewrite 2026-11-10: neighbor runway/encore life-bit; refreshed current content hash. Clinical instructions retained from the appointment letter. See NHS DEXA procedure guidance: https://www.nhs.uk/tests-and-treatments/dexa-scan/what-happens/. Oral re-audit rewrite 2026-11-10: neighbor/career-wordplay clothing adjustment bit; current hash refreshed. Prep remains according to appointment letter and radiographer. DEXA preparation details cross-checked with NHS: https://www.nhs.uk/tests-and-treatments/dexa-scan/what-happens/. 頸鏈 geng2 lin2 checked against Words.hk: https://words.hk/zidin/%E9%A0%B8%E9%8D%8A."
     },
     {
       "file": "content/sentence_bank/long_health_services_19.json",
@@ -31917,8 +31917,8 @@
       "index": 0,
       "status": "pass",
       "baseline_sha256": "1e5efa2676bf27ee9365d0b655040d272bb6610ccb0b3b72436a6e6da99597a4",
-      "v2_sha256": "1e5efa2676bf27ee9365d0b655040d272bb6610ccb0b3b72436a6e6da99597a4",
-      "notes": "All four fields checked. The mother must postpone crispy wontons until her dental review, then an old photo revives her worry about speech leaking air; the final request not to show the doctor how young she looked is a character-specific payoff. Jyutping/gloss match."
+      "v2_sha256": "ba73236345dec581fb50c6be9b30b0806e248c81529046c5682f67ad03659e38",
+      "notes": "Rewritten as an adult patient’s office life bit about overapplying professional-boundary advice; all dental adjustment and follow-up remain clinician-directed. Root rechecked the four fields and Jyutping, correcting 卸任 to se3 jam6. No family, money or food comedy mainline; category and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_health_services_22.json",
@@ -32263,7 +32263,7 @@
       "status": "pass",
       "baseline_sha256": "d879c78e48217587cf377301c1054af0f7fd93a6bf322f1c7a32f47b58983085",
       "v2_sha256": "08148435fe87cac684cd70c230733f910f4ab94611141efb77d172c06104a2f1",
-      "notes": "Root individually re-read all four revised fields. The “陪診交更表” drives an explicit card handoff/memory lapse, three helpers search, simultaneous answers/documents pause registration, and they mobilize again at call-in; Grandpa takes control. The cane/accessibility scene and all four roles are coherent. The shift-work callback is established by the roster and sharpened by “打卡交更”. Gloss covers all events; tip matches the actual sequence. Contextual readings checked manually; 交更 gaang1 checked in the local Rime phrase entry. 308 Han / 308 manually checked Jyutping syllables."
+      "notes": "Root individually re-read all four revised fields. The “陪診交更表” drives an explicit card handoff/memory lapse, three helpers search, simultaneous answers/documents pause registration, and they mobilize again at call-in; Grandpa takes control. The cane/accessibility scene and all four roles are coherent. The shift-work callback is established by the roster and sharpened by “打卡交更”. Gloss covers all events; tip matches the actual sequence. Contextual readings checked manually; 交更 gaang1 checked in the local Rime phrase entry. 308 Han / 308 manually checked Jyutping syllables. Oral pass update 2026-11-10: rewritten as a non-family neighborhood clinic guided-tour life bit; source V2 pass retained with refreshed content hash."
     },
     {
       "file": "content/sentence_bank/long_home_family_01.json",
@@ -35479,8 +35479,8 @@
       "index": 1,
       "status": "pass",
       "baseline_sha256": "39d3c08f9942032c6f2c64a7173fa00396d1367f8f66f3cf3da051bd32ae95be",
-      "v2_sha256": "de337f88c52515b89d621acfe62e594a0796911de2159a1d95876a6a59d09835",
-      "notes": "Main-agent four-field review after a full plot rebuild. Voice input repeatedly turns the family’s request for folding chairs into paper folding; relatives arrive with craft supplies and paper, while grandmother calmly unfolds chairs and sums up the phone’s “arrangement.” Distinct communication-confusion mechanism, escalating consequences and callback; physical scene coherent. Manually checked all Jyutping against the text, complete Mandarin gloss and story-specific retelling tip; category and other metadata preserved. Mechanical-gate correction: changed only the required usageTip prefix to exact `故事练习：`; re-read this card-specific prompt against the story events and rechecked the updated row hash."
+      "v2_sha256": "750692649b7c9adefb9a901211474e73f0ea244aebbc79c79844652c62ef4090",
+      "notes": "Main-agent four-field review after a full plot rebuild. Voice input repeatedly turns the family’s request for folding chairs into paper folding; relatives arrive with craft supplies and paper, while grandmother calmly unfolds chairs and sums up the phone’s “arrangement.” Distinct communication-confusion mechanism, escalating consequences and callback; physical scene coherent. Manually checked all Jyutping against the text, complete Mandarin gloss and story-specific retelling tip; category and other metadata preserved. Mechanical-gate correction: changed only the required usageTip prefix to exact `故事练习：`; re-read this card-specific prompt against the story events and rechecked the updated row hash. Oral re-audit: corrected the prompt to complete Simplified Chinese and re-read all four fields."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -35520,8 +35520,8 @@
       "index": 6,
       "status": "pass",
       "baseline_sha256": "9de8dc45287fc7df8c6e12f5153cc404bf8cec001f6f5b78c3a1c234283ee5a2",
-      "v2_sha256": "ba6664b16f68af2f702c223b7d7275f2541a3327f5275925d3697434ffa7f98b",
-      "notes": "Pass: Grandpa’s offer to try the old coat turns into a chain of sleeves snagging hangers as each relative directs him, ending with three empty hangers on him. The “mobile clothes hanger” tag and his question about donating himself callback to the clear-out. Checked physical continuity and all four fields."
+      "v2_sha256": "97196f6352b2d48a700cf85d3ac241512508bd9b62fc8a4423a4f3be6acf8678",
+      "notes": "Oral re-audit rewrite: the vacuum cleaner and the roommate’s noise-cancelling headphones establish a clear two-way silence misunderstanding; after the vacuum is unplugged, the neighbor’s night-shift sleep complaint reveals the singer is still the noise. The “dirty or quiet” closing callback resolves the cleaning setup. Root manually reviewed all four fields and contextual Jyutping. Source category preserved; no family or money mainline. Pronunciation references: https://words.hk/zidin/%E5%90%B8%E5%A1%B5%E6%A9%9F ; https://words.hk/zidin/%E6%A2%B3%E5%8C%96 ; https://words.hk/zidin/%E4%B9%BE%E6%B7%A8 ; https://words.hk/zidin/%E6%8B%94"
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -35561,7 +35561,7 @@
       "status": "pass",
       "baseline_sha256": "08102542c4340998b438067287f443ea4c11e7f0b488338c19950cf520c8988c",
       "v2_sha256": "c56b40eca50818c872aa2ba20f8a73b03019701ae53ce7fae39fa2cca32f9518",
-      "notes": "Root rewrote and individually reviewed the full card. The family message explicitly sets a one-minute visitor limit; aunt calls her cousin to take the next slot, he announces it in the group, and more relatives arrive and form a quiet hallway queue. Dad writes queue numbers and visitors relay the baby’s frown as a live update; Mom calls it a baby exhibition and closes the day, then the baby wakes after the line is gone. Root reviewed causal continuity, distinctness from accepted neighborhood service-visit and moving-box queue scenes, all contextual Jyutping (291 units), complete Mandarin gloss, event-matched prompt, and unchanged metadata. The visitor queue mechanism is supported by the sequential relay, not a shared source story."
+      "notes": "Root rewrote and individually reviewed the full card. The family message explicitly sets a one-minute visitor limit; aunt calls her cousin to take the next slot, he announces it in the group, and more relatives arrive and form a quiet hallway queue. Dad writes queue numbers and visitors relay the baby’s frown as a live update; Mom calls it a baby exhibition and closes the day, then the baby wakes after the line is gone. Root reviewed causal continuity, distinctness from accepted neighborhood service-visit and moving-box queue scenes, all contextual Jyutping (291 units), complete Mandarin gloss, event-matched prompt, and unchanged metadata. The visitor queue mechanism is supported by the sequential relay, not a shared source story. Oral re-audit: corrected the prompt to complete Simplified Chinese and re-read all four fields."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -35752,8 +35752,8 @@
       "index": 35,
       "status": "pass",
       "baseline_sha256": "ef569bc0c38b498c16c92dc13e0e20a6c346f05a5adf43a2ed634afeeea08b8e",
-      "v2_sha256": "ef569bc0c38b498c16c92dc13e0e20a6c346f05a5adf43a2ed634afeeea08b8e",
-      "notes": "The cousin ignores the washing directions, shrinks the sweater, then turns it into a pillow cover named “毛毛”; the projecting sleeves and grandmother’s “first work” callback make the mistake escalate into a specific visual gag. Checked four fields and meaning alignment."
+      "v2_sha256": "31b1d462cd0bd85c27f2d466fa195c4623461c66248dcb145d3d240d5d5b79a9",
+      "notes": "The cousin ignores the washing directions, shrinks the sweater, then turns it into a pillow cover named “毛毛”; the projecting sleeves and grandmother’s “first work” callback make the mistake escalate into a specific visual gag. Checked four fields and meaning alignment. Oral re-audit removed the incidental pocket-money subplot and scoped washing instructions to this sweater; all four fields were manually rechecked."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -35784,8 +35784,8 @@
       "index": 39,
       "status": "pass",
       "baseline_sha256": "834583bf99014130202cc914dcccc37c59125788cf723a60828104c250e56dfe",
-      "v2_sha256": "834583bf99014130202cc914dcccc37c59125788cf723a60828104c250e56dfe",
-      "notes": "The mother’s dinner question interrupts the online interview, the interviewer responds, and a door sign leads to a silent egg-tart delivery and “turn off the mic first” callback; the embarrassment becomes an escalating family gag. Checked all four fields; tip matches."
+      "v2_sha256": "fa41ca47832f9c4eccd5da414750b215cdbd7d900f5b55175d498bbfd766b7df",
+      "notes": "The mother’s dinner question interrupts the online interview, the interviewer responds, and a door sign leads to a silent egg-tart delivery and “turn off the mic first” callback; the embarrassment becomes an escalating family gag. Checked all four fields; tip matches. Oral re-audit pronunciation repair: corrected 番茄 `faan1 ke4` to `faan1 ke2` (Words.hk). Root manually rechecked all four fields; this preserves the existing V2 pass and adds one oral pass."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -36224,8 +36224,8 @@
       "index": 94,
       "status": "pass",
       "baseline_sha256": "ee190ba8255cf5f2099afb93ef1f703bdfa2df682701e74b8245f25b5e9aaf44",
-      "v2_sha256": "ee190ba8255cf5f2099afb93ef1f703bdfa2df682701e74b8245f25b5e9aaf44",
-      "notes": "A parking scrape produces mutual uncertainty rather than blame; the blurred bay markings lead to a chalk fix, paid repair, then the neighbor’s “left a space, no repaint” line callbacks to the markings and car paint. Checked all fields and event logic. Checked sentence, Jyutping, full gloss and usage tip for correspondence."
+      "v2_sha256": "49807ea38330310127ef20c8503b6e332f37e04d70b8b1aca43fe316cc56102b",
+      "notes": "Rewrote a family parking scrape into a non-family neighborhood bowling bit; preserved source ID/order/category/metadata. Manually reviewed the story, contextual Jyutping, complete Simplified translation and exact-event retelling prompt. Bowling sequence uses two pins down on the first delivery, then the remaining eight on the second. Independent review checked the spare mechanics, pinyin and potential overlap with the scorekeeper and premature-high-five bowling stories; no duplicated core mechanism remained."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -36376,8 +36376,8 @@
       "index": 13,
       "status": "pass",
       "baseline_sha256": "c460ec931acd391e12ef249f10bbd411b2ddfb53baa285155c990f73f5a98cea",
-      "v2_sha256": "07a7f010b9a0e3dc664a1ec11a61ed7ebca53c287273be1804ac75ff1e5fd82e",
-      "notes": "Main-agent rebuilt and reviewed all four fields. The overnight guest wants only his familiar blue night-light, but the family successively brings a table lamp, cushion and blanket, turning the bedroom into a living room. When Dad starts to move a doormat inside too, the cousin says to leave it outside so he can find home in the morning; next day the cousin tells the brother he has found home’s entrance. The escalation follows the adults’ literal over-helping and the mat/entrance callback closes it. Checked physical sequence, Cantonese usage, every Jyutping unit, complete Mandarin gloss and matching retelling tip; source category and other metadata preserved. Mechanical-gate correction: changed only the required usageTip prefix to exact `故事练习：`; re-read this card-specific prompt against the story events and rechecked the updated row hash."
+      "v2_sha256": "732a84409a664d8d4aaaae142683c2c78dc3042059f08f8eba5a97592fb58a83",
+      "notes": "Rewrote the former family sleepover as a public-life elevator bit while preserving source ID, order, category, and metadata. Manually rechecked the story, contextual tone-aligned Jyutping, complete Simplified gloss, and matching retelling prompt. The trolley catches at the door, a bag hooks the rail, and a helper misses floor four while freeing it; at the narrator’s floor two riders help roll the cart out while staying aboard, and the third rider presses four himself. Independent reviews checked pronunciation and compared the lift/cart mechanism with active passes; no duplicate or blocking continuity issue remained."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -36576,7 +36576,7 @@
       "index": 38,
       "status": "pass",
       "baseline_sha256": "4b1fe7684218d7e3c80471239e84e1816fdbede1099fb60a9232309760346263",
-      "v2_sha256": "3eec65f54e39c1743bc26c0bad56b3d0bf4051a19e513ecdcb3eea7f9bd43122",
+      "v2_sha256": "08899b600510522751ea16b3ff245ec8e35a7201eddde4c7e721539f7d716628",
       "notes": "Root reviewed and re-authored the candidate against the verified current index38 hash. Siblings film a fixed-frame stop-motion comic; Dad oversteps between frames, making the villain jump from doorway to sofa to kitchen. After floor markers constrain movement, Dad walks off-camera while recording the separate dialogue take; playback leaves the heroes facing an empty room. His son says the villain has escaped and the credits can roll. Root checked the production sequence, distinct visual callback and concise payoff, every contextual Jyutping syllable/tone (correcting 漫 to maan6 and clarifying the dialogue take), complete gloss and scene-specific tip; category and all other metadata preserved. Search found family video stories but none using this stop-motion/teleporting-villain plot."
     },
     {
@@ -36616,7 +36616,7 @@
       "index": 43,
       "status": "pass",
       "baseline_sha256": "ead9c7ae1a291e34685ab4ac19ede67d915c68cb7523642fddd1507df559dc54",
-      "v2_sha256": "ead9c7ae1a291e34685ab4ac19ede67d915c68cb7523642fddd1507df559dc54",
+      "v2_sha256": "3a2b2303fecb1e3ae304c9f2649297a6782a82ca0943f6070c759445e59f4921",
       "notes": "The grandfather’s first voice message is only market noise, which lets the family know he arrived; later he misses a check-in because his phone is on silent while playing chess. The accidental audio and repeat misunderstanding give the plan a comic consequence; fields track the events. Existing V1 record was independently matched to the exact current row hash; all four V1 language-review flags are true, including contextual Jyutping readings and tones. Root revalidated this story against the clarified comedy/continuity gate; no reading was uncertain, so no pronunciation change was needed."
     },
     {
@@ -36640,8 +36640,8 @@
       "index": 46,
       "status": "pass",
       "baseline_sha256": "a4350a1d2e4e43cadfe2b11dadf668d3182701723aa8b33d66f62abc4d2e8f35",
-      "v2_sha256": "a4350a1d2e4e43cadfe2b11dadf668d3182701723aa8b33d66f62abc4d2e8f35",
-      "notes": "The loose handle makes the grandmother unable to open the door; the family finds the real problem and repairs it. The biscuit tin used for screws gets mistaken for actual biscuits, and “通關成功” plus the hesitant eating callback makes the household mishap land. Existing V1 record was independently matched to the exact current row hash; all four V1 language-review flags are true, including contextual Jyutping readings and tones. Root revalidated this story against the clarified comedy/continuity gate; no reading was uncertain, so no pronunciation change was needed."
+      "v2_sha256": "d7c509dbb38f87d1cb23399fe26868e1618070b67eb81396bf52067f4e32b8ae",
+      "notes": "The loose handle makes the grandmother unable to open the door; the family finds the real problem and repairs it. The biscuit tin used for screws gets mistaken for actual biscuits, and “通關成功” plus the hesitant eating callback makes the household mishap land. Existing V1 record was independently matched to the exact current row hash; all four V1 language-review flags are true, including contextual Jyutping readings and tones. Root revalidated this story against the clarified comedy/continuity gate; no reading was uncertain, so no pronunciation change was needed. Oral re-audit corrected the loose-handle continuity and particle reading for 粒; all four fields manually rechecked. Root mechanical validator caught the retained three-syllable phrase from the prior wording; manually aligned the new line to 扭 nau2 and refreshed the current hash after reading the full four fields."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -37072,8 +37072,8 @@
       "index": 0,
       "status": "pass",
       "baseline_sha256": "287f72deb7933731d12f432ea14129c0bd5eb9ee1b0ffde23d86050364ef4d91",
-      "v2_sha256": "54648db24f1396d3c2faead872ae06118c30459719512db44b1efc3d5a2ff04f",
-      "notes": "Re-reviewed all four fields. Story’s repeated towel fixes escalate into a mock construction zone and Dad’s overconfident “towel passed the test” report; the actual seal repair and callback are coherent. Gloss and Jyutping reviewed; changed only the required exact practice-tip prefix to 故事练习：. Category and metadata preserved."
+      "v2_sha256": "05360176bd8d14341acd3089c0c10eb6883fcdbf039dbf1075e10215531d5e06",
+      "notes": "V2原有故事与其余字段保留；口语复审发现并修正两处粤拼声调/读音：「提醒」tai4 sing2、「負責」fu6 zaak3。口语故事、译文及提示逐字段复核通过。"
     },
     {
       "file": "content/sentence_bank/long_home_family_07.json",
@@ -38209,8 +38209,8 @@
       "index": 42,
       "status": "pass",
       "baseline_sha256": "2082e3283cfcdccdcb434e08cff6d0f097eaa60d9dda2d4dc6a228ea4dd98bc6",
-      "v2_sha256": "2082e3283cfcdccdcb434e08cff6d0f097eaa60d9dda2d4dc6a228ea4dd98bc6",
-      "notes": "Four fields checked. The “ask first” basket first saves the unfinished comic, then catches a second supposedly useless receipt; the question-mark basket returns as the child makes Dad and the basket story characters. Fields and tip track this chain."
+      "v2_sha256": "26b59aef52b3f0d4c578d5dec88809f643464dd5b3be7f907196e8b1232ed3dc",
+      "notes": "Four fields checked. The “ask first” basket first saves the unfinished comic, then catches a second supposedly useless receipt; the question-mark basket returns as the child makes Dad and the basket story characters. Fields and tip track this chain. Rewritten for current active oral re-audit as a community photography-class life bit; all four fields manually reviewed."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -38281,15 +38281,15 @@
       "index": 51,
       "status": "pass",
       "baseline_sha256": "1dce0ada514affc025b46cffd3b0934bdd2b383c201d0b1b04ccde105d2245a0",
-      "v2_sha256": "df6b2c28dcb9639c2dd193fc7d55657fea6ffb4f876bf9d70a813e3753352abc",
-      "notes": "Four fields manually rewritten and reviewed. Night-shift sleep versus drilling is negotiated through management; the posted “quiet work” notice causes neighbors to whisper, the worker notices the former slipper-knocking, and the slippers return as tea-delivery footwear. The cause-and-effect chain ends on an earned callback. Readings/gloss/tip checked; plot differs from approved balloon/door-handle, room-light, and other noise/household stories. Category unchanged."
+      "v2_sha256": "9b8d3f68a993100f41e91d78ac1b425491368bb07a6a0f30b35e88d25799a809",
+      "notes": "The night-shift neighbor negotiates a drilling schedule through building management; the whole hallway becomes comically quiet, and slippers return as tea-delivery props. Root rechecked all four fields and corrected the context-specific Jyutping for 食晏後 to sik6 ngaan3 hau6. No universal building-hours claim; category and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 52,
       "status": "pass",
       "baseline_sha256": "2bf0b414c94f330b423a88699120b38c4c4f44f61b7e4b6d74e72580dc036e7c",
-      "v2_sha256": "2bf0b414c94f330b423a88699120b38c4c4f44f61b7e4b6d74e72580dc036e7c",
+      "v2_sha256": "986458fc652544d60a09ad90d4e78152d2477a44c51d1085673b79466bf36c2b",
       "notes": "Four fields checked. Dad mistakes donation boxes for laziness, then a broken carton spills blocks and turns the delivery into a group-built car; his “ask before folding” sign callbacks to the original misunderstanding."
     },
     {
@@ -38353,7 +38353,7 @@
       "index": 60,
       "status": "pass",
       "baseline_sha256": "22cd14a9c5b81940d9024b3d4a05b73e83109d74e86d723df73a4005fc3b6ace",
-      "v2_sha256": "22cd14a9c5b81940d9024b3d4a05b73e83109d74e86d723df73a4005fc3b6ace",
+      "v2_sha256": "c75520cbdbf5157987a295cdde2cb92df8f336f602a27fef7146ac588392b1ba",
       "notes": "Four fields checked. Dad treats motion alerts as security surveillance; the neighbor cat triggers the bell, then a misdelivered parcel makes his checking useful for a different reason. Mom’s patrol question callbacks to the cat’s “exercise.”"
     },
     {
@@ -38601,16 +38601,16 @@
       "index": 91,
       "status": "pass",
       "baseline_sha256": "9dc6a26edbec3e1de39a1341f8440e1285614b7376cea99833a3374cea1c74cf",
-      "v2_sha256": "9dc6a26edbec3e1de39a1341f8440e1285614b7376cea99833a3374cea1c74cf",
-      "notes": "Four fields checked. Nighttime drumming first looks like a noise dispute, then Dad meets the young performer and becomes the loudest applauder; the “buy a ticket” line reverses his complaint into enthusiasm."
+      "v2_sha256": "32d2f399e4a19a49d0c9ea77f0795c29fc886589fab71399ef17312564871ff7",
+      "notes": "Manual V2 re-review after rewrite: the speech-class umbrella notes scatter; “收衫” is explained by a misplaced label, and the “收遮” note on the speaker’s back closes the story. Four fields and contextual Jyutping reviewed."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 92,
       "status": "pass",
       "baseline_sha256": "2cca9270e5ce9f638b57e8deb991d75c7a99e810f46e0e1900d35aa4164e3656",
-      "v2_sha256": "2cca9270e5ce9f638b57e8deb991d75c7a99e810f46e0e1900d35aa4164e3656",
-      "notes": "Four fields checked. Too much detergent turns the laundry area into apparent snowfall; the family measures the dose, draws a bubble monster and uses it as a recurring supervisor. Tip follows the mishap and fix."
+      "v2_sha256": "29dd89954172022a7a44114939f2a2a2608798d49f9d275cb017c9b86f3a9a8e",
+      "notes": "Manual V2 re-review after rewrite: a learner mistakes the hand-dryer sensor, teaches other users an unnecessary hand-gesture routine, and waits for the machine’s approval to open a class. Four fields reviewed; 280 Han characters and 280 aligned Jyutping tokens."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -38697,16 +38697,16 @@
       "index": 103,
       "status": "pass",
       "baseline_sha256": "95996f7df890c13758b8010d275be12e2847543c843a7b8f3bab502aa809e6bf",
-      "v2_sha256": "95996f7df890c13758b8010d275be12e2847543c843a7b8f3bab502aa809e6bf",
-      "notes": "Four fields checked. A wet floor prompts a mat and hanging towel; Dad hears a snap and rushes out wrapped in a towel, only to find Grandma dropped soap. His later “bathroom safe” announcement callbacks to the false leak alarm."
+      "v2_sha256": "86b4b398cf63d8cb43b69231b15929bb485b2cca523908d8f15f1905c1ca3fac",
+      "notes": "Manual V2 re-review after rewrite: a novice birdwatcher mistakes one grey pigeon seen in different places for three birds; the final count treats the bird’s turn as another species. Four fields reviewed; 236 Han characters and 236 aligned Jyutping tokens."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 104,
       "status": "pass",
       "baseline_sha256": "a9be348744f8ed7efa04d2a25994d32a15dedb5c5b80dad0438e37a67b41a025",
-      "v2_sha256": "a9be348744f8ed7efa04d2a25994d32a15dedb5c5b80dad0438e37a67b41a025",
-      "notes": "Four fields checked. The kitchen exhaust first makes a video call sound like an airport, then the coworker mistakes Mom’s soup aroma for delivery; the room divider solves the recurring intrusion and the family joke eases a network dropout."
+      "v2_sha256": "b02128c81b2720c0c7ffa51c287f598ff3f36e1b9ec559133aa3361cb7c06132",
+      "notes": "Manual V2 re-review after rewrite: portrait applicant over-manages each expression, then laughs at the awkward previews during a pause and is caught in a natural shot; final callback returns to his initial complaint-face. Four fields reviewed; 263 Han characters and 263 aligned Jyutping tokens."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -38785,16 +38785,16 @@
       "index": 114,
       "status": "pass",
       "baseline_sha256": "1a13a07d850d336d2731a667e1bccc9236ea8fe1c2f423c6db4dd6503f6b6ab2",
-      "v2_sha256": "1a13a07d850d336d2731a667e1bccc9236ea8fe1c2f423c6db4dd6503f6b6ab2",
-      "notes": "Four fields checked. The family initially thinks Dad is early/late because the clock is slow; after the battery change the clock runs ahead, and Dad says it wants dinner early. The fast-clock reversal callbacks to the original meal-time disagreement; tip matches."
+      "v2_sha256": "b5942adbacc60d2136bc775e4844d1119ce54ff1443ed33b1583624d025cc3d4",
+      "notes": "Manual V2 re-review after oral rewrite: the Arabic numeral six is read as nine upside down, and participants physically join the improvised queue before the closing callback. All four fields and contextual Jyutping rechecked; source category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 115,
       "status": "pass",
       "baseline_sha256": "661a737127c248eafec88d804316dfe0930f6766007954d9fff10c695266865f",
-      "v2_sha256": "449bedc418ce1954a545331f2b2d8a4144a5ac140367b35f621fba4a03318d23",
-      "notes": "Manually reviewed story, contextual Jyutping, full Simplified gloss and story-specific usageTip. Story is 281 Han characters; all 281 syllables were aligned character by character. The father’s cautious soup delivery escalates when a neighbor mistakes it for a soup giveaway and joins with porridge; his “soup captain” title and final group-chat rule land as callbacks. Checked contextual forms including 騎樓 ke4 lau4, 拎 ling1 and 隊長 deoi6 zoeng2. Screened the exact/pair motifs across retained rows. Compared with long_home_family_08[105] (grandmother’s market autonomy) and long_home_family_03[8] (late family return in rain with a thermos); the scene, conflict and payoff differ. Preserved category, ID, order and metadata; no money-centered plot."
+      "v2_sha256": "4de93dc2bb662c35ec5ae7e7123413dc58ef44e2920a1be1d582472c730915db",
+      "notes": "Shared-kitchen neighborhood tasting with sign wording explicitly planted before steam obscures 試飲; the accidental queue becomes a floor meeting. Four fields manually re-reviewed; contextual readings corrected and hash refreshed."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -38897,8 +38897,8 @@
       "index": 128,
       "status": "pass",
       "baseline_sha256": "eb662ed6657704f1a0930da4cb6755545155215dc82b712ccce79f7a96b014f4",
-      "v2_sha256": "eb662ed6657704f1a0930da4cb6755545155215dc82b712ccce79f7a96b014f4",
-      "notes": "Four fields checked. Video stutter turns the granddaughter’s “we won a prize” into Grandma hearing “buy sauce”; moving the tablet fixes the call, and the almond-cookie question/reveal completes the clear miscommunication chain. Fields match."
+      "v2_sha256": "29b98235e17bbbe796c83f4e611134eedbd3054d8180d6f3422d8ab1cbc35d80",
+      "notes": "Manual oral re-review rewrite: the uncapped valve leaks, leading to a CPR line; while the pump remains connected, the rider reads its gauge and compares it with the tire-sidewall pressure range, then disconnects and accidentally rings the bell as the bike “thanks” them. Four fields and Jyutping were reviewed; independent Terra audit found no clear syllable or tone errors. Corrected both counting-數 readings to sou2 after independent review."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -39537,8 +39537,8 @@
       "index": 8,
       "status": "pass",
       "baseline_sha256": "785b77096183729ae5909dee31be03f0008bb592661257e1cf1527440849093f",
-      "v2_sha256": "1ea8a9ede41ba673ed67862481a75bf2b387ac810bb36c7875cf69186a50576b",
-      "notes": "Main individually reviewed all four fields and corrected the gloss relationship: 阿女 is the narrator’s daughter, not an older sister. The family’s one-minute no-laugh game escalates through Dad hiding his shaking shoulders behind a cup, judging his daughter for laughing, then losing when she mimics him; his attempt to switch to timekeeper fails and he rebrands as laughter judge. Plot fingerprint checked against corpus; contextual Jyutping, full gloss, matching retelling tip and unchanged category/metadata checked."
+      "v2_sha256": "d3c2e9a75d0194552fb875ea623c91ee58e71132d98ad5bae6888d87aaf3100b",
+      "notes": "Rewritten from a family game into an improv-class life bit. Four fields manually reviewed and current content hash refreshed."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
@@ -40051,8 +40051,8 @@
       "index": 72,
       "status": "pass",
       "baseline_sha256": "1a348533ec541b693857ad114148948af5cb3578c740b71060fbe3935d227b6d",
-      "v2_sha256": "e6b3c9fe18bd8127c47af82954813dc9fdd4c3cacf6cca15bfc2080b829815b7",
-      "notes": "Main agent rewrote and reviewed all four fields. A covered litter box repeatedly startles the cat as its lid hits the wall; each family fix creates an increasingly noisy spectacle. The daughter finds the wall mark and pads the lid; the family celebrates silently, then the sister claps and scares the cat again. The father’s closing callback identifies the sister as the last “device” needing its volume lowered. Actions and room layout are coherent; gloss is complete, Jyutping manually aligned (including 下一次 jat1 ci3 and 頂 ding2), and the event-specific tip matches. Category and metadata unchanged."
+      "v2_sha256": "119bec1de4f7ee8d050710d203a24c99b692eaf0faa18d32bd88eafd00f1dd7a",
+      "notes": "Rewritten as an adoption-event photography life bit distinct from the active cat-litter stories. Four fields manually re-reviewed; current hash refreshed."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",
