@@ -4,7 +4,7 @@
   "scope": "Independent manual second review of the 2,000 active stories selected from the original 5,000 source rows, including existing V2 passes, for stand-up/life-bit quality, natural Macau colloquial Cantonese, contextual tone-marked Jyutping, complete Simplified gloss and story-specific retelling prompt. The 3,000 excluded source rows, IDs, metadata, drafts and historical audit records remain preserved but are outside current semantic completion and app acceptance scope. Source-wide structural/hash preservation checks do not count excluded rows as new manual completions.",
   "source_cards": 5000,
   "target_active_cards": 2000,
-  "active_selection_status": "2,000 active IDs; current V2 2000 pass / 0 needs_revision / 0 pending; oral re-audit 1936 pass / 64 needs_revision / 0 pending. Final selection remains in progress.",
+  "active_selection_status": "2,000 active IDs; current V2 2,000 pass / 0 needs_revision / 0 pending; oral re-audit 1986 pass / 14 needs_revision / 0 pending. Final selection remains in progress.",
   "cards": [
     {
       "file": "content/sentence_bank/long_family_finance_services_01.json",
@@ -36894,24 +36894,27 @@
     {
       "file": "content/sentence_bank/long_health_services_08.json",
       "index": 1,
-      "status": "needs_revision",
-      "source_sha256": "e72bc15d98cd247f80dd957d3dbdac70386cc672624b2793af58bba45448cf69",
+      "status": "pass",
+      "source_sha256": "9b1d9d0657df5cc6d8ca9d62fc405b6f5f447720d7eff66dcc412405e43dc455",
       "topic_notes": [
-        "family_and_money_central",
-        "exclude_or_sparing_use_in_final_2000"
+        "healthcare_life_bit",
+        "personal_medication_recording",
+        "no_family_or_money_mainline"
       ],
-      "notes": "Needs rewrite/exclude from comedy set: the medication-management guidance is important, but a missed/double dose is framed as a joke; the only light beat is the family drawing penguins. Keep the safety steps factual and move the card out of stand-up selection."
+      "notes": "Root manually rechecked all four fields. Independent read-only story and Jyutping reviews passed; retained the original medication instructions and moved the comedy to the narrator’s over-organized meeting-style notes. Contextual Jyutping corrections were independently verified."
     },
     {
       "file": "content/sentence_bank/long_health_services_08.json",
       "index": 2,
-      "status": "needs_revision",
-      "source_sha256": "cad5f66bf5d3d9dc2796090759f84bbb8d995d918879d907ba229e738b0a1886",
+      "status": "pass",
+      "source_sha256": "f9ea531f67f1b9b3c7206968fd76fd108ea3ac5912594dcd995fdf4f374aecf2",
       "topic_notes": [
-        "family_and_money_central",
-        "exclude_or_sparing_use_in_final_2000"
+        "healthcare_life_bit",
+        "growth_chart",
+        "family_context",
+        "no_money_mainline"
       ],
-      "notes": "Needs rewrite: the growth-chart guidance is useful and safe, but the tape-measure snap is a single mild mishap; the rest is routine clinic advice and family tracking, without escalation or a strong payoff."
+      "notes": "Root manually rechecked all four fields. Independent read-only story and Jyutping reviews passed; the father’s sports-table metaphor stays tied to the growth-chart callback. Growth guidance is preserved. 乙組 is jyut6 in this grading context, verified against Cantonese dictionary entries."
     },
     {
       "file": "content/sentence_bank/long_health_services_08.json",
@@ -37061,13 +37064,15 @@
     {
       "file": "content/sentence_bank/long_health_services_08.json",
       "index": 17,
-      "status": "needs_revision",
-      "source_sha256": "2fd64bb717e7672a264c226f9f8116d587a0055b8f2824c80dce4793f8f6a74f",
+      "status": "pass",
+      "source_sha256": "983692feb3652def2bbd414636ef186e29566c11bd630333c3d95674bb144224",
       "topic_notes": [
-        "family_and_money_central",
-        "exclude_or_sparing_use_in_final_2000"
+        "healthcare_life_bit",
+        "rehabilitation",
+        "friend_overdocuments_process",
+        "no_money_mainline"
       ],
-      "notes": "Needs rewrite: the towel slides into the blocks and the bulldozer line is a clear beat, but the rest repeats star-counting, route clearing and therapy reminders without a developed comic arc. Keep the stroke-recovery safety advice factual."
+      "notes": "Root manually rechecked all four fields. Independent read-only story and Jyutping reviews passed; the exercise log develops into a news-style process and the final “小休開會” callback. Safety guidance is preserved; the omitted 痛 syllable and 照 tone were corrected and independently verified."
     },
     {
       "file": "content/sentence_bank/long_health_services_08.json",
@@ -45410,15 +45415,15 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 2,
-      "status": "needs_revision",
-      "source_sha256": "e28533eee8e048b6265062fe5e6dfd79a68e7580063f31f700f8724d6e7a66a9",
+      "status": "pass",
+      "source_sha256": "b5424beb947b5ddbfccdfa834eb768f32a4c6b4e0f0bfbfb278cd1200573c63a",
       "topic_notes": [
         "family_centered",
         "allergy_safety_is_mainline",
         "overprocedural_comedy",
         "exclude_or_sparing_use_in_final_2000"
       ],
-      "notes": "Root read all four fields. The allergy-safe food separation is important, but most comedy comes from the father turning it into numbered entry procedures; that risks making a real safety accommodation the punchline, and the family meal is the whole scene. Keep for rewrite or replacement rather than count toward the high-comedy final set."
+      "notes": "Rewritten as an everyday door-latch mishap rather than a food/allergy story. Uncle’s repeated wrong-direction attempts escalate into bending at the waist; grandma demonstrates the sideways latch, and he apologizes and thanks the door as a callback. Independent story review found no duplicate of active long_home_family_01-0021 sliding-door rebound mechanism; Jyutping reviewer confirmed 232/232 after root’s local revision. Translation and retelling prompt match the final story."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -45585,16 +45590,15 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 20,
-      "status": "needs_revision",
-      "source_sha256": "994d225174eb755035167e1222116a22e19b4918a6ba00e85c6654adca6cb8c2",
+      "status": "pass",
+      "source_sha256": "8da1e86ec45cbfd0f61f0c4e8ed29785c9429fb411de3f8aa541c137193417e0",
       "topic_notes": [
         "family_centered",
-        "photo_sorting_cluster",
-        "finger_selfie_mechanism_overlap",
-        "jyutping_reading_issue",
+        "pencil_sharpener_escalation",
+        "visual_callback_shavings_as_autumn_leaves",
         "exclude_or_sparing_use_in_final_2000"
       ],
-      "notes": "Root read all four fields and compared the active pass stories long_family_finance_services_01[14,16,84,100] and long_home_family_03[91]. The flood-of-trip-photos, accidental finger selfie and hidden-snack photo form several beats, but this overlaps the active travel/photo/preview cluster and ends on a generic wish to become a photographer. Contextual Jyutping issue: 標註 is written `biu1 cyu3`; revise to the word's correct reading before it can pass. Family remains central. All four fields reviewed; no pass credit."
+      "notes": "Root manually reviewed the rewritten Macau Cantonese story, contextual Jyutping, complete Mandarin translation, and matching practice prompt. Independent exact-version reviewer checked the 297/297 Han/Jyutping alignment, 掘 gwat6, 側邊 zak1 bin1, physical coloring action and translation; no remaining correction required. The story keeps family as its scene and should remain a sparing family-topic selection."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -45705,15 +45709,14 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 33,
-      "status": "needs_revision",
-      "source_sha256": "db60c2da72bccdb41c17280c878908a6b482d47111a2f9af1152d84caed403b8",
+      "status": "pass",
+      "source_sha256": "792fec5ba6ce83f630d6bdda91d96526f9b8afb8647d888b11ba69ea3a05f2df",
       "topic_notes": [
-        "family_centered",
-        "schedule_and_rest_cluster",
-        "overlaps_long_family_finance_services_06_60",
-        "exclude_or_sparing_use_in_final_2000"
+        "family_scene_limited",
+        "folding_phone_stand_release_button",
+        "screen_caption_callback"
       ],
-      "notes": "Root read all four fields. The tightly timed park itinerary, grandparent asking to rest early, and a newly scheduled rest period are coherent but closely overlap active pass long_family_finance_services_06[60], where relatives fill a retiree’s rest day with a schedule and the elder tries to reclaim it. Keep pending revision/replacement to avoid duplicate family scheduling mechanisms."
+      "notes": "Root manually reviewed the exact four fields; agent06 independently reviewed SHA aa6c96f0bcf00a6e8d1ef3a98070f94da80d16a9801594f8277a05689de0447c at 279/279 and approved the clarified hinge release-button action. The stand folds before the clip starts and returns as the callback. Family scene is brief; object mishap is the comic center."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -45852,15 +45855,15 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 49,
-      "status": "needs_revision",
-      "source_sha256": "4d5f658251f484cf4bb4a8d2ab3c76fd9eb567320334239b496502b2103e7343",
+      "status": "pass",
+      "source_sha256": "f58758a7d11d3de0298f113df6b447dc0ef1bb692d9b0eb1ae71a5e3320f8864",
       "topic_notes": [
         "family_centered",
         "birthday_logistics",
         "weak_comic_payoff",
         "exclude_or_sparing_use_in_final_2000"
       ],
-      "notes": "Root read all four fields. The schedule collision and address correction resolve through a series of logistics, then the story ends with a broad ‘push work’ label that is not strongly prepared by the father’s limited role. Cake and tea remain incidental but family planning dominates. Does not yet meet the stronger life-bit standard; keep for revision/replacement."
+      "notes": "Rewritten after the birthday-logistics plot failed the comedy bar. The shoe-rack installation misread creates a shoe queue and ticket inspection; repeated family fittings turn dad into a shoe-shop clerk, paying off with “執舖”. Story reviewer found the mechanism distinct from the active shoe-storage card; Jyutping reviewer checked 247/247 syllables. Root reviewed all four final fields."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -46010,16 +46013,17 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 64,
-      "status": "needs_revision",
-      "source_sha256": "7cba5ae28f5cc264d128ccbd9ab7d2cd015dcf52d846c2f3bfe90ae8875e0de7",
+      "status": "pass",
+      "source_sha256": "4aae39c438c5e9f757ea3e91e10b040ec35c7f9f3e2cbfba696cc4a55208bdd8",
       "topic_notes": [
         "family_centered",
-        "old_charger_cable_compatibility_unclear",
-        "minor_electrical_safety_context",
-        "family_performance_cluster",
-        "exclude_or_sparing_use_in_final_2000"
+        "sibling_life_bit",
+        "cold_jokes",
+        "timer_callback",
+        "no_money_mainline",
+        "standup_life_bit"
       ],
-      "notes": "Root read all four fields. The unplugged heated cable is handled safely, but the claimed old camera charging cable connecting to the radio lacks a clear connector/power compatibility setup; the final singing-stage callback also extends an already common family-performance mechanism. Keep for a continuity rewrite or replacement; no pass credit."
+      "notes": "Root manually reread all four fields. Independent story review found the brother’s over-explaining and the timer-as-audience callback coherent and sufficiently distinct; independent Jyutping review found no remaining definite mismatch after contextual corrections."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -46040,16 +46044,16 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 67,
-      "status": "needs_revision",
-      "source_sha256": "b6adb6da6bb8e89cf4faf1802013c004485158e65d41ea4c716eec3bc7b32a3f",
+      "status": "pass",
+      "source_sha256": "e33c08f73d679d54465556f678c910e6ad0ff952f29ddec348504c1723da0ca3",
       "topic_notes": [
         "family_centered",
-        "weekly_meal_rota",
-        "eggshell_cooking_mechanism_overlap",
-        "overlaps_long_home_family_04_92",
-        "exclude_or_sparing_use_in_final_2000"
+        "silicone_ice_tray",
+        "physical_escalation",
+        "standup_life_bit",
+        "no_money_mainline"
       ],
-      "notes": "Root read all four fields. The shift-work dinner rotation has an uncooked-rice recovery and a stuck eggshell, but active pass long_home_family_04[92] already uses a shell dropping into a bowl and the cook adapting technique. Family meal/household rota is also central. Keep for rewrite/replacement to avoid this cooking mishap cluster."
+      "notes": "2026-11-12: root manually rechecked all four fields and the final 300 Han/300 Jyutping alignment. Two independent exact-version reviews approved story cause, comedy callback, active-neighbor distinctness, contextual readings, full Mandarin gloss and story-specific prompt.枱面 toi2 min2 twice; 成枱冰 seng4 toi4; 粒 nap1; 拗 aau2. Words.hk: https://words.hk/zidin/%E6%9E%B1 https://words.hk/zidin/%E7%B2%92 https://words.hk/zidin/%E6%8B%97."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -46078,15 +46082,17 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 71,
-      "status": "needs_revision",
-      "source_sha256": "5a1dcfb7e1180b5dff57e76c7a9ed67677132f2e761f569800d2b140f6e51988",
+      "status": "pass",
+      "source_sha256": "6ce3f4d7938e199565b1e58e737d4a51fe8dba9ea6d98253669fe8df94a02694",
       "topic_notes": [
         "family_centered",
-        "snoring_and_sleep_check",
-        "duplicate_active_snoring_health_topic",
-        "candidate_for_replacement"
+        "physical_comedy",
+        "physical_escalation",
+        "standup_life_bit",
+        "strong_callback",
+        "no_money_mainline"
       ],
-      "notes": "Read-only four-field review found the snoring joke clear, but the family sleep issue and monitoring overlap active `long_health_services_08-0089`; the family/health topic is central. Preserve the original row and replace this selection slot with a distinct mechanism."
+      "notes": "2026-11-12: Root manually checked all four fields and 260/260 Jyutping syllables; independent exact-version review approved the final classifier 條 and explicit shoe-to-chair collision. Alan repeatedly pushes the rolling chair while editing; books fail as a wheel stop, the chair becomes a mock departing coworker, and the short power cable keeps him seated by the wall. Active chair neighbors 03-0094, 07-0041 and 07-0022 have distinct mechanisms. Family-centered, with no money theme."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -46123,15 +46129,17 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 76,
-      "status": "needs_revision",
-      "source_sha256": "0c30d57038dfec51dfc9f4b72b0b0c66e3059b6ea74440576dac4844b92a9333",
+      "status": "pass",
+      "source_sha256": "674a54adcc1fc537f013a8af7421ac0ad2e46898aa865a18b8aa96a35fb104ec",
       "topic_notes": [
         "family_centered",
-        "tai_chi_class",
-        "gentle_resolution_without_strong_comic_callback",
-        "exclude_or_sparing_use_in_final_2000"
+        "family_interaction",
+        "telephone_message_game",
+        "key_shoe_cabinet_callback",
+        "no_money_mainline",
+        "standup_life_bit"
       ],
-      "notes": "Root read all four fields. Rain does not cancel class, the father turns the wrong way and nearly sweeps his umbrella, then returns to class next week. The gag is light and ends with ordinary preparation rather than a stronger earned callback; family/elder exercise is central. Keep for revision/replacement. Rechecked wording and all four fields on 2026-11-10. Corrected 落雨都仲有唔少人來 to matching Jyutping, changed 的→嘅 and 說→話 to match spoken ge3/waa6. Still needs revision: light family tai-chi gag has weak callback and overlaps active movement/left-right stories."
+      "notes": "Root manually reread all four fields. Independent story review passed the explicit second-round phrase degradation and callback; independent Jyutping review confirmed 299/299 contextual syllables after correcting 忍 to jan2."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -46290,16 +46298,14 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 95,
-      "status": "needs_revision",
-      "source_sha256": "4c0db035f0daeffc80bed8ca83203e8bf29a99cf976f07f66e119de4f58dd54f",
+      "status": "pass",
+      "source_sha256": "d1b4aa2e7705a92414d3ce39e40347e85316bc7227aab34904beb1ef44b0a122",
       "topic_notes": [
-        "family_centered",
-        "bathroom_queue_and_schedule",
-        "overlaps_family_schedule_cluster",
-        "physical_water_mishap",
-        "exclude_or_sparing_use_in_final_2000"
+        "family_scene_limited",
+        "thermos_brush_slips_inside",
+        "cup_spins_and_brush_storage_callback"
       ],
-      "notes": "Root read all four fields. The bathroom schedule resolves the morning queue and the missed basin plug makes a fish-pond visual, but active family schedule stories already use chore/rest timetables, including long_home_family_05[33] and long_family_finance_services_06[60]. Family household rules dominate. Keep for replacement or a substantially different roommate scene."
+      "notes": "Root manually reviewed the exact four fields; agent06 independently reviewed SHA 1c672a97b5ba3355f04232eb7013c61431943936beaac15eae6c23f37193fe5b at 233/233 and approved contextual Jyutping, translation, prompt and action chain. Active thermos neighbors involve slow drinking, take-away routine, lid leaking/locking, or portion differences; none uses the cup-brush spin and storage mechanism."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -46320,15 +46326,15 @@
     {
       "file": "content/sentence_bank/long_home_family_05.json",
       "index": 98,
-      "status": "needs_revision",
-      "source_sha256": "f468bf28113abad2f5fe8dcdee95a17652c55ae3ef70b0b7589b10a0d5a56021",
+      "status": "pass",
+      "source_sha256": "bc813e692eb60cf6779c01cd46c2e4882c100e9b14d95d0d03993d25785272b1",
       "topic_notes": [
-        "family_centered",
-        "bereavement_food_memory",
-        "warm_story_no_comic_turn",
-        "exclude_or_sparing_use_in_final_2000"
+        "family_scene_limited",
+        "shredder_paper_reversal",
+        "number_destruction_verification_loop",
+        "standup_callback"
       ],
-      "notes": "Root read all four fields. The stained recipe is restored through a photo and a remembered ingredient, giving a gentle bereavement/memory vignette rather than a comic life bit. Family and food nostalgia dominate; retain for revision/replacement rather than the high-comedy final selection."
+      "notes": "Root manually reviewed all four fields and the exact 229/229 draft. Agent08 independently approved SHA 9d4c98161ea83ae3710fd2c227964207e034a6e154b64255f62729c7c4e79efe, confirming family-category fit, contextual Jyutping, synchronized translation and prompt. It differs from active 08-0191 household vacuum/chores and 06-0040 paper-pulp craft; the gag is shredding and then fearing the written record of destruction."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",
@@ -46422,15 +46428,16 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 8,
-      "status": "needs_revision",
-      "source_sha256": "0cb8f36251b9081b85e4ac1ae6cd4be579862c85f8d23421fa1a5156da0da99b",
+      "status": "pass",
+      "source_sha256": "022026ece53feea6526fded6db92551dca603809c8ee38e38e95e65243f2c60a",
       "topic_notes": [
-        "family_centered",
-        "grandparent_video_call",
-        "interface_prompting",
-        "overlaps_remote_call_cluster"
+        "panorama_stitching_arm_distortion",
+        "moving_subject_repeated_in_panorama",
+        "hand_return_home_callback",
+        "family_as_photo_subject",
+        "no_money_mainline"
       ],
-      "notes": "Root read all four fields. The grandparent video call has a clear ceiling-facing tablet gag, but the story then returns to prompt cards, camera adjustment and remote-call follow-up; this mechanism overlaps active video-call stories, including long_home_family_05[39]. Family tech support is central. Keep for replacement/rewrite."
+      "notes": "Root manually reviewed all four exact language fields. Agent05 independent review approved 278/278 with no Han residue and no definite hard pronunciation error. The original phrase “手機接得唔好” was clarified to “全景拼接得唔好” with matched Jyutping and translation. Active 15-0007 is staged strawberry cover photography, 10-0079 telemedicine camera framing, 14-0011 time-lapse photography; this story uses panoramic stitching artifacts caused by a moving arm, a distinct mechanism with a hand-return callback. Medium broad photography-scene neighbor; no money-centered plot."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -46504,15 +46511,15 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 15,
-      "status": "needs_revision",
-      "source_sha256": "d024798117167b9e31075f16a8a655197069e1eac21c8edff6c310b15586dc3e",
+      "status": "pass",
+      "source_sha256": "b38fae6f8fba8b2bec9dad1f4deee588fc2e2eaa070eeec4963862daa66e7fb1",
       "topic_notes": [
-        "family_centered",
-        "international_video_call",
-        "upside_down_screen_gag",
-        "overlaps_remote_call_cluster"
+        "pop_up_book_blocks_reader",
+        "dad_rebrands_reading_as_door_guard",
+        "book_scene_neighbor_mechanism_distinct",
+        "family_cast_no_money_mainline"
       ],
-      "notes": "Root read all four fields. The upside-down phone image and the uncle’s new-hairstyle comment give a visual joke, but time-zone planning and another remote-family call repeat the active video-call cluster; the closing reminders are procedural. Keep for a distinct rewrite/replacement, not a pass."
+      "notes": "Root manually reviewed the exact story, contextual Jyutping/tones, complete Simplified Mandarin translation, and matching practice prompt. Agent08 exact review approved 271/271 and corrected the final 彈開 daan6 hoi1; earlier author correction had fixed 揭開 kit3 hoi1, 雙手 soeng1 sau2, and 認真 jing6 zan1. Paper castle/dragon blocks the text and face while Dad turns reading into a door-guard job. Active 03-0073 uses repeated bedtime questions, and active 04-0093 uses children finding a cat on each page; the shared storybook setting is a medium scene-neighbor, while the action chain and punchline here are distinct. Original candidate, source and pre-integration snapshot retained."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -46525,15 +46532,15 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 17,
-      "status": "needs_revision",
-      "source_sha256": "a2f8fa73012c953e5238d05310a78cc0b0bb5c7d4715c987db5c9f444f1d84c6",
+      "status": "pass",
+      "source_sha256": "ca90d62f910c5b0d6059f939d0c072efb07aa5f693b897badc31b4e8ac933e3f",
       "topic_notes": [
         "family_centered",
         "laundry_process_dominates",
         "weak_payoff",
         "candidate_for_replacement"
       ],
-      "notes": "Read all four fields. The grey-uniform callback is understandable, but most of the story explains sorting and washing; the practical advice outweighs the laugh. Keep source intact and replace this active slot only when a fresh non-family candidate passes four-field review."
+      "notes": "Rewritten as a family bicycle lesson with a visible behavioral escalation and callback: dad lets go but keeps running and reaching; mom points out he is still holding air. Independent reviewer checked 250/250 in the slightly earlier wording and approved the distinct mechanism; root polished the callback from 尾架 to 扶住車尾 and rechecked the changed four syllables. Final row 249/249."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -46656,15 +46663,15 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 31,
-      "status": "needs_revision",
-      "source_sha256": "27857a513ea2097c99114a6415349323b437d0dfc5da093ce39904af3a52bfd6",
+      "status": "pass",
+      "source_sha256": "cce9f63dc3e16f181a0473fdedc1dcfb88a787541ee30aee80b0ccdb2e789791",
       "topic_notes": [
-        "family_centered",
-        "guest_stay_and_old_photos",
-        "warm_scene_not_standup",
-        "candidate_for_replacement"
+        "household_door_repair",
+        "squeaky_hinge_escalation",
+        "silent_sneaking_callback",
+        "standup_life_bit"
       ],
-      "notes": "Read all four fields. The uncle visit and photo discovery are coherent and warm, but the middle is mainly reminiscence and the ending summarizes family togetherness rather than landing a behavior-driven joke. Keep source intact and seek a stronger, preferably non-family replacement."
+      "notes": "Root manually rechecked story, contextual Jyutping, complete Simplified gloss and story-specific prompt at current hash. Independent exact-version reviewer checked all four fields and active mechanisms. The family still walks against the wall after the hinge is fixed; active 04-0042 fan-slamming-door and 07-0001 leaking-door repair stories use different joke mechanics. One 修 reading was corrected from zau1 to sau1 before final approval."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -46780,15 +46787,17 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 44,
-      "status": "needs_revision",
-      "source_sha256": "0ea4d7a693b8b62cd201dbd90bfcbe4d71ac49a44a10f537351632391a80282b",
+      "status": "pass",
+      "source_sha256": "cd66c54c0373a5104068d1f6b0cf5988f16b35b413a30d41628037c796f7b530",
       "topic_notes": [
-        "family_centered",
-        "grandparent_childcare_and_movie",
-        "warm_scene_weak_punchline",
-        "candidate_for_replacement"
+        "curling_sweeps_stone_timing",
+        "over_sweeps_wrong_side",
+        "stone_path_straightens_misses_target",
+        "sweeping_escape_route_callback",
+        "family_as_companion",
+        "no_money_mainline"
       ],
-      "notes": "Read all four fields. The childcare and rainy-park interlude are coherent, but the movie break is mostly warm family scheduling; the “nobody asks where I am” line does not grow from the preceding action into a strong callback. Keep source intact and seek a stronger, less family-centered replacement."
+      "notes": "Root manually reviewed all four final fields. Agent06 independently approved exact SHA `1f555e86aac01253fa9fe9d12dfccc7e937727fbd949bc780e21ac509520290e`: 308/308, no Han residue; `都係` maps to `dou1 hai6`, `認真講` to `jing6 zan1 gong2`; no other definite hard error. Father first sweeps behind the curling stone, then one-sided sweeping straightens its left curl and sends it past the target; the closing “善後” callbacks to his habit of sweeping the stone’s escape route. Active 04-0047 is a skater mistaken for a coach while holding the rail; the sport, action mechanism, and punchline differ. No money-centered plot."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -46820,16 +46829,17 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 47,
-      "status": "needs_revision",
-      "source_sha256": "3d03ca71fc1491e9827990cf8946ee1ea58a541429cf5d4e1d602a031f5e655e",
+      "status": "pass",
+      "source_sha256": "bc68664b69cf046922c53363a4da29fdf29e47ef39ebad66bdb6ded67331f22c",
       "topic_notes": [
         "family_centered",
-        "stopped_clock_and_homework",
-        "interview_montage_mechanism",
-        "weak_standup_payoff",
-        "candidate_for_replacement"
+        "physical_comedy",
+        "physical_escalation",
+        "standup_life_bit",
+        "strong_callback",
+        "no_money_mainline"
       ],
-      "notes": "Read all four fields. The stopped clock is repaired coherently and “赶返上课啦” is a small laugh, but the story then becomes a family-answer montage and checklist reminder without a strong payoff. Similar household-questionnaire material is already common. Keep source intact and seek a stronger replacement."
+      "notes": "2026-11-12: Root manually reviewed the final four fields and 249/249 Han-to-Jyutping syllables; independent exact-version review approved the final 試吓 wording and tone. Dad’s unlocked folding table collapses twice as he describes an “automatic” feature; the daughter locks it and points out he demonstrated the feature twice. The final manual/automatic callback is distinct from active 08-0181’s table positioning/tea and 08-0057’s blocked furniture move. Excluded 09-0046 was not counted as an active neighbor. Family-centered, with no money theme."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -46868,15 +46878,15 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 51,
-      "status": "needs_revision",
-      "source_sha256": "2c868efba9cd293037fc804361ebc260540d6318ff5d055cecf01a4ab241923d",
+      "status": "pass",
+      "source_sha256": "1fba040ac47ee459010bdbf2809ac54ed82fc9525207f3c4565c2b7fdfbc0c6b",
       "topic_notes": [
-        "neighbor_safety_issue",
-        "obstruction_resolution",
-        "light_paperbag_wordplay",
-        "insufficient_comic_escalation"
+        "tape_measure_recoil",
+        "pencil_marks_escalate_to_barcode",
+        "signature_callback",
+        "family_cast_no_money_mainline"
       ],
-      "notes": "Root read all four fields. The paper bag blocking the corridor sensor is a clear everyday discovery; management still checks the light and warns people not to touch wiring. However, the story is mainly a safety resolution, with only a light hide-and-seek line and no escalating behavior. Keep for a stronger rewrite rather than comedy pass."
+      "notes": "Root manually reviewed the exact final story and all language fields. Agent08 independently approved the four fields at exact candidate SHA `8198f878ba4a7f4cdd625a905e00080767e64a16cf69e98e62c3a12d82403818`; final candidate differs only in self-check wording. Pinyin alignment 307/307 with no Han residue; corrected `彈返去 daan6`, `露 lou6`, and `筆桿 bat1 gon1`. Active 04-0040 measures from a misread ruler origin and cuts short paper strips. This card’s tape recoils, bumps a pencil, and leaves wall marks that become a barcode/signature callback; same broad measuring domain but different cause and punchline. No money-centered plot."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -46902,15 +46912,17 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 54,
-      "status": "needs_revision",
-      "source_sha256": "a7b6e00105f63a1d074679273452b62542771a0b05e8344f210899c9d2925ba6",
+      "status": "pass",
+      "source_sha256": "c16911c1f752a46fb81bef03d747af3f308764abd239ff39695a544db2e00d50",
       "topic_notes": [
-        "neighbor_move",
-        "cooking_utensil_drumline",
-        "overlaps_long_home_family_01_55",
-        "source_category_mismatch"
+        "neighbor_colleague_scene",
+        "carton_tape_resists_folding",
+        "escalating_physical_comedy",
+        "child_comment_callback",
+        "standup_life_bit",
+        "source_category_family_but_story_not_family_centered"
       ],
-      "notes": "Root read all four fields. Neighbor-helping and the saucepan-as-drumline beat are lively, but active pass long_home_family_01[55] already turns a hallway spill of pots and pans into a marching-band performance. The same falling-cookware percussion mechanism is too close to pass again. Preserve the source row and metadata; revise to a distinct neighbor-moving joke."
+      "notes": "Root manually reviewed all four fields. Agent05 exact-reviewed this precise SHA, 274/274 alignment; corrected ending matches the recycling/flattening setup and is distinct from active kitchen-utensil percussion. Neighbor and colleague scene; source category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -47005,15 +47017,17 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 64,
-      "status": "needs_revision",
-      "source_sha256": "8d4a588b184459db00841cf8343b4535e29a15f53c9552766b3ec33ed5238f24",
+      "status": "pass",
+      "source_sha256": "91e68e2ec5d2638aabcdc47c4067a7e3749dc22d67fa7ddc16a95415d4f089f4",
       "topic_notes": [
-        "family_centered",
-        "video_call_freeze",
-        "duplicate_active_router_video_call_mechanism",
-        "candidate_for_replacement"
+        "friend_colleague_scene",
+        "cafe_napkin_chain",
+        "physical_escalation",
+        "meeting_white_flag_callback",
+        "standup_life_bit",
+        "source_category_family_but_story_not_family_centered"
       ],
-      "notes": "Read all four fields and checked current hashes. The frozen image and haircut payoff are clear, but active selection already contains a home router/video-call interruption that is fixed before a family call resumes (`long_home_family_08-0133`). The shared technical setup is too close for the high-quality final selection; retain source, replace this slot."
+      "notes": "Root manually reviewed all four fields. Agent05 independently exact-reviewed SHA 05f5... then reconfirmed this metadata-only SHA; 236/236, no Jyutping CJK residue, tissue-chain causality, translation/prompt and active-neighbor distinctions passed. Colleague cafe scene; source category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -47090,15 +47104,17 @@
     {
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 74,
-      "status": "needs_revision",
-      "source_sha256": "113f453d1b633a038dcb877b74d699d8bb59f11ddcb8da1968cacd13856ba8df",
+      "status": "pass",
+      "source_sha256": "f118806a4ebd2e60e37b2677b4a0cabb72807c50307fbc46a42ab49212c5cdb5",
       "topic_notes": [
-        "family_centered",
-        "lighting_preference_resolution",
-        "functional_solution_no_comic_turn",
-        "exclude_or_sparing_use_in_final_2000"
+        "friend_scene",
+        "stationary_bike_distance_confusion",
+        "public_sports_center",
+        "personification_callback",
+        "standup_life_bit",
+        "source_category_family_but_story_not_family_centered"
       ],
-      "notes": "Root read all four fields. The newspaper-to-nose visual briefly lands, then the adjustable lamp and labels solve the disagreement cleanly; the ending is cooperative but has no further comic turn. Family domestic negotiation dominates. Keep for rewrite/replacement rather than count as a high-comedy pass."
+      "notes": "Root manually reviewed all four fields. Agent06 independently exact-reviewed this precise SHA, 227/227 alignment, with corrected speed-dependent distance accumulation in story and translation. Friend scene; source category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_06.json",
@@ -48129,14 +48145,16 @@
     {
       "file": "content/sentence_bank/long_home_family_07.json",
       "index": 95,
-      "status": "needs_revision",
-      "source_sha256": "bb1ab2eaf660ad4d4e06cd24b4ce464e70db335b09238bf7c5dc292cb30d551b",
+      "status": "pass",
+      "source_sha256": "e0f35d0b3db5cb0d6299ed0b800be0cff41cc0d57148fcbdc81cf530a400d89e",
       "topic_notes": [
-        "family_centered",
-        "duplicate_sock_missing_mechanism",
-        "weak_comedy_arc"
+        "family_scene_limited",
+        "mosquito_hunt",
+        "cup_and_card_wall_seal",
+        "light_switch_accident",
+        "standup_callback"
       ],
-      "notes": "Story and translation align, but the lost-sock search followed by finding a sock stuck behind a family member is close to active long_home_family_01-0006, which also ends a missing-sock search with the sock caught on someone’s clothing. The practical laundry instructions dominate the light weather-puppet beat. Do not retain in the final set without a distinct comic rewrite."
+      "notes": "Root manually reviewed the four fields, contextual Jyutping and action sequence. Agent05 exact-version cross-review approved candidate SHA cb6419095f458cfb8bb5f92a91a6c89385cb175b958e95b19d5a1361e3f9b588 at 249/249, after clarifying the card goes between the cup rim and wall to seal the cup. The mosquito chase escalates through the light switch, forehead and escaped mosquito; the family scene is light and the callback is specific."
     },
     {
       "file": "content/sentence_bank/long_home_family_07.json",
@@ -48161,14 +48179,15 @@
     {
       "file": "content/sentence_bank/long_home_family_07.json",
       "index": 98,
-      "status": "needs_revision",
-      "source_sha256": "fd186f89bbdfb9d8af2b244375181b5c4b8e8b02ab84414e592c74c46d454f77",
+      "status": "pass",
+      "source_sha256": "95cedb8d6f4c5354860af8d2365c1b1706af6446b443800431865609efc140a9",
       "topic_notes": [
-        "family_centered",
-        "duplicate_dripping_faucet_band_mechanism",
-        "jyutping_issue"
+        "family_scene_limited",
+        "thermos_lock_unlock_overtesting",
+        "tilt_pour_and_button_action",
+        "standup_callback"
       ],
-      "notes": "The dripping-faucet rhythm becoming a household band and asking whether the band has broken up closely repeats active long_family_finance_services_06-0033. Also 嘈醒 is misread in Jyutping; the correct contextual reading is cou4 sing2. Tip omits the band-breakup and pillow-drumming callback. Exclude or rewrite before final selection."
+      "notes": "Root manually reviewed four fields and the clarified tilt action. Agent05 exact-version review confirmed the corrected 傾斜 king1 ce4. Family scene is light; humor comes from repeated lock/unlock and pouring rehearsal."
     },
     {
       "file": "content/sentence_bank/long_home_family_07.json",
@@ -48360,10 +48379,15 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 18,
-      "status": "needs_revision",
-      "source_sha256": "d3cedd872fc77b0c7c7905de791d24aef592deb9b3634a58bcb9b4c81ad247fc",
-      "topic_notes": [],
-      "notes": "Four fields read. The first-meeting family meal is the core. Several Cantonese issues block pass: 啖 in 飲一啖 is wrongly `ngap1` (should be `daam6`); 打嗝/歡迎說話 sound bookish or Mandarin-influenced here. Rewrite with natural local phrasing and manually recheck all four fields; do not count yet."
+      "status": "pass",
+      "source_sha256": "b79b8dae2298f5a5cbcec609b176d5d4070d149a94680b39ddfdcaecac5771e3",
+      "topic_notes": [
+        "family_as_setting",
+        "domestic_machine_misread",
+        "comic_escalation",
+        "distinctive_callback"
+      ],
+      "notes": "A shredder keeps spitting out paper; an overly cautious father treats feeding it as giving orders, then feeds a sheet to an unplugged machine the next morning. Four fields and contextual Jyutping manually reviewed by root; exact-version independent review approved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -48439,10 +48463,15 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 27,
-      "status": "needs_revision",
-      "source_sha256": "3cb42a019d60bfb2fc9f05737a683b4461175bb7ddc6dac1b0c5baf85039d068",
-      "topic_notes": [],
-      "notes": "Four fields read. Rice delivery and dividing delivery charges make this both household and money-centered; the mistaken order grows to ten sacks, but the final line is only a practical resolution. Replace or rebuild as a stronger non-family life-bit."
+      "status": "pass",
+      "source_sha256": "ccaf91ee4ac9bf7545f3377ed605bd5fd934f248fe695338460a2acd0eea18eb",
+      "topic_notes": [
+        "family_as_setting",
+        "domestic_machine_misread",
+        "comic_escalation",
+        "distinctive_callback"
+      ],
+      "notes": "A father laminates a home meeting sign, then cracks its edge while punching and repairing the hole until the message is covered and the sign hangs crooked. Four fields and contextual Jyutping manually reviewed by root; exact-version independent review approved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -48488,10 +48517,15 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 32,
-      "status": "needs_revision",
-      "source_sha256": "f6380c671ac24ecabf9eabb21a97f7ee1ceac19b6f5ba090f6612f42d3fcf651",
-      "topic_notes": [],
-      "notes": "Four fields read. Child evening snacks and saving milk-tea money for a football keep the plot family- and money-centered. The fridge note has a small joke but the escalation is mostly routine advice/behavior management. Rewrite or replace."
+      "status": "pass",
+      "source_sha256": "a3c11a28c478236bb4f142fb4d890d81d785a7e3edd4fb14e6fd85edbb1d3018",
+      "topic_notes": [
+        "family_as_setting",
+        "standup_life_bit",
+        "physical_prop_callback",
+        "contextual_jyutping_rechecked"
+      ],
+      "notes": "Father overinflates and deflates a neck pillow, then jokes that only the pillow got enough sleep. Root checked four fields and 221/221 contextual Jyutping; agent05 exact-version review approved after `午休 ng5 jau1` correction."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -48647,10 +48681,18 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 50,
-      "status": "needs_revision",
-      "source_sha256": "763936804a6486512a6ff8a7b344ce3b5c18ceff6e6ffeead72920dc1b4ed1d9",
-      "topic_notes": [],
-      "notes": "Four fields read. The fan and towel sequence resolves as a practical household repair, with no strong comic escalation; it also gives step-by-step electrical/appliance repair actions. Do not retain as a final comedy card in this form."
+      "status": "pass",
+      "source_sha256": "1f95849cfeb5f005d2698f7040eaf21e597493fd177cc01313d4988190d6842c",
+      "topic_notes": [
+        "family_centered_sparse",
+        "physical_comedy",
+        "cling_wrap_uncontrolled_roll",
+        "sticky_material_on_person_visual_neighbor",
+        "strong_callback",
+        "standup_life_bit",
+        "no_money_mainline"
+      ],
+      "notes": "Root manually rechecked all four fields; an independent reviewer verified the exact final story’s causal sequence, 259/259 Jyutping alignment and contextual readings. The runaway cling-wrap roll escalates into a table-side chase and a transparent-apron callback. Medium visual resemblance to active sticky-food/person scenes is noted; the central mechanism and scene progression differ. Category and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -48674,10 +48716,18 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 53,
-      "status": "needs_revision",
-      "source_sha256": "2e4ba6f66c8929b5a9ce511029dfc69ed06b9a0f000dbef4dab019369f5baa17",
-      "topic_notes": [],
-      "notes": "Four fields read. Rice-cooker settings, taste preferences and the family-meeting line stay a low-conflict domestic coordination story; the rice-crust function reveal is not developed into a strong comic reversal. Rewrite or replace."
+      "status": "pass",
+      "source_sha256": "70ef03c4d8407ffb151ff0b64163c87dede3e9b349dc06f102c6e1a5d33b0cf9",
+      "topic_notes": [
+        "family_centered",
+        "rice_cooker_crispy_rice",
+        "physical_escalation",
+        "rice_serving_relay_race",
+        "pot_bottom_callback",
+        "standup_life_bit",
+        "no_money_mainline"
+      ],
+      "notes": "Root manually rechecked the exact story, contextual Jyutping, complete Simplified translation and matching prompt; an independent reviewer verified all four fields and 278/278 alignment. The rice-crust mode turns two texture preferences into a serving relay, escalating to Dad scraping a ring into the pot bottom and a next-day “save the pot” callback. Category and metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -48698,10 +48748,18 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 56,
-      "status": "needs_revision",
-      "source_sha256": "bb343b8bc4c878957e39f4f9db40169f99fec71e42d34e29d9245dfaa9a9c85b",
-      "topic_notes": [],
-      "notes": "Four fields read. Birthday dessert and recipe work dominate; the card-writing mistake is a single mild beat and there is no sustained escalating comedy. Family-centered; rewrite or replace."
+      "status": "pass",
+      "source_sha256": "68df931554f75083d2c9e56b8325ae79b7f08cfc70fd6043185c387086626a71",
+      "topic_notes": [
+        "family_centered",
+        "physical_overload",
+        "blocked_sightline",
+        "furniture_route_loop",
+        "standup_life_bit",
+        "strong_callback",
+        "no_money_mainline"
+      ],
+      "notes": "Root rechecked all four fields after replacing the doubtful 卡喺/kaat3 with 夾喺/gaap3 and adding 郁又郁唔到; an independent reviewer approved the revised phrase, logic and readings. Carrying too many objects blocks Dad’s view, the wrong directions loop him back to the sofa, and the empty trip becomes a route test. Contextual Jyutping, full Simplified gloss, tip and metadata checked."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -48714,10 +48772,15 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 58,
-      "status": "needs_revision",
-      "source_sha256": "df62aa4c5f0f4690e93a01ca9ab893b1379f64d753c6810b9369a413488237e9",
-      "topic_notes": [],
-      "notes": "Four fields read. Household toilet-paper reminders and a paper-roll mascot stay a domestic task story with a mild closing line, not a strong stand-up sequence. Rewrite or replace."
+      "status": "pass",
+      "source_sha256": "2d08a9ea5a78a46b72196f7182d007d9770ccaf14317ce9c09cdbaaeb94d171d",
+      "topic_notes": [
+        "family_as_setting",
+        "clothing_grooming_mishap",
+        "overcorrection_escalation",
+        "waving_callback"
+      ],
+      "notes": "Father overuses a lint shaver to make a sweater front symmetrical, then hides the still-fuzzy cuffs by switching to a nod instead of waving. Root manually reviewed all four fields and 230/230 contextual Jyutping; agent06 exact-version review approved after both 轉 readings were corrected to zyun3."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -48738,10 +48801,18 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 61,
-      "status": "needs_revision",
-      "source_sha256": "8a41b533f77a719517dfe382bfc49428272bb6695a55f6bca84d5a11da5fd582",
-      "topic_notes": [],
-      "notes": "Four fields read. The cardboard post-office build uses the same family roleplay plus collapsing-box mechanism as active pass 08[55], so it would repeat the recent cardboard-base gag. Replace with a distinct mechanism."
+      "status": "pass",
+      "source_sha256": "cb9d4227fc167124f6fd7610c69764e209f1eb92eab19cb9d436e2425b9e9eee",
+      "topic_notes": [
+        "family_cast_background_only",
+        "showerhead_mode_test",
+        "spray_accident_escalation",
+        "wet_slippers_float_callback",
+        "home_life_bit",
+        "no_money_center",
+        "medium_water_jet_neighbor_03-0037"
+      ],
+      "notes": "Root manually reviewed story, contextual Jyutping, full Mandarin translation, and story-matched practice prompt. Independent exact review confirmed 246/246 alignment, clean Jyutping field, corrected `塞畀 sak1 bei2` and `抹地 maat3 dei6`, and approved the action chain. Compared with active 03-0037 car-wash jet and 01-0067 sensor faucet: those involve a leak and sensor timing; this is a handheld shower mode test with progressively misplaced spray. Family is cast/background, no money-centered plot."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -48803,18 +48874,30 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 68,
-      "status": "needs_revision",
-      "source_sha256": "e2b9574833fb5baa8aeacc4cd94333b24401ff78766299bb6559f77c8200f001",
-      "topic_notes": [],
-      "notes": "Four fields read. The shower timer and chorus have a family waiting gag, but the sand-timer switch is mainly a practical scheduling story with a light payoff; family domestic topic."
+      "status": "pass",
+      "source_sha256": "d794e85fbf7ac8b9ebf4f2dbdd8301c06aac589e38cceaf93a14c6387e6ffff1",
+      "topic_notes": [
+        "manual_salad_spinner_slips_on_wet_counter",
+        "overpulling_causes_bowl_to_slide",
+        "water_ring_on_table_callback",
+        "family_cast_no_money_mainline"
+      ],
+      "notes": "Root manually reviewed all four final fields. Independent agent06 approved exact SHA `1de76fb65a428db97623f7d086825fd00aa1e4e6fb400c453bfae3d5129e3b18`: 265/265, no Han residue; `濺 zin3`, `抹 maat3` in both places and all other field alignment confirmed. Rinse water wets the table, the spinner bowl slides and leaves a ring, and Dad calls it a table wash. Active 10-0010 is salad leaves stored with water, 08-0070 is mistaken herb labels, and 08-0191 is timed cleaning; same broad kitchen setting but different mechanics. No money-centered plot."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 69,
-      "status": "needs_revision",
-      "source_sha256": "39b5cef22c7d72d208974b2fd816aa39f51663ee7c5d4ec40301f19419b8279a",
-      "topic_notes": [],
-      "notes": "Four fields read. Herb labels get mixed while cooking, but this duplicates active pass long_family_finance_services_01[11], which already escalates herb-label confusion across dishes and pays off the same mistaken identification mechanism. Replace."
+      "status": "pass",
+      "source_sha256": "e574c765b19e6d5dbb4f26157fe3471ab455843229686ec3e196d7adfe3cfc41",
+      "topic_notes": [
+        "friend_colleague_scene",
+        "beanbag_chair_escalation",
+        "physical_comedy",
+        "standup_life_bit",
+        "strong_callback",
+        "source_category_family_but_story_not_family_centered"
+      ],
+      "notes": "Root manually reviewed all four fields. Agent06 and agent08 independently reviewed the exact SHA; 257/257 Han/Jyutping alignment, lexical spot checks and mechanism distinction passed. Workplace activity-room story; source category remains unchanged."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -48835,10 +48918,16 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 72,
-      "status": "needs_revision",
-      "source_sha256": "70c46eee4d658a6f50e7c847df56b15a57e63ee96eceae381fd5da20f32af32d",
-      "topic_notes": [],
-      "notes": "Four fields read. Hearing loss and family communication dominate; the bell/cat aside risks making the accessibility issue itself the joke, and the market beat does not escalate into a strong payoff. Rewrite respectfully or replace."
+      "status": "pass",
+      "source_sha256": "17a99c99c31ca6adce22ca06b883cfe53ea623959af9ad2e4e65ff4c85f30ba6",
+      "topic_notes": [
+        "friend_classmate_scene",
+        "bicycle_seatpost",
+        "physical_escalation",
+        "standup_life_bit",
+        "source_category_family_but_story_not_family_centered"
+      ],
+      "notes": "Root manually reviewed all four fields and the quick-release adjustment sequence. Agent06 exact-reviewed the current SHA after correcting seat clamp order and contextual tones; 257/257 alignment. Source category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -48859,10 +48948,17 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 75,
-      "status": "needs_revision",
-      "source_sha256": "d514f022323d6cd87c51805b1e4fdd64df014f56d806dc4d7c358268aa8a67b6",
-      "topic_notes": [],
-      "notes": "Four fields read. The drawer jam and chocolate-bean cause are a small domestic repair beat and overlap active stuck-door/household repair stories such as long_home_family_06[46]. The host-style tag is not enough to distinguish it. Rewrite or replace."
+      "status": "pass",
+      "source_sha256": "2ba207bd1ae2ae5b8a070522d7936986e656cccac4379c74068e118b2e446169",
+      "topic_notes": [
+        "friend_scene",
+        "cafe_pickup_pager",
+        "phone_alert_confusion",
+        "role_callback",
+        "standup_life_bit",
+        "source_category_family_but_story_not_family_centered"
+      ],
+      "notes": "Root manually reviewed all four fields and the drink-ready/vibration callback. Agent06 independently approved this exact SHA after the repeated colloquial correction; 235/235 alignment. Source category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -48891,10 +48987,17 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 79,
-      "status": "needs_revision",
-      "source_sha256": "0de13b7eceea0fd1c44e21daa9923ed67406f5c21f07d24a52ca4dcf155c840b",
-      "topic_notes": [],
-      "notes": "Four fields read. A soup interruption accidentally recorded during a school performance becomes a funny sound bite, but active passes already include multiple recording/voice-message/household interruption bits; the family-door boundary setup adds another home-interruption story. Revise into a distinct mechanism or replace."
+      "status": "pass",
+      "source_sha256": "5537a0619042d64d1be72bbf2221432e568e22c5582de750d9d7712e9fce2ac7",
+      "topic_notes": [
+        "friend_classmate_scene",
+        "treadmill_safety_clip",
+        "physical_escalation",
+        "standup_life_bit",
+        "safety_device_callback",
+        "source_category_family_but_story_not_family_centered"
+      ],
+      "notes": "Root manually reviewed all four fields and the two clearly caused safety-key pullouts/stops. Agent06 exact-reviewed this SHA after correcting 冇郁 juk1; 254/254 alignment, translations/prompt correspond. Source category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -48915,10 +49018,17 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 82,
-      "status": "needs_revision",
-      "source_sha256": "55b1eef677fe0ebff06768ae1e679aaa27368ef8de502a9c7db73b32f6da9ccf",
-      "topic_notes": [],
-      "notes": "Four fields read. The lift-down laundry rod, flying clothes and sock hat are another household/laundry sequence and repeat recent clothing mishaps; the safety/elder-care frame overwhelms the joke. Rewrite or replace."
+      "status": "pass",
+      "source_sha256": "3589252c2bdc238f51897bc3b37585c693abec411f1a85202d3db8ee2deca46b",
+      "topic_notes": [
+        "friend_classmate_scene",
+        "photo_booth_curtain",
+        "repeated_physical_obstruction",
+        "strong_callback",
+        "standup_life_bit",
+        "source_category_family_but_story_not_family_centered"
+      ],
+      "notes": "Root manually reviewed all four fields; clear escalating curtain rebound and final earned photo callback. Agent06 exact-reviewed this SHA; 277/277 alignment and active-neighbor mechanism distinction passed. Source category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -48931,10 +49041,17 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 84,
-      "status": "needs_revision",
-      "source_sha256": "6b847100e344eda6d0edafd38455999d245159fcb340ad9ed630cff4828f4f32",
-      "topic_notes": [],
-      "notes": "Four fields read. The shoe-sorting scene has an old-shoe museum quip and umbrella callback, but stays a domestic storage/recycling story with no strong escalation. Rewrite or replace."
+      "status": "pass",
+      "source_sha256": "e7bdf57e91c6cee6bf82ad8d031fbc210e21a5a26d1c72335e0b020b9bcefe83",
+      "topic_notes": [
+        "friend_classmate_scene",
+        "cat_cafe_seat_claiming",
+        "social_observation",
+        "physical_callback",
+        "standup_life_bit",
+        "source_category_family_but_story_not_family_centered"
+      ],
+      "notes": "Root manually reviewed all four fields. Agent05 exact-reviewed this precise SHA; 270/270 alignment, scene, punchline, and distinction from active animal-neighbor mechanisms passed. Source category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -48979,10 +49096,17 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 90,
-      "status": "needs_revision",
-      "source_sha256": "523d0a8cd3d979781d242d3057be8da4ef4e3288111b7095607c690e38cfede8",
-      "topic_notes": [],
-      "notes": "Four fields read. The childhood treasure map and melted chocolate are a gentle family memory rather than an escalating stand-up bit; cleanup instructions take over the ending. Rewrite or replace."
+      "status": "pass",
+      "source_sha256": "748f15f17135c865f3032b318d62d84018a2074005d81a2cfbed683ed48e5a4f",
+      "topic_notes": [
+        "friend_classmate_scene",
+        "outdoor_fun_run",
+        "bib_fastening_escalation",
+        "physical_callback",
+        "standup_life_bit",
+        "source_category_family_but_story_not_family_centered"
+      ],
+      "notes": "Root manually reviewed all four fields. Agent06 exact-reviewed this precise SHA; 246/246 alignment, contextual tones, bib/fastener mechanics, translation/prompt and active-neighbor distinctions passed. Outdoor friend scene; source category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -49251,16 +49375,15 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 120,
-      "status": "needs_revision",
-      "source_sha256": "afb279c287e10d6050c4b189f8e2f30c27c288e6d075a3baf5b0e9f84434e873",
+      "status": "pass",
+      "source_sha256": "d605c5f82e2fda360b83fcab1c8321a0dd22f9d72a4b559afef3a9ab32e201f3",
       "topic_notes": [
-        "family_centered",
-        "mobility_care_scene",
-        "pinyin_errors_jutzi_and_ceban",
-        "weak_payoff",
-        "candidate_for_replacement"
+        "family_scene_limited",
+        "folding_fan_action_escalation",
+        "sleeve_catches_fan_rib",
+        "standup_callback"
       ],
-      "notes": "Read-only subreviewer found pinyin hard errors: `橘子` should be gwat1 zi2 (not gam1 gat1) and `斜板` should use ce4 (not ce5). The care scene and short “fruit delivery” callback do not offset the errors; keep source and replace this active slot."
+      "notes": "Root manually reviewed story, contextual tone-marked Jyutping, complete Simplified Mandarin, and matching practice prompt; independent exact-version reviewer checked the same 234/234 card and found no hard Jyutping or logic errors. Folding-fan opening missteps escalate to the sleeve catching the ribs, then return as the fan avoiding its owner. Family interaction is brief and the plot centers on a daily object."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -49273,15 +49396,15 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 122,
-      "status": "needs_revision",
-      "source_sha256": "2e1d18a13beb52d3b20e473007b7012999cece1bdc1ac9b0298e64609c6d06d8",
+      "status": "pass",
+      "source_sha256": "060c08e9055cd6720a87db74a5acc294c8301e422a163d7aaec4b65c1feb7643",
       "topic_notes": [
-        "family_centered",
-        "household_door_sign_and_interruptions",
-        "duplicate_active_quiet_work_and_door_sign_mechanisms",
-        "candidate_for_replacement"
+        "family_scene_limited",
+        "lost_earring_search",
+        "sequin_as_search_badge",
+        "sleeve_medal_callback"
       ],
-      "notes": "Four-field review found the messages and yoga-at-the-kitchen-door gag coherent, but active `long_home_family_08-0080` and another reviewed card use the same quiet-activity interruption/door-sign/food-at-the-door mechanism. Preserve source and replace with a distinct bit."
+      "notes": "Root manually reviewed all four fields and exact candidate SHA 13d44cafdd74e12deb5c3cf964fa80f34bc12707dbb8cc53eaa40c1727a2e054; agent05 independently approved that exact version at 266/266 after corrections to 反光 faan2, 閃光 sim2, 最閃 sim2, 勾住 ngau1, and after the Simplified translation was synchronized to the temporary search-team badge. The earring search escalates from couch seams to cushions and resolves at the sweater collar; the sequin badge returns as a sleeve-medal callback. Family context is limited."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -49369,15 +49492,14 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 132,
-      "status": "needs_revision",
-      "source_sha256": "89e72cd71dd1a1f01b44684791fa50dfb2567b18bebaec6e0e342999e0972847",
+      "status": "pass",
+      "source_sha256": "8d253d37501ce832063e47070eaa2388cda8789bdf0fbd08710bddd79851de28",
       "topic_notes": [
-        "family_centered",
-        "router_video_call_interruption",
-        "duplicate_active_video_call_router_mechanisms",
-        "candidate_for_replacement"
+        "family_scene_limited",
+        "speaker_notification_interruptions",
+        "bluetooth_reconnect_callback"
       ],
-      "notes": "Four-field review found the tart callback works, but the router/video-call freeze and position troubleshooting repeat existing active home-call/network stories. Keep source row and remove this duplicate mechanism from the final selection."
+      "notes": "Root manually reviewed story, contextual Jyutping, complete Simplified Mandarin, and matching story prompt. Independent exact-version review approved SHA e3f1adf0269e22ae6e09dc07c0101d6fcfb0a33158ae6660172d3633c4c3d2f5 at 244/244, with no hard tonal or action-logic issue. System sounds interrupt a song, Father mistakes them for performers, and the Bluetooth reconnect notice earns the final reply; topic remains a light family scene."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -49406,16 +49528,15 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 136,
-      "status": "needs_revision",
-      "source_sha256": "30b59487ca0669c33f24bbf1ee204ddc075affe62bc4003430e9413ee347b548",
+      "status": "pass",
+      "source_sha256": "79c8fd0a1a8b486974c2514f62562c6bfa8621f525034aa1c6103d1049415227",
       "topic_notes": [
-        "family_centered",
-        "paper_boat_and_park",
-        "duplicate_active_paper_boat_mechanism",
-        "warm_scene_weak_payoff",
-        "candidate_for_replacement"
+        "family_as_setting",
+        "standup_life_bit",
+        "physical_prop_callback",
+        "contextual_jyutping_rechecked"
       ],
-      "notes": "Four-field review found the “救船員” wordplay readable, but the wet paper-boat setup overlaps active `long_family_finance_services_04-0001`; the card then turns into a warm park outing. Preserve source and seek a distinct, stronger replacement."
+      "notes": "A father weighs a backpack while supporting its base, then mistakes changing scale readings for the bag getting heavier; next-day elevator callback. Root checked four fields and 239/239 contextual Jyutping; agent05 exact review approved. Excluded 06-0027 is documented only as historical rejected-candidate comparison, not active neighbor."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -49490,16 +49611,15 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 144,
-      "status": "needs_revision",
-      "source_sha256": "5c54a8b11dfe9d9d74d3511a2698a4c4c5df32e12120b41579e8f3ecd291d7cc",
+      "status": "pass",
+      "source_sha256": "3d13c50c57ac3579dc8cdd637b4a38984c5d258f284bbeef75a39761d27d46fb",
       "topic_notes": [
-        "family_centered",
-        "family_photo_album_and_old_ticket",
-        "duplicate_active_old_ticket_family_memory",
-        "weak_reversal",
-        "candidate_for_replacement"
+        "family_scene_limited",
+        "bus_slowdown_misread_as_stop",
+        "stand_sit_timing_escalation",
+        "standup_callback"
       ],
-      "notes": "Four-field review found the lost boat ticket and hat detail coherent, but the family-photo album memory/identity mechanism is close to active `long_family_finance_services_06-0064`; the reversal is mild. Keep source and seek a less repetitive replacement."
+      "notes": "Root manually reviewed all four fields and the current candidate SHA 26338fe2e36aae3d3e832b4547394620c176d57e30607f4c4f849380a9cf03c1. Agent05 independently reviewed this exact version at 258/258 after active neighbor IDs were corrected. It differs from bus seat/sun exchange, restaurant bus-watching, and voice-message route recall; the central joke is repeated standing and overcorrecting at the actual stop."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -49560,29 +49680,32 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 151,
-      "status": "needs_revision",
-      "source_sha256": "85f8180f092cb1f23569ca517f388867caf89c0207083394308b01d46274727b",
+      "status": "pass",
+      "source_sha256": "6a357d9cd50f851061db3f654a87525d776dccf620f67bd2afc52cb6ea77e458",
       "topic_notes": [
-        "family_centered",
-        "bathroom_exam_revision",
-        "pinyin_error_paau3_mut6",
-        "topic_repetition",
-        "candidate_for_replacement"
+        "family_cast_background_only",
+        "wireless_mouse_misuse",
+        "surface_sensor_confusion",
+        "wireless_range_callback",
+        "technology_life_bit",
+        "no_money_center"
       ],
-      "notes": "Four-field review found a visual bathroom study scene, but `泡沫` is a hard Jyutping error (`pou5 mut6`, not `paau3 mut6`). The sibling exam/family scene is also central. Preserve the original row; replace this slot unless rewritten and fully rechecked."
+      "notes": "Root manually reviewed the story, contextual Jyutping, complete Mandarin translation, and matching story-practice prompt. Independent exact review confirmed 285/285 alignment and found `差啲` needed `di1`, corrected in the accepted revision; `滑鼠 waat6 syu2`, `摺 zip3`, `枱 toi2`, and `確認 kok3 jing6` were checked. Active comparisons 03-0082 (video framing) and 03-0099 (robot vacuum) have different mechanisms. The story keeps family only as cast/background and has no money-centered plot."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 152,
-      "status": "needs_revision",
-      "source_sha256": "b6abe36dc27673ad5626eba92b757ea0baadd0fa126396138d77ee9bca496d19",
+      "status": "pass",
+      "source_sha256": "dbdb7410ce34ad5cef619862adbdd2fee44b75cbae37bd04adaaa514971d71f7",
       "topic_notes": [
-        "family_centered",
-        "weak_comedy_arc",
-        "callback_feels_forced",
+        "community_taichi_class",
+        "keyring_noise_interrupts_motion",
+        "silencing_keys_blocks_tai_chi",
+        "post_class_keyring_callback",
+        "family_as_companion",
         "no_money_mainline"
       ],
-      "notes": "Root manually rechecked the story, contextual Jyutping, complete Simplified gloss and story-specific prompt; corrected 樽 to zeon1. The salty-coffee-to-fish-marinade turn still feels forced and the family kitchen is central, so keep as needs_revision rather than count a pass; consider rewrite or replacement."
+      "notes": "Root manually reviewed story, contextual Jyutping/tones, complete Simplified Mandarin translation, and matching practice prompt. Independent exact review approved 265/265; no definite hard pinyin error. Active 01-0081 shares a Tai Chi class setting but uses a self-conscious beginner and chair; 03-0100 uses a cutting-board choir rhythm; 05-0027 uses a wrong-channel party dance. Here a keyring rattles on a bottle and shirt button, interrupts the cousin’s movements as she tries to silence it, then rings again in her palm after class. Medium setting-neighbor with 01-0081, distinct comedy mechanism; family is companion context only, with no money-centered plot."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -49743,15 +49866,17 @@
     {
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 170,
-      "status": "needs_revision",
-      "source_sha256": "d6d71f0ba5cd18a4e25ca1641fb7e597d98fe6a8527b1058826739ab933381a2",
+      "status": "pass",
+      "source_sha256": "8390a326d10f59a4d99690372c1abb0f719ad8511f0fc5fb46c6449164756c07",
       "topic_notes": [
-        "family_centered",
-        "remote_work_door_sign_and_soup_delivery",
-        "duplicate_active_door_sign_food_delivery_mechanism",
-        "candidate_for_replacement"
+        "friend_classmate_scene",
+        "sports_center_locker_latch",
+        "misaligned_latch_causality",
+        "repeated_confirmation_callback",
+        "standup_life_bit",
+        "source_category_family_but_story_not_family_centered"
       ],
-      "notes": "Four-field review found the sign, soup-at-door and father’s misunderstanding repeat active `long_home_family_08-0080` closely, including its recording/broadcast payoff. Preserve source and replace this duplicate."
+      "notes": "Root manually reviewed all four fields and latch alignment/locking sequence. Agent06 exact-reviewed this precise SHA after correcting 郁 juk1; 228/228 alignment and neighbor mechanisms passed. Source category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_08.json",
@@ -50042,16 +50167,17 @@
     {
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 0,
-      "status": "needs_revision",
-      "source_sha256": "52d6a4d5c96df0a441a0207a5c5d6f1791cce93dc05f21f9776bcdf62b30aac4",
+      "status": "pass",
+      "source_sha256": "6d20551e78064d21a7ed4e21f3bbfca4bf8cac734e54b089fbe93477c1d2c9dc",
       "topic_notes": [
-        "family_centered",
-        "stove_checklist_process",
-        "forgot_ticket_second_departure",
-        "weak_payoff",
-        "candidate_for_replacement"
+        "friend_scene",
+        "slow_rotating_globe",
+        "guide_role_escalation",
+        "public_exhibit",
+        "standup_life_bit",
+        "source_category_family_but_story_not_family_centered"
       ],
-      "notes": "Read all four fields and checked the current row hash. The stove check and ticket checklist are coherent, but the practical checklist dominates; the only payoff is a mild “look at stove, feel for ticket” line, without a strong behavior-driven turn. Preserve source and seek a stronger replacement."
+      "notes": "Root manually reviewed all four fields and the rotating-globe tracking/guide-role callback. Agent05 exact-reviewed this precise SHA, 246/246 alignment and active-neighbor mechanism distinction passed. No Macau venue claims; source category/metadata preserved."
     },
     {
       "file": "content/sentence_bank/long_home_family_09.json",

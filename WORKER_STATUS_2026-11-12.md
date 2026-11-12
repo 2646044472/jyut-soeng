@@ -20,3 +20,215 @@
 - Missing old-machine drafts `food_shopping_18[26]` and `[27]` remain recorded for later reconciliation and are not counted as migrated to X.
 
 See `STORY_REVIEW_RECOVERY_CHECKPOINT.md` for detailed review history.
+
+## Active 2,000 oral-review continuation — 2026-11-12
+
+- Re-verified the local repository at `/home/bankey/Desktop/Projects/2646044472/jyut-soeng`, branch `codex/macau-story-upgrade-batch-progress-resume`; HEAD and upstream were both `01a3cd38268f413d30c02522e255b786f57cec33` before this batch. Tracked changes from this batch are limited to three active health rows, both quality ledgers, the 2,000-ID selection summary, generated asset bundle, and generated checklist. Original author drafts and pre-integration rows/ledgers are preserved.
+- Completed all four fields for active `sentence-bank-long_health_services_08-0002`, `08-0003`, and `08-0018`. Independent read-only story and Jyutping reviewers approved the final drafts; root manually rechecked the four fields. Corrected contextual readings `簿 bou6`, `嚟 lei4`, `攞 lo2`, `剩 sing6`, `打 daa2`, added `痛 tung3`, corrected `照 ziu3`, and resolved `乙組 jyut6` from dictionary evidence. 08-0003 Jyutping punctuation was normalized to permitted separators without changing syllables.
+- Their current source hashes are `9b1d9d0657df5cc6d8ca9d62fc405b6f5f447720d7eff66dcc412405e43dc455`, `f9ea531f67f1b9b3c7206968fd76fd108ea3ac5912594dcd995fdf4f374aecf2`, and `983692feb3652def2bbd414636ef186e29566c11bd630333c3d95674bb144224`.
+- Active oral status is now 1,939 pass / 61 needs_revision / 0 pending; active V2 remains 2,000 pass. Source, asset mirror, and both ledger hashes for the three rows match. `python tools/build_assets.py`, `python tools/validate_content.py --require-story-upgrade --min-sentences 2000` (5,000 entries), and `git diff --check` passed after a formatting-only punctuation normalization.
+- A story-review attempt to make several active family rows non-family category-mismatch stories produced drafts but independent story review rejected them for category mismatch and/or overlap with existing improv/umbrella/handwriting stories. Their unpassed drafts remain preserved; none counted as pass.
+- The historical task `01a18c7b-82fd-75b0-9f9a-62ddd8fe9154` was retried through Codex `read_thread` and remained unavailable on the durable host. Continue from this branch and current ledgers; no retired task was restarted.
+- Three additional family-card authoring attempts are being narrowed to single-card drafts; no progress is counted until root and independent story/Jyutping reviews pass. Missing old-machine drafts `food_shopping_18[26]` and `[27]` remain unresolved.
+- Since the last verified remote HEAD, 3 active oral transitions are unpushed. Continue batching toward the ~50-pass push checkpoint; do not exceed 100 unpushed passes. Full Python/Android tests, final 2,000-card semantic/topic/repetition audit, APK, and Release remain unrun.
+
+## Additional active pass — 2026-11-12
+
+- Rewrote active `sentence-bank-long_home_family_05-0065` as a sibling cold-joke scene with a timer-as-audience callback. Root read all four fields; independent story review found category fit and distinct-enough mechanism (noted light overlap with an active timer interruption); independent Jyutping review corrected and then rechecked 277/277 syllables. Current row hash: `4aae39c438c5e9f757ea3e91e10b040ec35c7f9f3e2cbfba696cc4a55208bdd8`.
+- Active oral status is now 1,940 pass / 60 needs_revision / 0 pending; V2 remains 2,000 pass. Updated source, both ledgers, selection aggregates, asset mirror, and checklist. `python tools/build_assets.py`, `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, `python tools/validate_content.py --require-story-upgrade --min-sentences 2000` (5,000 entries), and `git diff --check` passed.
+- Four active oral transitions are currently unpushed from the last verified remote SHA; continue to the ~50-transition checkpoint before committing/pushing.
+
+## Additional active pass and candidate screening — 2026-11-12
+
+- Rewrote active `sentence-bank-long_home_family_05-0077` as a two-round family telephone game. The final 299-Han/299-syllable version was manually checked by root; independent story review passed the clarified phrase-degradation chain and callback, and independent Jyutping review found no remaining definite mismatch after correcting `忍 jan2`. Current row hash: `674a54adcc1fc537f013a8af7421ac0ad2e46898aa865a18b8aa96a35fb104ec`.
+- Active oral status is now 1,941 pass / 59 needs_revision / 0 pending; V2 remains 2,000 pass. Source, both ledgers, selection aggregate, asset mirror, and checklist were regenerated. `python tools/build_assets.py`, `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, `python tools/validate_content.py --require-story-upgrade --min-sentences 2000` (5,000 entries), and `git diff --check` passed.
+- Preserved and rejected unpassed drafts: 05-0021 improv/calligraphy drafts overlap active improv/calligraphy stories; its charades/glasses draft duplicates an active family charades/glasses card. 05-0050 subtitle/turn-taking draft duplicates an active family conversation rule story. 06-0009 umbrella/improv draft duplicates an active timed improv/umbrella story; 08-0059 telescope draft duplicates existing telescope stories and has a lens-cap logic flaw. Excluded `long_food_shopping_01-0037` remains V2 pass/oral pending; two oral reviews found its current versions not ready due weak stand-up arc/group-show overlap and Jyutping errors. None of these candidates changed active membership or pass counts.
+- Five active oral transitions are unpushed since the last verified remote SHA; continue to the ~50-transition checkpoint. Full Python/Android tests, semantic/topic/repetition audit, APK, and Release remain outstanding.
+
+## Additional active oral pass — 2026-11-12
+
+- Rewrote active `sentence-bank-long_home_family_05-0050` (category `家庭相處`) as a flat-pack shoe-rack scene: dad turns hole-position instructions into a shoe queue and ticket inspection, then becomes the shop clerk during repeated fittings and closes with “執舖”. Root read all four fields; independent story review passed category fit, causal callback and non-duplication (noted only a distinct neighboring shoe-storage story); independent Jyutping review verified 247 Han characters / 247 syllables and checked contextual readings. New row hash: `f58758a7d11d3de0298f113df6b447dc0ef1bb692d9b0eb1ae71a5e3320f8864`.
+- Updated the source, V2 and oral hashes, oral status, selection counts and active bundle. Active V2 remains 2,000 pass; oral is now **1,942 pass / 58 needs_revision / 0 pending**; active membership/category counts unchanged. Preserved the pre-integration row and ledger records in `content/story_review_drafts/long_home_family_05_0050_source_and_ledgers_before_oral_rewrite_2026-11-12.json` and the candidate draft separately.
+- `python tools/build_assets.py`, `python tools/story_quality_progress.py --output STORY_QUALITY_CHECKLIST.md`, `python tools/validate_content.py --require-story-upgrade --min-sentences 2000` (5,000 entries), and `git diff --check` passed. Local and fetched remote remain at `01a3cd38268f413d30c02522e255b786f57cec33`; six active transitions are unpushed since that SHA.
+- Separate `05-0003` candidates were rejected for repeating the active charades and food-rating/microphone/tasting mechanisms. The food-review candidate also missed `kei4` in `星期`; no source or pass count changed for it, and a distinct rewrite is still needed. Three parallel authoring requests for `06-0018`, `06-0032`, and `08-0182` are underway; root remains the only shared-workspace writer. No tests, final semantic/topic/repetition audit, release, tag, APK, deployment or payment were run/performed.
+
+## Additional active oral pass — 2026-11-12 (continued)
+
+- Rewrote active `sentence-bank-long_home_family_06-0018` as a father nervously teaching his daughter to ride a bicycle: after letting go, he keeps running and reaching for the tail of the bike, nearly colliding with a bench; mom points out he is still “holding air”. Independent review passed story, category fit, distinctness from active cycling repair/navigation stories, translation, prompt, and Jyutping; root polished the callback to repeat “扶住車尾”. Current source hash: `ca90d62f910c5b0d6059f939d0c072efb07aa5f693b897badc31b4e8ac933e3f` (249/249 Han/syllables).
+- Updated both ledger hashes/statuses, selection and oral-ledger summaries, source row, and generated app asset. Active oral is **1,943 pass / 57 needs_revision / 0 pending**, V2 remains 2,000 pass; membership/category counts unchanged. Pre-integration source and ledger records are preserved in `content/story_review_drafts/long_home_family_06_0018_source_and_ledgers_before_bicycle_rewrite_2026-11-12.json`.
+- Build, progress checklist generation, 5,000-entry content validation and `git diff --check` passed. Local/fetched remote base is still `01a3cd38268f413d30c02522e255b786f57cec33`; seven active pass transitions remain unpushed.
+- Additional rejected drafts are preserved: `05-0003` food-rating/microphone story duplicates active food-review/tasting stories and lacked `kei4` in its initial Jyutping; `08-0182` jump-rope story duplicates active `long_family_finance_services_06-0049`. Multiple writer attempts on `05-0003` and `06-0032` yielded no distinct complete candidate; `08-0182` needs a new non-duplicate mechanism. No full tests or final 2,000-card semantic/topic/repetition audit has run; no APK/Release/tag/deploy/payment.
+
+## Additional active oral pass — 2026-11-12 (third card in this continuation)
+
+- Rewrote active `sentence-bank-long_home_family_05-0003` as a relative struggling with grandma’s old horizontal door latch: repeated wrong-direction attempts, backing up and bending before grandma demonstrates the latch, then apologizing and thanking the door so it will not quiz him next time. Independent story review confirmed the behavior arc and distinctness from active `long_home_family_01-0021`’s sliding-door rebound; independent Jyutping review checked the final 232/232 alignment. Root polished `個門可能卡住咗` and removed an unnecessary “no rebound” mention; translation was synchronized. Current source hash: `b5424beb947b5ddbfccdfa834eb768f32a4c6b4e0f0bfbfb278cd1200573c63a`.
+- Source, V2 and oral records, active bundle, selection counts and both audit summaries are synchronized. Active V2 stays 2,000 pass; oral now **1,944 pass / 56 needs_revision / 0 pending**. Active membership, IDs, order and category totals are unchanged. Pre-integration row and ledgers are preserved in `content/story_review_drafts/long_home_family_05_0003_source_and_ledgers_before_doorlatch_rewrite_2026-11-12.json`.
+- `python tools/build_assets.py`, checklist generation, 5,000-entry validator, and `git diff --check` passed after integration. Fetched remote/local base remains `01a3cd38268f413d30c02522e255b786f57cec33`; nine active oral pass transitions are unpushed.
+- Prior rejected candidate decisions remain recorded: `05-0003` charades/food-rating versions and `08-0182` jumping-rope version were duplicate mechanisms; no source updates or counts were made for those drafts. New authoring attempts are underway on `06-0032`, `05-0034`, and `08-0182`; root is sole shared-workspace writer. Full tests and final semantic/topic/repetition audit remain unrun; no release/tag/APK/deployment/payment.
+
+## Active oral pass batch — 2026-11-12 (three 08-family stories)
+
+- Continued on `codex/macau-story-upgrade-batch-progress-resume`, with fetched `origin` and live remote ref both at `01a3cd38268f413d30c02522e255b786f57cec33` before this batch. Root remained the sole workspace writer; agents returned text only. No branch change or destructive Git action.
+- Rewrote active `sentence-bank-long_home_family_08-0051` as a cling-wrap roll that escapes across the table and ends as a transparent-apron callback (259 Han / 259 Jyutping syllables); independent reviewer checked the causal story and readings. Medium visual resemblance to active sticky-food/person jokes is recorded for the final repetition audit; the main roll-and-chase mechanism differs. Current row SHA: `1f95849cfeb5f005d2698f7040eaf21e597493fd177cc01313d4988190d6842c`.
+- Rewrote `08-0054` as a rice-crust-mode serving relay that ends with the daughter telling Dad to save the cooker (278/278). Independent reviewer checked all four fields and verified the cooker-mode premise against manufacturer material; no duplicate mechanism found in the reviewed neighbor. Current row SHA: `70ef03c4d8407ffb151ff0b64163c87dede3e9b349dc06f102c6e1a5d33b0cf9`.
+- Rewrote `08-0057` as an overloaded furniture move that loops Dad back to the sofa (285/285). Root spotted and corrected a doubtful `卡喺 / kaat3`; the reviewed final uses `夾喺 / gaap3` and `郁又郁唔到`, confirmed by an independent reviewer. Current row SHA: `68df931554f75083d2c9e56b8325ae79b7f08cfc70fd6043185c387086626a71`.
+- Preserved each pre-edit row and both ledger entries plus the final four-field candidate in `content/story_review_drafts/`. Source categories, IDs, order, metadata and active membership remain unchanged. Source total is 5,000; active/excluded remains 2,000/3,000. Active V2 is 2,000 pass; active oral is **1,947 pass / 53 needs_revision / 0 pending**. Family/finance category totals remain 388/216.
+- Rebuilt the 5,000-entry app content bundle and mechanical checklist; `python tools/validate_content.py --require-story-upgrade --min-sentences 2000` passed (`Validated 5000 entries`); `git diff --check` passed. Full Python/Android tests and final semantic/topic/repetition audit remain unrun. Full V2 and oral source-hash audits show zero stale rows; the three app-mirror entries match all four source fields.
+- Relative to remote SHA `01a3cd38268f413d30c02522e255b786f57cec33`, there are 11 genuine active oral nonpass-to-pass transitions; continue toward the ~50-pass checkpoint, staying below 100 unpushed. No APK/Release/tag/deploy/payment. Pi/Tibo remain paused. Missing old-machine drafts `food_shopping_18[26]` and `[27]` remain unresolved and are not counted as migrated.
+
+## Nonfamily replacement screen — 2026-11-12 (no membership change)
+
+- The remaining 53 active oral `needs_revision` rows are all in the source category `家庭相處`. Read-only reviewers independently recommended replacing, rather than force-rewriting, `long_home_family_05-0021` (trip-photo/group-selfie mechanism), `05-0034` (grandparent itinerary and rest scheduling), `05-0068` (meal rotation/egg-shell mechanism), `05-0096` (bathroom queue/timetable), and `long_home_family_06-0032` (uncle visit/box sorting/photo reminiscence). These remain active and unchanged until a fully reviewed replacement is available; no card was removed or counted.
+- Screened excluded nonfamily food-shopping replacements. `long_food_shopping_01-0037` repeats a checkout-coin queue spectacle; `01-0055` centers abnormal dairy/food-safety handling and a family refund; neither received a candidate. In files 08–13, screened excluded candidates were already marked V2 needs_revision; the promising delivery/customer-service, rainy delivery and tea-tasting mechanics overlap active stories. In files 14–19, `19-0013` is a family roast-meat hosting story; 14-0025, 14-0033 and 14-0036 were flagged for family food-safety content or active seafood/sourdough/noodle-mechanism overlap. No alternate has been selected or promoted.
+- Continue testing only source-aligned, nonfamily/nonmoney candidates from the original 5,000; root remains sole writer. The three accepted 08-family rewrites remain the only new passes in this batch, so the authoritative active oral count is 1,947 pass / 53 needs_revision / 0 pending, with 11 genuine pass transitions since remote SHA `01a3cd38268f413d30c02522e255b786f57cec33`.
+
+## Goal continuation — 2026-11-12
+
+- Current active oral ledger: **1,948 pass / 52 needs_revision / 0 pending** (V2 active 2,000 pass). Active `sentence-bank-long_home_family_06-0048` is manually rechecked and independently approved on its exact final four fields; hash `bc68664b69cf046922c53363a4da29fdf29e47ef39ebad66bdb6ded67331f22c`. Source, V2/oral ledgers, bundle mirror and selection counters match; pre-edit snapshots are retained. Active IDs/order/category/metadata are unchanged.
+- Build assets, refresh checklist, 5,000-entry story validator (`--require-story-upgrade --min-sentences 2000`), and `git diff --check` passed. Full semantic/topic/repetition audit and Android tests remain pending. The prior Python suite result (7 run / 6 passed / 0 failed / 1 skipped) predates this content change and must be rerun after freeze.
+- Existing isolated Android toolchain was located and confirmed: Temurin 21.0.13, Gradle 8.7, platform/build-tools 35, ADB 37.0.1. No install or global environment change.
+- Since verified remote `01a3cd38268f413d30c02522e255b786f57cec33`, 12 true active oral nonpass-to-pass transitions are unpushed; under the ~50-card checkpoint. 05-0072 root revision awaits independent confirmation; 08-0182 soup and mosquito/glasses candidates were not accepted; toothpaste-tube idea remains a precheck. No release, APK, tag, deployment, payment, or tests this turn. Pi/Tibo remain paused.
+
+## Additional active oral pass — 2026-11-12 (05-0072)
+
+- `sentence-bank-long_home_family_05-0072` passed exact four-field review at 260/260 Han/Jyutping after root clarified `你條片 / nei5 tiu4 pin2` and the shoe-to-chair collision. Independent reviewer approved; active chair neighbors have distinct mechanisms. Current row hash `6ce3f4d7938e199565b1e58e737d4a51fe8dba9ea6d98253669fe8df94a02694`.
+- Pre-edit source/ledger/app/selection snapshot retained. Source, V2 and oral ledger hashes, generated bundle and progress summary are synchronized; ID/order/category/metadata unchanged. Active oral is **1,949/2,000**, 51 remain.
+- 13 active oral transitions are unpushed since verified SHA `01a3cd38268f413d30c02522e255b786f57cec33`; remain under the ~50 batch threshold. Build, checklist, validator and diff check passed. Full tests/repetition audit still pending. No release/APK/tag/deploy/payment; Pi/Tibo paused.
+
+## 当前续审检查点 — 2026-11-12（06-0032 门铰生活段子）
+
+- 活动卡 `long_home_family_06-0032` 已从家庭旧相片回忆改为舅父夜间开门引发的“练默剧”生活段子；门修好后，全家仍贴墙轻行，笑点来自行为升级与回扣。故事 264 字，粤拼 264 音节；root 检查四字段，独立 reviewer 对精确修订版复核并通过。初稿 `裝修` 的「修」曾误写 `zau1`，已修正为 `sau1`；其他字段对应无误。`門鉸 mun4 gaau3`、`斟 zam1`、`側 zak1` 查过 Words.hk，`吱 zi1` 查过 Jyutdictionary。与活动 04-0042、07-0001 的主要机制不同。
+- 原卡、原四字段、两本台账、bundle 行及选集统计已在 `content/story_review_drafts/long_home_family_06_0032_source_and_ledgers_before_squeaky_hinge_rewrite_2026-11-12.json` 留档；稿件另存为 `long_home_family_06_0032_candidate_squeaky_hinge_root_revision2_2026-11-12.md`。仅改四个语言字段及审核哈希/说明，ID、顺序、分类、元数据和 active 成员均不变。
+- 活动总计仍 2,000 张；V2 为 2,000 pass；口语复审更新为 **1,950 pass / 50 needs_revision / 0 pending**。本轮与此前累计有 14 张活动口审非通过转通过，自远端 `01a3cd38268f413d30c02522e255b786f57cec33` 起尚未提交，未到约 50 张 checkpoint。
+- 已重建 5,000 项内容镜像、刷新机械 checklist；`validate_content.py --require-story-upgrade --min-sentences 2000`、`git diff --check` 通过。完整 Python/Android 测试及全 2,000 张语义、题材、重复机制审计仍未运行；其他代理候稿未集成、未计数。未提交、未推送、未发 APK/Release/tag、未部署、未付款；Pi/Tibo 保持暂停。
+
+## Active oral-review checkpoint — 2026-11-12 (05-0068; Python test handoff)
+
+- Integrated active sentence-bank-long_home_family_05-0068 as a silicone ice-tray stand-up life bit after root four-field review and two independent exact-version approvals. Corrected both 枱面 to toi2 min2, 成枱冰 to seng4 toi4, and the full Mandarin rendering; 300 Han/300 Jyutping. Current source SHA256: e33c08f73d679d54465556f678c910e6ad0ff952f29ddec348504c1723da0ca3.
+- Source row, V2/oral records, app mirror, and selection aggregates are synchronized. ID sentence-bank-long_home_family_05-0068, index/order, category and metadata unchanged. Snapshot saved to content/story_review_drafts/long_home_family_05_0068_source_ledgers_app_before_ice_tray_integration_2026-11-12.json.
+- Authoritative counts: active 2,000 / excluded 3,000; active V2 2,000 pass; active oral 1,951 pass / 49 needs_revision / 0 pending. Family/finance category counts 388/216. No membership changes.
+- Asset bundle regenerated (5,000 entries); mechanical checklist refreshed; validate_content.py --require-story-upgrade --min-sentences 2000 and git diff --check passed.
+- Existing worker ran python3 -m unittest discover -s tools/tests -p 'test*.py' read-only: exit 0; 7 tests, 6 passed, 1 skipped, 0 failed. Skip is test_all_source_cards_are_completed_stories (explicit environment flag would audit all 5,000 source rows, outside the user's active 2,000 scope). Exact before/after source, ledgers, selection, bundle, Git status and HEAD snapshots matched. Full worker hash evidence is in STORY_REVIEW_RECOVERY_CHECKPOINT.md.
+- Active 06-0052 dust/cleaning draft rejected for active-mechanism duplication with 03-0063, tone errors and unclear blind operation. 05-0021 improv-class/worklist candidate rejected for category mismatch, duplication, and Jyutping errors. Both remain uncounted drafts; original source/ledger rows are untouched.
+- Active oral transitions since verified remote SHA 01a3cd38268f413d30c02522e255b786f57cec33: 15, below the ~50 push checkpoint. No commit/push. The 08-0059 telescope exact review and a distinct replacement action-chain screen for 06-0052 are in progress. Android tests remain unrun; root will schedule one low-resource Gradle job after content freeze. No Release/APK/tag/deploy/payment; Pi/Tibo remain paused.
+- Exact review rejected active `08-0059` telescope candidate: blocked lens-cap logic, unprepared left/right gag, active neighbors `09-0010` and `03-0034`, and six missing Jyutping syllables plus `粒 lap6` / malformed `ngaaam1`. Draft retained; no source or count change.
+
+## Goal continuation — 2026-11-12
+
+- Current active oral ledger: **1,952 pass / 48 needs_revision / 0 pending**; active V2 **2,000 pass**. One true transition integrated this turn: `long_home_family_05[20]` rewritten into the pencil-sharpener autumn-leaves life bit, with 297/297 Han/Jyutping, exact final independent review, current hashes, and app mirror. Backup: `content/story_review_drafts/long_home_family_05_0021_source_ledgers_app_before_pencil_sharpener_integration_2026-11-12.json`.
+- Bundle and checklist rebuilt; 5,000-row validator and `git diff --check` pass. There are 16 unpushed active oral pass transitions since `01a3cd38268f413d30c02522e255b786f57cec33`; no push yet. Full semantic/topic/repetition audit and Android tests remain incomplete. A prior Python suite run before this content change was 7 run / 6 passed / 0 failed / 1 skipped; rerun after freeze is pending.
+- A1/B1/C1 are running as disjoint draft-only author batches; root alone integrates active source, ledgers, selection and bundle. Unresolved pool is frozen at 48 needs_revision; previously passed rows remain out of scope.
+
+## Goal continuation — 2026-11-12 rapid review handoff
+
+- Active oral status is **1,954 pass / 46 needs_revision / 0 pending**; active V2 remains **2,000 pass**, library selection remains 2,000 active and 3,000 excluded. Count is derived from the 2,000 active IDs and current oral ledger. Two stale count strings were reconciled to 1,952 before these integrations.
+- Integrated `sentence-bank-long_home_family_08-0121` (folding fan) and `08-0133` (speaker notification/reconnect callback) after root four-field review plus agent05 exact-version approval. Source/V2/oral hashes and app mirror match. Backups: `content/story_review_drafts/long_home_family_08_0121_source_ledgers_app_before_integrations_2026-11-12.json` and `content/story_review_drafts/long_home_family_08_0133_source_ledgers_app_before_integration_2026-11-12.json`.
+- Candidate queue: `08-0123` authored by agent08, translation corrected, awaiting agent05 final exact review; `08-0137` and `08-0145` authored by agent08, awaiting agent05 review. B1 `07-0096` and `07-0099` authored by agent06, corrected per cross-review, awaiting agent05 exact re-review; agent06 is drafting remaining `08-0019/0028/0033`. A1 `05-0034/0096/0099` authored by agent05, root-owned four-field review, then agent08 independent review. Root remains sole source/ledger/selection/app writer.
+- Since verified remote/HEAD `01a3cd38268f413d30c02522e255b786f57cec33`, there are **18** active oral pass transitions, below the ~50-card push checkpoint. No commit/push yet. No tests run after the latest content integrations; Python/Android tests and full semantic/topic/repetition audit remain pending after freeze. Then build and release the approved APK; no release has occurred in this batch. Pi/Tibo remain paused.
+
+## Rapid review progress update — 2026-11-12
+
+- Current active oral ledger: **1,956 pass / 44 needs_revision / 0 pending**; active set 2,000 / excluded source set 3,000. Integrated `08-0123` after exact agent05 review (translation now correctly names the temporary search-team badge) and `07-0096` after exact agent05 review (card now seals the cup against the wall). Both receive root four-field review, pre-edit snapshots, current source/V2/oral hashes, and exact app mirrors. Build generated 5,000 entries after each integration.
+- Newly confirmed strong duplicate: `08-0137` water-fountain/tissue-flag candidate shares active `long_family_finance_services_06-0027` water-fountain splash/failed collection/helper-cluster mechanism; keep old draft, do not integrate. Agent08 is replacing it with a distinct family-category life bit. Correct ID is `06-0027` (one-based), not `06-0026`.
+- `07-0099` got an additional manually verified Jyutping repair, `傾斜 king1 ce4`; latest exact draft SHA is `122ecb347cc95d8e28f325be04a193a7f023276f138fdab44abfc5686ab0bbed`; awaiting reviewer confirmation on this exact hash. `08-0019` candidate now exists, awaiting root and independent review. Agent06 continues 08-0028/0033.
+- A1 cross-review by agent08 found `05-0034`, `05-0096`, `05-0099` all mismatched the fixed `家庭相處` category because they were workplace/neighbor-only scenes; also `05-0034 屏幕` was `mok6` instead of `muk6`, and `05-0099` had a weak callback/count typo and active paper-scrap neighbor risk. Agent05 is revising all three with minimal but real family interaction; no source rows changed.
+- Since verified remote/HEAD `01a3cd38268f413d30c02522e255b786f57cec33`, **20** active oral pass transitions are unpushed. Keep the ~50-card commit/push point; no tests have been run after these edits. Full test/repetition audit and authorized APK release remain after content freeze.
+- Root review now holds the first `08-0019` B1 draft: it is outside the fixed family-interaction category, and its claimed active neighbors `01-0018/01-0067` are not the print-machine stories described (the actual rows are family ring toss and a sensor faucet). Original draft retained; agent06 is preparing a category-aligned revision and must use source-verified neighbor IDs. No source or pass count changed.
+
+- Count basis: compared current active ledger against `HEAD:STORY_QUALITY_ORAL_REAUDIT.json`; HEAD was 1,936 pass / 64 needs_revision, current is 1,956/44, so exactly 20 new active pass transitions.
+
+
+## Rapid review handoff — 2026-11-12
+
+- Current active oral is **1,959 pass / 41 needs_revision / 0 pending**, with 2,000 active cards and 3,000 excluded source cards preserved. Four-field source rows, V2/oral hashes and app mirrors are current for newly integrated cards `07-0099`, `08-0145`, and `05-0099`; each has a pre-edit snapshot. Bundle rebuilt with 5,000 entries.
+- Since exact baseline `HEAD:STORY_QUALITY_ORAL_REAUDIT.json` (1,936/64), **23** active pass transitions are unpushed. No new tests after content edits; Python/Android suites remain for final freeze.
+- Parallel handoff is fixed: agent05 reviews B1 `08-0019/0028/0033`; agent06 reviews latest A1 `05-0034/0096`; agent08 is authoring a third, distinct `08-0137` mechanism. Current 05-0034/0096 drafts await exact reviews; 05-0099 is integrated. `08-0137` water-fountain and phone-font drafts are retained as rejected for active mechanism overlap. Root alone integrates source, ledgers, selection and bundle.
+
+
+## Goal continuation — 2026-11-12 (四卡入账；Python回归)
+
+- 逐卡口语台账与活动 ID 当前为 **1,965 pass / 35 needs_revision / 0 pending**；活动库 2,000 张、V2 2,000 pass、排除源卡 3,000 张。选库摘要已由 2,000 个活动 ID 的逐卡口语行重新计算，计数与口语总账一致。源卡行、ID、顺序、类别、元数据和成员未变。
+- 入账卡：`08-0019`碎纸机反吐、`08-0028`过胶门牌、`08-0033`颈枕午休、`08-0137`行李磅升降机。每张经 root 四字段人工复核及独立 exact-version reviewer；分别 235/235、260/260、221/221、239/239。已修正 `指揮 zi2 fai1`、`幼 jau3`、`午休 ng5 jau1`、`秤 cing3`，并更正 08-0137 的排除邻卡标签及复点数。源/V2/口语 hash 和 app 四字段镜像已核一致。四张原行、账本和 app 镜像快照保存在 `content/story_review_drafts/long_home_family_08_0019_source_ledgers_app_before_integration_2026-11-12.json`、`...08_0028...`、`...08_0033...`、`...08_0137...`。
+- `build_assets.py` 重建 5,000 条资源；`story_quality_progress.py` 刷新 checklist；`validate_content.py --require-story-upgrade --min-sentences 2000` 验证通过 5,000 条；`git diff --check` 通过。只读 Python 回归 `python3 -m unittest discover -s tools/tests -p 'test*.py'`：7 项，6 通过、1 跳过、0 失败，退出码 0。跳过项要求 `JYUT_SOENG_REQUIRE_COMPLETE_STORIES=1` 并覆盖全部 5,000 张；此次单元回归没有修改文件。Android 未运行。
+- 本次回归快照：HEAD 与远端 `codex/macau-story-upgrade-batch-progress-resume` 均为 `01a3cd38268f413d30c02522e255b786f57cec33`；口语 ledger SHA `a08bfd96270a03d841f58fdef135d38cebc6b8579772690afcc2eb864b5d96e2`；V2 ledger `18834f4d108cd250b40a97ae4f4d1b9842a257ce09ad6d69dc00a5ec0acf8778`；selection `5f33db4da3a566682eef34b49b66586bb24fa23cc2d46a807c33a6112ca90d45`；app bundle `0702dc5edf37563fd8f3ff14c6ea89c283ce1c7a6bb1acf6fe3c2d609e486661`；source `long_home_family_08.json` `7bf7c39d5c3448ae5439097b6c8762aa7cb5eda8ba860266fdd5e0061396023f`；worktree status snapshot `f2e28a77e7365983f7a8c1b4fa218266423cec245ead24b8e327574435f499bb`。
+- 自 HEAD 的真实活动口审非通过→通过迁移为 **29**（HEAD 1,936/64，当前 1,965/35），未到约 50 张推送点；不提交、不推送。APK/Release 未发布；Pi/Tibo 保持暂停。
+- 当前候稿：08-0059 已修 `轉半圈/反轉 zyun3`，agent06 exact 复核通过，230/230，仍待 root 审核/入账。06-0009 首稿因家庭互动弱且与活动 06-0018 框架接近退回；06-0052 床笠稿与活动 05-0024 折叠机制重复，且 `床笠 cong4 lap1` 误音，均保留草稿并待作者重写。08-0152/0153 正在并行起草；其他 writer/reviewer 分工已在 backlog 更新。
+
+
+## Goal continuation — 2026-11-12 (08-0059入账)
+
+- 当前逐卡口语复审 **1,966 pass / 34 needs_revision / 0 pending**；2,000 active IDs、2,000 V2 pass、3,000 excluded source rows。新过卡 `sentence-bank-long_home_family_08-0059`（除毛球机／袖口点头回扣）由 root 四字段人工复核、agent06 exact review；两处 `轉` 已修为 `zyun3`，正文与粤拼 230/230。源、V2、oral hash 和 app 四字段镜像一致。快照：`content/story_review_drafts/long_home_family_08_0059_source_ledgers_app_before_integration_2026-11-12.json`。
+- 重建 5,000 项 app bundle、刷新 mechanical checklist、`validate_content.py --require-story-upgrade --min-sentences 2000` 验证 5,000 项通过，`git diff --check` 通过。只读 Python 回归 7 项（6 过、1 跳过、0 失败）是在前一集成快照 1,965/35 时运行；08-0059 入账后的全量回归与最终测试待内容冻结后重跑。Android 未运行。
+- 08-0059 入账后快照：oral ledger `cc97156f9fb4b65d155020e8fd4edbf3747c7bb70358cbecacda804574d47ee0`；V2 ledger `e6fcaa4e9bfca4919a8cf9a3bc8542d7a6152c7cff3d62e275ab55e11d4dfeee`；selection `59cb59d22a66e650e385743d198d5c3a11fac49724e55b443611850f7dda178e`；app bundle `20d36e7c0fdf0019bb25eb8346d7a4321541912a61aef1f30e7449da38cc70aa`；`long_home_family_08.json` `6dc36bd23c0c02d76bd737daf8d126e20528bc4a2df62654dee12d1bae60b83f`。
+- 从 HEAD `01a3cd38268f413d30c02522e255b786f57cec33` 有 30 个真实活动口审通过迁移，未到约50张推送点；本地与远端仍在该 SHA，不提交/推送。APK/Release未发布，Pi/Tibo暂停。
+- 独立复核退回 06-0009（家庭互动偏弱，和活动 06-0018 框架接近）与 06-0052（床笠折叠机制重复活动 05-0024，且 `床笠 cong4 lap1` 错调）；原候稿保留等待作者重写。08-0059 已通过；agent08 另写 08-0152/0153，agent06 重写 06 卡并接着起草 08-0062，agent05 起草 08-0069/0070，全部交叉分工且只动草稿。
+
+
+## Goal continuation — 2026-11-12 (08-0152 wireless mouse integrated)
+
+- Active set remains 2,000 IDs; all 5,000 original source rows remain present; V2 remains 2,000 pass. Oral status is now **1,967 pass / 33 needs_revision / 0 pending**. Only 08-0152 made a genuine transition in this continuation; the ledger and selection summary were recomputed from the active cards and agree.
+- Integrated `sentence-bank-long_home_family_08-0152` as a wireless-mouse life bit: the father tests it in the air, on clothing and a narrow armrest; a mouse pad fixes the surface issue; he then tests range and carries the laptop to find the mouse. Root read all four fields; independent exact-version reviewer checked the 285/285 row and caught `差啲` `di2`, corrected to `di1`; final SHA `0de28dacec870e209393f7a7e08654b9b0c4cded99e4ae072e5663df5d2a22db`. Root confirmed the correction, complete Mandarin translation, and story-matched prompt. Lexical checks include [Words.hk 滑鼠](https://words.hk/zidin/%E6%BB%91%E9%BC%A0), [枱](https://words.hk/zidin/v/86181/%E6%9E%B1), [摺](https://words.hk/zidin/%E6%91%BA), and [確認](https://words.hk/zidin/%E7%A2%BA). The story keeps family as cast/background and has no money-centered plot.
+- Pre-integration row, ledgers, app entry, and selection summaries are preserved at `content/story_review_drafts/long_home_family_08_0152_source_ledgers_app_before_integration_2026-11-12.json`. Post-integration source row hash `6a357d9cd50f851061db3f654a87525d776dccf620f67bd2afc52cb6ea77e458`; V2/oral hashes and app mirror match; ID/order/category/metadata and active membership unchanged.
+- Rebuilt the 5,000-entry app bundle; refreshed the mechanical checklist; `validate_content.py --require-story-upgrade --min-sentences 2000` passed (`Validated 5000 entries`); `git diff --check` passed. Python/Android full tests and 2,000-card semantic/topic/repetition audit remain pending until content freeze.
+- Actual remote resume-branch SHA remains `01a3cd38268f413d30c02522e255b786f57cec33`, matching local HEAD; 31 true active oral transitions since that SHA remain unpushed, below the ~50-card checkpoint. No active Gradle/build/validator process was found. No commit/push, APK/Release/tag/deployment/payment.
+- 06-0009 candidate was rejected from promotion after exact review found a close active doorway-synchronized-gesture neighbor (`long_home_family_01-0064`); it needs a distinct action mechanism. 06-0052's four fields and tones passed initial exact review, but the causal description and neighbor list (`05-0034` ID mismatch; compare active `04-0040` and `07-0052`) need correction before another exact review. 08-0069 is an unreviewed 264/264 candidate. 08-0153 remains needs_revision; no forced candidate.
+
+
+## Goal continuation — 2026-11-12 (08-0062 showerhead bit integrated)
+
+- Active library remains 2,000 IDs out of 5,000 preserved source rows; V2 remains 2,000 pass. Oral is now **1,968 pass / 32 needs_revision / 0 pending**. Ledger, selection counts and active-ID-derived topic counts were resynchronized after integration.
+- Integrated `sentence-bank-long_home_family_08-0062` as a showerhead mode-test life bit: weak spray wets a trouser cuff, strong spray knocks down a towel, the father kicks a slipper into the tub, and the handset turns toward him before the ordinary setting ends the test. Root reviewed all four fields. Agent08 exact-version review corrected `塞畀 sak1 bei2`, `抹地 maat3 dei6`, removed duplicated Han dialogue from the Jyutping field, and approved the final 246/246 version (SHA `890362de7724b7a48d7b7efca30528581fd1cff5f35fb2afc3557db2d5329f17`). Active comparisons include 03-0037 car-wash leak, 01-0067 sensor faucet and 08-0069 hourglass bathroom schedule; the actions differ.
+- Pre-integration row, V2/oral records, app entry and selection summaries are saved at `content/story_review_drafts/long_home_family_08_0062_source_ledgers_app_before_integration_2026-11-12.json`. Current row/V2/oral hash `cb9d4227fc167124f6fd7610c69764e209f1eb92eab19cb9d436e2425b9e9eee`; app four-field mirror matches. IDs, order, category, metadata and active membership are unchanged.
+- Built the 5,000-entry bundle; refreshed the mechanical checklist; `validate_content.py --require-story-upgrade --min-sentences 2000` passed (`Validated 5000 entries`); `git diff --check` passed. Full Python/Android tests and the full 2,000-card semantic/topic/repetition audit remain pending final content freeze.
+- Remote branch is still `01a3cd38268f413d30c02522e255b786f57cec33`, equal to local HEAD. **32** genuine oral pass transitions are unpushed since HEAD; below the ~50-card push point. No commit/push, release/APK/tag/deployment/payment.
+- New candidates remain uncounted: 06-0009's electric-toothbrush draft has two root-found tone errors now repaired (`泡沫 pou5 mut6`, `抹 maat3`); it needs root/exact independent review. 06-0016's pop-up-book bit corrected `塊面 faai3` and awaits root/independent review. 06-0052 has a minimal causal/neighbor-note fix awaiting agent05 exact review. 08-0069's fish lenticular draft is held for high overlap with active 07-0085; agent05 is replacing its mechanism. 08-0153 still needs a distinct non-money, non-household-centered rewrite; no card or membership has been removed.
+
+## 12 Nov 2026 — canonical active audit
+
+- Added `tools/active_oral_ledger_audit.py` with canonical ID mapping `sentence-bank-{Path(file).stem}-{index + 1:04d}`. The read-only command verifies all source/ledger hashes and active mirrors; it does not generate language. `python3 tools/active_oral_ledger_audit.py` passes: 2,000 active IDs, 5,000 source rows, V2 2,000 pass, oral 1,968/32/0, 5,000 app entries.
+- Repaired stale aggregate fields in selection and oral ledger from canonical per-card records, including one topic-note count (247). `06-0052` is not promoted: exact rereview caught a Han dialogue duplicate in Jyutping; author is making that minimal correction. Other uncounted candidate statuses and next actions are in the recovery checkpoint.
+
+## 12 Nov 2026 — 06-0016 integrated
+
+- Active oral: 1,969/31/0. Pop-up storybook life bit 06-0016 passed root four-field review and agent08's 271/271 exact review; source/ledger/app snapshots and hashes synchronized.
+- Content build, 5,000-row validator, read-only active ledger/hash/mirror audit, mechanical checklist refresh, and `git diff --check` passed. Python/Android suites and whole-library semantic audit remain for content freeze. 33 real passes unpushed since verified remote HEAD.
+
+## 12 Nov 2026 — 08-0153 integrated
+
+- Active oral is 1,970/30/0. 08-0153 passed root four-field and independent 265/265 exact review; source, V2/oral ledgers, selection aggregates, and app mirror synchronized with a pre-integration snapshot.
+- Bundle build, checklist, 5,000-row validator, read-only active ledger/hash/mirror audit, and diff whitespace check passed. 34 genuine passes are unpushed from remote HEAD; no release or APK work started.
+
+## 12 Nov 2026 — 06-0045 integrated
+
+- Active oral 1,971/29/0; curling-class bit 06-0045 passed root four-field and agent06's 308/308 exact review. Source/ledgers/selection/app synchronized with snapshot.
+- Build, content validator, read-only active audit, checklist refresh, and `git diff --check` passed. 35 genuine passes unpushed from verified remote HEAD.
+
+## 12 Nov 2026 — 06-0052 integrated
+
+- Active oral 1,972/28/0. 06-0052 passed root four-field plus agent08 exact review (307/307) with three daan6, two lou6, and 筆桿 bat1 gon1 corrections; source/ledgers/app mirrors synchronized with snapshot.
+- Build, checklist, 5,000-row validator, active read-only hash/mirror audit and whitespace check passed. 36 true passes remain unpushed from verified remote HEAD. Pending candidates 06-0009 (minor clarity fix), 08-0069 (root review), and 06-0046 (neighbor-risk decision).
+
+## 12 Nov 2026 — 06-0009 integrated
+
+- Active oral 1,973/27/0. Panorama stitching card 06-0009 passed root four-field and agent05's 278/278 exact review; source/V2/oral/selection/app updated with snapshot.
+- Build, checklist, 5,000-row validator, active audit and `git diff --check` passed. 37 genuine passes remain unpushed from verified remote HEAD. 06-0046 was returned for a distinct mechanism; 08-0069 awaits root screening.
+
+## 12 Nov 2026 — 08-0069 integrated
+
+- Active oral 1,974/26/0. Salad-spinner bit 08-0069 passed root four-field and independent 265/265 review; source/ledgers/selection/app synchronized with snapshot.
+- Build, 5,000-row validator, active read-only audit, checklist, and `git diff --check` passed. 38 genuine passes are unpushed from verified remote HEAD. 06-0046 remains draft-only pending a distinct rewrite.
+
+## Root integration checkpoint — 2026-11-12 22:38 SGT
+
+- Sole source/ledger/selection/app writer: root. Other workers edit only their unique candidate drafts and exact-review reports.
+- Root integrated the 11 new exact-approved cards listed in `STORY_REVIEW_RECOVERY_CHECKPOINT.md`; live oral total 1,985/15/0. Current branch/remote are both at `01a3cd38268f413d30c02522e255b786f57cec33`; 49 true transitions await a due checkpoint commit/push after one more approved pass.
+- Ready/checkpoint tests: build_assets, active hash/count/mirror audit, 5,000-row validator and diff check all pass at current snapshot. Python/Android final test suites not run after current content; wait for content freeze.
+- Active writer/reviewer queue: author05 06-0046 plus requested small 06-0075 meaning/gloss sync; author06 06-0065 and reviews; author08 08-0071/0074. All stories target public/colleague scenes where possible. No one besides root integrates.
+
+## Root integration checkpoint — 2026-11-12 22:47 SGT
+
+- Latest actual audit: oral 1,986 pass / 14 needs_revision / 0 pending; active IDs 2,000, V2 2,000 pass, all 5,000 source rows preserved. 06-0065 was the 50th real pass since the confirmed remote SHA `01a3cd38268f413d30c02522e255b786f57cec33`.
+- 06-0065 review evidence: accepted language candidate SHA `05f5f9804aef4f26e5c1dcb74cf9d00aecf274732b5c2a3fecbbcd5203f0daf8`; metadata-only corrected self-count file SHA `4d06f4d14f0847593fd7881d913f0e77e49448776d24bf85f6af405048c2dff4`; source row SHA after integration `91e68e2ec5d2638aabcdc47c4067a7e3749dc22d67fa7ddc16a95415d4f089f4`. Correct body count 236/236, not the initial incorrect 243/243.
+- `build_assets.py`, `active_oral_ledger_audit.py` (0 errors), `validate_content.py --require-story-upgrade --min-sentences 2000` (5,000 validated), and `git diff --check` passed. Full 2,000-card semantic/topic/repetition audit and final Python/Android suites remain for content freeze.
+- Candidate reviews are ongoing: agent06 now exact-reviews 08-0071/0074; agent08 is exact-reviewing 06-0046's marble-maze causality and possible return-to-start overlap. No candidate beyond root-approved cards changes the pass count. Root remains the only source/ledger/selection/app writer.
+- Before checkpoint push, compare actual remote branch SHA again and stage only relevant source rows, ledgers, selection/app mirror, checkpoints, audit helper and 12 integration snapshots. Preserve all other untracked drafts. No APK/Release/tag work yet.
