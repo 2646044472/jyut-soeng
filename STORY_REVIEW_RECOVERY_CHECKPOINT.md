@@ -4242,3 +4242,7 @@ There are 30 genuine active pass transitions from HEAD `01a3cd38268f413d30c02522
 - Current oral state **1,986 pass / 14 needs_revision / 0 pending**; active IDs 2,000, V2 2,000 pass, 5,000 source rows preserved. Source/ledger/app audit and the 5,000-row content validator passed after integration. There are now **50** true oral transitions since remote HEAD `01a3cd38268f413d30c02522e255b786f57cec33`; checkpoint commit/push is due, after independently rechecking the remote ref and staging only this work.
 - Remaining draft review queue: 06-0046 marble maze is pending agent08's physical-causality/return-to-start duplicate review; 08-0071 sewing-machine candidate has a known 241/239 Han/Jyutping mismatch and awaits agent06's exact pinpoint; 08-0074 crossing-button candidate awaits agent06 exact review. Other 14-card needs-revision rows remain unchanged until exact review and root promotion.
 - Python and Android test suites, full semantic/topic/repetition audit, SDK installation, final release build and Release remain pending content freeze. No APK/Release/tag/deployment/payment has occurred; Pi/Tibo remain paused.
+
+## Push verified — 2026-11-12
+
+- The 50-pass checkpoint is committed as `ee4348795e676890f4c29e1a07ad6200873da036` (`Review 50 Macau Cantonese story cards`). A post-push `git ls-remote` independently confirmed `origin/codex/macau-story-upgrade-batch-progress-resume` at that exact SHA; local `HEAD` matches. This is the authorized resume branch; no release/tag or other target branch was changed.

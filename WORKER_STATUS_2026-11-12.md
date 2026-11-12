@@ -232,3 +232,8 @@ See `STORY_REVIEW_RECOVERY_CHECKPOINT.md` for detailed review history.
 - `build_assets.py`, `active_oral_ledger_audit.py` (0 errors), `validate_content.py --require-story-upgrade --min-sentences 2000` (5,000 validated), and `git diff --check` passed. Full 2,000-card semantic/topic/repetition audit and final Python/Android suites remain for content freeze.
 - Candidate reviews are ongoing: agent06 now exact-reviews 08-0071/0074; agent08 is exact-reviewing 06-0046's marble-maze causality and possible return-to-start overlap. No candidate beyond root-approved cards changes the pass count. Root remains the only source/ledger/selection/app writer.
 - Before checkpoint push, compare actual remote branch SHA again and stage only relevant source rows, ledgers, selection/app mirror, checkpoints, audit helper and 12 integration snapshots. Preserve all other untracked drafts. No APK/Release/tag work yet.
+
+## Post-push verification — 2026-11-12 22:49 SGT
+
+- Commit `ee4348795e676890f4c29e1a07ad6200873da036` contains the 50 genuine oral transitions, source/ledger/app synchronization, count/hash audit helper, and rollback snapshots. Push completed by fast-forward.
+- Verified independently after push: local `HEAD` = `ee4348795e676890f4c29e1a07ad6200873da036`; `git ls-remote origin refs/heads/codex/macau-story-upgrade-batch-progress-resume` returned the same SHA. No force push. Remaining active oral count is 1,986 pass / 14 needs_revision / 0 pending.
