@@ -1,0 +1,115 @@
+{
+  "backup_date": "2026-11-12",
+  "purpose": "Pre-integration snapshot for three active oral-re-audit rewrites. Original source rows and both ledgers are preserved here before updating source text and hashes.",
+  "source_rows": [
+    {
+      "file": "content/sentence_bank/long_home_family_05.json",
+      "index": 24,
+      "row": {
+        "category": "家庭相處",
+        "sentence": "夫妻兩個喺屋企輪流開會，阿爸夜晚要上網同外地同事開視像，阿媽就想靜靜喺客廳煲劇。佢哋本來話各自戴耳機就得，點知阿爸條充電線又唔夠長，拉到書房門都關唔埋。最初佢哋隔住房門講聲先，成日互相打斷；阿媽聽唔清對白，阿爸又怕同事聽到電視聲。有次視像會議未關麥克風，外地同事突然問：「背景係咪有人唱戲？」兩個人散會後對望一眼，笑到停唔到。佢哋坐低畫咗張時間表，講好開會前掛牌、戴耳機，急事先用手機傳訊息；紅牌代表會議中，綠牌就可以敲門。第二晚阿媽見紅牌，先去廚房拎晒茶杯同水壺放喺書房門口，阿爸開會時唔使再起身搵水。做完各自收好耳機同遙控器，客廳終於又安靜又有人陪煲劇。",
+        "jyutping": "fu1 cai1 loeng5 go3 hai2 uk1 kei2 leon4 lau4 hoi1 wui6, aa3 baa4 je6 maan5 jiu3 soeng5 mong5 tung4 ngoi6 dei6 tung4 si6 hoi1 si6 zoeng6, aa3 maa1 zau6 soeng2 zing6 zing6 hai2 haak3 teng1 bou1 kek6. keoi5 dei6 bun2 loi4 waa6 gok3 zi6 daai3 ji1 gei1 zau6 dak1, dim2 zi1 aa3 baa4 tiu4 cung1 din6 sin3 jau6 m4 gau3 coeng4, laai1 dou3 syu1 fong2 mun4 dou1 gwaan1 m4 maai4. zeoi3 co1 keoi5 dei6 gaak3 zyu6 fong4 mun4 gong2 seng1 sin1, seng4 jat6 wu6 soeng1 daa2 dyun6; aa3 maa1 teng1 m4 cing1 deoi3 baak6, aa3 baa4 jau6 paa3 tung4 si6 teng1 dou3 din6 si6 seng1. jau5 ci3 si6 zoeng6 wui6 ji5 mei6 gwaan1 mak6 hak1 fung1, ngoi6 dei6 tung4 si6 dat6 jin4 man6: bui2 ging2 hai6 mai6 jau5 jan4 coeng3 hei3? loeng5 go3 jan4 saan3 wui6 hau6 deoi3 mong6 jat1 ngaan5, siu3 dou3 ting4 m4 dou2. keoi5 dei6 co5 dai1 waa2 zo2 zoeng1 si4 gaan3 biu2, gong2 hou2 hoi1 wui6 cin4 gwaa3 paai4, daai3 ji1 gei1, gap1 si6 sin1 jung6 sau2 gei1 cyun4 seon3 sik1; hung4 paai4 doi6 biu2 wui6 ji5 zung1, luk6 paai4 zau6 ho2 ji5 haau3 mun4. dai6 ji6 maan5 aa3 maa1 gin3 hung4 paai4, sin1 heoi3 cyu4 fong2 ling1 saai3 caa4 bui1 tung4 seoi2 wu2 fong3 hai2 syu1 fong2 mun4 hau2, aa3 baa4 hoi1 wui6 si4 m4 sai2 zoi3 hei2 san1 wan2 seoi2. zou6 jyun4 zi6 gei2 sau1 hou2 ji1 gei1 tung4 jiu4 hung2 hei3, haak3 teng1 zung1 jyu1 jau6 on1 zing6 jau6 jau5 jan4 pui4 bou1 kek6.",
+        "gloss": "夫妻俩在家轮流开会，爸爸晚上要上网和外地同事开视频，妈妈则想安静地在客厅追剧。他们本来以为各自戴耳机就行，谁知爸爸的充电线不够长，拉得书房门都关不上。一开始他们隔着房门喊一声就开始，结果常常互相打断；妈妈听不清对白，爸爸又怕同事听到电视声。有次视频会议还没关麦克风，外地同事突然问：“背景里是不是有人唱戏？”两人散会后对望一眼，笑个不停。他们坐下来画了张时间表，约好开会前挂牌、戴耳机，有急事就用手机传消息；红牌代表正在开会，绿牌表示可以敲门。第二天晚上妈妈看见红牌，就先到厨房拿齐茶杯和水壶放到书房门口，爸爸开会时不用再起身找水。结束后两人各自收好耳机和遥控器，客厅终于既安静又能一起追剧。",
+        "usageTip": "故事练习：「客厅开会互相打断、同事听见电视唱戏、红绿挂牌、预先备好茶杯和水壶」复述夫妻怎样安排在家开会和休息。"
+      }
+    },
+    {
+      "file": "content/sentence_bank/long_home_family_06.json",
+      "index": 2,
+      "row": {
+        "category": "家庭相處",
+        "sentence": "阿媽近排放假都話唔想出街，成日坐喺沙發攤住，連平時最愛去街市都推咗。阿女以為佢同阿爸鬧交，趁阿爸洗碗時細聲問：「你哋係咪有事呀？」阿爸呆咗一陣，話兩個人好好，只係阿媽連續幾星期頂更，收工仲要幫同事執手尾。星期日佢同細佬分工買餸洗碗，阿爸本來想整早餐，煎蛋時將蛋殼一齊落鑊，惹到兩個小朋友笑到停唔到。阿媽被聲音吵醒，走出房見餐桌亂晒，正想執，阿女叫佢坐低食粥。阿媽話粥淡得似水，阿爸即刻遞豉油，細佬再搵錯鹽樽，三個人望住一碗變深色嘅粥忍唔住笑。阿媽答應以後放假由大家輪流做家務，仲即刻將手機校成靜音，話今日唔接工作訊息。到下午佢精神返晒，主動問全家要唔要落樓買雪糕，阿女笑話：「你唔係唔想出街咩？」阿媽指住雪糕店，話只去十分鐘，唔准順便買餸。",
+        "jyutping": "aa3 maa1 gan6 paai4 fong3 gaa3 dou1 waa6 m4 soeng2 ceot1 gaai1, seng4 jat6 co5 hai2 saa1 faat1 taan1 zyu6, lin4 ping4 si4 zeoi3 oi3 heoi3 gaai1 si5 dou1 teoi1 zo2. aa3 neoi5 ji5 wai4 keoi5 tung4 aa3 baa4 naau1 gaau1, can4 aa3 baa4 sai2 wun2 si4 sai3 seng1 man6: nei5 dei6 hai6 mai6 jau5 si6 aa3? aa3 baa4 ngoi4 zo2 jat1 zan6, waa6 loeng5 go3 jan4 hou2 hou2, zi2 hai6 aa3 maa1 lin4 zuk6 gei2 sing1 kei4 ding2 gang3, sau1 gung1 zung6 jiu3 bong1 tung4 si6 zap1 sau2 mei5. sing1 kei4 jat6 keoi5 tung4 sai3 lou2 fan1 gung1 maai5 sung3 sai2 wun2, aa3 baa4 bun2 loi4 soeng2 zing2 zou2 caan1, zin1 daan2 si4 zoeng1 daan2 hok6 jat1 cai4 lok6 wok6, je5 dou3 loeng5 go3 siu2 pang4 jau5 siu3 dou3 ting4 m4 dou2. aa3 maa1 bei6 seng1 jam1 caau2 sing2, zau2 ceot1 fong2 gin3 caan1 zoek3 lyun6 saai3, zing3 soeng2 zap1, aa3 neoi5 giu3 keoi5 co5 dai1 sik6 zuk1. aa3 maa1 waa6 zuk1 daam6 dak1 ci5 seoi2, aa3 baa4 zik1 hak1 dai6 si6 jau4, sai3 lou2 zoi3 wan2 co3 jim4 zyun1, saam1 go3 jan4 mong6 zyu6 jat1 wun2 bin3 sam1 sik1 ge3 zuk1 jan2 m4 zyu6 siu3. aa3 maa1 daap3 jing3 ji5 hau6 fong3 gaa3 jau4 daai6 gaa1 leon4 lau4 zou6 gaa1 mou6, zung6 zik1 hak1 zoeng1 sau2 gei1 gaau3 sing4 zing6 jam1, waa6 gam1 jat6 m4 zip3 gung1 zok3 seon3 sik1. dou3 haa6 ng5 keoi5 zing1 san4 faan1 saai3, zyu2 dung6 man6 cyun4 gaa1 jiu3 m4 jiu3 lok6 lau4 maai5 syut3 gou1, aa3 neoi5 siu3 waa6: nei5 m4 hai6 m4 soeng2 ceot1 gaai1 me1? aa3 maa1 zi2 zyu6 syut3 gou1 dim3, waa6 zi2 heoi3 sap6 fan1 zung1, m4 zeon2 seon6 bin6 maai5 sung3.",
+        "gloss": "妈妈近来放假都说不想出门，常坐在沙发上摊着，连平时最爱逛的街市也推掉了。女儿以为她和爸爸吵架，趁爸爸洗碗时小声问：“你们是不是有事呀？”爸爸呆了一下，说两人好好的，只是妈妈连续几周顶班，下班还要帮同事收尾。星期天女儿和弟弟分工买菜、洗碗，爸爸本来想做早餐，煎蛋时把蛋壳也一起下锅，惹得两个小朋友笑个不停。妈妈被声音吵醒，走出房间看见餐桌乱糟糟，正想收拾，女儿叫她坐下喝粥。妈妈说粥淡得像水，爸爸马上递酱油，弟弟又拿错盐罐，三个人看着一碗变深色的粥忍不住笑。妈妈答应以后放假让大家轮流做家务，还马上把手机调成静音，说今天不接工作消息。到下午她精神恢复了，主动问全家要不要下楼买雪糕，女儿笑说：“你不是不想出门吗？”妈妈指着雪糕店，说只去十分钟，不准顺便买菜。",
+        "usageTip": "故事练习：复述阿女为何误会阿媽、爸爸怎样解释、早餐时出了什么意外，以及阿媽最后为何愿意出门。"
+      }
+    },
+    {
+      "file": "content/sentence_bank/long_home_family_08.json",
+      "index": 25,
+      "row": {
+        "category": "家庭相處",
+        "sentence": "阿女搬返屋企後，阿媽成日趁佢出門入房摺衫，仲順手將信件同耳環收喺抽屜，話怕落灰。阿女講咗幾次想自己整理，阿媽仍話幫手先係關心。有一日朝早阿女喺門口貼張紙：「入房先敲門，唔好入嚟幫我收拾。」阿媽見到之後冇入房，將摺好嘅衫同信件一件件放喺門外；第二日又多咗條褲同一隻襪，全部排到走廊轉角。阿爸清早出門，望住阿女門口嗰排衫問：「呢度係咪待摺區？」阿女返到屋企見到成排衣物，先知阿媽真係照字面守門，連抽屜入面嘅信都唔再郁。佢請阿媽飲茶，講好入房前先敲一聲等佢應，唔好亂郁信件同耳環，摺衫亦先問過佢。阿媽點頭，笑住問：「咁門口嗰堆衫，係咪要我摺返入房？」阿女答：「今次可以，不過下次先問我。」阿爸終於唔使再側身行，仲提議喺門邊放個「等阿女處理」嘅籃，免得走廊成日都有襪。",
+        "jyutping": "aa3 neoi5 bun1 faan1 uk1 kei2 hau6, aa3 maa1 seng4 jat6 can3 keoi5 ceot1 mun4 jap6 fong2 zip3 saam1, zung6 seon6 sau2 zoeng1 seon3 gin6 tung4 ji5 waan4 sau1 hai2 cau1 tiu3, waa6 paa3 lok6 fui1. aa3 neoi5 gong2 zo2 gei2 ci3 soeng2 zi6 gei2 zing2 lei5, aa3 maa1 jing4 waa6 bong1 sau2 sin1 hai6 gwaan1 sam1. jau5 jat1 jat6 ziu1 zou2 aa3 neoi5 hai2 mun4 hau2 tip3 zoeng1 zi2: jap6 fong2 sin1 haau1 mun4, m4 hou2 jap6 lai4 bong1 ngo5 sau1 sap6. aa3 maa1 gin3 dou3 zi1 hau6 mou5 jap6 fong2, zoeng1 zip3 hou2 ge3 saam1 tung4 seon3 gin6 jat1 gin6 gin6 fong3 hai2 mun4 ngoi6; dai6 ji6 jat6 jau6 do1 zo2 tiu4 fu3 tung4 jat1 zek3 mat6, cyun4 bou6 paai4 dou3 zau2 long4 zyun2 gok3. aa3 baa4 cing1 zou2 ceot1 mun4, mong6 zyu6 aa3 neoi5 mun4 hau2 go2 paai4 saam1 man6: ni1 dou6 hai6 mai6 doi6 zip3 keoi1? aa3 neoi5 faan1 dou3 uk1 kei2 gin3 dou3 seng4 paai4 ji1 mat6, sin1 zi1 aa3 maa1 zan1 hai6 ziu3 zi6 min6 sau2 mun4, lin4 cau1 tiu3 jap6 min6 ge3 seon3 dou1 m4 zoi3 juk1. keoi5 cing2 aa3 maa1 jam2 caa4, gong2 hou2 jap6 fong2 cin4 sin1 haau1 jat1 seng1 dang2 keoi5 jing3, m4 hou2 lyun6 juk1 seon3 gin6 tung4 ji5 waan4, zip3 saam1 jik6 sin1 man6 gwo3 keoi5. aa3 maa1 dim2 tau4, siu3 zyu6 man6: gam2 mun4 hau2 go2 deoi1 saam1, hai6 mai6 jiu3 ngo5 zip3 faan1 jap6 fong2? aa3 neoi5 daap3: gam1 ci3 ho2 ji5, bat1 gwo3 haa6 ci3 sin1 man6 ngo5. aa3 baa4 zung1 jyu1 m4 sai2 zoi3 zaak6 san1 haang4, zung6 tai4 ji5 hai2 mun4 bin1 fong3 go3 dang2 aa3 neoi5 cyu2 lei5 ge3 laam4, min5 dak1 zau2 long4 seng4 jat6 dou1 jau5 mat6.",
+        "gloss": "女儿搬回家之后，妈妈总趁她出门时进房间叠衣服，还顺手把信件和耳环收在抽屉里，说怕落灰。女儿几次说想自己整理，妈妈仍说帮忙才是关心。有一天早上女儿在门口贴了张纸：“进房前先敲门，不要进来帮我收拾。”妈妈看到后没有进房，把叠好的衣服和信件一件件放在门外；第二天又多了一条裤子和一只袜子，全排到了走廊转角。爸爸一早出门，看着女儿房门口那排衣服问：“这里是不是待叠区？”女儿回家看到一排衣物，才知道妈妈真的照字面守门，连抽屉里的信也不再动。她请妈妈喝茶，商量好进房前先敲一声等她回应，不要乱动信件和耳环，叠衣服也先问过她。妈妈点头，笑着问：“那门口那堆衣服，是不是要我叠回房里？”女儿回答：“这次可以，不过下次先问我。”爸爸终于不用再侧身走，还提议在门边放一个“等女儿处理”的篮子，免得走廊总有袜子。",
+        "usageTip": "故事练习：先讲阿女为什么希望自己整理房间，再复述门外的衣物怎样越堆越多，最后说阿妈怎样守门，以及一家人约好怎样先问再帮忙。"
+      }
+    }
+  ],
+  "v2_records": [
+    {
+      "file": "content/sentence_bank/long_home_family_05.json",
+      "index": 24,
+      "status": "pass",
+      "baseline_sha256": "4975c1bf4b359974af0fa815dfa0235a83016c7b5cb95408ec9a7d1457a9eabb",
+      "v2_sha256": "4975c1bf4b359974af0fa815dfa0235a83016c7b5cb95408ec9a7d1457a9eabb",
+      "notes": "A too-short cable and competing home routines escalate into an open-mic meeting where the colleague mistakes the TV for opera; the red/green door signs and tea service are a practical callback to the interruption. Checked all four fields and field match."
+    },
+    {
+      "file": "content/sentence_bank/long_home_family_06.json",
+      "index": 2,
+      "status": "pass",
+      "baseline_sha256": "b5113138d13656eb191dd07b94ba8ecd5d0f8a69763ed08786319c7ec4a54053",
+      "v2_sha256": "b5113138d13656eb191dd07b94ba8ecd5d0f8a69763ed08786319c7ec4a54053",
+      "notes": "The mother’s fatigue is misread as a marital dispute; shell-in-egg breakfast, then soy sauce and the wrong salt turn the porridge dark, giving a clear escalating kitchen sequence and a “no grocery shopping” callback when she agrees to ice cream. Checked all four fields and usage-tip match. Jyutping, complete gloss and usage tip were checked against the current story."
+    },
+    {
+      "file": "content/sentence_bank/long_home_family_08.json",
+      "index": 25,
+      "status": "pass",
+      "baseline_sha256": "f6f74f78598a7e25f05ba826e9972cdad0675158411ff403bc05e2cd392b9aca",
+      "v2_sha256": "68fb047ebd118b915f3aaa2ba20dd5653b0c87ec77b6978bf02068d6ef47d100",
+      "notes": "Manual V2 review of all four fields. The mother’s over-literal room boundary turns folded clothes, letters and then a sock into a hallway “waiting-to-fold zone”; Dad names the accidental queue, and the daughter and mother agree to knock and ask before touching belongings. Screened approved long_home_family_08[104] (video-call background and meal interruption), [52] (donation boxes outside a bedroom), [68] (bathroom timer), and long_family_finance_services_06[55] (password notes); their mechanisms differ. Checked all 287 contextual Jyutping readings, including 襪 mat6, full Simplified gloss, story-specific tip, unchanged category and order."
+    }
+  ],
+  "oral_records": [
+    {
+      "file": "content/sentence_bank/long_home_family_05.json",
+      "index": 24,
+      "status": "needs_revision",
+      "source_sha256": "4975c1bf4b359974af0fa815dfa0235a83016c7b5cb95408ec9a7d1457a9eabb",
+      "topic_notes": [
+        "family_centered",
+        "remote_call_background_noise_cluster",
+        "overlaps_long_home_family_05_39",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Root read all four fields and compared this remote-meeting interruption with active pending long_home_family_05[39] and oral-pass remote-call/audio stories. TV heard as opera, meeting placard, and tea delivery form a coherent but familiar background-noise interruption chain; a stronger [39] callback is retained instead of passing both near-duplicates. Family is central. Four fields reviewed; keep for replacement/revision, no pass credit."
+    },
+    {
+      "file": "content/sentence_bank/long_home_family_06.json",
+      "index": 2,
+      "status": "needs_revision",
+      "source_sha256": "b5113138d13656eb191dd07b94ba8ecd5d0f8a69763ed08786319c7ec4a54053",
+      "topic_notes": [
+        "family_centered",
+        "caregiver_burnout_background",
+        "mishap_stack_weak_comedy",
+        "exclude_or_sparing_use_in_final_2000"
+      ],
+      "notes": "Root read all four fields. The mother’s weeks of overtime explain the household change, but the sequence of eggshell in breakfast, bland congee, and wrong soy/salt colors is a string of mishaps rather than one escalating behavior with a strong payoff. Family caregiving/workload is central. Keep for a more focused rewrite or replacement."
+    },
+    {
+      "file": "content/sentence_bank/long_home_family_08.json",
+      "index": 25,
+      "status": "needs_revision",
+      "source_sha256": "68fb047ebd118b915f3aaa2ba20dd5653b0c87ec77b6978bf02068d6ef47d100",
+      "topic_notes": [],
+      "notes": "Four fields read. This is a household boundary/laundry conflict between mother and daughter, a frequent family-domestic center. The literal pile of laundry makes a mild visual gag but does not build a distinct stand-up payoff. Rewrite as a different daily-life mechanism or replace."
+    }
+  ],
+  "selection_counts_before": {
+    "active_v2_status_counts": {
+      "pass": 2000,
+      "needs_revision": 0,
+      "pending": 0
+    },
+    "active_oral_reaudit_status_counts": {
+      "pass": 1933,
+      "needs_revision": 67,
+      "pending": 0
+    },
+    "active_family_category_cards": 388,
+    "active_finance_category_cards": 216
+  }
+}
