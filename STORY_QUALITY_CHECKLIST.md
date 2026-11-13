@@ -186,15 +186,21 @@ Mechanical status only: counts cover story length, Jyutping token alignment, req
 
 **Overall mechanical pass: 5000/5000.**
 
-**Goal (main-agent language review within the first 5000 source rows): 227/5000; remaining: 4773.**
+**Active source library: 2000 cards; archived original rows: 3000.**
 
-**Contiguous reviewed source-order prefix: 0/5000.**
+**Active V2 (`macau-comedy-revalidation-v2`): 2000 pass; 0 need revision; 0 pending.**
 
-**First uncovered goal row: `content/sentence_bank/long_family_finance_services_01.json` index 0.**
+**Active cards with a current V1 language-ledger review: 201/2000.**
 
-**Valid language reviews outside the first 5000 source rows: 0.**
+**Historical V1 language review (`macau-comedy-upgrade-v1`): 223/5000 records in the original catalog; this is not the current active-library V2/oral completion metric.**
 
-**Corpus language review: 227/5000; source rows without a valid review: 4773.**
+**Contiguous prefix in that historical V1 round: 0/5000.**
+
+**First missing historical V1 row: `content/sentence_bank/long_family_finance_services_01.json` index 0.**
+
+**Historical V1 review records outside the first 5000 source rows: 0.**
+
+**Historical V1 catalog review: 223/5000; rows without a current V1 record: 4777.**
 
 **Clarified quality revalidation (`macau-comedy-revalidation-v2`): 2299/5000 pass; 2701 need revision; 0 pending.**
 

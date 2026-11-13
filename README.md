@@ -41,6 +41,8 @@
 - 应用内故事库按选择台账打包 2000 张故事卡；未入选故事不会进入内置故事列表
 - 发布校验会检查结构、重复和明显模板化内容；粤拼、语境和地道程度仍需逐句复核，不能只靠自动测试保证
 - `v0.36.3` 复审故事口语、逐字粤拼与复述提示；内置故事列表仍为 2000 张
+- 活动故事源目录现保留入选的 2000 张；另外 3000 张原始卡保存在 `content/story_archive/jyut-soeng-original-source-v0.36.3.zip`，旁车 `content/story_source_index_map.json` 记录稳定 ID、原始文件和原始数组位置。审核台账仍按原 5000 行索引保留。
+- 归档含原始故事文件、V2/口语台账、选集及 v0.36.3 内容资产，SHA-256 清单在 `content/story_archive/manifest.json`。用 `python3 tools/restore_story_archive.py` 校验归档；运行 `python3 tools/restore_story_archive.py --restore` 会恢复完整 5000 行源库，并同步切换索引映射到完整源状态，恢复后可直接重新构建。若要在隔离目录检查恢复结果，可加 `--destination /tmp/story-restore-check`；恢复命令不会删除归档。
 
 ## 例句撰写与检查
 

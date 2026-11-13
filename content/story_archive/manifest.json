@@ -1,0 +1,931 @@
+{
+  "schema_version": 1,
+  "source_snapshot_commit": "f754289396483da8ecc9111137bd183cc88dc574",
+  "archive_path": "content/story_archive/jyut-soeng-original-source-v0.36.3.zip",
+  "archive_sha256": "e6652cf7127c3546d6a5f632cf58f2a2ef83f5249e93e4e46a1c1d15c9d87120",
+  "original_source_file_count": 179,
+  "original_row_count": 5000,
+  "active_count": 2000,
+  "archived_count": 3000,
+  "release_app_entry_count": 5000,
+  "release_story_count": 2000,
+  "release_app_entries_sha256": "2285b9ad01a8de28ad4ae4a88ab442c7f37eda935f1eed016a940bc6192d9021",
+  "release_story_id_order_sha256": "0c3bb7f7720e76b47024533cf7945fa0c8692eaf3d72c5d3657dc6b19b0298b2",
+  "files": [
+    {
+      "path": "content/sentence_bank/long_family_finance_services_01.json",
+      "sha256": "46ceda6f6ce6cae7a6d1e4f46018f607b91ad62f3a5b14ffd1e4d4188fd4d2a3",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_02.json",
+      "sha256": "0ddcdceac82b71a54a4c84396ce0053d8d1b3ecbee41bac7244afe5596ace3d7",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_03.json",
+      "sha256": "f9eeda50ec703bad1106faa5c17955def34cf80d9ce8b74a919eaec1eaedee45",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_04.json",
+      "sha256": "caa95ff7c38d2895cb9703cdf3dbbd5a66ca0f082755791a0bd1ae589a130d47",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_05.json",
+      "sha256": "9ee52ee5c72b908700d5819812ecefeb0066991153aeda9df0015ef1e34810c9",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_06.json",
+      "sha256": "25308d79fca0c4585097cec3e0bb7dd3038fc1a5d5f2ebddae0a156261a12ca5",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_07.json",
+      "sha256": "6595b211b3d901ec1cd88a3987561b81a947ef7211394a60c7502e6530a05985",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_08.json",
+      "sha256": "06c7bcebdaa6670d7c9cc91c63a1d3cd1af1d51558ec94345de7c573e49edad1",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_09.json",
+      "sha256": "92ff019612eb2764543143a600604fbcb1a1c5aeb4b7d627aeecc6edff0a7421",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_10.json",
+      "sha256": "209defbe0581cd2a2851c27064efaa0270f0144d72497e70cc311f02a32ff5c9",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_100.json",
+      "sha256": "d64f7709b06c317cbc1abf3ea9969d1b112f144947bb80ccda27157a5071d94f",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_101.json",
+      "sha256": "88d3e44ecb630190eee6b4803b2da638ca9019b7f4a8d8c751d3b48b404b4509",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_102.json",
+      "sha256": "d4c5ff5fe45419ffdf6e136d3aa9df1885af111161a2a0fd983cd0d5fbce6c0d",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_103.json",
+      "sha256": "f3342b4f307159b6dd2f7c89759fa27a978ff37c73664ffe496ff7a6b32e96b5",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_104.json",
+      "sha256": "89fdd77cb5c2c6100ace8c11b1bc523a790ac93b0b4b0163af3a425f549e5c35",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_105.json",
+      "sha256": "78718ddfd64808a62163c3bcd15e3359c3d63b5eb5173f6008f619e7c59735ce",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_106.json",
+      "sha256": "80ae449b86a773e11e098f168080c202335db040fb64eee2f5510783d5b4eed0",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_107.json",
+      "sha256": "eac797ed95786745b35925f21925d99f1d7bcaaa1bf81bbea46ff7fbbd511377",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_108.json",
+      "sha256": "57a568df8495dab6bedcf6ca4aee923358e71dac02474b724f10a1c07276cbd4",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_11.json",
+      "sha256": "77ba38788f275be08ce1d8fe16fada9a6bb6fb7cae7524d4fae0db0779c6551a",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_12.json",
+      "sha256": "4d51e2ae951f9ed0da7310b24eba51a3c04aa4dcfbfee76e244db1bdfd6fd62c",
+      "rows": 70
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_13.json",
+      "sha256": "bcbcb14f8e0e2d1cf1e7430d50300950ad6ab2a0379e8dc7a2bc2604e9e27465",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_14.json",
+      "sha256": "093eaad95a5e762fd9d1c834343325d3a0a542167471d9fd5cf39cc2f5b4758e",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_15.json",
+      "sha256": "72a6aabf7a7d1b793e0cc0c8c7970c3af06a4ffbbdbb6d9991e6c43640f851ec",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_16.json",
+      "sha256": "e3ffbb28aa8747e3e948d08e5f69808c11ed5eda716e2e8b4810b28b76db4390",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_17.json",
+      "sha256": "e209cb905902daa6893d01d955f3e8107d3709df5c44cf613842f9ed3c188af1",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_18.json",
+      "sha256": "4c902ee2c308c6c9e0471dbb1dcc79d3287d3a2a71f107c83e47fb10f6e69ece",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_19.json",
+      "sha256": "831b903b1a9882a75d02c5dcfd109a71a5774d87c90d438e2511632f78565032",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_20.json",
+      "sha256": "8701777517e29234f248ccc75f55295d1dff83de9e550e595714288246ee4e9a",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_21.json",
+      "sha256": "9c2ad15a9bb6b86d8bda881734f5df4d1d56276f708d881208fd6cff3c0595f1",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_22.json",
+      "sha256": "060dcaa70e85a5fc0ae77b6724f0d3f6dfa02d3eb92c9a3d6dfcc978d62e47a9",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_23.json",
+      "sha256": "964babfd28fb75319248f4b74f8a087ed5f0b5de6dfb9d73cd4e19c66e38966a",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_24.json",
+      "sha256": "c894584b8645ae2b03764aaedd86bfeec69ab8897a660bd8d5476475c4382ab6",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_25.json",
+      "sha256": "774f8c5422a8605d4c33e08504de78f78381b611dade1e7fecf1b199666fa05f",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_26.json",
+      "sha256": "bf9b28a26fca6ef6198cef9fe8a90ae2ed940a25d150249a31f12f7d0517c5a7",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_27.json",
+      "sha256": "284aa80f07e5721b5f3f56143f77b0e761ff3b311d63a4622a474689bfeb11de",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_28.json",
+      "sha256": "7b152975f06f63bb6591d9203bee729dd2f441f3d641909cb412bc32ccfb459c",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_29.json",
+      "sha256": "36ab034e3fd196b0033d7c5274de6f68f7fa4d75a88148ce1a57f6385f100e69",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_30.json",
+      "sha256": "249b45aa4cfb1d841297dab9f28d9d522e98b7114d17863ca6b69a275c396736",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_31.json",
+      "sha256": "0f3ce0beb66197d1d3e93471c4399e1d7f9026f7ea6212c513e1162ce9c9664a",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_32.json",
+      "sha256": "739576dfaf21c941939fa0252f493bc402bc4db92b376c448dd82914c9ea5ecb",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_33.json",
+      "sha256": "d35ce2620f952e8c9e67f8752cbc69028154efefe533e9c1bde5c5361adf16ac",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_34.json",
+      "sha256": "de7a9565b8df3d84aaf6f3389395bbd3a5c885dc92faaa0eee08e3f6bdf91bef",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_35.json",
+      "sha256": "54e0f3c0fa515528d46040ec2022f446a50bdd475361e871b322ce88aae723fc",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_36.json",
+      "sha256": "11a19c923d5cd72fcb011d69db3c6cd82431340f8b010c7411ac9682564f4884",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_37.json",
+      "sha256": "6cbb93d1f741d7e5b9f7172ba748b54f4488b52dc728e28c244c07b1c209627a",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_38.json",
+      "sha256": "5f3987ab698af8f8986358bad1199be256c17952062132152d45cd9ae6d533d0",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_39.json",
+      "sha256": "bd4fa29a35ef3e5a9b4ae18780cd00b99e4f806bcde8e279496ce7c2cd919391",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_40.json",
+      "sha256": "7c4a096b0f0ad7033aeb0f132efd9228330ed1a95aa1457923046a8d6e64805f",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_41.json",
+      "sha256": "4bc216a90ea4a618f959d90dac042f86d9f2096a5f4eedde117f75c6fd859c6a",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_42.json",
+      "sha256": "9ad9e4e546e5949401fc810fb98729840ce1c115150fa9e546f339abf227a7b1",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_43.json",
+      "sha256": "a3ded70d7a49f933d5afd572e8c9ee52f9d5e78ee49b0c11b2730bf80525207d",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_44.json",
+      "sha256": "fcc57e5ac779d3084c349531ea28645441d2d8d9ca171abbd9061c79d6580b22",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_45.json",
+      "sha256": "7c0a3b51f3862c80331a9975eba294d9f7c16bf06fec075fd577b88b6c0cf642",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_46.json",
+      "sha256": "6b0fba4ef52dfb418dcaeb684f2ae29ebf4b919db1478d2bbe44e7bc0f724fc2",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_47.json",
+      "sha256": "1bbcec72ba2a74c988fe7c4b4dc41288ca2d0d4583aaaab3a857c5efc08791a5",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_48.json",
+      "sha256": "78314ed6983cda82a7c124658cc747d31a8b4039e274d3813990c7eac59c8dff",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_49.json",
+      "sha256": "c15c8d0b7785cb7122e5640e52d7c49bdd2d7d42ca8d5aae4ea98c3ca3255f04",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_50.json",
+      "sha256": "bcf9813954301608891edf5fda52dc3b4f3253c2852f6c0f9fddf34a63e94c9d",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_51.json",
+      "sha256": "e95a67ecedb8d95f6def893783428e460f15f43b396daa7cb5229bd2adbb762b",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_52.json",
+      "sha256": "310e2d46823f3fcf60d69b130cbccae637aabb7ecce86cb23a27403fba34fb95",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_53.json",
+      "sha256": "ecbee405efacd8258c2ea2d65bfda200e114bd59a24893e88faef6900e7974ab",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_54.json",
+      "sha256": "1bf873da807baac7b6700452593547f9c6a35c04b57ef8995177bbba26bd4d7d",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_55.json",
+      "sha256": "db9079760249e44715335725e9fa496db4cf92acea6e542397a341d27e4a0beb",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_56.json",
+      "sha256": "7ebb7a65538e48ad2c45da1642e94b780d945fa1d2d78c16ab5af980df418d1f",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_57.json",
+      "sha256": "94d8ab6320f2931506295498a0cd5f98b618d59068feae9750c41cec1a4b6dde",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_58.json",
+      "sha256": "77d10f39223211d5c567db2ee3d803d4b36e2412e76ffcf1fe97f15bbb650fa6",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_59.json",
+      "sha256": "5793ef2ee466c3d9b912d37ac8e8652765c3b921330f59bb20c16b60c69080b8",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_60.json",
+      "sha256": "268b412ffa49e0945dd2272fb8e48f06d7eafe03147288c5bd7fbc559a6aa215",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_61.json",
+      "sha256": "280f14f8f2cf5aef1173f4e003f4a4dc08e38f925f60aadcd37bd9422238bc32",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_62.json",
+      "sha256": "34d49f4b919b1deba0f553f4fb7a61782390bdb19b492c71d0109e045880e0e0",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_63.json",
+      "sha256": "92d9b37869c46f6f9e41c40117f4fe68b6a0ed8705df5c6f35e23ffd7c8b7e9b",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_64.json",
+      "sha256": "a4d52ecd2b8cb3b5e2a0f1696343e4da6b591070a325b5b87d61fbe670b10f9d",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_65.json",
+      "sha256": "775d14bbd13dbf2ac21bb38a0a6f1b1fac2004074dc2552e0bcec06bc0934e6e",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_66.json",
+      "sha256": "657fd4a7ee0d16c6c5faa07ceff423e0bfe1f2591ac926670c1f9b9c34038ae1",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_67.json",
+      "sha256": "071f5ce8713ce00a823e240a872c8315f9f70ad2c4a5d0ff8a877dbe7b192f85",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_68.json",
+      "sha256": "63ed81e75721b2f0d4c6c66d5acc75e3837a0ad65ccf0acb022faf4b221221c6",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_69.json",
+      "sha256": "9d37b8982ca2841518ba7aeb231c6c92d382b4a59a8d1165eac7e7e6494743f5",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_70.json",
+      "sha256": "cfde2899b9249ab0e2708b4d7ba80175b17ed6ac3cb6b16b45da80b24bd77704",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_71.json",
+      "sha256": "b816529bbe7ec885387de6e8b0ba586a9f466de2d04d3236d3e4d875d7dc35bf",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_72.json",
+      "sha256": "d6933fe533252a2257ea3451871035b96214e35d3c32891a61989995fea4aafb",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_73.json",
+      "sha256": "5f2459c1bee4f3262cc544b91eced9b5e997117a9206cdb5392712c30afba17c",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_74.json",
+      "sha256": "84eb10ce2c397bfa2da3c5879a12bfbe1f05ecd67dacd1dcb06dd152425f7774",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_75.json",
+      "sha256": "9ff6bd4b3329d4f741177ff6122a0b20719536cb301f1ea72e20e751fbc1a7cd",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_76.json",
+      "sha256": "3a30bbc053e10452e5a456b9f3f616051e367e95eeffe6d1bfb96b18fff61d7b",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_77.json",
+      "sha256": "7341faa9e2043e081f7df7a97b2728045795838178425ac8a87ce83b831994fa",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_78.json",
+      "sha256": "5e6dce58faacbc1a0535f6c6708414fb0974fbfcee3869219109cb5164bf704c",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_79.json",
+      "sha256": "aa610ae66b7c9713feb3af70b949c48ce576b5bd8eb4368ff189f3daef541e75",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_80.json",
+      "sha256": "6410fa0e690f22583dfd78a6136c31e9a5ede7d59200f8d3acba47d90824e940",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_81.json",
+      "sha256": "fcfc7713c71b851b7119a6f5b119da44be86774461d22010fca76486aa4cfd50",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_82.json",
+      "sha256": "1e9a2d93e2d317e32eb2ccec6bd6f7778c618790cbffa13d8aaa5f8c648fbbb7",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_83.json",
+      "sha256": "3abddb4556e5fef5965c09da45acb58a688aa4219d2faaaa420eb38f9ec88abe",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_84.json",
+      "sha256": "b0f6b8f81f220f5a2ecf69c24c72affd665924954495e98b0e578574ff9c3a13",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_85.json",
+      "sha256": "758b6ec60737555b4254bac778b79a84d18973615ead674f892cbb88f32c1179",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_86.json",
+      "sha256": "47d2fd34af07e9e0e029a6e7fb4a6688a2ac6d3178c15b9715d369f233560827",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_87.json",
+      "sha256": "864d39ff87a84969608db0061b2d0b3e66f89a8f55e4b42a1b7050d224a315af",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_88.json",
+      "sha256": "f14d633899bb5eec7013bbda2b37cd4c68511fb25cd48763ca31bb944faa3b09",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_89.json",
+      "sha256": "848556b724e5d8d02de91c35f3e346c82a79505d5620f11aa2ddf097b1988bc9",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_90.json",
+      "sha256": "3677b3400a8827bf692cec835c332835b6e2986c3c9e3b15c80c8bdc3dabed4d",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_91.json",
+      "sha256": "2eb989fb5cda4b238da2faaba23dd0dca4eca7aebaa0f4197ca44d5d1e971654",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_92.json",
+      "sha256": "01b922d7429ac723a43c913044c758685ff70c11614054e8a1d6648e17805ac9",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_93.json",
+      "sha256": "a23fcc150f3f020c444f3785cc4cb7d17fad2d9343463945e68a9457e8c75f9b",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_94.json",
+      "sha256": "a24426e08f122b204583e879bbb521668452035e5670f0ab57c85c7210dd9563",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_95.json",
+      "sha256": "e27c602ca2e6e02e7b191b2ffe0933ca14308195565a9e5ce985d0a48b61feb0",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_96.json",
+      "sha256": "b8a19c130973dc9f92d8f974959327ad320bea358b149554654d870c39775024",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_97.json",
+      "sha256": "6c84986b0647c33f644959521f9c894a9cc6f031b1966b00e19e4b8be88e7bc1",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_98.json",
+      "sha256": "dd480803f8897bd6390a248de6165dbfbe51d98819ccdc9e9b8bb3d6e00a54d2",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_family_finance_services_99.json",
+      "sha256": "0540ed734a161d8087c89e9f856fd227271df5ad135adea9e9cf2897df506e80",
+      "rows": 1
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_01.json",
+      "sha256": "bc4eabd3a4159eb49854eddac53f06658ee38edbd516e03e5e9c2b2e49285f3c",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_02.json",
+      "sha256": "b1b7a35bd2c5bafd418e93ade270a92f750010bfc0eb01ac7de4ff0f00a8f941",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_03.json",
+      "sha256": "dde535e8b42f08e212fe10b5c2c452ca49d2889477e3951bc97a7b2e83238915",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_04.json",
+      "sha256": "ae1760df3ee223565577e16b51ca84696798caa56abab6d4d2c6dcf1ca08f15b",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_05.json",
+      "sha256": "ad9e0cbdab67a7613a0a07b3b909da292c635b924be96998a4e45943f326c279",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_06.json",
+      "sha256": "df9c28dc092d4d348e4ebbe98cfa4668369a4b519cf97cd5b37953332fbf64df",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_07.json",
+      "sha256": "a927534995549a5371bd6321a2c4ed635f54ae01fa184181fb4191088676e8e2",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_08.json",
+      "sha256": "a7459b57571de3782d9b8f07a531280bdb7c00618bbd85879a6de8325e3c68a1",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_09.json",
+      "sha256": "4a7d9bb6677f8b4bce1c599e8718edc848461b868c4d38f5a9087912e67efd30",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_10.json",
+      "sha256": "9c3d9ed5d2b74b7fc04924c9e126d0d07a2f3f4cc59199768a58b4b634d3087c",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_11.json",
+      "sha256": "feb3b0262d597c9c2e4fa9f2abbdd29b8cf1ec0c1d225bb038db52ca19acc180",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_12.json",
+      "sha256": "277798e0e0481be435a72ba1cef9700cdeb5fc579e6ec7747125c919c580f9eb",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_13.json",
+      "sha256": "40eebc36175c31c45ba452c0f366b31e3ecbc2409731850d496e0caac6da48fc",
+      "rows": 110
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_14.json",
+      "sha256": "bce6b939e27e0ae206023fc5a762b2675fde00f09d098396868f49007bfd688d",
+      "rows": 55
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_15.json",
+      "sha256": "d8421d4da2ca3c2500bcec779436e2a8c589521def89963d435c2c65fb5e2e4e",
+      "rows": 25
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_16.json",
+      "sha256": "4f978a0f9fa7176ead8034788e11c18984e10dbfe03db94768ed936aab50cffd",
+      "rows": 25
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_17.json",
+      "sha256": "9b6ed4df19c19fcba88750bb5f10a323021717e14bbddb0880c2d9c5ea193fe8",
+      "rows": 30
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_18.json",
+      "sha256": "ba4ca6790cbd71f002a766872baec206e86cfa0da3e8c1b28b4af2e8f643ef97",
+      "rows": 50
+    },
+    {
+      "path": "content/sentence_bank/long_food_shopping_19.json",
+      "sha256": "001137ac40fad6560a310b94bca1a8d3f73f569d3414db3973aeadc2eae60a59",
+      "rows": 38
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_01.json",
+      "sha256": "20b5b163337de3a8fbb7678e1ac52295a38fa8aecde0678fc020a632a57cd439",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_02.json",
+      "sha256": "b3cd3767b78fe76b5449c8d8fc22405a97440c9096d7fe7b8c9bca8bdd108ee6",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_03.json",
+      "sha256": "97476d18a0926b82d0ac6c1bf1e969ac57ff764a27d3441019ad9dac50cde4df",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_04.json",
+      "sha256": "f756d0db3d39150a8d86e3173e726f52d3ff3556616bae809105a4009f587c33",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_05.json",
+      "sha256": "d5973d62e268eace00a09f6c899abe577117777dc4e03fb535028a7d92dc9481",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_06.json",
+      "sha256": "a31c63aaa9edf8b760e2f2439e6ddfbac5adc7b948d5e22565aa409bd9a9dfc4",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_07.json",
+      "sha256": "50f370b72c0a02811270721eba161040ab2c64cb7055409058ecf2e296cc7ab2",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_08.json",
+      "sha256": "de251fcd8ff29e096bdf6b1167ccf2c7978de87d37b739ee9dd6b140fc167c90",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_09.json",
+      "sha256": "716e9c921cefdf81c60f3b22bf0509e491be5c1ff8aee653585569fe273780dc",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_10.json",
+      "sha256": "69bada62000858261a0419747d258ab90a065b8bbfe5fd5f8998fcf8cf553143",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_11.json",
+      "sha256": "36e9569df44f5772554e45e283756b9d4b86f2ccdfd4f496ae29d2afc926757c",
+      "rows": 138
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_12.json",
+      "sha256": "f07c5fc9f9f26a1718b9c2bb541e763d8c2611c89e36f245f75c619098ee5f1a",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_13.json",
+      "sha256": "59ba7e77df8f54c00c6879198cb36bb0b3b72cf3bac678718697be536ec7108e",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_14.json",
+      "sha256": "bd810ac451670c19f95910d37854062cd9eb8e8594e72c28961861076d4e11e9",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_15.json",
+      "sha256": "4386c0ab967649e899b631226c85b1c61a6fa3acb7d2ba933789a8a43e9b196b",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_16.json",
+      "sha256": "d11104a68b8e7dbd7e573266ded60aaebb07860f897ba0a8cd848560cf7e5bbb",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_17.json",
+      "sha256": "40dffb27430796978ba707308d4da3da5a540127c5eeebf8baa7d8869d5ce643",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_18.json",
+      "sha256": "51146ddcbca782fb938919c98339c72ece961c5777efc2b58316cbed1857b178",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_19.json",
+      "sha256": "074531e315e2002f7316bb38f65cd1fe494bb54a986dddda8593b0d843a500e0",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_20.json",
+      "sha256": "2c1a097de30aafca568315ff241ac203867148efa69d8455a2bc1a6b0dc5b8a1",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_21.json",
+      "sha256": "351228a90c44fe9185d8abae02b8924da5e8d364110f238c07fd2c0df4a41a08",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_22.json",
+      "sha256": "e97d93fbdf62e4e668e56e39fc17829b986a66d0d38bca62b739371a5c4dd5ca",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_23.json",
+      "sha256": "e5244fe7667b57433f88fd7b2da1fc8d0b557f57f24de2aec419b66527a1e927",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_24.json",
+      "sha256": "9656d26086144b0386ad08745147705b5cc6b423a92a4d2a3efc2cb22c8cd297",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_25.json",
+      "sha256": "3fd98f0e33f2626259dcf4da20feb896a0ce6a81cf2b068341851d8da5de2abd",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_26.json",
+      "sha256": "aa878a537067cf996a95e8dc1de0dc9762b040833543bfdef706636353a30b34",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_27.json",
+      "sha256": "6cedb6e9664a08e06c3ee2d848624a8174d58ee1a74135dfc277156ab628a9f7",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_28.json",
+      "sha256": "1bcefb505bfceb597e516a9ea30f5507edcc94626d91184175c4591522f3c3bc",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_29.json",
+      "sha256": "b07364a0fb65d080a01164ebe623b004efcce00344c7ad5accbefb6ec503f826",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_30.json",
+      "sha256": "77d6dc8d95f91c4c123a2b6241125d30228b194da9b08499cb1b0a90c2d2052b",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_31.json",
+      "sha256": "a09a441fe339c4d64861671a2620c498e3e030021ab9d41ddf90f325057ed2a9",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_32.json",
+      "sha256": "81f92bad2fc7e21cff89592bfcc790679d61e18425bbb52c54413df5ba81e0de",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_33.json",
+      "sha256": "f63a35cb1c7254ca930357e76fab01e7a13ef2621c6477ff5617de12cf49a7bf",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_34.json",
+      "sha256": "05314cee7e5bb05e502c2cb039b18a4c086aa40481a636a5b5e42c48409b7a09",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_35.json",
+      "sha256": "a54333943fe41f788c3607c1b508582132e47efed6ab3f723b3b2e8dfb5138e2",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_36.json",
+      "sha256": "ef155c258207e0c1ff40dcb8a52fbeeeb40a7e833ec1858d482f972af4b22584",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_37.json",
+      "sha256": "76b2451efe8ae9507f1afa44ffdc38e9117df3fb29425e3455ec19591e226d4e",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_38.json",
+      "sha256": "e65d2e4d19371aa26b33360b23030bcb22d772d6f1243be7853198e59f5fdda8",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_39.json",
+      "sha256": "ce948f97ab08785deb77a4ca7619522ad8ef2b64e84e671c656cf65337c37305",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_40.json",
+      "sha256": "e2216b7177e4803460832cd9aff3ed8771b9574714847807b84c8925f9fc6c0b",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_41.json",
+      "sha256": "3310317566eeaadfd74e4f314a6e89a330675505a018bcdd170de7b924c96092",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_42.json",
+      "sha256": "e9a31d74028fd98118a7f5b03a3dbf367d1f02087cb3894df60843e369199f58",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_health_services_43.json",
+      "sha256": "a3ccec0138ca9e99940bf18ad49a8efafcb76ca7f9912912d8ed99fbeb8a5fc7",
+      "rows": 2
+    },
+    {
+      "path": "content/sentence_bank/long_home_family_01.json",
+      "sha256": "89406e40d7de6f116112350ad4241d3b9754cf59d98efdbb74eca21f619db3df",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_home_family_02.json",
+      "sha256": "22b1588b67991be64e3f1ab41c724980a5b139b47e46fc5db3705afea08d2368",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_home_family_03.json",
+      "sha256": "1d27a696ff4afb02983bade170a89308f163618ced0cd62f0146973f1f09f835",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_home_family_04.json",
+      "sha256": "7f483853ca81c23f7ee9e40d8fb70ff1fe50535e8a8f48c29624d4e9cdd883f5",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_home_family_05.json",
+      "sha256": "674d5cdb1f8d096587439ddd4a74acb99bf286cba13ef91eb3289d3549480d8f",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_home_family_06.json",
+      "sha256": "a6c1ac477ceac415f3e347e12a305e0aa819626f5c1e9e434ae6ce883ece7707",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_home_family_07.json",
+      "sha256": "f8b321b3355715495ee3dcef0c2e554d06c1f8e99b64e1d73054a5ad4adcf364",
+      "rows": 100
+    },
+    {
+      "path": "content/sentence_bank/long_home_family_08.json",
+      "sha256": "6fbb7418dcdb40a5202b34c9130e74f682626db975afaa24b7e24e69adf9c04d",
+      "rows": 200
+    },
+    {
+      "path": "content/sentence_bank/long_home_family_09.json",
+      "sha256": "e5206806e9ad30e2f52e7090af0f893b6351f77de6cd8b1a32e3d285be98538b",
+      "rows": 98
+    },
+    {
+      "path": "STORY_QUALITY_REVALIDATION.json",
+      "sha256": "97f1f7b7d35844562602762b8b69065e4e096971e20726992063501553e8c86e",
+      "rows": null
+    },
+    {
+      "path": "STORY_QUALITY_ORAL_REAUDIT.json",
+      "sha256": "6cab54630b6658a44cbefedeeb50f5400baf79b4a6a78ba16012254af17bcf8f",
+      "rows": null
+    },
+    {
+      "path": "content/story_library_selection.json",
+      "sha256": "b646ca8bfb62aae9419881d171c4311b07331580163e42a0c06951e8e4292812",
+      "rows": null
+    },
+    {
+      "path": "app/src/main/assets/builtin/content.json",
+      "sha256": "602989bf0866fb94e72a8c86e54ea8d18f2111aae35a0eacfd7ed0af23df3d19",
+      "rows": null
+    }
+  ]
+}

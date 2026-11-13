@@ -9,6 +9,8 @@ import json
 import re
 from pathlib import Path
 
+from story_source_index import all_catalog_rows, load_index
+
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "content"
@@ -91,10 +93,19 @@ def audit(row: dict, selected: bool) -> list[str]:
     return failures
 
 
-def source_files() -> list[tuple[Path, bool]]:
-    independent = [(path, False) for path in sorted((CONTENT_DIR / "sentence_bank").glob("*.json"))]
-    selected = [(path, True) for path in sorted(CONTENT_DIR.glob("*sentence*_bank.json"))]
-    return independent + selected
+def source_files() -> list[tuple[str, bool, list[dict]]]:
+    if (CONTENT_DIR / "story_source_index_map.json").exists():
+        grouped: dict[str, list[dict]] = {}
+        for relative, _index, row in all_catalog_rows():
+            grouped.setdefault(relative, []).append(row)
+        result = [(relative, False, rows) for relative, rows in sorted(grouped.items())]
+    else:
+        result = []
+        for path in sorted((CONTENT_DIR / "sentence_bank").glob("*.json")):
+            result.append((path.relative_to(ROOT).as_posix(), False, json.loads(path.read_text(encoding="utf-8"))))
+    for path in sorted(CONTENT_DIR.glob("*sentence*_bank.json")):
+        result.append((path.relative_to(ROOT).as_posix(), True, json.loads(path.read_text(encoding="utf-8"))))
+    return result
 
 
 def render_report() -> tuple[str, int, int]:
@@ -118,10 +129,16 @@ def render_report() -> tuple[str, int, int]:
     ]
     total = 0
     passing = 0
-    for path, selected in source_files():
-        rows = json.loads(path.read_text(encoding="utf-8"))
+    active_keys: set[tuple[str, int]] = set()
+    if (CONTENT_DIR / "story_source_index_map.json").exists():
+        active_keys = {
+            (record["original_file"], record["original_index"])
+            for record in load_index()["active_rows"]
+        }
+    active_revalidation_counts = {"pass": 0, "needs_revision": 0, "pending": 0}
+    for relative, selected, rows in source_files():
         for index, row in enumerate(rows):
-            key = (path.relative_to(ROOT).as_posix(), index)
+            key = (relative, index)
             source_keys.append(key)
             review = reviews.get(key)
             if review is not None:
@@ -150,10 +167,12 @@ def render_report() -> tuple[str, int, int]:
                     v2_pending += 1
                 else:
                     raise ValueError(f"Unknown quality revalidation status {status!r}: {key}")
+                if key in active_keys:
+                    active_revalidation_counts[status] += 1
         passed = sum(not audit(row, selected) for row in rows)
         total += len(rows)
         passing += passed
-        sections.append(f"| `{path.relative_to(ROOT).as_posix()}` | {passed}/{len(rows)} | {len(rows) - passed} |")
+        sections.append(f"| `{relative}` | {passed}/{len(rows)} | {len(rows) - passed} |")
     if matched_reviews != reviews.keys():
         raise ValueError("Language review references missing source rows")
     if matched_revalidations != revalidations.keys() or len(revalidations) != total:
@@ -168,13 +187,17 @@ def render_report() -> tuple[str, int, int]:
         contiguous_prefix += 1
     first_goal_gap = next((key for key in goal_keys if key not in valid_reviewed_keys), None)
     reviewed_outside_goal = sum(key not in goal_key_set for key in valid_reviewed_keys)
+    active_language_reviewed = sum(key in valid_reviewed_keys for key in active_keys)
     sections.extend((
         "", f"**Overall mechanical pass: {passing}/{total}.**", "",
-        f"**Goal (main-agent language review within the first {REVIEW_GOAL} source rows): {goal_reviewed}/{min(REVIEW_GOAL, total)}; remaining: {max(0, min(REVIEW_GOAL, total) - goal_reviewed)}.**", "",
-        f"**Contiguous reviewed source-order prefix: {contiguous_prefix}/{min(REVIEW_GOAL, total)}.**", "",
-        f"**First uncovered goal row: `{first_goal_gap[0]}` index {first_goal_gap[1]}.**" if first_goal_gap else "**First uncovered goal row: none.**", "",
-        f"**Valid language reviews outside the first {REVIEW_GOAL} source rows: {reviewed_outside_goal}.**", "",
-        f"**Corpus language review: {reviewed}/{total}; source rows without a valid review: {total - reviewed}.**", "",
+        f"**Active source library: {len(active_keys) if active_keys else total} cards; archived original rows: {max(0, total - len(active_keys))}.**", "",
+        f"**Active V2 (`macau-comedy-revalidation-v2`): {active_revalidation_counts['pass']} pass; {active_revalidation_counts['needs_revision']} need revision; {active_revalidation_counts['pending']} pending.**", "",
+        f"**Active cards with a current V1 language-ledger review: {active_language_reviewed}/{len(active_keys) if active_keys else total}.**", "",
+        f"**Historical V1 language review (`{ACTIVE_REVIEW_ROUND}`): {goal_reviewed}/{min(REVIEW_GOAL, total)} records in the original catalog; this is not the current active-library V2/oral completion metric.**", "",
+        f"**Contiguous prefix in that historical V1 round: {contiguous_prefix}/{min(REVIEW_GOAL, total)}.**", "",
+        f"**First missing historical V1 row: `{first_goal_gap[0]}` index {first_goal_gap[1]}.**" if first_goal_gap else "**First missing historical V1 row: none.**", "",
+        f"**Historical V1 review records outside the first {REVIEW_GOAL} source rows: {reviewed_outside_goal}.**", "",
+        f"**Historical V1 catalog review: {reviewed}/{total}; rows without a current V1 record: {total - reviewed}.**", "",
         f"**Clarified quality revalidation (`{ACTIVE_REVALIDATION_ROUND}`): {v2_passed}/{total} pass; {v2_needs_revision} need revision; {v2_pending} pending.**", "",
         f"`STORY_LANGUAGE_REVIEW.json` remains the historical `{ACTIVE_REVIEW_ROUND}` ledger. A stale historical hash is not current approval. `STORY_QUALITY_REVALIDATION.json` records current hashes and individual revalidation decisions; hashes verify synchronization but do not assess language quality.", "",
     ))

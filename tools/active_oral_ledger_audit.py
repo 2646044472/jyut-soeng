@@ -2,8 +2,8 @@
 """Read-only audit for active oral-review counts, row hashes, and app mirrors.
 
 This helper only reads project JSON. It never creates, translates, or rewrites
-story language. Canonical source identity is
-``sentence-bank-{Path(file).stem}-{index + 1:04d}``.
+story language. Stable IDs are resolved through the source index map to their
+original file and zero-based array position.
 """
 
 from __future__ import annotations
@@ -14,6 +14,13 @@ import json
 import sys
 from collections import Counter
 from pathlib import Path
+
+from story_source_index import (
+    all_rows_by_current_coordinate,
+    active_rows_by_current_coordinate,
+    archived_source_rows,
+    load_index,
+)
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -70,27 +77,76 @@ def audit(show_topics: bool = False) -> tuple[dict, list[str]]:
     oral_by_key = indexed_records(oral, errors, "oral")
     id_to_source: dict[str, tuple[str, int, dict]] = {}
     source_keys: set[tuple[str, int]] = set()
+    source_index = load_index()
+    try:
+        original_rows = archived_source_rows(source_index)
+    except (OSError, ValueError, KeyError, json.JSONDecodeError) as exc:
+        errors.append(f"source archive verification failed: {exc}")
+        original_rows = {}
+    active_map_ids = {record.get("id") for record in source_index.get("active_rows", [])}
+    archived_map_ids = {record.get("id") for record in source_index.get("archived_rows", [])}
+    if active_map_ids != active_ids:
+        errors.append("stable active source map IDs do not match selection")
+    excluded_ids = set(selection.get("excluded_ids", []))
+    if archived_map_ids != excluded_ids:
+        errors.append("stable archived source map IDs do not match selection")
+
+    map_records = source_index.get("active_rows", []) + source_index.get("archived_rows", [])
+    seen_original: set[tuple[str, int]] = set()
+    for mapping in map_records:
+        relative = mapping.get("original_file", "")
+        index = mapping.get("original_index", -1)
+        key = (relative, index)
+        if key in seen_original:
+            errors.append(f"duplicate original source coordinate in map: {key}")
+        seen_original.add(key)
+        row = original_rows.get(key)
+        if row is None:
+            errors.append(f"original archived row missing: {key}")
+            continue
+        if row_digest(row) != mapping.get("original_row_sha256"):
+            errors.append(f"stable map row hash mismatch: {mapping.get('id')}")
+        if mapping.get("id") != canonical_story_id(relative, index):
+            errors.append(f"stable ID does not match original coordinate: {key}")
+        source_keys.add(key)
+        story_id = mapping["id"]
+        id_to_source[story_id] = (relative, index, row)
+        digest = row_digest(row)
+        v2_record = v2_by_key.get(key)
+        oral_record = oral_by_key.get(key)
+        if v2_record is None:
+            errors.append(f"missing V2 record: {key}")
+        elif v2_record.get("status") in {"pass", "needs_revision"} and v2_record.get("v2_sha256") != digest:
+            errors.append(f"stale V2 hash: {story_id}")
+        if oral_record is None:
+            errors.append(f"missing oral record: {key}")
+        elif oral_record.get("status") in {"pass", "needs_revision"} and oral_record.get("source_sha256") != digest:
+            errors.append(f"stale oral hash: {story_id}")
+
+    if len(seen_original) != source_index.get("original_row_count"):
+        errors.append("stable source map does not cover the original catalog")
+
+    source_layout = source_index.get("source_layout", "compact_active")
+    if source_layout not in {"compact_active", "full_restored"}:
+        errors.append(f"unknown source layout: {source_layout}")
+    expected_current: dict[tuple[str, int], dict] = (
+        active_rows_by_current_coordinate(source_index)
+        if source_layout == "compact_active"
+        else all_rows_by_current_coordinate(source_index)
+    )
+    current_coordinates: set[tuple[str, int]] = set()
     for source_path in sorted((ROOT / "content" / "sentence_bank").glob("*.json")):
         relative = source_path.relative_to(ROOT).as_posix()
-        rows = read_json(source_path)
-        for index, row in enumerate(rows):
-            key = (relative, index)
-            source_keys.add(key)
-            story_id = canonical_story_id(relative, index)
-            if story_id in id_to_source:
-                errors.append(f"duplicate canonical source ID: {story_id}")
-            id_to_source[story_id] = (relative, index, row)
-            digest = row_digest(row)
-            v2_record = v2_by_key.get(key)
-            oral_record = oral_by_key.get(key)
-            if v2_record is None:
-                errors.append(f"missing V2 record: {key}")
-            elif v2_record.get("status") in {"pass", "needs_revision"} and v2_record.get("v2_sha256") != digest:
-                errors.append(f"stale V2 hash: {story_id}")
-            if oral_record is None:
-                errors.append(f"missing oral record: {key}")
-            elif oral_record.get("status") in {"pass", "needs_revision"} and oral_record.get("source_sha256") != digest:
-                errors.append(f"stale oral hash: {story_id}")
+        for index, row in enumerate(read_json(source_path)):
+            coordinate = (relative, index)
+            current_coordinates.add(coordinate)
+            mapping = expected_current.get(coordinate)
+            if mapping is None:
+                errors.append(f"current active source row has no stable mapping: {coordinate}")
+            elif row_digest(row) != mapping.get("original_row_sha256"):
+                errors.append(f"current active source row differs from archive: {mapping.get('id')}")
+    if current_coordinates != set(expected_current):
+        errors.append("stable source map coordinates do not match current source rows")
 
     if set(v2_by_key) != source_keys:
         errors.append("V2 ledger keys do not match source rows")
@@ -141,6 +197,8 @@ def audit(show_topics: bool = False) -> tuple[dict, list[str]]:
     summary = {
         "active_ids": len(active_ids),
         "source_rows": len(source_keys),
+        "active_source_rows": len(active_map_ids),
+        "archived_original_rows": len(archived_map_ids),
         "active_v2_status_counts": expected_v2,
         "active_oral_status_counts": expected_oral,
         "active_oral_topic_note_types": len(active_topic_counts),

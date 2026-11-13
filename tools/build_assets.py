@@ -6,6 +6,14 @@ import hashlib
 from datetime import datetime, timezone
 from pathlib import Path
 
+from story_source_index import (
+    all_rows_by_current_coordinate,
+    active_rows_by_current_coordinate,
+    archived_source_rows,
+    load_index,
+    row_digest,
+)
+
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "content"
 SENTENCE_BANK_DIR = CONTENT_DIR / "sentence_bank"
@@ -37,20 +45,27 @@ def reviewed_sentence_entry_ids() -> set[str]:
         return set()
 
     ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
+    index_map = load_index()
+    by_original = {
+        (record["original_file"], record["original_index"]): record
+        for record in index_map["active_rows"]
+    }
     reviewed_ids: set[str] = set()
     for record in ledger.get("cards", []):
         if record.get("status") != "pass":
             continue
-        source_path = ROOT / record["file"]
+        mapping = by_original.get((record["file"], record["index"]))
+        if mapping is None:
+            continue
+        source_path = ROOT / mapping["current_file"]
         rows = json.loads(source_path.read_text(encoding="utf-8"))
-        index = record["index"]
-        if index < 0 or index >= len(rows):
+        current_index = mapping["current_index"]
+        if current_index < 0 or current_index >= len(rows):
             continue
-        row = rows[index]
-        encoded = json.dumps(row, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()
-        if hashlib.sha256(encoded).hexdigest() != record.get("v2_sha256"):
+        row = rows[current_index]
+        if row_digest(row) != record.get("v2_sha256"):
             continue
-        reviewed_ids.add(f"sentence-bank-{source_path.stem}-{index + 1:04d}")
+        reviewed_ids.add(mapping["id"])
     return reviewed_ids
 def build_prompt_text(raw: str, entry_type: str) -> str:
     text = str(raw or "").strip()
@@ -101,12 +116,19 @@ def load_entries(path: Path, entry_type: str) -> list[dict]:
 
 
 def load_independent_sentence_entries(
-    path: Path, selected_ids: set[str], source_ids: set[str]
+    path: Path, selected_ids: set[str], source_ids: set[str],
+    current_index_map: dict[tuple[str, int], dict],
 ) -> list[dict]:
     rows = json.loads(path.read_text(encoding="utf-8"))
     entries: list[dict] = []
     for index, row in enumerate(rows, start=1):
-        entry_id = f"sentence-bank-{path.stem}-{index:04d}"
+        relative = path.relative_to(ROOT).as_posix()
+        mapping = current_index_map.get((relative, index - 1))
+        if mapping is None:
+            raise SystemExit(f"Current source row has no stable ID mapping: {relative}:{index - 1}")
+        entry_id = mapping["id"]
+        if row_digest(row) != mapping["original_row_sha256"]:
+            raise SystemExit(f"Current story source hash differs from its stable index map: {entry_id}")
         if entry_id in source_ids:
             raise SystemExit(f"Duplicate source story ID: {entry_id}")
         source_ids.add(entry_id)
@@ -147,15 +169,38 @@ def load_all_entries() -> list[dict]:
         )
         entries.extend(load_entries(path, entry_type))
     selected_ids, excluded_ids = story_selection()
+    index_map = load_index()
+    source_layout = index_map.get("source_layout", "compact_active")
+    if source_layout not in {"compact_active", "full_restored"}:
+        raise SystemExit(f"Unknown story source layout: {source_layout}")
+    active_map_ids = {record["id"] for record in index_map["active_rows"]}
+    archived_map_ids = {record["id"] for record in index_map["archived_rows"]}
+    if active_map_ids != selected_ids or archived_map_ids != excluded_ids:
+        raise SystemExit("Stable source map does not match the active/excluded selection partition")
+    original_rows = archived_source_rows(index_map)
+    for active in index_map["active_rows"]:
+        row = original_rows.get((active["original_file"], active["original_index"]))
+        if row is None or row_digest(row) != active["original_row_sha256"]:
+            raise SystemExit(f"Original archived story row is missing or changed: {active['id']}")
+    for archived in index_map["archived_rows"]:
+        row = original_rows.get((archived["original_file"], archived["original_index"]))
+        if row is None or row_digest(row) != archived["original_row_sha256"]:
+            raise SystemExit(f"Archived story row is missing or changed: {archived['id']}")
     found_ids: set[str] = set()
     source_ids: set[str] = set()
+    current_index_map = (
+        active_rows_by_current_coordinate(index_map)
+        if source_layout == "compact_active"
+        else all_rows_by_current_coordinate(index_map)
+    )
     for path in sorted(SENTENCE_BANK_DIR.glob("*.json")):
-        selected_entries = load_independent_sentence_entries(path, selected_ids, source_ids)
+        selected_entries = load_independent_sentence_entries(path, selected_ids, source_ids, current_index_map)
         found_ids.update(entry["id"] for entry in selected_entries)
         entries.extend(selected_entries)
-    if source_ids != selected_ids | excluded_ids:
-        unknown = sorted(source_ids - selected_ids - excluded_ids)
-        stale = sorted((selected_ids | excluded_ids) - source_ids)
+    expected_source_ids = selected_ids if source_layout == "compact_active" else selected_ids | excluded_ids
+    if source_ids != expected_source_ids:
+        unknown = sorted(source_ids - expected_source_ids)
+        stale = sorted(expected_source_ids - source_ids)
         raise SystemExit(f"Story selection/source mismatch: {len(unknown)} unlisted, {len(stale)} missing IDs")
     if found_ids != selected_ids:
         missing = sorted(selected_ids - found_ids)
