@@ -1,0 +1,96 @@
+{
+  "review_type": "independent_candidate_review_rev2",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "order": 1234,
+  "candidate_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITE_1234_AUTHOR_CANDIDATE_REV2_2026-11-13.json",
+  "candidate_file_sha256_recomputed": "6505d46cd416979a40be24dd784a8746a80be3821970e08328e191b6b655dc56",
+  "field_hash_check": {
+    "fields": ["sentence", "jyutping", "gloss", "usageTip"],
+    "gloss_source_field": "mandarin_translation",
+    "serialization": "UTF-8 JSON; ensure_ascii=false; sort_keys=true; separators=(',', ':')",
+    "recomputed": "bb7f7c6e0404981fa2e52de867316c6b19722eab7a7d3b8c401bc5e54c2d3d55",
+    "candidate_declared": "bb7f7c6e0404981fa2e52de867316c6b19722eab7a7d3b8c401bc5e54c2d3d55",
+    "match": true,
+    "independent_recalculation": true
+  },
+  "source_check": {
+    "id": "sentence-bank-long_food_shopping_17-0014",
+    "file": "content/sentence_bank/long_food_shopping_17.json",
+    "index": 13,
+    "source_category": "超市取貨發現缺少青菜",
+    "candidate_category": "超市取貨發現缺少青菜",
+    "category_matches": true,
+    "source_freeze_sha256_recomputed_from_normalized_object": "9435fadf933264cb7481f72e0815a410948167faa6086d1a7b395cee2b47bfda",
+    "candidate_declared_freeze_sha256": "9435fadf933264cb7481f72e0815a410948167faa6086d1a7b395cee2b47bfda",
+    "hash_matches": true,
+    "keeper_id": "sentence-bank-long_food_shopping_17-0002",
+    "keeper_hash_recomputed": "df072f8e70cdc72734948523f6cf059ab71b878c20aa63797a3ea77f0017e1d8"
+  },
+  "counts_and_fields": {
+    "hanzi_count_recomputed": 246,
+    "jyutping_tone_token_count_recomputed": 246,
+    "candidate_declared_counts": "246/246",
+    "count_match": true,
+    "punctuation_delimited_segments": 30,
+    "segment_alignment_check": "All 30 punctuation-separated segments have matching Hanzi and Jyutping syllable counts.",
+    "four_fields_present": true,
+    "mandarin_translation_complete": true,
+    "usageTip_prefix": "故事练习："
+  },
+  "pronunciation_review": {
+    "打開袋 occurrences": {
+      "text_count": 2,
+      "candidate_pronunciation": "daa2 hoi1 doi2",
+      "checked": true
+    },
+    "訂 occurrences": {
+      "text_count": 2,
+      "context": ["網上訂嘅菜", "訂單號"],
+      "candidate_pronunciation": "deng6",
+      "checked": true,
+      "note": "订购语义下采用口语 deng6，词典中的订枱、订造、订购均支持此读法。"
+    },
+    "other_spot_checks": "收據 sau1 geoi3；摺住 zaak3 zyu6；核對 hat6 deoi3；名字 meng2 zi6；認祖歸宗 jan6 zou2 gwai1 zung1。无明显错音。",
+    "tone_scope": "独立核听重点改动读音，并抽查其他短语；246音节按标点分段对齐。未声称每个音节都经独立词典逐条查证。"
+  },
+  "bounded_neighbor_comparison": {
+    "keeper": "指定keeper 17-0002将缺菜归因为订单另有最后取冷藏柜，之后接入鱼的误会和笑点。",
+    "candidate": "两名顾客的相似姓名令取货贴纸贴反，靠订单尾号和逐项核货找回青菜，结尾把标签比作认祖归宗。",
+    "assessment": "两稿都保留超市取货和青菜，但误会成因、排查步骤及回扣不同。本次只比较该keeper和有限既有上下文，不代表全库去重。"
+  },
+  "field_review": {
+    "oral_cantonese": "整体像自然澳门口语，‘偏偏冇青菜’、‘隔籬客人’、‘越核越似共同做緊盤點’均顺畅；认祖归宗的标签回扣易懂。",
+    "mandarin_translation": "完整呈现两袋贴纸贴反、订单尾号不同、找回青菜及尾梗，语义顺序对应粤语故事。",
+    "usageTip": "以‘故事练习：’开头，覆盖缺菜原因、贴纸错贴、核对和结尾回扣。"
+  },
+  "pronunciation_references": [
+    {
+      "title": "粵典：打",
+      "url": "https://words.hk/zidin/%E6%89%93",
+      "finding": "动词打读 daa2。"
+    },
+    {
+      "title": "粵典：訂枱",
+      "url": "https://words.hk/zidin/%E8%A8%82%E6%9E%B1",
+      "finding": "订枱的訂读 deng6。"
+    },
+    {
+      "title": "粵典：購",
+      "url": "https://words.hk/zidin/%E8%B3%BC",
+      "finding": "订购标作 deng6 kau3。"
+    },
+    {
+      "title": "粵典：核對",
+      "url": "https://words.hk/zidin/%E6%A0%B8%E5%B0%8D",
+      "finding": "核对读 hat6 deoi3。"
+    },
+    {
+      "title": "粵典：名",
+      "url": "https://words.hk/zidin/%E5%90%8D",
+      "finding": "名有口语读 meng2；候稿名字的 meng2 可接受。"
+    }
+  ],
+  "verdict": "PASS_FOR_CANDIDATE_REVIEW_ONLY",
+  "scope_note": "独立复核REV2自身的源对象冻结hash、候稿文件hash、四字段hash、声调重点及对齐；未沿用REV1结论。仅有限keeper比较，未做全库排重。未修改候稿或canonical。"
+}

@@ -1,0 +1,31 @@
+{
+  "report_type": "frozen_duplicate_queue_author_candidate_rev2",
+  "date": "2026-11-13",
+  "candidate_status": "AUTHOR_CANDIDATE_REVIEW_REQUIRED",
+  "order": 1267,
+  "id": "sentence-bank-long_food_shopping_18-0020",
+  "source_file": "content/sentence_bank/long_food_shopping_18.json",
+  "source_index": 19,
+  "source_category": "街市買豆腐煮家常湯",
+  "source_freeze_sha256": "812c2cecfbdf68ee09d2a87a80b7e6946e8d401d0f5a3f7952fb913d4ef22c3f",
+  "candidate": {
+    "category": "街市買豆腐煮家常湯",
+    "sentence": "我收工後去街市買豆腐同魚片，魚檔老闆話魚片落湯煮八分鐘就熟，豆腐遲少少先落。我拎住餸返到共享廚房，開住食譜錄音跟煮；聽到食譜講「煲二十分鐘」，我就手動喺手機設咗二十分鐘計時。湯仲未滾，計時器已經響；我以為自己漏咗步驟，熄火再聽一次，食譜都係講煲二十分鐘。我重新開火，再手動設多二十分鐘；隔陣計時器又響，隔籬煮飯嗰個人望住我個煲，似等緊我宣布散場。我先知兩次響，都係我自己手動設嘅計時到咗，唔係食譜叫我煲兩次。於是我關掉計時器，自己睇鐘煮湯，最後先落豆腐。大家一人一碗，手機鬧鐘終於冇再響；全廚房望住我，等我宣布開飯。",
+    "jyutping": "ngo5 sau1 gung1 hau6 heoi3 gaai1 si5 maai5 dau6 fu6 tung4 jyu4 pin2 jyu4 dong3 lou5 baan2 waa6 jyu4 pin2 lok6 tong1 zyu2 baat3 fan1 zung1 zau6 suk6 dau6 fu6 ci4 siu2 siu2 sin1 lok6 ngo5 ling1 zyu6 sung3 faan1 dou3 gung6 hoeng2 cyu4 fong2 hoi1 zyu6 sik6 pou2 luk6 jam1 gan1 zyu2 teng1 dou3 sik6 pou2 gong2 bou1 ji6 sap6 fan1 zung1 ngo5 zau6 sau2 dung6 hai2 sau2 gei1 cit3 zo2 ji6 sap6 fan1 zung1 gai3 si4 tong1 zung6 mei6 gwan2 gai3 si4 hei3 ji5 ging1 heong2 ngo5 ji5 wai4 zi6 gei2 lau6 zo2 bou6 zuk6 sik1 fo2 zoi3 teng1 jat1 ci3 sik6 pou2 dou1 hai6 gong2 bou1 ji6 sap6 fan1 zung1 ngo5 cung4 san1 hoi1 fo2 zoi3 sau2 dung6 cit3 do1 ji6 sap6 fan1 zung1 gaak3 zan6 gai3 si4 hei3 jau6 heong2 gaak3 lei4 zyu2 faan6 go2 go3 jan4 mong6 zyu6 ngo5 go3 bou1 ci5 dang2 gan2 ngo5 syun1 bou3 saan3 coeng4 ngo5 sin1 zi1 loeng5 ci3 heong2 dou1 hai6 ngo5 zi6 gei2 sau2 dung6 cit3 ge3 gai3 si4 dou3 zo2 m4 hai6 sik6 pou2 giu3 ngo5 bou1 loeng5 ci3 jyu1 si6 ngo5 gwaan1 diu6 gai3 si4 hei3 zi6 gei2 tai2 zung1 zyu2 tong1 zeoi3 hau6 sin1 lok6 dau6 fu6 daai6 gaa1 jat1 jan4 jat1 wun2 sau2 gei1 naau6 zung1 zung1 jyu1 mou5 zoi3 heong2 cyun4 cyu4 fong2 mong6 zyu6 ngo5 dang2 ngo5 syun1 bou3 hoi1 faan6",
+    "gloss": "我下班后去街市买豆腐和鱼片，鱼档老板说鱼片下汤煮八分钟就熟，豆腐晚一点再放。我拿着食材回到共享厨房，开着食谱录音跟着煮；听到食谱说“煲二十分钟”，我就手动在手机上设了二十分钟计时。汤还没滚，计时器已经响了；我以为自己漏了步骤，关火再听一次，食谱还是说煲二十分钟。我重新开火，再手动设了二十分钟；过一会儿计时器又响，隔壁煮饭的人看着我的锅，好像等着我宣布散场。我这才知道两次响都是我自己设的时间到了，并不是食谱叫我煲两次。于是我关掉计时器，自己看钟煮汤，最后才放豆腐。大家一人一碗，手机闹钟终于没再响；整个厨房看着我，等我宣布开饭。",
+    "usageTip": "故事练习：复述听到食谱说煲二十分钟后，作者怎样手动设时；第一次响后为何关火、重听、重新开火并再设二十分钟，再讲共厨的人怎样误以为要散场，以及结尾如何以开饭回扣。"
+  },
+  "author_notes": {
+    "revision_of": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITE_1267_AUTHOR_CANDIDATE_REV1_2026-11-13.json",
+    "review_fixes": "明确写出听食谱说煲二十分钟后手动设时；第一次闹钟响后关火重听，再重新开火并手动重设二十分钟，第二次闹钟响因此成立；将共廚房润为共享廚房。",
+    "different_mechanism": "共厨按食谱手动设置计时器后误把闹钟当步骤、重复定时造成第二次提示，旁人误以为散场；不靠蒸气、眼镜起雾、滑豆腐或挪盘制造笑点。",
+    "canonical_story_ledger_selection_app_resources_changed": false
+  },
+  "candidate_fields_sha256": "b2bbaa1a3a52151f1ab4aaac788b9da73d77288e64c3890aab44c3b9a794a30e",
+  "source_object_sha256_recomputed": "812c2cecfbdf68ee09d2a87a80b7e6946e8d401d0f5a3f7952fb913d4ef22c3f",
+  "source_freeze_sha256_match": true,
+  "han_count": 229,
+  "jyutping_token_count": 229,
+  "count_alignment_match": true,
+  "revision_of_file_sha256": "57d137765fd11c246eb4b5fd544156fb53d1e72bb4ffad7018f9bca5c245beb4"
+}

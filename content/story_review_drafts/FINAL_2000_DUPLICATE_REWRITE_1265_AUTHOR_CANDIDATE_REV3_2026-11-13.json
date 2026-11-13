@@ -1,0 +1,24 @@
+{
+  "report_type": "bounded_duplicate_rewrite_candidate",
+  "date": "2026-11-13",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "order": 1265,
+  "id": "sentence-bank-long_food_shopping_18-0018",
+  "source_file": "content/sentence_bank/long_food_shopping_18.json",
+  "source_index": 17,
+  "source_category": "開學前買小朋友午餐材料",
+  "source_sha256": "cdd12e956b4701d9dcbeec348f14bdd22c0e2f00b8dbeb05cb425ceb4cca0566",
+  "freeze_sha256": "cdd12e956b4701d9dcbeec348f14bdd22c0e2f00b8dbeb05cb425ceb4cca0566",
+  "keeper_order": 1207,
+  "keeper_id": "sentence-bank-long_food_shopping_16-0010",
+  "candidate": {
+    "sentence": "開學前，社區課後班要帶學生去公園做自然觀察，老師同我試裝學生午餐盒，想放冰袋保冷。出發前，冰袋外面結了水，紙巾濕了一角，三文治也軟了。老師用多張紙巾包住冰袋，紙巾一下變厚，盒蓋扣不上；她改用膠袋套住，冰袋不漏，膠袋外面又冒水珠。我拿乾布抹了幾次，學生每次拿起盒子，水珠又沾到手上，大家開始叫它「會出汗的午餐」。老師索性把冰袋換成一樽凍水，封好膠袋，放在午餐盒旁邊。到公園，三文治乾爽，樽身仍然濕漉漉。學生望住水樽問：「午餐盒冇落雨，係咪得水樽嗰邊落雨？」老師笑住答：「今日天氣好，淨係水樽局部有雨。」返學後，我哋把冰袋留喺冰箱，第二次出發前老師先問：「今次邊個要帶遮？」大家一齊指住水樽笑。",
+    "jyutping": "hoi1 hok6 cin4, se5 keoi1 fo3 hau6 baan1 jiu3 daai3 hok6 saang1 heoi3 gung1 jyun2 zou6 zi6 jin4 gun1 caat3, lou5 si1 tung4 ngo5 si3 zong1 hok6 saang1 ng5 caan1 hap6, soeng2 fong3 bing1 doi2 bou2 laang5. ceot1 faat3 cin4, bing1 doi2 ngoi6 min6 git3 zo2 seoi2, zi2 gan1 sap6 zo2 jat1 gok3, saam1 man4 zi6 jaa5 jyun4 zo2. lou5 si1 jung6 do1 zoeng1 zi2 gan1 baau1 zyu6 bing1 doi2, zi2 gan1 jat1 haa5 bin3 hau5, hap6 goi3 kau3 bat1 soeng6; keoi5 goi2 jung6 gaau1 doi2 tou3 zyu6, bing1 doi2 bat1 lau6, gaau1 doi2 ngoi6 min6 jau6 mou6 seoi2 zyu1. ngo5 naa4 gon1 bou3 mut3 zo2 gei2 ci3, hok6 saang1 mui5 ci3 naa4 hei2 hap6 zi2, seoi2 zyu1 jau6 zim1 dou3 sau2 soeng6, daai6 gaa1 hoi1 ci2 giu3 keoi5 wui5 ceot1 hon6 ge3 ng5 caan1. lou5 si1 sok3 sing3 baa2 bing1 doi2 wun6 sing4 jat1 zeon1 dung3 seoi2, fung1 hou2 gaau1 doi2, fong3 hai2 ng5 caan1 hap6 pong4 bin1. dou3 gung1 jyun2, saam1 man4 zi6 gon1 song2, zeon1 san1 jing4 jin4 sap6 luk6 luk6. hok6 saang1 mong6 zyu6 seoi2 zeon1 man6: ng5 caan1 hap6 mou5 lok6 jyu5, hai6 mai6 dak1 seoi2 zeon1 go2 bin1 lok6 jyu5? lou5 si1 siu3 zyu6 daap3: gam1 jat6 tin1 hei3 hou2, zing6 hai6 seoi2 zeon1 guk6 bou6 jau5 jyu5. faan1 hok6 hau6, ngo5 dei6 baa2 bing1 doi2 lau4 hai2 bing1 soeng1, dai6 ji6 ci3 ceot1 faat3 cin4 lou5 si1 sin1 man6: gam1 ci3 bin1 go3 jiu3 daai3 ze1? daai6 gaa1 jat1 cai4 zi2 zyu6 seoi2 zeon1 siu3.",
+    "gloss": "开学前，社区课后班要带学生去公园做自然观察，老师和我试着装学生午餐盒，想放冰袋保冷。出发前，冰袋外面结了水，纸巾湿了一角，三明治也软了。老师用多张纸巾包住冰袋，纸巾一下变厚，盒盖扣不上；她改用塑料袋套住，冰袋不漏了，塑料袋外面又冒水珠。我拿干布擦了几次，学生每次拿起盒子，水珠又沾到手上，大家开始叫它“会出汗的午餐”。老师干脆把冰袋换成一瓶冰水，封好塑料袋，放在午餐盒旁边。到了公园，三明治干爽，瓶身仍然湿漉漉。学生看着水瓶问：“午餐盒没下雨，难道只有水瓶那边在下雨？”老师笑着答：“今天天气好，只有水瓶局部有雨。”回学校后，我们把冰袋留在冰箱，第二次出发前老师先问：“这次谁要带伞？”大家一起指着水瓶笑。",
+    "usageTip": "故事练习：复述冰袋怎样弄湿午餐、老师用了哪些办法，以及水瓶和“下雨”怎样成为最后的回扣。"
+  },
+  "candidate_fields_sha256": "65adadb739572f054dd34f7153c31ff0452443404210f4941834600a666d3b59",
+  "han_count": 252,
+  "jyutping_token_count": 252,
+  "manual_note": "新稿匹配開學前為社區課後班學生準備午餐的分類。笑點機制是冰袋冷凝水逐步弄濕紙巾和手、解法轉成封袋冷水樽，再以局部落雨回扣；不採用原稿點名/餅乾遲到，也避開文具袋/鉛筆代筷。上一候稿公寓包裹櫃保留未覆蓋。"
+}

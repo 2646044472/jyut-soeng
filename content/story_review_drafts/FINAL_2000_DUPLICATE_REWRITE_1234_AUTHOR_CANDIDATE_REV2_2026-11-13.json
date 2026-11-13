@@ -1,0 +1,51 @@
+{
+  "report_type": "frozen_duplicate_queue_author_candidate_revision",
+  "date": "2026-11-13",
+  "revision": 2,
+  "order": 1234,
+  "id": "sentence-bank-long_food_shopping_17-0014",
+  "source_file": "content/sentence_bank/long_food_shopping_17.json",
+  "source_index": 13,
+  "source_category": "超市取貨發現缺少青菜",
+  "source_sha256_freeze": "9435fadf933264cb7481f72e0815a410948167faa6086d1a7b395cee2b47bfda",
+  "keeper_id": "sentence-bank-long_food_shopping_17-0002",
+  "candidate_status": "AUTHOR_CANDIDATE_REVIEW_REQUIRED",
+  "candidate": {
+    "category": "超市取貨發現缺少青菜",
+    "sentence": "我下班去超市取網上訂嘅菜，店員遞嚟兩袋，話單號尾數一樣，叫我對名。我打開袋，見到番茄同豆腐，偏偏冇青菜。隔籬客人又拎住一袋，話佢嗰袋多咗一包菜。我哋望下收據，原來兩張取貨貼紙都印住「林小姐」，店員將兩袋擺埋時貼反咗。大家以為只要換返袋就得，打開先發現另一袋仲有兩盒一樣嘅豆腐，收據被袋口摺住，名字只露一半。店員叫我哋逐樣念商品，兩個人一邊對單一邊交換，越核越似共同做緊盤點。後面有人排隊，幫手讀出貼紙上細字，先確認訂單號最後兩位唔同。店員照號碼重貼，青菜終於返到我手上；我拎袋走前，佢喺單上寫「勿只對姓氏」。我笑住話：「今日我唔係嚟取菜，係嚟幫張貼紙認祖歸宗。」",
+    "jyutping": "ngo5 haa6 baan1 heoi3 ciu1 si5 ceoi2 mong5 soeng6 deng6 ge3 coi3, dim3 jyun4 dai6 lai4 loeng5 doi2, waa6 daan1 hou6 mei5 sou3 jat1 joeng6, giu3 ngo5 deoi3 meng2. ngo5 daa2 hoi1 doi2, gin3 dou2 faan1 ke2 tung4 dau6 fu6, pin1 pin1 mou5 ceng1 coi3. gaak3 lei4 haak3 jan4 jau6 ling1 zyu6 jat1 doi2, waa6 keoi5 go2 doi2 do1 zo2 jat1 baau1 coi3. ngo5 dei6 mong6 haa5 sau1 geoi3, jyun4 loi4 loeng5 zoeng1 ceoi2 fo3 tip3 zi2 dou1 jan3 zyu6 lam4 siu2 ze2, dim3 jyun4 zoeng1 loeng5 doi2 baai2 maai4 si4 tip3 faan2 zo2. daai6 gaa1 ji5 wai4 zi2 jiu3 wun6 faan1 doi2 zau6 dak1, daa2 hoi1 sin1 faat3 jin6 ling6 jat1 doi2 zung6 jau5 loeng5 hop6 jat1 joeng6 ge3 dau6 fu6, sau1 geoi3 bei6 doi2 hau2 zaak3 zyu6, meng2 zi6 zi2 lou6 jat1 bun3. dim3 jyun4 giu3 ngo5 dei6 zuk6 joeng6 nim6 soeng1 ban2, loeng5 go3 jan4 jat1 bin1 deoi3 daan1 jat1 bin1 gaau1 wun6, jyut6 hat6 jyut6 ci5 gung6 tung4 zou6 gan2 pun4 dim2. hau6 min6 jau5 jan4 paai4 deoi6, bong1 sau2 duk6 ceot1 tip3 zi2 soeng6 sai3 zi6, sin1 kok3 jan6 deng6 daan1 hou6 zeoi3 hau6 loeng5 wai2 m4 tung4. dim3 jyun4 ziu3 hou6 maa5 cung4 tip3, ceng1 coi3 zung1 jyu1 faan1 dou3 ngo5 sau2 soeng6; ngo5 ling1 doi2 zau2 cin4, keoi5 hai2 daan1 soeng6 se2 mut6 zi2 deoi3 sing3 si6. ngo5 siu3 zyu6 waa6: gam1 jat6 ngo5 m4 hai6 lai4 ceoi2 coi3, hai6 lai4 bong1 zoeng1 tip3 zi2 jan6 zou2 gwai1 zung1."
+  },
+  "mandarin_translation": "我下班去超市取网上订的菜，店员递来两袋，说订单号尾数一样，让我核对名字。我打开袋子，看到西红柿和豆腐，偏偏没有青菜。旁边的客人也提着一袋，说他的袋子多了一包菜。我们看收据，原来两张取货贴纸都印着“林小姐”，店员把两袋放在一起时贴反了。大家以为只要换回袋子就行，打开才发现另一袋还有两盒一样的豆腐，收据被袋口折住，名字只露出一半。店员叫我们逐样念商品，两个人一边对单一边交换，越核对越像在一起做盘点。后面有人排队，帮忙读出贴纸上的小字，才确认订单号最后两位不同。店员按号码重新贴好，青菜终于回到我手上；我提袋离开前，他在单子上写“勿只对姓氏”。我笑着说：“今天我不是来取菜，是来帮贴纸认祖归宗。”",
+  "usageTip": "故事练习：请复述取货时青菜为何不见、两袋订单如何因贴纸贴反而混淆，以及顾客怎样逐项核对并找回青菜；最后讲讲「帮贴纸认祖归宗」怎样回扣。",
+  "author_notes": {
+    "mechanism_difference": "故事保留超市取货发现缺青菜的核心；因两张相似姓名贴纸贴反而互混订单，以逐项核货和订单号末两位重新厘清。不同于keeper的线上单取货后找最后取冷藏柜、青菜藏在鸡蛋下及鱼的误会，也不同于旧候稿电梯场景。",
+    "only_candidate_file_written": true,
+    "canonical_story_ledger_selection_app_resources_changed": false
+  },
+  "candidate_fields_sha256": "bb7f7c6e0404981fa2e52de867316c6b19722eab7a7d3b8c401bc5e54c2d3d55",
+  "han_count": 246,
+  "jyutping_token_count": 246,
+  "revision_note": "人工核读修正：兩處「打開」由 daap6 hoi1 改為 daa2 hoi1；兩個訂字（網上訂、訂單）按訂購義統一為 deng6。其餘四字段未改。",
+  "pronunciation_references": [
+    {
+      "title": "粵典：打開（詞條關聯至打daa2、開hoi1）",
+      "url": "https://words.hk/zidin/%E9%96%8B",
+      "note": "詞條例句「打開」標作 daa2 hoi1。"
+    },
+    {
+      "title": "粵典：訂枱",
+      "url": "https://words.hk/zidin/%E8%A8%82%E6%9E%B1",
+      "note": "「訂」讀 deng6。"
+    },
+    {
+      "title": "粵典：購",
+      "url": "https://words.hk/zidin/%E8%B3%BC",
+      "note": "配詞「訂購」標作 deng6 kau3。"
+    },
+    {
+      "title": "CantoDict：訂單",
+      "url": "https://cantonese.sheik.co.uk/dictionary/words/10888/",
+      "note": "訂單列作 deng6 daan1。"
+    }
+  ]
+}

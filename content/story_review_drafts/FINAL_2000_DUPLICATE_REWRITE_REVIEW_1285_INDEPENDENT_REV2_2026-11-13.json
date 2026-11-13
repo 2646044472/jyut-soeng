@@ -1,0 +1,34 @@
+{
+  "report_type": "independent_candidate_revision_metadata_review",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "candidate_file": "FINAL_2000_DUPLICATE_REWRITE_1285_AUTHOR_CANDIDATE_REV2_2026-11-13.json",
+  "candidate_file_sha256_recomputed": "99329098870c7b1f5599a22d5732bff9927cc7a6014f27c62010dab628d186ad",
+  "four_language_fields_byte_identical_to_REV1": {
+    "sentence": true,
+    "jyutping": true,
+    "gloss": true,
+    "usageTip": true
+  },
+  "candidate_fields_sha256_declared": "1db72681d1d0485b77835ee486c52c2c4998357800ef9dd1e3b620941998e701",
+  "candidate_fields_sha256_recomputed": "1db72681d1d0485b77835ee486c52c2c4998357800ef9dd1e3b620941998e701",
+  "candidate_fields_hash_match": true,
+  "source_sha256_freeze": "c3ada7b7b029a4aa57aa9d2c591e8917dd09ed98a9f73c68ec7d4c83a8216f3c",
+  "source_sha256_recomputed": "c3ada7b7b029a4aa57aa9d2c591e8917dd09ed98a9f73c68ec7d4c83a8216f3c",
+  "source_hash_match": true,
+  "keeper_id": "sentence-bank-long_food_shopping_16-0023",
+  "keeper_order": 1220,
+  "keeper_index_recomputed": 22,
+  "keeper_sha256_freeze": "183e6b26e75132a4c7e9ab9a753ce971bb4c95e5df72051b91f396da03e92c98",
+  "keeper_sha256_recomputed": "183e6b26e75132a4c7e9ab9a753ce971bb4c95e5df72051b91f396da03e92c98",
+  "keeper_hash_match": true,
+  "counts": {
+    "Han": 222,
+    "Jyutping_syllables": 222,
+    "aligned": true,
+    "220_to_320": true
+  },
+  "semantic_basis": "REV1 independent review found story content PASS and requested only correction of keeper_order metadata. REV2 language fields are byte-identical; correct keeper order is now 1220, consistent with keeper ID/hash.",
+  "verdict": "PASS",
+  "canonical_modified": false
+}

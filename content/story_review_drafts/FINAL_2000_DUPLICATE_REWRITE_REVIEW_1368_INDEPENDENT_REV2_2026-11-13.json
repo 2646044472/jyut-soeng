@@ -1,0 +1,40 @@
+{
+  "report_type": "independent_author_candidate_review",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "candidate_file": "FINAL_2000_DUPLICATE_REWRITE_1368_AUTHOR_CANDIDATE_REV2_2026-11-13.json",
+  "candidate_file_sha256_recomputed": "a182175220f4edd4855ca5fabdf652c12c3406fbff2c27599b49cf2cff706339",
+  "candidate_fields_sha256_declared": "3723df787cbde194bb5d7b67787cc8405c8b1d87d5c9644e380c68cb8d796f94",
+  "candidate_fields_sha256_recomputed": "3723df787cbde194bb5d7b67787cc8405c8b1d87d5c9644e380c68cb8d796f94",
+  "candidate_fields_hash_match": true,
+  "order": 1368,
+  "id": "sentence-bank-long_health_services_01-0076",
+  "source_category": "公共服務",
+  "candidate_category": "公共服務",
+  "source_sha256_freeze": "37a551507f3145d5982f1eef150d1c8dd1a9bee738bc1bac0b7e8ac536d42e41",
+  "source_sha256_recomputed": "37a551507f3145d5982f1eef150d1c8dd1a9bee738bc1bac0b7e8ac536d42e41",
+  "source_hash_match": true,
+  "keeper_id": "sentence-bank-long_food_shopping_12-0030",
+  "keeper_index_recomputed": 29,
+  "keeper_hash_freeze": "bea775be37ff3beb44c479a4ad5e3b4005373b071f82992d052f10fe59c305e1",
+  "keeper_hash_recomputed": "bea775be37ff3beb44c479a4ad5e3b4005373b071f82992d052f10fe59c305e1",
+  "keeper_hash_match": true,
+  "counts": {
+    "Han_recomputed": 252,
+    "Jyutping_syllables_recomputed": 252,
+    "aligned": true,
+    "220_to_320": true,
+    "declared_Han": 252,
+    "declared_tokens": 252
+  },
+  "verdict": "PASS",
+  "field_reviews": {
+    "category_and_story": "分類「公共服務」匹配社区中心讲座报名场景。手持表格和笔令访客误认职员，连续问洗手间、饮水机和房号后升级为带路，真实职员将主角送回柜台排队，最后再次被问填表而担心“升职”，因果和回扣完整。公共服务题材自然，不依赖机构特殊规则。",
+    "finite_keeper_comparison": "指定keeper是海边野餐中反复摆拍沙律、排队等待，最后成片只清晰拍到餐叉；本稿是报名时身份误认、带路及回柜台排队。没有摄影/构图/摆拍机制，明显不同。",
+    "traditional_cantonese_and_jyutping": "繁体粤语口语整体自然。逐句人工朗读复核，并重点核对报名 bou3 ming2、讲座 gong2 zok3、櫃檯 gwai6 toi4、座位 zo6 wai2、义工 ji6 gung1、報到 bou3 dou3、升職 sing1 zik1；「座位紙」粤拼 zo6 wai2 zi2，座读阳去声第6调。全文汉字/音节252/252，无明示汉字残留。",
+    "complete_mandarin_translation": "译文完整覆盖被误认职员、逐步被问路、带队到房间、真职员送回柜台和二次升职回扣，顺序与粤语一致。",
+    "retell_prompt": "以「故事练习：」开头，覆盖误认、带路、未报到和结尾升职回扣。"
+  },
+  "review_scope_note": "粤拼经逐句通读、逐字数量配对及关键词带调复核；未把词典检索扩展到每个常用单字。近邻判断限指定keeper。",
+  "canonical_modified": false
+}

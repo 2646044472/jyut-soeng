@@ -1,0 +1,39 @@
+{
+  "report_type": "independent_candidate_revision_review",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "candidate_file": "FINAL_2000_DUPLICATE_REWRITE_1265_AUTHOR_CANDIDATE_REV3_2026-11-13.json",
+  "candidate_file_sha256_recomputed": "c08b7fa63399aac83124c0da0d548f289e77c4f12fae6554139e44b68607d7c7",
+  "candidate_fields_sha256_declared": "65adadb739572f054dd34f7153c31ff0452443404210f4941834600a666d3b59",
+  "candidate_fields_sha256_recomputed": "65adadb739572f054dd34f7153c31ff0452443404210f4941834600a666d3b59",
+  "candidate_fields_hash_match": true,
+  "comparison_to_REV2": {
+    "sentence_identical": true,
+    "gloss_identical": true,
+    "usageTip_identical": true,
+    "jyutping_changed": true
+  },
+  "focused_jyutping_check": {
+    "sentence_character_樽_count": 6,
+    "jyutping_zeon1_count": 6,
+    "verdict": "All six 樽 tokens (一樽, 樽身, 水樽×4) correspond to zeon1; 粵典 lists 樽 zeon1 and 水樽 seoi2 zeon1.",
+    "citation": {
+      "title": "樽 - 粵典",
+      "url": "https://words.hk/zidin/%E6%A8%BD"
+    }
+  },
+  "counts": {
+    "Han_recomputed": 252,
+    "Jyutping_syllables_recomputed": 252,
+    "aligned": true,
+    "declared_Han": 252,
+    "declared_Jyutping": 252
+  },
+  "source_sha256_declared": "cdd12e956b4701d9dcbeec348f14bdd22c0e2f00b8dbeb05cb425ceb4cca0566",
+  "source_sha256_current_row_recomputed": "cdd12e956b4701d9dcbeec348f14bdd22c0e2f00b8dbeb05cb425ceb4cca0566",
+  "source_freeze_sha256": "cdd12e956b4701d9dcbeec348f14bdd22c0e2f00b8dbeb05cb425ceb4cca0566",
+  "source_hash_match": true,
+  "semantic_review_basis": "The three non-Jyutping language fields are byte-identical to REV2, whose independent content review was PASS. REV2 file hash does not apply to this new file; REV3 file and fields hashes are separately checked above. Jyutping correction checked at all six 樽 occurrences.",
+  "verdict": "PASS",
+  "canonical_modified": false
+}

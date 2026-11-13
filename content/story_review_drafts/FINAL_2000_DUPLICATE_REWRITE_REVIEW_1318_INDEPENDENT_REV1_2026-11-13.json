@@ -1,0 +1,73 @@
+{
+  "review_type": "independent_candidate_review_rev1",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "order": 1318,
+  "candidate_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITE_1318_AUTHOR_CANDIDATE_REV1_2026-11-13.json",
+  "candidate_file_sha256_recomputed": "498f75bb1fc7b549f6913f696ee2651e8e061252d7df42d2d4a6f9955d1506aa",
+  "candidate_fields_sha256": {
+    "fields": ["sentence", "jyutping", "gloss", "usageTip"],
+    "serialization": "UTF-8 JSON; ensure_ascii=false; sort_keys=true; separators=(',', ':')",
+    "recomputed": "7a31bb3d35692413893b13bcfb1707f5613c106fd488549d595f6ce7a26c0563",
+    "declared": "7a31bb3d35692413893b13bcfb1707f5613c106fd488549d595f6ce7a26c0563",
+    "match": true
+  },
+  "source_check": {
+    "id": "sentence-bank-long_food_shopping_19-0023",
+    "file": "content/sentence_bank/long_food_shopping_19.json",
+    "index": 22,
+    "category": "街市挑當造芒果和青檸",
+    "source_object_sha256_recomputed": "94091425fd00138ab31c96108d3d8f427835f595c356107d3d482ae3ddb177b1",
+    "candidate_source_freeze_sha256": "94091425fd00138ab31c96108d3d8f427835f595c356107d3d482ae3ddb177b1",
+    "hash_matches": true,
+    "keeper_id": "sentence-bank-long_food_shopping_13-0075",
+    "keeper_order": 1123,
+    "keeper_object_sha256_recomputed": "dd29de41eaf23bd0190b5a4a33a898114aed40a6c199aa7050bc930863dcecc9",
+    "candidate_keeper_freeze_sha256": "dd29de41eaf23bd0190b5a4a33a898114aed40a6c199aa7050bc930863dcecc9",
+    "keeper_hash_matches": true,
+    "candidate_category": "街市挑當造芒果和青檸",
+    "category_matches_source": true
+  },
+  "field_checks": {
+    "hanzi_count_recomputed": 248,
+    "jyutping_tone_token_count_recomputed": 248,
+    "declared_count": "248/248",
+    "count_match": true,
+    "four_fields_present": true,
+    "gloss_complete": true,
+    "usageTip_prefix": "故事练习：",
+    "usageTip_tracks_story": true
+  },
+  "jyutping_review": {
+    "manual_spot_checks": [
+      {"text": "當造", "jyutping": "dong1 zou6", "result": "verified"},
+      {"text": "芒果／青檸", "jyutping": "mong1 gwo2 / cing1 ling4", "result": "verified"},
+      {"text": "電子磅／磅盤", "jyutping": "din6 zi2 bong6 / bong6 pun4", "result": "verified"},
+      {"text": "摺塊紙皮墊住枱腳", "jyutping": "zip3 faai3 zi2 pei4 din6 zyu6 toi2 goek3", "result": "verified"},
+      {"text": "秤完", "jyutping": "cing3 jyun4", "result": "verified"},
+      {"text": "保養單／維修紀錄", "jyutping": "bou2 joeng5 daan1 / wai4 sau1 gei3 luk6", "result": "verified"}
+    ],
+    "tone_scope": "人工抽核重点词及整段词序；248个带调音节与248个繁体汉字总数相符。未声称每一个音节均经外部词典逐条查询。"
+  },
+  "semantic_and_mechanism_review": {
+    "story_logic": "街市秤台桌脚不稳引发水果滚动，顾客和摊主稳住秤并找回青柠；回到公司后，同一张记有水果重量的收据被折来垫住摇晃的茶水桌脚。首尾因果清楚，收据从称重凭据变成桌子的‘维修纪录’，回扣成立。",
+    "source_difference": "源卡以芒果成熟度意见和便利贴日期为笑点；候稿换成摇晃秤台、滚落青柠和收据垫桌脚，没有重复熟度标签机制。",
+    "keeper_difference": "指定keeper把士多啤梨当成招聘候选人逐个评价，并以集体离职回扣；候稿是秤台故障和纸质收据的实用再利用，动作、因果与笑点不同。也未采用食物摄影/摆拍构图机制。",
+    "oral_cantonese": "叙述整体自然，‘放工’‘檔主’‘按住枱角’‘拎手機照’及‘收據摺好塞住枱腳’均清楚；结尾维修记录的回扣易懂。",
+    "mandarin_translation": "简体译文覆盖摇秤、找青柠、办公室桌脚与收据维修记录，顺序及因果完整。"
+  },
+  "pronunciation_references": [
+    {
+      "title": "粵典：秤 / 稱",
+      "url": "https://words.hk/zidin/%E7%A7%A4",
+      "finding": "秤（量重及秤具）读 cing3，支持候稿‘秤完’cing3。"
+    },
+    {
+      "title": "CantoDict：造（含当造词例）",
+      "url": "https://cantonese.sheik.co.uk/dictionary/characters/476/?full=true",
+      "finding": "‘当造’列 dong1 zou6，支持候稿读音。"
+    }
+  ],
+  "verdict": "PASS_FOR_CANDIDATE_REVIEW_ONLY",
+  "scope_note": "仅比较候稿、指定源卡及指定keeper；不表示完成全库去重。未修改候稿或canonical。"
+}

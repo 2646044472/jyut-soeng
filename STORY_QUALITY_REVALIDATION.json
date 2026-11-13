@@ -21355,8 +21355,8 @@
       "index": 12,
       "status": "pass",
       "baseline_sha256": "1cbf86e9672bf55fa820f24d236287d5d79a8048f439dbc60a6c4d0f196de424",
-      "v2_sha256": "e07f45d3fb867cb4a1e4fff3053d8d5526ad68b05bc0efe6d7f66a909de99b82",
-      "notes": "Pass after oral rewrite: the restaurant’s ingredient card is used for the meal it describes, and the coworker turns reading it aloud into a “new product launch.” Her one-course-at-a-time presentation delays the first bite; this replaces the unrelated office-snack audit and repeated manager-stop mechanism. All 221 Han characters align with 221 Jyutping syllables; complete gloss and tip match."
+      "v2_sha256": "b453a3eb13bcc8b267e25a709cf091d002f25b807954bf5baf1531741537a9d7",
+      "notes": "独立复核通过当前精确候稿文件；保留素食外卖核实类别，以巴士转弯和刹车令汤杯滑动、乘客护送层层升级，杯身提示回扣。Root人工复核四字段及251/251粤拼对齐。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
@@ -21389,8 +21389,8 @@
       "index": 16,
       "status": "pass",
       "baseline_sha256": "81a9fcffaad94142d786624adcb86f08eaf37021bb42539506bd4dfa52b2206c",
-      "v2_sha256": "0c08479ae67ac6be257c3c8009e78eb0fc1feb248e1a4a226f1a9adf39c770bb",
-      "notes": "V2 主审重写成社区烹饪班鸡蛋日期点名：日期被齐声朗读、汤匙伴奏、传蛋变成下一位点名，蛋壳成为额外嘉宾并回扣下周点名。手工核对全部四字段及逐字 Jyutping；候选摄影短片机制与近期草莓摄影团接近，已留证并退回，不计通过。 Clarified safe egg-salad preparation; all four fields manually rechecked."
+      "v2_sha256": "a4c977bdc24dd2d2a9d75ec6f43693c4c8d1df4aaba05e3bdfbdc8058ff63e45",
+      "notes": "独立复核通过 REV2；保留鸡蛋盒检查生产日期类别，修正日期标题被折边遮住的误读矛盾；盒子逐一摆正后回扣蛋壳身世。Root人工复核粤语、逐字语境声调粤拼、完整译文及提示，269/269。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
@@ -21421,8 +21421,9 @@
       "index": 20,
       "status": "pass",
       "baseline_sha256": "f44b9113fcb87ddac18e6ace04c840c54a7731c702b98bc57d43f6b574dfc0dc",
-      "v2_sha256": "d6d233cf0b7d699227222a600986e3b75fc60ade70133e12bfc937b0c018e510",
-      "notes": "Rebuilt as a community run-day juice station. Sour juice turns the volunteer into an orange interviewer; the second round draws a longer queue and the juice maker receives the mock award. Manually checked all four fields, Cantonese flow and contextual tones; Han/Jyutping 259/259."
+      "v2_sha256": "41044e1f6783710fe2ea109ad191cd862b4899adf19f0a5d7730762a8f543592",
+      "notes": "Hand juicer suction cups lift a smooth tray; loosening the cups resolves the problem. Four fields manually reviewed; exact independent PASS; 托盤 tok3 pun2; 234/234.",
+      "revalidated_at": "2026-11-13"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_15.json",
@@ -21774,8 +21775,8 @@
       "index": 13,
       "status": "pass",
       "baseline_sha256": "86d6f1c11aee36f3cc9c79f0dc3031e27e687a865930a18442d0ecd24d159d86",
-      "v2_sha256": "9435fadf933264cb7481f72e0815a410948167faa6086d1a7b395cee2b47bfda",
-      "notes": "烹饪班超市取货误漏冷藏柜青菜；队伍里的叔叔也是学员，拿一枝葱到活动室后被任命为「一枝葱顾问」。人工核对四字段；独立复核确认「拆開逐樣點數」拼音及释义同步，学员入室因果成立。256 汉字/256 音节。"
+      "v2_sha256": "e26bb4d58e3eb66ea6e92452fedbb11b64d40f7373ebfeec87e90021b68caf8f",
+      "notes": "独立复核通过 REV2；保留超市取货缺青菜类别，改为相似姓名贴纸贴反、逐项核货并以认祖归宗回扣。人工复核粤语、逐字声调粤拼、完整简体译文及故事练习提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_17.json",
@@ -22052,8 +22053,8 @@
       "index": 17,
       "status": "pass",
       "baseline_sha256": "835753b44980990d2f5515ec1b0d2a1b093be188879cfa7b86e89bc00e073c6d",
-      "v2_sha256": "cdd12e956b4701d9dcbeec348f14bdd22c0e2f00b8dbeb05cb425ceb4cca0566",
-      "notes": "V2 pass: complete rewrite preserves the child school-lunch materials category and changes the plot to a distinct roll-call / emergency-support callback. All four fields align.",
+      "v2_sha256": "5731c6eee8df411a22f7e56fa12a7f13c2117413b482f0b7301c0bb23a3a026b",
+      "notes": "独立复核通过 REV3；保留开学前准备午餐材料类别，以冰袋冷凝水、封袋冻水樽及「局部有雨」层层递进。人工复核粤语、逐字声调粤拼、完整简体译文及故事练习提示。",
       "source_sha256": "cdd12e956b4701d9dcbeec348f14bdd22c0e2f00b8dbeb05cb425ceb4cca0566"
     },
     {
@@ -22069,8 +22070,8 @@
       "index": 19,
       "status": "pass",
       "baseline_sha256": "bff82629b1ca6c76ab7ee7cb9e5c1136ae71fcae79bb464082f7d080bd28fcb7",
-      "v2_sha256": "812c2cecfbdf68ee09d2a87a80b7e6946e8d401d0f5a3f7952fb913d4ef22c3f",
-      "notes": "室友版豆腐鱼片汤已按类别、因果笑点及四字段逐项人工复核，并经独立审阅确认；逐字检查未见确定粤拼错音。"
+      "v2_sha256": "92f7677b1f3bea01d32d61537b35857be31c32b90d3afa98222ab5c4e0fc230a",
+      "notes": "独立复核通过 REV2；保留街市豆腐家常汤类别，因手动重复设闹钟误以为食谱叫煲两次，旁人等到似散场。人工复核粤语、逐字声调粤拼、完整简体译文及故事练习提示。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -22109,8 +22110,9 @@
       "index": 24,
       "status": "pass",
       "baseline_sha256": "4a00df1526e19e9570ceef4826956d07087e8f59601c7c9ff3f0a9aa273137a0",
-      "v2_sha256": "f11898bb83decb53b57997e61f2d8272953de25598698d973415ffe9d8c502f7",
-      "notes": "V2人工通過：同事在自助收銀掃雞蛋後反覆掀盒檢查，蛋盒離磅便觸發商品未放好提示，排隊者像等驗蛋報告；付款後數清十隻蛋，回公司仍宣布替蛋驗過。281字/281音節；類別、完整譯文/提示和粵拼由主審與獨立審核確認。"
+      "v2_sha256": "0ef1ce4b7cb2c6240216eed72352118690b0a30596820fb8af2fc81fe31e500f",
+      "notes": "Rewrote the self-checkout egg scan as adjacent terminal beeps being mistaken for a successful scan. Correct barcode orientation resolves it. Exact independent review PASS; uses requested 購物 gau3 and dictionary-supported 嘟聲 dut1. 242/242.",
+      "revalidated_at": "2026-11-13"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -22225,8 +22227,8 @@
       "index": 38,
       "status": "pass",
       "baseline_sha256": "9792b88b3ffbe69931f0ce46ec76df458bb42b3804a0283d7f18a58eb171829d",
-      "v2_sha256": "c3ada7b7b029a4aa57aa9d2c591e8917dd09ed98a9f73c68ec7d4c83a8216f3c",
-      "notes": "室友把橄欖油放冰箱，見變濁後守住暖水碗，接著替油安排休息、鬧鐘和免打擾告示；作息表回扣連貫。四字段人工複核，簡體譯文以阿朗避免猜性別，粵拼逐字核調。"
+      "v2_sha256": "d3582ef29241ff7ce6bdb5993b4f3670fe8308c43460649c5fa7f99866831c1d",
+      "notes": "独立复核通过 REV2；保留橄榄油低温变浑与室友观察类别，以油雾/气泡误认地图、砧板油滴发展成澳门路线并回扣。Root人工复核四字段及222/222粤拼对齐；修正候稿keeper编号为1220。"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_18.json",
@@ -22445,9 +22447,9 @@
       "index": 14,
       "status": "pass",
       "baseline_sha256": "576459bfd8666b60683d981483ae26ea61317046f31d8bae1ee0c69e5bbe136f",
-      "v2_sha256": "cf9912e56145f0a7e7a7924d81a246c390845e5b00f85b669000e5ad88ad7dd6",
-      "notes": "Checked the cheese-board story after aligning the final toast and Simplified gloss with the escaping grapes. The bread bag stops the roll toward the wine, then blind tasting mistakes blue cheese for smoked cheese; the grape callback closes the sequence. Removed a duplicated board-setup sentence from the gloss.",
-      "revalidated_at": "2026-11-07"
+      "v2_sha256": "1cceda44e9df5a39365a9f18252815259ffe3ca8b26fc9bd319f576efe995801",
+      "notes": "Cheese slices and separator paper stick together; opening the package resolves repeated failed attempts. Four fields manually reviewed; exact independent PASS; 249/249.",
+      "revalidated_at": "2026-11-13"
     },
     {
       "file": "content/sentence_bank/long_food_shopping_19.json",
@@ -22516,8 +22518,8 @@
       "index": 22,
       "status": "pass",
       "baseline_sha256": "46647fb7c54d35514aeee112636256a3b47813ecc777537e693fd0744f99e7d5",
-      "v2_sha256": "94091425fd00138ab31c96108d3d8f427835f595c356107d3d482ae3ddb177b1",
-      "notes": "Reviewed the market-mango story: conflicting ripeness opinions multiply the labels, the vendor-picked mango proves the advice, and a sticker on A Long’s sleeve turns the ripeness scale back on him. Updated the gloss to match the current “not ripe until next week” line.",
+      "v2_sha256": "2fff44070c23d58ef4d89aa4a15d9b421999e4632cc7ef9af5fb1a4bd48f37c7",
+      "notes": "独立复核通过 REV1；保留街市挑芒果和青柠类别，秤台摇晃令水果滚动，收据回到公司后垫住茶水枱脚并成为维修纪录。Root人工复核四字段与248/248粤拼对齐。",
       "revalidated_at": "2026-11-07"
     },
     {
@@ -23256,8 +23258,8 @@
       "index": 75,
       "status": "pass",
       "baseline_sha256": "8fd2707fc10887531bef05fcf34af2fd0b28bf25b1b4c518a335002a9cd59bf9",
-      "v2_sha256": "37a551507f3145d5982f1eef150d1c8dd1a9bee738bc1bac0b7e8ac536d42e41",
-      "notes": "V2主审：公共服务中心的手机摄影班保持报名、课程及器材安排为故事核心，三位同事为拍自然合照反复倒数：摆出僵硬证件相、齐看倒数屏、按掣者错过画面，最后导师拍下全员盯着屏幕检查的合照，阿晴说照片最自然，标题回扣手机摄影班。结构由有意摆拍逐步升级至拍摄者出框，再以最终成片反转；与最接近的已通过手机摄影班全景多人重影故事（long_family_finance_services_04.json[97]）题材相邻，但一个靠全景拼接产生重复人影，本卡则由自拍倒数引出僵硬摆拍、按掣者错过画面、最后全员盯屏检查的连续升级，冲突和收尾机制不同；亦与公园报修、服务中心送餐回访、服务柜台借书袋的公共服务故事不同。已逐项审阅繁体口语粤语、逐字粤拼、完整简体释义和故事练习提示；正文297汉字/粤拼297音节，分类与卡片顺序不变。 Oral second-pass on 2026-11-07: 重寫手機攝影班反覆只拍到鞋的段子；揭示鏡子擺得太低後架高拍出光帶。核對捕捉 bou6 zuk1、鏡 geng3、斜 ce4 等讀音及四字段。"
+      "v2_sha256": "2c80e1ff4485fe4697a54cf137aac6933dd3d4c50916dbbb41b1e3e86f05cb03",
+      "notes": "独立复核通过 REV2；保留公共服务分类，社区中心报名者被误认职员后逐步变成带路人，最终发现自己尚未报到并回到队尾。Root核对四字段、252/252粤拼及座位 zo6 wai2。"
     },
     {
       "file": "content/sentence_bank/long_health_services_01.json",
@@ -35681,8 +35683,8 @@
       "index": 23,
       "status": "pass",
       "baseline_sha256": "858acf981202e56a02010a15818d82073272ce16faaa4330ce679be50a11847e",
-      "v2_sha256": "f1c34862202dcf4acc7abe0fb9446b35f352dcbfda6b1be446dbd2d8ae11960c",
-      "notes": "Rewritten after the oral re-audit found a weak remote-message/home routine gag. Root reviewed all four fields and the exact final Jyutping; independent story review and Terra pronunciation review are recorded in the oral notes. The fitted-sheet elastic traps the overconfident father, then the “folding board” callback resolves the physical mishap. Current row hash is synchronized."
+      "v2_sha256": "5e194ac576f79cdd18350b70701fa191f4b61666c3e7bcd2123ef11fb143173e",
+      "notes": "Rewritten after the oral re-audit found a weak remote-message/home routine gag. Root reviewed all four fields and the exact final Jyutping; independent story review and Terra pronunciation review are recorded in the oral notes. The fitted-sheet elastic traps the overconfident father, then the “folding board” callback resolves the physical mishap. Current row hash is synchronized. Duplicate-queue order1813 rewrite synchronized after exact independent four-field PASS; V2 status remains pass and current row hash is synchronized."
     },
     {
       "file": "content/sentence_bank/long_home_family_05.json",

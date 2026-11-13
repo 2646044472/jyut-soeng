@@ -1,0 +1,48 @@
+{
+  "report_type": "independent_four_field_candidate_review",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "candidate_file": "FINAL_2000_DUPLICATE_REWRITE_1310_TERRA_CANDIDATE_REV2_2026-11-13.json",
+  "candidate_file_sha256": "ad301378c182f5d507971a49678376e4279bb31ceda3606a8b21cc874b5e1e57",
+  "candidate_file_sha256_recomputed": "ad301378c182f5d507971a49678376e4279bb31ceda3606a8b21cc874b5e1e57",
+  "candidate_file_hash_match": true,
+  "candidate_fields_sha256_reported": "915b43199ae5178074eaa61ddac99b448de7d598f67d21ae785d5e8cf354ddeb",
+  "candidate_fields_sha256_recomputed": "915b43199ae5178074eaa61ddac99b448de7d598f67d21ae785d5e8cf354ddeb",
+  "candidate_fields_hash_match": true,
+  "freeze_file": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "freeze_file_sha256": "4c3ac877867079fd053c88374eb434f94cfb3e09fd67a76b0b7f6424fb119843",
+  "freeze_manifest_sha256": "863768b0fe764bf81cf93858c0a9caebf01a3b975bc5ffb5d39a59a9731bca11",
+  "freeze_manifest_stale": false,
+  "order": 1310,
+  "id": "sentence-bank-long_food_shopping_19-0015",
+  "source_file": "content/sentence_bank/long_food_shopping_19.json",
+  "source_index": 14,
+  "source_sha256_freeze": "cf9912e56145f0a7e7a7924d81a246c390845e5b00f85b669000e5ad88ad7dd6",
+  "source_sha256_candidate_declared": "cf9912e56145f0a7e7a7924d81a246c390845e5b00f85b669000e5ad88ad7dd6",
+  "source_sha256_current_row_recomputed": "cf9912e56145f0a7e7a7924d81a246c390845e5b00f85b669000e5ad88ad7dd6",
+  "source_hash_match": true,
+  "counts": {
+    "han_recomputed": 249,
+    "jyutping_tokens_recomputed": 249,
+    "han_declared": 249,
+    "jyutping_tokens_declared": 249,
+    "aligned": true,
+    "jyutping_cjk_residue": false,
+    "story_220_to_320": true
+  },
+  "verdict": "PASS",
+  "field_reviews": {
+    "story_mechanism_and_causality": "隔紙黐芝士使夾子、叉子都帶動紙與芝士，後來兩張隔紙連起來；多人接力仍失敗，旁人等開餐加壓，最後攤開包裝逐片拆紙，回扣「合力拆包裝」收束。機制與 keeper 薄荷糖串味後盲猜曲奇不同。",
+    "traditional_macao_cantonese": "繁體書寫，澳門常用口語詞句通順，角色對白與敘事自然。隔紙黐芝士使夾子、叉子都帶動紙與芝士，後來兩張隔紙連起來；多人接力仍失敗，旁人等開餐加壓，最後攤開包裝逐片拆紙，回扣「合力拆包裝」收束。機制與 keeper 薄荷糖串味後盲猜曲奇不同。",
+    "jyutping_character_by_character_and_tone": "人工核讀句段及聲調：芝士 zi1 si2、拼盤 ping3 pun2、店員 dim3 jyun4、逐片 zuk6 pin3、黐埋 ci1 maai4、阿敏 aa3 man5、阿傑 aa3 git6、分手大會 fan1 sau2 daai6 wui6、拆包裝 caak3 baau1 zong1。以空格拆出的粵拼音節數與故事漢字數均249；無CJK殘留。拼盤讀盤 pun2。",
+    "complete_simplified_mandarin_translation": "普通話譯文保留芝士與隔紙逐步拉扯、旁人等待和合力拆包裝的完整事件及回扣，與故事順序一致。",
+    "retell_prompt": "usageTip完整，以「故事练习：」開頭，提示隔紙牽連、兩位幫忙者、逐片拆開和回扣。"
+  },
+  "manual_assessment": "PASS；句子自然口語，因果清楚、升級完整，無明確逐字粵拼錯誤。",
+  "citation": {
+    "title": "盤 - 粵典",
+    "url": "https://words.hk/zidin/%E7%9B%A4",
+    "verified": "盤 pun2；配詞托盤 tok3 pun2、拼盤 ping3 pun2。"
+  },
+  "canonical_modified": false
+}

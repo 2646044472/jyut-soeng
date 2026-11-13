@@ -1,0 +1,25 @@
+{
+  "report_type": "independent_candidate_hash_refresh_review",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "candidate_file": "FINAL_2000_DUPLICATE_REWRITE_1185_AUTHOR_CANDIDATE_REV1_2026-11-13.json",
+  "candidate_file_sha256_recomputed": "0426939e4ed592ae1ed84a8939980c25ba39a31da629f17d36ee0f82ee8c8aee",
+  "previous_review_file_sha256": "e33826ecc81fe2a7061dd48a23feda721a19e8c708d4dc0f5b5e7594521bad56",
+  "previous_review_hash_applies_to_current_file": false,
+  "candidate_fields_sha256_declared": "2e67fb3b09a5dfbcf123c18b692343ef5b5b25c05d8791a1af9e465e734db4ff",
+  "candidate_fields_sha256_recomputed": "2e67fb3b09a5dfbcf123c18b692343ef5b5b25c05d8791a1af9e465e734db4ff",
+  "candidate_fields_hash_match": true,
+  "source_object_sha256_recomputed": "e07f45d3fb867cb4a1e4fff3053d8d5526ad68b05bc0efe6d7f66a909de99b82",
+  "source_sha256_freeze": "e07f45d3fb867cb4a1e4fff3053d8d5526ad68b05bc0efe6d7f66a909de99b82",
+  "source_hash_match": true,
+  "counts": {
+    "han": 251,
+    "jyutping_syllables": 251,
+    "aligned": true,
+    "220_to_320": true
+  },
+  "field_content_verdict": "PASS",
+  "semantic_basis": "The four fields match the previously reviewed candidate byte-for-byte; previous content-level PASS remains applicable. The candidate file hash has changed since that review, so this report is tied to the current exact hash only.",
+  "verdict": "PASS",
+  "canonical_modified": false
+}

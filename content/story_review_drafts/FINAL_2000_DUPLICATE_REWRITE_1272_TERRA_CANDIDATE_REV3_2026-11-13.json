@@ -1,0 +1,29 @@
+{
+  "report": "FINAL_2000_DUPLICATE_REWRITE_1272_TERRA_CANDIDATE_2026-11-13",
+  "date": "2026-11-13",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "order": 1272,
+  "id": "sentence-bank-long_food_shopping_18-0025",
+  "source_file": "content/sentence_bank/long_food_shopping_18.json",
+  "source_index": 24,
+  "source_category": "超市自助收銀買雞蛋",
+  "source_sha256": "f11898bb83decb53b57997e61f2d8272953de25598698d973415ffe9d8c502f7",
+  "freeze_sha256": "f11898bb83decb53b57997e61f2d8272953de25598698d973415ffe9d8c502f7",
+  "keeper_id": "sentence-bank-long_food_shopping_04-0030",
+  "candidate": {
+    "sentence": "我同阿朗去超市買雞蛋，揀好一盒，去自助收銀。阿朗拎起盒對住掃描窗，一聽到「嘟」就話：「得咗！」我望住螢幕，購物清單仲係空嘅。佢以為自己手快，慢慢掃多次；又一聲「嘟」，佢即刻望我，我指住空白畫面，兩個人都冇出聲。隔籬位個客人剛好拎起另一件貨，阿朗第三次試嗰陣，又聽到一聲。佢終於望過去，見隔籬部機每響一次，螢幕就多一樣貨，我哋嗰邊就一行字都冇。店員行過嚟，指住蛋盒底部條碼，教佢反轉盒先對準掃描窗。今次我哋部機真係響咗，螢幕出現雞蛋；隔籬部機又同時「嘟」一聲。阿朗停一停，望清楚兩邊畫面先放低盒。我笑佢今次特別謹慎，佢話：「頭先我幫隔籬嗰位開心咗三次，今次終於輪到自己。」",
+    "jyutping": "ngo5 tung4 aa3 long5 heoi3 ciu1 si5 maai5 gai1 daan2, gaan2 hou2 jat1 hap6, heoi3 zi6 zo6 sau1 ngan4. aa3 long5 ling1 hei2 hap6 deoi3 zyu6 sou3 miu4 coeng1, jat1 teng1 dou2 「dut1」 zau6 waa6: 「dak1 zo2!」 ngo5 mong6 zyu6 jing4 mok6, gau3 mat6 cing1 daan1 zung6 hai6 hung1 ge3. keoi5 ji5 wai4 zi6 gei2 sau2 faai3, maan6 maan6 sou3 do1 ci3; jau6 jat1 seng1 「dut1」, keoi5 zik1 hak1 mong6 ngo5, ngo5 zi2 zyu6 hung1 baak6 waa6 min6, loeng5 go3 jan4 dou1 mou5 ceot1 seng1. gaak3 lei4 wai2 go3 haak3 jan4 gong1 hou2 ling1 hei2 ling6 jat1 gin6 fo3, aa3 long5 dai6 saam1 ci3 si3 go2 zan6, jau6 teng1 dou2 jat1 seng1. keoi5 zung1 jyu1 mong6 gwo3 heoi3, gin3 gaak3 lei4 bou6 gei1 mui5 hoeng2 jat1 ci3, jing4 mok6 zau6 do1 jat1 joeng6 fo3, ngo5 dei6 go2 bin1 zau6 jat1 hong4 zi6 dou1 mou5. dim3 jyun4 haang4 gwo3 lai4, zi2 zyu6 daan2 hap6 dai2 bou6 tiu4 maa5, gaau3 keoi5 faan2 zyun3 hap6 sin1 deoi3 zeon2 sou3 miu4 coeng1. gam1 ci3 ngo5 dei6 bou6 gei1 zan1 hai6 hoeng2 zo2, jing4 mok6 ceot1 jin6 gai1 daan2; gaak3 lei4 bou6 gei1 jau6 tung4 si4 「dut1」 jat1 seng1. aa3 long5 ting4 jat1 ting4, mong6 cing1 co2 loeng5 bin1 waa6 min6 sin1 fong3 dai1 hap6. ngo5 siu3 keoi5 gam1 ci3 dak6 bit6 gan2 san6, keoi5 waa6: 「tau4 sin1 ngo5 bong1 gaak3 lei4 go2 wai2 hoi1 sam1 zo2 saam1 ci3, gam1 ci3 zung1 jyu1 leon4 dou3 zi6 gei2.」",
+    "gloss": "我和阿朗去超市买鸡蛋，挑好一盒，去自助收银。阿朗拿起盒子对着扫描窗，一听到“嘟”就说：“成功了！”我看着屏幕，购物清单还是空的。他以为自己手快，慢慢再扫一次；又一声“嘟”，他马上看我，我指着空白画面，两个人都没出声。隔壁机位的顾客刚好拿起另一件商品，阿朗第三次试的时候，又听到一声。他终于望过去，见隔壁机器每响一次，屏幕就多一样商品，我们那边却一行字也没有。店员走过来，指着蛋盒底部的条码，教他翻转盒子再对准扫描窗。这次我们的机器真的响了，屏幕出现鸡蛋；隔壁机器又同时“嘟”了一声。阿朗停了停，看清两边画面才放下盒子。我笑他这次特别谨慎，他说：“刚才我替隔壁那位高兴了三次，这次终于轮到自己。”",
+    "usageTip": "故事练习：复述阿朗为什么三次听到“嘟”却没有扫到鸡蛋，店员怎样帮他找到条码；最后讲他为何要对照两边屏幕才放心。"
+  },
+  "candidate_fields_sha256": "209c2df44cfca65ad879cc9166597c60c804ab13aceddd8ebb3fcf6640c997eb",
+  "han_count": 242,
+  "jyutping_token_count": 242,
+  "alignment_match": true,
+  "jyutping_cjk_residue": false,
+  "near_neighbor_assessment": "Misattributing adjacent checkout beeps and comparing two screens differs from keeper self-checkout bagging-area weight prompts; no scale removal or bagging loop. Screen/terminal causality and similar checkout neighbors require independent exact review.",
+  "review_note": "Manually drafted and reread all four fields and contextual Jyutping; no canonical changes; independent review pending.",
+  "revision_of": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITE_1272_TERRA_CANDIDATE_REV2_2026-11-13.json",
+  "revision_of_file_sha256": "b3368e85b0d41770f212f1ede6a3ce0e17bd49780a540860be8e1e7796aa808c",
+  "revision_note": "依《粵典》擬聲詞讀音把三處嘟聲標記由 du1 修正為 dut1；保留購物清單 gau3 指定讀音。新版本須按自身hash重新獨立複核。"
+}

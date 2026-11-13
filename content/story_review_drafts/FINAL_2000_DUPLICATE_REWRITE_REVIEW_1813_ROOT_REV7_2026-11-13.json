@@ -1,0 +1,62 @@
+{
+  "report_type": "independent_final_candidate_review",
+  "date": "2026-11-13",
+  "reviewer_role": "independent reviewer",
+  "order": 1813,
+  "candidate_file": "FINAL_2000_DUPLICATE_REWRITE_1813_ROOT_CANDIDATE_REV7_2026-11-13.json",
+  "candidate_file_sha256": "4a3b046a0e6ab5b7a88fbf7afe92d74e10e109d9c68d2b402abe69474b809d92",
+  "four_language_fields_sha256_recomputed": "c30536aa95e7aebb71e3a6e30c552bd0917476770a3976203e2ef814b9763330",
+  "four_language_fields_sha256_declared": "c30536aa95e7aebb71e3a6e30c552bd0917476770a3976203e2ef814b9763330",
+  "source_id": "sentence-bank-long_home_family_05-0024",
+  "source_file": "content/sentence_bank/long_home_family_05.json",
+  "source_index": 23,
+  "source_category": "家庭相處",
+  "candidate_category": "家庭相處",
+  "source_object_sha256_recomputed": "f1c34862202dcf4acc7abe0fb9446b35f352dcbfda6b1be446dbd2d8ae11960c",
+  "source_freeze_sha256_declared": "f1c34862202dcf4acc7abe0fb9446b35f352dcbfda6b1be446dbd2d8ae11960c",
+  "keeper_id": "sentence-bank-long_family_finance_services_01-0098",
+  "keeper_order": 89,
+  "keeper_category": "線上辦事",
+  "keeper_object_sha256_recomputed": "e3e8aff526315914262f05dfb53e96b807251d3be5f5336cd99bbdc472482217",
+  "keeper_freeze_sha256_declared": "e3e8aff526315914262f05dfb53e96b807251d3be5f5336cd99bbdc472482217",
+  "counts": {
+    "han_characters": 305,
+    "tone_marked_jyutping_tokens": 305,
+    "ordered_character_token_alignment": true,
+    "range_220_to_320": true,
+    "embedded_count_self_check_matches": true
+  },
+  "field_review": {
+    "category_and_near_duplicate": "Order, ID, source path/index, and category match. Recomputed source and keeper object hashes match their freeze values. The frozen keeper is a bed-sheet elastic-corner folding scene whose fabric springs around people/turns into a tent; this story is about a small bin liner slipping off a rim, clips failing, then using an outward fold. The central action and callback differ.",
+    "cause_and_physical_actions": "A liner barely stretched over the bin rim is pulled down by a bowl of wet leftovers; the liner edge flips inward, leaving a gap for liquid and scraps to leak into the bin. The narrator hooks the liner edge; as it slips inward again, holding the rim steady while pulling the liner back up is physically plausible. Clips secure the liner mouth to the rim; with a full load, lifting the bag pops the clips and lets the liner slip back, dropping leaves. After cleanup, a new liner is passed over the rim and folded outward, then clipped; pouring in another bowl tests the setup and it stays seated. The sequence of failure, cleanup, adjustment, and retry is coherent.",
+    "spoken_cantonese": "The sentence reads as conversational Traditional Cantonese and the earlier Mandarin-style 把 constructions are absent from the Cantonese prose. The expressions for a small-size bag, leftovers, bin rim, clip failure, folding outward, and testing with another bowl are understandable in context.",
+    "jyutping": "Recomputed 305 Han characters and 305 tone-marked Jyutping tokens align in order. Manually checked the character/token pairing, including 掟 deng3, 剩餸 zing6 sung3, 扯甩 ce2 lat1, 勾 gau1, 衫夾 saam1 gep2, 反摺 faan2 zip3, 倒 dou2, 穩 wan2, and the final callback; no definite tone or alignment error found. Dictionary check confirms 衫夾 saam1 gep2 and 掟 deng3; 紙巾 zi2 gan1 is the ordinary word for disposable tissue. 勾 gau1 is an attested reading variant. Limitation: this is a manual review with targeted dictionary checks, not a full dictionary lookup for every syllable.",
+    "mandarin_translation": "Complete and consistent with the Cantonese: includes the initial spill, stabilizing the bin and pulling up the liner, clips popping, cleanup and replacement, outward fold, and bowl retest. No unsupported kitchen location remains.",
+    "usage_tip": "Starts with “故事练习：” and accurately recaps the spilling, clip failure, replacement, fold, retest, and callback."
+  },
+  "metadata_note": {
+    "finding": "The candidate file is named REV7, but its internal report_type remains “frozen_duplicate_queue_author_candidate_rev5”. The exact file SHA and requested field SHA both match the frozen values, so the reviewed language content is unambiguous; the revision label in report_type is stale.",
+    "severity": "non-language metadata inconsistency"
+  },
+  "dictionary_sources": [
+    {
+      "title": "粵典：衫夾",
+      "url": "https://words.hk/zidin/%E8%A1%AB%E5%A4%BE",
+      "supports": "saam1 gep2"
+    },
+    {
+      "title": "粵典：掟",
+      "url": "https://words.hk/zidin/%E6%8E%9F",
+      "supports": "deng3, throwing sense"
+    },
+    {
+      "title": "粵典：紙巾",
+      "url": "https://words.hk/zidin/%E7%B4%99%E5%B7%BE",
+      "supports": "zi2 gan1, disposable tissue"
+    }
+  ],
+  "verdict": "PASS",
+  "pass_scope": "PASS for the four language fields and the requested content/phonetic/translation/prompt checks. The stale report_type label is recorded above as a non-language metadata inconsistency.",
+  "integration_note": "This independent review records PASS for the frozen candidate’s language fields; it does not modify or itself integrate/select the candidate.",
+  "report_scope_note": "Only the specified REV7 candidate was reviewed. No candidate, source, canonical story, ledger, selection, or app resource was modified."
+}

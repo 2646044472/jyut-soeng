@@ -1,0 +1,33 @@
+{
+  "report_type": "independent_candidate_revision_review",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "candidate_file": "FINAL_2000_DUPLICATE_REWRITE_1267_AUTHOR_CANDIDATE_REV2_2026-11-13.json",
+  "candidate_file_sha256_recomputed": "ff7b06504ee13c41caaf24f25cab07bbe1ca7f13e50a36d6b93bc2bb2a7e2674",
+  "candidate_fields_sha256_declared": "b2bbaa1a3a52151f1ab4aaac788b9da73d77288e64c3890aab44c3b9a794a30e",
+  "candidate_fields_sha256_recomputed": "b2bbaa1a3a52151f1ab4aaac788b9da73d77288e64c3890aab44c3b9a794a30e",
+  "candidate_fields_hash_match": true,
+  "source_file": "content/sentence_bank/long_food_shopping_18.json",
+  "source_index": 19,
+  "source_object_sha256_declared": "812c2cecfbdf68ee09d2a87a80b7e6946e8d401d0f5a3f7952fb913d4ef22c3f",
+  "source_object_sha256_recomputed": "812c2cecfbdf68ee09d2a87a80b7e6946e8d401d0f5a3f7952fb913d4ef22c3f",
+  "source_freeze_sha256": "812c2cecfbdf68ee09d2a87a80b7e6946e8d401d0f5a3f7952fb913d4ef22c3f",
+  "source_hash_match": true,
+  "counts": {
+    "Han_recomputed": 229,
+    "Jyutping_tokens_recomputed": 229,
+    "aligned": true,
+    "Han_declared": 229,
+    "Jyutping_declared": 229
+  },
+  "verdict": "PASS",
+  "field_reviews": {
+    "source_category_and_lifestyle_focus": "「街市買豆腐煮家常湯」保留：街市買豆腐與魚片、煮家常湯；共享廚房同煮飯者屬生活場景，不以家庭或金錢為主線。共享廚房略偏書面但可理解，對澳門讀者無明顯障礙。",
+    "story_causality_and_finite_neighbor": "手動設20分鐘計時，第一次響時湯未滾；熄火後重聽食譜、重新開火並手動再設20分鐘，隔一陣第二次響有明確來源。旁人以為散場，最後以「等我宣布開飯」回扣。與指定近鄰keeper 1307蒸氣蒙眼鏡、看不清和能見度/天氣梗不同；只作此指定近鄰有限比較。",
+    "traditional_macao_cantonese_and_jyutping": "繁體粵語整體自然，少數說法「共享廚房」「計時器」偏現代書面／設備詞但可用。逐段核讀主要聲調：魚檔 jyu4 dong3、共享 gung6 hoeng2、錄音 luk6 jam1、手動 sau2 dung6、設 cit3、計時器 gai3 si4 hei3、熄火 sik1 fo2、散場 saan3 coeng4、鬧鐘 naau6 zung1；空格音節數與漢字數229/229對齊，無明顯CJK殘留。",
+    "translation": "簡體翻譯現已跟粤语一致：明写作者手动在手机设20分钟，第一次响后重听、重新开火和再次手动设时，第二响因果也相同；“共享厨房”译文一致。",
+    "retell_prompt": "以「故事练习：」开头，涵盖手动设时、两次提示因果、旁人散场误会和开饭回扣。"
+  },
+  "independent_limit": "粤拼由人工通读和若干关键字音调检查，非逐音节词典查询；重复/邻近比较仅限指定keeper，不是全库检索。",
+  "canonical_modified": false
+}

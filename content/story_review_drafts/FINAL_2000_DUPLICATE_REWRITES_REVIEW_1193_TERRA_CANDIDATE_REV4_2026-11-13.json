@@ -1,0 +1,48 @@
+{
+  "report_type": "independent_four_field_candidate_review",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "candidate_file": "FINAL_2000_DUPLICATE_REWRITE_1193_TERRA_CANDIDATE_REV4_2026-11-13.json",
+  "candidate_file_sha256": "6e1b72f6bad24af02ae21595ff5f8e30de6f85235882b3c995d8d235c4490011",
+  "candidate_file_sha256_recomputed": "6e1b72f6bad24af02ae21595ff5f8e30de6f85235882b3c995d8d235c4490011",
+  "candidate_file_hash_match": true,
+  "candidate_fields_sha256_reported": "489d4173112bce4431c7a03945312640d4ec76a72452ca90ebbba64863a93a27",
+  "candidate_fields_sha256_recomputed": "489d4173112bce4431c7a03945312640d4ec76a72452ca90ebbba64863a93a27",
+  "candidate_fields_hash_match": true,
+  "freeze_file": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "freeze_file_sha256": "4c3ac877867079fd053c88374eb434f94cfb3e09fd67a76b0b7f6424fb119843",
+  "freeze_manifest_sha256": "863768b0fe764bf81cf93858c0a9caebf01a3b975bc5ffb5d39a59a9731bca11",
+  "freeze_manifest_stale": false,
+  "order": 1193,
+  "id": "sentence-bank-long_food_shopping_15-0021",
+  "source_file": "content/sentence_bank/long_food_shopping_15.json",
+  "source_index": 20,
+  "source_sha256_freeze": "d6d233cf0b7d699227222a600986e3b75fc60ade70133e12bfc937b0c018e510",
+  "source_sha256_candidate_declared": "d6d233cf0b7d699227222a600986e3b75fc60ade70133e12bfc937b0c018e510",
+  "source_sha256_current_row_recomputed": "d6d233cf0b7d699227222a600986e3b75fc60ade70133e12bfc937b0c018e510",
+  "source_hash_match": true,
+  "counts": {
+    "han_recomputed": 234,
+    "jyutping_tokens_recomputed": 234,
+    "han_declared": 234,
+    "jyutping_tokens_declared": 234,
+    "aligned": true,
+    "jyutping_cjk_residue": false,
+    "story_220_to_320": true
+  },
+  "verdict": "PASS",
+  "field_reviews": {
+    "story_mechanism_and_causality": "榨汁機吸盤吸牢光滑托盤，搬機時連盤升起；按住盤只令問題轉成機器黐住，兩人縮手後才蹲下檢查吸盤、沿邊揭開，因果可理解。回扣「托盤唔捨得你走」再由阿文反轉成「驚我搬走部機」。與 keeper 的水果面試／錄取機制不同；與鄰近吸盤架因瓷磚縫滑落方向相反，仍同屬吸盤物件近鄰，故近鄰範圍有限。",
+    "traditional_macao_cantonese": "繁體書寫，澳門常用口語詞句通順，角色對白與敘事自然。榨汁機吸盤吸牢光滑托盤，搬機時連盤升起；按住盤只令問題轉成機器黐住，兩人縮手後才蹲下檢查吸盤、沿邊揭開，因果可理解。回扣「托盤唔捨得你走」再由阿文反轉成「驚我搬走部機」。與 keeper 的水果面試／錄取機制不同；與鄰近吸盤架因瓷磚縫滑落方向相反，仍同屬吸盤物件近鄰，故近鄰範圍有限。",
+    "jyutping_character_by_character_and_tone": "人工核讀句段及聲調：水果 seoi2 gwo2、榨汁 zaa3 zap1、托盤 tok3 pun2、吸盤 kap1 pun2、黐實 ci1 sat6、揭起 kit3 hei2、捨 se2、拼盤 ping3 pun2（本稿未用拼盤，但按要求查詞）；粵典「盤」詞條列托盤 tok3 pun2、拼盤 ping3 pun2。空格拆出的粵拼音節數與故事漢字數均234；無CJK殘留。",
+    "complete_simplified_mandarin_translation": "普通話譯文涵蓋托盤被吸盤帶起、發現吸盤並鬆開、搬至水槽和末尾對話回扣，次序完整。",
+    "retell_prompt": "usageTip完整並以「故事练习：」開頭，涵蓋起因、吸盤、拆解與回扣。"
+  },
+  "manual_assessment": "PASS；口語敘述自然，物理因果和回扣成立，修訂版 pun2 聲調正確。",
+  "citation": {
+    "title": "盤 - 粵典",
+    "url": "https://words.hk/zidin/%E7%9B%A4",
+    "verified": "盤 pun2；配詞托盤 tok3 pun2、拼盤 ping3 pun2。"
+  },
+  "canonical_modified": false
+}

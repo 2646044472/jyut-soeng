@@ -1,0 +1,29 @@
+{
+  "report_type": "bounded_duplicate_rewrite_candidate",
+  "date": "2026-11-13",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "order": 1310,
+  "id": "sentence-bank-long_food_shopping_19-0015",
+  "source_file": "content/sentence_bank/long_food_shopping_19.json",
+  "source_index": 14,
+  "source_category": "超市買芝士拼盤招呼朋友",
+  "source_sha256": "cf9912e56145f0a7e7a7924d81a246c390845e5b00f85b669000e5ad88ad7dd6",
+  "freeze_sha256": "cf9912e56145f0a7e7a7924d81a246c390845e5b00f85b669000e5ad88ad7dd6",
+  "keeper_order": 1230,
+  "keeper_id": "sentence-bank-long_food_shopping_17-0009",
+  "candidate": {
+    "sentence": "朋友上嚟聚會，我去超市揀咗兩款芝士同餅乾，返屋企打算擺拼盤。店員幫我將芝士逐片夾張薄紙，免得黐埋。我拎起夾想放一片喺碟，芝士一拎起，張紙都跟埋上嚟；我用另一隻夾按住張紙，芝士又跌返包裝上。阿敏見我兩手都忙，伸隻叉過嚟壓住張紙；我一拉，佢隻叉跟住移，紙同芝士一齊落到碟上。阿傑話自己手穩，用叉按住紙，我小心鬆開夾，終於分到一片；但下一片嘅紙又黐住上一張，兩張一齊升起。三個人圍住一包芝士，好似開緊分手大會，仲要逐張紙點名。隔籬朋友已經食咗幾塊餅乾，問我哋幾時開餐。我哋先攤開包裝，逐片分開隔紙，再用夾放到碟上。阿敏終於夾到一片，話：「頭先我哋唔係擺拼盤，係合力拆包裝。」",
+    "jyutping": "pang4 jau5 soeng5 lai4 zeoi6 wui6, ngo5 heoi3 ciu1 si5 gaan2 zo2 loeng5 fun2 zi1 si2 tung4 beng2 gon1, faan1 uk1 kei2 daa2 syun3 baai2 ping3 pun2. dim3 jyun4 bong1 ngo5 zoeng1 zi1 si2 zuk6 pin3 gaap3 zoeng1 bok6 zi2, min5 dak1 ci1 maai4. ngo5 ling1 hei2 gaap3 soeng2 fong3 jat1 pin3 hai2 dip6, zi1 si2 jat1 ling1 hei2, zoeng1 zi2 dou1 gan1 maai4 soeng5 lai4; ngo5 jung6 ling6 jat1 zek3 gaap3 on3 zyu6 zoeng1 zi2, zi1 si2 jau6 dit3 faan1 baau1 zong1 soeng6. aa3 man5 gin3 ngo5 loeng5 sau2 dou1 mong4, san1 zek3 caa1 gwo3 lai4 aat3 zyu6 zoeng1 zi2; ngo5 jat1 laai1, keoi5 zek3 caa1 gan1 zyu6 ji4, zi2 tung4 zi1 si2 jat1 cai4 lok6 dou3 dip6 soeng6. aa3 git6 waa6 zi6 gei2 sau2 wan2, jung6 caa1 on3 zyu6 zi2, ngo5 siu2 sam1 sung1 hoi1 gaap3, zung1 jyu1 fan1 dou2 jat1 pin3; daan6 haa6 jat1 pin3 ge3 zi2 jau6 ci1 zyu6 soeng6 jat1 zoeng1, loeng5 zoeng1 jat1 cai4 sing1 hei2. saam1 go3 jan4 wai4 zyu6 jat1 baau1 zi1 si2, hou2 ci5 hoi1 gan2 fan1 sau2 daai6 wui6, zung6 jiu3 zuk6 zoeng1 zi2 dim2 meng2. gaak3 lei4 pang4 jau5 ji5 ging1 sik6 zo2 gei2 faai3 beng2 gon1, man6 ngo5 dei6 gei2 si4 hoi1 caan1. ngo5 dei6 sin1 taan1 hoi1 baau1 zong1, zuk6 pin3 fan1 hoi1 gaak3 zi2, zoi3 jung6 gaap3 fong3 dou3 dip6 soeng6. aa3 man5 zung1 jyu1 gaap3 dou2 jat1 pin3, waa6: 「tau4 sin1 ngo5 dei6 m4 hai6 baai2 ping3 pun2, hai6 hap6 lik6 caak3 baau1 zong1.」",
+    "gloss": "朋友来聚会，我去超市挑了两款芝士和饼干，回家打算摆拼盘。店员帮我在芝士片之间夹了薄纸，免得粘在一起。我拿夹子想放一片在碟上，芝士一抬，纸也跟着上来；我用另一只夹子按住纸，芝士又跌回包装上。阿敏见我两手都忙，伸出一把叉子按住纸；我一拉，她的叉子跟着移动，纸和芝士一起落到碟上。阿杰说自己手稳，用叉子按住纸，我小心松开夹子，终于分出一片；但下一片的纸又粘住上一张，两张一起升起来。三个人围着一包芝士，像是在开分手大会，还要逐张纸点名。旁边朋友已经吃了几块饼干，问我们什么时候开吃。我们才摊开包装，逐片分开隔纸，再用夹子放到碟上。阿敏终于夹到一片，说：“刚才我们不是在摆拼盘，是在合力拆包装。”",
+    "usageTip": "故事练习：复述芝士片和隔纸怎样一起被夹起来，阿敏和阿杰又怎样帮忙；再讲大家如何逐片分开隔纸，以及“合力拆包装”的回扣。"
+  },
+  "candidate_fields_sha256": "915b43199ae5178074eaa61ddac99b448de7d598f67d21ae785d5e8cf354ddeb",
+  "han_count": 249,
+  "jyutping_token_count": 249,
+  "manual_note": "芝士片與隔紙黏在一起，客人用夾與叉試圖分開，最後攤開包裝逐片分；与keeper薄荷曲奇盲猜不同。主動查找轉盤近鄰後，廢棄轉盤追菜版本，改用隔紙機制；亦比較food13-0003買拼盤材料時兩臂抱滿、finance01-0078刀叉切漢堡，動作鏈不同。需要獨立四字段、近鄰和物理因果複核。",
+  "revision_of": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITE_1310_TERRA_CANDIDATE_REV1_2026-11-13.json",
+  "revision_of_file_sha256": "a7428ce1444a5eef472679d9c73ef9d066c8fdaf6cced1239113f1785ac6af34",
+  "revision_note": "補齊「好似開緊分手大會，仲要逐張紙點名」對應嘅15個逐字音節；前版故事已修訂，但粵拼段落未同步更新，保留前版作為修訂歷史。",
+  "alignment_match": true,
+  "jyutping_cjk_residue": false
+}

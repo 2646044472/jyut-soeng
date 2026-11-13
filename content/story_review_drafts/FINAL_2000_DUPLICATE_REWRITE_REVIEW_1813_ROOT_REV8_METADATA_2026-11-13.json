@@ -1,0 +1,20 @@
+{
+  "report_type": "independent_candidate_metadata_confirmation",
+  "date": "2026-11-13",
+  "order": 1813,
+  "candidate_file": "FINAL_2000_DUPLICATE_REWRITE_1813_ROOT_CANDIDATE_REV8_2026-11-13.json",
+  "candidate_file_sha256": "cdb71917a292e7a9b00c4b86ae5b2f5c2cd1d6411fe653028b741111444b93ab",
+  "declared_expected_file_sha256": "cdb71917a292e7a9b00c4b86ae5b2f5c2cd1d6411fe653028b741111444b93ab",
+  "report_type_value": "frozen_duplicate_queue_author_candidate_rev8",
+  "report_type_is_rev8": true,
+  "four_language_fields_sha256_recomputed": "c30536aa95e7aebb71e3a6e30c552bd0917476770a3976203e2ef814b9763330",
+  "four_language_fields_sha256_declared": "c30536aa95e7aebb71e3a6e30c552bd0917476770a3976203e2ef814b9763330",
+  "declared_expected_four_field_sha256": "c30536aa95e7aebb71e3a6e30c552bd0917476770a3976203e2ef814b9763330",
+  "han_count_recomputed": 305,
+  "jyutping_token_count_recomputed": 305,
+  "embedded_han_count": 305,
+  "embedded_jyutping_token_count": 305,
+  "four_fields_equal_rev7": true,
+  "confirmed": true,
+  "scope_note": "Metadata/hash/count confirmation only; REV7 language review PASS remains applicable because all four candidate fields are identical. No language re-review performed; no candidate or canonical content changed."
+}

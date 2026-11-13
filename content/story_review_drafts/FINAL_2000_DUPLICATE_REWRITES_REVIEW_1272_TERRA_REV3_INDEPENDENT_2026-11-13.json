@@ -1,0 +1,78 @@
+{
+  "report": "independent_candidate_review_rev3",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "order": 1272,
+  "candidate_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITE_1272_TERRA_CANDIDATE_REV3_2026-11-13.json",
+  "candidate_file_sha256_recomputed": "6b9b0a3afe3e1889e31b306b730bd345a7a2309152c63071b493a72c80108ae5",
+  "candidate_fields_sha256": {
+    "fields": ["sentence", "jyutping", "gloss", "usageTip"],
+    "serialization": "UTF-8 JSON; ensure_ascii=false; sort_keys=true; separators=(',', ':')",
+    "recomputed": "209c2df44cfca65ad879cc9166597c60c804ab13aceddd8ebb3fcf6640c997eb",
+    "declared": "209c2df44cfca65ad879cc9166597c60c804ab13aceddd8ebb3fcf6640c997eb",
+    "match": true,
+    "note": "此值独立按REV3四字段重算，不沿用REV2报告的字段hash或PASS结论。"
+  },
+  "source_check": {
+    "id": "sentence-bank-long_food_shopping_18-0025",
+    "file": "content/sentence_bank/long_food_shopping_18.json",
+    "index": 24,
+    "category": "超市自助收銀買雞蛋",
+    "normalized_object_sha256_recomputed": "f11898bb83decb53b57997e61f2d8272953de25598698d973415ffe9d8c502f7",
+    "declared_sha256": "f11898bb83decb53b57997e61f2d8272953de25598698d973415ffe9d8c502f7",
+    "freeze_sha256": "f11898bb83decb53b57997e61f2d8272953de25598698d973415ffe9d8c502f7",
+    "object_hash_match": true,
+    "raw_source_file_bytes_sha256": "504e3635d3cd3a62a15cfb11168ae074d5b089d77ba2498597b06c921463a2a1",
+    "note": "冻结hash与索引24源对象的规范化hash一致；另列原始JSON文件字节hash，两种hash范围不同。"
+  },
+  "counts_and_fields": {
+    "hanzi_count_recomputed": 242,
+    "jyutping_tone_tokens_recomputed": 242,
+    "declared_counts": "242/242",
+    "count_match": true,
+    "punctuation_delimited_alignment_check": "所有34个标点分段中，粤拼音节数分别与对应汉字数相等；没有汉字残留在粤拼字段。",
+    "three_beep_tokens": {
+      "sentence_character_count": 3,
+      "jyutping_occurrences": 3,
+      "reading_used": "dut1"
+    },
+    "shopping_reading": {
+      "text": "購物清單",
+      "candidate_jyutping": "gau3 mat6",
+      "finding": "粵典「購」列 kau3、gau3 两个读音；gau3 是有词典依据的读法，符合本候稿。"
+    },
+    "four_fields_present": {
+      "sentence": true,
+      "jyutping": true,
+      "gloss": true,
+      "usageTip": true
+    },
+    "usageTip_prefix": "故事练习：",
+    "gloss_language": "完整简体普通话译文"
+  },
+  "pronunciation_review": {
+    "dut1": "三处电子扫描提示声均写 dut1。粵典「嘟」的拟声词条列 dyut1、dut1，并以dut1标记嘟一声及电子短高音；此处dut1读音正确。",
+    "gau3": "購物的購写 gau3，粵典列 kau3、gau3，gau3可接受。",
+    "scope": "专项复核了三处嘟和購物读音；分段音节数量逐段吻合。没有将专项核音表述为每个音节均经外部词典查证。"
+  },
+  "field_review": {
+    "story_and_finite_neighbor_comparison": "因果清楚：叙述者把隔壁扫描器的嘟声当成自己的成功提示，空白清单与隔壁屏幕逐步揭露误会；店员指出蛋盒底部条码后，结尾又响起邻机提示，叙述者改为核对两边画面并以替邻客开心三次回扣。与原卡同为超市自助收银及鸡蛋，但动作机制由拿起蛋盒触发放置重量警告，变为误认相邻扫描提示声并比较屏幕。指定keeper 779的机制是旧纸袋压住放袋区、触发重量提示并带动排队顾客同步提袋。题材环境相近，具体触发、升级与笑点不同。本比较仅限原卡及指定keeper，不代表全库检查。",
+    "oral_cantonese": "繁体粤语对话整体自然；‘得咗’‘清单仲係空嘅’‘隔籬’‘轮到自己’口语顺畅。‘扫描窗’略偏说明性，但场景清楚，不构成阻碍。",
+    "gloss": "简体译文完整保留误认邻机提示音、空屏、发现条码位置和结尾回扣，语义顺序一致。",
+    "usageTip": "以‘故事练习：’开头，覆盖三次嘟声误会、条码位置及两屏对照结尾。"
+  },
+  "dictionary_references": [
+    {
+      "title": "粵典：嘟",
+      "url": "https://words.hk/zidin/%E5%98%9F",
+      "finding": "拟声词义为短而高音的声音，读音列 dyut1、dut1，例句中嘟一声标作 dut1。"
+    },
+    {
+      "title": "粵典：購",
+      "url": "https://words.hk/zidin/%E8%B3%BC",
+      "finding": "列 kau3、gau3；候稿采用的 gau3 有词典依据。"
+    }
+  ],
+  "verdict": "PASS_FOR_CANDIDATE_REVIEW_ONLY",
+  "limitations": "仅针对REV3复算hash、源冻结对象、所要求的读音与有限近邻进行审阅；不表示已对所有keeper或全库排重。未修改候稿或canonical。"
+}
