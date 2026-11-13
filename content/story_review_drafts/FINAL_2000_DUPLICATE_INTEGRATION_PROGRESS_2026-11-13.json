@@ -788,10 +788,10 @@
     "android_final": "passed with --rerun-tasks; :app:testDebugUnitTest and :app:compileDebugAndroidTestKotlin; no device instrumentation run",
     "export_github_pack": "passed; 5000 entries, exactly 2000 story entries",
     "git_diff_check": "passed before final staging",
-    "github_release_workflow": "pending push of v0.36.3 after branch commit verification"
+    "github_release_workflow": "passed; run 43365777101, all 10 steps succeeded; v0.36.3 published at https://github.com/2646044472/jyut-soeng/releases/tag/v0.36.3; tag peels to f754289396483da8ecc9111137bd183cc88dc574; APK SHA256 1960bca138520bad3827c62bedf50508679855b0374941d331140f93ed36adf6"
   },
   "android_tests_after_this_content_integration": "pending final rerun after next approved batch",
   "canonical_writer": "root only",
   "no_source_cards_deleted": true,
-  "last_root_update": "Integrated order1813 after exact independent four-field PASS and metadata-only confirmation; all 63 frozen duplicate targets are integrated. Build, active hash/mirror audit, 5000-row validation, Python and Android compile/unit checks passed."
+  "last_root_update": "All 63 frozen duplicate targets integrated; final tests/build/content export passed; v0.36.3 Release published and remote APK/tag verified."
 }
