@@ -1,0 +1,33 @@
+{
+  "order": 1481,
+  "source_id": "sentence-bank-long_health_services_04-0066",
+  "source_file": "content/sentence_bank/long_health_services_04.json",
+  "source_index": 65,
+  "category": "骨密度檢查",
+  "source_sha256": "636bc719768bb02c2496a34e056aeee5674e857f807b24a8f30c77a1b458a2f6",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "review_round": "macau-comedy-revalidation-v2",
+  "fields": {
+    "story": "我陪同事阿晴去做骨密度檢查，前台叫佢登記姓名同聯絡電話。佢一聽「姓名」，即刻坐直身，講：「我叫阿晴，平時負責公司啲報告，最熟係改到第三版，仲有人話睇唔明。」姑娘望住張表：「我只係問你叫咩名。」佢先寫低姓名。姑娘再問電話，佢逐個數字讀得好慢，讀完又補充：「呢個號碼平時用嚟收外賣，唔係工作電話。」我喺旁邊提醒佢，登記唔使做自我介紹。佢點頭，姑娘叫佢喺聯絡人一欄填名字，佢即刻問：「填我同事，定填我個電話？」姑娘指住格仔再講一次，佢就將自己名寫到格外，仲加埋公司職位。姑娘接過張表，笑住話：「你今日係嚟檢查，唔係嚟應徵。」阿晴望住嗰格，認真問：「咁我個職位要唔要刪？」等候時，前台叫佢入去，佢轉頭同我講：「今次終於輪到我，唔使再介紹自己。」",
+    "jyutping": "ngo5 pui4 tung4 si6 aa3 cing4 heoi3 zou6 gwat1 mat6 dou6 gim2 caa4, cin4 toi4 giu3 keoi5 dang1 gei3 sing3 meng2 tung4 lyun4 lok3 din6 waa6. keoi5 jat1 teng1 sing3 meng2, zik1 hak1 co5 zik6 san1, gong2: ngo5 giu3 aa3 cing4, ping4 si4 fu6 zaak3 gung1 si1 di1 bou3 gou3, zeoi3 suk6 hai6 goi2 dou3 dai6 saam1 baan2, zung6 jau5 jan4 waa6 tai2 m4 ming4. gu1 zeong2 mong6 zyu6 zoeng1 biu2: ngo5 zi2 hai6 man6 nei5 giu3 me1 meng2. keoi5 sin1 se2 dai1 sing3 meng2. gu1 zeong2 zoi3 man6 din6 waa6, keoi5 zuk6 go3 sou3 zi6 duk6 dak1 hou2 maan6, duk6 jyun4 jau6 bou2 cung1: ni1 go3 hou6 maa5 ping4 si4 jung6 lai4 sau1 ngoi6 maai6, m4 hai6 gung1 zok3 din6 waa6. ngo5 hai2 pong4 bin1 tai4 sing2 keoi5, dang1 gei3 m4 sai2 zou6 zi6 ngo5 gaai3 siu6. keoi5 dim2 tau4, gu1 zeong2 giu3 keoi5 hai2 lyun4 lok3 jan4 jat1 laan4 tin4 meng2 zi6, keoi5 zik1 hak1 man6: tin4 ngo5 tung4 si6, ding6 tin4 ngo5 go3 din6 waa6? gu1 zeong2 zi2 zyu6 gaak3 zai2 zoi3 gong2 jat1 ci3, keoi5 zau6 zoeng1 zi6 gei2 meng2 se2 dou3 gaak3 ngoi6, zung6 gaa1 maai4 gung1 si1 zik1 wai2. gu1 zeong2 zip3 gwo3 zoeng1 biu2, siu3 zyu6 waa6: nei5 gam1 jat6 hai6 lai4 gim2 caa4, m4 hai6 lai4 jing3 zing1. aa3 cing4 mong6 zyu6 go2 gaak3, jing6 zan1 man6: gam2 ngo5 go3 zi6 wai2 jiu3 m4 jiu3 saan2? dang2 hau6 si4, cin4 toi4 giu3 keoi5 jap6 heoi3, keoi5 zyun3 tau4 tung4 ngo5 gong2: gam1 ci3 zung1 jyu1 leon4 dou3 ngo5, m4 sai2 zoi3 gaai3 siu6 zi6 gei2.",
+    "simplified_translation": "我陪同事阿晴去做骨密度检查，前台让她登记姓名和联系电话。她一听到“姓名”，立刻坐直身子，说：“我叫阿晴，平时负责公司的报告，最熟悉改到第三版，还有人说看不懂。”护士看着表格说：“我只是问你叫什么名字。”她才写下姓名。护士又问电话，她把每个数字读得很慢，读完还补充：“这个号码平时用来收外卖，不是工作电话。”我在旁边提醒她，登记不用做自我介绍。她点头，护士让她在联系人一栏填名字，她马上问：“填我同事，还是填我的电话？”护士指着格子又讲了一遍，她就把自己的名字写到格子外面，还加上公司职位。护士接过表格，笑着说：“你今天是来检查，不是来应聘。”阿晴看着那一格，认真地问：“那我的职位要不要删掉？”等候时，前台叫她进去，她回头对我说：“这次终于轮到我，不用再介绍自己了。”",
+    "practice_prompt": "故事练习：复述阿晴怎样把诊所登记答成公司自我介绍，从姓名、电话一路讲到职位；模仿护士提醒她“只是问你叫什么名字”时的平静语气，并说出她最后怎样回扣“终于轮到我”。"
+  },
+  "validation": {
+    "story_han_count": 263,
+    "jyutping_syllable_count": 263,
+    "alignment": "MATCH",
+    "jyutping_cjk_residue": 0,
+    "candidate_content_sha256": "99e6ba44f8625bf42f9fcf7bb21d472e84ebe10f6f8a98160b0884bbed9382be",
+    "hash_method": "SHA-256 of UTF-8 story, Jyutping, gloss, and prompt joined by LF",
+    "candidate_json_sha256": "f08f960b4367bbf053b45f5a5b1908c2c32b7ff2475933282e79d45348a81471"
+  },
+  "difference_from_keeper": {
+    "keeper_id": "sentence-bank-long_health_services_01-0004",
+    "keeper_mechanism": "过度装满背囊并在包内翻找借来的笔，找物件令就诊拖长",
+    "candidate_mechanism": "登记时把姓名和电话问题逐步答成工作自我介绍，最后把职位写出联系人栏；无大背囊、无翻找物件",
+    "evidence": "笑点由对柜台问题过度回答及把登记表当履历介绍推动，递进至职位写出格外；候诊结束时回扣无需再介绍自己。"
+  },
+  "near_neighbor_note": "与 keeper 01-0004 的携带物过多/包内找笔机制不同。冻结 active 中存在号码叫号、表格填写及证件办理故事，但本稿不靠叫号误听、表格空格误读或证件拍摄；集中于登记对话中过度作答。",
+  "manual_review_note": "粤拼按故事汉字逐音节手工撰写并人工自查声调；计数脚本只作字符/音节统计、哈希和保存，不生成或转换语言字段。故事仅写普通登记与候诊，不含检查准备或医疗建议。"
+}

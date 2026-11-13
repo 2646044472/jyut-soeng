@@ -1,0 +1,34 @@
+{
+  "report": "Correction to independent review of order34 author06 REV2 candidate.",
+  "review_round": "macau-comedy-revalidation-v2",
+  "created_date": "2026-11-13",
+  "supersedes_report": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_REVIEW_ORDER34_REV2_2026-11-13.json",
+  "superseded_report_sha256": "54b5543677663193aa487dc6d3532cd1aa2c9d96ff43c411b194cff7ccf65c79",
+  "input_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_GLOBAL_0008_0066_REV2_2026-11-13.json",
+  "input_file_sha256": "bbcb8c0a662ca170e02c0ea85705ec347a2445999e6183e476ec7195c05101dd",
+  "hash_method": "SHA-256 of canonical JSON {category: source_category, sentence, jyutping, gloss, usageTip}, UTF-8, ensure_ascii=False, sort_keys=True, compact separators=(",
+  ",": "). This matches the candidate_sha256 convention in this author file.",
+  "scope": {
+    "order": 34,
+    "id": "sentence-bank-long_family_finance_services_01-0041"
+  },
+  "source_hash_expected": "872751e6582cd60cf7a885bb701305bcfbbde89b240f72c157da681abc3653fa",
+  "source_hash_recomputed": "872751e6582cd60cf7a885bb701305bcfbbde89b240f72c157da681abc3653fa",
+  "source_hash_match": true,
+  "candidate_hash_reported": "e80b97f67753fedbd2537b077c8405dfda9c35c5457082fe96f6f993665e30e0",
+  "candidate_hash_recomputed": "e80b97f67753fedbd2537b077c8405dfda9c35c5457082fe96f6f993665e30e0",
+  "candidate_hash_match": true,
+  "story_han_count": 240,
+  "jyutping_whitespace_token_count": 240,
+  "jyutping_syllable_count": 240,
+  "alignment_match": true,
+  "jyutping_cjk_residue": false,
+  "verdict": "PASS",
+  "four_field_review": {
+    "story": "PASS：自然改為「寫細啲」，簽名越格、幼線、側寫、補職位後再越界，末句回扣成立。",
+    "jyutping": "PASS：240/240逐字token，抽核寫細啲 se2 sai3 di1、簽名 cim1 meng2、側住 zaak3 zyu6、挨入 ngaai1 jap6、螞蟻 maa5 ngai5、競選 ging6 syun2、越界 jyut6 gaai3均合語境。",
+    "gloss": "PASS：簡譯完整對應字變幼線、簽名側寫與越界回扣。",
+    "usageTip": "PASS：以「故事练习：」開頭且貼合主要動作和回扣。"
+  },
+  "correction_note": "前一份報告錯把id/source_category放入hash payload，导致误判不匹配。按本候稿实际采用的字段口径重算后候稿SHA匹配，因此本报告将结论更正为PASS；原报告保留不覆盖。"
+}

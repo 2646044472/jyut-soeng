@@ -1,0 +1,51 @@
+{
+  "report": "FINAL_2000_DUPLICATE_REWRITES_0571_REV2_2026-11-13",
+  "review_round": "duplicate-rewrite-candidate-revision",
+  "created_date": "2026-11-13",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "source_freeze": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "source_freeze_manifest_sha256": "863768b0fe764bf81cf93858c0a9caebf01a3b975bc5ffb5d39a59a9731bca11",
+  "revision_of": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_0518_0600_BATCH01_2026-11-13.json",
+  "order": 571,
+  "id": "sentence-bank-long_food_shopping_01-0019",
+  "source_sha256": "08b9cf0231f35bd4cef2b7d8b917c8ac1c185e25bf2416ed52eef001dba21388",
+  "source_hash_match": true,
+  "category": "茶餐廳",
+  "keeper_order": 577,
+  "keeper_id": "sentence-bank-long_food_shopping_01-0025",
+  "previous_candidate_hash": "8d19afd59b05a2949430d2c37f5f43f5413cfbb1837468f0c7607d119a02d61e",
+  "previous_candidate": {
+    "category": "茶餐廳",
+    "sentence": "我同阿晴去茶餐廳食下午茶，叫咗兩塊多士，阿晴話要搽牛油。伙計送來一粒凍牛油放喺熱多士旁邊，阿晴用餐刀推，牛油唔化反而成粒滑過麵包，跌到碟邊。我即刻攞匙羹嚟擋，佢又彈到小碟上，阿晴笑話呢粒牛油比我哋更識走位。伙計經過睇見，遞多把刀叫我哋慢慢壓。阿晴一壓，牛油終於留喺多士上，偏偏我切多士時麵包又將牛油推返落碟。我哋兩個一人按住麵包，一人追住牛油，隔籬客人見狀遞張紙巾話：「要唔要幫你哋畫條起跑線？」最後阿晴將牛油放喺熱多士中間等佢軟，我問要等幾耐。我哋望住碟多士，一人守住一邊，牛油仍然喺中間轉圈。伙計答：「食完下午茶先至融到。」",
+    "jyutping": "ngo5 tung4 aa3 cing4 heoi3 caa4 caan1 teng1 sik6 haa6 ng5 caa4, giu3 zo2 loeng5 faai3 do1 si2, aa3 cing4 waa6 jiu3 caa4 ngau4 jau4. fo2 gai3 sung3 loi4 jat1 nap1 dung3 ngau4 jau4 fong3 hai2 jit6 do1 si2 pong4 bin1, aa3 cing4 jung6 caan1 dou1 teoi1, ngau4 jau4 m4 faa3 faan2 ji4 sing4 nap1 waat6 gwo3 min6 baau1, dit3 dou3 dip6 bin1. ngo5 zik1 hak1 lo2 ci4 gang1 lai4 dong2, keoi5 jau6 taan4 dou3 siu2 dip6 soeng6, aa3 cing4 siu3 waa6 ni1 nap1 ngau4 jau4 bei2 ngo5 dei6 gang3 sik1 zau2 wai2. fo2 gai3 ging1 gwo3 tai2 gin3, dai6 do1 baa2 dou1 giu3 ngo5 dei6 maan6 maan6 aat3. aa3 cing4 jat1 aat3, ngau4 jau4 zung1 jyu1 lau4 hai2 do1 si2 soeng6, pin1 pin1 ngo5 cit3 do1 si2 si4 min6 baau1 jau6 zoeng1 ngau4 jau4 teoi1 faan1 lok6 dip6. ngo5 dei6 loeng5 go3 jat1 jan4 on3 zyu6 min6 baau1, jat1 jan4 zeoi1 zyu6 ngau4 jau4, gaak3 lei4 haak3 jan4 gin3 zong6 dai6 zoeng1 zi2 gan1 waa6: 「jiu3 m4 jiu3 bong1 nei5 dei6 waa2 tiu4 hei2 paau2 sin3?」 zeoi3 hau6 aa3 cing4 zoeng1 ngau4 jau4 fong3 hai2 jit6 do1 si2 zung1 gaan1 dang2 keoi5 jyun5, ngo5 man6 jiu3 dang2 gei2 noi6. ngo5 dei6 mong6 zyu6 dip6 do1 si2, jat1 jan4 sau2 zyu6 jat1 bin1, ngau4 jau4 jing4 jin4 hai2 zung1 gaan1 zyun3 cyun1. fo2 gai3 daap3: 「sik6 jyun4 haa6 ng5 caa4 sin1 zi3 jung4 dou3.」",
+    "gloss": "我和阿晴去茶餐厅吃下午茶，点了两块多士，阿晴说要涂牛油。伙计送来一小块冻牛油，放在热多士旁边。阿晴用餐刀推，牛油没化开，反而整块滑过面包，掉到碟边。我马上拿汤匙来挡，它又弹到小碟上，阿晴笑说这块牛油比我们更会走位。伙计经过看见，递来另一把刀，叫我们慢慢压。阿晴一压，牛油终于留在多士上；偏偏我切多士时，面包又把牛油推回碟里。我们两个人一个按住面包，一个追着牛油，隔壁客人看见后递来纸巾问：“要不要帮你们画条起跑线？”最后阿晴把牛油放在热多士中间等它软下来，我问要等多久。我们看着那碟多士，一个守住一边，牛油仍然在中间转圈。伙计回答：“吃完下午茶才会融。”",
+    "usageTip": "故事练习：复述牛油怎样从热多士旁边一路滑到碟边，又怎样被追着推回多士；再讲隔壁客人为什么要画起跑线，以及伙计最后怎样估计牛油融化的时间。"
+  },
+  "previous_counts": {
+    "han_characters": 234,
+    "jyutping_tokens": 234
+  },
+  "candidate": {
+    "category": "茶餐廳",
+    "sentence": "我同阿晴去茶餐廳食下午茶，叫咗兩塊多士，阿晴話要搽牛油。伙計送來一小塊凍牛油放喺熱多士旁邊，阿晴用餐刀推，牛油唔化反而成塊滑過麵包，跌到碟邊。我即刻攞匙羹嚟擋，佢又彈到小碟上，阿晴笑話呢塊牛油比我哋更識走位。伙計經過睇見，遞多把刀叫我哋慢慢壓。阿晴一壓，牛油終於留喺多士上，偏偏我切多士時麵包又將牛油推返落碟。我哋兩個一人按住麵包，一人追住牛油，隔籬客人見狀遞張紙巾話：「要唔要幫你哋畫條起跑線？」最後阿晴將牛油放喺熱多士中間等佢軟，我問要等幾耐。我哋望住碟多士，一人守住一邊，牛油仍然喺中間轉圈。伙計答：「食完下午茶先至融到。」",
+    "jyutping": "ngo5 tung4 aa3 cing4 heoi3 caa4 caan1 teng1 sik6 haa6 ng5 caa4, giu3 zo2 loeng5 faai3 do1 si2, aa3 cing4 waa6 jiu3 caa4 ngau4 jau4. fo2 gai3 sung3 loi4 jat1 siu2 faai3 dung3 ngau4 jau4 fong3 hai2 jit6 do1 si2 pong4 bin1, aa3 cing4 jung6 caan1 dou1 teoi1, ngau4 jau4 m4 faa3 faan2 ji4 sing4 faai3 waat6 gwo3 min6 baau1, dit3 dou3 dip6 bin1. ngo5 zik1 hak1 lo2 ci4 gang1 lai4 dong2, keoi5 jau6 taan4 dou3 siu2 dip6 soeng6, aa3 cing4 siu3 waa6 ni1 faai3 ngau4 jau4 bei2 ngo5 dei6 gang3 sik1 zau2 wai2. fo2 gai3 ging1 gwo3 tai2 gin3, dai6 do1 baa2 dou1 giu3 ngo5 dei6 maan6 maan6 aat3. aa3 cing4 jat1 aat3, ngau4 jau4 zung1 jyu1 lau4 hai2 do1 si2 soeng6, pin1 pin1 ngo5 cit3 do1 si2 si4 min6 baau1 jau6 zoeng1 ngau4 jau4 teoi1 faan1 lok6 dip6. ngo5 dei6 loeng5 go3 jat1 jan4 on3 zyu6 min6 baau1, jat1 jan4 zeoi1 zyu6 ngau4 jau4, gaak3 lei4 haak3 jan4 gin3 zong6 dai6 zoeng1 zi2 gan1 waa6: 「jiu3 m4 jiu3 bong1 nei5 dei6 waa2 tiu4 hei2 paau2 sin3?」 zeoi3 hau6 aa3 cing4 zoeng1 ngau4 jau4 fong3 hai2 jit6 do1 si2 zung1 gaan1 dang2 keoi5 jyun5, ngo5 man6 jiu3 dang2 gei2 noi6. ngo5 dei6 mong6 zyu6 dip6 do1 si2, jat1 jan4 sau2 zyu6 jat1 bin1, ngau4 jau4 jing4 jin4 hai2 zung1 gaan1 zyun3 cyun1. fo2 gai3 daap3: 「sik6 jyun4 haa6 ng5 caa4 sin1 zi3 jung4 dou3.」",
+    "gloss": "我和阿晴去茶餐厅吃下午茶，点了两块多士，阿晴说要涂牛油。伙计送来一小块冻牛油，放在热多士旁边。阿晴用餐刀推，牛油没化开，反而整块滑过面包，掉到碟边。我马上拿汤匙来挡，它又弹到小碟上，阿晴笑说这块牛油比我们更会走位。伙计经过看见，递来另一把刀，叫我们慢慢压。阿晴一压，牛油终于留在多士上；偏偏我切多士时，面包又把牛油推回碟里。我们两个人一个按住面包，一个追着牛油，隔壁客人看见后递来纸巾问：“要不要帮你们画条起跑线？”最后阿晴把牛油放在热多士中间等它软下来，我问要等多久。我们看着那碟多士，一个守住一边，牛油仍然在中间转圈。伙计回答：“吃完下午茶才会融。”",
+    "usageTip": "故事练习：复述牛油怎样从热多士旁边一路滑到碟边，又怎样被追着推回多士；再讲隔壁客人为什么要画起跑线，以及伙计最后怎样估计牛油融化的时间。"
+  },
+  "candidate_content_sha256": "658ec97d30270ca90949afe4597a6af5de7cb154984fa6b3f308c7e0f9a99669",
+  "candidate_hash_method": "SHA-256 canonical JSON {id, source_category, sentence, jyutping, gloss, usageTip}; UTF-8, ensure_ascii=False, sort_keys=True, compact separators",
+  "han_character_count_recomputed": 235,
+  "jyutping_syllable_count_recomputed": 235,
+  "jyutping_whitespace_token_count_recomputed": 235,
+  "alignment_match": true,
+  "jyutping_cjk_residue": false,
+  "candidate_status_detail": "CANDIDATE_NOT_PASSED",
+  "revision_note": "只修量词：一粒冻牛油→一小块冻牛油，成粒→成块，呢粒→呢块；粤拼同步把 nap1 改为 faai3，并为小块加 siu2；译文同步使用一小块、整块、这块。故事机制和其余四字段内容保留。",
+  "validation": {
+    "source_hash_matches_freeze_and_current": true,
+    "story_220_to_320_han": true,
+    "han_jyutping_aligned": true,
+    "jyutping_cjk_free": true,
+    "canonical_modified": false
+  }
+}

@@ -180,7 +180,7 @@
       "file": "content/sentence_bank/long_home_family_06.json",
       "index": 45,
       "category": "家庭相處",
-      "sha256": "dd339787ab24c2f1e73def0b909ce02f3ae660c41e0b6841d848cda9aa3df372",
+      "sha256": "27b3b418665d49f82d4debad0d7f24d26be7ba364f22f83a3594c1ff8e616fe3",
       "topic_notes": [
         "family_centered",
         "window_leak_and_old_ticket",
@@ -191,10 +191,13 @@
       "partition": "A",
       "owner": "agent05",
       "rolling_batch": "A2",
-      "status": "candidate_pending_exact_review",
+      "status": "integrated_pass",
       "candidate_path": "content/story_review_drafts/A2_06-0046_candidate_marble_maze_2026-11-12.md",
       "candidate_sha256": "8a4145ac3fb10044ac019b906a7ba92e56b66df56dcbd71d4305754e1b02b569",
-      "last_review_finding": "author05 marble maze; agent08 exact review requested, with explicit return-to-start overlap screen against active 06-0005."
+      "last_review_finding": "author05 marble maze; agent08 exact review requested, with explicit return-to-start overlap screen against active 06-0005.",
+      "resolved_sha256": "27b3b418665d49f82d4debad0d7f24d26be7ba364f22f83a3594c1ff8e616fe3",
+      "resolved_at": "2026-11-13",
+      "resolution": "Root four-field review and independent exact-hash Jyutping review approved; original source metadata and active membership unchanged."
     },
     {
       "id": "sentence-bank-long_home_family_06-0052",
@@ -238,7 +241,13 @@
       "partition": "A",
       "owner": "agent05",
       "rolling_batch": "A3",
-      "status": "queued"
+      "status": "integrated_pass",
+      "candidate_path": "content/story_review_drafts/A3_06-0053_candidate_hose_reel_standup_revision1_2026-11-12.md",
+      "candidate_sha256": "c00ec8c64b690a84ad7256c11a1b9c80ae4b8fe3446c985eeb2021ec82ed1148",
+      "last_review_finding": "Replaced elevator-sensor candidate after medium neighbor 14-0015; hose-reel mechanism draft is pending agent08 exact review and root final read.",
+      "resolved_sha256": "7373052aea1ca18ab985fc4d5e79b16bbfea62d279ff887a0b4dac6d0cc52770",
+      "resolved_at": "2026-11-12",
+      "resolution": "Root four-field review and independent exact-version review passed; source/V2/oral/app hashes synchronized."
     },
     {
       "id": "sentence-bank-long_home_family_06-0055",
@@ -256,10 +265,11 @@
       "partition": "A",
       "owner": "agent05",
       "rolling_batch": "A3",
-      "status": "integrated_pass",
+      "status": "needs_revision_reopened_tone",
       "resolved_sha256": "c16911c1f752a46fb81bef03d747af3f308764abd239ff39695a544db2e00d50",
       "resolved_at": "2026-11-12",
-      "resolution": "Root final-review plus agent05 exact review of SHA a849186a0aa2b602e323bed84c0afd49b0ccc098eb971017f0230f1ffbac84ce; 274/274. Reworked as neighbor carton-tape life bit; corrected the previous moving-house mismatch and synchronized ending/translation/prompt."
+      "resolution": "Root final-review plus agent05 exact review of SHA a849186a0aa2b602e323bed84c0afd49b0ccc098eb971017f0230f1ffbac84ce; 274/274. Reworked as neighbor carton-tape life bit; corrected the previous moving-house mismatch and synchronized ending/translation/prompt.",
+      "last_review_finding": "Reopened after lexicon evidence shows five “fold” readings 摺 should be zip3, not zaap3; root corrected and awaits exact independent re-review. Existing root-integration snapshot plus post-integration correction snapshot preserve before/after."
     },
     {
       "id": "sentence-bank-long_home_family_06-0065",
@@ -471,10 +481,13 @@
       "partition": "B",
       "owner": "agent06",
       "rolling_batch": "B2",
-      "status": "candidate_pending_exact_review",
+      "status": "integrated_pass",
       "candidate_path": "content/story_review_drafts/C2_08-0071_candidate_sewing_machine_2026-11-12.md",
       "candidate_sha256": "3ec614a0281aebc5c70131b670aaf9c2819a54e8301b500aca7b995e4077f611",
-      "last_review_finding": "author08 sewing machine; root read complete; candidate self-count says 241 Han/239 Jyutping, awaiting agent06 pinpoint and exact review; not pass."
+      "last_review_finding": "author08 sewing machine; root read complete; candidate self-count says 241 Han/239 Jyutping, awaiting agent06 pinpoint and exact review; not pass.",
+      "resolved_sha256": "2fea1e5384daa487ea419b6d85e649741485520366e0ce8421be2ec84cacea40",
+      "resolved_at": "2026-11-12",
+      "resolution": "Root four-field review and agent06 exact review approved SHA 4ac997e7b666ffafc9f08a28041f3d09f9ab9a6a651939a738c89ad18f7c2fec; 241/241 after restoring two missing pinyin syllables and correcting dai6, waak6, lat1. Seam-control becomes locked bag callback."
     },
     {
       "id": "sentence-bank-long_home_family_08-0073",
@@ -503,10 +516,12 @@
       "partition": "B",
       "owner": "agent06",
       "rolling_batch": "B3",
-      "status": "candidate_pending_exact_review",
+      "status": "integrated_pass",
       "candidate_path": "content/story_review_drafts/C2_08-0074_candidate_crossing_button_2026-11-12.md",
-      "candidate_sha256": "5a862fd4b1a41a1c1b81f07ca0955419f6470e0f4ca2542f808967bd5441c04b",
-      "last_review_finding": "author08 pedestrian crossing button; root read complete; awaiting agent06 exact tone/field review."
+      "candidate_sha256": "98114d63c5acaad698e2f3c13b7fd69b09cb78740b73943e637287371adff5f4",
+      "last_review_finding": "author08 pedestrian crossing button; root read complete; awaiting agent06 exact tone/field review.",
+      "resolved_sha256": "af31ce2b29ee9e4d6c9435b7eb258f6891f20fd784c8037f4361e27f13ec4f94",
+      "resolution": "Root manually reviewed all four fields; agent06 exact review passed; pedestrian-button queue callback integrated, category/metadata retained."
     },
     {
       "id": "sentence-bank-long_home_family_08-0076",
@@ -577,13 +592,16 @@
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 87,
       "category": "家庭相處",
-      "sha256": "aeb08ea42f59306d3df0042d6c7b6979bcd5295c3d333fe5406fc3cc26733753",
+      "sha256": "938d12f6519d8187c6d8131b80d6deabd78a28e684cc304fdecc2240af1b740f",
       "topic_notes": [],
       "prior_review_notes": "Four fields read. Socks disappearing into the cat bed is a domestic laundry story, with the cat-welfare resolution and family division of chores; it adds to the active clothing/laundry cluster. Rewrite or replace.",
       "partition": "B",
       "owner": "agent06",
       "rolling_batch": "B4",
-      "status": "queued"
+      "status": "integrated_pass",
+      "resolved_sha256": "938d12f6519d8187c6d8131b80d6deabd78a28e684cc304fdecc2240af1b740f",
+      "resolved_at": "2026-11-13",
+      "resolution": "Root four-field review and independent exact-hash Jyutping review approved; original source metadata and active membership unchanged."
     },
     {
       "id": "sentence-bank-long_home_family_08-0091",
@@ -776,14 +794,18 @@
       "partition": "C",
       "owner": "agent08",
       "rolling_batch": "C2",
-      "status": "queued"
+      "status": "integrated_pass",
+      "candidate_path": "content/story_review_drafts/A2_08-0182_candidate_table_football_2026-11-12.md",
+      "candidate_sha256": "ddb0d6de2c79175e0044d7fb2f3b1730ecee12976bd2212c03c11984769c83c3",
+      "resolved_sha256": "b6cec4c1be85a3d7954b52a3264338335ab6e6896255a302d8cf36390dfec100",
+      "resolution": "Root manually reviewed all four fields; agent06 exact review passed after zyun3 rotation correction; table-football own-goal bit integrated with category mismatch tagged."
     },
     {
       "id": "sentence-bank-long_home_family_08-0191",
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 190,
       "category": "家庭相處",
-      "sha256": "1202fa793b78853f52bf27362eeea5da411d5a46de392a7e8ae765cc9370da75",
+      "sha256": "a66561de2f8456cbb0f7cc1e6666cc863c1100f47cbff3cf5c24eb08f46e39fa",
       "topic_notes": [
         "family_centered",
         "ten_minute_household_chore_rotation",
@@ -795,14 +817,17 @@
       "partition": "C",
       "owner": "agent08",
       "rolling_batch": "C2",
-      "status": "queued"
+      "status": "integrated_pass",
+      "resolved_sha256": "a66561de2f8456cbb0f7cc1e6666cc863c1100f47cbff3cf5c24eb08f46e39fa",
+      "resolved_at": "2026-11-13",
+      "resolution": "Root four-field review and author05 exact-hash review approved; mic stand gradual-slip story selected after alternate mechanism review; category/metadata and active membership unchanged."
     },
     {
       "id": "sentence-bank-long_home_family_08-0199",
       "file": "content/sentence_bank/long_home_family_08.json",
       "index": 198,
       "category": "家庭相處",
-      "sha256": "dc41e4dc7e1489198b5059aa66c286821e090ebe1c5f2a74bbef843558a44104",
+      "sha256": "1a389284f1711a50a2b0fa4b571b1739def26ef212f773a1b68678b1247d38f5",
       "topic_notes": [
         "family_centered",
         "seasoning_and_recipe_notes",
@@ -814,7 +839,10 @@
       "partition": "C",
       "owner": "agent08",
       "rolling_batch": "C3",
-      "status": "queued"
+      "status": "integrated_pass",
+      "resolved_sha256": "1a389284f1711a50a2b0fa4b571b1739def26ef212f773a1b68678b1247d38f5",
+      "resolved_at": "2026-11-13",
+      "resolution": "Root four-field review and author05 exact-hash Jyutping review approved after correcting 頂 ding2; source metadata and active membership unchanged."
     },
     {
       "id": "sentence-bank-long_home_family_09-0001",
@@ -843,7 +871,7 @@
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 1,
       "category": "家庭相處",
-      "sha256": "b3612dfea6eb390c2479d376801450db4c65b86fa72038c8f039b68faa9267f7",
+      "sha256": "9a8ebc0c915ec330cf4a45a2accd33e8d1dcfb3fba66a834fd9ef1225f711cb2",
       "topic_notes": [
         "family_centered",
         "radio_tuning_and_old_song",
@@ -855,14 +883,17 @@
       "partition": "C",
       "owner": "agent08",
       "rolling_batch": "C3",
-      "status": "queued"
+      "status": "integrated_pass",
+      "resolved_sha256": "9a8ebc0c915ec330cf4a45a2accd33e8d1dcfb3fba66a834fd9ef1225f711cb2",
+      "resolved_at": "2026-11-13",
+      "resolution": "Root four-field review and independent exact-hash review approved; active membership and source metadata unchanged."
     },
     {
       "id": "sentence-bank-long_home_family_09-0004",
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 3,
       "category": "家庭相處",
-      "sha256": "10cdd7b752026271a25035e4f18e383d1302fe1295db79371e1a7034a4bce561",
+      "sha256": "0fe9d0f599808a2bc200c2df6b2b114fdd7c97397174be32fddb562ab7cd790e",
       "topic_notes": [
         "family_centered",
         "rain_umbrella_homework",
@@ -873,14 +904,17 @@
       "partition": "C",
       "owner": "agent08",
       "rolling_batch": "C3",
-      "status": "queued"
+      "status": "integrated_pass",
+      "resolved_sha256": "0fe9d0f599808a2bc200c2df6b2b114fdd7c97397174be32fddb562ab7cd790e",
+      "resolved_at": "2026-11-13",
+      "resolution": "Root four-field review plus independent exact-hash Jyutping review approved the wet-tray stack behavior bit; ID/order/category/metadata and active membership unchanged."
     },
     {
       "id": "sentence-bank-long_home_family_09-0024",
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 23,
       "category": "家庭相處",
-      "sha256": "4d2ef841a4bc0703e4f23471c616044178db903e137a85b75acb6ab604b59dd0",
+      "sha256": "c5dc7edb99e84192928e4eb0dcb0faf9ea7ee9c7204ba8306860dc8e39303952",
       "topic_notes": [
         "family_centered",
         "freezer_inventory_and_food_labels",
@@ -891,14 +925,17 @@
       "partition": "C",
       "owner": "agent08",
       "rolling_batch": "C3",
-      "status": "queued"
+      "status": "integrated_pass",
+      "resolved_sha256": "c5dc7edb99e84192928e4eb0dcb0faf9ea7ee9c7204ba8306860dc8e39303952",
+      "resolved_at": "2026-11-13",
+      "resolution": "Root four-field review and author05 exact-hash Jyutping review approved; source metadata and active membership unchanged."
     },
     {
       "id": "sentence-bank-long_home_family_09-0037",
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 36,
       "category": "家庭相處",
-      "sha256": "e1adcffde8ebcfda8ddebc6c6564cd0d086431506b831eb286279d212a737297",
+      "sha256": "b5c76047a9d3a359ff7f1a004e064d031772334d8c5517e44fe1a2e6b6381a13",
       "topic_notes": [
         "family_centered",
         "delay_estimate",
@@ -910,14 +947,17 @@
       "partition": "C",
       "owner": "agent08",
       "rolling_batch": "C4",
-      "status": "queued"
+      "status": "integrated_pass",
+      "resolved_sha256": "b5c76047a9d3a359ff7f1a004e064d031772334d8c5517e44fe1a2e6b6381a13",
+      "resolved_at": "2026-11-13",
+      "resolution": "Root four-field review and author05 exact-hash review approved the final gyun2 correction; source metadata and active membership unchanged."
     },
     {
       "id": "sentence-bank-long_home_family_09-0052",
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 51,
       "category": "家庭相處",
-      "sha256": "c0974815be99cc728e133000fef21dd77562f0ec751c29f9c5cc1833bb745f73",
+      "sha256": "108e2d7b64d99189f00a46544dfd9901fc5dbd9d1be48fd2fab3b8e16db29670",
       "topic_notes": [
         "family_centered",
         "soup_labeling_and_freezer_inventory",
@@ -928,14 +968,17 @@
       "partition": "C",
       "owner": "agent08",
       "rolling_batch": "C4",
-      "status": "queued"
+      "status": "integrated_pass",
+      "resolved_sha256": "108e2d7b64d99189f00a46544dfd9901fc5dbd9d1be48fd2fab3b8e16db29670",
+      "resolved_at": "2026-11-13",
+      "resolution": "Root four-field review plus exact independent Jyutping/cause review approved the stapler sleeve behavior bit; ID/order/category/metadata and active membership unchanged."
     },
     {
       "id": "sentence-bank-long_home_family_09-0072",
       "file": "content/sentence_bank/long_home_family_09.json",
       "index": 71,
       "category": "家庭相處",
-      "sha256": "1c23238c9011bf309f9052a415bff65b0232ebadcec323d58b160990d6f4bf42",
+      "sha256": "928e71c0c9d63b2f25de978bb9487bc74dd9727d63b4195d342936366a30d9b1",
       "topic_notes": [
         "family_centered",
         "snack_portion_and_weekday_labels",
@@ -947,7 +990,10 @@
       "partition": "C",
       "owner": "agent08",
       "rolling_batch": "C4",
-      "status": "queued"
+      "status": "integrated_pass",
+      "resolved_sha256": "928e71c0c9d63b2f25de978bb9487bc74dd9727d63b4195d342936366a30d9b1",
+      "resolved_at": "2026-11-13",
+      "resolution": "Root four-field review and independent exact-hash review approved; active membership and source metadata unchanged."
     }
   ],
   "rolling_batches": [
@@ -988,17 +1034,19 @@
     }
   ],
   "current_status": {
-    "active_oral_pass": 1974,
-    "active_oral_needs_revision": 26,
+    "active_oral_pass": 2000,
+    "active_oral_needs_revision": 0,
     "active_oral_pending": 0,
-    "updated_at": "2026-11-12"
+    "updated_at": "2026-11-12 Asia/Singapore"
   },
   "last_progress_event": {
     "card_ids": [
-      "sentence-bank-long_home_family_08-0069"
+      "sentence-bank-long_food_shopping_14-0053",
+      "sentence-bank-long_home_family_06-0053",
+      "sentence-bank-long_family_finance_services_02-0003"
     ],
-    "event": "integrated_pass",
-    "details": "Salad-spinner wet-table life bit passed root four-field and independent 265/265 exact review; source/V2/oral hashes, aggregates and app mirrors synchronized."
+    "event": "three_root_integrations_after_exact_review",
+    "details": "14-0053 idiomatic dormitory shopping rewrite, 06-0053 retractable hose reel stand-up, and 02-0003 loan-risk consultation notes story integrated after root four-field review and exact independent checks. Source IDs, category, order and metadata preserved; source/ledgers/app synchronized and audit clean."
   },
   "candidate_progress": [
     {
@@ -1361,8 +1409,10 @@
       "card_id": "sentence-bank-long_home_family_06-0053",
       "author": "author_06_0032_b",
       "reviewer": "author_05_0034_alt",
-      "status": "authoring_assigned",
-      "date": "2026-11-12"
+      "status": "integrated_pass",
+      "date": "2026-11-12",
+      "candidate_path": "content/story_review_drafts/A3_06-0053_candidate_hose_reel_standup_revision1_2026-11-12.md",
+      "candidate_sha256": "c00ec8c64b690a84ad7256c11a1b9c80ae4b8fe3446c985eeb2021ec82ed1148"
     },
     {
       "card_id": "sentence-bank-long_home_family_06-0065",
@@ -1419,10 +1469,128 @@
   },
   "candidate_progress_updated_at": "2026-11-12",
   "latest_status": {
-    "active_oral_pass": 1986,
-    "active_oral_needs_revision": 14,
+    "active_oral_pass": 2000,
+    "active_oral_needs_revision": 0,
     "active_oral_pending": 0,
     "updated_at": "2026-11-12 Asia/Singapore",
-    "note": "Current live oral totals; exact-review candidates remain needs_revision until root integration."
-  }
+    "note": "Live audit clean. Integrated 08-0074, 08-0182, 14-0053, 06-0053, and 02-0003 after root four-field review plus exact independent review. Reopened pinyin corrections 06-0055, health01-0019, food06-0093, home07-0001 are exact-reviewed/pass restored. V2 2000/0/0; oral 1990/10/0."
+  },
+  "post_freeze_reopenings": [
+    {
+      "id": "sentence-bank-long_family_finance_services_02-0003",
+      "prior_status": "pass",
+      "current_status": "pass_after_rewrite",
+      "current_sha256": "ebb00d4eb46035054f756ab46da54f71fe7cd2e726a392c26324e369c4ea8746",
+      "reason": "摺 reading correction reopened oral review; exact reviewer found two more tone errors, colloquial phrasing issue, and preserved 貸款風險 category mismatch. Being reauthored to fit unchanged category. Rewritten to address the finding and passed root plus independent exact review.",
+      "candidate_path": "content/story_review_drafts/A3_02-0003_candidate_loan_risk_consultation_notes_revision1_2026-11-12.md",
+      "candidate_sha256": "979fe79fb827a233c368c0d85616b005b9e9424b4308fa9feac4a286345315a5"
+    },
+    {
+      "id": "sentence-bank-long_food_shopping_06-0093",
+      "prior_status": "pass",
+      "current_status": "pass_restored",
+      "current_sha256": "d3ec94b1f52af86a061ca618b71031659c888fd009c70822a431d7635af7e31f",
+      "reason": "摺 zip3 correction; independent exact review found and fixed 剩低 sing6 dai1; exact re-review passed."
+    },
+    {
+      "id": "sentence-bank-long_food_shopping_14-0053",
+      "prior_status": "pass",
+      "current_status": "pass_after_rewrite",
+      "current_sha256": "ff6338c9c68f510064bf166d34c4c5a945da0593fabdb10b865aad550d7a7987",
+      "reason": "摺 zip3 correction and oral reviewer found Mandarin-style phrasing; fresh author candidate under review. Rewritten to address the finding and passed root plus independent exact review.",
+      "candidate_path": "content/story_review_drafts/A2_14-0053_candidate_cantonese_cleanup_revision3_2026-11-12.md",
+      "candidate_sha256": "448a4a21dbf1911f636cbdf7f363878c9f8be7ccc1f53dec3e8e8b68fafc6c27"
+    },
+    {
+      "id": "sentence-bank-long_health_services_01-0019",
+      "prior_status": "pass",
+      "current_status": "pass_restored",
+      "current_sha256": "1783b56043c5a746e7a7dca73a48a2023681e69d4dd0aef2fc836a253c5627fb",
+      "reason": "Two 摺 readings corrected to zip3; exact reviewer found no further issue."
+    },
+    {
+      "id": "sentence-bank-long_home_family_06-0055",
+      "prior_status": "pass",
+      "current_status": "pass_restored",
+      "current_sha256": "5db48ea020b0dc2c5e1fc0ab12f318853ae2ec4c1639e8b0296208459c59badb",
+      "reason": "Five 摺 readings zip3; rotation 轉 zyun3 and Simplified gloss 摺→折; independent exact reviewer passed. Practice tip retains traditional Cantonese after required prefix."
+    },
+    {
+      "id": "sentence-bank-long_home_family_07-0001",
+      "prior_status": "pass",
+      "current_status": "pass_restored",
+      "current_sha256": "d7789da1b05b136e178f0164f00de9ee553d0a0c79f6a9685decfc571c5121aa",
+      "reason": "摺 zip3 correction and consistent Simplified prompt; independent exact review passed."
+    },
+    {
+      "date": "2026-11-13",
+      "id": "sentence-bank-long_home_family_09-0004",
+      "status": "integrated_pass",
+      "sha256": "0fe9d0f599808a2bc200c2df6b2b114fdd7c97397174be32fddb562ab7cd790e",
+      "note": "Root reviewed all four fields and author06 exact-hash Jyutping review passed; wet-tray stack becomes a committee bit."
+    },
+    {
+      "date": "2026-11-13",
+      "id": "sentence-bank-long_home_family_09-0052",
+      "status": "integrated_pass",
+      "sha256": "108e2d7b64d99189f00a46544dfd9901fc5dbd9d1be48fd2fab3b8e16db29670",
+      "note": "Root reviewed four fields; agent06 and author05 exact-version review corrected Jyutping and physical order. Workplace stapler sleeve bit passed."
+    },
+    {
+      "date": "2026-11-13",
+      "id": "sentence-bank-long_home_family_09-0002",
+      "status": "integrated_pass",
+      "sha256": "9a8ebc0c915ec330cf4a45a2accd33e8d1dcfb3fba66a834fd9ef1225f711cb2",
+      "note": "Root reviewed all four fields; agent06 exact hash review approved the corrected `濺 zin3` and distinct tea-bag/utensil/cup-handle action chain. 227 Han characters / 227 Jyutping syllables. The grandmother and narrator turn a spilled cup into a tea-bag rescue-and-shore joke; family remains a small topic. Active near neighbors 13-0044 tea tasting labels and 03-0078 roommates talking about travel over tea use different mechanisms. Original ID/order/category/metadata and active membership retained."
+    },
+    {
+      "date": "2026-11-13",
+      "id": "sentence-bank-long_home_family_09-0072",
+      "status": "integrated_pass",
+      "sha256": "928e71c0c9d63b2f25de978bb9487bc74dd9727d63b4195d342936366a30d9b1",
+      "note": "Root reviewed all four fields; agent06 exact review found no hard Jyutping issue and confirmed the neighbor note now cites only active 07-0041. 228 Han characters / 228 Jyutping syllables. Coworker prepares to host a department gathering, overworks the tie knot, then learns the gathering is casual; the tie catches on the hanger and makes the hanger look dressed. Active 07-0041 has a different yarn/chair mechanism. The content shifts to workplace life while preserving the original family category/ID/order/metadata and active membership."
+    },
+    {
+      "date": "2026-11-13",
+      "id": "sentence-bank-long_home_family_08-0199",
+      "status": "integrated_pass",
+      "sha256": "1a389284f1711a50a2b0fa4b571b1739def26ef212f773a1b68678b1247d38f5",
+      "note": "Root reviewed four fields; independent exact reviewer approved revised ding2 readings. Paper lantern frame springback life bit passed."
+    },
+    {
+      "date": "2026-11-13",
+      "id": "sentence-bank-long_home_family_06-0046",
+      "status": "integrated_pass",
+      "sha256": "27b3b418665d49f82d4debad0d7f24d26be7ba364f22f83a3594c1ff8e616fe3",
+      "note": "Root reviewed all four fields; agent06 exact-hash review approved corrections `社 se5` and `箭 zin3`. 237 Han characters / 237 Jyutping syllables. A confident coworker freezes while holding the bow string, sends one soft-tip arrow into the foam, then after a shaky release hits the target and claims the arrow only cooperated at the right time. Active sports neighbors 05-0095 bowling delivery rhythm, 04-0072 badminton line calls, and 02-0008 missed bowling pins use different action mechanisms. The story is a coworker activity under the preserved family category. Original ID/order/category/metadata and active membership retained."
+    },
+    {
+      "date": "2026-11-13",
+      "id": "sentence-bank-long_home_family_08-0088",
+      "status": "integrated_pass",
+      "sha256": "938d12f6519d8187c6d8131b80d6deabd78a28e684cc304fdecc2240af1b740f",
+      "note": "Root reviewed all four fields; agent06 exact-hash review approved both zyun3 rotation readings and `書脊 syu1 zek3`. 228 Han characters / 228 Jyutping syllables. A coworker’s thick book repeatedly catches at a library return-box flap; she bows to the box for receiving it, then jokes that the book need not walk a red carpet. Active neighbors 06-0012 self-checkout book farewell, 06-0086 late detective novel, and 07-0084 missing overdue book use different mechanisms. Original ID/order/category/metadata and active membership retained."
+    },
+    {
+      "date": "2026-11-13",
+      "id": "sentence-bank-long_home_family_09-0024",
+      "status": "integrated_pass",
+      "sha256": "c5dc7edb99e84192928e4eb0dcb0faf9ea7ee9c7204ba8306860dc8e39303952",
+      "note": "Root reviewed four fields; author05 exact-hash review approved the poster trimming/reconstructed lettering behavior bit."
+    },
+    {
+      "date": "2026-11-13",
+      "id": "sentence-bank-long_home_family_09-0037",
+      "status": "integrated_pass",
+      "sha256": "b5c76047a9d3a359ff7f1a004e064d031772334d8c5517e44fe1a2e6b6381a13",
+      "note": "Root reviewed four fields; author05 exact review approved final gyun2. Yoga mat shoe-trap life bit passed."
+    },
+    {
+      "date": "2026-11-13",
+      "id": "sentence-bank-long_home_family_08-0191",
+      "status": "integrated_pass",
+      "sha256": "a66561de2f8456cbb0f7cc1e6666cc863c1100f47cbff3cf5c24eb08f46e39fa",
+      "note": "Root reviewed four fields; author05 exact review approved mic stand revision2 after gaa2/pinyin alignment fixes. Selected among distinct nonfamily alternatives."
+    }
+  ]
 }

@@ -1,0 +1,73 @@
+{
+  "report": "FINAL_2000_DUPLICATE_REWRITES_REVIEW_1295_TERRA_2026-11-13",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "candidate_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITE_1295_TERRA_REV2_2026-11-13.json",
+  "candidate_file_sha256": "c4e4c54836270761fdebeeb921d73009feb1a2f10afdda305a815619e3fc90f9",
+  "expected_candidate_file_sha256": "c4e4c54836270761fdebeeb921d73009feb1a2f10afdda305a815619e3fc90f9",
+  "file_hash_match": true,
+  "candidate_fields_sha256_reported": "670c9eb893caa8999b26b15cf2655c7a9361aae38cc7409d09a1c5e8cf58c629",
+  "candidate_fields_sha256_recomputed": "670c9eb893caa8999b26b15cf2655c7a9361aae38cc7409d09a1c5e8cf58c629",
+  "candidate_fields_hash_matches_expected": true,
+  "candidate_fields_hash_matches_reported": true,
+  "freeze_file": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "freeze_file_sha256": "4c3ac877867079fd053c88374eb434f94cfb3e09fd67a76b0b7f6424fb119843",
+  "freeze_manifest_sha256": "863768b0fe764bf81cf93858c0a9caebf01a3b975bc5ffb5d39a59a9731bca11",
+  "freeze_manifest_stale": false,
+  "order": 1295,
+  "id": "sentence-bank-long_food_shopping_18-0049",
+  "category": "水果檔揀熟芒果做甜品",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "source_file": "content/sentence_bank/long_food_shopping_18.json",
+  "source_index": 48,
+  "id_matches_freeze": true,
+  "category_matches_current_source": true,
+  "source_sha256_frozen": "5449b9239be41d11fc022cad8a6ad58919a04e103ba4995df146deb4bf52d201",
+  "source_sha256_declared": "5449b9239be41d11fc022cad8a6ad58919a04e103ba4995df146deb4bf52d201",
+  "source_sha256_recomputed": "5449b9239be41d11fc022cad8a6ad58919a04e103ba4995df146deb4bf52d201",
+  "source_hash_match": true,
+  "counts": {
+    "han_recomputed": 230,
+    "jyutping_tokens_recomputed": 230,
+    "han_declared": 230,
+    "tokens_declared": 230,
+    "aligned": true,
+    "jyutping_cjk_residue": false,
+    "story_220_to_320": true
+  },
+  "candidate_fields": {
+    "sentence": "我同阿晴去水果檔揀熟芒果，打算返屋企整椰奶甜品。返到去我切好芒果，阿晴分入幾隻輕身膠杯，再加椰奶。雪櫃擺滿嘢，佢搵個盆放少少冰水，將裝咗少量甜品嘅膠杯放入去，杯口都高過水面。佢想拎一杯畀我，手指一碰，旁邊隻杯就向另一邊飄。佢伸手捉左邊嗰隻，右邊兩隻又撞埋一齊；我攞匙羹擋住，另一隻又由中間滑過。阿晴叫我兩隻手守住個盆，我一鬆手，啲杯又圍埋一邊。最後佢用細碟由杯底托起，逐杯拎上枱；我問佢點解唔一早咁做，佢望住個盆話：「頭先我以為自己整甜品，原來仲要泊船。」我拎起匙羹問可唔可以開餐，佢先笑住將個盆推遠：「可以，船已經靠晒岸。」",
+    "jyutping": "ngo5 tung4 aa3 cing4 heoi3 seoi2 gwo2 dong3 gaan2 suk6 mong1 gwo2, daa2 syun3 faan1 uk1 kei2 zing2 je4 naai5 tim4 ban2. faan1 dou3 heoi3 ngo5 cit3 hou2 mong1 gwo2, aa3 cing4 fan1 jap6 gei2 zek3 hing1 san1 gaau1 bui1, zoi3 gaa1 je4 naai5. syut3 gwai6 baai2 mun5 je5, keoi5 wan2 go3 pun4 fong3 siu2 siu2 bing1 seoi2, zoeng1 zong1 zo2 siu2 loeng6 tim4 ban2 ge3 gaau1 bui1 fong3 jap6 heoi3, bui1 hau2 dou1 gou1 gwo3 seoi2 min6. keoi5 soeng2 ling1 jat1 bui1 bei2 ngo5, sau2 zi2 jat1 pung3, pong4 bin1 zek3 bui1 zau6 hoeng3 ling6 jat1 bin1 piu1. keoi5 san1 sau2 zuk1 zo2 bin1 go2 zek3, jau6 bin1 loeng5 zek3 jau6 zong6 maai4 jat1 cai4; ngo5 lo2 ci4 gang1 dong2 zyu6, ling6 jat1 zek3 jau6 jau4 zung1 gaan1 waat6 gwo3. aa3 cing4 giu3 ngo5 loeng5 zek3 sau2 sau2 zyu6 go3 pun4, ngo5 jat1 sung1 sau2, di1 bui1 jau6 wai4 maai4 jat1 bin1. zeoi3 hau6 keoi5 jung6 sai3 dip6 jau4 bui1 dai2 tok3 hei2, zuk6 bui1 ling1 soeng5 toi2; ngo5 man6 keoi5 dim2 gaai2 m4 jat1 zou2 gam3 zou6, keoi5 mong6 zyu6 go3 pun4 waa6: 「tau4 sin1 ngo5 ji5 wai4 zi6 gei2 zing2 tim4 ban2, jyun4 loi4 zung6 jiu3 bok6 syun4.」 ngo5 ling1 hei2 ci4 gang1 man6 ho2 m4 ho2 ji5 hoi1 caan1, keoi5 sin1 siu3 zyu6 zoeng1 go3 pun4 teoi1 jyun5: 「ho2 ji5, syun4 ji5 ging1 kaau3 saai3 ngon6.」",
+    "gloss": "我和阿晴去水果摊挑熟芒果，打算回家做椰奶甜品。回去后我切好芒果，阿晴分进几个轻巧的塑料杯，再加椰奶。冰箱放满了东西，她找个盆放少量冰水，把装了少量甜品的塑料杯放进去，杯口都高过水面。她想拿一杯给我，手指一碰，旁边的杯子就向另一边漂去。她伸手捉左边那只，右边两只又撞到一起；我拿勺子挡住，另一只又从中间滑过。阿晴叫我两手守住盆，我一松手，杯子又聚到一边。最后她用小碟从杯底托起，逐杯拿上桌；我问她为什么不早这样做，她看着盆说：“刚才我以为自己在做甜品，原来还要泊船。”我拿起勺子问可不可以开吃，她才笑着把盆推远：“可以，船已经全部靠岸了。”",
+    "usageTip": "故事练习：复述阿晴怎样用冰水盆暂时放甜品杯，碰到一只后其他杯怎样漂开；最后讲她如何逐杯托上桌，以及“泊船、靠岸”的回扣。"
+  },
+  "keeper": {
+    "order": 1123,
+    "id": "sentence-bank-long_food_shopping_13-0075",
+    "sha256": "dd29de41eaf23bd0190b5a4a33a898114aed40a6c199aa7050bc930863dcecc9",
+    "story": "同事阿晴話周末要煮士多啤梨果醬，叫我陪佢去超市揀果。佢企喺生果櫃前開備忘錄，逐盒寫評語：顏色太淡、身形唔齊、眼神唔夠堅定。我望一望，問佢：「你係買士多啤梨，定係替果醬請員工？」阿晴話一鍋果醬都要有團隊精神，仲拎起一粒問：「你入鍋之後肯唔肯合作？」隔離阿叔聽到，拎住兩盒問店員邊盒「比較聽話」。店員忍笑，叫我哋先揀完整新鮮嘅；至於乜嘢性格，煮落去就睇唔出。阿晴點頭，終於挑好一盒，仲喺清單寫「全員錄取」。返到辦公室，同事見到盒上標籤，以為係新同事名單，逐個問邊個負責茶水。阿晴先洗淨士多啤梨，瀝乾水，再將盒放喺枱中間：「佢哋今日先見習，暫時只負責令全組精神啲。」午休完，果盒只剩空托盤；阿晴望住名單嘆氣：「果醬未煮，見習生已經集體離職，連辭職信都俾人食埋。」"
+  },
+  "neighbors": [
+    {
+      "order": 1094,
+      "id": "sentence-bank-long_food_shopping_12-0095",
+      "sha256": "cba7ec71c1cd3ae3af834a6b6b61636958f0a43188cda6007b0a0094097e997c",
+      "story": "我去水果店買牛油果，店員教我按果蒂旁邊，揀一個今日食、三個留幾日先熟。室友阿明見我拎住三個硬果，話似拎咗三粒未解鎖嘅綠色保齡球。我哋用紙袋放好，仲喺袋面寫「星期三檢查」，以免忘記。星期二我心急按咗一下，果皮即刻凹咗個指印；阿明貼張便利貼話「已蓋章」，叫我唔好再驗。到星期三切開一個，外面熟、中心仍硬，我哋拌檸檬汁做多士醬，味道竟然唔錯。最後嗰個熟過頭，我再加乳酪打成沾醬。阿明話買水果變咗每日更新嘅進度表，仲問我下次可唔可以買啲唔使開會追蹤嘅。第三日，阿明喺群組報告，果蒂一鬆，成屋人即刻叫好，好似牛油果終於通過試用期；我喺袋上再加一欄「食用日期」，佢話呢個係全屋最受監察嘅水果。"
+    },
+    {
+      "order": 1318,
+      "id": "sentence-bank-long_food_shopping_19-0023",
+      "sha256": "94091425fd00138ab31c96108d3d8f427835f595c356107d3d482ae3ddb177b1",
+      "story": "我去街市揀當造芒果同青檸，檔主話一個熟咗，另外兩個仲硬，擺兩日先甜。我帶返屋企，諗住同朋友整沙律；朋友阿朗自稱最識揀熟果，攞出便利貼，逐個寫「即食」、「聽日」、「後日」。大家輪流按芒果，有人話「即食」嗰個仲硬，有人話「後日」嗰個最香；阿朗聽完一個意見就貼張新標籤，最後每個芒果都貼住幾張紙。朋友催住開餐，我只好先切開檔主揀嗰個，果肉啱啱熟，拌青檸汁同薄荷，大家都話好食。阿朗伸手又想加標籤，我遞把刀畀佢：「唔使再評，聽日嗰個由你切。」佢收起便利貼，話：「好，聽日交功課，唔准再改日期。」佢撕低「後日」嗰張貼紙，點知黐到自己衫袖。我指住佢笑：「你都排咗期喎？」佢望住袖口，笑話：「我都未熟，等下星期先算。」朋友笑到差啲將口中嘅青檸汁噴出嚟，兩個芒果安靜留喺枱上等聽日。"
+    }
+  ],
+  "verdict": "PASS",
+  "field_checks": {
+    "story": "椰奶甜品杯在冰水盆中漂移，人物先各自伸手追杯、用匙羹挡杯，最后细碟从下托起逐只上桌；「泊船/靠岸」回扣具体。纸杯轻、装少量甜品且盆中只有浅冰水，杯口高于水面，漂移和托起都可信。較舊REV1的「底托起」本稿原句相同但場景順序/物理線索足夠。",
+    "jyutping": "逐字核讀「芒果」mong1 gwo2、「輕身膠杯」hing1 san1 gaau1 bui1、「雪櫃」syut3 gwai6、「杯口」bui1 hau2、「漂」piu1、「托起」tok3 hei2、「匙羹」ci4 gang1、「泊船」bok6 syun4、「靠晒岸」kaau3 saai3 ngon6，未見明確聲調錯誤。230字/230 token對齊，無漢字殘留。",
+    "gloss": "簡體普通話完整翻譯甜品杯漂移、兩人追杯、用小碟托起和泊船靠岸回扣。繁體「輕身」譯為「轻巧」自然傳達輕質含義，無實質漏譯。",
+    "tip": "以「故事练习：」精確開頭，復述冰水盆、杯子漂開、托杯上桌及泊船/靠岸回扣。",
+    "duplicate": "keeper 1123把草莓擬人成為職員，結尾集體離職；本稿是輕杯在冰水盆漂移、人物用泊船比喻，無招聘/評審。order 1094成熟度試用期追蹤、1318芒果成熟排班均與杯子漂移不同。"
+  },
+  "canonical_modified": false
+}

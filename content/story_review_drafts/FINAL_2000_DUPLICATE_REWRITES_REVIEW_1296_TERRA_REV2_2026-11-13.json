@@ -1,0 +1,73 @@
+{
+  "report": "FINAL_2000_DUPLICATE_REWRITES_REVIEW_1296_TERRA_REV2_2026-11-13",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "freeze_file": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "freeze_file_sha256": "4c3ac877867079fd053c88374eb434f94cfb3e09fd67a76b0b7f6424fb119843",
+  "freeze_manifest_sha256": "863768b0fe764bf81cf93858c0a9caebf01a3b975bc5ffb5d39a59a9731bca11",
+  "freeze_manifest_stale": false,
+  "order": 1296,
+  "id": "sentence-bank-long_food_shopping_18-0050",
+  "category": "超市買罐頭番茄煮意粉",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "candidate_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITE_1296_TERRA_REV2_2026-11-13.json",
+  "candidate_file_sha256": "f56b2c1d53b243f6db837c86b47603e5b9b9090dd18ab05f938fa4ce40304684",
+  "expected_candidate_file_sha256": "f56b2c1d53b243f6db837c86b47603e5b9b9090dd18ab05f938fa4ce40304684",
+  "file_hash_match": true,
+  "candidate_fields_sha256_reported": "3f981e0b711eccdbcf7fa5dc724582e7f117791e80bf16eff589ec4cdb5eb3f1",
+  "candidate_fields_sha256_recomputed": "3f981e0b711eccdbcf7fa5dc724582e7f117791e80bf16eff589ec4cdb5eb3f1",
+  "candidate_hash_match": true,
+  "source_file": "content/sentence_bank/long_food_shopping_18.json",
+  "source_index": 49,
+  "id_matches_freeze": true,
+  "category_matches_current": true,
+  "source_sha256_reported": "5ec51101f32db5b539755002fd24842b75b1ed211a1d365ef36ef0d0456c4587",
+  "source_sha256_recomputed": "5ec51101f32db5b539755002fd24842b75b1ed211a1d365ef36ef0d0456c4587",
+  "source_sha256_freeze": "5ec51101f32db5b539755002fd24842b75b1ed211a1d365ef36ef0d0456c4587",
+  "source_hash_match": true,
+  "counts": {
+    "han_recomputed": 244,
+    "tokens_recomputed": 244,
+    "han_declared": 244,
+    "tokens_declared": 244,
+    "aligned": true,
+    "jyutping_cjk_residue": false,
+    "story_220_to_320": true
+  },
+  "candidate_fields": {
+    "sentence": "收工我同阿玲去超市買罐頭番茄，打算返屋企煮意粉。佢拎出開罐器，話自己負責開罐，叫我先燒水。佢將罐頭倒轉擺上枱，個罐底朝天，自己冇留意。佢夾住罐邊轉咗幾圈，開罐器郁，個罐就跟住轉，兩隻手好似喺度扭計。我伸手按實個罐，佢一用力，開罐器滑開，差啲撞到水槽。阿玲話一定係我按得唔夠實，叫我雙手一齊上。隔籬室友聽到聲行過嚟，以為我哋修緊水喉，伸手幫忙托住罐。三個人圍住佢研究點樣夾先穩陣，連水滾咗都冇人發現。室友望咗一陣，將個罐反轉，指住罐頂個拉環：「你哋係咪將佢倒轉咗？」阿玲靜咗兩秒，拉起個環，罐蓋一下就開。佢望住我哋兩個話：「好，開罐器可以收工，依家輪到我哋煮意粉。」",
+    "jyutping": "sau1 gung1 ngo5 tung4 aa3 ling4 heoi3 ciu1 si5 maai5 gun3 tau4 faan1 ke4, daa2 syun3 faan1 uk1 kei2 zyu2 ji3 fan2. keoi5 ling1 ceot1 hoi1 gun3 hei3, waa6 zi6 gei2 fu6 zaak3 hoi1 gun3, giu3 ngo5 sin1 siu1 seoi2. keoi5 zoeng1 gun3 tau4 dou3 zyun2 baai2 soeng5 toi2, go3 gun3 dai2 ciu4 tin1, zi6 gei2 mou5 lau4 ji3. keoi5 gaap3 zyu6 gun3 bin1 zyun2 zo2 gei2 hyun1, hoi1 gun3 hei3 juk1, go3 gun3 zau6 gan1 zyu6 zyun2, loeng5 zek3 sau2 hou2 ci5 hai2 dou6 nau2 gai3. ngo5 san1 sau2 on3 sat6 go3 gun3, keoi5 jat1 jung6 lik6, hoi1 gun3 hei3 waat6 hoi1, caa1 di1 zong6 dou3 seoi2 cou4. aa3 ling4 waa6 jat1 ding6 hai6 ngo5 on3 dak1 m4 gau3 sat6, giu3 ngo5 soeng1 sau2 jat1 cai4 soeng5. gaak3 lei4 sat1 jau5 teng1 dou2 seng1 haang4 gwo3 lai4, ji5 wai4 ngo5 dei6 sau1 gan2 seoi2 hau4, san1 sau2 bong1 mong4 tok3 zyu6 gun3. saam1 go3 jan4 wai4 zyu6 keoi5 jin4 gau3 dim2 joeng2 gaap3 sin1 wan2 zan6, lin4 seoi2 gwan2 zo2 dou1 mou5 jan4 faat3 jin6. sat1 jau5 mong6 zo2 jat1 zan6, zoeng1 go3 gun3 faan2 zyun2, zi2 zyu6 gun3 deng2 go3 laai1 waan4: 「nei5 dei6 hai6 mai6 zoeng1 keoi5 dou3 zyun2 zo2?」 aa3 ling4 zing6 zo2 loeng5 miu5, laai1 hei2 go3 waan4, gun3 goi3 jat1 haa5 zau6 hoi1. keoi5 mong6 zyu6 ngo5 dei6 loeng5 go3 waa6: 「hou2, hoi1 gun3 hei3 ho2 ji5 sau1 gung1, ji4 gaa1 leon4 dou3 ngo5 dei6 zyu2 ji3 fan2.」",
+    "gloss": "下班后我和阿玲去超市买罐头番茄，打算回家煮意大利面。她拿出开罐器，说自己负责开罐，叫我先烧水。她把罐头倒着摆上桌，罐底朝天，自己没有留意。她夹着罐边转了几圈，开罐器动，罐子也跟着转，两只手像在拧麻花。我伸手按住罐子，她一用力，开罐器滑开，差点撞到水槽。阿玲说一定是我按得不够实，叫我双手一起按。隔壁室友听见声音走过来，以为我们在修水管，伸手帮忙托住罐子。三个人围着它研究怎样夹才稳，连水开了也没人发现。室友看了一会儿，把罐子翻过来，指着罐顶的拉环：“你们是不是把它倒过来了？”阿玲安静了两秒，拉起拉环，罐盖一下就开了。她看着我们两个说：“好，开罐器可以下班，现在轮到我们煮意大利面了。”",
+    "usageTip": "故事练习：复述阿玲怎样把罐头倒着放，开罐器又怎样令罐子跟着转；再讲室友如何把罐子反转发现罐顶拉环，最后模仿阿玲宣布开罐器可以收工。"
+  },
+  "candidate_status_detail": "CANDIDATE_NOT_PASSED",
+  "verdict": "PASS",
+  "keeper": {
+    "order": 1222,
+    "id": "sentence-bank-long_food_shopping_16-0025",
+    "sha256": "c2268435537557c04bda213ecb334a7c26ea5b19617a2acdb9a0efa6e705d360",
+    "story": "星期五放工，我趕去超市買番茄、雞蛋同烏冬，想快快煮完晚飯。同屋住嘅人話有個「十分鐘食譜」，一返到屋企就開手機計時。洗菜要停表，切番茄要停表，等水滾又停表；佢每次停表都認真講：「呢啲唔算煮。」我將烏冬放落煲，佢又嫌我切料太慢，叫我先開火再補切。計到十分鐘，番茄仲硬，烏冬先熟。佢急忙關火，話個鐘已經完，剩低嗰啲叫「擺盤時間」。我哋再將番茄煮軟，重新加蛋，計時器響完又響。食到最後，同屋住嘅人將食譜改成「兩分鐘番茄蛋烏冬」，括號仲寫住「唔計洗菜、切餸、等水滾、重煮同食飯」。我問佢：「咁排隊買餸使唔使停埋個鐘？」佢即刻撳開計時器：「呢段我本來就冇開始。」"
+  },
+  "field_checks": {
+    "story": "已明确罐头倒转摆桌、罐底朝天；之后翻回时拉环在罐顶，空间方向闭合。开罐器空转、室友误以为修水喉、发现拉环及开罐器收工形成逐步升级和回扣。",
+    "jyutping": "逐段核对，包括罐头 gun3 tau4、倒轉 dou3 zyun2、開罐器 hoi1 gun3 hei3、夾住 gaap3 zyu6、扭計 nau2 gai3、水槽 seoi2 cou4、水喉 seoi2 hau4、拉環 laai1 waan4、反轉 faan2 zyun2、罐頂 gun3 deng2、輪到 leon4 dou3，未见明确错音。244字/244 token对齐。",
+    "gloss": "完整翻译倒置铺垫、空转升级、翻正后罐顶拉环和最后开罐器收工，方向与故事一致。",
+    "tip": "前缀精确为「故事练习：」，提示倒置、开罐器空转、翻正发现罐顶拉环和收工回扣。",
+    "duplicate": "keeper 1222的笑点围绕计时器排除备料时间；本候稿围绕罐头倒置导致开罐器空转，机制不同。近邻order 911是番茄选美拍摄，order 1295是芒果成熟排班，均不同。"
+  },
+  "neighbors": [
+    {
+      "order": 911,
+      "id": "sentence-bank-long_food_shopping_06-0092",
+      "sha256": "2ad217aee3a392c09661466b869d3db307d5cd3638aee5925c7964b133661162",
+      "story": "我收工去街市買番茄，檔主問煮湯定炒蛋，我答想整意粉醬。同事阿瑜趕來會合，一見我揀番茄就伸手挑最圓嗰幾個，話連醬料都要靚相。我將兩個有啲歪嘅放返去，佢又拎出來排成一列，逐個轉方向，搞到檔主以為我哋要拍廣告。阿瑜仲問邊個最上鏡，檔主索性將最圓嘅擺前排，叫我哋揀主角。阿瑜即刻扮主持，逐個角度幫佢影相，仲叫我企開，話唔好遮住番茄。我拎起一個有疤嘅，佢即刻叫我放低；檔主切開旁邊一個，入面靚仔又多汁，叫佢唔好淨係睇外表。阿瑜拎住番茄望一望，最後將有啲歪嘅全部裝袋，話反正煮醬要切碎。返到屋企我哋炒好醬，三種形狀最後都變成同一鑊紅醬。阿瑜影低相，標題寫「選美冠軍失蹤」；檔主收工經過，覆訊息問：「咁下次仲要唔要留前排位？」"
+    },
+    {
+      "order": 1295,
+      "id": "sentence-bank-long_food_shopping_18-0049",
+      "sha256": "5449b9239be41d11fc022cad8a6ad58919a04e103ba4995df146deb4bf52d201",
+      "story": "我同室友想做芒果椰奶甜品，我去水果檔問檔主邊種熟啲又唔會太腍。佢叫我揀幾個表皮微紅、按落稍軟嘅，仲提醒未熟嘅要放室溫，等香味出咗先切。返屋企後，我哋將三個芒果排喺枱邊，室友用便條紙寫「今日、聽日、後備」，話輪住熟就唔使爭住切。隔兩日佢見到一個表皮有紅點，即刻指住話：「呢個出事，快啲隔離！」我叫佢先聞一聞，芒果香得好明顯；佢又按一按，發現果身有少少軟，先肯放行。嗰兩個熟嘅切件拌椰奶，剩低一個仍然硬，室友就喺便條上補咗「延長觀察」。第二朝佢聞到香味，即刻把「後備」改成「正選」，再將椰奶放上枱；我問佢點解咁似排班，佢話：「水果都要有更表，唔係甜品部會人手不足。」"
+    }
+  ],
+  "canonical_modified": false
+}

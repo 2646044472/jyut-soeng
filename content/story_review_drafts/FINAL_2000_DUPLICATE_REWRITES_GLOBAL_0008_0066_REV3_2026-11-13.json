@@ -1,0 +1,108 @@
+{
+  "report_type": "duplicate_rewrite_candidate_revision",
+  "date": "2026-11-13",
+  "revision": "REV3",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "parent_candidate_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_GLOBAL_0008_0066_REV2_2026-11-13.json",
+  "parent_candidate_file_sha256": "bbcb8c0a662ca170e02c0ea85705ec347a2445999e6183e476ec7195c05101dd",
+  "freeze_manifest": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "freeze_manifest_sha256": "4c3ac877867079fd053c88374eb434f94cfb3e09fd67a76b0b7f6424fb119843",
+  "global_reconciliation": "content/story_review_drafts/FINAL_2000_DUPLICATE_GLOBAL_RECONCILIATION_2026-11-13.json",
+  "global_reconciliation_sha256": "bc8e9530730f4916310372874e8d16bd6c80e874470ed1dffeab4d6baeeb490e",
+  "scope_orders": [
+    8,
+    37,
+    66
+  ],
+  "excluded_order": [
+    54
+  ],
+  "editing_note": "只按指定独立审查意见修订单8/37/66；order 54 未纳入，旧REV2与复审报告未修改。",
+  "candidates": [
+    {
+      "order": 8,
+      "id": "sentence-bank-long_family_finance_services_01-0012",
+      "source_file": "content/sentence_bank/long_family_finance_services_01.json",
+      "source_index": 11,
+      "source_category": "家庭預算",
+      "source_freeze_sha256": "7252c04e244e94568f995996f335e57a70c9dd6bdada1d68f62e8aff05df250c",
+      "source_current_sha256": "7252c04e244e94568f995996f335e57a70c9dd6bdada1d68f62e8aff05df250c",
+      "source_hash_match": true,
+      "sentence": "我陪同事阿健去社區中心參加即興戲劇工作坊，主持人叫大家先斟杯水再入座。牆邊紙杯筒有個彈簧口，阿健按一下，最底嗰隻只出半截；佢怕扯爛紙杯，改用兩隻手慢慢拉，結果連住後面幾隻一齊跌落。佢趕緊托住，成疊杯似開花，最上面兩隻仲扣埋一齊。後面的人等住斟水，佢一邊講「我淨係要一個」，一邊逐隻拆，越拆手上越多。主持人行過嚟，輕輕推返紙杯筒底座，成疊終於停住。阿健將杯一個個放返枱面，想數清楚，偏偏每放一個就有人拎走一個，數到第三次都講唔實。工作坊散場，大家終於斟到水；主持人問佢今日學到乜，阿健望住空咗嘅杯筒話：「即興都唔係叫成疊杯一齊出場㗎。」",
+      "jyutping": "ngo5 pui4 tung4 si6 aa3 gin6 heoi3 se5 keoi1 zung1 sam1 caam1 gaa1 zik1 hing3 hei3 kek6 gung1 zok3 fong1, zyu2 ci4 jan4 giu3 daai6 gaa1 sin1 zam1 bui1 seoi2 zoi3 jap6 zo6. coeng4 bin1 zi2 bui1 tung2 jau5 go3 taan4 wong4 hau2, aa3 gin6 on3 jat1 haa5, zeoi3 dai2 go2 zek3 zi2 ceot1 bun3 gaak3; keoi5 paa3 ce2 laan6 zi2 bui1, goi2 jung6 loeng5 zek3 sau2 maan6 maan6 laai1, git3 gwo2 lin4 zyu6 hau6 min6 gei2 zek3 jat1 cai4 dit6 lok6. keoi5 gon2 gan2 tok3 zyu6, seng4 dip6 bui1 ci5 hoi1 faa1, zeoi3 soeng6 min6 loeng5 zek3 zung6 kau3 maai4 jat1 cai4. hau6 min6 dik1 jan4 dang2 zyu6 zam1 seoi2, keoi5 jat1 bin1 gong2 「ngo5 zing6 hai6 jiu3 jat1 go3」, jat1 bin1 zuk6 zek3 caak3, jyut6 caak3 sau2 soeng6 jyut6 do1. zyu2 ci4 jan4 haang4 gwo3 lai4, hing1 hing1 teoi1 faan1 zi2 bui1 tung2 dai2 zo6, seng4 dip6 zung1 jyu1 ting4 zyu6. aa3 gin6 zoeng1 bui1 jat1 go3 go3 fong3 faan1 toi2 min6, soeng2 sou3 cing1 co2, pin1 pin1 mui5 fong3 jat1 go3 zau6 jau5 jan4 ling1 zau2 jat1 go3, sou3 dou3 dai6 saam1 ci3 dou1 gong2 m4 sat6. gung1 zok3 fong1 saan3 coeng4, daai6 gaa1 zung1 jyu1 zam1 dou3 seoi2; zyu2 ci4 jan4 man6 keoi5 gam1 jat6 hok6 dou3 mat1, aa3 gin6 mong6 zyu6 hung1 zo2 ge3 bui1 tung2 waa6: 「zik1 hing3 dou1 m4 hai6 giu3 seng4 dip6 bui1 jat1 cai4 ceot1 coeng4 gaa3.」",
+      "gloss": "我陪同事阿健去社区中心参加即兴戏剧工作坊，主持人叫大家先倒杯水再入座。墙边纸杯筒有个弹簧口，阿健按了一下，最底下那只只出来半截；他怕扯坏纸杯，改用两只手慢慢拉，结果连着后面几只一起掉下来。他赶紧托住，一叠杯子像开花，最上面两只还扣在一起。后面的人等着倒水，他一边说“我只要一个”，一边逐个拆，越拆手上越多。主持人走过来，轻轻推回纸杯筒底座，一叠杯子终于停住。阿健把杯子一个个放回桌面，想数清楚，偏偏每放一个就有人拿走一个，数到第三次还是说不准。工作坊散场，大家终于倒到水；主持人问他今天学到什么，阿健望着空了的杯筒说：“即兴也不是叫整叠杯子一起出场啊。”",
+      "usageTip": "故事练习：复述阿健参加即兴戏剧工作坊时怎样按纸杯筒后越拉越多、后面的人等着用杯，以及主持人推回底座才停住；模仿他说“我只要一个”和最后把整叠杯比成一起出场的回扣。",
+      "keeper_id": "sentence-bank-long_family_finance_services_04-0075",
+      "mechanism_difference": "已将家庭预算分享会改为非金融的社区即兴戏剧工作坊；笑点仍由弹簧纸杯筒一次带出多只杯、主角越拆越多推动。与keeper 04-0075把薄荷误认成辣椒并写错植物牌不同。source_category 仍保留「家庭預算」，题材与源分类存在错位，未改元数据。",
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_family_finance_services_04-0075",
+          "mechanism": "active keeper：把邻居薄荷误认成辣椒并给植物写错牌；本稿是纸杯筒弹簧口带出多只杯，不涉及植物辨认或标签。"
+        }
+      ],
+      "story_han_count": 236,
+      "jyutping_syllable_count": 236,
+      "jyutping_whitespace_token_count": 236,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "candidate_fields_sha256": "89f5da6d790559118b27ae2ef4e25cae089621a0b4882f5996fcab387f8b4409"
+    },
+    {
+      "order": 37,
+      "id": "sentence-bank-long_family_finance_services_01-0044",
+      "source_file": "content/sentence_bank/long_family_finance_services_01.json",
+      "source_index": 43,
+      "source_category": "銀行服務",
+      "source_freeze_sha256": "973a708c7e98d703285b317250efb9ea3b3910822a3d983c0862256ef107c7cd",
+      "source_current_sha256": "973a708c7e98d703285b317250efb9ea3b3910822a3d983c0862256ef107c7cd",
+      "source_hash_match": true,
+      "sentence": "銀行櫃檯同事阿朗一早要蓋幾份回條，日期章啱啱補過墨。第一下蓋好，印面太濕，阿朗收章時手指沾咗一點藍墨。佢用紙巾抹，點知抹開變成一條藍線；再拎紙巾另一角抹，又多一條。旁邊客人指住佢隻手問：「呢個係新制服圖案呀？」阿朗急住去洗手，洗完返嚟，手指乾淨，但佢扶過櫃檯邊嘅白紙留低幾個藍色指印。職員拎起張紙一望，成排指印似一列細細個日期章。阿朗想用乾淨手指摺起張紙，另一隻手又沾到啲墨；佢即刻停手，改用手背推張紙入文件盤。客人笑住話：「今日唔係你蓋章，係你隻手幫張枱做記錄。」阿朗望住自己隻手，答：「我本來只想蓋文件，最後連手都簽收咗。」",
+      "jyutping": "ngan4 hong4 gwai6 toi4 tung4 si6 aa3 long5 jat1 zou2 jiu3 goi3 gei2 fan6 wui4 tiu4, jat6 kei4 zoeng1 ngaam1 ngaam1 bou2 gwo3 mak6. dai6 jat1 haa5 goi3 hou2, jan3 min6 taai3 sap1, aa3 long5 sau1 zoeng1 si4 sau2 zi2 zim1 zo2 jat1 dim2 laam4 mak6. keoi5 jung6 zi2 gan1 maat3, dim2 zi1 maat3 hoi1 bin3 sing4 jat1 tiu4 laam4 sin3; zoi3 ling1 zi2 gan1 ling6 jat1 gok3 maat3, jau6 do1 jat1 tiu4. pong4 bin1 haak3 jan4 zi2 zyu6 keoi5 zek3 sau2 man6: ni1 go3 hai6 san1 zai3 fuk6 tou4 on3 aa3? aa3 long5 gap1 zyu6 heoi3 sai2 sau2, sai2 jyun4 faan1 lai4, sau2 zi2 gon1 zeng6, daan6 keoi5 fu6 gwo3 gwai6 toi4 bin1 ge3 baak6 zi2 lau4 dai1 gei2 go3 laam4 sik1 zi2 jan3. zik1 jyun4 ling1 hei2 zoeng1 zi2 jat1 mong6, seng4 paai4 zi2 jan3 ci5 jat1 lit6 sai3 sai3 go3 jat6 kei4 zoeng1. aa3 long5 soeng2 jung6 gon1 zeng6 sau2 zi2 zip3 hei2 zoeng1 zi2, ling6 jat1 zek3 sau2 jau6 zim1 dou3 di1 mak6; keoi5 zik1 hak1 ting4 sau2, goi2 jung6 sau2 bui3 teoi1 zoeng1 zi2 jap6 man4 gin6 pun4. haak3 jan4 siu3 zyu6 waa6: gam1 jat6 m4 hai6 nei5 goi3 zoeng1, hai6 nei5 zek3 sau2 bong1 zoeng1 toi2 zou6 gei3 luk6. aa3 long5 mong6 zyu6 zi6 gei2 zek3 sau2, daap3: ngo5 bun2 loi4 zi2 soeng2 goi3 man4 gin6, zeoi3 hau6 lin4 sau2 dou1 cim1 sau1 zo2.",
+      "gloss": "银行柜台同事阿朗一早要盖几份回条，日期章刚补过墨。第一下盖好，印面太湿，阿朗收章时手指沾了一点蓝墨。他用纸巾擦，没想到擦开变成一条蓝线；再拿纸巾另一角擦，又多一条。旁边客人指着他的手问：“这是新制服图案吗？”阿朗急着去洗手，洗完回来，手指干净了，但他扶过柜台边的白纸上留下几个蓝色指印。职员拿起纸一看，整排指印像一列小小的日期章。阿朗想用干净手指折起纸，另一只手又沾到墨；他马上停手，改用手背把纸推入文件盘。客人笑着说：“今天不是你盖章，是你的手帮桌子做记录。”阿朗看着自己的手，回答：“我本来只想盖文件，最后连手都签收了。”",
+      "usageTip": "故事练习：复述阿朗怎样在盖日期章后把余墨抹开、又留下指印，最后改用手背推纸；模仿客人说手帮桌子做记录、阿朗说连手都签收的回扣。",
+      "keeper_id": "sentence-bank-long_family_finance_services_06-0005",
+      "mechanism_difference": "与keeper 06-0005松螺丝的路口箭头牌转回起点不同；本稿由日期章余墨转移到手指和纸面，没有路标或绕圈。",
+      "story_han_count": 230,
+      "jyutping_syllable_count": 230,
+      "jyutping_whitespace_token_count": 230,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "candidate_fields_sha256": "f4bf5a8c0b4087f14d6d2b9ebe35843b433b7994caf171a8765ca7b4ece06899"
+    },
+    {
+      "order": 66,
+      "id": "sentence-bank-long_family_finance_services_01-0075",
+      "source_file": "content/sentence_bank/long_family_finance_services_01.json",
+      "source_index": 74,
+      "source_category": "保險安排",
+      "source_freeze_sha256": "b79e68364470d72b4cf4306ec25bcb805a4c5b2f005d0a99490359401c4c6119",
+      "source_current_sha256": "b79e68364470d72b4cf4306ec25bcb805a4c5b2f005d0a99490359401c4c6119",
+      "source_hash_match": true,
+      "sentence": "我陪同事阿晴去保險公司聽一場服務介紹會，入口道門比較重。阿晴見後面幾個人陸續入嚟，順手扶住門讓佢哋先行。每個人都講聲多謝，佢就一路點頭一路扶；主持已經開始講，門口仲有人來。佢諗住等最後一個入完先走，偏偏每次鬆手，門又慢慢合埋，後面又有人推門。有個人問佢洗手間喺邊，佢仲用腳頂住門，伸手指住走廊，差啲連主持叫佢入座都聽唔到。佢只好用腳頂住門邊，雙手扶住門柄，隔一陣仲要回頭同人講「唔使客氣」。等到隊伍終於停，阿晴先放手入場；佢一坐低，主持就講到最後一張投影片。散場時我問佢聽到乜，佢笑話：「最清楚嗰項服務，就係我今日負責幫大家開門。」",
+      "jyutping": "ngo5 pui4 tung4 si6 aa3 cing4 heoi3 bou2 him2 gung1 si1 teng1 jat1 coeng4 fuk6 mou6 gaai3 siu6 wui6, jap6 hau2 dou6 mun4 bei2 gaau3 zung6. aa3 cing4 gin3 hau6 min6 gei2 go3 jan4 leon4 zuk6 jap6 lai4, seon6 sau2 fu4 zyu6 mun4 joeng6 keoi5 dei6 sin1 haang4. mui5 go3 jan4 dou1 gong2 seng1 do1 ze6, keoi5 zau6 jat1 lou6 dim2 tau4 jat1 lou6 fu4; zyu2 ci4 ji5 ging1 hoi1 ci2 gong2, mun4 hau2 zung6 jau5 jan4 loi4. keoi5 nam2 zyu6 dang2 zeoi3 hau6 jat1 go3 jap6 jyun4 sin1 zau2, pin1 pin1 mui5 ci3 sung1 sau2, mun4 jau6 maan6 maan6 hap6 maai4, hau6 min6 jau6 jau5 jan4 teoi1 mun4. jau5 go3 jan4 man6 keoi5 sai2 sau2 gaan1 hai2 bin1, keoi5 zung6 jung6 goek3 ding2 zyu6 mun4, san1 sau2 zi2 zyu6 zau2 long4, caa1 di1 lin4 zyu2 ci4 giu3 keoi5 jap6 zo6 dou1 teng1 m4 dou2. keoi5 zi2 hou2 jung6 goek3 ding2 zyu6 mun4 bin1, soeng1 sau2 fu4 zyu6 mun4 beng2, gaak3 jat1 zan6 zung6 jiu3 wui4 tau4 tung4 jan4 gong2 「m4 sai2 haak3 hei3」. dang2 dou3 deoi6 mou5 zung1 jyu1 ting4, aa3 cing4 sin1 fong3 sau2 jap6 coeng4; keoi5 jat1 co5 dai1, zyu2 ci4 zau6 gong2 dou3 zeoi3 hau6 jat1 zoeng1 tau4 jing2 pin2. saan3 coeng4 si4 ngo5 man6 keoi5 teng1 dou3 mat1, keoi5 siu3 waa6: zeoi3 cing1 co2 go2 hong6 fuk6 mou6, zau6 hai6 ngo5 gam1 jat6 fu6 zaak3 bong1 daai6 gaa1 hoi1 mun4.",
+      "gloss": "我陪同事阿晴去保险公司听一场服务介绍会，入口的门比较重。阿晴看到后面几个人陆续进来，顺手扶着门让他们先走。每个人都说声谢谢，她就一路点头一路扶；主持人已经开始讲话，门口还有人来。她想着等最后一个人进去再走，偏偏每次松手，门又慢慢合上，后面又有人推门。有个人问她洗手间在哪里，她还用脚顶着门，伸手指着走廊，差点连主持人叫她入座都没听到。她只好用脚顶住门边，双手扶着门把，隔一会儿还要回头跟人说“不用客气”。等队伍终于停了，阿晴才放手进场；她一坐下，主持人就讲到最后一张幻灯片。散场时我问她听到了什么，她笑着说：“最清楚的那项服务，就是我今天负责帮大家开门。”",
+      "usageTip": "故事练习：复述阿晴怎样因帮人扶门一直进不了说明会，后来还指路回答来客的问题，最后坐下只听到末页；模仿她说自己今天负责帮大家开门的收尾。",
+      "keeper_id": "sentence-bank-long_food_shopping_01-0075",
+      "mechanism_difference": "与keeper 01-0075同事等会时逐粒捏爆包裹气泡纸不同；本稿由入口重门回合和来客不断进入，让角色一直扶门错过说明会。 独立复审原建议把她回头说“多谢”改为自然回应；现已改成“唔使客氣”。",
+      "story_han_count": 235,
+      "jyutping_syllable_count": 235,
+      "jyutping_whitespace_token_count": 235,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "candidate_fields_sha256": "cdcd2c16b988aa1f0002d41992261821177e200104a323beb1483454a436af4b"
+    }
+  ],
+  "validation": {
+    "candidate_count": 3,
+    "source_hashes_match": true,
+    "all_lengths_220_320": true,
+    "all_han_jyutping_alignment": true,
+    "all_jyutping_cjk_free": true,
+    "none_marked_passed": true,
+    "candidate_fields_sha256_scope": "SHA256 compact sorted-key JSON of {sentence, jyutping, gloss, usageTip}",
+    "canonical_source_ledgers_selection_app_checkpoint_modified": false
+  }
+}

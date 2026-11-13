@@ -1,0 +1,61 @@
+{
+  "report_type": "single_candidate_jyutping_correction",
+  "date": "2026-11-13",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "revision": "REV3",
+  "source_report": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_GLOBAL_0660_1062_REV2_2026-11-13.json",
+  "source_report_sha256": "4422249becdf132630e1b49881d437cc147f1c1491d06952d87babd63ce9f4f4",
+  "scope_orders": [
+    1062
+  ],
+  "completed_orders": [
+    1062
+  ],
+  "items": [
+    {
+      "order": 1062,
+      "id": "sentence-bank-long_food_shopping_11-0066",
+      "source_file": "content/sentence_bank/long_food_shopping_11.json",
+      "source_index": 65,
+      "source_category": "網購食材替代",
+      "source_freeze_sha256": "84fd32eaee0ad6c1650599f3d288688ce95756b7e48b58c8423a7a252504a3a3",
+      "source_current_sha256": "84fd32eaee0ad6c1650599f3d288688ce95756b7e48b58c8423a7a252504a3a3",
+      "source_hash_match": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "sentence": "我用網上超市訂咗一包意大利粉同一罐肉醬，打算放工煮晚餐。客服通知肉醬缺貨，問可唔可以換番茄醬；我未撳接受，跟住意大利粉又要替代，頁面列出通粉同螺絲粉，叫我揀一款。我問同事阿文，佢先問我：「你本來想煮乜？」我答意粉。佢叫我等兩樣替代選項都睇清楚先決定，話：「粉由意粉轉成通粉，肉醬又提議換番茄醬；你要唔要兩樣都改？」我先接受兩項替代。等我拎到貨，通粉同番茄醬都換咗，原來想做嘅晚餐只剩「意粉」呢個大方向。阿文拎起其中一包話：「你買到嘅係材料，我幫你做咗兩輪菜單策劃。」我話今日食麵包好喇，佢問麵包缺貨時由邊個替代。",
+      "jyutping": "ngo5 jung6 mong5 soeng6 ciu1 si5 deng6 zo2 jat1 baau1 ji3 daai6 lei6 fan2 tung4 jat1 gun2 juk6 zoeng3, daa2 syun3 fong3 gung1 zyu2 maan5 caan1. haak3 fuk6 tung1 zi1 juk6 zoeng3 kyut3 fo3, man6 ho2 m4 ho2 ji5 wun6 faan1 ke4 zoeng3; ngo5 mei6 gam6 zip3 sau6, gan1 zyu6 ji3 daai6 lei6 fan2 jau6 jiu3 tai3 doi6, jip6 min6 lit6 ceot1 tung1 fan2 tung4 lo4 si1 fan2, giu3 ngo5 gaan2 jat1 fun2. ngo5 man6 tung4 si6 aa3 man4, keoi5 sin1 man6 ngo5: 「nei5 bun2 loi4 soeng2 zyu2 mat1?」 ngo5 daap3 ji3 fan2. keoi5 giu3 ngo5 dang2 loeng5 joeng6 tai3 doi6 syun2 hong6 dou1 tai2 cing1 co2 sin1 kyut3 ding6, waa6: 「fan2 jau4 ji3 fan2 zyun3 sing4 tung1 fan2, juk6 zoeng3 jau6 tai4 ji5 wun6 faan1 ke4 zoeng3; nei5 jiu3 m4 jiu3 loeng5 joeng6 dou1 goi2?」 ngo5 sin1 zip3 sau6 loeng5 hong6 tai3 doi6. dang2 ngo5 ling1 dou3 fo3, tung1 fan2 tung4 faan1 ke4 zoeng3 dou1 wun6 zo2, jyun4 loi4 soeng2 zou6 ge3 maan5 caan1 zi2 sing6 「ji3 fan2」 ni1 go3 daai6 fong1 hoeng3. aa3 man4 ling1 hei2 kei4 zung1 jat1 baau1 waa6: 「nei5 maai5 dou2 ge3 hai6 coi4 liu6, ngo5 bong1 nei5 zou6 zo2 loeng5 leon4 coi3 daan1 caak3 waak6.」 ngo5 waa6 gam1 jat6 sik6 min6 baau1 hou2 laa3, keoi5 man6 min6 baau1 kyut3 fo3 si4 jau4 bin1 go3 tai3 doi6.",
+      "gloss": "我在网上超市订了一包意大利面和一罐肉酱，打算下班煮晚餐。客服通知肉酱缺货，问可不可以换番茄酱；我还没按接受，接着意大利面也要替代，页面列出通粉和螺丝粉，让我选一款。我问同事阿文，他先问我：“你本来想煮什么？”我答意粉。他叫我等两样替代选项都看清楚再决定，说：“面从意粉换成通粉，肉酱又提议换成番茄酱；你要不要两样都改？”我才接受两项替代。等我拿到货，通粉和番茄酱都换了，原来想做的晚餐只剩“意粉”这个大方向。阿文拿起其中一包说：“你买到的是材料，我帮你做了两轮菜单策划。”我说今天吃面包好了，他问面包缺货时由谁替代。",
+      "usageTip": "故事练习：复述网上超市先后提出肉酱和意大利粉的替代选项，阿文怎样提醒我等两项都看清楚再决定；最后模仿他问“面包缺货时由谁替代”的回扣。",
+      "keeper_id": "sentence-bank-long_food_shopping_13-0075",
+      "mechanism_difference": "原果子被當成評審候選的橋段改為網購多項替代後，朋友把菜單策劃變成審批；笑點由選擇連鎖引起，沒有水果擬人、招聘或獎項。",
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_food_shopping_13-0075",
+          "mechanism": "keeper把草莓擬人為員工逐盒評語並用人事錄取回扣；候稿是網購肉醬/意大利粉替代引發朋友改菜名，不涉及水果或職位。"
+        },
+        {
+          "id": "sentence-bank-long_food_shopping_08-0083",
+          "mechanism": "active替換近鄰以薄荷代羅勒後嘗味，笑點是薄荷沙律像刷牙；候稿只在下單階段因兩項替代改菜單，不試味或評食品口感。"
+        }
+      ],
+      "story_han_count": 222,
+      "jyutping_syllable_count": 222,
+      "jyutping_whitespace_token_count": 222,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_fields_sha256": "5fd324a18796ce40b8f3bcfa35414c90edf8fd42c2458413e127b638ce976a82"
+    }
+  ],
+  "change_note": {
+    "order": 1062,
+    "only_change": "Jyutping jat1 kwaan2 → jat1 fun2; story/gloss/usageTip unchanged",
+    "field_review": "Four fields checked; candidate remains unpassed."
+  },
+  "validation": {
+    "story_han_count": 222,
+    "jyutping_syllable_count": 222,
+    "alignment": true,
+    "jyutping_cjk_residue": 0,
+    "source_freeze_current_match": true
+  }
+}

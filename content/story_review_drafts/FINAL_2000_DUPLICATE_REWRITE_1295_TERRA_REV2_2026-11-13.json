@@ -1,0 +1,28 @@
+{
+  "report_type": "bounded_duplicate_rewrite_candidate",
+  "date": "2026-11-13",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "order": 1295,
+  "id": "sentence-bank-long_food_shopping_18-0049",
+  "source_file": "content/sentence_bank/long_food_shopping_18.json",
+  "source_index": 48,
+  "source_category": "水果檔揀熟芒果做甜品",
+  "source_sha256": "5449b9239be41d11fc022cad8a6ad58919a04e103ba4995df146deb4bf52d201",
+  "freeze_sha256": "5449b9239be41d11fc022cad8a6ad58919a04e103ba4995df146deb4bf52d201",
+  "keeper_order": 1123,
+  "keeper_id": "sentence-bank-long_food_shopping_13-0075",
+  "candidate": {
+    "sentence": "我同阿晴去水果檔揀熟芒果，打算返屋企整椰奶甜品。返到去我切好芒果，阿晴分入幾隻輕身膠杯，再加椰奶。雪櫃擺滿嘢，佢搵個盆放少少冰水，將裝咗少量甜品嘅膠杯放入去，杯口都高過水面。佢想拎一杯畀我，手指一碰，旁邊隻杯就向另一邊飄。佢伸手捉左邊嗰隻，右邊兩隻又撞埋一齊；我攞匙羹擋住，另一隻又由中間滑過。阿晴叫我兩隻手守住個盆，我一鬆手，啲杯又圍埋一邊。最後佢用細碟由杯底托起，逐杯拎上枱；我問佢點解唔一早咁做，佢望住個盆話：「頭先我以為自己整甜品，原來仲要泊船。」我拎起匙羹問可唔可以開餐，佢先笑住將個盆推遠：「可以，船已經靠晒岸。」",
+    "jyutping": "ngo5 tung4 aa3 cing4 heoi3 seoi2 gwo2 dong3 gaan2 suk6 mong1 gwo2, daa2 syun3 faan1 uk1 kei2 zing2 je4 naai5 tim4 ban2. faan1 dou3 heoi3 ngo5 cit3 hou2 mong1 gwo2, aa3 cing4 fan1 jap6 gei2 zek3 hing1 san1 gaau1 bui1, zoi3 gaa1 je4 naai5. syut3 gwai6 baai2 mun5 je5, keoi5 wan2 go3 pun4 fong3 siu2 siu2 bing1 seoi2, zoeng1 zong1 zo2 siu2 loeng6 tim4 ban2 ge3 gaau1 bui1 fong3 jap6 heoi3, bui1 hau2 dou1 gou1 gwo3 seoi2 min6. keoi5 soeng2 ling1 jat1 bui1 bei2 ngo5, sau2 zi2 jat1 pung3, pong4 bin1 zek3 bui1 zau6 hoeng3 ling6 jat1 bin1 piu1. keoi5 san1 sau2 zuk1 zo2 bin1 go2 zek3, jau6 bin1 loeng5 zek3 jau6 zong6 maai4 jat1 cai4; ngo5 lo2 ci4 gang1 dong2 zyu6, ling6 jat1 zek3 jau6 jau4 zung1 gaan1 waat6 gwo3. aa3 cing4 giu3 ngo5 loeng5 zek3 sau2 sau2 zyu6 go3 pun4, ngo5 jat1 sung1 sau2, di1 bui1 jau6 wai4 maai4 jat1 bin1. zeoi3 hau6 keoi5 jung6 sai3 dip6 jau4 bui1 dai2 tok3 hei2, zuk6 bui1 ling1 soeng5 toi2; ngo5 man6 keoi5 dim2 gaai2 m4 jat1 zou2 gam3 zou6, keoi5 mong6 zyu6 go3 pun4 waa6: 「tau4 sin1 ngo5 ji5 wai4 zi6 gei2 zing2 tim4 ban2, jyun4 loi4 zung6 jiu3 bok6 syun4.」 ngo5 ling1 hei2 ci4 gang1 man6 ho2 m4 ho2 ji5 hoi1 caan1, keoi5 sin1 siu3 zyu6 zoeng1 go3 pun4 teoi1 jyun5: 「ho2 ji5, syun4 ji5 ging1 kaau3 saai3 ngon6.」",
+    "gloss": "我和阿晴去水果摊挑熟芒果，打算回家做椰奶甜品。回去后我切好芒果，阿晴分进几个轻巧的塑料杯，再加椰奶。冰箱放满了东西，她找个盆放少量冰水，把装了少量甜品的塑料杯放进去，杯口都高过水面。她想拿一杯给我，手指一碰，旁边的杯子就向另一边漂去。她伸手捉左边那只，右边两只又撞到一起；我拿勺子挡住，另一只又从中间滑过。阿晴叫我两手守住盆，我一松手，杯子又聚到一边。最后她用小碟从杯底托起，逐杯拿上桌；我问她为什么不早这样做，她看着盆说：“刚才我以为自己在做甜品，原来还要泊船。”我拿起勺子问可不可以开吃，她才笑着把盆推远：“可以，船已经全部靠岸了。”",
+    "usageTip": "故事练习：复述阿晴怎样用冰水盆暂时放甜品杯，碰到一只后其他杯怎样漂开；最后讲她如何逐杯托上桌，以及“泊船、靠岸”的回扣。"
+  },
+  "candidate_fields_sha256": "670c9eb893caa8999b26b15cf2655c7a9361aae38cc7409d09a1c5e8cf58c629",
+  "han_count": 230,
+  "jyutping_token_count": 230,
+  "manual_note": "芒果椰奶甜品的轻身杯放在浅冰水盆中漂移，两人用匙及小碟托起，泊船靠岸回扣；与keeper草莓招聘/离职以及19-0023芒果成熟标签排期机制不同。冰水仅为短时间存放，杯口高于水面、少量食物明确使杯浮起，需独立审场景物理与四字段。 REV2 replaces the Hong Kong-style Mandarin phrasing 轻身塑料杯 with 轻巧的塑料杯.",
+  "revision": "REV2",
+  "revision_of": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITE_1295_TERRA_REV1_2026-11-13.json",
+  "revision_of_file_sha256": "fdbab839f9092419d950f4c8f266c727702aac9d0353c0d640409adec0739636",
+  "pronunciation_reference": "https://jyut.net/query?q=%E6%B3%8A (泊船 bok6; paak3 also recorded)"
+}

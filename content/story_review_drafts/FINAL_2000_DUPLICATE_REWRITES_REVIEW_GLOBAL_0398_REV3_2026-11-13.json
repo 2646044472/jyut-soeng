@@ -1,0 +1,89 @@
+{
+  "report": "FINAL_2000_DUPLICATE_REWRITES_REVIEW_GLOBAL_0398_REV3_2026-11-13",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "reviewed_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_GLOBAL_0398_REV3_2026-11-13.json",
+  "reviewed_file_sha256": "b4d9477de05812afd86cff9eb817b7ceb5da833493aea32a50d77da3a6087ff2",
+  "freeze_file": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "freeze_file_sha256": "4c3ac877867079fd053c88374eb434f94cfb3e09fd67a76b0b7f6424fb119843",
+  "freeze_manifest_sha256": "863768b0fe764bf81cf93858c0a9caebf01a3b975bc5ffb5d39a59a9731bca11",
+  "freeze_manifest_stale": false,
+  "scope_orders": [
+    398
+  ],
+  "coverage_count": 1,
+  "unique_orders": 1,
+  "unique_ids": 1,
+  "verdict_counts": {
+    "PASS": 1,
+    "REVISE": 0
+  },
+  "items": [
+    {
+      "order": 398,
+      "id": "sentence-bank-long_family_finance_services_05-0096",
+      "category": "投訴跟進",
+      "verdict": "PASS",
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "source_file": "content/sentence_bank/long_family_finance_services_05.json",
+      "source_index": 95,
+      "source_id_matches_freeze": true,
+      "source_category_matches_current": true,
+      "source_sha256_freeze": "185879425d2f82dd7af3f5b7f8498ca579af95d037109eb82a383eb1e5e665d3",
+      "source_sha256_current_recomputed": "185879425d2f82dd7af3f5b7f8498ca579af95d037109eb82a383eb1e5e665d3",
+      "source_sha256_declared_freeze": "185879425d2f82dd7af3f5b7f8498ca579af95d037109eb82a383eb1e5e665d3",
+      "source_sha256_declared_current": "185879425d2f82dd7af3f5b7f8498ca579af95d037109eb82a383eb1e5e665d3",
+      "source_hash_matches_freeze_and_current": true,
+      "candidate_fields_sha256_declared": "3f13387da6b51e41837e33a783385a840388b594f23861958a6b47c750c339e5",
+      "candidate_fields_sha256_recomputed": "3f13387da6b51e41837e33a783385a840388b594f23861958a6b47c750c339e5",
+      "candidate_hash_matches_declared": true,
+      "counts": {
+        "han_characters_recomputed": 230,
+        "jyutping_whitespace_tokens_recomputed": 230,
+        "declared_han": 230,
+        "declared_tokens": 230,
+        "aligned": true,
+        "jyutping_cjk_residue": false,
+        "story_220_to_320": true
+      },
+      "keeper": {
+        "id": "sentence-bank-long_family_finance_services_07-0020",
+        "order": 458,
+        "sha256": "33ce626b6da85a47c0c48667397ee4c802254a2edb22229c012919d4505664c3",
+        "story": "社區合唱班有三個姓陳嘅團友，嗰日竟然喺同一間藥房撞到。陳叔最近藥費加咗，唔敢自己減藥，先問醫生有冇合適嘅平價替代。覆診後醫生批准換一款，叫佢帶處方去藥房；藥劑師逐項核對藥名、用法同價錢，仲提醒新舊收據分開放。陳叔話記低晒，等藥時一聽到職員叫「陳先生」，佢同隔籬兩個人一齊企起身。職員核對處方號碼，先知三個都姓陳。第二次叫名，三人又同時應，連藥名都差唔多；原來隔籬兩位都食同一類藥。陳叔笑住話，下次叫佢「合唱班低音部」最易認。藥劑師望一望名單，話隔籬嗰位都係低音。三個人望住同一疊收據，忍唔住唱咗一聲和音。最後職員照處方號碼逐個交藥同收據，陳叔喺收據夾寫低編號。返到合唱班，指揮叫「陳先生」，三個又一齊企起身。指揮笑話：「你哋喺藥房排好和音，返嚟仲要再點一次名呀？」"
+      },
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_family_finance_services_07-0020",
+          "order": 458,
+          "sha256": "33ce626b6da85a47c0c48667397ee4c802254a2edb22229c012919d4505664c3",
+          "story": "社區合唱班有三個姓陳嘅團友，嗰日竟然喺同一間藥房撞到。陳叔最近藥費加咗，唔敢自己減藥，先問醫生有冇合適嘅平價替代。覆診後醫生批准換一款，叫佢帶處方去藥房；藥劑師逐項核對藥名、用法同價錢，仲提醒新舊收據分開放。陳叔話記低晒，等藥時一聽到職員叫「陳先生」，佢同隔籬兩個人一齊企起身。職員核對處方號碼，先知三個都姓陳。第二次叫名，三人又同時應，連藥名都差唔多；原來隔籬兩位都食同一類藥。陳叔笑住話，下次叫佢「合唱班低音部」最易認。藥劑師望一望名單，話隔籬嗰位都係低音。三個人望住同一疊收據，忍唔住唱咗一聲和音。最後職員照處方號碼逐個交藥同收據，陳叔喺收據夾寫低編號。返到合唱班，指揮叫「陳先生」，三個又一齊企起身。指揮笑話：「你哋喺藥房排好和音，返嚟仲要再點一次名呀？」",
+          "reported_mechanism": "active 458：三位同姓顾客在药房被叫名后同时起身；本稿无排队叫名或身份混淆。"
+        },
+        {
+          "id": "sentence-bank-long_food_shopping_10-0003",
+          "order": 1013,
+          "sha256": "29de934e4c48990372f3ef266545a8d4212ce2e9b74726c13956ed57118ada2f",
+          "story": "中午開會前，我同兩個同事去茶餐廳落單。兩個人喺公司都叫「阿明」，一個要咖喱雞少飯，另一個原本想要魚蛋粉。伙計問咖喱雞係邊位，我坐喺佢哋對面，指住我左手邊嗰個；伙計企喺我對面，當成自己左手邊，寫錯咗人。佢再問少飯嗰份，兩個阿明又互相指住對方，伙計支筆喺兩行之間來回。我叫佢哋直接講，點知想食魚蛋粉嗰位聞到隔籬枱咖喱香，睇多眼餐牌，即刻改口：「我都要咖喱雞，少飯。」伙計望住張單寫低「阿明兩份」，問佢哋仲使唔使分清楚？兩個人一齊搖頭。返到會議室，主管叫阿明交簡報，兩個人又同時企起身。主管望住佢哋，問：「咁我應該收邊個嗰份？」我將點單紙推過去：「呢度都寫咗阿明兩份，份簡報你哋自己分。」",
+          "reported_mechanism": "active 1013：两位同名同事在餐厅互相指餐单；本稿是短信重复触发回访困扰。"
+        },
+        {
+          "id": "sentence-bank-long_family_finance_services_02-0076",
+          "order": 161,
+          "sha256": "1aef3de2eebee1c1600ebf59c58c35579b19398c08b9c0160f3686a9b44ae5ab",
+          "story": "星期三下晝，阿祥去手機店問點樣設定語音信箱。店員喺電話程式入面示範入信箱設定、錄問候語同儲存，話最後打電話測試就得。阿祥怕人笑佢唔識用，聽一句就連連點頭，仲話：「明白晒。」店員見佢咁快上手，交代完就去招呼另一個客。阿祥望住屏幕，先發現自己唔記得第一步撳邊度。佢唔想再叫返店員，扮住研究，喺電話程式撳來撳去，幾次都返到撥號頁。隔陣佢行去櫃檯，細聲問可唔可以幫手打一次電話測試。店員照做，阿祥一手揸住手機，一手喺屏幕搵設定；電話響到停，佢仲未搵到錄音位置。店員睇穿佢根本未識入設定，阿祥先承認自己怕阻住人，聽完即刻點頭，其實一步都冇記住。店員冇笑佢，逐步陪佢錄好問候語、儲存，再打一次測試電話。電話轉入信箱，阿祥聽到自己把聲，笑住講：「請留言，等我搵到個掣再聽。」",
+          "reported_mechanism": "active 02-0076：设置语音信箱时反复找不到菜单；本稿不涉及语音菜单或电话设置。"
+        }
+      ],
+      "field_checks": {
+        "story": "重複跟進短訊在客服回電期間接連彈出的升级清晰，最后把手机反扣、不让它听见的拟人回扣成立；句法如“跟進短訊一條接一條咁嚟”“逐條睇”“阿晴先鬆一口氣”“反扣喺枱面”自然口语。没有身份混淆或电话设置机制，和keeper/邻卡不同。",
+        "jyutping": "逐句核对声调与字音，包括“銀行”ngan4 hong4、“客服”haak3 fuk6、“短訊”dyun2 seon3、“反扣”faan2 kau3及“枱面”toi2 min2；未发现需要修订的具体错音。230字/230 token对齐。",
+        "gloss": "完整翻译自动短信内容、客服回电、案件跟进通知及反扣手机的结尾，没有关键情节遗漏。",
+        "tip": "以“故事练习：”开头，覆盖投诉、回访中通知再弹出及反扣手机回扣。",
+        "duplicate": "keeper 458是同姓客人在药房同时应名；near 1013是餐厅两个同名同事同时点餐；near 161是不会设置语音信箱。本稿机制为手机通知持续打断客服回访，清楚不同。"
+      }
+    }
+  ],
+  "canonical_modified": false,
+  "summary": "Exact order398 REV3 source/candidate hashes match, freeze is current, four fields pass, and the revised syntax reads naturally as Cantonese."
+}

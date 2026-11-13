@@ -1,0 +1,47 @@
+{
+  "report": "remaining7_single_candidate_revision",
+  "review_round": "REV5",
+  "created_date": "2026-11-13",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "parent_candidate_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_0700_1400_BATCH01_REMAINING7_REV4_2026-11-13.json",
+  "independent_review_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_REVIEW_0700_1400_BATCH01_REMAINING7_2026-11-13.json",
+  "editing_note": "仅含order665，按独立审查修复初始判断、餐盒内容因果和两只碗铺垫。旧版REV1-REV4均保留。",
+  "scope": [
+    665
+  ],
+  "items": [
+    {
+      "order": 665,
+      "id": "sentence-bank-long_food_shopping_02-0058",
+      "source_file": "content/sentence_bank/long_food_shopping_02.json",
+      "source_index": 57,
+      "category": "食物過敏與保存",
+      "source_sha256": "e83f882d002b00e13f9cf4236f3236f663c047485631e768b56b78075ddeeb7f",
+      "source_hash_match": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "parent_candidate_sha256": "1847c625b8b19981a9b4ffd7504e90c431c8a1e1be06d265776c617e913fb139",
+      "candidate": {
+        "category": "食物過敏與保存",
+        "sentence": "星期日我同室友清雪櫃，阿欣話：「每盒剩菜都要先認清，唔好一見白色就當白飯。」我望住兩盒半透明餐盒，見入面都係白白一片，先估兩盒都係飯。阿欣指住其中一盒話可能係粥，我即刻改口，話睇落似有粒粒，可能係菜。兩盒都冇標籤，佢叫我先用重量估，再揭蓋驗。左手嗰盒重，我話呢盒肯定係飯；右手輕，應該係菜。阿欣冇答，只叫我拎兩隻碗出嚟，逐盒倒入去。重嗰盒一落碗，原來係一大堆椰菜花；輕嗰盒倒出嚟先係白飯。佢望住兩碗笑：「你頭先用重量估，結果菜比飯重。」我哋將兩樣熱返，放埋一齊當午餐。我問：「咁呢餐叫乜？」阿欣望住兩隻空盒，話：「叫我哋估錯嗰餐。」我即刻話下次會貼標籤。佢點頭，補多句：「記得寫開盒後嘅答案，唔好寫你未開蓋嗰個估計。」",
+        "jyutping": "sing1 kei4 jat6 ngo5 tung4 sat1 jau5 cing1 syut3 gwai6, aa3 jan1 waa6: 「mui5 hap6 sing6 coi3 dou1 jiu3 sin1 jing6 cing1, m4 hou2 jat1 gin3 baak6 sik1 zau6 dong3 baak6 faan6.」 ngo5 mong6 zyu6 loeng5 hap6 bun3 tau4 ming4 caan1 hap6, gin3 jap6 min6 dou1 hai6 baak6 baak6 jat1 pin3, sin1 gu2 loeng5 hap6 dou1 hai6 faan6. aa3 jan1 zi2 zyu6 kei4 zung1 jat1 hap6 waa6 ho2 nang4 hai6 zuk1, ngo5 zik1 hak1 goi2 hau2, waa6 tai2 lok6 ci5 jau5 nap1 nap1, ho2 nang4 hai6 coi3. loeng5 hap6 dou1 mou5 biu1 cim1, keoi5 giu3 ngo5 sin1 jung6 zung6 loeng6 gu2, zoi3 kit3 goi3 jim6. zo2 sau2 go2 hap6 zung6, ngo5 waa6 ni1 hap6 hang2 ding6 hai6 faan6; jau6 sau2 hing1, jing1 goi1 hai6 coi3. aa3 jan1 mou5 daap3, zi2 giu3 ngo5 ling1 loeng5 zek3 wun2 ceot1 lai4, zuk6 hap6 dou2 jap6 heoi3. zung6 go2 hap6 jat1 lok6 wun2, jyun4 loi4 hai6 jat1 daai6 deoi1 je4 coi3 faa1; hing1 go2 hap6 dou2 ceot1 lai4 sin1 hai6 baak6 faan6. keoi5 mong6 zyu6 loeng5 wun2 siu3: 「nei5 tau4 sin1 jung6 zung6 loeng6 gu2, git3 gwo2 coi3 bei2 faan6 zung6.」 ngo5 dei6 zoeng1 loeng5 joeng6 jit6 faan1, fong3 maai4 jat1 cai4 dong3 ng5 caan1. ngo5 man6: 「gam2 ni1 caan1 giu3 mat1?」 aa3 jan1 mong6 zyu6 loeng5 zek3 hung1 hap6, waa6: 「giu3 ngo5 dei6 gu2 co3 go2 caan1.」 ngo5 zik1 hak1 waa6 haa6 ci3 wui5 tip3 biu1 cim1. keoi5 dim2 tau4, bou2 do1 geoi3: 「gei3 dak1 se2 hoi1 hap6 hau6 ge3 daap3 on3, m4 hou2 se2 nei5 mei6 hoi1 goi3 go2 go3 gu2 gai3.」",
+        "gloss": "星期日我和室友清理冰箱，阿欣说：“每盒剩菜都要先认清，不要一看见白色就当成白饭。”我看着两盒半透明餐盒，见里面都是白白的一片，先猜两盒都是饭。阿欣指着其中一盒说可能是粥，我马上改口，说看起来像有小粒，可能是菜。两盒都没有标签，她叫我先按重量猜，再开盖验证。左手那盒重，我说这盒肯定是饭；右手轻，应该是菜。阿欣没回答，只叫我拿两只碗出来，逐盒倒进去。重的那盒一倒进碗，原来是一大堆椰菜花；轻的那盒倒出来才是白饭。她看着两碗笑：“你刚才按重量猜，结果菜比饭重。”我们把两样热过，放在一起当午餐。我问：“这餐叫什么？”阿欣看着两个空盒，说：“叫我们猜错的那餐。”我马上说下次会贴标签。她点点头，补了一句：“记得写开盒后的答案，别写你没开盖时的猜测。”",
+        "usageTip": "故事练习：复述两盒剩菜外观看起来相似，阿欣让室友先猜重量、拿两只碗分别倒出后，重盒是椰菜花、轻盒是白饭；最后讲“写开盒后的答案”怎样回扣之前的猜测。"
+      },
+      "han_character_count_recomputed": 260,
+      "jyutping_syllable_count_recomputed": 260,
+      "character_syllable_count_match": true,
+      "candidate_content_sha256": "f05818b9dc6940a30d2afd4f36ff35ef3ceb081072441fc5cecfd74f96362660",
+      "candidate_hash_method": "SHA-256 canonical JSON {category, sentence, jyutping, gloss, usageTip}; UTF-8, ensure_ascii=False, sort_keys=True, compact separators",
+      "revision_note": "REV5重写order665：开头明确只凭外观猜两盒内容，分开倒入两只碗后揭晓重量猜错；饭和椰菜花在四字段中保持一致。保留REV4。",
+      "previous_rev1_candidate_sha256": "1847c625b8b19981a9b4ffd7504e90c431c8a1e1be06d265776c617e913fb139",
+      "current_source_sha256_recomputed": "e83f882d002b00e13f9cf4236f3236f663c047485631e768b56b78075ddeeb7f"
+    }
+  ],
+  "validation": {
+    "item_count": 1,
+    "source_hash_matches_freeze": true,
+    "han_jyutping_aligned": true,
+    "jyutping_cjk_free": true,
+    "canonical_source_ledgers_selection_app_checkpoint_modified": false
+  }
+}

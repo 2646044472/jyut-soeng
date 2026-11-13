@@ -1,0 +1,114 @@
+{
+  "report": "FINAL_2000_DUPLICATE_REWRITES_BATCH01_REV1",
+  "review_round": "macau-comedy-revalidation-v2",
+  "created_date": "2026-11-13",
+  "scope": {
+    "batch": 1,
+    "revision_orders": [
+      643,
+      644,
+      645
+    ],
+    "candidate_orders_remaining": [
+      665,
+      667,
+      700,
+      722,
+      750,
+      757,
+      762
+    ],
+    "revised_candidate_count": 3
+  },
+  "status": "revision submitted for independent review; not eligible for canonical integration until independent review accepts all four fields",
+  "source_policy": "旧稿保留于 previous_candidate；ID/category/metadata 不变；仅新增候选四字段和验证数据，未改 canonical/台账/app/selection。",
+  "items": [
+    {
+      "order": 643,
+      "id": "sentence-bank-long_food_shopping_02-0025",
+      "source_file": "content/sentence_bank/long_food_shopping_02.json",
+      "source_index": 24,
+      "category": "外賣溝通",
+      "source_sha256": "06ae160f6c06ed89939d544d911af7cf2d4161d7321c35afad5e1091021e3740",
+      "previous_candidate": {
+        "category": "外賣溝通",
+        "sentence": "星期二中午，部門去茶餐廳叫外賣，阿健負責問大家有冇忌口。全組答得好有默契：一個話汁少啲，另一個話唔好太乾，第三個補句最好每樣都有，但唔好太多。阿健照住記，落單時同伙計講到似開規格會。送到公司，咖喱汁分咗四小盒，薯條另放，白飯又另加一盒，枱面排到似展示櫃。大家一人拎一盒，先發現每碟都剩返一口。阿健望住完整無缺嘅醬汁，問大家想點。佢哋研究咗一輪，決定將小盒倒入大碗。個碗一放低，主管就問今日係咪叫咗套餐。我答：係，套餐叫做小心翼翼。最後大家圍住一碗咖喱汁拌飯，阿健收走四個空盒，伙計仲傳訊息問下次要唔要為醬汁預留座位。我哋話唔使，餸到先食，唔使開發表會。",
+        "jyutping": "sing1 kei4 ji6 zung1 ng5 bou6 mun4 heoi3 caa4 caan1 teng1 giu3 ngoi6 maai6 aa3 gin6 fu6 zaak3 man6 daai6 gaa1 jau5 mou5 gei6 hau2 cyun4 zou2 daap3 dak1 hou2 jau5 mak6 kai3 jat1 go3 waa6 zap1 siu2 di1 ling6 jat1 go3 waa6 m4 hou2 taai3 gon1 dai6 saam1 go3 bou2 geoi3 zeoi3 hou2 mui5 joeng6 dou1 jau5 daan6 m4 hou2 taai3 do1 aa3 gin6 ziu3 zyu6 gei3 lok6 daan1 si4 tung4 fo2 gai3 gong2 dou3 ci5 hoi1 kwai1 gaak3 wui6 sung3 dou3 gung1 si1 gaa3 lei1 zap1 fan1 zo2 sei3 siu2 hap6 syu2 tiu4 ling6 fong3 baak6 faan6 jau6 ling6 gaa1 jat1 hap6 toi2 min6 paai4 dou3 ci5 zin2 si6 gwai6 daai6 gaa1 jat1 jan4 ling1 jat1 hap6 sin1 faat3 jin6 mui5 dip2 dou1 sing6 faan1 jat1 hau2 aa3 gin6 mong6 zyu6 jyun4 zing2 mou4 koek3 ge3 zoeng3 zap1 man6 daai6 gaa1 soeng2 dim2 keoi5 dei6 jin4 gau3 zo2 jat1 leon4 kyut3 ding6 zoeng1 siu2 hap6 dou3 jap6 daai6 wun2 go3 wun2 jat1 fong3 dai1 zyu2 gun2 zau6 man6 gam1 jat6 hai6 mai6 giu3 zo2 tou3 caan1 ngo5 daap3 hai6 tou3 caan1 giu3 zou6 siu2 sam1 jik6 jik6 zeoi3 hau6 daai6 gaa1 wai4 zyu6 jat1 wun2 gaa3 lei1 zap1 bun6 faan6 aa3 gin6 sau1 zau2 sei3 go3 hung1 hap6 fo2 gai3 zung6 cyun4 seon3 sik1 man6 haa6 ci3 jiu3 m4 jiu3 wai6 zoeng3 zap1 jyu6 lau4 zo6 wai2 ngo5 dei6 waa6 m4 sai2 sung3 dou3 sin1 sik6 m4 sai2 hoi1 faat3 biu2 wui6",
+        "gloss": "星期二中午，部门去茶餐厅叫外卖，阿健负责问大家有没有忌口。全组回答得很有默契：一个说少放点汁，另一个说不要太干，第三个补充最好每样都有，但不要太多。阿健照着记，下单时跟伙计说得像在开规格会。送到公司，咖喱汁分成四小盒，薯条另外放，白饭又多加一盒，桌面排得像展示柜。大家每人拿一盒，才发现每碟都只剩一口。阿健看着完整无缺的酱汁，问大家怎么办。他们研究了一轮，决定把小盒倒进大碗。碗一放下，主管就问今天是不是点了套餐。我回答：是，套餐叫小心翼翼。最后大家围着一碗咖喱汁拌饭，阿健收走四个空盒，伙计还发消息问下次要不要为酱汁预留座位。我们说不用，菜到了先吃，不用开发布会。",
+        "usageTip": "故事练习：复述大家怎样把少汁、不干和每样都要写成复杂规格，又怎样为了一口咖喱汁摆满小盒，最后把午餐吃成一场小型发布会。"
+      },
+      "previous_candidate_content_sha256": "a4b6948911f1723781e1196d0998594b317023dfa29b2816e1375d844f8b46b2",
+      "revised_candidate": {
+        "category": "外賣溝通",
+        "sentence": "星期二中午，部門去茶餐廳叫外賣，阿健負責問大家有冇忌口。全組答得好有默契：一個話汁少啲，另一個話唔好太乾，第三個補句最好每樣都有，但唔好太多。阿健照住記，落單時同伙計講到似開規格會。送到公司，伙計將咖喱汁另裝四小盒，薯條另放，白飯又另加一盒。大家先開飯，食到一半先發現汁少得可憐；阿健把四盒咖喱分到四碟，每碟只夠畫一個圈。主管望住四個飯盒，話今日似開咗畫圓比賽。大家將飯邊嗰圈咖喱刮入一個小碗，湊埋都未夠一口飯。阿健望住小碗問大家想點，眾人研究一輪，決定輪流用匙羹點一下。主管話呢餐最公平，人人都食過咖喱。最後阿健收走四個空盒，伙計仲傳訊息問下次要唔要為醬汁預留座位。我哋話唔使，餸到先食，唔使開發表會。",
+        "jyutping": "sing1 kei4 ji6 zung1 ng5 bou6 mun4 heoi3 caa4 caan1 teng1 giu3 ngoi6 maai6 aa3 gin6 fu6 zaak3 man6 daai6 gaa1 jau5 mou5 gei6 hau2 cyun4 zou2 daap3 dak1 hou2 jau5 mak6 kai3 jat1 go3 waa6 zap1 siu2 di1 ling6 jat1 go3 waa6 m4 hou2 taai3 gon1 dai6 saam1 go3 bou2 geoi3 zeoi3 hou2 mui5 joeng6 dou1 jau5 daan6 m4 hou2 taai3 do1 aa3 gin6 ziu3 zyu6 gei3 lok6 daan1 si4 tung4 fo2 gai3 gong2 dou3 ci5 hoi1 kwai1 gaak3 wui6 sung3 dou3 gung1 si1 fo2 gai3 zoeng1 gaa3 lei1 zap1 ling6 zong1 sei3 siu2 hap6 syu2 tiu4 ling6 fong3 baak6 faan6 jau6 ling6 gaa1 jat1 hap6 daai6 gaa1 sin1 hoi1 faan6 sik6 dou3 jat1 bun3 sin1 faat3 jin6 zap1 siu2 dak1 ho2 lin4 aa3 gin6 baa2 sei3 hap6 gaa3 lei1 fan1 dou3 sei3 dip2 mui5 dip2 zi2 gau3 waa6 jat1 go3 hyun1 zyu2 gun2 mong6 zyu6 sei3 go3 faan6 hap6 waa6 gam1 jat6 ci5 hoi1 zo2 waa6 jyun4 bi2 coi3 daai6 gaa1 zoeng1 faan6 bin1 go2 hyun1 gaa3 lei1 gwaat3 jap6 jat1 go3 siu2 wun2 cau3 maai4 dou1 mei6 gau3 jat1 hau2 faan6 aa3 gin6 mong6 zyu6 siu2 wun2 man6 daai6 gaa1 soeng2 dim2 zung3 jan4 gau3 zou2 jat1 leon4 kyut3 ding6 leon4 lau4 jung6 ci4 gang1 dim2 jat1 haa5 zyu2 gun2 waa6 ni1 caan1 zeoi3 gung1 ping4 jan4 jan4 dou1 sik6 gwo3 gaa3 lei1 zeoi3 hau6 aa3 gin6 sau1 zau2 sei3 go3 hung1 hap6 fo2 gai3 zung6 cyun4 seon3 sik1 man6 haa6 ci3 jiu3 m4 jiu3 wai6 zoeng3 zap1 jyu6 lau4 zo6 wai2 ngo5 dei6 waa6 m4 sai2 sung3 dou3 sin1 sik6 m4 sai2 hoi1 faat3 biu2 wui6",
+        "gloss": "星期二中午，部门去茶餐厅叫外卖，阿健负责问大家有没有忌口。全组回答得很有默契：一个说少放点汁，另一个说不要太干，第三个补充最好每样都有，但不要太多。阿健照着记，下单时跟伙计说得像在开规格会。送到公司后，伙计把咖喱汁另外装成四小盒，薯条另外放，白饭又多加了一盒。大家先吃起来，吃到一半才发现汁少得可怜；阿健把四盒咖喱汁分到四个饭碟，每碟只够画一个圈。主管看着四个饭盒，说今天像是开了画圆比赛。大家把饭边那圈咖喱刮进一个小碗，凑起来还不够一口饭。阿健看着小碗问大家怎么办，众人研究一轮，决定轮流用勺子点一下。主管说这顿最公平，人人都吃过咖喱。最后阿健收走四个空盒，伙计还发消息问下次要不要给酱汁预留座位。我们说不用，菜到了先吃，不用再开规格会。",
+        "usageTip": "故事练习：复述大家怎样把少汁、不干和每样都要说成复杂规格，伙计怎样把咖喱汁分装，最后众人怎样把饭碟边上的咖喱刮进小碗，再轮流用勺子尝一口。"
+      },
+      "han_character_count": 270,
+      "jyutping_syllable_count": 270,
+      "alignment_check": "每句逐音节核对，汉字数与粤拼音节数一致；粤拼逐字手工复核",
+      "revised_candidate_content_sha256": "37bc5d4b23f5f44f5e81da27ed8be07bbbeb62d99c90ec8ff7bff370611a9704",
+      "keeper_difference": "改为部门外卖配菜方式引发的规格细分和小盒摆满；不使用同姓餐盒、姓名标签或抽签认领机制。",
+      "independent_review_response": "已补明先开饭及食到一半，四盒咖喱分给四碟，每碟仅够画一圈；众人刮合后仍不足一口，故分量关系和分食动作可见。"
+    },
+    {
+      "order": 644,
+      "id": "sentence-bank-long_food_shopping_02-0026",
+      "source_file": "content/sentence_bank/long_food_shopping_02.json",
+      "source_index": 25,
+      "category": "外賣溝通",
+      "source_sha256": "dbc47601f43e021985c1fdf84ff2b63606aaf1c0e2b6e9e8d0e07bb816b6c195",
+      "previous_candidate": {
+        "category": "外賣溝通",
+        "sentence": "星期四開會前，我替同事去茶餐廳拎飲品。大家只講一句：凍啲。伙計問幾凍，我怕講唔清，答凍到啱飲就得。返到公司，阿欣一摸杯身話唔夠凍，阿健又話太凍會冇茶味，主管就叫我放雪櫃三分鐘再試。我將幾杯排成一行，貼住雪櫃門計時；三分鐘一到，最外邊嗰杯已經結水，最入面嗰杯仲暖。原來雪櫃風口只吹到一角。我哋搬位再等，開會時間愈來愈近，大家卻圍住杯飲品輪流摸杯身，似做產品測試。最後主管拎起一杯飲咗一啖，話溫度啱啱好。我問佢點樣試出嚟，佢指住自己個口：我係用嘴驗收，唔係用手。會後阿欣幫我寫咗張備忘：下次凍飲，直接飲，唔好先開雪櫃會議。",
+        "jyutping": "sing1 kei4 sei3 hoi1 wui6 cin4 ngo5 tai3 tung4 si6 heoi3 caa4 caan1 teng1 ling1 jam2 ban2 daai6 gaa1 zi2 gong2 jat1 geoi3 dung3 di1 fo2 gai3 man6 gei2 dung3 ngo5 paa3 gong2 m4 cing1 daap3 dung3 dou3 ngaam1 jam2 zau6 dak1 faan1 dou3 gung1 si1 aa3 jan1 jat1 mo2 bui1 san1 waa6 m4 gau3 dung3 aa3 gin6 jau6 waa6 taai3 dung3 wui5 mou5 caa4 mei6 zyu2 gun2 zau6 giu3 ngo5 fong3 syut3 gwai6 saam1 fan1 zung1 zoi3 si3 ngo5 zoeng1 gei2 bui1 paai4 sing4 jat1 hong4 tip3 zyu6 syut3 gwai6 mun4 gai3 si4 saam1 fan1 zung1 jat1 dou3 zeoi3 ngoi6 bin1 go2 bui1 ji5 ging1 git3 seoi2 zeoi3 jap6 min6 go2 bui1 zung6 nyun5 jyun4 loi4 syut3 gwai6 fung1 hau2 zi2 ceoi1 dou3 jat1 gok3 ngo5 dei6 bun1 wai2 zoi3 dang2 hoi1 wui6 si4 gaan3 jyut6 loi4 jyut6 gan6 daai6 gaa1 koek3 wai4 zyu6 bui1 jam2 ban2 leon4 lau4 mo2 bui1 san1 ci5 zou6 caan2 ban2 caak3 si3 zeoi3 hau6 zyu2 gun2 ling1 hei2 jat1 bui1 jam2 zo2 jat1 daam6 waa6 wan1 dou6 ngaam1 ngaam1 hou2 ngo5 man6 keoi5 dim2 joeng6 si3 ceot1 lai4 keoi5 zi2 zyu6 zi6 gei2 go3 hau2 ngo5 hai6 jung6 zeoi2 jim6 sau1 m4 hai6 jung6 sau2 wui6 hau6 aa3 jan1 bong1 ngo5 se2 zo2 zoeng1 bei6 mong4 haa6 ci3 dung3 jam2 zik6 zip3 jam2 m4 hou2 sin1 hoi1 syut3 gwai6 wui6 ji5",
+        "gloss": "星期四开会前，我替同事去茶餐厅拿饮料。大家只说一句：凉一点。伙计问要多凉，我怕说不清，回答凉到刚好入口就行。回到公司，阿欣一摸杯身就说不够凉，阿健又说太凉会没茶味，主管便叫我放冰箱三分钟再试。我把几杯排成一行，贴着冰箱门计时；三分钟一到，最外边那杯已经结水，最里面那杯还温着。原来冰箱风口只吹到一个角落。我们换了位置再等，开会时间越来越近，大家却围着饮料轮流摸杯身，像在做产品测试。最后主管拿起一杯喝了一口，说温度刚刚好。我问他怎么试出来的，他指着自己的嘴：我是用嘴验收，不是用手。会后阿欣帮我写了张备忘：下次冷饮，直接喝，不要先开冰箱会议。",
+        "usageTip": "故事练习：复述“凍啲”如何变成冰箱测温会，讲清风口只吹到一角、大家轮流摸杯，最后主管怎样用嘴验收。"
+      },
+      "previous_candidate_content_sha256": "84a30de86644b86199b98b82fd8acff9aec8f8f89bfead1dd942309657120f8d",
+      "revised_candidate": {
+        "category": "外賣溝通",
+        "sentence": "星期四開會前，我替同事去茶餐廳拎飲品。大家只講一句：凍啲。伙計問幾凍，我怕講唔清，答凍到啱飲就得。返到公司，阿欣一摸杯身話唔夠凍，阿健又話太凍會冇茶味，主管就叫我放雪櫃三分鐘再試。我將幾杯排成一行，貼住雪櫃門計時；三分鐘一到，最外邊嗰杯杯身已經出晒水珠，最入面嗰杯仲暖。原來雪櫃風口只吹到一角。我哋搬位再等，開會時間愈來愈近，大家卻圍住杯飲品輪流摸杯身，似做產品測試。最後主管拎起一杯飲咗一啖，話溫度啱啱好。我問佢點樣試出嚟，佢指住自己個口：我係用嘴驗收，唔係用手。會後阿欣幫我寫咗張字條：下次凍飲，直接飲，唔好先開雪櫃會議。",
+        "jyutping": "sing1 kei4 sei3 hoi1 wui6 cin4 ngo5 tai3 tung4 si6 heoi3 caa4 caan1 teng1 ling1 jam2 ban2 daai6 gaa1 zi2 gong2 jat1 geoi3 dung3 di1 fo2 gai3 man6 gei2 dung3 ngo5 paa3 gong2 m4 cing1 daap3 dung3 dou3 ngaam1 jam2 zau6 dak1 faan1 dou3 gung1 si1 aa3 jan1 jat1 mo2 bui1 san1 waa6 m4 gau3 dung3 aa3 gin6 jau6 waa6 taai3 dung3 wui5 mou5 caa4 mei6 zyu2 gun2 zau6 giu3 ngo5 fong3 syut3 gwai6 saam1 fan1 zung1 zoi3 si3 ngo5 zoeng1 gei2 bui1 paai4 sing4 jat1 hong4 tip3 zyu6 syut3 gwai6 mun4 gai3 si4 saam1 fan1 zung1 jat1 dou3 zeoi3 ngoi6 bin1 go2 bui1 bui1 san1 ji5 ging1 ceot1 saai3 seoi2 zyu1 zeoi3 jap6 min6 go2 bui1 zung6 nyun5 jyun4 loi4 syut3 gwai6 fung1 hau2 zi2 ceoi1 dou3 jat1 gok3 ngo5 dei6 bun1 wai2 zoi3 dang2 hoi1 wui6 si4 gaan3 jyut6 loi4 jyut6 gan6 daai6 gaa1 koek3 wai4 zyu6 bui1 jam2 ban2 leon4 lau4 mo2 bui1 san1 ci5 zou6 caan2 ban2 caak3 si3 zeoi3 hau6 zyu2 gun2 ling1 hei2 jat1 bui1 jam2 zo2 jat1 daam6 waa6 wan1 dou6 ngaam1 ngaam1 hou2 ngo5 man6 keoi5 dim2 joeng6 si3 ceot1 lai4 keoi5 zi2 zyu6 zi6 gei2 go3 hau2 ngo5 hai6 jung6 zeoi2 jim6 sau1 m4 hai6 jung6 sau2 wui6 hau6 aa3 jan1 bong1 ngo5 se2 zo2 zoeng1 zi6 tiu4 haa6 ci3 dung3 jam2 zik6 zip3 jam2 m4 hou2 sin1 hoi1 syut3 gwai6 wui6 ji5",
+        "gloss": "星期四开会前，我替同事去茶餐厅拿饮料。大家只说一句：凉一点。伙计问要多凉，我怕说不清，回答凉到刚好入口就行。回到公司，阿欣一摸杯身就说不够凉，阿健又说太凉会没茶味，主管便叫我放冰箱三分钟再试。我把几杯排成一行，贴着冰箱门计时；三分钟一到，最外边那杯杯身已经冒出很多水珠，最里面那杯还温着。原来冰箱风口只吹到一个角落。我们换了位置再等，开会时间越来越近，大家却围着饮料轮流摸杯身，像在做产品测试。最后主管拿起一杯喝了一口，说温度刚刚好。我问他怎么试出来的，他指着自己的嘴：我是用嘴验收，不是用手。会后阿欣帮我写了张字条：下次冷饮，直接喝，不要先开冰箱会议。",
+        "usageTip": "故事练习：复述“凍啲”如何变成冰箱测温会，讲清风口只吹到一角、大家轮流摸杯，最后主管怎样用嘴验收。"
+      },
+      "han_character_count": 232,
+      "jyutping_syllable_count": 232,
+      "alignment_check": "每句逐音节核对，汉字数与粤拼音节数一致；粤拼逐字手工复核",
+      "revised_candidate_content_sha256": "99b9cd3e5f85b26cbac43ed0464252a93d248e85ddaf2bd2c86a730179260a3d",
+      "keeper_difference": "改为大家对冷饮温度要求冲突，围着冰箱风口测温；不使用饮料口味标签点名或漏写姓名。",
+      "independent_review_response": "已将“结水”改为“杯身已經出晒水珠”，并将“备忘”改为“字条”，同步修改粤拼和简体译文。"
+    },
+    {
+      "order": 645,
+      "id": "sentence-bank-long_food_shopping_02-0028",
+      "source_file": "content/sentence_bank/long_food_shopping_02.json",
+      "source_index": 27,
+      "category": "外賣溝通",
+      "source_sha256": "0d37c5fab7a99db1f893dd5d36a1707847f7a058788436852a1c6e23080ef006",
+      "previous_candidate": {
+        "category": "外賣溝通",
+        "sentence": "放工後我同阿朗去茶餐廳買兩份外賣，佢話想帶返工作室慢慢食。落單時伙計問要唔要餐具，阿朗望住背囊話唔使，屋企有。我哋拎住兩袋返去，坐低先發現兩個都冇帶匙羹。阿朗打開背囊，搵出鉛筆、充電線同半包紙巾，話個袋好有準備，淨係冇準備食飯。我用咖啡攪拌棒試住舀湯，支棒彎到似問號。阿朗摺起紙巾做托盤，先挑麵，再用袋邊兜湯，成餐似做手工。第二日再去，伙計未等我哋開口就遞兩套餐具。我哋話今次帶齊喇，佢望住我手上支鉛筆問：呢支都係餐具？我即刻收返入袋，話佢係今日嘅備用筷子。我哋終於食完，仲覺得自己係咪叫咗份工作餐。",
+        "jyutping": "fong3 gung1 hau6 ngo5 tung4 aa3 long5 heoi3 caa4 caan1 teng1 maai5 loeng5 fan6 ngoi6 maai6 keoi5 waa6 soeng2 daai3 faan1 gung1 zok3 sat1 maan6 maan6 sik6 lok6 daan1 si4 fo2 gai3 man6 jiu3 m4 jiu3 caan1 geoi6 aa3 long5 mong6 zyu6 bui3 nong4 waa6 m4 sai2 uk1 kei2 jau5 ngo5 dei6 ling1 zyu6 loeng5 doi2 faan1 heoi3 co5 dai1 sin1 faat3 jin6 loeng5 go3 dou1 mou5 daai3 ci4 gang1 aa3 long5 daa2 hoi1 bui3 nong4 wan2 ceot1 jyun4 bat1 cung1 din6 sin3 tung4 bun3 baau1 zi2 gan1 waa6 go3 doi2 hou2 jau5 zeon2 bei6 zing6 hai6 mou5 zeon2 bei6 sik6 faan6 ngo5 jung6 gaa3 fe1 gaau2 ban6 baang1 si3 zyu6 jiu5 tong1 zi1 baang1 waan1 dou3 ci5 man6 hou6 aa3 long5 zip3 hei2 zi2 gan1 zou6 tok3 pun4 sin1 tiu1 min6 zoi3 jung6 doi2 bin1 dau1 tong1 seng4 caan1 ci5 zou6 sau2 gung1 dai6 ji6 jat6 zoi3 heoi3 fo2 gai3 mei6 dang2 ngo5 dei6 hoi1 hau2 zau6 dai6 loeng5 tou3 caan1 geoi6 ngo5 dei6 waa6 gam1 ci3 daai3 cai4 laa3 keoi5 mong6 zyu6 ngo5 sau2 soeng6 zi1 jyun4 bat1 man6 ni1 zi1 dou1 hai6 caan1 geoi6 ngo5 zik1 hak1 sau1 faan1 jap6 doi2 waa6 keoi5 hai6 gam1 jat6 ge3 bei6 jung6 faai3 zi2 ngo5 dei6 zung1 jyu1 sik6 jyun4 zung6 gok3 dak1 zi6 gei2 hai6 mai6 giu3 zo2 fan6 gung1 zok3 caan1",
+        "gloss": "下班后我和阿朗去茶餐厅买两份外卖，他说想带回工作室慢慢吃。下单时伙计问要不要餐具，阿朗看着背包说不用，家里有。我们拎着两袋回去，坐下才发现两个人都没带勺子。阿朗打开背包，找出铅笔、充电线和半包纸巾，说这才知道包里准备得很齐全，唯独没准备吃饭。我用咖啡搅拌棒试着舀汤，棒子弯得像问号。阿朗把纸巾折成托盘，先挑面，再用袋边兜汤，整顿饭吃得像在做手工。第二天再去，伙计还没等我们开口就递来两套餐具。我们说这次带齐了，他看着我手里的铅笔问：这支也是餐具？我马上把它收回包里，说它是今天的备用筷子。我们终于吃完，还觉得自己是不是点了一份工作餐。",
+        "usageTip": "故事练习：复述两人自信说有餐具、打开背包却找出铅笔和充电线，再讲咖啡搅拌棒弯成问号、纸巾变托盘，以及铅笔如何变成备用筷子。"
+      },
+      "previous_candidate_content_sha256": "03efb417a34ea02829e2a7de18a472528a4f709daf52fad9d884e3a538dcb63e",
+      "revised_candidate": {
+        "category": "外賣溝通",
+        "sentence": "放工後我同阿朗去茶餐廳買兩份外賣，佢話想帶返工作室慢慢食。落單時伙計問要唔要餐具，阿朗望住背囊話唔使，屋企有。我哋拎住兩袋返去，坐低先發現兩個都冇帶匙羹。阿朗打開背囊，搵出鉛筆、充電線同半包紙巾，話個袋好有準備，淨係冇準備食飯。我用咖啡攪拌棒試住舀湯，支棒彎到似問號。阿朗摺起紙巾做托盤，先挑麵，再用袋邊兜湯，成餐似做手工。第二日再去，伙計未等我哋開口就遞兩套餐具。我哋話今次帶齊喇，佢望住我手上支鉛筆問：呢支都係餐具？我即刻收返入袋，話佢係今日嘅備用筷子。食完我先發現，呢餐唔似叫外賣，似叫咗堂即場求生班。",
+        "jyutping": "fong3 gung1 hau6 ngo5 tung4 aa3 long5 heoi3 caa4 caan1 teng1 maai5 loeng5 fan6 ngoi6 maai6 keoi5 waa6 soeng2 daai3 faan1 gung1 zok3 sat1 maan6 maan6 sik6 lok6 daan1 si4 fo2 gai3 man6 jiu3 m4 jiu3 caan1 geoi6 aa3 long5 mong6 zyu6 bui3 nong4 waa6 m4 sai2 uk1 kei2 jau5 ngo5 dei6 ling1 zyu6 loeng5 doi2 faan1 heoi3 co5 dai1 sin1 faat3 jin6 loeng5 go3 dou1 mou5 daai3 ci4 gang1 aa3 long5 daa2 hoi1 bui3 nong4 wan2 ceot1 jyun4 bat1 cung1 din6 sin3 tung4 bun3 baau1 zi2 gan1 waa6 go3 doi2 hou2 jau5 zeon2 bei6 zing6 hai6 mou5 zeon2 bei6 sik6 faan6 ngo5 jung6 gaa3 fe1 gaau2 bun6 paang5 si3 zyu6 jiu5 tong1 zi1 paang5 waan1 dou3 ci5 man6 hou6 aa3 long5 zip3 hei2 zi2 gan1 zou6 tok3 pun4 sin1 tiu1 min6 zoi3 jung6 doi2 bin1 dau1 tong1 seng4 caan1 ci5 zou6 sau2 gung1 dai6 ji6 jat6 zoi3 heoi3 fo2 gai3 mei6 dang2 ngo5 dei6 hoi1 hau2 zau6 dai6 loeng5 tou3 caan1 geoi6 ngo5 dei6 waa6 gam1 ci3 daai3 cai4 laa3 keoi5 mong6 zyu6 ngo5 sau2 soeng6 zi1 jyun4 bat1 man6 ni1 zi1 dou1 hai6 caan1 geoi6 ngo5 zik1 hak1 sau1 faan1 jap6 doi2 waa6 keoi5 hai6 gam1 jat6 ge3 bei6 jung6 faai3 zi2 sik6 jyun4 ngo5 sin1 faat3 jin6 ni1 caan1 m4 ci5 giu3 ngoi6 maai6 ci5 giu3 zo2 tong4 zik1 coeng4 kau4 sang1 baan1",
+        "gloss": "下班后我和阿朗去茶餐厅买两份外卖，他说想带回工作室慢慢吃。下单时伙计问要不要餐具，阿朗看着背包说不用，家里有。我们拎着两袋回去，坐下才发现两个人都没带勺子。阿朗打开背包，找出铅笔、充电线和半包纸巾，说这才知道包里准备得很齐全，唯独没准备吃饭。我用咖啡搅拌棒试着舀汤，棒子弯得像问号。阿朗把纸巾折成托盘，先挑面，再用袋边兜汤，整顿饭吃得像在做手工。第二天再去，伙计还没等我们开口就递来两套餐具。我们说这次带齐了，他看着我手里的铅笔问：这支也是餐具？我马上把它收回包里，说它是今天的备用筷子。吃完我才发现，这顿不像叫外卖，倒像报了一堂现场求生班。",
+        "usageTip": "故事练习：复述两人自信说有餐具、打开背包却找出铅笔和充电线，再讲咖啡搅拌棒弯成问号、纸巾变托盘，以及铅笔如何变成备用筷子，最后怎样把这顿饭说成现场求生班。"
+      },
+      "han_character_count": 226,
+      "jyutping_syllable_count": 226,
+      "alignment_check": "每句逐音节核对，汉字数与粤拼音节数一致；粤拼逐字手工复核",
+      "revised_candidate_content_sha256": "2d60fcbdbc43745528576e3390c8113015014f6f7f9054608a2fb9e428d7d84f",
+      "keeper_difference": "改为没带餐具后用咖啡搅拌棒和纸巾临时就餐；不使用“到咗”语义误会或送餐到家状态。",
+      "independent_review_response": "两处“棒”均改读 paang5；尾句改为现场求生班，粤拼、译文和复述提示同步更新。"
+    }
+  ]
+}

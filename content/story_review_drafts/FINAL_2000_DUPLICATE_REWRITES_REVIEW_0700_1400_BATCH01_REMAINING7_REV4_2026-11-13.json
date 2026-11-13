@@ -1,0 +1,87 @@
+{
+  "report": "FINAL_2000_DUPLICATE_REWRITES_REVIEW_0700_1400_BATCH01_REMAINING7_REV4",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent_review",
+  "reviewed_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_0700_1400_BATCH01_REMAINING7_REV4_2026-11-13.json",
+  "reviewed_file_sha256": "c204e331366cfc13f42844d5bf326a65e211594c9cfa180db15c2bd46fa7aeb2",
+  "freeze_file": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "freeze_manifest_sha256": "863768b0fe764bf81cf93858c0a9caebf01a3b975bc5ffb5d39a59a9731bca11",
+  "scope_orders": [
+    665,
+    757
+  ],
+  "coverage_count": 2,
+  "unique_orders": 2,
+  "unique_ids": 2,
+  "verdict_counts": {
+    "PASS": 1,
+    "REVISE": 1
+  },
+  "items": [
+    {
+      "order": 665,
+      "id": "sentence-bank-long_food_shopping_02-0058",
+      "category": "食物過敏與保存",
+      "verdict": "REVISE",
+      "source_file": "content/sentence_bank/long_food_shopping_02.json",
+      "source_index": 57,
+      "freeze_source_sha256": "e83f882d002b00e13f9cf4236f3236f663c047485631e768b56b78075ddeeb7f",
+      "current_source_sha256_recomputed": "e83f882d002b00e13f9cf4236f3236f663c047485631e768b56b78075ddeeb7f",
+      "candidate_file_sha256": "c204e331366cfc13f42844d5bf326a65e211594c9cfa180db15c2bd46fa7aeb2",
+      "candidate_content_sha256_recomputed": "2a9279b8d05c183e12fb209558b5cee47c3d4e2e17ab277ada33587745cb2d2d",
+      "candidate_content_sha256_declared": "2a9279b8d05c183e12fb209558b5cee47c3d4e2e17ab277ada33587745cb2d2d",
+      "source_id_freeze_match": true,
+      "source_hash_matches_freeze_and_current": true,
+      "candidate_hash_matches_declared": true,
+      "han_count": 226,
+      "jyutping_token_count": 226,
+      "alignment_count_match": true,
+      "field_checks": {
+        "story": "REVISE：核心冰箱猜菜笑点明确，结尾回扣猜盒；但首盒是否确认及碗具连续性含混，见证据。",
+        "jyutping": "数量对齐 226/226；逐词抽查的主要粤语词项及声调对应正文。此项不单独阻塞，但随故事改字须同步重核。",
+        "gloss": "逐句覆盖当前故事，椰菜花、饭、猜盒和台面内容一致；已清除土豆残留。",
+        "usageTip": "以“故事练习：”开头，内容对应认菜、凭重量误猜及猜盒回扣；已清除土豆残留。"
+      },
+      "evidence": "核对句证：「我先拎出一盒白色飯」与后文「兩盒都冇標籤…左邊重…係飯」对“已知/猜测”状态不一致；「望住兩隻碗」在正文未先交代碗，后文才出现「倒入碟」。",
+      "findings": [
+        "实体/顺序错误已修正：候稿、译文和提示均只出现椰菜花与饭；不再残留土豆，也没有旧稿冲突。",
+        "故事因果仍含混：开头说「先拎出一盒白色飯」，随后又说两盒都无标签、靠重量判别；读者无法知道第一盒的“饭”是已确认还是猜测。后续“左边重就话係飯”因此像重复猜测，揭开后才显出错判。建议将开头改成“以为係飯/白飯”，并把两盒左右位置和误判讲清楚。",
+        "连续性小问题：「阿欣望住兩隻碗」之前没有碗具登场，下一句才说把盒中剩菜倒进碟；建议改为望住两盒/两碟，或在倒菜步骤前说明盛进碗。当前约226个汉字，达到220下限但短于250–300主区间。",
+        "226个汉字与226个粤拼token数量对齐；粤拼抽查与主要词项声调、语境对应基本可用，直接引语边界也在。"
+      ]
+    },
+    {
+      "order": 757,
+      "id": "sentence-bank-long_food_shopping_04-0008",
+      "category": "茶餐廳",
+      "verdict": "PASS",
+      "source_file": "content/sentence_bank/long_food_shopping_04.json",
+      "source_index": 7,
+      "freeze_source_sha256": "40a735181e4e474139d54f908d3f8c8a06da605fda0f937f7e1151cad7799f54",
+      "current_source_sha256_recomputed": "40a735181e4e474139d54f908d3f8c8a06da605fda0f937f7e1151cad7799f54",
+      "candidate_file_sha256": "c204e331366cfc13f42844d5bf326a65e211594c9cfa180db15c2bd46fa7aeb2",
+      "candidate_content_sha256_recomputed": "2ccb7536dd059778163689169b12179d3f42d8e96eb2b5de8c8f180769be565c",
+      "candidate_content_sha256_declared": "2ccb7536dd059778163689169b12179d3f42d8e96eb2b5de8c8f180769be565c",
+      "source_id_freeze_match": true,
+      "source_hash_matches_freeze_and_current": true,
+      "candidate_hash_matches_declared": true,
+      "han_count": 230,
+      "jyutping_token_count": 230,
+      "alignment_count_match": true,
+      "field_checks": {
+        "story": "PASS：因果、逐步升级和末尾回扣成立；对白标点完整。",
+        "jyutping": "PASS：数量对齐 230/230；「攞支匙羹嚟量」对应 lo2 zi1 ci4 gang1 lai4 loeng4，声调与词项对应。",
+        "gloss": "PASS：完整覆盖正文情节与对白含义，包括“拿把汤匙来量”及公告笑点。",
+        "usageTip": "PASS：以“故事练习：”开头，概括加水试饮、旁桌加入和公告结尾。"
+      },
+      "evidence": "核对句证：「我先拎出一盒白色飯」与后文「兩盒都冇標籤…左邊重…係飯」对“已知/猜测”状态不一致；「望住兩隻碗」在正文未先交代碗，后文才出现「倒入碟」。",
+      "findings": [
+        "生活段子因果完整：冲淡奶茶引发误会，旁桌加入试验，伙计贴“热水免费，茶味自负”，结尾用实验报告回扣。",
+        "修订词准确：正文是「攞支匙羹嚟量」，粤拼对应「lo2 zi1 ci4 gang1 lai4 loeng4」；lo2 对攞、lai4 对嚟，语境读音和声调适切。",
+        "230个汉字与230个粤拼token对齐；逐字段检查译文完整复现事件，提示以“故事练习：”开头且对应本故事。"
+      ]
+    }
+  ],
+  "canonical_modified": false,
+  "summary": "仅审查 REV4 的 665 与 757。757 PASS；665 的四字段与哈希已同步且去除土豆残留，但故事仍需澄清首盒是否已确认、碗具连续性，故 REVISE。"
+}

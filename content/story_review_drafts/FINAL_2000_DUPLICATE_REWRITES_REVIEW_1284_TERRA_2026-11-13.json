@@ -1,0 +1,79 @@
+{
+  "report": "FINAL_2000_DUPLICATE_REWRITES_REVIEW_1284_TERRA_2026-11-13",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "candidate_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITE_1284_TERRA_CANDIDATE_2026-11-13.json",
+  "candidate_file_sha256": "478c1c1e4a143e2c68ffd7e09fa53c65c0d346933aa1df8542ccb7c235f47c5b",
+  "expected_candidate_file_sha256": "478c1c1e4a143e2c68ffd7e09fa53c65c0d346933aa1df8542ccb7c235f47c5b",
+  "file_hash_match": true,
+  "candidate_fields_sha256_reported": "c3083256a1d2e5588b348326bed7455670f804230f497475b206033dcdb61346",
+  "candidate_fields_sha256_recomputed": "c3083256a1d2e5588b348326bed7455670f804230f497475b206033dcdb61346",
+  "candidate_fields_hash_matches_expected": true,
+  "candidate_fields_hash_matches_reported": true,
+  "freeze_file": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "freeze_file_sha256": "4c3ac877867079fd053c88374eb434f94cfb3e09fd67a76b0b7f6424fb119843",
+  "freeze_manifest_sha256": "863768b0fe764bf81cf93858c0a9caebf01a3b975bc5ffb5d39a59a9731bca11",
+  "freeze_manifest_stale": false,
+  "order": 1284,
+  "id": "sentence-bank-long_food_shopping_18-0038",
+  "category": "超市買生菜收到芥蘭替代品",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "source_file": "content/sentence_bank/long_food_shopping_18.json",
+  "source_index": 37,
+  "id_matches_freeze": true,
+  "category_matches_current_source": true,
+  "source_sha256_frozen": "bb925851673142410ed95f7326fdee40b0bef0dbffe68efd50112a3e9a0c8141",
+  "source_sha256_declared": "bb925851673142410ed95f7326fdee40b0bef0dbffe68efd50112a3e9a0c8141",
+  "source_sha256_recomputed": "bb925851673142410ed95f7326fdee40b0bef0dbffe68efd50112a3e9a0c8141",
+  "source_hash_match": true,
+  "counts": {
+    "han_recomputed": 242,
+    "jyutping_tokens_recomputed": 242,
+    "han_declared": 242,
+    "tokens_declared": 242,
+    "aligned": true,
+    "jyutping_cjk_residue": false,
+    "story_220_to_320": true
+  },
+  "candidate_fields": {
+    "sentence": "我同阿朗喺超市程式訂生菜，打算帶返公司整沙律。送貨一到，我哋打開袋，入面竟然係一扎芥蘭。阿朗話要影張相問客服點解換咗，拎起手機對住袋口，按完先發現開咗前鏡頭，相入面得佢自己個皺眉樣。佢轉返鏡頭，再叫我托高袋；我手一震，芥蘭葉遮住個鏡頭，張相綠到乜都睇唔見。佢叫我企定，自己蹲低取景，點知袋底穿咗個窿，一條菜莖慢慢伸出嚟。我哋一邊托袋一邊影，客服終於回覆，話訂單設定咗缺貨可替代，並教我下次先確認選項。阿朗睇返啲相，問邊張最清楚。我指住第一張佢皺眉嘅自拍話：「呢張最清楚，清楚交代我哋開袋嗰陣嘅反應。」佢收起手機，話今次先炒芥蘭，下次記得睇清楚設定。",
+    "jyutping": "ngo5 tung4 aa3 long5 hai2 ciu1 si5 cing4 sik1 deng6 saang1 coi3, daa2 syun3 daai3 faan1 gung1 si1 zing2 saa1 leot6. sung3 fo3 jat1 dou3, ngo5 dei6 daa2 hoi1 doi6, jap6 min6 ging2 jin4 hai6 jat1 zaat3 gaai3 laan2. aa3 long5 waa6 jiu3 jing2 zoeng1 soeng2 man6 haak3 fuk6 dim2 gaai2 wun6 zo2, ling1 hei2 sau2 gei1 deoi3 zyu6 doi6 hau2, on3 jyun4 sin1 faat3 jin6 hoi1 zo2 cin4 geng3 tau4, soeng2 jap6 min6 dak1 keoi5 zi6 gei2 go3 zau3 mei4 joeng2. keoi5 zyun2 faan1 geng3 tau4, zoi3 giu3 ngo5 tok3 gou1 doi6; ngo5 sau2 jat1 zan3, gaai3 laan2 jip6 ze1 zyu6 go3 geng3 tau4, zoeng1 soeng2 luk6 dou3 mat1 dou1 tai2 m4 gin3. keoi5 giu3 ngo5 kei5 ding6, zi6 gei2 zeon1 dai1 ceoi2 ging2, dim2 zi1 doi6 dai2 cyun1 zo2 go3 lung1, jat1 tiu4 coi3 hang1 maan6 maan6 san1 ceot1 lai4. ngo5 dei6 jat1 bin1 tok3 doi6 jat1 bin1 jing2, haak3 fuk6 zung1 jyu1 wui4 fuk1, waa6 deng6 daan1 cit3 ding6 zo2 kyut3 fo3 ho2 tai3 doi6, bing6 gaau3 ngo5 haa6 ci3 sin1 kok3 jing6 syun2 hong6. aa3 long5 tai2 faan1 di1 soeng2, man6 bin1 zoeng1 zeoi3 cing1 co2. ngo5 zi2 zyu6 dai6 jat1 zoeng1 keoi5 zau3 mei4 ge3 zi6 paak3 waa6: 「ni1 zoeng1 zeoi3 cing1 co2, cing1 co2 gaau1 doi3 ngo5 dei6 hoi1 doi6 go2 zan6 ge3 faan2 jing3.」 keoi5 sau1 hei2 sau2 gei1, waa6 gam1 ci3 sin1 caau2 gaai3 laan2, haa6 ci3 gei3 dak1 tai2 cing1 co2 cit3 ding6.",
+    "gloss": "我和阿朗在超市程序订生菜，打算带回公司做沙拉。送货一到，我们打开袋子，里面竟然是一把芥兰。阿朗说要拍照问客服为什么换了，拿起手机对着袋口，按完才发现开了前置镜头，照片里只有他自己皱眉的样子。他切回镜头，又叫我把袋子托高；我手一抖，芥兰叶遮住镜头，照片绿得什么也看不见。他叫我站稳，自己蹲下取景，没想到袋底破了个洞，一根菜茎慢慢伸出来。我们一边托袋一边拍，客服终于回复，说订单设置了缺货可替代，并教我下次先确认选项。阿朗翻看照片，问哪张最清楚。我指着第一张他皱眉的自拍说：“这张最清楚，清楚交代了我们开袋时的反应。”他收起手机，说这次先炒芥兰，下次记得看清设置。",
+    "usageTip": "故事练习：复述阿朗怎样拍照询问生菜被替换的原因，前置镜头、菜叶和袋底的洞怎样令拍照越忙越乱；最后讲客服的解释和皱眉自拍的回扣。"
+  },
+  "keeper": {
+    "order": 1123,
+    "id": "sentence-bank-long_food_shopping_13-0075",
+    "sha256": "dd29de41eaf23bd0190b5a4a33a898114aed40a6c199aa7050bc930863dcecc9",
+    "story": "同事阿晴話周末要煮士多啤梨果醬，叫我陪佢去超市揀果。佢企喺生果櫃前開備忘錄，逐盒寫評語：顏色太淡、身形唔齊、眼神唔夠堅定。我望一望，問佢：「你係買士多啤梨，定係替果醬請員工？」阿晴話一鍋果醬都要有團隊精神，仲拎起一粒問：「你入鍋之後肯唔肯合作？」隔離阿叔聽到，拎住兩盒問店員邊盒「比較聽話」。店員忍笑，叫我哋先揀完整新鮮嘅；至於乜嘢性格，煮落去就睇唔出。阿晴點頭，終於挑好一盒，仲喺清單寫「全員錄取」。返到辦公室，同事見到盒上標籤，以為係新同事名單，逐個問邊個負責茶水。阿晴先洗淨士多啤梨，瀝乾水，再將盒放喺枱中間：「佢哋今日先見習，暫時只負責令全組精神啲。」午休完，果盒只剩空托盤；阿晴望住名單嘆氣：「果醬未煮，見習生已經集體離職，連辭職信都俾人食埋。」"
+  },
+  "neighbors": [
+    {
+      "order": 7,
+      "id": "sentence-bank-long_family_finance_services_01-0011",
+      "sha256": "899596a0bd1c3fe0ee4c301ad65cc35ee3b01a184c6653bd6bfdbea1df2d4ad6",
+      "story": "我同阿志合租，客廳新放咗張格仔地氈。我行過嗰陣，唔知點解就想淨係踩淺色嗰啲格，明明由梳化去枱邊好近，都要左一步右一步咁行。阿志坐喺旁邊睇，問我隻腳係咪唔舒服。我話冇，只係啱啱想試吓可唔可以一路踩住同一隻色。佢叫我行直線就得，我話知，但對腳已經又揀好下一格。過咗陣，我想去廚房，佢想伸吓腳，順手將身邊個攬枕放喺地氈上，啱啱遮住我想踩嗰格。我就停低望，佢見我唔行，伸手想幫我拎開。我自己先笑：「唔使，地下又冇爛。」我跨過攬枕，照平時咁行入廚房。阿志跟住笑，話屋企條路明明冇變，我自己整到要諗點行。我拎兩個空杯返客廳，今次直接行去枱邊，冇再左右兜。坐低後，我又望吓張地氈，見嗰幾個淺色格斜住連成一行，忍唔住笑。阿志問仲想試呀，我話留返我空手嗰陣，今日至少唔會拎住杯仲左兜右兜。"
+    },
+    {
+      "order": 50,
+      "id": "sentence-bank-long_family_finance_services_01-0058",
+      "sha256": "35cbfa0516b4fbcc4fb17ae55ead3bd8d4f6101544c9064812e72fc871e02f05",
+      "story": "星期五放工後，我同兩個朋友去食麵，阿強一坐低就指住辣湯麵話自己最頂得辣，仲叫店員加少少辣椒。第一啖落肚，佢停咗一停，拎起水杯飲兩啖，話湯底太熱，等一等先食。隔咗一陣，佢再試第二啖，眉頭皺起，額頭冒汗；佢抹一抹，話係店入面冷氣吹得太凍，身體先會反應大。我哋問佢要唔要換清湯，佢笑住搖頭，話未到要換，自己只係想慢慢欣賞辣味。之後每食一啖，佢就講多一個理由：水飲得快係口渴，停低係等香味散開，抹汗係擦眼鏡時順手。朋友冇催佢，只係把紙巾推近少少，繼續食自己碗麵。阿強按自己舒服嘅速度食完，抹乾嘴角，宣布今日終於打敗辣麵。朋友望住佢飲空嘅水杯，話：「你食晒碗麵，最先投降嘅係杯水。」阿強望望空杯，笑住答：「下次我叫清湯，等個解釋都可以休息。」"
+    },
+    {
+      "order": 54,
+      "id": "sentence-bank-long_family_finance_services_01-0062",
+      "sha256": "7905a6caad6379c1feb5b570065c3f3c1c61cd86975a0569f15fc71f859ec60e",
+      "story": "週末我哋帶細妹去社區中心玩親子解謎，工作人員講明：搵到木盒鎖匙就算過關，仲遞咗一張提示卡畀阿爸，卡背用橡筋綁住一把小鎖匙。阿爸立刻攤開提示卡，逐字圈出線索，仲叫大家唔好亂掂，怕破壞現場。阿媽去查牆上張畫，細妹蹲低搵地板縫，我就挨住牆搵櫃底。大家搵過枱腳、窗台同椅墊，仍然搵唔到鎖匙。只剩一分鐘，阿爸將提示卡翻來覆去，讀到最後一行「答案一直喺你手邊」，仲係搵唔到。細妹望住佢手問：「爸爸，你拎住嗰張卡，背面係乜？」阿爸轉過卡，先見到細鎖匙一直喺手裏。佢插匙一轉，木盒打開，入面只放住一張紙：「恭喜，關鍵一直喺你手上。」阿爸望住提示卡，笑話：「我成晚搵線索，原來線索一路搵緊我。」"
+    }
+  ],
+  "verdict": "PASS",
+  "field_checks": {
+    "story": "前鏡頭誤拍自拍、菜葉遮鏡頭、袋底破洞讓菜莖伸出，拍照越來越忙；客服解釋是缺貨替代設定，最後自拍的皺眉反而最清楚交代反應，鋪墊、升級、反轉和回扣完整。自然生活粵語，超市程式下單的場景清楚。",
+    "jyutping": "逐字核讀「程式」cing4 sik1、「芥蘭」gaai3 laan2、「前鏡頭」cin4 geng3 tau4、「皺眉」zau3 mei4、「蹲低」zeon1 dai1、「袋底穿咗個窿」doi6 dai2 cyun1 zo2 go3 lung1、「菜莖」coi3 hang1、「缺貨可替代」kyut3 fo3 ho2 tai3 doi6、「確認選項」kok3 jing6 syun2 hong6，未發現明確聲調錯誤。242字/242 token對齊，無漢字殘留。",
+    "gloss": "完整簡體普通話翻譯前置鏡頭自拍、菜葉遮擋、袋底破洞、客服說明和自拍回扣，事件順序一致。",
+    "tip": "以「故事练习：」精確開頭，涵蓋拍照越亂、客服解釋和自拍回扣。",
+    "duplicate": "與keeper 1123草莓招聘/離職笑點不同；near 0007攝影師為摘果搭景、0050自拍左右顛倒及0054菜袋破裂掉蔥，觸發物和反轉均不同。本稿是拍替代品證據時誤用前鏡頭、葉片遮擋和袋洞。"
+  },
+  "canonical_modified": false
+}

@@ -1,0 +1,61 @@
+{
+  "snapshot_date": "2026-11-13",
+  "reason": "Before integrating independently reviewed order 644 duplicate-mechanism rewrite candidate.",
+  "source_sha256": "dbc47601f43e021985c1fdf84ff2b63606aaf1c0e2b6e9e8d0e07bb816b6c195",
+  "source": {
+    "file": "content/sentence_bank/long_food_shopping_02.json",
+    "index": 25,
+    "row": {
+      "category": "外賣溝通",
+      "gloss": "我们部门开例会前订了几杯饮料，我下单后才发现漏了阿美那杯，赶紧问店铺能不能补加。店员说要另外开一单，我就在群组里逐个问甜度和配料。有人答少甜去冰，有人只回“照旧”，我把答案逐行抄在便条上，还自信地说不会派错。送到时，杯盖贴着“少甜”“去冰”“照旧”，偏偏没有一个写人名。大家拿着杯子互相推让，会议开始时间越来越近。我急忙读出配料，阿美一听到“少甜”就举手，阿强听到“去冰”也跟着举手，最后部门主管以为我们在点名，逐个叫“照旧”和“加珍珠”。阿美找到自己的杯子，还问：“我是不是今天唯一有名字的人？”我翻开便条，发现自己只抄了口味，没抄姓名。从此下单先写名字；主管还笑着叫我开会前先点完杯，迟到的可以喝水等。",
+      "sentence": "我哋部門開例會前訂咗幾杯飲品，我落單後先發現漏咗阿美嗰杯，趕緊問店舖可唔可以補加。店員話要另開一單，我就喺群組逐個問甜度和配料。有人答少甜走冰，有人只回「照舊」，我將答案逐行抄喺便條，仲自信話唔會派錯。送到時，杯蓋貼住「少甜」「走冰」「照舊」，偏偏冇一個寫人名。大家拎住杯互相推，會議開始時間愈來愈近。我急忙讀出配料，阿美一聽到「少甜」就舉手，阿強聽到「走冰」也跟住舉手，最後部門主管以為我哋做緊點名，逐個叫「照舊」同「加珍珠」。阿美揀到自己杯，仲問：「我係咪今日唯一有名嘅人？」我翻開便條，發現自己只抄口味，冇抄姓名。從此落單先寫名字；主管仲笑住叫我開會前先點完杯，遲到嘅可以飲水等。",
+      "jyutping": "ngo5 dei6 bou6 mun4 hoi1 lai6 wui6 cin4 ding6 zo2 gei2 bui1 jam2 ban2 ngo5 lok6 daan1 hau6 sin1 faat3 jin6 lau6 zo2 aa3 mei5 go2 bui1 gon2 gan2 man6 dim3 pou3 ho2 m4 ho2 ji5 bou2 gaa1 dim3 jyun4 waa6 jiu3 ling6 hoi1 jat1 daan1 ngo5 zau6 hai2 kwan4 zou2 zuk6 go3 man6 tim4 dou6 wo4 pui3 liu6 jau5 jan4 daap3 siu2 tim4 zau2 bing1 jau5 jan4 zi2 wui4 ziu3 gau6 ngo5 zoeng1 daap3 on3 zuk6 hong4 caau1 hai2 bin6 tiu4 zung6 zi6 seon3 waa6 m4 wui5 paai3 co3 sung3 dou3 si4 bui1 goi3 tip3 zyu6 siu2 tim4 zau2 bing1 ziu3 gau6 pin1 pin1 mou5 jat1 go3 se2 jan4 ming4 daai6 gaa1 ling1 zyu6 bui1 wu6 soeng1 teoi1 wui6 ji5 hoi1 ci2 si4 gaan3 jyut6 loi4 jyut6 gan6 ngo5 gap1 mong4 duk6 ceot1 pui3 liu6 aa3 mei5 jat1 teng1 dou2 siu2 tim4 zau6 geoi2 sau2 aa3 koeng4 teng1 dou2 zau2 bing1 jaa5 gan1 zyu6 geoi2 sau2 zeoi3 hau6 bou6 mun4 zyu2 gun2 ji5 wai4 ngo5 dei6 zou6 gan2 dim2 ming4 zuk6 go3 giu3 ziu3 gau6 tung4 gaa1 zan1 zyu1 aa3 mei5 gaan2 dou2 zi6 gei2 bui1 zung6 man6 ngo5 hai6 mai6 gam1 jat6 wai4 jat1 jau5 ming4 ge3 jan4 ngo5 faan1 hoi1 bin6 tiu4 faat3 jin6 zi6 gei2 zi2 caau1 hau2 mei6 mou5 caau1 sing3 ming4 cung4 ci2 lok6 daan1 sin1 se2 jan4 ming4 zyu2 gun2 zung6 siu3 zyu6 giu3 ngo5 hoi1 wui6 cin4 sin1 dim2 jyun4 bui1 ci4 dou3 ge3 ho2 ji5 jam2 seoi2 dang2",
+      "usageTip": "故事练习：复述我怎样补订饮品、只记配料却漏写姓名，再讲同事举手认杯和主管把饮品标签当成点名。"
+    }
+  },
+  "oral_ledger_record": {
+    "file": "content/sentence_bank/long_food_shopping_02.json",
+    "index": 25,
+    "status": "pass",
+    "source_sha256": "dbc47601f43e021985c1fdf84ff2b63606aaf1c0e2b6e9e8d0e07bb816b6c195",
+    "topic_notes": [
+      "workplace",
+      "food",
+      "group_order",
+      "not_family_or_money_centered"
+    ],
+    "notes": "Root manually re-read the story, contextual tone-marked Jyutping, complete Simplified gloss and story-specific retelling prompt. Pass: meeting drinks are misordered, labels turn the delivery into a roll call, and the missing names are exposed in a clear callback."
+  },
+  "v2_ledger_record": {
+    "file": "content/sentence_bank/long_food_shopping_02.json",
+    "index": 25,
+    "status": "pass",
+    "baseline_sha256": "3d8927af382459768d8526ea5893f8809ef22ef80ad9cef25059144cb082f2ce",
+    "v2_sha256": "dbc47601f43e021985c1fdf84ff2b63606aaf1c0e2b6e9e8d0e07bb816b6c195",
+    "notes": "Manual V2 review of all four fields. In a workplace drink-delivery scene, the narrator forgets one colleague’s drink, gathers sweetness/ice preferences in a group chat, then labels cups by preference but omits names. Coworkers raise hands as the manager mistakes drink sorting for attendance roll call; the narrator’s overconfidence pays off in the missing-name reveal. Contextual Jyutping, full Simplified gloss, and story-specific tip checked; no family or money plot. Category and row position preserved."
+  },
+  "app_entry": {
+    "id": "sentence-bank-long_food_shopping_02-0026",
+    "displayText": "我哋部門開例會前訂咗幾杯飲品，我落單後先發現漏咗阿美嗰杯，趕緊問店舖可唔可以補加。店員話要另開一單，我就喺群組逐個問甜度和配料。有人答少甜走冰，有人只回「照舊」，我將答案逐行抄喺便條，仲自信話唔會派錯。送到時，杯蓋貼住「少甜」「走冰」「照舊」，偏偏冇一個寫人名。大家拎住杯互相推，會議開始時間愈來愈近。我急忙讀出配料，阿美一聽到「少甜」就舉手，阿強聽到「走冰」也跟住舉手，最後部門主管以為我哋做緊點名，逐個叫「照舊」同「加珍珠」。阿美揀到自己杯，仲問：「我係咪今日唯一有名嘅人？」我翻開便條，發現自己只抄口味，冇抄姓名。從此落單先寫名字；主管仲笑住叫我開會前先點完杯，遲到嘅可以飲水等。",
+    "promptText": "先顺住读完整句子同 Jyutping，再留意语气、节奏同连贯度。",
+    "answerJyutping": "ngo5 dei6 bou6 mun4 hoi1 lai6 wui6 cin4 ding6 zo2 gei2 bui1 jam2 ban2 ngo5 lok6 daan1 hau6 sin1 faat3 jin6 lau6 zo2 aa3 mei5 go2 bui1 gon2 gan2 man6 dim3 pou3 ho2 m4 ho2 ji5 bou2 gaa1 dim3 jyun4 waa6 jiu3 ling6 hoi1 jat1 daan1 ngo5 zau6 hai2 kwan4 zou2 zuk6 go3 man6 tim4 dou6 wo4 pui3 liu6 jau5 jan4 daap3 siu2 tim4 zau2 bing1 jau5 jan4 zi2 wui4 ziu3 gau6 ngo5 zoeng1 daap3 on3 zuk6 hong4 caau1 hai2 bin6 tiu4 zung6 zi6 seon3 waa6 m4 wui5 paai3 co3 sung3 dou3 si4 bui1 goi3 tip3 zyu6 siu2 tim4 zau2 bing1 ziu3 gau6 pin1 pin1 mou5 jat1 go3 se2 jan4 ming4 daai6 gaa1 ling1 zyu6 bui1 wu6 soeng1 teoi1 wui6 ji5 hoi1 ci2 si4 gaan3 jyut6 loi4 jyut6 gan6 ngo5 gap1 mong4 duk6 ceot1 pui3 liu6 aa3 mei5 jat1 teng1 dou2 siu2 tim4 zau6 geoi2 sau2 aa3 koeng4 teng1 dou2 zau2 bing1 jaa5 gan1 zyu6 geoi2 sau2 zeoi3 hau6 bou6 mun4 zyu2 gun2 ji5 wai4 ngo5 dei6 zou6 gan2 dim2 ming4 zuk6 go3 giu3 ziu3 gau6 tung4 gaa1 zan1 zyu1 aa3 mei5 gaan2 dou2 zi6 gei2 bui1 zung6 man6 ngo5 hai6 mai6 gam1 jat6 wai4 jat1 jau5 ming4 ge3 jan4 ngo5 faan1 hoi1 bin6 tiu4 faat3 jin6 zi6 gei2 zi2 caau1 hau2 mei6 mou5 caau1 sing3 ming4 cung4 ci2 lok6 daan1 sin1 se2 jan4 ming4 zyu2 gun2 zung6 siu3 zyu6 giu3 ngo5 hoi1 wui6 cin4 sin1 dim2 jyun4 bui1 ci4 dou3 ge3 ho2 ji5 jam2 seoi2 dang2",
+    "gloss": "我们部门开例会前订了几杯饮料，我下单后才发现漏了阿美那杯，赶紧问店铺能不能补加。店员说要另外开一单，我就在群组里逐个问甜度和配料。有人答少甜去冰，有人只回“照旧”，我把答案逐行抄在便条上，还自信地说不会派错。送到时，杯盖贴着“少甜”“去冰”“照旧”，偏偏没有一个写人名。大家拿着杯子互相推让，会议开始时间越来越近。我急忙读出配料，阿美一听到“少甜”就举手，阿强听到“去冰”也跟着举手，最后部门主管以为我们在点名，逐个叫“照旧”和“加珍珠”。阿美找到自己的杯子，还问：“我是不是今天唯一有名字的人？”我翻开便条，发现自己只抄了口味，没抄姓名。从此下单先写名字；主管还笑着叫我开会前先点完杯，迟到的可以喝水等。",
+    "notes": "",
+    "usageTip": "故事练习：复述我怎样补订饮品、只记配料却漏写姓名，再讲同事举手认杯和主管把饮品标签当成点名。",
+    "exampleSentence": "",
+    "exampleTranslation": "",
+    "entryType": "sentence",
+    "category": "外賣溝通",
+    "groupId": "sentence-bank-long_food_shopping_02-0026",
+    "tone": 0,
+    "audioAsset": null,
+    "sourceLabel": "curated",
+    "qualityPriority": 1,
+    "sortOrder": 3645
+  },
+  "selection_membership": {
+    "active": true,
+    "excluded": false,
+    "target_active_cards": 2000
+  }
+}

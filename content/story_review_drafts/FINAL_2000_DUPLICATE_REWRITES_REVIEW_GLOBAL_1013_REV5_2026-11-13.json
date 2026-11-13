@@ -1,0 +1,66 @@
+{
+  "report": "FINAL_2000_DUPLICATE_REWRITES_REVIEW_GLOBAL_1013_REV5_2026-11-13",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "candidate_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITE_GLOBAL_1013_REV5_2026-11-13.json",
+  "candidate_file_sha256": "292d7777277f993428196abf424f362882a23a6d125e1a0266c510a9898f02a7",
+  "expected_candidate_file_sha256": "292d7777277f993428196abf424f362882a23a6d125e1a0266c510a9898f02a7",
+  "file_hash_match": true,
+  "freeze_file": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "freeze_file_sha256": "4c3ac877867079fd053c88374eb434f94cfb3e09fd67a76b0b7f6424fb119843",
+  "freeze_manifest_sha256": "863768b0fe764bf81cf93858c0a9caebf01a3b975bc5ffb5d39a59a9731bca11",
+  "freeze_manifest_stale": false,
+  "order": 1013,
+  "id": "sentence-bank-long_food_shopping_10-0003",
+  "category": "外賣落單",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "source_file": "content/sentence_bank/long_food_shopping_10.json",
+  "source_index": 2,
+  "id_matches_freeze": true,
+  "category_matches_current_source": true,
+  "source_sha256_freeze": "29de934e4c48990372f3ef266545a8d4212ce2e9b74726c13956ed57118ada2f",
+  "source_sha256_candidate_declared": "29de934e4c48990372f3ef266545a8d4212ce2e9b74726c13956ed57118ada2f",
+  "source_sha256_current_recomputed": "29de934e4c48990372f3ef266545a8d4212ce2e9b74726c13956ed57118ada2f",
+  "source_sha256_candidate_current_declared": "29de934e4c48990372f3ef266545a8d4212ce2e9b74726c13956ed57118ada2f",
+  "source_hash_matches_freeze_and_current": true,
+  "candidate_fields_sha256_declared": "b9887e5be4eafd655ed176e6ed1d253bd9500f4ef5a40b2787a275252cfd2efa",
+  "candidate_fields_sha256_recomputed": "b9887e5be4eafd655ed176e6ed1d253bd9500f4ef5a40b2787a275252cfd2efa",
+  "candidate_hash_matches": true,
+  "counts": {
+    "han_characters_recomputed": 225,
+    "jyutping_tokens_recomputed": 225,
+    "han_declared": 225,
+    "syllables_declared": 225,
+    "tokens_declared": 225,
+    "aligned": true,
+    "jyutping_cjk_residue": false,
+    "story_220_to_320": true
+  },
+  "candidate_fields": {
+    "sentence": "我同事阿傑午休去茶餐廳買外賣，點咗份餐蛋三文治，怕醬汁浸濕麵包，特登叫店員醬汁另上。店員問青瓜同生菜要唔要夾埋，阿傑又話菜葉分開，免得焗到麵包濕軟。店員逐樣放入小盒，仲問使唔使刀叉。返到公司，阿傑打開紙袋，麵包、火腿、煎蛋、青瓜、生菜、醬汁一樣樣排喺枱面。同事以為佢買咗一盒手作材料，問幾時開班。阿傑話自己只想食三文治，跟住拎起麵包，逐樣夾返入去；菜葉一放，火腿就滑出嚟，佢又追住個煎蛋，最後兩塊麵包喺手上，餡料散晒枱面。大家笑佢叫外賣變成自己組裝，阿傑望住份餐話：「下次唔該寫埋『免組裝』，我係叫外賣，唔係訂咗套傢俬。」",
+    "jyutping": "ngo5 tung4 si6 aa3 kit3 ng5 jau1 heoi3 caa4 caan1 teng1 maai5 ngoi6 maai6, dim2 zo2 fan6 caan1 daan2 saam1 man4 zi6, paa3 zoeng3 zap1 zam3 sap1 min6 baau1, dak6 dang1 giu3 dim3 jyun4 zoeng3 zap1 ling6 soeng6. dim3 jyun4 man6 cing1 gwaa1 tung4 saang1 coi3 jiu3 m4 jiu3 gaap3 maai4, aa3 kit3 jau6 waa6 coi3 jip6 fan1 hoi1, mai5 dak1 guk1 dou3 min6 baau1 sap1 jyun5. dim3 jyun4 zuk6 joeng6 fong3 jap6 siu2 hap6, zung6 man6 sai2 m4 sai2 dou1 caa1. faan1 dou3 gung1 si1, aa3 kit3 daai2 hoi1 zi2 doi6, min6 baau1, fo2 teoi2, zin1 daan2, cing1 gwaa1, saang1 coi3, zoeng3 zap1 jat1 joeng6 joeng6 paai4 hai2 toi2 min6. tung4 si6 ji5 wai4 keoi5 maai5 zo2 jat1 hap6 sau2 zok3 coi4 liu6, man6 gei2 si4 hoi1 baan1. aa3 kit3 waa6 zi6 gei2 zi2 soeng2 sik6 saam1 man4 zi6, gan1 zyu6 ling1 hei2 min6 baau1, zuk6 joeng6 gaap3 faan1 jap6 heoi3; coi3 jip6 jat1 fong3, fo2 teoi2 zau6 waat6 ceot1 lai4, keoi5 jau6 zeoi1 zyu6 go3 zin1 daan2, zeoi3 hau6 loeng5 faai3 min6 baau1 hai2 sau2 soeng6, haam6 liu6 saan3 saai3 toi2 min6. daai6 gaa1 siu3 keoi5 giu3 ngoi6 maai6 bin3 sing4 zi6 gei2 zou2 zong1, aa3 kit3 mong6 zyu6 fan6 caan1 waa6: 「haa6 ci3 m4 goi1 se2 maai4 「min5 zou2 zong1」, ngo5 hai6 giu3 ngoi6 maai6, m4 hai6 deng6 zo2 tou3 gaa1 si1.」",
+    "gloss": "我的同事阿杰午休去茶餐厅买外卖，点了一份餐蛋三文治，怕酱汁浸湿面包，特地叫店员酱汁另上。店员问青瓜和生菜要不要夹进去，阿杰又说菜叶分开，免得焗得面包湿软。店员逐样放进小盒，还问用不用刀叉。回到公司，阿杰打开纸袋，面包、火腿、煎蛋、青瓜、生菜、酱汁一样样排在桌面。同事以为他买了一盒手工材料，问几时开班。阿杰说自己只想吃三文治，接着拿起面包，逐样夹回去；菜叶一放，火腿就滑出来，他又追着煎蛋，最后两块面包在手上，馅料散满桌面。大家笑他叫外卖变成自己组装，阿杰看着这份餐说：“下次麻烦写上‘免组装’，我是叫外卖，不是订了一套家具。”",
+    "usageTip": "故事练习：复述阿杰怎样把三文治的酱汁、菜叶等逐项分开，回到办公室后又忙着把馅料夹回面包；模仿他说下次要“免组装”的结尾。"
+  },
+  "keeper": {
+    "id": "sentence-bank-long_family_finance_services_07-0020",
+    "order": 458,
+    "source_sha256": "33ce626b6da85a47c0c48667397ee4c802254a2edb22229c012919d4505664c3",
+    "story": "社區合唱班有三個姓陳嘅團友，嗰日竟然喺同一間藥房撞到。陳叔最近藥費加咗，唔敢自己減藥，先問醫生有冇合適嘅平價替代。覆診後醫生批准換一款，叫佢帶處方去藥房；藥劑師逐項核對藥名、用法同價錢，仲提醒新舊收據分開放。陳叔話記低晒，等藥時一聽到職員叫「陳先生」，佢同隔籬兩個人一齊企起身。職員核對處方號碼，先知三個都姓陳。第二次叫名，三人又同時應，連藥名都差唔多；原來隔籬兩位都食同一類藥。陳叔笑住話，下次叫佢「合唱班低音部」最易認。藥劑師望一望名單，話隔籬嗰位都係低音。三個人望住同一疊收據，忍唔住唱咗一聲和音。最後職員照處方號碼逐個交藥同收據，陳叔喺收據夾寫低編號。返到合唱班，指揮叫「陳先生」，三個又一齊企起身。指揮笑話：「你哋喺藥房排好和音，返嚟仲要再點一次名呀？」"
+  },
+  "verdict": "PASS",
+  "field_checks": {
+    "story": "通篇為自然口語生活段子：先要求把醬汁和菜葉分開，回公司手忙腳亂重組，最後以「免組裝」回扣；改成「店員逐樣放入小盒，仲問使唔使刀叉」後自然易懂。人物行動、升級和結尾成立。",
+    "jyutping": "逐字核對：「店員」三處均為 dim3 jyun4；「仲問使唔使刀叉」為 zung6 man6 sai2 m4 sai2 dou1 caa1，符合字詞和語境；「醬汁另上」zoeng3 zap1 ling6 soeng6；「自己組裝」與「免組裝」為 zou2 zong1，正確。其餘文句未發現明確音調錯誤。225漢字/225音節token對齊，無漢字殘留。句內引號層級在故事與拼音標註的呈現略有差異，但不影響詞音、逐字對應或朗讀；不構成語言錯誤。",
+    "gloss": "完整翻譯故事各項分裝、返公司重組、餡料滑落及末句「免組裝」笑點；「還問用不用刀叉」對應粵語「仲問使唔使刀叉」，語義一致。",
+    "tip": "以前綴「故事練習：」開頭，提示復述醬汁、菜葉分開、返公司重組及免組裝回扣，與故事一致。",
+    "duplicate": "與keeper 458三位同姓客人在藥房和合唱班重複應名的身份混淆機制不同；本候稿是外賣配料分裝後主角重組失手，未見同一笑點套路。"
+  },
+  "pronunciation_reference": {
+    "title": "Jyut Dictionary：店",
+    "url": "https://jyutdictionary.com/dictionary/entry/%E5%BA%97",
+    "evidence": "「店」读 dim3。"
+  },
+  "canonical_modified": false,
+  "summary": "Exact REV5 file SHA matches the assigned value. Source and candidate-field hashes match; ID/category and frozen source match; story and Jyutping align at 225/225. Both 店員 readings are dim3 jyun4, and 仲問使唔使刀叉 is natural and correctly transcribed. Story, translation, tip, and mechanism distinction all pass. PASS."
+}

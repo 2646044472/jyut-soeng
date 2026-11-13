@@ -1,0 +1,176 @@
+{
+  "report_type": "candidate_rewrites_for_confirmed_duplicate_clusters",
+  "date": "2026-11-13",
+  "based_on_keeper_report": "content/story_review_drafts/FINAL_2000_DUPLICATE_CLUSTER_KEEPERS_1400_2000_2026-11-13.json",
+  "candidates": [
+    {
+      "id": "sentence-bank-long_health_services_03-0095",
+      "keeper_id": "sentence-bank-long_health_services_02-0095",
+      "mechanism_difference": "原keeper笑點是朋友口稱「幾時都得」卻逐日排除行程；本稿保留診所改約場景，改為電話按鍵選單重複確認、主角越急越回到開頭，靠操作行為升級，不講任何人的空檔。",
+      "sentence": "我打去診所想改覆診時間，電話先播一段按鍵提示：我仲開住擴音，想聽清楚每句。按一查地址，按二改期，按三聽診所開門時間。我一聽到「改期」即刻撳二，佢叫我輸入生日八位數；撳完又叫我按一確認身份。確認完，系統再問要改期請按二，我一緊張又撳二，電話竟然返到最初嗰段。第二次我攞張紙逐句抄，抄到最後成張紙淨係一、二、三，先發現我將項目都抄漏咗。我試過停低等提示講完，手指都忍唔住逐個掣跟住撳。終於接通職員，佢問我想改到幾時，我望住張紙，淨係記得一、二、三。職員笑問：「你要改覆診，定係想學熟我哋電話選單？」我話：「兩樣都想，咁下次我可以一按就搵到人。」",
+      "jyutping": "ngo5 daa2 heoi3 zan2 so2 soeng2 goi2 fuk6 zan2 si4 gaan3, din6 waa2 sin1 bo3 jat1 dyun6 on3 gim6 tai4 si6: ngo5 zung6 hoi1 zyu6 kwong3 jam1, soeng2 teng1 cing1 co2 mui5 geoi3. on3 jat1 caa4 dei6 zi2, on3 ji6 goi2 kei4, on3 saam1 teng1 zan2 so2 hoi1 mun4 si4 gaan3. ngo5 jat1 teng1 dou3「goi2 kei4」zik1 hak1 gam6 ji6, keoi5 giu3 ngo5 syu1 jap6 sang1 jat6 baat3 wai2 sou3; gam6 jyun4 jau6 giu3 ngo5 on3 jat1 kok3 jing6 san1 fan6. kok3 jing6 jyun4, hai6 tung2 zoi3 man6 jiu3 goi2 kei4 cing2 on3 ji6, ngo5 jat1 gan2 zoeng1 jau6 gam6 ji6, din6 waa2 ging2 jin4 faan1 dou3 zeoi3 co1 go2 dyun6. dai6 ji6 ci3 ngo5 lo2 zoeng1 zi2 zuk6 geoi3 caau1, caau1 dou3 zeoi3 hau6 sing4 zoeng1 zi2 zing6 hai6 jat1, ji6, saam1, sin1 faat3 jin6 ngo5 zoeng1 hong6 muk6 dou1 caau1 lau6 zo2. ngo5 si3 gwo3 ting4 dai1 dang2 tai4 si6 gong2 jyun4, sau2 zi2 dou1 jan2 m4 zyu6 zuk6 go3 zai3 gan1 zyu6 gam6. zung1 jyu1 zip3 tung1 zik1 jyun4, keoi5 man6 ngo5 soeng2 goi2 dou3 gei2 si4, ngo5 mong6 zyu6 zoeng1 zi2, zing6 hai6 gei3 dak1 jat1, ji6, saam1. zik1 jyun4 siu3 man6「nei5 jiu3 goi2 fuk6 zan2, ding6 hai6 soeng2 hok6 suk6 ngo5 dei6 din6 waa2 syun2 daan1?」ngo5 waa6「loeng5 joeng6 dou1 soeng2, gam2 haa6 ci3 ngo5 ho2 ji5 jat1 on3 zau6 wan2 dou2 jan4.」",
+      "gloss": "我打电话到诊所想改复诊时间，电话先播放一段按键提示：我还开着免提，想听清楚每一句。按一查地址，按二改期，按三听诊所开门时间。我一听到“改期”就马上按二，对方叫我输入八位生日数字；按完又叫我按一确认身份。确认完，系统再问要改期请按二，我一紧张又按二，电话竟然回到最初那段。第二次我拿纸逐句抄，抄到最后整张纸只剩一、二、三，才发现我把选项都抄漏了。我试过停下来等提示说完，手指还是忍不住跟着一个个按。终于接通职员，她问我想改到什么时候，我看着纸，只记得一、二、三。职员笑问：“你是要改复诊，还是想学熟我们的电话菜单？”我说：“两样都想，这样下次我可以一按就找到人。”",
+      "usageTip": "故事练习：复述主角开着免提听电话选单、想改复诊时间却反复按回开头；再讲他逐句抄提示却只抄下一二三、职员问他是在改期还是学选单的回扣。",
+      "source_category": "更改覆診時間",
+      "source_file": "content/sentence_bank/long_health_services_03.json",
+      "source_index": 94,
+      "source_freeze_sha256": "78c63a70ced648ad78b6c523bed8a61fa3356a079f0c784e57c764ac6b6bc63a",
+      "source_current_sha256": "78c63a70ced648ad78b6c523bed8a61fa3356a079f0c784e57c764ac6b6bc63a",
+      "source_hash_match": true,
+      "story_han_count": 231,
+      "jyutping_syllable_count": 231,
+      "jyutping_has_cjk": false,
+      "alignment": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "manual_language_check": {
+        "jyutping_authored_and_reviewed_manually": true,
+        "tone_items_checked": [
+          "覆診 fuk6 zan2",
+          "診所 zan2 so2",
+          "擴音 kwong3 jam1",
+          "撳 gam6",
+          "選單 syun2 daan1"
+        ],
+        "translation_and_prompt_reviewed_for_alignment": true,
+        "unresolved_pronunciation_questions": []
+      }
+    },
+    {
+      "id": "sentence-bank-long_health_services_04-0031",
+      "keeper_id": "sentence-bank-long_health_services_01-0058",
+      "mechanism_difference": "原keeper是讲者把书的背景讲得太长，听众发现主角迟迟未出场；本稿是呼吸科复诊时主角想主动示范症状，咳嗽偏在护士记录时出现、示范时消失，靠身体与表格节奏错拍形成笑点，不讲长篇故事背景。",
+      "sentence": "去覆診嗰日，姑娘問我最近咳得點，我即刻答冇乜。入診室前我仲喺走廊咳過幾次，心諗今次終於有實例。正想收起口罩，喉嚨突然自己咳咗三聲。姑娘抬頭，我又即刻話：「呢個唔算，頭先係門口吹到風。」佢叫我慢慢講，我就用手指住喉嚨解釋平時點咳，偏偏愈想示範愈冇聲。護士翻開表格要記時間，我一清喉嚨，咳聲又響；佢一抬筆，咳聲停晒。我試住再講，咳聲又喺佢放低筆時冒出嚟。姑娘問我係咪要佢望住先咳，我答：「唔係，佢每次寫字，我喉嚨都似識得收工。」姑娘笑住放低筆，我即刻咳多一聲，自己都嚇親。佢記低咳嗽情況，叫我照實講就得；我點頭，話下次帶張紙，等喉嚨唔使即場表演。",
+      "jyutping": "heoi3 fuk6 zan2 go2 jat6, gu1 noeng4 man6 ngo5 zeoi3 gan6 kat1 dak1 dim2, ngo5 zik1 hak1 daap3 mou5 mat1. jap6 zan2 sat1 cin4 ngo5 zung6 hai2 zau2 long4 kat1 gwo3 gei2 ci3, sam1 nam2 gam1 ci3 zung1 jyu1 jau5 sat6 lai6. zing3 soeng2 sau1 hei2 hau2 zaau3, hau4 lung4 dat6 jin4 zi6 gei2 kat1 zo2 saam1 seng1. gu1 noeng4 toi4 tau4, ngo5 jau6 zik1 hak1 waa6「ni1 go3 m4 syun3, tau4 sin1 hai6 mun4 hau2 ceoi1 dou3 fung1.」keoi5 giu3 ngo5 maan6 maan6 gong2, ngo5 zau6 jung6 sau2 zi2 zyu6 hau4 lung4 gaai2 sik1 ping4 si4 dim2 kat1, pin1 pin1 jyut6 soeng2 si6 faan6 jyut6 mou5 seng1. wu6 si6 faan1 hoi1 biu2 gaak3 jiu3 gei3 si4 gaan3, ngo5 jat1 cing1 hau4 lung4, kat1 seng1 jau6 hoeng2; keoi5 jat1 toi4 bat1, kat1 seng1 ting4 saai3. ngo5 si3 zyu6 zoi3 gong2, kat1 seng1 jau6 hai2 keoi5 fong3 dai1 bat1 si4 mou6 ceot1 lai4. gu1 noeng4 man6 ngo5 hai6 mai6 jiu3 keoi5 mong6 zyu6 sin1 kat1, ngo5 daap3「m4 hai6, keoi5 mui5 ci3 se2 zi6, ngo5 hau4 lung4 dou1 ci5 sik1 dak1 sau1 gung1.」gu1 noeng4 siu3 zyu6 fong3 dai1 bat1, ngo5 zik1 hak1 kat1 do1 jat1 seng1, zi6 gei2 dou1 haak3 can1. keoi5 gei3 dai1 kat1 sau3 cing4 fong3, giu3 ngo5 ziu3 sat6 gong2 zau6 dak1; ngo5 dim2 tau4, waa6 haa6 ci3 daai3 zoeng1 zi2, dang2 hau4 lung4 m4 sai2 zik1 coeng4 biu2 jin2.",
+      "gloss": "去复诊那天，护士问我最近咳得怎么样，我马上答没什么。进诊室前我还在走廊咳了几次，心想这次终于有实例。正想收起口罩，喉咙突然自己咳了三声。护士抬头，我又马上说：“这不算，刚才是在门口吹到风。”她叫我慢慢说，我就用手指着喉咙解释平时怎么咳，偏偏越想示范越没声音。护士翻开表格要记时间，我一清喉咙，咳声又响；她一抬笔，咳声就停了。我试着再说，咳声又在她放下笔时冒出来。护士问我要不要她看着才咳，我答：“不是，她每次写字，我喉咙都像知道收工。”护士笑着放下笔，我马上又咳了一声，自己也吓一跳。她记下咳嗽情况，叫我如实说就行；我点头，说下次带张纸，让喉咙不用现场表演。",
+      "usageTip": "故事练习：先复述主角在走廊咳了几次、以为进诊室终于能说明情况；再讲他怎样想示范咳嗽，却在护士抬笔记录时咳、放下笔时又咳，最后用“喉咙收工”回扣。",
+      "source_category": "呼吸科覆診",
+      "source_file": "content/sentence_bank/long_health_services_04.json",
+      "source_index": 30,
+      "source_freeze_sha256": "134a7ccf8b9798b567d3999e91cceb71900de0b8fd12e1413e7f0d8a677b98fd",
+      "source_current_sha256": "134a7ccf8b9798b567d3999e91cceb71900de0b8fd12e1413e7f0d8a677b98fd",
+      "source_hash_match": true,
+      "story_han_count": 233,
+      "jyutping_syllable_count": 233,
+      "jyutping_has_cjk": false,
+      "alignment": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "manual_language_check": {
+        "jyutping_authored_and_reviewed_manually": true,
+        "tone_items_checked": [
+          "突然 dat6 jin4",
+          "喉嚨 hau4 lung4",
+          "咳 kat1",
+          "冒出嚟 mou6 ceot1 lai4"
+        ],
+        "translation_and_prompt_reviewed_for_alignment": true,
+        "unresolved_pronunciation_questions": []
+      }
+    },
+    {
+      "id": "sentence-bank-long_health_services_10-0048",
+      "keeper_id": "sentence-bank-long_health_services_06-0073",
+      "mechanism_difference": "keeper 的核心是孩子把呼吸面罩比成太空人装备，再通过逐步练习适应；本稿完全不用太空人比喻，笑点改为成人患者戴呼吸机时反复替软管腾位置，整理床边物品后自己反而只剩床角，属于软管与寝具的空间争夺。",
+      "sentence": "護士教我跟示範用呼吸機，戴好面罩、接好喉管。第一晚我以為最難係適應機聲，點知係轉身嗰陣條喉點擺。向左轉，被角勾住條喉管；我慢慢抽開，被角反而包埋枕頭。向右轉，手肘又推到眼鏡盒。我又將眼鏡盒搬遠少少，連床頭啲物件都要重排。我坐起身收拾好，再瞓低，一轉身手肘又撞到床頭水杯，嚇到我即刻坐返起身。搞咗幾次，我索性直挺挺瞓住，連翻身都先諗條喉行邊。朝早姑娘問用得慣唔慣，我話：「機器幾安靜，係我成晚同條喉講借過，好似佢先係床主。」姑娘笑話我唔使守住條喉，照常休息就得。我點頭，返屋企後畫咗張床頭路線圖，標住「喉管先行」；望多兩眼，發現圖上連我自己都只剩一個角落。",
+      "jyutping": "wu6 si6 gaau3 ngo5 gan1 si6 faan6 jung6 wu6 kap1 gei1, daai3 hou2 min6 zaau3, zip3 hou2 hau4 gun2. dai6 jat1 maan5 ngo5 ji5 wai4 zeoi3 naan4 hai6 sik1 jing3 gei1 seng1, dim2 zi1 hai6 zyun3 san1 go2 zan6 tiu4 hau4 dim2 baai2. hoeng3 zo2 zyun3, bei6 gok3 ngau1 zyu6 tiu4 hau4 gun2; ngo5 maan6 maan6 cau1 hoi1, bei6 gok3 faan2 ji4 baau1 maai4 zam2 tau4. hoeng3 jau6 zyun3, sau2 zau2 jau6 teoi1 dou3 ngaan5 geng3 hap6. ngo5 jau6 zoeng1 ngaan5 geng3 hap6 bun1 jyun5 siu2 siu2, lin4 cong4 tau4 di1 mat6 gin6 dou1 jiu3 cung4 paai4. ngo5 zo6 hei2 san1 sau1 sap6 hou2, zoi3 fan3 dai1, jat1 zyun3 san1 sau2 zau2 jau6 zong6 dou3 cong4 tau4 seoi2 bui1, haak3 dou3 ngo5 zik1 hak1 zo6 faan1 hei2 san1. gaau2 zo2 gei2 ci3, ngo5 sok3 sing3 zik6 ting5 ting5 fan3 zyu6, lin4 faan1 san1 dou1 sin1 nam2 tiu4 hau4 haang4 bin1. ziu1 zou2 gu1 noeng4 man6 jung6 dak1 gwaan3 m4 gwaan3, ngo5 waa6「gei1 hei3 gei2 on1 zing6, hai6 ngo5 seng4 maan5 tung4 tiu4 hau4 gong2 ze3 gwo3, hou2 ci5 keoi5 sin1 hai6 cong4 zyu2.」gu1 noeng4 siu3 waa6 ngo5 m4 sai2 sau2 zyu6 tiu4 hau4, ziu3 soeng4 jau1 sik1 zau6 dak1. ngo5 dim2 tau4, faan1 uk1 kei2 hau6 waak6 zo2 zoeng1 cong4 tau4 lou6 sin3 tou4, biu1 zyu6「hau4 gun2 sin1 haang4」; mong6 do1 loeng5 ngaan5, faat3 jin6 tou4 soeng6 lin4 ngo5 zi6 gei2 dou1 zi2 sing6 jat1 go3 gok3 lok6.",
+      "gloss": "护士教我照示范使用呼吸机，戴好面罩、接好软管。第一晚我以为最难的是适应机器声，没想到是转身时软管怎么摆。向左转，软管被被角勾住；我慢慢抽开，被角反而包住枕头。向右转，手肘又把眼镜盒推到一边。我又把眼镜盒搬远些，连床头的东西都要重新整理。我坐起身收拾好再躺下，一转身手肘又撞到床头水杯，吓得我马上坐了起来。折腾几次，我干脆挺直身体睡着，连翻身都先想软管往哪走。早上护士问用得习惯吗，我说：“机器挺安静，是我整晚都跟软管说借过，好像它才是床主人。”护士笑着说我不用守着软管，照常休息就行。我点头，回家后画了一张床头路线图，标着“软管先行”；多看两眼，发现图上连我自己都只剩一个角落。",
+      "usageTip": "故事练习：复述主角转身时软管怎样被被角勾住，他如何反复挪开枕头、眼镜盒和床头物品；再模仿他转身撞到水杯后把软管当床主、自己只剩角落的回扣。",
+      "source_category": "睡眠窒息與呼吸機",
+      "source_file": "content/sentence_bank/long_health_services_10.json",
+      "source_index": 47,
+      "source_freeze_sha256": "eb0de06dc8b68c8f264071b074de7178b03669602bab557b13493970dc4fc302",
+      "source_current_sha256": "eb0de06dc8b68c8f264071b074de7178b03669602bab557b13493970dc4fc302",
+      "source_hash_match": true,
+      "story_han_count": 241,
+      "jyutping_syllable_count": 241,
+      "jyutping_has_cjk": false,
+      "alignment": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "manual_language_check": {
+        "jyutping_authored_and_reviewed_manually": true,
+        "tone_items_checked": [
+          "轉身 zyun3 san1",
+          "喉管 hau4 gun2",
+          "搞 gaau2",
+          "畫 waak6",
+          "休息 jau1 sik1"
+        ],
+        "translation_and_prompt_reviewed_for_alignment": true,
+        "unresolved_pronunciation_questions": []
+      }
+    },
+    {
+      "id": "sentence-bank-long_health_services_06-0056",
+      "keeper_id": "sentence-bank-long_health_services_06-0073",
+      "mechanism_difference": "与 keeper 的面罩太空人比喻不同，本稿不提面罩或太空人；笑点是主角听到“照平时睡”后自我意识过强，反复整理鞋、灯和拖鞋，把普通睡前动作变成睡眠监测前的正式彩排。它也和 10-0048 的软管占床空间不同。",
+      "sentence": "我去睡眠中心做一晚監測，姑娘貼好感應貼片，話照平時瞓就得。我聽完反而坐到直晒，似等老師派卷。姑娘叫我放鬆，我又問：「咁我而家要唔要扮瞓咗？」佢笑住話唔使表演。我擺齊對鞋，手機放枱面，枕頭拍平，再瞓低。啱啱合埋眼，先記得燈未熄；熄好燈又見拖鞋一隻歪，再起身擺正。每次瞓低，我又諗起另一樣要整理，越努力準備瞓，床邊越似開緊會。姑娘提醒我唔使交功課。我終於瞓平，雙手放好，眼睛合埋；隔一陣又睜開，細聲問：「而家有冇開始計分？」第二朝姑娘話監測照常做完，我話好彩，昨晚終於冇再檢查自己瞓成點。佢笑話：「你瞓覺前彩排咗半晚，今日可以收工啦。」",
+      "jyutping": "ngo5 heoi3 seoi6 min4 zung1 sam1 zou6 jat1 maan5 gaam1 caak3, gu1 noeng4 tip3 hou2 gam2 jing3 tip3 pin3, waa6 ziu3 ping4 si4 fan3 zau6 dak1. ngo5 teng1 jyun4 faan2 ji4 co5 dou3 zik6 saai3, ci5 dang2 lou5 si1 paai3 gyun2. gu1 noeng4 giu3 ngo5 fong3 sung1, ngo5 jau6 man6「gam2 ngo5 ji4 gaa1 jiu3 m4 jiu3 baan6 fan3 zo2?」keoi5 siu3 zyu6 waa6 m4 sai2 biu2 jin2. ngo5 baai2 cai4 deoi3 haai4, sau2 gei1 fong3 toi2 min6, zam2 tau4 paak3 ping4, zoi3 fan3 dai1. ngaam1 ngaam1 hap6 maai4 ngaan5, sin1 gei3 dak1 dang1 mei6 sik1; sik1 hou2 dang1 jau6 gin3 to1 haai4 jat1 zek3 wai1, zoi3 hei2 san1 baai2 zing3. mui5 ci3 fan3 dai1, ngo5 jau6 nam2 hei2 ling6 jat1 joeng6 jiu3 zing2 lei5, jyut6 nou5 lik6 zeon2 bei6 fan3, cong4 bin1 jyut6 ci5 hoi1 gan2 wui6. gu1 noeng4 tai4 sing2 ngo5 m4 sai2 gaau1 gung1 fo3. ngo5 zung1 jyu1 fan3 ping4, soeng1 sau2 fong3 hou2, ngaan5 zing1 hap6 maai4; gaak3 jat1 zan6 jau6 zaang1 hoi1, sai3 seng1 man6「ji4 gaa1 jau5 mou5 hoi1 ci2 gai3 fan1?」dai6 ji6 ziu1 gu1 noeng4 waa6 gaam1 caak3 ziu3 soeng4 zou6 jyun4, ngo5 waa6 hou2 coi2, zok6 maan5 zung1 jyu1 mou5 zoi3 gim2 caa4 zi6 gei2 fan3 sing4 dim2. keoi5 siu3 waa6「nei5 fan3 gaau3 cin4 coi2 paai4 zo2 bun3 maan5, gam1 jat6 ho2 ji5 sau1 gung1 laa1.」",
+      "gloss": "我去睡眠中心做一晚监测，护士贴好感应贴片，说照平时睡就行。我听完反而坐得笔直，像等老师发卷子。护士叫我放松，我又问：“那我现在要不要装作已经睡着了？”她笑着说不用表演。我把鞋摆整齐，手机放在桌面，拍平枕头，再躺下。刚闭上眼，才想起灯没关；关好灯又看见一只拖鞋歪了，再起身摆正。每次躺下，我又想起另一件要整理，越努力准备睡觉，床边越像在开会。护士提醒我不用交作业。我终于躺平，双手放好，闭上眼睛；隔一会儿又睁开，小声问：“现在开始计分了吗？”第二天护士说监测照常完成，我说幸好，昨晚终于没再检查自己睡成什么样。她笑说：“你睡前彩排了半个晚上，今天可以收工啦。”",
+      "usageTip": "故事练习：复述主角听到“照平时睡”后怎样整理鞋、灯和拖鞋，把睡前动作越做越像彩排；模仿他睁眼问是否开始计分，以及护士说他彩排半晚的回扣。",
+      "source_category": "睡眠呼吸監測",
+      "source_file": "content/sentence_bank/long_health_services_06.json",
+      "source_index": 55,
+      "source_freeze_sha256": "a4208d3e75b226a0380081b2c065d827503ec269e5161261f45231ab44d28282",
+      "source_current_sha256": "a4208d3e75b226a0380081b2c065d827503ec269e5161261f45231ab44d28282",
+      "source_hash_match": true,
+      "story_han_count": 226,
+      "jyutping_syllable_count": 226,
+      "jyutping_has_cjk": false,
+      "alignment": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "manual_language_check": {
+        "jyutping_authored_and_reviewed_manually": true,
+        "tone_items_checked": [
+          "感應 gam2 jing3",
+          "貼片 tip3 pin3",
+          "睜開 zaang1 hoi1",
+          "彩排 coi2 paai4"
+        ],
+        "translation_and_prompt_reviewed_for_alignment": true,
+        "unresolved_pronunciation_questions": []
+      }
+    },
+    {
+      "id": "sentence-bank-long_food_shopping_06-0012",
+      "keeper_id": "sentence-bank-long_home_family_07-0022",
+      "mechanism_difference": "keeper 把多年合照中反复出现的摺椅误认成全勤会员；本稿留在餐厅订位类别，笑点换成主角为确认联络号码反复逐位报读，最后到场又把号码当姓名报出，不涉及椅子、座位出席或迟到。",
+      "sentence": "我打去餐廳訂兩位，店員問我要留電話號碼，我報完號碼，佢逐個數字讀返。我聽到尾數有一個音唔同，立刻由頭再報；佢再讀一次，我又怕自己把四同七講得太快，叫佢重複。朋友坐喺我旁邊，已經拎起筆替我寫號碼，寫到一半抬頭問：「你係訂枱，定係申請做電話客服？」我話先對清楚資料，免得食飯時搵唔到預約。店員話預約好會發短訊，我仲將名字、時間、電話逐項寫喺紙上。去到餐廳，侍應問姓乜，我一緊張又報出整串電話。朋友即刻伸手遮住張紙，話：「佢今日個電話講得比我多。」侍應笑住話只要報姓就得。我收起張紙，發現上面寫得最清楚嘅，竟然只有電話號碼；預訂兩位，我同朋友都仲未講自己姓乜。",
+      "jyutping": "ngo5 daa2 heoi3 caan1 teng1 deng6 loeng5 wai2, dim3 jyun4 man6 ngo5 jiu3 lau4 din6 waa2 hou6 maa5, ngo5 bou3 jyun4 hou6 maa5, keoi5 zuk6 go3 sou3 zi6 duk6 faan1. ngo5 teng1 dou3 mei5 sou3 jau5 jat1 go3 jam1 m4 tung4, lap6 hak1 jau4 tau4 zoi3 bou3; keoi5 zoi3 duk6 jat1 ci3, ngo5 jau6 paa3 zi6 gei2 baa2 sei3 tung4 cat1 gong2 dak1 taai3 faai3, giu3 keoi5 cung4 fuk1. pang4 jau5 co5 hai2 ngo5 pong4 bin1, ji5 ging1 ling1 hei2 bat1 tai3 ngo5 se2 hou6 maa5, se2 dou3 jat1 bun3 toi4 tau4 man6「nei5 hai6 deng6 toi2, ding6 hai6 san1 cing2 zou6 din6 waa2 hak6 fuk6?」ngo5 waa6 sin1 deoi3 cing1 co2 zi1 liu6, min5 dak1 sik6 faan6 si4 wan2 m4 dou2 jyu6 joek3. dim3 jyun4 waa6 jyu6 joek3 hou2 wui5 faat3 dyun2 seon3, ngo5 zung6 zoeng1 ming4 zi6, si4 gaan3, din6 waa2 zuk6 hong6 se2 hai2 zi2 soeng6. heoi3 dou3 caan1 teng1, si6 jing3 man6 sing3 mat1, ngo5 jat1 gan2 zoeng1 jau6 bou3 ceot1 zing2 cyun3 din6 waa2. pang4 jau5 zik1 hak1 san1 sau2 ze1 zyu6 zoeng1 zi2, waa6「keoi5 gam1 jat6 go3 din6 waa2 gong2 dak1 bei2 ngo5 do1.」si6 jing3 siu3 zyu6 waa6 zi2 jiu3 bou3 sing3 zau6 dak1. ngo5 sau1 hei2 zoeng1 zi2, faat3 jin6 soeng6 min6 se2 dak1 zeoi3 cing1 co2 ge3, ging2 jin4 zi2 jau5 din6 waa2 hou6 maa5; jyu6 deng6 loeng5 wai2, ngo5 tung4 pang4 jau5 dou1 zung6 mei6 gong2 zi6 gei2 sing3 mat1.",
+      "gloss": "我打电话到餐厅订两位，店员问我要留电话号码，我报完号码，她逐个数字读回来。我听到尾数有一个音不一样，马上从头再报；她再读一次，我又怕自己把四和七说得太快，叫她重复。朋友坐在我旁边，已经拿起笔替我写号码，写到一半抬头问：“你是订桌，还是申请做电话客服？”我说先把资料核对清楚，免得吃饭时找不到预约。店员说预约好会发短信，我还把名字、时间、电话逐项写在纸上。到了餐厅，服务员问姓什么，我一紧张又报出整串电话号码。朋友马上伸手遮住纸，说：“他今天讲电话号码比跟我说话还多。”服务员笑着说只报姓就行。我收起纸，发现上面写得最清楚的竟然只有电话号码；预订了两位，我和朋友都还没说自己姓什么。",
+      "usageTip": "故事练习：复述订位时主角怎样反复报电话号码、朋友如何边写边吐槽；再讲到场后他把号码当作姓名回答，以及朋友发现两个人都没报姓的回扣。",
+      "source_category": "餐廳訂位",
+      "source_file": "content/sentence_bank/long_food_shopping_06.json",
+      "source_index": 11,
+      "source_freeze_sha256": "5f930350414d66ae5671ae06940274452e1fe45b0a99a3e51b327ac9a58aef75",
+      "source_current_sha256": "5f930350414d66ae5671ae06940274452e1fe45b0a99a3e51b327ac9a58aef75",
+      "source_hash_match": true,
+      "story_han_count": 241,
+      "jyutping_syllable_count": 241,
+      "jyutping_has_cjk": false,
+      "alignment": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "manual_language_check": {
+        "jyutping_authored_and_reviewed_manually": true,
+        "tone_items_checked": [
+          "留電話 lau4 din6 waa2",
+          "逐項 zuk6 hong6",
+          "預約 jyu6 joek3",
+          "侍應 si6 jing3",
+          "姓乜 sing3 mat1"
+        ],
+        "translation_and_prompt_reviewed_for_alignment": true,
+        "unresolved_pronunciation_questions": []
+      }
+    }
+  ],
+  "validation": {
+    "candidate_count": 5,
+    "unique_source_ids": true,
+    "all_source_hashes_match": true,
+    "all_story_length_in_220_to_320": true,
+    "all_jyutping_counts_align": true,
+    "all_jyutping_cjk_free": true,
+    "none_marked_passed": true,
+    "canonical_files_modified": false,
+    "ledgers_selection_app_modified": false
+  }
+}

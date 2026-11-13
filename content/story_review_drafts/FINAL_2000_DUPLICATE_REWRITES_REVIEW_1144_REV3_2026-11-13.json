@@ -1,0 +1,49 @@
+{
+  "report": "Independent exact review of order 1144 REV3",
+  "date": "2026-11-13",
+  "candidate_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_1144_REV3_2026-11-13.json",
+  "candidate_file_sha256": "ecf5cb263f2cf72ccfd11e9ccf119d1913c9f51a7bb0e521fd5c34d152431928",
+  "expected_candidate_file_sha256": "ecf5cb263f2cf72ccfd11e9ccf119d1913c9f51a7bb0e521fd5c34d152431928",
+  "candidate_file_hash_match": true,
+  "source_freeze_manifest_sha256": "863768b0fe764bf81cf93858c0a9caebf01a3b975bc5ffb5d39a59a9731bca11",
+  "source_freeze_manifest_matches_candidate": true,
+  "order": 1144,
+  "id": "sentence-bank-long_food_shopping_14-0015",
+  "category": "公司下午茶合訂飲品",
+  "source_file": "content/sentence_bank/long_food_shopping_14.json",
+  "source_index": 14,
+  "source_sha256_candidate": "4894289dde46349b0f6f3a900441fe0848fd24dbf44ae8d44e59d307ee2b3671",
+  "source_sha256_current_recomputed": "4894289dde46349b0f6f3a900441fe0848fd24dbf44ae8d44e59d307ee2b3671",
+  "source_sha256_freeze": "4894289dde46349b0f6f3a900441fe0848fd24dbf44ae8d44e59d307ee2b3671",
+  "source_hash_match": true,
+  "keeper_order": 1100,
+  "keeper_id": "sentence-bank-long_food_shopping_13-0016",
+  "keeper_found_in_freeze": true,
+  "candidate_fields_sha256_reported": "c04123fd6063dafc076e88d817a35907009e5a6f625baad630ab4be485da1185",
+  "candidate_fields_sha256_recomputed": "c04123fd6063dafc076e88d817a35907009e5a6f625baad630ab4be485da1185",
+  "candidate_hash_match": true,
+  "han_count": 240,
+  "jyutping_token_count": 240,
+  "alignment_match": true,
+  "jyutping_has_cjk": false,
+  "usageTip_prefix_ok": true,
+  "tone_checks_for_every_搖_action": [
+    {
+      "story_phrase": "拎起杯搖兩下",
+      "jyutping_phrase": "ling1 hei2 bui1 jiu4 loeng5 haa5",
+      "correct": true
+    },
+    {
+      "story_phrase": "跟住搖杯認領",
+      "jyutping_phrase": "gan1 zyu6 jiu4 bui1 jing6 ling5",
+      "correct": true
+    },
+    {
+      "story_phrase": "冇人搖過嘅杯",
+      "jyutping_phrase": "mou5 jan4 jiu4 gwo3 ge3 bui1",
+      "correct": true
+    }
+  ],
+  "verdict": "PASS",
+  "evidence": "REV3 corrects all three action-meaning occurrences of 搖 to jiu4; both occurrences of 兩下 use haa5. Remaining four fields were independently reread. The office drink customization escalates into cup-shaking identification and an ice-cube rhythm section, with the speaker ending up with untouched plain water; this is coherent spoken-life comedy and distinct from keeper 1100, whose mechanism is physically relaying unstable drink trays through an automatic door. Traditional-story/Jyutping alignment is 240/240, gloss is complete and simplified, and the usage prompt begins with the required prefix and matches the story. Source ID/index/category and source hash match the freeze/current row."
+}

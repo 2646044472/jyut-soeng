@@ -1,0 +1,247 @@
+{
+  "report": "FINAL_2000_DUPLICATE_REWRITES_REVIEW_0700_1400_BATCH01_SELECTED_REV2_CORRECTED",
+  "review_round": "macau-comedy-revalidation-v2",
+  "created_date": "2026-11-13",
+  "inputs": [
+    "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_0700_1400_BATCH01_ORDER700_REV2_2026-11-13.json",
+    "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_0700_1400_BATCH01_REMAINING7_REV2_2026-11-13.json"
+  ],
+  "scope": {
+    "orders": [
+      665,
+      667,
+      700,
+      750,
+      757
+    ],
+    "candidate_count": 5,
+    "excluded_canonical_orders": [
+      722,
+      762
+    ]
+  },
+  "method": "對order700改為讀取指定的獨立REV2文件，而非REMAINING7_REV2中的舊副本；逐欄人工核故事、Jyutping、翻譯、提示並重算當前源、freeze及候稿SHA。其他四卡保留前版有效審查。不改候稿或canonical。",
+  "supersedes": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_REVIEW_0700_1400_BATCH01_SELECTED_REV2_2026-11-13.json (order 700 only)",
+  "status": "CORRECTED — order700 audited from its standalone ORDER700_REV2 candidate; the previous report’s copied REMAINING7_REV2 order700 item is stale. Other four items are unchanged.",
+  "counts": {
+    "PASS": 3,
+    "REVISE": 2,
+    "source_hash_mismatches": 0,
+    "candidate_hash_mismatches": 0,
+    "han_jyutping_mismatches": 0
+  },
+  "items": [
+    {
+      "order": 665,
+      "id": "sentence-bank-long_food_shopping_02-0058",
+      "source_file": "content/sentence_bank/long_food_shopping_02.json",
+      "source_index": 57,
+      "category": "食物過敏與保存",
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "input_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_0700_1400_BATCH01_REMAINING7_REV2_2026-11-13.json",
+      "source_sha256_reported": "e83f882d002b00e13f9cf4236f3236f663c047485631e768b56b78075ddeeb7f",
+      "source_sha256_recomputed": "e83f882d002b00e13f9cf4236f3236f663c047485631e768b56b78075ddeeb7f",
+      "freeze_source_sha256": "e83f882d002b00e13f9cf4236f3236f663c047485631e768b56b78075ddeeb7f",
+      "source_hash_match": true,
+      "candidate_content_sha256_reported": "2d0bb3cf15d363ef7eaf799c546ceb6aa68fd4e0ba1f6e36ded57e833ea5b313",
+      "candidate_content_sha256_recomputed": "2d0bb3cf15d363ef7eaf799c546ceb6aa68fd4e0ba1f6e36ded57e833ea5b313",
+      "candidate_hash_match": true,
+      "han_character_count": 234,
+      "jyutping_whitespace_token_count": 234,
+      "alignment_match": true,
+      "jyutping_has_cjk": false,
+      "traditional_quote_markers_present": true,
+      "keeper_id": "sentence-bank-long_food_shopping_05-0016",
+      "keeper_mechanism_difference": "keeper笑點是把「今晚」標籤每日更新而令日期失去意義；本稿是無標籤剩菜的顏色/重量誤認，觸發機制不同。",
+      "verdict": "REVISE",
+      "four_field_review": {
+        "story": {
+          "verdict": "REVISE",
+          "evidence": "修復了原先「看保存日期」與無標籤矛盾，但同一兩盒的內容仍前後變成三種：先說一盒白飯、另一盒打開是椰菜花；之後稱重又說重盒是馬鈴薯、輕盒是飯；結尾桌上同時出現飯、菜、薯仔。沒有交代第三盒或換盒，因果與物件數量不一致。"
+        },
+        "jyutping": {
+          "verdict": "PASS_WITH_STORY_SYNC_REQUIRED",
+          "evidence": "目前234漢字/234 token，逐字及語境音調抽核未見明確錯讀（聞異味 man4 ji6 mei6、椰菜花 je4 coi3 faa1、重量 zung6 loeng6、馬鈴薯 maa5 ling4 syu4）；但故事修訂後需按新字逐字重核。"
+        },
+        "gloss": {
+          "verdict": "REVISE",
+          "evidence": "譯文完整跟隨故事，但同樣把兩盒內容寫成飯、椰菜花後又出現土豆及三種菜；需要先釐清正文容器及食物，再同步翻譯。"
+        },
+        "usageTip": {
+          "verdict": "REVISE",
+          "evidence": "以前述白飯、椰菜花及馬鈴薯都來自同一組盒子為前提；情節修復後需同步改提示。"
+        }
+      }
+    },
+    {
+      "order": 667,
+      "id": "sentence-bank-long_food_shopping_02-0060",
+      "source_file": "content/sentence_bank/long_food_shopping_02.json",
+      "source_index": 59,
+      "category": "日常退換貨",
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "input_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_0700_1400_BATCH01_REMAINING7_REV2_2026-11-13.json",
+      "source_sha256_reported": "b787eca646bfd51a5878cecdb2d328f482acc4a9ddc64371420523edb8d01484",
+      "source_sha256_recomputed": "b787eca646bfd51a5878cecdb2d328f482acc4a9ddc64371420523edb8d01484",
+      "freeze_source_sha256": "b787eca646bfd51a5878cecdb2d328f482acc4a9ddc64371420523edb8d01484",
+      "source_hash_match": true,
+      "candidate_content_sha256_reported": "9bf2e39b538aa9b50d59073600521a703f7b5558f6efbc1a2817e86191137872",
+      "candidate_content_sha256_recomputed": "9bf2e39b538aa9b50d59073600521a703f7b5558f6efbc1a2817e86191137872",
+      "candidate_hash_match": true,
+      "han_character_count": 235,
+      "jyutping_whitespace_token_count": 235,
+      "alignment_match": true,
+      "jyutping_has_cjk": false,
+      "traditional_quote_markers_present": true,
+      "keeper_id": "sentence-bank-long_food_shopping_07-0055",
+      "keeper_mechanism_difference": "keeper是水樽外壁凝水被誤認漏水、用紙巾驗漏；本稿是未拆運輸扣令風扇啟動並吹走收據，機制不同。",
+      "verdict": "PASS",
+      "four_field_review": {
+        "story": {
+          "verdict": "PASS",
+          "evidence": "運輸扣未拆令風扇不轉；職員拉開後扇葉吹飛收據，追收據引出救文件現場，次日「大到收據想辭職」及先問是否收好紙回扣完整。直接引號標點乾淨。"
+        },
+        "jyutping": {
+          "verdict": "PASS",
+          "evidence": "235漢字/235 token，逐字抽核未見明確聲調問題；低鳴 dai1 ming4、扇葉 sin3 jip6、運輸扣 wan6 syu1 kau3、底座 dai2 zo6、收據 sau1 geoi3、展示牌 zin2 si6 paai4、固定扣 gu3 ding6 kau3、轉 zyun2 均對應。"
+        },
+        "gloss": {
+          "verdict": "PASS",
+          "evidence": "完整對應插線、撳掣後風扇被運輸扣卡住、收據吹走、職員解扣及次日同事收紙；「等它转」與粵語新寫法對應。"
+        },
+        "usageTip": {
+          "verdict": "PASS",
+          "evidence": "以前綴「故事练习：」開頭，涵蓋風扇不轉、解扣、收據飛走與第二日回扣。"
+        }
+      }
+    },
+    {
+      "order": 700,
+      "id": "sentence-bank-long_food_shopping_03-0016",
+      "source_file": "content/sentence_bank/long_food_shopping_03.json",
+      "source_index": 15,
+      "category": "街頭小食",
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "input_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_0700_1400_BATCH01_ORDER700_REV2_2026-11-13.json",
+      "candidate_file_sha256": "7e4ac551aa51e7c4aa22c2130d0859a8a619e51b90ad2f18aebe1e17b37120d6",
+      "source_sha256_reported": "a50cdaf0c20a17a9f03e15394e34d086ee78593c873f5c4925d12e1a5f5b39f4",
+      "source_sha256_recomputed": "a50cdaf0c20a17a9f03e15394e34d086ee78593c873f5c4925d12e1a5f5b39f4",
+      "freeze_source_sha256": "a50cdaf0c20a17a9f03e15394e34d086ee78593c873f5c4925d12e1a5f5b39f4",
+      "source_hash_match": true,
+      "candidate_content_sha256_reported": "acc3d7728bd36669c26b99573c55ec2ea97bc215e12ef0ca76a930dd9ecb856f",
+      "candidate_content_sha256_recomputed": "acc3d7728bd36669c26b99573c55ec2ea97bc215e12ef0ca76a930dd9ecb856f",
+      "candidate_hash_match": true,
+      "han_character_count": 255,
+      "jyutping_whitespace_token_count": 255,
+      "alignment_match": true,
+      "jyutping_has_cjk": false,
+      "traditional_quote_markers_present": true,
+      "previous_wrong_copy_candidate_hash": "4d89f4428f085ff23fa9e27f8cb4977fd8f2cada58826106f22c0003a3b600a8",
+      "keeper_id": "sentence-bank-long_food_shopping_06-0057",
+      "keeper_mechanism_difference": "keeper以熱奶茶暖手引發其他桌模仿捧杯；此候稿以菠蘿包加熱引來排隊和溫度要求，觸發與結尾不同。",
+      "verdict": "PASS",
+      "four_field_review": {
+        "story": {
+          "verdict": "PASS",
+          "evidence": "指定獨立候稿中，兩個菠蘿包取出紙袋後再入焗爐，修復紙袋入爐誤讀。單次加熱引來排隊與溫度要求；主角終於拿到早餐時已冷，結尾「個包等到冇晒火／我就等到冇晒脾氣」有清楚回扣。直接引號正確。"
+        },
+        "jyutping": {
+          "verdict": "PASS",
+          "evidence": "255漢字/255個空格分隔音節；逐字抽核聲調，菠蘿包 bo1 lo4 baau1、焗爐 guk6 lou4、加熱 gaa1 jit6、隊伍 deoi6 ng5、水療 seoi2 liu4、脾氣 pei4 hei3均對應，無漢字殘留。"
+        },
+        "gloss": {
+          "verdict": "PASS",
+          "evidence": "完整翻譯加熱隊伍、不同溫度要求和冷掉的菠蘿包；末句將「冇晒火／冇晒脾氣」譯成「没了热气／没了脾气」，保留平行回扣。"
+        },
+        "usageTip": {
+          "verdict": "PASS",
+          "evidence": "以「故事练习：」開頭，概括加熱引發隊伍、不同溫度要求及水療中心回扣，覆蓋主要故事機制。"
+        }
+      }
+    },
+    {
+      "order": 750,
+      "id": "sentence-bank-long_food_shopping_04-0001",
+      "source_file": "content/sentence_bank/long_food_shopping_04.json",
+      "source_index": 0,
+      "category": "街市買餸",
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "input_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_0700_1400_BATCH01_REMAINING7_REV2_2026-11-13.json",
+      "source_sha256_reported": "92552bd92e8932d6238bfebb23f897da68ef3edb1cb66c8428c5584e62ba6b33",
+      "source_sha256_recomputed": "92552bd92e8932d6238bfebb23f897da68ef3edb1cb66c8428c5584e62ba6b33",
+      "freeze_source_sha256": "92552bd92e8932d6238bfebb23f897da68ef3edb1cb66c8428c5584e62ba6b33",
+      "source_hash_match": true,
+      "candidate_content_sha256_reported": "c7b661f73e4033a9e6c7b9e6c6873fb54190d206e494bf9f29c304155bc281f3",
+      "candidate_content_sha256_recomputed": "c7b661f73e4033a9e6c7b9e6c6873fb54190d206e494bf9f29c304155bc281f3",
+      "candidate_hash_match": true,
+      "han_character_count": 230,
+      "jyutping_whitespace_token_count": 230,
+      "alignment_match": true,
+      "jyutping_has_cjk": false,
+      "traditional_quote_markers_present": true,
+      "keeper_id": "sentence-bank-long_food_shopping_07-0015",
+      "keeper_mechanism_difference": "keeper擬人化魚頭並讓室友借魚頭勸人少講話；本稿是無鍋轉魚片粥，笑點和動作引擎不同。",
+      "verdict": "PASS",
+      "four_field_review": {
+        "story": {
+          "verdict": "PASS",
+          "evidence": "摊主先提醒趁新鮮煮，已消除「魚皮唔好沾水」與煮粥衝突；缺鍋促成翻箱倒櫃找小電熱鍋、魚片塞滿鍋、下次拍廚房照及問廚房出租，因果與回扣完整。「連平底都冇」是對前句「平底鑊」的口語省略，可由語境還原。引號後標點正確。"
+        },
+        "jyutping": {
+          "verdict": "PASS",
+          "evidence": "230漢字/230 token；逐詞和語境聲調抽核：清蒸 cing1 zing1、魚切 jyu4 cit3、趁新鮮 can3 san1 sin1、平底鑊 ping4 dai2 wok6、小電熱鍋 siu2 din6 jit6 wo2、魚片粥 jyu4 pin2 zuk1、廚房 ceoi4 fong2。"
+        },
+        "gloss": {
+          "verdict": "PASS",
+          "evidence": "完整翻譯無鍋、臨時改煮魚片粥、魚片擠滿小鍋及最後問廚房出租；以「平底鍋」補出承接上句省略的名詞，沒有改變語義。"
+        },
+        "usageTip": {
+          "verdict": "PASS",
+          "evidence": "以前綴「故事练习：」開頭，涵蓋沒鍋、找小鍋、魚片塞滿及拍廚房照。"
+        }
+      }
+    },
+    {
+      "order": 757,
+      "id": "sentence-bank-long_food_shopping_04-0008",
+      "source_file": "content/sentence_bank/long_food_shopping_04.json",
+      "source_index": 7,
+      "category": "茶餐廳",
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "input_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_0700_1400_BATCH01_REMAINING7_REV2_2026-11-13.json",
+      "source_sha256_reported": "40a735181e4e474139d54f908d3f8c8a06da605fda0f937f7e1151cad7799f54",
+      "source_sha256_recomputed": "40a735181e4e474139d54f908d3f8c8a06da605fda0f937f7e1151cad7799f54",
+      "freeze_source_sha256": "40a735181e4e474139d54f908d3f8c8a06da605fda0f937f7e1151cad7799f54",
+      "source_hash_match": true,
+      "candidate_content_sha256_reported": "31512c3fae3685e9339cc0ead9a22275e30cfe3777f6c61b9e466e704ea0084c",
+      "candidate_content_sha256_recomputed": "31512c3fae3685e9339cc0ead9a22275e30cfe3777f6c61b9e466e704ea0084c",
+      "candidate_hash_match": true,
+      "han_character_count": 230,
+      "jyutping_whitespace_token_count": 230,
+      "alignment_match": true,
+      "jyutping_has_cjk": false,
+      "traditional_quote_markers_present": true,
+      "keeper_id": "sentence-bank-long_food_shopping_07-0055",
+      "keeper_mechanism_difference": "keeper測水樽是否漏水並揭示外壁凝水；本稿是奶茶稀釋度變成全店試茶，機制不同。",
+      "verdict": "REVISE",
+      "four_field_review": {
+        "story": {
+          "verdict": "REVISE",
+          "evidence": "奶茶加水被誤認洗杯、顧客參與試茶、店員貼「茶味自負」的機制清楚；但末段「叫伙計拿支匙羹來量」用「拿」較像普通話直譯，澳門口語更自然是「攞支匙羹嚟量」。"
+        },
+        "jyutping": {
+          "verdict": "REVISE",
+          "evidence": "目前230漢字/230 token且聲調大致對；「拿」naa4 若改成「攞」需改 lo2，並對應「來」loi4 改粵語「嚟」lai4，再重核更新後字音對齊。"
+        },
+        "gloss": {
+          "verdict": "PASS_WITH_STORY_SYNC_REQUIRED",
+          "evidence": "譯文清楚完整；如粵語改成「攞支匙羹嚟量」，中文相應仍為「拿支匙羹来量」，不需語義改動。"
+        },
+        "usageTip": {
+          "verdict": "PASS",
+          "evidence": "以「故事练习：」開頭，回述熱水沖淡、旁人加入和「茶味自負」，與故事一致。"
+        }
+      }
+    }
+  ]
+}

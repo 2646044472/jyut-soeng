@@ -1,0 +1,101 @@
+{
+  "report": "Independent review of order384 REV2 and order665 REV5",
+  "review_date": "2026-11-13",
+  "review_round": "macau-comedy-revalidation-v2",
+  "freeze_manifest_file": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "freeze_manifest_file_sha256": "4c3ac877867079fd053c88374eb434f94cfb3e09fd67a76b0b7f6424fb119843",
+  "freeze_manifest_declared_sha256": "863768b0fe764bf81cf93858c0a9caebf01a3b975bc5ffb5d39a59a9731bca11",
+  "scope_orders": [
+    384,
+    665
+  ],
+  "coverage_count": 2,
+  "unique_orders": 2,
+  "unique_ids": 2,
+  "verdict_counts": {
+    "PASS": 1,
+    "REVISE": 1
+  },
+  "items": [
+    {
+      "order": 665,
+      "id": "sentence-bank-long_food_shopping_02-0058",
+      "verdict": "PASS",
+      "candidate_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_0700_1400_BATCH01_REMAINING7_0665_REV5_2026-11-13.json",
+      "candidate_file_sha256": "45718bc7b92282ba9363638429a1b36032af5761d638244962c27561fc1e5288",
+      "source_file": "content/sentence_bank/long_food_shopping_02.json",
+      "source_index": 57,
+      "category": "食物過敏與保存",
+      "freeze_source_sha256": "e83f882d002b00e13f9cf4236f3236f663c047485631e768b56b78075ddeeb7f",
+      "current_source_sha256_recomputed": "e83f882d002b00e13f9cf4236f3236f663c047485631e768b56b78075ddeeb7f",
+      "source_hash_matches_freeze_and_candidate": true,
+      "candidate_content_sha256_recomputed": "f05818b9dc6940a30d2afd4f36ff35ef3ceb081072441fc5cecfd74f96362660",
+      "candidate_content_sha256_declared": "f05818b9dc6940a30d2afd4f36ff35ef3ceb081072441fc5cecfd74f96362660",
+      "candidate_hash_matches_declared": true,
+      "han_count": 260,
+      "jyutping_token_count": 260,
+      "alignment_count_match": true,
+      "field_checks": {
+        "story": "PASS。修订版先明确只凭外观猜饭/粥/菜，之后分开倒入两只已点明的碗，再揭晓重盒是椰菜花、轻盒是饭；“菜比饭重”造成笑点，“估错那餐/开盒后的答案”回扣成立。餐盒、两碗、倒出、加热及午餐顺序清楚。",
+        "jyutping": "PASS。260个汉字与260个token对齐；抽核「半透明 bun3 tau4 ming4」「估 gu2」「揭蓋 kit3 goi3」「椰菜花 je4 coi3 faa1」「兩隻碗 loeng5 zek3 wun2」「答案 daap3 on3」均与词项和语境相符，未见明确调值错误或CJK残留。",
+        "gloss": "PASS。完整对应两盒外观相似、重量猜测、分别倒入碗、椰菜花/饭揭晓、午餐和末尾标签回扣。",
+        "usageTip": "PASS。以「故事练习：」开头，覆盖外观猜测、两只碗、重量揭晓及回扣。"
+      },
+      "evidence": "具体证据：正文“我望住兩盒半透明餐盒…先估兩盒都係飯”建立初始猜测；“拎兩隻碗出嚟，逐盒倒入去”铺垫两碗；两次揭晓与译文、提示一致。",
+      "scope_note": "仅候稿复核，未改canonical。"
+    },
+    {
+      "order": 384,
+      "id": "sentence-bank-long_family_finance_services_05-0075",
+      "verdict": "REVISE",
+      "candidate_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITE_HARD_0384_REV2_2026-11-13.json",
+      "candidate_file_sha256": "f6bfe8a876dfbd289870da8996b428a34868c375859fb276218f32de751a11f2",
+      "source_file": "content/sentence_bank/long_family_finance_services_05.json",
+      "source_index": 74,
+      "source_category": "保費比較",
+      "freeze_source_sha256": "004d499d8d2133358d8dc5f450c8cc46584cee9348fa633b41e5b6b5bbd7a270",
+      "current_source_sha256_recomputed": "004d499d8d2133358d8dc5f450c8cc46584cee9348fa633b41e5b6b5bbd7a270",
+      "source_hash_matches_freeze_and_candidate": true,
+      "candidate_content_sha256_recomputed": "dead5af687e722d9411c7927b2b64ed8914cebbe3b031b4cb49991f294959854",
+      "candidate_hash_method": "SHA-256 canonical JSON {category=source_category, sentence, jyutping, gloss, usageTip}; UTF-8, ensure_ascii=False, sort_keys=True, compact separators",
+      "han_count": 292,
+      "jyutping_token_count": 292,
+      "alignment_count_match": true,
+      "field_checks": {
+        "story": "REVISE。左/右便利贴留在桌面，文件交换后仍按位置叫两份文件，职员追问、结尾只确认左右而没比较保费，因果和笑点链成立。以前的烘焙题材/类别错位已改成保费摘要比较，且不含具体金额或保险建议。剩余问题：开场“保費比較櫃台”像特定的比较服务柜台；未核实此类澳门柜台存在。另“欄目高低唔齊”搭配生硬，建议改“表格格仔唔同位/欄位排得唔齊”；“交換完，兩份紙換咗位”语义重复。",
+        "jyutping": "292个汉字/292 token；逐词抽查保費 bou2 fai3、保障項目 bou2 zoeng3 hong6 muk6、便利貼 bin6 lei6 tip3、原本 jyun4 bun2、逐項 zuk6 hong6、左右 zo2 jau6，声调和语境适切。上一版“舉 gyu2”问题在本REV2正文中已不存在（本稿不含“舉”字）。",
+        "gloss": "PASS。逐句完整复述左右摆放、旋转、交换、桌面便签留位、职员追问及“左右分清”回扣。",
+        "usageTip": "PASS。以“故事练习：”开头，概括文件换位、便签留桌、职员发现及结尾回扣。"
+      },
+      "high_risk_issue_closure": [
+        {
+          "previous_issue": "旧候稿写烘焙题材，与原category「保費比較」不符。",
+          "status": "CLOSED",
+          "evidence": "REV2故事围绕保费摘要和保障项目比较；原category仍保留。"
+        },
+        {
+          "previous_issue": "旧候稿「舉」的Jyutping写成 gyu2。",
+          "status": "CLOSED_IN_REV2",
+          "evidence": "REV2候稿未出现「舉」字，不能沿用旧版问题。"
+        },
+        {
+          "previous_issue": "校验source hash。",
+          "status": "CLOSED",
+          "evidence": "当前源行与freeze、候稿声明SHA均为 004d499d8d2133358d8dc5f450c8cc46584cee9348fa633b41e5b6b5bbd7a270。"
+        }
+      ],
+      "external_factual_review": {
+        "finding": "官方资料显示，澳门消委会曾收集11间保险公司的24款旅游保险计划资料作整理比较；金管局提醒通过获许可的保险公司或保险中介人获取产品服务。这支持“比较保险方案”作为一般情境，但未核实存在“保費比較櫃台”这种专门柜台。后一判断是基于官方资料未支持此具体场景的保守推断，不是认定不存在。",
+        "recommended_wording": "把“去保費比較櫃台”改成“去保險公司/保險中介人門市問兩份方案”或其他泛化的咨询场景；避免写成有特定澳门公共柜台。",
+        "sources": [
+          "https://www.gov.mo/zh-hant/news/1109561/",
+          "https://www.gov.mo/zh-hant/news/937112/"
+        ]
+      },
+      "evidence": "正文句：“我陪同事阿朗去保費比較櫃台”需调整以避免暗示澳门存在专设服务点；“兩張紙啲欄目高低唔齊”与“交換完，兩份紙換咗位”需要润色。其余故事机制和三项复审字段通过。",
+      "scope_note": "仅候稿复核，未改canonical。"
+    }
+  ],
+  "canonical_modified": false,
+  "summary": "Order665 REV5 PASS：叙事状态、两碗铺垫、四字段及260/260对齐已闭合。Order384 REV2 REVISE：旧候稿的类别/烘焙与舉字读音问题已关闭；现稿其余内容可读且292/292对齐，但“保費比較櫃台”本地服务形态未证实，且有两处搭配/重复可修。"
+}

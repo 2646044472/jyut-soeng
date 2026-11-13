@@ -1,0 +1,24 @@
+{
+  "report_type": "bounded_duplicate_rewrite_candidate",
+  "date": "2026-11-13",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "order": 1284,
+  "id": "sentence-bank-long_food_shopping_18-0038",
+  "source_file": "content/sentence_bank/long_food_shopping_18.json",
+  "source_index": 37,
+  "source_category": "超市買生菜收到芥蘭替代品",
+  "source_sha256": "bb925851673142410ed95f7326fdee40b0bef0dbffe68efd50112a3e9a0c8141",
+  "freeze_sha256": "bb925851673142410ed95f7326fdee40b0bef0dbffe68efd50112a3e9a0c8141",
+  "keeper_order": 1123,
+  "keeper_id": "sentence-bank-long_food_shopping_13-0075",
+  "candidate": {
+    "sentence": "我同阿朗喺超市程式訂生菜，打算帶返公司整沙律。送貨一到，我哋打開袋，入面竟然係一扎芥蘭。阿朗話要影張相問客服點解換咗，拎起手機對住袋口，按完先發現開咗前鏡頭，相入面得佢自己個皺眉樣。佢轉返鏡頭，再叫我托高袋；我手一震，芥蘭葉遮住個鏡頭，張相綠到乜都睇唔見。佢叫我企定，自己蹲低取景，點知袋底穿咗個窿，一條菜莖慢慢伸出嚟。我哋一邊托袋一邊影，客服終於回覆，話訂單設定咗缺貨可替代，並教我下次先確認選項。阿朗睇返啲相，問邊張最清楚。我指住第一張佢皺眉嘅自拍話：「呢張最清楚，清楚交代我哋開袋嗰陣嘅反應。」佢收起手機，話今次先炒芥蘭，下次記得睇清楚設定。",
+    "jyutping": "ngo5 tung4 aa3 long5 hai2 ciu1 si5 cing4 sik1 deng6 saang1 coi3, daa2 syun3 daai3 faan1 gung1 si1 zing2 saa1 leot6. sung3 fo3 jat1 dou3, ngo5 dei6 daa2 hoi1 doi6, jap6 min6 ging2 jin4 hai6 jat1 zaat3 gaai3 laan2. aa3 long5 waa6 jiu3 jing2 zoeng1 soeng2 man6 haak3 fuk6 dim2 gaai2 wun6 zo2, ling1 hei2 sau2 gei1 deoi3 zyu6 doi6 hau2, on3 jyun4 sin1 faat3 jin6 hoi1 zo2 cin4 geng3 tau4, soeng2 jap6 min6 dak1 keoi5 zi6 gei2 go3 zau3 mei4 joeng2. keoi5 zyun2 faan1 geng3 tau4, zoi3 giu3 ngo5 tok3 gou1 doi6; ngo5 sau2 jat1 zan3, gaai3 laan2 jip6 ze1 zyu6 go3 geng3 tau4, zoeng1 soeng2 luk6 dou3 mat1 dou1 tai2 m4 gin3. keoi5 giu3 ngo5 kei5 ding6, zi6 gei2 zeon1 dai1 ceoi2 ging2, dim2 zi1 doi6 dai2 cyun1 zo2 go3 lung1, jat1 tiu4 coi3 hang1 maan6 maan6 san1 ceot1 lai4. ngo5 dei6 jat1 bin1 tok3 doi6 jat1 bin1 jing2, haak3 fuk6 zung1 jyu1 wui4 fuk1, waa6 deng6 daan1 cit3 ding6 zo2 kyut3 fo3 ho2 tai3 doi6, bing6 gaau3 ngo5 haa6 ci3 sin1 kok3 jing6 syun2 hong6. aa3 long5 tai2 faan1 di1 soeng2, man6 bin1 zoeng1 zeoi3 cing1 co2. ngo5 zi2 zyu6 dai6 jat1 zoeng1 keoi5 zau3 mei4 ge3 zi6 paak3 waa6: 「ni1 zoeng1 zeoi3 cing1 co2, cing1 co2 gaau1 doi3 ngo5 dei6 hoi1 doi6 go2 zan6 ge3 faan2 jing3.」 keoi5 sau1 hei2 sau2 gei1, waa6 gam1 ci3 sin1 caau2 gaai3 laan2, haa6 ci3 gei3 dak1 tai2 cing1 co2 cit3 ding6.",
+    "gloss": "我和阿朗在超市程序订生菜，打算带回公司做沙拉。送货一到，我们打开袋子，里面竟然是一把芥兰。阿朗说要拍照问客服为什么换了，拿起手机对着袋口，按完才发现开了前置镜头，照片里只有他自己皱眉的样子。他切回镜头，又叫我把袋子托高；我手一抖，芥兰叶遮住镜头，照片绿得什么也看不见。他叫我站稳，自己蹲下取景，没想到袋底破了个洞，一根菜茎慢慢伸出来。我们一边托袋一边拍，客服终于回复，说订单设置了缺货可替代，并教我下次先确认选项。阿朗翻看照片，问哪张最清楚。我指着第一张他皱眉的自拍说：“这张最清楚，清楚交代了我们开袋时的反应。”他收起手机，说这次先炒芥兰，下次记得看清设置。",
+    "usageTip": "故事练习：复述阿朗怎样拍照询问生菜被替换的原因，前置镜头、菜叶和袋底的洞怎样令拍照越忙越乱；最后讲客服的解释和皱眉自拍的回扣。"
+  },
+  "candidate_fields_sha256": "c3083256a1d2e5588b348326bed7455670f804230f497475b206033dcdb61346",
+  "han_count": 242,
+  "jyutping_token_count": 242,
+  "manual_note": "拍照询问替换设置时前镜头自拍、菜叶遮镜及袋底破洞导致手忙脚乱，最后自拍表情回扣；与keeper草莓招聘离职机制不同。附近active 15-0007是摄影师为摘果设布景，02-0050是物理治疗自拍左右颠倒，01-0054是菜袋破裂掉葱；情节和笑点均不同，仍须独立复核近邻。蹲zeon1、莖hang1参照jyut.net词条。"
+}

@@ -1,0 +1,60 @@
+{
+  "report": "FINAL_2000_DUPLICATE_REWRITES_0700_1400_BATCH01_REV4_ROOT_QUOTE_FIX",
+  "review_round": "macau-comedy-revalidation-v2",
+  "created_date": "2026-11-13",
+  "scope": {
+    "revision_orders": [
+      645
+    ],
+    "revised_candidate_count": 1,
+    "changes": "punctuation only after REV3 independent PASS except quote requirement"
+  },
+  "status": "candidate submitted for independent final review; not eligible for canonical integration until accepted",
+  "source_policy": "保留 REV2 旧候选、旧译文和旧候选内容哈希；本文件只修订 645 的简体译文，不改源卡、台账、app 或 selection。",
+  "parent_revision": "FINAL_2000_DUPLICATE_REWRITES_0700_1400_BATCH01_REV3_2026-11-13.json",
+  "independent_review_feedback": "643 PASS；645 仅需调整简体译文动作顺序以对应原粤语。",
+  "items": [
+    {
+      "order": 645,
+      "id": "sentence-bank-long_food_shopping_02-0028",
+      "source_file": "content/sentence_bank/long_food_shopping_02.json",
+      "source_index": 27,
+      "category": "外賣溝通",
+      "source_sha256": "0d37c5fab7a99db1f893dd5d36a1707847f7a058788436852a1c6e23080ef006",
+      "revised_candidate": {
+        "category": "外賣溝通",
+        "sentence": "放工後我同阿朗去茶餐廳買兩份外賣，佢話想帶返工作室慢慢食。落單時伙計問要唔要餐具，阿朗望住背囊話唔使，屋企有。我哋拎住兩袋返去，坐低先發現兩個都冇帶匙羹。阿朗打開背囊，搵出鉛筆、充電線同半包紙巾，話：「個袋好有準備，淨係冇準備食飯。」我用咖啡攪拌棒試住舀湯，支棒彎到似問號。阿朗摺起紙巾做托盤，先挑麵，再用袋邊兜湯，成餐似做手工。第二日再去，伙計未等我哋開口就遞兩套餐具。我哋話今次帶齊喇，佢望住我手上支鉛筆問：「呢支都係餐具？」我即刻收返入袋，話：「佢係今日嘅備用筷子。」食完我先發現，呢餐唔似叫外賣，似叫咗堂即場求生班。",
+        "jyutping": "fong3 gung1 hau6 ngo5 tung4 aa3 long5 heoi3 caa4 caan1 teng1 maai5 loeng5 fan6 ngoi6 maai6 keoi5 waa6 soeng2 daai3 faan1 gung1 zok3 sat1 maan6 maan6 sik6 lok6 daan1 si4 fo2 gai3 man6 jiu3 m4 jiu3 caan1 geoi6 aa3 long5 mong6 zyu6 bui3 nong4 waa6 m4 sai2 uk1 kei2 jau5 ngo5 dei6 ling1 zyu6 loeng5 doi2 faan1 heoi3 co5 dai1 sin1 faat3 jin6 loeng5 go3 dou1 mou5 daai3 ci4 gang1 aa3 long5 daa2 hoi1 bui3 nong4 wan2 ceot1 jyun4 bat1 cung1 din6 sin3 tung4 bun3 baau1 zi2 gan1 waa6 go3 doi2 hou2 jau5 zeon2 bei6 zing6 hai6 mou5 zeon2 bei6 sik6 faan6 ngo5 jung6 gaa3 fe1 gaau2 bun6 paang5 si3 zyu6 jiu5 tong1 zi1 paang5 waan1 dou3 ci5 man6 hou6 aa3 long5 zip3 hei2 zi2 gan1 zou6 tok3 pun4 sin1 tiu1 min6 zoi3 jung6 doi2 bin1 dau1 tong1 seng4 caan1 ci5 zou6 sau2 gung1 dai6 ji6 jat6 zoi3 heoi3 fo2 gai3 mei6 dang2 ngo5 dei6 hoi1 hau2 zau6 dai6 loeng5 tou3 caan1 geoi6 ngo5 dei6 waa6 gam1 ci3 daai3 cai4 laa3 keoi5 mong6 zyu6 ngo5 sau2 soeng6 zi1 jyun4 bat1 man6 ni1 zi1 dou1 hai6 caan1 geoi6 ngo5 zik1 hak1 sau1 faan1 jap6 doi2 waa6 keoi5 hai6 gam1 jat6 ge3 bei6 jung6 faai3 zi2 sik6 jyun4 ngo5 sin1 faat3 jin6 ni1 caan1 m4 ci5 giu3 ngoi6 maai6 ci5 giu3 zo2 tong4 zik1 coeng4 kau4 sang1 baan1",
+        "gloss": "下班后我和阿朗去茶餐厅买两份外卖，他说想带回工作室慢慢吃。下单时伙计问要不要餐具，阿朗看着背包说不用，家里有。我们拎着两袋回去，坐下才发现两个人都没带勺子。阿朗打开背包，找出铅笔、充电线和半包纸巾，说：“背包准备得倒挺齐全，唯独没准备吃饭。”我用咖啡搅拌棒试着舀汤，棒子弯得像问号。阿朗把纸巾折成托盘，先挑面，再用袋边兜汤，整顿饭吃得像在做手工。第二天再去，伙计还没等我们开口就递来两套餐具。我们说这次带齐了，他看着我手里的铅笔问：“这支也是餐具？”我马上把它收回包里，说：“它是今天的备用筷子。”吃完我才发现，这顿不像叫外卖，倒像报了一堂现场求生班。",
+        "usageTip": "故事练习：复述两人自信说有餐具、打开背包却找出铅笔和充电线，再讲咖啡搅拌棒弯成问号、纸巾变托盘，以及铅笔如何变成备用筷子，最后怎样把这顿饭说成现场求生班。"
+      },
+      "han_character_count": 226,
+      "jyutping_syllable_count": 226,
+      "alignment_check": "每句逐音节核对，汉字数与粤拼音节数一致；粤拼逐字手工复核",
+      "revised_candidate_content_sha256": "1b402a1864c4975d297b45c59a8e7c2bd8b7656fb3bb3005b2dfad9fc4e4d60f",
+      "keeper_difference": "改为没带餐具后用咖啡搅拌棒和纸巾临时就餐；不使用“到咗”语义误会或送餐到家状态。",
+      "independent_review_response": "两处“棒”均改读 paang5；尾句改为现场求生班，粤拼、译文和复述提示同步更新。",
+      "previous_candidate": {
+        "category": "外賣溝通",
+        "sentence": "放工後我同阿朗去茶餐廳買兩份外賣，佢話想帶返工作室慢慢食。落單時伙計問要唔要餐具，阿朗望住背囊話唔使，屋企有。我哋拎住兩袋返去，坐低先發現兩個都冇帶匙羹。阿朗打開背囊，搵出鉛筆、充電線同半包紙巾，話個袋好有準備，淨係冇準備食飯。我用咖啡攪拌棒試住舀湯，支棒彎到似問號。阿朗摺起紙巾做托盤，先挑麵，再用袋邊兜湯，成餐似做手工。第二日再去，伙計未等我哋開口就遞兩套餐具。我哋話今次帶齊喇，佢望住我手上支鉛筆問：呢支都係餐具？我即刻收返入袋，話佢係今日嘅備用筷子。食完我先發現，呢餐唔似叫外賣，似叫咗堂即場求生班。",
+        "jyutping": "fong3 gung1 hau6 ngo5 tung4 aa3 long5 heoi3 caa4 caan1 teng1 maai5 loeng5 fan6 ngoi6 maai6 keoi5 waa6 soeng2 daai3 faan1 gung1 zok3 sat1 maan6 maan6 sik6 lok6 daan1 si4 fo2 gai3 man6 jiu3 m4 jiu3 caan1 geoi6 aa3 long5 mong6 zyu6 bui3 nong4 waa6 m4 sai2 uk1 kei2 jau5 ngo5 dei6 ling1 zyu6 loeng5 doi2 faan1 heoi3 co5 dai1 sin1 faat3 jin6 loeng5 go3 dou1 mou5 daai3 ci4 gang1 aa3 long5 daa2 hoi1 bui3 nong4 wan2 ceot1 jyun4 bat1 cung1 din6 sin3 tung4 bun3 baau1 zi2 gan1 waa6 go3 doi2 hou2 jau5 zeon2 bei6 zing6 hai6 mou5 zeon2 bei6 sik6 faan6 ngo5 jung6 gaa3 fe1 gaau2 bun6 paang5 si3 zyu6 jiu5 tong1 zi1 paang5 waan1 dou3 ci5 man6 hou6 aa3 long5 zip3 hei2 zi2 gan1 zou6 tok3 pun4 sin1 tiu1 min6 zoi3 jung6 doi2 bin1 dau1 tong1 seng4 caan1 ci5 zou6 sau2 gung1 dai6 ji6 jat6 zoi3 heoi3 fo2 gai3 mei6 dang2 ngo5 dei6 hoi1 hau2 zau6 dai6 loeng5 tou3 caan1 geoi6 ngo5 dei6 waa6 gam1 ci3 daai3 cai4 laa3 keoi5 mong6 zyu6 ngo5 sau2 soeng6 zi1 jyun4 bat1 man6 ni1 zi1 dou1 hai6 caan1 geoi6 ngo5 zik1 hak1 sau1 faan1 jap6 doi2 waa6 keoi5 hai6 gam1 jat6 ge3 bei6 jung6 faai3 zi2 sik6 jyun4 ngo5 sin1 faat3 jin6 ni1 caan1 m4 ci5 giu3 ngoi6 maai6 ci5 giu3 zo2 tong4 zik1 coeng4 kau4 sang1 baan1",
+        "gloss": "下班后我和阿朗去茶餐厅买两份外卖，他说想带回工作室慢慢吃。下单时伙计问要不要餐具，阿朗看着背包说不用，家里有。我们拎着两袋回去，坐下才发现两个人都没带勺子。阿朗打开背包，找出铅笔、充电线和半包纸巾，说这才知道包里准备得很齐全，唯独没准备吃饭。我用咖啡搅拌棒试着舀汤，棒子弯得像问号。阿朗把纸巾折成托盘，先挑面，再用袋边兜汤，整顿饭吃得像在做手工。第二天再去，伙计还没等我们开口就递来两套餐具。我们说这次带齐了，他看着我手里的铅笔问：这支也是餐具？我马上把它收回包里，说它是今天的备用筷子。吃完我才发现，这顿不像叫外卖，倒像报了一堂现场求生班。",
+        "usageTip": "故事练习：复述两人自信说有餐具、打开背包却找出铅笔和充电线，再讲咖啡搅拌棒弯成问号、纸巾变托盘，以及铅笔如何变成备用筷子，最后怎样把这顿饭说成现场求生班。"
+      },
+      "previous_candidate_content_sha256": "b6ccd71924e6a9f503e6407a96b990758a1f135ac9ed552f39047fdfa6dfda13",
+      "previous_gloss": "下班后我和阿朗去茶餐厅买两份外卖，他说想带回工作室慢慢吃。下单时伙计问要不要餐具，阿朗看着背包说不用，家里有。我们拎着两袋回去，坐下才发现两个人都没带勺子。阿朗打开背包，找出铅笔、充电线和半包纸巾，说这才知道包里准备得很齐全，唯独没准备吃饭。我用咖啡搅拌棒试着舀汤，棒子弯得像问号。阿朗把纸巾折成托盘，先挑面，再用袋边兜汤，整顿饭吃得像在做手工。第二天再去，伙计还没等我们开口就递来两套餐具。我们说这次带齐了，他看着我手里的铅笔问：这支也是餐具？我马上把它收回包里，说它是今天的备用筷子。吃完我才发现，这顿不像叫外卖，倒像报了一堂现场求生班。",
+      "change_note": "在 REV3 已独立确认翻译因果顺序后，只为符合仓库格式加入传统直引号，并在简体译文对应加引号；故事汉字、词序、粤拼和复述提示不变。等待独立复审。",
+      "previous_revision_candidate": {
+        "category": "外賣溝通",
+        "sentence": "放工後我同阿朗去茶餐廳買兩份外賣，佢話想帶返工作室慢慢食。落單時伙計問要唔要餐具，阿朗望住背囊話唔使，屋企有。我哋拎住兩袋返去，坐低先發現兩個都冇帶匙羹。阿朗打開背囊，搵出鉛筆、充電線同半包紙巾，話個袋好有準備，淨係冇準備食飯。我用咖啡攪拌棒試住舀湯，支棒彎到似問號。阿朗摺起紙巾做托盤，先挑麵，再用袋邊兜湯，成餐似做手工。第二日再去，伙計未等我哋開口就遞兩套餐具。我哋話今次帶齊喇，佢望住我手上支鉛筆問：呢支都係餐具？我即刻收返入袋，話佢係今日嘅備用筷子。食完我先發現，呢餐唔似叫外賣，似叫咗堂即場求生班。",
+        "jyutping": "fong3 gung1 hau6 ngo5 tung4 aa3 long5 heoi3 caa4 caan1 teng1 maai5 loeng5 fan6 ngoi6 maai6 keoi5 waa6 soeng2 daai3 faan1 gung1 zok3 sat1 maan6 maan6 sik6 lok6 daan1 si4 fo2 gai3 man6 jiu3 m4 jiu3 caan1 geoi6 aa3 long5 mong6 zyu6 bui3 nong4 waa6 m4 sai2 uk1 kei2 jau5 ngo5 dei6 ling1 zyu6 loeng5 doi2 faan1 heoi3 co5 dai1 sin1 faat3 jin6 loeng5 go3 dou1 mou5 daai3 ci4 gang1 aa3 long5 daa2 hoi1 bui3 nong4 wan2 ceot1 jyun4 bat1 cung1 din6 sin3 tung4 bun3 baau1 zi2 gan1 waa6 go3 doi2 hou2 jau5 zeon2 bei6 zing6 hai6 mou5 zeon2 bei6 sik6 faan6 ngo5 jung6 gaa3 fe1 gaau2 bun6 paang5 si3 zyu6 jiu5 tong1 zi1 paang5 waan1 dou3 ci5 man6 hou6 aa3 long5 zip3 hei2 zi2 gan1 zou6 tok3 pun4 sin1 tiu1 min6 zoi3 jung6 doi2 bin1 dau1 tong1 seng4 caan1 ci5 zou6 sau2 gung1 dai6 ji6 jat6 zoi3 heoi3 fo2 gai3 mei6 dang2 ngo5 dei6 hoi1 hau2 zau6 dai6 loeng5 tou3 caan1 geoi6 ngo5 dei6 waa6 gam1 ci3 daai3 cai4 laa3 keoi5 mong6 zyu6 ngo5 sau2 soeng6 zi1 jyun4 bat1 man6 ni1 zi1 dou1 hai6 caan1 geoi6 ngo5 zik1 hak1 sau1 faan1 jap6 doi2 waa6 keoi5 hai6 gam1 jat6 ge3 bei6 jung6 faai3 zi2 sik6 jyun4 ngo5 sin1 faat3 jin6 ni1 caan1 m4 ci5 giu3 ngoi6 maai6 ci5 giu3 zo2 tong4 zik1 coeng4 kau4 sang1 baan1",
+        "gloss": "下班后我和阿朗去茶餐厅买两份外卖，他说想带回工作室慢慢吃。下单时伙计问要不要餐具，阿朗看着背包说不用，家里有。我们拎着两袋回去，坐下才发现两个人都没带勺子。阿朗一边打开背包，一边说背包准备得倒挺齐全，随后找出铅笔、充电线和半包纸巾——唯独没准备吃饭。我用咖啡搅拌棒试着舀汤，棒子弯得像问号。阿朗把纸巾折成托盘，先挑面，再用袋边兜汤，整顿饭吃得像在做手工。第二天再去，伙计还没等我们开口就递来两套餐具。我们说这次带齐了，他看着我手里的铅笔问：这支也是餐具？我马上把它收回包里，说它是今天的备用筷子。吃完我才发现，这顿不像叫外卖，倒像报了一堂现场求生班。",
+        "usageTip": "故事练习：复述两人自信说有餐具、打开背包却找出铅笔和充电线，再讲咖啡搅拌棒弯成问号、纸巾变托盘，以及铅笔如何变成备用筷子，最后怎样把这顿饭说成现场求生班。"
+      },
+      "previous_revision_candidate_content_sha256": "34d5dc18ae2ae7f6922b219c763bf4d4c0c3157b157164fd7cddd705c8210bc6",
+      "previous_revision_gloss": "下班后我和阿朗去茶餐厅买两份外卖，他说想带回工作室慢慢吃。下单时伙计问要不要餐具，阿朗看着背包说不用，家里有。我们拎着两袋回去，坐下才发现两个人都没带勺子。阿朗一边打开背包，一边说背包准备得倒挺齐全，随后找出铅笔、充电线和半包纸巾——唯独没准备吃饭。我用咖啡搅拌棒试着舀汤，棒子弯得像问号。阿朗把纸巾折成托盘，先挑面，再用袋边兜汤，整顿饭吃得像在做手工。第二天再去，伙计还没等我们开口就递来两套餐具。我们说这次带齐了，他看着我手里的铅笔问：这支也是餐具？我马上把它收回包里，说它是今天的备用筷子。吃完我才发现，这顿不像叫外卖，倒像报了一堂现场求生班。",
+      "parent_revision": "FINAL_2000_DUPLICATE_REWRITES_0700_1400_BATCH01_REV3_2026-11-13.json",
+      "root_punctuation_fix": "validator required explicit direct-dialogue markers; only punctuation changed"
+    }
+  ]
+}

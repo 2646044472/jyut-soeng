@@ -1,0 +1,113 @@
+{
+  "report": "FINAL_2000_DUPLICATE_REWRITES_REVIEW_0700_1400_BATCH01_REV1",
+  "review_round": "macau-comedy-revalidation-v2",
+  "created_date": "2026-11-13",
+  "scope": {
+    "input_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_0700_1400_BATCH01_REV1_2026-11-13.json",
+    "orders": [
+      643,
+      644,
+      645
+    ],
+    "candidate_count": 3
+  },
+  "method": "独立逐段阅读 REV1 故事、粤拼、简体译文与故事练习提示；逐字核对语境读音/声调并重算汉字与粤拼音节数。源与候选哈希独立重算。",
+  "counts": {
+    "PASS": 1,
+    "REVISE": 2,
+    "source_hash_mismatches": 0,
+    "candidate_hash_mismatches": 0,
+    "character_syllable_count_mismatches": 0
+  },
+  "items": [
+    {
+      "order": 643,
+      "id": "sentence-bank-long_food_shopping_02-0025",
+      "source_file": "content/sentence_bank/long_food_shopping_02.json",
+      "source_index": 24,
+      "source_sha256": "06ae160f6c06ed89939d544d911af7cf2d4161d7321c35afad5e1091021e3740",
+      "source_hash_match": true,
+      "candidate_content_sha256": "37bc5d4b23f5f44f5e81da27ed8be07bbbeb62d99c90ec8ff7bff370611a9704",
+      "candidate_hash_match": true,
+      "han_characters_recounted": 270,
+      "jyutping_syllables_recounted": 270,
+      "author_counts_match": true,
+      "status": "REVISE",
+      "previous_findings_resolution": {
+        "story_causality": "RESOLVED",
+        "detail": "已明确大家先开饭，食到一半才发现汁少；四盒分到四碟，每碟画一圈；刮进小碗仍不足一口，再轮流尝。顺序与分量关系可见。"
+      },
+      "four_field_review": {
+        "story": "修订后情节连续，配料规格造成少汁、同事分食，并以发布会回扣；段子画面可理解。",
+        "jyutping": "逐字检查字词和语境，270 汉字/270 音节一致。未发现新的声调或多音字问题；“咖喱”gaa3 lei1、“圈”hyun1 均与语境匹配。",
+        "gloss": "故事主要内容完整对应，但结尾有一处明确误译：粤语“唔使开發表會”是“不用开发布会”，候选译成“不用再开规格会”，与原文不符。",
+        "usageTip": "提示符合新版的先吃饭、四小盒、刮到小碗、轮流尝的因果链。"
+      },
+      "required_change": {
+        "field": "gloss",
+        "source_excerpt": "“餸到先食，唔使開發表會”",
+        "current_translation": "“菜到了先吃，不用再开规格会。”",
+        "issue": "“發表會”被误译为“规格会”。",
+        "suggestion": "改为“菜到了先吃，不用再开发布会。”"
+      },
+      "jyutping_reference": "https://words.hk/zidin/%E5%92%96%E5%96%B1"
+    },
+    {
+      "order": 644,
+      "id": "sentence-bank-long_food_shopping_02-0026",
+      "source_file": "content/sentence_bank/long_food_shopping_02.json",
+      "source_index": 25,
+      "source_sha256": "dbc47601f43e021985c1fdf84ff2b63606aaf1c0e2b6e9e8d0e07bb816b6c195",
+      "source_hash_match": true,
+      "candidate_content_sha256": "99b9cd3e5f85b26cbac43ed0464252a93d248e85ddaf2bd2c86a730179260a3d",
+      "candidate_hash_match": true,
+      "han_characters_recounted": 232,
+      "jyutping_syllables_recounted": 232,
+      "author_counts_match": true,
+      "status": "PASS",
+      "previous_findings_resolution": {
+        "natural_wording": "RESOLVED",
+        "detail": "已将“结水”改为“杯身已经出晒水珠”，将“写张备忘”改为“写咗张字条”；粤拼和译文同步更新。"
+      },
+      "four_field_review": {
+        "story": "温度意见不一，放雪柜、杯子温差不均，众人把饮品当产品测试；主管用嘴验收及“雪柜会议”结尾连贯，生活场景成立。",
+        "jyutping": "逐字复核232汉字/232音节；“出晒水珠” ceot1 saai3 seoi2 zyu1、“字条” zi6 tiu4等均匹配，无发现多音字或声调错误。",
+        "gloss": "简体译文完整，对应出水珠、温差、测温及字条提醒。",
+        "usageTip": "以“故事练习：”开头，准确覆盖含糊的“凍啲”、雪柜风口、轮流摸杯和主管用嘴验收。"
+      },
+      "required_change": null
+    },
+    {
+      "order": 645,
+      "id": "sentence-bank-long_food_shopping_02-0028",
+      "source_file": "content/sentence_bank/long_food_shopping_02.json",
+      "source_index": 27,
+      "source_sha256": "0d37c5fab7a99db1f893dd5d36a1707847f7a058788436852a1c6e23080ef006",
+      "source_hash_match": true,
+      "candidate_content_sha256": "2d60fcbdbc43745528576e3390c8113015014f6f7f9054608a2fb9e428d7d84f",
+      "candidate_hash_match": true,
+      "han_characters_recounted": 226,
+      "jyutping_syllables_recounted": 226,
+      "author_counts_match": true,
+      "status": "REVISE",
+      "previous_findings_resolution": {
+        "jyutping_bang_paang5": "RESOLVED",
+        "detail": "“咖啡攪拌棒”与“支棒”均改为 paang5，字音正确。",
+        "reference": "https://words.hk/zidin/%E6%8E%A5"
+      },
+      "four_field_review": {
+        "story": "故事因果及生活段子成立：忘带匙羹后临时用搅拌棒、纸巾和背囊边进食，次日又把铅笔说成备用筷子；新尾句“即场求生班”与遭遇相扣。",
+        "jyutping": "逐字检查226汉字/226音节；“咖啡攪拌棒”gaa3 fe1 gaau2 bun6 paang5、“支棒”zi1 paang5正确，两个多音/错声调点均已修复。其余复核未发现明确声调错误。",
+        "gloss": "整体翻译完整，但“说这才知道包里准备得很齐全”添加了“这才知道”，不对应粤语“话个袋好有准备”；应直接表达阿朗的评价。",
+        "usageTip": "以“故事练习：”开头，准确复述找不到餐具、临时替代工具及“现场求生班”结尾。"
+      },
+      "required_change": {
+        "field": "gloss",
+        "source_excerpt": "“話個袋好有準備，淨係冇準備食飯。”",
+        "current_translation": "“说这才知道包里准备得很齐全，唯独没准备吃饭。”",
+        "issue": "无根据加入“这才知道”，改变为叙述者的发现，而原文是阿朗评价背囊准备得齐全。",
+        "suggestion": "改为“阿朗说背包准备得倒挺齐全，唯独没准备吃饭。”"
+      }
+    }
+  ]
+}

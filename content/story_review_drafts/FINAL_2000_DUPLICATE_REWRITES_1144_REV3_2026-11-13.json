@@ -1,0 +1,50 @@
+{
+  "report": "FINAL_2000_DUPLICATE_REWRITES_1144_REV3_2026-11-13",
+  "created_date": "2026-11-13",
+  "review_round": "duplicate-rewrite-candidate-revision",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "revision_of": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_1098_1158_BATCH01_REV2_2026-11-13.json",
+  "revision_of_file_sha256": "ac7b787dcbf9d772af538c5e7da2ef0e3be0b748330e8c2be82a53b827acae19",
+  "source_freeze": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "source_freeze_manifest_sha256": "863768b0fe764bf81cf93858c0a9caebf01a3b975bc5ffb5d39a59a9731bca11",
+  "order": 1144,
+  "id": "sentence-bank-long_food_shopping_14-0015",
+  "category": "公司下午茶合訂飲品",
+  "source_file": "content/sentence_bank/long_food_shopping_14.json",
+  "source_index": 14,
+  "source_sha256_freeze": "4894289dde46349b0f6f3a900441fe0848fd24dbf44ae8d44e59d307ee2b3671",
+  "source_sha256_current_recomputed": "4894289dde46349b0f6f3a900441fe0848fd24dbf44ae8d44e59d307ee2b3671",
+  "source_hash_matches_freeze_and_current": true,
+  "keeper_order": 1100,
+  "keeper_id": "sentence-bank-long_food_shopping_13-0016",
+  "previous_candidate_hash": "36020ed707a2ac0a7ca9ce65b688021303a4fe42a93645df58509ff156cfd321",
+  "previous_candidate": {
+    "category": "公司下午茶合訂飲品",
+    "sentence": "公司下午茶訂咗飲品，阿朗負責收單，大家只要講甜度同凍熱。點知每個人都加一句：「少冰，但唔好太少」「熱茶，冰另外放」「凍檸茶要凍，但唔好凍到冇茶味。」阿朗怕記錯，逐杯問清楚，問到最後自己口乾，先發現仲未飲水。外賣送到，佢照訂單放好，第一個同事拎起杯搖兩下，聽住冰聲話：「呢杯係我嘅，三粒冰。」全場即刻跟住搖杯認領，茶水間變成小型打擊樂隊。主管拎住熱奶茶行入嚟，大家聽唔到佢講乜；佢只好舉高杯，示意自己唔參賽。阿朗等聲音停晒，問主管嗰杯甜度幾多。主管飲一啖，話：「我唔知，但你哋啲冰已經開咗場。」最後阿朗把冰聲當背景音，自己終於飲到一杯白開水，仲係全場唯一冇人搖過嘅杯。",
+    "jyutping": "gung1 si1 haa6 ng5 caa4 ding3 zo2 jam2 ban2, aa3 long5 fu6 zaak3 sau1 daan1, daai6 gaa1 zi2 jiu3 gong2 tim4 dou6 tung4 dung3 jit6. dim2 zi1 mui5 go3 jan4 dou1 gaa1 jat1 geoi3: 「siu2 bing1, daan6 m4 hou2 taai3 siu2」 「jit6 caa4, bing1 ling6 ngoi6 fong3」 「dung3 ling4 caa4 jiu3 dung3, daan6 m4 hou2 dung3 dou3 mou5 caa4 mei6.」 aa3 long5 paa3 gei3 co3, zuk6 bui1 man6 cing1 co2, man6 dou3 zeoi3 hau6 zi6 gei2 hau2 kon1, sin1 faat3 jin6 zung6 mei6 jam2 seoi2. ngoi6 maai6 sung3 dou3, keoi5 ziu3 ding3 daan1 fong3 hou2, dai6 jat1 go3 tung4 si6 ling1 hei2 bui1 diu2 loeng5 haa6, teng1 zyu6 bing1 seng1 waa6: 「ni1 bui1 hai6 ngo5 ge3, saam1 nap1 bing1.」 cyun4 coeng4 zik1 hak1 gan1 zyu6 diu2 bui1 jing6 ling5, caa4 seoi2 gaan1 bin3 sing4 siu2 jing4 daa2 gik1 ngok6 deoi6. zyu2 gun2 ling1 zyu6 jit6 naai5 caa4 hang4 jap6 lai4, daai6 gaa1 teng1 m4 dou2 keoi5 gong2 mat1; keoi5 zi2 hou2 geoi2 gou1 bui1, si6 ji3 zi6 gei2 m4 caam1 coi3. aa3 long5 dang2 seng1 jam1 ting4 saai3, man6 zyu2 gun2 go2 bui1 tim4 dou6 gei2 do1. zyu2 gun2 jam2 jat1 daam6, waa6: 「ngo5 m4 zi1, daan6 nei5 dei6 di1 bing1 ji5 ging1 hoi1 zo2 coeng4.」 zeoi3 hau6 aa3 long5 baa2 bing1 seng1 dong3 bui3 ging2 jam1, zi6 gei2 zung1 jyu1 jam2 dou3 jat1 bui1 baak6 hoi1 seoi2, zung6 hai6 cyun4 coeng4 wai4 jat1 mou5 jan4 diu2 gwo3 ge3 bui1.",
+    "gloss": "公司下午茶订了饮品，阿朗负责收单，大家只要说甜度和冷热。谁知每个人都加一句：“少冰，但不要太少”“热茶，冰另外放”“冻柠茶要冰，但不能冻到没茶味。”阿朗怕记错，逐杯问清楚，问到最后自己口干，才发现还没喝水。外卖送到后，他照订单摆好。第一个同事拿起杯子摇了两下，听着冰声说：“这杯是我的，三粒冰。”全场马上跟着摇杯认领，茶水间变成小型打击乐队。主管拿着热奶茶走进来，大家听不见他说什么，只好举高杯子表示自己不参赛。阿朗等声音停了，问主管那杯甜度多少。主管喝一口说：“我不知道，但你们的冰已经开场了。”最后阿朗把冰声当背景音，自己终于喝到一杯白开水，还是全场唯一没被摇过的杯子。",
+    "usageTip": "故事练习：复述阿朗怎样因为大家各自加饮品要求而逐杯确认，后来同事又怎样靠摇杯听冰声来认领；最后讲主管为何举杯旁观，以及阿朗喝到白开水的回扣。"
+  },
+  "candidate": {
+    "category": "公司下午茶合訂飲品",
+    "sentence": "公司下午茶訂咗飲品，阿朗負責收單，大家只要講甜度同凍熱。點知每個人都加一句：「少冰，但唔好太少」「熱茶，冰另外放」「凍檸茶要凍，但唔好凍到冇茶味。」阿朗怕記錯，逐杯問清楚，問到最後自己口乾，先發現仲未飲水。外賣送到，佢照訂單放好，第一個同事拎起杯搖兩下，聽住冰聲話：「呢杯係我嘅，三粒冰。」全場即刻跟住搖杯認領，茶水間變成小型打擊樂隊。主管拎住熱奶茶行入嚟，大家聽唔到佢講乜；佢只好舉高杯，示意自己唔參賽。阿朗等聲音停晒，問主管嗰杯甜度幾多。主管飲一啖，話：「我唔知，但你哋啲冰已經開咗場。」最後阿朗把冰聲當背景音，自己終於飲到一杯白開水，仲係全場唯一冇人搖過嘅杯。",
+    "jyutping": "gung1 si1 haa6 ng5 caa4 ding3 zo2 jam2 ban2, aa3 long5 fu6 zaak3 sau1 daan1, daai6 gaa1 zi2 jiu3 gong2 tim4 dou6 tung4 dung3 jit6. dim2 zi1 mui5 go3 jan4 dou1 gaa1 jat1 geoi3: 「siu2 bing1, daan6 m4 hou2 taai3 siu2」 「jit6 caa4, bing1 ling6 ngoi6 fong3」 「dung3 ling4 caa4 jiu3 dung3, daan6 m4 hou2 dung3 dou3 mou5 caa4 mei6.」 aa3 long5 paa3 gei3 co3, zuk6 bui1 man6 cing1 co2, man6 dou3 zeoi3 hau6 zi6 gei2 hau2 kon1, sin1 faat3 jin6 zung6 mei6 jam2 seoi2. ngoi6 maai6 sung3 dou3, keoi5 ziu3 ding3 daan1 fong3 hou2, dai6 jat1 go3 tung4 si6 ling1 hei2 bui1 jiu4 loeng5 haa5, teng1 zyu6 bing1 seng1 waa6: 「ni1 bui1 hai6 ngo5 ge3, saam1 nap1 bing1.」 cyun4 coeng4 zik1 hak1 gan1 zyu6 jiu4 bui1 jing6 ling5, caa4 seoi2 gaan1 bin3 sing4 siu2 jing4 daa2 gik1 ngok6 deoi6. zyu2 gun2 ling1 zyu6 jit6 naai5 caa4 hang4 jap6 lai4, daai6 gaa1 teng1 m4 dou2 keoi5 gong2 mat1; keoi5 zi2 hou2 geoi2 gou1 bui1, si6 ji3 zi6 gei2 m4 caam1 coi3. aa3 long5 dang2 seng1 jam1 ting4 saai3, man6 zyu2 gun2 go2 bui1 tim4 dou6 gei2 do1. zyu2 gun2 jam2 jat1 daam6, waa6: 「ngo5 m4 zi1, daan6 nei5 dei6 di1 bing1 ji5 ging1 hoi1 zo2 coeng4.」 zeoi3 hau6 aa3 long5 baa2 bing1 seng1 dong3 bui3 ging2 jam1, zi6 gei2 zung1 jyu1 jam2 dou3 jat1 bui1 baak6 hoi1 seoi2, zung6 hai6 cyun4 coeng4 wai4 jat1 mou5 jan4 jiu4 gwo3 ge3 bui1.",
+    "gloss": "公司下午茶订了饮品，阿朗负责收单，大家只要说甜度和冷热。谁知每个人都加一句：“少冰，但不要太少”“热茶，冰另外放”“冻柠茶要冰，但不能冻到没茶味。”阿朗怕记错，逐杯问清楚，问到最后自己口干，才发现还没喝水。外卖送到后，他照订单摆好。第一个同事拿起杯子摇了两下，听着冰声说：“这杯是我的，三粒冰。”全场马上跟着摇杯认领，茶水间变成小型打击乐队。主管拿着热奶茶走进来，大家听不见他说什么，只好举高杯子表示自己不参赛。阿朗等声音停了，问主管那杯甜度多少。主管喝一口说：“我不知道，但你们的冰已经开场了。”最后阿朗把冰声当背景音，自己终于喝到一杯白开水，还是全场唯一没被摇过的杯子。",
+    "usageTip": "故事练习：复述阿朗怎样因为大家各自加饮品要求而逐杯确认，后来同事又怎样靠摇杯听冰声来认领；最后讲主管为何举杯旁观，以及阿朗喝到白开水的回扣。"
+  },
+  "candidate_fields_sha256": "c04123fd6063dafc076e88d817a35907009e5a6f625baad630ab4be485da1185",
+  "candidate_fields_sha256_method": "SHA-256 compact sorted-key JSON of {sentence,jyutping,gloss,usageTip}",
+  "han_character_count_recomputed": 240,
+  "jyutping_whitespace_token_count_recomputed": 240,
+  "alignment_match": true,
+  "jyutping_cjk_residue": false,
+  "candidate_status_detail": "CANDIDATE_NOT_PASSED",
+  "revision_note": "故事、簡譯、提示不變；把文中三個動作義「搖」的讀音 diu2 改為 jiu4，並把「兩下」haa6 改為 haa5。",
+  "validation": {
+    "source_hash_matches_freeze_and_current": true,
+    "story_220_to_320_han": true,
+    "han_jyutping_aligned": true,
+    "jyutping_cjk_free": true,
+    "canonical_modified": false
+  }
+}

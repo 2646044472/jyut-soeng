@@ -1,0 +1,224 @@
+{
+  "report": "FINAL_2000_DUPLICATE_REWRITES_REVIEW_GLOBAL_0660_1062_REV2_2026-11-13",
+  "review_date": "2026-11-13",
+  "reviewer_role": "independent; not candidate author",
+  "reviewed_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_GLOBAL_0660_1062_REV2_2026-11-13.json",
+  "reviewed_file_sha256": "4422249becdf132630e1b49881d437cc147f1c1491d06952d87babd63ce9f4f4",
+  "freeze_file": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "freeze_file_sha256": "4c3ac877867079fd053c88374eb434f94cfb3e09fd67a76b0b7f6424fb119843",
+  "freeze_manifest_sha256": "863768b0fe764bf81cf93858c0a9caebf01a3b975bc5ffb5d39a59a9731bca11",
+  "freeze_manifest_stale": false,
+  "scope_orders": [
+    660,
+    1013,
+    1015,
+    1062
+  ],
+  "coverage_count": 4,
+  "unique_orders": 4,
+  "unique_ids": 4,
+  "verdict_counts": {
+    "PASS": 2,
+    "REVISE": 2
+  },
+  "items": [
+    {
+      "order": 660,
+      "id": "sentence-bank-long_food_shopping_02-0050",
+      "category": "食物過敏與保存",
+      "verdict": "PASS",
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "source_file": "content/sentence_bank/long_food_shopping_02.json",
+      "source_index": 49,
+      "source_id_matches_freeze": true,
+      "source_category_matches_current": true,
+      "source_sha256_freeze": "7a915e3eb2220104a6a486202b845db896d6cb33a9e6e75514897551892e1565",
+      "source_sha256_current_recomputed": "7a915e3eb2220104a6a486202b845db896d6cb33a9e6e75514897551892e1565",
+      "source_sha256_declared_freeze": "7a915e3eb2220104a6a486202b845db896d6cb33a9e6e75514897551892e1565",
+      "source_sha256_declared_current": "7a915e3eb2220104a6a486202b845db896d6cb33a9e6e75514897551892e1565",
+      "source_hash_matches_freeze_and_current": true,
+      "candidate_fields_sha256_declared": "d9c11ed3fdc342e4677aa03185b102f2459cf3b6905c0fb642f205cd90624149",
+      "candidate_fields_sha256_recomputed": "d9c11ed3fdc342e4677aa03185b102f2459cf3b6905c0fb642f205cd90624149",
+      "candidate_hash_matches_declared": true,
+      "counts": {
+        "han_characters_recomputed": 225,
+        "jyutping_whitespace_tokens_recomputed": 225,
+        "declared_han": 225,
+        "declared_tokens": 225,
+        "aligned": true,
+        "jyutping_cjk_residue": false,
+        "story_220_to_320": true
+      },
+      "keeper": {
+        "id": "sentence-bank-long_food_shopping_03-0043",
+        "order": 724,
+        "sha256": "bc986189361c43382894160e6d50ccfd4e56a40f05b1bca11710507b5312136f",
+        "story": "星期一朝早，主管突然話中午有客人嚟開會，叫我訂午餐盒。我先喺群組問清飯量同要求；茶餐廳接單時話會貼好姓名同菜式。十一點半送餐上嚟，兩張貼紙濕到糊成一團，我冇亂派，而係按菜式逐盒核對，再請同事講返自己訂咗乜。阿玲嗰盒醬汁又漏，店員即刻補一盒，仲送兩個橙賠罪；阿豪捧住橙問：「係咪加開水果會議？」我將兩個橙放喺枱中間，叫同事按單拎飯盒，大家笑話派餐有議程、有補選，仲有臨時水果提案。主管見大家都拎啱，拍手話下晝會議交畀我主持。我望住佢遞來嘅白板筆，回話：「可以，不過先換張防水貼紙，免得議程又要靠估。」同事即刻將未食嘅橙當選票，投票決定下次訂餐照舊由我負責，主持會議就另抽一人。"
+      },
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_food_shopping_03-0043",
+          "mechanism": "keeper为午餐贴纸受潮后重新核对菜式、同事确认订单及补水果；本稿为超市货架前查看成分文字被误会成拍产品照。"
+        }
+      ],
+      "field_checks": {
+        "verdict": "PASS",
+        "story": "阿敏因花生敏感查成分的实际目的已闭合：她读完整张配料表、读到“花生”后停下，再翻看包装确认没有花生，才拿走一包。手机放大时只能看到部分文字、包装随手移动、店员误以为是产品拍摄并排饼干补光，升级与最后“逐包影相”的回扣具体、清楚。与keeper 724的午餐贴纸受潮、核对订单及补水果机制不同。",
+        "jyutping": "逐字读音核查通过，包括“同款”tung4 fun2、“逐行”zuk6 hong4（行列义）和“逐包影晒”zuk6 baau1 jing2 saai3；225字/225 token对齐。",
+        "gloss": "完整简体翻译故事的过敏检查、放大移动、店员误会和结尾笑点，未发现漏译或将安全结果译反。",
+        "tip": "前缀为“故事练习：”，复述完整成分检查、拍摄误会和最后回扣，信息与故事一致。",
+        "duplicate": "冻结keeper及所列近邻是标签受潮后的午餐核对/补餐，机制不同。"
+      }
+    },
+    {
+      "order": 1013,
+      "id": "sentence-bank-long_food_shopping_10-0003",
+      "category": "外賣落單",
+      "verdict": "REVISE",
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "source_file": "content/sentence_bank/long_food_shopping_10.json",
+      "source_index": 2,
+      "source_id_matches_freeze": true,
+      "source_category_matches_current": true,
+      "source_sha256_freeze": "29de934e4c48990372f3ef266545a8d4212ce2e9b74726c13956ed57118ada2f",
+      "source_sha256_current_recomputed": "29de934e4c48990372f3ef266545a8d4212ce2e9b74726c13956ed57118ada2f",
+      "source_sha256_declared_freeze": "29de934e4c48990372f3ef266545a8d4212ce2e9b74726c13956ed57118ada2f",
+      "source_sha256_declared_current": "29de934e4c48990372f3ef266545a8d4212ce2e9b74726c13956ed57118ada2f",
+      "source_hash_matches_freeze_and_current": true,
+      "candidate_fields_sha256_declared": "9704c5a9943fb3b1d06fdc9a54d01b18afb64cd0fc69a022e20dc290e5e51d77",
+      "candidate_fields_sha256_recomputed": "9704c5a9943fb3b1d06fdc9a54d01b18afb64cd0fc69a022e20dc290e5e51d77",
+      "candidate_hash_matches_declared": true,
+      "counts": {
+        "han_characters_recomputed": 224,
+        "jyutping_whitespace_tokens_recomputed": 224,
+        "declared_han": 224,
+        "declared_tokens": 224,
+        "aligned": true,
+        "jyutping_cjk_residue": false,
+        "story_220_to_320": true
+      },
+      "keeper": {
+        "id": "sentence-bank-long_family_finance_services_07-0020",
+        "order": 458,
+        "sha256": "33ce626b6da85a47c0c48667397ee4c802254a2edb22229c012919d4505664c3",
+        "story": "社區合唱班有三個姓陳嘅團友，嗰日竟然喺同一間藥房撞到。陳叔最近藥費加咗，唔敢自己減藥，先問醫生有冇合適嘅平價替代。覆診後醫生批准換一款，叫佢帶處方去藥房；藥劑師逐項核對藥名、用法同價錢，仲提醒新舊收據分開放。陳叔話記低晒，等藥時一聽到職員叫「陳先生」，佢同隔籬兩個人一齊企起身。職員核對處方號碼，先知三個都姓陳。第二次叫名，三人又同時應，連藥名都差唔多；原來隔籬兩位都食同一類藥。陳叔笑住話，下次叫佢「合唱班低音部」最易認。藥劑師望一望名單，話隔籬嗰位都係低音。三個人望住同一疊收據，忍唔住唱咗一聲和音。最後職員照處方號碼逐個交藥同收據，陳叔喺收據夾寫低編號。返到合唱班，指揮叫「陳先生」，三個又一齊企起身。指揮笑話：「你哋喺藥房排好和音，返嚟仲要再點一次名呀？」"
+      },
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_family_finance_services_07-0020",
+          "mechanism": "keeper為三位同姓陳客人同時應名及藥房核對；本稿為單一外賣訂單把配料分裝後再重組。"
+        }
+      ],
+      "field_checks": {
+        "verdict": "REVISE",
+        "story": "拆分三文治配料后回公司逐项重装、馅料散落，铺垫和动作回扣成立；与keeper 458的同姓药房顾客同时应名机制不同。",
+        "jyutping": "其余已知错音均修正：“特登”dak6 dang1、“兩塊”faai3、“免組裝”zou2 zong1。但故事前半句“自己組裝”的“組”仍写 zou6（“...zi6 gei2 zou6 zong1”），应读 zou2；此处与后面的“免組裝”读音不一致。224字/224 token计数相符，不代表每个具体读音正确。",
+        "gloss": "简译完整，包含酱汁另上、分开菜叶、回办公室重装和免组装结尾。",
+        "tip": "以“故事练习：”开头，概括配料拆分与重装，并提示结尾，内容对应。",
+        "duplicate": "与keeper 458同姓应名及药房核对机制明显不同。"
+      }
+    },
+    {
+      "order": 1015,
+      "id": "sentence-bank-long_food_shopping_10-0007",
+      "category": "食材挑選",
+      "verdict": "PASS",
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "source_file": "content/sentence_bank/long_food_shopping_10.json",
+      "source_index": 6,
+      "source_id_matches_freeze": true,
+      "source_category_matches_current": true,
+      "source_sha256_freeze": "c08c323d81b06f99462244f6e4cc9ed4947027fffd16a4d8417ca2d54cf0edbd",
+      "source_sha256_current_recomputed": "c08c323d81b06f99462244f6e4cc9ed4947027fffd16a4d8417ca2d54cf0edbd",
+      "source_sha256_declared_freeze": "c08c323d81b06f99462244f6e4cc9ed4947027fffd16a4d8417ca2d54cf0edbd",
+      "source_sha256_declared_current": "c08c323d81b06f99462244f6e4cc9ed4947027fffd16a4d8417ca2d54cf0edbd",
+      "source_hash_matches_freeze_and_current": true,
+      "candidate_fields_sha256_declared": "ad14470a073c1551ff6af8ffc733fe9e9ce1915f606670f9fdcdf330a2832e54",
+      "candidate_fields_sha256_recomputed": "ad14470a073c1551ff6af8ffc733fe9e9ce1915f606670f9fdcdf330a2832e54",
+      "candidate_hash_matches_declared": true,
+      "counts": {
+        "han_characters_recomputed": 228,
+        "jyutping_whitespace_tokens_recomputed": 228,
+        "declared_han": 228,
+        "declared_tokens": 228,
+        "aligned": true,
+        "jyutping_cjk_residue": false,
+        "story_220_to_320": true
+      },
+      "keeper": {
+        "id": "sentence-bank-long_food_shopping_13-0075",
+        "order": 1123,
+        "sha256": "dd29de41eaf23bd0190b5a4a33a898114aed40a6c199aa7050bc930863dcecc9",
+        "story": "同事阿晴話周末要煮士多啤梨果醬，叫我陪佢去超市揀果。佢企喺生果櫃前開備忘錄，逐盒寫評語：顏色太淡、身形唔齊、眼神唔夠堅定。我望一望，問佢：「你係買士多啤梨，定係替果醬請員工？」阿晴話一鍋果醬都要有團隊精神，仲拎起一粒問：「你入鍋之後肯唔肯合作？」隔離阿叔聽到，拎住兩盒問店員邊盒「比較聽話」。店員忍笑，叫我哋先揀完整新鮮嘅；至於乜嘢性格，煮落去就睇唔出。阿晴點頭，終於挑好一盒，仲喺清單寫「全員錄取」。返到辦公室，同事見到盒上標籤，以為係新同事名單，逐個問邊個負責茶水。阿晴先洗淨士多啤梨，瀝乾水，再將盒放喺枱中間：「佢哋今日先見習，暫時只負責令全組精神啲。」午休完，果盒只剩空托盤；阿晴望住名單嘆氣：「果醬未煮，見習生已經集體離職，連辭職信都俾人食埋。」"
+      },
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_food_shopping_13-0075",
+          "mechanism": "keeper将草莓拟人化为应聘员工、逐盒评语并在办公室误认新人名单；本稿只比较萝蔔几何形状，后续刨丝使形状不可见，无员工/招聘/奖项机制。"
+        }
+      ],
+      "field_checks": {
+        "verdict": "PASS",
+        "story": "反复对照白萝卜与摊边、换方向比较直度，最后刨丝后外形标准消失，因果和回扣完整。“見佢揀咁耐”已修顺，和简译“看她挑了这么久”一致；与keeper 1123草莓拟人应聘机制不同。",
+        "jyutping": "关键用字逐字对应，含“揀”gaan2、“檔邊”dong3 bin1、“刨”paau4；228字/228 token对齐，未发现明确错音或声调问题。",
+        "gloss": "完整翻译重复比较、萝卜刨丝后无法再辨直度及最后答话。",
+        "tip": "以“故事练习：”开头，提示比较动作、刨丝后的形状变化与结尾。",
+        "duplicate": "keeper 1123将草莓设为应聘员工；本稿只比较白萝卜形状，没有招聘或员工拟人机制。"
+      }
+    },
+    {
+      "order": 1062,
+      "id": "sentence-bank-long_food_shopping_11-0066",
+      "category": "網購食材替代",
+      "verdict": "REVISE",
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "source_file": "content/sentence_bank/long_food_shopping_11.json",
+      "source_index": 65,
+      "source_id_matches_freeze": true,
+      "source_category_matches_current": true,
+      "source_sha256_freeze": "84fd32eaee0ad6c1650599f3d288688ce95756b7e48b58c8423a7a252504a3a3",
+      "source_sha256_current_recomputed": "84fd32eaee0ad6c1650599f3d288688ce95756b7e48b58c8423a7a252504a3a3",
+      "source_sha256_declared_freeze": "84fd32eaee0ad6c1650599f3d288688ce95756b7e48b58c8423a7a252504a3a3",
+      "source_sha256_declared_current": "84fd32eaee0ad6c1650599f3d288688ce95756b7e48b58c8423a7a252504a3a3",
+      "source_hash_matches_freeze_and_current": true,
+      "candidate_fields_sha256_declared": "7af2dad9c655ee4fbc53748702ce1b11cabb72d85ca0708336383b76938331ef",
+      "candidate_fields_sha256_recomputed": "7af2dad9c655ee4fbc53748702ce1b11cabb72d85ca0708336383b76938331ef",
+      "candidate_hash_matches_declared": true,
+      "counts": {
+        "han_characters_recomputed": 222,
+        "jyutping_whitespace_tokens_recomputed": 222,
+        "declared_han": 222,
+        "declared_tokens": 222,
+        "aligned": true,
+        "jyutping_cjk_residue": false,
+        "story_220_to_320": true
+      },
+      "keeper": {
+        "id": "sentence-bank-long_food_shopping_13-0075",
+        "order": 1123,
+        "sha256": "dd29de41eaf23bd0190b5a4a33a898114aed40a6c199aa7050bc930863dcecc9",
+        "story": "同事阿晴話周末要煮士多啤梨果醬，叫我陪佢去超市揀果。佢企喺生果櫃前開備忘錄，逐盒寫評語：顏色太淡、身形唔齊、眼神唔夠堅定。我望一望，問佢：「你係買士多啤梨，定係替果醬請員工？」阿晴話一鍋果醬都要有團隊精神，仲拎起一粒問：「你入鍋之後肯唔肯合作？」隔離阿叔聽到，拎住兩盒問店員邊盒「比較聽話」。店員忍笑，叫我哋先揀完整新鮮嘅；至於乜嘢性格，煮落去就睇唔出。阿晴點頭，終於挑好一盒，仲喺清單寫「全員錄取」。返到辦公室，同事見到盒上標籤，以為係新同事名單，逐個問邊個負責茶水。阿晴先洗淨士多啤梨，瀝乾水，再將盒放喺枱中間：「佢哋今日先見習，暫時只負責令全組精神啲。」午休完，果盒只剩空托盤；阿晴望住名單嘆氣：「果醬未煮，見習生已經集體離職，連辭職信都俾人食埋。」"
+      },
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_food_shopping_13-0075",
+          "mechanism": "keeper把草莓擬人為員工逐盒評語並用人事錄取回扣；候稿是網購肉醬/意大利粉替代引發朋友改菜名，不涉及水果或職位。"
+        },
+        {
+          "id": "sentence-bank-long_food_shopping_08-0083",
+          "mechanism": "active替換近鄰以薄荷代羅勒後嘗味，笑點是薄荷沙律像刷牙；候稿只在下單階段因兩項替代改菜單，不試味或評食品口感。"
+        }
+      ],
+      "field_checks": {
+        "verdict": "REVISE",
+        "story": "替代顺序已清楚：客服先提出番茄酱替肉酱，但主角未接受；随后又提出面食替代，同事让主角先看清两项，再询问是否都接受，主角之后明确接受两项。旧版“酱汁已换却又说待决定”的矛盾已关闭。两轮替代把菜名缩成“意粉”大方向，生活笑点可辨。",
+        "jyutping": "仍有一处具体错音：“一款”写成 jat1 kwaan2，款在此读 fun2，应为 jat1 fun2。其它本轮关注读音“客服”haak3 fuk6、“缺貨”kyut3 fo3、“頁面”jip6 min6均已修正。222字/222 token对齐。",
+        "gloss": "简体译文完整翻译未接受、等待两项选择、接受替代及菜单规划回扣，时间线跟故事一致。",
+        "tip": "前缀为“故事练习：”，覆盖替代顺序与面包缺货回扣。",
+        "duplicate": "与keeper 1123的草莓应聘/人事笑点不同；与near 990的替代食材入口品尝后像刷牙笑点不同，本稿停留在下单选项与菜单命名。"
+      }
+    }
+  ],
+  "canonical_modified": false,
+  "summary": "Exact REV2 file SHA matches the requested current version. Source and candidate hashes match for all four; Han/token counts align and the freeze manifest is current. PASS 660, 1015; REVISE 1013 (one residual 組 tone error) and 1062 (款 tone error)."
+}

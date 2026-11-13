@@ -1,0 +1,72 @@
+{
+  "report_type": "duplicate_rewrite_candidate_revision",
+  "report_date": "2026-11-13",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "freeze_manifest": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "freeze_manifest_sha256": "863768b0fe764bf81cf93858c0a9caebf01a3b975bc5ffb5d39a59a9731bca11",
+  "scope_orders": [
+    156,
+    205,
+    398,
+    411,
+    416
+  ],
+  "completed_orders": [
+    398
+  ],
+  "pending_orders": [
+    156,
+    205,
+    411,
+    416
+  ],
+  "validation": {
+    "source_hash_match": true,
+    "han_jyutping_alignment": true,
+    "jyutping_cjk_residue_zero": true,
+    "candidate_status": "CANDIDATE_NOT_PASSED"
+  },
+  "revision": "REV3",
+  "parent_candidate_file": "content/story_review_drafts/FINAL_2000_DUPLICATE_REWRITES_GLOBAL_0398_REV2_2026-11-13.json",
+  "parent_candidate_file_sha256": "07d6998f1965001b373c7298032a10379680e9db0b9c5876e745bfad54d2f626",
+  "items": [
+    {
+      "order": 398,
+      "id": "sentence-bank-long_family_finance_services_05-0096",
+      "source_file": "content/sentence_bank/long_family_finance_services_05.json",
+      "source_index": 95,
+      "source_category": "投訴跟進",
+      "source_freeze_sha256": "185879425d2f82dd7af3f5b7f8498ca579af95d037109eb82a383eb1e5e665d3",
+      "source_current_sha256": "185879425d2f82dd7af3f5b7f8498ca579af95d037109eb82a383eb1e5e665d3",
+      "source_hash_match": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "sentence": "同事阿晴辦完銀行手續，跟進短訊一條接一條咁嚟，頭兩條內容一模一樣。佢打去銀行客服講返，職員幾日後回電問有冇再收到。阿晴打開手機逐條睇，答：「有兩條。」啱啱講完，手機畫面又彈出一條「多謝你提供意見」。阿晴以為自己眼花，讀畀職員聽；職員即刻記低，話音未落，手機又響一聲，第四條短訊到咗。職員叫佢放低手機，兩個人等一陣，果然冇再收到。職員話會跟進重複短訊，阿晴先鬆一口氣。佢正想收線，畫面又亮起一條「案件已跟進」。阿晴望住手機問：「咁我而家打去講多次，會唔會又多一條回覆？」職員笑住話會記低。阿晴即刻把手機反扣喺枱面：「好，今次我先唔畀佢聽到。」",
+      "jyutping": "tung4 si6 aa3 cing4 baan6 jyun4 ngan4 hong4 sau2 zuk6, gan1 zeon3 dyun2 seon3 jat1 tiu4 zip3 jat1 tiu4 gam3 lai4, tau4 loeng5 tiu4 noi6 jung4 jat1 mou4 jat1 joeng6. keoi5 daa2 heoi3 ngan4 hong4 haak3 fuk6 gong2 faan1, zik1 jyun4 gei2 jat6 hau6 wui4 din6 man6 jau5 mou5 zoi3 sau1 dou2. aa3 cing4 daa2 hoi1 sau2 gei1 zuk6 tiu4 tai2, daap3: 「jau5 loeng5 tiu4.」 ngaam1 ngaam1 gong2 jyun4, sau2 gei1 waa6 min6 jau6 taan4 ceot1 jat1 tiu4 「do1 ze6 nei5 tai4 gung1 ji3 gin3」。 aa3 cing4 ji5 wai4 zi6 gei2 ngaan5 faa1, duk6 bei2 zik1 jyun4 teng1; zik1 jyun4 zik1 hak1 gei3 dai1, waa6 jam1 mei6 lok6, sau2 gei1 jau6 hoeng2 jat1 seng1, dai6 sei3 tiu4 dyun2 seon3 dou3 zo2. zik1 jyun4 giu3 keoi5 fong3 dai1 sau2 gei1, loeng5 go3 jan4 dang2 jat1 zan6, gwo2 jin4 mou5 zoi3 sau1 dou2. zik1 jyun4 waa6 wui5 gan1 zeon3 cung4 fuk1 dyun2 seon3, aa3 cing4 sin1 sung1 jat1 hau2 hei3. keoi5 zing3 soeng2 sau1 sin3, waa6 min6 jau6 loeng6 hei2 jat1 tiu4 「on3 gin6 ji5 gan1 zeon3」。 aa3 cing4 mong6 zyu6 sau2 gei1 man6: 「gam2 ngo5 ji4 gaa1 daa2 heoi3 gong2 do1 ci3, wui5 m4 wui5 jau6 do1 jat1 tiu4 wui4 fuk1?」 zik1 jyun4 siu3 zyu6 waa6 wui5 gei3 dai1. aa3 cing4 zik1 hak1 baa2 sau2 gei1 faan2 kau3 hai2 toi2 min2: 「hou2, gam1 ci3 ngo5 sin1 m4 bei2 keoi5 teng1 dou2.」",
+      "gloss": "同事阿晴办完银行手续，跟进短信一条接一条地来，前两条内容一模一样。她打给银行客服讲了这件事，职员几天后回电问她有没有再收到。阿晴打开手机逐条看，回答：“有两条。”刚说完，手机画面又弹出一条“谢谢你提供意见”。阿晴以为自己眼花，读给职员听；职员马上记下，话音未落，手机又响了一声，第四条短信到了。职员叫她把手机放下，两个人等了一会儿，果然没有再收到。职员说会跟进重复短信，阿晴才松了一口气。她正要挂电话，画面又亮起一条“案件已跟进”。阿晴看着手机问：“那我现在打过去再说一次，会不会又多一条回复？”职员笑着说会记下。阿晴马上把手机反扣在桌面：“好，这次我先不让它听见。”",
+      "usageTip": "故事练习：复述阿晴怎样打去银行客服反映跟进短讯一条接一条，回电期间通知又不断弹出；再模仿她反扣手机、怕新通知“听见”的回扣。",
+      "mechanism_difference": "投诉的是重复跟进通知；回访电话期间又有新通知出现，手机被反扣后才停止干扰。不同于active 458/1013同名顾客同时回应或互相认错。",
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_family_finance_services_07-0020",
+          "mechanism": "active 458：三位同姓顾客在药房被叫名后同时起身；本稿无排队叫名或身份混淆。"
+        },
+        {
+          "id": "sentence-bank-long_food_shopping_10-0003",
+          "mechanism": "active 1013：两位同名同事在餐厅互相指餐单；本稿是短信重复触发回访困扰。"
+        },
+        {
+          "id": "sentence-bank-long_family_finance_services_02-0076",
+          "mechanism": "active 02-0076：设置语音信箱时反复找不到菜单；本稿不涉及语音菜单或电话设置。"
+        }
+      ],
+      "story_han_count": 230,
+      "jyutping_syllable_count": 230,
+      "jyutping_whitespace_token_count": 230,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_fields_sha256": "3f13387da6b51e41837e33a783385a840388b594f23861958a6b47c750c339e5"
+    }
+  ],
+  "editing_note": "只按独立复核意见将书面表达改为自然口语、把屏幕改为手机画面；保留「有兩條」及其正确量词，其他机制不变；候稿未通过。",
+  "freeze_manifest_file_sha256": "4c3ac877867079fd053c88374eb434f94cfb3e09fd67a76b0b7f6424fb119843"
+}

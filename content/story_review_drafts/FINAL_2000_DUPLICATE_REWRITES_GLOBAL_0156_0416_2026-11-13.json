@@ -1,0 +1,195 @@
+{
+  "report_type": "duplicate_rewrite_candidate_batch",
+  "report_date": "2026-11-13",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "freeze_manifest": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "freeze_manifest_sha256": "4c3ac877867079fd053c88374eb434f94cfb3e09fd67a76b0b7f6424fb119843",
+  "scope_orders": [
+    156,
+    205,
+    398,
+    411,
+    416
+  ],
+  "completed_orders": [
+    156,
+    205,
+    398,
+    411,
+    416
+  ],
+  "pending_orders": [],
+  "items": [
+    {
+      "order": 156,
+      "id": "sentence-bank-long_family_finance_services_02-0071",
+      "source_file": "content/sentence_bank/long_family_finance_services_02.json",
+      "source_index": 70,
+      "source_category": "詐騙防範",
+      "source_freeze_sha256": "6dea4d6bac0f30bd2d2fc10be498968e790e210d7e99442b19a3abfb70453cd7",
+      "source_current_sha256": "6dea4d6bac0f30bd2d2fc10be498968e790e210d7e99442b19a3abfb70453cd7",
+      "source_hash_match": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "sentence": "同事阿朗收到短訊，話快遞地址少咗樓層，要即刻按連結補資料，否則退回。佢記得防詐講座叫人唔好急住按，先打開自己平時用嘅快遞程式查。畫面顯示冇待派件，佢仍然唔放心，翻出電郵訂單逐張核對。隔籬同事見佢低頭逐封睇，以為佢幫全組查快遞，把自己手機都遞過去。阿朗越查越多，枱面排咗五部電話，大家等住聽結果。最後佢確認短訊連公司名都冇，截圖發到群組提醒。群組即刻有六個人回「我都收到」，阿朗逐個回覆唔好撳。主管行過問佢係咪開咗快遞櫃檯。佢指住五部手機：「唔係，我只係想防止一單詐騙，結果先幫大家做咗派件登記。」",
+      "jyutping": "tung4 si6 aa3 long5 sau1 dou2 dyun2 seon3, waa6 faai3 dai6 dei6 zi2 siu2 zo2 lau4 cang4, jiu3 zik1 hak1 on3 lin4 git3 bou2 zi1 liu6, fau2 zaak6 teoi3 wui4. keoi5 gei3 dak1 fong4 zaa6 gong2 zo6 giu3 jan4 m4 hou2 gap1 zyu6 on3, sin1 daai2 hoi1 zi6 gei2 ping4 si4 jung6 ge3 faai3 dai6 cing4 sik1 caa4. waa6 min6 hin2 si6 mou5 doi6 paai3 gin6, keoi5 jing4 jin4 m4 fong3 sam1, faan1 ceot1 din6 jau4 ding6 daan1 zuk6 zoeng1 hat6 deoi3. gaak3 lei4 tung4 si6 gin3 keoi5 dai1 tau4 zuk6 fung1 tai2, ji5 wai4 keoi5 bong1 cyun4 zou2 caa4 faai3 dai6, baa2 zi6 gei2 sau2 gei1 dou1 dai6 gwo3 heoi3. aa3 long5 jyut6 caa4 jyut6 do1, toi2 min6 paai4 zo2 ng5 bou6 din6 waa2, daai6 gaa1 dang2 zyu6 teng1 git3 gwo2. zeoi3 hau6 keoi5 kok3 jing6 dyun2 seon3 lin4 gung1 si1 meng2 dou1 mou5, zit6 tou4 faat3 dou3 kwan4 zou2 tai4 sing2. kwan4 zou2 zik1 hak1 jau5 luk6 go3 jan4 wui4 「ngo5 dou1 sau1 dou2」, aa3 long5 zuk6 go3 wui4 fuk1 m4 hou2 gam6. zyu2 gun2 haang4 gwo3 man6 keoi5 hai6 mai6 hoi1 zo2 faai3 dai6 gwai6 toi4. keoi5 zi2 zyu6 ng5 bou6 sau2 gei1: 「m4 hai6, ngo5 zi2 hai6 soeng2 fong4 zi2 jat1 daan1 zaa6 pin3, git3 gwo2 sin1 bong1 daai6 gaa1 zou6 zo2 paai3 gin6 dang1 gei3.」",
+      "gloss": "同事阿朗收到一条短信，说快递地址少了楼层，要马上点链接补资料，否则退回。阿朗记得防诈骗讲座叫大家别急着点，先打开自己平时用的快递应用查询。页面显示没有待派送的包裹，他还是不放心，翻出电邮订单逐张核对。旁边同事看他低头逐封查，以为他在替全组查快递，也把自己的手机递过去。阿朗越查越多，桌面排了五部手机，大家等着听结果。最后他确认短信连公司名都没有，截图发到群组提醒。群组马上有六个人回复“我也收到”，阿朗逐个回复别点。主管走过来问他是不是开了快递柜台。他指着五部手机说：“不是，我只是想防止一单诈骗，结果倒先帮大家做了派件登记。”",
+      "usageTip": "故事练习：复述阿朗怎样不点可疑短讯链接、改用自己平时的快递应用核对，最后如何从提醒同事变成替大家登记快递；模仿他把五部手机排在桌上的动作和结尾回扣。",
+      "mechanism_difference": "可疑快递短讯不点链接，改从自己熟悉的应用核对；同事递来手机后，主角逐部核对，桌面排出五部手机，反而像在替全组登记派件。区别于冻结active 458/1013同名饮品误拿或互相指认，也不涉及验证码/入场码。",
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_family_finance_services_07-0020",
+          "mechanism": "active 458：药房三位同姓陈客人被叫名后同时起身；本稿无同名误叫，笑点是逐部核验演成快递登记。"
+        },
+        {
+          "id": "sentence-bank-long_food_shopping_10-0003",
+          "mechanism": "active 1013：两个同事同名导致餐单互相指认；本稿没有同名角色或点单机制。"
+        },
+        {
+          "id": "sentence-bank-long_home_family_06-0078",
+          "mechanism": "active 1867：电影票入场码与付款验证码混淆；本稿只核对短讯与自用快递应用，不谈验证码或二维码。"
+        }
+      ],
+      "story_han_count": 220,
+      "jyutping_syllable_count": 220,
+      "jyutping_whitespace_token_count": 220,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_fields_sha256": "ce2b7f0d44c6adff03655e5f886a3e009b898f19207c827c054d2da8c41c3a30"
+    },
+    {
+      "order": 205,
+      "id": "sentence-bank-long_family_finance_services_03-0020",
+      "source_file": "content/sentence_bank/long_family_finance_services_03.json",
+      "source_index": 19,
+      "source_category": "銀行服務",
+      "source_freeze_sha256": "df3317d898ce6a8331b7a398707876ed1ab2ffbc79e974b03fe5b87c38642127",
+      "source_current_sha256": "df3317d898ce6a8331b7a398707876ed1ab2ffbc79e974b03fe5b87c38642127",
+      "source_hash_match": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "sentence": "我陪同事阿榮去銀行問存摺點樣更新，職員指住自助印簿機，叫佢打開本子放入槽口，等屏幕提示。阿榮怕印歪，先把書脊壓平，放入去又用手扶住封面。機器開始逐頁走紙，佢每見一頁移動就想抽出嚟睇；職員提醒等提示，佢把手縮返，個人向前探，眼睛貼近透明窗，好似幫部機監工。印簿機送返存摺，阿榮即刻逐行檢查，見到新印嗰行先安心。職員話仲有頁要更新，佢只好再放返入去；今次雙手背後，個人企定，眼睛仍然跟住頁面走。後面等候的人見佢一路點頭，以為機器喺同佢報告。最後屏幕顯示完成，存摺送返出嚟，阿榮問：「我等咗咁耐，有冇張完成證明？」職員指住本子：「更新記錄就喺度。」阿榮望住印簿機：「咁我一路陪佢翻頁，佢都冇認得我。」",
+      "jyutping": "ngo5 pui4 tung4 si6 aa3 wing4 heoi3 ngan4 hong4 man6 cyun4 zip3 dim2 joeng2 gang1 san1, zik1 jyun4 zi2 zyu6 zi6 zou6 jan3 bou6 gei1, giu3 keoi5 daa2 hoi1 bun2 zi2 fong3 jap6 cou4 hau2, dang2 ping4 muk6 tai4 si6. aa3 wing4 paa3 jan3 wai1, sin1 baa2 syu1 zek3 aat3 ping4, fong3 jap6 heoi3 jau6 jung6 sau2 fu4 zyu6 fung1 min6. gei1 hei3 hoi1 ci2 zuk6 jip6 zau2 zi2, keoi5 mui5 gin3 jat1 jip6 ji4 dung6 zau6 soeng2 ceu1 ceot1 lai4 tai2; zik1 jyun4 tai4 sing2 dang2 tai4 si6, keoi5 baa2 sau2 suk1 faan1, go3 jan4 hoeng3 cin4 taam3, ngaan5 zing1 tip3 gan6 tau4 ming4 coeng1, hou2 ci5 bong1 bou6 gei1 gaam1 gung1. jan3 bou6 gei1 sung3 faan1 cyun4 zip3, aa3 wing4 zik1 hak1 zuk6 hong4 gim2 caa4, gin3 dou2 san1 jan3 go2 hong4 sin1 on1 sam1. zik1 jyun4 waa6 zung6 jau5 jip6 jiu3 gang1 san1, keoi5 zi2 hou2 zoi3 fong3 faan1 jap6 heoi3; gam1 ci3 soeng1 sau2 bui3 hau6, go3 jan4 kei5 ding6, ngaan5 zing1 jing4 jin4 gan1 zyu6 jip6 min6 zau2. hau6 min6 dang2 hau6 ge3 jan4 gin3 keoi5 jat1 lou6 dim2 tau4, ji5 wai4 gei1 hei3 hai2 tung4 keoi5 bou3 gou3. zeoi3 hau6 ping4 muk6 hin2 si6 jyun4 sing4, cyun4 zip3 sung3 faan1 ceot1 lai4, aa3 wing4 man6: 「ngo5 dang2 zo2 gam2 noi6, jau5 mou5 zoeng1 jyun4 sing4 zing3 ming4?」 zik1 jyun4 zi2 zyu6 bun2 zi2: 「gang1 san1 gei3 luk6 zau6 hai2 dou6.」 aa3 wing4 mong6 zyu6 jan3 bou6 gei1: 「gam2 ngo5 jat1 lou6 pui4 keoi5 faan1 jip6, keoi5 dou1 mou5 jing6 dak1 ngo5.」",
+      "gloss": "我陪同事阿荣去银行问存折怎样更新，职员指着自助存折打印机，叫他打开本子放进槽口，等屏幕提示。阿荣怕印歪，先把书脊压平，放进去又用手扶着封面。机器开始逐页走纸，他每看见一页移动就想抽出来看；职员提醒等提示，他把手缩回来，整个人向前探，眼睛贴近透明窗，好像在帮机器监工。打印机把存折送回来，阿荣马上逐行检查，看到新印的那一行才安心。职员说还有一页要更新，他只好再放回去；这次他把双手背在身后，站定不动，眼睛还是跟着页面走。后面等候的人看他一直点头，以为机器在向他汇报。最后屏幕显示完成，存折送出来，阿荣问：“我等了这么久，有没有完成证明？”职员指着本子：“更新记录就在这里。”阿荣看着打印机：“那我一路陪它翻页，它还是不认识我。”",
+      "usageTip": "故事练习：复述阿荣怎样陪着自助印簿机逐页更新存摺、几次忍住不抽出来查看；再模仿他把机器当成会汇报的同事，以及最后问“它还是不认识我”的回扣。",
+      "mechanism_difference": "银行自助存摺打印机逐页移动，阿榮不敢离开，像在旁边监工；不同于active keeper 04-0046以红袖口引鱼游动，也不同于02-0022围绕平板防窥膜走位。",
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_family_finance_services_04-0046",
+          "mechanism": "active keeper order299：鱼群跟着贴近玻璃移动的袖口；本稿是银行自助印簿机逐页更新，场景和动作机制不同。"
+        },
+        {
+          "id": "sentence-bank-long_family_finance_services_02-0022",
+          "mechanism": "active order111：客户与职员为看清防窥平板而绕桌移动；本稿不涉及平板或隐私视角，笑点是当机器监工。"
+        }
+      ],
+      "story_han_count": 257,
+      "jyutping_syllable_count": 257,
+      "jyutping_whitespace_token_count": 257,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_fields_sha256": "e07244911cf788b0dca82a8ef65b993be1fae2e03b5a439ffcf623a4bd1fc215"
+    },
+    {
+      "order": 398,
+      "id": "sentence-bank-long_family_finance_services_05-0096",
+      "source_file": "content/sentence_bank/long_family_finance_services_05.json",
+      "source_index": 95,
+      "source_category": "投訴跟進",
+      "source_freeze_sha256": "185879425d2f82dd7af3f5b7f8498ca579af95d037109eb82a383eb1e5e665d3",
+      "source_current_sha256": "185879425d2f82dd7af3f5b7f8498ca579af95d037109eb82a383eb1e5e665d3",
+      "source_hash_match": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "sentence": "同事阿晴向銀行客戶服務反映，辦完手續後收到兩次一樣的跟進短訊。幾日後，職員打電話問她有冇收到訊息，阿晴打開手機逐條對，答：「有兩封。」啱啱講完，屏幕又跳出一條「多謝你提供意見」。阿晴以為自己睇錯，將新訊息讀出來，職員照住記低；話音未落，手機又響一聲，第四條短訊到咗。職員叫佢先唔好掂手機，等一陣睇下會唔會停。兩個人安靜咁等，果然冇再收到。職員話會跟進訊息重複嘅問題，阿晴先鬆一口氣。佢正想收線，屏幕又亮起一條「案件已跟進」。阿晴望住手機問：「咁我而家投訴呢條，會唔會又多一條回覆？」職員笑住話會記低。阿晴即刻把手機反扣喺枱面：「好，今次我先唔畀佢聽到。」",
+      "jyutping": "tung4 si6 aa3 cing4 hoeng3 ngan4 hong4 haak3 wu6 fuk6 mou6 faan2 jing6, baan6 jyun4 sau2 zuk6 hau6 sau1 dou2 loeng5 ci3 jat1 joeng6 ge3 gan1 zeon3 dyun2 seon3. gei2 jat6 hau6, zik1 jyun4 daa2 din6 waa2 man6 keoi5 jau5 mou5 sau1 dou2 seon3 sik1, aa3 cing4 daai2 hoi1 sau2 gei1 zuk6 tiu4 deoi3, daap3: 「jau5 loeng5 fung1.」 ngaam1 ngaam1 gong2 jyun4, ping4 muk6 jau6 tiu3 ceot1 jat1 tiu4 「do1 ze6 nei5 tai4 gung1 ji3 gin3」。 aa3 cing4 ji5 wai4 zi6 gei2 tai2 co3, zoeng1 san1 seon3 sik1 duk6 ceot1 lai4, zik1 jyun4 ziu3 zyu6 gei3 dai1; waa6 jam1 mei6 lok6, sau2 gei1 jau6 hoeng2 jat1 seng1, dai6 sei3 tiu4 dyun2 seon3 dou3 zo2. zik1 jyun4 giu3 keoi5 sin1 m4 hou2 dim3 sau2 gei1, dang2 jat1 zan6 tai2 haa5 wui5 m4 wui5 ting4. loeng5 go3 jan4 on1 zing6 gam2 dang2, gwo2 jin4 mou5 zoi3 sau1 dou2. zik1 jyun4 waa6 wui5 gan1 zeon3 seon3 sik1 cung4 fuk1 ge3 man6 tai4, aa3 cing4 sin1 sung1 jat1 hau2 hei3. keoi5 zing3 soeng2 sau1 sin3, ping4 muk6 jau6 loeng6 hei2 jat1 tiu4 「on3 gin6 ji5 gan1 zeon3」。 aa3 cing4 mong6 zyu6 sau2 gei1 man6: 「gam2 ngo5 ji4 gaa1 tau4 sou3 ni1 tiu4, wui5 m4 wui5 jau6 do1 jat1 tiu4 wui4 fuk1?」 zik1 jyun4 siu3 zyu6 waa6 wui5 gei3 dai1. aa3 cing4 zik1 hak1 baa2 sau2 gei1 faan2 kau3 hai2 toi2 min6: 「hou2, gam1 ci3 ngo5 sin1 m4 bei2 keoi5 teng1 dou2.」",
+      "gloss": "同事阿晴向银行客户服务反映，办完手续后收到两条一样的跟进短信。几天后，职员打电话问她有没有收到消息，阿晴打开手机逐条对照，回答：“有两条。”刚说完，屏幕又跳出一条“谢谢你提供意见”。阿晴以为自己看错了，把新消息读出来，职员照着记录；话音未落，手机又响了一声，第四条短信到了。职员叫她先别碰手机，等一会儿看看会不会停。两个人安静地等，果然没有再收到。职员说会跟进短信重复的问题，阿晴才松了一口气。她正想挂电话，屏幕又亮起一条“案件已跟进”。阿晴看着手机问：“那我现在投诉这一条，会不会又多一条回复？”职员笑着说会记下。阿晴马上把手机反扣在桌面：“好，这次我先不让它听见。”",
+      "usageTip": "故事练习：复述阿晴怎样反映跟进短信重复，回访中通知又接连出现；再模仿她反扣手机、怕新通知“听见”的回扣。",
+      "mechanism_difference": "投诉的是重复跟进通知；回访电话期间又有新通知出现，手机被反扣后才停止干扰。不同于active 458/1013同名顾客同时回应或互相认错。",
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_family_finance_services_07-0020",
+          "mechanism": "active 458：三位同姓顾客在药房被叫名后同时起身；本稿无排队叫名或身份混淆。"
+        },
+        {
+          "id": "sentence-bank-long_food_shopping_10-0003",
+          "mechanism": "active 1013：两位同名同事在餐厅互相指餐单；本稿是短信重复触发回访困扰。"
+        },
+        {
+          "id": "sentence-bank-long_family_finance_services_02-0076",
+          "mechanism": "active 02-0076：设置语音信箱时反复找不到菜单；本稿不涉及语音菜单或电话设置。"
+        }
+      ],
+      "story_han_count": 237,
+      "jyutping_syllable_count": 237,
+      "jyutping_whitespace_token_count": 237,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_fields_sha256": "c7b4f46ae27680badb5cc02938381d08aa694c7eb14dbf5cf06ae0220287b2f1"
+    },
+    {
+      "order": 411,
+      "id": "sentence-bank-long_family_finance_services_06-0017",
+      "source_file": "content/sentence_bank/long_family_finance_services_06.json",
+      "source_index": 16,
+      "source_category": "保險受益人",
+      "source_freeze_sha256": "6b3a306ccd2c197c440315a25df9396f56d6912fd4708dd8f4e97b502fea435e",
+      "source_current_sha256": "6b3a306ccd2c197c440315a25df9396f56d6912fd4708dd8f4e97b502fea435e",
+      "source_hash_match": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "sentence": "同事阿朗去保險公司更新受益人資料，職員指住關係一欄問：「你同受益人係咩關係？」阿朗即刻答「同事」，寫到一半又停筆，話我哋放工會一齊打波，算唔算球友。職員笑住講只要填一項關係，唔使寫活動紀錄。阿朗聽完仍然唔放心，拎出手機搵合照，先搵到公司大合照，再搵到球場嗰張，逐張講邊個企喺邊。職員望住兩張相同一欄表格，問佢最想填邊樣。阿朗諗一陣，寫低「同事」，又加問可唔可以喺旁邊寫「球友」。職員提醒按表格要求填就得，唔使另加稱呼。離開時我問佢之後仲約唔約球友。阿朗即刻發訊息：「關係欄填咗同事，今晚照打波，唔使等張表批我做球友。」",
+      "jyutping": "tung4 si6 aa3 long5 heoi3 bou2 him2 gung1 si1 gang1 san1 sau6 jik6 jan4 zi1 liu6, zik1 jyun4 zi2 zyu6 gwaan1 hai6 jat1 laan4 man6: 「nei5 tung4 sau6 jik6 jan4 hai6 me1 gwaan1 hai6?」 aa3 long5 zik1 hak1 daap3 「tung4 si6」, se2 dou3 jat1 bun3 jau6 ting4 bat1, waa6 ngo5 dei6 fong3 gung1 wui5 jat1 cai4 daa2 bo1, syun3 m4 syun3 kau4 jau5. zik1 jyun4 siu3 zyu6 gong2 zi2 jiu3 tim4 jat1 hong6 gwaan1 hai6, m4 sai2 se2 wut6 dung6 gei3 luk6. aa3 long5 teng1 jyun4 jing4 jin4 m4 fong3 sam1, ling1 ceot1 sau2 gei1 wan2 hap6 ziu3, sin1 wan2 dou2 gung1 si1 daai6 hap6 ziu3, zoi3 wan2 dou2 kau4 coeng4 go2 zoeng1, zuk6 zoeng1 gong2 bin1 go3 kei5 hai2 bin1. zik1 jyun4 mong6 zyu6 loeng5 zoeng1 soeng2 tung4 jat1 laan4 biu2 gaak3, man6 keoi5 zeoi3 soeng2 tim4 bin1 joeng6. aa3 long5 nam2 jat1 zan6, se2 dai1 「tung4 si6」, jau6 gaa1 man6 ho2 m4 ho2 ji5 hai2 pong4 bin1 se2 「kau4 jau5」. zik1 jyun4 tai4 sing2 on3 biu2 gaak3 jiu1 kau4 tim4 zau6 dak1, m4 sai2 ling6 gaa1 cing1 fu1. lei4 hoi1 si4 ngo5 man6 keoi5 zi1 hau6 zung6 joek3 m4 joek3 kau4 jau5. aa3 long5 zik1 hak1 faat3 seon3 sik1: 「gwaan1 hai6 laan4 tim4 zo2 tung4 si6, gam1 maan5 ziu3 daa2 bo1, m4 sai2 dang2 zoeng1 biu2 pei1 ngo5 zou6 kau4 jau5.」",
+      "gloss": "同事阿朗去保险公司更新受益人资料，职员指着关系一栏问：“你和受益人是什么关系？”阿朗马上答“同事”，写到一半又停笔，说我们下班会一起打球，算不算球友。职员笑着说只要填一项关系，不用写活动记录。阿朗听完还是不放心，拿出手机找合照，先找到公司大合照，再找到球场那张，逐张讲谁站在哪里。职员看着两张照片和一栏表格，问他最想填哪一项。阿朗想了一阵，写下“同事”，又问可不可以在旁边写“球友”。职员提醒按表格要求填写就行，不用另加称呼。离开时我问他之后还约不约球友。阿朗马上发消息：“关系栏填了同事，今晚照样打球，不用等表格批准我做球友。”",
+      "usageTip": "故事练习：复述阿朗怎样在受益人关系栏纠结“同事”还是“球友”，讲讲他为何翻出两张合照，最后模仿“唔使等张表批我做球友”的回扣。",
+      "mechanism_difference": "保险资料更新只是场景；笑点是主角把关系栏当成要附活动履历，翻两张合照逐个说明，最后仍想同时填“同事/球友”。与原风筝控制及keeper order 48的放风筝机制不同。",
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_family_finance_services_01-0056",
+          "mechanism": "active keeper order 48：朋友以控制风向为由反复收放风筝线；候稿笑点在表格关系栏与球友身份，不涉及风筝操控。"
+        }
+      ],
+      "story_han_count": 223,
+      "jyutping_syllable_count": 223,
+      "jyutping_whitespace_token_count": 223,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_fields_sha256": "d371626ccfa4b530420e08ebe528a3938a53925b3b9449031322956435fbfd05"
+    },
+    {
+      "order": 416,
+      "id": "sentence-bank-long_family_finance_services_06-0026",
+      "source_file": "content/sentence_bank/long_family_finance_services_06.json",
+      "source_index": 25,
+      "source_category": "銀行轉帳",
+      "source_freeze_sha256": "56fe6c2746683181c047efea9442452da7ac8bda669dee7413e518b2db642a46",
+      "source_current_sha256": "56fe6c2746683181c047efea9442452da7ac8bda669dee7413e518b2db642a46",
+      "source_hash_match": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "sentence": "我同事阿欣替我買咗杯凍檸茶，我用銀行程式轉帳俾佢。備註欄我想寫清楚，先打「午飯後阿欣代買凍檸茶」，確認畫面只顯示開頭幾個字。我怕佢睇唔明，刪到只剩「凍檸茶」；又怕佢唔記得邊個代買，改成「阿欣嘅凍檸茶」。佢企喺旁邊等，我越改越似幫茶餐廳寫餐牌，仲問佢要唔要加「少甜」。阿欣望住我個電話，話轉帳就轉帳，唔使連口味都記低。我連「走冰」都想寫埋，佢話杯茶已經飲咗一半，唔使幫佢做飲品檔案。我最後只寫「茶」按確認。阿欣收到提示後問：「你講『茶』，係凍檸茶，定係叫我再買多杯？」我即刻補訊息解釋，佢笑話：「杯茶飲完都好耐，備註仲未寫完。」我睇住個畫面，發現轉帳一次，茶單改咗三版。",
+      "jyutping": "ngo5 tung4 si6 aa3 jan1 tai6 ngo5 maai5 zo2 bui1 dung3 ning4 caa4, ngo5 jung6 ngan4 hong4 cing4 sik1 zyun2 zoeng3 bei2 keoi5. bei6 zyu3 laan4 ngo5 soeng2 se2 cing1 co2, sin1 daa2 「ng5 faan6 hau6 aa3 jan1 doi6 maai5 dung3 ning4 caa4」, kok3 jing6 waa6 min6 zi2 hin2 si6 hoi1 tau4 gei2 go3 zi6. ngo5 paa3 keoi5 tai2 m4 ming4, saan1 dou3 zi2 sing6 「dung3 ning4 caa4」; jau6 paa3 keoi5 m4 gei3 dak1 bin1 go3 doi6 maai5, goi2 sing4 「aa3 jan1 ge3 dung3 ning4 caa4」. keoi5 kei5 hai2 pong4 bin1 dang2, ngo5 jyut6 goi2 jyut6 ci5 bong1 caa4 caan1 teng1 se2 caan1 paai4, zung6 man6 keoi5 jiu3 m4 jiu3 gaa1 「siu2 tim4」. aa3 jan1 mong6 zyu6 ngo5 go3 din6 waa2, waa6 zyun2 zoeng3 zau6 zyun2 zoeng3, m4 sai2 lin4 hau2 mei6 dou1 gei3 dai1. ngo5 lin4 「zau2 bing1」 dou1 soeng2 se2 maai4, keoi5 waa6 bui1 caa4 ji5 ging1 jam2 zo2 jat1 bun3, m4 sai2 bong1 keoi5 zou6 jam2 ban2 dong2 on3. ngo5 zeoi3 hau6 zi2 se2 「caa4」 on3 kok3 jing6. aa3 jan1 sau1 dou2 tai4 si6 hau6 man6: 「nei5 gong2 「caa4」, hai6 dung3 ning4 caa4, ding6 hai6 giu3 ngo5 zoi3 maai5 do1 bui1?」 ngo5 zik1 hak1 bou2 seon3 sik1 gaai2 sik1, keoi5 siu3 waa6: 「bui1 caa4 jam2 jyun4 dou1 hou2 noi6, bei6 zyu3 zung6 mei6 se2 jyun4.」 ngo5 tai2 zyu6 go3 waa6 min6, faat3 jin6 zyun2 zoeng3 jat1 ci3, caa4 daan1 goi2 zo2 saam1 baan2.",
+      "gloss": "我的同事阿欣替我买了一杯冻柠茶，我用银行应用转账给她。备注栏我想写清楚，先打“午饭后阿欣代买冻柠茶”，确认画面只显示开头几个字。我怕她看不明白，删到只剩“冻柠茶”；又怕她不记得是谁代买，改成“阿欣的冻柠茶”。她站在旁边等，我越改越像帮茶餐厅写餐牌，还问她要不要加“少甜”。阿欣看着我的手机，说转账就转账，不用连口味都记下来。我连“走冰”都想写上，她说茶已经喝了一半，不用替她做饮品档案。我最后只写“茶”按确认。阿欣收到提示后问：“你写‘茶’，是冻柠茶，还是叫我再买一杯？”我马上发消息解释，她笑说：“茶都喝完好久了，备注还没写完。”我看着屏幕，发现转账一次，茶单改了三版。",
+      "usageTip": "故事练习：复述我怎样把一笔转账备注从完整订单越改越短，最后只剩“茶”，以及阿欣收到后如何反问；模仿“茶都喝完了，备注还没写完”的回扣。",
+      "mechanism_difference": "转账只是背景；笑点围绕备注越改越像茶餐厅餐牌、缩成“茶”后反而引起歧义。与当前keeper order 59的水龙头感应器误认机制不同，也不含自动感应垃圾桶、翻盖或误动作。",
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_family_finance_services_01-0067",
+          "mechanism": "active keeper order 59：同事反复挥手测试感应水龙头，众人跟着试；候稿笑点在转账备注越改越像饮品餐牌，不含感应器/挥手测试。"
+        }
+      ],
+      "story_han_count": 236,
+      "jyutping_syllable_count": 236,
+      "jyutping_whitespace_token_count": 236,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_fields_sha256": "657b342e7c463124dc683fce00148f3ebeb2e951dd7601bd315607df3a18075a"
+    }
+  ],
+  "validation": {
+    "item_count": 5,
+    "unique_orders": 5,
+    "unique_source_ids": 5,
+    "source_hashes_match_freeze_and_current": true,
+    "all_han_jyutping_counts_match": true,
+    "all_jyutping_cjk_residue_zero": true,
+    "all_candidate_field_hashes_recomputed": true,
+    "no_self_related_id": true,
+    "candidate_fields_hash_definition": "SHA256 compact sorted-key JSON of {category: source_category, sentence, jyutping, gloss, usageTip}"
+  }
+}

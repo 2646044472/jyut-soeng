@@ -1,0 +1,193 @@
+{
+  "report_type": "duplicate_rewrite_candidate_batch",
+  "date": "2026-11-13",
+  "candidate_status": "CANDIDATE_NOT_PASSED",
+  "freeze_manifest": "content/story_review_drafts/FINAL_2000_SEMANTIC_AUDIT_FREEZE_2026-11-13.json",
+  "freeze_manifest_sha256": "4c3ac877867079fd053c88374eb434f94cfb3e09fd67a76b0b7f6424fb119843",
+  "global_reconciliation": "content/story_review_drafts/FINAL_2000_DUPLICATE_GLOBAL_RECONCILIATION_2026-11-13.json",
+  "global_reconciliation_sha256": "bc8e9530730f4916310372874e8d16bd6c80e874470ed1dffeab4d6baeeb490e",
+  "scope_orders": [
+    660,
+    1013,
+    1015,
+    1062,
+    1094
+  ],
+  "completed_orders": [
+    660,
+    1013,
+    1015,
+    1062,
+    1094
+  ],
+  "pending_orders": [],
+  "items": [
+    {
+      "order": 660,
+      "id": "sentence-bank-long_food_shopping_02-0050",
+      "source_file": "content/sentence_bank/long_food_shopping_02.json",
+      "source_index": 49,
+      "source_category": "食物過敏與保存",
+      "source_freeze_sha256": "7a915e3eb2220104a6a486202b845db896d6cb33a9e6e75514897551892e1565",
+      "source_current_sha256": "7a915e3eb2220104a6a486202b845db896d6cb33a9e6e75514897551892e1565",
+      "source_hash_match": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "sentence": "同事阿敏對花生敏感，去超市買餅乾時，先拿起包裝看成分表。字印得細，佢用手機放大；一放大，只見到字中間，佢就慢慢轉住包裝移，手機跟住左移右移，似幫餅乾影證件相。旁邊店員見佢對住貨架踎高踎低，以為佢想拍產品相，將同款餅乾一包包排成直線，還問要不要補光。阿敏話自己只係想睇清楚配料，店員於是托住包裝，等佢翻到背面。阿敏逐行讀，讀到一半又把手機拉近，畫面只剩一個字；再退遠，字又細到看唔清。後面客人等佢睇完，已經自動排成一條隊。阿敏終於睇清楚，拎起一包就走；店員望住排好的餅乾問：「咁我係咪要逐包影晒？」阿敏笑住答：「唔使，佢哋唔係排隊等影相。」",
+      "jyutping": "tung4 si6 aa3 man5 deoi3 faa1 sang1 man5 gam2, heoi3 ciu1 si5 maai5 beng2 gon1 si4, sin1 naa4 hei2 baau1 zong1 hon3 sing4 fan6 biu2. zi6 jan3 dak1 sai3, keoi5 jung6 sau2 gei1 fong3 daai6; jat1 fong3 daai6, zi2 gin3 dou2 zi6 zung1 gaan1, keoi5 zau6 maan6 maan6 zyun2 zyu6 baau1 zong1 ji4, sau2 gei1 gan1 zyu6 zo2 ji4 jau6 ji4, ci5 bong1 beng2 gon1 jing2 zing3 gin6 soeng2. pong4 bin1 zik1 jyun4 gin3 keoi5 deoi3 zyu6 fo3 gaa3 mau1 gou1 mau1 dai1, ji5 wai4 keoi5 soeng2 paak3 caan2 ban2 soeng2, zoeng1 tung4 fong2 beng2 gon1 jat1 baau1 baau1 paai4 sing4 zik6 sin3, waan4 man6 jiu3 m4 jiu3 bou2 gwong1. aa3 man5 waa6 zi6 gei2 zi2 hai6 soeng2 tai2 cing1 co2 pui2 liu6, zik1 jyun4 jyu1 si6 tok3 zyu6 baau1 zong1, dang2 keoi5 faan1 dou3 bui3 min6. aa3 man5 zuk6 hang4 duk6, duk6 dou3 jat1 bun3 jau6 baa2 sau2 gei1 laai1 gan6, waa6 min6 zi2 sing6 jat1 go3 zi6; zoi3 teoi3 jyun5, zi6 jau6 sai3 dou3 tai2 m4 cing1. hau6 min6 haak3 jan4 dang2 keoi5 tai2 jyun4, ji5 ging1 zi6 dung6 paai4 sing4 jat1 tiu4 deoi2. aa3 man5 zung1 jyu1 tai2 cing1 co2, ling1 hei2 jat1 baau1 zau6 zau2; zik1 jyun4 mong6 zyu6 paai4 hou2 ge3 beng2 gon1 man6: 「gam2 ngo5 hai6 mai6 jiu3 zuk6 baau1 jing2 saai3?」 aa3 man5 siu3 zyu6 daap3: 「m4 sai2, keoi5 dei6 m4 hai6 paai4 deoi2 dang2 jing2 soeng2.」",
+      "gloss": "同事阿敏对花生敏感，去超市买饼干时，先拿起包装看成分表。字印得细，她用手机放大；一放大，只看见字中间，她就慢慢转着包装移动，手机跟着左移右移，像在给饼干拍证件照。旁边店员见她在货架前蹲高蹲低，以为她想拍产品照，把同款饼干一包包排成直线，还问要不要补光。阿敏说自己只是想看清配料，店员于是托着包装，让她翻到背面。阿敏逐行读，读到一半又把手机拉近，画面只剩一个字；再退远，字又小到看不清。后面的客人等她看完，已经自动排成一队。阿敏终于看清楚，拿起一包就走；店员看着排好的饼干问：“那我是不是要逐包拍照？”阿敏笑着答：“不用，它们不是排队等拍照。”",
+      "usageTip": "故事练习：复述阿敏怎样为了看清成分表不断调整手机和包装，旁边店员怎样误以为她在拍产品照，最后模仿店员问要不要逐包拍照、阿敏说饼干不是排队等拍照的回扣。",
+      "keeper_id": "sentence-bank-long_food_shopping_03-0043",
+      "mechanism_difference": "候稿保留食物过敏背景，只写主角查看包装成分表时的手机取景动作升级，店员把它误当拍摄任务；与keeper 03-0043午餐标签受潮后按菜式核对、错餐补货的机制不同，也没有同名客人指认。",
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_food_shopping_03-0043",
+          "mechanism": "keeper为午餐贴纸受潮后重新核对菜式、同事确认订单及补水果；本稿为超市货架前查看成分文字被误会成拍产品照。"
+        }
+      ],
+      "story_han_count": 234,
+      "jyutping_syllable_count": 234,
+      "jyutping_whitespace_token_count": 234,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_fields_sha256": "8eb4f8179ff9aed9342cf779bfb556705abb6d7b9a11c2cdf731b7f29cf45551"
+    },
+    {
+      "order": 1013,
+      "id": "sentence-bank-long_food_shopping_10-0003",
+      "source_file": "content/sentence_bank/long_food_shopping_10.json",
+      "source_index": 2,
+      "source_category": "外賣落單",
+      "source_freeze_sha256": "29de934e4c48990372f3ef266545a8d4212ce2e9b74726c13956ed57118ada2f",
+      "source_current_sha256": "29de934e4c48990372f3ef266545a8d4212ce2e9b74726c13956ed57118ada2f",
+      "source_hash_match": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "sentence": "我同事阿傑午休去茶餐廳買外賣，點咗份餐蛋三文治，怕醬汁浸濕麵包，特登叫店員醬另上。店員問青瓜同生菜要唔要夾埋，阿傑又話菜葉分開，免得焗到麵包濕軟。伙計逐樣放入小盒，還問要不要刀叉。返到公司，阿傑打開紙袋，麵包、火腿、煎蛋、青瓜、生菜、醬汁一樣樣排喺枱面。同事以為佢買咗一盒手作材料，問幾時開班。阿傑話自己只想食三文治，跟住拎起麵包，逐樣夾返入去；菜葉一放，火腿就滑出嚟，佢又追住個煎蛋，最後兩塊麵包喺手上，餡料散晒枱面。大家笑佢叫外賣變成自己組裝，阿傑望住份餐話：「下次唔該寫埋『免組裝』，我係叫外賣，唔係訂咗套傢俬。」",
+      "jyutping": "ngo5 tung4 si6 aa3 kit3 ng5 jau1 heoi3 caa4 caan1 teng1 maai5 ngoi6 maai6, dim2 zo2 fan6 caan1 daan2 saam1 man4 zi6, paa3 zoeng3 zap1 zam3 sap1 min6 baau1, dak6 ding6 giu3 zik1 jyun4 zoeng3 ling6 soeng6. zik1 jyun4 man6 cing1 gwaa1 tung4 saang1 coi3 jiu3 m4 jiu3 gaap3 maai4, aa3 kit3 jau6 waa6 coi3 jip6 fan1 hoi1, mai5 dak1 guk1 dou3 min6 baau1 sap1 jyun5. fo2 gai3 zuk6 joeng6 fong3 jap6 siu2 hap6, waan4 man6 jiu3 m4 jiu3 dou1 caa1. faan1 dou3 gung1 si1, aa3 kit3 daai2 hoi1 zi2 doi6, min6 baau1, fo2 teoi2, zin1 daan2, cing1 gwaa1, saang1 coi3, zoeng3 zap1 jat1 joeng6 joeng6 paai4 hai2 toi2 min6. tung4 si6 ji5 wai4 keoi5 maai5 zo2 jat1 hap6 sau2 zok3 coi4 liu6, man6 gei2 si4 hoi1 baan1. aa3 kit3 waa6 zi6 gei2 zi2 soeng2 sik6 saam1 man4 zi6, gan1 zyu6 ling1 hei2 min6 baau1, zuk6 joeng6 gaap3 faan1 jap6 heoi3; coi3 jip6 jat1 fong3, fo2 teoi2 zau6 waat6 ceot1 lai4, keoi5 jau6 zeoi1 zyu6 go3 zin1 daan2, zeoi3 hau6 loeng5 faat3 min6 baau1 hai2 sau2 soeng6, haam6 liu6 saan3 saai3 toi2 min6. daai6 gaa1 siu3 keoi5 giu3 ngoi6 maai6 bin3 sing4 zi6 gei2 zou6 zong1, aa3 kit3 mong6 zyu6 fan6 caan1 waa6: 「haa6 ci3 m4 goi1 se2 maai4 「min5 zou2 zong1」, ngo5 hai6 giu3 ngoi6 maai6, m4 hai6 deng6 zo2 tou3 gaa1 si1.」",
+      "gloss": "我的同事阿杰午休去茶餐厅买外卖，点了一份餐蛋三文治，怕酱汁浸湿面包，特地叫店员酱汁另上。店员问青瓜和生菜要不要夹进去，阿杰又说菜叶分开，免得焗得面包湿软。伙计逐样放进小盒，还问要不要刀叉。回到公司，阿杰打开纸袋，面包、火腿、煎蛋、青瓜、生菜、酱汁一样样排在桌面。同事以为他买了一盒手工材料，问几时开班。阿杰说自己只想吃三文治，接着拿起面包，逐样夹回去；菜叶一放，火腿就滑出来，他又追着煎蛋，最后两块面包在手上，馅料散满桌面。大家笑他叫外卖变成自己组装，阿杰看着这份餐说：“下次麻烦写上‘免组装’，我是叫外卖，不是订了一套家具。”",
+      "usageTip": "故事练习：复述阿杰怎样把三文治的酱汁、菜叶等逐项分开，回到办公室后又忙着把馅料夹回面包；模仿他说下次要“免组装”的结尾。",
+      "keeper_id": "sentence-bank-long_family_finance_services_07-0020",
+      "mechanism_difference": "一份外賣三文治的自訂配料被逐樣拆開，主角回到辦公室後手忙腳亂重組；與keeper 07-0020同姓陳客人被叫名後同時應答的身份混淆不同，也不涉及姓名辨認。",
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_family_finance_services_07-0020",
+          "mechanism": "keeper為三位同姓陳客人同時應名及藥房核對；本稿為單一外賣訂單把配料分裝後再重組。"
+        }
+      ],
+      "story_han_count": 224,
+      "jyutping_syllable_count": 224,
+      "jyutping_whitespace_token_count": 224,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_fields_sha256": "acda281da13063a569fae59dbe317928ab85f41c6ae290f74842cf568c59fb49"
+    },
+    {
+      "order": 1015,
+      "id": "sentence-bank-long_food_shopping_10-0007",
+      "source_file": "content/sentence_bank/long_food_shopping_10.json",
+      "source_index": 6,
+      "source_category": "食材挑選",
+      "source_freeze_sha256": "c08c323d81b06f99462244f6e4cc9ed4947027fffd16a4d8417ca2d54cf0edbd",
+      "source_current_sha256": "c08c323d81b06f99462244f6e4cc9ed4947027fffd16a4d8417ca2d54cf0edbd",
+      "source_hash_match": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "sentence": "同事阿玲想煮蘿蔔糕，叫我陪佢去街市挑白蘿蔔，話要一條直身嘅，刨起上嚟方便。佢將每條蘿蔔貼住檔邊比，稍為彎就轉一面，再拎兩條並排睇邊條更直。檔主遞咗一條畀佢，話呢條夠直；阿玲仲唔放心，把蘿蔔轉咗幾個方向，再用檔邊對照，左右轉到自己都分唔清頭尾。後面客人等住買菜，見佢比咁耐，都探頭望住。阿玲一邊話自己只買一條，一邊又拎另一條來比，檔前忽然靜晒，人人等佢宣布結果。最後佢拎住最直嗰條返屋企刨絲；第一刀落去，蘿蔔即刻變成一碗絲，完全睇唔出原本直唔直。我問佢揀咗咁耐有冇用，阿玲望住碗答：「刨之前我認得，依家你要信我把口。」",
+      "jyutping": "tung4 si6 aa3 ling4 soeng2 zyu2 lo4 baak6 gou1, giu3 ngo5 pui4 keoi5 heoi3 gaai1 si5 tiu1 baak6 lo4 baak6, waa6 jiu3 jat1 tiu4 zik6 san1 ge3, paau4 hei2 soeng6 lai4 fong1 bin6. keoi5 zoeng1 mui5 tiu4 lo4 baak6 tip3 zyu6 dong3 bin1 bei2, saau1 wai4 waan1 zau6 zyun2 jat1 min6, zoi3 ling1 loeng5 tiu4 bing6 paai4 tai2 bin1 tiu4 gang3 zik6. dong3 zyu2 dai6 zo2 jat1 tiu4 bei2 keoi5, waa6 ni1 tiu4 gau3 zik6; aa3 ling4 zung6 m4 fong3 sam1, baa2 lo4 baak6 zyun2 zo2 gei2 go3 fong1 hoeng3, zoi3 jung6 dong3 bin1 deoi3 ziu3, zo2 jau6 zyun2 dou3 zi6 gei2 dou1 fan1 m4 cing1 tau4 mei5. hau6 min6 haak3 jan4 dang2 zyu6 maai5 coi3, gin3 keoi5 bei2 gam3 noi6, dou1 taam3 tau4 mong6 zyu6. aa3 ling4 jat1 bin1 waa6 zi6 gei2 zi2 maai5 jat1 tiu4, jat1 bin1 jau6 ling1 ling6 jat1 tiu4 loi4 bei2, dong3 cin4 fat1 jin4 zing6 saai3, jan4 jan4 dang2 keoi5 syun1 bou3 git3 gwo2. zeoi3 hau6 keoi5 ling1 zyu6 zeoi3 zik6 go2 tiu4 faan1 uk1 kei2 paau4 si1; dai6 jat1 dou1 lok6 heoi3, lo4 baak6 zik1 hak1 bin3 sing4 jat1 wun2 si1, jyun4 cyun4 tai2 m4 ceot1 jyun4 bun2 zik6 m4 zik6. ngo5 man6 keoi5 gaan2 zo2 gam3 noi6 jau5 mou5 jung6, aa3 ling4 mong6 zyu6 wun2 daap3: 「paau4 zi1 cin4 ngo5 jing6 dak1, ji4 gaa1 nei5 jiu3 seon3 ngo5 baa2 hau2.」",
+      "gloss": "同事阿玲想煮萝卜糕，叫我陪她去街市挑白萝卜，说要一条直身的，刨起来方便。她把每条萝卜贴着摊边比，稍微弯就转一面，再拿两条并排看哪条更直。摊主递了一条给她，说这条够直；阿玲还是不放心，把萝卜转了几个方向，再用摊边对照，左右转到自己也分不清头尾。后面的客人等着买菜，见她比了这么久，也探头看着。阿玲一边说自己只买一条，一边又拿另一条来比，摊前忽然安静下来，人人等她宣布结果。最后她拿着最直的那条回家刨丝；第一刀下去，萝卜马上变成一碗丝，完全看不出原来直不直。我问她挑了这么久有没有用，阿玲看着碗回答：“刨之前我认得，现在你得信我说的。”",
+      "usageTip": "故事练习：复述阿玲怎样在街市反复转动白萝卜、对着摊边比较直度，后来又因刨成萝卜丝而失去外形；模仿她说“现在你得信我说的”的结尾。",
+      "keeper_id": "sentence-bank-long_food_shopping_13-0075",
+      "mechanism_difference": "原牛油果熟度比较/白板天气预报机制改为街市挑选白萝蔔时对照摊边反复转向，刨丝后外形判断消失；不把食材拟作员工或奖项候选。与keeper的草莓像新员工一样被面试、录取及办公室误认名单不同。",
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_food_shopping_13-0075",
+          "mechanism": "keeper将草莓拟人化为应聘员工、逐盒评语并在办公室误认新人名单；本稿只比较萝蔔几何形状，后续刨丝使形状不可见，无员工/招聘/奖项机制。"
+        }
+      ],
+      "story_han_count": 228,
+      "jyutping_syllable_count": 228,
+      "jyutping_whitespace_token_count": 228,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_fields_sha256": "5c6860f523114d4a52edec50ad03ab87741e72521a5399c41ac050048e8092ba"
+    },
+    {
+      "order": 1062,
+      "id": "sentence-bank-long_food_shopping_11-0066",
+      "source_file": "content/sentence_bank/long_food_shopping_11.json",
+      "source_index": 65,
+      "source_category": "網購食材替代",
+      "source_freeze_sha256": "84fd32eaee0ad6c1650599f3d288688ce95756b7e48b58c8423a7a252504a3a3",
+      "source_current_sha256": "84fd32eaee0ad6c1650599f3d288688ce95756b7e48b58c8423a7a252504a3a3",
+      "source_hash_match": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "sentence": "我用網上超市訂咗一包意大利粉同一罐肉醬，打算放工煮晚餐。客服通知肉醬缺貨，問可唔可以換番茄醬，我按咗接受；跟住意大利粉又要替代，頁面列出通粉同螺絲粉，叫我揀一款。我問同事阿文，佢先問我：「你本來想煮乜？」我答意粉。佢叫我等所有替代項到齊先諗。佢話，咁而家只係形狀唔同，反而要問我想唔想連醬汁都改。佢把手機一收，叫我先睇清楚每個替代項，再決定菜名。等我拎到貨，通粉同番茄醬都換咗，原來想做嘅晚餐只剩「意粉」呢個大方向。阿文拎起其中一包話：「你買到嘅係材料，我幫你做咗兩輪菜單策劃。」我話今日食麵包好喇，佢問麵包缺貨時由邊個替代。",
+      "jyutping": "ngo5 jung6 mong5 soeng6 ciu1 si5 deng6 zo2 jat1 baau1 ji3 daai6 lei6 fan2 tung4 jat1 gun2 juk6 zoeng3, daa2 syun3 fong3 gung1 zyu2 maan5 caan1. fu6 zaak3 tung1 zi1 juk6 zoeng3 kek3 fo3, man6 ho2 m4 ho2 ji5 wun6 faan1 ke4 zoeng3, ngo5 on3 zo2 zip3 sau6; gan1 zyu6 ji3 daai6 lei6 fan2 jau6 jiu3 tai3 doi6, waa6 min6 lit6 ceot1 tung1 fan2 tung4 lo4 si1 fan2, giu3 ngo5 gaan2 jat1 kwaan2. ngo5 man6 tung4 si6 aa3 man4, keoi5 sin1 man6 ngo5: 「nei5 bun2 loi4 soeng2 zyu2 mat1?」 ngo5 daap3 ji3 fan2. keoi5 giu3 ngo5 dang2 so2 jau5 tai3 doi6 hong6 dou3 cai4 sin1 nam2. keoi5 waa6, gam2 ji4 gaa1 zi2 hai6 jing4 zong6 m4 tung4, faan2 ji4 jiu3 man6 ngo5 soeng2 m4 soeng2 lin4 zoeng3 zap1 dou1 goi2. keoi5 baa2 sau2 gei1 jat1 sau1, giu3 ngo5 sin1 tai2 cing1 co2 mui5 go3 tai3 doi6 hong6, zoi3 kyut3 ding6 coi3 meng2. dang2 ngo5 ling1 dou3 fo3, tung1 fan2 tung4 faan1 ke4 zoeng3 dou1 wun6 zo2, jyun4 loi4 soeng2 zou6 ge3 maan5 caan1 zi2 sing6 「ji3 fan2」 ni1 go3 daai6 fong1 hoeng3. aa3 man4 ling1 hei2 kei4 zung1 jat1 baau1 waa6: 「nei5 maai5 dou2 ge3 hai6 coi4 liu6, ngo5 bong1 nei5 zou6 zo2 loeng5 leon4 coi3 daan1 caak3 waak6.」 ngo5 waa6 gam1 jat6 sik6 min6 baau1 hou2 laa3, keoi5 man6 min6 baau1 kyut3 fo3 si4 jau4 bin1 go3 tai3 doi6.",
+      "gloss": "我在网上超市订了一包意大利面和一罐肉酱，打算下班煮晚餐。客服通知肉酱缺货，问可不可以换番茄酱，我按了接受；接着意大利面也要替代，页面列出通粉和螺丝粉，叫我选一款。我问同事阿文，他先问我：“你本来想煮什么？”我答意粉。他叫我等所有替代项到齐后再想。他说，那现在只是形状不同，反而要问我想不想连酱汁也改。他把手机一收，叫我先看清楚每个替代项，再决定菜名。等我拿到货，通粉和番茄酱都换了，原来想做的晚餐只剩“意粉”这个大方向。阿文拿起其中一包说：“你买到的是材料，我帮你做了两轮菜单策划。”我说今天吃面包好了，他问面包缺货时由谁替代。",
+      "usageTip": "故事练习：复述网购的两次食材替代怎样令阿文开始替我改菜单，最后模仿他问“面包缺货时由谁替代”的回扣。",
+      "keeper_id": "sentence-bank-long_food_shopping_13-0075",
+      "mechanism_difference": "原果子被當成評審候選的橋段改為網購多項替代後，朋友把菜單策劃變成審批；笑點由選擇連鎖引起，沒有水果擬人、招聘或獎項。",
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_food_shopping_13-0075",
+          "mechanism": "keeper把草莓擬人為員工逐盒評語並用人事錄取回扣；候稿是網購肉醬/意大利粉替代引發朋友改菜名，不涉及水果或職位。"
+        },
+        {
+          "id": "sentence-bank-long_food_shopping_08-0083",
+          "mechanism": "active替換近鄰以薄荷代羅勒後嘗味，笑點是薄荷沙律像刷牙；候稿只在下單階段因兩項替代改菜單，不試味或評食品口感。"
+        }
+      ],
+      "story_han_count": 230,
+      "jyutping_syllable_count": 230,
+      "jyutping_whitespace_token_count": 230,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_fields_sha256": "070b07788534b6bacfcfdf0fd8d65be74c09043d192c3a3b3019be7a2e0d3731"
+    },
+    {
+      "order": 1094,
+      "id": "sentence-bank-long_food_shopping_12-0095",
+      "source_file": "content/sentence_bank/long_food_shopping_12.json",
+      "source_index": 94,
+      "source_category": "水果店買牛油果",
+      "source_freeze_sha256": "cba7ec71c1cd3ae3af834a6b6b61636958f0a43188cda6007b0a0094097e997c",
+      "source_current_sha256": "cba7ec71c1cd3ae3af834a6b6b61636958f0a43188cda6007b0a0094097e997c",
+      "source_hash_match": true,
+      "candidate_status": "CANDIDATE_NOT_PASSED",
+      "sentence": "我放工去水果店買一個牛油果，店員問要唔要袋，我話唔使，拎住就得。埋單時我一手攞手機，一手托住個果；收據一到，我把果放落櫃枱，手機又要收起。掃碼時我拿返個果，店員遞單，我只好用兩隻手指夾住收據。每次換手，果子就在櫃枱滾一小段，我要用手背擋住。後面的人等住埋單，店員又問要唔要袋，我仍然話唔使。我仲話「我拎得穩」，店員把紙袋放喺旁邊等我。我笑住點頭，一邊重新換手。終於付完錢，我一邊拿住果、一邊收手機，拉門時果子滑到手肘邊，店員只好遞個紙袋過嚟。返到公司，同事問我點解買一個水果都要兩隻手。我話：「因為我今日冇帶袋，只好叫兩隻手加班。」",
+      "jyutping": "ngo5 fong3 gung1 heoi3 seoi2 gwo2 dim3 maai5 jat1 go3 ngau4 jau4 gwo2, dim3 jyun4 man6 jiu3 m4 jiu3 doi6, ngo5 waa6 m4 sai2, ling1 zyu6 zau6 dak1. maai4 daan1 si4 ngo5 jat1 sau2 lo2 sau2 gei1, jat1 sau2 tok3 zyu6 go3 gwo2; sau1 geoi3 jat1 dou3, ngo5 baa2 gwo2 fong3 lok6 gwai6 toi2, sau2 gei1 jau6 jiu3 sau1 hei2. sou3 maa5 si4 ngo5 naa4 faan1 go3 gwo2, dim3 jyun4 dai6 daan1, ngo5 zi2 hou2 jung6 loeng5 zek3 sau2 zi2 gaap3 zyu6 sau1 geoi3. mui5 ci3 wun6 sau2, gwo2 zi2 zau6 hai2 gwai6 toi2 gwan2 jat1 siu2 dyun6, ngo5 jiu3 jung6 sau2 bui3 dong2 zyu6. hau6 min6 dik1 jan4 dang2 zyu6 maai4 daan1, dim3 jyun4 jau6 man6 jiu3 m4 jiu3 doi6, ngo5 jing4 jin4 waa6 m4 sai2. ngo5 zung6 waa6 「ngo5 ling1 dak1 wan2」, dim3 jyun4 baa2 zi2 doi6 fong3 hai2 pong4 bin1 dang2 ngo5. ngo5 siu3 zyu6 dim2 tau4, jat1 bin1 cung4 san1 wun6 sau2. zung1 jyu1 fu6 jyun4 cin2, ngo5 jat1 bin1 naa4 zyu6 gwo2, jat1 bin1 sau1 sau2 gei1, laai1 mun4 si4 gwo2 zi2 waat6 dou3 sau2 zau2 bin1, dim3 jyun4 zi2 hou2 dai6 go3 zi2 doi6 gwo3 lai4. faan1 dou3 gung1 si1, tung4 si6 man6 ngo5 dim2 gaai2 maai5 jat1 go3 seoi2 gwo2 dou1 jiu3 loeng5 zek3 sau2. ngo5 waa6: 「jan1 wai6 ngo5 gam1 jat6 mou5 daai3 doi6, zi2 hou2 giu3 loeng5 zek3 sau2 gaa1 baan1.」",
+      "gloss": "我下班去水果店买一个牛油果，店员问要不要袋子，我说不用，拿着就行。结账时我一手拿手机，一手托着果子；收据一到，我把果子放到柜台，手机又要收起来。扫码时我拿回果子，店员递来单据，我只好用两根手指夹着收据。每次换手，果子就在柜台上滚一小段，我要用手背挡住。后面的人等着结账，店员又问要不要袋子，我还是说不用。我还说“我拿得稳”，店员把纸袋放在旁边等我。我笑着点头，一边重新换手。终于付完钱，我一边拿着果子、一边收手机，拉门时果子滑到手肘边，店员只好递来一个纸袋。回到公司，同事问我买一个水果为什么要用两只手。我说：“因为我今天没带袋子，只好叫两只手加班。”",
+      "usageTip": "故事练习：复述我怎样为了不拿袋子，一边结账一边用手轮流拿手机、果子和收据，最后在拉门时还是接过纸袋；模仿“叫两只手加班”的回扣。",
+      "keeper_id": "sentence-bank-long_food_shopping_13-0075",
+      "mechanism_difference": "候稿仍是水果店購買牛油果，但笑點改為拒絕袋子後在櫃檯付款與開門時反覆換手，並非熟度檢查、紙袋記錄或獎項評選；與keeper草莓招聘擬人、辦公室新人名單的機制不同。",
+      "near_neighbors": [
+        {
+          "id": "sentence-bank-long_food_shopping_13-0075",
+          "mechanism": "keeper將草莓擬人為員工，評選及誤認同事名單；本稿是結帳時不取袋導致的手忙腳亂，不涉及食材角色化。"
+        },
+        {
+          "id": "sentence-bank-long_family_finance_services_01-0025",
+          "mechanism": "active 01-0025以破網袋孔洞太大令多個橙掉落，並反覆救袋；本稿只是一個牛油果在櫃檯及手肘旁短暫滾動，源頭是主角拒拿袋後騰手結帳，沒有袋子破損或收集水果。"
+        }
+      ],
+      "story_han_count": 230,
+      "jyutping_syllable_count": 230,
+      "jyutping_whitespace_token_count": 230,
+      "jyutping_cjk_residue": 0,
+      "alignment": true,
+      "candidate_fields_sha256": "f063fb1ade768fc932fad4fe45783e13ce4c4f7d47ed28cef3b95b66b961292b"
+    }
+  ],
+  "validation": {
+    "item_count": 5,
+    "all_source_and_freeze_hashes_match": true,
+    "unique_orders": 5,
+    "unique_source_ids": 5,
+    "all_stories_220_320_han_chars": true,
+    "all_han_jyutping_counts_match": true,
+    "all_jyutping_cjk_free": true,
+    "all_related_ids_active_and_nonself": true,
+    "all_candidate_fields_hashes_recomputed": true,
+    "candidate_fields_sha256_scope": "SHA256 compact sorted-key JSON of {sentence,jyutping,gloss,usageTip}",
+    "all_candidates_not_passed": true,
+    "canonical_source_ledgers_selection_app_checkpoint_modified": false
+  }
+}
