@@ -114,10 +114,6 @@ jobs:
           disable-linux-hw-accel: false
           disk-size: 2G
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none -memory 2048 -accel on -verbose
-          pre-emulator-launch-script: |
-            df -h "$RUNNER_TEMP" "$ANDROID_HOME"
-            "$ANDROID_HOME/emulator/emulator" -version
-            "$ANDROID_HOME/emulator/emulator" -accel-check
           script: python3 tools/smoke_android_upgrade.py "$RUNNER_TEMP"/previous/*.apk release-artifacts/*.apk
 
       - name: Retain verified binaries, never signing files or emulator data
