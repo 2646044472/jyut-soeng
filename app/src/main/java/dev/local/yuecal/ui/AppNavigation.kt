@@ -293,7 +293,7 @@ private fun TodayScreen(
             SessionLaneCard(
                 eyebrow = "句子学习",
                 title = "每天学 ${state.dailySentenceGoal} 句",
-                description = "看粤语原句，亲手输入整句粤拼；答过的句子会进入复习安排。",
+                description = "先学还没读过的精校故事，逐字对照粤拼；点「下一句」会记入学习进度。",
                 stats = "今日已学 ${state.sentencesLearnedToday.coerceAtMost(state.dailySentenceGoal)} / ${state.dailySentenceGoal} 句",
                 cta = if (state.sentencesLearnedToday >= state.dailySentenceGoal) "查看今日进度" else "开始学句子",
                 onClick = onStartSentenceLearn,
@@ -492,7 +492,7 @@ internal fun SentenceLearningScreen(
             Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 Text("句子学习", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                 Text(
-                    "先看粤拼和粤语原句，再按自己的节奏逐句学习；到期句子可以另外复习。",
+                    "新故事先学逐字精校过的；学过的不重排，到期可在这里复习。",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -671,6 +671,9 @@ internal fun SentenceStudyScreen(
                     modifier = Modifier.fillMaxWidth().padding(20.dp),
                     verticalArrangement = Arrangement.spacedBy(12.dp),
                 ) {
+                    if (sentence.isProofreadStory) {
+                        Text("已逐字精校", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                    }
                     Text("粤拼 · 粤语原句", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
                     AlignedSentenceText(sentence.displayText, sentence.answerJyutping)
                     TextButton(onClick = { meaningVisible = !meaningVisible }) {

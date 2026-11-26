@@ -41,6 +41,8 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.SerializationException
 import kotlinx.serialization.Serializable
@@ -205,18 +207,24 @@ class CalibratorRepository @Inject constructor(
         progressDao.dueCountNow(todayEpochDay())
     }
 
+    private val seedLock = Mutex()
+    private var checkedSeedVersion: String? = null
+
     suspend fun ensureBuiltinImported(force: Boolean = false): ImportResult = withContext(ioDispatcher) {
-        val bundleText = context.assets.open("builtin/content.json").bufferedReader().use { it.readText() }
-        val bundle = decodeBundle(bundleText)
-        val currentSettings = settingsStore.snapshot()
-        if (!force && currentSettings.builtInSeedVersion == bundle.version) {
-            ImportResult(sourceLabel = "builtin", version = bundle.version, importedCount = 0)
-        } else {
-            val result = syncManagedBundle(
-                bundle = bundle,
-                defaultSource = "builtin",
-            )
-            settingsStore.setBuiltInSeedVersion(bundle.version)
+        seedLock.withLock {
+            if (!force) checkedSeedVersion?.let { version ->
+                return@withLock ImportResult(sourceLabel = "builtin", version = version, importedCount = 0)
+            }
+            val bundleText = context.assets.open("builtin/content.json").bufferedReader().use { it.readText() }
+            val bundle = decodeBundle(bundleText)
+            val result = if (!force && settingsStore.snapshot().builtInSeedVersion == bundle.version) {
+                ImportResult(sourceLabel = "builtin", version = bundle.version, importedCount = 0)
+            } else {
+                val imported = syncManagedBundle(bundle = bundle, defaultSource = "builtin")
+                settingsStore.setBuiltInSeedVersion(bundle.version)
+                imported
+            }
+            checkedSeedVersion = bundle.version
             result
         }
     }
@@ -298,6 +306,8 @@ class CalibratorRepository @Inject constructor(
         mode: SessionMode,
         entryType: String? = null,
     ): StudySession = withContext(ioDispatcher) {
+        // First launch after an offline upgrade may race the background seed worker.
+        if (entryType == "sentence") ensureBuiltinImported()
         val settings = settingsStore.snapshot()
         val today = todayEpochDay()
         val sentenceDailyProgress = if (entryType == "sentence" && mode == SessionMode.Learn) {
@@ -373,13 +383,15 @@ class CalibratorRepository @Inject constructor(
                 first = wordEntries,
                 second = expressionEntries,
             ) + sentenceEntries
-            SessionMode.Review -> (wordEntries + expressionEntries)
-                .distinctBy { it.id }
-                .shuffled(Random(System.nanoTime()))
+            SessionMode.Review -> (wordEntries + expressionEntries + sentenceEntries).distinctBy { it.id }
         }
-        val randomizedEntries = chosenEntries.shuffled(Random(System.nanoTime()))
+        // Room already ordered unseen sentences by editorial tier, and reviews by due date.
+        // Reshuffling a mixed sentence session would let ordinary cards leapfrog the last
+        // approved ones, or change the SRS order after an upgrade.
+        val sessionEntries = if (entryType == "sentence") chosenEntries
+            else chosenEntries.shuffled(Random(System.nanoTime()))
         val candidatePool = entryDao.getAllEntries()
-        val questions = randomizedEntries.map { entry ->
+        val questions = sessionEntries.map { entry ->
             val currentProgress = progressDao.getProgress(entry.id)?.toDomain()
             val options = if ((currentProgress?.repetitions ?: 0) >= 2) {
                 buildMultipleChoiceOptions(
@@ -404,6 +416,7 @@ class CalibratorRepository @Inject constructor(
                 exampleSentence = entry.exampleSentence,
                 exampleTranslation = entry.exampleTranslation,
                 sourceLabel = entry.sourceLabel,
+                isProofreadStory = entry.entryType == "sentence" && entry.qualityPriority == 1,
             )
         }
         StudySession(

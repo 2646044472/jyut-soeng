@@ -6,6 +6,7 @@ import hashlib
 from datetime import datetime, timezone
 from pathlib import Path
 
+from story_proofread import load_proofreads, MIRROR
 from story_source_index import (
     all_rows_by_current_coordinate,
     active_rows_by_current_coordinate,
@@ -205,7 +206,14 @@ def load_all_entries() -> list[dict]:
     if found_ids != selected_ids:
         missing = sorted(selected_ids - found_ids)
         raise SystemExit(f"Active story IDs missing from source: {missing[:10]}")
-    reviewed_ids = reviewed_sentence_entry_ids()
+    edits = load_proofreads(ROOT, index_map)
+    for entry in entries:
+        if entry["id"] in edits:
+            edit = edits[entry["id"]]
+            entry.update({target: edit[source] for source, target in MIRROR.items()})
+    # Restoring v0.36.3 must still reproduce its original entries byte for byte.
+    # New releases advertise only final, individually approved editorial IDs.
+    reviewed_ids = reviewed_sentence_entry_ids() if source_layout == "full_restored" else set(edits)
     for entry in entries:
         if entry["id"] in reviewed_ids:
             entry["qualityPriority"] = 1
@@ -216,8 +224,14 @@ def main() -> None:
     entries = load_all_entries()
     for index, entry in enumerate(entries, start=1):
         entry["sortOrder"] = index
+    # Do not generate a new seed version merely because CI rebuilds the same commit.
+    if OUTPUT_PATH.exists():
+        existing = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+        if existing.get("entries") == entries:
+            print(f"Verified unchanged bundle: {len(entries)} entries")
+            return
     bundle = {
-        "version": datetime.now(timezone.utc).strftime("%Y.%m.%d.%H%M"),
+        "version": datetime.now(timezone.utc).strftime("%Y.%m.%d.%H%M%S%f"),
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "entries": entries,
     }

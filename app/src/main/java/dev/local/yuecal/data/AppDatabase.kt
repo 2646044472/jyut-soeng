@@ -226,6 +226,8 @@ interface EntryDao {
           AND e.entryType = :entryType
           AND p.entryId IS NULL
         ORDER BY CASE WHEN :entryType = 'sentence' THEN e.qualityPriority ELSE 0 END DESC,
+        CASE WHEN :entryType = 'sentence' THEN e.sortOrder ELSE 0 END ASC,
+        CASE WHEN :entryType = 'sentence' THEN e.id ELSE '' END ASC,
         CASE
             WHEN e.category IN ('正音重点词', '高频回应', '高频连接', '判断表达') THEN 0
             ELSE 1

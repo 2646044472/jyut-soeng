@@ -15,6 +15,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+from story_proofread import load_proofreads
 from story_source_index import (
     all_rows_by_current_coordinate,
     active_rows_by_current_coordinate,
@@ -187,8 +188,9 @@ def audit(show_topics: bool = False) -> tuple[dict, list[str]]:
     missing_app = sorted(active_ids - app_by_id.keys())
     if missing_app:
         errors.append(f"active IDs missing app mirrors: {missing_app[:5]}")
+    edits = load_proofreads(ROOT, source_index)
     for story_id in sorted(active_ids & id_to_source.keys() & app_by_id.keys()):
-        source_row = id_to_source[story_id][2]
+        source_row = edits.get(story_id, id_to_source[story_id][2])
         app_row = app_by_id[story_id]
         for source_field, app_field in MIRROR_FIELDS.items():
             if app_row.get(app_field) != source_row.get(source_field):

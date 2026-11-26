@@ -6,6 +6,8 @@ import json
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
+from story_proofread import load_proofreads, PROOFREAD_LENGTH
+from story_source_index import load_index
 from meaning_rules import is_low_info_gloss
 from meaning_rules import is_fake_example_sentence
 from meaning_rules import is_low_info_usage
@@ -113,6 +115,7 @@ def main(
     bundle = json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
     entries = bundle["entries"]
     selection = json.loads(STORY_SELECTION_PATH.read_text(encoding="utf-8"))
+    proofread_ids = set(load_proofreads(ROOT, load_index()))
     expected_story_ids = set(selection.get("active_ids", []))
     if len(entries) < 250:
         raise SystemExit(f"Expected at least 250 curated entries, found {len(entries)}")
@@ -190,11 +193,12 @@ def main(
             if require_story_upgrade and not story_sentence:
                 raise SystemExit(f"Sentence {entry.get('id')} still awaits its story upgrade")
             if story_sentence:
-                if not MIN_CURATED_SENTENCE_HAN_COUNT <= han_count <= MAX_CURATED_SENTENCE_HAN_COUNT:
+                minimum, maximum = PROOFREAD_LENGTH if entry["id"] in proofread_ids else (MIN_CURATED_SENTENCE_HAN_COUNT, MAX_CURATED_SENTENCE_HAN_COUNT)
+                if han_count < minimum or (maximum is not None and han_count > maximum):
                     raise SystemExit(
                         f"Sentence {entry.get('id')} has an unsupported story length: {han_count} Han characters"
                     )
-                if "「" not in display_text or "」" not in display_text:
+                if entry["id"] not in proofread_ids and ("「" not in display_text or "」" not in display_text):
                     raise SystemExit(f"Sentence {entry.get('id')} needs direct dialogue")
                 if len(HAN_CHARACTER.findall(gloss)) < MIN_CURATED_SENTENCE_GLOSS_HAN_COUNT:
                     raise SystemExit(f"Sentence {entry.get('id')} needs a complete Mandarin story translation")

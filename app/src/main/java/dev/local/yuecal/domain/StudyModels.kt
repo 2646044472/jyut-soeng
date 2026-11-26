@@ -83,6 +83,7 @@ data class StudyQuestion(
     val exampleSentence: String,
     val exampleTranslation: String,
     val sourceLabel: String,
+    val isProofreadStory: Boolean = false,
 )
 
 @Serializable

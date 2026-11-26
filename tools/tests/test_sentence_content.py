@@ -15,6 +15,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools"))
+from story_proofread import load_proofreads, MIRROR, PROOFREAD_LENGTH
 from story_source_index import (
     all_rows_by_current_coordinate,
     active_rows_by_current_coordinate,
@@ -47,14 +48,15 @@ class DailySentenceContentTest(unittest.TestCase):
 
     _jyutping_token = re.compile(r"[a-z]+[1-6]")
 
-    def assert_completed_story(self, row: dict, selected: bool) -> None:
+    def assert_completed_story(self, row: dict, selected: bool, length=(220, 320)) -> None:
         sentence = row["displayText" if selected else "sentence"].strip()
         jyutping = row["answerJyutping" if selected else "jyutping"].strip().lower()
         han_count = len(HAN_CHARACTER.findall(sentence))
-        self.assertGreaterEqual(han_count, 220)
-        self.assertLessEqual(han_count, 320)
-        self.assertIn("「", sentence)
-        self.assertIn("」", sentence)
+        self.assertGreaterEqual(han_count, length[0])
+        if length[1] is not None:   # immutable historical story requirements
+            self.assertLessEqual(han_count, length[1])
+            self.assertIn("「", sentence)
+            self.assertIn("」", sentence)
         self.assertIsNone(re.search(r"[A-Za-z0-9]", sentence))
         self.assertRegex(sentence, r"[。？！][」』”\"]?$")
         self.assertTrue(row.get("usageTip", "").startswith("故事练习："))
@@ -196,10 +198,14 @@ class DailySentenceContentTest(unittest.TestCase):
         self.assertEqual(len(source_ids), 2000)
         self.assertEqual(source_ids, expected_ids)
         self.assertEqual(expected_ids, bundled_independent_ids)
+        edits = load_proofreads(ROOT, index_map)
         for path, index, source in source_rows:
             entry_id = current_map[(path.relative_to(ROOT).as_posix(), index - 1)]["id"]
             with self.subTest(entry_id=entry_id):
                 entry = bundled[entry_id]
+                if entry_id in edits:
+                    source = edits[entry_id]
+                    self.assert_completed_story(source, selected=False, length=PROOFREAD_LENGTH)
                 self.assertEqual(source["sentence"], entry["displayText"])
                 self.assertEqual(source["jyutping"], entry["answerJyutping"])
                 self.assertEqual(source["category"], entry["category"])
@@ -244,7 +250,17 @@ class DailySentenceContentTest(unittest.TestCase):
             baseline_bundle = json.loads(archive.read("snapshot/app/src/main/assets/builtin/content.json"))
 
         current_bundle = json.loads(BUNDLE_PATH.read_text(encoding="utf-8"))
-        self.assertEqual(current_bundle["entries"], baseline_bundle["entries"])
+        # Only confirmed reading fields and today's editorial priority may differ from the frozen release.
+        edits = load_proofreads(ROOT, index_map)
+        expected = [dict(row) for row in baseline_bundle["entries"]]
+        for row in expected:
+            if row["entryType"] == "sentence":
+                row.pop("qualityPriority", None)
+            if row["id"] in edits:
+                row["qualityPriority"] = 1
+                edit = edits[row["id"]]
+                row.update({field: edit[key] for key, field in MIRROR.items()})
+        self.assertEqual(current_bundle["entries"], expected)
         self.assertEqual(len(baseline_bundle["entries"]), manifest["release_app_entry_count"])
         canonical_entries = json.dumps(
             baseline_bundle["entries"], ensure_ascii=False, sort_keys=True, separators=(",", ":")
